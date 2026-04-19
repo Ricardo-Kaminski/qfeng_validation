@@ -57,5 +57,35 @@ def load_scope(path: Path) -> ScopeConfig:
 
 
 def filter_corpus(corpus_dir: Path, scope: ScopeConfig) -> list[Path]:
-    """Stub — implementar no Task 4."""
-    raise NotImplementedError
+    """Retorna arquivos do corpus que satisfazem o escopo definido.
+
+    Usa rglob para capturar subdiretórios e fnmatch para pattern matching.
+
+    Args:
+        corpus_dir: Raiz do corpus (ex: corpora/).
+        scope: Configuração de escopo com regimes e patterns.
+
+    Returns:
+        Lista de Path ordenada, contendo apenas arquivos dentro do escopo.
+    """
+    from fnmatch import fnmatch  # noqa: PLC0415
+
+    _extensions = {".htm", ".html", ".pdf", ".md"}
+    result: list[Path] = []
+
+    for regime in scope.regimes:
+        regime_dir = corpus_dir / regime
+        if not regime_dir.exists():
+            continue
+        patterns = scope.documents.get(regime, [])
+        if not patterns:
+            continue
+        for path in sorted(regime_dir.rglob("*")):
+            if not path.is_file():
+                continue
+            if path.suffix.lower() not in _extensions:
+                continue
+            if any(fnmatch(path.name, pat) for pat in patterns):
+                result.append(path)
+
+    return result
