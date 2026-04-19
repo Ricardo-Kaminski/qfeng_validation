@@ -12,11 +12,12 @@ _PREDICATE_NAME: dict[DeonticModality, str] = {
 
 
 def _normalize(s: str) -> str:
-    raise NotImplementedError
+    """Normalize string to Clingo-safe snake_case atom."""
+    return s.lower().replace("-", "_").replace(" ", "_")
 
 
 def modality_to_predicate_name(modality: DeonticModality) -> str:
-    raise NotImplementedError
+    return _PREDICATE_NAME[modality]
 
 
 def condition_to_clingo(cond: DeonticCondition, idx: int) -> str:
