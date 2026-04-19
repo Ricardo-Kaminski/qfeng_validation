@@ -1,0 +1,262 @@
+[
+  {
+    "id": "3bfda3d798521209",
+    "source": "obermeyer_2019_summary",
+    "regime": "usa",
+    "hierarchy": [
+      "Citação completa"
+    ],
+    "text": "OBERMEYER, Z.; POWERS, B.; VOGELI, C.; MULLAINATHAN, S. Dissecting racial bias in an algorithm used to manage the health of populations. *Science*, v. 366, n. 6464, p. 447-453, 25 out. 2019. DOI: 10.1126/science.aax2342.",
+    "language": "en",
+    "effective_date": null,
+    "cross_references": [],
+    "chunk_type": "obligation"
+  },
+  {
+    "id": "5abd3e16bd0bbb5e",
+    "source": "obermeyer_2019_summary",
+    "regime": "usa",
+    "hierarchy": [
+      "Contexto institucional"
+    ],
+    "text": "- **País:** Estados Unidos - **Programa:** Medicaid + managed care commercial insurance - **Sistema analisado:** Algoritmo proprietário de *health risk scoring* usado por centenas de hospitais e seguradoras para identificar pacientes de alta complexidade elegíveis para programas de gestão de cuidados (care management programs) - **Amostra:** ~50.000 pacientes (n ≈ 48.784) em um grande sistema de saúde acadêmico",
+    "language": "en",
+    "effective_date": null,
+    "cross_references": [],
+    "chunk_type": "obligation"
+  },
+  {
+    "id": "7a4a0d41d0d79c0e",
+    "source": "obermeyer_2019_summary",
+    "regime": "usa",
+    "hierarchy": [
+      "Achados centrais",
+      "Proxy de custo histórico como variável preditora",
+      "1"
+    ],
+    "text": "O algoritmo usava **custo total de saúde (health care cost)** como proxy de **necessidade clínica (health care need)**:",
+    "language": "en",
+    "effective_date": null,
+    "cross_references": [],
+    "chunk_type": "obligation"
+  },
+  {
+    "id": "fa83caa3fda87590",
+    "source": "obermeyer_2019_summary",
+    "regime": "usa",
+    "hierarchy": [
+      "Achados centrais",
+      "Proxy de custo histórico como variável preditora",
+      "2"
+    ],
+    "text": "``` variável_predita: custo_historico_saude proxy_de: necessidade_clinica_real pressuposto_falso: custo_historico ≈ necessidade_clinica ```",
+    "language": "en",
+    "effective_date": null,
+    "cross_references": [],
+    "chunk_type": "obligation"
+  },
+  {
+    "id": "d793ad28a35ef534",
+    "source": "obermeyer_2019_summary",
+    "regime": "usa",
+    "hierarchy": [
+      "Achados centrais",
+      "Viés racial documentado",
+      "1"
+    ],
+    "text": "| Grupo | Score de risco | Comorbidades ativas | |-------|---------------|---------------------| | Branco | X | base | | Negro | X (mesmo score) | ~1,87x mais comorbidades |",
+    "language": "en",
+    "effective_date": null,
+    "cross_references": [],
+    "chunk_type": "obligation"
+  },
+  {
+    "id": "fb4f46e9672957d5",
+    "source": "obermeyer_2019_summary",
+    "regime": "usa",
+    "hierarchy": [
+      "Achados centrais",
+      "Viés racial documentado",
+      "2"
+    ],
+    "text": "**Fator de viés: 1,87x** — pacientes negros com mesmo score tinham quase o dobro de comorbidades ativas em relação a pacientes brancos com o mesmo score.",
+    "language": "en",
+    "effective_date": null,
+    "cross_references": [],
+    "chunk_type": "obligation"
+  },
+  {
+    "id": "c7c1c9a178d63fab",
+    "source": "obermeyer_2019_summary",
+    "regime": "usa",
+    "hierarchy": [
+      "Achados centrais",
+      "Mecanismo causal"
+    ],
+    "text": "``` Pacientes negros → menor acesso histórico a cuidados → menor custo histórico registrado → menor score algorítmico → menos elegibilidade para care management → perpetuação do ciclo de subatenção ```",
+    "language": "en",
+    "effective_date": null,
+    "cross_references": [],
+    "chunk_type": "obligation"
+  },
+  {
+    "id": "7a282421ccfe08ec",
+    "source": "obermeyer_2019_summary",
+    "regime": "usa",
+    "hierarchy": [
+      "Achados centrais",
+      "Impacto quantificado"
+    ],
+    "text": "Correção do viés aumentaria a proporção de pacientes negros em programas de gestão de cuidados em **+26,7 pontos percentuais**.",
+    "language": "en",
+    "effective_date": null,
+    "cross_references": [],
+    "chunk_type": "obligation"
+  },
+  {
+    "id": "ba451726fb0fae8c",
+    "source": "obermeyer_2019_summary",
+    "regime": "usa",
+    "hierarchy": [
+      "Predicados Q-FENG para E3/E5",
+      "Predicado soberano AUSENTE (causa da CONSTITUTIONAL_FAILURE)",
+      "1"
+    ],
+    "text": "```prolog % Predicado que NÃO EXISTIA na especificação do algoritmo: racial_equity_verified(Patient) :- allocation_decision(Patient, _), clinical_need_assessed(Patient, NeedScore), cost_proxy_corrected_for_access(Patient, NeedScore).",
+    "language": "en",
+    "effective_date": null,
+    "cross_references": [],
+    "chunk_type": "obligation"
+  },
+  {
+    "id": "6f8fa101e64e27d8",
+    "source": "obermeyer_2019_summary",
+    "regime": "usa",
+    "hierarchy": [
+      "Predicados Q-FENG para E3/E5",
+      "Predicado soberano AUSENTE (causa da CONSTITUTIONAL_FAILURE)",
+      "2"
+    ],
+    "text": "% Constraint soberano ausente: :- allocation_decision(P, _), not racial_equity_verified(P). ```",
+    "language": "en",
+    "effective_date": null,
+    "cross_references": [],
+    "chunk_type": "obligation"
+  },
+  {
+    "id": "f064ef22b14b5e97",
+    "source": "obermeyer_2019_summary",
+    "regime": "usa",
+    "hierarchy": [
+      "Predicados Q-FENG para E3/E5",
+      "Fatos operacionalizáveis"
+    ],
+    "text": "```prolog proxy_racial(historical_cost). bias_factor(algorithm_obermeyer_2019, 1.87). sample_size(algorithm_obermeyer_2019, 48784). bias_mechanism(historical_cost, access_gap, racial_group(black)). impact_correction(algorithm_obermeyer_2019, plus_26_7_pp_black_enrollment). ```",
+    "language": "en",
+    "effective_date": null,
+    "cross_references": [],
+    "chunk_type": "obligation"
+  },
+  {
+    "id": "520236c76cdf92c2",
+    "source": "obermeyer_2019_summary",
+    "regime": "usa",
+    "hierarchy": [
+      "Predicados Q-FENG para E3/E5",
+      "Cenário de teste E5 — CONSTITUTIONAL_FAILURE",
+      "1"
+    ],
+    "text": "```prolog % Fatos do caso paciente(p001). racial_group(p001, black). historical_cost(p001, low). actual_comorbidities(p001, 4). clinical_need(p001, high).",
+    "language": "en",
+    "effective_date": null,
+    "cross_references": [],
+    "chunk_type": "obligation"
+  },
+  {
+    "id": "d4d93dc6890bccc6",
+    "source": "obermeyer_2019_summary",
+    "regime": "usa",
+    "hierarchy": [
+      "Predicados Q-FENG para E3/E5",
+      "Cenário de teste E5 — CONSTITUTIONAL_FAILURE",
+      "2"
+    ],
+    "text": "% Algoritmo viesado (score baseado em custo histórico) high_risk_score(P) :- historical_cost(P, high). % p001 NAO recebe high_risk_score",
+    "language": "en",
+    "effective_date": null,
+    "cross_references": [],
+    "chunk_type": "obligation"
+  },
+  {
+    "id": "b1fcffcee6060757",
+    "source": "obermeyer_2019_summary",
+    "regime": "usa",
+    "hierarchy": [
+      "Predicados Q-FENG para E3/E5",
+      "Cenário de teste E5 — CONSTITUTIONAL_FAILURE",
+      "3"
+    ],
+    "text": "% racial_equity_verified/1 nao definido -> constraint nunca violado % -> sistema nao pode detectar a injustica -> CONSTITUTIONAL_FAILURE",
+    "language": "en",
+    "effective_date": null,
+    "cross_references": [],
+    "chunk_type": "obligation"
+  },
+  {
+    "id": "6df68ac18813d233",
+    "source": "obermeyer_2019_summary",
+    "regime": "usa",
+    "hierarchy": [
+      "Predicados Q-FENG para E3/E5",
+      "Cenário de teste E5 — CONSTITUTIONAL_FAILURE",
+      "4"
+    ],
+    "text": "#show high_risk_score/1. #show racial_equity_verified/1. ```",
+    "language": "en",
+    "effective_date": null,
+    "cross_references": [],
+    "chunk_type": "obligation"
+  },
+  {
+    "id": "2e8bfb9d5de02c70",
+    "source": "obermeyer_2019_summary",
+    "regime": "usa",
+    "hierarchy": [
+      "Conexão normativa USA"
+    ],
+    "text": "| Norma | Predicado violado | |-------|-----------------| | 14th Amendment (Equal Protection) | equal_protection(p001) ausente | | Civil Rights Act Title VI | no_discrimination_federal_programs | | SSA §1902(a)(19) | care_and_services_best_interests | | 42 CFR 438 | quality_and_access_standards |",
+    "language": "en",
+    "effective_date": null,
+    "cross_references": [
+      "1902(a)(19)"
+    ],
+    "chunk_type": "obligation"
+  },
+  {
+    "id": "011bc9b1693a3e70",
+    "source": "obermeyer_2019_summary",
+    "regime": "usa",
+    "hierarchy": [
+      "Por que CONSTITUTIONAL_FAILURE (não EXECUTION_FAILURE)",
+      "1"
+    ],
+    "text": "- Brasil/Manaus: sinal existia (dados de oxigênio), não foi escalado → EXECUTION_FAILURE - EUA/Obermeyer: sinal de inequidade **não podia existir** na arquitetura → CONSTITUTIONAL_FAILURE",
+    "language": "en",
+    "effective_date": null,
+    "cross_references": [],
+    "chunk_type": "obligation"
+  },
+  {
+    "id": "0e81f4291666a05e",
+    "source": "obermeyer_2019_summary",
+    "regime": "usa",
+    "hierarchy": [
+      "Fonte"
+    ],
+    "text": "- Obermeyer et al. (2019), Science 366(6464):447-453. DOI: 10.1126/science.aax2342 - PDF não incluído (direitos autorais). Resumo contém todos os achados operacionalizáveis. - Dataset sintético de replicação: gitlab.com/labsysmed/dissecting-bias",
+    "language": "en",
+    "effective_date": null,
+    "cross_references": [],
+    "chunk_type": "obligation"
+  }
+]
