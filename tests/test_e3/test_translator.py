@@ -85,3 +85,34 @@ class TestConditionToClingo:
     def test_eq_numeric_value(self) -> None:
         cond = DeonticCondition(variable="count", operator="==", value="5")
         assert condition_to_clingo(cond, 0) == "count(5)"
+
+
+class TestBuildRule:
+    def test_fact_no_conditions(self) -> None:
+        result = build_rule("obligated", "state", "citizen", "provide_healthcare", [])
+        assert result == "obligated(state, citizen, provide_healthcare)."
+
+    def test_rule_with_one_condition(self) -> None:
+        result = build_rule(
+            "permitted", "commission", "none", "adopt_acts",
+            ["use_cases(high_risk_ai_systems)"],
+        )
+        assert result == (
+            "permitted(commission, none, adopt_acts) :-\n"
+            "    use_cases(high_risk_ai_systems)."
+        )
+
+    def test_rule_with_two_conditions(self) -> None:
+        result = build_rule(
+            "obligated", "state", "citizen", "pay",
+            ["income(X_0), X_0 <= 138", "status(eligible)"],
+        )
+        assert result == (
+            "obligated(state, citizen, pay) :-\n"
+            "    income(X_0), X_0 <= 138,\n"
+            "    status(eligible)."
+        )
+
+    def test_patient_none_atom(self) -> None:
+        result = build_rule("permitted", "municipality", "none", "organize_districts", [])
+        assert result == "permitted(municipality, none, organize_districts)."

@@ -54,4 +54,9 @@ def build_rule(
     action: str,
     conditions: list[str],
 ) -> str:
-    raise NotImplementedError
+    """Assemble a complete Clingo rule or ground fact."""
+    head = f"{name}({agent}, {patient}, {action})"
+    if not conditions:
+        return f"{head}."
+    body = ",\n    ".join(conditions)
+    return f"{head} :-\n    {body}."
