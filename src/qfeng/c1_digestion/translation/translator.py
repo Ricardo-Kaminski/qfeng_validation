@@ -4,10 +4,10 @@ from __future__ import annotations
 import clingo
 
 from qfeng.c1_digestion.translation.templates import (
-    _normalize,
     build_rule,
     condition_to_clingo,
     modality_to_predicate_name,
+    sanitize_clingo_id,
 )
 from qfeng.core.schemas import ClingoPredicate, DeonticAtom
 
@@ -25,9 +25,10 @@ def validate_syntax(rule: str) -> bool:
 def atom_to_predicate(atom: DeonticAtom) -> ClingoPredicate:
     """Transform a DeonticAtom into a ClingoPredicate with validated .lp rule."""
     name = modality_to_predicate_name(atom.modality)
-    agent = _normalize(atom.agent)
-    patient = "none" if atom.patient.strip().lower() == "none" else _normalize(atom.patient)
-    action = _normalize(atom.action)
+    # Fix #1: sanitize all string fields for Clingo ASCII compatibility
+    agent = sanitize_clingo_id(atom.agent)
+    patient = "none" if atom.patient.strip().lower() == "none" else sanitize_clingo_id(atom.patient)
+    action = sanitize_clingo_id(atom.action)
 
     clingo_conds = [condition_to_clingo(c, i) for i, c in enumerate(atom.conditions)]
     rule_body = build_rule(name, agent, patient, action, clingo_conds)

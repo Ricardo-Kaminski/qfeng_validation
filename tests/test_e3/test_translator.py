@@ -8,6 +8,7 @@ from qfeng.c1_digestion.translation.templates import (
     build_rule,
     condition_to_clingo,
     modality_to_predicate_name,
+    sanitize_clingo_id,
 )
 from qfeng.c1_digestion.translation.translator import atom_to_predicate, validate_syntax
 from qfeng.core.schemas import (
@@ -229,3 +230,91 @@ class TestAtomToPredicate:
         atom = self._make_atom(chunk_id="mychunk")
         pred = atom_to_predicate(atom)
         assert pred.source_chunk_id == "mychunk"
+
+
+class TestSanitizeCligoId:
+    def test_diacritic_tilde_a(self) -> None:
+        assert sanitize_clingo_id("municípios") == "municipios"
+
+    def test_diacritic_cedilla(self) -> None:
+        assert sanitize_clingo_id("obrigação") == "obrigacao"
+
+    def test_diacritic_acute(self) -> None:
+        assert sanitize_clingo_id("saúde") == "saude"
+
+    def test_pt_br_full_phrase(self) -> None:
+        assert sanitize_clingo_id("prestar serviços de saúde") == "prestar_servicos_de_saude"
+
+    def test_apostrophe_removed(self) -> None:
+        assert sanitize_clingo_id("state's") == "states"
+
+    def test_brackets_removed(self) -> None:
+        result = sanitize_clingo_id("action[0]")
+        assert result == "action0"
+
+    def test_digit_prefix_gets_n(self) -> None:
+        result = sanitize_clingo_id("42abc")
+        assert result[0] == "n"
+        assert not result[0].isdigit()
+
+    def test_truncate_to_60(self) -> None:
+        result = sanitize_clingo_id("a" * 70)
+        assert len(result) <= 60
+
+    def test_empty_returns_unknown(self) -> None:
+        assert sanitize_clingo_id("") == "unknown"
+
+    def test_all_special_chars_returns_unknown(self) -> None:
+        assert sanitize_clingo_id("!!!@@@") == "unknown"
+
+    def test_ascii_passthrough(self) -> None:
+        assert sanitize_clingo_id("state_agency") == "state_agency"
+
+
+class TestConditionToCligoFixes:
+    def test_negation_prefix_generates_not(self) -> None:
+        cond = DeonticCondition(variable="status", operator="==", value="not active")
+        assert condition_to_clingo(cond, 0) == "not status(active)"
+
+    def test_percentage_numeric_extraction_gte(self) -> None:
+        cond = DeonticCondition(variable="coverage", operator=">=", value="80%")
+        assert condition_to_clingo(cond, 0) == "coverage(X_0), X_0 >= 80"
+
+    def test_percentage_fpl_extraction_lte(self) -> None:
+        cond = DeonticCondition(variable="income", operator="<=", value="138%FPL")
+        assert condition_to_clingo(cond, 0) == "income(X_0), X_0 <= 138"
+
+    def test_diacritic_in_variable(self) -> None:
+        cond = DeonticCondition(variable="municípios", operator="==", value="activo")
+        result = condition_to_clingo(cond, 0)
+        assert result == "municipios(activo)"
+
+    def test_diacritic_in_value(self) -> None:
+        cond = DeonticCondition(variable="regime", operator="==", value="prestação")
+        result = condition_to_clingo(cond, 0)
+        assert result == "regime(prestacao)"
+
+
+class TestAtomToPredicateSanitization:
+    def test_diacritic_in_agent(self) -> None:
+        atom = DeonticAtom(
+            id="x1", source_chunk_id="c1",
+            modality=DeonticModality.OBLIGATION,
+            agent="municípios", patient="cidadão", action="provide_health",
+            confidence=0.9,
+        )
+        pred = atom_to_predicate(atom)
+        assert "municipios" in pred.rule
+        assert "cidadao" in pred.rule
+        assert pred.syntax_valid is True
+
+    def test_diacritic_in_action(self) -> None:
+        atom = DeonticAtom(
+            id="x2", source_chunk_id="c2",
+            modality=DeonticModality.PERMISSION,
+            agent="estado", patient="none", action="prestar serviços de saúde",
+            confidence=0.9,
+        )
+        pred = atom_to_predicate(atom)
+        assert "prestar_servicos_de_saude" in pred.rule
+        assert pred.syntax_valid is True
