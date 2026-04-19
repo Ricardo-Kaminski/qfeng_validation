@@ -439,14 +439,18 @@ def main() -> None:
     scope = load_scope(args.scope)
     result = run_e1_batch(args.corpus_dir, args.output_dir, scope)
 
-    print(f"\nE1 concluído: {result.total_chunks} chunks de {result.total_documents} documentos")
-    print(f"Scope: {scope.name}")
+    logger.info(
+        "E1 concluído: %d chunks de %d documentos | scope: %s",
+        result.total_chunks,
+        result.total_documents,
+        scope.name,
+    )
     for regime, count in sorted(result.chunks_per_regime.items()):
-        print(f"  {regime}: {count} chunks")
+        logger.info("  %s: %d chunks", regime, count)
     if result.concurrency_pairs:
-        print(f"  Concorrências: {len(result.concurrency_pairs)} pares")
+        logger.info("  Concorrências: %d pares", len(result.concurrency_pairs))
     if result.warnings:
-        print(f"  Alertas: {len(result.warnings)}")
+        logger.warning("  Alertas: %d", len(result.warnings))
 
 
 if __name__ == "__main__":
