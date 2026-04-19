@@ -42,8 +42,18 @@ class ScopeConfig:
 
 
 def load_scope(path: Path) -> ScopeConfig:
-    """Stub — implementar no Task 3."""
-    raise NotImplementedError
+    """Carrega perfil YAML e instancia ScopeConfig.
+
+    Raises:
+        ValueError: Regime desconhecido ou parâmetro fora do intervalo.
+        TypeError: Campo obrigatório ausente no YAML.
+        FileNotFoundError: Arquivo não encontrado.
+    """
+    import yaml  # noqa: PLC0415
+
+    with path.open(encoding="utf-8") as f:
+        data = yaml.safe_load(f)
+    return ScopeConfig(**data)
 
 
 def filter_corpus(corpus_dir: Path, scope: ScopeConfig) -> list[Path]:

@@ -1,10 +1,12 @@
 """Testes para ScopeConfig e load_scope."""
 
+import textwrap
+from pathlib import Path
 from typing import TypedDict
 
 import pytest
 
-from qfeng.c1_digestion.scope.config import ScopeConfig
+from qfeng.c1_digestion.scope.config import ScopeConfig, load_scope
 
 
 class _ScopeKwargs(TypedDict):
@@ -92,3 +94,64 @@ class TestScopeConfigValidation:
         kwargs["regimes"] = ["brasil", "eu", "usa"]
         scope = ScopeConfig(**kwargs)
         assert len(scope.regimes) == 3
+
+
+class TestLoadScope:
+    def test_load_valid_yaml(self, tmp_path: Path) -> None:
+        yaml_content = textwrap.dedent("""\
+            name: test_scope
+            description: "Scope de teste"
+            regimes: [brasil, eu]
+            documents:
+              brasil:
+                - "lei_8080*"
+              eu:
+                - "eu_ai_act*"
+            chunk_types: [obligation, principle]
+            hierarchy_depth: 3
+            follow_cross_references: false
+            min_chunk_chars: 40
+            strength_filter: null
+        """)
+        yaml_file = tmp_path / "test.yaml"
+        yaml_file.write_text(yaml_content, encoding="utf-8")
+
+        scope = load_scope(yaml_file)
+
+        assert scope.name == "test_scope"
+        assert scope.regimes == ["brasil", "eu"]
+        assert scope.documents["brasil"] == ["lei_8080*"]
+        assert scope.hierarchy_depth == 3
+        assert scope.min_chunk_chars == 40
+        assert scope.strength_filter is None
+        assert scope.follow_cross_references is False
+
+    def test_load_yaml_with_invalid_regime_raises(self, tmp_path: Path) -> None:
+        yaml_content = textwrap.dedent("""\
+            name: bad_scope
+            description: "Scope inválido"
+            regimes: [brasil, marte]
+            documents: {}
+            chunk_types: [obligation]
+            hierarchy_depth: 3
+            follow_cross_references: false
+            min_chunk_chars: 40
+            strength_filter: null
+        """)
+        yaml_file = tmp_path / "bad.yaml"
+        yaml_file.write_text(yaml_content, encoding="utf-8")
+
+        with pytest.raises(ValueError, match="Regimes desconhecidos"):
+            load_scope(yaml_file)
+
+    def test_load_yaml_missing_field_raises_type_error(self, tmp_path: Path) -> None:
+        yaml_content = textwrap.dedent("""\
+            name: incomplete
+            description: "Falta campos"
+            regimes: [brasil]
+        """)
+        yaml_file = tmp_path / "incomplete.yaml"
+        yaml_file.write_text(yaml_content, encoding="utf-8")
+
+        with pytest.raises(TypeError):
+            load_scope(yaml_file)
