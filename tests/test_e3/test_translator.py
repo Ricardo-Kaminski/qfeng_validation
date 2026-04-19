@@ -46,3 +46,42 @@ class TestModalityToPredicateName:
 
     def test_faculty(self) -> None:
         assert modality_to_predicate_name(DeonticModality.FACULTY) == "permitted"
+
+
+class TestConditionToClingo:
+    def test_eq_string_value(self) -> None:
+        cond = DeonticCondition(variable="use_cases", operator="==", value="high_risk_ai_systems")
+        assert condition_to_clingo(cond, 0) == "use_cases(high_risk_ai_systems)"
+
+    def test_eq_string_normalizes_value(self) -> None:
+        cond = DeonticCondition(variable="use_cases", operator="==", value="high-risk_ai_systems")
+        assert condition_to_clingo(cond, 0) == "use_cases(high_risk_ai_systems)"
+
+    def test_gt_numeric(self) -> None:
+        cond = DeonticCondition(variable="inconsistent_submissions", operator=">", value="0")
+        assert condition_to_clingo(cond, 0) == "inconsistent_submissions(X_0), X_0 > 0"
+
+    def test_lt_numeric(self) -> None:
+        cond = DeonticCondition(variable="rate", operator="<", value="80")
+        assert condition_to_clingo(cond, 0) == "rate(X_0), X_0 < 80"
+
+    def test_gte_numeric(self) -> None:
+        cond = DeonticCondition(variable="coverage", operator=">=", value="138")
+        assert condition_to_clingo(cond, 0) == "coverage(X_0), X_0 >= 138"
+
+    def test_lte_numeric(self) -> None:
+        cond = DeonticCondition(variable="bed_ratio", operator="<=", value="2")
+        assert condition_to_clingo(cond, 0) == "bed_ratio(X_0), X_0 <= 2"
+
+    def test_neq_numeric(self) -> None:
+        cond = DeonticCondition(variable="inconsistencies", operator="!=", value="0")
+        assert condition_to_clingo(cond, 0) == "inconsistencies(X_0), X_0 != 0"
+
+    def test_variable_index_increments(self) -> None:
+        cond = DeonticCondition(variable="count", operator=">", value="5")
+        result_idx1 = condition_to_clingo(cond, 1)
+        assert "X_1" in result_idx1
+
+    def test_eq_numeric_value(self) -> None:
+        cond = DeonticCondition(variable="count", operator="==", value="5")
+        assert condition_to_clingo(cond, 0) == "count(5)"

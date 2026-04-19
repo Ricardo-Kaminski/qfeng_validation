@@ -21,7 +21,30 @@ def modality_to_predicate_name(modality: DeonticModality) -> str:
 
 
 def condition_to_clingo(cond: DeonticCondition, idx: int) -> str:
-    raise NotImplementedError
+    """Translate a DeonticCondition to Clingo literal(s).
+
+    For == with string: variable(value)
+    For == with numeric: variable(N)
+    For comparison ops: variable(X_i), X_i op N
+    """
+    var = _normalize(cond.variable)
+    op = cond.operator
+    val = cond.value
+
+    def _is_numeric(v: str) -> bool:
+        try:
+            float(v)
+            return True
+        except ValueError:
+            return False
+
+    if op == "==":
+        if _is_numeric(val):
+            return f"{var}({val})"
+        return f"{var}({_normalize(val)})"
+
+    x = f"X_{idx}"
+    return f"{var}({x}), {x} {op} {val}"
 
 
 def build_rule(
