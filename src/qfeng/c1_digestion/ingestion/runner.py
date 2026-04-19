@@ -13,7 +13,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 from qfeng.c1_digestion.ingestion.parser import parse_document
-from qfeng.c1_digestion.scope.config import ScopeConfig
+from qfeng.c1_digestion.scope.config import ScopeConfig, filter_corpus
 from qfeng.core.schemas import NormativeRegime, NormChunk
 
 logger = logging.getLogger(__name__)
@@ -76,31 +76,37 @@ def _filter_chunks_by_scope(
 def run_e1_batch(
     corpus_dir: Path,
     output_dir: Path,
+    scope: ScopeConfig,
 ) -> E1BatchResult:
-    """Processa todo o corpus e gera outputs JSON + relatório.
-
-    Itera sobre todos os documentos processáveis em ``corpus_dir/``,
-    organizados por regime. Salva chunks por documento e gera
-    ``e1_report.md`` com estatísticas e mapa de concorrências.
+    """Processa o corpus filtrado pelo scope e gera outputs JSON + relatório.
 
     Args:
         corpus_dir: Raiz do diretório ``corpora/``.
         output_dir: Diretório de saída para JSONs e relatório.
+        scope: Configuração de escopo — define quais documentos e chunks processar.
 
     Returns:
         E1BatchResult com estatísticas consolidadas.
     """
     result = E1BatchResult()
-    all_chunks: dict[str, list[NormChunk]] = {}  # regime -> chunks
+    all_chunks: dict[str, list[NormChunk]] = {}
 
-    for regime in NormativeRegime:
-        regime_dir = corpus_dir / regime.value
-        if not regime_dir.exists():
-            logger.warning("Diretório do regime não encontrado: %s", regime_dir)
+    # Descoberta de arquivos filtrada pelo scope
+    scoped_files = filter_corpus(corpus_dir, scope)
+    files_by_regime: dict[str, list[Path]] = {}
+    for path in scoped_files:
+        regime_str = path.relative_to(corpus_dir).parts[0]
+        files_by_regime.setdefault(regime_str, []).append(path)
+
+    for regime_str in scope.regimes:
+        try:
+            regime = NormativeRegime(regime_str)
+        except ValueError:
+            logger.warning("Regime desconhecido no scope ignorado: %s", regime_str)
             continue
 
         regime_chunks: list[NormChunk] = []
-        files = _discover_files(regime_dir)
+        files = files_by_regime.get(regime_str, [])
 
         for file_path in files:
             try:
@@ -111,20 +117,15 @@ def run_e1_batch(
                 result.warnings.append(msg)
                 continue
 
-            # Validar chunks
-            valid_chunks: list[NormChunk] = []
+            # Filtro scope-driven (pós-chunking)
+            valid_chunks = _filter_chunks_by_scope(chunks, scope)
+
+            # Guardar warnings para chunks sem hierarquia (diagnóstico)
             for chunk in chunks:
-                if not chunk.text or len(chunk.text) < 10:
-                    result.warnings.append(
-                        f"Chunk com texto curto (<10 chars): {chunk.id} em {file_path.name}"
-                    )
-                    continue
                 if not chunk.hierarchy:
                     result.warnings.append(
                         f"Chunk sem hierarquia: {chunk.id} em {file_path.name}"
                     )
-                    continue
-                valid_chunks.append(chunk)
 
             # Salvar JSON por documento
             _save_document_chunks(valid_chunks, file_path, regime, output_dir)
@@ -152,7 +153,7 @@ def run_e1_batch(
     concurrency_map = _build_concurrency_map(result.concurrency_pairs)
     _save_json(concurrency_map, output_dir / "concurrency_map.json")
 
-    # Gerar relatório (com lookup de chunks para human labels)
+    # Gerar relatório
     _generate_report(result, output_dir / "e1_report.md", all_chunks)
 
     logger.info(
@@ -405,6 +406,8 @@ def main() -> None:
     """Entry point para execução via ``python -m``."""
     import argparse
 
+    from qfeng.c1_digestion.scope.config import load_scope
+
     logging.basicConfig(
         level=logging.INFO,
         format="%(levelname)s %(name)s: %(message)s",
@@ -425,11 +428,19 @@ def main() -> None:
         default=Path("outputs/e1_chunks"),
         help="Diretório de saída (default: outputs/e1_chunks/)",
     )
+    parser.add_argument(
+        "--scope",
+        type=Path,
+        required=True,
+        help="Caminho para o perfil YAML de escopo (ex: configs/sus_validacao.yaml)",
+    )
     args = parser.parse_args()
 
-    result = run_e1_batch(args.corpus_dir, args.output_dir)
+    scope = load_scope(args.scope)
+    result = run_e1_batch(args.corpus_dir, args.output_dir, scope)
 
     print(f"\nE1 concluído: {result.total_chunks} chunks de {result.total_documents} documentos")
+    print(f"Scope: {scope.name}")
     for regime, count in sorted(result.chunks_per_regime.items()):
         print(f"  {regime}: {count} chunks")
     if result.concurrency_pairs:
