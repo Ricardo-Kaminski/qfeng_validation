@@ -1,0 +1,43 @@
+name: sus_validacao
+description: "Validação Q-FENG — SUS/Medicaid/EU AI Act (MVP)"
+regimes: [brasil, eu, usa]
+documents:
+  brasil:
+    - "CF88*"
+    - "lei_8080*"
+    - "lei_8142*"
+    - "lei_8689*"
+    - "lei_13709*"
+    - "lei_13979*"
+    - "l14802*"
+    - "portaria_consolidacao_2*"
+    - "portaria_consolidacao_5*"
+    - "portaria_1631*"
+    - "portaria_188*"
+    - "portaria_356*"
+    - "portaria_454*"
+    - "portaria_69_2021*"
+    - "portaria_197_2021*"
+    - "portaria_268_2021*"
+    - "portaria_913*"
+    - "pns_2024*"
+    - "ppa_2024*"
+    - "pl_2338*"
+  eu:
+    - "eu_ai_act*"
+    - "gdpr*"
+    - "carta_direitos*"
+  usa:
+    - "14th_amendment*"
+    - "civil_rights*"
+    - "ssa_title_xix*"
+    - "42_cfr*"
+    - "obermeyer_2019*"
+    # TODO: obter para expansão pós-MVP:
+    # - "aca_sec*"      <- ACA §2001-2002 (Medicaid expansion)
+    # - "cms_managed*"  <- CMS Managed Care Final Rule 2024
+chunk_types: [obligation, principle, sanction, definition]
+hierarchy_depth: 3
+follow_cross_references: false
+min_chunk_chars: 40
+strength_filter: null
