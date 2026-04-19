@@ -1,0 +1,14 @@
+name: advocacia_trabalhista
+description: "Q-FENG Paper 2 — Direito do Trabalho + anti-alucinação LLM (Mata v. Avianca)"
+regimes: [brasil_trabalhista]
+documents:
+  brasil_trabalhista:
+    - "CF88_art7*"
+    - "clt_completa*"
+    - "lei_13467*"
+    - "livro_jurisprudencia_tst*"
+chunk_types: [obligation, sanction, definition, principle]
+hierarchy_depth: 3
+follow_cross_references: false
+min_chunk_chars: 40
+strength_filter: null

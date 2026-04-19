@@ -25,7 +25,7 @@ class ScopeConfig:
     strength_filter: list[str] | None
 
     def __post_init__(self) -> None:
-        valid_regimes = {"brasil", "eu", "usa"}
+        valid_regimes = {"brasil", "eu", "usa", "brasil_trabalhista"}
         invalid = set(self.regimes) - valid_regimes
         if invalid:
             raise ValueError(
