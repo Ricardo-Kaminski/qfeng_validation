@@ -3,7 +3,7 @@
 ### Quantum-Fractal Neurosymbolic Governance — Legal Engine
 
 > **Anti-hallucination infrastructure for LLMs operating in normative contexts.**  
-> Built with Claude Code · Brazilian Legal Corpus · dPASP · Quantum Interference Theory
+> Built with Claude Code · Brazilian Legal Corpus · Clingo/dPASP · Quantum Interference Theory
 
 [![Working Paper](https://img.shields.io/badge/SSRN-Working%20Paper-blue)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6433122)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
@@ -76,7 +76,7 @@ Certain predicates — constitutional rights, absolute legal protections — are
 
 ## Legal Corpus
 
-The current validation corpus covers Brazilian federal legislation, formalized as dPASP (differentiable Probabilistic Answer Set Programming) predicates:
+The current validation corpus covers Brazilian federal legislation, formalized as Clingo then dPASP (differentiable Probabilistic Answer Set Programming) predicates:
 
 |Corpus                                              |Status       |Chunks|Coverage           |
 |----------------------------------------------------|-------------|------|-------------------|
@@ -137,7 +137,8 @@ qfeng_validation/
 └── CLAUDE.md                    # Claude Code context
 ```
 
-**Stack:** Python 3.11 · Ollama (Qwen2.5) · dPASP (C4AI/USP) · Claude Code · conda
+**Stack:** Python 3.11 · Ollama (Qwen2.5) · 
+Clingo/ASP (Potassco) — dPASP-ready architecture · Claude Code · conda
 
 -----
 
