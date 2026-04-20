@@ -24,6 +24,11 @@ _PROCESSABLE_EXTENSIONS = {".htm", ".html", ".pdf", ".md"}
 # Arquivos a ignorar (READMEs, manifestos, logs)
 _IGNORE_PATTERNS = {"readme", "manifest", "download_log"}
 
+# Regimes não presentes no enum NormativeRegime mapeados para o valor canônico
+_REGIME_ALIAS: dict[str, str] = {
+    "brasil_trabalhista": "brasil",
+}
+
 # Stopwords para token overlap (PT + EN)
 _STOPWORDS = frozenset({
     "a", "o", "e", "de", "do", "da", "dos", "das", "em", "no", "na",
@@ -99,8 +104,9 @@ def run_e1_batch(
         files_by_regime.setdefault(regime_str, []).append(path)
 
     for regime_str in scope.regimes:
+        canonical = _REGIME_ALIAS.get(regime_str, regime_str)
         try:
-            regime = NormativeRegime(regime_str)
+            regime = NormativeRegime(canonical)
         except ValueError:
             logger.warning("Regime desconhecido no scope ignorado: %s", regime_str)
             continue

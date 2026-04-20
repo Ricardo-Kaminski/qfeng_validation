@@ -1,0 +1,71 @@
+wing: qfeng_validacao
+rooms:
+  - name: core_engine
+    description: "Núcleo matemático do Q-FENG — schemas Pydantic e engine de interferência quântica"
+    paths:
+      - src/qfeng/core/schemas.py
+      - src/qfeng/core/interference.py
+      - src/qfeng/__init__.py
+      - src/qfeng/core/__init__.py
+
+  - name: c1_pipeline
+    description: "Pipeline C1 de digestão normativa — módulos E1→E5 (ingestion, deontic, translation, validation, testing)"
+    paths:
+      - src/qfeng/c1_digestion/
+      - src/qfeng/c1_digestion/__init__.py
+      - src/qfeng/c1_digestion/ingestion/
+      - src/qfeng/c1_digestion/deontic/
+      - src/qfeng/c1_digestion/translation/
+      - src/qfeng/c1_digestion/validation/
+      - src/qfeng/c1_digestion/testing/
+
+  - name: corpora_brasil
+    description: "Corpus normativo brasileiro — CF/88, Lei 8.080, portarias SUS, legislação operacional"
+    paths:
+      - corpora/brasil/constitucional/
+      - corpora/brasil/legislacao/
+      - corpora/brasil/regulamentacao/
+      - corpora/brasil/operacional/
+
+  - name: corpora_eu
+    description: "Corpus normativo europeu — EU AI Act, GDPR, Carta de Direitos Fundamentais, PL 2338/2023"
+    paths:
+      - corpora/eu/regulation/
+      - corpora/eu/standards/
+      - corpora/eu/treaties/
+      - corpora/eu/comparative/
+
+  - name: corpora_usa
+    description: "Corpus normativo norte-americano — Medicaid/SSA Title XIX, CFR 42, Civil Rights Act"
+    paths:
+      - corpora/usa/statutory/
+      - corpora/usa/regulatory/
+      - corpora/usa/constitutional/
+      - corpora/usa/empirical/
+
+  - name: test_suites
+    description: "Suítes de teste pytest — test_core (interference), test_e1→e5 (pipeline stages)"
+    paths:
+      - tests/test_core/
+      - tests/test_e1/
+      - tests/test_e2/
+      - tests/test_e3/
+      - tests/test_e4/
+      - tests/test_e5/
+
+  - name: configuration
+    description: "Configuração do projeto — pyproject.toml, CLAUDE.md (plano de implementação), CORPUS_MANIFEST"
+    paths:
+      - pyproject.toml
+      - CLAUDE.md
+      - README.md
+      - corpora/CORPUS_MANIFEST.md
+      - corpora/download_log.json
+
+  - name: scripts
+    description: "Scripts utilitários — download de corpus, pipeline CLI"
+    paths:
+      - scripts/
+
+  - name: general
+    description: "Arquivos que não se encaixam nas outras salas"

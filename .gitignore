@@ -1,0 +1,47 @@
+# Byte-compiled
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data files (large, downloaded separately)
+data/datasus/
+data/obermeyer/
+data/cms/
+*.csv
+*.parquet
+*.feather
+
+# But keep .gitkeep files
+!**/.gitkeep
+
+# Environment
+.env
+.env.local
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Outputs (regenerable)
+outputs/*.html
+outputs/*.pdf
+outputs/*.docx

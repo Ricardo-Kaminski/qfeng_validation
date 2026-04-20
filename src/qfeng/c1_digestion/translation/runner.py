@@ -24,11 +24,14 @@ class E3BatchResult:
     warnings: list[str] = field(default_factory=list)
 
 
+_REGIME_ALIAS: dict[str, str] = {"brasil_trabalhista": "brasil"}
+
+
 def _build_chunk_lookup(e1_dir: Path, scope: ScopeConfig) -> dict[str, tuple[str, str]]:
     """Return {chunk_id: (regime, source_stem)} from E1 output JSONs."""
     lookup: dict[str, tuple[str, str]] = {}
     for regime in scope.regimes:
-        regime_dir = e1_dir / regime
+        regime_dir = e1_dir / _REGIME_ALIAS.get(regime, regime)
         if not regime_dir.exists():
             continue
         for json_file in sorted(regime_dir.glob("*.json")):
