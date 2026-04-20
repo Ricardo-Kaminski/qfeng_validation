@@ -145,7 +145,7 @@ class OllamaQwenPredictor(PredictorInterface):
         response = requests.post(
             f"{self.endpoint}/api/chat",
             json=payload,
-            timeout=120,
+            timeout=300,
         )
         response.raise_for_status()
 

@@ -211,6 +211,7 @@ class TestGenerateChunkId:
         """ID deve corresponder ao hash SHA-256 manual."""
         source = "Lei 8.080/1990"
         hierarchy = ["Art. 1"]
-        raw = f"{source}:Art. 1"
+        # Format: source:hierarchy_path:text_snippet (text_snippet="" when text omitted)
+        raw = f"{source}:Art. 1:"
         expected = hashlib.sha256(raw.encode("utf-8")).hexdigest()[:16]
         assert generate_chunk_id(source, hierarchy) == expected
