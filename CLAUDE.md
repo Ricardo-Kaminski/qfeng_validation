@@ -247,3 +247,12 @@ InterferenceResult→ C2 output (futuro)
 - Social Sciences UFC é B.Sc., não B.A.
 - UNIBF é B.Sc. AI Sciences (em andamento), NÃO Social Sciences
 - Ricardo NÃO é coautor do relatório OECD 2024 — é MEMBRO do AIHEG
+
+## graphify
+
+This project has a graphify knowledge graph at graphify-out/.
+
+Rules:
+- Before answering architecture or codebase questions, read graphify-out/GRAPH_REPORT.md for god nodes and community structure
+- If graphify-out/wiki/index.md exists, navigate it instead of reading raw files
+- After modifying code files in this session, run `graphify update .` to keep the graph current (AST-only, no API cost)
