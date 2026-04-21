@@ -48,3 +48,22 @@ outputs/*.docx
 
 # Papers and private docs (not for public repo)
 docs/
+
+# Claude Code internal settings
+.claude/
+
+# Raw corpora — reproducible via scripts/download_corpus.py
+corpora/
+
+# Large predictor datasets — reproducible via download scripts
+data/predictors/
+
+# Auto-generated knowledge graph (graphify hook)
+graphify-out/
+
+# LLM pipeline caches — regenerable
+outputs/deontic_cache/
+outputs/deontic_cache_trabalhista/
+
+# E1 chunked pipeline outputs — regenerable
+outputs/e1_chunks/
