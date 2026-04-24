@@ -206,7 +206,7 @@ def run_scenario(scenario_id: str) -> dict:
     src = _load_combined(all_files)
 
     # 1. Full run — get SAT/UNSAT
-    ctl_full = clingo.Control(["--models=0"])
+    ctl_full = clingo.Control(["--models=0", "--seed=1"])
     ctl_full.add("base", [], src)
     ctl_full.ground([("base", [])])
     result_full = ctl_full.solve()
@@ -214,7 +214,7 @@ def run_scenario(scenario_id: str) -> dict:
 
     # 2. Relaxed run — get active atoms even when UNSAT
     src_relaxed = _strip_constraints(src)
-    ctl_relax = clingo.Control(["--models=1"])
+    ctl_relax = clingo.Control(["--models=1", "--seed=1"])
     ctl_relax.add("base", [], src_relaxed)
     ctl_relax.ground([("base", [])])
 
@@ -258,13 +258,13 @@ def run_scenario_with_occupancy(scenario_id: str, occupancy_pct: int) -> dict:
     corpus_src = "\n".join(p.read_text(encoding="utf-8") for p in corpus_paths)
     src = corpus_src + "\n" + facts_src
 
-    ctl_full = clingo.Control(["--models=0"])
+    ctl_full = clingo.Control(["--models=0", "--seed=1"])
     ctl_full.add("base", [], src)
     ctl_full.ground([("base", [])])
     satisfiable = bool(ctl_full.solve().satisfiable)
 
     src_relaxed = _strip_constraints(src)
-    ctl_relax = clingo.Control(["--models=1"])
+    ctl_relax = clingo.Control(["--models=1", "--seed=1"])
     ctl_relax.add("base", [], src_relaxed)
     ctl_relax.ground([("base", [])])
 
