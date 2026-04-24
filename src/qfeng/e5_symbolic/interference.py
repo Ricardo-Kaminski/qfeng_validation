@@ -152,7 +152,7 @@ def compute_born_probability(
 def compute_theta_efetivo(
     theta_series: list[float],
     score_pressao_series: list[float],
-    beta: float = 2.0,
+    beta: float = 3.0,  # production value used by runner.py; default aligned to actual PoC
     gamma: float = 0.0,
     horizon: int = 3,
 ) -> list[float]:
