@@ -2,7 +2,7 @@
 download_sih_manaus_ftp.py
 ==========================
 Download direto dos arquivos SIH/SUS (AM) do FTP DATASUS via ftplib (stdlib).
-Período: out/2020 a mar/2021 — Caso C2 Q-FENG (Crise Oxigênio Manaus)
+Período: jul/2020 a jun/2021 — Caso C2 Q-FENG (Crise Oxigênio Manaus) — 12 meses
 
 Uso:
     python scripts/download_sih_manaus_ftp.py
@@ -23,12 +23,18 @@ FTP_HOST = "ftp.datasus.gov.br"
 FTP_DIR = "/dissemin/publicos/SIHSUS/200801_/Dados"
 
 ARQUIVOS = [
+    "RDAM2007.dbc",  # jul/2020  ← adicionado (refactor 2026-04)
+    "RDAM2008.dbc",  # ago/2020  ← adicionado
+    "RDAM2009.dbc",  # set/2020  ← adicionado
     "RDAM2010.dbc",  # out/2020
     "RDAM2011.dbc",  # nov/2020
     "RDAM2012.dbc",  # dez/2020
     "RDAM2101.dbc",  # jan/2021
     "RDAM2102.dbc",  # fev/2021
     "RDAM2103.dbc",  # mar/2021
+    "RDAM2104.dbc",  # abr/2021  ← adicionado
+    "RDAM2105.dbc",  # mai/2021  ← adicionado
+    "RDAM2106.dbc",  # jun/2021  ← adicionado
 ]
 
 OUTPUT_DIR = Path(__file__).parent.parent / "data" / "predictors" / "manaus_sih" / "raw"

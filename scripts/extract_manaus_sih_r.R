@@ -21,29 +21,42 @@ library(dplyr)
 library(arrow)
 library(readr)
 
-OUTPUT_DIR <- file.path(
-  dirname(dirname(rstudioapi::getSourceEditorContext()$path)),
-  "data", "predictors", "manaus_sih"
-)
-
-# Se não estiver no RStudio, usar path relativo
-if (!exists("OUTPUT_DIR") || is.null(OUTPUT_DIR)) {
-  OUTPUT_DIR <- file.path("..", "data", "predictors", "manaus_sih")
+# Determina raiz do projeto — funciona em RStudio e via Rscript
+if (requireNamespace("rstudioapi", quietly = TRUE) && rstudioapi::isAvailable()) {
+  SCRIPT_DIR <- dirname(rstudioapi::getSourceEditorContext()$path)
+} else {
+  args <- commandArgs(trailingOnly = FALSE)
+  script_arg <- grep("--file=", args, value = TRUE)
+  SCRIPT_DIR <- if (length(script_arg) > 0) {
+    dirname(normalizePath(sub("--file=", "", script_arg), winslash = "/"))
+  } else {
+    getwd()
+  }
 }
+PROJECT_ROOT <- dirname(SCRIPT_DIR)
+OUTPUT_DIR   <- file.path(PROJECT_ROOT, "data", "predictors", "manaus_sih")
 
 dir.create(OUTPUT_DIR, recursive = TRUE, showWarnings = FALSE)
 
 MANAUS_IBGE <- "130260"
 CIDS_INTERESSE <- c("J96", "J18", "U07")
 
-cat("Baixando SIH/SUS AM — out/2020 a mar/2021...\n")
+# Backup do parquet existente antes de sobrescrever
+parquet_dest <- file.path(OUTPUT_DIR, "sih_manaus_2020_2021.parquet")
+if (file.exists(parquet_dest)) {
+  bak <- paste0(parquet_dest, ".bak_pre_refactor")
+  file.copy(parquet_dest, bak, overwrite = TRUE)
+  cat(sprintf("Backup criado: %s\n", bak))
+}
 
-# Baixar dados mês a mês para AM
+cat("Baixando SIH/SUS AM — jul/2020 a jun/2021 (12 meses completos)...\n")
+
+# Baixar dados mês a mês para AM — período completo jul/2020–jun/2021
 dados_brutos <- fetch_datasus(
   year_start  = 2020,
   year_end    = 2021,
-  month_start = 10,
-  month_end   = 3,
+  month_start = 7,
+  month_end   = 6,
   uf          = "AM",
   information_system = "SIH-RD"
 )

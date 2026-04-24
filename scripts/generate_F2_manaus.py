@@ -78,7 +78,6 @@ C_THETA_EFF  = '#1a1a1a'   # near-black — Markovian theta (main signal)
 C_CB_ZONE    = '#f6e8e8'   # light red-brown — CB zone
 C_HITL_ZONE  = '#faf4e6'   # light goldenrod — HITL zone
 C_STAC_ZONE  = '#eaf2f8'   # light blue — STAC zone
-C_OCCUP_LIT  = '#c8dcc8'   # pale green — literature-estimated occupancy
 C_OCCUP_SIH  = '#7fa07f'   # saturated green — SIH/DATASUS occupancy
 C_THRESHOLD  = '#8b2e2e'   # dark red-brown — 120° threshold line
 C_PORTARIA   = '#5a3e8b'   # purple — Portaria 69/2021 marker
@@ -132,12 +131,8 @@ def compose_figure(df: pd.DataFrame) -> plt.Figure:
 
     # ---- Right axis: hospital occupancy bars ----
     ax2 = ax1.twinx()
-    bar_colors = [C_OCCUP_SIH if s == 'sih_datasus' else C_OCCUP_LIT
-                  for s in df['data_source']]
-    bar_edge = ['#4d6a4d' if s == 'sih_datasus' else '#a0b5a0'
-                for s in df['data_source']]
     ax2.bar(x, df['hospital_occupancy_pct'],
-            color=bar_colors, edgecolor=bar_edge, linewidth=0.6,
+            color=C_OCCUP_SIH, edgecolor='#4d6a4d', linewidth=0.6,
             width=0.62, alpha=0.72, zorder=1, label='_nolegend_')
     ax2.set_ylim(0, 170)
     ax2.set_ylabel('Hospital occupancy  (%)', color='#4d6a4d', fontsize=10)
@@ -156,16 +151,11 @@ def compose_figure(df: pd.DataFrame) -> plt.Figure:
              markeredgewidth=1.2, zorder=3,
              label=r'$\theta_t$  (instantaneous)')
 
-    # theta_efetivo markers differentiated by data_source
-    for is_sih, marker, mfc, label in [
-        (True,  's', C_THETA_EFF, r'$\theta_{\mathrm{eff}}$  (SIH/DATASUS)'),
-        (False, 'o', 'white',      r'$\theta_{\mathrm{eff}}$  (literature est.)'),
-    ]:
-        mask = (df['data_source'] == 'sih_datasus') == is_sih
-        ax1.scatter(x[mask], df.loc[mask, 'theta_efetivo'],
-                    marker=marker, s=55, facecolors=mfc,
-                    edgecolors=C_THETA_EFF, linewidths=1.3,
-                    zorder=5, label=label)
+    # theta_efetivo markers — uniform SIH/DATASUS style
+    ax1.scatter(x, df['theta_efetivo'],
+                marker='s', s=55, facecolors=C_THETA_EFF,
+                edgecolors=C_THETA_EFF, linewidths=1.3,
+                zorder=5, label=r'$\theta_{\mathrm{eff}}$  (SIH/DATASUS)')
     ax1.plot(x, df['theta_efetivo'], color=C_THETA_EFF, linewidth=1.8,
              zorder=4, label='_nolegend_')
 
@@ -200,11 +190,12 @@ def compose_figure(df: pd.DataFrame) -> plt.Figure:
         zorder=8,
     )
 
-    # ---- Peak callout (Feb 2021) ----
-    x_peak = int(df[df['competencia'] == '202102'].index[0])
+    # ---- Peak callout (max theta_efetivo month) ----
+    x_peak = int(df['theta_efetivo'].idxmax())
     y_peak = float(df.loc[x_peak, 'theta_efetivo'])
+    peak_label = pd.to_datetime(df.loc[x_peak, 'competencia'], format='%Y%m').strftime('%b %Y')
     ax1.annotate(
-        f"Peak  Feb 2021\n"
+        f"Peak  {peak_label}\n"
         f"θ$_\\mathrm{{eff}}$ = {y_peak:.1f}°",
         xy=(x_peak, y_peak),
         xytext=(x_peak + 1.6, 143),
@@ -243,9 +234,6 @@ def compose_figure(df: pd.DataFrame) -> plt.Figure:
         Line2D([0], [0], color=C_THETA_EFF, lw=1.8, marker='s', markersize=6,
                markerfacecolor=C_THETA_EFF, markeredgecolor=C_THETA_EFF,
                label=r'$\theta_{\mathrm{eff}}$ Markovian  (SIH/DATASUS)'),
-        Line2D([0], [0], color=C_THETA_EFF, lw=1.8, marker='o', markersize=6,
-               markerfacecolor='white', markeredgecolor=C_THETA_EFF,
-               label=r'$\theta_{\mathrm{eff}}$ Markovian  (literature est.)'),
         Line2D([0], [0], color=C_THETA_T, lw=1.3, linestyle=(0, (4, 2)),
                marker='o', markersize=5, markerfacecolor='white',
                markeredgecolor=C_THETA_T,
@@ -254,8 +242,6 @@ def compose_figure(df: pd.DataFrame) -> plt.Figure:
               label='95% bootstrap CI'),
         Patch(facecolor=C_OCCUP_SIH, edgecolor='#4d6a4d', alpha=0.72,
               label='Occupancy — SIH/DATASUS'),
-        Patch(facecolor=C_OCCUP_LIT, edgecolor='#a0b5a0', alpha=0.72,
-              label='Occupancy — literature est.'),
     ]
     fig.legend(handles=legend_elements,
                loc='lower center', bbox_to_anchor=(0.5, 0.02),
@@ -303,10 +289,12 @@ def main() -> None:
 
     # Report the key numerical anchors (self-check against paper Table 3)
     oct_2020 = df[df['competencia'] == '202010'].iloc[0]
-    feb_2021 = df[df['competencia'] == '202102'].iloc[0]
+    peak_idx = df['theta_efetivo'].idxmax()
+    peak_row = df.loc[peak_idx]
+    peak_label = pd.to_datetime(peak_row['competencia'], format='%Y%m').strftime('%b %Y')
     print(f"[F2] CB onset (Oct 2020): theta_eff = {oct_2020['theta_efetivo']:.2f}°, "
           f"alpha = {oct_2020['alpha_t']:.3f}")
-    print(f"[F2] Peak (Feb 2021): theta_eff = {feb_2021['theta_efetivo']:.2f}°")
+    print(f"[F2] Peak ({peak_label}): theta_eff = {peak_row['theta_efetivo']:.2f}°")
 
     print("[F2] Composing figure...")
     fig = compose_figure(df)
