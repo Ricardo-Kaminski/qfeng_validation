@@ -7,9 +7,9 @@
 %   Portaria GM/MS 188/2020 — Declaração de ESPIN
 %   Portaria GM/MS 356/2020 — Regulamentação Lei 13.979
 %   Portaria GM/MS 454/2020 — Transmissão comunitária
-%   Portaria GM/MS 69/2021 — Situação Manaus (jan/2021)
 %   Portaria GM/MS 197/2021 — Renovação ESPIN
-%   Portaria GM/MS 268/2021 — Medidas adicionais Manaus
+%   Portaria GM/MS 79/2021 — Ampliação vagas Mais Médicos para Manaus (18/jan/2021)
+%   Lei 13.979/2020 Art. 10 — Coordenação federativa resposta COVID-19
 %   CF/88 Art. 196 (via sus_direito_saude.lp)
 %
 % Classificação: SOVEREIGN (emergência — aplicabilidade imediata)
@@ -99,10 +99,14 @@ sovereign(espin_renewed_jan2021) :-
 % Átomo plano derivado do wrapper — necessário para regras dependentes (audit C-1)
 espin_renewed_jan2021 :- sovereign(espin_renewed_jan2021).
 
-% --- Portaria 268/2021 — Medidas adicionais ---
-% Determinação de medidas adicionais de resposta
+% --- Portaria GM/MS 79/2021 + Lei 13.979/2020 Art. 10 — Medidas adicionais Manaus ---
+% Portaria 79/2021 (18/jan): ampliação emergencial vagas Mais Médicos para Manaus
+% Art. 10 Lei 13.979/2020: competência federal de coordenação federativa
+% NOTA (audit H-5): Portaria 268/2021 removida — é ato da SE/MS de jun/2021 sobre
+% metas de desempenho de servidores, sem qualquer relação com a crise de Manaus.
 sovereign(obligation_additional_response_measures) :-
-    regulatory_basis("Portaria268_2021"),
+    regulatory_basis("Portaria79_2021"),
+    statutory_basis("Lei13979_Art10"),
     espin_renewed_jan2021.
 
 % --- Predicados de estado operacional para C2 ---

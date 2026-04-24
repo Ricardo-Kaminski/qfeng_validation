@@ -10,7 +10,10 @@ regulatory_basis("Portaria454_2020").
 regulatory_basis("DecretoAM43303_2021").  % Calamidade pública estadual AM (23/jan/2021)
 statutory_basis("Lei8080_1990_Art15_I").  % Competência emergencial saúde pública
 regulatory_basis("Portaria197_2021").
-regulatory_basis("Portaria268_2021").
+regulatory_basis("Portaria79_2021").   % Ampliação vagas Mais Médicos Manaus (18/jan/2021)
+statutory_basis("Lei13979_Art10").     % Coordenação federativa resposta COVID-19
+% Portaria268_2021 REMOVIDA (audit H-5): é Portaria SE/MS de 29/jun/2021 sobre
+% metas de desempenho de servidores — sem relação com crise de Manaus.
 
 % Estado operacional — pico da crise jan/2021
 % NOTA: floats não suportados em Clingo — usar inteiros (percentual)

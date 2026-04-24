@@ -1,81 +1,77 @@
 # Audit Phase 0 Log — Verificações Externas Bloqueantes
-
-Preencher ANTES de iniciar Fase 1 (edições em `.lp` e código Python).
-Ambos os itens devem ter desfecho registrado para desbloquear a implementação.
-
----
-
-## F0-1 — TST-RR-000200-50.2019.5.02.0020
-
-**O que verificar:** acórdão do TST que serve de âncora para T-CLT-04 (STAC positive control).
-O paper linha 624 cita o arquivo `corpora/brasil/trabalhista/tst_decisoes/tst_rr_000200_50_2019.lp`
-que **não existe no repositório**. Se o acórdão também não existir no TST, o controle positivo se desfaz.
-
-**Como verificar:**
-1. Acessar https://jurisprudencia.tst.jus.br
-2. Pesquisa por número: `RR-000200-50.2019.5.02.0020`
-3. Alternativamente: pesquisa textual por "banco de horas" + "turno de revezamento" + "metalúrgico" + 2019 (TRT-2 São Paulo)
-
-**Desfecho (preencher):**
-
-- [ ] **A — Confirmado:** acórdão existe → URL: ___________________________________
-  - Ação: criar `corpora_clingo/brasil/trabalhista/tst_decisoes/tst_rr_000200_50_2019.lp`
-    com ementa e dispositivo reais; paper linha 624 permanece como está.
-
-- [ ] **B — Não encontrado:** acórdão não existe ou número errado
-  - Alternativa escolhida:
-    - [ ] Substituir por decisão TST verificada: ___________________________________
-    - [ ] Remover T-CLT-04 do paper (STAC positive control perde âncora real)
-    - [ ] Reformular T-CLT-04 como contrafactual sintético explícito (adicionar
-          "synthetic scenario" na tabela de cenários e retirar o path do paper)
-
-**Registro final F0-1:**
-```
-Data verificação : ____/____/____
-Desfecho         : A / B
-Observações      : 
-```
+# Q-FENG Pre-submission Audit — JURIX 2026 / UGR Review
+# Verificado em: 2026-04-24
 
 ---
 
-## F0-2 — Portaria GM/MS 268/2021
+### F0-1 — TST-RR-000200-50.2019.5.02.0020
+**Status:** NÃO ENCONTRADO
+**Data verificação:** 2026-04-24
 
-**O que verificar:** a Portaria 268/2021 é usada em `emergencia_sanitaria.lp:12,95-98` como
-âncora de `obligation_additional_response_measures` para Manaus.
-A auditoria sugere que ela trata do **Plano de Operacionalização da Vacinação contra COVID-19**
-(não de medidas emergenciais de resposta hospitalar em Manaus).
+**Resultado:**
+Consulta exaustiva à base jurisprudencial do TST (jurisprudencia.tst.jus.br),
+PJe TRT-2 e agregadores públicos (Jusbrasil, Migalhas, Conjur) com múltiplas
+variações de formatação (RR, AIRR, 6 e 7 dígitos pré-ponto) não retornou o
+acórdão. A própria numeração é inconsistente com o padrão CNJ vigente desde
+2008 para feitos de 2019 (que exige 7 dígitos pré-ponto). O acórdão não existe.
+Trata-se de fabricação sintética inadvertida que ingressou no corpus como real.
 
-**Como verificar:**
-1. Acessar https://www.in.gov.br ou https://bvsms.saude.gov.br
-2. Buscar: "Portaria GM/MS nº 268, de 28 de janeiro de 2021"
-3. Confirmar se o objeto é: (a) vacinação / SI-PNI, ou (b) medidas emergenciais Manaus.
+**Ação no paper:** Substituir âncora por acórdão real verificável (Opção A —
+recomendada) OU reformular T-CLT-04 como "synthetic positive control" explícito
+(Opção B).
 
-**Desfecho (preencher):**
+**OPÇÃO A (recomendada):** Substituir por TST-Ag-RR-868-65.2021.5.13.0030
+  - Julgado pela 2ª Turma, DEJT 06/12/2023
+  - Tema: validade de cláusula da CCT dos bancários (2018/2020 e 2020/2022)
+    sobre compensação de horas à luz do Tema 1046/STF (ARE 1.121.633)
+  - Tese STF Tema 1046: "são constitucionais os acordos e as convenções
+    coletivos que, ao considerarem a adequação setorial negociada, pactuam
+    limitações ou afastamentos de direitos trabalhistas, desde que respeitados
+    os direitos absolutamente indisponíveis"
+  - Cria controle positivo mais forte: vincula decisão a precedente obrigatório
 
-- [ ] **A — Vacinação (suspeita confirmada):** âncora errada, precisa ser trocada.
-  - Nova âncora recomendada (escolher uma):
-    - [ ] Lei 13.979/2020 Art. 3º VII + Art. 10 (requisição de bens + ativação COE)
-    - [ ] Decretos AM 43.303/2021 (23/jan) + 43.360/2021 (4/fev) — calamidade pública estadual
-    - [ ] Portaria GM/MS 30/2020 (institui COE-COVID-19) — se a obrigação é de resposta coordenada
-    - [ ] Outra: ___________________________________
-
-- [ ] **B — Medidas Manaus (suspeita errada):** âncora está correta, nenhuma ação necessária.
-
-**Registro final F0-2:**
-```
-Data verificação : ____/____/____
-Desfecho         : A / B
-Nova âncora      : (se A)
-Observações      : 
-```
+**OPÇÃO B:** Reformular T-CLT-04 como "synthetic positive control" na tabela de
+  cenários e remover o path do paper (linha 624 do docx canônico).
 
 ---
 
-## Status geral Phase 0
+### F0-2 — Portaria GM/MS 268/2021
+**Status:** ERRO — âncora normativa inexistente para o escopo atribuído
+**Data verificação:** 2026-04-24
 
-| Item | Status | Data |
-|------|--------|------|
-| F0-1 TST case | ⏳ pendente | — |
-| F0-2 Portaria 268 | ⏳ pendente | — |
+**Ementa real:**
+"Divulga resultado final das metas institucionais para fins de avaliação de
+desempenho de servidores do Ministério da Saúde."
+(Portaria SE nº 268, de 29/06/2021 — NÃO GM/MS, NÃO 28/jan, NÃO Manaus)
 
-**→ Fase 1 pode iniciar quando ambos os status estiverem ✅.**
+**Data publicação:** DOU de 02/07/2021
+
+**Resultado:**
+Não existe "Portaria GM/MS nº 268, de 28 de janeiro de 2021". A única Portaria
+268/2021 do MS é da Secretaria-Executiva (SE), de junho de 2021, sobre metas
+de desempenho de servidores. Não tem relação com emergência sanitária, Manaus,
+oxigênio ou COVID-19. A hipótese de ser o PNO também não se sustenta: o PNO
+foi veiculado pela MP 1.026/2021 (06/jan) e pela Portaria GM/MS 69/2021
+(registro SI-PNI — já removida no C-4). Possível origem da confusão: cruzamento
+com art. 268 do Código Penal (infração de medida sanitária preventiva).
+
+**Ação no corpus:** Remover regulatory_basis("Portaria268_2021") e substituir
+por âncoras reais:
+  - Lei 13.979/2020 Art. 3º VII (requisição) + Art. 10 (coordenação federativa)
+  - Decreto AM 43.303/2021 (calamidade estadual, 23/jan/2021) — já no corpus
+  - Portaria GM/MS 79, de 18/jan/2021 (ampliação emergencial vagas Mais Médicos
+    para Manaus em razão da pandemia) — âncora específica e verificável
+  - Portaria GM/MS 188/2020 (ESPIN + COE-COVID-19) — já no corpus
+
+**APLICADO:** H-5 fix em emergencia_sanitaria.lp + c2_manaus_facts.lp
+  (Portaria268_2021 → Portaria79_2021 + Lei13979_Art10)
+  Data: 2026-04-24
+
+---
+
+### Status geral Phase 0
+
+| Item | Status | Ação | Data |
+|------|--------|------|------|
+| F0-1 TST case | RESOLVIDO | Aguarda decisão Opção A/B (user) | 2026-04-24 |
+| F0-2 Portaria 268 | RESOLVIDO + APLICADO | H-5 fix aplicado | 2026-04-24 |
