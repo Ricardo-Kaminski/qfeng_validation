@@ -99,15 +99,18 @@ sovereign(espin_renewed_jan2021) :-
 % Átomo plano derivado do wrapper — necessário para regras dependentes (audit C-1)
 espin_renewed_jan2021 :- sovereign(espin_renewed_jan2021).
 
-% --- Portaria GM/MS 79/2021 + Lei 13.979/2020 Art. 10 — Medidas adicionais Manaus ---
+% --- Portaria GM/MS 79/2021 + Lei 13.979/2020 Art. 10 — Força de trabalho médica Manaus ---
 % Portaria 79/2021 (18/jan): ampliação emergencial vagas Mais Médicos para Manaus
-% Art. 10 Lei 13.979/2020: competência federal de coordenação federativa
-% NOTA (audit H-5): Portaria 268/2021 removida — é ato da SE/MS de jun/2021 sobre
-% metas de desempenho de servidores, sem qualquer relação com a crise de Manaus.
-sovereign(obligation_additional_response_measures) :-
+% âncora correta: regulação de FORÇA DE TRABALHO médica emergencial, não medidas genéricas.
+% Art. 10 Lei 13.979/2020: competência federal de coordenação federativa na crise sanitária.
+% (audit LAW-BR-04): predicado renomeado de obligation_additional_response_measures para
+% refletir o escopo real da Portaria 79/2021 e evitar generalização indevida do normativo.
+sovereign(obligation_expand_medical_workforce_manaus_pandemic) :-
     regulatory_basis("Portaria79_2021"),
     statutory_basis("Lei13979_Art10"),
     espin_renewed_jan2021.
+% Átomo plano — padrão audit C-1 para regras dependentes futuras
+obligation_expand_medical_workforce_manaus_pandemic :- sovereign(obligation_expand_medical_workforce_manaus_pandemic).
 
 % --- Predicados de estado operacional para C2 ---
 % Estados do sistema hospitalar Manaus (alimentados pelo predictor TimeSeries)
