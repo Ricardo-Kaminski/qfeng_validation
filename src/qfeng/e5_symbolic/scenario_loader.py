@@ -106,9 +106,10 @@ SCENARIO_REGISTRY: dict[str, dict] = {
         "n_observations": 1,
         "data_source": "real_normative",
         "outcome_description": "Banco de horas 8 meses sem CCT — Súmula TST 85 distorcida",
-        # Requisito soberano (CCT para banco > 6 meses) estruturalmente ausente
-        # da configuração contratual — falha constitucional antes da implantação.
-        "failure_type": "constitutional",
+        # Predicados soberanos existem no corpus (CLT Art. 59 §§2,5 + TST Súmula 85 V),
+        # mas canal de execução (CCT/ACT registrado) estruturalmente ausente da configuração
+        # contratual — execution_absent_channel, não falha constitucional.
+        "failure_type": "execution_absent_channel",
     },
     "T-CLT-03": {
         "corpus": [
