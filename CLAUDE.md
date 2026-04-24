@@ -256,3 +256,45 @@ Rules:
 - Before answering architecture or codebase questions, read graphify-out/GRAPH_REPORT.md for god nodes and community structure
 - If graphify-out/wiki/index.md exists, navigate it instead of reading raw files
 - After modifying code files in this session, run `graphify update .` to keep the graph current (AST-only, no API cost)
+
+---
+
+## Arquivos canônicos — agents: use ONLY these
+
+### Paper 1 (JURIX 2026)
+- **Canônico**: `docs/papers/PAPER1_QFENG_FINAL_prob_dados_clingo_auditfixed.docx`
+- Todos os outros `.docx` e `.md` em `docs/papers/` foram removidos (versões superseded).
+- Para regenerar o `.md` a partir do canônico: `python scripts/extract_docx_to_md.py`
+
+### Paper 2
+- `docs/papers/PAPER2_GOVERNANCE_QFENG.md`
+
+### Scripts ativos (pipeline reproduzível)
+```
+scripts/download_*.py          ← aquisição de corpus e dados
+scripts/extract_*.py           ← extração SIH/DATASUS e docx→md
+scripts/_run_e5*.py            ← execução E5 e validação
+scripts/_fase*.py              ← validação fases 4/6
+scripts/generate_*.py          ← geração de figuras e paper APA7
+scripts/figures/               ← figura F1
+scripts/monitor_e2.py          ← monitoramento E2
+scripts/write_hitl_app.py      ← app HITL
+```
+
+### Scripts NÃO existentes (foram one-off, já removidos)
+- `apply_*.py` — patches já aplicados ao paper e corpus
+- `_inspect_*.py`, `_diagnose_*.py`, `_check_*.py` — diagnósticos de sessão
+- `fix_*.py`, `patch_*.py` — correções pontuais já aplicadas
+
+### Artefatos relevantes
+- `artefatos/briefings/RELATORIO_AUDITORIA_ARS.md` — relatório completo de auditoria pré-submissão
+- `artefatos/briefings/AUDIT_PHASE0_LOG.md` — log de verificações externas (F0-1, F0-2)
+- `artefatos/briefings/BRIEFING_CORPUS_CLINGO_*.md` — documentação técnica do corpus
+
+### Corpus Clingo (fonte da verdade normativa)
+```
+corpora_clingo/brasil/         ← CF/88, SUS, CLT, CPC, Manaus ESPIN
+corpora_clingo/eu/             ← EU AI Act, GDPR
+corpora_clingo/usa/            ← Medicaid/SSA, Civil Rights 14th Amendment
+corpora_clingo/scenarios/      ← facts files por cenário (C2, C7, T-CLT-01..04)
+```
