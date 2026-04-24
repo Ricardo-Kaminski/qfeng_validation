@@ -55,6 +55,8 @@ sovereign(authorization_to_import_without_prior_registration) :-
 sovereign(espin_declaration_active) :-
     regulatory_basis("Portaria188_2020"),
     period_within("2020-02-03", "2022-04-22").
+% Átomo plano derivado do wrapper — necessário para regras dependentes (audit C-1)
+espin_declaration_active :- sovereign(espin_declaration_active).
 
 % --- Portaria 356/2020 — Regulamentação ---
 % Obrigação de notificação imediata de casos suspeitos
@@ -72,22 +74,30 @@ sovereign(obligation_to_adopt_containment_measures) :-
 sovereign(community_transmission_declared_nationwide) :-
     regulatory_basis("Portaria454_2020").
 
-% --- Portaria 69/2021 — Situação Manaus ---
-% Reconhecimento da situação crítica do sistema de saúde em Manaus
+% --- Colapso UTI Manaus — FVS-AM Boletim 16/jan/2021 + Decretos AM ---
+% Situação crítica documentada: FVS-AM Boletim 16/jan/2021 (103.69% UTI pública)
+% Base normativa: Decreto AM 43.303/2021 (23/jan — calamidade pública estadual)
+% NOTA (audit C-4): Portaria GM/MS 69/2021 NÃO se aplica — trata de registro de
+% vacinas no SI-PNI. Âncora correta: Decreto AM 43.303/2021 + hospital_capacity_critical.
 sovereign(critical_health_system_situation_manaus) :-
-    regulatory_basis("Portaria69_2021"),
-    municipality("Manaus").
+    regulatory_basis("DecretoAM43303_2021"),
+    municipality("Manaus"),
+    hospital_capacity_critical.
 
 % Obrigação de reforço imediato de insumos críticos — oxigênio
+% Base: Lei 13.979/2020 Art. 3° VIII (requisição de bens) + Lei 8.080/1990 Art. 15 I
 % PREDICADO CENTRAL DO CENÁRIO C2
 sovereign(obligation_immediate_supply_critical_inputs_oxygen) :-
-    regulatory_basis("Portaria69_2021"),
+    statutory_basis("Lei13979_Art3_VIII"),
+    statutory_basis("Lei8080_1990_Art15_I"),
     sovereign(critical_health_system_situation_manaus),
     input_type("oxygen").
 
 % --- Portaria 197/2021 — Renovação ESPIN ---
 sovereign(espin_renewed_jan2021) :-
     regulatory_basis("Portaria197_2021").
+% Átomo plano derivado do wrapper — necessário para regras dependentes (audit C-1)
+espin_renewed_jan2021 :- sovereign(espin_renewed_jan2021).
 
 % --- Portaria 268/2021 — Medidas adicionais ---
 % Determinação de medidas adicionais de resposta

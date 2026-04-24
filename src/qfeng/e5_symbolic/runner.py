@@ -283,7 +283,7 @@ def run_manaus_bootstrap_ci(manaus_rows: list[dict], n_samples: int = 500) -> li
 
 # ── C2 Manaus time series ─────────────────────────────────────────
 # Calibrated from: SIH/DATASUS competências 202010-202103
-# internacoes/obitos: Secretaria Estadual de Saúde AM + Portaria 69/2021
+# internacoes/obitos: SIH/DATASUS microdata (sih_manaus_2020_2021.parquet)
 # score_pressao: composite (UTI occupancy + O2 stock + mortality rate)
 # Reference: Hallal et al. 2021, Sabino et al. 2021 (Lancet)
 

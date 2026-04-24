@@ -19,7 +19,7 @@ Representation:
   - Marker differentiation: filled squares for SIH/DATASUS months,
                             open circles for literature-estimated months
   - Annotations: CB onset (Oct 2020, alpha=0.909, THREE months before collapse),
-                 peak (Feb 2021, theta_eff=130.9), Portaria 69/2021 (Jan 2021)
+                 peak (Sep 2020, theta_eff=130.91), FVS-AM ICU collapse marker (Jan 2021)
 
 Typography: serif family, consistent with Kaminski (2026a) monograph acervo
            and Figure 3 (Hilbert decision space).
@@ -164,7 +164,7 @@ def compose_figure(df: pd.DataFrame) -> plt.Figure:
     ax1.axvline(x_portaria, color=C_PORTARIA, linewidth=1.0,
                 linestyle=(0, (2, 2)), alpha=0.65, zorder=2)
     ax1.text(x_portaria, 167,
-             'Portaria 69/2021\n(ICU collapse declared)',
+             'FVS-AM Boletim 16/jan\n(ICU collapse: 103.69%)',
              fontsize=8, color=C_PORTARIA, ha='center', va='top',
              fontweight='bold', zorder=6,
              bbox=dict(facecolor='white', edgecolor=C_PORTARIA,
@@ -226,7 +226,7 @@ def compose_figure(df: pd.DataFrame) -> plt.Figure:
     )
     fig.text(0.06, 0.925,
              r'Circuit-Breaker activated in October 2020 — three months before '
-             r'the January 2021 ICU collapse declared by Portaria MS 69/2021.',
+             r'the January 2021 ICU collapse documented by FVS-AM (103.69\% UTI, 16 Jan 2021).',
              fontsize=9.5, ha='left', va='top', style='italic', color='#333333')
 
     # ---- Legend (bottom, single row) ----

@@ -61,6 +61,9 @@ algorithmic_title_vi_violation :-
     racial_disparate_impact_in_risk_score,
     sovereign(prohibition_disparate_impact_in_federal_programs).
 
+% Violação derivada de Title VI via cadeia racial_disparate_impact → UNSAT (audit C-2)
+:- algorithmic_title_vi_violation.
+
 % --- Constraints para cenário C7 ---
 % Sistema não pode usar score algorítmico com disparate impact racial
 % em programa Medicaid federalmente financiado

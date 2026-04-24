@@ -33,9 +33,11 @@ SCENARIO_REGISTRY: dict[str, dict] = {
         "n_observations": 1526,
         "data_source": "real_primary",
         "outcome_description": "Colapso hospitalar Manaus jan/2021 — O2 crítico",
-        # Portaria 69/2021 (obrigação de insumos críticos) existia mas cadeia
-        # institucional de distribuição de O2 não estava constituída como
-        # agenciamento sociotécnico operante — predicado existe, canal ausente.
+        # Obrigacoes de insumos criticos (Lei 8.080/1990 Art. 15; CF/88 Art. 196)
+        # existiam mas a cadeia institucional de distribuicao de O2 nao estava
+        # constituida como agenciamento sociotecnico operante — predicado existe,
+        # canal ausente. (Portaria GM/MS 69/2021 = registro de vacinas; nao usar
+        # como ancora para obrigacao de insumos hospitalares.)
         "failure_type": "execution_absent_channel",
     },
     "C3": {

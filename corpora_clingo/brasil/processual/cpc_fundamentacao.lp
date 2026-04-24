@@ -47,10 +47,11 @@ sovereign(obligation_to_state_practical_consequences_of_decision) :-
     statutory_basis("LINDB_Art20").
 
 % --- Constraints derivados ---
-% Decisão judicial emitida sem fundamentação em precedente identificado viola CF/88 Art. 93 IX
-:- legal_decision_issued(Decision),
-   not decision_grounded_in_identified_precedent(Decision),
-   sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi).
+% CONSTRAINT REMOVIDA (audit C-3): decision_grounded_in_identified_precedent/1 não é
+% definida nem fornecida por nenhum facts-file. Em Clingo closed-world, `not P` com P
+% indefinido é sempre verdadeiro, tornando a constraint espuriamente restritiva e
+% capaz de gerar UNSAT em T-CLT-04 (controle positivo). A falsificabilidade é
+% preservada pela constraint de citação inexistente abaixo.
 
 % Citação de precedente inexistente viola Art. 489 §1°, V (caso Mata v. Avianca)
 :- legal_citation_used(Citation),

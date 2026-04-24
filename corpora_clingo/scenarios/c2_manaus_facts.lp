@@ -5,7 +5,10 @@ statutory_basis("Lei13979_Art3_VIII").
 regulatory_basis("Portaria188_2020").
 regulatory_basis("Portaria356_2020").
 regulatory_basis("Portaria454_2020").
-regulatory_basis("Portaria69_2021").
+% Portaria69_2021 REMOVIDA (audit C-4): trata de registro de vacinas no SI-PNI,
+% NÃO de colapso hospitalar ou obrigação de insumos. Ver manaus_sih_loader.py:24-31.
+regulatory_basis("DecretoAM43303_2021").  % Calamidade pública estadual AM (23/jan/2021)
+statutory_basis("Lei8080_1990_Art15_I").  % Competência emergencial saúde pública
 regulatory_basis("Portaria197_2021").
 regulatory_basis("Portaria268_2021").
 

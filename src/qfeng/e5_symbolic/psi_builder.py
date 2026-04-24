@@ -110,36 +110,36 @@ _SCENARIO_PREDICATE_MAP: dict[str, dict[str, list[tuple[int, float]]]] = {
 
     "C3": {
         # action 0=maintain_current (bad), 1=redistribute, 2=expand
+        # patterns verified against actual active atoms (audit C-5)
         "obligation_to_reduce_regional":        [(0, -6.0), (1, +4.0), (2, +3.0)],
-        "right_to_equal_access":                [(0, -5.0), (1, +3.0), (2, +2.5)],
-        "prohibition_of_discrimination":        [(0, -5.0), (1, +3.0), (2, +2.0)],
-        "dignity_of_human_person":              [(0, -3.0), (1, +2.0), (2, +2.0)],
-        "solidarity_principle":                 [(0, -2.0), (1, +2.0), (2, +2.0)],
+        "universal_equal_access":               [(0, -5.0), (1, +3.0), (2, +2.5)],
+        "equality_of_assistance":               [(0, -5.0), (1, +3.0), (2, +2.0)],
+        "equity_in_health":                     [(0, -3.0), (1, +2.0), (2, +2.0)],
+        "sus_regionalization":                  [(0, -2.0), (1, +2.0), (2, +2.0)],
         "universality":                         [(0, -3.0), (1, +2.0), (2, +2.0)],
-        "right_to_universal_healthcare":        [(0, -3.0), (1, +2.0), (2, +2.0)],
         "right_to_health_as_duty":              [(0, -3.0), (1, +2.0), (2, +1.5)],
     },
 
     "C7": {
         # action 0=deny_access (bad), 1=approve_equal, 2=require_audit
+        # patterns verified against actual active atoms (audit C-5)
+        # 4 active atoms: equal_protection_of_the_laws, prohibition_disparate_impact_in_federal_programs,
+        #                 prohibition_racial_discrimination_federal_programs, prohibition_state_racial_discrimination
         "prohibition_disparate_impact":          [(0, -7.0), (1, +3.0), (2, +5.0)],
-        "equal_protection_under_law":            [(0, -6.0), (1, +4.0), (2, +3.0)],
-        "prohibition_race_based_discrimination": [(0, -7.0), (1, +3.0), (2, +4.0)],
-        "nondiscrimination_obligation":          [(0, -5.0), (1, +3.0), (2, +3.0)],
-        "comparability_of_medicaid_services":    [(0, -4.0), (1, +4.0), (2, +2.0)],
-        "right_to_comparable_services":          [(0, -4.0), (1, +3.0), (2, +2.0)],
+        "equal_protection_of_the":               [(0, -6.0), (1, +4.0), (2, +3.0)],
+        "prohibition_racial_discrimination":     [(0, -7.0), (1, +3.0), (2, +4.0)],
+        "prohibition_state_racial":              [(0, -5.0), (1, +3.0), (2, +3.0)],
     },
 
     "T-CLT-01": {
         # action 0=uphold_phantom (bad), 1=annul_require_grounding
+        # patterns verified against actual active atoms (audit C-5)
         "prohibition_of_generic_precedent":  [(0, -8.0), (1, +5.0)],
         "obligation_to_ground_decision":     [(0, -7.0), (1, +5.0)],
         "obligation_to_address_all_legal":   [(0, -5.0), (1, +4.0)],
         "right_of_access_to_justice":        [(0, -4.0), (1, +3.0)],
-        "due_process_of_law":                [(0, -4.0), (1, +3.0)],
         "obligation_to_state_practical":     [(0, -3.0), (1, +2.0)],
-        "obligation_motivate_judgements":    [(0, -5.0), (1, +4.0)],
-        "dignity_of_human_person":           [(0, -2.0), (1, +2.0)],
+        "obligation_to_state_reasons":       [(0, -5.0), (1, +4.0)],
     },
 
     "T-CLT-02": {
@@ -171,14 +171,13 @@ _SCENARIO_PREDICATE_MAP: dict[str, dict[str, list[tuple[int, float]]]] = {
         # action 0=uphold_grounded_citation (GOOD), 1=annul_grounded_decision
         # Positive control for T-CLT-01: same sovereign predicates, now SUPPORT
         # compliance (citation is real → obligation_to_ground satisfied).
+        # patterns verified against actual active atoms (audit C-5)
         "prohibition_of_generic_precedent":  [(0, +8.0)],
         "obligation_to_ground_decision":     [(0, +7.0)],
         "obligation_to_address_all_legal":   [(0, +5.0)],
         "right_of_access_to_justice":        [(0, +4.0)],
-        "due_process_of_law":                [(0, +4.0)],
         "obligation_to_state_practical":     [(0, +3.0)],
-        "obligation_motivate_judgements":    [(0, +5.0)],
-        "dignity_of_human_person":           [(0, +2.0)],
+        "obligation_to_state_reasons":       [(0, +5.0)],
     },
 }
 
