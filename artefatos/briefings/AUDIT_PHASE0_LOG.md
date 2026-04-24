@@ -69,9 +69,30 @@ por âncoras reais:
 
 ---
 
+---
+
+### F0-1 — Resolução final (Opção A aplicada)
+**Data aplicação:** 2026-04-24
+
+**Substituto:** TST-Ag-RR-868-65.2021.5.13.0030
+- 2ª Turma TST, DEJT 06/12/2023
+- Tema: validade de CCT bancária (2018/2020 e 2020/2022) sobre banco de horas anual
+- Âncora: STF Tema 1046 (ARE 1.121.633) — prevalência do negociado sobre o legislado
+- Base: CLT Art. 59 §2° + Art. 611-A I + CF/88 Art. 7° XXVI
+
+**Arquivos modificados:**
+- NOVO: `corpora_clingo/brasil/trabalhista/tst_decisoes/tst_ag_rr_868_65_2021.lp`
+- ATUALIZADO: `corpora_clingo/scenarios/t_clt_04_facts.lp`
+  (remoção de `TST_RR_000200_50_2019_5_02_0020`, adição de `TST_Ag_RR_868_65_2021_5_13_0030`)
+- ATUALIZADO: `docs/papers/PAPER1_QFENG_FINAL_prob_dados_clingo_auditfixed.docx`
+  (3 scripts aplicados: apply_f01_tst_case_substitution.py + apply_f01_fix_split_runs.py + apply_f01_fix_suffix.py)
+  Post-check: `5.13.0030`=2, `5.02.0020`=0, `Ag-RR-868`=2, `000200`=0 ✓
+
+---
+
 ### Status geral Phase 0
 
 | Item | Status | Ação | Data |
 |------|--------|------|------|
-| F0-1 TST case | RESOLVIDO | Aguarda decisão Opção A/B (user) | 2026-04-24 |
+| F0-1 TST case | RESOLVIDO + APLICADO | Opção A — TST-Ag-RR-868-65.2021.5.13.0030 | 2026-04-24 |
 | F0-2 Portaria 268 | RESOLVIDO + APLICADO | H-5 fix aplicado | 2026-04-24 |
