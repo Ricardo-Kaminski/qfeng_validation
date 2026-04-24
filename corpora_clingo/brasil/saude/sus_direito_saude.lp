@@ -113,8 +113,10 @@ elastic(resource_conjugation_for_health) :-
 
 % --- Constraints derivados ---
 % Nenhum sistema algorítmico pode negar acesso universal
+% Guard Lei8080_Art7_I: scopes constraint to SUS/health-access regime (audit H-6)
 :- decision_output(_, deny_access),
-   sovereign(universality_of_access).
+   sovereign(universality_of_access),
+   statutory_basis("Lei8080_Art7_I").
 
 % Nenhum sistema pode produzir desigualdade regional sistêmica
 :- decision_output(_, regional_allocation),

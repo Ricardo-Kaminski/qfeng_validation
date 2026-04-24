@@ -6,8 +6,9 @@
 %   GDPR (Regulation 2016/679)
 %   Art. 5° — Princípios do tratamento de dados
 %   Art. 9° — Categorias especiais (dados de saúde)
-%   Art. 17° — Direito ao apagamento
 %   Art. 22° — Decisões automatizadas e perfilagem
+% (Art. 17° direito ao apagamento: referenciado no header anterior mas sem
+%  implementação de regra — removido do header; future work para C6 extendido)
 %   Art. 25° — Privacy by design e by default
 %   Art. 35° — Avaliação de impacto (DPIA)
 %

@@ -47,15 +47,17 @@ sovereign(amount_duration_scope_comparability) :-
     regulatory_basis("42CFR_440_240"),
     sovereign(comparability_of_services_across_beneficiaries).
 
-% --- Predicados operacionais para C8 ---
-% Heterogeneidade de acesso por estado
+% --- Predicados operacionais para C8 (PENDENTE — sem cenário ativo) ---
+% audit H-7: state_access_gap_exists e within_state_demographic_gap são
+% cabeças órfãs no PoC atual (nenhum facts file de C8 registrado).
+% Mantidos para ativação futura; não geram UNSAT sem predicados de entrada
+% (state_enrollment_rate/2 e demographic_access_rate/2 nunca derivados aqui).
 state_access_gap_exists :-
     state_enrollment_rate(S1, R1),
     state_enrollment_rate(S2, R2),
     R1 - R2 > 15,
     S1 != S2.
 
-% Acesso diferenciado por demografico dentro de um estado
 within_state_demographic_gap :-
     demographic_access_rate(Demo1, R1),
     demographic_access_rate(Demo2, R2),
