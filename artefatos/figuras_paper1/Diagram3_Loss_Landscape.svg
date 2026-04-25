@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="680" height="520" viewBox="0 0 680 520" xmlns="http://www.w3.org/2000/svg" style="background:white">
+<style>
+  text { font-family: 'Cambria','Times New Roman',serif; }
+  .title { font-size: 11px; font-weight: 600; fill: #1a1a1a; }
+  .label { font-size: 10px; fill: #1a1a1a; }
+  .label-b { font-size: 10px; fill: #1a1a1a; font-weight: 600; }
+  .label-sm { font-size: 9px; fill: #555; }
+  .label-it { font-size: 9px; fill: #555; font-style: italic; }
+  .math { font-family: 'Cambria Math','Cambria',serif; font-size: 10px; fill: #333; font-style: italic; }
+  .math-b { font-family: 'Cambria Math','Cambria',serif; font-size: 10px; fill: #1a1a1a; font-weight: 600; }
+  .caption { font-size: 9px; fill: #444; }
+  .axis { stroke: #1a1a1a; stroke-width: 0.8; fill: none; }
+  .contour { stroke: #888; stroke-width: 0.5; fill: none; }
+  .contour-dark { stroke: #555; stroke-width: 0.7; fill: none; }
+  .ridge { stroke: #1a1a1a; stroke-width: 1.2; fill: none; stroke-dasharray: 8 4; }
+  .traj { stroke: #1a1a1a; stroke-width: 1.6; fill: none; }
+  .traj-dot { fill: #1a1a1a; }
+  .region { fill: #e8e8e8; stroke: #999; stroke-width: 0.6; stroke-dasharray: 4 3; }
+  .region-stac { fill: #d8d8d8; stroke: #555; stroke-width: 0.8; }
+</style>
+<defs>
+  <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+    <path d="M0 1L8 5L0 9Z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="ahg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+    <path d="M0 1L8 5L0 9Z" fill="#555"/>
+  </marker>
+</defs>
+
+<text class="title" x="40" y="20">Figure 3. Conceptual loss landscape of L_Global showing the STAC equilibrium region</text>
+
+<!-- ================================================================ -->
+<!-- ISOMETRIC 3D SURFACE (conceptual, not mathematically precise)     -->
+<!-- Origin at bottom-center, two horizontal axes (w-space), vertical  -->
+<!-- axis = loss value                                                 -->
+<!-- ================================================================ -->
+
+<!-- Axes (isometric projection) -->
+<!-- Vertical axis: Loss -->
+<line x1="340" y1="420" x2="340" y2="60" class="axis" marker-end="url(#ah)"/>
+<text class="math" x="348" y="66">L</text>
+
+<!-- Horizontal axis 1: w_1 (going left-down) -->
+<line x1="340" y1="420" x2="80" y2="440" class="axis" marker-end="url(#ah)"/>
+<text class="math" x="68" y="448">w_1</text>
+
+<!-- Horizontal axis 2: w_2 (going right-down) -->
+<line x1="340" y1="420" x2="600" y2="440" class="axis" marker-end="url(#ah)"/>
+<text class="math" x="604" y="448">w_2</text>
+
+<!-- ================================================================ -->
+<!-- PERFORMANCE LOSS VALLEY (L_Perf) — wide U-shaped depression       -->
+<!-- Rendered as nested contour ellipses in isometric projection       -->
+<!-- ================================================================ -->
+
+<!-- Outermost contour (high loss) -->
+<ellipse cx="260" cy="320" rx="140" ry="60" transform="rotate(-15,260,320)" class="contour"/>
+<!-- Mid contour -->
+<ellipse cx="260" cy="330" rx="100" ry="42" transform="rotate(-15,260,330)" class="contour"/>
+<!-- Inner contour (low loss) -->
+<ellipse cx="260" cy="338" rx="60" ry="26" transform="rotate(-15,260,338)" class="contour-dark"/>
+<!-- Minimum point of L_Perf -->
+<circle cx="260" cy="342" r="3" fill="#888"/>
+
+<!-- Label for performance valley -->
+<text class="label-sm" x="260" y="362" text-anchor="middle">L_Perf minimum</text>
+<text class="label-it" x="260" y="374" text-anchor="middle">(optimal prediction accuracy)</text>
+
+<!-- ================================================================ -->
+<!-- NORMATIVE PENALTY RIDGE — diagonal band where cos(theta) < 0      -->
+<!-- The ridge represents the region where the Quantum Penalty > 0     -->
+<!-- ================================================================ -->
+
+<!-- Ridge band (diagonal across the contour landscape) -->
+<path d="M130 200 C180 240, 260 290, 320 320 C380 350, 460 370, 540 340" class="ridge"/>
+<path d="M150 180 C200 220, 280 270, 340 300 C400 330, 480 350, 560 320" class="ridge"/>
+
+<!-- Hatching between the two ridge lines to show the forbidden band -->
+<line x1="140" y1="190" x2="155" y2="175" stroke="#999" stroke-width="0.3"/>
+<line x1="170" y1="215" x2="185" y2="200" stroke="#999" stroke-width="0.3"/>
+<line x1="200" y1="238" x2="215" y2="222" stroke="#999" stroke-width="0.3"/>
+<line x1="230" y1="258" x2="245" y2="242" stroke="#999" stroke-width="0.3"/>
+<line x1="260" y1="278" x2="275" y2="262" stroke="#999" stroke-width="0.3"/>
+<line x1="290" y1="295" x2="305" y2="280" stroke="#999" stroke-width="0.3"/>
+<line x1="320" y1="310" x2="335" y2="295" stroke="#999" stroke-width="0.3"/>
+<line x1="350" y1="322" x2="365" y2="307" stroke="#999" stroke-width="0.3"/>
+<line x1="380" y1="335" x2="395" y2="320" stroke="#999" stroke-width="0.3"/>
+<line x1="410" y1="345" x2="425" y2="330" stroke="#999" stroke-width="0.3"/>
+<line x1="440" y1="352" x2="455" y2="337" stroke="#999" stroke-width="0.3"/>
+<line x1="470" y1="356" x2="485" y2="341" stroke="#999" stroke-width="0.3"/>
+<line x1="500" y1="355" x2="515" y2="340" stroke="#999" stroke-width="0.3"/>
+
+<!-- Ridge label -->
+<text class="label-b" x="120" y="168">Quantum Penalty ridge</text>
+<text class="label-it" x="120" y="180">lambda . max(0, -cos theta) &gt; 0</text>
+
+<!-- ================================================================ -->
+<!-- STAC EQUILIBRIUM REGION — where both losses are minimized         -->
+<!-- Located where the performance valley is OUTSIDE the penalty ridge -->
+<!-- ================================================================ -->
+
+<ellipse cx="430" cy="280" rx="50" ry="28" class="region-stac"/>
+<text class="label-b" x="430" y="276" text-anchor="middle">STAC</text>
+<text class="label-sm" x="430" y="290" text-anchor="middle">equilibrium</text>
+
+<!-- ================================================================ -->
+<!-- GRADIENT DESCENT TRAJECTORY                                       -->
+<!-- Starting from high-loss region, descending toward L_Perf minimum, -->
+<!-- then deflected by the Quantum Penalty ridge toward STAC region    -->
+<!-- ================================================================ -->
+
+<!-- Starting point (high loss, random init) -->
+<circle cx="180" cy="240" r="4" class="traj-dot"/>
+<text class="label-sm" x="168" y="232">w_0 (init)</text>
+
+<!-- Trajectory: first descends toward performance minimum, then gets -->
+<!-- deflected by the normative ridge and curves toward STAC -->
+<path d="M180 240 C200 260, 220 280, 240 300 C250 310, 260 318, 268 325" class="traj" marker-end="url(#ah)"/>
+
+<!-- Deflection point where trajectory hits the ridge -->
+<circle cx="268" cy="325" r="3" class="traj-dot"/>
+
+<!-- Second segment: deflected away from ridge toward STAC -->
+<path d="M272 322 C300 310, 350 295, 380 285 C400 280, 415 278, 426 278" class="traj" marker-end="url(#ah)"/>
+
+<!-- Final point at STAC -->
+<circle cx="430" cy="278" r="4" fill="#1a1a1a"/>
+
+<!-- Trajectory labels -->
+<text class="label-sm" x="195" y="286">Phase 1:</text>
+<text class="label-it" x="195" y="298">gradient L_Perf</text>
+<text class="label-it" x="195" y="310">descends toward</text>
+<text class="label-it" x="195" y="322">performance min.</text>
+
+<text class="label-sm" x="370" y="260">Phase 2:</text>
+<text class="label-it" x="370" y="272">gradient lambda.max(0,-cos theta)</text>
+<text class="label-it" x="370" y="252">deflects toward STAC</text>
+
+<!-- ================================================================ -->
+<!-- RIGHT SIDE: Equation summary                                      -->
+<!-- ================================================================ -->
+<rect x="460" y="80" width="200" height="88" rx="4" fill="none" stroke="#ccc" stroke-width="0.5"/>
+<text class="math-b" x="470" y="100">L_Global = L_Perf + lambda . QP</text>
+<text class="label-sm" x="470" y="118">where QP = max(0, -cos theta)</text>
+<text class="label-sm" x="470" y="136">Gradient:</text>
+<text class="math" x="470" y="152">dL/dw = dL_Perf/dw + lambda . dQP/dw</text>
+
+<!-- ================================================================ -->
+<!-- LEGEND                                                            -->
+<!-- ================================================================ -->
+<line x1="60" y1="468" x2="100" y2="468" stroke="#888" stroke-width="0.5"/>
+<text class="label-sm" x="108" y="472">Performance contours (L_Perf)</text>
+
+<line x1="260" y1="468" x2="300" y2="468" stroke="#1a1a1a" stroke-width="1.2" stroke-dasharray="8 4"/>
+<text class="label-sm" x="308" y="472">Quantum Penalty ridge (cos theta &lt; 0)</text>
+
+<line x1="60" y1="486" x2="100" y2="486" stroke="#1a1a1a" stroke-width="1.6"/>
+<circle cx="64" cy="486" r="3" fill="#1a1a1a"/>
+<text class="label-sm" x="108" y="490">Gradient descent trajectory</text>
+
+<ellipse cx="280" cy="486" rx="20" ry="10" fill="#d8d8d8" stroke="#555" stroke-width="0.6"/>
+<text class="label-sm" x="308" y="490">STAC equilibrium region</text>
+
+<!-- Caption -->
+<text class="caption" x="340" y="510" text-anchor="middle">Figure 3. Conceptual loss landscape of L_Global in the weight parameter space. The gradient descent trajectory initially follows</text>
+<text class="caption" x="340" y="521" text-anchor="middle">the performance gradient (Phase 1), then is deflected by the Quantum Penalty ridge away from normative violation regions</text>
+<text class="caption" x="340" y="532" text-anchor="middle">(Phase 2), converging toward the STAC equilibrium where both task performance and normative compliance are jointly optimized.</text>
+</svg>

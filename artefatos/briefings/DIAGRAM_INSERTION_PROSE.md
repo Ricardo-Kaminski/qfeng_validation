@@ -78,3 +78,90 @@ and COES activation before the crisis became irreversible. The 3-month governanc
 lead-time quantified in this diagram is the central empirical claim of the time-series
 analysis and the primary justification for the Markovian extension of the interference
 angle formalism.
+
+---
+
+## INS-6 (antes de Diagram 6 — âncora: ultimo paragrafo de §3.5 Failure Typology)
+
+The failure typology formalised above maps onto a geometric structure visualised in
+Diagram 6. Three asymmetric regions partition the normative space according to the
+presence or absence of two independent elements: the sovereign predicate and the
+execution chain. Constitutional failures arise when both sovereign predicate and
+execution chain are absent from the active corpus — a structural gap that cannot be
+resolved by operational intervention alone and requires legislative or constitutional
+remediation. Execution-absent-channel failures occur when the sovereign predicate is
+derivable but no enabling condition instantiates it in the current execution context;
+the governance infrastructure exists normatively but is inoperative at the deployment
+layer. Execution-inertia failures arise when the citation chain is hallucinated or
+misgrounded, collapsing the execution path at the predicate-derivation step regardless
+of the sovereign predicate's presence. The triadic geometry makes the asymmetric causal
+structure of normative violation legible as spatial distance from the sovereign predicate
+axis — a visualisation of the third original contribution of this paper.
+
+---
+
+## INS-7 (antes de Diagram 7 — âncora: primeiro paragrafo de §4, antes de E0)
+
+The computational architecture of the C1 pipeline is illustrated in Diagram 7 as a
+concrete data-flow graph from raw normative input to interference-angle output. Each
+stage produces a typed, Pydantic-validated artefact persisted to Parquet: E0 produces
+a ScopeConfig object parameterising the normative domain; E1 emits NormChunks carrying
+hierarchical provenance metadata; E2 extracts DeonticAtoms via few-shot LLM inference;
+E3 translates atoms deterministically to Clingo predicates via Jinja2 templates; E4
+classifies predicates as SOVEREIGN or ELASTIC through HITL review; and E5 executes
+the Clingo ASP solver to derive SAT/UNSAT status and construct the normative state
+vector ψ_S, from which the interference angle θ is computed. The determinism
+guarantee — critical for reproducibility — is enforced at E3 (template-based
+translation, no LLM stochasticity) and E5 (Clingo --seed=1 fixed). This diagram
+complements Diagram 1, which shows the cybernetic governance cycle at an architectural
+level; Diagram 7 exposes the underlying data engineering that makes that cycle
+computationally executable.
+
+---
+
+## INS-8 (antes de Diagram 8 — âncora: final do paragrafo SOVEREIGN/ELASTIC em §4.4 E4)
+
+The thermodynamic analogy that motivates the SOVEREIGN/ELASTIC classification is
+rendered explicit in Diagram 8. The diagram frames the normative state space as a
+free-energy landscape: sovereign predicates define the ground-state energy minimum —
+the constitutionally mandated configuration that the governance system must attain —
+while elastic predicates constitute the thermal bath of regulatorily calibratable
+parameters whose values can fluctuate within statutory bounds without triggering
+normative violation. The HITL review process, in this metaphor, determines the local
+potential energy of each predicate: a SOVEREIGN classification raises a high-energy
+barrier that the predictor cannot cross without explicit Circuit Breaker activation;
+an ELASTIC classification contributes low-gradient energy, admitting operational
+variation. The neurosymbolic interface — where LLM-extracted DeonticAtoms meet
+Clingo's formal constraint-satisfaction — is the measurement apparatus that collapses
+the superposition of possible sovereignty assignments into a definite, auditable
+classification.
+
+---
+
+## INS-9 (antes de Diagram 9 — âncora: primeiro paragrafo de C3 em §5.2)
+
+The regional concentration pattern that defines scenario C3 is visualised as an equity
+map in Diagram 9. The map encodes the distribution of SUS specialist services across
+Brazilian municipalities plotted against the population distribution, revealing the
+structural mismatch between geographic availability and demographic need: metropolitan
+regions — São Paulo, Rio de Janeiro, Belo Horizonte, Manaus — accumulate the majority
+of high-complexity services (oncology, cardiac surgery, advanced imaging) while the 46%
+of Brazilians residing in municipalities with fewer than 50,000 inhabitants are served
+predominantly by primary-care units. The dual constitutional grounding of this violation
+is reflected in the map's dual annotation layer: the CF/88 Art. 196 layer marks the
+universal access gap, measuring the distance between available specialist capacity and
+the constitutionally mandated universal and equal access standard; the Art. 198 III
+layer identifies the SUS regionalisation deficit, quantifying the failure to distribute
+services according to epidemiological need rather than administrative convenience. The
+spatial representation makes the magnitude of the 25.16% governance suppression
+intuitively legible as geographic distance from constitutional compliance.
+
+---
+
+## INS-10 (antes de Diagram 10 — nota: esta eh Diagram 5 atual ja inserida, apenas referencia)
+
+[Esta entrada eh reservada para consistencia numerica. Diagram 10 (Manaus Timeline) nao
+requer novo paragrafo de prosa pois ja possui conexao escrita como INS-5. A renumeracao
+5 -> 10 eh aplicada pelo script de insercao nos textos existentes.]
+
+---

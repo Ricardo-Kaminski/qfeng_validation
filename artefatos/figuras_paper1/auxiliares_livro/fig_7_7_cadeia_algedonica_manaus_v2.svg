@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 1450" width="1700" height="1450" font-family="Inter,Arial,sans-serif">
+<defs>
+  <radialGradient id="cg" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#0A6B56"/>
+    <stop offset="100%" stop-color="#085041"/>
+  </radialGradient>
+  <filter id="sh" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+    <feOffset dx="0" dy="2"/>
+    <feComponentTransfer><feFuncA type="linear" slope="0.15"/></feComponentTransfer>
+    <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect width="1700" height="1450" fill="#FFFFFF"/>
+<text x="50" y="56" font-size="36" font-weight="700" fill="#1A1A1A">Cadeia algédônica do Q-FENG</text>
+<text x="50" y="90" font-size="22" fill="#4A4A4A">Manaus &#8212; dezembro de 2020 &#8212; subsidiariedade institucional</text>
+<line x1="50" y1="106" x2="440" y2="106" stroke="#085041" stroke-width="3" opacity="0.9"/>
+<circle cx="760" cy="590" r="290" fill="none" stroke="#085041" stroke-width="1" opacity="0.22"/>
+<circle cx="760" cy="590" r="480" fill="none" stroke="#D4D4D0" stroke-width="1" stroke-dasharray="4,8" opacity="0.5"/>
+<text x="1062" y="596" font-size="14" font-weight="600" fill="#085041" letter-spacing="1" opacity="0.8">CADEIA PRIMÁRIA</text>
+<text x="1062" y="614" font-size="13" font-style="italic" fill="#4A4A4A" opacity="0.75">intra-institucional</text>
+<text x="1250" y="596" font-size="14" font-weight="600" fill="#4A4A4A" letter-spacing="0.5" opacity="0.75">ESCALONAMENTO SUBSIDIÁRIO</text>
+<text x="1250" y="614" font-size="13" font-style="italic" fill="#4A4A4A" opacity="0.7">condicional &#8212; externo</text>
+<line x1="636.2" y1="550.4" x2="485" y2="502" stroke="#0C447C" stroke-width="2.5" opacity="0.75"  stroke-linecap="round"/>
+<line x1="688.8" y1="481.2" x2="595" y2="338" stroke="#0C447C" stroke-width="2.5" opacity="0.75"  stroke-linecap="round"/>
+<line x1="775.4" y1="460.9" x2="795" y2="296" stroke="#0C447C" stroke-width="2.5" opacity="0.75"  stroke-linecap="round"/>
+<line x1="837.4" y1="485.5" x2="963" y2="316" stroke="#2E7D3A" stroke-width="2.5" opacity="0.75"  stroke-linecap="round"/>
+<line x1="876.0" y1="531.3" x2="1025" y2="456" stroke="#2E7D3A" stroke-width="2.5" opacity="0.75"  stroke-linecap="round"/>
+<line x1="814.7" y1="707.9" x2="1004" y2="912" stroke="#D4881A" stroke-width="2" opacity="0.28" stroke-linecap="round"/>
+<line x1="1004" y1="912" x2="1004" y2="1116" stroke="#D4881A" stroke-width="2" opacity="0.65" stroke-dasharray="6,5" stroke-linecap="round"/>
+<circle cx="1004" cy="912" r="12" fill="#FFFFFF" stroke="#D4881A" stroke-width="1.5"/>
+<text x="1004" y="917" text-anchor="middle" font-size="14" font-weight="700" fill="#D4881A">?</text>
+<line x1="706.0" y1="708.3" x2="520" y2="912" stroke="#E85C3F" stroke-width="2" opacity="0.28" stroke-linecap="round"/>
+<line x1="520" y1="912" x2="520" y2="1116" stroke="#E85C3F" stroke-width="2" opacity="0.65" stroke-dasharray="6,5" stroke-linecap="round"/>
+<circle cx="520" cy="912" r="12" fill="#FFFFFF" stroke="#E85C3F" stroke-width="1.5"/>
+<text x="520" y="917" text-anchor="middle" font-size="14" font-weight="700" fill="#E85C3F">?</text>
+<circle cx="760" cy="590" r="130" fill="url(#cg)" stroke="#0A6B56" stroke-width="3" filter="url(#sh)"/>
+<text x="760" y="514" text-anchor="middle" font-size="16" font-weight="600" fill="#CFE8DE" letter-spacing="1.5">NÍVEL MESO &#8212; S3*</text>
+<text x="760" y="544" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">Quantum Interference</text>
+<text x="760" y="566" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">Monitor</text>
+<line x1="680" y1="580" x2="840" y2="580" stroke="#CFE8DE" stroke-width="1" opacity="0.45"/>
+<text x="760" y="614" text-anchor="middle" font-size="32" font-weight="700" fill="#FFFFFF">&#952;_Norte &#8776; 157&#176;</text>
+<text x="760" y="640" text-anchor="middle" font-size="17" fill="#CFE8DE" letter-spacing="0.5">interferência destrutiva severa</text>
+<text x="760" y="660" text-anchor="middle" font-size="15" fill="#CFE8DE" font-style="italic" opacity="0.85">colapso predito vs acesso prescrito</text>
+<circle cx="760" cy="590" r="140" fill="none" stroke="#0A6B56" stroke-width="1.5" opacity="0.2"/>
+<rect x="370" y="446" width="230" height="112" rx="8" fill="#FFFFFF" stroke="#0C447C" stroke-width="2.2"/>
+<rect x="370" y="446" width="6" height="112" rx="3" fill="#0C447C"/>
+<text x="485" y="482" text-anchor="middle" font-size="22" font-weight="700" fill="#1A1A1A">SVS</text>
+<text x="485" y="508" text-anchor="middle" font-size="16" font-style="italic" fill="#4A4A4A">Vigilância em Saúde</text>
+<text x="485" y="528" text-anchor="middle" font-size="16" font-style="italic" fill="#4A4A4A">leitura epidemiológica</text>
+<rect x="480" y="282" width="230" height="112" rx="8" fill="#FFFFFF" stroke="#0C447C" stroke-width="2.2"/>
+<rect x="480" y="282" width="6" height="112" rx="3" fill="#0C447C"/>
+<text x="595" y="318" text-anchor="middle" font-size="22" font-weight="700" fill="#1A1A1A">SAES</text>
+<text x="595" y="344" text-anchor="middle" font-size="16" font-style="italic" fill="#4A4A4A">Atenção Especializada</text>
+<text x="595" y="364" text-anchor="middle" font-size="16" font-style="italic" fill="#4A4A4A">logística federal</text>
+<rect x="670" y="240" width="250" height="112" rx="8" fill="#FFFFFF" stroke="#0C447C" stroke-width="2.2"/>
+<rect x="670" y="240" width="6" height="112" rx="3" fill="#0C447C"/>
+<text x="795" y="276" text-anchor="middle" font-size="22" font-weight="700" fill="#1A1A1A">Gabinete do Ministro</text>
+<text x="795" y="302" text-anchor="middle" font-size="16" font-style="italic" fill="#4A4A4A">decisão de mobilização</text>
+<text x="795" y="322" text-anchor="middle" font-size="16" font-style="italic" fill="#4A4A4A">federal</text>
+<rect x="848" y="260" width="230" height="112" rx="8" fill="#FFFFFF" stroke="#2E7D3A" stroke-width="2.2"/>
+<rect x="848" y="260" width="6" height="112" rx="3" fill="#2E7D3A"/>
+<text x="963" y="296" text-anchor="middle" font-size="22" font-weight="700" fill="#1A1A1A">Fiocruz</text>
+<text x="963" y="322" text-anchor="middle" font-size="16" font-style="italic" fill="#4A4A4A">referência científica</text>
+<text x="963" y="342" text-anchor="middle" font-size="16" font-style="italic" fill="#4A4A4A">em crises</text>
+<rect x="910" y="400" width="230" height="112" rx="8" fill="#FFFFFF" stroke="#2E7D3A" stroke-width="2.2"/>
+<rect x="910" y="400" width="6" height="112" rx="3" fill="#2E7D3A"/>
+<text x="1025" y="436" text-anchor="middle" font-size="22" font-weight="700" fill="#1A1A1A">CONASS</text>
+<text x="1025" y="462" text-anchor="middle" font-size="16" font-style="italic" fill="#4A4A4A">articulação</text>
+<text x="1025" y="482" text-anchor="middle" font-size="16" font-style="italic" fill="#4A4A4A">inter-estadual</text>
+<rect x="875" y="1060" width="258" height="112" rx="8" fill="#FFFFFF" stroke="#D4881A" stroke-width="1.8" stroke-dasharray="5,4"/>
+<rect x="875" y="1060" width="6" height="112" rx="3" fill="#D4881A" opacity="0.75"/>
+<text x="1004" y="1078" text-anchor="middle" font-size="13" font-weight="700" fill="#D4881A" letter-spacing="1">CONDICIONAL</text>
+<text x="1004" y="1104" text-anchor="middle" font-size="20" font-weight="700" fill="#1A1A1A">Casa Civil da Presidência</text>
+<text x="1004" y="1128" text-anchor="middle" font-size="16" font-style="italic" fill="#4A4A4A">coordenação federativa</text>
+<text x="1004" y="1148" text-anchor="middle" font-size="16" font-style="italic" fill="#4A4A4A">de crise</text>
+<rect x="400" y="1060" width="240" height="112" rx="8" fill="#FFFFFF" stroke="#E85C3F" stroke-width="1.8" stroke-dasharray="5,4"/>
+<rect x="400" y="1060" width="6" height="112" rx="3" fill="#E85C3F" opacity="0.75"/>
+<text x="520" y="1078" text-anchor="middle" font-size="13" font-weight="700" fill="#E85C3F" letter-spacing="1">CONDICIONAL</text>
+<text x="520" y="1104" text-anchor="middle" font-size="20" font-weight="700" fill="#1A1A1A">MPF — 4ª CCR</text>
+<text x="520" y="1128" text-anchor="middle" font-size="16" font-style="italic" fill="#4A4A4A">notificação por omissão</text>
+<text x="520" y="1148" text-anchor="middle" font-size="16" font-style="italic" fill="#4A4A4A">em saúde</text>
+<rect x="1215" y="148" width="460" height="880" rx="10" fill="#FFFFFF" stroke="#085041" stroke-width="2.5" filter="url(#sh)"/>
+<rect x="1215" y="148" width="460" height="62" rx="10" fill="#085041"/>
+<rect x="1215" y="196" width="460" height="14" fill="#085041"/>
+<text x="1445" y="178" text-anchor="middle" font-size="15" font-weight="600" fill="#CFE8DE" letter-spacing="1.5">RELATÓRIO XAI ESTRUTURADO</text>
+<text x="1445" y="200" text-anchor="middle" font-size="17" font-weight="700" fill="#FFFFFF">emitido pelo QIM Meso</text>
+<text x="1235" y="230" font-size="14" font-weight="700" fill="#085041" letter-spacing="1.2">ANTAGONISMO DIAGNOSTICADO</text>
+<rect x="1235" y="240" width="420" height="122" rx="4" fill="#FDF3EE" stroke="#E85C3F" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="1247" y="268" font-size="16" font-weight="600" fill="#1A1A1A">estado predito pela rede neural:</text>
+<text x="1247" y="292" font-size="18" fill="#E85C3F" font-style="italic" font-weight="600">trajetória de colapso iminente</text>
+<text x="1247" y="318" font-size="16" font-weight="600" fill="#1A1A1A">estado prescrito pela norma:</text>
+<text x="1247" y="342" font-size="18" fill="#0C447C" font-style="italic" font-weight="600">acesso universal garantido</text>
+<text x="1235" y="382" font-size="14" font-weight="700" fill="#085041" letter-spacing="1.2">PREDICADO SOBERANO VIOLADO</text>
+<rect x="1235" y="392" width="420" height="136" rx="4" fill="#F0F7F4" stroke="#085041" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="1247" y="426" font-size="17" font-weight="600" fill="#1A1A1A" font-family="Consolas,'Courier New',monospace">direito_saude</text>
+<text x="1247" y="460" font-size="17" font-weight="600" fill="#1A1A1A" font-family="Consolas,'Courier New',monospace">atencao_prioritaria_vulneraveis</text>
+<text x="1247" y="494" font-size="17" font-weight="600" fill="#1A1A1A" font-family="Consolas,'Courier New',monospace">universalidade_acesso</text>
+<text x="1247" y="516" font-size="14" fill="#4A4A4A" font-style="italic">CF Art. 196 &#8212; Lei 8.080/90 Art. 7&#176;</text>
+<text x="1235" y="552" font-size="14" font-weight="700" fill="#085041" letter-spacing="1.2">DADOS FUNDANTES</text>
+<rect x="1235" y="562" width="420" height="148" rx="4" fill="#F0F7F4" stroke="#085041" stroke-width="1" stroke-dasharray="3,3"/>
+<circle cx="1247" cy="590" r="6" fill="#085041"/>
+<text x="1259" y="596" font-size="17" font-weight="700" fill="#1A1A1A">SINAN</text>
+<text x="1325" y="596" font-size="15" fill="#4A4A4A">casos COVID — aceleração exponencial</text>
+<circle cx="1247" cy="624" r="6" fill="#085041"/>
+<text x="1259" y="630" font-size="17" font-weight="700" fill="#1A1A1A">SIH</text>
+<text x="1325" y="630" font-size="15" fill="#4A4A4A">ocupação UTI &gt; 90% desde 18/12</text>
+<circle cx="1247" cy="658" r="6" fill="#085041"/>
+<text x="1259" y="664" font-size="17" font-weight="700" fill="#1A1A1A">CNES</text>
+<text x="1325" y="664" font-size="15" fill="#4A4A4A">estoque O₂ &lt; 30% pré-Natal</text>
+<circle cx="1247" cy="692" r="6" fill="#085041"/>
+<text x="1259" y="698" font-size="17" font-weight="700" fill="#1A1A1A">MS/DAF</text>
+<text x="1325" y="698" font-size="15" fill="#4A4A4A">fornecimento federal declinante</text>
+<text x="1235" y="742" font-size="14" font-weight="700" fill="#085041" letter-spacing="1.2">HORIZONTE TEMPORAL</text>
+<rect x="1235" y="752" width="420" height="148" rx="4" fill="#FDF3EE" stroke="#E85C3F" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="1247" y="786" font-size="18" font-weight="600" fill="#1A1A1A">Colapso estimado</text>
+<text x="1247" y="830" font-size="36" font-weight="700" fill="#E85C3F">14&#8211;21 dias</text>
+<text x="1247" y="858" font-size="15" fill="#4A4A4A" font-style="italic">se a trajetória for mantida</text>
+<text x="1247" y="878" font-size="15" fill="#4A4A4A" font-style="italic">sinal permanece ativo até a ação</text>
+<text x="50" y="1300" font-size="16" font-weight="700" fill="#1A1A1A" letter-spacing="1.2">LEGENDA ARQUITETURAL</text>
+<line x1="50" y1="1310" x2="360" y2="1310" stroke="#D4D4D0" stroke-width="1"/>
+<line x1="50" y1="1336" x2="110" y2="1336" stroke="#0C447C" stroke-width="2.5" opacity="0.7"/>
+<text x="124" y="1340" font-size="16" fill="#1A1A1A">Cadeia primária &#8212; emissão direta do Sinal Algédônico</text>
+<line x1="50" y1="1368" x2="110" y2="1368" stroke="#E85C3F" stroke-width="2" opacity="0.65" stroke-dasharray="6,5"/>
+<text x="124" y="1372" font-size="16" fill="#1A1A1A">Escalonamento subsidiário &#8212; condicional à inércia da cadeia primária</text>
+<circle cx="80" cy="1396" r="12" fill="#FFFFFF" stroke="#E85C3F" stroke-width="1.5"/>
+<text x="80" y="1400" text-anchor="middle" font-size="14" font-weight="700" fill="#E85C3F">?</text>
+<text x="104" y="1400" font-size="16" fill="#1A1A1A">Gate condicional &#8212; dispara após prazo sem resposta primária</text>
+<text x="1670" y="1422" text-anchor="end" font-size="14" fill="#4A4A4A" font-style="italic">Linhas sólidas: cadeia primária. Linhas pontilhadas: escalonamento condicional.</text>
+<text x="1670" y="1440" text-anchor="end" font-size="15" font-weight="600" fill="#085041">Elaboração Q-FENG: Kaminski (2025)</text>
+</svg>

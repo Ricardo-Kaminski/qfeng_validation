@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="680" height="560" viewBox="0 0 680 560" xmlns="http://www.w3.org/2000/svg" style="background:white">
+<style>
+  text { font-family: 'Cambria','Times New Roman',serif; }
+  .title { font-size: 11px; font-weight: 600; fill: #1a1a1a; }
+  .label { font-size: 10px; fill: #333; }
+  .label-sm { font-size: 9px; fill: #555; }
+  .label-it { font-size: 10px; fill: #333; font-style: italic; }
+  .math { font-family: 'Cambria Math','Cambria',serif; font-size: 10px; fill: #333; font-style: italic; }
+  .caption { font-size: 9px; fill: #444; }
+  .axis { stroke: #1a1a1a; stroke-width: 0.8; }
+  .tick { stroke: #1a1a1a; stroke-width: 0.6; }
+  .grid { stroke: #ccc; stroke-width: 0.4; stroke-dasharray: 3 3; }
+  .vec-norm { stroke: #1a1a1a; stroke-width: 1.6; }
+  .vec-neural { stroke: #1a1a1a; stroke-width: 1.6; stroke-dasharray: 6 3; }
+  .curve { stroke: #1a1a1a; stroke-width: 1.8; fill: none; }
+  .baseline { stroke: #888; stroke-width: 0.8; stroke-dasharray: 4 3; fill: none; }
+  .zone-line { stroke: #999; stroke-width: 0.5; stroke-dasharray: 2 2; }
+</style>
+<defs>
+  <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+    <path d="M0 0L10 5L0 10Z" fill="#1a1a1a"/>
+  </marker>
+  <marker id="ahd" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+    <path d="M0 0L10 5L0 10" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+  </marker>
+</defs>
+
+<text class="title" x="40" y="22">(a) Vector configurations in the decision Hilbert space</text>
+
+<!-- REGIME 1: CONSTRUCTIVE theta ~ 0 -->
+<!-- |psi_S> points up-right at ~55 deg from horizontal -->
+<!-- |psi_N> nearly parallel, ~10 deg separation -->
+<g transform="translate(56, 46)">
+  <line x1="8" y1="130" x2="145" y2="130" class="axis"/>
+  <line x1="8" y1="130" x2="8" y2="8" class="axis"/>
+
+  <!-- |psi_S> : origin(8,130) to (108,30) = angle ~45 deg -->
+  <line x1="8" y1="130" x2="108" y2="30" class="vec-norm" marker-end="url(#ah)"/>
+  <text class="math" x="112" y="26">|psi_S></text>
+
+  <!-- |psi_N> : nearly same direction, tiny offset. origin to (115,38) -->
+  <line x1="8" y1="130" x2="115" y2="38" class="vec-neural" marker-end="url(#ahd)"/>
+  <text class="math" x="119" y="44">|psi_N></text>
+
+  <!-- Small arc -->
+  <path d="M46 90 A48 48 0 0 1 49 86" fill="none" stroke="#555" stroke-width="0.7"/>
+  <text class="math" x="54" y="82">theta</text>
+
+  <text class="label" x="76" y="152" text-anchor="middle">theta ~ 0</text>
+  <text class="label-sm" x="76" y="164" text-anchor="middle">Constructive interference</text>
+  <text class="label-sm" x="76" y="175" text-anchor="middle">cos theta ~ +1 : STAC</text>
+</g>
+
+<!-- REGIME 2: GRADUATED 0 < theta < pi -->
+<!-- |psi_S> same direction. |psi_N> rotated ~70 deg away -->
+<g transform="translate(258, 46)">
+  <line x1="8" y1="130" x2="145" y2="130" class="axis"/>
+  <line x1="8" y1="130" x2="8" y2="8" class="axis"/>
+
+  <!-- |psi_S> : same angle ~45 deg -->
+  <line x1="8" y1="130" x2="108" y2="30" class="vec-norm" marker-end="url(#ah)"/>
+  <text class="math" x="112" y="26">|psi_S></text>
+
+  <!-- |psi_N> : rotated ~70 deg clockwise. From origin toward ~(-25 deg from horiz) = (118, 105) -->
+  <line x1="8" y1="130" x2="118" y2="105" class="vec-neural" marker-end="url(#ahd)"/>
+  <text class="math" x="122" y="100">|psi_N></text>
+
+  <!-- Arc theta -->
+  <path d="M46 90 A50 50 0 0 1 62 104" fill="none" stroke="#555" stroke-width="0.7"/>
+  <text class="math" x="58" y="90">theta</text>
+
+  <text class="label" x="76" y="152" text-anchor="middle">0 &lt; theta &lt; pi</text>
+  <text class="label-sm" x="76" y="164" text-anchor="middle">Graduated friction</text>
+  <text class="label-sm" x="76" y="175" text-anchor="middle">HITL escalation</text>
+</g>
+
+<!-- REGIME 3: DESTRUCTIVE theta ~ pi (180 degrees) -->
+<!-- |psi_S> points up-right. |psi_N> points OPPOSITE = down-left -->
+<!-- This is the critical fix: the vectors must be anti-parallel -->
+<g transform="translate(460, 46)">
+  <!-- Full cross axes to show all quadrants -->
+  <line x1="8" y1="75" x2="155" y2="75" class="axis"/>
+  <line x1="80" y1="150" x2="80" y2="8" class="axis"/>
+
+  <!-- |psi_S> : from center (80,75) pointing up-right to (140,20) -->
+  <line x1="80" y1="75" x2="140" y2="20" class="vec-norm" marker-end="url(#ah)"/>
+  <text class="math" x="144" y="18">|psi_S></text>
+
+  <!-- |psi_N> : from center (80,75) pointing DOWN-LEFT to (20,130) = OPPOSITE direction -->
+  <line x1="80" y1="75" x2="20" y2="130" class="vec-neural" marker-end="url(#ahd)"/>
+  <text class="math" x="8" y="144">|psi_N></text>
+
+  <!-- Large arc theta ~ pi covering nearly full semicircle -->
+  <path d="M110 45 A40 40 0 1 1 50 105" fill="none" stroke="#555" stroke-width="0.7"/>
+  <text class="math" x="130" y="82">theta ~ pi</text>
+
+  <text class="label" x="80" y="166" text-anchor="middle">theta ~ pi (180 degrees)</text>
+  <text class="label-sm" x="80" y="178" text-anchor="middle">Destructive interference</text>
+  <text class="label-sm" x="80" y="189" text-anchor="middle">cos theta ~ -1 : Circuit breaker</text>
+</g>
+
+<!-- Legend -->
+<line x1="56" y1="240" x2="96" y2="240" class="vec-norm"/>
+<text class="label-sm" x="102" y="243">|psi_S> : Symbolic norm vector (solid)</text>
+<line x1="310" y1="240" x2="350" y2="240" class="vec-neural"/>
+<text class="label-sm" x="356" y="243">|psi_N> : Neural evidence vector (dashed)</text>
+
+
+<!-- ================================================================ -->
+<!-- PANEL (b): P(Action) as function of theta                         -->
+<!-- ================================================================ -->
+<text class="title" x="40" y="276">(b) Action probability P(Action) as a function of the sociotechnical phase theta</text>
+
+<g transform="translate(90, 296)">
+  <!-- Y axis -->
+  <line x1="0" y1="0" x2="0" y2="200" class="axis"/>
+  <!-- X axis -->
+  <line x1="0" y1="200" x2="500" y2="200" class="axis"/>
+
+  <!-- Y ticks -->
+  <line x1="-4" y1="0" x2="0" y2="0" class="tick"/>
+  <text class="label-sm" x="-8" y="4" text-anchor="end">2.0</text>
+  <line x1="-4" y1="50" x2="0" y2="50" class="tick"/>
+  <text class="label-sm" x="-8" y="54" text-anchor="end">1.5</text>
+  <line x1="-4" y1="100" x2="0" y2="100" class="tick"/>
+  <text class="label-sm" x="-8" y="104" text-anchor="end">1.0</text>
+  <line x1="-4" y1="150" x2="0" y2="150" class="tick"/>
+  <text class="label-sm" x="-8" y="154" text-anchor="end">0.5</text>
+  <line x1="-4" y1="200" x2="0" y2="200" class="tick"/>
+  <text class="label-sm" x="-8" y="204" text-anchor="end">0</text>
+
+  <!-- X ticks -->
+  <line x1="0" y1="200" x2="0" y2="204" class="tick"/>
+  <text class="label-sm" x="0" y="216" text-anchor="middle">0</text>
+  <line x1="125" y1="200" x2="125" y2="204" class="tick"/>
+  <text class="math" x="125" y="216" text-anchor="middle">pi/4</text>
+  <line x1="250" y1="200" x2="250" y2="204" class="tick"/>
+  <text class="math" x="250" y="216" text-anchor="middle">pi/2</text>
+  <line x1="375" y1="200" x2="375" y2="204" class="tick"/>
+  <text class="math" x="375" y="216" text-anchor="middle">3pi/4</text>
+  <line x1="500" y1="200" x2="500" y2="204" class="tick"/>
+  <text class="math" x="500" y="216" text-anchor="middle">pi</text>
+
+  <!-- Axis titles -->
+  <text class="label-it" x="250" y="234" text-anchor="middle">theta (sociotechnical phase, radians)</text>
+  <text class="label-it" x="-40" y="100" text-anchor="middle" transform="rotate(-90,-40,100)">P(Action)</text>
+
+  <!-- Grid -->
+  <line x1="0" y1="50" x2="500" y2="50" class="grid"/>
+  <line x1="0" y1="100" x2="500" y2="100" class="grid"/>
+  <line x1="0" y1="150" x2="500" y2="150" class="grid"/>
+
+  <!-- Baseline -->
+  <line x1="0" y1="100" x2="500" y2="100" class="baseline"/>
+  <text class="label-sm" x="504" y="96" text-anchor="start">|alpha|^2 + |beta|^2 = 1</text>
+  <text class="label-sm" x="504" y="108" text-anchor="start">(no interference)</text>
+
+  <!-- Zone boundaries -->
+  <line x1="83" y1="0" x2="83" y2="200" class="zone-line"/>
+  <line x1="417" y1="0" x2="417" y2="200" class="zone-line"/>
+
+  <!-- Zone labels -->
+  <text class="label-sm" x="42" y="-14" text-anchor="middle">Constructive</text>
+  <text class="label-sm" x="42" y="-4" text-anchor="middle">zone</text>
+  <text class="label-sm" x="250" y="-4" text-anchor="middle">Graduated friction zone</text>
+  <text class="label-sm" x="459" y="-14" text-anchor="middle">Destructive</text>
+  <text class="label-sm" x="459" y="-4" text-anchor="middle">zone</text>
+
+  <!-- P(Action) curve: P = 1 + cos(theta) for |alpha|=|beta|=1/sqrt(2) -->
+  <!-- theta=0: P=2, y=0; theta=pi/4: P=1.707, y=29; theta=pi/2: P=1, y=100; theta=3pi/4: P=0.293, y=171; theta=pi: P=0, y=200 -->
+  <path d="M0 0 C20 1,50 6,83 15 C100 21,125 29,150 42 C180 58,210 78,250 100 C290 122,320 142,350 158 C380 171,400 179,417 185 C440 192,470 197,500 200" class="curve"/>
+
+  <!-- Data points -->
+  <circle cx="0" cy="0" r="3" fill="#1a1a1a"/>
+  <circle cx="125" cy="29" r="2.5" fill="#1a1a1a"/>
+  <circle cx="250" cy="100" r="2.5" fill="#1a1a1a"/>
+  <circle cx="375" cy="171" r="2.5" fill="#1a1a1a"/>
+  <circle cx="500" cy="200" r="3" fill="#1a1a1a"/>
+
+  <!-- Annotations -->
+  <text class="label-sm" x="6" y="-6">P = 2 (maximum amplification)</text>
+  <text class="label-sm" x="256" y="94">P = 1 (neutral)</text>
+  <text class="label-sm" x="440" y="196" text-anchor="start">P = 0 (blocked)</text>
+
+  <!-- Interference term annotation -->
+  <line x1="125" y1="29" x2="125" y2="100" stroke="#555" stroke-width="0.5" stroke-dasharray="2 2"/>
+  <text class="label-sm" x="133" y="68" fill="#555">2|alpha||beta|cos theta</text>
+  <text class="label-sm" x="133" y="80" fill="#555">(interference term)</text>
+</g>
+
+<!-- Caption -->
+<text class="caption" x="340" y="540" text-anchor="middle">Figure 1. Interference regimes in the Q-FENG decision Hilbert space. (a) Rotation of the neural evidence vector |psi_N></text>
+<text class="caption" x="340" y="551" text-anchor="middle">relative to the symbolic norm vector |psi_S> across three governance regimes. (b) Corresponding action probability curve.</text>
+</svg>

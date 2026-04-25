@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="720" viewBox="0 0 1200 720" xmlns="http://www.w3.org/2000/svg" style="background:#FAFAFA">
+<style>
+  text { font-family:system-ui,-apple-system,'Segoe UI',Arial,sans-serif; fill:#1A1A1A; }
+  .math { font-family:'Cambria Math','Cambria','Times New Roman',serif; font-style:italic; }
+  .title1 { font-size:22px; font-weight:700; fill:#1A1A2E; }
+  .title2 { font-size:13px; font-style:italic; fill:#666; }
+  .lh  { font-size:14px; font-weight:700; }
+  .ls  { font-size:10px; font-style:italic; fill:#555; }
+  .bh  { font-size:14px; font-weight:700; }
+  .bl  { font-size:11px; fill:#333; }
+  .bc  { font-size:10px; font-style:italic; fill:#666; }
+  .cred{ font-size:9px; font-style:italic; fill:#999; }
+</style>
+<defs>
+  <marker id="ah_coral" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L8 5L0 9Z" fill="#993C1D"/></marker>
+  <marker id="ah_hitl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L8 5L0 9Z" fill="#1A5FA5"/></marker>
+  <marker id="ah_learn" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1L8 5L0 9Z" fill="#1A7A3A"/></marker>
+  <marker id="rot_coral" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 1L6 4L0 7Z" fill="#993C1D"/></marker>
+  <marker id="rot_hitl" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 1L6 4L0 7Z" fill="#1A5FA5"/></marker>
+  <marker id="rot_learn" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 1L6 4L0 7Z" fill="#1A7A3A"/></marker>
+</defs>
+<text class="title1" x="600" y="32" text-anchor="middle">Figura 34 &#8212; Tr&#234;s Loops de Controle Cibern&#233;tico</text>
+<text class="title2" x="600" y="56" text-anchor="middle">Constantes de tempo radicalmente distintas: controle multi-escala</text>
+<circle cx="420" cy="380" r="260" fill="none" stroke="#993C1D" stroke-width="3.5"/>
+<circle cx="420" cy="380" r="180" fill="none" stroke="#1A5FA5" stroke-width="3"/>
+<circle cx="420" cy="380" r="100" fill="none" stroke="#1A7A3A" stroke-width="2.5"/>
+<path d="M 375 122 A 260 260 0 0 1 465 122" fill="none" stroke="#993C1D" stroke-width="2.5" marker-end="url(#rot_coral)"/>
+<path d="M 390 202 A 180 180 0 0 1 450 202" fill="none" stroke="#1A5FA5" stroke-width="2" marker-end="url(#rot_hitl)"/>
+<path d="M 402 282 A 100 100 0 0 1 438 282" fill="none" stroke="#1A7A3A" stroke-width="1.8" marker-end="url(#rot_learn)"/>
+<circle cx="420" cy="380" r="55" fill="#1A3550" stroke="#185FA5" stroke-width="2"/>
+<text x="420" y="375" text-anchor="middle" style="font-size:15px;font-weight:700;fill:#FFFFFF;">Modelo</text>
+<text x="420" y="393" text-anchor="middle" style="font-size:11px;fill:#AACCFF;">Neural (S1)</text>
+<text x="340" y="255" class="lh" fill="#1A7A3A">Loop Interno</text>
+<text x="340" y="270" class="ls">Tempo: milissegundos</text>
+<text x="340" y="283" class="ls">Circuit Breaker (S3) + QIM (S3*)</text>
+<line x1="370" y1="290" x2="406" y2="283" stroke="#1A7A3A" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="80" y="375" class="lh" fill="#1A5FA5">Loop Intermedi&#225;rio</text>
+<text x="80" y="395" class="ls">Tempo: horas a dias</text>
+<text x="80" y="408" class="ls">Retreinamento <tspan font-family="'Cambria Math','Cambria','Times New Roman',serif">&#x2112;</tspan>_Global</text>
+<text x="80" y="421" class="ls">+ Quantum Penalty</text>
+<line x1="190" y1="395" x2="240" y2="380" stroke="#1A5FA5" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="100" y="560" class="lh" fill="#993C1D">Loop Externo</text>
+<text x="100" y="575" class="ls">Tempo: semanas a meses</text>
+<text x="100" y="588" class="ls">Curadoria HITL + atualiza&#231;&#227;o</text>
+<text x="100" y="601" class="ls">predicados Clingo (S5)</text>
+<line x1="210" y1="588" x2="259" y2="553" stroke="#993C1D" stroke-width="1" stroke-dasharray="4 3"/>
+<rect x="760" y="150" width="380" height="130" rx="8" fill="#F5E6E0" stroke="#993C1D" stroke-width="1.5"/>
+<text x="780" y="175" class="bh" fill="#993C1D">Loop Externo</text>
+<text x="780" y="200" class="bl">Delibera&#231;&#227;o institucional</text>
+<text x="780" y="218" class="bl">sobre atualiza&#231;&#227;o dos predicados</text>
+<text x="780" y="236" class="bl">soberanos Clingo (Sistema 5).</text>
+<text x="780" y="258" class="bc">Cad&#234;ncia: semanas a meses</text>
+<rect x="760" y="300" width="380" height="130" rx="8" fill="#E6F1FB" stroke="#1A5FA5" stroke-width="1.5"/>
+<text x="780" y="325" class="bh" fill="#1A5FA5">Loop Intermedi&#225;rio</text>
+<text x="780" y="350" class="bl">Retreinamento via <tspan font-family="'Cambria Math','Cambria','Times New Roman',serif">&#x2112;</tspan>_Global com</text>
+<text x="780" y="368" class="bl">Quantum Penalty max(0, &#8722;cos &#952;).</text>
+<text x="780" y="386" class="bl">Adapta&#231;&#227;o dos pesos do modelo.</text>
+<text x="780" y="408" class="bc">Cad&#234;ncia: horas a dias</text>
+<rect x="760" y="450" width="380" height="130" rx="8" fill="#E6F5EA" stroke="#1A7A3A" stroke-width="1.5"/>
+<text x="780" y="475" class="bh" fill="#1A7A3A">Loop Interno</text>
+<text x="780" y="500" class="bl">Circuit Breaker (S3) com auditoria</text>
+<text x="780" y="518" class="bl">pelo Quantum Interference Monitor</text>
+<text x="780" y="536" class="bl">(S3*) em tempo de infer&#234;ncia.</text>
+<text x="780" y="558" class="bc">Cad&#234;ncia: milissegundos</text>
+<path d="M 680,340 C 720,290 740,230 760,215" stroke="#993C1D" stroke-width="1.4" fill="none" stroke-dasharray="5 3" marker-end="url(#ah_coral)"/>
+<path d="M 600,375 C 660,370 710,367 760,365" stroke="#1A5FA5" stroke-width="1.4" fill="none" stroke-dasharray="5 3" marker-end="url(#ah_hitl)"/>
+<path d="M 520,390 C 600,420 690,480 760,515" stroke="#1A7A3A" stroke-width="1.4" fill="none" stroke-dasharray="5 3" marker-end="url(#ah_learn)"/>
+<text x="1170" y="710" class="cred" text-anchor="end">Kaminski (2025) &#8212; Cap. 7 &#167;7.5</text>
+</svg>

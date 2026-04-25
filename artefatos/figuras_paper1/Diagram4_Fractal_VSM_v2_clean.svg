@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="680" height="740" viewBox="0 0 680 740" xmlns="http://www.w3.org/2000/svg" style="background:white">
+<style>
+  text { font-family: 'Cambria','Times New Roman',serif; }
+  .title { font-size: 11px; font-weight: 600; fill: #1a1a1a; }
+  .label { font-size: 10px; fill: #1a1a1a; }
+  .label-b { font-size: 10px; fill: #1a1a1a; font-weight: 600; }
+  .label-sm { font-size: 9px; fill: #555; }
+  .label-it { font-size: 9px; fill: #555; font-style: italic; }
+  .math { font-family: 'Cambria Math','Cambria',serif; font-size: 9px; fill: #444; font-style: italic; }
+  .caption { font-size: 9px; fill: #444; }
+  .sys-box { stroke: #1a1a1a; stroke-width: 0.6; }
+  .s5 { fill: #d8d8d8; }
+  .s4 { fill: #e6e6e6; }
+  .s3 { fill: #c8c8c8; }
+  .s2 { fill: #e6e6e6; }
+  .s1 { fill: #f0f0f0; }
+  .s3star { fill: #fff8e7; stroke: #b8860b; stroke-width: 0.8; }
+  .conn { stroke: #1a1a1a; stroke-width: 1; fill: none; }
+  .conn-derive { stroke: #1a1a1a; stroke-width: 1.2; fill: none; }
+  .conn-alhed { stroke: #b8860b; stroke-width: 1; fill: none; stroke-dasharray: 4 3; }
+  .label-deriv { font-size: 9px; fill: #1a1a1a; font-weight: 600; }
+  .label-alhed { font-size: 9px; fill: #8b6508; font-style: italic; font-weight: 600; }
+</style>
+<defs>
+  <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 1L8 5L0 9Z" fill="#1a1a1a"/></marker>
+  <marker id="ahd" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 1L8 5L0 9Z" fill="#b8860b"/></marker>
+</defs>
+
+<!-- ============= MACRO ============= -->
+<rect x="40" y="34" width="600" height="186" rx="6" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+<text class="label-b" x="56" y="52">MACRO  —  State / Constitutional</text>
+<text class="label-it" x="56" y="64">Constitutional architecture, primary legal sources, supreme court binding precedent</text>
+
+<rect x="60" y="76" width="100" height="44" rx="3" class="sys-box s5"/>
+<text class="label-b" x="110" y="94" text-anchor="middle">S5</text>
+<text class="label-sm" x="110" y="108" text-anchor="middle">Constitution</text>
+
+<rect x="172" y="76" width="92" height="44" rx="3" class="sys-box s4"/>
+<text class="label-b" x="218" y="94" text-anchor="middle">S4</text>
+<text class="label-sm" x="218" y="108" text-anchor="middle">National BI</text>
+
+<rect x="276" y="76" width="92" height="44" rx="3" class="sys-box s3"/>
+<text class="label-b" x="322" y="94" text-anchor="middle">S3</text>
+<text class="label-sm" x="322" y="108" text-anchor="middle">Executive ctrl</text>
+
+<rect x="380" y="76" width="60" height="44" rx="3" class="sys-box s3star"/>
+<text class="label-b" x="410" y="94" text-anchor="middle">S3*</text>
+<text class="label-sm" x="410" y="108" text-anchor="middle">TCU/MPF</text>
+
+<rect x="452" y="76" width="86" height="44" rx="3" class="sys-box s2"/>
+<text class="label-b" x="495" y="94" text-anchor="middle">S2</text>
+<text class="label-sm" x="495" y="108" text-anchor="middle">Federative pact</text>
+
+<rect x="550" y="76" width="80" height="44" rx="3" class="sys-box s1"/>
+<text class="label-b" x="590" y="94" text-anchor="middle">S1</text>
+<text class="label-sm" x="590" y="108" text-anchor="middle">Sectoral AI</text>
+
+<line x1="160" y1="98" x2="170" y2="98" class="conn" marker-end="url(#ah)"/>
+<line x1="264" y1="98" x2="274" y2="98" class="conn" marker-end="url(#ah)"/>
+<line x1="368" y1="98" x2="378" y2="98" class="conn" marker-end="url(#ah)"/>
+<line x1="440" y1="98" x2="450" y2="98" class="conn" marker-end="url(#ah)"/>
+<line x1="538" y1="98" x2="548" y2="98" class="conn" marker-end="url(#ah)"/>
+
+<text class="math" x="60" y="138">|psi_S&gt; = constitutional norms (petreous core)</text>
+<text class="math" x="60" y="150">|psi_N&gt; = aggregate sectoral signals</text>
+<text class="math" x="60" y="162">theta_Macro: conceptual reading at constitutional scale</text>
+<text class="label-it" x="60" y="180">CB at Macro: constitutional review trigger (concentrated control)</text>
+<text class="label-it" x="60" y="192">S3* operates institutionally through audit bodies</text>
+
+<!-- ============= INTER-LEVEL Macro -> Meso ============= -->
+<line x1="200" y1="220" x2="200" y2="234" class="conn-derive" marker-end="url(#ah)"/>
+<text class="label-deriv" x="208" y="230">normative derivation</text>
+
+<line x1="500" y1="234" x2="500" y2="220" class="conn-alhed" marker-end="url(#ahd)"/>
+<text class="label-alhed" x="436" y="230">algedonic escalation</text>
+
+<!-- ============= MESO ============= -->
+<rect x="40" y="234" width="600" height="186" rx="6" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+<text class="label-b" x="56" y="252">MESO  —  Sectoral / Infralegal</text>
+<text class="label-it" x="56" y="264">Ordinary legislation, ministerial regulations, agency directives, jurisprudence</text>
+
+<rect x="60" y="276" width="100" height="44" rx="3" class="sys-box s5"/>
+<text class="label-b" x="110" y="294" text-anchor="middle">S5</text>
+<text class="label-sm" x="110" y="308" text-anchor="middle">Sector laws</text>
+
+<rect x="172" y="276" width="92" height="44" rx="3" class="sys-box s4"/>
+<text class="label-b" x="218" y="294" text-anchor="middle">S4</text>
+<text class="label-sm" x="218" y="308" text-anchor="middle">Sectoral BI</text>
+
+<rect x="276" y="276" width="92" height="44" rx="3" class="sys-box s3"/>
+<text class="label-b" x="322" y="294" text-anchor="middle">S3</text>
+<text class="label-sm" x="322" y="308" text-anchor="middle">Agency dir.</text>
+
+<rect x="380" y="276" width="60" height="44" rx="3" class="sys-box s3star"/>
+<text class="label-b" x="410" y="294" text-anchor="middle">S3*</text>
+<text class="label-sm" x="410" y="308" text-anchor="middle">DENASUS</text>
+
+<rect x="452" y="276" width="86" height="44" rx="3" class="sys-box s2"/>
+<text class="label-b" x="495" y="294" text-anchor="middle">S2</text>
+<text class="label-sm" x="495" y="308" text-anchor="middle">Intergestores</text>
+
+<rect x="550" y="276" width="80" height="44" rx="3" class="sys-box s1"/>
+<text class="label-b" x="590" y="294" text-anchor="middle">S1</text>
+<text class="label-sm" x="590" y="308" text-anchor="middle">AI models</text>
+
+<line x1="160" y1="298" x2="170" y2="298" class="conn" marker-end="url(#ah)"/>
+<line x1="264" y1="298" x2="274" y2="298" class="conn" marker-end="url(#ah)"/>
+<line x1="368" y1="298" x2="378" y2="298" class="conn" marker-end="url(#ah)"/>
+<line x1="440" y1="298" x2="450" y2="298" class="conn" marker-end="url(#ah)"/>
+<line x1="538" y1="298" x2="548" y2="298" class="conn" marker-end="url(#ah)"/>
+
+<text class="math" x="60" y="338">|psi_S&gt; = sectoral norms, protocols, jurisprudence</text>
+<text class="math" x="60" y="350">|psi_N&gt; = institutional model outputs</text>
+<text class="math" x="60" y="362">theta_Meso: conceptual reading at sectoral scale</text>
+<text class="label-it" x="60" y="380">CB at Meso: institutional override (regulatory intervention)</text>
+<text class="label-it" x="60" y="392">S3* operates institutionally through sectoral auditing</text>
+
+<!-- ============= INTER-LEVEL Meso -> Micro ============= -->
+<line x1="200" y1="420" x2="200" y2="434" class="conn-derive" marker-end="url(#ah)"/>
+<text class="label-deriv" x="208" y="430">normative derivation</text>
+
+<line x1="500" y1="434" x2="500" y2="420" class="conn-alhed" marker-end="url(#ahd)"/>
+<text class="label-alhed" x="436" y="430">algedonic escalation</text>
+
+<!-- ============= MICRO ============= -->
+<rect x="40" y="434" width="600" height="186" rx="6" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+<text class="label-b" x="56" y="452">MICRO  —  Algorithmic / Operational</text>
+<text class="label-it" x="56" y="464">Clingo (ASP) predicates, deployment-unit constraints, algorithmic predictor</text>
+
+<rect x="60" y="476" width="100" height="44" rx="3" class="sys-box s5"/>
+<text class="label-b" x="110" y="494" text-anchor="middle">S5</text>
+<text class="label-sm" x="110" y="508" text-anchor="middle">Clingo rules</text>
+
+<rect x="172" y="476" width="92" height="44" rx="3" class="sys-box s4"/>
+<text class="label-b" x="218" y="494" text-anchor="middle">S4</text>
+<text class="label-sm" x="218" y="508" text-anchor="middle">theta_eff</text>
+
+<rect x="276" y="476" width="92" height="44" rx="3" class="sys-box s3"/>
+<text class="label-b" x="322" y="494" text-anchor="middle">S3</text>
+<text class="label-sm" x="322" y="508" text-anchor="middle">Circuit Breaker</text>
+
+<rect x="380" y="476" width="60" height="44" rx="3" class="sys-box s3star"/>
+<text class="label-b" x="410" y="494" text-anchor="middle">S3*</text>
+<text class="label-sm" x="410" y="508" text-anchor="middle">Clingo audit</text>
+
+<rect x="452" y="476" width="86" height="44" rx="3" class="sys-box s2"/>
+<text class="label-b" x="495" y="494" text-anchor="middle">S2</text>
+<text class="label-sm" x="495" y="508" text-anchor="middle">Cross-corpus</text>
+
+<rect x="550" y="476" width="80" height="44" rx="3" class="sys-box s1"/>
+<text class="label-b" x="590" y="494" text-anchor="middle">S1</text>
+<text class="label-sm" x="590" y="508" text-anchor="middle">Predictor</text>
+
+<line x1="160" y1="498" x2="170" y2="498" class="conn" marker-end="url(#ah)"/>
+<line x1="264" y1="498" x2="274" y2="498" class="conn" marker-end="url(#ah)"/>
+<line x1="368" y1="498" x2="378" y2="498" class="conn" marker-end="url(#ah)"/>
+<line x1="440" y1="498" x2="450" y2="498" class="conn" marker-end="url(#ah)"/>
+<line x1="538" y1="498" x2="548" y2="498" class="conn" marker-end="url(#ah)"/>
+
+<text class="math" x="60" y="538">|psi_S&gt; = sovereign + elastic predicates (active set)</text>
+<text class="math" x="60" y="550">|psi_N&gt; = predictor preference vector (single inference)</text>
+<text class="math" x="60" y="562">theta_Micro: computed measurement (operational ground)</text>
+<text class="label-it" x="60" y="580">CB at Micro: algorithmic suspension + normative diagnosis</text>
+<text class="label-it" x="60" y="592">S3* operates computationally through Clingo SAT/UNSAT</text>
+
+<!-- ============= RIGHT MARGIN: Scale invariance ============= -->
+<text class="label-b" x="654" y="330" text-anchor="middle" transform="rotate(90,654,330)">Same S1-S5 structure recurses at every jurisdictional level</text>
+
+<!-- ============= LEGEND ============= -->
+<rect x="60" y="640" width="20" height="11" rx="2" class="sys-box s5"/>
+<text class="label-sm" x="86" y="650">S5 Policy</text>
+
+<rect x="146" y="640" width="20" height="11" rx="2" class="sys-box s4"/>
+<text class="label-sm" x="172" y="650">S4 Intel.</text>
+
+<rect x="226" y="640" width="20" height="11" rx="2" class="sys-box s3"/>
+<text class="label-sm" x="252" y="650">S3 Control</text>
+
+<rect x="312" y="640" width="20" height="11" rx="2" class="sys-box s3star"/>
+<text class="label-sm" x="338" y="650">S3* Audit</text>
+
+<rect x="398" y="640" width="20" height="11" rx="2" class="sys-box s2"/>
+<text class="label-sm" x="424" y="650">S2 Coord.</text>
+
+<rect x="478" y="640" width="20" height="11" rx="2" class="sys-box s1"/>
+<text class="label-sm" x="504" y="650">S1 Operations</text>
+
+<line x1="60" y1="672" x2="92" y2="672" class="conn-derive" marker-end="url(#ah)"/>
+<text class="label-sm" x="100" y="676">Normative derivation (downward, Macro to Micro)</text>
+
+<line x1="320" y1="672" x2="352" y2="672" class="conn-alhed" marker-end="url(#ahd)"/>
+<text class="label-sm" x="360" y="676">Algedonic escalation (upward, Micro to Macro)</text>
+
+<text class="caption" x="60" y="700" font-style="italic">theta is computed at Micro; conceptual readings at Meso/Macro reflect propagation through derivability chain.</text>
+
+</svg>

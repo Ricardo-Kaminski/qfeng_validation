@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="680" height="620" viewBox="0 0 680 620" xmlns="http://www.w3.org/2000/svg" style="background:white">
+<style>
+  text { font-family: 'Cambria','Times New Roman',serif; }
+  .title { font-size: 11px; font-weight: 600; fill: #1a1a1a; }
+  .label { font-size: 10px; fill: #1a1a1a; }
+  .label-b { font-size: 10px; fill: #1a1a1a; font-weight: 600; }
+  .label-sm { font-size: 9px; fill: #555; }
+  .label-it { font-size: 9px; fill: #555; font-style: italic; }
+  .label-w { font-size: 9px; fill: #fff; }
+  .label-bw { font-size: 10px; fill: #fff; font-weight: 600; }
+  .math { font-family: 'Cambria Math','Cambria',serif; font-size: 9px; fill: #333; font-style: italic; }
+  .math-w { font-family: 'Cambria Math','Cambria',serif; font-size: 9px; fill: #fff; font-style: italic; }
+  .caption { font-size: 9px; fill: #444; }
+  .flow { stroke: #1a1a1a; stroke-width: 1.4; fill: none; }
+</style>
+<defs>
+  <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+    <path d="M0 1L8 5L0 9Z" fill="#1a1a1a"/>
+  </marker>
+</defs>
+
+<text class="title" x="40" y="20">Figure 9. Regional equity interference cartogram: specialized healthcare capacity and computed theta by macro-region</text>
+
+<!-- ================================================================ -->
+<!-- CARTOGRAM: 5 regions positioned geographically                    -->
+<!-- Layout approximates Brazil's geography:                           -->
+<!--   NORTH (top-left, large)                                         -->
+<!--   NORTHEAST (top-right)                                           -->
+<!--   CENTER-WEST (middle-left)                                       -->
+<!--   SOUTHEAST (middle-right)                                        -->
+<!--   SOUTH (bottom-right)                                            -->
+<!-- Size proportional to population share                             -->
+<!-- Fill darkness = theta value                                       -->
+<!-- ================================================================ -->
+
+<!-- (a) Cartogram -->
+<text class="label-b" x="48" y="46">(a) Geographic cartogram</text>
+<text class="label-it" x="48" y="58">Fill intensity encodes theta (darker = higher friction)</text>
+
+<!-- NORTH: 8.8% pop, huge area, top-left. theta ~ 157 deg = very dark -->
+<rect x="48" y="72" width="180" height="100" rx="4" fill="#4a4a4a" stroke="#1a1a1a" stroke-width="1"/>
+<text class="label-bw" x="138" y="100" text-anchor="middle">NORTH</text>
+<text class="label-w" x="138" y="116" text-anchor="middle">8.8% of population</text>
+<text class="label-w" x="138" y="130" text-anchor="middle">0.3 lin. accelerators / M</text>
+<text class="math-w" x="138" y="146" text-anchor="middle">theta ~ 157 deg (2.74 rad)</text>
+<text class="label-w" x="138" y="160" text-anchor="middle">CIRCUIT BREAKER</text>
+
+<!-- NORTHEAST: 27.2% pop, top-right. theta ~ 134 deg = dark -->
+<rect x="238" y="72" width="180" height="100" rx="4" fill="#6a6a6a" stroke="#1a1a1a" stroke-width="1"/>
+<text class="label-bw" x="328" y="100" text-anchor="middle">NORTHEAST</text>
+<text class="label-w" x="328" y="116" text-anchor="middle">27.2% of population</text>
+<text class="label-w" x="328" y="130" text-anchor="middle">0.5 lin. accelerators / M</text>
+<text class="math-w" x="328" y="146" text-anchor="middle">theta ~ 134 deg (2.34 rad)</text>
+<text class="label-w" x="328" y="160" text-anchor="middle">CIRCUIT BREAKER</text>
+
+<!-- CENTER-WEST: 7.8% pop, middle-left. theta ~ 78 deg = medium -->
+<rect x="48" y="182" width="130" height="90" rx="4" fill="#a0a0a0" stroke="#1a1a1a" stroke-width="1"/>
+<text class="label-b" x="113" y="208" text-anchor="middle">CENTER-WEST</text>
+<text class="label-sm" x="113" y="222" text-anchor="middle">7.8% of population</text>
+<text class="label-sm" x="113" y="236" text-anchor="middle">0.8 lin. acc. / M</text>
+<text class="math" x="113" y="252" text-anchor="middle">theta ~ 78 deg</text>
+<text class="label-it" x="113" y="264" text-anchor="middle">HITL escalation</text>
+
+<!-- SOUTHEAST: 41.9% pop, middle-right. theta ~ 12 deg = very light -->
+<rect x="188" y="182" width="230" height="120" rx="4" fill="#e4e4e4" stroke="#1a1a1a" stroke-width="1"/>
+<text class="label-b" x="303" y="210" text-anchor="middle">SOUTHEAST</text>
+<text class="label-sm" x="303" y="226" text-anchor="middle">41.9% of population</text>
+<text class="label-sm" x="303" y="240" text-anchor="middle">1.8 lin. accelerators / M (1.5x national avg.)</text>
+<text class="math" x="303" y="256" text-anchor="middle">theta ~ 12 deg (0.21 rad)</text>
+<text class="label-b" x="303" y="272" text-anchor="middle">STAC: allocation amplified</text>
+<text class="label-it" x="303" y="286" text-anchor="middle">Model favors this region (historical data bias)</text>
+
+<!-- SOUTH: 14.3% pop, bottom-right. theta ~ 28 deg = light -->
+<rect x="188" y="312" width="150" height="80" rx="4" fill="#ccc" stroke="#1a1a1a" stroke-width="1"/>
+<text class="label-b" x="263" y="336" text-anchor="middle">SOUTH</text>
+<text class="label-sm" x="263" y="350" text-anchor="middle">14.3% of population</text>
+<text class="label-sm" x="263" y="364" text-anchor="middle">1.4 lin. acc. / M</text>
+<text class="math" x="263" y="378" text-anchor="middle">theta ~ 28 deg</text>
+
+<!-- ================================================================ -->
+<!-- PATIENT FLOW ARROWS                                               -->
+<!-- From dark (underserved) regions toward Southeast (light)          -->
+<!-- ================================================================ -->
+
+<!-- North -> Southeast -->
+<path d="M200 172 C220 178, 260 184, 280 190" class="flow" marker-end="url(#ah)"/>
+
+<!-- Northeast -> Southeast -->
+<path d="M328 172 C328 178, 320 182, 310 190" class="flow" marker-end="url(#ah)"/>
+
+<!-- Center-West -> Southeast -->
+<path d="M178 232 C182 232, 184 232, 186 232" class="flow" marker-end="url(#ah)"/>
+
+<!-- ================================================================ -->
+<!-- (b) THETA GRADIENT LEGEND (right panel)                           -->
+<!-- ================================================================ -->
+<text class="label-b" x="460" y="78">(b) theta scale</text>
+
+<!-- Gradient bar (discrete steps) -->
+<rect x="460" y="90" width="28" height="24" fill="#4a4a4a" stroke="#1a1a1a" stroke-width="0.5"/>
+<text class="label-sm" x="494" y="106">theta ~ pi (destructive)</text>
+
+<rect x="460" y="114" width="28" height="24" fill="#6a6a6a" stroke="#1a1a1a" stroke-width="0.5"/>
+<text class="label-sm" x="494" y="130">theta ~ 3pi/4</text>
+
+<rect x="460" y="138" width="28" height="24" fill="#a0a0a0" stroke="#1a1a1a" stroke-width="0.5"/>
+<text class="label-sm" x="494" y="154">theta ~ pi/2</text>
+
+<rect x="460" y="162" width="28" height="24" fill="#ccc" stroke="#1a1a1a" stroke-width="0.5"/>
+<text class="label-sm" x="494" y="178">theta ~ pi/6</text>
+
+<rect x="460" y="186" width="28" height="24" fill="#e4e4e4" stroke="#1a1a1a" stroke-width="0.5"/>
+<text class="label-sm" x="494" y="202">theta ~ 0 (constructive)</text>
+
+<!-- National average -->
+<rect x="460" y="226" width="170" height="36" rx="3" fill="none" stroke="#999" stroke-width="0.5"/>
+<text class="label-b" x="545" y="242" text-anchor="middle">National average</text>
+<text class="label-sm" x="545" y="256" text-anchor="middle">1.2 lin. accelerators / M</text>
+
+<!-- Governance action key -->
+<text class="label-b" x="460" y="284">Governance action:</text>
+<text class="label-sm" x="460" y="298">theta &gt; pi/2 : Circuit Breaker</text>
+<text class="label-sm" x="460" y="312">pi/6 &lt; theta &lt; pi/2 : HITL escalation</text>
+<text class="label-sm" x="460" y="326">theta &lt; pi/6 : STAC (autonomous)</text>
+
+<!-- Flow arrow key -->
+<line x1="460" y1="346" x2="500" y2="346" class="flow" marker-end="url(#ah)"/>
+<text class="label-sm" x="508" y="350">Patient migration flow</text>
+<text class="label-it" x="508" y="362">(SIH inter-state transfer data)</text>
+
+<!-- ================================================================ -->
+<!-- (c) DATA TABLE                                                    -->
+<!-- ================================================================ -->
+<text class="label-b" x="48" y="416">(c) Regional disparity summary (CNES 2023, illustrative values)</text>
+
+<!-- Table header -->
+<rect x="48" y="424" width="584" height="20" fill="#e0e0e0" stroke="#1a1a1a" stroke-width="0.5"/>
+<text class="label-b" x="108" y="438" text-anchor="middle">Region</text>
+<text class="label-b" x="218" y="438" text-anchor="middle">% Pop.</text>
+<text class="label-b" x="318" y="438" text-anchor="middle">Equip./M</text>
+<text class="label-b" x="418" y="438" text-anchor="middle">Ratio to avg.</text>
+<text class="label-b" x="530" y="438" text-anchor="middle">theta (computed)</text>
+
+<!-- Rows -->
+<rect x="48" y="444" width="584" height="18" fill="#f4f4f4" stroke="#ddd" stroke-width="0.3"/>
+<text class="label-sm" x="108" y="457" text-anchor="middle">North</text>
+<text class="label-sm" x="218" y="457" text-anchor="middle">8.8%</text>
+<text class="label-sm" x="318" y="457" text-anchor="middle">0.3</text>
+<text class="label-sm" x="418" y="457" text-anchor="middle">0.25x</text>
+<text class="label-b" x="530" y="457" text-anchor="middle">157 deg (Circuit Breaker)</text>
+
+<rect x="48" y="462" width="584" height="18" fill="#fff" stroke="#ddd" stroke-width="0.3"/>
+<text class="label-sm" x="108" y="475" text-anchor="middle">Northeast</text>
+<text class="label-sm" x="218" y="475" text-anchor="middle">27.2%</text>
+<text class="label-sm" x="318" y="475" text-anchor="middle">0.5</text>
+<text class="label-sm" x="418" y="475" text-anchor="middle">0.42x</text>
+<text class="label-b" x="530" y="475" text-anchor="middle">134 deg (Circuit Breaker)</text>
+
+<rect x="48" y="480" width="584" height="18" fill="#f4f4f4" stroke="#ddd" stroke-width="0.3"/>
+<text class="label-sm" x="108" y="493" text-anchor="middle">Center-West</text>
+<text class="label-sm" x="218" y="493" text-anchor="middle">7.8%</text>
+<text class="label-sm" x="318" y="493" text-anchor="middle">0.8</text>
+<text class="label-sm" x="418" y="493" text-anchor="middle">0.67x</text>
+<text class="label-sm" x="530" y="493" text-anchor="middle">78 deg (HITL escalation)</text>
+
+<rect x="48" y="498" width="584" height="18" fill="#fff" stroke="#ddd" stroke-width="0.3"/>
+<text class="label-sm" x="108" y="511" text-anchor="middle">South</text>
+<text class="label-sm" x="218" y="511" text-anchor="middle">14.3%</text>
+<text class="label-sm" x="318" y="511" text-anchor="middle">1.4</text>
+<text class="label-sm" x="418" y="511" text-anchor="middle">1.17x</text>
+<text class="label-sm" x="530" y="511" text-anchor="middle">28 deg (STAC)</text>
+
+<rect x="48" y="516" width="584" height="18" fill="#f4f4f4" stroke="#ddd" stroke-width="0.3"/>
+<text class="label-sm" x="108" y="529" text-anchor="middle">Southeast</text>
+<text class="label-sm" x="218" y="529" text-anchor="middle">41.9%</text>
+<text class="label-sm" x="318" y="529" text-anchor="middle">1.8</text>
+<text class="label-sm" x="418" y="529" text-anchor="middle">1.50x</text>
+<text class="label-sm" x="530" y="529" text-anchor="middle">12 deg (STAC — bias amplified)</text>
+
+<!-- Caption -->
+<text class="caption" x="340" y="558" text-anchor="middle">Figure 9. Regional equity interference cartogram. (a) Five macro-regions positioned geographically; fill intensity encodes</text>
+<text class="caption" x="340" y="570" text-anchor="middle">computed theta for a hypothetical allocation model trained on historical SIH data. Arrows: inter-state patient migration for</text>
+<text class="caption" x="340" y="582" text-anchor="middle">high-complexity procedures (oncology, cardiology). (b) Theta scale with governance action thresholds. (c) Regional disparity</text>
+<text class="caption" x="340" y="594" text-anchor="middle">data (CNES 2023, illustrative). The model's historical data bias amplifies allocation to the Southeast (theta ~ 12 deg)</text>
+<text class="caption" x="340" y="606" text-anchor="middle">while the North and Northeast (theta &gt; 130 deg) trigger the Circuit Breaker for equity violation (CF Art. 3, III).</text>
+</svg>
