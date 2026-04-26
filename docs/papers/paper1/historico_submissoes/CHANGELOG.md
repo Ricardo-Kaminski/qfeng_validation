@@ -212,6 +212,57 @@ artefato.
 
 ---
 
+## 26/abr/2026 — Fase 1 BI bivariado Manaus concluída (Caminho 2)
+
+**Escopo:** consolidação das séries de entrada do preditor BI bivariado para Manaus 2020-2021.
+Não altera o canônico `PAPER1_CANONICO.md` diretamente — documenta achados e pendências que impactam a Fase 3.
+
+**Commits (branch caminho2):**
+
+| Commit | Tarefa | Conteúdo |
+|--------|--------|----------|
+| `236a4ea` | 1.1 | TOH UTI Manaus — 12 meses (10 confirmados + 2 estimados) |
+| `96b8bb9` | 1.2 | SRAG Manaus — infra extração + stub SIVEP-Gripe |
+| `cd465b6` | 1.3 | Stub Caminho C — O₂ prospectivo-only, bivariado confirmado |
+| `ed0e1ce` | 1.4 | Validação cruzada bivariada (sanity checks + diagnóstico) |
+
+**Achados substantivos:**
+
+### Sanity checks TOH (série real)
+- Pico jan/2021: TOH = **104%** — confirma colapso hospitalar documentado
+- Vale ago/2020: TOH = **24%** — confirma período inter-ondas
+
+### Validação cruzada — critérios DIFERIDOS
+A validação plena (Spearman ρ, PCA empírica, |Δw| < 0.10) está formalmente diferida para a Fase 2.
+O `srag_manaus.parquet` é um stub com zeros: FTP DATASUS SIVEP-Gripe indisponível; fonte real é
+`opendatasus.saude.gov.br/dataset/srag-2020` e `srag-2021`.
+
+Critérios de aceitação **não avaliados nesta fase**: ρ(TOH, SRAG) > 0.50 e |Δw| PCA vs. A priori < 0.10.
+
+### Decisão de pesos
+`bi_dimensional_decision.json` gravado com `decision_method: "apriori_only_pending_pca_validation"`,
+`weights_decision_pending: true`, pesos finais w_TOH = w_SRAG = 0.50 (paridade institucional).
+
+### Bug t_mort=0 — diagnóstico com implicação retroativa para o canônico
+
+**Causa raiz:** SIH `MORTE` é codificado como string `'Sim'/'Não'`, mas o pipeline aplica
+`pd.to_numeric()` que retorna NaN, então `.fillna(0)` zera todos os óbitos.
+
+**Evidência:** 482 registros com `MORTE == 'Sim'` em Manaus 2020-2021 (t_mort ≈ 0.18).
+
+**Fix Fase 2 (uma linha):** `df['MORTE_NUM'] = (df['MORTE'] == 'Sim').astype(int)`
+
+**Implicação retroativa — item de roadmap Fase 3:**
+A Tabela 7 e a Figura 3 do canônico foram geradas com t_mort = 0 e declaravam esse valor
+como achado empírico. Após o fix da Fase 2 e recálculo do θ_eff, **Tabela 7 e Figura 3
+precisam ser regeneradas na Fase 3** com t_mort ≈ 0.18. O texto narrativo do paper
+que comentava t_mort = 0 como dado empírico precisará ser corrigido.
+
+> ⚠️ Sem este registro, a Fase 3 poderia regenerar a tabela sem revisar a narrativa textual —
+> resultando em inconsistência interna no paper.
+
+---
+
 ## Convenção de versionamento
 
 - **Snapshots MD** seguem `PAPER1_v_<descritor_curto>.md` (ex.:
@@ -228,4 +279,4 @@ artefato.
 
 ---
 
-*Última atualização: 26/abr/2026.*
+*Última atualização: 26/abr/2026 (Fase 1 BI bivariado).*
