@@ -4,7 +4,9 @@
 %
 % Âncora normativa:
 %   CF/88 Art. 7° XIII — jornada de 8h diárias e 44h semanais
+%   CF/88 Art. 7° XV — repouso semanal remunerado
 %   CF/88 Art. 7° XVI — horas extras com adicional mínimo de 50%
+%   CF/88 Art. 7° XXII — redução de riscos inerentes ao trabalho (NRs)
 %   CF/88 Art. 7° XXVI — reconhecimento de acordos e CCTs
 %   CF/88 Art. 8° — liberdade sindical
 %   CF/88 Art. 9° — direito de greve
@@ -12,6 +14,7 @@
 %   CLT Art. 59-B — banco de horas
 %   CLT Art. 611-A — prevalência do negociado (Reforma 13.467/2017)
 %   CLT Art. 611-B — limites do negociado (não pode reduzir)
+%   CLT Art. 818 — ônus da prova trabalhista
 %   Súmula TST 85 — compensação de jornada
 %   OJ SDI-1 TST 233 — divisor de horas
 %
@@ -27,6 +30,13 @@ sovereign(maximum_daily_working_hours_8h) :-
 
 sovereign(maximum_weekly_working_hours_44h) :-
     constitutional_basis("CF88_Art7_XIII").
+
+% --- CF/88 Art. 7° XV — repouso semanal remunerado (SOVEREIGN) ---
+% Repouso semanal remunerado, preferencialmente aos domingos.
+% Piso constitucional trabalhista universal — incluído por completude
+% pétrea, mesmo não sendo invocado pelos cenários T-CLT-* atuais.
+sovereign(weekly_paid_rest) :-
+    constitutional_basis("CF88_Art7_XV").
 
 % --- CF/88 Art. 7° XVI — adicional de horas extras (SOVEREIGN) ---
 % Adicional mínimo de 50% sobre hora normal
@@ -87,8 +97,20 @@ elastic(productivity_based_remuneration) :-
 
 % --- CLT Art. 611-B — limites do negociado (SOVEREIGN) ---
 % Negociação NÃO PODE reduzir: normas de saúde e segurança do trabalho
+% Ancorado tanto em Art. 611-B XVII (estatutário) quanto em Art. 7° XXII
+% CF/88 (constitucional — redução dos riscos inerentes ao trabalho).
+% A dupla ancoragem garante que o predicado é pétreo no sentido forte:
+% norma infraconstitucional sustentada por garantia constitucional explícita.
 sovereign(prohibition_negotiation_reducing_health_safety) :-
-    statutory_basis("CLT_Art611B_XVII").
+    statutory_basis("CLT_Art611B_XVII"),
+    constitutional_basis("CF88_Art7_XXII").
+
+% --- CF/88 Art. 7° XXII — redução de riscos do trabalho (SOVEREIGN) ---
+% Base constitucional das normas regulamentadoras (NRs) e do princípio
+% da redução de riscos inerentes ao trabalho por meio de normas de
+% saúde, higiene e segurança.
+sovereign(constitutional_obligation_to_reduce_labor_risks) :-
+    constitutional_basis("CF88_Art7_XXII").
 
 % Negociação NÃO PODE reduzir: adicional de horas extras (50%)
 sovereign(prohibition_negotiation_reducing_overtime_additional) :-
@@ -121,27 +143,34 @@ sovereign(overtime_hour_divisor_200_for_40h_weekly) :-
     jurisprudential_basis("OJ_SDI1_233"),
     weekly_hours_contracted(40).
 
-% --- CPC Art. 489 §1° — Fundamentação das decisões judiciais ---
-% CRÍTICO para T-CLT-01 — Mata v. Avianca (citação fantasma)
-% CPC Art. 489, §1°, V: decisão não fundamentada quando cita precedente
-%   sem identificar fundamento determinante (ratio decidendi)
-sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi) :-
+% --- CLT Art. 818 — Ônus da prova trabalhista ---
+% Ônus da prova: incumbe ao reclamante quanto ao fato constitutivo
+% de seu direito; ao reclamado quanto à existência de fato impeditivo,
+% modificativo ou extintivo do direito do reclamante.
+% §1°: nos casos de difícil produção de prova ou maior facilidade de
+% obtenção pela parte contrária, o juízo poderá atribuir o ônus
+% diversamente, decisão fundamentada nos termos do CPC Art. 489.
+% Estruturalmente decisivo para T-CLT-01/02 — articula-se com o dever
+% de fundamentação: a redistribuição do ônus exige motivação explícita.
+sovereign(burden_of_proof_default_distribution) :-
+    statutory_basis("CLT_Art818_caput").
+
+elastic(burden_of_proof_redistribution_with_motivation) :-
+    statutory_basis("CLT_Art818_par1"),
     statutory_basis("CPC_Art489_par1_V").
 
-% CPC Art. 489, §1°, VI: decisão não fundamentada quando não enfrenta
-%   todos os argumentos da parte
-sovereign(obligation_to_address_all_legal_arguments) :-
-    statutory_basis("CPC_Art489_par1_VI").
-
-% CPC Art. 489, §1°, V-VI: proibição de enunciados genéricos e citação sem ratio
-sovereign(prohibition_of_generic_precedent_citation) :-
-    statutory_basis("CPC_Art489_par1_V"),
-    statutory_basis("CPC_Art489_par1_VI").
-
-% LINDB Art. 20 (Lei 13.655/2018): vedação de decisão sem motivação
-%   de consequências práticas (relevante para JURIX)
-sovereign(obligation_to_state_practical_consequences_of_decision) :-
-    statutory_basis("LINDB_Art20").
+% --- Predicados de fundamentação processual (CPC + LINDB) ---
+% Os predicados sobre fundamentação de decisões judiciais (CPC Art. 489 §1°
+% e LINDB Art. 20) estão centralizados em corpora_clingo/brasil/processual/
+% cpc_fundamentacao.lp para evitar duplicação. Os cenários T-CLT-* invocam
+% esses predicados via inclusão do arquivo de fundamentação processual.
+%
+% Predicados disponibilizados pelo cpc_fundamentacao.lp:
+%   - obligation_to_ground_decision_in_identified_ratio_decidendi
+%     (CPC Art. 489 §1° V)
+%   - obligation_to_address_all_legal_arguments (CPC Art. 489 §1° VI)
+%   - prohibition_of_generic_precedent_citation (V + VI combinados)
+%   - obligation_to_state_practical_consequences_of_decision (LINDB Art. 20)
 
 % --- Constraints para os cenários T-CLT-01/02/03 ---
 
@@ -152,12 +181,14 @@ sovereign(obligation_to_state_practical_consequences_of_decision) :-
 
 % T-CLT-02: Banco de horas sem CCT não pode ultrapassar 6 meses
 % Âncora: Art. 59 §5° (prazo máximo), não Art. 59 caput (limite diário)
+% NOTE: P em meses (unidade canônica de hour_bank_period/1)
 :- hour_bank_period(P), P > 6,
    not collective_bargaining_agreement_active,
    elastic(hour_bank_without_cct_max_6_months).
 
 % T-CLT-03: Banco de horas COM CCT válido até 1 ano — STAC (theta < 30°)
 % (ausência de constraint = predicado ELASTIC corretamente satisfeito)
+% NOTE: P em meses (unidade canônica de hour_bank_period/1)
 hour_bank_valid_with_cct :-
     hour_bank_period(P), P <= 12,
     collective_bargaining_agreement_active,

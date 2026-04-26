@@ -7,6 +7,7 @@
 %   CF/88 Art. 3° — Objetivos fundamentais
 %   CF/88 Art. 4° — Princípios das relações internacionais
 %   CF/88 Art. 5° — Direitos e garantias fundamentais
+%   CF/88 Art. 23, II — Competência comum União-Estados-Municípios em saúde
 %   CF/88 Art. 60 §4° — Cláusulas pétreas
 %
 % Classificação: SOVEREIGN (cláusulas pétreas — invioláveis
@@ -82,6 +83,21 @@ sovereign(right_of_access_to_justice_and_judicial_review) :-
 %   separação de poderes, direitos e garantias individuais
 sovereign(entrenchment_clause_individual_rights) :-
     constitutional_basis("CF88_Art60_par4_IV").
+
+% --- Art. 23, II — Competência comum em saúde (federalismo sanitário) ---
+% Competência comum União-Estados-Municípios para cuidar da saúde e
+% assistência pública. Após ADI 6341/STF (2020), consolidada como
+% base da competência concorrente para medidas sanitárias durante
+% emergências de saúde pública.
+% CRÍTICO para C2 — funda constitucionalmente a articulação federativa
+% entre Decreto AM 43.303/2021 (estadual) e Portaria GM/MS 79/2021 (federal).
+%
+% NOTE: Art. 23 não é cláusula pétrea formal (Art. 60 §4° não o lista),
+%   mas é norma constitucional estruturante da federação sanitária.
+%   sovereign() aqui tem sentido de "constitucional-aplicável", não pétreo
+%   stricto sensu — distinção análoga à dos Arts. 1° e 3°.
+sovereign(common_competence_health_federal_state_municipal) :-
+    constitutional_basis("CF88_Art23_II").
 
 % --- Regras de aplicabilidade universal ---
 % Qualquer decisão algorítmica que viole os fundamentos acima

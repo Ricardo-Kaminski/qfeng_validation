@@ -3,32 +3,50 @@
 % Arquivo: brasil/saude/sus_direito_saude.lp
 %
 % Âncora normativa:
-%   CF/88 Art. 196 — Saúde como direito de todos e dever do Estado
+%   CF/88 Art. 196 — Saúde como direito de todos e dever do Estado (3 núcleos)
 %   CF/88 Art. 197 — Relevância pública das ações de saúde
 %   CF/88 Art. 198 — Sistema Único de Saúde
-%   CF/88 Art. 200 — Competências do SUS
+%   CF/88 Art. 200, II — Vigilância epidemiológica e sanitária
 %   Lei 8080/1990 Art. 2° — Direito à saúde
 %   Lei 8080/1990 Art. 7° — Princípios do SUS
-%   Lei 8080/1990 Art. 9° — Direção do SUS
+%   Lei 8080/1990 Art. 15, I — Atribuições comuns de controle/avaliação/fiscalização
 %
 % Classificação: SOVEREIGN
 %   (direito social fundamental — CF/88 Art. 6°,
 %    não pode ser suprimido por ato administrativo)
 %
 % Relevância para os cenários Q-FENG:
-%   - C1: CEAF — fornecimento contínuo de medicamentos
-%   - C2: Manaus — dever do Estado em emergência sanitária
+%   - C1: CEAF — deprecated (ver _deprecated/c1_ceaf_facts.lp)
+%   - C2: Manaus — vigilância epidemiológica como gatilho da cadeia normativa
 %   - C3: concentração regional — universalidade e equidade
 %   - C4a/b: constraint para decisão clínica algorítmica
 % ============================================================
 
-% --- CF/88 Art. 196 — Direito à saúde ---
-% Saúde é direito de todos e dever do Estado
-% garantido mediante políticas sociais e econômicas
+% --- CF/88 Art. 196 — Direito à saúde (três núcleos normativos) ---
+%
+% Texto pleno: "A saúde é direito de todos e dever do Estado, garantido
+% mediante políticas sociais e econômicas que visem à redução do risco
+% de doença e de outros agravos e ao acesso universal e igualitário às
+% ações e serviços para sua promoção, proteção e recuperação."
+%
+% O Art. 196 condensa três núcleos normativos distintos. Para fins
+% Q-FENG, desdobramos em três predicados independentes para permitir
+% invocação seletiva nos cenários:
+
+% Núcleo 1: direito-dever (estrutura subjetiva-objetiva)
 sovereign(right_to_health_as_duty_of_state) :-
     constitutional_basis("CF88_Art196").
 
-% Acesso universal e igualitário às ações e serviços de saúde
+% Núcleo 2: redução de risco de doença e outros agravos via políticas
+% sociais e econômicas. Funda epistemologicamente o argumento do
+% predictor BI multi-fonte (Caminho 2): TOH + SRAG + O₂ como série
+% temporal que mede precisamente "risco de doença e agravos" no sentido
+% constitucional.
+sovereign(obligation_reduce_disease_risk_via_social_economic_policies) :-
+    constitutional_basis("CF88_Art196").
+
+% Núcleo 3: acesso universal e igualitário às ações e serviços de saúde
+% para promoção, proteção e recuperação.
 sovereign(universal_equal_access_to_health_services) :-
     constitutional_basis("CF88_Art196").
 
@@ -50,9 +68,25 @@ sovereign(integrality_of_health_care) :-
 sovereign(community_participation_in_health) :-
     constitutional_basis("CF88_Art198_III").
 
-% --- Lei 8080/1990 Art. 6°, I, d — Assistência farmacêutica (CRÍTICO C1 CEAF) ---
-% Âncora direta do fornecimento contínuo de medicamentos no SUS
-% Sem este predicado o cenário C1 não tem base normativa no corpus
+% --- CF/88 Art. 200 — Competências do SUS ---
+% Art. 200, II: vigilância epidemiológica
+% Base constitucional para a cadeia: SIVEP-Gripe (vigilância) -> ESPIN (resposta)
+% -> Decreto AM 43.303/2021 (calamidade) -> obrigação de insumos.
+% CRÍTICO para C2 — funda constitucionalmente o cenário Manaus.
+sovereign(obligation_epidemiological_surveillance) :-
+    constitutional_basis("CF88_Art200_II").
+
+% Art. 200, II: vigilância sanitária (mesmo inciso, dimensão sanitária)
+sovereign(obligation_sanitary_surveillance) :-
+    constitutional_basis("CF88_Art200_II").
+
+% --- Lei 8080/1990 Art. 6°, I, d — Assistência farmacêutica integral ---
+% Âncora normativa do fornecimento contínuo de medicamentos no SUS.
+% Cobertura normativa relevante para qualquer cenário de assistência
+% farmacêutica no SUS — embora o cenário C1 CEAF tenha sido descartado
+% do conjunto canônico de validação Q-FENG (ver _deprecated/c1_ceaf_facts.lp),
+% o predicado permanece como base dogmática SOVEREIGN aplicável a
+% futuros cenários de saúde envolvendo continuidade de medicação.
 sovereign(right_to_integral_pharmaceutical_assistance) :-
     statutory_basis("Lei8080_Art6_I_d").
 
@@ -102,6 +136,15 @@ sovereign(epidemiology_based_priority_setting) :-
 sovereign(equity_in_health_assistance) :-
     statutory_basis("Lei8080_Art7_IV").
 
+% --- Lei 8080/1990 Art. 15 — Atribuições comuns de União/Estados/Municípios ---
+% Art. 15, I: definição das instâncias e mecanismos de controle, avaliação
+% e fiscalização das ações e serviços de saúde.
+% Base estatutária para competência emergencial nos três níveis federativos.
+% Invocado por emergencia_sanitaria.lp como suporte ao predicado
+% obligation_immediate_supply_critical_inputs_oxygen.
+sovereign(common_competence_health_control_evaluation_oversight) :-
+    statutory_basis("Lei8080_1990_Art15_I").
+
 % --- Predicados ELASTIC (moduláveis por portaria) ---
 % Organização de serviços por nível de complexidade
 elastic(organization_by_complexity_level) :-
@@ -118,7 +161,9 @@ elastic(resource_conjugation_for_health) :-
    sovereign(universality_of_access),
    statutory_basis("Lei8080_Art7_I").
 
-% Nenhum sistema pode produzir desigualdade regional sistêmica
-:- decision_output(_, regional_allocation),
-   increases_regional_inequality(regional_allocation),
+% Nenhuma decisão algorítmica pode produzir desigualdade regional sistêmica.
+% Generalizado para qualquer Action (não apenas regional_allocation literal),
+% análogo ao constraint correspondente em cf88_principios_fundamentais.lp.
+:- decision_output(_, Action),
+   increases_regional_inequality(Action),
    sovereign(equity_in_health_assistance).

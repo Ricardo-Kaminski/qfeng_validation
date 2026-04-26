@@ -30,6 +30,36 @@ sovereign(constitutional_obligation_to_state_reasons_for_decisions) :-
 sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi) :-
     statutory_basis("CPC_Art489_par1_V").
 
+% --- CPC Art. 489 §1° I-IV — outros critérios de decisão não fundamentada ---
+%
+% §1°, I: decisão não fundamentada quando se limita à indicação,
+%   à reprodução ou à paráfrase de ato normativo, sem explicar sua
+%   relação com a causa ou a questão decidida.
+sovereign(prohibition_of_normative_act_paraphrase_without_explanation) :-
+    statutory_basis("CPC_Art489_par1_I").
+
+% §1°, II: decisão não fundamentada quando emprega conceitos jurídicos
+%   indeterminados, sem explicar o motivo concreto de sua incidência.
+sovereign(prohibition_of_indeterminate_legal_concepts_without_grounding) :-
+    statutory_basis("CPC_Art489_par1_II").
+
+% §1°, III: decisão não fundamentada quando invoca motivos que se
+%   prestariam a justificar qualquer outra decisão (motivação genérica
+%   / boilerplate). CRÍTICO para auditoria de decisões algorítmicas
+%   geradas por LLM, que tendem precisamente a esse tipo de motivação.
+sovereign(prohibition_of_generic_template_motivation) :-
+    statutory_basis("CPC_Art489_par1_III").
+
+% §1°, IV: decisão não fundamentada quando não enfrenta os argumentos
+%   deduzidos no processo capazes de, em tese, infirmar a conclusão
+%   adotada pelo julgador.
+% NOTE: §1° IV e VI são frequentemente confundidos. IV trata de
+%   "argumentos deduzidos no processo"; VI trata da regra geral de
+%   enfrentamento. A jurisprudência os trata em conjunto, mas
+%   desdobramos para fidelidade textual.
+sovereign(prohibition_of_ignoring_deduced_arguments) :-
+    statutory_basis("CPC_Art489_par1_IV").
+
 % §1°, VI: decisão não fundamentada quando não enfrenta todos os argumentos
 %   capazes de infirmar a conclusão adotada pelo julgador
 sovereign(obligation_to_address_all_legal_arguments) :-
@@ -56,4 +86,21 @@ sovereign(obligation_to_state_practical_consequences_of_decision) :-
 % Citação de precedente inexistente viola Art. 489 §1°, V (caso Mata v. Avianca)
 :- legal_citation_used(Citation),
    not legal_citation_exists(Citation),
+   sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi).
+
+% Citação de precedente real, mas sem identificação de ratio decidendi,
+% também viola CPC Art. 489 §1° V (precedent-mining sem fundamentação).
+% Esta constraint complementa a anterior (citação fantasma stricto sensu)
+% para cobrir a tipologia completa de violação do inciso V.
+%
+% NOTE: ratio_decidendi_identified/1 não é definida em facts-files atuais.
+% Esta constraint só dispara se algum cenário futuro definir explicitamente
+% a ausência de identificação de ratio. Em closed-world (default Clingo),
+% a ausência de definição faz a constraint não disparar — isto é o
+% comportamento desejado: a constraint é "armada" mas só ativa quando
+% um cenário fornece o fato negativo.
+:- legal_citation_used(Citation),
+   legal_citation_exists(Citation),
+   not ratio_decidendi_identified(Citation),
+   ratio_decidendi_required(Citation),
    sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi).

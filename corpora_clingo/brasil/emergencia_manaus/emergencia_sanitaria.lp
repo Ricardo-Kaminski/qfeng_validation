@@ -50,6 +50,16 @@ sovereign(authorization_to_import_without_prior_registration) :-
     statutory_basis("Lei13979_Art3_VIII"),
     health_emergency_declared.
 
+% --- Lei 13.979/2020 Art. 3° §7° — Dispensa de licitação emergencial ---
+% Autoriza dispensa de licitação para aquisição de bens, serviços e
+% insumos relacionados ao enfrentamento da emergência de saúde pública.
+% Completa a cadeia jurídica do C2: Estado pode requisitar (Art. 3° VII)
+% e adquirir sem licitação (Art. 3° §7°), garantindo base legal completa
+% para a obrigação de fornecimento imediato de O₂.
+sovereign(authorization_to_dispense_bidding_in_emergency) :-
+    statutory_basis("Lei13979_Art3_par7"),
+    health_emergency_declared.
+
 % --- Portaria 188/2020 — ESPIN ---
 % Declaração de Emergência em Saúde Pública de Importância Nacional
 sovereign(espin_declaration_active) :-
@@ -113,13 +123,35 @@ sovereign(obligation_expand_medical_workforce_manaus_pandemic) :-
 obligation_expand_medical_workforce_manaus_pandemic :- sovereign(obligation_expand_medical_workforce_manaus_pandemic).
 
 % --- Predicados de estado operacional para C2 ---
-% Estados do sistema hospitalar Manaus (alimentados pelo predictor TimeSeries)
-% NOTE: Clingo usa inteiros — R em percentual (0-100), limiar 85%
+% Estados do sistema hospitalar Manaus (alimentados pelo predictor TimeSeries).
+% NOTE: Clingo usa inteiros — R em percentual (0-100).
+%
+% Limiar de TOH > 85%: âncora institucional na Ficha Técnica de Indicadores
+% da Atenção Hospitalar do MS (Taxa de Ocupação Hospitalar de UTI), elaborada
+% pela Coordenação-Geral de Atenção Hospitalar/DAHU/SAES/MS, com base na
+% literatura crítica brasileira (AMIB — Associação de Medicina Intensiva
+% Brasileira) que classifica TOH > 85% como "saturação operacional" — estado
+% em que o tempo de espera por leito UTI cresce não-linearmente e a
+% mortalidade por priorização inadequada aumenta significativamente.
+%
+% Limiar de oxigênio: ver oxygen_critical_threshold_days/1 abaixo (configurável).
+%
 hospital_capacity_critical :-
     hospital_occupancy_rate_pct(R), R > 85.
 
+% Limiar de cobertura de oxigênio crítico: 3 dias.
+% Critério operacional baseado no precedente Manaus 2021: White Martins
+% comunicou ao MS em 14/jan/2021 que não conseguiria repor estoque em
+% até 24-48h, configurando ponto de não-retorno operacional. O limiar
+% de 3 dias é uma janela de antecedência mínima para acionamento de
+% requisição emergencial (Lei 13.979/2020 Art. 3° VII) ou reorganização
+% logística (transporte aéreo, redirecionamento de pacientes).
+oxygen_critical_threshold_days(3).
+
 oxygen_supply_critical :-
-    oxygen_days_remaining(D), D < 3.
+    oxygen_days_remaining(D),
+    oxygen_critical_threshold_days(T),
+    D < T.
 
 % --- Constraints centrais do cenário C2 ---
 % Sistema não pode continuar operação autônoma com capacidade crítica
