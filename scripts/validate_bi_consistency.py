@@ -364,6 +364,31 @@ Prioridade: corrigir antes da regeneração da Tabela 7 na Fase 2.
 
     # --- bi_validation_report.md ---
     rho_str = f"{rho:.4f}" if rho_valid else "NaN (SRAG stub)"
+
+    # Pre-compute nested f-string values (Python 3.11: no :+.4f inside nested f-strings)
+    if not pca_res["stub_mode"]:
+        _toh_ld = "{:+.4f}".format(pca_res['loadings_pc1'][0])
+        _srag_ld = "{:+.4f}".format(pca_res['loadings_pc1'][1])
+        _var_exp = "{:.4f}".format(pca_res['variance_explained_pc1'])
+        _w_toh_p = "{:.4f}".format(w_toh_pca)
+        _w_srag_p = "{:.4f}".format(w_srag_pca)
+        _dw_str = "{:.4f}".format(delta_w)
+        _dw_label = "< 0.10 — coerência boa" if delta_w < DELTA_W_THRESHOLD else ">= 0.10 — divergência relevante"
+        _pca_section = (
+            "| Componente | Loading TOH | Loading SRAG | Var. Explicada |\n"
+            "|------------|-------------|--------------|----------------|\n"
+            "| PC1 | " + _toh_ld + " | " + _srag_ld + " | " + _var_exp + " |\n\n"
+            "- w_TOH PCA: " + _w_toh_p + "\n"
+            "- w_SRAG PCA: " + _w_srag_p + "\n"
+            "- |\u0394w| = " + _dw_str + " " + _dw_label
+        )
+        _pca_toh_str = _w_toh_p
+        _pca_srag_str = _w_srag_p
+    else:
+        _pca_section = "**Indisponível** — SRAG stub com variância zero."
+        _pca_toh_str = "N/A (stub)"
+        _pca_srag_str = "N/A (stub)"
+
     report_content = f"""# BI Bivariado Manaus — Relatório de Validação Cruzada
 
 **Data:** {date.today()}
@@ -399,22 +424,14 @@ Fonte: opendatasus.saude.gov.br/dataset/srag-2020 e srag-2021.
 
 ## 5. PCA Empírica (sanity check de pesos)
 
-{"**Indisponível** — SRAG stub com variância zero." if pca_res["stub_mode"] else f"""
-| Componente | Loading TOH | Loading SRAG | Var. Explicada |
-|------------|-------------|--------------|----------------|
-| PC1 | {pca_res["loadings_pc1"][0]:+.4f} | {pca_res["loadings_pc1"][1]:+.4f} | {pca_res["variance_explained_pc1"]:.4f} |
-
-- w_TOH PCA: {w_toh_pca:.4f}
-- w_SRAG PCA: {w_srag_pca:.4f}
-- |Δw| = {delta_w:.4f} {'< 0.10 — coerência boa' if delta_w < DELTA_W_THRESHOLD else '>= 0.10 — divergência relevante'}
-"""}
+{_pca_section}
 
 ## 6. Decisão Final de Pesos
 
 | Método | w_TOH | w_SRAG |
 |--------|-------|--------|
 | A priori (ficha técnica MS) | {W_TOH_APRIORI} | {W_SRAG_APRIORI} |
-| PCA empírica | {"N/A (stub)" if pca_res["stub_mode"] else f"{w_toh_pca:.4f}"} | {"N/A (stub)" if pca_res["stub_mode"] else f"{w_srag_pca:.4f}"} |
+| PCA empírica | {_pca_toh_str} | {_pca_srag_str} |
 | **Decisão final** | **{weights_final["w_TOH"]}** | **{weights_final["w_SRAG"]}** |
 
 **weights_decision_pending:** {weights_pending}

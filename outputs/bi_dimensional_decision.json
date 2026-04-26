@@ -1,0 +1,25 @@
+{
+  "decision_date": "2026-04-26",
+  "dimensions": [
+    "TOH",
+    "SRAG"
+  ],
+  "weights_apriori": {
+    "w_TOH": 0.5,
+    "w_SRAG": 0.5
+  },
+  "weights_pca": {
+    "w_TOH": null,
+    "w_SRAG": null
+  },
+  "pca_variance_explained_pc1": null,
+  "spearman_rho_toh_srag": null,
+  "decision_method": "apriori_only_stub_srag",
+  "weights_final": {
+    "w_TOH": 0.5,
+    "w_SRAG": 0.5
+  },
+  "weights_decision_pending": true,
+  "srag_is_stub": true,
+  "rationale_note": "Pesos a priori 50/50 refletem paridade institucional entre TOH UTI (ficha tecnica MS) e SRAG (vigilancia epidemiologica oficial SIVEP-Gripe). PCA empirica usada como sanity check; divergencia tolerada ate |Delta_w|<0.10. Decisao pendente enquanto SRAG stub ativo."
+}
