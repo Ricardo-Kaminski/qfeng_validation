@@ -1,0 +1,8 @@
+{
+  "decision": "Caminho C — bivariado canônico",
+  "decision_date": "2026-04-26",
+  "rationale": "Dados retrospectivos canônicos de empenhos SCTIE/MS para O₂ medicinal Manaus 2020-2021 não acessíveis via DEMAS/SEIDIGI no momento da execução da Fase 1. CNES-LT como proxy estrutural foi descartado para evitar introduzir indicador derivado (capacidade × consumo médio teórico) que não reflete diretamente a estrutura decisória institucional. A dimensão logística é tratada como limitação prospectiva: deployment futuro do predictor BI exigirá feed em tempo real de SCTIE/MS, registrado no §7.4 e §8 (Future Work) do paper canônico.",
+  "bi_dimensions_active": ["TOH", "SRAG"],
+  "bi_dimensions_prospective_only": ["O2_supply"],
+  "future_work_note": "Quando SCTIE/MS empenhos forem acessíveis (ou substituto canônico institucional, ex: PNAFM ou outro registro administrativo primário), o predictor BI passa a trivariado e o pipeline pode ser regenerado sem reescrita estrutural."
+}
