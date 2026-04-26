@@ -1,14 +1,8 @@
 # CHANGELOG — Histórico de versões do Paper 1
 
-Registra a evolução do Paper 1 (*Q-FENG: Operationalizing Cybernetic AI
-Governance through Neurosymbolic Quantum Interference*). Apenas mudanças
-**substantivas** (dados, achados, claims, nomenclatura de artefatos)
-são listadas. Revisões de redação, formatação e referências bibliográficas
-não geram entrada.
+Registra a evolução do Paper 1 (*Q-FENG: Operationalizing Cybernetic AI Governance through Neurosymbolic Quantum Interference*). Apenas mudanças **substantivas** (dados, achados, claims, nomenclatura de artefatos) são listadas. Revisões de redação, formatação e referências bibliográficas não geram entrada.
 
-A versão **canônica de trabalho** vive em `../PAPER1_CANONICO.md` (raiz de
-`docs/papers/paper1/`). Este diretório (`historico_submissoes/`) preserva
-snapshots anteriores para auditoria e reuso de seções já validadas.
+A versão **canônica de trabalho** vive em `../PAPER1_CANONICO.md` (raiz de `docs/papers/paper1/`). Este diretório (`historico_submissoes/`) preserva snapshots anteriores para auditoria e reuso de seções já validadas.
 
 ---
 
@@ -26,16 +20,9 @@ historico_submissoes/
     └── PAPER1_QFENG_FINAL_prob_dados_clingo_auditfixed_diagrams_v1.docx
 ```
 
-Os arquivos `.bak_YYYYMMDD_HHMMSS.docx` foram gerados por backup automático
-durante a sessão de auditoria de figuras e Clingo (24/abr/2026) e estão
-preservados apenas como segurança forense — não devem ser usados para reuso
-de conteúdo. A versão consolidada dessa sessão é
-`PAPER1_QFENG_FINAL_prob_dados_clingo_auditfixed.docx`, posteriormente
-revisada para o canônico atual após o refactor dos dados Manaus.
+Os arquivos `.bak_YYYYMMDD_HHMMSS.docx` foram gerados por backup automático durante a sessão de auditoria de figuras e Clingo (24/abr/2026) e estão preservados apenas como segurança forense — não devem ser usados para reuso de conteúdo. A versão consolidada dessa sessão é `PAPER1_QFENG_FINAL_prob_dados_clingo_auditfixed.docx`, posteriormente revisada para o canônico atual após o refactor dos dados Manaus.
 
-A pasta `docx_backups/` está listada no `.gitignore` da raiz e **não é
-versionada no remoto público** — preserva-se apenas localmente para
-acesso imediato sem precisar consultar o histórico Git.
+A pasta `docx_backups/` está listada no `.gitignore` da raiz e **não é versionada no remoto público** — preserva-se apenas localmente para acesso imediato sem precisar consultar o histórico Git.
 
 ---
 
@@ -46,6 +33,7 @@ acesso imediato sem precisar consultar o histórico Git.
 **Mudanças aplicadas:**
 
 ### Etapa 1 — Limpeza de escopo
+
 - C1 CEAF descartado do conjunto canônico de cenários ativos.
 - `c1_ceaf_facts.lp` movido para `_deprecated/` com header explicativo.
 - Comentário em `sus_direito_saude.lp` ajustado: predicados Lei 8080 Art. 6° I d permanecem (cobertura normativa SUS) sem invocação a C1.
@@ -82,19 +70,25 @@ acesso imediato sem precisar consultar o histórico Git.
 - Audit LAW-BR-04: predicado Mais Médicos renomeado (já existente).
 - Audit LAW-BR-05 [novo]: ancoragem dupla de Art. 611-B XVII com Art. 7° XXII.
 - Audit LAW-BR-06 [novo]: link Lei 8080 Art. 15 I implementado.
-- Audit LAW-BR-07 [novo]: deduplicação CPC.
-- Audit LAW-BR-08 [novo]: limiares operacionais documentados.
-- Audit LAW-BR-09 [novo]: cobertura tipológica CPC §1° I-IV.
+- Audit LAW-BR-07 \[novo\]: deduplicação CPC.
+- Audit LAW-BR-08 \[novo\]: limiares operacionais documentados.
+- Audit LAW-BR-09 \[novo\]: cobertura tipológica CPC §1° I-IV.
 
 ### Validação
+
 - Todos os arquivos passam `clingo --syntax-check`.
 - Todos os 7 cenários ativos validados via `scripts/validate_clingo_corpus.py`:
   - SAT: T-CLT-03, T-CLT-04
   - UNSAT: C2, C3, C7, T-CLT-01, T-CLT-02
 
 ### Documentação derivada
+
 - Diretórios criados: `artefatos/auditorias/`, `artefatos/notas_metodologicas/`, `docs/papers/paper1/_apendices/`.
-- Conteúdo (relatório operacional, apêndice acadêmico, notas metodológicas) a ser gerado em sessão subsequente.
+- Três artefatos gerados em sessão Opus 4.7 (chat) na própria data:
+  - `artefatos/auditorias/AUDITORIA_CORPUS_CLINGO_26abr2026.md` — relatório operacional, PT, 340 linhas. Cobre sumário executivo, topologia em três camadas, pendências por classe (A/B/C/D), 14 auditorias acumuladas, validação integrada, discussão dogmática (C-5, C-4, F0-1/C-6, LAW-BR-05, LAW-BR-08), pendências pós-auditoria, reprodutibilidade.
+  - `docs/papers/paper1/_apendices/apendice_corpus_clingo.md` — apêndice acadêmico, EN, 227 linhas. Cobre A.1 (topologia 3 camadas), A.2 (SOVEREIGN/ELASTIC), A.3 (cenários ativos pós-deprecação C1), A.4 (tabela de âncoras por cenário), A.5 (audits dogmaticamente densos), A.6 (validação 7/7), A.7 (limitações: defeasibility, arbitragem, tradução EN, auditoria EU/USA, jurisprudência TST expandida, reprodutibilidade).
+  - `artefatos/notas_metodologicas/NOTAS_CORPUS_CLINGO_para_canonico.md` — notas metodológicas, EN, 274 linhas. Seis snippets atômicos com diffs prontos para `edit_block` aplicação no `PAPER1_CANONICO.md`: Snippet 1 (§2.7 Topologia 3 camadas), Snippet 2 (§4.4 E4 com 3 critérios), Snippet 3 (§5.3 Limiares operacionais TOH/O₂), Snippet 4 (§5.3 Precedente real T-CLT-04), Snippet 5 (§7.4 Defeasibility + audit transparency), Snippet 6 (§7.4 EU/USA forthcoming).
+- Aplicação dos snippets ao `PAPER1_CANONICO.md` está **decoupled** desta auditoria e pode aguardar maturação do Caminho 2 (BI multi-fonte) — Snippet 3 sobre limiares operacionais pode precisar de ajuste após regeneração da Tabela 7 com BI multi-fonte.
 
 ---
 
@@ -102,10 +96,7 @@ acesso imediato sem precisar consultar o histórico Git.
 
 - **Arquivo de trabalho (MD):** `../PAPER1_CANONICO.md` (1.258 linhas, 220 KB)
 - **DOCX-fonte da conversão:** `../PAPER1_QFENG_FINAL.docx` (3,4 MB, modificado em 25/abr/2026)
-- **Renomeação em 26/abr/2026:** o DOCX-fonte canônico foi renomeado de
-  `PAPER1_QFENG_FINAL_revidando_final.docx` para `PAPER1_QFENG_FINAL.docx`,
-  consolidando a nomenclatura definitiva do projeto. Ver Notas de Manutenção.
-
+- **Renomeação em 26/abr/2026:** o DOCX-fonte canônico foi renomeado de `PAPER1_QFENG_FINAL_revidando_final.docx` para `PAPER1_QFENG_FINAL.docx`, consolidando a nomenclatura definitiva do projeto. Ver Notas de Manutenção.
 ### Mudanças substantivas em relação a `v_pre_revisao_manaus`
 
 | # | Tópico | Pré-revisão | Canônico |
