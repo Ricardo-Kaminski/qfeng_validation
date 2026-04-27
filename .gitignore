@@ -1,69 +1,134 @@
-# Byte-compiled
+# ============================================================
+# Q-FENG Validation - .gitignore
+# Politica: versionar ativos academicos e cientificos por padrao;
+# excluir caches, builds, dados regeneraveis e backups forenses.
+# Ultima revisao: 26/abr/2026 (Op. C)
+# ============================================================
+
+# --- Python: byte-compiled / virtualenvs ---
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Virtual environments
 .venv/
 venv/
 ENV/
 
-# IDE
+# --- IDE / editores ---
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Data files (large, downloaded separately)
-data/datasus/
-data/obermeyer/
-data/cms/
-*.csv
-*.parquet
-*.feather
+# --- Caches de tooling ---
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
 
-# But keep .gitkeep files
-!**/.gitkeep
-
-# Environment
-.env
-.env.local
-
-# OS
+# --- OS / sistema ---
 Thumbs.db
 .DS_Store
 
-# Jupyter
+# --- Jupyter ---
 .ipynb_checkpoints/
 
-# Distribution
+# --- Distribuicao Python ---
 dist/
 build/
 *.egg-info/
 
-# Outputs (regenerable)
-outputs/*.html
-outputs/*.pdf
-outputs/*.docx
+# --- Backups e lockfiles do MS Office ---
+*.bak_*
+~$*
+*.tmp
 
-# Papers and private docs (not for public repo)
-docs/
+# --- Secrets ---
+.env
+.env.local
+streamlit_app/.streamlit/secrets.toml
 
-# Claude Code internal settings
-.claude/
+# ============================================================
+# Dados grandes - regeneraveis ou de proveniencia externa
+# ============================================================
 
-# Raw corpora — reproducible via scripts/download_corpus.py
-corpora/
-
-# Large predictor datasets — reproducible via download scripts
+# Datasets pesados, baixados/regeneraveis via scripts
+data/datasus/
+data/obermeyer/
+data/cms/
 data/predictors/
 
-# Auto-generated knowledge graph (graphify hook)
+# Corpora normativos brutos - reproduziveis via scripts/download_corpus*.py
+corpora/
+
+# Grafo de conhecimento auto-gerado (graphify hook)
 graphify-out/
 
-# LLM pipeline caches — regenerable
-outputs/deontic_cache/
-outputs/deontic_cache_trabalhista/
+# Configuracoes internas do Claude Code
+.claude/
 
-# E1 chunked pipeline outputs — regenerable
-outputs/e1_chunks/
+# ============================================================
+# Tabular global - ignora por default, com excecoes pontuais
+# ============================================================
+
+*.csv
+*.parquet
+*.feather
+
+# Excecoes: manifests explicitos, .gitkeep, ground truth Clingo (futuro)
+!**/MANIFEST.csv
+!**/MANIFEST.md
+!**/.gitkeep
+
+# ============================================================
+# outputs/ - politica WHITELIST
+# Default: ignorar tudo (regeneravel via pipeline E0-E5).
+# Excecoes: relatorios *_report.md, manifests, READMEs, .gitkeep.
+# ============================================================
+
+outputs/**
+
+# Excecoes para whitelist de outputs/
+!outputs/
+!outputs/**/
+!outputs/**/MANIFEST.md
+!outputs/**/README.md
+!outputs/**/.gitkeep
+!outputs/**/*_report.md
+# Fase 2.1.5-bis: outputs auditaveis
+!outputs/**/*fase215bis*
+!outputs/**/*_decision.json
+!outputs/_archive/
+!outputs/_archive/**
+
+# ============================================================
+# docs/ - versionado por default, com excecoes para o repo remoto
+# Mantemos backups forenses LOCAL para acesso imediato sem
+# precisar consultar historico Git, mas sem inflar o remoto publico.
+# ============================================================
+
+# Backups forenses do paper (auditoria local, ~16 MB de .docx redundantes)
+docs/papers/paper1/historico_submissoes/docx_backups/
+
+# Lockfiles e backups automaticos do Word dentro de docs/
+docs/papers/**/*.bak_*
+docs/papers/**/~$*
+
+# ============================================================
+# Bibliografia/referencias teoricas - leitura local apenas
+# PDFs de papers terceiros (arXiv etc.) sao publicos via DOI/URL;
+# manter local para acesso offline mas nao versionar no repo.
+# Conversoes .txt para RAG sao derivadas, regeneraveis.
+# ============================================================
+
+artefatos/referencias_teoricas/**/*.pdf
+artefatos/referencias_teoricas/**/*.txt
+
+# ============================================================
+# Notas operacionais
+# - O canonico DOCX (docs/papers/paper1/PAPER1_QFENG_FINAL.docx)
+#   e versionado deliberadamente como seguro contra falhas de
+#   regeneracao via pandoc.
+# - Para inspecionar o que esta sendo ignorado: git status --ignored
+# - Para forcar inclusao pontual (ex.: parquet pequeno e estavel):
+#   git add -f caminho/do/arquivo.parquet
+# ============================================================
