@@ -218,7 +218,7 @@ serão documentados no relatório final com justificativa explícita.*
 **Tipo:** Emenda pré-execução LLM
 **Data da emenda:** 27 de abril de 2026, ~19h UTC-3
 **SHA do pré-registro original:** `4c24e14` (commit `frente2-a4: pre-registro OSF-style (ANTES de qualquer execucao LLM)`)
-**SHA desta emenda:** [a ser preenchido após commit desta operação]
+**SHA desta emenda:** `6d2f8ae` (commit `frente2-emenda: alinhamento estatistico-editorial H3+H5b pre-execucao`)
 **Justificativa:** alinhamento entre semântica estatística das hipóteses H3 e H5 e a reivindicação editorial de *agnosticismo de stack ML* registrada em `artefatos/notas_metodologicas/INSERCOES_NOVAS_SECOES_CANONICO.md` (Bloco B / §7.4 nova do canônico).
 
 **Status quanto à execução LLM:** Esta emenda é registrada **antes** de qualquer chamada LLM ter sido executada. O diretório `results/raw_responses/` permanecia vazio na auditoria pré-execução em 27/abr/2026 às 19h UTC-3. A integridade pré-registral é portanto preservada: nenhuma hipótese é modificada após observação de dados.
