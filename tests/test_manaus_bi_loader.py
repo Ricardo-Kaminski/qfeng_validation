@@ -86,9 +86,9 @@ def test_srag_has_covid():
 # ── Testes TOH ────────────────────────────────────────────────────────────────
 
 def test_toh_from_parquet():
-    """TOH semanal deve ter 73 SEs."""
+    """TOH semanal deve ter 74 SEs (Fase 2.1.5-bis: SE 10/2020–SE 30/2021)."""
     toh = _load_toh()
-    assert len(toh) == 73, f"TOH parquet deve ter 73 SEs, tem {len(toh)}"
+    assert len(toh) == 74, f"TOH parquet deve ter 74 SEs, tem {len(toh)}"
 
 
 def test_toh_peak_se3_2021():
@@ -99,19 +99,19 @@ def test_toh_peak_se3_2021():
     for se in [2, 3, 4]:
         try:
             val = toh.loc[(2021, se), "toh_uti_pct"]
-            if val >= 100.0:
+            if val >= 1.0:  # parquet armazena fração (0–2.12); 1.0 = 100%
                 peak_ok = True
                 break
         except KeyError:
             pass
-    assert peak_ok, "TOH deve atingir >= 100% em SE 2-4/2021 (colapso hospitalar documentado)"
+    assert peak_ok, "TOH deve atingir >= 100% (frac >= 1.0) em SE 2-4/2021 (colapso documentado)"
 
 
 # ── Testes da série bivariada ─────────────────────────────────────────────────
 
 def test_series_length(series):
-    """load_manaus_bi_series() deve retornar exatamente 73 SEs."""
-    assert len(series) == 73, f"Esperado 73 SEs, obtido {len(series)}"
+    """load_manaus_bi_series() deve retornar exatamente 74 SEs (SE 10/2020–SE 30/2021, incl. SE 53/2020)."""
+    assert len(series) == 74, f"Esperado 74 SEs, obtido {len(series)}"
 
 
 def test_peak_se(series):

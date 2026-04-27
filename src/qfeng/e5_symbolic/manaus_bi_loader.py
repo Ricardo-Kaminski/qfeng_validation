@@ -4,7 +4,8 @@ Substitui manaus_sih_loader.py como ponto de entrada canônico para o preditor
 BI bivariado do Caminho 2. Integra três fontes:
 
   - TOH semanal : data/predictors/manaus_bi/derived/toh_semanal_manaus.parquet
-                  73 SEs, interpolação linear FVS-AM. Fase 2 Tarefa 2.A.
+                  74 SEs, microdado DEMAS-VEPI real (Fase 2.1.5-bis).
+                  Exportado em percentual (0–211.5), pico SE 03/2021 = 211.5%.
   - SRAG semanal: data/predictors/manaus_bi/derived/srag_semanal_manaus.parquet
                   73 SEs, SIVEP-Gripe INFLUD20/21, is_stub=False. Fase 2 Tarefa 2.B.
   - SIH micro   : data/predictors/manaus_sih/sih_manaus_2020_2021.parquet
@@ -43,9 +44,9 @@ COVID_CIDS = {"J189", "J960", "J961", "J969", "U071", "U072", "B342"}
 
 # Janela de semanas epidemiológicas (SE 10/2020 → SE 30/2021 = 73 SEs)
 SE_WINDOW = [
-    *[(2020, w) for w in range(10, 53)],   # SE 10-52/2020 = 43 SEs
+    *[(2020, w) for w in range(10, 54)],   # SE 10-53/2020 = 44 SEs (2020 tem 53 semanas ISO)
     *[(2021, w) for w in range(1,  31)],   # SE  1-30/2021 = 30 SEs
-]
+]  # = 74 SEs total — alinhado com toh_semanal_manaus.parquet (Fase 2.1.5-bis)
 
 # Para mapeamento SE → mês (métricas SIH mensais)
 _MONTHS_PERIOD = [
@@ -54,9 +55,11 @@ _MONTHS_PERIOD = [
     (2021,  3), (2021,  4), (2021,  5), (2021,  6),
 ]
 
-# Bases psi_N (copiadas do manaus_sih_loader — NÃO MODIFICAR)
-_PSI_N_BASE   = np.array([0.7, 0.2, 0.1])
-_PSI_N_CRISIS = np.array([0.1, 0.3, 0.6])
+# Bases psi_N — idênticas ao manaus_sih_loader (NÃO MODIFICAR — contrato matemático Q-FENG)
+# ATENÇÃO: valores anteriores [0.7,0.2,0.1]/[0.1,0.3,0.6] eram incorretos;
+# causavam inversão: θ↑ em score=0, θ↓ em score=1 (oposto à hipótese de antecipação).
+_PSI_N_BASE   = np.array([0.50, 0.30, 0.20], dtype=np.float64)
+_PSI_N_CRISIS = np.array([0.93, 0.04, 0.03], dtype=np.float64)
 
 
 def _psi_n_from_score(score: float) -> np.ndarray:
@@ -90,8 +93,15 @@ def load_sih_with_fixed_tmort() -> pd.DataFrame:
 
 
 def _load_toh() -> pd.DataFrame:
-    """Carrega TOH semanal de derived/toh_semanal_manaus.parquet (Fase 2 Tarefa 2.A)."""
+    """Carrega TOH semanal de derived/toh_semanal_manaus.parquet (Fase 2.1.5-bis DEMAS-VEPI).
+
+    Parquet usa year_se/sem_epi (Task 4 schema); renomeados para year/week_se
+    para compatibilidade com SE_WINDOW.
+    toh_uti_pct está em fração (0–2.12); convertido para percentual (×100)
+    em load_manaus_bi_series() — Contrato reprodutibilidade Zenodo: unidade = %.
+    """
     toh = pd.read_parquet(TOH_PATH)
+    toh = toh.rename(columns={"year_se": "year", "sem_epi": "week_se"})
     toh = toh.set_index(["year", "week_se"])
     return toh
 
@@ -163,8 +173,11 @@ def load_manaus_bi_series() -> list[dict]:
 
         # TOH semanal
         toh_row = toh.loc[(year, week)] if (year, week) in toh.index else None
-        occ_pct = int(round(toh_row["toh_uti_pct"])) if toh_row is not None else 0
-        toh_estimated = bool(toh_row["is_estimated"]) if toh_row is not None else True
+        # ×100: toh_uti_pct é fração (0–2.12); hospital_occupancy_pct exportado em % (0–211.5)
+        # Guard NaN: SEs iniciais (SE 10-22/2020) têm toh_uti_pct=NaN (sem dados DEMAS-VEPI)
+        toh_val = toh_row["toh_uti_pct"] if toh_row is not None else float("nan")
+        occ_pct = int(round(toh_val * 100)) if (toh_row is not None and not np.isnan(toh_val)) else 0
+        toh_estimated = bool(toh_row["is_imputed"]) if toh_row is not None else True
 
         # SRAG semanal
         srag_row = srag.loc[(year, week)] if (year, week) in srag.index else None
@@ -188,7 +201,7 @@ def load_manaus_bi_series() -> list[dict]:
             "toh_is_estimated":    toh_estimated,
             "srag_n_covid":        n_covid,
             "srag_is_stub":        is_stub,
-            "data_source":         "sih_datasus+toh_fvs_am_semanal+srag_sivep",
+            "data_source":         "sih_datasus+toh_demas_vepi_semanal+srag_sivep",
         })
 
     # ── Pass 2: normalização de pressão ──────────────────────────────────

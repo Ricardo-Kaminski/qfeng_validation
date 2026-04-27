@@ -30,7 +30,7 @@ from .psi_builder import (
     serialize_psi,
 )
 from .scenario_loader import SCENARIO_REGISTRY, run_scenario, run_scenario_with_occupancy
-from .manaus_sih_loader import load_manaus_real_series
+from .manaus_bi_loader import load_manaus_bi_series, load_sih_with_fixed_tmort  # noqa: F401
 
 log = logging.getLogger(__name__)
 
@@ -232,14 +232,16 @@ def run_manaus_bootstrap_ci(manaus_rows: list[dict], n_samples: int = 500) -> li
     """Bootstrap 95% CI on theta_t for each month in the Manaus series.
 
     Perturbation: Gaussian noise on score_pressao.
-      σ=0.05 for real SIH months (Poisson count uncertainty at n≈300–700 admissions)
-      σ=0.10 for literature months (±10% relative, reflecting published range intervals)
+      σ=0.05 uniforme para todas as 73 SEs — todas provêm de fontes primárias
+      (DEMAS-VEPI microdado real + SRAG SIVEP-Gripe, Fase 2.1.5-bis).
+      A distinção anterior σ=0.05/0.10 por data_source refletia "literature months"
+      do pipeline mensal (manaus_sih_loader), aposentado na Frente 1.
+      Migração documentada como contrato de reprodutibilidade Zenodo v2026.04.
 
-    psi_S is cached per unique occupancy_pct — Clingo is called 12 times, not 6000.
-    Bootstrap then re-draws psi_N via _psi_n_from_score(perturbed_score), keeping
-    psi_S fixed (occupancy bucket does not change within score perturbation).
+    psi_S é cached por occupancy_pct único — Clingo chamado O(n_occ), não 73×500.
+    Bootstrap re-computa psi_N via _psi_n_from_score(perturbed_score), psi_S fixo.
     """
-    from .manaus_sih_loader import _psi_n_from_score
+    from .manaus_bi_loader import _psi_n_from_score
 
     rng = np.random.default_rng(42)
     psi_s_cache: dict[int, np.ndarray] = {}
@@ -253,7 +255,7 @@ def run_manaus_bootstrap_ci(manaus_rows: list[dict], n_samples: int = 500) -> li
         psi_s = psi_s_cache[occ]
 
         score = float(row["score_pressao"])
-        sigma = 0.05 if row["data_source"] == "sih_datasus" else 0.10
+        sigma = 0.05  # uniforme — todas as SEs são fontes primárias (Frente 1, Fase 2.1.5-bis)
 
         theta_samples = []
         for _ in range(n_samples):
@@ -352,17 +354,21 @@ _MANAUS_SERIES_LEGACY: list[dict] = [  # replaced by load_manaus_real_series()
 
 
 def run_theta_efetivo_manaus() -> list[dict]:
-    """Compute Markovian theta_efetivo series for Manaus Jul/2020–Jun/2021.
+    """Compute Markovian theta_efetivo series — 73 SEs semanais Manaus (SE 10/2020–SE 30/2021).
 
-    12-month series: Oct/2020–Mar/2021 from real SIH/DATASUS microdata;
-    Jul/2020–Sep/2020 and Apr/2021–Jun/2021 from published literature
-    (Sabino et al. 2021, Hallal et al. 2021, COSEMS-AM).
+    Migração Frente 1: substitui pipeline mensal (manaus_sih_loader, 12 competências)
+    pelo loader semanal bivariado (manaus_bi_loader, 73 SEs DEMAS-VEPI+SRAG SIVEP).
 
-    psi_S is time-varying: each month's Clingo run uses the documented
-    hospital_occupancy_rate_pct so sovereign(obligation_to_activate_coes)
-    fires naturally for months with occupancy > 85%.
+    Fonte TOH: microdado DEMAS-VEPI real (Fase 2.1.5-bis), pico SE 03/2021 = 211.5%.
+    psi_S é time-varying: cada SE usa hospital_occupancy_pct em % real (0–211).
+
+    Nota granularidade: delta_pressao e delta_theta são agora SE-a-SE (não mês-a-mês).
+    Isso afeta a interpretação narrativa: variações de ±ΔSE refletem mudanças semanais,
+    não mensais — reconhecer nos artefatos F1.3 e F1.4.
+
+    competencia: formato YYYYWW (ex: 202103 = SE 03/2021, não março/2021).
     """
-    real_series = load_manaus_real_series()
+    real_series = load_manaus_bi_series()
 
     theta_series = [row["theta_t"] for row in real_series]
     score_series = [row["score_pressao"] for row in real_series]
@@ -375,27 +381,32 @@ def run_theta_efetivo_manaus() -> list[dict]:
         te = theta_efetivo[i]
         prev_t = theta_series[i - 1] if i > 0 else theta_series[0]
         rows.append({
-            "competencia":        base["competencia"],
-            "ano_cmpt":           base["ano_cmpt"],
-            "mes_cmpt":           base["mes_cmpt"],
-            "theta_t":            base["theta_t"],
-            "theta_efetivo":      round(te, 4),
-            "alpha_t":            alphas[i],
-            "interference_regime": interference_regime(float(np.radians(te))),
-            "internacoes_total":  base["internacoes"],
-            "obitos_total":       base["obitos"],
-            "taxa_mortalidade":   base["taxa_mortalidade"],
-            "taxa_uti":           base["taxa_uti"],
-            "taxa_respiratorio":  base["taxa_respiratorio"],
-            "score_pressao":      base["score_pressao"],
-            "hospital_occupancy_pct": base["hospital_occupancy_pct"],
-            "delta_pressao":      round(
+            "competencia":           base["competencia"],     # YYYYWW (SE, não mês)
+            "year":                  base["year"],
+            "week_se":               base["week_se"],
+            "month_sih":             base["month_sih"],
+            "theta_t":               base["theta_t"],
+            "theta_efetivo":         round(te, 4),
+            "alpha_t":               alphas[i],
+            "interference_regime":   interference_regime(float(np.radians(te))),
+            "internacoes":           base["internacoes"],
+            "obitos":                base["obitos"],
+            "taxa_mortalidade":      base["taxa_mortalidade"],
+            "taxa_uti":              base["taxa_uti"],
+            "taxa_respiratorio":     base["taxa_respiratorio"],
+            "score_pressao":         base["score_pressao"],
+            "hospital_occupancy_pct": base["hospital_occupancy_pct"],  # em % (0–211)
+            "toh_is_estimated":      base["toh_is_estimated"],
+            "srag_n_covid":          base["srag_n_covid"],
+            "srag_is_stub":          base["srag_is_stub"],
+            # delta SE-a-SE (não mês-a-mês — ver docstring)
+            "delta_pressao":         round(
                 base["score_pressao"] - score_series[i - 1] if i > 0 else 0.0, 4
             ),
-            "delta_theta":        round(base["theta_t"] - prev_t if i > 0 else 0.0, 4),
-            "n_sovereign_ativados": base["n_sovereign_ativados"],
-            "data_source":        base["data_source"],
-            "evento_critico":     base["evento_critico"],
+            "delta_theta":           round(base["theta_t"] - prev_t if i > 0 else 0.0, 4),
+            "n_sovereign_ativados":  base["n_sovereign_ativados"],
+            "data_source":           base["data_source"],
+            "evento_critico":        base["evento_critico"],
         })
 
     return rows
