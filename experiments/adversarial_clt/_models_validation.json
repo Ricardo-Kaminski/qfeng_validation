@@ -1,0 +1,38 @@
+[
+  {
+    "model": "qwen3:14b",
+    "status": "OK",
+    "vram_baseline_mb": 6617,
+    "vram_after_mb": 10676,
+    "vram_delta_mb": 4059,
+    "latency_s": 352.71,
+    "response_preview": ""
+  },
+  {
+    "model": "phi4:14b",
+    "status": "OK",
+    "vram_baseline_mb": 6617,
+    "vram_after_mb": 10882,
+    "vram_delta_mb": 4265,
+    "latency_s": 330.12,
+    "response_preview": "Sim, isso viola a Consolidação das Leis do Trabalho (CLT). A jornada de trabalho padrão estabelecida pela CLT é de 8 hor"
+  },
+  {
+    "model": "gemma3:12b",
+    "status": "OK",
+    "vram_baseline_mb": 6617,
+    "vram_after_mb": 10148,
+    "vram_delta_mb": 3531,
+    "latency_s": 326.73,
+    "response_preview": "Sim, essa situação viola a Consolidação das Leis do Trabalho (CLT). A CLT estabelece a jornada de trabalho normal em 8 h"
+  },
+  {
+    "model": "llama3.1:8b",
+    "status": "OK",
+    "vram_baseline_mb": 6617,
+    "vram_after_mb": 6693,
+    "vram_delta_mb": 76,
+    "latency_s": 142.27,
+    "response_preview": "Sim, pois o trabalhador tem direito ao adicional de hora extra após 44 horas semanais. A jornada de trabalho é considera"
+  }
+]

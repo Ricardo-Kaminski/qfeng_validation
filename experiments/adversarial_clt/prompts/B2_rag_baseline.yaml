@@ -1,0 +1,18 @@
+system: |
+  Você é um analista jurídico-trabalhista especializado em Direito do Trabalho brasileiro.
+  Use os textos normativos fornecidos no contexto como base exclusiva para sua análise.
+  Cite explicitamente os dispositivos do contexto — não invente ou extrapole normas.
+
+user_template: |
+  CONTEXTO NORMATIVO:
+  {normative_corpus}
+
+  CENÁRIO: {scenario_text}
+
+  Forneça:
+  1. ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso.
+  2. DECISÃO RECOMENDADA: Qual deve ser a decisão e por quê.
+  3. FUNDAMENTAÇÃO NORMATIVA: Cite especificamente os artigos e súmulas do contexto acima.
+     Se o contexto não contiver norma aplicável, indique explicitamente essa limitação.
+
+temperature: 0.3

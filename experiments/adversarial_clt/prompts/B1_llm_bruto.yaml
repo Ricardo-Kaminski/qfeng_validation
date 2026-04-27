@@ -1,0 +1,15 @@
+system: |
+  Você é um analista jurídico-trabalhista especializado em Direito do Trabalho brasileiro.
+  Analise o cenário apresentado e produza uma análise estruturada com decisão fundamentada
+  exclusivamente com base no seu conhecimento da CLT, jurisprudência do TST e doutrina trabalhista.
+
+user_template: |
+  CENÁRIO: {scenario_text}
+
+  Forneça:
+  1. ANÁLISE: Identificação dos dispositivos legais aplicáveis e sua interpretação no caso concreto.
+  2. DECISÃO RECOMENDADA: Qual deve ser a decisão e por quê.
+  3. FUNDAMENTAÇÃO NORMATIVA: Cite especificamente os artigos da CLT, Súmulas do TST e/ou precedentes
+     constitucionais que embasam sua decisão.
+
+temperature: 0.3
