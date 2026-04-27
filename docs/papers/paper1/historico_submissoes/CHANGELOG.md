@@ -373,4 +373,31 @@ INFLUD20/21 (2,9 GB, CO_MUN_RES=130260, SEM_NOT SE 10/2020–SE 30/2021) process
 
 ---
 
-*Última atualização: 26/abr/2026 (Fase 2.1.5 — reorientação granular semanal, pca_validated 50/50).*
+*Última atualização: 27/abr/2026 (Fase 2.1.5-bis — refundação TOH primário DEMAS-VEPI microdado real).*
+
+---
+
+## Fase 2.1.5-bis (2026-04-27) — Refundação TOH primário
+
+**Branch:** caminho2
+
+### Correção
+- Bug Fase 2.1.5 identificado: parse DEMAS-VEPI com `sep=";"` em CSV `sep=","` causou descarte falso da fonte primária e fallback forçado para FVS-AM.
+- TOH FVS-AM (interpolação patamares constantes) substituído por TOH DEMAS-VEPI microdado real.
+- Spearman ρ(TOH × SRAG) recalculado: **0.462** (lag=0), **0.624** (lag=+3 SEs); PCA PC1=71.5%. Anterior: ρ=0.472 (artefato FVS-AM).
+- TOH pico: 2021-W03 = **2.115** (211% — colapso hospitalar documentado Manaus jan/2021, leitos emergenciais não declarados no CNES-LT).
+
+### Adições
+- `data/predictors/manaus_bi/derived/cnes_lt_manaus_uti_mensal.parquet` — denominador mensal CNES-LT (24 meses, 288→395 leitos UTI adulto)
+- `data/predictors/manaus_bi/derived/demas_vepi_manaus_uti_diario.parquet` — numerador diário DEMAS-VEPI (12.929 registros dia×CNES)
+- `data/predictors/manaus_bi/derived/toh_semanal_manaus.parquet` — TOH semanal municipal SE 10/2020–SE 30/2021 (74 SEs)
+- `data/predictors/manaus_bi/raw/source_manifest.json` — cadeia de proveniência SHA256 (2 CSVs VEPI + 24 DBC CNES-LT + 2 CSVs SRAG/SIVEP)
+- `outputs/cross_validacao_fvs_demas_fase215bis.csv` — cross-validação FVS-AM × DEMAS-VEPI (12 meses, ρ=0.865)
+- `outputs/correlacao_toh_srag_fase215bis.json` — correlação TOH × SRAG com análise de lag
+- `outputs/relatorio_fase215bis_executivo.md` — relatório executivo completo
+
+### Implicações para o Paper 1
+- **§6.1:** TOH agora calculado de microdado real (não interpolação); afirmação de pesos 50/50 mantida e reforçada (PCA PC1=71.5% > 70% threshold).
+- **§6.4 / Tabela 7:** ρ=0.462 (lag=0) documentado; lag natural de +3 SEs (SRAG reporta hospitalização ~3 SEs antes do pico UTI) deve ser discutido na metodologia.
+- **§7.3:** TOH > 1.0 no pico constitui evidência de Fricção Ontológica: CNES-LT declara capacidade formal de 319 leitos (jan/2021), DEMAS-VEPI registra 675 leitos em uso (inclui leitos emergenciais improvisados, não declarados no CNES-LT).
+- **Figura 3:** pendente de regeneração com série TOH real (source=`demas_vepi_local_microdado_v2026.04`).

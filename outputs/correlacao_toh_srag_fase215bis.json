@@ -1,0 +1,42 @@
+{
+  "n_se": 74,
+  "n_se_validas": 71,
+  "spearman_rho": 0.462,
+  "spearman_p": 4.987e-05,
+  "pearson_r": 0.4299,
+  "pearson_p": 0.00018314,
+  "pca_pc1_var_explained": 0.7149,
+  "pca_validated": true,
+  "lag_analysis": [
+    {
+      "lag_se": -3,
+      "spearman": 0.1755
+    },
+    {
+      "lag_se": -2,
+      "spearman": 0.2435
+    },
+    {
+      "lag_se": -1,
+      "spearman": 0.3757
+    },
+    {
+      "lag_se": 0,
+      "spearman": 0.462
+    },
+    {
+      "lag_se": 1,
+      "spearman": 0.5417
+    },
+    {
+      "lag_se": 2,
+      "spearman": 0.584
+    },
+    {
+      "lag_se": 3,
+      "spearman": 0.6236
+    }
+  ],
+  "lag_optimal": 3,
+  "lag_optimal_rho": 0.6236
+}

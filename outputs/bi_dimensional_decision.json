@@ -1,5 +1,5 @@
 {
-  "decision_date": "2026-04-26",
+  "decision_date": "2026-04-27",
   "dimensions": [
     "TOH",
     "SRAG"
@@ -8,18 +8,22 @@
     "w_TOH": 0.5,
     "w_SRAG": 0.5
   },
-  "weights_pca": {
-    "w_TOH": null,
-    "w_SRAG": null
-  },
-  "pca_variance_explained_pc1": null,
-  "spearman_rho_toh_srag": null,
-  "decision_method": "apriori_only_pending_pca_validation",
-  "weights_final": {
-    "w_TOH": 0.5,
-    "w_SRAG": 0.5
-  },
-  "weights_decision_pending": true,
-  "srag_is_stub": true,
-  "rationale_note": "Pesos a priori 50/50 refletem paridade institucional: TOH UTI via Ficha Técnica MS/FVS-AM; SRAG via SIVEP-Gripe INFLUD20/21. Validação cruzada (Spearman rho, PCA empírica, |Delta_w|<0.10) formalmente diferida para Fase 2, condicionada à extração do SRAG real via opendatasus.saude.gov.br. Critérios de sucesso rho>0.50 e |Delta_w|<0.10 não avaliados na Fase 1. decision_method será atualizado para 'pca_validated' após Fase 2."
+  "srag_is_stub": false,
+  "decision_method": "spearman_pca_demas_vepi_real_fase215bis",
+  "spearman_rho": 0.462,
+  "spearman_p": 4.987e-05,
+  "pearson_r": 0.4299,
+  "pearson_p": 0.00018314,
+  "pca_pc1_var_explained": 0.7149,
+  "pca_validated": true,
+  "lag_optimal_se": 3,
+  "lag_optimal_rho": 0.6236,
+  "n_se_window": 74,
+  "n_se_validas": 71,
+  "toh_source": "demas_vepi_local_microdado_v2026.04",
+  "toh_pico_pct": 2.1151,
+  "toh_pico_se": "2021-W03",
+  "notes": "Refundacao pos-Fase 2.1.5: TOH primario reconstruido a partir de microdados DEMAS-VEPI locais (CSV anuais nacionais filtrados Manaus) + denominador CNES-LT mensal. Substitui TOH FVS-AM agregado narrativo da Fase 2.1.5. Bug original Fase 2.1.5: parse com sep=';' em CSV sep=',' causou descarte falso. Abordagem municipal (sum todos CNES / capacidade_total_mes) adotada porque matching por CNES retorna apenas 34% de cobertura (leitos emergenciais nao declarados em CNES-LT). TOH pico > 1.0 e consistente com colapso documentado Manaus jan/2021 (sistema operando acima da capacidade declarada).",
+  "fase": "2.1.5-bis",
+  "data_atualizacao_iso": "2026-04-27T04:27:40.852451Z"
 }

@@ -1,0 +1,25 @@
+{
+  "decision_date": "2026-04-26",
+  "dimensions": [
+    "TOH",
+    "SRAG"
+  ],
+  "weights_apriori": {
+    "w_TOH": 0.5,
+    "w_SRAG": 0.5
+  },
+  "weights_pca": {
+    "w_TOH": null,
+    "w_SRAG": null
+  },
+  "pca_variance_explained_pc1": null,
+  "spearman_rho_toh_srag": null,
+  "decision_method": "apriori_only_pending_pca_validation",
+  "weights_final": {
+    "w_TOH": 0.5,
+    "w_SRAG": 0.5
+  },
+  "weights_decision_pending": true,
+  "srag_is_stub": true,
+  "rationale_note": "Pesos a priori 50/50 refletem paridade institucional: TOH UTI via Ficha Técnica MS/FVS-AM; SRAG via SIVEP-Gripe INFLUD20/21. Validação cruzada (Spearman rho, PCA empírica, |Delta_w|<0.10) formalmente diferida para Fase 2, condicionada à extração do SRAG real via opendatasus.saude.gov.br. Critérios de sucesso rho>0.50 e |Delta_w|<0.10 não avaliados na Fase 1. decision_method será atualizado para 'pca_validated' após Fase 2."
+}

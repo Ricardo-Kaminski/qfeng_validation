@@ -1,0 +1,156 @@
+{
+  "fase": "2.1.5-bis",
+  "data_geracao_iso": "2026-04-27T04:27:40.853453Z",
+  "fontes": {
+    "demas_vepi": [
+      {
+        "path": "api_demas_vepi/esus-vepi.LeitoOcupacao_2020.csv",
+        "sha256": "e5b70b70fd3806203965c4e13f17b7615b23985d0c2566c1df6173e8a13abcba",
+        "size_bytes": 124787562,
+        "data_download": "2026-04-27 (download manual Ricardo)"
+      },
+      {
+        "path": "api_demas_vepi/esus-vepi.LeitoOcupacao_2021.csv",
+        "sha256": "b380e2185e0d993b16b9df586a6722eb6be04cf9348dbc995770c5b5e7c88798",
+        "size_bytes": 166970416,
+        "data_download": "2026-04-27 (download manual Ricardo)"
+      }
+    ],
+    "cnes_lt_am": [
+      {
+        "path": "cnes_lt_am/LTAM2001.dbc",
+        "sha256": "8b98a69445e74bbfe3896d33ea9dc450fc025d1cf46b8c3520cf56ebde965863",
+        "size_bytes": 8585
+      },
+      {
+        "path": "cnes_lt_am/LTAM2002.dbc",
+        "sha256": "bdd6e7fc370b55a32a092c71d17a3d02256a5adf582cc579620d342958c29ccb",
+        "size_bytes": 8714
+      },
+      {
+        "path": "cnes_lt_am/LTAM2003.dbc",
+        "sha256": "eaaa0f6962089283f6c06255121213ed2d247d39c6041a860f25a860de86e926",
+        "size_bytes": 8810
+      },
+      {
+        "path": "cnes_lt_am/LTAM2004.dbc",
+        "sha256": "8749b2036fd668bdf05db96e01411abb4dc2bee5bfc97c7836a227744561b117",
+        "size_bytes": 8943
+      },
+      {
+        "path": "cnes_lt_am/LTAM2005.dbc",
+        "sha256": "af4106b58e89cbdf0cf5d1194aa4482613a90a36ca3317e72f82493070112374",
+        "size_bytes": 8968
+      },
+      {
+        "path": "cnes_lt_am/LTAM2006.dbc",
+        "sha256": "8b29ccc86d93da2cbf27c0365579e0048a4ef1dd60ffe8cc6ca849b3d1495d51",
+        "size_bytes": 9027
+      },
+      {
+        "path": "cnes_lt_am/LTAM2007.dbc",
+        "sha256": "37e8fe3a33a7f3212f89566193d23ce5d1021465deec167c9420783625b06a05",
+        "size_bytes": 9087
+      },
+      {
+        "path": "cnes_lt_am/LTAM2008.dbc",
+        "sha256": "6a8705201a89d3848c343eee5ef78cae6c37b36f2960e0f7aef8072bd5f72a34",
+        "size_bytes": 9139
+      },
+      {
+        "path": "cnes_lt_am/LTAM2009.dbc",
+        "sha256": "882d7a93bc028d00a7c74b589e51c97206f39465f3814f8bb354f1b3a86a74be",
+        "size_bytes": 9194
+      },
+      {
+        "path": "cnes_lt_am/LTAM2010.dbc",
+        "sha256": "21310c44df59a72b68a931c82638b34f558a04aac3b46aa6873b4c75d58b4670",
+        "size_bytes": 9200
+      },
+      {
+        "path": "cnes_lt_am/LTAM2011.dbc",
+        "sha256": "a8292968e1ef1a1f625129e683f9f5fe86d1e7e81576f67d1e4b6be12dd49568",
+        "size_bytes": 9146
+      },
+      {
+        "path": "cnes_lt_am/LTAM2012.dbc",
+        "sha256": "9b30ee1668dde41b5802343fac12b0e9940b0c06d9b3ead84f0ee84ceb08f154",
+        "size_bytes": 9263
+      },
+      {
+        "path": "cnes_lt_am/LTAM2101.dbc",
+        "sha256": "46d9cd54c969c7321a62fa35b32844dfb5122192caedf20e588c6d3a6b043eb7",
+        "size_bytes": 9387
+      },
+      {
+        "path": "cnes_lt_am/LTAM2102.dbc",
+        "sha256": "7e2f976cfe52317358635612162b2dda4f0be60c904f19a7af7c8a1ab0a5aabc",
+        "size_bytes": 9411
+      },
+      {
+        "path": "cnes_lt_am/LTAM2103.dbc",
+        "sha256": "2c324b9cd8e1a220121b8cd200ef81111442d60c288b955a4668ea5bba9992d7",
+        "size_bytes": 9520
+      },
+      {
+        "path": "cnes_lt_am/LTAM2104.dbc",
+        "sha256": "0db98c2a67a4ccf914c827b3a172b0c78b7d0fd8602b8846ea84b3ce62a10c27",
+        "size_bytes": 9498
+      },
+      {
+        "path": "cnes_lt_am/LTAM2105.dbc",
+        "sha256": "44e25198c0d7c299772013476b49f1c16886c6519c2a85887028d9fa1f38fff8",
+        "size_bytes": 9551
+      },
+      {
+        "path": "cnes_lt_am/LTAM2106.dbc",
+        "sha256": "9e10d8d3e211abe187fdbee600f9ce11b6ba428ffc2790fa56ff9a1df7663bc7",
+        "size_bytes": 9519
+      },
+      {
+        "path": "cnes_lt_am/LTAM2107.dbc",
+        "sha256": "1452bf642cba7682ba9e9233a8233e5acb1e41721c78f621a2d319543d54a6c2",
+        "size_bytes": 9482
+      },
+      {
+        "path": "cnes_lt_am/LTAM2108.dbc",
+        "sha256": "63d00ac4487102d6f3970c9679ce2ca2a1633c5dc83975bf709ce1adb3b2a2d0",
+        "size_bytes": 9551
+      },
+      {
+        "path": "cnes_lt_am/LTAM2109.dbc",
+        "sha256": "fa9c0e6ab8c122c92446604681b020f00773efcd6603b21e242cf6d7868e6e0e",
+        "size_bytes": 9571
+      },
+      {
+        "path": "cnes_lt_am/LTAM2110.dbc",
+        "sha256": "e1f60f3e1ee6700610a5977db34638cac7ab0b1224cc894eece7078192078b27",
+        "size_bytes": 9646
+      },
+      {
+        "path": "cnes_lt_am/LTAM2111.dbc",
+        "sha256": "9a0f30ed35adc13a68a6c54c5e0e0985487b71a779936b75f690991ae3725562",
+        "size_bytes": 9655
+      },
+      {
+        "path": "cnes_lt_am/LTAM2112.dbc",
+        "sha256": "462c048f8e108e43481e4bfb88c0b85fbcedecbebe95fd46e10660668afb10f1",
+        "size_bytes": 9560
+      }
+    ],
+    "srag_sivep": [
+      {
+        "path": "srag_manaus_sivep/INFLUD20-23-03-2026.csv",
+        "sha256": "75fd5cf13befd9712252f67fd92745d7c4638274db21b79a829b6682f7b67e50",
+        "size_bytes": 1259748695,
+        "data_download": "2026-03-23 (download manual Ricardo)"
+      },
+      {
+        "path": "srag_manaus_sivep/INFLUD21-23-03-2026.csv",
+        "sha256": "c64f07dbd4a95b85c29b1c6d2a97d560d65b0604a1b2bf91ed4bae5ad4c379cf",
+        "size_bytes": 1825519583,
+        "data_download": "2026-03-23 (download manual Ricardo)"
+      }
+    ]
+  }
+}
