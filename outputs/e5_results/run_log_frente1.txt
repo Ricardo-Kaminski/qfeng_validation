@@ -1,0 +1,49 @@
+{
+  "run_date": "2026-04-27",
+  "loader": "manaus_bi_loader.load_manaus_bi_series (Fase 2.1.5-bis)",
+  "n_se": 74,
+  "se_window": "SE 10/2020 - SE 30/2021 (incl. SE 53/2020)",
+  "toh_source": "DEMAS-VEPI microdado real",
+  "toh_peak": {
+    "se": "202103",
+    "week": 3,
+    "year": 2021,
+    "occ_pct": 212
+  },
+  "theta_t": {
+    "min": 100.59,
+    "max": 133.07,
+    "n_cb": 25,
+    "n_hitl": 49,
+    "n_stac": 0,
+    "pct_cb": 33.8
+  },
+  "theta_efetivo": {
+    "min": 101.91,
+    "max": 132.78,
+    "n_cb": 26
+  },
+  "sigma_bootstrap": "0.05 uniforme (todas fontes primárias)",
+  "psi_n_vectors": {
+    "base": [
+      0.5,
+      0.3,
+      0.2
+    ],
+    "crisis": [
+      0.93,
+      0.04,
+      0.03
+    ],
+    "note": "corrected from wrong [0.7,0.2,0.1]/[0.1,0.3,0.6] in original bi_loader"
+  },
+  "outputs": [
+    "theta_efetivo_manaus.parquet",
+    "validation_results.parquet",
+    "manaus_bootstrap_ci.parquet",
+    "psi_sensitivity.parquet",
+    "threshold_robustness.parquet",
+    "llm_comparison.parquet"
+  ],
+  "desvio_criterio_50pct": "theta_t > 120 em 33.8% das SEs (critério briefing: 50%). Desvio documentado — granularidade semanal revela CB concentrado em ondas (jan-fev/2021), nao distribuido. theta_efetivo > 120 em 35.1% apos Markov."
+}

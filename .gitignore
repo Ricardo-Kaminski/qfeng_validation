@@ -97,6 +97,13 @@ outputs/**
 # Fase 2.1.5-bis: outputs auditaveis
 !outputs/**/*fase215bis*
 !outputs/**/*_decision.json
+# Frente 1: logs de execucao, analises e relatorios
+!outputs/e5_results/run_log_frente1.txt
+!outputs/RELATORIO_FRENTE1_FINAL.md
+!outputs/frente1_delta_se_antecipacao.json
+!outputs/frente1_analise_descritiva.md
+!outputs/figures/
+!outputs/figures/**
 !outputs/_archive/
 !outputs/_archive/**
 # Derived parquets Caminho2 (calculados, sem dados brutos pesados)
