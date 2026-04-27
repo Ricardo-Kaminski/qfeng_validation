@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-04-26T22:17:41.298082",
+  "output_file": "data/predictors/manaus_bi/derived/srag_semanal_manaus.parquet",
+  "total_semanas": 73,
+  "total_covid": 21212,
+  "total_obitos": 10110,
+  "sources": [
+    {
+      "file": "INFLUD20-23-03-2026.csv",
+      "year": 2020,
+      "se_window": [
+        10,
+        52
+      ],
+      "sha256": "75fd5cf13befd9712252f67fd92745d7c4638274db21b79a829b6682f7b67e50",
+      "size_bytes": 1259748695
+    },
+    {
+      "file": "INFLUD21-23-03-2026.csv",
+      "year": 2021,
+      "se_window": [
+        1,
+        30
+      ],
+      "sha256": "c64f07dbd4a95b85c29b1c6d2a97d560d65b0604a1b2bf91ed4bae5ad4c379cf",
+      "size_bytes": 1825519583
+    }
+  ],
+  "filter": "CO_MUN_RES=130260 (Manaus)",
+  "is_stub": false
+}
