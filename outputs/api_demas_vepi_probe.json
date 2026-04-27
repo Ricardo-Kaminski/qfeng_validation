@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-04-26",
+  "note": "Probe executado na sessao 26/abr/2026. 10 paginas x 1000 registros = 10.000 amostrados.",
+  "total_amostrado": 10000,
+  "manaus_records": 89,
+  "manaus_pct": 0.89,
+  "uti_fields_filled": 0,
+  "viavel": false,
+  "decisao": "FALLBACK: interpolacao linear FVS-AM mensal para semanal",
+  "motivo": [
+    "ocupacaohospitalaruti=null em todos registros Manaus (sem capacidade total UTI)",
+    "Filtro server-side por municipio nao funciona na API",
+    "Manaus < 1% dos registros totais — paginacao completa inviavel (estimado >1M paginas)"
+  ],
+  "dates_range": []
+}
