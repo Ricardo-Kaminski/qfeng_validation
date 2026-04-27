@@ -308,6 +308,55 @@ Decisão pendente com o autor antes da Fase 3.
 
 ---
 
+## 26/abr/2026 — Fase 2.1.5 Reorientação granular BI Manaus (Caminho 2)
+
+**Escopo:** Substituição de granularidade mensal por semanal (SE); desbloqueio de SRAG com INFLUD20/21 locais; API DEMAS-VEPI descartada (sem campo de capacidade UTI); pesos 50/50 validados por PCA.
+
+**Commits:** `f4e652c` (2.A) · `531bf4e` (2.B) · `322b42e` (2.C) · `99fa11e` (2.D)
+
+### Tarefa 2.A — TOH semanal via interpolação FVS-AM
+
+API DEMAS-VEPI (MS) verificada: `ocupacaohospitalaruti`=null em todos os registros de Manaus (n=89 de 10.000 amostrados). Fallback: interpolação linear dos 12 meses FVS-AM → 73 SEs.
+
+Output: `data/predictors/manaus_bi/derived/toh_semanal_manaus.parquet` (73 SEs, is_estimated=True). Pico SE 3/2021 = 103.7% (FVS-AM: 104%). Diagnóstico API em `outputs/api_demas_vepi_probe.json`.
+
+### Tarefa 2.B — SRAG semanal nativa via INFLUD20/21
+
+INFLUD20/21 (2,9 GB, CO_MUN_RES=130260, SEM_NOT SE 10/2020–SE 30/2021) processados localmente em chunks (100 k linhas/vez). Pico: SE 3/2021 com 1.447 casos COVID e 778 óbitos.
+
+- n_covid total: **21.212** | n_obitos: **10.110** | **is_stub=False**
+- Output: `data/predictors/manaus_bi/derived/srag_semanal_manaus.parquet` (73 SEs)
+- SHA256 dos INFLUD em `outputs/source_manifest_srag.json`
+
+### Tarefa 2.C — Revalidação cruzada bivariada semanal
+
+| Métrica | Valor | Critério | Status |
+|---------|-------|----------|--------|
+| Spearman ρ(TOH, n_covid) | +0.472 | > 0.50 | ⚠ Abaixo¹ |
+| Spearman ρ(TOH, n_obitos) | +0.393 | — | sig. p=0.001 |
+| PCA PC1 variância | 70.2% | ≥ 70% | ✓ |
+| Pesos PCA (TOH / SRAG) | 50% / 50% | apriori 50/50 | ✓ pca_validated |
+
+¹ ρ=0.472 < 0.50: esperado — FVS-AM não sistemático antes de jul/2020; TOH fixo em 30% para SE 10-28/2020 enquanto SRAG registra primeiro pico (876-1031 casos/semana). Achado metodológico documentado para §6.4 do Paper 1.
+
+**Decisão final:** `pca_validated` — pesos 50/50 confirmados empiricamente (delta=0.0000).
+
+### Tarefa 2.D — Archive + refactor loader semanal
+
+- `toh_uti_manaus.parquet` → `_archived/toh_fvs_am_fase1/toh_uti_manaus_mensal.parquet`
+- `srag_manaus.parquet` → `_archived/srag_stub_fase1/srag_manaus_stub.parquet`
+- `manaus_bi_loader.py` refatorado para granularidade SE, paths `derived/`, `is_stub=False` assertado
+- 15/15 testes passando (incluindo `test_srag_real` sem skip)
+
+### Implicações para o Paper 1
+
+- **Pesos 50/50 validados por PCA** — afirmação do §6.1 robustecida com dado empírico real.
+- **§6.4** deve documentar: ρ=0.472 com explicação metodológica (cobertura TOH pré-jul/2020).
+- **Tabela 7 e Figura 3** ainda pendentes de regeneração com t_mort=0.18 (Fase 3).
+- **§7.4** ainda pendente de nota sobre O₂ prospectivo-only (Fase 1 Tarefa 1.3).
+
+---
+
 ## Convenção de versionamento
 
 - **Snapshots MD** seguem `PAPER1_v_<descritor_curto>.md` (ex.:
@@ -324,4 +373,4 @@ Decisão pendente com o autor antes da Fase 3.
 
 ---
 
-*Última atualização: 26/abr/2026 (Fase 2 BI bivariado — parcial).*
+*Última atualização: 26/abr/2026 (Fase 2.1.5 — reorientação granular semanal, pca_validated 50/50).*
