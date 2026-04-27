@@ -104,6 +104,8 @@ outputs/**
 !data/predictors/manaus_bi/
 !data/predictors/manaus_bi/derived/
 !data/predictors/manaus_bi/derived/*.parquet
+!data/predictors/manaus_bi/_archive/
+!data/predictors/manaus_bi/_archive/*.parquet
 
 # ============================================================
 # docs/ - versionado por default, com excecoes para o repo remoto
