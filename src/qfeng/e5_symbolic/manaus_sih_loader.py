@@ -1,3 +1,15 @@
+# DEPRECATED — substituido por manaus_bi_loader.py (Fase 2 Tarefa 2.2, 26/abr/2026)
+#
+# Este modulo e mantido para auditoria forense e como referencia da implementacao original.
+# NAO usar em novos fluxos — usar manaus_bi_loader.load_manaus_bi_series() no lugar de
+# load_manaus_real_series().
+#
+# Motivo da substituicao:
+#   1. Bug t_mort=0: pd.to_numeric('Sim') -> NaN -> fillna(0) zerava todos os obitos.
+#      Fix aplicado em manaus_bi_loader: (df['MORTE'].astype(str) == 'Sim').astype(int)
+#   2. TOH hardcoded em _TOH_FVS_AM dict -> carregado do parquet toh_uti_manaus.parquet
+#   3. SRAG integrado como segunda dimensao bivariada
+# --------------------------------------------------------------------------
 """Computes real Manaus theta_t series from SIH/DATASUS 2020-2021.
 
 12-month series: Jul/2020–Jun/2021
