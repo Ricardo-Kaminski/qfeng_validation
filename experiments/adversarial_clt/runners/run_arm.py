@@ -32,11 +32,11 @@ def _load_scenario(scenario_id: str) -> dict[str, Any]:
 
 def _load_ground_truth(scenario_id: str) -> dict[str, Any]:
     with open(GROUND_TRUTH_FILE, encoding="utf-8") as f:
-        gt = json.load(f)
-    for entry in gt:
-        if entry["scenario_id"] == scenario_id:
-            return entry
-    raise ValueError(f"Ground truth não encontrado: {scenario_id}")
+        gt_data = json.load(f)
+    result = gt_data.get("by_scenario", {}).get(scenario_id)
+    if result is None:
+        raise ValueError(f"Ground truth não encontrado: {scenario_id}")
+    return result
 
 
 def _load_prompt_template(braco: str) -> dict[str, Any]:
@@ -75,7 +75,7 @@ def _load_normative_corpus(scenario_id: str) -> str:
 
 def _build_prompt(braco: str, scenario: dict, gt: dict, clingo_result: dict | None, template: dict) -> str:
     """Monta o prompt completo substituindo variáveis do template."""
-    scenario_text = scenario["scenario_text_pt"]
+    scenario_text = scenario["scenario_text"]
     user_tpl: str = template["user_template"]
 
     if braco == "B1":
@@ -86,9 +86,9 @@ def _build_prompt(braco: str, scenario: dict, gt: dict, clingo_result: dict | No
         return user_tpl.format(scenario_text=scenario_text, normative_corpus=normative_corpus)
 
     if braco == "B3":
-        # Predicados como texto sem execução Clingo — listagem dos sovereign/elastic do GT
+        # Predicados como texto sem execução Clingo — listagem dos predicados do GT
         predicate_list = "\n".join(
-            f"- {p}" for p in gt.get("expected_active_sovereign", []) + gt.get("expected_active_elastic", [])
+            f"- {p}" for p in gt.get("violated_predicates", []) + gt.get("compliance_predicates", [])
         )
         return user_tpl.format(scenario_text=scenario_text, predicate_list=predicate_list)
 
@@ -102,7 +102,7 @@ def _build_prompt(braco: str, scenario: dict, gt: dict, clingo_result: dict | No
         n_e = len(active_elastic)
         # ψ_S simplificado: fração de predicados sovereign ativos × π
         psi_s = round(n_s / max(n_s + n_e, 1) * math.pi, 4) if (n_s + n_e) > 0 else 0.0
-        qfeng_action = gt.get("expected_action_label", "see_clingo_output")
+        qfeng_action = gt.get("correct_decision", "see_clingo_output")
         return user_tpl.format(
             scenario_text=scenario_text,
             satisfiability=satisfiability,
