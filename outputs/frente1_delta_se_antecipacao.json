@@ -1,0 +1,304 @@
+{
+  "meta": {
+    "frente": 1,
+    "tarefa": "F1.3",
+    "data_execucao": "2026-04-27T03:36:51.519487",
+    "n_ses": 74,
+    "se_range": "SE10/2020–SE30/2021",
+    "se_colapso_canonico": "SE3/2021",
+    "decreto_canonical": "AM 43.269/2021 — calamidade pública Manaus",
+    "nota_granularidade": "delta_pressao e delta_theta são SE-a-SE (não mês-a-mês). Pipeline Frente 1 opera sobre série semanal primária DEMAS-VEPI. Comparações com pipeline mensal anterior devem especificar distinção de granularidade.",
+    "thresholds_primarios": {
+      "cb": 120.0,
+      "hitl": 60.0
+    },
+    "stable_consecutive_min": 3
+  },
+  "antecipacao": {
+    "delta_se_hitl": 46,
+    "delta_se_cb": 19,
+    "delta_se_cb_estavel": 19,
+    "gate_criterion_se": 4,
+    "gate_passed": true,
+    "first_hitl_competencia": "202010",
+    "first_cb_competencia": "202037",
+    "first_cb_estavel_competencia": "202037",
+    "collapse_theta_efetivo": 123.2748,
+    "collapse_toh_pct": 212
+  },
+  "regime_distribution": {
+    "counts": {
+      "HITL": 48,
+      "CIRCUIT_BREAKER": 26
+    },
+    "pct": {
+      "HITL": 64.9,
+      "CIRCUIT_BREAKER": 35.1
+    }
+  },
+  "cb_waves": [
+    {
+      "wave": 1,
+      "start_se": "202037",
+      "end_se": "202044",
+      "length_ses": 8
+    },
+    {
+      "wave": 2,
+      "start_se": "202101",
+      "end_se": "202118",
+      "length_ses": 18
+    }
+  ],
+  "correlacoes": {
+    "rho_toh_theta_efetivo": 0.3735,
+    "p_toh_theta_efetivo": 0.001046,
+    "rho_score_pressao_theta_efetivo": 0.9056,
+    "p_score_pressao": 0.0,
+    "rho_obitos_theta_efetivo": 0.3988,
+    "p_obitos": 0.000433
+  },
+  "sensitivity": [
+    {
+      "cb_threshold": 110.0,
+      "hitl_threshold": 45.0,
+      "n_cb_ses": 71,
+      "delta_cb": 46,
+      "delta_cb_estavel": 46,
+      "gate_passed": true
+    },
+    {
+      "cb_threshold": 110.0,
+      "hitl_threshold": 52.5,
+      "n_cb_ses": 71,
+      "delta_cb": 46,
+      "delta_cb_estavel": 46,
+      "gate_passed": true
+    },
+    {
+      "cb_threshold": 110.0,
+      "hitl_threshold": 60.0,
+      "n_cb_ses": 71,
+      "delta_cb": 46,
+      "delta_cb_estavel": 46,
+      "gate_passed": true
+    },
+    {
+      "cb_threshold": 110.0,
+      "hitl_threshold": 67.5,
+      "n_cb_ses": 71,
+      "delta_cb": 46,
+      "delta_cb_estavel": 46,
+      "gate_passed": true
+    },
+    {
+      "cb_threshold": 110.0,
+      "hitl_threshold": 75.0,
+      "n_cb_ses": 71,
+      "delta_cb": 46,
+      "delta_cb_estavel": 46,
+      "gate_passed": true
+    },
+    {
+      "cb_threshold": 115.0,
+      "hitl_threshold": 45.0,
+      "n_cb_ses": 62,
+      "delta_cb": 46,
+      "delta_cb_estavel": 46,
+      "gate_passed": true
+    },
+    {
+      "cb_threshold": 115.0,
+      "hitl_threshold": 52.5,
+      "n_cb_ses": 62,
+      "delta_cb": 46,
+      "delta_cb_estavel": 46,
+      "gate_passed": true
+    },
+    {
+      "cb_threshold": 115.0,
+      "hitl_threshold": 60.0,
+      "n_cb_ses": 62,
+      "delta_cb": 46,
+      "delta_cb_estavel": 46,
+      "gate_passed": true
+    },
+    {
+      "cb_threshold": 115.0,
+      "hitl_threshold": 67.5,
+      "n_cb_ses": 62,
+      "delta_cb": 46,
+      "delta_cb_estavel": 46,
+      "gate_passed": true
+    },
+    {
+      "cb_threshold": 115.0,
+      "hitl_threshold": 75.0,
+      "n_cb_ses": 62,
+      "delta_cb": 46,
+      "delta_cb_estavel": 46,
+      "gate_passed": true
+    },
+    {
+      "cb_threshold": 120.0,
+      "hitl_threshold": 45.0,
+      "n_cb_ses": 26,
+      "delta_cb": 19,
+      "delta_cb_estavel": 19,
+      "gate_passed": true
+    },
+    {
+      "cb_threshold": 120.0,
+      "hitl_threshold": 52.5,
+      "n_cb_ses": 26,
+      "delta_cb": 19,
+      "delta_cb_estavel": 19,
+      "gate_passed": true
+    },
+    {
+      "cb_threshold": 120.0,
+      "hitl_threshold": 60.0,
+      "n_cb_ses": 26,
+      "delta_cb": 19,
+      "delta_cb_estavel": 19,
+      "gate_passed": true
+    },
+    {
+      "cb_threshold": 120.0,
+      "hitl_threshold": 67.5,
+      "n_cb_ses": 26,
+      "delta_cb": 19,
+      "delta_cb_estavel": 19,
+      "gate_passed": true
+    },
+    {
+      "cb_threshold": 120.0,
+      "hitl_threshold": 75.0,
+      "n_cb_ses": 26,
+      "delta_cb": 19,
+      "delta_cb_estavel": 19,
+      "gate_passed": true
+    },
+    {
+      "cb_threshold": 125.0,
+      "hitl_threshold": 45.0,
+      "n_cb_ses": 12,
+      "delta_cb": 17,
+      "delta_cb_estavel": null,
+      "gate_passed": false
+    },
+    {
+      "cb_threshold": 125.0,
+      "hitl_threshold": 52.5,
+      "n_cb_ses": 12,
+      "delta_cb": 17,
+      "delta_cb_estavel": null,
+      "gate_passed": false
+    },
+    {
+      "cb_threshold": 125.0,
+      "hitl_threshold": 60.0,
+      "n_cb_ses": 12,
+      "delta_cb": 17,
+      "delta_cb_estavel": null,
+      "gate_passed": false
+    },
+    {
+      "cb_threshold": 125.0,
+      "hitl_threshold": 67.5,
+      "n_cb_ses": 12,
+      "delta_cb": 17,
+      "delta_cb_estavel": null,
+      "gate_passed": false
+    },
+    {
+      "cb_threshold": 125.0,
+      "hitl_threshold": 75.0,
+      "n_cb_ses": 12,
+      "delta_cb": 17,
+      "delta_cb_estavel": null,
+      "gate_passed": false
+    },
+    {
+      "cb_threshold": 130.0,
+      "hitl_threshold": 45.0,
+      "n_cb_ses": 5,
+      "delta_cb": null,
+      "delta_cb_estavel": null,
+      "gate_passed": false
+    },
+    {
+      "cb_threshold": 130.0,
+      "hitl_threshold": 52.5,
+      "n_cb_ses": 5,
+      "delta_cb": null,
+      "delta_cb_estavel": null,
+      "gate_passed": false
+    },
+    {
+      "cb_threshold": 130.0,
+      "hitl_threshold": 60.0,
+      "n_cb_ses": 5,
+      "delta_cb": null,
+      "delta_cb_estavel": null,
+      "gate_passed": false
+    },
+    {
+      "cb_threshold": 130.0,
+      "hitl_threshold": 67.5,
+      "n_cb_ses": 5,
+      "delta_cb": null,
+      "delta_cb_estavel": null,
+      "gate_passed": false
+    },
+    {
+      "cb_threshold": 130.0,
+      "hitl_threshold": 75.0,
+      "n_cb_ses": 5,
+      "delta_cb": null,
+      "delta_cb_estavel": null,
+      "gate_passed": false
+    }
+  ],
+  "sensitivity_summary": {
+    "n_configs": 25,
+    "n_gate_pass": 15,
+    "pct_gate_pass": 60.0
+  },
+  "friccao_ontologica": {
+    "layers": {
+      "layer_1_operacional": {
+        "descricao": "Leitos enfermaria operando como UTI improvisada (código CNES 30-46 em vez de 74-77)",
+        "magnitude_estimada_leitos": 85,
+        "fonte": "Residual FVS-AM vs CNES; relatos clínicos jan/2021"
+      },
+      "layer_2_administrativa": {
+        "descricao": "Leitos UTI emergenciais habilitados MS jan/2021 com cadastro CNES defasado 30-60 dias",
+        "magnitude_estimada_leitos": 208,
+        "fonte": "Pazuello Manaus 06/jan/2021; SES-AM nota técnica 14/fev/2021"
+      },
+      "layer_3_categorial": {
+        "descricao": "Portaria SAES/MS 510/2020 criou categoria LSVP (cód. 96) para nomear leitos intermediários",
+        "magnitude_estimada_leitos": 0,
+        "fonte": "Portaria SAES/MS nº 510, 09/jun/2020"
+      },
+      "layer_4_institucional": {
+        "descricao": "LSVP não adotada em Manaus 2020-2021: 0 leitos em 23/24 meses (achado empírico Fase 2.1.5-bis)",
+        "magnitude_estimada_leitos": 0,
+        "fonte": "CNES-LT LTAM*.dbc 24 competências; único registro: dez/2020, 2 leitos, 1 CNES"
+      },
+      "denominador_cnes": 319,
+      "denominador_fvs_am": 612,
+      "toh_cnes_jan2021_pct": 211.5,
+      "toh_fvs_am_jan2021_pct": 103.69,
+      "interpretacao": "TOH=211% é metodologicamente correto dado denominador CNES estrito. Cada camada contribui para que ocupação registrada supere capacidade cadastrada. A categoria LSVP (Camada 3) existe normativamente mas não operacionalmente — demonstrando resistência da Fricção Ontológica à intervenção regulatória pontual."
+    },
+    "cb_correlation": {
+      "n_cb_ses": 26,
+      "n_cb_ses_toh_above_100pct": 22,
+      "pct_cb_ses_toh_above_100": 84.6,
+      "rho_toh_theta_efetivo": 0.3735,
+      "interpretacao": "22/26 SEs em CB têm TOH>100%, confirmando que o regime CB capta especificamente as semanas de colapso sistêmico documentado pelas fontes primárias (DEMAS-VEPI + FVS-AM)."
+    }
+  }
+}
