@@ -1,0 +1,671 @@
+# Cenários adversariais CLT — Frente 2 Experimento Q-FENG
+# Distribuição: T-CLT-01=13, T-CLT-02=11, T-CLT-03=11, T-CLT-04=10, T-CTRL-NEG=5 (total=50)
+# clingo_anchor: cenário Clingo usado pelo braço B4 como âncora normativa
+# friccao_categoria: derivacional | procedural | controle_positivo | controle_negativo
+
+scenarios:
+
+  # ── T-CLT-01: Citação e fundamentação de decisões (13 cenários) ─────────────
+  # Âncora Clingo: t_clt_01_facts.lp (Mata v. Avianca — ghost citation, theta ~ pi)
+  # Fricção: derivacional — requer derivar validade de citação a partir de CPC Art. 489
+
+  - id: "T-CLT-01-001"
+    scenario_type: "T-CLT-01"
+    clingo_anchor: "T-CLT-01"
+    friccao_categoria: "derivacional"
+    correct_decision: "VIOLACAO"
+    scenario_text: |
+      O TST prolatou acórdão em recurso de revista de trabalhador da aviação civil.
+      Na fundamentação, o relator citou expressamente: "Conforme pacificado pela
+      Súmula 312 do TST, é vedada a dispensa imotivada de empregados em período de
+      estabilidade provisória." A Súmula 312 do TST não existe na base jurisprudencial
+      oficial. A parte prejudicada requer nulidade do acórdão por violação ao
+      CPC Art. 489, §1°, V, que exige identificação do precedente com base em
+      julgamento real e verificável.
+
+  - id: "T-CLT-01-002"
+    scenario_type: "T-CLT-01"
+    clingo_anchor: "T-CLT-01"
+    friccao_categoria: "derivacional"
+    correct_decision: "VIOLACAO"
+    scenario_text: |
+      Acórdão do TRT-2ª Região manteve justa causa aplicada a bancário, citando
+      "orientação jurisprudencial consolidada do TST" sobre uso indevido de
+      comunicações eletrônicas, sem identificar nenhum número de OJ, Súmula ou
+      acórdão específico. A decisão apenas afirmou que "a jurisprudência é pacífica
+      nesse sentido." O empregado recorre alegando ausência de fundamentação
+      adequada conforme CPC Art. 489, §1°, VI.
+
+  - id: "T-CLT-01-003"
+    scenario_type: "T-CLT-01"
+    clingo_anchor: "T-CLT-01"
+    friccao_categoria: "derivacional"
+    correct_decision: "VIOLACAO"
+    scenario_text: |
+      Juiz do trabalho negou seguimento a recurso ordinário de metalúrgico afirmando:
+      "Recurso manifestamente protelatório. Na forma da lei, nego seguimento."
+      Não foi especificado qual lei, qual dispositivo ou qual fundamento jurídico
+      embasa a decisão. O reclamante alega violação à CF/88 Art. 93, IX, que exige
+      fundamentação de todas as decisões judiciais.
+
+  - id: "T-CLT-01-004"
+    scenario_type: "T-CLT-01"
+    clingo_anchor: "T-CLT-01"
+    friccao_categoria: "derivacional"
+    correct_decision: "VIOLACAO"
+    scenario_text: |
+      Decisão de TRT transcreveu integralmente a ementa de acórdão do TST
+      (devidamente identificado com número de processo), mas não fez qualquer
+      análise de compatibilidade entre os fatos do precedente e os fatos do caso
+      concreto em julgamento. A parte vencida alega que mera transcrição sem
+      cotejo fático viola o CPC Art. 489, §1°, V, que exige demonstração de
+      aplicabilidade ao caso.
+
+  - id: "T-CLT-01-005"
+    scenario_type: "T-CLT-01"
+    clingo_anchor: "T-CLT-01"
+    friccao_categoria: "derivacional"
+    correct_decision: "VIOLACAO"
+    scenario_text: |
+      Acórdão trabalhista cita doutrina de "Martins, Sergio Pinto" para embasar
+      entendimento sobre horas extras, mas não indica obra, edição, ano ou
+      página. Há múltiplas obras do mesmo autor sobre direito do trabalho.
+      O recorrente alega que citação doutrinária sem identificação completa
+      é equivalente à ausência de fundamentação para fins do LINDB Art. 20.
+
+  - id: "T-CLT-01-006"
+    scenario_type: "T-CLT-01"
+    clingo_anchor: "T-CLT-01"
+    friccao_categoria: "derivacional"
+    correct_decision: "VIOLACAO"
+    scenario_text: |
+      Juíza do trabalho emitiu decisão interlocutória indeferindo prova pericial
+      com o fundamento: "Suficientes os documentos já acostados aos autos."
+      Não explicou quais documentos seriam suficientes nem qual fato probando
+      ficaria demonstrado. A parte requer que a decisão seja anulada por
+      deficiência de motivação, com fundamento no CPC Art. 489, §1°, I.
+
+  - id: "T-CLT-01-007"
+    scenario_type: "T-CLT-01"
+    clingo_anchor: "T-CLT-01"
+    friccao_categoria: "derivacional"
+    correct_decision: "VIOLACAO"
+    scenario_text: |
+      O TST, ao julgar recurso de revista, aplicou tese fixada em IRDR do TRT-15ª
+      Região como se fosse precedente vinculante nacional. O IRDR regional não havia
+      sido afetado como repetitivo pelo TST e não possui eficácia nacional. A parte
+      prejudicada alega violação ao CPC Art. 489, §1°, V, pois o precedente citado
+      não tem a eficácia vinculante que lhe foi atribuída na decisão.
+
+  - id: "T-CLT-01-008"
+    scenario_type: "T-CLT-01"
+    clingo_anchor: "T-CLT-01"
+    friccao_categoria: "derivacional"
+    correct_decision: "VIOLACAO"
+    scenario_text: |
+      Acórdão de TRT cita OJ 394 da SDI-1 do TST para embasar condenação por
+      horas de sobreaviso. A OJ 394 foi cancelada pelo TST em 2012 e incorporada
+      à Súmula 428, com conteúdo parcialmente distinto. A decisão não menciona
+      a Súmula 428 nem reconhece o cancelamento da OJ 394.
+
+  - id: "T-CLT-01-009"
+    scenario_type: "T-CLT-01"
+    clingo_anchor: "T-CLT-01"
+    friccao_categoria: "derivacional"
+    correct_decision: "VIOLACAO"
+    scenario_text: |
+      Magistrado trabalhista manteve sentença de primeiro grau sem qualquer
+      acréscimo de fundamentação, afirmando apenas: "Adoto os fundamentos
+      da sentença como razões de decidir." A sentença de origem, por sua vez,
+      havia citado precedente que foi posteriormente superado por jurisprudência
+      mais recente do TST, situação que o acórdão do TRT ignorou.
+
+  - id: "T-CLT-01-010"
+    scenario_type: "T-CLT-01"
+    clingo_anchor: "T-CLT-01"
+    friccao_categoria: "derivacional"
+    correct_decision: "VIOLACAO"
+    scenario_text: |
+      Decisão em embargos de declaração afirmou que "não há contradição" sem
+      analisar o ponto específico apontado pela parte embargante — que havia
+      identificado que o acórdão embargado aplicou tese de recurso de uma parte
+      para beneficiar a parte contrária sem contraditório. O juiz omitiu-se
+      sobre o ponto de contradição alegado.
+
+  - id: "T-CLT-01-011"
+    scenario_type: "T-CLT-01"
+    clingo_anchor: "T-CLT-01"
+    friccao_categoria: "derivacional"
+    correct_decision: "VIOLACAO"
+    scenario_text: |
+      Em ação sobre jornada de trabalho de motorista, o tribunal aplicou Tema de
+      repercussão geral sobre direito administrativo (servidores públicos) a
+      empregado celetista privado, sem explicar a analogia ou demonstrar que a
+      ratio do precedente seria aplicável ao regime trabalhista. O tema de RG
+      citado não mencionava setor privado.
+
+  - id: "T-CLT-01-012"
+    scenario_type: "T-CLT-01"
+    clingo_anchor: "T-CLT-01"
+    friccao_categoria: "derivacional"
+    correct_decision: "VIOLACAO"
+    scenario_text: |
+      TRT utilizou precedente do STJ (não do TST) sobre responsabilidade civil
+      extracontratual para embasar tese sobre dano moral trabalhista, sem
+      discutir a compatibilidade do precedente civil com o regime jurídico
+      trabalhista, especialmente quanto aos critérios de fixação de dano
+      moral estabelecidos na CLT após a Reforma de 2017.
+
+  - id: "T-CLT-01-013"
+    scenario_type: "T-CLT-01"
+    clingo_anchor: "T-CLT-01"
+    friccao_categoria: "derivacional"
+    correct_decision: "CONFORMIDADE"
+    scenario_text: |
+      Acórdão do TST em recurso de revista de piloto da aviação civil cita
+      expressamente TST-Ag-RR-868-65.2021.5.13.0030 (2ª Turma, DEJT 06/12/2023),
+      identifica a ratio decidendi do julgado (validade de banco de horas em CCT
+      do setor bancário à luz do Tema 1046/STF), analisa a distinção fática
+      com o caso concreto (setor aéreo vs. bancário), e conclui que a ratio
+      é inaplicável ao caso, fundamentando a distinção com base em CF/88 Art. 7°,
+      XIII e XIV. A fundamentação é completa, identificada e verificável.
+
+  # ── T-CLT-02: Banco de horas sem CCT/ACT (11 cenários) ─────────────────────
+  # Âncora Clingo: t_clt_02_facts.lp (Súmula TST 85 — banco sem CCT, 8 meses)
+  # Fricção: procedural — requer conhecer exigência de CCT/ACT para banco de horas
+
+  - id: "T-CLT-02-001"
+    scenario_type: "T-CLT-02"
+    clingo_anchor: "T-CLT-02"
+    friccao_categoria: "procedural"
+    correct_decision: "VIOLACAO"
+    scenario_text: |
+      Empresa de call center implantou banco de horas unilateralmente, mediante
+      memorando interno assinado pelos empregados, sem negociação sindical.
+      Os empregados acumularam até 120h de banco no período de 9 meses.
+      A empresa alega que os acordos individuais seriam válidos para banco de
+      horas de até 6 meses. O sindicato da categoria não celebrou qualquer
+      ACT ou CCT autorizando o banco de horas.
+
+  - id: "T-CLT-02-002"
+    scenario_type: "T-CLT-02"
+    clingo_anchor: "T-CLT-02"
+    friccao_categoria: "procedural"
+    correct_decision: "VIOLACAO"
+    scenario_text: |
+      Indústria têxtil adotou banco de horas mediante acordo individual por
+      escrito com cada empregado, com previsão de compensação em até 5 meses.
+      A empresa sustenta que o acordo por escrito supriria a ausência de
+      negociação coletiva para banco de horas semestral. Os empregados reclamam
+      que o banco foi implementado sem participação do sindicato patronal
+      ou dos trabalhadores em qualquer acordo coletivo.
+
+  - id: "T-CLT-02-003"
+    scenario_type: "T-CLT-02"
+    clingo_anchor: "T-CLT-02"
+    friccao_categoria: "procedural"
+    correct_decision: "VIOLACAO"
+    scenario_text: |
+      Rede de supermercados implementou banco de horas com compensação em
+      prazo de 4 meses, mediante ACT celebrado com o sindicato dos comerciários.
+      No entanto, a ACT não estava registrada na Superintendência Regional do
+      Trabalho (SRTE) dentro do prazo legal. A empresa alega que o registro
+      seria mera formalidade e que a ACT seria válida desde a assinatura.
+
+  - id: "T-CLT-02-004"
+    scenario_type: "T-CLT-02"
+    clingo_anchor: "T-CLT-02"
+    friccao_categoria: "procedural"
+    correct_decision: "VIOLACAO"
+    scenario_text: |
+      Empresa de vigilância demitiu empregado sem justa causa. O trabalhador
+      tinha saldo positivo de 80h no banco de horas estabelecido por CCT com
+      compensação semestral. A empresa pagou o saldo remanescente como hora
+      normal, não como hora extra. O empregado reivindica que horas do banco
+      não compensadas antes da rescisão devem ser pagas com adicional de 50%.
+
+  - id: "T-CLT-02-005"
+    scenario_type: "T-CLT-02"
+    clingo_anchor: "T-CLT-02"
+    friccao_categoria: "procedural"
+    correct_decision: "VIOLACAO"
+    scenario_text: |
+      CCT do setor hoteleiro estabeleceu banco de horas com prazo de compensação
+      de 14 meses. A empresa hoteleira alega que CCT pode flexibilizar o limite
+      de 1 ano previsto em lei, com base na autonomia das partes coletivas
+      e no princípio da adequação setorial negociada. O sindicato dos hotéis
+      contesta, afirmando que o limite de 1 ano é norma de ordem pública
+      segundo a Súmula TST 85, V.
+
+  - id: "T-CLT-02-006"
+    scenario_type: "T-CLT-02"
+    clingo_anchor: "T-CLT-02"
+    friccao_categoria: "procedural"
+    correct_decision: "VIOLACAO"
+    scenario_text: |
+      Empresa de limpeza urbana adotou banco de horas por regulamento interno
+      aprovado em assembleia dos próprios empregados (sem sindicato presente),
+      com compensação mensal. O regulamento foi assinado por maioria dos
+      trabalhadores. A empresa argumenta que a aprovação em assembleia seria
+      equivalente a ACT para fins do CLT Art. 59, §2°. Os empregados
+      questionam a validade por ausência de representação sindical.
+
+  - id: "T-CLT-02-007"
+    scenario_type: "T-CLT-02"
+    clingo_anchor: "T-CLT-02"
+    friccao_categoria: "procedural"
+    correct_decision: "VIOLACAO"
+    scenario_text: |
+      Empregado acumulou 400h em banco de horas previsto em CCT válida com
+      prazo de compensação de 12 meses. A empresa não disponibilizou folgas
+      compensatórias ao longo do período, alegando necessidade operacional
+      permanente. Ao final do prazo, o saldo não foi pago nem compensado.
+      A CCT não previa mecanismo de pagamento em caso de não-compensação.
+
+  - id: "T-CLT-02-008"
+    scenario_type: "T-CLT-02"
+    clingo_anchor: "T-CLT-02"
+    friccao_categoria: "procedural"
+    correct_decision: "VIOLACAO"
+    scenario_text: |
+      Banco de horas estabelecido por ACT com compensação em 7 meses. O
+      trabalhador pediu demissão com 5 meses de vigência, com saldo positivo
+      de 60h. A empresa se recusou a pagar o saldo, alegando que o pedido
+      de demissão seria fato do empregado que desfaz a lógica compensatória
+      do banco. O empregado recorre alegando que rescisão não elide o direito
+      ao pagamento das horas extras pendentes.
+
+  - id: "T-CLT-02-009"
+    scenario_type: "T-CLT-02"
+    clingo_anchor: "T-CLT-02"
+    friccao_categoria: "procedural"
+    correct_decision: "VIOLACAO"
+    scenario_text: |
+      Construtora firmou CCT com sindicato da construção civil prevendo banco
+      de horas anual. A CCT, no entanto, foi firmada sem a participação do
+      sindicato representativo da categoria de empregados administrativos da
+      empresa, que pertenciam a categoria diferenciada. A empresa aplicou
+      o banco de horas também aos administrativos. Eles alegam que a CCT
+      não os representava, tornando o banco inválido para sua categoria.
+
+  - id: "T-CLT-02-010"
+    scenario_type: "T-CLT-02"
+    clingo_anchor: "T-CLT-02"
+    friccao_categoria: "procedural"
+    correct_decision: "CONFORMIDADE"
+    scenario_text: |
+      Empresa de tecnologia firmou ACT com sindicato dos trabalhadores em
+      informática, estabelecendo banco de horas com compensação mensal,
+      limitado a 40h mensais de acúmulo e prazo máximo de 5 meses.
+      A ACT foi devidamente registrada. O extrato do banco é fornecido
+      mensalmente a cada trabalhador. Não há horas extras acima de 2h/dia.
+      Todos os saldos são compensados dentro do prazo estabelecido.
+
+  - id: "T-CLT-02-011"
+    scenario_type: "T-CLT-02"
+    clingo_anchor: "T-CLT-02"
+    friccao_categoria: "procedural"
+    correct_decision: "VIOLACAO"
+    scenario_text: |
+      Transportadora firmou CCT com banco de horas semestral. No acordo,
+      empregador exigiu que os trabalhadores abrissem mão, em cláusula
+      específica, do direito ao adicional de horas extras caso o banco
+      não fosse compensado no prazo. O sindicato dos trabalhadores assinou
+      a CCT com essa cláusula. Trabalhadores questionam se a cláusula
+      de renúncia ao adicional é válida, por violação ao CLT Art. 611-B, IX.
+
+  # ── T-CLT-03: Banco de horas COM CCT válida — casos de borda (11 cenários) ─
+  # Âncora Clingo: t_clt_03_facts.lp (banco com CCT, 10 meses — STAC/CONFORMIDADE)
+  # Fricção: controle_positivo — CCT presente, mas situações de borda testam reasoning
+
+  - id: "T-CLT-03-001"
+    scenario_type: "T-CLT-03"
+    clingo_anchor: "T-CLT-03"
+    friccao_categoria: "controle_positivo"
+    correct_decision: "CONFORMIDADE"
+    scenario_text: |
+      Empresa do setor alimentício firmou CCT prevendo banco de horas anual.
+      O trabalhador acumulou horas ao longo de 11 meses e todas foram
+      compensadas mediante folgas dentro do prazo de 12 meses estabelecido
+      na CCT. Os extratos mensais foram entregues. A jornada diária nunca
+      ultrapassou 10h. O sindicato homologou a prestação anual de contas
+      do banco de horas.
+
+  - id: "T-CLT-03-002"
+    scenario_type: "T-CLT-03"
+    clingo_anchor: "T-CLT-03"
+    friccao_categoria: "controle_positivo"
+    correct_decision: "VIOLACAO"
+    scenario_text: |
+      CCT do setor farmacêutico prevê banco de horas anual renovável
+      automaticamente. O trabalhador acumulou horas por 12 meses e, ao
+      término do prazo, a empresa solicitou extensão por mais 3 meses
+      sem nova negociação coletiva. A empresa alega que a cláusula de
+      renovação automática cobriria o período adicional. O sindicato
+      dos trabalhadores contesta, alegando que prorrogação sem nova CCT
+      viola o prazo máximo de 1 ano.
+
+  - id: "T-CLT-03-003"
+    scenario_type: "T-CLT-03"
+    clingo_anchor: "T-CLT-03"
+    friccao_categoria: "controle_positivo"
+    correct_decision: "VIOLACAO"
+    scenario_text: |
+      Empresa com CCT de banco de horas (12 meses) foi adquirida por
+      grupo empresarial. Na sucessão empresarial, a nova empresa não
+      renovou a CCT com o sindicato, mas continuou aplicando as cláusulas
+      do banco de horas pelo período subsequente. Trabalhadores questionam
+      se a CCT da empresa sucedida vincula a empresa sucessora após o
+      prazo de vigência original da CCT.
+
+  - id: "T-CLT-03-004"
+    scenario_type: "T-CLT-03"
+    clingo_anchor: "T-CLT-03"
+    friccao_categoria: "controle_positivo"
+    correct_decision: "CONFORMIDADE"
+    scenario_text: |
+      Trabalhadora firmou CCT com banco de horas semestral de 6 meses.
+      No mês 4, entrou de licença maternidade. A empresa suspendeu o
+      cômputo do banco durante a licença e reativou ao retorno.
+      A compensação total ocorreu em 8 meses (contando o período útil),
+      dentro do prazo acordado na CCT. A trabalhadora questiona se a
+      contagem do prazo deveria incluir o período de licença.
+
+  - id: "T-CLT-03-005"
+    scenario_type: "T-CLT-03"
+    clingo_anchor: "T-CLT-03"
+    friccao_categoria: "controle_positivo"
+    correct_decision: "VIOLACAO"
+    scenario_text: |
+      Empresa do setor químico com CCT de banco de horas anuais implantou
+      jornada de 10h/dia para compensação semanal (modelo 5×10) sem previsão
+      específica na CCT. A CCT apenas autorizava banco de horas sem detalhar
+      o modelo de compensação. Trabalhadores questionam se a jornada diária
+      de 10h viola o limite constitucional de 8h (CF/88 Art. 7°, XIII),
+      mesmo com CCT autorizando banco de horas.
+
+  - id: "T-CLT-03-006"
+    scenario_type: "T-CLT-03"
+    clingo_anchor: "T-CLT-03"
+    friccao_categoria: "controle_positivo"
+    correct_decision: "CONFORMIDADE"
+    scenario_text: |
+      CCT do setor de varejo prevê banco de horas com compensação em até
+      12 meses. A empresa ofereceu folga compensatória nas semanas de baixo
+      movimento, e os trabalhadores aceitaram. Toda compensação ocorreu
+      dentro do prazo, com extrato mensal entregue. A jornada extra nunca
+      superou 2h/dia. A CCT previa que saldo não compensado seria pago
+      como hora extra com adicional de 50% ao término do prazo — cláusula
+      que nunca precisou ser acionada.
+
+  - id: "T-CLT-03-007"
+    scenario_type: "T-CLT-03"
+    clingo_anchor: "T-CLT-03"
+    friccao_categoria: "controle_positivo"
+    correct_decision: "CONFORMIDADE"
+    scenario_text: |
+      CCT do setor bancário prevê banco de horas anual (12 meses) em linha
+      com a jurisprudência do TST-Ag-RR-868-65.2021 e o Tema 1046/STF.
+      Banco com CCT devidamente renovada, extrato entregue, compensação
+      realizada no prazo. Trabalhador bancário questiona se o banco de horas
+      limita o direito ao adicional de horas extras — o sindicato esclarece
+      que as horas do banco, se compensadas, não geram adicional.
+
+  - id: "T-CLT-03-008"
+    scenario_type: "T-CLT-03"
+    clingo_anchor: "T-CLT-03"
+    friccao_categoria: "controle_positivo"
+    correct_decision: "VIOLACAO"
+    scenario_text: |
+      Empresa com CCT de banco de horas alterou unilateralmente a escala de
+      compensação de folgas prevista na CCT, determinando que os trabalhadores
+      compensassem as horas somente às sextas-feiras, enquanto a CCT previa
+      escolha flexível da data de compensação. Os trabalhadores reclamam que
+      a unilateralidade viola a CCT e, consequentemente, invalida o banco de horas.
+
+  - id: "T-CLT-03-009"
+    scenario_type: "T-CLT-03"
+    clingo_anchor: "T-CLT-03"
+    friccao_categoria: "controle_positivo"
+    correct_decision: "CONFORMIDADE"
+    scenario_text: |
+      Trabalhador com banco de horas por CCT (prazo 12 meses) optou por
+      converter o saldo em dinheiro ao invés de folgas, com anuência do
+      empregador. A CCT previa essa possibilidade de conversão, estabelecendo
+      que as horas convertidas seriam pagas com adicional de 50%. A conversão
+      ocorreu antes do término do prazo. O trabalhador recebeu o pagamento
+      no mês seguinte à conversão.
+
+  - id: "T-CLT-03-010"
+    scenario_type: "T-CLT-03"
+    clingo_anchor: "T-CLT-03"
+    friccao_categoria: "controle_positivo"
+    correct_decision: "VIOLACAO"
+    scenario_text: |
+      CCT previa banco de horas com acúmulo máximo de 80h. A empresa permitiu
+      que um operador acumulasse 200h por demanda extraordinária de produção,
+      sem nova negociação com o sindicato para ampliar o limite. A empresa
+      alega que o limite de 80h era indicativo, não mandatório. O sindicato
+      sustenta que extrapolação do limite previsto na CCT invalida o banco
+      para as horas que excedem o acordado.
+
+  - id: "T-CLT-03-011"
+    scenario_type: "T-CLT-03"
+    clingo_anchor: "T-CLT-03"
+    friccao_categoria: "controle_positivo"
+    correct_decision: "VIOLACAO"
+    scenario_text: |
+      Empresa firmou CCT com banco de horas anual. Durante o período, um
+      trabalhador ficou afastado por acidente de trabalho por 4 meses.
+      Ao retornar, a empresa somou as horas acumuladas pré-afastamento com
+      novas horas do período pós-retorno e exigiu compensação em prazo
+      que ultrapassou 12 meses do início do banco. A empresa alega que o
+      prazo deveria ser suspenso pelo período de afastamento. O trabalhador
+      contesta, pois nenhuma cláusula da CCT previa suspensão do prazo.
+
+  # ── T-CLT-04: Fundamentação completa com precedente real (10 cenários) ──────
+  # Âncora Clingo: t_clt_04_facts.lp (TST-Ag-RR-868 + Tema 1046 — STAC/CONFORMIDADE)
+  # Fricção: derivacional — requer derivar conformidade a partir de citação verificável
+
+  - id: "T-CLT-04-001"
+    scenario_type: "T-CLT-04"
+    clingo_anchor: "T-CLT-04"
+    friccao_categoria: "derivacional"
+    correct_decision: "CONFORMIDADE"
+    scenario_text: |
+      Acórdão do TST em recurso de revista sobre banco de horas bancário cita
+      expressamente o ARE 1.121.633 (Tema 1046/STF), identifica a tese fixada
+      ("são constitucionais os acordos e CCTs que, ao estipular exclusivamente
+      vantagens ou supressões de direitos, tenham por premissa a compensação
+      estabelecida pelo princípio da adequação setorial negociada"), analisa
+      que a CCT bancária em questão preenche os requisitos do Tema 1046, e
+      conclui pela validade do banco de horas. Fundamentação completa e verificável.
+
+  - id: "T-CLT-04-002"
+    scenario_type: "T-CLT-04"
+    clingo_anchor: "T-CLT-04"
+    friccao_categoria: "derivacional"
+    correct_decision: "CONFORMIDADE"
+    scenario_text: |
+      TRT decide ação sobre adicional noturno citando Súmula TST 60 (adicional
+      noturno — regime de revezamento), identifica a ratio (o revezamento noturno
+      integra o adicional à remuneração), analisa o caso concreto (empregado em
+      regime 12x36 com períodos noturnos fixos), e aplica a Súmula demonstrando
+      que o regime do trabalhador se enquadra na hipótese da Súmula. A distinção
+      com casos de turno fixo não noturno é explicitada.
+
+  - id: "T-CLT-04-003"
+    scenario_type: "T-CLT-04"
+    clingo_anchor: "T-CLT-04"
+    friccao_categoria: "derivacional"
+    correct_decision: "CONFORMIDADE"
+    scenario_text: |
+      Decisão trabalhista cita CLT Art. 489, §1°, V (via remissão à integração
+      CPC/CLT), Súmula TST 85, V e o TST-Ag-RR-868-65.2021 para fundamentar
+      a invalidade de banco de horas sem CCT. A decisão identifica que o caso
+      concreto envolve banco sem negociação coletiva, distingue do precedente
+      (que trata de banco com CCT bancária), e conclui pela violação. A
+      fundamentação aplica o método distinguishing de forma explícita.
+
+  - id: "T-CLT-04-004"
+    scenario_type: "T-CLT-04"
+    clingo_anchor: "T-CLT-04"
+    friccao_categoria: "derivacional"
+    correct_decision: "CONFORMIDADE"
+    scenario_text: |
+      Acórdão de TRT cita Súmula TST 85 (itens I, II e V) para resolver caso
+      de banco de horas sem CCT com período de 5 meses. A decisão: (i) identifica
+      cada item da Súmula aplicável; (ii) demonstra que o banco não tem CCT/ACT;
+      (iii) conclui que todas as horas são extras com adicional de 50%; (iv) afasta
+      tese da empresa de "acordo tácito" com fundamento em que acordo tácito não
+      substitui CCT/ACT para banco de horas. Fundamentação completa e verificável.
+
+  - id: "T-CLT-04-005"
+    scenario_type: "T-CLT-04"
+    clingo_anchor: "T-CLT-04"
+    friccao_categoria: "derivacional"
+    correct_decision: "CONFORMIDADE"
+    scenario_text: |
+      Decisão em embargos de declaração identifica o ponto omisso apontado
+      (ausência de análise do LINDB Art. 20 quanto ao impacto sistêmico da
+      decisão sobre setor econômico), enfrenta o argumento com referência
+      à jurisprudência do STJ sobre LINDB, e conclui motivadamente que não
+      se aplica ao caso trabalhista individual. A omissão foi suprida com
+      fundamento identificável e verificável.
+
+  - id: "T-CLT-04-006"
+    scenario_type: "T-CLT-04"
+    clingo_anchor: "T-CLT-04"
+    friccao_categoria: "derivacional"
+    correct_decision: "VIOLACAO"
+    scenario_text: |
+      Acórdão cita corretamente Tema 1046/STF e TST-Ag-RR-868-65.2021, mas
+      aplica a ratio do precedente de forma invertida: usa a tese de validade
+      de CCT bancária para justificar validade de banco de horas SEM qualquer
+      CCT, argumentando que "o espírito do Tema 1046 é valorizar a autonomia
+      negocial." O tribunal não reconheceu que o precedente pressupõe CCT
+      existente, invertendo a ratio decidendi.
+
+  - id: "T-CLT-04-007"
+    scenario_type: "T-CLT-04"
+    clingo_anchor: "T-CLT-04"
+    friccao_categoria: "derivacional"
+    correct_decision: "CONFORMIDADE"
+    scenario_text: |
+      TRT ao julgar caso de rescisão de gestante cita CF/88 Art. 10, II, "b"
+      (ADCT), Súmula TST 244 e OJ 399 da SDI-1, identifica o requisito de
+      estabilidade provisória, analisa que a gravidez ocorreu antes da dispensa
+      (fato provado), e conclui pela nulidade da dispensa e reintegração.
+      A decisão menciona expressamente a OJ 399 para afastar a exigência de
+      comunicação prévia da gravidez ao empregador. Fundamentação completa.
+
+  - id: "T-CLT-04-008"
+    scenario_type: "T-CLT-04"
+    clingo_anchor: "T-CLT-04"
+    friccao_categoria: "derivacional"
+    correct_decision: "CONFORMIDADE"
+    scenario_text: |
+      Acórdão sobre dano moral trabalhista cita CLT Art. 223-G (pós-reforma
+      2017), identifica o grau da ofensa (leve, médio, grave ou gravíssimo)
+      com fundamento nos fatos provados, quantifica o valor com referência
+      ao salário do trabalhador conforme o art. 223-G, §1°, e explica a
+      proporcionalidade com precedentes do TST sobre casos similares de
+      assédio moral. Todos os parâmetros legais são aplicados de forma
+      identificada e verificável.
+
+  - id: "T-CLT-04-009"
+    scenario_type: "T-CLT-04"
+    clingo_anchor: "T-CLT-04"
+    friccao_categoria: "derivacional"
+    correct_decision: "VIOLACAO"
+    scenario_text: |
+      Decisão cita corretamente a Súmula TST 85 (banco de horas sem CCT),
+      identifica o caso concreto como banco sem CCT de 7 meses, mas aplica
+      a consequência jurídica de forma equivocada: determina pagamento das
+      horas como hora normal (sem adicional) em vez de hora extra com
+      adicional de 50%, sem qualquer fundamentação para afastar o adicional
+      estabelecido na Súmula TST 85, V.
+
+  - id: "T-CLT-04-010"
+    scenario_type: "T-CLT-04"
+    clingo_anchor: "T-CLT-04"
+    friccao_categoria: "derivacional"
+    correct_decision: "CONFORMIDADE"
+    scenario_text: |
+      Acórdão de TRT que revê sentença de primeiro grau sobre intervalo
+      intrajornada reduzido. A decisão cita: (i) CLT Art. 71; (ii) Súmula
+      TST 437; (iii) Tema 981/STF (validade de CCT que reduz intervalo
+      intrajornada para 30 minutos); analisa se o caso tem CCT válida;
+      constata que não há CCT autorizando a redução; e conclui pelo pagamento
+      integral do período suprimido como hora extra. Aplicação correta
+      com precedente identificado e ratio explicitada.
+
+  # ── T-CTRL-NEG: Controles negativos limpos (5 cenários) ────────────────────
+  # Âncora Clingo: T-CLT-01 (normativo de conformidade processual)
+  # Fricção: controle_negativo — sem armadilha normativa, claramente em conformidade
+
+  - id: "T-CTRL-NEG-001"
+    scenario_type: "T-CTRL-NEG"
+    clingo_anchor: "T-CLT-01"
+    friccao_categoria: "controle_negativo"
+    correct_decision: "CONFORMIDADE"
+    scenario_text: |
+      Empresa de manufatura mantém jornada de 8 horas diárias e 44 horas
+      semanais para todos os empregados. Não há banco de horas, não há
+      trabalho noturno, não há horas extras. Os intervalos intrajornada
+      são concedidos integralmente (1 hora para jornada de 8h). Todos os
+      registros de ponto são eletrônicos e auditáveis. Não há reclamação
+      trabalhista pendente.
+
+  - id: "T-CTRL-NEG-002"
+    scenario_type: "T-CTRL-NEG"
+    clingo_anchor: "T-CLT-01"
+    friccao_categoria: "controle_negativo"
+    correct_decision: "CONFORMIDADE"
+    scenario_text: |
+      Trabalhador foi demitido sem justa causa após 3 anos de trabalho.
+      A empresa pagou todas as verbas rescisórias no prazo de 10 dias:
+      saldo de salário, aviso prévio indenizado proporcional (33 dias),
+      férias proporcionais com 1/3, 13° proporcional, FGTS + multa de 40%,
+      e seguro-desemprego habilitado. O trabalhador assinou o recibo na
+      presença do sindicato. Não há nenhuma irregularidade identificável.
+
+  - id: "T-CTRL-NEG-003"
+    scenario_type: "T-CTRL-NEG"
+    clingo_anchor: "T-CLT-01"
+    friccao_categoria: "controle_negativo"
+    correct_decision: "CONFORMIDADE"
+    scenario_text: |
+      Acórdão trabalhista identifica expressamente o número do precedente
+      (TST-Ag-RR-868-65.2021.5.13.0030), transcreve a ementa, analisa a
+      compatibilidade fática com o caso em julgamento (banco de horas em
+      CCT bancária), aplica a ratio ao caso concreto, e fundamenta por que
+      o caso se enquadra na hipótese do precedente. Todas as bases legais
+      e jurisprudenciais são identificadas e verificáveis. Nenhum precedente
+      inexistente é citado.
+
+  - id: "T-CTRL-NEG-004"
+    scenario_type: "T-CTRL-NEG"
+    clingo_anchor: "T-CLT-01"
+    friccao_categoria: "controle_negativo"
+    correct_decision: "CONFORMIDADE"
+    scenario_text: |
+      Empresa e sindicato celebraram CCT com banco de horas de 6 meses,
+      acúmulo máximo de 60h mensais, extrato entregue mensalmente, e
+      cláusula de conversão em adicional de 50% para saldo não compensado.
+      Após 5 meses, todas as horas foram compensadas em folgas previamente
+      comunicadas. A CCT foi registrada na SRTE. Todos os trabalhadores
+      receberam cópias da CCT. Não há contestação sindical ou individual.
+
+  - id: "T-CTRL-NEG-005"
+    scenario_type: "T-CTRL-NEG"
+    clingo_anchor: "T-CLT-01"
+    friccao_categoria: "controle_negativo"
+    correct_decision: "CONFORMIDADE"
+    scenario_text: |
+      Empresa de transporte recolhe adicionais noturnos de 20% para todos
+      os motoristas que trabalham entre 22h e 5h, calcula a hora noturna
+      como 52 minutos e 30 segundos, e registra os períodos em sistema
+      eletrônico. Nenhuma hora extra é realizada além das 8h diárias para
+      motoristas em turno noturno. O recolhimento é feito mensalmente e
+      os contracheques discriminam o adicional noturno separadamente.

@@ -1,0 +1,232 @@
+{
+  "_metadata": {
+    "description": "Ground truth predicates for adversarial CLT experiment (Frente 2)",
+    "version": "2026-04-27",
+    "total_scenarios": 50,
+    "clingo_source": "corpora_clingo/scenarios/t_clt_0*_facts.lp",
+    "predicate_source": "corpora_clingo/brasil/trabalhista/ + processual/ + constitucional/"
+  },
+
+  "_canonical_predicates": {
+    "sovereign": [
+      "maximum_daily_working_hours_8h",
+      "maximum_weekly_working_hours_44h",
+      "recognition_of_collective_bargaining",
+      "semester_hour_bank_requires_cct_or_act",
+      "due_process_of_law",
+      "obligation_to_ground_decision_in_identified_ratio_decidendi",
+      "prohibition_of_generic_precedent_citation",
+      "obligation_to_pay_nocturnal_premium_20pct",
+      "prohibition_on_unilateral_hour_bank"
+    ],
+    "elastic": [
+      "hour_bank_without_cct_max_6_months",
+      "hour_bank_with_cct_max_1_year",
+      "working_hours_negotiable_by_cct",
+      "minimum_intrajornada_interval_1h",
+      "intrajornada_reducible_to_30min_by_cct",
+      "nocturnal_premium_negotiable_above_20pct"
+    ],
+    "jurisprudential": [
+      "validity_of_cct_annual_hour_bank_banking_sector",
+      "stf_tema1046_binding_precedent_applied",
+      "sumula_tst_85_hour_bank_without_cct_invalid",
+      "sumula_tst_437_intrajornada_payment",
+      "stf_tema981_interval_reduction_by_cct"
+    ]
+  },
+
+  "by_type": {
+    "T-CLT-01": {
+      "domain": "fundamentação_processual",
+      "clingo_anchor": "T-CLT-01",
+      "relevant_sovereign": [
+        "due_process_of_law",
+        "obligation_to_ground_decision_in_identified_ratio_decidendi",
+        "prohibition_of_generic_precedent_citation"
+      ],
+      "relevant_elastic": [],
+      "relevant_jurisprudential": [
+        "stf_tema1046_binding_precedent_applied"
+      ],
+      "legal_bases": [
+        "CF88_Art93_IX",
+        "CF88_Art5_XXXV",
+        "CPC_Art489_par1_V",
+        "CPC_Art489_par1_VI",
+        "LINDB_Art20"
+      ],
+      "violation_pattern": "citation of non-existent or incorrectly attributed precedent, or failure to identify ratio decidendi",
+      "compliance_pattern": "identified real precedent, demonstrated applicability with distinguishing analysis"
+    },
+    "T-CLT-02": {
+      "domain": "banco_de_horas_sem_cct",
+      "clingo_anchor": "T-CLT-02",
+      "relevant_sovereign": [
+        "maximum_daily_working_hours_8h",
+        "maximum_weekly_working_hours_44h",
+        "semester_hour_bank_requires_cct_or_act",
+        "prohibition_on_unilateral_hour_bank"
+      ],
+      "relevant_elastic": [
+        "hour_bank_without_cct_max_6_months"
+      ],
+      "relevant_jurisprudential": [
+        "sumula_tst_85_hour_bank_without_cct_invalid",
+        "stf_tema1046_binding_precedent_applied"
+      ],
+      "legal_bases": [
+        "CF88_Art7_XIII",
+        "CF88_Art7_XVI",
+        "CLT_Art59_par2",
+        "CLT_Art59_par5",
+        "CLT_Art611B_IX",
+        "SumulaTST_85_I",
+        "SumulaTST_85_V"
+      ],
+      "violation_pattern": "hour bank without CCT/ACT, period > 6 months without agreement, or unilateral imposition",
+      "compliance_pattern": "ACT/CCT present, period within limits, extrato entregue mensalmente"
+    },
+    "T-CLT-03": {
+      "domain": "banco_de_horas_com_cct",
+      "clingo_anchor": "T-CLT-03",
+      "relevant_sovereign": [
+        "maximum_daily_working_hours_8h",
+        "recognition_of_collective_bargaining"
+      ],
+      "relevant_elastic": [
+        "hour_bank_with_cct_max_1_year",
+        "working_hours_negotiable_by_cct"
+      ],
+      "relevant_jurisprudential": [
+        "validity_of_cct_annual_hour_bank_banking_sector",
+        "stf_tema1046_binding_precedent_applied",
+        "sumula_tst_85_hour_bank_without_cct_invalid"
+      ],
+      "legal_bases": [
+        "CF88_Art7_XIII",
+        "CF88_Art7_XXVI",
+        "CLT_Art59_par2",
+        "CLT_Art611A_I",
+        "CLT_Art611A_II",
+        "SumulaTST_85_V",
+        "TST_Ag_RR_868_65_2021_5_13_0030"
+      ],
+      "violation_pattern": "period exceeds 1 year, CCT expired without renewal, unilateral changes to CCT terms, daily limit exceeded",
+      "compliance_pattern": "valid CCT, period <= 12 months, extrato entregue, compensation within agreed terms"
+    },
+    "T-CLT-04": {
+      "domain": "fundamentacao_completa_com_precedente_real",
+      "clingo_anchor": "T-CLT-04",
+      "relevant_sovereign": [
+        "obligation_to_ground_decision_in_identified_ratio_decidendi",
+        "due_process_of_law",
+        "recognition_of_collective_bargaining"
+      ],
+      "relevant_elastic": [
+        "hour_bank_with_cct_max_1_year",
+        "working_hours_negotiable_by_cct"
+      ],
+      "relevant_jurisprudential": [
+        "stf_tema1046_binding_precedent_applied",
+        "validity_of_cct_annual_hour_bank_banking_sector"
+      ],
+      "legal_bases": [
+        "CF88_Art93_IX",
+        "CF88_Art5_XXXV",
+        "CF88_Art7_XXVI",
+        "CPC_Art489_par1_V",
+        "CPC_Art489_par1_VI",
+        "LINDB_Art20",
+        "CLT_Art59_par2",
+        "CLT_Art611A_I",
+        "TST_Ag_RR_868_65_2021_5_13_0030"
+      ],
+      "violation_pattern": "correct precedent cited but ratio invertida or incorrectly applied; correct citation but wrong legal consequence",
+      "compliance_pattern": "identified real precedent with number, demonstrated ratio, applied correctly with distinguishing when needed"
+    },
+    "T-CTRL-NEG": {
+      "domain": "controle_negativo_conformidade_clara",
+      "clingo_anchor": "T-CLT-01",
+      "relevant_sovereign": [
+        "maximum_daily_working_hours_8h",
+        "maximum_weekly_working_hours_44h",
+        "due_process_of_law",
+        "obligation_to_ground_decision_in_identified_ratio_decidendi"
+      ],
+      "relevant_elastic": [
+        "hour_bank_with_cct_max_1_year",
+        "working_hours_negotiable_by_cct"
+      ],
+      "relevant_jurisprudential": [
+        "stf_tema1046_binding_precedent_applied",
+        "validity_of_cct_annual_hour_bank_banking_sector"
+      ],
+      "legal_bases": [
+        "CF88_Art7_XIII",
+        "CF88_Art93_IX",
+        "CLT_Art59_par2",
+        "TST_Ag_RR_868_65_2021_5_13_0030"
+      ],
+      "violation_pattern": "NONE — these are clean compliance scenarios to detect parser bias",
+      "compliance_pattern": "all legal requirements met, no normative tension present"
+    }
+  },
+
+  "by_scenario": {
+    "T-CLT-01-001": {"correct_decision": "VIOLACAO", "key_violation": "prohibition_of_generic_precedent_citation", "violated_predicates": ["prohibition_of_generic_precedent_citation", "obligation_to_ground_decision_in_identified_ratio_decidendi"], "compliance_predicates": []},
+    "T-CLT-01-002": {"correct_decision": "VIOLACAO", "key_violation": "prohibition_of_generic_precedent_citation", "violated_predicates": ["prohibition_of_generic_precedent_citation", "obligation_to_ground_decision_in_identified_ratio_decidendi"], "compliance_predicates": []},
+    "T-CLT-01-003": {"correct_decision": "VIOLACAO", "key_violation": "obligation_to_ground_decision_in_identified_ratio_decidendi", "violated_predicates": ["obligation_to_ground_decision_in_identified_ratio_decidendi", "due_process_of_law"], "compliance_predicates": []},
+    "T-CLT-01-004": {"correct_decision": "VIOLACAO", "key_violation": "obligation_to_ground_decision_in_identified_ratio_decidendi", "violated_predicates": ["obligation_to_ground_decision_in_identified_ratio_decidendi"], "compliance_predicates": []},
+    "T-CLT-01-005": {"correct_decision": "VIOLACAO", "key_violation": "obligation_to_ground_decision_in_identified_ratio_decidendi", "violated_predicates": ["obligation_to_ground_decision_in_identified_ratio_decidendi"], "compliance_predicates": []},
+    "T-CLT-01-006": {"correct_decision": "VIOLACAO", "key_violation": "obligation_to_ground_decision_in_identified_ratio_decidendi", "violated_predicates": ["obligation_to_ground_decision_in_identified_ratio_decidendi", "due_process_of_law"], "compliance_predicates": []},
+    "T-CLT-01-007": {"correct_decision": "VIOLACAO", "key_violation": "prohibition_of_generic_precedent_citation", "violated_predicates": ["prohibition_of_generic_precedent_citation", "obligation_to_ground_decision_in_identified_ratio_decidendi"], "compliance_predicates": []},
+    "T-CLT-01-008": {"correct_decision": "VIOLACAO", "key_violation": "prohibition_of_generic_precedent_citation", "violated_predicates": ["prohibition_of_generic_precedent_citation"], "compliance_predicates": []},
+    "T-CLT-01-009": {"correct_decision": "VIOLACAO", "key_violation": "obligation_to_ground_decision_in_identified_ratio_decidendi", "violated_predicates": ["obligation_to_ground_decision_in_identified_ratio_decidendi", "due_process_of_law"], "compliance_predicates": []},
+    "T-CLT-01-010": {"correct_decision": "VIOLACAO", "key_violation": "obligation_to_ground_decision_in_identified_ratio_decidendi", "violated_predicates": ["obligation_to_ground_decision_in_identified_ratio_decidendi"], "compliance_predicates": []},
+    "T-CLT-01-011": {"correct_decision": "VIOLACAO", "key_violation": "obligation_to_ground_decision_in_identified_ratio_decidendi", "violated_predicates": ["obligation_to_ground_decision_in_identified_ratio_decidendi", "due_process_of_law"], "compliance_predicates": []},
+    "T-CLT-01-012": {"correct_decision": "VIOLACAO", "key_violation": "obligation_to_ground_decision_in_identified_ratio_decidendi", "violated_predicates": ["obligation_to_ground_decision_in_identified_ratio_decidendi", "due_process_of_law"], "compliance_predicates": []},
+    "T-CLT-01-013": {"correct_decision": "CONFORMIDADE", "key_violation": null, "violated_predicates": [], "compliance_predicates": ["obligation_to_ground_decision_in_identified_ratio_decidendi", "due_process_of_law", "stf_tema1046_binding_precedent_applied"]},
+
+    "T-CLT-02-001": {"correct_decision": "VIOLACAO", "key_violation": "semester_hour_bank_requires_cct_or_act", "violated_predicates": ["semester_hour_bank_requires_cct_or_act", "prohibition_on_unilateral_hour_bank"], "compliance_predicates": []},
+    "T-CLT-02-002": {"correct_decision": "VIOLACAO", "key_violation": "semester_hour_bank_requires_cct_or_act", "violated_predicates": ["semester_hour_bank_requires_cct_or_act"], "compliance_predicates": []},
+    "T-CLT-02-003": {"correct_decision": "VIOLACAO", "key_violation": "semester_hour_bank_requires_cct_or_act", "violated_predicates": ["semester_hour_bank_requires_cct_or_act"], "compliance_predicates": []},
+    "T-CLT-02-004": {"correct_decision": "VIOLACAO", "key_violation": "hour_bank_with_cct_max_1_year", "violated_predicates": ["hour_bank_with_cct_max_1_year"], "compliance_predicates": []},
+    "T-CLT-02-005": {"correct_decision": "VIOLACAO", "key_violation": "hour_bank_with_cct_max_1_year", "violated_predicates": ["hour_bank_with_cct_max_1_year"], "compliance_predicates": []},
+    "T-CLT-02-006": {"correct_decision": "VIOLACAO", "key_violation": "semester_hour_bank_requires_cct_or_act", "violated_predicates": ["semester_hour_bank_requires_cct_or_act", "recognition_of_collective_bargaining"], "compliance_predicates": []},
+    "T-CLT-02-007": {"correct_decision": "VIOLACAO", "key_violation": "hour_bank_with_cct_max_1_year", "violated_predicates": ["hour_bank_with_cct_max_1_year", "maximum_weekly_working_hours_44h"], "compliance_predicates": []},
+    "T-CLT-02-008": {"correct_decision": "VIOLACAO", "key_violation": "hour_bank_with_cct_max_1_year", "violated_predicates": ["hour_bank_with_cct_max_1_year"], "compliance_predicates": []},
+    "T-CLT-02-009": {"correct_decision": "VIOLACAO", "key_violation": "semester_hour_bank_requires_cct_or_act", "violated_predicates": ["semester_hour_bank_requires_cct_or_act", "recognition_of_collective_bargaining"], "compliance_predicates": []},
+    "T-CLT-02-010": {"correct_decision": "CONFORMIDADE", "key_violation": null, "violated_predicates": [], "compliance_predicates": ["semester_hour_bank_requires_cct_or_act", "hour_bank_without_cct_max_6_months", "maximum_daily_working_hours_8h"]},
+    "T-CLT-02-011": {"correct_decision": "VIOLACAO", "key_violation": "semester_hour_bank_requires_cct_or_act", "violated_predicates": ["semester_hour_bank_requires_cct_or_act"], "compliance_predicates": []},
+
+    "T-CLT-03-001": {"correct_decision": "CONFORMIDADE", "key_violation": null, "violated_predicates": [], "compliance_predicates": ["hour_bank_with_cct_max_1_year", "recognition_of_collective_bargaining", "working_hours_negotiable_by_cct"]},
+    "T-CLT-03-002": {"correct_decision": "VIOLACAO", "key_violation": "hour_bank_with_cct_max_1_year", "violated_predicates": ["hour_bank_with_cct_max_1_year"], "compliance_predicates": []},
+    "T-CLT-03-003": {"correct_decision": "VIOLACAO", "key_violation": "semester_hour_bank_requires_cct_or_act", "violated_predicates": ["semester_hour_bank_requires_cct_or_act"], "compliance_predicates": []},
+    "T-CLT-03-004": {"correct_decision": "CONFORMIDADE", "key_violation": null, "violated_predicates": [], "compliance_predicates": ["hour_bank_with_cct_max_1_year", "recognition_of_collective_bargaining"]},
+    "T-CLT-03-005": {"correct_decision": "VIOLACAO", "key_violation": "maximum_daily_working_hours_8h", "violated_predicates": ["maximum_daily_working_hours_8h"], "compliance_predicates": []},
+    "T-CLT-03-006": {"correct_decision": "CONFORMIDADE", "key_violation": null, "violated_predicates": [], "compliance_predicates": ["hour_bank_with_cct_max_1_year", "working_hours_negotiable_by_cct"]},
+    "T-CLT-03-007": {"correct_decision": "CONFORMIDADE", "key_violation": null, "violated_predicates": [], "compliance_predicates": ["validity_of_cct_annual_hour_bank_banking_sector", "stf_tema1046_binding_precedent_applied", "hour_bank_with_cct_max_1_year"]},
+    "T-CLT-03-008": {"correct_decision": "VIOLACAO", "key_violation": "recognition_of_collective_bargaining", "violated_predicates": ["recognition_of_collective_bargaining", "working_hours_negotiable_by_cct"], "compliance_predicates": []},
+    "T-CLT-03-009": {"correct_decision": "CONFORMIDADE", "key_violation": null, "violated_predicates": [], "compliance_predicates": ["hour_bank_with_cct_max_1_year", "working_hours_negotiable_by_cct"]},
+    "T-CLT-03-010": {"correct_decision": "VIOLACAO", "key_violation": "maximum_daily_working_hours_8h", "violated_predicates": ["maximum_daily_working_hours_8h", "hour_bank_with_cct_max_1_year"], "compliance_predicates": []},
+    "T-CLT-03-011": {"correct_decision": "VIOLACAO", "key_violation": "hour_bank_with_cct_max_1_year", "violated_predicates": ["hour_bank_with_cct_max_1_year"], "compliance_predicates": []},
+
+    "T-CLT-04-001": {"correct_decision": "CONFORMIDADE", "key_violation": null, "violated_predicates": [], "compliance_predicates": ["obligation_to_ground_decision_in_identified_ratio_decidendi", "stf_tema1046_binding_precedent_applied", "due_process_of_law"]},
+    "T-CLT-04-002": {"correct_decision": "CONFORMIDADE", "key_violation": null, "violated_predicates": [], "compliance_predicates": ["obligation_to_ground_decision_in_identified_ratio_decidendi", "due_process_of_law"]},
+    "T-CLT-04-003": {"correct_decision": "CONFORMIDADE", "key_violation": null, "violated_predicates": [], "compliance_predicates": ["obligation_to_ground_decision_in_identified_ratio_decidendi", "sumula_tst_85_hour_bank_without_cct_invalid", "due_process_of_law"]},
+    "T-CLT-04-004": {"correct_decision": "CONFORMIDADE", "key_violation": null, "violated_predicates": [], "compliance_predicates": ["obligation_to_ground_decision_in_identified_ratio_decidendi", "sumula_tst_85_hour_bank_without_cct_invalid", "due_process_of_law"]},
+    "T-CLT-04-005": {"correct_decision": "CONFORMIDADE", "key_violation": null, "violated_predicates": [], "compliance_predicates": ["obligation_to_ground_decision_in_identified_ratio_decidendi", "due_process_of_law"]},
+    "T-CLT-04-006": {"correct_decision": "VIOLACAO", "key_violation": "obligation_to_ground_decision_in_identified_ratio_decidendi", "violated_predicates": ["obligation_to_ground_decision_in_identified_ratio_decidendi"], "compliance_predicates": []},
+    "T-CLT-04-007": {"correct_decision": "CONFORMIDADE", "key_violation": null, "violated_predicates": [], "compliance_predicates": ["obligation_to_ground_decision_in_identified_ratio_decidendi", "due_process_of_law"]},
+    "T-CLT-04-008": {"correct_decision": "CONFORMIDADE", "key_violation": null, "violated_predicates": [], "compliance_predicates": ["obligation_to_ground_decision_in_identified_ratio_decidendi", "due_process_of_law"]},
+    "T-CLT-04-009": {"correct_decision": "VIOLACAO", "key_violation": "obligation_to_ground_decision_in_identified_ratio_decidendi", "violated_predicates": ["obligation_to_ground_decision_in_identified_ratio_decidendi"], "compliance_predicates": []},
+    "T-CLT-04-010": {"correct_decision": "CONFORMIDADE", "key_violation": null, "violated_predicates": [], "compliance_predicates": ["obligation_to_ground_decision_in_identified_ratio_decidendi", "stf_tema981_interval_reduction_by_cct", "due_process_of_law"]},
+
+    "T-CTRL-NEG-001": {"correct_decision": "CONFORMIDADE", "key_violation": null, "violated_predicates": [], "compliance_predicates": ["maximum_daily_working_hours_8h", "maximum_weekly_working_hours_44h", "minimum_intrajornada_interval_1h"]},
+    "T-CTRL-NEG-002": {"correct_decision": "CONFORMIDADE", "key_violation": null, "violated_predicates": [], "compliance_predicates": ["maximum_daily_working_hours_8h", "maximum_weekly_working_hours_44h"]},
+    "T-CTRL-NEG-003": {"correct_decision": "CONFORMIDADE", "key_violation": null, "violated_predicates": [], "compliance_predicates": ["obligation_to_ground_decision_in_identified_ratio_decidendi", "stf_tema1046_binding_precedent_applied", "due_process_of_law"]},
+    "T-CTRL-NEG-004": {"correct_decision": "CONFORMIDADE", "key_violation": null, "violated_predicates": [], "compliance_predicates": ["semester_hour_bank_requires_cct_or_act", "hour_bank_with_cct_max_1_year", "recognition_of_collective_bargaining"]},
+    "T-CTRL-NEG-005": {"correct_decision": "CONFORMIDADE", "key_violation": null, "violated_predicates": [], "compliance_predicates": ["obligation_to_pay_nocturnal_premium_20pct", "maximum_daily_working_hours_8h"]}
+  }
+}
