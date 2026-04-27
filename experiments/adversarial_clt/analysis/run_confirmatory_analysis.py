@@ -1,14 +1,15 @@
-"""Orquestrador da análise confirmatória completa (H1–H6).
+"""Orquestrador da análise confirmatória completa (H1–H6 + H5b).
 
-Etapas:
+Etapas (7 hipóteses — pós-emenda 27/abr/2026):
   1. Avalia D1, D2, D3 sobre results.parquet → salva parquets por métrica
-  2. H1 McNemar (D1 binária, B4 vs B1 por modelo, Bonferroni)
+  2. H1 McNemar (D1 binária, B4 vs B1 por modelo, Bonferroni m=6, α=0.0083)
   3. H2 Wilcoxon (D2 contínua, B3/B4 vs B1 por modelo)
-  4. H3 ANOVA two-way (arm × model, D1/D2/D3)
-  5. H4 Wilcoxon (D3 contínua, B4 vs B1 por modelo)
-  6. H5 Levene (variância cross-model, B4 vs B1)
-  7. H6 ANOVA one-way (Δ_D1 por friccao_categoria)
-  8. Consolida em summary.json
+  4. H3 ANOVA two-way (cross-arch invariance: p > 0.0083 = H3 sustentada)
+  5. H4 Wilcoxon (D3 contínua — especificidade, B4 vs B1)
+  6. H5 Levene (variância cross-model, complementar)
+  7. H5b Bootstrap overlap (effect-size invariance, primário — emenda §11.2)
+  8. H6 ANOVA one-way (Δ_D1 por friccao_categoria)
+  9. Consolida em summary_confirmatory.json
 
 Uso:
   python -m experiments.adversarial_clt.analysis.run_confirmatory_analysis
@@ -90,6 +91,7 @@ def run_full_analysis(results_parquet: Path = RESULTS_PARQUET) -> dict:
 
     print(f"\n{'='*60}")
     print("ANÁLISE CONFIRMATÓRIA FRENTE 2 — Q-FENG vs CLT")
+    print("Hipóteses: H1, H2, H3, H4, H5, H5b, H6  (emenda 27/abr/2026)")
     print(f"{'='*60}\n")
 
     # ── Etapa 1: Métricas D1/D2/D3 ──────────────────────────────────
@@ -101,6 +103,7 @@ def run_full_analysis(results_parquet: Path = RESULTS_PARQUET) -> dict:
     from experiments.adversarial_clt.analysis.test_h2_h4_wilcoxon import run_h2_wilcoxon, run_h4_wilcoxon
     from experiments.adversarial_clt.analysis.test_h3_anova_interaction import run_h3_anova
     from experiments.adversarial_clt.analysis.test_h5_levene_variance import run_h5_levene
+    from experiments.adversarial_clt.analysis.test_h5_bootstrap_overlap import run_h5b_bootstrap_overlap
     from experiments.adversarial_clt.analysis.test_subgroup_friccao import run_h6_friccao
 
     summary: dict = {}
@@ -135,12 +138,19 @@ def run_full_analysis(results_parquet: Path = RESULTS_PARQUET) -> dict:
             output_path=_ANALYSIS_DIR / "h4_wilcoxon.json",
         )
 
-    print("\n[ H5 ] Levene — consistência cross-architecture...")
+    print("\n[ H5 ] Levene — variância cross-model (análise complementar)...")
     summary["h5"] = run_h5_levene(
         d1_path=metric_paths.get("d1"),
         d2_path=metric_paths.get("d2"),
         output_path=_ANALYSIS_DIR / "h5_levene.json",
     )
+
+    print("\n[ H5b ] Bootstrap overlap — invariância de magnitude do efeito (teste primário)...")
+    if "d1" in metric_paths:
+        summary["h5b"] = run_h5b_bootstrap_overlap(
+            d1_path=metric_paths["d1"],
+            output_path=_ANALYSIS_DIR / "h5b_bootstrap.json",
+        )
 
     print("\n[ H6 ] ANOVA one-way — estratificação por fricção ontológica...")
     if "d1" in metric_paths:
@@ -173,7 +183,7 @@ def run_full_analysis(results_parquet: Path = RESULTS_PARQUET) -> dict:
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Análise confirmatória completa H1-H6")
+    parser = argparse.ArgumentParser(description="Análise confirmatória completa H1-H6 + H5b (emenda 27/abr/2026)")
     parser.add_argument(
         "--results-parquet",
         default=str(RESULTS_PARQUET),

@@ -210,3 +210,63 @@ repositório e deve ser citado em qualquer publicação derivada.
 
 *Documento gerado em 27/abr/2026. Quaisquer desvios do plano pré-registrado
 serão documentados no relatório final com justificativa explícita.*
+
+---
+
+## 11. Emenda Formal — Alinhamento Estatístico-Editorial (27/abr/2026)
+
+**Tipo:** Emenda pré-execução LLM
+**Data da emenda:** 27 de abril de 2026, ~19h UTC-3
+**SHA do pré-registro original:** `4c24e14` (commit `frente2-a4: pre-registro OSF-style (ANTES de qualquer execucao LLM)`)
+**SHA desta emenda:** [a ser preenchido após commit desta operação]
+**Justificativa:** alinhamento entre semântica estatística das hipóteses H3 e H5 e a reivindicação editorial de *agnosticismo de stack ML* registrada em `artefatos/notas_metodologicas/INSERCOES_NOVAS_SECOES_CANONICO.md` (Bloco B / §7.4 nova do canônico).
+
+**Status quanto à execução LLM:** Esta emenda é registrada **antes** de qualquer chamada LLM ter sido executada. O diretório `results/raw_responses/` permanecia vazio na auditoria pré-execução em 27/abr/2026 às 19h UTC-3. A integridade pré-registral é portanto preservada: nenhuma hipótese é modificada após observação de dados.
+
+### 11.1 Reformulação de H3
+
+A formulação original de H3 na §2 deste pré-registro especifica:
+
+> *"H₃: interação_arm×model é significativa em ANOVA two-way"* — i.e., direção esperada `p < 0.05`.
+
+A formulação reformulada de H3 passa a ser:
+
+> **H3 (cross-architecture invariance) [reformulada]:** O efeito Q-FENG na redução de alucinação (D1) e no aumento de cobertura (D2) é estatisticamente invariante entre famílias arquitetônicas de LLM. Operacionalmente, o termo de interação `arm × model` na ANOVA two-way é estatisticamente **não-significativo** após correção Bonferroni: `p(arm × model) > 0.05/m`, onde `m = 6` (número de hipóteses confirmatórias H1–H6).
+
+**Justificativa da reformulação:** a formulação original tinha leitura dupla declarada na própria §2 ("presença de interação indicaria que a ancoragem Q-FENG beneficia modelos maiores desproporcionalmente OU inversamente sinaliza uniformidade arquitetônica"). Hipótese pré-registrada deve ter direção única e falsificável. A nova formulação fixa a direção `p > 0.05/m` como evidência da hipótese — que é a direção alinhada à reivindicação editorial de *agnosticismo de stack ML*. A direção oposta (`p < 0.05/m`, presença de interação) passa a constituir falsificação de H3 e abre espaço para análise exploratória post-hoc sobre a natureza da interação.
+
+**Teste estatístico:** ANOVA two-way `D1 ~ arm × model` e `D2 ~ arm × model`, fatores arm (4 níveis: B1, B2, B3, B4) e model (4 níveis: Qwen 3 14B, Phi-4 14B, Gemma 3 12B, Llama 3.1 8B). Reportar F-statistic, p-valor da interação, e η² parcial.
+
+**α corrigido:** 0,05 / 6 = 0,0083 (Bonferroni m=6 sobre as hipóteses H1-H6).
+
+### 11.2 Adição de H5b — Bootstrap effect-size overlap
+
+A formulação original de H5 (Levene's test sobre variância cross-model) é **preservada** como análise complementar. Acrescenta-se H5b como teste primário para a reivindicação editorial de invariância de magnitude do efeito Q-FENG entre arquiteturas LLM:
+
+> **H5b (effect-size overlap across architectures) [adicionada]:** A magnitude do efeito Q-FENG sobre alucinação `Δ_i = [D1(B1) − D1(B4)]_modelo_i` tem intervalo de confiança 95% bootstrap (1.000 iterações) sobreposto entre todos os pares (i, j) ∈ {Qwen 3 14B, Phi-4 14B, Gemma 3 12B, Llama 3.1 8B}. Operacionalmente, computar bootstrap pareado por cenário com 1.000 iterações para cada modelo, derivar IC95% percentile, e verificar overlap pareado em matriz binária 4×4.
+
+**Justificativa da adição:** Levene mede homogeneidade de variância intra-braço entre modelos, que é uma propriedade relacionada mas distinta de invariância de magnitude do efeito entre arquiteturas. A reivindicação editorial de *agnosticismo de stack ML* (Bloco B do `INSERCOES_NOVAS_SECOES_CANONICO.md`, §7.4 nova do canônico) requer especificamente que o efeito Q-FENG (medido como diferença `D1(B1) − D1(B4)`) tenha magnitude semelhante entre famílias arquitetônicas. H5b operacionaliza diretamente esta reivindicação. H5 (Levene) é mantida como evidência convergente complementar.
+
+**Teste estatístico:** Bootstrap não-paramétrico pareado por cenário, 1.000 iterações, IC95% percentile (2,5% e 97,5%). Critério de evidência: matriz 4×4 de overlap binário com pelo menos 5 dos 6 pares (i,j) ∈ {(Qwen,Phi), (Qwen,Gemma), (Qwen,Llama), (Phi,Gemma), (Phi,Llama), (Gemma,Llama)} apresentando ICs sobrepostos.
+
+**α implícito:** Não aplicável (teste de overlap de IC, não rejeição de H₀). Threshold de evidência: ≥ 5/6 pares com overlap.
+
+### 11.3 Mapeamento de hipóteses entre o Code, o patch original e o canônico
+
+Para evitar descalibração entre os scripts de análise (`analysis/test_h*.py`), o pré-registro, e os relatórios em chat (`RESULTADOS_FRENTE1_PARA_CANONICO.md`, `INSERCOES_NOVAS_SECOES_CANONICO.md`), registra-se aqui o mapeamento canônico:
+
+| Hipótese (script `analysis/`) | Pré-registro pós-emenda | Patch original | Reivindicação editorial |
+|---|---|---|---|
+| `test_h1_mcnemar.py` | H1 (D1 reduction B4<B1) | H1 (idem) | Efeito principal de ancoragem |
+| `test_h2_h4_wilcoxon.py` testando D2 | H2 (D2 increase B3/B4>B1) | H2 (idem) | Cobertura predicativa |
+| `test_h3_anova_interaction.py` (reformulado em F2P.2) | H3 (cross-arch invariance, p > 0.05/m) | H3 (idem) | Agnosticismo de stack ML — invariância da direção do efeito |
+| `test_h2_h4_wilcoxon.py` testando D3 | H4 (D3 specificity B4>B1) | H6 do patch | Especificidade de fundamentação |
+| `test_h5_levene_variance.py` | H5 (variance homogeneity, complementar) | — | Evidência convergente |
+| `test_h5_bootstrap_overlap.py` (novo, F2P.3) | **H5b (effect-size overlap)** | H5 do patch | Agnosticismo de stack ML — invariância da magnitude do efeito |
+| `test_subgroup_friccao.py` | H6 (Friccao Ontologica subgroups) | Acréscimo 5 do patch | Costura editorial Frente 1 + Frente 2 |
+
+**Total de hipóteses confirmatórias após emenda:** 7 (H1, H2, H3, H4, H5, H5b, H6). Bonferroni `m = 7` para hipóteses correlatas; H3 e H5b individuais usam α = 0.05/6 e threshold de overlap respectivamente.
+
+### 11.4 Status de execução
+
+Esta emenda é registrada **antes** do início da execução das 2.400 chamadas LLM. Nenhum dado LLM foi coletado entre `4c24e14` (pré-registro original) e o commit desta emenda. A integridade pré-registral é portanto preservada: emenda pré-observacional, não emenda post-hoc.
