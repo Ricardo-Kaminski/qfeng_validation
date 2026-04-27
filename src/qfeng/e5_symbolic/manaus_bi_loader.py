@@ -4,7 +4,7 @@ Substitui manaus_sih_loader.py como ponto de entrada canônico para o preditor
 BI bivariado do Caminho 2. Integra três fontes:
 
   - TOH semanal : data/predictors/manaus_bi/derived/toh_semanal_manaus.parquet
-                  74 SEs, microdado DEMAS-VEPI real (Fase 2.1.5-bis).
+                  74 SEs raw (Fase 2.1.5-bis); série ativa = 70 SEs via SE_INICIO_SERIE_FRENTE1.
                   Exportado em percentual (0–211.5), pico SE 03/2021 = 211.5%.
   - SRAG semanal: data/predictors/manaus_bi/derived/srag_semanal_manaus.parquet
                   73 SEs, SIVEP-Gripe INFLUD20/21, is_stub=False. Fase 2 Tarefa 2.B.
@@ -46,7 +46,11 @@ COVID_CIDS = {"J189", "J960", "J961", "J969", "U071", "U072", "B342"}
 SE_WINDOW = [
     *[(2020, w) for w in range(10, 54)],   # SE 10-53/2020 = 44 SEs (2020 tem 53 semanas ISO)
     *[(2021, w) for w in range(1,  31)],   # SE  1-30/2021 = 30 SEs
-]  # = 74 SEs total — alinhado com toh_semanal_manaus.parquet (Fase 2.1.5-bis)
+]  # = 74 SEs raw — alinhado com toh_semanal_manaus.parquet (Fase 2.1.5-bis)
+
+# Opção 2 (27/abr/2026): exclui SE 10-13/2020 (TOH=0, consolidação tardia DEMAS-VEPI)
+# Série ativa: SE 14/2020 → SE 30/2021 = 70 SEs
+SE_INICIO_SERIE_FRENTE1: int = 202014
 
 # Para mapeamento SE → mês (métricas SIH mensais)
 _MONTHS_PERIOD = [
@@ -142,7 +146,10 @@ def _build_sih_monthly_metrics(sih: pd.DataFrame) -> dict[tuple[int, int], dict]
 
 
 def load_manaus_bi_series() -> list[dict]:
-    """Retorna série bivariada de 73 SEs (TOH semanal + SRAG semanal + métricas SIH mensais).
+    """Retorna série bivariada de 70 SEs (SE 14/2020 → SE 30/2021).
+
+    Opção 2 (27/abr/2026): série truncada em SE_INICIO_SERIE_FRENTE1=202014,
+    excluindo 4 SEs com TOH=0 por consolidação tardia DEMAS-VEPI (202010-202013).
 
     Schema de cada entrada:
         label, competencia, year, week_se, month_sih,
@@ -159,9 +166,14 @@ def load_manaus_bi_series() -> list[dict]:
     srag = _load_srag()
     sih_metrics = _build_sih_monthly_metrics(sih)
 
+    # Aplica corte Opção 2: exclui SEs < SE_INICIO_SERIE_FRENTE1
+    active_window = [
+        (y, w) for (y, w) in SE_WINDOW if y * 100 + w >= SE_INICIO_SERIE_FRENTE1
+    ]
+
     # ── Pass 1: métricas brutas por SE ───────────────────────────────────
     raw_rows: list[dict] = []
-    for year, week in SE_WINDOW:
+    for year, week in active_window:
         # Mapeia SE → mês para lookup de métricas SIH mensais
         sih_year, sih_month = _se_to_month(year, week)
         month_key = (sih_year, sih_month)

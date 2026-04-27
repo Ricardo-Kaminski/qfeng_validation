@@ -3,9 +3,9 @@
 Cobertura:
   test_t_mort_fix         : MORTE_NUM.sum() == 482 (regressão do bug t_mort=0)
   test_srag_real          : srag is_stub=False (dados reais SIVEP-Gripe)
-  test_toh_from_parquet   : TOH carregado do parquet semanal (73 SEs)
+  test_toh_from_parquet   : TOH parquet raw = 74 SEs (Fase 2.1.5-bis)
   test_t_mort_ratio       : taxa_mortalidade ≈ 0.18 global
-  test_series_length      : 73 SEs retornadas
+  test_series_length      : 70 SEs retornadas (Opção 2: corte em SE 14/2020)
   test_peak_se            : hospital_occupancy_pct máximo em SE 2-4/2021
   test_no_zero_internacoes: nenhuma SE com internacoes = 0 (mapeamento mensal)
 """
@@ -110,8 +110,8 @@ def test_toh_peak_se3_2021():
 # ── Testes da série bivariada ─────────────────────────────────────────────────
 
 def test_series_length(series):
-    """load_manaus_bi_series() deve retornar exatamente 74 SEs (SE 10/2020–SE 30/2021, incl. SE 53/2020)."""
-    assert len(series) == 74, f"Esperado 74 SEs, obtido {len(series)}"
+    """load_manaus_bi_series() deve retornar exatamente 70 SEs (SE 14/2020–SE 30/2021, Opção 2)."""
+    assert len(series) == 70, f"Esperado 70 SEs (Opção 2: corte em SE 14/2020), obtido {len(series)}"
 
 
 def test_peak_se(series):
@@ -156,3 +156,24 @@ def test_no_zero_internacoes(series):
     """Nenhuma SE deve ter internacoes = 0 (mapeamento mensal SIH cobre janela)."""
     zeros = [r["competencia"] for r in series if r["internacoes"] == 0]
     assert not zeros, f"SEs com internacoes=0: {zeros}"
+
+
+# ── Regressão Opção 2 (27/abr/2026) ──────────────────────────────────────────
+
+def test_se_inicio_serie_frente1_constant():
+    """SE_INICIO_SERIE_FRENTE1 deve ser 202014 (Opção 2: corte auditado)."""
+    from qfeng.e5_symbolic.manaus_bi_loader import SE_INICIO_SERIE_FRENTE1
+    assert SE_INICIO_SERIE_FRENTE1 == 202014
+
+
+def test_serie_starts_at_se14_2020(series):
+    """Primeira SE da série deve ser 202014 (não 202010)."""
+    first_comp = series[0]["competencia"]
+    assert first_comp == "202014", f"Esperado '202014', obtido '{first_comp}'"
+
+
+def test_ses_202010_202013_excluidas(series):
+    """SEs 202010–202013 não devem aparecer na série (TOH=0, consolidação tardia)."""
+    excluidas = {"202010", "202011", "202012", "202013"}
+    presentes = [r["competencia"] for r in series if r["competencia"] in excluidas]
+    assert not presentes, f"SEs excluídas pela Opção 2 presentes na série: {presentes}"

@@ -8,8 +8,8 @@
 
 ## 1. Sumário Executivo
 
-O framework Q-FENG, aplicado à série semanal de 74 semanas epidemiológicas (SEs)
-de Manaus/AM (SE 10/2020 – SE 30/2021), detectou regime de alarme sustentado
+O framework Q-FENG, aplicado à série semanal de 70 semanas epidemiológicas (SEs)
+de Manaus/AM (SE 14/2020 – SE 30/2021, Opção 2), detectou regime de alarme sustentado
 (**Circuit Breaker, CB**) com **19 semanas de antecipação** em relação ao colapso
 sanitário público documentado (SE 03/2021, decreto AM 43.269/2021 — calamidade pública,
 esgotamento de oxigênio, transferências emergenciais interestaduais).
@@ -33,13 +33,13 @@ corretamente sua intensidade e progressão temporal.
 
 | Componente | Descrição |
 |---|---|
-| **Série temporal** | 74 SEs semanais (SE 10/2020 – SE 30/2021, incl. SE 53/2020) |
+| **Série temporal** | 70 SEs ativas (SE 14/2020 – SE 30/2021, Opção 2) |
 | **TOH (numerador)** | DEMAS-VEPI: 12.929 registros diários UTI COVID, 31 CNES Manaus |
 | **TOH (denominador)** | CNES-LT: leitos UTI cadastrados (cód. 74-77), média mensal, 23 estabelecimentos |
 | **SIH/DATASUS** | Internações e óbitos mensais mapeados para SEs (mês_inicio_se) |
 | **SRAG/SIVEP-Gripe** | Casos SRAG COVID semanais Manaus (dados reais, is_stub=False) |
 | **Módulo** | E5 Symbolic Testing — `manaus_bi_loader.py` + `runner.py` |
-| **σ bootstrap** | 0.05 uniforme (contrato Zenodo v2026.04; todas as 74 SEs são fontes primárias) |
+| **σ bootstrap** | 0.05 uniforme (contrato Zenodo v2026.04; 70 SEs ativas, Opção 2) |
 
 ### 2.2. Θ_efetivo e Regimes de Interferência
 
@@ -66,7 +66,7 @@ esta distinção para evitar interpretações incorretas de magnitude.
 
 ## 3. Resultados
 
-### 3.1. Distribuição de Regimes (74 SEs)
+### 3.1. Distribuição de Regimes (70 SEs, Opção 2)
 
 | Regime | N | % |
 |--------|---|---|
@@ -81,13 +81,13 @@ durante toda a janela de observação, do início da pandemia ao fim da série.
 
 | Métrica | Valor | Competência de origem |
 |---------|-------|-----------------------|
-| ΔSE_HITL | 46 SEs | SE 10/2020 (início da série) |
+| ΔSE_HITL | 42 SEs | SE 14/2020 (início série, Opção 2) |
 | ΔSE_CB | 19 SEs | SE 37/2020 (1ª onda CB — set/2020) |
 | **ΔSE_CB_estável** | **19 SEs** | SE 37/2020 (run de 8 SEs consecutivas) |
 | SE de colapso canônica | — | SE 03/2021 (decreto AM 43.269/2021) |
 
 **ΔSE_HITL = 46** indica que o sistema entrou em regime HITL desde a primeira semana
-observada (SE 10/2020), muito antes da primeira onda pública. Isto reflete que os dados
+observada (SE 14/2020), muito antes da primeira onda pública. Isto reflete que os dados
 epidemiológicos de Manaus já exibiam pressão elevada desde meados de março/2020.
 
 **ΔSE_CB = ΔSE_CB_estável = 19** porque a primeira onda CB (SE 37/2020) imediatamente
@@ -110,12 +110,12 @@ recuperação lenta até maio/2021 (TOH ainda >100% em diversas semanas).
 
 | Estatística | Valor |
 |-------------|-------|
-| Mínimo | 100,59° (SE 10-14/2020, início série) |
+| Mínimo | 100,59° (SE 14-17/2020, início série) |
 | Máximo | 133,07° (SE 07-08/2021, pico onda 2) |
 | SE de colapso (SE 03/2021) | 123,27° (CB) |
 | Mediana | ~114° (HITL) |
 
-O θ_efetivo permanece acima de 100° em todas as 74 SEs — nunca abaixo do limiar HITL —
+O θ_efetivo permanece acima de 100° em todas as 70 SEs — nunca abaixo do limiar HITL —
 confirmando pressão sistêmica contínua. O pico em SE 07-08/2021 (133°) coincide com a
 fase mais aguda da onda 2, quando TOH permanecia >160% por múltiplas semanas consecutivas.
 
@@ -254,7 +254,7 @@ rotaciona o espaço de parâmetros em direção a menor conflito ontológico.
 
 | Arquivo | Conteúdo |
 |---------|---------|
-| `outputs/e5_results/theta_efetivo_manaus.parquet` | Série completa 74 SEs com θ_efetivo, regimes, deltas |
+| `outputs/e5_results/theta_efetivo_manaus.parquet` | Série ativa 70 SEs (Opção 2) com θ_efetivo, regimes, deltas |
 | `outputs/e5_results/run_log_frente1.txt` | Log JSON de execução F1.1/F1.2 |
 | `outputs/frente1_delta_se_antecipacao.json` | Métricas ΔSE, sensibilidade, Fricção Ontológica (F1.3) |
 | `outputs/frente1_analise_descritiva.md` | Análise detalhada com tabelas e correlações (F1.3) |
@@ -268,4 +268,4 @@ rotaciona o espaço de parâmetros em direção a menor conflito ontológico.
 ---
 
 *Q-FENG Frente 1 — branch caminho2 | commits `edd15b1`..`1f5c6dd`*
-*Sigma=0.05 uniforme, 74 SEs primárias, TOH DEMAS-VEPI/CNES-LT — Zenodo v2026.04*
+*σ=0.05 uniforme, 70 SEs ativas (Opção 2), TOH DEMAS-VEPI/CNES-LT — Zenodo v2026.04*

@@ -1,8 +1,11 @@
 """F1.3 — Análise descritiva e métrica ΔSE de antecipação (Frente 1).
 
-Carrega theta_efetivo_manaus.parquet (74 SEs semanais, branch caminho2)
+Carrega theta_efetivo_manaus.parquet (70 SEs ativas, SE 14/2020→SE 30/2021, Opção 2)
 e computa as métricas de antecipação do Q-FENG em relação ao colapso
 público documentado de Manaus (SE 03/2021, decreto AM 43.269/2021).
+
+Opção 2 (27/abr/2026): série truncada em SE 14/2020 para excluir 4 SEs com
+TOH=0 por consolidação tardia DEMAS-VEPI (202010–202013). n: 74→70.
 
 Nota de granularidade: delta_pressao e delta_theta são SE-a-SE (não mês-a-mês),
 pois o pipeline Frente 1 opera sobre série semanal primária (DEMAS-VEPI).
@@ -17,7 +20,7 @@ Saídas:
     outputs/figures/frente1_theta_t_serie_semanal.png
     outputs/figures/frente1_sensibilidade_thresholds.png
 
-Zenodo reproducibility contract: sigma=0.05 uniforme, 74 SEs primárias,
+Zenodo reproducibility contract: sigma=0.05 uniforme, 70 SEs ativas (Opção 2),
 TOH denominador CNES-LT estrito (methodological choice — see §6.4).
 """
 
@@ -330,7 +333,7 @@ def plot_theta_series(df: pd.DataFrame, runs: list[dict], collapse_idx: int) -> 
     ax1.axhline(HITL_THRESHOLD_DEFAULT, color="#ff7f0e", lw=1.5, ls="--", label=f"HITL threshold ({HITL_THRESHOLD_DEFAULT}°)")
     ax1.axvline(collapse_idx, color="black", lw=2.0, ls="-", label="SE 03/2021 (decreto AM 43.269)")
     ax1.set_ylabel("θ_efetivo (graus)", fontsize=11)
-    ax1.set_title("Q-FENG θ_efetivo Manaus 2020–2021 (74 SEs semanais, Fase 2.1.5-bis)", fontsize=13, pad=10)
+    ax1.set_title("Q-FENG θ_efetivo Manaus 2020–2021 (70 SEs ativas, SE 14/2020–SE 30/2021, Opção 2)", fontsize=13, pad=10)
     ax1.set_ylim(90, 145)
 
     patches = [mpatches.Patch(color=c, label=k) for k, c in REGIME_COLORS.items()]
@@ -461,7 +464,7 @@ def write_report(result: dict) -> None:
 
 Esta análise documenta a capacidade de antecipação do framework Q-FENG
 aplicado à crise hospitalar de Manaus (2020-2021), usando série semanal de
-74 SEs (SE 10/2020 – SE 30/2021) derivada dos microdados primários DEMAS-VEPI
+70 SEs ativas (SE 14/2020 – SE 30/2021, Opção 2) derivada dos microdados primários DEMAS-VEPI
 (TOH denominador CNES-LT estrito) após a refundação Fase 2.1.5-bis.
 
 **SE de colapso canônica:** SE 03/2021 (18-24/jan/2021) — decreto AM 43.269/2021
@@ -484,7 +487,7 @@ devem especificar a distinção.
 
 **Thresholds primários:** CB ≥ {meta['thresholds_primarios']['cb']}°, HITL ≥ {meta['thresholds_primarios']['hitl']}°
 
-O Q-FENG opera inteiramente em regime HITL ou CIRCUIT_BREAKER durante as 74 SEs,
+O Q-FENG opera inteiramente em regime HITL ou CIRCUIT_BREAKER durante as 70 SEs ativas,
 confirmando que a janela 2020-2021 representa um episódio de pressão sistêmica contínua
 sem retorno ao regime de operação normal (STAC). A concentração de regime CB em ondas
 (ver §4) é coerente com a dinâmica de colapso-recuperação parcial-recolapso documentada
@@ -573,7 +576,7 @@ Ver figura `frente1_sensibilidade_thresholds.png` para visualização matricial.
    resultado que sustenta o argumento de antecipação.
 3. **TOH denominador CNES:** Decisão epistemológica deliberada — manter CNES estrito
    expõe a Fricção Ontológica em vez de mascará-la via denominador "corrigido".
-4. **sigma=0.05 uniforme:** Todas as 74 SEs são fontes primárias; distinção anterior
+4. **sigma=0.05 uniforme:** Todas as 70 SEs ativas são fontes primárias; distinção anterior
    (0.05/0.10 por "literature months") eliminada — documentada como contrato Zenodo v2026.04.
 
 ---

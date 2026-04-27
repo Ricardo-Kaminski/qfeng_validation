@@ -2,9 +2,9 @@
   "meta": {
     "frente": 1,
     "tarefa": "F1.3",
-    "data_execucao": "2026-04-27T03:36:51.519487",
-    "n_ses": 74,
-    "se_range": "SE10/2020–SE30/2021",
+    "data_execucao": "2026-04-27T13:05:48.018913",
+    "n_ses": 70,
+    "se_range": "SE14/2020–SE30/2021",
     "se_colapso_canonico": "SE3/2021",
     "decreto_canonical": "AM 43.269/2021 — calamidade pública Manaus",
     "nota_granularidade": "delta_pressao e delta_theta são SE-a-SE (não mês-a-mês). Pipeline Frente 1 opera sobre série semanal primária DEMAS-VEPI. Comparações com pipeline mensal anterior devem especificar distinção de granularidade.",
@@ -15,12 +15,12 @@
     "stable_consecutive_min": 3
   },
   "antecipacao": {
-    "delta_se_hitl": 46,
+    "delta_se_hitl": 42,
     "delta_se_cb": 19,
     "delta_se_cb_estavel": 19,
     "gate_criterion_se": 4,
     "gate_passed": true,
-    "first_hitl_competencia": "202010",
+    "first_hitl_competencia": "202014",
     "first_cb_competencia": "202037",
     "first_cb_estavel_competencia": "202037",
     "collapse_theta_efetivo": 123.2748,
@@ -28,12 +28,12 @@
   },
   "regime_distribution": {
     "counts": {
-      "HITL": 48,
+      "HITL": 44,
       "CIRCUIT_BREAKER": 26
     },
     "pct": {
-      "HITL": 64.9,
-      "CIRCUIT_BREAKER": 35.1
+      "HITL": 62.9,
+      "CIRCUIT_BREAKER": 37.1
     }
   },
   "cb_waves": [
@@ -51,92 +51,92 @@
     }
   ],
   "correlacoes": {
-    "rho_toh_theta_efetivo": 0.3735,
-    "p_toh_theta_efetivo": 0.001046,
-    "rho_score_pressao_theta_efetivo": 0.9056,
+    "rho_toh_theta_efetivo": 0.3262,
+    "p_toh_theta_efetivo": 0.005858,
+    "rho_score_pressao_theta_efetivo": 0.9375,
     "p_score_pressao": 0.0,
-    "rho_obitos_theta_efetivo": 0.3988,
-    "p_obitos": 0.000433
+    "rho_obitos_theta_efetivo": 0.4168,
+    "p_obitos": 0.000331
   },
   "sensitivity": [
     {
       "cb_threshold": 110.0,
       "hitl_threshold": 45.0,
-      "n_cb_ses": 71,
-      "delta_cb": 46,
-      "delta_cb_estavel": 46,
+      "n_cb_ses": 67,
+      "delta_cb": 42,
+      "delta_cb_estavel": 42,
       "gate_passed": true
     },
     {
       "cb_threshold": 110.0,
       "hitl_threshold": 52.5,
-      "n_cb_ses": 71,
-      "delta_cb": 46,
-      "delta_cb_estavel": 46,
+      "n_cb_ses": 67,
+      "delta_cb": 42,
+      "delta_cb_estavel": 42,
       "gate_passed": true
     },
     {
       "cb_threshold": 110.0,
       "hitl_threshold": 60.0,
-      "n_cb_ses": 71,
-      "delta_cb": 46,
-      "delta_cb_estavel": 46,
+      "n_cb_ses": 67,
+      "delta_cb": 42,
+      "delta_cb_estavel": 42,
       "gate_passed": true
     },
     {
       "cb_threshold": 110.0,
       "hitl_threshold": 67.5,
-      "n_cb_ses": 71,
-      "delta_cb": 46,
-      "delta_cb_estavel": 46,
+      "n_cb_ses": 67,
+      "delta_cb": 42,
+      "delta_cb_estavel": 42,
       "gate_passed": true
     },
     {
       "cb_threshold": 110.0,
       "hitl_threshold": 75.0,
-      "n_cb_ses": 71,
-      "delta_cb": 46,
-      "delta_cb_estavel": 46,
+      "n_cb_ses": 67,
+      "delta_cb": 42,
+      "delta_cb_estavel": 42,
       "gate_passed": true
     },
     {
       "cb_threshold": 115.0,
       "hitl_threshold": 45.0,
-      "n_cb_ses": 62,
-      "delta_cb": 46,
-      "delta_cb_estavel": 46,
+      "n_cb_ses": 58,
+      "delta_cb": 42,
+      "delta_cb_estavel": 42,
       "gate_passed": true
     },
     {
       "cb_threshold": 115.0,
       "hitl_threshold": 52.5,
-      "n_cb_ses": 62,
-      "delta_cb": 46,
-      "delta_cb_estavel": 46,
+      "n_cb_ses": 58,
+      "delta_cb": 42,
+      "delta_cb_estavel": 42,
       "gate_passed": true
     },
     {
       "cb_threshold": 115.0,
       "hitl_threshold": 60.0,
-      "n_cb_ses": 62,
-      "delta_cb": 46,
-      "delta_cb_estavel": 46,
+      "n_cb_ses": 58,
+      "delta_cb": 42,
+      "delta_cb_estavel": 42,
       "gate_passed": true
     },
     {
       "cb_threshold": 115.0,
       "hitl_threshold": 67.5,
-      "n_cb_ses": 62,
-      "delta_cb": 46,
-      "delta_cb_estavel": 46,
+      "n_cb_ses": 58,
+      "delta_cb": 42,
+      "delta_cb_estavel": 42,
       "gate_passed": true
     },
     {
       "cb_threshold": 115.0,
       "hitl_threshold": 75.0,
-      "n_cb_ses": 62,
-      "delta_cb": 46,
-      "delta_cb_estavel": 46,
+      "n_cb_ses": 58,
+      "delta_cb": 42,
+      "delta_cb_estavel": 42,
       "gate_passed": true
     },
     {
@@ -297,7 +297,7 @@
       "n_cb_ses": 26,
       "n_cb_ses_toh_above_100pct": 22,
       "pct_cb_ses_toh_above_100": 84.6,
-      "rho_toh_theta_efetivo": 0.3735,
+      "rho_toh_theta_efetivo": 0.3262,
       "interpretacao": "22/26 SEs em CB têm TOH>100%, confirmando que o regime CB capta especificamente as semanas de colapso sistêmico documentado pelas fontes primárias (DEMAS-VEPI + FVS-AM)."
     }
   }

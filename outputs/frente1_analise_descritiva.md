@@ -8,7 +8,7 @@
 
 Esta análise documenta a capacidade de antecipação do framework Q-FENG
 aplicado à crise hospitalar de Manaus (2020-2021), usando série semanal de
-74 SEs (SE 10/2020 – SE 30/2021) derivada dos microdados primários DEMAS-VEPI
+70 SEs ativas (SE 14/2020 – SE 30/2021, Opção 2) derivada dos microdados primários DEMAS-VEPI
 (TOH denominador CNES-LT estrito) após a refundação Fase 2.1.5-bis.
 
 **SE de colapso canônica:** SE 03/2021 (18-24/jan/2021) — decreto AM 43.269/2021
@@ -25,13 +25,13 @@ devem especificar a distinção.
 
 | Regime | SEs | % |
 |--------|-----|---|
-| CIRCUIT_BREAKER | 26 | 35.1% |
-| HITL | 48 | 64.9% |
+| CIRCUIT_BREAKER | 26 | 37.1% |
+| HITL | 44 | 62.9% |
 | STAC | 0 | 0% |
 
 **Thresholds primários:** CB ≥ 120.0°, HITL ≥ 60.0°
 
-O Q-FENG opera inteiramente em regime HITL ou CIRCUIT_BREAKER durante as 74 SEs,
+O Q-FENG opera inteiramente em regime HITL ou CIRCUIT_BREAKER durante as 70 SEs ativas,
 confirmando que a janela 2020-2021 representa um episódio de pressão sistêmica contínua
 sem retorno ao regime de operação normal (STAC). A concentração de regime CB em ondas
 (ver §4) é coerente com a dinâmica de colapso-recuperação parcial-recolapso documentada
@@ -43,7 +43,7 @@ clinicamente para Manaus.
 
 | Métrica | Valor | Interpretação |
 |---------|-------|---------------|
-| ΔSE_HITL | 46 SEs | SEs entre primeiro HITL e colapso (202010) |
+| ΔSE_HITL | 42 SEs | SEs entre primeiro HITL e colapso (202014) |
 | ΔSE_CB | 19 SEs | SEs entre primeiro CB e colapso (202037) |
 | ΔSE_CB_estável | 19 SEs | SEs entre CB estável (≥3 consec.) e colapso (202037) |
 
@@ -67,7 +67,7 @@ ao sistema regulatório formal.
 **Interpretação:** O padrão de ondas reflete a dinâmica epidemiológica documentada —
 onda 1 (set-out/2020) corresponde à segunda onda da pandemia com esgotamento progressivo;
 onda 2 (jan-maio/2021) cobre o colapso catastrófico e a fase de recuperação lenta.
-A CB% resultante (35.1%) concentra-se temporalmente em ondas,
+A CB% resultante (37.1%) concentra-se temporalmente em ondas,
 não distribuída uniformemente — distinção metodológica relevante para o argumento do paper.
 
 ---
@@ -76,9 +76,9 @@ não distribuída uniformemente — distinção metodológica relevante para o a
 
 | Par | ρ Spearman | p-valor |
 |-----|-----------|---------|
-| TOH × θ_efetivo | 0.3735 | 0.001046 |
-| score_pressao × θ_efetivo | 0.9056 | 0.0 |
-| óbitos × θ_efetivo | 0.3988 | 0.000433 |
+| TOH × θ_efetivo | 0.3262 | 0.005858 |
+| score_pressao × θ_efetivo | 0.9375 | 0.0 |
+| óbitos × θ_efetivo | 0.4168 | 0.000331 |
 
 ---
 
@@ -106,16 +106,16 @@ não distribuída uniformemente — distinção metodológica relevante para o a
 
 | CB threshold | HITL threshold | N_CB_SEs | ΔSE_CB | ΔSE_CB_estável | Gate |
 |---|---|---|---|---|---|
-| 110.0° | 45.0° | 71 | 46 | 46 | ✓ |
-| 110.0° | 52.5° | 71 | 46 | 46 | ✓ |
-| 110.0° | 60.0° | 71 | 46 | 46 | ✓ |
-| 110.0° | 67.5° | 71 | 46 | 46 | ✓ |
-| 110.0° | 75.0° | 71 | 46 | 46 | ✓ |
-| 115.0° | 45.0° | 62 | 46 | 46 | ✓ |
-| 115.0° | 52.5° | 62 | 46 | 46 | ✓ |
-| 115.0° | 60.0° | 62 | 46 | 46 | ✓ |
-| 115.0° | 67.5° | 62 | 46 | 46 | ✓ |
-| 115.0° | 75.0° | 62 | 46 | 46 | ✓ |
+| 110.0° | 45.0° | 67 | 42 | 42 | ✓ |
+| 110.0° | 52.5° | 67 | 42 | 42 | ✓ |
+| 110.0° | 60.0° | 67 | 42 | 42 | ✓ |
+| 110.0° | 67.5° | 67 | 42 | 42 | ✓ |
+| 110.0° | 75.0° | 67 | 42 | 42 | ✓ |
+| 115.0° | 45.0° | 58 | 42 | 42 | ✓ |
+| 115.0° | 52.5° | 58 | 42 | 42 | ✓ |
+| 115.0° | 60.0° | 58 | 42 | 42 | ✓ |
+| 115.0° | 67.5° | 58 | 42 | 42 | ✓ |
+| 115.0° | 75.0° | 58 | 42 | 42 | ✓ |
 | 120.0° | 45.0° | 26 | 19 | 19 | ✓ |
 | 120.0° | 52.5° | 26 | 19 | 19 | ✓ |
 | 120.0° | 60.0° | 26 | 19 | 19 | ✓ |
@@ -140,12 +140,12 @@ Ver figura `frente1_sensibilidade_thresholds.png` para visualização matricial.
 
 1. **Granularidade SE-a-SE:** delta_pressao/delta_theta refletem variação semanal.
    Narrativa nos §6.3-6.4 do paper deve especificar explicitamente.
-2. **CB% = 35.1% ≠ 50% do benchmark mensal:** A concentração em ondas,
+2. **CB% = 37.1% ≠ 50% do benchmark mensal:** A concentração em ondas,
    não a CB média, é o fenômeno relevante. ΔSE_CB_estável = 19 semanas é o
    resultado que sustenta o argumento de antecipação.
 3. **TOH denominador CNES:** Decisão epistemológica deliberada — manter CNES estrito
    expõe a Fricção Ontológica em vez de mascará-la via denominador "corrigido".
-4. **sigma=0.05 uniforme:** Todas as 74 SEs são fontes primárias; distinção anterior
+4. **sigma=0.05 uniforme:** Todas as 70 SEs ativas são fontes primárias; distinção anterior
    (0.05/0.10 por "literature months") eliminada — documentada como contrato Zenodo v2026.04.
 
 ---
