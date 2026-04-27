@@ -99,6 +99,11 @@ outputs/**
 !outputs/**/*_decision.json
 !outputs/_archive/
 !outputs/_archive/**
+# Derived parquets Caminho2 (calculados, sem dados brutos pesados)
+!data/predictors/
+!data/predictors/manaus_bi/
+!data/predictors/manaus_bi/derived/
+!data/predictors/manaus_bi/derived/*.parquet
 
 # ============================================================
 # docs/ - versionado por default, com excecoes para o repo remoto
