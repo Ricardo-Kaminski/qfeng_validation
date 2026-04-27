@@ -1,13 +1,13 @@
-"""Testes de regressão — manaus_bi_loader.py (Tarefa 2.2).
+"""Testes de regressão — manaus_bi_loader.py (Fase 2 Tarefa 2.D).
 
 Cobertura:
   test_t_mort_fix         : MORTE_NUM.sum() == 482 (regressão do bug t_mort=0)
-  test_srag_not_stub      : srag_is_stub=False após extração real (guarda Fase 2)
-  test_toh_from_parquet   : TOH carregado do parquet, não do dict hardcoded
+  test_srag_real          : srag is_stub=False (dados reais SIVEP-Gripe)
+  test_toh_from_parquet   : TOH carregado do parquet semanal (73 SEs)
   test_t_mort_ratio       : taxa_mortalidade ≈ 0.18 global
-  test_series_length      : 12 meses retornados
-  test_peak_month         : hospital_occupancy_pct máximo em jan ou fev 2021
-  test_no_zero_internacoes: nenhum mês com n_int = 0 (parquet tem dados de todos os meses)
+  test_series_length      : 73 SEs retornadas
+  test_peak_se            : hospital_occupancy_pct máximo em SE 2-4/2021
+  test_no_zero_internacoes: nenhuma SE com internacoes = 0 (mapeamento mensal)
 """
 import pytest
 import pandas as pd
@@ -61,63 +61,98 @@ def test_morte_num_binary(sih):
 
 # ── Testes SRAG ───────────────────────────────────────────────────────────────
 
-def test_srag_not_stub():
-    """Guarda para Fase 2: quando SRAG real for extraído, is_stub deve ser False."""
+def test_srag_real():
+    """SRAG deve ser dados reais (is_stub=False) após Tarefa 2.B."""
     srag = _load_srag()
-    if srag["is_stub"].any():
-        pytest.skip(
-            "srag_manaus.parquet ainda é stub (Fase 2 Tarefa 2.1 pendente). "
-            "Re-executar após extração real do SIVEP-Gripe."
-        )
-    assert not srag["is_stub"].any(), "Todos os meses devem ter is_stub=False após extração real."
+    assert not srag["is_stub"].any(), (
+        "srag_semanal_manaus.parquet contém is_stub=True. "
+        "Deve usar derived/srag_semanal_manaus.parquet (Tarefa 2.B, dados reais)."
+    )
+
+
+def test_srag_weekly_coverage():
+    """SRAG deve ter 73 semanas (SE 10/2020 - SE 30/2021)."""
+    srag = _load_srag()
+    assert len(srag) == 73, f"SRAG deve ter 73 SEs, tem {len(srag)}"
+
+
+def test_srag_has_covid():
+    """SRAG deve ter n_covid > 0 em pelo menos metade das semanas."""
+    srag = _load_srag()
+    n_with_covid = (srag["n_covid"] > 0).sum()
+    assert n_with_covid >= 36, f"Poucas SEs com n_covid>0: {n_with_covid}"
 
 
 # ── Testes TOH ────────────────────────────────────────────────────────────────
 
 def test_toh_from_parquet():
-    """TOH deve ser carregado do parquet com 12 linhas."""
+    """TOH semanal deve ter 73 SEs."""
     toh = _load_toh()
-    assert len(toh) == 12, f"TOH parquet deve ter 12 meses, tem {len(toh)}"
+    assert len(toh) == 73, f"TOH parquet deve ter 73 SEs, tem {len(toh)}"
 
 
-def test_toh_peak_jan_2021():
-    """TOH deve ter pico em jan/2021 (104%) — sanity check epidemiológico."""
+def test_toh_peak_se3_2021():
+    """TOH deve ter pico em SE 2-4/2021 (>= 100%) — colapso documentado."""
     toh = _load_toh()
-    jan2021 = toh.loc[(2021, 1), "toh_uti_pct"]
-    assert jan2021 >= 100.0, f"TOH jan/2021 esperado >= 100%, obtido {jan2021}%"
+    # SE 2, 3, ou 4 de 2021 devem ser >= 100
+    peak_ok = False
+    for se in [2, 3, 4]:
+        try:
+            val = toh.loc[(2021, se), "toh_uti_pct"]
+            if val >= 100.0:
+                peak_ok = True
+                break
+        except KeyError:
+            pass
+    assert peak_ok, "TOH deve atingir >= 100% em SE 2-4/2021 (colapso hospitalar documentado)"
 
 
 # ── Testes da série bivariada ─────────────────────────────────────────────────
 
 def test_series_length(series):
-    """load_manaus_bi_series() deve retornar exatamente 12 meses."""
-    assert len(series) == 12
+    """load_manaus_bi_series() deve retornar exatamente 73 SEs."""
+    assert len(series) == 73, f"Esperado 73 SEs, obtido {len(series)}"
 
 
-def test_peak_month(series):
-    """hospital_occupancy_pct máximo deve ser em jan ou fev 2021."""
+def test_peak_se(series):
+    """hospital_occupancy_pct máximo deve ser em SE 2-4/2021."""
     max_row = max(series, key=lambda r: r["hospital_occupancy_pct"])
-    assert max_row["mes_cmpt"] in (1, 2) and max_row["ano_cmpt"] == 2021, (
-        f"Pico TOH esperado em jan/fev 2021, obtido {max_row['competencia']}"
+    assert (max_row["week_se"] in (2, 3, 4) and max_row["year"] == 2021), (
+        f"Pico TOH esperado em SE 2-4/2021, obtido SE{max_row['week_se']}/{max_row['year']}"
     )
 
 
-def test_all_months_have_srag_field(series):
-    """Todos os meses devem ter campo srag_n_covid e srag_is_stub."""
+def test_all_se_have_srag_field(series):
+    """Todas as SEs devem ter campo srag_n_covid e srag_is_stub."""
     for row in series:
-        assert "srag_n_covid" in row
-        assert "srag_is_stub" in row
+        assert "srag_n_covid" in row, f"srag_n_covid ausente em {row.get('competencia')}"
+        assert "srag_is_stub" in row, f"srag_is_stub ausente em {row.get('competencia')}"
 
 
-def test_evento_critico_jan_2021(series):
-    """Jan/2021 deve ter evento_critico=True (TOH > 85%)."""
-    jan = next(r for r in series if r["ano_cmpt"] == 2021 and r["mes_cmpt"] == 1)
-    assert jan["evento_critico"] is True
+def test_srag_not_stub_in_series(series):
+    """Nenhuma SE deve ter srag_is_stub=True (dados reais)."""
+    stubs = [r["competencia"] for r in series if r["srag_is_stub"]]
+    assert not stubs, f"SEs com srag_is_stub=True: {stubs}"
+
+
+def test_evento_critico_se3_2021(series):
+    """SE 3/2021 deve ter evento_critico=True (TOH > 85%)."""
+    se3 = next((r for r in series if r["year"] == 2021 and r["week_se"] == 3), None)
+    assert se3 is not None, "SE 3/2021 nao encontrada na serie"
+    assert se3["evento_critico"] is True, (
+        f"SE 3/2021: evento_critico deve ser True (TOH={se3['hospital_occupancy_pct']})"
+    )
 
 
 def test_theta_t_range(series):
     """theta_t deve estar entre 0° e 180° (compute_theta retorna graus)."""
     for row in series:
         assert 0.0 <= row["theta_t"] <= 180.0, (
-            f"theta_t fora do range [0,180]° em {row['competencia']}: {row['theta_t']}"
+            f"theta_t fora do range [0,180] graus em {row['competencia']}: {row['theta_t']}"
         )
+
+
+def test_no_zero_internacoes(series):
+    """Nenhuma SE deve ter internacoes = 0 (mapeamento mensal SIH cobre janela)."""
+    zeros = [r["competencia"] for r in series if r["internacoes"] == 0]
+    assert not zeros, f"SEs com internacoes=0: {zeros}"

@@ -1,0 +1,22 @@
+{
+  "name": "_TOH_FVS_AM",
+  "description": "Dict hardcoded de TOH UTI Manaus do manaus_sih_loader.py original",
+  "source": "manaus_sih_loader.py (DEPRECATED, commit pre-fase2)",
+  "archived_at": "2026-04-26",
+  "note": "Valores substituidos por toh_uti_manaus_mensal.parquet (Fase 1 Tarefa 1.1)",
+  "values": {
+    "2020-07": 64,
+    "2020-08": 24,
+    "2020-09": 36,
+    "2020-10": 55,
+    "2020-11": 63,
+    "2020-12": 78,
+    "2021-01": 104,
+    "2021-02": 101,
+    "2021-03": 94,
+    "2021-04": 76,
+    "2021-05": 70,
+    "2021-06": 70
+  },
+  "discrepancy_note": "Valor jul/2020=64 no dict original diverge do parquet (30.0%). Parquet usa nota tecnica FVS-AM 07/ago/2020: 49/165 leitos = 29.7%. O valor 64 pode ser de bulletin diferente ou erro de transcricao."
+}

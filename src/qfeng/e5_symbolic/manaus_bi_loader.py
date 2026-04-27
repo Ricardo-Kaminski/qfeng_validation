@@ -1,22 +1,24 @@
-"""BI bivariado loader — TOH UTI + SRAG Manaus 2020-2021.
+"""BI bivariado loader — TOH UTI + SRAG Manaus 2020-2021 (granularidade semanal SE).
 
 Substitui manaus_sih_loader.py como ponto de entrada canônico para o preditor
 BI bivariado do Caminho 2. Integra três fontes:
 
-  - TOH UTI  : data/predictors/manaus_bi/toh_uti_manaus.parquet (Fase 1 Tarefa 1.1)
-  - SRAG     : data/predictors/manaus_bi/srag_manaus.parquet    (stub até Fase 2 Tarefa 2.1)
-  - SIH micro: data/predictors/manaus_sih/sih_manaus_2020_2021.parquet
+  - TOH semanal : data/predictors/manaus_bi/derived/toh_semanal_manaus.parquet
+                  73 SEs, interpolação linear FVS-AM. Fase 2 Tarefa 2.A.
+  - SRAG semanal: data/predictors/manaus_bi/derived/srag_semanal_manaus.parquet
+                  73 SEs, SIVEP-Gripe INFLUD20/21, is_stub=False. Fase 2 Tarefa 2.B.
+  - SIH micro   : data/predictors/manaus_sih/sih_manaus_2020_2021.parquet
+                  Usado para métricas mensais (t_mort, t_uti, t_resp) mapeadas à SE.
 
 Fix t_mort (Bug confirmado Fase 1 Tarefa 1.4):
   ANTES: pd.to_numeric(df['MORTE'], errors='coerce').fillna(0)
          → retorna NaN para strings 'Sim'/'Não' → fillna(0) zera tudo
   DEPOIS: (df['MORTE'].astype(str).str.strip() == 'Sim').astype(int)
-          → funciona com ArrowDtype str, object, e StringDtype
 
 Resultado esperado após fix: MORTE_NUM.sum() == 482 (18% mortalidade intra-hospitalar).
 
 Exports:
-  load_manaus_bi_series()       -> list[dict]   ponto de entrada principal
+  load_manaus_bi_series()       -> list[dict]   ponto de entrada principal (73 SEs)
   load_sih_with_fixed_tmort()   -> pd.DataFrame uso em testes de regressão
 """
 from __future__ import annotations
@@ -30,23 +32,29 @@ from .interference import compute_theta
 from .psi_builder import _normalize, build_psi_s
 from .scenario_loader import run_scenario_with_occupancy
 
-# Paths canônicos (Fase 1 artefatos)
-_BI_DIR = Path(__file__).parents[3] / "data/predictors/manaus_bi"
-TOH_PATH  = _BI_DIR / "toh_uti_manaus.parquet"
-SRAG_PATH = _BI_DIR / "srag_manaus.parquet"
+# Paths canônicos — Fase 2 derived/ (granularidade semanal)
+_BI_DIR   = Path(__file__).parents[3] / "data/predictors/manaus_bi"
+TOH_PATH  = _BI_DIR / "derived/toh_semanal_manaus.parquet"
+SRAG_PATH = _BI_DIR / "derived/srag_semanal_manaus.parquet"
 SIH_PATH  = Path(__file__).parents[3] / "data/predictors/manaus_sih/sih_manaus_2020_2021.parquet"
 
 # CIDs COVID / insuficiência respiratória (idêntico ao manaus_sih_loader)
 COVID_CIDS = {"J189", "J960", "J961", "J969", "U071", "U072", "B342"}
 
-MONTHS_PERIOD = [
+# Janela de semanas epidemiológicas (SE 10/2020 → SE 30/2021 = 73 SEs)
+SE_WINDOW = [
+    *[(2020, w) for w in range(10, 53)],   # SE 10-52/2020 = 43 SEs
+    *[(2021, w) for w in range(1,  31)],   # SE  1-30/2021 = 30 SEs
+]
+
+# Para mapeamento SE → mês (métricas SIH mensais)
+_MONTHS_PERIOD = [
     (2020,  7), (2020,  8), (2020,  9), (2020, 10),
     (2020, 11), (2020, 12), (2021,  1), (2021,  2),
     (2021,  3), (2021,  4), (2021,  5), (2021,  6),
 ]
 
-
-# ── Bases psi_N (copiadas do manaus_sih_loader — NÃO MODIFICAR) ─────────────
+# Bases psi_N (copiadas do manaus_sih_loader — NÃO MODIFICAR)
 _PSI_N_BASE   = np.array([0.7, 0.2, 0.1])
 _PSI_N_CRISIS = np.array([0.1, 0.3, 0.6])
 
@@ -56,13 +64,21 @@ def _psi_n_from_score(score: float) -> np.ndarray:
     return _normalize(raw)
 
 
+def _se_to_month(year: int, week: int) -> tuple[int, int]:
+    """Mapeia (year, week_se) → (year, month) para lookup de métricas SIH."""
+    try:
+        date = pd.Timestamp.fromisocalendar(year, week, 1)
+    except ValueError:
+        # SE 53 em anos sem 53 semanas → usa última SE do ano
+        date = pd.Timestamp(f"{year}-12-28")
+    return date.year, date.month
+
+
 def load_sih_with_fixed_tmort() -> pd.DataFrame:
     """Carrega SIH parquet com MORTE_NUM corrigido.
 
     Fix aplicado: (df['MORTE'].astype(str).str.strip() == 'Sim').astype(int)
     Resultado esperado: MORTE_NUM.sum() == 482
-
-    Exposta como função pública para facilitar testes de regressão.
     """
     sih = pd.read_parquet(SIH_PATH)
     sih["ANO_CMPT"] = pd.to_numeric(sih["ANO_CMPT"], errors="coerce").fillna(0).astype(int)
@@ -74,39 +90,30 @@ def load_sih_with_fixed_tmort() -> pd.DataFrame:
 
 
 def _load_toh() -> pd.DataFrame:
-    """Carrega TOH UTI de toh_uti_manaus.parquet (Fase 1 Tarefa 1.1)."""
+    """Carrega TOH semanal de derived/toh_semanal_manaus.parquet (Fase 2 Tarefa 2.A)."""
     toh = pd.read_parquet(TOH_PATH)
-    toh = toh.set_index(["year", "month"])
+    toh = toh.set_index(["year", "week_se"])
     return toh
 
 
 def _load_srag() -> pd.DataFrame:
-    """Carrega SRAG de srag_manaus.parquet (stub ou real)."""
+    """Carrega SRAG semanal de derived/srag_semanal_manaus.parquet (Fase 2 Tarefa 2.B).
+
+    Valida is_stub=False — dados reais SIVEP-Gripe INFLUD20/21.
+    """
     srag = pd.read_parquet(SRAG_PATH)
-    srag = srag.set_index(["year", "month"])
+    assert not srag["is_stub"].any(), (
+        "srag_semanal_manaus.parquet contém is_stub=True. "
+        "Use o arquivo em derived/ (Tarefa 2.B), não o stub da Fase 1."
+    )
+    srag = srag.set_index(["year", "week_se"])
     return srag
 
 
-def load_manaus_bi_series() -> list[dict]:
-    """Retorna série bivariada de 12 meses (TOH + SRAG + métricas SIH com t_mort correto).
-
-    Schema de cada entrada:
-        label, competencia, ano_cmpt, mes_cmpt,
-        internacoes, obitos, taxa_mortalidade, taxa_uti, taxa_respiratorio,
-        score_pressao, hospital_occupancy_pct, toh_is_estimated,
-        srag_n_covid, srag_is_stub,
-        theta_t, psi_n, data_source, evento_critico
-
-    Quando srag_is_stub=True: score_pressao usa apenas métricas SIH (fórmula original).
-    Quando srag_is_stub=False (Fase 2+): SRAG normalizado será incorporado ao score.
-    """
-    sih  = load_sih_with_fixed_tmort()
-    toh  = _load_toh()
-    srag = _load_srag()
-
-    # ── Pass 1: métricas brutas ────────────────────────────────────────────
-    raw_rows: list[dict] = []
-    for year, month in MONTHS_PERIOD:
+def _build_sih_monthly_metrics(sih: pd.DataFrame) -> dict[tuple[int, int], dict]:
+    """Pré-computa métricas mensais do SIH para mapeamento a SEs."""
+    metrics: dict[tuple[int, int], dict] = {}
+    for year, month in _MONTHS_PERIOD:
         mask  = (sih["ANO_CMPT"] == year) & (sih["MES_CMPT"] == month)
         df_m  = sih[mask]
         n_int  = len(df_m)
@@ -114,34 +121,74 @@ def load_manaus_bi_series() -> list[dict]:
         n_uti  = int((df_m["UTI_MES_TO"] > 0).sum())
         n_resp = int(df_m["DIAG_PRINC"].isin(COVID_CIDS).sum())
         denom  = max(n_int, 1)
+        metrics[(year, month)] = {
+            "internacoes":       n_int,
+            "obitos":            n_obit,
+            "taxa_mortalidade":  round(n_obit / denom, 4),
+            "taxa_uti":          round(n_uti  / denom, 4),
+            "taxa_respiratorio": round(n_resp / denom, 4),
+        }
+    return metrics
 
-        # TOH do parquet (Fase 1) — int para compatibilidade com Clingo
-        toh_row = toh.loc[(year, month)] if (year, month) in toh.index else None
+
+def load_manaus_bi_series() -> list[dict]:
+    """Retorna série bivariada de 73 SEs (TOH semanal + SRAG semanal + métricas SIH mensais).
+
+    Schema de cada entrada:
+        label, competencia, year, week_se, month_sih,
+        internacoes, obitos, taxa_mortalidade, taxa_uti, taxa_respiratorio,
+        score_pressao, hospital_occupancy_pct, toh_is_estimated,
+        srag_n_covid, srag_is_stub,
+        theta_t, psi_n, data_source, evento_critico
+
+    score_pressao usa métricas mensais SIH mapeadas ao mês da SE.
+    TOH e SRAG são semanais (is_stub=False garantido).
+    """
+    sih  = load_sih_with_fixed_tmort()
+    toh  = _load_toh()
+    srag = _load_srag()
+    sih_metrics = _build_sih_monthly_metrics(sih)
+
+    # ── Pass 1: métricas brutas por SE ───────────────────────────────────
+    raw_rows: list[dict] = []
+    for year, week in SE_WINDOW:
+        # Mapeia SE → mês para lookup de métricas SIH mensais
+        sih_year, sih_month = _se_to_month(year, week)
+        month_key = (sih_year, sih_month)
+        # Cai para o mês mais próximo disponível se fora do range
+        if month_key not in sih_metrics:
+            closest = min(_MONTHS_PERIOD, key=lambda m: abs(m[0]*12+m[1] - sih_year*12-sih_month))
+            month_key = closest
+        m = sih_metrics[month_key]
+
+        # TOH semanal
+        toh_row = toh.loc[(year, week)] if (year, week) in toh.index else None
         occ_pct = int(round(toh_row["toh_uti_pct"])) if toh_row is not None else 0
         toh_estimated = bool(toh_row["is_estimated"]) if toh_row is not None else True
 
-        # SRAG
-        srag_row = srag.loc[(year, month)] if (year, month) in srag.index else None
-        n_covid  = int(srag_row["n_covid"]) if srag_row is not None else 0
-        is_stub  = bool(srag_row["is_stub"]) if srag_row is not None else True
+        # SRAG semanal
+        srag_row = srag.loc[(year, week)] if (year, week) in srag.index else None
+        n_covid  = int(srag_row["n_covid"])  if srag_row is not None else 0
+        is_stub  = False  # garantido por _load_srag()
 
-        t_mort = n_obit / denom
-        t_uti  = n_uti  / denom
-        t_resp = n_resp / denom
+        pressure_raw = (0.50 * m["taxa_mortalidade"]
+                        + 0.30 * m["taxa_uti"]
+                        + 0.20 * m["taxa_respiratorio"])
 
         raw_rows.append({
-            "year": year, "month": month,
-            "internacoes":         n_int,
-            "obitos":              n_obit,
-            "taxa_mortalidade":    round(t_mort, 4),
-            "taxa_uti":            round(t_uti,  4),
-            "taxa_respiratorio":   round(t_resp,  4),
-            "pressure_raw":        0.50 * t_mort + 0.30 * t_uti + 0.20 * t_resp,
+            "year": year, "week": week,
+            "month_sih":           month_key[1],
+            "internacoes":         m["internacoes"],
+            "obitos":              m["obitos"],
+            "taxa_mortalidade":    m["taxa_mortalidade"],
+            "taxa_uti":            m["taxa_uti"],
+            "taxa_respiratorio":   m["taxa_respiratorio"],
+            "pressure_raw":        pressure_raw,
             "hospital_occupancy_pct": occ_pct,
             "toh_is_estimated":    toh_estimated,
             "srag_n_covid":        n_covid,
             "srag_is_stub":        is_stub,
-            "data_source":         "sih_datasus+toh_fvs_am",
+            "data_source":         "sih_datasus+toh_fvs_am_semanal+srag_sivep",
         })
 
     # ── Pass 2: normalização de pressão ──────────────────────────────────
@@ -162,14 +209,16 @@ def load_manaus_bi_series() -> list[dict]:
                                 c2_result["active_elastic"])
         _, theta_t = compute_theta(psi_n, psi_s)
 
-        label = f"{r['month']:02d}/{r['year']}"
-        comp  = f"{r['year']}{r['month']:02d}"
+        year, week = r["year"], r["week"]
+        label = f"SE{week:02d}/{year}"
+        comp  = f"{year}{week:02d}"
 
         series.append({
             "label":                  label,
             "competencia":            comp,
-            "ano_cmpt":               r["year"],
-            "mes_cmpt":               r["month"],
+            "year":                   year,
+            "week_se":                week,
+            "month_sih":              r["month_sih"],
             "internacoes":            r["internacoes"],
             "obitos":                 r["obitos"],
             "taxa_mortalidade":       r["taxa_mortalidade"],
