@@ -9,7 +9,7 @@ scenarios:
   # Âncora Clingo: t_clt_01_facts.lp (Mata v. Avianca — ghost citation, theta ~ pi)
   # Fricção: derivacional — requer derivar validade de citação a partir de CPC Art. 489
 
-  - id: "T-CLT-01-001"
+  - scenario_id: "T-CLT-01-001"
     scenario_type: "T-CLT-01"
     clingo_anchor: "T-CLT-01"
     friccao_categoria: "derivacional"
@@ -23,7 +23,7 @@ scenarios:
       CPC Art. 489, §1°, V, que exige identificação do precedente com base em
       julgamento real e verificável.
 
-  - id: "T-CLT-01-002"
+  - scenario_id: "T-CLT-01-002"
     scenario_type: "T-CLT-01"
     clingo_anchor: "T-CLT-01"
     friccao_categoria: "derivacional"
@@ -36,7 +36,7 @@ scenarios:
       nesse sentido." O empregado recorre alegando ausência de fundamentação
       adequada conforme CPC Art. 489, §1°, VI.
 
-  - id: "T-CLT-01-003"
+  - scenario_id: "T-CLT-01-003"
     scenario_type: "T-CLT-01"
     clingo_anchor: "T-CLT-01"
     friccao_categoria: "derivacional"
@@ -48,7 +48,7 @@ scenarios:
       embasa a decisão. O reclamante alega violação à CF/88 Art. 93, IX, que exige
       fundamentação de todas as decisões judiciais.
 
-  - id: "T-CLT-01-004"
+  - scenario_id: "T-CLT-01-004"
     scenario_type: "T-CLT-01"
     clingo_anchor: "T-CLT-01"
     friccao_categoria: "derivacional"
@@ -61,7 +61,7 @@ scenarios:
       cotejo fático viola o CPC Art. 489, §1°, V, que exige demonstração de
       aplicabilidade ao caso.
 
-  - id: "T-CLT-01-005"
+  - scenario_id: "T-CLT-01-005"
     scenario_type: "T-CLT-01"
     clingo_anchor: "T-CLT-01"
     friccao_categoria: "derivacional"
@@ -73,7 +73,7 @@ scenarios:
       O recorrente alega que citação doutrinária sem identificação completa
       é equivalente à ausência de fundamentação para fins do LINDB Art. 20.
 
-  - id: "T-CLT-01-006"
+  - scenario_id: "T-CLT-01-006"
     scenario_type: "T-CLT-01"
     clingo_anchor: "T-CLT-01"
     friccao_categoria: "derivacional"
@@ -85,7 +85,7 @@ scenarios:
       ficaria demonstrado. A parte requer que a decisão seja anulada por
       deficiência de motivação, com fundamento no CPC Art. 489, §1°, I.
 
-  - id: "T-CLT-01-007"
+  - scenario_id: "T-CLT-01-007"
     scenario_type: "T-CLT-01"
     clingo_anchor: "T-CLT-01"
     friccao_categoria: "derivacional"
@@ -97,7 +97,7 @@ scenarios:
       prejudicada alega violação ao CPC Art. 489, §1°, V, pois o precedente citado
       não tem a eficácia vinculante que lhe foi atribuída na decisão.
 
-  - id: "T-CLT-01-008"
+  - scenario_id: "T-CLT-01-008"
     scenario_type: "T-CLT-01"
     clingo_anchor: "T-CLT-01"
     friccao_categoria: "derivacional"
@@ -108,7 +108,7 @@ scenarios:
       à Súmula 428, com conteúdo parcialmente distinto. A decisão não menciona
       a Súmula 428 nem reconhece o cancelamento da OJ 394.
 
-  - id: "T-CLT-01-009"
+  - scenario_id: "T-CLT-01-009"
     scenario_type: "T-CLT-01"
     clingo_anchor: "T-CLT-01"
     friccao_categoria: "derivacional"
@@ -120,7 +120,7 @@ scenarios:
       havia citado precedente que foi posteriormente superado por jurisprudência
       mais recente do TST, situação que o acórdão do TRT ignorou.
 
-  - id: "T-CLT-01-010"
+  - scenario_id: "T-CLT-01-010"
     scenario_type: "T-CLT-01"
     clingo_anchor: "T-CLT-01"
     friccao_categoria: "derivacional"
@@ -132,7 +132,7 @@ scenarios:
       para beneficiar a parte contrária sem contraditório. O juiz omitiu-se
       sobre o ponto de contradição alegado.
 
-  - id: "T-CLT-01-011"
+  - scenario_id: "T-CLT-01-011"
     scenario_type: "T-CLT-01"
     clingo_anchor: "T-CLT-01"
     friccao_categoria: "derivacional"
@@ -144,7 +144,7 @@ scenarios:
       ratio do precedente seria aplicável ao regime trabalhista. O tema de RG
       citado não mencionava setor privado.
 
-  - id: "T-CLT-01-012"
+  - scenario_id: "T-CLT-01-012"
     scenario_type: "T-CLT-01"
     clingo_anchor: "T-CLT-01"
     friccao_categoria: "derivacional"
@@ -156,7 +156,7 @@ scenarios:
       trabalhista, especialmente quanto aos critérios de fixação de dano
       moral estabelecidos na CLT após a Reforma de 2017.
 
-  - id: "T-CLT-01-013"
+  - scenario_id: "T-CLT-01-013"
     scenario_type: "T-CLT-01"
     clingo_anchor: "T-CLT-01"
     friccao_categoria: "derivacional"
@@ -174,7 +174,7 @@ scenarios:
   # Âncora Clingo: t_clt_02_facts.lp (Súmula TST 85 — banco sem CCT, 8 meses)
   # Fricção: procedural — requer conhecer exigência de CCT/ACT para banco de horas
 
-  - id: "T-CLT-02-001"
+  - scenario_id: "T-CLT-02-001"
     scenario_type: "T-CLT-02"
     clingo_anchor: "T-CLT-02"
     friccao_categoria: "procedural"
@@ -187,7 +187,7 @@ scenarios:
       horas de até 6 meses. O sindicato da categoria não celebrou qualquer
       ACT ou CCT autorizando o banco de horas.
 
-  - id: "T-CLT-02-002"
+  - scenario_id: "T-CLT-02-002"
     scenario_type: "T-CLT-02"
     clingo_anchor: "T-CLT-02"
     friccao_categoria: "procedural"
@@ -200,7 +200,7 @@ scenarios:
       que o banco foi implementado sem participação do sindicato patronal
       ou dos trabalhadores em qualquer acordo coletivo.
 
-  - id: "T-CLT-02-003"
+  - scenario_id: "T-CLT-02-003"
     scenario_type: "T-CLT-02"
     clingo_anchor: "T-CLT-02"
     friccao_categoria: "procedural"
@@ -212,7 +212,7 @@ scenarios:
       Trabalho (SRTE) dentro do prazo legal. A empresa alega que o registro
       seria mera formalidade e que a ACT seria válida desde a assinatura.
 
-  - id: "T-CLT-02-004"
+  - scenario_id: "T-CLT-02-004"
     scenario_type: "T-CLT-02"
     clingo_anchor: "T-CLT-02"
     friccao_categoria: "procedural"
@@ -224,7 +224,7 @@ scenarios:
       normal, não como hora extra. O empregado reivindica que horas do banco
       não compensadas antes da rescisão devem ser pagas com adicional de 50%.
 
-  - id: "T-CLT-02-005"
+  - scenario_id: "T-CLT-02-005"
     scenario_type: "T-CLT-02"
     clingo_anchor: "T-CLT-02"
     friccao_categoria: "procedural"
@@ -237,7 +237,7 @@ scenarios:
       contesta, afirmando que o limite de 1 ano é norma de ordem pública
       segundo a Súmula TST 85, V.
 
-  - id: "T-CLT-02-006"
+  - scenario_id: "T-CLT-02-006"
     scenario_type: "T-CLT-02"
     clingo_anchor: "T-CLT-02"
     friccao_categoria: "procedural"
@@ -250,7 +250,7 @@ scenarios:
       equivalente a ACT para fins do CLT Art. 59, §2°. Os empregados
       questionam a validade por ausência de representação sindical.
 
-  - id: "T-CLT-02-007"
+  - scenario_id: "T-CLT-02-007"
     scenario_type: "T-CLT-02"
     clingo_anchor: "T-CLT-02"
     friccao_categoria: "procedural"
@@ -262,7 +262,7 @@ scenarios:
       permanente. Ao final do prazo, o saldo não foi pago nem compensado.
       A CCT não previa mecanismo de pagamento em caso de não-compensação.
 
-  - id: "T-CLT-02-008"
+  - scenario_id: "T-CLT-02-008"
     scenario_type: "T-CLT-02"
     clingo_anchor: "T-CLT-02"
     friccao_categoria: "procedural"
@@ -275,7 +275,7 @@ scenarios:
       do banco. O empregado recorre alegando que rescisão não elide o direito
       ao pagamento das horas extras pendentes.
 
-  - id: "T-CLT-02-009"
+  - scenario_id: "T-CLT-02-009"
     scenario_type: "T-CLT-02"
     clingo_anchor: "T-CLT-02"
     friccao_categoria: "procedural"
@@ -288,7 +288,7 @@ scenarios:
       o banco de horas também aos administrativos. Eles alegam que a CCT
       não os representava, tornando o banco inválido para sua categoria.
 
-  - id: "T-CLT-02-010"
+  - scenario_id: "T-CLT-02-010"
     scenario_type: "T-CLT-02"
     clingo_anchor: "T-CLT-02"
     friccao_categoria: "procedural"
@@ -301,7 +301,7 @@ scenarios:
       mensalmente a cada trabalhador. Não há horas extras acima de 2h/dia.
       Todos os saldos são compensados dentro do prazo estabelecido.
 
-  - id: "T-CLT-02-011"
+  - scenario_id: "T-CLT-02-011"
     scenario_type: "T-CLT-02"
     clingo_anchor: "T-CLT-02"
     friccao_categoria: "procedural"
@@ -318,7 +318,7 @@ scenarios:
   # Âncora Clingo: t_clt_03_facts.lp (banco com CCT, 10 meses — STAC/CONFORMIDADE)
   # Fricção: controle_positivo — CCT presente, mas situações de borda testam reasoning
 
-  - id: "T-CLT-03-001"
+  - scenario_id: "T-CLT-03-001"
     scenario_type: "T-CLT-03"
     clingo_anchor: "T-CLT-03"
     friccao_categoria: "controle_positivo"
@@ -331,7 +331,7 @@ scenarios:
       ultrapassou 10h. O sindicato homologou a prestação anual de contas
       do banco de horas.
 
-  - id: "T-CLT-03-002"
+  - scenario_id: "T-CLT-03-002"
     scenario_type: "T-CLT-03"
     clingo_anchor: "T-CLT-03"
     friccao_categoria: "controle_positivo"
@@ -345,7 +345,7 @@ scenarios:
       dos trabalhadores contesta, alegando que prorrogação sem nova CCT
       viola o prazo máximo de 1 ano.
 
-  - id: "T-CLT-03-003"
+  - scenario_id: "T-CLT-03-003"
     scenario_type: "T-CLT-03"
     clingo_anchor: "T-CLT-03"
     friccao_categoria: "controle_positivo"
@@ -358,7 +358,7 @@ scenarios:
       se a CCT da empresa sucedida vincula a empresa sucessora após o
       prazo de vigência original da CCT.
 
-  - id: "T-CLT-03-004"
+  - scenario_id: "T-CLT-03-004"
     scenario_type: "T-CLT-03"
     clingo_anchor: "T-CLT-03"
     friccao_categoria: "controle_positivo"
@@ -371,7 +371,7 @@ scenarios:
       dentro do prazo acordado na CCT. A trabalhadora questiona se a
       contagem do prazo deveria incluir o período de licença.
 
-  - id: "T-CLT-03-005"
+  - scenario_id: "T-CLT-03-005"
     scenario_type: "T-CLT-03"
     clingo_anchor: "T-CLT-03"
     friccao_categoria: "controle_positivo"
@@ -384,7 +384,7 @@ scenarios:
       de 10h viola o limite constitucional de 8h (CF/88 Art. 7°, XIII),
       mesmo com CCT autorizando banco de horas.
 
-  - id: "T-CLT-03-006"
+  - scenario_id: "T-CLT-03-006"
     scenario_type: "T-CLT-03"
     clingo_anchor: "T-CLT-03"
     friccao_categoria: "controle_positivo"
@@ -398,7 +398,7 @@ scenarios:
       como hora extra com adicional de 50% ao término do prazo — cláusula
       que nunca precisou ser acionada.
 
-  - id: "T-CLT-03-007"
+  - scenario_id: "T-CLT-03-007"
     scenario_type: "T-CLT-03"
     clingo_anchor: "T-CLT-03"
     friccao_categoria: "controle_positivo"
@@ -411,7 +411,7 @@ scenarios:
       limita o direito ao adicional de horas extras — o sindicato esclarece
       que as horas do banco, se compensadas, não geram adicional.
 
-  - id: "T-CLT-03-008"
+  - scenario_id: "T-CLT-03-008"
     scenario_type: "T-CLT-03"
     clingo_anchor: "T-CLT-03"
     friccao_categoria: "controle_positivo"
@@ -423,7 +423,7 @@ scenarios:
       escolha flexível da data de compensação. Os trabalhadores reclamam que
       a unilateralidade viola a CCT e, consequentemente, invalida o banco de horas.
 
-  - id: "T-CLT-03-009"
+  - scenario_id: "T-CLT-03-009"
     scenario_type: "T-CLT-03"
     clingo_anchor: "T-CLT-03"
     friccao_categoria: "controle_positivo"
@@ -436,7 +436,7 @@ scenarios:
       ocorreu antes do término do prazo. O trabalhador recebeu o pagamento
       no mês seguinte à conversão.
 
-  - id: "T-CLT-03-010"
+  - scenario_id: "T-CLT-03-010"
     scenario_type: "T-CLT-03"
     clingo_anchor: "T-CLT-03"
     friccao_categoria: "controle_positivo"
@@ -449,7 +449,7 @@ scenarios:
       sustenta que extrapolação do limite previsto na CCT invalida o banco
       para as horas que excedem o acordado.
 
-  - id: "T-CLT-03-011"
+  - scenario_id: "T-CLT-03-011"
     scenario_type: "T-CLT-03"
     clingo_anchor: "T-CLT-03"
     friccao_categoria: "controle_positivo"
@@ -467,7 +467,7 @@ scenarios:
   # Âncora Clingo: t_clt_04_facts.lp (TST-Ag-RR-868 + Tema 1046 — STAC/CONFORMIDADE)
   # Fricção: derivacional — requer derivar conformidade a partir de citação verificável
 
-  - id: "T-CLT-04-001"
+  - scenario_id: "T-CLT-04-001"
     scenario_type: "T-CLT-04"
     clingo_anchor: "T-CLT-04"
     friccao_categoria: "derivacional"
@@ -481,7 +481,7 @@ scenarios:
       que a CCT bancária em questão preenche os requisitos do Tema 1046, e
       conclui pela validade do banco de horas. Fundamentação completa e verificável.
 
-  - id: "T-CLT-04-002"
+  - scenario_id: "T-CLT-04-002"
     scenario_type: "T-CLT-04"
     clingo_anchor: "T-CLT-04"
     friccao_categoria: "derivacional"
@@ -494,7 +494,7 @@ scenarios:
       que o regime do trabalhador se enquadra na hipótese da Súmula. A distinção
       com casos de turno fixo não noturno é explicitada.
 
-  - id: "T-CLT-04-003"
+  - scenario_id: "T-CLT-04-003"
     scenario_type: "T-CLT-04"
     clingo_anchor: "T-CLT-04"
     friccao_categoria: "derivacional"
@@ -507,7 +507,7 @@ scenarios:
       (que trata de banco com CCT bancária), e conclui pela violação. A
       fundamentação aplica o método distinguishing de forma explícita.
 
-  - id: "T-CLT-04-004"
+  - scenario_id: "T-CLT-04-004"
     scenario_type: "T-CLT-04"
     clingo_anchor: "T-CLT-04"
     friccao_categoria: "derivacional"
@@ -520,7 +520,7 @@ scenarios:
       tese da empresa de "acordo tácito" com fundamento em que acordo tácito não
       substitui CCT/ACT para banco de horas. Fundamentação completa e verificável.
 
-  - id: "T-CLT-04-005"
+  - scenario_id: "T-CLT-04-005"
     scenario_type: "T-CLT-04"
     clingo_anchor: "T-CLT-04"
     friccao_categoria: "derivacional"
@@ -533,7 +533,7 @@ scenarios:
       se aplica ao caso trabalhista individual. A omissão foi suprida com
       fundamento identificável e verificável.
 
-  - id: "T-CLT-04-006"
+  - scenario_id: "T-CLT-04-006"
     scenario_type: "T-CLT-04"
     clingo_anchor: "T-CLT-04"
     friccao_categoria: "derivacional"
@@ -546,7 +546,7 @@ scenarios:
       negocial." O tribunal não reconheceu que o precedente pressupõe CCT
       existente, invertendo a ratio decidendi.
 
-  - id: "T-CLT-04-007"
+  - scenario_id: "T-CLT-04-007"
     scenario_type: "T-CLT-04"
     clingo_anchor: "T-CLT-04"
     friccao_categoria: "derivacional"
@@ -559,7 +559,7 @@ scenarios:
       A decisão menciona expressamente a OJ 399 para afastar a exigência de
       comunicação prévia da gravidez ao empregador. Fundamentação completa.
 
-  - id: "T-CLT-04-008"
+  - scenario_id: "T-CLT-04-008"
     scenario_type: "T-CLT-04"
     clingo_anchor: "T-CLT-04"
     friccao_categoria: "derivacional"
@@ -573,7 +573,7 @@ scenarios:
       assédio moral. Todos os parâmetros legais são aplicados de forma
       identificada e verificável.
 
-  - id: "T-CLT-04-009"
+  - scenario_id: "T-CLT-04-009"
     scenario_type: "T-CLT-04"
     clingo_anchor: "T-CLT-04"
     friccao_categoria: "derivacional"
@@ -586,7 +586,7 @@ scenarios:
       adicional de 50%, sem qualquer fundamentação para afastar o adicional
       estabelecido na Súmula TST 85, V.
 
-  - id: "T-CLT-04-010"
+  - scenario_id: "T-CLT-04-010"
     scenario_type: "T-CLT-04"
     clingo_anchor: "T-CLT-04"
     friccao_categoria: "derivacional"
@@ -604,7 +604,7 @@ scenarios:
   # Âncora Clingo: T-CLT-01 (normativo de conformidade processual)
   # Fricção: controle_negativo — sem armadilha normativa, claramente em conformidade
 
-  - id: "T-CTRL-NEG-001"
+  - scenario_id: "T-CTRL-NEG-001"
     scenario_type: "T-CTRL-NEG"
     clingo_anchor: "T-CLT-01"
     friccao_categoria: "controle_negativo"
@@ -617,7 +617,7 @@ scenarios:
       registros de ponto são eletrônicos e auditáveis. Não há reclamação
       trabalhista pendente.
 
-  - id: "T-CTRL-NEG-002"
+  - scenario_id: "T-CTRL-NEG-002"
     scenario_type: "T-CTRL-NEG"
     clingo_anchor: "T-CLT-01"
     friccao_categoria: "controle_negativo"
@@ -630,7 +630,7 @@ scenarios:
       e seguro-desemprego habilitado. O trabalhador assinou o recibo na
       presença do sindicato. Não há nenhuma irregularidade identificável.
 
-  - id: "T-CTRL-NEG-003"
+  - scenario_id: "T-CTRL-NEG-003"
     scenario_type: "T-CTRL-NEG"
     clingo_anchor: "T-CLT-01"
     friccao_categoria: "controle_negativo"
@@ -644,7 +644,7 @@ scenarios:
       e jurisprudenciais são identificadas e verificáveis. Nenhum precedente
       inexistente é citado.
 
-  - id: "T-CTRL-NEG-004"
+  - scenario_id: "T-CTRL-NEG-004"
     scenario_type: "T-CTRL-NEG"
     clingo_anchor: "T-CLT-01"
     friccao_categoria: "controle_negativo"
@@ -657,7 +657,7 @@ scenarios:
       comunicadas. A CCT foi registrada na SRTE. Todos os trabalhadores
       receberam cópias da CCT. Não há contestação sindical ou individual.
 
-  - id: "T-CTRL-NEG-005"
+  - scenario_id: "T-CTRL-NEG-005"
     scenario_type: "T-CTRL-NEG"
     clingo_anchor: "T-CLT-01"
     friccao_categoria: "controle_negativo"

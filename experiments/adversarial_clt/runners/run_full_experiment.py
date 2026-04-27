@@ -87,6 +87,7 @@ def _append_to_parquet(record: dict[str, Any]) -> None:
         "clingo_satisfiability": record.get("clingo_satisfiability", ""),
         "n_sovereign_active": len(record.get("clingo_active_sovereign", [])),
         "n_elastic_active": len(record.get("clingo_active_elastic", [])),
+        "friccao_categoria": record.get("friccao_categoria", ""),
     }])
 
     if RESULTS_PARQUET.exists():
@@ -103,27 +104,31 @@ def _append_to_parquet(record: dict[str, Any]) -> None:
 # Construção da lista de jobs
 # ---------------------------------------------------------------------------
 
-def _build_job_list(scenario_ids: list[str]) -> list[dict]:
+def _build_job_list(scenarios: list[dict]) -> list[dict]:
     jobs = []
     for braco in VALID_BRACOS:
         for modelo in VALID_MODELOS:
-            for sid in scenario_ids:
+            for s in scenarios:
                 for run_id, seed in enumerate(SEEDS, start=1):
                     jobs.append({
                         "braco": braco,
                         "modelo": modelo,
-                        "scenario_id": sid,
+                        "scenario_id": s["scenario_id"],
+                        "friccao_categoria": s.get("friccao_categoria", ""),
                         "run_id": run_id,
                         "seed": seed,
                     })
     return jobs
 
 
-def _load_scenario_ids() -> list[str]:
+def _load_scenarios() -> list[dict]:
     import yaml
     with open(SCENARIOS_FILE, encoding="utf-8") as f:
         data = yaml.safe_load(f)
-    return [s["scenario_id"] for s in data["scenarios"]]
+    return [
+        {"scenario_id": s["scenario_id"], "friccao_categoria": s.get("friccao_categoria", "")}
+        for s in data["scenarios"]
+    ]
 
 
 # ---------------------------------------------------------------------------
@@ -131,8 +136,8 @@ def _load_scenario_ids() -> list[str]:
 # ---------------------------------------------------------------------------
 
 def run_experiment(*, dry_run: bool = False, max_jobs: int | None = None) -> None:
-    scenario_ids = _load_scenario_ids()
-    all_jobs = _build_job_list(scenario_ids)
+    scenarios = _load_scenarios()
+    all_jobs = _build_job_list(scenarios)
     total = len(all_jobs)
     log.info("Total de jobs no experimento: %d", total)
 
@@ -160,7 +165,10 @@ def run_experiment(*, dry_run: bool = False, max_jobs: int | None = None) -> Non
 
         t0 = time.monotonic()
         try:
-            record = run_arm(**job)
+            friccao = job.get("friccao_categoria", "")
+            job_kwargs = {k: v for k, v in job.items() if k != "friccao_categoria"}
+            record = run_arm(**job_kwargs)
+            record["friccao_categoria"] = friccao
             elapsed = time.monotonic() - t0
 
             if record["status"] == "ok":
