@@ -263,6 +263,51 @@ que comentava t_mort = 0 como dado empírico precisará ser corrigido.
 
 ---
 
+## 26/abr/2026 — Fase 2 BI bivariado Manaus (parcial — Caminho 2)
+
+**Escopo:** refactor do loader + fix t_mort aplicado; SRAG real diferido por indisponibilidade de rede.
+
+**Commits (branch caminho2):**
+
+| Commit | Tarefa | Conteúdo |
+|--------|--------|----------|
+| `8edbb0f` | 2.1-abort | SIVEP-Gripe inacessível (OpenDataSUS 403, FTP path ausente) |
+| `7c77081` | 2.2 | Refactor manaus_sih_loader -> manaus_bi_loader + fix t_mort |
+| `3f9d449` | 2.4 | Correção retroativa diagnostico_t_mort_zero.md |
+
+**Achados substantivos:**
+
+### Fix t_mort=0 — aplicado em manaus_bi_loader.py
+
+Causa raiz confirmada: MORTE é ArrowDtype `str` no parquet, e `pd.to_numeric('Sim') -> NaN -> fillna(0)`
+zera silenciosamente 482 óbitos. Fix: `(df['MORTE'].astype(str).str.strip() == 'Sim').astype(int)`.
+
+| Métrica | Antes | Depois |
+|---------|-------|--------|
+| t_mort total | 0.0 (bug) | **0.180** (18%, 482/2678) |
+| Faixa literatura | — | 15-25% UTI COVID Manaus ✅ |
+
+**Implicação retroativa (Fase 3):** Tabela 7 e Figura 3 do canônico precisam ser regeneradas.
+O canônico declarava t_mort=0 como achado empírico — texto deve ser corrigido para t_mort≈0.18.
+
+### Indisponibilidade SIVEP-Gripe
+
+OpenDataSUS retorna HTTP 403 nos CSVs S3 diretos e 0 links CSV via HTML.
+FTP DATASUS: path `/dissemin/publicos/SIVEP_Gripe/` ausente (migração para OpenDataSUS).
+srag_manaus.parquet permanece STUB. Validação cruzada (Tarefas 2.1/2.3) diferida.
+
+**Cenários de continuação:** reagendar, TabNet manual, proxy SIH ou Caminho C definitivo.
+Decisão pendente com o autor antes da Fase 3.
+
+**Pendências para Fase 3:**
+
+1. Desbloquear Tarefa 2.1 (SRAG real) — discutir paliativos com autor.
+2. Regenerar Tabela 7 e Figura 3 com t_mort=0.18 (impacto retroativo confirmado).
+3. Revisar narrativa do canônico que comentava t_mort=0 como achado.
+4. Atualizar §7.4 com nota O2 prospectivo-only (Fase 1 Tarefa 1.3).
+
+---
+
 ## Convenção de versionamento
 
 - **Snapshots MD** seguem `PAPER1_v_<descritor_curto>.md` (ex.:
@@ -279,4 +324,4 @@ que comentava t_mort = 0 como dado empírico precisará ser corrigido.
 
 ---
 
-*Última atualização: 26/abr/2026 (Fase 1 BI bivariado).*
+*Última atualização: 26/abr/2026 (Fase 2 BI bivariado — parcial).*
