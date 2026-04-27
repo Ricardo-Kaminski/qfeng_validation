@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-04-26T22:23:50.271810",
+  "granularidade": "semanal_SE",
+  "n_semanas": 73,
+  "janela": "SE 10/2020 - SE 30/2021",
+  "spearman": {
+    "n_covid": {
+      "label": "Casos COVID",
+      "rho": 0.472,
+      "pval": 0.0,
+      "signif": true
+    },
+    "n_obitos": {
+      "label": "Obitos SRAG",
+      "rho": 0.3929,
+      "pval": 0.0006,
+      "signif": true
+    },
+    "covid_growth": {
+      "label": "Taxa crescimento COVID (%)",
+      "rho": -0.0932,
+      "pval": 0.433,
+      "signif": false
+    }
+  },
+  "lag_analysis": {
+    "lag_0": {
+      "rho": 0.472,
+      "pval": 0.0
+    },
+    "lag_1": {
+      "rho": 0.4546,
+      "pval": 0.0001
+    },
+    "lag_2": {
+      "rho": 0.4339,
+      "pval": 0.0002
+    },
+    "lag_3": {
+      "rho": 0.408,
+      "pval": 0.0005
+    },
+    "lag_4": {
+      "rho": 0.3577,
+      "pval": 0.0026
+    }
+  },
+  "pca": {
+    "pc1_var_explained": 0.7023,
+    "pc2_var_explained": 0.2977,
+    "pc1_loading_toh": 0.7071,
+    "pc1_loading_srag": 0.7071,
+    "w_toh_pca": 0.5,
+    "w_srag_pca": 0.5,
+    "delta_toh": 0.0,
+    "delta_srag": 0.0
+  },
+  "decision": {
+    "decision_method": "pca_validated",
+    "w_toh": 0.5,
+    "w_srag": 0.5,
+    "weights_decision_pending": false,
+    "note": "PCA confirma pesos proximos ao apriori 50/50. Diferenca max=0.0000 < 0.10."
+  },
+  "apriori": {
+    "w_toh": 0.5,
+    "w_srag": 0.5
+  },
+  "delta_threshold": 0.1
+}
