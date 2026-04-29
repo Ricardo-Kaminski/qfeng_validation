@@ -1,0 +1,19 @@
+{
+  "sha256": "762eb1fb5713578bf43913f7ab01083e83e04c522fd37c10ea0ceb26bcd09591",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T12:08:10Z",
+  "prompt_sha": "72790d8991be5ef4727404f6c998a5accce45b39b15ebe25cef7018b0f9d220f",
+  "response_text": "1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso.**\n\nNo cenário apresentado, a análise jurídica envolve a validade de um banco de horas estabelecido em uma Convenção Coletiva de Trabalho (CCT) no setor bancário, considerando o Tema 1046 do Supremo Tribunal Federal (STF). O Tema 1046 trata da constitucionalidade dos acordos e CCTs que preveem vantagens ou supressões de direitos com base na compensação estabelecida pelo princípio da adequação setorial negociada. A decisão do TST menciona explicitamente o ARE 1.121.633, que é a referência para o Tema 1046.\n\n2. **DECISÃO RECOMENDADA: Qual deve ser a decisão e por quê.**\n\nA decisão recomendada é pela validade do banco de horas estabelecido na CCT bancária em questão. Isso porque, conforme analisado pelo TST, a CCT preenche os requisitos do Tema 1046/STF. O princípio da adequação setorial negociada permite que acordos coletivos estipulem vantagens ou supressões de direitos desde que haja uma compensação justa e proporcional, o que parece ser o caso conforme a análise do TST.\n\n3. **FUNDAMENTAÇÃO NORMATIVA: Cite especificamente os artigos e súmulas do contexto acima.**\n\n- **Tema 1046/STF (ARE 1.121.633):** Este tema estabelece que são constitucionais os acordos e CCTs que, ao estipular exclusivamente vantagens ou supressões de direitos, tenham por premissa a compensação estabelecida pelo princípio da adequação setorial negociada.\n\nA análise do TST concluiu que a CCT bancária em questão atende aos critérios estabelecidos no Tema 1046/STF, justificando assim a validade do banco de horas. Não há menção explícita a outros dispositivos normativos específicos além do ARE 1.121.633 e do princípio da adequação setorial negociada dentro deste contexto.\n\nSe o contexto não contivesse norma aplicável, indicaria que a análise se baseia exclusivamente na interpretação do Tema 1046/STF e na decisão específica do TST referente ao caso. No entanto, neste cenário, o Tema 1046 é suficiente para fundamentar a validade da CCT em questão.",
+  "tokens_in": 340,
+  "tokens_out": 592,
+  "latency_ms": 35187,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

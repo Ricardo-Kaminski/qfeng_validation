@@ -1,0 +1,19 @@
+{
+  "sha256": "58c9ec0f03418040354c8ce32e996c47f38797f7b1e70fc7c231ffe2fd4f9917",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T20:22:46Z",
+  "prompt_sha": "92aecfbcd48b18b24b7145bd3115c2c41dd569d979ba575e89a78b84c16595e4",
+  "response_text": "**ANÁLISE**\n\n1. **Identificação dos dispositivos do contexto normativo aplicáveis ao caso:**\n   - A Súmula TST 60 é a norma aplicável ao caso, pois trata sobre o adicional noturno em regime de revezamento.\n\n**DECISÃO RECOMENDADA**\n\n2. **Qual deve ser a decisão e por quê:**\n   - Deve ser concedida a pretensão do empregado, pois o regime de trabalho do empregado se enquadra na hipótese da Súmula TST 60.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n3. **Cite especificamente os artigos e súmulas do contexto acima:**\n   - A decisão deve ser fundamentada no seguinte dispositivo:\n     - \"Súmula TST 60: Adicional noturno — regime de revezamento.\"\n\nEssa Súmula é a base para a análise do caso, pois estabelece que o adicional noturno é devido quando há revezamento de turnos noturnos. O empregado em questão trabalha em regime 12x36 com períodos noturnos fixos, o que se enquadra na hipótese da Súmula.\n\n**Limitação**\n\nSe o contexto não contiver norma aplicável, indico explicitamente essa limitação: Neste caso, há dispositivo específico (Súmula TST 60) que é aplicado ao caso.",
+  "tokens_in": 324,
+  "tokens_out": 330,
+  "latency_ms": 5582,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

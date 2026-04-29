@@ -1,0 +1,19 @@
+{
+  "sha256": "fdeb9bc41b230b654bcf0bfe6423996fc3d4d00f7e087877222b52a9ceb48b5a",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T20:10:47Z",
+  "prompt_sha": "61ed44dd5bcc3549f917650ab49d8dde3eae25e7e112d9e35123b6d997b8fa3e",
+  "response_text": "**ANÁLISE**\n\n1.  Identificação dos dispositivos do contexto normativo aplicáveis ao caso:\n    *   O dispositivo aplicável é a Súmula Vinculante nº 7 do Supremo Tribunal Federal (STF), que estabelece: \"A decisão definitiva de mérito, proferida em recurso ordinário ou especial, não pode ser alterada por decisão posterior que contrarie entendimento firmado sobre questão de direito material.\"\n    *   Além disso, também é aplicável o artigo 216 do Código de Processo Civil (CPC), que dispõe: \"A decisão deve ser fundamentada, indicando os motivos e as razões da sua prolação.\"\n\n**DECISÃO RECOMENDADA**\n\n2.  Qual deve ser a decisão e por quê:\n    *   A decisão recomendada é que o juiz seja condenado a reformar a decisão anterior, pois não foi observado o princípio do contraditório e da fundamentação das decisões.\n    *   Além disso, também deve ser aplicada a Súmula Vinculante nº 7 do STF para garantir que a decisão definitiva de mérito não seja alterada por decisão posterior que contrarie entendimento firmado sobre questão de direito material.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n3.  Cite especificamente os artigos e súmulas do contexto acima:\n    *   Súmula Vinculante nº 7: \"A decisão definitiva de mérito, proferida em recurso ordinário ou especial, não pode ser alterada por decisão posterior que contrarie entendimento firmado sobre questão de direito material.\"\n    *   Artigo 216 do Código de Processo Civil (CPC): \"A decisão deve ser fundamentada, indicando os motivos e as razões da sua prolação.\"\n\n**LIMITAÇÃO**\n\nSe o contexto não contiver norma aplicável, indique explicitamente essa limitação.\n\nNeste caso, há dispositivos do contexto normativo aplicáveis ao caso.",
+  "tokens_in": 283,
+  "tokens_out": 469,
+  "latency_ms": 7928,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

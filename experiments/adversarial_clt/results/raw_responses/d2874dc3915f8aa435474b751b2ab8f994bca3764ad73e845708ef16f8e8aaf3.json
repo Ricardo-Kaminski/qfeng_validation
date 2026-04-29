@@ -1,0 +1,30 @@
+{
+  "sha256": "d2874dc3915f8aa435474b751b2ab8f994bca3764ad73e845708ef16f8e8aaf3",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T01:31:43Z",
+  "prompt_sha": "10d9b2fbb4ee509c4f26baa324dc98f4f9ca6d963ab67e38165e303c94f53cd8",
+  "response_text": "**1. ANÁLISE**\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: O acórdão do TRT cita a Súmula TST 85 e identifica explicitamente cada item aplicável (itens I, II e V) ao caso concreto. Além disso, o acórdão demonstra que o banco não tem CCT/ACT e conclui sobre as horas extras com adicional de 50%. Isso mostra que a decisão está fundamentada na identificação precisa da aplicação dos itens da Súmula TST 85 ao caso específico. Portanto, este predicado foi **cumprido**.\n\n- **sumula_tst_85_hour_bank_without_cct_invalid**: A Súmula TST 85 é citada e aplicada de forma que se afasta a tese da empresa sobre \"acordo tácito\" com base na ausência de CCT/ACT. Isso significa que os itens da Súmula TST 85 foram corretamente aplicados no contexto do banco de horas sem CCT, o que é conforme à norma. Portanto, este predicado também foi **cumprido**.\n\n- **due_process_of_law**: O acórdão do TRT demonstrou uma fundamentação completa e verificável sobre a aplicação da Súmula TST 85 ao caso concreto, incluindo a identificação dos itens aplicáveis (I, II e V), a ausência de CCT/ACT no banco, as horas extras com adicional de 50%, e a impossibilidade do acordo tácito substituir CCT/ACT para banco de horas. Isso indica que o processo foi conduzido de forma justa e fundamentada, respeitando os direitos das partes envolvidas. Portanto, este predicado também foi **cumprido**.\n\n**2. DECISÃO RECOMENDADA**\n\nCom base nos predicados normativos aplicáveis e na análise realizada, a decisão recomendada é que o acórdão do TRT seja mantido, pois está de acordo com as obrigações e proibições estabelecidas pela CLT e jurisprudência do TST.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: Cumprido\n- **sumula_tst_85_hour_bank_without_cct_invalid**: Cumprido\n- **due_process_of_law**: Cumprido\n\nNenhum predicado foi violado.",
+  "tokens_in": 406,
+  "tokens_out": 554,
+  "latency_ms": 9421,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

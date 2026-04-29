@@ -1,0 +1,19 @@
+{
+  "sha256": "460ad5160d9f6f245e902564a0e4eaeae1291d83a9e186f7b8e1d145723b684e",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T09:02:08Z",
+  "prompt_sha": "4cdcd4f77bd0a861ddff46ab4f73790ee608c80eaea3a8b6b5401e9be2942d4c",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO caso apresentado envolve a regulamentação de **banco de horas** estabelecido por meio de **Acordo Coletivo de Trabalho (ACT)**, com as seguintes características:  \n- **Compensação mensal de horas extras**, limitada a **40h mensais de acúmulo**;  \n- **Prazo máximo de 5 meses** para compensação do saldo acumulado;  \n- **Registro da ACT** no Ministério do Trabalho;  \n- **Fornecimento mensal de extrato do banco de horas** aos trabalhadores;  \n- **Ausência de horas extras acima de 2h/dia**;  \n- **Compensação total dentro do prazo estabelecido**.  \n\nOs dispositivos normativos aplicáveis são:  \n- **Art. 59 da CLT**: Permite a compensação de horas extras por meio de banco de horas, desde que prevista em acordo coletivo e registrada.  \n- **Art. 60 da CLT**: Estabelece limites para o banco de horas, incluindo:  \n  - **Limitação de 2h/dia** de horas extras (compatível com o cenário);  \n  - **Prazo máximo de 5 meses** para compensação do saldo acumulado (compatível com o cenário);  \n  - **Obrigação de compensação dentro do prazo estabelecido** (cumprida no caso).  \n- **Art. 16 do Decreto-Lei nº 5.452/1943 (CLT)**: Exige a **registro da ACT** no Ministério do Trabalho para validade.  \n- **Art. 12 da CLT**: Garante o **direito à informação** dos trabalhadores sobre o saldo do banco de horas (compatível com o fornecimento de extrato mensal).  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**A ACT e o banco de horas estabelecidos são legais e compatíveis com a legislação trabalhista brasileira.**  \n**Justificativa:**  \n- O **registro da ACT** no Ministério do Trabalho (art. 16 da CLT) assegura sua validade.  \n- A **limitação de 40h mensais** e **5 meses de prazo máximo** está dentro dos limites permitidos pela legislação (art. 60 da CLT).  \n- A **compensação total dentro do prazo estabelecido** e a **ausência de horas extras acima de 2h/dia** respeitam os limites legais.  \n- O **fornecimento de extrato mensal** aos trabalhadores cumpre a obrigação de transparência (art. 12 da CLT).  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 59 da CLT**: Permite a compensação de horas extras por meio de banco de horas, desde que prevista em acordo coletivo e registrada.  \n- **Art. 60 da CLT**:  \n  - **Parágrafo 1º**: Limita a compensação de horas extras a **2h/dia** e **8h/semana** (compatível com o cenário).  \n  - **Parágrafo 2º**: Estabelece o **prazo máximo de 5 meses** para compensação do saldo acumulado (compatível com o cenário).  \n- **Art. 16 da CLT**: Exige o **registro da ACT** no Ministério do Trabalho para validade.  \n- **Art. 12 da CLT**: Garante o **direito à informação** dos trabalhadores sobre o saldo do banco de horas (compatível com o fornecimento de extrato mensal).  \n\n**Nota:**  \n- **Não há Súmulas do TST** mencionadas no contexto normativo fornecido, portanto, **não é possível citar Súmulas** para fundamentar a análise.  \n- A legislação aplicável está **totalmente compatível com o cenário descrito**, não havendo infrações ou irregularidades.",
+  "tokens_in": 295,
+  "tokens_out": 1681,
+  "latency_ms": 126078,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

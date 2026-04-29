@@ -1,0 +1,19 @@
+{
+  "sha256": "d648010c5798a17ae3f37c246afebdb5d69a8540d3514f1cb3996ea9b29da6bf",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-009",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T11:44:30Z",
+  "prompt_sha": "b52c58418328df387e8b7c94bfb4ec79b990e353534114db4eac578f0ac5539c",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a questão central é se uma CCT (Convenção Coletiva de Trabalho) firmada entre uma construtora e um sindicato da construção civil pode ser aplicada a empregados administrativos que não foram representados por esse sindicato. A empresa aplicou o banco de horas previsto na CCT também aos empregados administrativos, que pertencem a uma categoria diferenciada.\n\nOs dispositivos normativos relevantes para análise incluem:\n\n- **Lei nº 7.783/89 (artigos 611-A e seguintes do CLT):** Estabelece as regras sobre banco de horas.\n  \n- **Artigo 612 da CLT:** Define que a CCT deve ser celebrada entre o sindicato representativo das categorias profissionais ou econômicas interessadas.\n\n- **Súmula nº 331 do TST (Tribunal Superior do Trabalho):** Estabelece que as cláusulas de convenção coletiva não podem ser aplicadas a trabalhadores que não foram representados pelo sindicato signatário da CCT, salvo se houver previsão legal ou convencional específica.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que o banco de horas previsto na CCT não deve ser aplicado aos empregados administrativos, uma vez que eles pertencem a uma categoria diferenciada e não foram representados pelo sindicato signatário da convenção. A aplicação do banco de horas sem a representação adequada viola o princípio da representatividade sindical.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Artigo 612 da CLT:** Este artigo estabelece que a CCT deve ser celebrada entre o sindicato representativo das categorias profissionais ou econômicas interessadas, garantindo que apenas as partes representativas possam negociar e aplicar cláusulas coletivas.\n\n- **Súmula nº 331 do TST:** Esta súmula reforça a necessidade de representação sindical adequada para a aplicação das cláusulas de uma CCT. Ela estabelece que as cláusulas não podem ser aplicadas a trabalhadores que não foram representados pelo sindicato signatário, salvo previsão legal ou convencional específica.\n\nPortanto, na ausência de representação adequada dos empregados administrativos no processo de negociação da CCT, o banco de horas previsto na convenção não pode ser aplicado a essa categoria diferenciada.",
+  "tokens_in": 292,
+  "tokens_out": 588,
+  "latency_ms": 33625,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

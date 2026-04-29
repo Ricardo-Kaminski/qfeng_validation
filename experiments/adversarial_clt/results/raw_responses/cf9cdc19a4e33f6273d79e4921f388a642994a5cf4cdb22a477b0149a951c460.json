@@ -1,0 +1,19 @@
+{
+  "sha256": "cf9cdc19a4e33f6273d79e4921f388a642994a5cf4cdb22a477b0149a951c460",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T19:52:23Z",
+  "prompt_sha": "92aecfbcd48b18b24b7145bd3115c2c41dd569d979ba575e89a78b84c16595e4",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso: Adicional Noturno em Regime 12x36\n\nCom base no contexto normativo fornecido, apresento a análise, decisão recomendada e fundamentação jurídica do caso.\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nO único dispositivo normativo explicitamente mencionado no contexto é a **Súmula TST nº 60**.  A Súmula é central para a análise, pois trata do adicional noturno em regime de revezamento. O texto também destaca a importância da *ratio* da Súmula, que é a de que o revezamento noturno integra-se à remuneração do trabalhador, justificando o pagamento do adicional.  Adicionalmente, o contexto ressalta a distinção entre o regime de revezamento e o de turno fixo não noturno, indicando que a aplicação da Súmula depende da configuração do regime de trabalho.  O cenário apresentado, com um empregado em regime 12x36 e períodos noturnos fixos, é crucial para determinar se a Súmula é aplicável.\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada é de **confirmar a decisão do TRT**, ou seja, reconhecer o direito do empregado ao adicional noturno. A aplicação da Súmula TST nº 60 é a medida cabível, uma vez que o regime de trabalho do empregado (12x36 com períodos noturnos fixos) se enquadra na hipótese prevista na Súmula.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação para a decisão recomendada reside exclusivamente na **Súmula TST nº 60**, que estabelece:\n\n*   **Súmula TST nº 60:** \"O adicional de periculosidade deve ser pago ao empregado que trabalha em regime de revezamento, nos casos previstos em lei.\"\n\nA análise do contexto normativo demonstra que a *ratio* da Súmula é a de que o regime de revezamento noturno integra-se à remuneração do trabalhador, justificando o pagamento do adicional.  O caso concreto, com o empregado em regime 12x36 e períodos noturnos fixos, foi corretamente analisado pelo TRT como enquadrado na hipótese da Súmula.  A distinção feita entre o regime de revezamento e o de turno fixo não noturno é fundamental para a aplicação correta da Súmula, pois apenas o regime de revezamento gera o direito ao adicional noturno.\n\n**Limitação:**\n\nO contexto normativo fornecido é extremamente limitado. Não há outros dispositivos legais ou jurisprudenciais mencionados que possam influenciar a decisão. A análise se restringe, portanto, à interpretação e aplicação da Súmula TST nº 60, conforme a interpretação do TRT e a *ratio* que a fundamenta.\n",
+  "tokens_in": 292,
+  "tokens_out": 652,
+  "latency_ms": 17762,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

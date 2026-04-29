@@ -1,0 +1,19 @@
+{
+  "sha256": "45ed5581eef052f138f1f8b24e69e7f8282135c15c130ac8f248539505c637cc",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T11:11:46Z",
+  "prompt_sha": "0fa7a0f28f59a9fa10b66549d620533d50b13739f11a99646341103e54f0bad2",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a decisão do TRT-2ª Região de manter a justa causa aplicada ao bancário baseou-se em uma \"orientação jurisprudencial consolidada\" sobre o uso indevido de comunicações eletrônicas. O empregado recorre argumentando que a fundamentação é inadequada conforme o CPC, Art. 489, §1°, VI.\n\nO artigo 489 do Código de Processo Civil (CPC) estabelece os requisitos para a fundamentação das decisões judiciais, incluindo:\n\n- **§1º, VI:** \"a indicação dos elementos de convicção e as razões pelas quais foram desprezados os que lhe foram opostos.\"\n\nA crítica do empregado é que o acórdão não identificou especificamente nenhuma Orientação Jurisprudencial (OJ), Súmula ou acórdão específico, limitando-se a afirmar que \"a jurisprudência é pacífica\" sobre o assunto.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada seria reexaminar o recurso do empregado para verificar se a fundamentação da decisão original atende aos requisitos legais estabelecidos pelo CPC, Art. 489, §1°, VI. Isso significa que o tribunal deve especificar quais são os precedentes ou normas jurídicas aplicadas ao caso, indicando as razões pelas quais esses elementos de convicção foram considerados mais relevantes do que aqueles opostos pelo empregado.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **CPC Art. 489, §1°, VI:** Este dispositivo exige que as decisões judiciais sejam fundamentadas com a indicação dos elementos de convicção e das razões pelas quais foram desprezados os argumentos contrários.\n\nNo contexto normativo fornecido, não há menção específica a nenhuma Orientação Jurisprudencial (OJ), Súmula ou acórdão do TST que tenha sido aplicado. Portanto, a limitação é que o acórdão deve ser revisado para incluir referências explícitas às normas jurídicas utilizadas como base da decisão, conforme exigido pelo CPC.\n\nSe não houver elementos específicos de convicção identificados e fundamentados na decisão original, isso pode justificar a reconsideração do recurso apresentado pelo empregado.",
+  "tokens_in": 318,
+  "tokens_out": 571,
+  "latency_ms": 32625,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "ae1d5799fd698e79af88dcf2b53cc6cfa0f1eb3a3d1220663af428a01c22ae51",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T06:46:35Z",
+  "prompt_sha": "54c78e8764f323ecedb1581931d4078369f96ca3a87490a0206e6eebe8350d10",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a utilização de banco de horas com compensação mensal em uma empresa de tecnologia. Para analisar essa situação, é necessário identificar os dispositivos legais aplicáveis.\n\nA CLT (Consolidação das Leis do Trabalho) estabelece as regras básicas para a relação trabalhista no Brasil. O artigo 59 da CLT permite a adoção de banco de horas desde que seja feita por acordo ou convenção coletiva, o que ocorreu nesse caso.\n\nO artigo 59 da CLT diz: \"O trabalho em horas suplementares poderá ser compensado dentro do período mensal, não excedendo o limite máximo de duas horas diárias.\"\n\nAlém disso, a empresa estabeleceu limites para o acúmulo de horas (40h mensais) e prazo máximo de 5 meses para a compensação das horas trabalhadas em excesso. Essas regras estão de acordo com os princípios da CLT.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando que a empresa adotou as regras estabelecidas pela CLT e que o acordo coletivo foi firmado entre a empresa e o sindicato dos trabalhadores em informática, é recomendável que a decisão seja favorável à empresa.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   Artigo 59 da CLT: \"O trabalho em horas suplementares poderá ser compensado dentro do período mensal, não excedendo o limite máximo de duas horas diárias.\"\n*   Súmula 379 do TST (Trabalhista): \"A compensação de horas trabalhadas em dias da semana com jornada normal é admissível, desde que feita no mesmo mês ou no imediatamente seguinte, observado o limite de duas horas diárias.\"\n*   Precedente constitucional: O Supremo Tribunal Federal (STF) já decidiu em diversas ocasiões que a compensação de horas trabalhadas é uma prática legítima desde que feita dentro dos limites estabelecidos pela CLT.",
+  "tokens_in": 307,
+  "tokens_out": 481,
+  "latency_ms": 17438,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

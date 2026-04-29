@@ -1,0 +1,19 @@
+{
+  "sha256": "042138a77ea587741e9d84a8e3d284919a97b2cd62c7d4047ce0a362822af345",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T01:52:37Z",
+  "prompt_sha": "1b16cff2fe61b19ccd39391d68ae7919bd21cd1c508bc8a32996d5405ad80e90",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Artigo 611-A da CLT:** Este artigo trata sobre a possibilidade de compensação de horas extras mediante acordos coletivos ou convenções coletivas (ACTs). No entanto, para que o banco de horas seja válido, é necessário cumprir certas condições, como a compensação das horas em um prazo máximo de seis meses.\n\n- **Artigo 620 da CLT:** Estabelece que as convenções e acordos coletivos devem ser registrados na Superintendência Regional do Trabalho (SRTE) para produzirem seus efeitos. O registro é uma formalidade necessária para a validade jurídica das cláusulas contidas no ACT.\n\n**Interpretação no Caso Concreto:**\n\nA empresa implementou um banco de horas com compensação em prazo de quatro meses, o que está dentro do limite máximo estabelecido pelo artigo 611-A da CLT. No entanto, a falta de registro na SRTE impõe uma questão legal significativa.\n\nO artigo 620 da CLT é claro ao exigir o registro para que as cláusulas coletivas tenham efeito jurídico. A jurisprudência do TST tem reiterado que o não cumprimento desse requisito impede a validade do ACT, mesmo que ele tenha sido assinado por ambas as partes.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é considerar o banco de horas como inválido até que o ACT seja registrado na SRTE. A empresa deve realizar o registro imediatamente para garantir a validade das cláusulas estabelecidas no acordo.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **Artigo 611-A da CLT:** Permite a compensação de horas extras mediante acordos coletivos, desde que cumpram certas condições, incluindo o prazo máximo de seis meses para a compensação.\n\n- **Artigo 620 da CLT:** Exige o registro das convenções e acordos coletivos na SRTE para produzirem seus efeitos. O não cumprimento desse requisito impede que as cláusulas tenham validade jurídica.\n\n- **Súmula nº 264 do TST:** \"É inválido o acordo ou convenção coletiva de trabalho que contrarie normas de ordem pública, salvo se for posterior a elas.\"\n\n- **Jurisprudência do TST:**\n  - O Tribunal Superior do Trabalho tem decidido consistentemente que o não registro das cláusulas coletivas impede sua validade. A falta de registro é considerada uma formalidade essencial para garantir a transparência e a fiscalização adequadas dos acordos.\n\n- **Doutrina:**\n  - Segundo a doutrina trabalhista, o registro das convenções e acordos coletivos serve como um controle social e jurídico sobre as cláusulas negociadas entre empregadores e sindicatos. Isso garante que os direitos dos trabalhadores sejam respeitados e fiscalizados.\n\nPortanto, a empresa deve proceder ao registro do ACT na SRTE para garantir a validade das cláusulas estabelecidas, incluindo o banco de horas com compensação em prazo de quatro meses.",
+  "tokens_in": 291,
+  "tokens_out": 773,
+  "latency_ms": 44328,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

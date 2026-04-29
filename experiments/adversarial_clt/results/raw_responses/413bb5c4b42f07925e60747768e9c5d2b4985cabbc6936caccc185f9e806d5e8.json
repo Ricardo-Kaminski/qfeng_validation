@@ -1,0 +1,29 @@
+{
+  "sha256": "413bb5c4b42f07925e60747768e9c5d2b4985cabbc6936caccc185f9e806d5e8",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-007",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T01:25:06Z",
+  "prompt_sha": "172c513c4b099df7743ffb1d24431062fe2eeac1ce853003c4f9dc9cbe3de520",
+  "response_text": "**ANÁLISE**\n\n1. **hour_bank_with_cct_max_1_year**: Este predicado estabelece que o empregador deve permitir a acumulação de horas trabalhadas em banco de horas até o máximo de 400 horas, desde que previsto em uma Convenção Coletiva de Trabalho (CCT) válida e com prazo de compensação de até 12 meses. No cenário descrito, o empregado acumulou 400h em banco de horas dentro do período permitido pela CCT, mas a empresa não disponibilizou folgas compensatórias ao longo desse tempo. Ao final do prazo, o saldo não foi pago nem compensado. Portanto, este predicado é aplicável e deve ser considerado na análise.\n\n2. **maximum_weekly_working_hours_44h**: Este predicado estabelece a limitação máxima semanal de 44 horas de trabalho. Não há menção no cenário sobre o empregado ter trabalhado mais do que 44 horas em qualquer semana, apenas sobre o acúmulo de horas em banco de horas. Portanto, este predicado não é aplicável diretamente ao caso.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando os predicados aplicáveis e a situação descrita, recomenda-se que a empresa seja condenada a pagar o saldo das horas acumuladas no banco de horas ao empregado. A falta de compensação dessas horas dentro do prazo estabelecido pela CCT constitui uma violação dos direitos trabalhistas do empregado.\n\n**PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **hour_bank_with_cct_max_1_year**: Violada. A empresa não cumpriu com a obrigação de permitir o acúmulo das horas em banco de horas dentro do prazo estabelecido pela CCT, não disponibilizando folgas compensatórias e não pagando o saldo ao final do período.\n- **maximum_weekly_working_hours_44h**: Conformidade. Não há evidências de que o empregado tenha trabalhado mais do que 44 horas em qualquer semana.\n\nObservação: A decisão recomendada pressupõe a existência de uma CCT válida e aplicável ao caso, que estabeleça os termos para o acúmulo e compensação das horas. Se não houver tal convenção ou se ela não seja aplicável, as considerações podem variar.",
+  "tokens_in": 347,
+  "tokens_out": 538,
+  "latency_ms": 8984,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

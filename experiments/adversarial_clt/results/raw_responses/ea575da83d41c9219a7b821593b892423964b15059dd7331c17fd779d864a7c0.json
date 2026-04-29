@@ -1,0 +1,19 @@
+{
+  "sha256": "ea575da83d41c9219a7b821593b892423964b15059dd7331c17fd779d864a7c0",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T11:14:54Z",
+  "prompt_sha": "8d4ac12f0cc6e5150af73dba91fd8c1fbec988bd7586fea25703d7eb141373ba",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a decisão do Tribunal Regional do Trabalho (TRT) transcreveu integralmente a ementa de um acórdão do Tribunal Superior do Trabalho (TST), sem realizar qualquer análise sobre a compatibilidade entre os fatos do precedente e os fatos concretos do caso julgado. A parte vencida argumenta que essa prática viola o Código de Processo Civil (CPC) Art. 489, §1°, V.\n\nO CPC Art. 489, §1°, estabelece as obrigações das decisões judiciais quanto à fundamentação e ao acolhimento dos pedidos formulados pelas partes. O inciso V desse dispositivo especifica que a sentença deve demonstrar a aplicabilidade do precedente invocado ao caso concreto.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão deveria ser reformada para incluir uma análise detalhada sobre a compatibilidade entre os fatos do precedente e os fatos do caso em julgamento. Isso é necessário para garantir que o acórdão do TST seja aplicável ao caso concreto, conforme exigido pelo CPC Art. 489, §1°, V.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **CPC Art. 489, §1°, V:** Este dispositivo exige que a sentença demonstre a aplicabilidade do precedente invocado ao caso concreto. A mera transcrição da ementa de um acórdão sem análise fática não cumpre essa exigência.\n\nA limitação no contexto normativo é que ele se refere especificamente ao CPC, e não contém dispositivos adicionais do Direito do Trabalho que possam ser aplicáveis diretamente a esta questão. No entanto, o princípio de fundamentação adequada das decisões judiciais é um requisito geral no ordenamento jurídico brasileiro, conforme estabelecido pelo CPC.\n\nPortanto, para cumprir com as exigências legais e garantir uma análise justa e completa do caso, a decisão deve ser reformulada para incluir o devido cotejo fático entre o precedente e os fatos concretos da causa.",
+  "tokens_in": 304,
+  "tokens_out": 510,
+  "latency_ms": 29139,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

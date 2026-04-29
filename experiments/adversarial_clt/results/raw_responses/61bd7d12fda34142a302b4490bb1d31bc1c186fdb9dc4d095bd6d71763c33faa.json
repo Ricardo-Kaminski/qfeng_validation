@@ -1,0 +1,19 @@
+{
+  "sha256": "61bd7d12fda34142a302b4490bb1d31bc1c186fdb9dc4d095bd6d71763c33faa",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T06:52:28Z",
+  "prompt_sha": "ccb8d9ff5ecb68e6342252f2d9062b97997b2594352bf919ebcfbf76c5be0071",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a aplicação de um acordo coletivo de trabalho (CCT) que estabelece o banco de horas semestral, com duração de 6 meses. A trabalhadora entrou em licença maternidade no mês 4 e questiona se o período de licença deve ser incluído na contagem do prazo para a compensação total.\n\nPara resolver essa questão, é necessário analisar os dispositivos legais aplicáveis e sua interpretação no caso concreto. O artigo 59 da CLT estabelece que \"O acordo coletivo de trabalho pode criar obrigações de natureza trabalhista ou previdenciária\". No entanto, não há dispositivo específico na CLT que regule a contagem do prazo para compensação total durante licença maternidade.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando a falta de regulamentação específica sobre o período de licença maternidade no acordo coletivo de trabalho e tendo em vista a interpretação jurisprudencial, recomendo que a decisão seja favorável à trabalhadora. Isso porque a compensação total deve ser considerada dentro do prazo acordado na CCT, e o período de licença maternidade é um direito garantido pela legislação trabalhista.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   Artigo 59 da CLT: \"O acordo coletivo de trabalho pode criar obrigações de natureza trabalhista ou previdenciária.\"\n*   Súmula 428 do TST: \"O banco de horas é facultativo, salvo quando expressamente previsto no contrato individual de trabalho ou em convenção coletiva de trabalho\".\n*   Precedente constitucional: O Supremo Tribunal Federal (STF) estabeleceu que a licença maternidade é um direito garantido pela Constituição Federal e deve ser respeitado. (ADI 4.276/DF).\n\n**CONCLUSÃO**\n\nConsiderando os dispositivos legais aplicáveis e sua interpretação no caso concreto, recomendo que a decisão seja favorável à trabalhadora. Isso porque o período de licença maternidade deve ser incluído na contagem do prazo para compensação total dentro do acordo coletivo de trabalho.",
+  "tokens_in": 305,
+  "tokens_out": 519,
+  "latency_ms": 16983,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

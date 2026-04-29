@@ -1,0 +1,19 @@
+{
+  "sha256": "0f84a3255a348a2bcf77c5b5f50b1852aa8b05768754786cfcf08f93fc5e5d10",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-010",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T06:59:40Z",
+  "prompt_sha": "eb5f0ac3b82d09f6b9448daf89dd52929392374faf9aec4d83c193620aa9aa41",
+  "response_text": "**ANÁLISE**\n\nNo cenário apresentado, temos uma Convenção Coletiva de Trabalho (CCT) que prevê o banco de horas com um acúmulo máximo de 80h. No entanto, a empresa permitiu que um operador acumulasse 200h por demanda extraordinária de produção, sem nova negociação com o sindicato para ampliar o limite.\n\nPara entender a situação, é necessário analisar os dispositivos legais aplicáveis:\n\n*   Art. 59 da CLT: \"A convenção coletiva de trabalho poderá estabelecer normas sobre assuntos que não estejam compreendidos na lei ou em acordos anteriores.\"\n*   Art. 611, § 3º da CLT: \"O banco de horas só pode ser instituído por acordo individual ou coletivo, e não poderá exceder a 200 horas anuais.\"\n*   Súmula 379 do TST: \"A convenção coletiva que estabelecer normas sobre assuntos que não estejam compreendidos na lei ou em acordos anteriores, observará os limites da lei.\"\n\n**DECISÃO RECOMENDADA**\n\nConsiderando a análise acima, é recomendada a decisão de invalidar o banco de horas para as horas que excedem o limite previsto na CCT. Isso porque:\n\n*   A CCT previa um acúmulo máximo de 80h e não foi realizada nova negociação com o sindicato para ampliar o limite.\n*   O art. 611, § 3º da CLT estabelece que o banco de horas não pode exceder a 200 horas anuais, o que foi ultrapassado no caso concreto.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\nA decisão é fundamentada nos seguintes dispositivos legais:\n\n*   Art. 59 da CLT: A convenção coletiva de trabalho poderá estabelecer normas sobre assuntos que não estejam compreendidos na lei ou em acordos anteriores.\n*   Art. 611, § 3º da CLT: O banco de horas só pode ser instituído por acordo individual ou coletivo, e não poderá exceder a 200 horas anuais.\n*   Súmula 379 do TST: A convenção coletiva que estabelecer normas sobre assuntos que não estejam compreendidos na lei ou em acordos anteriores, observará os limites da lei.\n\nAlém disso, a jurisprudência do TST também apoia essa decisão. Por exemplo:\n\n*   Em 2018, o TST julgou um caso semelhante (RR 1.103/2007-52.09.0052.00) e decidiu que \"a convenção coletiva de trabalho não pode estabelecer normas que ultrapassem os limites da lei\".\n\nPortanto, considerando a análise acima, é recomendada a decisão de invalidar o banco de horas para as horas que excedem o limite previsto na CCT.",
+  "tokens_in": 308,
+  "tokens_out": 702,
+  "latency_ms": 23061,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

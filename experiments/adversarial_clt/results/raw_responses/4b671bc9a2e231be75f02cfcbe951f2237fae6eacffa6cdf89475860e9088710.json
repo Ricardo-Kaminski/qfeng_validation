@@ -1,0 +1,26 @@
+{
+  "sha256": "4b671bc9a2e231be75f02cfcbe951f2237fae6eacffa6cdf89475860e9088710",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-009",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T00:30:12Z",
+  "prompt_sha": "d1fdc105e58bb56978ba05596e29a5c6877b1685ca6ea3d00eee6f782a96ee44",
+  "response_text": "## Análise do Caso à Luz dos Predicados Normativos\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, a análise e a decisão recomendada são as seguintes:\n\n**1. ANÁLISE:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi (Obrigação de fundamentar a decisão na ratio decidendi identificada):** Este predicado é *flagrantemente violado* no caso. A simples reprodução dos fundamentos da sentença de primeiro grau não cumpre a obrigação de o acórdão do TRT apresentar uma *ratio decidendi* própria e fundamentada. A ratio decidendi é a razão de decidir, o princípio jurídico que sustenta a decisão. Ao adotar integralmente a sentença, o acórdão não demonstra que o magistrado do TRT analisou a questão, aplicou o direito ao caso concreto e chegou a uma conclusão lógica e justificada. A mera repetição da sentença não substitui a análise e a fundamentação próprias do acórdão.  Mais grave ainda, a sentença de origem se baseou em um precedente que já foi superado pelo TST, o que torna a fundamentação da sentença, e consequentemente a do acórdão que a adota, insustentável. A obrigação de fundamentar a decisão não é apenas formal, mas material: a fundamentação deve ser adequada e atualizada.\n\n*   **due_process_of_law (Devido processo legal):** Embora a violação do devido processo legal não seja tão evidente quanto a violação do predicado anterior, ela *pode estar comprometida*. O devido processo legal garante às partes o direito de serem ouvidas, de apresentar suas alegações e de ver a questão decidida de forma justa e imparcial. A ausência de fundamentação adequada, especialmente quando se ignora jurisprudência mais recente do TST que revoga o precedente utilizado na sentença de origem, pode impedir que a parte prejudicada compreenda a base da decisão e exerça seus direitos de recorrer de forma eficaz. A falta de clareza e fundamentação adequada dificulta a compreensão da decisão e, portanto, limita a possibilidade de uma revisão justa da questão.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que o acórdão do TRT seja **anulado** ou, alternativamente, seja determinado o seu **retorno à Turma para nova apreciação**. A anulação é a medida mais drástica, mas justificada pela gravidade da violação da *ratio decidendi* e pelo potencial comprometimento do devido processo legal.  Se a anulação não for possível ou considerada excessiva, a Turma deve ser instruída a refazer o acórdão, com a obrigação de:\n\n*   Analisar o caso concreto de forma independente, sem mera reprodução da sentença de primeiro grau.\n*   Considerar a jurisprudência atual do TST, especialmente a que supera o precedente utilizado na sentença de origem.\n*   Fundamentar a decisão de forma clara, precisa e completa, expondo a *ratio decidendi* que a sustenta.\n*   Garantir que a parte prejudicada tenha a oportunidade de compreender a base da decisão e de exercer seus direitos de recorrer de forma eficaz.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** **Violação** (Flagrante)\n*   **due_process_of_law:** **Possível Violação** (Comprometido pela falta de fundamentação adequada)\n",
+  "tokens_in": 318,
+  "tokens_out": 774,
+  "latency_ms": 21264,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

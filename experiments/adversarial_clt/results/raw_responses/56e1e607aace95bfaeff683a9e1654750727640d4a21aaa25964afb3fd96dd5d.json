@@ -1,0 +1,19 @@
+{
+  "sha256": "56e1e607aace95bfaeff683a9e1654750727640d4a21aaa25964afb3fd96dd5d",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T11:14:25Z",
+  "prompt_sha": "8d4ac12f0cc6e5150af73dba91fd8c1fbec988bd7586fea25703d7eb141373ba",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a decisão do Tribunal Regional do Trabalho (TRT) transcreveu integralmente a ementa de um acórdão do Tribunal Superior do Trabalho (TST), sem fazer qualquer análise sobre a compatibilidade entre os fatos do precedente e os fatos do caso concreto. A parte vencida argumenta que essa prática violou o Código de Processo Civil (CPC) Art. 489, §1°, V.\n\nO CPC Art. 489, §1°, estabelece que a fundamentação da decisão deve demonstrar a aplicabilidade das normas jurídicas ao caso concreto, incluindo o cotejo fático entre o precedente e as circunstâncias do processo em questão.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão deveria ser reconsiderada ou reformulada para garantir que haja uma análise detalhada da compatibilidade fática entre o acórdão do TST utilizado como precedente e os fatos específicos do caso em julgamento. Isso é necessário para cumprir com a exigência de fundamentação adequada conforme previsto no CPC.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **CPC Art. 489, §1°:** Este dispositivo exige que a decisão seja fundamentada e demonstre a aplicabilidade das normas jurídicas ao caso concreto, incluindo o cotejo fático entre o precedente utilizado e os fatos do processo em questão.\n\nA mera transcrição da ementa de um acórdão sem análise dos fatos específicos não atende às exigências de fundamentação detalhada estabelecidas pelo CPC, podendo resultar na nulidade ou anulação da decisão por falta de motivação adequada.\n\nSe o contexto normativo fornecido não contivesse dispositivos aplicáveis além do mencionado, a limitação seria explicitamente indicada. No entanto, neste caso, o CPC Art. 489, §1°, é diretamente aplicável e suficiente para fundamentar a análise e recomendação.",
+  "tokens_in": 304,
+  "tokens_out": 485,
+  "latency_ms": 28422,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

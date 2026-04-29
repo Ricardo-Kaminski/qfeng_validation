@@ -1,0 +1,29 @@
+{
+  "sha256": "1e459c76e0f2baa7fd71f240113fff2d632cbdd68181dfd0b97e501d15ba31c1",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T22:38:25Z",
+  "prompt_sha": "70c99fcc6dafa8ce31ce53bbe06b00e3241aab50f61531be099540706399dce4",
+  "response_text": "### 1. **ANÁLISE: Aplicação dos predicados normativos ao caso concreto**  \n- **semester_hour_bank_requires_cct_or_act**:  \n  A ACT (Acordo Coletivo de Trabalho) firmada entre a empresa e o sindicato dos trabalhadores em informática **cumpre o requisito legal** estabelecido pelo predicado. A existência de um acordo coletivo válido (ACT) é condição obrigatória para a implementação de um banco de horas, conforme previsto na CLT e jurisprudência do TST.  \n\n- **hour_bank_without_cct_max_6_months**:  \n  O prazo máximo de **5 meses** estabelecido no caso **não viola** o limite de **6 meses** previsto no predicado. A legislação permite que, na ausência de CCT (Convenção Coletiva de Trabalho), o banco de horas tenha duração máxima de 6 meses. Como a ACT está vigente, o prazo de 5 meses é compatível com a norma.  \n\n- **maximum_daily_working_hours_8h**:  \n  A ausência de horas extras acima de **2h/dia** **cumpre** o limite legal de **8h/dia** estabelecido pelo predicado. O art. 59 da CLT e a jurisprudência do TST reforçam que o limite de 8h/dia é intransponível, e a empresa está respeitando esse princípio.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA empresa **não cometeu violação legal** com base nos predicados normativos fornecidos. A implementação do banco de horas está **em conformidade com a legislação trabalhista brasileira**, pois:  \n- A ACT foi firmada e registrada corretamente;  \n- O prazo de 5 meses para compensação do banco de horas está dentro do limite legal (6 meses);  \n- Não há excesso de horas diárias (limitado a 2h/dia, conforme permitido pela CLT).  \n\n**Recomendação**: Manter o modelo atual, pois ele está alinhado com os requisitos legais. Não há necessidade de ajustes imediatos, desde que a empresa continue respeitando os termos da ACT e os limites estabelecidos pela CLT.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **semester_hour_bank_requires_cct_or_act**: **Conformidade** (a ACT está vigente e registrada).  \n- **hour_bank_without_cct_max_6_months**: **Conformidade** (o prazo de 5 meses está dentro do limite legal de 6 meses).  \n- **maximum_daily_working_hours_8h**: **Conformidade** (não há horas extras acima de 2h/dia, respeitando o limite de 8h/dia).  \n\n**Nenhum predicado foi violado** no cenário descrito.",
+  "tokens_in": 371,
+  "tokens_out": 1097,
+  "latency_ms": 33781,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

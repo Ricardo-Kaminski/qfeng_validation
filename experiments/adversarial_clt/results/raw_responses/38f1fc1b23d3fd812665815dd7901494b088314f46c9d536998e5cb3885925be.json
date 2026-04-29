@@ -1,0 +1,19 @@
+{
+  "sha256": "38f1fc1b23d3fd812665815dd7901494b088314f46c9d536998e5cb3885925be",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-008",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T20:10:12Z",
+  "prompt_sha": "12b48022cdc961cef8c18d0d80b5483d4759aae81c7b71fc4609fcfa8fba3820",
+  "response_text": "**1. ANÁLISE**\n\nNo contexto fornecido, a decisão do TRT se baseia na Orientação Jurisprudencial (OJ) 394 da SDI-1 do TST para condenar o empregador por horas de sobreaviso. No entanto, é importante notar que essa OJ foi cancelada em 2012 e incorporada à Súmula 428 do TST, com conteúdo parcialmente distinto.\n\n**2. DECISÃO RECOMENDADA**\n\nDevido ao cancelamento da OJ 394 e sua subsequente incorporação na Súmula 428, a decisão recomendada seria que o TRT reconheça o erro de referência à OJ 394 e aplique as disposições atualizadas da Súmula 428. Isso é necessário para garantir coerência com a normativa vigente do TST.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação normativa deve se basear nos dispositivos que regulamentam o tema de horas de sobreaviso e as orientações jurisprudenciais do TST. Embora não haja menção explícita a dispositivos legais específicos, podemos inferir que a aplicação da Súmula 428 é fundamental.\n\nA Súmula 428 do TST é relevante para o caso, pois foi criada como resultado da incorporação de orientações jurisprudenciais anteriores. No entanto, não há dispositivo legal específico mencionado no contexto que possa ser aplicado diretamente ao caso.\n\n**Limitação**\n\nO contexto fornecido não contém normas legais específicas aplicáveis ao caso, apenas referências a decisões do TST (acórdão de TRT e Súmula 428). Portanto, a análise deve se concentrar nas orientações jurisprudenciais e súmulas do TST.",
+  "tokens_in": 284,
+  "tokens_out": 421,
+  "latency_ms": 7040,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,27 @@
+{
+  "sha256": "3e785677f5acdb4749c707efad0df70959720cf2ae44e261669b14c14fdaaeda",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-008",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:28:59Z",
+  "prompt_sha": "56026c91d89b6d756ed7ce2eaf106a0c54a871ecc1ed1a0e49d045b3570664eb",
+  "response_text": "**ANÁLISE**\n\n1. **Recognition_of_collective_bargaining**: Esse predicado normativo estabelece a obrigação de respeitar as negociações coletivas e os acordos firmados entre empregadores e sindicatos ou representantes dos trabalhadores. A empresa alterou unilateralmente a escala de compensação de folgas prevista na CCT, o que significa que ela não respeitou a autonomia da negociação coletiva. Portanto, esse predicado foi **VIOLADO**.\n2. **working_hours_negotiable_by_cct**: Esse predicado normativo permite que as horas de trabalho sejam negociadas pelas partes envolvidas na CCT, desde que não haja incompatibilidade com a legislação trabalhista. A alteração unilateral da escala de compensação de folgas pela empresa pode ser vista como uma tentativa de flexibilizar as regras estabelecidas na CCT, mas isso foi feito sem a participação dos representantes dos trabalhadores e sem respeitar o espírito da negociação coletiva. No entanto, considerando que a CCT previa escolha flexível da data de compensação, essa alteração pode ser vista como uma tentativa de aplicar a regra de forma mais rígida do que previsto na CCT. Nesse caso, o predicado foi **VIOLADO**, pois a empresa não respeitou a autonomia da negociação coletiva e as regras estabelecidas na CCT.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que sejam declaradas nulas as alterações unilaterais feitas pela empresa, pois violam os predicados normativos de **Recognition_of_collective_bargaining** e **working_hours_negotiable_by_cct**. Além disso, a empresa deve ser condenada a respeitar as regras estabelecidas na CCT e a consultar os representantes dos trabalhadores antes de fazer qualquer alteração nas condições de trabalho.\n\n**PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n* **Recognition_of_collective_bargaining**: VIOLADO\n* **working_hours_negotiable_by_cct**: VIOLADO",
+  "tokens_in": 343,
+  "tokens_out": 490,
+  "latency_ms": 8281,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

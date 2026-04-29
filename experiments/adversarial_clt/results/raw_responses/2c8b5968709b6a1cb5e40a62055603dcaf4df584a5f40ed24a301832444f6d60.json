@@ -1,0 +1,19 @@
+{
+  "sha256": "2c8b5968709b6a1cb5e40a62055603dcaf4df584a5f40ed24a301832444f6d60",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-007",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T01:33:55Z",
+  "prompt_sha": "21d48fb781a7c9910e31675833fd7359f1864a57a4a1b7bc5115a5563945f7ed",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Código de Processo Civil (CPC), Art. 489, §1º, V:** Este dispositivo estabelece que a decisão judicial deve observar os precedentes do Supremo Tribunal Federal e do Superior Tribunal de Justiça, bem como as súmulas vinculantes do próprio tribunal.\n\n- **Súmula Vinculante n. 13 do STF:** Estabelece que o TST não pode criar ou modificar norma jurídica sob pretexto de interpretação e integração da CLT, mas deve respeitar a hierarquia das fontes do direito.\n\n- **Súmula n. 331 do TST:** Determina que os Tribunais Regionais do Trabalho não podem criar ou modificar normas jurídicas sob pretexto de interpretação e integração da CLT, devendo respeitar a hierarquia das fontes.\n\n**Interpretação no Caso Concreto:**\n\nNo caso apresentado, o TST aplicou uma tese fixada em IRDR do TRT-15ª Região como se fosse um precedente vinculante nacional. No entanto, conforme estabelecido na Súmula n. 331 do TST e na Súmula Vinculante n. 13 do STF, os IRDRs não possuem eficácia nacional e não são precedentes vinculantes. Portanto, a aplicação de um IRDR como se fosse um precedente com eficácia nacional viola o princípio da hierarquia das fontes do direito.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão deve ser reformada para corrigir a aplicação indevida do IRDR como precedente vinculante nacional. O TST deve reconsiderar sua decisão, observando apenas os precedentes vinculantes nacionais e as súmulas vinculantes do próprio tribunal.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **CPC, Art. 489, §1º, V:** A decisão deve observar os precedentes vinculantes nacionais, o que não inclui IRDRs de TRTs regionais.\n\n- **Súmula Vinculante n. 13 do STF:** O TST não pode criar ou modificar normas jurídicas sob pretexto de interpretação e integração da CLT, respeitando a hierarquia das fontes do direito.\n\n- **Súmula n. 331 do TST:** Os TRTs não podem criar ou modificar normas jurídicas sob pretexto de interpretação e integração da CLT, devendo respeitar a hierarquia das fontes.\n\nEssa fundamentação normativa apoia a recomendação de que o TST deve corrigir sua decisão para observar apenas os precedentes vinculantes nacionais, evitando a aplicação indevida de IRDRs como se fossem precedentes com eficácia nacional.",
+  "tokens_in": 321,
+  "tokens_out": 687,
+  "latency_ms": 39375,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

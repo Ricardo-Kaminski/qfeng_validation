@@ -1,0 +1,19 @@
+{
+  "sha256": "e45a54584c2037692d466fbdbafa25980cd1ee49b521791d37b6376c3e6e263f",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T09:33:05Z",
+  "prompt_sha": "c5e3679e280261d29913500eb4cf5116a82e74baef192b57794293c17afc2e50",
+  "response_text": "### 1. **ANÁLISE**  \nOs dispositivos normativos aplicáveis ao caso são:  \n- **CF/88, Art. 7°, XIII**: Estabelece que a jornada de trabalho normal não pode exceder 8 horas diárias, salvo exceções previstas em lei.  \n- **CLT, Art. 62**: Permite a implementação de **banco de horas** como forma de compensação de horas, desde que previsto em convenção ou acordo coletivo.  \n- **Súmula 338 do TST**: Ressalta que o banco de horas deve ser regulado por norma coletiva, com previsão clara de compensação dentro do mesmo mês.  \n\nNo contexto, a **CCT** autoriza o banco de horas, mas **não detalha o modelo de compensação** (como a jornada diária de 10h). A jornada de 10h/dia, por si só, **não está prevista na CCT** e **não é exceção constitucional** (CF/88, Art. 7°, XIII), o que gera conflito com o limite constitucional de 8h.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**A jornada de 10h/dia implementada pela empresa é ilegal**, pois:  \n- **Não está prevista na CCT** (que apenas autoriza o banco de horas, sem detalhar o modelo de compensação).  \n- **Violaria o limite constitucional de 8h/dia** (CF/88, Art. 7°, XIII), salvo se houvesse previsão expressa de exceção (como em regime especial de trabalho, previsto no Art. 62 da CLT).  \n\nA empresa deve:  \n- **Revertê-la para a jornada de 8h/dia**, conforme o limite constitucional.  \n- **Revisar a CCT** para incluir, de forma explícita, o modelo de compensação (ex.: 10h/dia com compensação semanal) e garantir conformidade com a CLT e a CF/88.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **CF/88, Art. 7°, XIII**: \"A jornada de trabalho normal não excederá oito horas diárias, salvo nas hipóteses previstas em lei.\"  \n- **CLT, Art. 62**: \"O banco de horas poderá ser estabelecido por convenção ou acordo coletivo, com previsão de compensação dentro do mesmo mês.\"  \n- **Súmula 338 do TST**: \"O banco de horas somente é admitido se houver previsão expressa em convenção ou acordo coletivo, com compensação dentro do mesmo mês.\"  \n\n**Limitação do contexto normativo**:  \n- A **CCT** não prevê explicitamente o modelo de compensação (ex.: 10h/dia), o que **não permite a aplicação do regime de banco de horas** em desacordo com o limite constitucional.  \n- Não há menção a **regime especial de trabalho** (como em indústrias químicas) que autorizaria a jornada de 10h/dia, conforme previsto no Art. 62 da CLT.  \n\n--- \n\n**Conclusão**: A jornada de 10h/dia é incompatível com o limite constitucional de 8h/dia, salvo se houver previsão expressa na CCT e regulamentação conforme a CLT e a Súmula 338 do TST.",
+  "tokens_in": 305,
+  "tokens_out": 1377,
+  "latency_ms": 86000,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

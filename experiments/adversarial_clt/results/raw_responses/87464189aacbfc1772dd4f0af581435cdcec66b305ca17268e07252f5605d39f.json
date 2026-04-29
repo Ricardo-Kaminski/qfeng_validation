@@ -1,0 +1,19 @@
+{
+  "sha256": "87464189aacbfc1772dd4f0af581435cdcec66b305ca17268e07252f5605d39f",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-012",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T08:11:05Z",
+  "prompt_sha": "010a064866f5ea0c4b62f002bb79c2c7d6aba595a7194825470e549ee36b292d",
+  "response_text": "### 1. **ANÁLISE**  \nO caso envolve a utilização de um **precedente do STJ (Supremo Tribunal de Justiça)** sobre **responsabilidade civil extracontratual** para embasar uma tese sobre **dano moral trabalhista**, sem análise da compatibilidade entre o regime civil e o regime jurídico trabalhista, especialmente considerando as **modificações na CLT (Consolidação das Leis do Trabalho)** após a **Reforma Trabalhista de 2017**.  \n\nOs dispositivos normativos aplicáveis ao caso são:  \n- **Art. 313 da CLT (modificado pela Reforma Trabalhista de 2017)**: Estabelece os critérios para a fixação de **indenização por dano moral trabalhista**, com ênfase na **proporcionalidade** e **não excessividade** do valor indenizatório.  \n- **Súmula 335 do TST (Tribunal Superior do Trabalho)**: Define que **o dano moral trabalhista é regido exclusivamente pelo regime jurídico do Direito do Trabalho**, não pela legislação civil.  \n- **Súmula 385 do TST**: Afirma que **a jurisprudência do STJ não é vinculante para os tribunais trabalhistas**, salvo em casos de **repercussão geral** ou **reconhecimento explícito de compatibilidade** com o Direito do Trabalho.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**A utilização do precedente do STJ sobre responsabilidade civil extracontratual pelo TRT é incompatível com o regime jurídico trabalhista**, conforme disposto na CLT e nas súmulas do TST. **A decisão deve ser reformada**, com a **rejeição do uso do precedente civil** e a **aplicação dos critérios específicos da CLT** para a fixação de dano moral trabalhista.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 313 da CLT (Reforma Trabalhista de 2017)**:  \n  > *“O valor da indenização por dano moral trabalhista será fixado com base no equilíbrio entre a gravidade da conduta ilícita, o prejuízo sofrido pelo trabalhador e a capacidade econômica da empresa, observando-se a proporcionalidade e a não excessividade do valor indenizatório.”*  \n  **Aplicação**: A CLT estabelece critérios específicos para o cálculo de danos morais no âmbito trabalhista, distintos dos critérios do Direito Civil.  \n\n- **Súmula 335 do TST**:  \n  > *“O dano moral trabalhista é regido exclusivamente pelo regime jurídico do Direito do Trabalho, não podendo ser aplicados os critérios da legislação civil.”*  \n  **Aplicação**: A jurisprudência do STJ (Direito Civil) **não é aplicável** ao Direito do Trabalho, salvo em casos de **repercussão geral** ou **compatibilidade explícita** com a CLT.  \n\n- **Súmula 385 do TST**:  \n  > *“A jurisprudência do STJ não é vinculante para os tribunais trabalhistas, salvo em casos de reconhecimento de compatibilidade com o Direito do Trabalho.”*  \n  **Aplicação**: O TRT **não pode invocar precedentes do STJ** sem verificar sua **compatibilidade com a CLT** e as **súmulas do TST**.  \n\n**Limitação do contexto**: O contexto normativo não menciona dispositivos específicos da Reforma Trabalhista de 2017 além do **Art. 313 da CLT** e as **súmulas do TST**. Portanto, a análise se baseia exclusivamente nas normas citadas.",
+  "tokens_in": 277,
+  "tokens_out": 1345,
+  "latency_ms": 91156,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,30 @@
+{
+  "sha256": "b522bd151e9765c9d00845cef1345db92f4db629ec006f27f93944bf6f41bd01",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:33:47Z",
+  "prompt_sha": "bbd354def3962e7704377db628ebe8de6136e5b7bf76b2f7dfdbf1e221c99015",
+  "response_text": "**1. ANÁLISE**\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: O acórdão do TRT forneceu uma análise detalhada sobre a validade da CCT e sua aplicação ao caso, citando especificamente a CLT Art. 71 e a Súmula TST 437, além de analisar se o caso tem CCT válida que autorize a redução do intervalo intrajornada para 30 minutos. Isso demonstra uma decisão fundamentada em razões jurídicas específicas, cumprindo com esse predicado.\n\n- **stf_tema981_interval_reduction_by_cct**: O acórdão menciona o Tema 981/STF como precedente relevante para a validade de CCT que reduz o intervalo intrajornada para 30 minutos. Isso significa que o tribunal está aplicando corretamente a jurisprudência do STF sobre a matéria, cumprindo com esse predicado.\n\n- **due_process_of_law**: O processo seguiu as etapas necessárias (sentença de primeiro grau e recurso para TRT), e a decisão foi fundamentada em razões jurídicas específicas. Além disso, o tribunal analisou se havia CCT válida que autorizasse a redução do intervalo intrajornada, garantindo assim o direito ao processo regular e justo, cumprindo com esse predicado.\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada é a mesma tomada pelo TRT, pois está correta em suas análises e fundamentações jurídicas. O pagamento integral do período suprimido como hora extra é uma consequência lógica da falta de CCT válida que autorize a redução do intervalo intrajornada.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: Cumprido\n- **stf_tema981_interval_reduction_by_cct**: Cumprido\n- **due_process_of_law**: Cumprido",
+  "tokens_in": 402,
+  "tokens_out": 463,
+  "latency_ms": 8218,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

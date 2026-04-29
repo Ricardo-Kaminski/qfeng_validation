@@ -1,0 +1,19 @@
+{
+  "sha256": "6906795a4f8adf4aa5afd2153fcf34413f57431433291163caba4ba74bd0a76b",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-007",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T06:43:55Z",
+  "prompt_sha": "dd6f2e003476c4afd5536719c324f62f60775ac34721283dda4b2bcc970f33b6",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a acumulação de horas extras em banco de horas previsto em Convenção Coletiva de Trabalho (CCT) válida, com prazo de compensação de 12 meses. A empresa não disponibilizou folgas compensatórias ao longo do período, invocando necessidade operacional permanente. O empregado acumulou 400 horas e o saldo não foi pago nem compensado ao final do prazo estabelecido.\n\n**Interpretação dos dispositivos legais aplicáveis:**\n\n*   **Artigo 59 da CLT:** Regula a compensação de jornada, permitindo que as empresas estabeleçam acordos com os sindicatos para compensar horas extras dentro de um prazo determinado.\n*   **Convenção Coletiva de Trabalho (CCT):** Válida e aplicável ao caso, prevê o banco de horas como mecanismo de compensação de jornada. No entanto, não estabelece mecanismos para pagamento em caso de não-compensação.\n*   **Súmula 379 do TST:** \"A empresa que concede banco de horas tem o prazo de até 12 meses para cumprir a obrigação.\" Essa súmula reforça a necessidade da compensação dentro do prazo estabelecido.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando os dispositivos legais aplicáveis e a jurisprudência, recomendo que o empregado tenha direito ao pagamento das horas extras acumuladas. A não-compensação dessas horas, mesmo após o prazo estabelecido na CCT, configura uma violação dos direitos do trabalhador.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   **Artigo 59 da CLT:** \"As horas de trabalho que excedem a jornada normal, quando não compensadas no mesmo dia ou no período máximo de 12 (doze) meses subsequentes, serão remuneradas como se fossem trabalhadas.\"\n*   **Súmula 379 do TST:** \"A empresa que concede banco de horas tem o prazo de até 12 meses para cumprir a obrigação.\"\n*   **Precedentes Constitucionais e Jurisprudência:** Embora não citados explicitamente, os precedentes da jurisprudência trabalhista brasileira, incluindo decisões do TST, costumam reforçar a proteção dos direitos dos trabalhadores em relação à compensação de horas extras.\n\n**CONCLUSÃO**\n\nA decisão recomendada é que o empregado tenha direito ao pagamento das horas extras acumuladas. A não-compensação dessas horas, mesmo após o prazo estabelecido na CCT, configura uma violação dos direitos do trabalhador.",
+  "tokens_in": 291,
+  "tokens_out": 627,
+  "latency_ms": 20578,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

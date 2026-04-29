@@ -1,0 +1,29 @@
+{
+  "sha256": "b63b7a82f9ae5a7f4a016ae3922003a711d4a01f067ce0775135c8acb006b7a2",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:23:18Z",
+  "prompt_sha": "8c96eb4d737be4ce8781d374931313b19e56c91b6fa2796bc527598d09d845e0",
+  "response_text": "**ANÁLISE**\n\n1. **semester_hour_bank_requires_cct_or_act**: Esse predicado normativo estabelece que, para a implementação de banco de horas semestral, é necessário um acordo coletivo de trabalho (ACT) ou uma convenção coletiva de trabalho (CCT). No cenário apresentado, a empresa adotou o banco de horas mediante acordo individual por escrito com cada empregado. Isso significa que não houve negociação coletiva envolvendo sindicatos patronais e trabalhadores, como exigido pelo predicado.\n\n**DECISÃO RECOMENDADA**\n\nDiante da análise, a decisão recomendada seria considerar a implementação do banco de horas semestral pela empresa como irregular. Isso ocorre porque o acordo individual por escrito não supre a necessidade de negociação coletiva para a adoção de tal sistema, conforme exigido pelo predicado semester_hour_bank_requires_cct_or_act.\n\n**PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **semester_hour_bank_requires_cct_or_act**: Violado. A empresa não realizou negociação coletiva necessária para a implementação de banco de horas semestral, como exigido pelo predicado.\n- Outros predicados listados não se aplicam diretamente ao cenário descrito ou não foram mencionados como relevantes para o caso específico.",
+  "tokens_in": 347,
+  "tokens_out": 307,
+  "latency_ms": 5172,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "f22fce19057367c4840ecd2656712ebe61f1334baa78deb598551631240004d3",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T02:41:43Z",
+  "prompt_sha": "5b8f75ba208096eb458c3fc1f2bdca9675e25a232157ca9f9ce6515cdd7f9fb4",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **CLT Art. 9º, § 2º**: Estabelece que a convenção ou acordo coletivo de trabalho poderá estipular condições de trabalho mais vantajosas do que as previstas na legislação trabalhista.\n  \n- **Súmula TST 85, V**: Dispõe que o banco de horas somente pode ser instituído mediante convenção ou acordo coletivo.\n\n- **TST-Ag-RR-868-65.2021**: Este precedente específico trata da validade do banco de horas estabelecido por CCT no setor bancário, reconhecendo sua legalidade quando negociado coletivamente.\n\n**Interpretação no Caso Concreto:**\n\nNo caso em análise, a decisão trabalhista identifica que o banco de horas foi instituído sem negociação coletiva, ou seja, sem uma convenção coletiva de trabalho (CCT) ou acordo coletivo. A Súmula TST 85, V é clara ao exigir que a instituição do banco de horas dependa de negociação coletiva para ser válida. Portanto, a ausência de CCT no caso concreto resulta na invalidade do banco de horas conforme o entendimento consolidado pelo Tribunal Superior do Trabalho (TST).\n\n### 2. DECISÃO RECOMENDADA\n\n**Decisão:**\n\nA decisão deve ser mantida, reconhecendo a invalidade do banco de horas instituído sem negociação coletiva.\n\n**Motivo:**\n\nO princípio da legalidade e o respeito à norma coletiva são fundamentais no Direito do Trabalho brasileiro. A Súmula TST 85, V estabelece claramente que a instituição de banco de horas depende de convenção ou acordo coletivo. Sem essa negociação coletiva, o banco de horas não pode ser considerado válido, conforme já reconhecido pelo TST em diversos precedentes.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n**Artigos da CLT:**\n\n- **CLT Art. 9º, § 2º**: Permite que convenções e acordos coletivos estabeleçam condições mais favoráveis ao trabalhador do que as previstas na legislação.\n\n**Súmulas do TST:**\n\n- **Súmula TST 85, V**: Estabelece a necessidade de negociação coletiva para a instituição válida de banco de horas.\n\n**Precedentes Constitucionais e Jurisprudenciais:**\n\n- **TST-Ag-RR-868-65.2021**: Confirma que o banco de horas é válido quando instituído por meio de CCT, respeitando-se a negociação coletiva.\n\nA decisão se alinha com a jurisprudência consolidada do TST e com os princípios da legalidade e da autonomia coletiva previstos na CLT. A ausência de negociação coletiva no caso concreto torna o banco de horas inválido, conforme já decidido em múltiplos precedentes pelo Tribunal Superior do Trabalho.",
+  "tokens_in": 333,
+  "tokens_out": 732,
+  "latency_ms": 42015,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

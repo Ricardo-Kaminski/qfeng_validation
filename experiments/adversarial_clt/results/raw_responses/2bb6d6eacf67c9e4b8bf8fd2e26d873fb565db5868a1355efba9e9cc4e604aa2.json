@@ -1,0 +1,26 @@
+{
+  "sha256": "2bb6d6eacf67c9e4b8bf8fd2e26d873fb565db5868a1355efba9e9cc4e604aa2",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T01:35:23Z",
+  "prompt_sha": "d1173e4f3cba457c294de0168853e6eb5bfa237ff7c015762dd1676b67bbd842",
+  "response_text": "**1. ANÁLISE**\n\n- **semester_hour_bank_requires_cct_or_act**: A empresa e o sindicato celebraram uma CCT, que é um acordo coletivo de trabalho, estabelecendo as regras para a compensação de horas trabalhadas em banco de horas. Isso atende ao predicado, pois a existência de uma CCT é necessária para regular os bancos de horas.\n\n- **hour_bank_with_cct_max_1_year**: A CCT estabeleceu um acúmulo máximo de 60 horas mensais, o que é dentro do limite permitido. Além disso, a compensação das horas foi feita em folgas previamente comunicadas, dentro dos 12 meses permitidos pela lei. Portanto, este predicado também está cumprido.\n\n- **recognition_of_collective_bargaining**: A CCT foi celebrada entre a empresa e o sindicato, e todos os trabalhadores receberam cópias da CCT. Além disso, não há contestação sindical ou individual sobre a validade ou aplicabilidade da CCT. Isso significa que o processo de negociação coletiva foi reconhecido e respeitado.\n\n**2. DECISÃO RECOMENDADA**\n\nCom base nos predicados normativos acima, não há motivos legais para contestar a implementação da CCT e a compensação das horas trabalhadas em banco de horas. Portanto, a decisão recomendada é que a empresa tenha cumprido com as obrigações estabelecidas na CCT e que os trabalhadores não têm direito a qualquer reclamação ou compensação adicional.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **semester_hour_bank_requires_cct_or_act**: Cumprido\n- **hour_bank_with_cct_max_1_year**: Cumprido\n- **recognition_of_collective_bargaining**: Cumprido",
+  "tokens_in": 375,
+  "tokens_out": 419,
+  "latency_ms": 7156,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

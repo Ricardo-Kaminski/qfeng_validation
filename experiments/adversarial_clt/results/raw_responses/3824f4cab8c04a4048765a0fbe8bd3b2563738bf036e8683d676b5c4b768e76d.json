@@ -1,0 +1,26 @@
+{
+  "sha256": "3824f4cab8c04a4048765a0fbe8bd3b2563738bf036e8683d676b5c4b768e76d",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:25:22Z",
+  "prompt_sha": "489d4d0cb986d91530d7db7ba9d629c987a55e79987825665efedd8b88b39c59",
+  "response_text": "## Análise do Caso: Citação Doutrinária Genérica em Acórdão Trabalhista\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, a análise e a decisão recomendada são as seguintes:\n\n**1. ANÁLISE:**\n\n* **obligation_to_ground_decision_in_identified_ratio_decidendi:** Este predicado é o central para a análise do caso. Ele impõe a obrigação de fundamentar a decisão judicial em um *ratio decidendi* identificado. A citação de doutrina, para ser válida e cumprir este predicado, deve permitir que o julgador e as partes localizem a fonte original da qual o autor extraiu o argumento. A citação genérica, como no caso, impede essa localização.  Não se pode presumir que a referência a \"Martins, Sergio Pinto\" seja suficiente para identificar o *ratio decidendi* utilizado, dada a existência de diversas obras do autor.  A falta de precisão na identificação da obra, edição, ano e página compromete a transparência e a possibilidade de controle da decisão.  O recorrente, ao alegar a ausência de fundamentação com base no LINDB Art. 20, está essencialmente questionando o cumprimento deste predicado.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que o Tribunal do Trabalho **analise a validade da fundamentação do acórdão**.  A simples menção do nome do autor não supre a necessidade de identificação precisa da obra utilizada para embasar a decisão.  O Tribunal deve:\n\n* **Determinar se a parte recorrente demonstrou, de fato, a impossibilidade de identificar a fonte doutrinária utilizada.**  Se a parte recorrente apresentar evidências de que a identificação da obra é impossível, a fundamentação do acórdão deve ser considerada deficiente.\n* **Caso a identificação seja possível, o acórdão deve ser complementado com a indicação precisa da obra, edição, ano e página.**  Isso permitirá que a parte recorrente e outros interessados verifiquem a correta aplicação do *ratio decidendi* e a validade da fundamentação.\n* **Se a identificação for impossível e a fundamentação, portanto, considerada deficiente, o acórdão deve ser reformado, determinando que a decisão seja proferida com base em fundamentação adequada e identificável.**  Isso pode envolver a reanálise do caso com base em outros argumentos e provas.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n* **obligation_to_ground_decision_in_identified_ratio_decidendi:** **Violação**. A citação doutrinária genérica impede a identificação do *ratio decidendi* e, portanto, não cumpre a obrigação de fundamentar a decisão em uma base identificável.\n* **Predicados não listados:** A situação também pode implicar em violação aos princípios do contraditório e da ampla defesa, uma vez que a falta de identificação da fonte doutrinária dificulta a possibilidade de a parte contrária se manifestar sobre a validade do argumento utilizado.\n",
+  "tokens_in": 315,
+  "tokens_out": 681,
+  "latency_ms": 18702,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

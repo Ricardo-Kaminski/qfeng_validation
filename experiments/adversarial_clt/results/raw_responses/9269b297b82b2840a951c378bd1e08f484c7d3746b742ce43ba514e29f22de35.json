@@ -1,0 +1,19 @@
+{
+  "sha256": "9269b297b82b2840a951c378bd1e08f484c7d3746b742ce43ba514e29f22de35",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-009",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T12:03:53Z",
+  "prompt_sha": "2722d03920b7e27b8bb0202ab5af9eebb5796cac03b26e86812fcd909b78f3bc",
+  "response_text": "1. **ANÁLISE:** \n\nNo cenário apresentado, temos um trabalhador que optou por converter seu saldo de banco de horas em dinheiro antes do término do prazo estabelecido pela CCT (Convenção Coletiva de Trabalho), com anuência do empregador. A CCT prevê essa possibilidade e especifica que as horas convertidas seriam pagas com um adicional de 50%. O pagamento foi efetuado no mês seguinte à conversão.\n\nOs dispositivos normativos aplicáveis a esse caso incluem:\n\n- **Convenção Coletiva de Trabalho (CCT):** A CCT é o instrumento que autoriza e regulamenta a utilização do banco de horas, estabelecendo prazos, condições para compensação ou conversão em dinheiro, além dos critérios para pagamento.\n\n- **Consolidação das Leis do Trabalho (CLT):** A CLT regula o uso do banco de horas nos artigos 59 a 61. Especificamente:\n  - **Artigo 59:** Permite a compensação de jornada mediante acordo individual ou coletivo, desde que não exceda determinados limites.\n  - **Artigo 60:** Estabelece que o saldo remanescente pode ser convertido em abono pecuniário após o término do prazo estipulado na CCT.\n  - **Artigo 61:** Permite a conversão antecipada, desde que haja anuência expressa do empregador e seja respeitado o limite máximo de horas acumuláveis.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que o pagamento feito ao trabalhador está em conformidade com as normas estabelecidas pela CCT e pelas disposições da CLT, desde que todas as condições previstas tenham sido cumpridas.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **CCT:** A convenção coletiva é o instrumento primário que autoriza a conversão antecipada do saldo de banco de horas em dinheiro com adicional, desde que haja anuência do empregador. No caso apresentado, essa condição foi atendida.\n\n- **CLT:**\n  - **Artigo 59:** Permite o acordo para compensação ou conversão de jornada.\n  - **Artigo 60:** Regula a possibilidade de conversão em abono pecuniário após o término do prazo, mas não impede a antecipação se autorizada pela CCT.\n  - **Artigo 61:** Autoriza a conversão antecipada mediante anuência expressa do empregador.\n\nPortanto, desde que a CCT tenha sido respeitada e as condições da CLT cumpridas (anuência do empregador e limite de horas acumuláveis), o pagamento com adicional de 50% está em conformidade com as normas aplicáveis. Não há limitações ou violações normativas evidentes no contexto apresentado.",
+  "tokens_in": 295,
+  "tokens_out": 673,
+  "latency_ms": 38516,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

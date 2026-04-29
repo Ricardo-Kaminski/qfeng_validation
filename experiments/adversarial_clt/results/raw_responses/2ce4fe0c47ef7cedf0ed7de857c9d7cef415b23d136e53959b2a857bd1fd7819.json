@@ -1,0 +1,19 @@
+{
+  "sha256": "2ce4fe0c47ef7cedf0ed7de857c9d7cef415b23d136e53959b2a857bd1fd7819",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T09:44:58Z",
+  "prompt_sha": "20bcb1901ab1aa5e2075eb13244f62faae731e7567ce2ad32b769d26afac0022",
+  "response_text": "### 1. **ANÁLISE**  \nOs dispositivos normativos aplicáveis ao caso são:  \n- **Art. 59 da CLT** (Consolidação das Leis do Trabalho): Estabelece que o banco de horas pode ser instituído mediante acordo entre empregador e empregado, com previsão de compensação das horas extras em período posterior.  \n- **Art. 487, § 1º, I da CLT**: Determina que a alteração de cláusulas contratuais (como a escala de compensação de folgas) exige **consenso mútuo** entre as partes.  \n- **Súmula 244 do TST** (Tribunal Superior do Trabalho): Reconhece que o banco de horas é válido apenas se previsto expressamente no contrato de trabalho ou em convenção coletiva, e que **alterações unilaterais** são consideradas nulas.  \n- **Súmula 384 do TST**: Afirma que a **alteração unilateral** da jornada de trabalho ou de condições de trabalho, sem acordo com o empregado, é inválida.  \n\nA CCT (Convenção Coletiva de Trabalho) previa uma **escala flexível de compensação de folgas**, o que configura uma cláusula contratual específica. A empresa, ao alterar unilateralmente essa escala, viola:  \n- O princípio da **irrenunciabilidade dos direitos** do trabalhador (Art. 7º, XXII da CF/88, aplicável por meio da CLT);  \n- A **obrigatoriedade de consenso** para alterações contratuais (Art. 487, CLT);  \n- A **validade do banco de horas**, que depende da manutenção das condições pactuadas (Súmula 244, TST).  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **alteração unilateral da escala de compensação de folgas** deve ser **declarada nula**, e a CCT deve ser mantida em sua integralidade. A empresa deve:  \n- Restabelecer a **flexibilidade de escolha da data de compensação** prevista na CCT;  \n- Indenizar os trabalhadores por eventuais prejuízos decorrentes da violação da cláusula coletiva (se comprovados).  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 59 da CLT**: \"O banco de horas pode ser instituído mediante acordo entre empregador e empregado, com previsão de compensação das horas extras em período posterior.\"  \n- **Art. 487, § 1º, I da CLT**: \"A alteração de cláusulas contratuais exige consenso mútuo entre as partes.\"  \n- **Súmula 244 do TST**: \"O banco de horas é válido apenas se previsto expressamente no contrato de trabalho ou em convenção coletiva. Alterações unilaterais são consideradas nulas.\"  \n- **Súmula 384 do TST**: \"A alteração unilateral da jornada de trabalho ou de condições de trabalho, sem acordo com o empregado, é inválida.\"  \n\n**Limitação normativa**: O contexto não menciona dispositivos específicos da CCT que possam legitimar a alteração unilateral da escala de compensação, o que reforça a aplicação das normas gerais da CLT e das súmulas do TST.",
+  "tokens_in": 277,
+  "tokens_out": 1143,
+  "latency_ms": 71014,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

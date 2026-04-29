@@ -1,0 +1,26 @@
+{
+  "sha256": "86eec479c2d93da0a8c5bc99f43fb2c878f9e3fa1750436ee3d4b27387f28f20",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T23:40:02Z",
+  "prompt_sha": "489d4d0cb986d91530d7db7ba9d629c987a55e79987825665efedd8b88b39c59",
+  "response_text": "1. **ANÁLISE:**\n\nO predicado normativo aplicável ao caso é \"obligation_to_ground_decision_in_identified_ratio_decidendi\". Este princípio estabelece que decisões judiciais devem ser fundamentadas com base em um ratio decidendi claramente identificado, o que inclui a utilização de fontes doutrinárias ou jurisprudenciais de maneira precisa e completa. No cenário apresentado, o acórdão trabalhista cita a doutrina de \"Martins, Sergio Pinto\" para fundamentar uma questão sobre horas extras, mas não fornece detalhes suficientes como obra, edição, ano ou página. Isso pode dificultar a verificação e compreensão da base teórica utilizada pelo julgador.\n\nA falta de identificação completa da fonte doutrinária citada levanta uma questão sobre se o acórdão cumpriu adequadamente com a obrigação de fundamentar sua decisão em um ratio decidendi claramente identificado. A jurisprudência do TST e a legislação brasileira, especialmente o artigo 20 da Lei de Introdução às Normas do Direito Brasileiro (LINDB), exigem que as decisões judiciais sejam fundamentadas com base em normas legais ou doutrinárias claramente identificáveis. A ausência desses detalhes pode ser interpretada como uma falha na fundamentação adequada da decisão, conforme alegado pelo recorrente.\n\n2. **DECISÃO RECOMENDADA:**\n\nConsiderando o predicado normativo aplicável e a análise do caso, recomenda-se que a decisão seja revisada para verificar se a falta de identificação completa da fonte doutrinária citada comprometeu a fundamentação adequada do acórdão. Se for constatado que essa deficiência impediu uma compreensão clara e verificável do fundamento teórico utilizado na decisão, seria recomendável reformar o acórdão para incluir referências completas da doutrina citada ou substituí-la por outra fonte adequadamente identificada que apoie a decisão.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n- **Violado:** \"obligation_to_ground_decision_in_identified_ratio_decidendi\" - A decisão não cumpriu com o requisito de fundamentação adequada, uma vez que a citação doutrinária utilizada não foi identificada de maneira completa e verificável.",
+  "tokens_in": 342,
+  "tokens_out": 572,
+  "latency_ms": 16639,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

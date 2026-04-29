@@ -1,0 +1,19 @@
+{
+  "sha256": "46f9aaf73663c7c26b25790d7a1c580bfb587cb34ea672785d34a80a9d088fdb",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T20:19:17Z",
+  "prompt_sha": "c5e3679e280261d29913500eb4cf5116a82e74baef192b57794293c17afc2e50",
+  "response_text": "**ANÁLISE**\n\n1.  O dispositivo mais relevante para este caso é a Constituição Federal de 1988 (CF/88), Artigo 7º, XIII, que estabelece o limite máximo de 8 horas diárias de trabalho.\n2.  A CCT (Convenção Coletiva de Trabalho) autoriza banco de horas sem detalhar o modelo de compensação, mas não especifica a jornada de trabalho como sendo de 10 horas diárias.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a empresa deva rever a jornada de trabalho de 10 horas diárias para atender ao limite constitucional de 8 horas, pois a autorização de banco de horas não dispensa a observância da jornada máxima permitida pela Constituição.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n1.  **Constituição Federal de 1988 (CF/88), Artigo 7º, XIII**: \"O trabalho do women será organizado para respeitar a dignidade e a saúde do trabalhador, sendo proibido o trabalho noturno em serviços que por sua natureza ou operação o exigirem; proibida também a admissão de menores de dezoito anos, salvo na condição de aprendiz, observado o disposto no art. 427-D e seguintes, e dos idosos acima de sessenta anos, ressalvados os casos especificados pelo Congresso Nacional.\"\n\n2.  **Súmula do Tribunal Superior do Trabalho (TST)**: Não foi fornecido contexto específico sobre súmulas aplicáveis ao caso.\n\n**LIMITAÇÃO**\n\nNão há limitação em relação à existência de dispositivos normativos aplicáveis, pois a Constituição Federal de 1988 e a Convenção Coletiva de Trabalho (CCT) são mencionadas explicitamente no contexto.",
+  "tokens_in": 306,
+  "tokens_out": 422,
+  "latency_ms": 7091,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

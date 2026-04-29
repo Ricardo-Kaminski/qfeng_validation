@@ -1,0 +1,26 @@
+{
+  "sha256": "0b203b99e81e6109070401f214b8dfdac1f6fdae0f8d8779975cb979584b1696",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T00:28:47Z",
+  "prompt_sha": "7660b2da54b47ec130cffef58432c2ae523cbf081d6549688005d26e1d75d53b",
+  "response_text": "## Análise do Caso: Uso de OJ Cancelada em Decisão de TRT\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, segue a análise, decisão recomendada e identificação de cumprimento/violação dos predicados:\n\n**1. ANÁLISE:**\n\n*   **prohibition_of_generic_precedent_citation:** Este predicado é o central para a análise do caso. Ele proíbe a citação genérica de precedentes que foram revogados ou alterados. No cenário, o Acórdão do TRT citou a OJ 394 da SDI-1 do TST, que foi formalmente cancelada e substituída pela Súmula 428. A simples citação da OJ 394, sem mencionar a sua revogação e a existência da Súmula 428, configura uma violação direta deste predicado. A jurisprudência do TST é clara: a utilização de precedentes revogados pode levar à anulação da decisão, pois ela não reflete o entendimento atual da Justiça do Trabalho. A decisão do TRT, ao se basear em um entendimento jurídico superado, compromete a segurança jurídica e a uniformidade da jurisprudência. O fato de a OJ 394 ter sido incorporada à Súmula 428, com conteúdo parcialmente distinto, agrava a situação, pois demonstra que o entendimento original foi modificado, tornando a OJ obsoleta para fins de fundamentação.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que a decisão do TRT seja revista e anulada, no que tange à fundamentação baseada na OJ 394 da SDI-1. O Acórdão deve ser reanalisado, utilizando a Súmula 428 do TST como base para a condenação por horas de sobreaviso, considerando o conteúdo atualizado e a jurisprudência aplicável. É fundamental que a nova decisão justifique a condenação com base nos fundamentos da Súmula 428 e outros precedentes atuais do TST, demonstrando a correta aplicação da lei ao caso concreto. A simples citação da Súmula 428 não é suficiente; é necessário analisar e aplicar seus fundamentos ao caso.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **prohibition_of_generic_precedent_citation:** **VIOLAÇÃO**. A citação da OJ 394, sem mencionar sua revogação e a existência da Súmula 428, configura uma clara violação deste predicado. A decisão se baseou em um precedente que não é mais válido.\n\n**Observações Adicionais:**\n\n*   A decisão do TRT demonstra uma falha na atualização dos seus membros sobre a jurisprudência do TST. É importante que os tribunais trabalhistas mantenham seus magistrados e servidores informados sobre as mudanças na jurisprudência para evitar a utilização de precedentes revogados.\n*   A parte vencedora na ação judicial pode buscar a reforma da decisão do TRT, alegando a utilização de jurisprudência superada como vício insanável.\n*   A utilização de precedentes revogados pode gerar questionamentos sobre a validade de outras decisões do TRT que se baseiam na mesma OJ.\n\nEsta análise e recomendação são baseadas exclusivamente nos predicados normativos fornecidos e no cenário apresentado. Uma análise mais aprofundada do caso exigiria a consideração de outros elementos e documentos.",
+  "tokens_in": 317,
+  "tokens_out": 758,
+  "latency_ms": 20593,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

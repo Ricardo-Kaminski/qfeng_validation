@@ -1,0 +1,29 @@
+{
+  "sha256": "9030f93c5be4b6304a505ce76ee16f3c0245fc1b216a2d7266b33a9fe76d5b4b",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-007",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T23:51:51Z",
+  "prompt_sha": "172c513c4b099df7743ffb1d24431062fe2eeac1ce853003c4f9dc9cbe3de520",
+  "response_text": "1. **ANÁLISE:**\n\n   - **hour_bank_with_cct_max_1_year:** Este predicado normativo estabelece que o banco de horas, quando previsto em uma Convenção Coletiva de Trabalho (CCT), deve ter um prazo máximo de compensação de 12 meses. No cenário apresentado, a CCT válida estipulou um período de 12 meses para a compensação das horas acumuladas, o que está dentro do limite permitido pela norma. Portanto, este predicado foi cumprido em relação ao prazo máximo.\n\n   - **maximum_weekly_working_hours_44h:** Este predicado se refere à limitação da jornada semanal de trabalho a 44 horas, conforme estabelecido na CLT. No cenário descrito, não há menção específica sobre o excesso ou cumprimento desta norma durante o período em que as horas foram acumuladas. Assim, não é possível determinar uma violação ou conformidade deste predicado com base nas informações fornecidas.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Considerando os predicados aplicáveis e a situação descrita, recomenda-se que o empregador proceda à compensação das 400 horas acumuladas no banco de horas ou realize o pagamento correspondente ao saldo não compensado após o término do prazo estipulado na CCT. A justificativa para a não-compensação durante o período deve ser avaliada, mas a necessidade operacional permanente não dispensa a obrigatoriedade de cumprimento das condições da CCT ou da legislação trabalhista.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Cumpriu:** \n     - hour_bank_with_cct_max_1_year: O prazo estabelecido na CCT para compensação das horas acumuladas foi de 12 meses, cumprindo o limite máximo permitido.\n\n   - **Violado:**\n     - A não-compensação ou pagamento do saldo após o término do prazo estipulado na CCT viola as obrigações decorrentes da convenção coletiva e das normas trabalhistas. Apesar de a CCT não prever mecanismo específico para pagamento em caso de não compensação, a legislação trabalhista impõe que o saldo seja regularizado após o término do prazo.\n\nEm resumo, embora o prazo máximo para compensação tenha sido cumprido conforme a norma, a falta de compensação ou pagamento do saldo das horas acumuladas viola as obrigações decorrentes da CCT e da legislação trabalhista.",
+  "tokens_in": 348,
+  "tokens_out": 586,
+  "latency_ms": 17094,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

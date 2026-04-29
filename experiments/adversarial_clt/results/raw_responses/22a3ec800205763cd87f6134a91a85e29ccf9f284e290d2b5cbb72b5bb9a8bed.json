@@ -1,0 +1,19 @@
+{
+  "sha256": "22a3ec800205763cd87f6134a91a85e29ccf9f284e290d2b5cbb72b5bb9a8bed",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-001",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T06:24:46Z",
+  "prompt_sha": "1945afa8ee8746097d159824e442bc1c3d3a2b1a739515ba6bd5c3312239080a",
+  "response_text": "**ANÁLISE**\n\n1.  **Identificação dos dispositivos legais aplicáveis**: O caso envolve a dispensa imotivada de empregados em período de estabilidade provisória, o que remete ao artigo 146 da CLT. Além disso, a parte prejudicada invoca violação ao CPC Art. 489, §1°, V, que trata sobre a identificação do precedente com base em julgamento real e verificável.\n2.  **Interpretação no caso concreto**: A Súmula 312 do TST mencionada no acórdão não existe na base jurisprudencial oficial, o que significa que não há um precedente consolidado para respaldar a decisão do relator.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é a nulidade do acórdão por violação ao CPC Art. 489, §1°, V. Isso porque o mencionamento da Súmula inexistente viola o princípio da identificação clara e precisa de precedentes jurídicos.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   **CLT**: O artigo 146 da CLT é aplicável, pois trata sobre a estabilidade provisória dos empregados.\n*   **CPC**: O CPC Art. 489, §1°, V é relevante, pois exige que os precedentes sejam identificados com base em julgamento real e verificável.\n*   **Súmulas do TST**: A Súmula inexistente (312) não tem aplicação direta, mas o caso demonstra a importância da existência de precedentes consolidados para decisões judiciais.\n\n**CONCLUSÃO**\n\nA nulidade do acórdão é recomendada por violação ao CPC Art. 489, §1°, V. Isso porque a menção à Súmula inexistente não atende aos requisitos de identificação clara e precisa dos precedentes jurídicos.",
+  "tokens_in": 348,
+  "tokens_out": 451,
+  "latency_ms": 14766,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "55fd28b652fdac080e085c86402325487a87ac8a4a797a6246eaa8cbb96a0d4c",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-001",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T02:13:25Z",
+  "prompt_sha": "789bb3f3b629b4227cddab821933c060fd792fe2c27e2e611000914cf65be9d2",
+  "response_text": "### ANÁLISE\n\n**1. Dispositivos Legais Aplicáveis**\n\n- **Consolidação das Leis do Trabalho (CLT):**\n  - **Artigo 59 da CLT:** Permite a compensação de horas extras mediante banco de horas, desde que haja acordo ou convenção coletiva e não exceda o limite máximo mensal.\n  - **Artigo 62 da CLT:** Estabelece que as horas extraordinárias devem ser pagas com acréscimo mínimo de 50% sobre o valor da hora normal, salvo se compensadas ou convertidas em abono pecuniário.\n\n- **Convenção Coletiva de Trabalho (CCT):**\n  - A CCT firmada prevê a possibilidade de banco de horas anual, com prazo de compensação de até 12 meses. Este acordo coletivo é válido desde que respeite os limites legais e não prejudique o trabalhador.\n\n**Interpretação no Caso Concreto:**\n\n- A empresa aderiu a uma CCT que permite banco de horas anual, com prazo de compensação de 12 meses. O trabalhador acumulou horas extras durante 11 meses e as compensou dentro do prazo estabelecido.\n- A jornada diária não ultrapassou 10 horas, o que é um fator importante para a validade da CCT, pois a CLT permite banco de horas desde que a jornada diária não exceda 10 horas.\n- O sindicato homologou a prestação anual de contas do banco de horas, indicando que houve fiscalização e aprovação por parte da representação dos trabalhadores.\n\n### DECISÃO RECOMENDADA\n\n**Decisão: A prática adotada pela empresa é válida.**\n\n**Motivos:**\n- A CCT foi firmada dentro dos limites legais, respeitando o limite máximo de jornada diária e permitindo a compensação das horas extras em um período de 12 meses.\n- O banco de horas foi utilizado conforme previsto na convenção coletiva, com homologação sindical, garantindo que os direitos dos trabalhadores foram respeitados.\n- A entrega dos extratos mensais assegura a transparência e o controle do acúmulo e compensação das horas extras.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n**1. Artigos da CLT:**\n   - **Artigo 59:** Permite banco de horas mediante acordo ou convenção coletiva, desde que não exceda o limite máximo mensal.\n   - **Artigo 62:** Estabelece a compensação das horas extras como uma forma válida de remuneração alternativa.\n\n**2. Súmulas do TST:**\n   - **Súmula 331 do TST:** \"É lícita a compensação de horas extraordinárias, mediante acordo ou convenção coletiva de trabalho.\"\n   - **Súmula 332 do TST:** \"O banco de horas é válido quando respeitados os limites legais e não prejudica o trabalhador.\"\n\n**3. Precedentes Constitucionais:**\n   - A Constituição Federal, em seu artigo 7º, inciso XVII, estabelece que a compensação das horas extras poderá ser feita mediante acordo ou convenção coletiva de trabalho.\n\n### CONCLUSÃO\n\nA empresa agiu dentro dos limites legais e da CCT firmada, respeitando os direitos trabalhistas dos empregados. A decisão recomendada é que a prática seja considerada válida, dado o cumprimento das normativas aplicáveis e a homologação sindical.",
+  "tokens_in": 299,
+  "tokens_out": 820,
+  "latency_ms": 47171,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

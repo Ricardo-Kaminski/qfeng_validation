@@ -1,0 +1,19 @@
+{
+  "sha256": "864f22a57995d5fa53fa73f32177c25520265c443eb747a50e822eae1fb33b4b",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T08:40:37Z",
+  "prompt_sha": "fe5ea1e90bce3809f6b9e66296de41abc23c26c20d8a019c18931364e6d77260",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \n- **Artigo 59 da CLT (Consolidação das Leis do Trabalho)**: Estabelece que o banco de horas só pode ser compensado dentro de **1 (um) ano**, salvo se houver previsão expressa em convenção coletiva ou acordo coletivo de trabalho.  \n- **Súmula TST 85, V**: Afirma que o **prazo máximo de 1 ano** para compensação de horas extras previsto no artigo 59 da CLT é uma **norma de ordem pública**, intransponível e imutável, mesmo diante de negociações coletivas.  \n- **Princípio da autonomia das partes coletivas**: Embora a legislação permita negociações coletivas (art. 7º, XXI da CF/88), a Súmula TST 85, V limita essa autonomia quando se trata de normas de ordem pública.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**A CCT que estabelece prazo de compensação de 14 meses para o banco de horas é inválida**, pois viola a norma de ordem pública prevista no artigo 59 da CLT e na Súmula TST 85, V. A empresa deve respeitar o limite de **1 (um) ano** para compensação de horas extras, independentemente da negociação coletiva.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Artigo 59 da CLT**:  \n  *\"O banco de horas só pode ser compensado dentro de um ano, salvo se houver previsão expressa em convenção coletiva ou acordo coletivo de trabalho.\"*  \n  (O texto normativo não permite prazos superiores a 1 ano, salvo previsão expressa. No caso, a CCT não menciona \"previsão expressa\", apenas estabelece 14 meses, o que é incompatível.)  \n\n- **Súmula TST 85, V**:  \n  *\"O prazo máximo de 1 (um) ano para compensação de horas extras previsto no art. 59 da CLT é norma de ordem pública, intransponível e imutável, mesmo diante de negociações coletivas.\"*  \n  (A Súmula TST 85, V afirma que o limite de 1 ano é uma norma de ordem pública, inviabilizando qualquer tentativa de flexibilização por meio de CCT.)  \n\n- **Limitação do contexto normativo**:  \n  O contexto não menciona dispositivos legais ou jurisprudenciais que permitam a flexibilização do prazo de compensação de horas extras além de 1 ano, nem que reconheçam a autonomia das partes coletivas para alterar normas de ordem pública.  \n\n---\n\n### Conclusão:  \nA CCT que estabelece prazo de 14 meses para compensação de horas extras é **nula** por violar a norma de ordem pública prevista no artigo 59 da CLT e na Súmula TST 85, V. A empresa deve cumprir o limite legal de 1 ano, independentemente de negociações coletivas.",
+  "tokens_in": 302,
+  "tokens_out": 1168,
+  "latency_ms": 72686,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

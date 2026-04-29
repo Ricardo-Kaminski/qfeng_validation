@@ -1,0 +1,19 @@
+{
+  "sha256": "d50dcc8fdb6d9634cdd38402f8ae1026250538740144c7334d5e0988dc702ccf",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T07:37:44Z",
+  "prompt_sha": "96b1feece965611b89e3956a1f10e137a308a959c7f66e3125395cd005ec45d0",
+  "response_text": "### 1. **ANÁLISE**  \nO contexto normativo apresentado não contém dispositivos legais específicos que fundamentem a decisão do juiz do trabalho, exceto a menção genérica à **CF/88, Art. 93, IX**, que exige a **fundamentação de todas as decisões judiciais**. A ausência de referência a normas concretas (como artigos do **Código de Processo Civil (CPC)**, **Lei nº 5.584/1970 (CLT)** ou **Súmulas do STJ/STF**) impede uma análise jurídica completa, pois a fundamentação judicial deve estar vinculada a dispositivos legais específicos, não apenas à Constituição.  \n\n### 2. **DECISÃO RECOMENDADA**  \nA **decisão do juiz do trabalho deve ser anulada**, pois a negação do seguimento ao recurso ordinário **não foi fundamentada com base em dispositivo legal concreto**, violando o princípio da motivação judicial previsto na **CF/88, Art. 93, IX**. A ausência de fundamentação específica (como a invocação de artigos do CPC ou da CLT que tratam da protelação) configura uma **decisão judicial incompleta e ilegal**, conforme reforçado pela jurisprudência.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **CF/88, Art. 93, IX**: \"As decisões judiciais serão motivadas, salvo as que versarem sobre matéria de ordem pública ou de interesse coletivo, em que o juiz poderá fundamentar a decisão de forma resumida.\"  \n  - **Aplicação**: A negação do seguimento ao recurso ordinário exige fundamentação específica, conforme exigido pelo artigo. A ausência de referência a normas concretas (como o CPC, Art. 275, ou a CLT, Art. 875) viola esse princípio.  \n\n- **CPC, Art. 275 (não mencionado no contexto)**: \"O juiz, ao proferir sentença ou decisão, deve fundamentar a decisão com base em dispositivos legais.\"  \n  - **Limitação**: O contexto normativo **não inclui** o CPC ou a CLT, impedindo a citação de dispositivos específicos que tratam da protelação e da negação de recursos.  \n\n- **Súmula 284 do STJ**: \"A negativa de seguimento ao recurso ordinário, por manifesta protelação, exige a indicação do dispositivo legal que fundamenta a decisão.\"  \n  - **Limitação**: A **Súmula 284** não está presente no contexto normativo fornecido, mas é comumente citada para reforçar a necessidade de fundamentação legal.  \n\n- **Limitação do contexto**: O contexto **não inclui dispositivos legais concretos** (como o CPC, CLT ou Súmulas) que permitam uma fundamentação jurídica completa. A análise se limita à **CF/88, Art. 93, IX**, que é mencionada no contexto, mas não é suficiente para fundamentar a decisão judicial.  \n\n### Conclusão:  \nA ausência de fundamentação legal específica no contexto normativo **impede a validade da decisão do juiz**, conforme exigido pela Constituição. A recomendação é a **anulação da negativa de seguimento ao recurso**, com a exigência de fundamentação jurídica concreta.",
+  "tokens_in": 283,
+  "tokens_out": 2473,
+  "latency_ms": 156764,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,29 @@
+{
+  "sha256": "db732b9f896f915c73b6757504301c711c1c5339807f106a6d6c9919b615c6b1",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-011",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T00:47:55Z",
+  "prompt_sha": "6fac52d3c2ea75bbed1139d969eba52baa7f8af6a911387e6e7845d9583ea12b",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso: Banco de Horas e Renúncia ao Adicional de Horas Extras\n\nCom base nos predicados normativos fornecidos e na legislação aplicável, apresento a análise, decisão recomendada e identificação de cumprimento/violação dos predicados no cenário apresentado.\n\n**1. ANÁLISE:**\n\n*   **semester_hour_bank_requires_cct_or_act:** Este predicado estabelece que a implementação de um banco de horas semestral exige um acordo coletivo de trabalho (CCT) ou Ato da Justiça do Trabalho. No caso, a transportadora firmou um CCT com o sindicato dos trabalhadores, o que atende a este predicado. A existência do CCT é um ponto crucial para a análise da validade da cláusula questionada.\n\n*   **CLT Art. 611-B, IX:** Este artigo da CLT, em sua alínea IX, protege o direito do trabalhador ao adicional de horas extras, mesmo em casos de compensação por meio de banco de horas. A questão central do caso é se a cláusula que exige a renúncia ao adicional de horas extras, em caso de não compensação no prazo, é válida à luz deste artigo. A jurisprudência do TST tem sido consistente em proteger o direito ao adicional de horas extras, mesmo em regimes de banco de horas, pois este é considerado um direito salarial e não pode ser facilmente renunciado por meio de acordo coletivo. A renúncia ao direito a horas extras, ainda que prevista em CCT, é vista com ressalvas, especialmente quando o acordo impõe condições desfavoráveis ao trabalhador.\n\n**Análise da Cláusula de Renúncia:**\n\nA cláusula que exige a renúncia ao adicional de horas extras em caso de não compensação no prazo do banco de horas é a parte mais problemática do CCT. Embora a autonomia da vontade coletiva seja um princípio importante, ela não é absoluta e deve ser interpretada em conjunto com a proteção aos direitos fundamentais do trabalhador, como o direito ao adicional de horas extras. A jurisprudência do TST tem limitado a possibilidade de renúncia a direitos trabalhistas por meio de acordos coletivos, especialmente quando a renúncia é condicionada a um evento específico (não compensação no prazo), o que pode ser interpretado como uma pressão para que o trabalhador aceite condições de trabalho desfavoráveis.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que a cláusula que exige a renúncia ao adicional de horas extras seja considerada **nula e inexequível**. Embora o CCT seja válido por ter sido firmado entre a transportadora e o sindicato dos trabalhadores, a cláusula específica que suprime um direito fundamental do trabalhador (adicional de horas extras) é passível de questionamento judicial e, provavelmente, será invalidada pelo Poder Judiciário.\n\nA decisão deve ser acompanhada de uma determinação para que a transportadora pague o adicional de horas extras aos trabalhadores que não tiveram suas horas compensadas dentro do prazo estabelecido no CCT.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **semester_hour_bank_requires_cct_or_act:** **Conformidade**. O CCT existente atende a este predicado.\n*   **CLT Art. 611-B, IX:** **Violação**. A cláusula de renúncia ao adicional de horas extras contravém a proteção ao direito salarial do trabalhador, conforme interpretado pela jurisprudência do TST. A exigência de renúncia ao adicional de horas extras em caso de não compensação no prazo é considerada uma condição excessivamente onerosa para o trabalhador e, portanto, inválida.\n\n**Observações Adicionais:**\n\n*   É importante ressaltar que a validade do CCT como um todo não é questionada, apenas a cláusula específica que trata da renúncia ao adicional de horas extras.\n*   A decisão judicial pode ser influenciada pela análise do contexto em que a cláusula foi firmada, incluindo a representatividade do sindicato dos trabalhadores e a existência de negociação coletiva efetiva.\n*   A jurisprudência do TST é dinâmica e pode evoluir, mas a tendência atual é proteger o direito ao adicional de horas extras, mesmo em regimes de banco de horas.\n*   Recomenda-se que a transportadora revise o CCT e elimine a cláusula questionada, buscando alternativas para garantir a compensação das horas extras dentro do prazo estabelecido.",
+  "tokens_in": 330,
+  "tokens_out": 976,
+  "latency_ms": 26875,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

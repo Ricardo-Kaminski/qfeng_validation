@@ -1,0 +1,29 @@
+{
+  "sha256": "2cb2168806ebf674d66a6c5fe803af55324c6113ac567f075aaccdf364461a9e",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:22:56Z",
+  "prompt_sha": "1bd0aef03e0b6d03d84ca202cf6b7a00e95994884a42849dc5597c5e0bcb70a2",
+  "response_text": "**ANÁLISE**\n\n1. **semester_hour_bank_requires_cct_or_act**: Esse predicado normativo estabelece que o banco de horas pode ser implantado apenas se houver um acordo coletivo de trabalho (ACT) ou uma convenção coletiva de trabalho (CCT) autorizando-o. No caso em questão, não há qualquer ACT ou CCT celebrada pelo sindicato da categoria autorizando a implantação do banco de horas. Portanto, esse predicado é violado.\n\n2. **prohibition_on_unilateral_hour_bank**: Esse predicado normativo proíbe a implantação unilateral do banco de horas pela empresa sem negociação com o sindicato ou os empregados. A empresa implantou o banco de horas mediante um memorando interno assinado pelos empregados, o que não é uma negociação coletiva e sim uma decisão unilateral da empresa. Além disso, a ausência de negociação com o sindicato também viola esse predicado.\n\n**DECISÃO RECOMENDADA**\n\nDiante das análises acima, recomendo que seja declarada a nulidade do banco de horas implantado pela empresa, pois foi feito de forma unilateral e sem autorização coletiva. Além disso, é recomendável que a empresa negocie com o sindicato da categoria ou os empregados para estabelecer um acordo válido sobre o banco de horas.\n\n**PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **semester_hour_bank_requires_cct_or_act**: Violado\n- **prohibition_on_unilateral_hour_bank**: Violado\n\nEsses dois predicados foram violados, pois a empresa implantou o banco de horas sem autorização coletiva e de forma unilateral.",
+  "tokens_in": 352,
+  "tokens_out": 384,
+  "latency_ms": 6530,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "4fb85598f69d4c87d325f6d85e5738f3f85fc2e3bc94d90f688e31acad8e26b9",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-010",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T11:46:39Z",
+  "prompt_sha": "4cdcd4f77bd0a861ddff46ab4f73790ee608c80eaea3a8b6b5401e9be2942d4c",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a empresa de tecnologia firmou um Acordo Coletivo de Trabalho (ACT) com o sindicato dos trabalhadores em informática que estabelece um banco de horas com compensação mensal. As condições do acordo são:\n\n- Limitação de acúmulo de 40 horas por mês.\n- Prazo máximo de compensação de 5 meses.\n- Registro adequado da ACT.\n- Fornecimento mensal de extrato do banco de horas a cada trabalhador.\n- Não há horas extras acima de duas horas diárias.\n- Todos os saldos são compensados dentro do prazo estabelecido.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que o acordo coletivo firmado entre a empresa e o sindicato deve ser considerado válido, desde que esteja de acordo com as normas legais vigentes no Direito do Trabalho brasileiro. Isso porque todas as condições estabelecidas no ACT estão dentro dos limites permitidos pela legislação.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\nOs dispositivos legais relevantes para a análise deste caso incluem:\n\n- **Artigo 59 da CLT (Consolidação das Leis do Trabalho):** Este artigo permite que, por meio de convenção ou acordo coletivo, sejam estabelecidas normas sobre banco de horas, desde que não prejudiquem o trabalhador.\n\n- **Súmula 331 do TST (Tribunal Superior do Trabalho):** Esta súmula afirma que é lícito a compensação de jornada mediante acordo ou convenção coletiva, respeitados os limites legais e as condições estabelecidas na norma.\n\n- **Limitações Legais:**\n  - A compensação não pode exceder o limite de 10 horas diárias (Artigo 62 da CLT).\n  - O acúmulo máximo permitido é de 200 horas mensais, conforme a Súmula 331 do TST.\n  - Não deve haver prejuízo ao trabalhador.\n\nNo caso em questão, o acordo estabelece um limite de 40 horas por mês para o acúmulo e prevê compensação dentro de um prazo máximo de cinco meses. Além disso, não há registro de horas extras excedendo duas horas diárias, o que está dentro do limite legal permitido.\n\nPortanto, desde que a ACT tenha sido registrada conforme exigência legal (Artigo 620 da CLT) e os trabalhadores estejam sendo informados mensalmente sobre seus saldos no banco de horas, o acordo coletivo parece estar em conformidade com as normas vigentes.",
+  "tokens_in": 299,
+  "tokens_out": 626,
+  "latency_ms": 35781,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,30 @@
+{
+  "sha256": "e3cb0a473ea46c65e51b8b250ff9b10c7e01b7e14ee81e90b9650a147e31434c",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:01:18Z",
+  "prompt_sha": "0d6d211e2ba94d6b5ad507e54fb6e6c5213e18e400fd08657c709dda55070d6d",
+  "response_text": "## Análise do Caso à Luz dos Predicados Normativos\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, a análise e a decisão recomendada são as seguintes:\n\n**1. ANÁLISE:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi (Obrigação de fundamentar a decisão no _ratio decidendi_ identificado):** Este predicado é **completamente atendido** no caso. O Acórdão do TST demonstra explicitamente que sua decisão de validar o banco de horas está diretamente fundamentada no ARE 1.121.633 (Tema 1046/STF). A identificação da tese do Tema 1046 (\"são constitucionais os acordos e CCTs que, ao estipular exclusivamente vantagens ou supressões de direitos, tenham por premissa a compensação estabelecida pelo princípio da adequação setorial negociada\") é clara e a análise subsequente demonstra como a CCT bancária em questão se encaixa nessa tese. A fundamentação é completa e verificável, o que demonstra o cumprimento rigoroso da obrigação de fundamentar a decisão no _ratio decidendi_ do precedente.\n\n*   **stf_tema1046_binding_precedent_applied (Aplicação do precedente vinculante do Tema 1046 do STF):** Este predicado é **completamente atendido**. O Acórdão do TST reconhece e aplica o ARE 1.121.633 como precedente vinculante, conforme a orientação do STF. A decisão do TST está alinhada com a tese fixada pelo STF, demonstrando a observância da hierarquia e da força vinculante dos precedentes do Supremo Tribunal Federal.  A aplicação do Tema 1046 é o ponto central da decisão do TST.\n\n*   **due_process_of_law (Devido processo legal):** Este predicado é **presumivelmente atendido**, mas requer uma análise mais aprofundada do processo que culminou no Acórdão do TST.  Para que o devido processo legal seja plenamente garantido, é necessário que as partes tenham tido a oportunidade de apresentar suas alegações e provas, e que a decisão tenha sido proferida por um órgão competente, com observância das formalidades legais. O cenário apresentado não detalha o processo, mas a existência de um recurso de revista no TST sugere que houve instâncias anteriores e a possibilidade de manifestação das partes. A validade do processo em si (notificações, prazos, etc.) é crucial para a validade da decisão.\n\n**2. DECISÃO RECOMENDADA:**\n\nConsiderando a análise acima, a decisão recomendada é **confirmar a validade do banco de horas**, conforme a decisão do TST. A decisão do TST está devidamente fundamentada no precedente vinculante do STF (Tema 1046) e, presumivelmente, observou o devido processo legal.  Qualquer contestação da validade do banco de horas deve, portanto, focar na análise do processo que levou à decisão do TST, e não na validade da decisão em si, que está alinhada com a jurisprudência do STF.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** Conformidade (Atendido)\n*   **stf_tema1046_binding_precedent_applied:** Conformidade (Atendido)\n*   **due_process_of_law:** Presumivelmente Conformidade (Atendido), mas requer análise mais aprofundada do processo.  A ausência de informações detalhadas sobre o processo impede uma confirmação absoluta. Uma violação deste predicado só seria confirmada com evidências de irregularidades processuais graves.",
+  "tokens_in": 399,
+  "tokens_out": 852,
+  "latency_ms": 23625,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

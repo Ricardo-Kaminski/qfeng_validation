@@ -1,0 +1,19 @@
+{
+  "sha256": "25a80b1fed21aa21a8aec250ec91eb68e6feda2800d5d3b48debc5a51b36d5f0",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-001",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T19:51:50Z",
+  "prompt_sha": "72790d8991be5ef4727404f6c998a5accce45b39b15ebe25cef7018b0f9d220f",
+  "response_text": "## Análise Jurídico-Trabalhista do Banco de Horas Bancário à Luz do ARE 1.121.633 (Tema 1046/STF)\n\nCom base no contexto normativo fornecido, apresento a análise, decisão recomendada e fundamentação abaixo:\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nO único dispositivo normativo explicitamente aplicável ao caso, conforme o contexto, é a tese fixada no **ARE 1.121.633 (Tema 1046/STF)**.  O Acórdão do TST, ao analisar o recurso de revista, utiliza essa decisão do Supremo Tribunal Federal como fundamento central para validar o banco de horas estabelecido na CCT bancária.  Não há outros dispositivos normativos mencionados no contexto, limitando a análise ao que foi expressamente indicado.\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada, seguindo a orientação do Acórdão do TST, é de **validar o banco de horas estabelecido na CCT bancária**.  A decisão deve ser mantida, pois o Acórdão do TST concluiu que a CCT em questão preenche os requisitos estabelecidos no Tema 1046/STF.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação para a validade do banco de horas reside exclusivamente na tese fixada no **ARE 1.121.633 (Tema 1046/STF)**, conforme reproduzida no Acórdão do TST. A tese estabelece que:\n\n*\"são constitucionais os acordos e CCTs que, ao estipular exclusivamente vantagens ou supressões de direitos, tenham por premissa a compensação estabelecida pelo princípio da adequação setorial negociada.\"*\n\nO Acórdão do TST, ao analisar o caso concreto, entendeu que a CCT bancária em questão atende aos requisitos da tese do Tema 1046/STF, pois:\n\n*   **Estipula vantagens ou supressões de direitos:**  O banco de horas, por si só, implica em uma alteração na forma como a jornada de trabalho é cumprida, podendo gerar vantagens (flexibilidade) ou supressões (limitação da jornada em determinados períodos).\n*   **Tem por premissa a compensação:** O banco de horas é, por definição, um sistema de compensação de horas extras trabalhadas em um período por horas não trabalhadas em outro.\n*   **Observa o princípio da adequação setorial negociada:** A CCT bancária foi negociada entre sindicatos de empregadores e empregados, demonstrando a adequação setorial do acordo.\n\nPortanto, a validade do banco de horas bancário decorre diretamente da aplicação da tese do Tema 1046/STF, conforme interpretada e aplicada pelo Acórdão do TST.\n\n**Limitação:**\n\nÉ importante ressaltar que a análise é limitada ao contexto normativo fornecido.  Não é possível analisar a validade do banco de horas sob outras perspectivas, como a análise do conteúdo específico da CCT bancária, a verificação da observância dos requisitos formais do acordo, ou a análise da sua aplicação prática na empresa.  A análise se restringe à validade do banco de horas *em si*, à luz do ARE 1.121.633 e da interpretação do TST.",
+  "tokens_in": 314,
+  "tokens_out": 757,
+  "latency_ms": 20690,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

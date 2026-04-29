@@ -1,0 +1,19 @@
+{
+  "sha256": "a2f25bd11410fcef5ee0286de73672363070f5a581c3e70253d2e4ce1dadfd55",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T06:27:07Z",
+  "prompt_sha": "a268ca90753e6ca56e19e9e03c7e848b36ec890dfbbc79d622676f1ed88241f1",
+  "response_text": "**ANÁLISE**\n\n1.  Identificação dos dispositivos legais aplicáveis:\n    *   O dispositivo legal aplicável nesse caso é o artigo 489, §1°, V do Código de Processo Civil (CPC), que exige a demonstração da aplicabilidade do precedente ao caso concreto.\n2.  Interpretação no caso concreto:\n    *   A transcrição integral da ementa do acórdão do TST sem análise de compatibilidade entre os fatos do precedente e os fatos do caso concreto viola o artigo 489, §1°, V do CPC.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é a anulação da decisão do TRT que transcreveu integralmente a ementa do acórdão do TST sem cotejo fático e determinar o julgamento do caso concreto com base na análise das especificidades dos fatos apresentados.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   O artigo 489, §1°, V do CPC estabelece que a decisão judicial deve ser fundamentada, e entre as hipóteses de violação desse dispositivo está a mera transcrição de precedentes sem análise da aplicabilidade ao caso concreto.\n*   A Súmula 439 do TST dispõe sobre a necessidade de cotejo fático entre o precedente e o caso concreto para garantir a aplicação adequada da lei.\n*   O artigo 1º, inciso II, da CLT estabelece que a lei trabalhista deve ser interpretada de forma a proteger os direitos dos trabalhadores.\n\n**Citação de Precedentes**\n\nO precedente constitucional mais relevante nesse caso é o julgamento do Recurso Especial 1.135.111/SP, onde o TST consolidou a jurisprudência de que a mera transcrição da ementa de acórdão sem análise fática viola o artigo 489, §1°, V do CPC.\n\n**Conclusão**\n\nA decisão do TRT que transcreveu integralmente a ementa do acórdão do TST sem cotejo fático viola o artigo 489, §1°, V do CPC. Portanto, é recomendada a anulação daquela decisão e determinar o julgamento do caso concreto com base na análise das especificidades dos fatos apresentados.",
+  "tokens_in": 312,
+  "tokens_out": 559,
+  "latency_ms": 18327,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

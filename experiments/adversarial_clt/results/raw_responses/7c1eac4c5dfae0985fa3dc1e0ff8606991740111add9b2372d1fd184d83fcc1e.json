@@ -1,0 +1,27 @@
+{
+  "sha256": "7c1eac4c5dfae0985fa3dc1e0ff8606991740111add9b2372d1fd184d83fcc1e",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-011",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T23:03:08Z",
+  "prompt_sha": "2c917ebff9639a22c39eb6a23c31205687007f48fb8e9394fc445acc35358322",
+  "response_text": "### 1. **ANÁLISE**  \nO predicado **hour_bank_with_cct_max_1_year** estabelece que o prazo máximo para compensação de horas acumuladas em um banco de horas anual, conforme previsto em **Convenção Coletiva de Trabalho (CCT)**, **não pode ultrapassar 12 meses contados a partir da data de início do banco**.  \n\nNo caso concreto:  \n- A empresa **somou as horas acumuladas pré-afastamento com as horas pós-retorno**, **estendendo o prazo de compensação além de 12 meses**.  \n- Alega que o prazo deveria ser **suspensos durante o afastamento por acidente de trabalho**, mas **não há cláusula na CCT que prevê essa suspensão**.  \n\n**Aplicação do predicado**:  \n- O **prazo de 12 meses** para compensação de horas em banco **não pode ser alterado ou estendido**, mesmo com o afastamento do trabalhador.  \n- A **ausência por acidente de trabalho** não é considerada como justificativa para **estender o prazo** se a CCT **não prevê expressamente essa suspensão**.  \n- A **empresa viola o predicado** ao exigir compensação em prazo que **ultrapassa o limite legal de 12 meses**, independentemente do afastamento.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **empresa deve compensar as horas acumuladas dentro do prazo de 12 meses**, **sem considerar o período de afastamento**, **pois a CCT não prevê a suspensão do prazo**.  \n- A **empresa não pode estender o prazo de compensação** para além de 12 meses, **mesmo com o afastamento do trabalhador**.  \n- O **trabalhador tem direito à compensação das horas acumuladas** dentro do prazo legal, **independentemente do afastamento**.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **hour_bank_with_cct_max_1_year**: **Violação**  \n  - A empresa **ultrapassou o limite de 12 meses** para compensação de horas, **sem fundamento legal ou convencional**.  \n  - A ausência por acidente de trabalho **não é suficiente para suspender o prazo** se a CCT **não prevê essa suspensão**.  \n\n- **(Outros predicados não aplicáveis)**:  \n  - Não há outros predicados normativos listados no cenário que sejam relevantes para a análise.  \n\n---\n\n### **Conclusão**  \nA **empresa violou o predicado hour_bank_with_cct_max_1_year**, pois **exigiu compensação em prazo que ultrapassou 12 meses**, **sem base legal ou convencional**. A **decisão deve ser favorável ao trabalhador**, garantindo a compensação dentro do prazo legal.",
+  "tokens_in": 378,
+  "tokens_out": 1114,
+  "latency_ms": 33968,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "646b9c79a735105ce6bb5ee6d4fb2ec5fe072de1e8ea5fbc18e29b7b17215bde",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-009",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T01:36:44Z",
+  "prompt_sha": "adc3a098bf4b43b1f15a3b8db024cde70c0d495a4f927a318d61556d3cdb7113",
+  "response_text": "### ANÁLISE:\n\n1. **Dispositivos Legais Aplicáveis**:\n   - **Artigo 93, IX, da Constituição Federal**: Assegura o direito de ampla defesa e contraditório no processo judicial.\n   - **Súmula nº 126 do TST**: Estabelece que \"O acórdão deve conter a indicação dos fundamentos legais ou fáticos que lhe serviram de base, sob pena de nulidade.\"\n   - **Precedentes Jurisprudenciais**: O Tribunal Superior do Trabalho (TST) tem jurisprudência consolidada sobre a necessidade de acórdãos serem fundamentados e atualizados conforme a evolução da jurisprudência.\n\n2. **Interpretação no Caso Concreto**:\n   - A decisão do magistrado de manter a sentença sem adicionar fundamentação própria, especialmente quando o precedente citado na sentença foi superado por nova jurisprudência do TST, viola o princípio da motivação e atualização jurídica.\n   - A mera adoção dos fundamentos da sentença de origem não é suficiente quando há mudança significativa na jurisprudência que deve ser considerada.\n\n### DECISÃO RECOMENDADA:\n\nA decisão recomendada seria a anulação do acórdão do TRT e o retorno dos autos para nova análise, com a exigência de fundamentação adequada que considere a jurisprudência mais recente do TST. Isso assegura que os princípios constitucionais da ampla defesa e contraditório sejam respeitados e que a decisão esteja em conformidade com o estado atual da lei.\n\n### FUNDAMENTAÇÃO NORMATIVA:\n\n1. **Artigo 93, IX, da Constituição Federal**: Garante o direito de ampla defesa e contraditório, princípios violados pela falta de fundamentação adequada no acórdão.\n   \n2. **Súmula nº 126 do TST**: Exige que os acórdãos sejam motivados, indicando claramente os fundamentos legais ou fáticos que embasam a decisão. A ausência de motivação própria e a não consideração de jurisprudência mais recente configuram nulidade.\n\n3. **Jurisprudência do TST**: O Tribunal tem reiterado a necessidade de acórdãos serem atualizados conforme a evolução da sua própria jurisprudência, garantindo que as decisões estejam em consonância com o entendimento mais recente e consolidado.\n\nEssa abordagem garante a conformidade do processo com os princípios constitucionais e normativos vigentes, além de promover a segurança jurídica ao alinhar a decisão com a jurisprudência atualizada.",
+  "tokens_in": 295,
+  "tokens_out": 646,
+  "latency_ms": 38639,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

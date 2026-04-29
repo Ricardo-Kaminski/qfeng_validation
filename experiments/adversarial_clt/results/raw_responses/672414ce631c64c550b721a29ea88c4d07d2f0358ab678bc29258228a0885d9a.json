@@ -1,0 +1,19 @@
+{
+  "sha256": "672414ce631c64c550b721a29ea88c4d07d2f0358ab678bc29258228a0885d9a",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T11:09:45Z",
+  "prompt_sha": "26d12e151509fbe11099db792d4aca8584a935f407834eb1a45392c3cbb25402",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, há uma questão sobre a validade de um acórdão proferido pelo Tribunal Superior do Trabalho (TST) em razão da citação incorreta de uma súmula que não existe na base jurisprudencial oficial. O relator citou a \"Súmula 312 do TST\" como fundamento para sua decisão, mas essa súmula não está presente no acervo oficial do TST.\n\nO CPC (Código de Processo Civil) estabelece requisitos para a fundamentação das decisões judiciais. Conforme o artigo 489, §1º, V do CPC, é necessário que as decisões sejam fundamentadas com base em julgamentos reais e verificáveis. A citação incorreta de uma súmula inexistentes viola esse requisito, pois não há um precedente real para embasar a decisão.\n\n2. **DECISÃO RECOMENDADA:**\n\nRecomenda-se que o acórdão seja anulado ou reconsiderado em razão da violação ao CPC Art. 489, §1º, V. A fundamentação do acórdão deve ser baseada em precedentes reais e verificáveis, conforme exigido pelo código processual civil. A citação incorreta de uma súmula inexistentes compromete a validade da decisão.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **CPC Art. 489, §1º, V:** Este dispositivo exige que as decisões judiciais sejam fundamentadas com base em julgamentos reais e verificáveis. A citação incorreta de uma súmula inexistentes viola esse requisito.\n\nA limitação neste caso é a ausência de uma norma específica no contexto normativo fornecido que trate diretamente da anulação ou reconsideração de acórdãos por fundamentação incorreta. No entanto, o CPC fornece a base legal para questionar a validade do acórdão com base na exigência de fundamentação adequada.\n\nPortanto, a decisão deve ser reavaliada para garantir que seja apoiada em precedentes jurídicos existentes e verificáveis.",
+  "tokens_in": 340,
+  "tokens_out": 500,
+  "latency_ms": 84625,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

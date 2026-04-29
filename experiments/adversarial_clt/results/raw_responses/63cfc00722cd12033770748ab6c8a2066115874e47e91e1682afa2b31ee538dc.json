@@ -1,0 +1,19 @@
+{
+  "sha256": "63cfc00722cd12033770748ab6c8a2066115874e47e91e1682afa2b31ee538dc",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-009",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T07:59:23Z",
+  "prompt_sha": "b09008be3db8993e87c56a00bc3805af6ee10f0702c17448ede0c29eef458272",
+  "response_text": "### 1. **ANÁLISE**  \nOs dispositivos normativos aplicáveis ao caso são:  \n- **Art. 773 da CLT** (Consolidação das Leis do Trabalho): Estabelece que a sentença judicial deve conter fundamentação clara e específica, demonstrando a aplicação das normas jurídicas ao caso concreto.  \n- **Súmula 331 do TST** (Tribunal Superior do Trabalho): Determina que a jurisprudência do TST deve ser observada e aplicada pelos Tribunais Regionais do Trabalho (TRTs), sob pena de violação do princípio da uniformidade jurisprudencial.  \n\nNo caso em questão, o magistrado **não cumpriu o dever de fundamentação** previsto no **Art. 773 da CLT**, ao simplesmente reproduzir os fundamentos da sentença de primeiro grau, sem analisar criticamente os fatos e a jurisprudência aplicável. Além disso, **não foi observada a Súmula 331 do TST**, pois o acórdão do TRT ignorou a jurisprudência mais recente do TST que superou o precedente citado na sentença de origem, violando o princípio da uniformidade jurisprudencial.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **decisão do TRT deve ser anulada**, e o caso deve ser remetido ao TRT para nova análise, com a **reformulação da fundamentação** da sentença, observando:  \n- A **obrigatoriedade de fundamentação específica** (Art. 773 da CLT);  \n- A **aplicação da jurisprudência atual do TST**, conforme determina a **Súmula 331 do TST**.  \n\nA manutenção da sentença sem fundamentação adequada e sem considerar a jurisprudência atual configura **violação do devido processo legal** e **não observância do princípio da uniformidade jurisprudencial**, o que inviabiliza a validade do acórdão.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 773 da CLT**: \"A sentença judicial deve conter fundamentação clara e específica, demonstrando a aplicação das normas jurídicas ao caso concreto.\"  \n- **Súmula 331 do TST**: \"O Tribunal Regional do Trabalho deve observar e aplicar a jurisprudência do Tribunal Superior do Trabalho, sob pena de violação do princípio da uniformidade jurisprudencial.\"  \n\n**Limitação**: O contexto normativo fornecido **não menciona outros dispositivos legais ou jurisprudenciais** aplicáveis ao caso, como, por exemplo, normas sobre o **princípio da motivação do ato judicial** ou dispositivos específicos sobre **revisão de jurisprudência**. Portanto, a análise se limita aos textos citados.",
+  "tokens_in": 280,
+  "tokens_out": 1031,
+  "latency_ms": 64312,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

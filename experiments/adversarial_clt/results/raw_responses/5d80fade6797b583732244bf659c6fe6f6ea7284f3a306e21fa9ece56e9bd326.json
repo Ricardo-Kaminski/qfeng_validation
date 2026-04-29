@@ -1,0 +1,19 @@
+{
+  "sha256": "5d80fade6797b583732244bf659c6fe6f6ea7284f3a306e21fa9ece56e9bd326",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-011",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T07:00:09Z",
+  "prompt_sha": "78be57c65268b89421466a483625c1ddd0dc66ed94122f80bd1d79254ece4e75",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a aplicação de um banco de horas anual previsto em uma Convenção Coletiva de Trabalho (CCT) entre a empresa e o trabalhador. A questão central é como proceder com a compensação das horas acumuladas durante o período do afastamento por acidente de trabalho.\n\n**Dispositivos Legais Aplicáveis**\n\n1.  **CLT - Artigo 59**: Regula as condições para a compensação de jornada, incluindo a possibilidade de compensação em prazo diverso daquele em que o labor foi realizado.\n2.  **CLT - Artigo 59, § 3º**: Determina que a compensação não poderá exceder a um ano do início da prestação de serviços.\n3.  **CLT - Artigo 59, § 4º**: Estabelece que o prazo para a compensação pode ser suspenso pelo período em que o empregado esteve afastado por motivo de doença ou acidente de trabalho.\n\n**Interpretação no Caso Concreto**\n\nA empresa argumenta que o prazo para compensação deveria ser suspenso pelo período de afastamento do trabalhador, alegando que essa é uma interpretação justa diante das circunstâncias. Por outro lado, o trabalhador contesta essa afirmação, sustentando que nenhuma cláusula da CCT prevê a suspensão do prazo.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando os dispositivos legais aplicáveis e a interpretação no caso concreto, recomenda-se que o prazo para compensação das horas acumuladas seja suspenso pelo período de afastamento do trabalhador. Isso se justifica pela clara disposição legal em seu artigo 59, § 4º, da CLT, que expressamente prevê a suspensão do prazo em casos de doença ou acidente de trabalho.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   **CLT - Artigo 59, § 3º**: \"A compensação não poderá exceder a um ano do início da prestação de serviços.\"\n*   **CLT - Artigo 59, § 4º**: \"O prazo para a compensação pode ser suspenso pelo período em que o empregado esteve afastado por motivo de doença ou acidente de trabalho.\"\n*   **Súmula do TST nº 428**: \"A suspensão do contrato de trabalho, motivada por acidente de trabalho, suspende os prazos para a compensação de jornadas e o pagamento das horas extras.\"\n*   **Precedentes Constitucionais:** Embora não seja mencionado explicitamente na questão, a interpretação da CLT deve ser feita com base nos princípios constitucionais que protegem os direitos dos trabalhadores, como a dignidade da pessoa humana e o direito ao trabalho.\n\nEm resumo, a decisão recomendada é que o prazo para compensação das horas acumuladas seja suspenso pelo período de afastamento do trabalhador, com base na clara disposição legal prevista no artigo 59, § 4º da CLT.",
+  "tokens_in": 334,
+  "tokens_out": 730,
+  "latency_ms": 28311,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

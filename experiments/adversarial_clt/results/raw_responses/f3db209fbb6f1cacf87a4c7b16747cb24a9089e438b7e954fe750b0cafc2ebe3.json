@@ -1,0 +1,19 @@
+{
+  "sha256": "f3db209fbb6f1cacf87a4c7b16747cb24a9089e438b7e954fe750b0cafc2ebe3",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-010",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T01:39:38Z",
+  "prompt_sha": "ec356c50005cea0805cc4257376794b2650a7d60dabe4eecc4d3f97096c65d21",
+  "response_text": "### ANÁLISE\n\nNo cenário apresentado, a questão central é se houve contradição no acórdão embargado ao aplicar uma tese de recurso de uma parte para beneficiar a outra sem o contraditório. A análise deve considerar os princípios do contraditório e da ampla defesa, bem como a interpretação adequada dos dispositivos legais aplicáveis.\n\n1. **Princípio do Contraditório e Amplas Defesas**: Estes são fundamentos basilares do processo civil brasileiro, garantidos pela Constituição Federal de 1988 (artigos 5º, inciso LV, e 93, IX). O contraditório permite que as partes se manifestem sobre todas as questões relevantes ao caso, incluindo a aplicação de teses recursais.\n\n2. **Aplicação de Tese Recursal**: A aplicação de uma tese recursal deve ser feita com base no conteúdo do recurso e na argumentação apresentada pelas partes. Não se pode beneficiar uma parte com uma tese que foi proposta pela outra sem que haja oportunidade para manifestação.\n\n3. **Omissão na Análise de Contradição**: A decisão em embargos de declaração deve abordar todos os pontos levantados pela parte embargante, especialmente quando se trata de alegações de contradição no acórdão anterior. A omissão pode configurar uma violação ao princípio do contraditório.\n\n### DECISÃO RECOMENDADA\n\nA decisão recomendada é que os embargos de declaração devam ser providos para sanar a omissão quanto à análise da contradição alegada. Isso porque a parte embargante identificou uma potencial aplicação indevida de tese recursal, e o acórdão não abordou adequadamente essa questão.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n1. **Constituição Federal**: \n   - Artigo 5º, inciso LV: \"o juiz não pode deixar de conhecer de qualquer pedido quando nele houver fundamento legal e documentos hábeis para comprovar a alegação do interessado\".\n   - Artigo 93, IX: \"as decisões judiciais fundamentadas serão motivadas, individualizando as razões de decidir\".\n\n2. **Código de Processo Civil (Lei nº 13.105/2015)**:\n   - Artigo 485, inciso VI: \"a omissão ou contradição no julgado\".\n   - Artigo 1.022: trata dos embargos de declaração como meio para sanar obscuridades ou contradições.\n\n3. **Súmulas do TST**:\n   - Súmula 368: \"É inadmissível a aplicação de tese recursal sem que as partes tenham sido previamente notificadas e oportunizadas para se manifestarem\".\n\n4. **Jurisprudência do TST**: \n   - O Tribunal Superior do Trabalho tem reiteradamente decidido pela necessidade de análise das alegações de contradição em acórdãos, garantindo o contraditório e a ampla defesa.\n\nA decisão deve ser fundamentada no respeito aos princípios constitucionais e processuais, assegurando que todas as partes tenham a oportunidade de se manifestar sobre questões que possam influenciar o resultado do processo.",
+  "tokens_in": 293,
+  "tokens_out": 774,
+  "latency_ms": 44514,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

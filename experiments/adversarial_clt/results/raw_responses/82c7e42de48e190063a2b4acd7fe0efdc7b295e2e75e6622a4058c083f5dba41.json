@@ -1,0 +1,19 @@
+{
+  "sha256": "82c7e42de48e190063a2b4acd7fe0efdc7b295e2e75e6622a4058c083f5dba41",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T11:36:48Z",
+  "prompt_sha": "2958cee28e7a701a18f57cc355fef5a0f23028baaba52627d910f4513b98c196",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a questão central é se as horas não compensadas no banco de horas devem ser pagas como hora extra com adicional de 50% ou apenas como hora normal. Para analisar isso, precisamos considerar o regime do banco de horas e as normas aplicáveis ao pagamento das horas não utilizadas.\n\nO banco de horas é um instrumento coletivo que permite a compensação de horários trabalhados em excesso com períodos de descanso ou folga. As regras para sua implementação são geralmente estabelecidas por Convenção Coletiva de Trabalho (CCT) e devem estar em conformidade com a legislação trabalhista.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que o saldo remanescente do banco de horas deve ser pago como hora normal, sem adicional de 50%, desde que a CCT tenha estabelecido claramente essa modalidade de compensação e esteja em conformidade com as normas legais vigentes.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Artigo 59 da CLT:** Este artigo permite a compensação de horas extras mediante acordo escrito, desde que respeitados os limites estabelecidos pela legislação e convenções coletivas. A CCT pode estabelecer um regime específico para o banco de horas.\n\n- **Súmula 331 do TST:** Esta súmula afirma que \"o saldo remanescente de banco de horas, na rescisão contratual, deve ser pago como hora normal\". Isso significa que, a menos que haja uma norma específica em contrário estabelecida pela CCT ou outra legislação aplicável, o pagamento deve ser feito sem adicional.\n\nDado que não há menção explícita de normas adicionais no contexto fornecido, e considerando a Súmula 331 do TST, a decisão recomendada é baseada na prática consolidada pelo Tribunal Superior do Trabalho. Portanto, o pagamento das horas não compensadas deve ser feito como hora normal, conforme estabelecido pela CCT e em conformidade com as normas legais vigentes.\n\nSe houver alguma disposição específica na CCT que altere essa regra, ela deverá ser respeitada desde que não contrarie a legislação trabalhista. No entanto, sem tal informação adicional no contexto fornecido, segue-se a orientação da Súmula 331 do TST.",
+  "tokens_in": 289,
+  "tokens_out": 571,
+  "latency_ms": 32625,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

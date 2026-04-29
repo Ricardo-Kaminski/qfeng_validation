@@ -1,0 +1,19 @@
+{
+  "sha256": "1d4578027d6829d0aa75c4c76983212ad7ad89e28147c176769915ad3948a975",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T12:30:00Z",
+  "prompt_sha": "c6c70b9d2292a4d84e6ab8d671e81e0bde2fa1ee5d8ff83f8b588274d9a8c177",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, um acórdão trabalhista está sendo analisado para determinar a compatibilidade fática com um caso concreto envolvendo banco de horas em uma CCT (Convenção Coletiva de Trabalho) bancária. O acórdão identifica expressamente o número do precedente (TST-Ag-RR-868-65.2021.5.13.0030), transcreve a ementa, analisa a compatibilidade fática e aplica a ratio ao caso concreto.\n\nOs dispositivos normativos aplicáveis incluem:\n   - A análise da CCT bancária específica para verificar se o banco de horas está previsto e regulamentado conforme as regras estabelecidas na convenção.\n   - A jurisprudência do TST (Tribunal Superior do Trabalho) que trata sobre a validade e aplicação dos bancos de horas em CCTs, especialmente no setor bancário.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada deve ser baseada na compatibilidade fática entre o caso concreto e o precedente citado (TST-Ag-RR-868-65.2021.5.13.0030). Se a análise demonstrar que as condições do banco de horas no caso em julgamento estão alinhadas com aquelas estabelecidas na CCT bancária e são compatíveis com o entendimento jurisprudencial do TST, então deve-se reconhecer a validade do banco de horas conforme aplicado.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **CCT Bancária:** A análise da convenção coletiva específica é crucial para verificar se o banco de horas está previsto e regulamentado, incluindo aspectos como duração máxima do acúmulo, forma de compensação, e quais categorias profissionais estão abrangidas.\n\n- **Jurisprudência do TST:** O precedente citado (TST-Ag-RR-868-65.2021.5.13.0030) deve ser analisado para entender a ratio decidendi aplicável ao caso concreto. A jurisprudência do TST sobre bancos de horas em CCTs, especialmente no setor bancário, é fundamental para garantir que o acordo coletivo esteja em conformidade com as normas trabalhistas vigentes.\n\n- **Limitações:** Se o contexto não contiver uma norma específica aplicável além da CCT e jurisprudência citada, a decisão deve se basear exclusivamente nessas fontes. Não há menção de dispositivos legais específicos (como artigos do Código Civil ou Penal) que seriam diretamente aplicáveis ao tema de banco de horas em CCTs.\n\nPortanto, a decisão deve considerar tanto a conformidade da CCT com as normas trabalhistas quanto a compatibilidade fática e jurisprudencial estabelecida pelo precedente citado.",
+  "tokens_in": 325,
+  "tokens_out": 664,
+  "latency_ms": 38032,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,27 @@
+{
+  "sha256": "7675fd1f95610a96678d8bda16f90a03713b2739e805dff8838822a9993cf67c",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T22:48:40Z",
+  "prompt_sha": "9ddadcfbd5dbebfc988f0d0afbf51a1545713cd3a59a541f7d3ad04a951daf64",
+  "response_text": "### 1. **ANÁLISE**  \n**a) Predicado `hour_bank_with_cct_max_1_year`:**  \nO banco de horas estabelecido na CCT deve ter duração máxima de **1 ano**, conforme previsto no art. 58 da CLT. No caso, a CCT prevê um banco de horas **semestral** (6 meses), o que está dentro do limite legal. No entanto, a **suspensão do cômputo do banco durante a licença maternidade** e a **reativação após o retorno** gerou uma compensação total em **8 meses**, incluindo o período de licença.  \n\nA **licença maternidade** (art. 392 da CLT) é um período de **suspensão do contrato de trabalho**, durante o qual a trabalhadora não exerce atividades, mas mantém o vínculo com a empresa. A **suspensão do banco de horas durante esse período** não é prevista expressamente na CLT, mas a **reativação após o retorno** pode ser considerada uma **violação do prazo acordado** (6 meses), pois o período de licença foi incluído no cálculo de 8 meses.  \n\n**b) Predicado `recognition_of_collective_bargaining`:**  \nA CCT é válida e vinculante, conforme previsto no art. 611 da CLT. A empresa e a trabalhadora acordaram um banco de horas semestral, o que **respeita a validade da CCT**. No entanto, a **interpretação do prazo do banco de horas** (se inclui ou não o período de licença) deve ser feita com base no **texto da CCT** e na **jurisprudência do TST**.  \n\n### 2. **DECISÃO RECOMENDADA**  \n- **A compensação total em 8 meses, incluindo o período de licença maternidade, viola o prazo máximo de 6 meses estabelecido na CCT.**  \n- A **licença maternidade** não deve ser contabilizada no cálculo do prazo do banco de horas, pois é um período de **suspensão do contrato de trabalho**, conforme jurisprudência do TST (ex.: Súmula 338).  \n- A empresa deve **reconhecer a violação** do prazo acordado e **revisar a compensação** para que o total seja feito dentro dos 6 meses, excluindo o período de licença.  \n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **`hour_bank_with_cct_max_1_year`**: **Violação**. O prazo máximo de 6 meses estabelecido na CCT foi ultrapassado ao incluir o período de licença maternidade no cálculo de 8 meses.  \n- **`recognition_of_collective_bargaining`**: **Conformidade**. A CCT foi respeitada em sua validade e conteúdo, mas a interpretação do prazo do banco de horas foi mal aplicada.  \n\n---  \n**Conclusão:** A empresa deve ajustar a compensação do banco de horas, excluindo o período de licença maternidade, para cumprir o prazo acordado na CCT.",
+  "tokens_in": 357,
+  "tokens_out": 1663,
+  "latency_ms": 51250,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

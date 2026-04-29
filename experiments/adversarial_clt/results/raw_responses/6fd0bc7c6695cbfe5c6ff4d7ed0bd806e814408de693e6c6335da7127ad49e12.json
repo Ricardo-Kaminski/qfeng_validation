@@ -1,0 +1,30 @@
+{
+  "sha256": "6fd0bc7c6695cbfe5c6ff4d7ed0bd806e814408de693e6c6335da7127ad49e12",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:06:02Z",
+  "prompt_sha": "2894b7676eac7e9e2cb55e15eed63978b4e2d5820472a6bee747c60e44ab8c8e",
+  "response_text": "### ANÁLISE:\n\n1. **Obligation to Ground Decision in Identified Ratio Decidendi**:\n   - No caso apresentado, o TRT decidiu a ação sobre adicional noturno citando explicitamente a Súmula TST 60, que trata do regime de revezamento e sua relação com o adicional noturno. A decisão foi baseada na identificação da ratio decidendi (razão de decidir) da súmula, ou seja, que o revezamento noturno integra o adicional à remuneração.\n   - O TRT analisou o caso concreto do empregado em regime 12x36 com períodos noturnos fixos e aplicou a Súmula TST 60 de forma adequada, demonstrando que o regime do trabalhador se enquadrava na hipótese da súmula. A distinção entre casos de turno fixo não noturno foi explicitamente feita, mostrando uma análise cuidadosa e fundamentada.\n\n2. **Due Process of Law**:\n   - O princípio do devido processo legal está presente na forma como o TRT conduziu a análise do caso. Ao identificar corretamente a ratio decidendi da Súmula TST 60, analisar o regime específico do empregado e aplicar a súmula ao caso concreto, o tribunal seguiu um processo justo e fundamentado.\n   - A decisão foi tomada após uma análise detalhada das circunstâncias específicas do caso, garantindo que o direito do trabalhador fosse considerado de forma justa e equitativa.\n\n### DECISÃO RECOMENDADA:\n\nCom base nos predicados normativos aplicáveis, a decisão recomendada é manter a sentença do TRT. O tribunal cumpriu suas obrigações ao fundamentar sua decisão na ratio decidendi da Súmula TST 60 e seguir o devido processo legal ao analisar cuidadosamente as circunstâncias específicas do caso.\n\n### PREDICADOS VIOLADOS OU CUMPRIDOS:\n\n- **Cumpriu**:\n  - **Obligation to Ground Decision in Identified Ratio Decidendi**: O TRT identificou e aplicou corretamente a ratio decidendi da Súmula TST 60, fundamentando sua decisão no entendimento jurisprudencial estabelecido.\n  \n- **Cumpriu**:\n  - **Due Process of Law**: A análise do caso foi conduzida de forma justa e equitativa, garantindo que o direito do empregado fosse considerado com base em uma fundamentação legal sólida.\n\nEm resumo, ambos os predicados normativos foram cumpridos no cenário apresentado.",
+  "tokens_in": 389,
+  "tokens_out": 623,
+  "latency_ms": 18218,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

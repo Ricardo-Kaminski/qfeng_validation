@@ -1,0 +1,19 @@
+{
+  "sha256": "898b53f3872fba93d83e4e0cf1d4f30ec54b392f7d79fc65c385141833f834f7",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T06:32:17Z",
+  "prompt_sha": "ec356c50005cea0805cc4257376794b2650a7d60dabe4eecc4d3f97096c65d21",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve uma decisão em embargos de declaração, onde o juiz não analisou a contradição apontada pela parte embargante. A questão central é se houve violação do direito à contraditório e ao contraditório.\n\n**Dispositivos legais aplicáveis:**\n\n*   Artigo 897-A da CLT, que trata sobre os embargos de declaração;\n*   Súmula nº 85 do TST, que estabelece a regra de que \"A contradição deve ser demonstrada\";\n*   Precedentes constitucionais, como o artigo 93 da Constituição Federal, que garante o direito à contraditório.\n\n**Interpretação no caso concreto:**\n\nO juiz não analisou a contradição apontada pela parte embargante, o que pode ser considerado uma violação ao direito à contraditório. A parte embargante identificou que a decisão embargada aplicou tese de recurso de uma parte para beneficiar a outra sem contraditório.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é a anulação da decisão embargada e o retorno do processo ao juiz para análise da contradição apontada pela parte embargante. Isso se justifica porque:\n\n*   A parte embargante tem direito à contraditório, conforme estabelecido no artigo 93 da Constituição Federal;\n*   A decisão embargada violou esse direito ao aplicar tese de recurso sem contraditório;\n*   A anulação da decisão e o retorno do processo ao juiz garantem que a parte embargante tenha sua contradição analisada.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\nOs dispositivos legais e jurisprudenciais aplicáveis são:\n\n*   Artigo 897-A da CLT: \"Os embargos de declaração serão recebidos apenas para sanar omissão, obscuridade ou contradição na decisão\";\n*   Súmula nº 85 do TST: \"A contradição deve ser demonstrada\";\n*   Precedentes constitucionais:\n    *   Artigo 93 da Constituição Federal: \"O juiz é obrigado a decidir no prazo de 30 dias, contados da data em que o processo estiver em condições de julgamento, sob pena de exoneração do cargo\";\n    *   Precedente constitucional: O direito à contraditório é fundamental para garantir o contraditório e a ampla defesa.",
+  "tokens_in": 292,
+  "tokens_out": 587,
+  "latency_ms": 19343,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

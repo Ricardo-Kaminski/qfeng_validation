@@ -1,0 +1,19 @@
+{
+  "sha256": "fa7fc4e4b30daaa97ee1741c1886f078a91ef511d8ca962ce246e10fdffd70a4",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-009",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T06:31:58Z",
+  "prompt_sha": "adc3a098bf4b43b1f15a3b8db024cde70c0d495a4f927a318d61556d3cdb7113",
+  "response_text": "**ANÁLISE**\n\n1.  **Identificação dos dispositivos legais aplicáveis:** O cenário apresentado envolve a análise de uma sentença de primeiro grau, mantida por um magistrado trabalhista, e o acórdão do TRT que ignorou precedente posteriormente superado pelo TST.\n2.  **Interpretação no caso concreto:** O dispositivo legal aplicável é o artigo 282, parágrafo único da CLT, que estabelece a necessidade de fundamentação das decisões judiciais.\n\n**DECISÃO RECOMENDADA**\n\nEm face do cenário apresentado, recomendo a reforma do acórdão do TRT e a manutenção da sentença de origem apenas se houver fundamentos suficientes para justificar a decisão. No entanto, considerando que o precedente citado na sentença de origem foi posteriormente superado pelo TST, é razoável concluir que a decisão do TRT não está em conformidade com a jurisprudência mais recente.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n1.  **Artigo 282 da CLT:** \"Os juízes e os tribunais decidirão, nos processos de sua competência, com fundamento na lei.\"\n2.  **Parágrafo único do artigo 282 da CLT:** \"As decisões dos juízes e tribunais serão fundamentadas, indicando as normas aplicáveis e os fatos e motivos que as justifiquem.\"\n3.  **Súmula nº 97 do TST:** \"A jurisprudência é a manifestação da vontade das partes no processo.\"\n4.  **Precedente do TST:** O precedente citado na sentença de origem foi posteriormente superado pelo TST, o que torna necessário a aplicação da jurisprudência mais recente.\n\n**CONCLUSÃO**\n\nEm face dos dispositivos legais e da jurisprudência mais recente do TST, recomendo a reforma do acórdão do TRT para que seja aplicada a jurisprudência mais recente.",
+  "tokens_in": 294,
+  "tokens_out": 477,
+  "latency_ms": 15608,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

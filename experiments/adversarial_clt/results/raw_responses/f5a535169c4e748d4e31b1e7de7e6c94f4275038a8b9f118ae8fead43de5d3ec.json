@@ -1,0 +1,30 @@
+{
+  "sha256": "f5a535169c4e748d4e31b1e7de7e6c94f4275038a8b9f118ae8fead43de5d3ec",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-009",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:12:06Z",
+  "prompt_sha": "6d91edef4f830b89da4360eaf0b135c5ffe380f3939107e2bba54ad7b7057f83",
+  "response_text": "1. **ANÁLISE:**\n\n   - **Obligation to ground decision in identified ratio decidendi:** Este predicado normativo exige que a decisão judicial seja fundamentada com base na razão de decidir identificada, ou seja, deve haver uma clara justificativa para como as regras legais são aplicadas ao caso concreto. No cenário apresentado, embora a Súmula TST 85 tenha sido corretamente citada e o caso concreto identificado como um banco de horas sem CCT de 7 meses, a decisão determinou o pagamento das horas como hora normal, em vez de aplicar o adicional de 50% previsto na Súmula. A falha está no fato de que não houve fundamentação para afastar ou modificar a consequência jurídica estabelecida pela Súmula TST 85, V, que exige pagamento com adicional de 50%. Portanto, o predicado foi violado porque a decisão não apresentou uma razão clara e justificada para desviar do entendimento consolidado na súmula.\n\n2. **DECISÃO RECOMENDADA:**\n\n   A decisão deve ser reformulada para cumprir com o predicado normativo de fundamentação adequada. Isso significa que, ao aplicar a Súmula TST 85, V, é necessário determinar o pagamento das horas extras no banco de horas sem CCT com o adicional de 50%, conforme estabelecido na súmula. Se houver alguma circunstância específica do caso concreto que justifique uma interpretação diferente (o que não foi apresentado), essa deve ser claramente fundamentada e explicada na decisão.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Cumpriu:** A decisão inicial cumpriu ao identificar corretamente a Súmula TST 85 e o caso concreto como um banco de horas sem CCT.\n   \n   - **Violou:** O predicado \"obligation to ground decision in identified ratio decidendi\" foi violado, pois não houve fundamentação adequada para aplicar uma consequência jurídica diferente daquela estabelecida na Súmula TST 85, V.",
+  "tokens_in": 356,
+  "tokens_out": 516,
+  "latency_ms": 15062,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,27 @@
+{
+  "sha256": "87fc024d45382c2ba3bffba215aaba3d680384faa103d95316f8d21d86d203e8",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T22:44:22Z",
+  "prompt_sha": "14b6f55520b996d23d5c895d459de69f73ca99dfa99a77933f3f5ac637db2f97",
+  "response_text": "### 1. **ANÁLISE: Aplicação dos predicados normativos ao caso**  \nO predicado **\"hour_bank_with_cct_max_1_year\"** estabelece que **o banco de horas previsto em CCT tem prazo máximo de 1 ano**, conforme determinado pela CLT e jurisprudência do TST.  \n\n- **Aplicação ao caso:**  \n  A CCT em questão prevê um banco de horas **anual** com **renovação automática**, mas **não há menção expressa a uma renovação automática por mais de 12 meses**. A empresa tenta prorrogar o banco de horas por 3 meses **sem nova negociação coletiva**, alegando que a cláusula de renovação automática cobriria o período adicional.  \n\n  No entanto, **a CLT (art. 59, § 2º)** e a jurisprudência do TST (Súmula 364) **não reconhecem a renovação automática de um banco de horas por mais de 12 meses** sem a **renovação expressa da CCT**. A **renovação automática** é válida apenas para **manter o banco de horas dentro do prazo original de 1 ano**, não para prorrogá-lo além desse limite.  \n\n  Portanto, a **prorrogação de 3 meses sem nova CCT** viola o **prazo máximo de 1 ano** estabelecido pelo predicado normativo.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**Rejeitar a prorrogação do banco de horas por 3 meses** e **exigir a celebração de uma nova CCT** para a prorrogação do banco de horas, conforme determina a CLT e a jurisprudência do TST.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Violado:**  \n  - **hour_bank_with_cct_max_1_year** (o prazo máximo de 1 ano foi ultrapassado sem renovação coletiva).  \n\n- **Cumprido:**  \n  - Nenhum outro predicado normativo foi explicitamente mencionado no cenário, mas a **cláusula de renovação automática** (se existente) **não é suficiente para prorrogar o banco de horas além de 12 meses**.  \n\n--- \n\n### Observação Final:  \nA **renovação automática** de um banco de horas **não substitui a necessidade de uma nova CCT** para prorrogação além do prazo original. A ausência de negociação coletiva para a prorrogação **viola o direito de negociação coletiva** (art. 611 da CLT) e o **prazo máximo de 1 ano** estabelecido pelo predicado normativo.",
+  "tokens_in": 368,
+  "tokens_out": 1173,
+  "latency_ms": 36093,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

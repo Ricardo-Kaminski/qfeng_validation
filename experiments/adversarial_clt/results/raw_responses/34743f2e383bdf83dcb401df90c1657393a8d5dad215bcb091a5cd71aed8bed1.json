@@ -1,0 +1,29 @@
+{
+  "sha256": "34743f2e383bdf83dcb401df90c1657393a8d5dad215bcb091a5cd71aed8bed1",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T23:47:33Z",
+  "prompt_sha": "1bd0aef03e0b6d03d84ca202cf6b7a00e95994884a42849dc5597c5e0bcb70a2",
+  "response_text": "1. **ANÁLISE:**\n\n   - **predicate: semester_hour_bank_requires_cct_or_act**\n     Este predicado normativo estabelece que o banco de horas, quando exceder um período de 6 meses, requer a celebração de uma Convenção Coletiva de Trabalho (CCT) ou Acordo Coletivo de Trabalho (ACT). No cenário apresentado, os empregados acumularam até 120h em um período de 9 meses. Como este período excede os 6 meses permitidos sem a necessidade de CCT ou ACT, o banco de horas implementado pela empresa viola essa normativa, já que não houve celebração de nenhum acordo coletivo autorizando tal prática.\n\n   - **predicate: prohibition_on_unilateral_hour_bank**\n     Este predicado indica que é proibido a empresa estabelecer um banco de horas unilateralmente sem negociação sindical. No caso em questão, a empresa implantou o banco de horas por meio de memorando interno assinado pelos empregados, sem qualquer negociação com o sindicato da categoria. Isso representa uma violação clara desse predicado normativo, pois não houve acordo coletivo ou negociação prévia.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base nos predicados aplicáveis ao caso, a decisão recomendada é que o banco de horas implementado pela empresa seja considerado inválido e ilegal. A empresa deve cessar imediatamente a prática do banco de horas sob as condições atuais e devolver aos empregados as horas acumuladas indevidamente. Além disso, para futuras implantações de bancos de horas que excedam 6 meses, é necessário negociar e celebrar um ACT ou CCT com o sindicato da categoria.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violados:**\n     - *semester_hour_bank_requires_cct_or_act*: O banco de horas excedeu 6 meses sem a celebração de um ACT ou CCT.\n     - *prohibition_on_unilateral_hour_bank*: A empresa estabeleceu o banco de horas unilateralmente, sem negociação sindical.\n\n   - **Cumpriu:**\n     - Não há predicados normativos listados que foram cumpridos no cenário apresentado.",
+  "tokens_in": 353,
+  "tokens_out": 525,
+  "latency_ms": 15139,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

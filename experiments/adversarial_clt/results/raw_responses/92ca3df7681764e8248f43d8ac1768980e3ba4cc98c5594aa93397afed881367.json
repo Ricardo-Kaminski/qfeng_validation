@@ -1,0 +1,19 @@
+{
+  "sha256": "92ca3df7681764e8248f43d8ac1768980e3ba4cc98c5594aa93397afed881367",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T01:27:33Z",
+  "prompt_sha": "a268ca90753e6ca56e19e9e03c7e848b36ec890dfbbc79d622676f1ed88241f1",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis**\n\n- **Código de Processo Civil (CPC), Artigo 489, §1º, V**: Este dispositivo estabelece que a fundamentação da sentença deve conter a demonstração do modo como foram aplicadas as normas ao caso. A mera transcrição de ementa ou acórdão sem análise específica dos fatos pode ser considerada deficiente.\n\n- **Lei 13.015/2014 (Reforma Trabalhista)**: Introduziu alterações no processo do trabalho, mas não modificou substancialmente a exigência de fundamentação adequada das decisões judiciais.\n\n**Interpretação no Caso Concreto**\n\nA transcrição integral da ementa de um acórdão do TST sem análise dos fatos específicos do caso concreto pode ser considerada inadequada sob o CPC, que exige uma demonstração clara da aplicabilidade das normas ao caso julgado. A fundamentação deve estabelecer a conexão entre os precedentes citados e os fatos em questão, garantindo que a decisão seja baseada na realidade do processo.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é que o Tribunal Regional do Trabalho (TRT) reexamine o caso para adequar sua fundamentação às exigências legais. Isso implica em realizar uma análise detalhada dos fatos específicos do processo e demonstrar como os precedentes citados são aplicáveis ao caso concreto.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **CPC, Artigo 489, §1º, V**: Exige que a sentença demonstre o modo de aplicação das normas aos fatos do processo. A mera transcrição sem análise específica dos fatos não cumpre essa exigência.\n\n- **Súmula nº 331 do TST**: \"É inadmissível, na decisão judicial, a simples reprodução da ementa de acórdãos ou julgados, ainda que idênticos aos dos casos concretamente analisados.\"\n\n- **Doutrina Trabalhista**: Autoridades como José Miguel Garcia Medina e Maria Helena Diniz enfatizam a importância da fundamentação adequada das decisões judiciais para garantir a segurança jurídica e o devido processo legal.\n\nA recomendação é que o TRT corrija sua decisão, assegurando uma análise fática detalhada e demonstrando claramente como os precedentes são aplicáveis ao caso em questão. Isso não apenas cumpre com a legislação processual vigente, mas também fortalece a legitimidade e a confiabilidade do sistema jurídico.",
+  "tokens_in": 313,
+  "tokens_out": 624,
+  "latency_ms": 35797,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

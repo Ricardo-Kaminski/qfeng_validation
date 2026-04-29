@@ -1,0 +1,19 @@
+{
+  "sha256": "b2d2c4300f62af74c663a2caaaf0faf806446ef8574e4e164ea8a684d2c15d37",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T12:31:57Z",
+  "prompt_sha": "78faf043ffafa13b62c94bafbb4c2e0135abf258fd4b2cf3a75e7132cf2b38ec",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a empresa e o sindicato celebraram uma Convenção Coletiva de Trabalho (CCT) que inclui um banco de horas com as seguintes características:\n\n- Duração do banco de horas: 6 meses.\n- Acúmulo máximo permitido: 60 horas mensais.\n- Extrato entregue mensalmente aos trabalhadores.\n- Conversão em adicional de 50% para saldo não compensado após o prazo estabelecido.\n\nApós 5 meses, todas as horas acumuladas foram compensadas através de folgas previamente comunicadas. A CCT foi registrada na Superintendência Regional do Trabalho e Emprego (SRTE) e todos os trabalhadores receberam cópias da mesma. Não há contestações sindicais ou individuais.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que a empresa continue operando conforme estabelecido na CCT, já que todas as condições previstas foram cumpridas:\n\n- O banco de horas foi utilizado dentro do período permitido (6 meses).\n- As compensações das horas extras foram realizadas antes do término desse prazo.\n- A entrega dos extratos mensais e a comunicação prévia das folgas estão em conformidade com o que foi acordado na CCT.\n- Não há contestações, indicando aceitação por parte dos trabalhadores e do sindicato.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\nNo contexto normativo brasileiro, a regulamentação sobre banco de horas é encontrada no artigo 59 da Consolidação das Leis do Trabalho (CLT), que permite o acúmulo e compensação de horas extras mediante acordo ou convenção coletiva.\n\n- **Art. 59, § 1º da CLT**: Permite a compensação de horas extras por meio de banco de horas, desde que previsto em convenção ou acordo coletivo.\n  \n- **Súmula nº 331 do TST (Tribunal Superior do Trabalho)**: Estabelece que o banco de horas deve ser regulado por convenção ou acordo coletivo e observar os limites máximos estabelecidos na norma.\n\nA CCT foi registrada na SRTE, conforme exigido pelo art. 611-A da CLT, garantindo sua validade jurídica. Além disso, a entrega de cópias aos trabalhadores está em conformidade com o que é esperado para assegurar transparência e conhecimento dos termos acordados.\n\nDessa forma, a empresa atendeu às exigências legais e contratuais estabelecidas na CCT e na legislação vigente. Não há necessidade de alteração ou intervenção adicional no caso apresentado.",
+  "tokens_in": 302,
+  "tokens_out": 626,
+  "latency_ms": 35782,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

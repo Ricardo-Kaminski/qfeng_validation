@@ -1,0 +1,27 @@
+{
+  "sha256": "d9d6dd9055710563d14300ce28a3949fc6621fc54e88a399753fecb5072fd609",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T23:57:15Z",
+  "prompt_sha": "14b6f55520b996d23d5c895d459de69f73ca99dfa99a77933f3f5ac637db2f97",
+  "response_text": "1. **ANÁLISE:**\n\n   O predicado normativo aplicável ao caso é \"hour_bank_with_cct_max_1_year\". Este predicado estabelece que o banco de horas, conforme previsto em uma Convenção Coletiva de Trabalho (CCT), não pode exceder um período máximo de 12 meses. No cenário apresentado, a CCT do setor farmacêutico prevê um banco de horas anual renovável automaticamente. Após o término dos 12 meses iniciais, a empresa solicitou uma extensão adicional de três meses sem realizar nova negociação coletiva.\n\n   A empresa argumenta que a cláusula de renovação automática estende o banco de horas além do prazo máximo permitido. No entanto, conforme o predicado normativo \"hour_bank_with_cct_max_1_year\", qualquer extensão do período de acumulação de horas deve ser negociada e formalizada em uma nova CCT para garantir a conformidade com a legislação trabalhista brasileira.\n\n2. **DECISÃO RECOMENDADA:**\n\n   A decisão recomendada, baseando-se no predicado normativo \"hour_bank_with_cct_max_1_year\", é que a empresa deve cessar imediatamente o banco de horas além do prazo máximo de 12 meses sem uma nova negociação coletiva. O sindicato dos trabalhadores está correto ao contestar a extensão automática, pois qualquer renovação ou prorrogação do período deve ser formalizada em uma nova CCT.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violado:** \"hour_bank_with_cct_max_1_year\" – A empresa violou este predicado ao tentar estender o banco de horas além dos 12 meses permitidos sem realizar uma nova negociação coletiva.\n   \n   - **Cumpriu:** Não há evidência de que algum predicado tenha sido cumprido no contexto da extensão do banco de horas, já que a prática adotada pela empresa não está em conformidade com o limite estabelecido na legislação trabalhista.",
+  "tokens_in": 370,
+  "tokens_out": 482,
+  "latency_ms": 13906,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

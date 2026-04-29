@@ -1,0 +1,19 @@
+{
+  "sha256": "a75dfce6f68ff21ad35c2dc673ed4cb7ec0df92be67dee17e657354a9b1da9f3",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T19:42:35Z",
+  "prompt_sha": "e0dac6366f336fe82237c38403a15b7a308e7e52230ad445438fe232cc5f2b76",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas e Licença Maternidade\n\nConsiderando o cenário apresentado e a informação de que a única base para a análise é o contexto normativo fornecido (CCT com banco de horas semestral de 6 meses), apresento a análise, decisão recomendada e fundamentação abaixo:\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nO único dispositivo normativo aplicável ao caso é a **Cláusula da CCT que estabelece um banco de horas semestral de 6 meses**.  Não há no contexto informações adicionais sobre como a licença maternidade impacta o período de compensação do banco de horas. A empresa adotou a prática de suspender o cômputo do banco de horas durante a licença e reativá-lo ao retorno, o que, *a priori*, parece ser uma interpretação possível, mas depende da redação exata da cláusula da CCT.\n\n**Limitação:** A ausência de detalhes na CCT sobre a licença maternidade é crucial. A interpretação da CCT é fundamental para determinar se a contagem do prazo de 6 meses deve ou não incluir o período de licença.\n\n**2. DECISÃO RECOMENDADA**\n\nRecomenda-se que a contagem do prazo de 6 meses para a compensação do banco de horas **não inclua o período de licença maternidade**.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação se baseia na interpretação da Cláusula da CCT que estabelece o banco de horas semestral.  Embora a CCT não trate expressamente da licença maternidade, a prática da empresa de suspender o cômputo do banco de horas durante a licença e reativá-lo ao retorno sugere uma interpretação que busca a razoabilidade e a proteção à trabalhadora.\n\n*   **Princípio da Proteção à Maternidade:** A licença maternidade é um direito fundamental da trabalhadora, garantido pela Constituição Federal e pela Consolidação das Leis do Trabalho (CLT), embora a CLT não esteja no contexto fornecido. A interpretação da CCT deve ser compatível com este princípio. Suspender a contagem do banco de horas durante a licença maternidade evita que a trabalhadora, já em situação de afastamento e fragilidade, seja pressionada a compensar horas extras em um período mais curto após o retorno.\n*   **Interpretação Sistemática:** A interpretação da CCT deve ser sistemática, considerando a finalidade da norma. O banco de horas é um instrumento para flexibilizar a jornada de trabalho, mas não pode comprometer os direitos da trabalhadora, especialmente em um período tão delicado como a licença maternidade.\n*   **Boa-fé Contratual:** A interpretação que exclui o período de licença maternidade da contagem do prazo de 6 meses é a que melhor se alinha com a boa-fé contratual, evitando surpresas e prejuízos à trabalhadora.\n\n**Observação:** A decisão final dependerá da redação exata da Cláusula da CCT. Se a CCT contiver disposição específica sobre a licença maternidade e o banco de horas, essa disposição prevalecerá. Caso a CCT seja omissa, a interpretação aqui recomendada é a mais razoável e compatível com a legislação trabalhista e os princípios da proteção à maternidade e da boa-fé contratual.\n",
+  "tokens_in": 273,
+  "tokens_out": 758,
+  "latency_ms": 266771,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

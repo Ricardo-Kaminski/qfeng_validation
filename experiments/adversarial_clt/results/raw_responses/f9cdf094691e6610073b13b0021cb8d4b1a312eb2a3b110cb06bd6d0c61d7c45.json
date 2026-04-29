@@ -1,0 +1,19 @@
+{
+  "sha256": "f9cdf094691e6610073b13b0021cb8d4b1a312eb2a3b110cb06bd6d0c61d7c45",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T20:12:30Z",
+  "prompt_sha": "54fed52f1361028c4b39bac92f25e2dfe4146042ea59002edc5741c8f1792790",
+  "response_text": "**ANÁLISE**\n\nO caso apresentado envolve a implantação de banco de horas por uma empresa de call center sem negociação sindical e com acordos individuais assinados pelos empregados. O objetivo é identificar os dispositivos normativos aplicáveis ao caso.\n\n**DISPOSITIVOS NORMATIVOS APLICÁVEL**\n\n- **Artigo 59 da CLT**: Regula a possibilidade de banco de horas, estabelecendo que o acordo coletivo (ACT ou CCT) é necessário para sua implantação. Além disso, o artigo também permite acordos individuais entre empregado e empregador, desde que não contrariem disposições legais ou normas coletivas vigentes.\n- **Artigo 7º da CLT**: Regula as condições de trabalho, incluindo a jornada de trabalho. Embora não seja diretamente aplicável ao caso, reforça a importância das negociações coletivas e dos acordos individuais dentro do quadro legal.\n- **Súmula 379 da TST**: Estabelece que o banco de horas só pode ser implantado por meio de acordo coletivo (ACT ou CCT) entre empregador e sindicato, não sendo permitido o acordo individual sem a prévia negociação coletiva.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a implantação do banco de horas pela empresa seja considerada inválida. Isso porque a empresa agiu unilateralmente e sem a necessária negociação sindical, o que contraria as disposições legais e súmulas aplicáveis.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação normativa para essa decisão é baseada na interpretação dos dispositivos mencionados acima. O artigo 59 da CLT estabelece a necessidade de acordo coletivo, e o artigo 7º reforça as negociações coletivas. A Súmula 379 da TST é clara ao afirmar que o banco de horas só pode ser implantado por meio de acordo coletivo entre empregador e sindicato.\n\n**LIMITAÇÃO**\n\nNão há limitação no contexto fornecido para aplicação das normas mencionadas.",
+  "tokens_in": 290,
+  "tokens_out": 506,
+  "latency_ms": 8550,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

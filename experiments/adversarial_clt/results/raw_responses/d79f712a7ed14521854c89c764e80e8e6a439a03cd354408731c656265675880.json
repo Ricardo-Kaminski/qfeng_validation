@@ -1,0 +1,19 @@
+{
+  "sha256": "d79f712a7ed14521854c89c764e80e8e6a439a03cd354408731c656265675880",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T20:27:33Z",
+  "prompt_sha": "ffe2fd00d79be6f017d5acdc52228269f306dc6ce9f81283dc76ffc81b8e32e8",
+  "response_text": "**ANÁLISE**\n\nO caso apresentado envolve a demissão de um trabalhador sem justa causa após três anos de serviço. A empresa pagou todas as verbas rescisórias no prazo de 10 dias, incluindo saldo de salário, aviso prévio indenizado proporcional, férias proporcionais com 1/3, 13° proporcional, FGTS + multa de 40%, e seguro-desemprego habilitado. O trabalhador assinou o recibo na presença do sindicato.\n\n**DISPOSITIVOS APLICÁVEIS**\n\nOs dispositivos aplicáveis ao caso são:\n\n1. **Art. 477 da CLT**: Regulamenta a demissão sem justa causa, estabelecendo que a rescisão do contrato de trabalho deve ser comunicada à autoridade competente e ao trabalhador.\n2. **Art. 477-A da CLT**: Estabelece o prazo de pagamento das verbas rescisórias, que é de 10 dias após a comunicação da demissão.\n3. **Art. 477-B da CLT**: Regulamenta as verbas rescisórias, incluindo saldo de salário, aviso prévio indenizado proporcional, férias proporcionais com 1/3 e 13° proporcional.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a demissão do trabalhador seja considerada válida, pois a empresa pagou todas as verbas rescisórias no prazo de 10 dias, conforme estabelecido na legislação. Além disso, o trabalhador assinou o recibo na presença do sindicato, o que indica que ele foi informado e concordou com os termos da demissão.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação normativa é baseada nos artigos 477, 477-A e 477-B da CLT, que regulamentam a demissão sem justa causa e o pagamento das verbas rescisórias. Além disso, a assinatura do recibo pelo trabalhador na presença do sindicato é um indicativo de que ele foi informado e concordou com os termos da demissão.\n\n**SÚMULAS**\n\nNeste caso, não há súmulas aplicáveis. A decisão é baseada exclusivamente nos dispositivos legais citados acima.\n\n**LIMITAÇÃO**\n\nNão há limitação na aplicação das normas. As disposições legais citadas são claras e específicas em relação ao caso apresentado.",
+  "tokens_in": 310,
+  "tokens_out": 582,
+  "latency_ms": 9788,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "d6490ab417e622966cedc339431d37bb65882de5825e95bce74398a59ee53dce",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-001",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T20:17:36Z",
+  "prompt_sha": "7b3cd5c63a7680536f68f1f5211a478265ad46d5b78066f79c2c441ba6cd24f1",
+  "response_text": "**ANÁLISE**\n\n1.  Os dispositivos do contexto normativo aplicáveis ao caso são:\n    *   Artigo 59 da CLT: Regulamenta a compensação de horas extras;\n    *   Artigo 59, § 2º da CLT: Estabelece o prazo de 12 meses para compensação de horas extras.\n2.  A decisão recomendada é que a compensação das horas extras pelo trabalhador seja considerada válida, uma vez que foi realizada dentro do prazo estabelecido na CCT (12 meses) e todas as horas foram compensadas mediante folgas.\n\n**DECISÃO RECOMENDADA**\n\nA decisão deve ser favorável ao empregador, pois a compensação das horas extras pelo trabalhador foi realizada de acordo com o previsto na CCT. O fato de o sindicato ter homologado a prestação anual de contas do banco de horas também é um indicativo de que a compensação foi feita corretamente.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   Artigo 59 da CLT: \"O empregador poderá compensar as horas extras com folgas, desde que não ultrapassem o limite máximo de 10 horas diárias.\"\n*   Artigo 59, § 2º da CLT: \"A compensação das horas extras será feita dentro do prazo de 12 meses a contar da data em que elas foram prestadas.\"\n\n**SÚMULA**\n\nNão há súmulas específicas mencionadas no contexto normativo.",
+  "tokens_in": 289,
+  "tokens_out": 341,
+  "latency_ms": 5757,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

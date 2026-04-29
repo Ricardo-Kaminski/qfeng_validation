@@ -1,0 +1,19 @@
+{
+  "sha256": "9cef29efc79d60d053a60476e1b50722381048972af87ac54e669b7ef631ab05",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T03:09:34Z",
+  "prompt_sha": "5938f87dc45c8e0bffa111cb18879fec5f7291c5d6efe210e98d3c86b828bada",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis**\n\n- **Adicional Noturno (CLT - Consolidação das Leis do Trabalho):**\n  - **Artigo 73 da CLT:** Define que o adicional noturno é devido aos empregados que trabalham entre as 22h e as 5h, com uma remuneração de um terço a mais sobre a hora normal.\n  \n- **Cálculo do Tempo de Trabalho:**\n  - **Artigo 58 da CLT:** Estabelece que o tempo de trabalho é contado em horas completas. Se não for completo, deve ser arredondado para cima.\n\n**Interpretação no Caso Concreto**\n\n- A empresa calcula a hora noturna como 52 minutos e 30 segundos. Isso contraria o Artigo 58 da CLT, que exige o arredondamento para cima em caso de horas incompletas.\n  \n- O adicional noturno é recolhido corretamente conforme o Artigo 73, mas a forma de calcular as horas noturnas está incorreta.\n\n### 2. DECISÃO RECOMENDADA\n\nA empresa deve ajustar seu sistema para arredondar o tempo de trabalho noturno para cima, conforme estabelece o Artigo 58 da CLT. Isso significa que qualquer fração de hora trabalhada deve ser contabilizada como uma hora completa.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **Artigo 73 da CLT:** Estabelece a obrigatoriedade do adicional noturno para horas trabalhadas entre 22h e 5h, com um acréscimo de um terço sobre o valor da hora normal.\n\n- **Artigo 58 da CLT:** Determina que o tempo de trabalho é contado em horas completas. Se não for completo, deve ser arredondado para cima.\n\n**Súmulas do TST:**\n\n- **Súmula 338 do TST:** \"É devida a integralização das frações de hora trabalhada.\"\n\nEstes dispositivos legais e jurisprudências indicam que o tempo de trabalho deve ser contabilizado corretamente, garantindo aos empregados o direito ao adicional noturno sobre horas completas. A empresa deve ajustar seu sistema para cumprir com a legislação vigente, evitando potenciais reclamações trabalhistas e sanções legais.",
+  "tokens_in": 314,
+  "tokens_out": 558,
+  "latency_ms": 32093,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "bb3442cf21cb12d90e389af51f071f05a1260fa92fd00b693f4313309217e300",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-011",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T13:00:05Z",
+  "prompt_sha": "80cf4ccf88db1609d71368c41816c78e5a4e50fd2df67c996e9dc1cae0de53df",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso\n\nConsiderando o cenário apresentado e o contexto normativo limitado, a análise, decisão recomendada e fundamentação são as seguintes:\n\n**1. ANÁLISE: Dispositivos do Contexto Normativo Aplicáveis**\n\nO contexto normativo fornecido é extremamente restrito e não apresenta dispositivos legais ou jurisprudenciais específicos aplicáveis ao caso concreto.  O único elemento presente é a descrição de uma situação: um tribunal aplicou um Tema de Repercussão Geral (RG) sobre direito administrativo (servidores públicos) a um empregado celetista privado, sem justificativa.\n\nNão há, portanto, dispositivos legais ou jurisprudenciais *no contexto fornecido* que regulem a aplicação de precedentes, a analogia entre normas, ou a aplicação de decisões de repercussão geral a casos específicos. A única informação relevante é a *forma como o tribunal agiu*, que é questionável.\n\n**2. DECISÃO RECOMENDADA**\n\nRecomenda-se a **anulação da decisão do tribunal** ou, subsidiariamente, sua **revisão**.\n\n**Justificativa:** A aplicação de um precedente de repercussão geral, especialmente quando este se refere a um setor específico (servidores públicos) a um regime jurídico distinto (CLT), exige uma análise rigorosa e fundamentada. A simples aplicação, sem a devida demonstração da analogia e da aplicabilidade da *ratio decidendi* do precedente, configura uma falha na fundamentação da decisão.  A decisão do tribunal, como descrita, parece ter extrapolado os limites da interpretação e aplicação do direito, violando o princípio da segurança jurídica.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação é limitada pela ausência de normas no contexto. No entanto, a decisão recomendada se baseia em princípios gerais do Direito, que, embora não expressamente mencionados no contexto, são inerentes ao sistema jurídico brasileiro.\n\n*   **Ausência de Norma Específica no Contexto:** O contexto não fornece artigos de lei, súmulas ou instruções normativas que regulem a aplicação de precedentes de repercussão geral a casos específicos. A única informação é a descrição da conduta do tribunal, que é questionável.\n*   **Princípios Gerais do Direito (implícitos):** A decisão se fundamenta na necessidade de observância dos princípios da segurança jurídica, do devido processo legal e da proporcionalidade, que, embora não estejam expressos no contexto, são pilares do ordenamento jurídico brasileiro. A aplicação de um precedente sem a devida análise e fundamentação viola esses princípios.\n*   **Necessidade de Fundamentação:** Embora não haja dispositivo específico no contexto, a jurisprudência brasileira, em geral, exige que as decisões judiciais sejam devidamente fundamentadas, demonstrando a lógica e a base legal da decisão. A ausência de explicação sobre a analogia e a aplicabilidade da *ratio decidendi* do precedente de repercussão geral demonstra uma falha na fundamentação.\n\n**Observação Importante:**\n\nA análise acima é limitada pelo contexto normativo extremamente restrito. Uma análise completa do caso exigiria a consulta a outras normas legais e jurisprudenciais, como o Código de Processo Civil (CPC), que trata da aplicação de precedentes, e a Constituição Federal, que garante o devido processo legal e a segurança jurídica. A falta dessas referências no contexto impede uma fundamentação mais robusta.\n",
+  "tokens_in": 242,
+  "tokens_out": 732,
+  "latency_ms": 41187,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

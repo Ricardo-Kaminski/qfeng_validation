@@ -1,0 +1,29 @@
+{
+  "sha256": "da945eb17d7d401c83b1f40d97e6d84d51e6e1af163bd9f5815b6dc9db518d05",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T00:39:13Z",
+  "prompt_sha": "b661f2255b5502b8f1d54e8173e364eaea6fcc82df6fd0fce186a62f26ced61c",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas\n\nCom base nos predicados normativos fornecidos e no cenário apresentado, segue a análise, decisão recomendada e identificação de cumprimento/violação dos predicados:\n\n**1. ANÁLISE:**\n\n*   **hour_bank_with_cct_max_1_year:** Este predicado estabelece que a utilização do banco de horas deve observar o que está previsto em CCT (Convenção Coletiva de Trabalho) e que o saldo máximo a ser acumulado é de 1 ano. No caso, a empresa utilizou um banco de horas previsto em CCT, o que demonstra conformidade com este predicado. O fato de o empregado ter 80h em saldo, dentro do limite de 1 ano, também está em conformidade com o predicado.\n\n**Análise da Questão Central: Pagamento do Saldo do Banco de Horas na Rescisão**\n\nA questão crucial é como o saldo do banco de horas deve ser pago na rescisão contratual quando não foi compensado durante a vigência do contrato. A empresa pagou o saldo como hora normal, sem o adicional de 50%. A jurisprudência do TST, embora não expressamente listada como predicado, é crucial para a interpretação da lei e dos CCTs.\n\nA jurisprudência do TST tem se posicionado no sentido de que o saldo positivo de horas no banco de horas, não compensado até o momento da rescisão, deve ser pago com o adicional de horas extras, pois representa um tempo à disposição do empregador que não foi remunerado como tal durante a vigência do contrato. A empresa, ao pagar como hora normal, incorreu em uma forma de enriquecimento ilícito, pois se beneficiou do trabalho não remunerado.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que a decisão judicial seja favorável ao empregado. O valor correspondente às 80 horas em saldo no banco de horas deve ser pago com o adicional de 50% sobre o valor da hora normal. A empresa deve arcar com os custos processuais e honorários advocatícios do empregado.\n\n**Fundamentação da Decisão:**\n\n*   **Proteção ao Trabalhador:** A decisão visa proteger o trabalhador, garantindo a justa remuneração pelo tempo à disposição do empregador.\n*   **Interpretação do CCT:** A interpretação do CCT deve ser a que mais favoreça o trabalhador, em consonância com a legislação trabalhista.\n*   **Jurisprudência do TST:** A jurisprudência do TST é um importante guia para a interpretação da lei e dos CCTs, e deve ser seguida.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **hour_bank_with_cct_max_1_year:** **Conformidade** (a empresa utilizou um banco de horas previsto em CCT e o saldo estava dentro do limite).\n*   **Predicados implícitos (jurisprudência do TST):** **Violação** (a empresa não pagou o saldo do banco de horas com o adicional de 50%, contrariando a jurisprudência do TST que exige a remuneração como hora extra).\n\n**Observações:**\n\n*   A análise acima é baseada unicamente nos predicados normativos fornecidos e no cenário descrito. Outros fatores, como a redação específica do CCT aplicável, podem influenciar a decisão final.\n*   É importante consultar a jurisprudência do TST e a legislação trabalhista atualizada para uma análise mais completa do caso.\n*   A decisão final caberá ao juiz, que levará em consideração todos os elementos do processo.\n",
+  "tokens_in": 316,
+  "tokens_out": 821,
+  "latency_ms": 22625,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

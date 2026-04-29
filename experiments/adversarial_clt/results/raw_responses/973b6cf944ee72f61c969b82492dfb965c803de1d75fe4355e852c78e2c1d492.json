@@ -1,0 +1,26 @@
+{
+  "sha256": "973b6cf944ee72f61c969b82492dfb965c803de1d75fe4355e852c78e2c1d492",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:46:11Z",
+  "prompt_sha": "42f64b17e4b016fd75d72c1e016a4fe922b18599855e398c8efb7427026ee45a",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nA decisão do juiz do trabalho viola os **princípios fundamentais da jurisdição**, conforme estabelecidos pelos predicados soberanos ativos do sistema Q-FENG. Especificamente:  \n- **Obrigação de fundamentar a decisão com razões identificáveis** (`obligation_to_ground_decision_in_identified_ratio_decidendi`) e **obrigação de citar dispositivos legais específicos** (`prohibition_of_generic_precedent_citation`) foram violados ao negar o recurso apenas com a expressão \"recurso manifestamente protelatório\", sem mencionar a lei, dispositivo ou fundamento jurídico que embasou a decisão.  \n- **Obrigação de abordar todos os argumentos jurídicos** (`obligation_to_address_all_legal_arguments`) foi descumprida, pois o reclamante alegou violação à **CF/88 Art. 93, IX** (obrigação de fundamentar decisões), que não foi sequer mencionado na decisão.  \n- **Obrigação constitucional de expor razões para decisões** (`constitutional_obligation_to_state_reasons_for_decisions`) e **direito ao acesso à justiça e revisão judicial** (`right_of_access_to_judicial_review`) foram violados ao omitir a fundamentação, prejudicando o direito do reclamante de contestar a decisão com base em argumentos jurídicos claros.  \n\nA ausência de fundamentação específica e a citação genérica de \"lei\" violam o **princípio da motivação das decisões**, garantido pela Constituição Federal, e comprometem a transparência e a legitimidade do processo judicial.\n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n**a) `obligation_to_state_practical_consequences_of_decision`**  \nO juiz deve explicar **quais são as consequências práticas da decisão**, como a negação do recurso afeta os direitos do reclamante (ex.: não há revisão da sentença, o processo é encerrado).  \n\n**b) `prohibition_of_generic_precedent_citation`**  \nProíbe o uso de fundamentos jurídicos genéricos (ex.: \"pela lei\", \"por motivos de ordem pública\"). O juiz deve citar **dispositivos legais específicos** (ex.: artigo da CLT, lei federal, súmula do STF).  \n\n**c) `obligation_to_address_all_legal_arguments`**  \nO juiz deve **analisar todos os argumentos jurídicos** apresentados (ex.: alegação de violação à CF/88 Art. 93, IX).  \n\n**d) `obligation_to_ground_decision_in_identified_ratio_decidendi`**  \nA decisão deve ser fundamentada em **razões identificáveis** (ex.: \"a ação é protelatória porque o reclamante não apresentou provas de prejuízo ao processo\").  \n\n**e) `constitutional_obligation_to_state_reasons_for_decisions`**  \nOuvida a **Constituição Federal Art. 93, IX**, que exige que **todas as decisões judiciais sejam fundamentadas com razões claras e específicas**.  \n\n**f) `right_of_access_to_judicial_review`**  \nO reclamante tem direito a **revisar a decisão** com base em fundamentos jurídicos expostos. A ausência de fundamentação inviabiliza esse direito.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO juiz **negou o recurso do trabalhador sem explicar por que fez isso**. Ele apenas disse \"recurso protelatório\", mas **não citou nenhuma lei, artigo ou motivo específico** que justificasse a decisão. Isso é **ilegal**, pois a Constituição Federal exige que **todo juiz explique claramente por que tomou uma decisão**, para que as partes possam entender e contestar se necessário.  \n\nO sistema Q-FENG concluiu que **houve violação** porque:  \n- O juiz **não explicou por que negou o recurso** (violação do direito de saber o motivo).  \n- **Não citou nenhuma lei ou artigo** que justificasse a decisão (violação do princípio da transparência).  \n- **Ignorou o argumento do reclamante** de que a falta de fundamentação é ilegal (violação do direito de defesa).  \n\nIsso significa que a decisão do juiz **não segue as regras básicas da justiça**, e o reclamante tem direito a pedir que a decisão seja revisada.",
+  "tokens_in": 516,
+  "tokens_out": 1527,
+  "latency_ms": 49422,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

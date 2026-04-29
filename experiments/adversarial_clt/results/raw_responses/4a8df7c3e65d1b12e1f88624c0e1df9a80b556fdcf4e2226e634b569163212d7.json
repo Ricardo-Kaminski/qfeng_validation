@@ -1,0 +1,19 @@
+{
+  "sha256": "4a8df7c3e65d1b12e1f88624c0e1df9a80b556fdcf4e2226e634b569163212d7",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-010",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T02:08:24Z",
+  "prompt_sha": "54c78e8764f323ecedb1581931d4078369f96ca3a87490a0206e6eebe8350d10",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Acordo Coletivo de Trabalho (ACT):** De acordo com a CLT, os acordos coletivos podem estabelecer condições específicas para o trabalho, desde que não sejam menos favoráveis ao empregado do que as previstas em lei. O artigo 611-A da CLT permite que empresas e sindicatos negociem cláusulas de banco de horas.\n\n- **Banco de Horas:** A regulamentação do banco de horas está presente no artigo 59, §1º, da CLT, que estabelece que o saldo negativo não pode ser compensado em período superior a dois meses. No entanto, o acordo coletivo pode ampliar esse prazo para até cinco meses.\n\n- **Compensação Mensal e Limites:** A ACT limita o acúmulo de horas extras a 40h mensais e estabelece um prazo máximo de compensação de cinco meses. Isso está em conformidade com as normas legais, desde que não haja prejuízo ao trabalhador.\n\n- **Registro e Comunicação:** A CLT exige que o registro do banco de horas seja feito mensalmente (artigo 59, §2º), o que a empresa cumpre ao fornecer extratos mensais aos trabalhadores.\n\n**Interpretação no Caso Concreto:**\n\nA empresa está cumprindo as normas legais e as cláusulas estabelecidas na ACT. O banco de horas é limitado a 40h/mês, o que evita acúmulo excessivo de horas extras. A compensação dentro do prazo máximo de cinco meses também está em conformidade com a legislação vigente.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é que a empresa continue operando conforme as normas estabelecidas na ACT, pois todas as condições estão sendo cumpridas legalmente e sem prejuízo aos trabalhadores.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **Artigo 611-A da CLT:** Permite a negociação coletiva de cláusulas específicas para o banco de horas, desde que não sejam menos favoráveis ao empregado do que as previstas em lei.\n\n- **Artigo 59, §1º e §2º da CLT:** Regulamenta o uso do banco de horas, permitindo compensação até dois meses por norma legal, mas ampliável para cinco meses por acordo coletivo. Exige registro mensal do saldo de horas.\n\n- **Súmula 331 do TST:** Estabelece que é lícito o pagamento das horas extras em folgas ou compensação no prazo máximo de dois meses, salvo se houver previsão diversa em convenção coletiva ou acordo individual escrito.\n\n- **Precedentes Constitucionais:** A Constituição Federal (artigo 7º, inciso XXVI) assegura a negociação coletiva como instrumento para estabelecer condições de trabalho, desde que não sejam menos favoráveis ao trabalhador.\n\nA empresa está agindo dentro dos limites legais e das cláusulas negociadas no ACT, garantindo direitos aos trabalhadores conforme previsto na legislação.",
+  "tokens_in": 308,
+  "tokens_out": 749,
+  "latency_ms": 43031,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

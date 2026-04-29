@@ -1,0 +1,19 @@
+{
+  "sha256": "71e3c5c5f4a011934d450d7fd7cf6848645229a208d4d8722632dc44154d076b",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T19:44:20Z",
+  "prompt_sha": "c5e3679e280261d29913500eb4cf5116a82e74baef192b57794293c17afc2e50",
+  "response_text": "## Análise Jurídico-Trabalhista: Jornada de 10h/dia e Banco de Horas em Empresa Química\n\nCom base no contexto normativo fornecido, apresento a análise, decisão recomendada e fundamentação para o caso da empresa do setor químico que implementou jornada de 10h/dia com banco de horas anual, sem previsão específica na CCT.\n\n**1. ANÁLISE: Dispositivos Normativos Aplicáveis**\n\nO caso envolve a análise da compatibilidade entre a jornada de trabalho de 10 horas diárias, implementada sob o regime de banco de horas autorizado pela CCT, e o limite constitucional de 8 horas diárias. Os dispositivos normativos diretamente aplicáveis, com base no contexto, são:\n\n*   **Constituição Federal (CF/88), Art. 7º, XIII:** Garante a duração normal da jornada de trabalho de 8 horas diárias e 44 horas semanais, com previsão de compensação pelo trabalho extraordinário.\n*   **Convenção Coletiva de Trabalho (CCT):** Autoriza a instituição de banco de horas, mas sem detalhar o modelo de compensação. A CCT, portanto, estabelece a possibilidade legal do banco de horas, mas não define a forma como ele deve ser operacionalizado.\n\n**2. DECISÃO RECOMENDADA**\n\nRecomenda-se que a jornada de 10 horas diárias seja considerada **incompatível** com o limite constitucional de 8 horas diárias, mesmo com a autorização da CCT para o banco de horas. A implementação da jornada de 10h/dia, sem detalhamento na CCT, pode ser considerada uma **extrapolação** da autorização genérica para o banco de horas.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA Constituição Federal, em seu Art. 7º, XIII, estabelece a duração máxima da jornada de trabalho em 8 horas diárias e 44 horas semanais. Essa é uma norma de ordem pública, que visa proteger a saúde e a segurança do trabalhador.\n\nEmbora a CCT autorize o banco de horas, essa autorização não pode ser interpretada como uma licença para desconsiderar o limite constitucional de 8 horas diárias. O banco de horas é um mecanismo para compensar variações na jornada de trabalho, permitindo que o empregado trabalhe horas extras em determinados dias, que serão compensadas com folgas em outros. No entanto, a compensação não pode levar a jornadas diárias superiores ao limite constitucional.\n\nA CCT, ao autorizar genericamente o banco de horas, não detalha como a compensação deve ser realizada. A implementação de uma jornada de 10 horas diárias, sem regulamentação específica na CCT, pode ser interpretada como uma forma de contornar o limite constitucional de 8 horas diárias, o que é ilegal.\n\n**Limitação do Contexto Normativo:**\n\nO contexto normativo fornecido é limitado, pois não apresenta jurisprudência ou súmulas que tratem especificamente da questão da compatibilidade entre jornadas de 10 horas diárias e o banco de horas autorizado por CCT. A análise, portanto, baseia-se na interpretação sistemática da Constituição Federal e nos princípios gerais do Direito do Trabalho.\n\n**Observação:**\n\nÉ importante ressaltar que a decisão final sobre a legalidade da jornada de 10 horas diárias dependerá da análise do caso concreto, levando em consideração as particularidades da empresa, da CCT e da legislação aplicável. A presente análise visa fornecer uma orientação jurídica com base nas informações disponíveis no contexto normativo.",
+  "tokens_in": 284,
+  "tokens_out": 779,
+  "latency_ms": 21330,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

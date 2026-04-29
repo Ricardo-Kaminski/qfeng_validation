@@ -1,0 +1,19 @@
+{
+  "sha256": "c524f1ee0c231d8535d7f95968138b900c142cad68c4afc2ad8127f51cbc3d32",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T11:15:21Z",
+  "prompt_sha": "8d4ac12f0cc6e5150af73dba91fd8c1fbec988bd7586fea25703d7eb141373ba",
+  "response_text": "1. **ANÁLISE:** \n\nNo cenário apresentado, a decisão de um Tribunal Regional do Trabalho (TRT) transcreveu integralmente a ementa de um acórdão do Tribunal Superior do Trabalho (TST), sem realizar qualquer análise sobre a compatibilidade fática entre o precedente e o caso concreto. A parte vencida argumenta que essa prática violaria o Código de Processo Civil (CPC) Artigo 489, §1º, V.\n\nO CPC Art. 489, §1º, estabelece que a fundamentação da decisão deve incluir a demonstração dos fatos e das razões de direito que a embasam, além de indicar os precedentes aplicados quando relevantes. O inciso V especifica que, no caso de precedente, é necessário demonstrar sua aplicabilidade ao caso concreto.\n\n2. **DECISÃO RECOMENDADA:**\n\nRecomenda-se que o TRT revise a decisão para incluir uma análise detalhada sobre como os fatos do acórdão do TST são compatíveis com os fatos do caso em julgamento. A simples transcrição da ementa não é suficiente, conforme exigido pelo CPC Art. 489, §1º, V.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **CPC Art. 489, §1º:** Este dispositivo estabelece que a fundamentação deve demonstrar os fatos e as razões de direito que embasam a decisão, incluindo a aplicabilidade dos precedentes quando relevantes.\n  \n- **CPC Art. 489, §1º, V:** Especifica que, no caso de utilização de precedente, é necessário demonstrar sua aplicabilidade ao caso concreto.\n\nPortanto, o TRT deve garantir que a decisão não apenas cite o acórdão do TST, mas também explique como os fatos e as circunstâncias desse precedente se relacionam com o caso em questão. Isso é essencial para atender aos requisitos de fundamentação estabelecidos pelo CPC.",
+  "tokens_in": 304,
+  "tokens_out": 475,
+  "latency_ms": 27108,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

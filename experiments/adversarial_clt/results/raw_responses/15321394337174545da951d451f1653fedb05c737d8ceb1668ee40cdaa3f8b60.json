@@ -1,0 +1,19 @@
+{
+  "sha256": "15321394337174545da951d451f1653fedb05c737d8ceb1668ee40cdaa3f8b60",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-009",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T09:47:38Z",
+  "prompt_sha": "2722d03920b7e27b8bb0202ab5af9eebb5796cac03b26e86812fcd909b78f3bc",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO caso envolve a conversão de horas extras acumuladas em um **Banco de Horas** estabelecido por **Convenção Coletiva de Trabalho (CCT)**, com prazo de 12 meses. A CCT prevê explicitamente a possibilidade de conversão do saldo em dinheiro, com **adicional de 50%** sobre as horas convertidas. A conversão ocorreu **antes do término do prazo da CCT**, e o pagamento foi realizado **no mês seguinte à conversão**.  \n\nOs dispositivos aplicáveis são:  \n- **A cláusula da CCT** que autoriza a conversão de horas extras em dinheiro com adicional de 50% (como descrito no contexto).  \n- **A possibilidade de conversão de horas extras em dinheiro**, prevista no **Art. 59, § 1º, da CLT** (não mencionado no contexto, mas comum no Direito do Trabalho brasileiro).  \n\n### 2. **DECISÃO RECOMENDADA**  \n**A decisão recomendada é que o pagamento realizado pelo empregador está conforme a CCT e a legislação trabalhista aplicável.**  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Contexto normativo fornecido:**  \n  - A CCT prevê expressamente a **conversão de horas extras em dinheiro com adicional de 50%** (como descrito no cenário).  \n  - A conversão ocorreu **antes do término do prazo da CCT**, e o empregador concordou com a opção do trabalhador.  \n  - O pagamento foi realizado **no mês seguinte à conversão**, o que não viola a cláusula da CCT (não há menção a prazos específicos para o pagamento no contexto).  \n\n- **Limitação do contexto:**  \n  - O contexto **não menciona dispositivos da CLT** (como o Art. 59, § 1º, da CLT, que prevê a conversão de horas extras em dinheiro com adicional de 50% em casos gerais).  \n  - Portanto, a análise **não pode extrapolar o contexto fornecido**, limitando-se às **cláusulas da CCT** descritas no cenário.  \n\n**Conclusão:**  \nA CCT estabelece regras específicas para a conversão de horas extras, e o empregador cumpriu as condições previstas. Não há ilegalidade no caso, desde que a CCT esteja em vigor e as cláusulas sejam respeitadas.",
+  "tokens_in": 291,
+  "tokens_out": 1104,
+  "latency_ms": 81139,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

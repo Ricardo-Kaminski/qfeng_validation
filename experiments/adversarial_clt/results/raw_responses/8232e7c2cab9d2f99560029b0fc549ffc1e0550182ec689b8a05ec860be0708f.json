@@ -1,0 +1,19 @@
+{
+  "sha256": "8232e7c2cab9d2f99560029b0fc549ffc1e0550182ec689b8a05ec860be0708f",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T09:25:31Z",
+  "prompt_sha": "e0dac6366f336fe82237c38403a15b7a308e7e52230ad445438fe232cc5f2b76",
+  "response_text": "### 1. **ANÁLISE**  \nO caso envolve a aplicação de normas sobre **banco de horas** e **licença maternidade**, com foco na **contagem do prazo de compensação** estabelecido na CCT. No entanto, **o contexto normativo fornecido não inclui dispositivos legais específicos** (como artigos da CLT, leis trabalhistas ou súmulas do TST) que regulem diretamente a relação entre o **período de licença maternidade** e o **prazo de compensação do banco de horas**.  \n\n### 2. **DECISÃO RECOMENDADA**  \n**A empresa está correta ao não incluir o período de licença maternidade na contagem do prazo de compensação do banco de horas**, desde que a CCT estabeleça claramente que o **período de licença não é considerado para fins de cumprimento do prazo acordado**.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n**O contexto normativo fornecido não contém dispositivos legais específicos** que regulem a relação entre licença maternidade e prazo de compensação de banco de horas. Portanto, **não é possível fundamentar a decisão com base nos textos normativos apresentados**.  \n\n**Limitação:**  \n- A análise depende de normas não incluídas no contexto (ex.: artigos da CLT sobre banco de horas, licença maternidade ou súmulas do TST).  \n- Em ausência de normas específicas, a decisão deve ser baseada em **interpretação geral do Direito do Trabalho brasileiro**, que **não é permitido pelo contexto fornecido**.  \n\n**Observação:**  \nSe o contexto incluísse, por exemplo, o **art. 59 da CLT** (sobre banco de horas) ou **art. 391 da CLT** (sobre licença maternidade), poderia ser feita uma análise mais detalhada. No entanto, com os dados disponíveis, **não há fundamentação normativa aplicável**.",
+  "tokens_in": 291,
+  "tokens_out": 1199,
+  "latency_ms": 82031,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

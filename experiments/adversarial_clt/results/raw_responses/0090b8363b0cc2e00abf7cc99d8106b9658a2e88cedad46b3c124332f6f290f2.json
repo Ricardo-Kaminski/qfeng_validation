@@ -1,0 +1,19 @@
+{
+  "sha256": "0090b8363b0cc2e00abf7cc99d8106b9658a2e88cedad46b3c124332f6f290f2",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T20:22:16Z",
+  "prompt_sha": "72790d8991be5ef4727404f6c998a5accce45b39b15ebe25cef7018b0f9d220f",
+  "response_text": "**ANÁLISE**\n\nO caso em questão envolve a validade de um banco de horas em uma CCT bancária. O Acórdão do TST cita expressamente o ARE 1.121.633 (Tema 1046/STF) e analisa que a CCT em questão preenche os requisitos desse Tema.\n\n**DISPOSITIVOS DO CONTEXTO NORMATIVO APLICÁVEIS**\n\nO dispositivo aplicável ao caso é o Tema 1046/STF, que foi expressamente citado pelo Acórdão do TST. O Tema 1046 não é um artigo específico de lei, mas sim uma súmula da Suprema Corte (STF) que estabelece a validade de acordos e Convenções Coletivas de Trabalho (CCTs) que estipulem exclusivamente vantagens ou supressões de direitos, desde que tenham por premissa a compensação estabelecida pelo princípio da adequação setorial negociada.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é a validade do banco de horas em questão. Isso porque o Acórdão do TST analisou que a CCT bancária preenche os requisitos do Tema 1046/STF, ou seja, estipulou exclusivamente vantagens ou supressões de direitos com base na compensação estabelecida pelo princípio da adequação setorial negociada.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação normativa é a seguinte:\n\n\"O Tema 1046/STF estabelece que são constitucionais os acordos e CCTs que, ao estipular exclusivamente vantagens ou supressões de direitos, tenham por premissa a compensação estabelecida pelo princípio da adequação setorial negociada (ARE 1.121.633). Nesse sentido, o Acórdão do TST analisou que a CCT bancária em questão preenche os requisitos desse Tema, pois estipulou exclusivamente vantagens ou supressões de direitos com base na compensação estabelecida pelo princípio da adequação setorial negociada. Portanto, é válida a decisão do Acórdão do TST que reconheceu a validade do banco de horas.\"",
+  "tokens_in": 339,
+  "tokens_out": 528,
+  "latency_ms": 8971,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

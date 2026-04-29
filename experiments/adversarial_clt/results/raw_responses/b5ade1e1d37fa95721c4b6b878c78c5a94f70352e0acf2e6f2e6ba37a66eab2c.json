@@ -1,0 +1,19 @@
+{
+  "sha256": "b5ade1e1d37fa95721c4b6b878c78c5a94f70352e0acf2e6f2e6ba37a66eab2c",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T02:41:01Z",
+  "prompt_sha": "5b8f75ba208096eb458c3fc1f2bdca9675e25a232157ca9f9ce6515cdd7f9fb4",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **CLT Art. 59**: Este artigo trata das horas extraordinárias, estabelecendo que elas só podem ser exigidas mediante prévia autorização e mediante compensação em dobro ou concessão de descanso equivalente.\n\n- **CLT Art. 62**: Estabelece a possibilidade de compensação de horas extras por meio de banco de horas, desde que haja acordo escrito entre empregador e empregado, e que o banco não exceda dezesseis horas mensais ou quarenta e oito semanais.\n\n- **CLT Art. 489, §1°, V (via remissão à integração CPC/CLT)**: Permite a reforma de sentença quando houver violação de lei federal ou da Constituição Federal.\n\n- **Súmula TST 85, V**: Estabelece que o banco de horas é válido somente se houver negociação coletiva (CCT) ou acordo individual escrito.\n\n**Interpretação no Caso Concreto:**\n\nNo caso apresentado, a decisão trabalhista identifica que o banco de horas foi implementado sem qualquer negociação coletiva (ausência de CCT), o que é uma violação à Súmula TST 85, V. A distinção feita em relação ao precedente mencionado (TST-Ag-RR-868-65.2021) é crucial, pois aquele tratava de um banco de horas estabelecido por meio de CCT específica do setor bancário, o que não se aplica ao caso concreto.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada deve ser a manutenção da invalidade do banco de horas implementado sem negociação coletiva ou acordo individual escrito. Isso porque:\n\n- A ausência de CCT viola o disposto na Súmula TST 85, V.\n- O método distinguishing aplicado corretamente distingue o caso concreto dos precedentes que tratam de situações com CCT específica.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n**Artigos da CLT:**\n\n- **CLT Art. 59 e Art. 62**: Estabelecem as condições para a realização de horas extraordinárias e a possibilidade de compensação por meio de banco de horas, ressalvando a necessidade de acordo escrito.\n\n**Súmulas do TST:**\n\n- **Súmula TST 85, V**: Reafirma que o banco de horas é válido apenas se houver negociação coletiva ou acordo individual escrito. A ausência de uma dessas condições torna a prática inválida.\n\n**Precedentes do TST:**\n\n- **TST-Ag-RR-868-65.2021**: Embora o precedente mencionado tratasse de um banco de horas com CCT específica, ele serve para ilustrar que a validade do banco de horas depende da existência de negociação coletiva ou acordo individual, conforme reitera a Súmula TST 85, V.\n\n**Conclusão:**\n\nA decisão trabalhista está correta ao invalidar o banco de horas implementado sem CCT ou acordo individual escrito. A fundamentação normativa baseia-se na interpretação dos artigos da CLT e na aplicação da Súmula TST 85, V, que são claramente violados no caso concreto.",
+  "tokens_in": 333,
+  "tokens_out": 795,
+  "latency_ms": 42110,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

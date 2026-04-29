@@ -1,0 +1,19 @@
+{
+  "sha256": "41c10006fe17d34505a03d4b148e05267da5f85c4083b7366ca0fd428376765d",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-001",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T02:38:10Z",
+  "prompt_sha": "6f04adbac1a2e32ad108805b991891a0bae030241b20bd361b5b3a03344d2d08",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis**\n\n- **Constituição Federal de 1988**: O artigo 7º, inciso XXVI, da CF/88 permite a compensação de jornada mediante acordo ou convenção coletiva. Além disso, o Tema 1046 do STF estabeleceu que acordos e CCTs são constitucionais quando preveem vantagens ou supressões de direitos com base na compensação pelo princípio da adequação setorial negociada.\n\n- **Consolidação das Leis do Trabalho (CLT)**: O artigo 59, parágrafo 2º, da CLT autoriza o banco de horas mediante acordo ou convenção coletiva. A norma exige que a compensação seja realizada em até seis meses e que não ultrapasse duas vezes a jornada normal semanal.\n\n- **Precedente do STF (ARE 1.121.633 - Tema 1046)**: Estabelece que acordos coletivos que preveem vantagens ou supressões de direitos são constitucionais, desde que baseados na compensação estabelecida pelo princípio da adequação setorial negociada.\n\n**Interpretação no Caso Concreto**\n\nNo caso em questão, o banco de horas foi instituído por meio de uma CCT bancária. A análise deve verificar se a CCT atende aos requisitos do Tema 1046 do STF e da CLT:\n\n1. **Compensação Adequada**: A CCT deve estabelecer claramente os mecanismos de compensação, garantindo que o banco de horas não resulte em jornadas exaustivas ou prejudiciais à saúde dos trabalhadores.\n\n2. **Adequação Setorial Negociada**: A convenção deve refletir as peculiaridades do setor bancário e ter sido negociada entre representantes legítimos das partes, garantindo que os interesses dos trabalhadores sejam devidamente considerados.\n\n3. **Cumprimento da CLT**: A CCT não pode contrariar normas de ordem pública ou princípios constitucionais, como a proteção à saúde e segurança do trabalho (artigo 7º, inciso XXII, CF/88).\n\n### 2. DECISÃO RECOMENDADA\n\n**Decisão**: A decisão recomendada é manter a validade do banco de horas estabelecido pela CCT bancária, desde que esta atenda aos requisitos legais e constitucionais mencionados.\n\n**Justificativa**: Se a CCT preenche os critérios do Tema 1046 do STF e está em conformidade com as disposições da CLT, especialmente quanto à compensação adequada e respeito ao limite de jornada estabelecido, o banco de horas é válido. A decisão deve considerar a legitimidade dos representantes que negociaram a CCT e a clareza das condições de compensação.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **Constituição Federal de 1988**: Artigo 7º, inciso XXVI; artigo 7º, inciso XXII (proteção à saúde e segurança do trabalho).\n\n- **CLT**: Artigo 59, parágrafo 2º (autorização para banco de horas mediante acordo ou convenção coletiva).\n\n- **STF - Tema 1046/STF**: Estabelece a constitucionalidade dos acordos e CCTs que preveem vantagens ou supressões de direitos, desde que baseados na compensação pelo princípio da adequação setorial negociada.\n\n- **Súmulas do TST**:\n  - Súmula 331: \"É lícito o banco de horas mediante acordo ou convenção coletiva.\"\n  - Súmula 362: \"A compensação de jornada, por meio de banco de horas, deve observar os limites legais.\"\n\nEssas normas e precedentes garantem que a decisão esteja alinhada com o ordenamento jurídico vigente, respeitando tanto as prerrogativas dos trabalhadores quanto as necessidades operacionais do setor bancário.",
+  "tokens_in": 349,
+  "tokens_out": 947,
+  "latency_ms": 54546,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,27 @@
+{
+  "sha256": "ed033ad52b6adfd26364ec947378a525ee9cf2e5876fa2f5276e8fa0fc25b554",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-007",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T22:56:05Z",
+  "prompt_sha": "2c03cb68f103668260b4613de27731cfa0657d298f5e8f8f441eed46e4ed0161",
+  "response_text": "### 1. **ANÁLISE: Aplicação dos predicados normativos ao caso concreto**\n\n- **validity_of_cct_annual_hour_bank_banking_sector**  \n  O **CCT do setor bancário** prevê um **banco de horas anual (12 meses)**, compatível com a **jurisprudência do TST (Ag-RR-868-65.2021)** e com o **Tema 1046/STF**. Esses precedentes estabelecem que, no setor bancário, o banco de horas anual é **válido e constitucional**, desde que:  \n  - Seja **renovado anualmente** (conforme o caso);  \n  - Haja **compensação das horas** dentro do prazo estabelecido (12 meses);  \n  - Não haja **acúmulo de horas** além do limite legal (12 meses).  \n  No cenário descrito, o **CCT está devidamente renovado**, o **extrato foi entregue** e a **compensação foi realizada no prazo**, o que **confirma a validade do banco de horas** sob o referido predicado.\n\n- **stf_tema1046_binding_precedent_applied**  \n  O **Tema 1046/STF** (reconhecido como **precedente vinculante**) estabelece que **o banco de horas não configura violação do direito à compensação de horas extras**, desde que:  \n  - As horas sejam **compensadas dentro do prazo legal** (12 meses);  \n  - Não haja **acúmulo de horas** além do limite estabelecido.  \n  No caso, a **compensação foi realizada no prazo**, o que **confirma a aplicação do Tema 1046/STF** e **evita a caracterização de violação** do direito à compensação de horas extras.\n\n- **hour_bank_with_cct_max_1_year**  \n  O **CCT prevê um banco de horas anual (12 meses)**, o que **respeita o limite máximo de 1 ano** estabelecido pela jurisprudência (TST-Ag-RR-868-65.2021). A **ausência de acúmulo de horas além do prazo** e a **compensação dentro do limite legal** **confirma a conformidade com esse predicado**.\n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nCom base nos predicados normativos aplicáveis:  \n- **O banco de horas anual previsto no CCT é válido e constitucional**, conforme os precedentes do TST e do STF (Tema 1046/STF).  \n- **A compensação das horas dentro do prazo de 12 meses não gera direito ao adicional de horas extras**, conforme esclarecido pelo sindicato e compatível com a jurisprudência.  \n- **Não há violação** dos direitos do trabalhador, pois o CCT está em conformidade com a legislação e os limites estabelecidos.  \n\n**Recomenda-se que o banco mantenha o banco de horas anual previsto no CCT**, desde que **respeite os prazos de compensação e o limite de 12 meses**, e **que o sindicato continue a orientar os trabalhadores sobre a não geração de adicional de horas extras em caso de compensação dentro do banco**.\n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **validity_of_cct_annual_hour_bank_banking_sector**: **Conformidade** (o CCT está em linha com a jurisprudência do TST e com o Tema 1046/STF).  \n- **stf_tema1046_binding_precedent_applied**: **Conformidade** (o banco de horas foi compensado dentro do prazo de 12 meses, conforme exigido pelo Tema 1046/STF).  \n- **hour_bank_with_cct_max_1_year**: **Conformidade** (o banco de horas está limitado a 12 meses, conforme previsto no CCT e exigido pela jurisprudência).  \n\n**Nenhum predicado foi violado** no cenário descrito.",
+  "tokens_in": 401,
+  "tokens_out": 1640,
+  "latency_ms": 50468,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

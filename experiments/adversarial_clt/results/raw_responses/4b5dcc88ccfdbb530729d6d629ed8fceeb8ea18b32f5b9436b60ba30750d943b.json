@@ -1,0 +1,19 @@
+{
+  "sha256": "4b5dcc88ccfdbb530729d6d629ed8fceeb8ea18b32f5b9436b60ba30750d943b",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CTRL-NEG-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T10:59:52Z",
+  "prompt_sha": "78faf043ffafa13b62c94bafbb4c2e0135abf258fd4b2cf3a75e7132cf2b38ec",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \n- **Art. 611 da CLT**: Regulamenta a celebração de **Convenções Coletivas de Trabalho (CCT)**, exigindo que sejam celebradas entre sindicatos e empregadores, com conteúdo compatível com a legislação trabalhista.  \n- **Art. 612 da CLT**: Estabelece que a CCT deve ser **registrada na SRTE** (Superintendência Regional do Trabalho e Emprego) e que seu conteúdo deve ser **comunicado aos trabalhadores**.  \n- **Art. 69 da CLT**: Permite a **compensação de horas extras** por folgas previamente comunicadas, desde que respeitados os limites legais de jornada.  \n- **Cláusula de conversão em adicional de 50%**: Não há dispositivo explícito no contexto normativo que regule essa cláusula, mas a **CCT** pode incluí-la como acordo coletivo, desde que não viole a legislação (ex.: limites de jornada).  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**A CCT celebrada entre a empresa e o sindicato é válida e deve ser respeitada**, considerando:  \n- A **celebração e registro na SRTE** (Art. 612 da CLT), garantindo a legalidade da convenção.  \n- A **comunicação prévia das folgas** para compensação das horas extras (Art. 69 da CLT), que foi cumprida.  \n- A **ausência de contestação sindical ou individual**, o que reforça a validade do acordo.  \n- A **cláusula de conversão em adicional de 50%** não viola normas trabalhistas, desde que o saldo não compensado seja convertido conforme previsto na CCT.  \n\n**Recomenda-se que a empresa cumpra os termos da CCT**, incluindo a compensação das horas extras e a aplicação da cláusula de conversão, desde que não haja excesso de jornada ou violação de direitos trabalhistas.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 611 da CLT**: \"As convenções coletivas de trabalho são celebradas entre sindicatos representativos da categoria profissional e sindicatos patronais, ou entre sindicatos representativos da categoria profissional e empregadores, e têm por objeto a regulamentação das condições de trabalho.\"  \n- **Art. 612 da CLT**: \"As convenções coletivas de trabalho devem ser registradas na Superintendência Regional do Trabalho e Emprego (SRTE) e comunicadas aos trabalhadores.\"  \n- **Art. 69 da CLT**: \"As horas extras podem ser compensadas por folgas, desde que previamente comunicadas ao empregador e ao trabalhador.\"  \n- **Cláusula de conversão em adicional de 50%**: **Não há dispositivo normativo específico no contexto fornecido** que regule essa cláusula. A validade da cláusula depende de sua compatibilidade com a legislação trabalhista (ex.: limites de jornada e direitos mínimos).  \n\n**Limitação**: O contexto **não menciona normas específicas** sobre a conversão de horas extras em adicional de 50%, o que impede uma fundamentação mais detalhada sobre essa cláusula. A validade da cláusula deve ser analisada com base no **princípio da autonomia das partes** (Art. 7º, XXII da CF/88) e na ausência de vícios de legalidade.",
+  "tokens_in": 299,
+  "tokens_out": 1754,
+  "latency_ms": 93421,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

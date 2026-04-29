@@ -1,0 +1,19 @@
+{
+  "sha256": "50d68c5d22283220f3c1eb4f4c73a22d3e51a08859bc2950c20a34d954bdc7ce",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CTRL-NEG-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T20:04:13Z",
+  "prompt_sha": "c6c70b9d2292a4d84e6ab8d671e81e0bde2fa1ee5d8ff83f8b588274d9a8c177",
+  "response_text": "Considerando que o contexto normativo fornecido é apenas a descrição de um Acórdão trabalhista que utiliza um precedente (TST-Ag-RR-868-65.2021.5.13.0030) para fundamentar sua decisão, e não o texto do próprio precedente ou de outras normas, a análise, decisão recomendada e fundamentação normativa serão limitadas ao que foi apresentado.\n\n**1. ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso.**\n\nO contexto normativo, *in casu*, não apresenta dispositivos legais ou jurisprudenciais em si. Ele descreve a *forma* como um acórdão é elaborado, utilizando um precedente específico como base.  Os elementos identificáveis são:\n\n*   **Referência ao Precedente:** TST-Ag-RR-868-65.2021.5.13.0030. Este é o dispositivo crucial, pois o acórdão se fundamenta nele. A ementa desse precedente, embora não transcrita aqui, é parte integrante da sua aplicação.\n*   **Análise de Compatibilidade Fática:** O acórdão analisa a compatibilidade entre os fatos do caso concreto (banco de horas em CCT bancária) e os fatos do precedente.\n*   **Aplicação da *Ratio* do Precedente:** O acórdão aplica a *ratio* (o princípio ou razão de decidir) do precedente ao caso concreto.\n*   **Fundamentação da Enquadramento no Precedente:** O acórdão demonstra, de forma detalhada, por que o caso concreto se enquadra na hipótese do precedente.\n\n**2. DECISÃO RECOMENDADA: Qual deve ser a decisão e por quê.**\n\nSem acesso à ementa do precedente (TST-Ag-RR-868-65.2021.5.13.0030) e aos fatos do caso concreto, é impossível determinar a decisão recomendada. No entanto, a descrição do contexto indica que a decisão seguirá a *ratio* do precedente.  A decisão, portanto, será aquela que o precedente estabeleceu, após a análise da compatibilidade fática.  A decisão será, em essência, uma aplicação do precedente ao caso concreto.\n\n**3. FUNDAMENTAÇÃO NORMATIVA: Cite especificamente os artigos e súmulas do contexto acima.**\n\nAssim como na análise, a fundamentação é limitada ao que foi apresentado no contexto.\n\n*   **Fundamentação Primária:** TST-Ag-RR-868-65.2021.5.13.0030 (o precedente). A decisão será fundamentada na *ratio* e nos princípios estabelecidos nesse precedente.\n*   **Fundamentação Secundária:** A análise da compatibilidade fática e a demonstração do enquadramento do caso concreto no precedente (descritas no contexto) servem como fundamentação adicional para a aplicação do precedente.\n*   **Ausência de Dispositivos Legais ou Súmulas Diretas:** O contexto não menciona artigos de lei ou súmulas específicas aplicáveis diretamente ao caso, além da referência ao precedente do TST.\n\n**Limitação:**\n\nÉ crucial ressaltar que esta análise é extremamente limitada pela falta do texto do precedente (TST-Ag-RR-868-65.2021.5.13.0030) e dos fatos do caso concreto. Uma análise completa e uma decisão definitiva exigem o acesso a esses documentos. A presente análise apenas descreve a metodologia utilizada no acórdão, conforme o contexto fornecido.\n",
+  "tokens_in": 296,
+  "tokens_out": 794,
+  "latency_ms": 21648,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "c9ab900424cb066031728c7baf32b12d52f7f60ee8a1118592fe61e5bf83d5f7",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-011",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T20:21:45Z",
+  "prompt_sha": "fb1b55eb31294169d89cb597740f454565b64e9af7278dc7f29bec4c017f5fe6",
+  "response_text": "**ANÁLISE**\n\nO caso apresentado envolve a interpretação de uma Convenção Coletiva de Trabalho (CCT) que prevê um banco de horas anual. A empresa argumenta que o prazo para compensação das horas acumuladas deve ser suspenso pelo período em que o trabalhador esteve afastado por acidente de trabalho, enquanto o trabalhador contesta essa interpretação.\n\n**DISPOSITIVOS DO CONTEXTO NORMATIVO APLICÁVEIS**\n\nNo contexto fornecido, não há dispositivos específicos da legislação trabalhista brasileira citados. No entanto, podemos considerar a aplicação geral das normas trabalhistas relevantes ao caso:\n\n- **Lei nº 8.112/90**: Regulamenta os procedimentos para o acidente do trabalho.\n- **Lei nº 10.261/01**: Altera a Lei nº 8.112/90, incluindo disposições sobre o banco de horas.\n- **CLT (Consolidação das Leis do Trabalho)**: Artigos que tratam sobre acidente de trabalho e banco de horas.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando a falta de dispositivos específicos da CCT mencionados no contexto, mas considerando as normas trabalhistas gerais aplicáveis, a decisão recomendada seria:\n\n- **Manter o prazo original para compensação das horas**, pois não há disposição na CCT que prevê a suspensão do prazo pelo período de afastamento por acidente de trabalho.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n1. **Lei nº 8.112/90**: Não há dispositivo específico citado, mas é relevante para entender o procedimento em casos de acidentes de trabalho.\n2. **Lei nº 10.261/01**: Também não há dispositivo específico citado, mas pode ser aplicável geralmente ao tratamento de banco de horas.\n3. **CLT (Consolidação das Leis do Trabalho)**:\n   - Artigo 118: Dispõe sobre o acidente do trabalho e a respectiva compensação.\n   - Artigo 59: Regula as férias, mas pode ter relevância para entender os conceitos de prazos trabalhistas.\n\n**LIMITAÇÃO**\n\nO contexto fornecido não inclui dispositivos específicos da CCT ou da legislação trabalhista brasileira aplicáveis ao caso. Portanto, a análise se baseia em normas gerais e hipotéticas que poderiam ser aplicadas.",
+  "tokens_in": 325,
+  "tokens_out": 569,
+  "latency_ms": 9629,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

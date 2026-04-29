@@ -1,0 +1,19 @@
+{
+  "sha256": "8c94c96f4cc13dd8c1ea6ef11602c3658fbc60f22717830fe6ebe49f6ab362fa",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-009",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T20:25:32Z",
+  "prompt_sha": "7f441830040caace0b0adfa677c7ecf354c20eb769b074f7362124a811db0c0a",
+  "response_text": "**ANÁLISE**\n\nO caso em questão envolve um banco de horas sem Contrato Coletivo de Trabalho (CCT) de 7 meses. A Súmula TST 85 é diretamente aplicável a esse cenário, pois trata do pagamento das horas trabalhadas acima da jornada normal sem o acordo previsto em CCT.\n\n**DISPOSITIVOS DO CONTEXTO NORMATIVO APPLICÁVEIS**\n\n- **Súmula TST 85**: Esta súmula estabelece que as horas trabalhadas além da jornada normal, sem a existência de Contrato Coletivo de Trabalho (CCT) ou acordo individual, são consideradas como horas extras e devem ser remuneradas com um adicional de 50% sobre o valor da hora normal.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada deve ser a condenação do empregador ao pagamento das horas trabalhadas acima da jornada normal, com o respectivo adicional de 50% estabelecido na Súmula TST 85. Isso porque a falta de CCT ou acordo individual não afasta a aplicação da súmula, que é expressa sobre a remuneração das horas extras sem esses acordos.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n- **Súmula TST 85 (V)**: \"As horas trabalhadas além da jornada normal, sem o acordo previsto no art. 59 da CLT ou em CCT, são consideradas como horas extras e devem ser remuneradas com um adicional de 50% sobre o valor da hora normal.\"\n\n**LIMITAÇÃO**\n\nNão há limitação na aplicação das normas mencionadas acima ao caso concreto, pois a Súmula TST 85 é expressa sobre a matéria em questão.",
+  "tokens_in": 298,
+  "tokens_out": 410,
+  "latency_ms": 6900,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

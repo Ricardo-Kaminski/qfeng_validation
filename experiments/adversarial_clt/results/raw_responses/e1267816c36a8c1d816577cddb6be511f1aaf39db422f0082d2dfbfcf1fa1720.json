@@ -1,0 +1,29 @@
+{
+  "sha256": "e1267816c36a8c1d816577cddb6be511f1aaf39db422f0082d2dfbfcf1fa1720",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-008",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T23:52:46Z",
+  "prompt_sha": "160b14905daf1b75240e571876e903f674ab798cba13eaa47b102ad9f8820a31",
+  "response_text": "1. **ANÁLISE:**\n\n   - **Predicado Normativo Aplicável: `hour_bank_with_cct_max_1_year`**\n     - Este predicado normativo estabelece que o banco de horas, quando instituído por Acordo ou Convenção Coletiva de Trabalho (ACT), deve ter uma duração máxima de 12 meses. No cenário apresentado, o banco de horas foi estabelecido com compensação em até 7 meses, o que está dentro do limite permitido pela norma.\n     - O predicado não aborda diretamente a questão da rescisão contratual e o pagamento das horas extras acumuladas. No entanto, é importante considerar que, mesmo que a duração seja respeitada, as regras de compensação devem ser cumpridas conforme estabelecido na ACT.\n\n2. **DECISÃO RECOMENDADA:**\n\n   - Com base no predicado normativo aplicável e na jurisprudência do TST, o empregado tem direito ao pagamento das horas extras acumuladas até a rescisão contratual. A rescisão unilateral por parte do empregado não anula os créditos já adquiridos durante a vigência do contrato de trabalho.\n   - Portanto, a empresa deve efetuar o pagamento do saldo positivo de 60h ao trabalhador, pois as horas extras foram devidamente acumuladas e não podem ser anuladas pela rescisão.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Cumprido:** \n     - `hour_bank_with_cct_max_1_year`: A duração do banco de horas estabelecida por ACT (7 meses) está dentro do limite máximo permitido de 12 meses.\n   \n   - **Violado:**\n     - Embora não haja um predicado normativo específico listado para o pagamento das horas extras acumuladas em caso de rescisão, a recusa da empresa em pagar as horas extras pendentes viola o princípio do direito adquirido ao crédito de horas extra, conforme entendimento consolidado na jurisprudência do TST. O empregador está obrigado a respeitar os créditos já acumulados durante a vigência do contrato.\n\nEm conclusão, a empresa deve cumprir com o pagamento das 60h extras acumuladas ao trabalhador, conforme direito adquirido e princípios jurídicos aplicáveis.",
+  "tokens_in": 360,
+  "tokens_out": 549,
+  "latency_ms": 16031,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

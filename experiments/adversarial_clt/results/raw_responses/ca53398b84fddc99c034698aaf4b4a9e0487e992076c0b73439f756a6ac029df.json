@@ -1,0 +1,19 @@
+{
+  "sha256": "ca53398b84fddc99c034698aaf4b4a9e0487e992076c0b73439f756a6ac029df",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-010",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T20:25:48Z",
+  "prompt_sha": "546394fb36fd08b3df6e32b19b12372b52cd2212d1c83ed9d8b946faff99ba6f",
+  "response_text": "**ANÁLISE**\n\n1. Os dispositivos do contexto normativo aplicáveis ao caso são:\n * CLT Art. 71: Regulamenta a jornada de trabalho e intervalos intrajornada;\n * Súmula TST 437: Trata sobre a redução da jornada de trabalho por meio de Convenção Coletiva de Trabalho (CCT);\n * Tema 981/STF: Discute sobre a validade de CCT que reduz intervalo intrajornada para 30 minutos.\n\n**DECISÃO RECOMENDADA**\n\n2. A decisão recomendada é que o empregador pague integralmente o período suprimido como hora extra, pois não há CCT válida autorizando a redução do intervalo intrajornada.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n3. A fundamentação normativa está baseada nos seguintes dispositivos:\n * CLT Art. 71: Não foi citado explicitamente no contexto, mas é relevante para regular a jornada de trabalho e intervalos intrajornada;\n * Súmula TST 437: \"A redução da jornada de trabalho por meio de convenção coletiva de trabalho não viola a CLT\" (art. 71). No entanto, no caso em questão, não há CCT válida autorizando a redução do intervalo intrajornada;\n * Tema 981/STF: \"A Convenção Coletiva de Trabalho que reduz o intervalo intrajornada para 30 minutos é válida\" (art. 71). No entanto, no caso em questão, não há CCT válida autorizando a redução do intervalo intrajornada.\n\n**LIMITAÇÃO**\n\n4. Não há limitação na aplicação das normas, pois os dispositivos citados são relevantes para o caso e fornecem uma base sólida para a decisão.",
+  "tokens_in": 326,
+  "tokens_out": 419,
+  "latency_ms": 7052,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

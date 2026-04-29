@@ -1,0 +1,19 @@
+{
+  "sha256": "2148255d554149ac113d05cf979dca1b4cf76b53a173127189cd729d6bf71d48",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-006",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T11:57:39Z",
+  "prompt_sha": "f3c84ccbea170369f112d30fe65e9798106cbf631f923ed7cbeb2573c0098f0a",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a Convenção Coletiva de Trabalho (CCT) do setor de varejo estabelece um banco de horas com compensação em até 12 meses. A empresa cumpriu as disposições da CCT ao oferecer folga compensatória durante semanas de baixo movimento, e os trabalhadores aceitaram essa compensação dentro do prazo estipulado. Além disso, a jornada extra nunca excedeu duas horas por dia, o que está em conformidade com as normas gerais sobre banco de horas.\n\nA CCT também prevê que qualquer saldo não compensado no prazo será pago como hora-extra com adicional de 50%. No entanto, essa cláusula nunca precisou ser acionada, pois toda a compensação ocorreu dentro do período estabelecido.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que as práticas da empresa sejam consideradas conformes com a CCT e, portanto, legais sob o Direito do Trabalho brasileiro. A empresa cumpriu todas as obrigações previstas na convenção coletiva ao garantir a compensação dentro do prazo estabelecido e fornecer extratos mensais.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **CCT do Setor de Varejo:** A CCT é o instrumento normativo aplicável neste caso, pois especifica as condições para o banco de horas e a compensação dentro do setor. Ela prevê que a compensação deve ocorrer em até 12 meses e estabelece um adicional de 50% para saldo não compensado após esse prazo.\n\n- **Consolidação das Leis do Trabalho (CLT):** A CLT permite o banco de horas mediante acordo ou convenção coletiva, desde que a jornada extra diária não exceda duas horas e que haja compensação total no período estipulado. No caso apresentado, essas condições foram cumpridas.\n\n- **Súmula nº 331 do TST:** Esta súmula afirma que o banco de horas é permitido mediante acordo ou convenção coletiva, desde que a jornada extra diária não exceda duas horas e seja compensada total ou parcialmente no período estabelecido.\n\nDado que todas as obrigações previstas na CCT foram cumpridas pela empresa e que a CLT permite o banco de horas sob essas condições, não há violação normativa. A decisão deve ser favorável à continuidade das práticas atuais da empresa, conforme estabelecido na convenção coletiva vigente.",
+  "tokens_in": 314,
+  "tokens_out": 601,
+  "latency_ms": 34639,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

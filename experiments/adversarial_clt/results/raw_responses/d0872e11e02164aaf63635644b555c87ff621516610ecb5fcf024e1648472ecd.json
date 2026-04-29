@@ -1,0 +1,29 @@
+{
+  "sha256": "d0872e11e02164aaf63635644b555c87ff621516610ecb5fcf024e1648472ecd",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T02:25:52Z",
+  "prompt_sha": "e49d5e5d7663742fd00bd3c94033461e30c834afe32a9924772ec284ff0e579e",
+  "response_text": "---\n\n### **1. NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a **flexibilização do limite de 14 meses** para compensação de banco de horas, estabelecida pela CCT do setor hoteleiro, **viola normas de ordem pública** previstas na legislação trabalhista brasileira. A decisão baseia-se em predicados soberanos ativos que reforçam limites mínimos e proteções irrenunciáveis para os trabalhadores, independentemente de negociações coletivas.  \n\n- **Predicado `sovereign(semester_hour_bank_requires_cct_or_act)`**: A existência de um banco de horas com prazo de compensação superior a 6 meses (como o caso de 14 meses) **exige a intervenção de um Acordo Coletivo de Trabalho (ACT) ou uma lei específica** (como a CLT). A CCT, por si só, não pode ampliar o prazo além do limite estabelecido por normas de ordem pública, como a Súmula TST 85, V.  \n- **Predicado `elastic(hour_bank_without_cct_max_6_months)`**: Mesmo que a CCT tente flexibilizar o prazo, a lei estabelece que **sem a intervenção de um ACT ou lei, o banco de horas não pode ultrapassar 6 meses**. O prazo de 14 meses viola esse limite.  \n- **Predicado `prohibition_negotiation_reducing_overtime_additional`**: A negociação coletiva **não pode reduzir a remuneração adicional por horas extras**, que é fixada em **50%** (predicado `overtime_minimum_additional_50pct`). A tentativa de flexibilizar o prazo de compensação pode ser interpretada como uma forma indireta de reduzir a proteção legal do trabalhador.  \n\nA Súmula TST 85, V afirma que **o limite de 1 ano para compensação de horas extras é norma de ordem pública**, ou seja, **não pode ser alterado por negociações coletivas**. O sistema Q-FENG concluiu que a CCT viola esse princípio, mesmo que alegue autonomia das partes coletivas.  \n\n---\n\n### **2. PREDICADOS ATIVADOS**  \n**a) `sovereign(semester_hour_bank_requires_cct_or_act)`**  \n- **Significado jurídico**: Para estabelecer um banco de horas com prazo de compensação superior a 6 meses, é necessário que a norma seja prevista em **Acordo Coletivo de Trabalho (ACT)** ou em **lei específica** (como a CLT). A CCT, por si só, não pode ampliar o prazo além do limite legal.  \n\n**b) `invalidity_of_clause_suppressing_overtime_payment`**  \n- **Significado jurídico**: Cláusulas que **suprimem ou reduzam a remuneração adicional por horas extras** são **nulas**. A CLT exige que o trabalhador receba **50% a mais** por horas extras, independentemente de acordos.  \n\n**c) `weekly_hour_compensation_requires_written_agreement`**  \n- **Significado jurídico**: A compensação de horas extras por semana **exige um acordo escrito** entre empregador e empregado. A CCT não pode substituir esse requisito.  \n\n**d) `prohibition_negotiation_reducing_overtime_additional`**  \n- **Significado jurídico**: A negociação coletiva **não pode reduzir a remuneração adicional por horas extras**. O trabalhador tem direito a **50% a mais** por horas extras, independentemente de acordos.  \n\n**e) `overtime_minimum_additional_50pct`**  \n- **Significado jurídico**: A remuneração adicional por horas extras **não pode ser inferior a 50%** do valor da hora normal.  \n\n**f) `maximum_weekly_working_hours_44h`**  \n- **Significado jurídico**: A jornada de trabalho semanal **não pode ultrapassar 44 horas**, conforme estabelecido na CLT.  \n\n**g) `maximum_daily_working_hours_8h`**  \n- **Significado jurídico**: A jornada diária **não pode exceder 8 horas**, salvo em casos excepcionais previstos em lei.  \n\n**h) `elastic(hour_bank_without_cct_max_6_months)`**  \n- **Significado jurídico**: Em ausência de um ACT ou lei específica, o banco de horas **não pode ultrapassar 6 meses**. O prazo de 14 meses viola esse limite.  \n\n---\n\n### **3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO sistema Q-FENG decidiu que a **CCT do setor hoteleiro está errada ao permitir que os trabalhadores compensem horas extras em 14 meses**. A lei brasileira diz que esse prazo **não pode passar de 1 ano**, e **ninguém pode mudar isso**, nem mesmo por meio de acordos coletivos.  \n\nO sistema explica que:  \n- **Mesmo se a empresa e o sindicato combinarem**, o prazo de 14 meses **viola a lei**, que protege os trabalhadores.  \n- A CLT (Lei de Trabalho) estabelece que **a compensação de horas extras só pode ser feita em até 1 ano**, e **não pode ser alterada** por negociações.  \n- Além disso, a lei exige que os trabalhadores recebam **50% a mais por horas extras**, e **não pode haver acordos que reduzam esse direito**.  \n\nPortanto, a empresa está **violando a lei**, mesmo que alegue que a CCT permite o prazo de 14 meses. O sindicato está certo ao dizer que a lei não pode ser alterada.  \n\n--- \n\n**Nota**: A decisão do sistema Q-FENG não é uma opinião, mas uma interpretação automática das regras da CLT e da Súmula TST 85, V, baseada nos predicados soberanos e elásticos fornecidos.",
+  "tokens_in": 547,
+  "tokens_out": 2013,
+  "latency_ms": 64906,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

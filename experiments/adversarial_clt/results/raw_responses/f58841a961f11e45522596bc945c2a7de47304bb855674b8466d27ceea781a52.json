@@ -1,0 +1,19 @@
+{
+  "sha256": "f58841a961f11e45522596bc945c2a7de47304bb855674b8466d27ceea781a52",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T12:13:21Z",
+  "prompt_sha": "b6e4c61ea8527c860962ba88d6b508c94439e853c9816adb4eb2e1c7272aacf0",
+  "response_text": "### 1. ANÁLISE\n\nNo cenário apresentado, o Tribunal Regional do Trabalho (TRT) utilizou a Súmula 85 do Tribunal Superior do Trabalho (TST) para resolver um caso envolvendo banco de horas sem Convenção Coletiva de Trabalho (CCT) ou Acordo Coletivo de Trabalho (ACT). A decisão identificou os itens I, II e V da Súmula 85 como aplicáveis ao caso. \n\nA Súmula 85 do TST trata especificamente das condições para a validade do banco de horas:\n\n- **Item I**: O banco de horas deve ser estabelecido em CCT ou ACT.\n- **Item II**: A compensação das horas acumuladas no banco deve ocorrer dentro do prazo máximo de seis meses, contados da data da prestação dos respectivos serviços.\n- **Item V**: As horas excedentes ao período de compensação previsto na CCT ou ACT são consideradas como extraordinárias e sujeitas à remuneração correspondente.\n\nNo caso em questão, o banco de horas não foi estabelecido por meio de CCT/ACT, e o prazo para compensação das horas ultrapassou os cinco meses. Portanto, todas as horas foram consideradas extras com adicional de 50%, conforme previsto no item V da Súmula.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é manter a conclusão do TRT de que todas as horas são consideradas extraordinárias e devem ser remuneradas com o acréscimo de 50%. Isso se deve ao fato de não haver CCT/ACT estabelecendo o banco de horas, além da compensação das horas ter ocorrido fora do prazo máximo permitido.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **Súmula 85, I**: Estabelece que o banco de horas deve ser instituído em CCT ou ACT.\n- **Súmula 85, II**: Determina que a compensação das horas acumuladas no banco deve ocorrer dentro do prazo máximo de seis meses.\n- **Súmula 85, V**: Define que as horas excedentes ao período de compensação previsto na CCT ou ACT são consideradas extraordinárias e sujeitas à remuneração correspondente.\n\nA empresa alegou um \"acordo tácito\" como substituto da ausência de CCT/ACT para o banco de horas. No entanto, conforme a Súmula 85, I, apenas uma CCT ou ACT pode estabelecer formalmente as condições do banco de horas, invalidando a tese do acordo tácito.\n\nPortanto, a decisão do TRT está bem fundamentada na aplicação dos itens relevantes da Súmula 85 do TST.",
+  "tokens_in": 331,
+  "tokens_out": 629,
+  "latency_ms": 34952,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

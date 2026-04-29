@@ -1,0 +1,19 @@
+{
+  "sha256": "59e6e1f61f9739ba41e30c4893f08956dac709eb95fcec69c1f70cdcc19e1c86",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-011",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T06:48:25Z",
+  "prompt_sha": "0bb468a82e3806412b782c7a6eb8b917f49bedfb81b3d537900aa9fbdba761b1",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a análise de uma cláusula específica inserida em um acordo coletivo de trabalho (CCT) entre uma transportadora e o sindicato dos trabalhadores, que estabelece a renúncia ao direito ao adicional de horas extras caso o banco de horas não seja compensado no prazo. A questão central é determinar se essa cláusula viola ou não o Artigo 611-B, IX da Consolidação das Leis do Trabalho (CLT), que trata sobre direitos dos trabalhadores.\n\n**Dispositivos Legais Aplicáveis**\n\n- **Art. 611-B da CLT**: Este artigo é fundamental para entender os direitos dos trabalhadores em relação ao banco de horas e à compensação das horas extras. O Art. 611-B, IX estabelece que a renúncia ao adicional de horas extras só pode ocorrer por meio de acordo individual escrito, após a prestação do serviço, ou por convenção coletiva de trabalho.\n\n- **Art. 7º da CLT**: Este artigo é crucial para entender os direitos dos trabalhadores em geral e como eles podem ser negociados. O inciso XIII estabelece o direito à remuneração do serviço extraordinário, que só pode ser dispensado por acordo ou convenção coletiva.\n\n**Interpretação no Caso Concreto**\n\nA cláusula em questão é uma convenção coletiva de trabalho (CCT) que estabelece a renúncia ao adicional de horas extras caso o banco de horas não seja compensado. No entanto, essa renúncia foi feita sem seguir os requisitos específicos do Artigo 611-B da CLT, pois a convenção coletiva não é mencionada como meio válido para a renúncia.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada seria anular a cláusula que estabelece a renúncia ao adicional de horas extras caso o banco de horas não seja compensado, pois ela viola os requisitos do Artigo 611-B da CLT. Isso porque a convenção coletiva não é um meio válido para a renúncia ao adicional de horas extras, conforme estabelecido no referido artigo.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n- **CLT - Art. 611-B**: Especificamente o inciso IX, que estabelece os meios legais válidos para a renúncia ao adicional de horas extras.\n  \n- **Súmula do TST (Tribunal Superior do Trabalho)**: A Súmula nº 438 do TST afirma que \"A convenção coletiva não pode ser usada como meio de renúncia a direitos dos trabalhadores, salvo quando expressamente autorizada por lei\". Isso reforça a ideia de que a convenção coletiva não é um meio válido para a renúncia ao adicional de horas extras.\n\n- **Precedentes Constitucionais**: A Constituição Federal do Brasil protege os direitos dos trabalhadores, incluindo o direito à remuneração de serviços extraordinários. O Artigo 7º da CLT, que é baseado na Constituição, estabelece esse direito e os meios legais válidos para sua renúncia.\n\nEm resumo, a decisão recomendada é anular a cláusula em questão por violação ao Art. 611-B da CLT, reforçada pela Súmula nº 438 do TST e pelos princípios constitucionais que protegem os direitos dos trabalhadores.",
+  "tokens_in": 319,
+  "tokens_out": 818,
+  "latency_ms": 26968,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

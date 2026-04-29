@@ -1,0 +1,19 @@
+{
+  "sha256": "61ad567f7d8205b2361172137691416fe569aadb3ccd7f14e61f6a7d6dad8389",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T12:27:51Z",
+  "prompt_sha": "ffe2fd00d79be6f017d5acdc52228269f306dc6ce9f81283dc76ffc81b8e32e8",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, um trabalhador foi demitido sem justa causa após três anos de trabalho e recebeu todas as verbas rescisórias no prazo estabelecido pela legislação brasileira. As verbas pagas incluem saldo de salários, aviso prévio indenizado proporcional (33 dias), férias proporcionais com 1/3 adicional, décimo terceiro salário proporcional, FGTS mais a multa de 40%, e o seguro-desemprego foi habilitado. O recibo foi assinado na presença do sindicato.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que não há necessidade de qualquer ação adicional por parte do trabalhador ou da empresa, pois todas as obrigações legais foram cumpridas corretamente e dentro dos prazos estabelecidos pela legislação brasileira. O trabalhador recebeu todos os direitos rescisórios devidos em uma demissão sem justa causa.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Saldo de Salário:** De acordo com o artigo 477, §1º da CLT (Consolidação das Leis do Trabalho), as verbas rescisórias devem ser pagas até dois dias úteis após a demissão.\n\n- **Aviso Prévio Indenizado Proporcional:** O aviso prévio indenizado é regulado pelo artigo 487 da CLT, que estabelece o pagamento de um salário por mês completo de trabalho para cada ano trabalhado, até o máximo de três meses.\n\n- **Férias Proportionais com 1/3 Adicional:** O direito às férias proporcionais e ao adicional de 1/3 é garantido pelo artigo 137 da CLT.\n\n- **13° Proporcional:** De acordo com o artigo 11, §2º da Lei nº 4.749/65, o décimo terceiro salário deve ser pago proporcionalmente ao tempo de serviço no ano em que ocorreu a rescisão contratual.\n\n- **FGTS + Multa de 40%:** O pagamento do FGTS e da multa de 40% é obrigatório conforme os artigos 20, §3º e 8º da Lei nº 8.036/90.\n\n- **Seguro-Desemprego:** A habilitação ao seguro-desemprego está regulada pela Lei nº 7.998/89, que estabelece os requisitos para a concessão do benefício em caso de demissão sem justa causa.\n\nComo todas as obrigações foram cumpridas conforme a legislação vigente e não há irregularidades identificáveis no processo de rescisão contratual, o trabalhador está em conformidade com seus direitos legais. Portanto, não é necessário qualquer procedimento adicional ou contestação judicial.\n\nSe houvesse alguma norma específica ausente neste contexto que pudesse ser aplicável, seria importante mencioná-la explicitamente como uma limitação na análise. No entanto, com base nas informações fornecidas, todas as disposições legais relevantes foram atendidas.",
+  "tokens_in": 312,
+  "tokens_out": 729,
+  "latency_ms": 41750,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "c1a4de060d2065380f79368ec5e10d3074e23b9a33718ea82f3fa9aa453bff85",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-006",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T11:39:38Z",
+  "prompt_sha": "52dd564a70359960dbb886b7a9e848f56a10af664fc6884feb3e2be6931f11b7",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a empresa de limpeza urbana adotou um banco de horas por meio de regulamento interno aprovado em assembleia dos empregados, sem a presença de representação sindical. A questão central é se essa aprovação pode ser considerada equivalente a uma Convenção ou Acordo Coletivo de Trabalho (ACT) para fins do artigo 59, §2º da CLT.\n\nO artigo 59, §2º da Consolidação das Leis do Trabalho (CLT) estabelece que as convenções e acordos coletivos de trabalho devem ser aprovados por sindicato representativo das categorias profissionais envolvidas. A ausência de representação sindical na assembleia levanta dúvidas sobre a validade do regulamento interno como substituto para uma ACT.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que o banco de horas adotado pela empresa não pode ser considerado equivalente a uma ACT, pois não foi aprovado por sindicato representativo das categorias profissionais envolvidas, conforme exigido pelo artigo 59, §2º da CLT. Portanto, o regulamento interno deve ser revisto para garantir conformidade com as normas trabalhistas vigentes.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Artigo 59, §2º da CLT:** Este dispositivo estabelece que convenções e acordos coletivos de trabalho devem ser aprovados por sindicato representativo das categorias profissionais envolvidas. A ausência de tal aprovação torna o regulamento interno inválido como substituto para uma ACT.\n\nA análise se baseia exclusivamente no contexto normativo fornecido, sem extrapolações ou invenções adicionais.",
+  "tokens_in": 300,
+  "tokens_out": 431,
+  "latency_ms": 24594,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

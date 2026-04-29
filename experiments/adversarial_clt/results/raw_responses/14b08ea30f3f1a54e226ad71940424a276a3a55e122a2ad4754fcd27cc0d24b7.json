@@ -1,0 +1,19 @@
+{
+  "sha256": "14b08ea30f3f1a54e226ad71940424a276a3a55e122a2ad4754fcd27cc0d24b7",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-006",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T20:14:56Z",
+  "prompt_sha": "52dd564a70359960dbb886b7a9e848f56a10af664fc6884feb3e2be6931f11b7",
+  "response_text": "**ANÁLISE**\n\nO caso envolve a adoção de um banco de horas por uma empresa de limpeza urbana, mediante regulamento interno aprovado em assembleia dos empregados. A questão central é saber se tal procedimento é válido e equivalente à Alteração Coletiva de Trabalho (ACT) para fins do Código das Leis do Trabalho (CLT), Artigo 59, §2°.\n\n**DISPOSITIVOS DO CONTEXTO NORMATIVO APLICÁVEL**\n\n- **Art. 59, §2° da CLT**: Este dispositivo é crucial para entender se a aprovação em assembleia sem representação sindical pode ser considerada equivalente à Alteração Coletiva de Trabalho (ACT).\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada seria que o regulamento interno não é válido como equivalente a ACT, pois a ausência de representação sindical na assembleia torna inválida essa aprovação para fins do Art. 59, §2° da CLT.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n- **Art. 59, §2° da CLT**: Este dispositivo estabelece que a alteração das condições de trabalho só pode ser feita por acordo ou convenção coletiva, ou por ACT, com observância do disposto no Art. 611-A e seguintes. A ausência de representação sindical na assembleia faz com que essa aprovação não atenda aos requisitos para ser considerada equivalente a ACT.\n\n- **Limitações**: O contexto fornecido não contém súmulas específicas aplicáveis ao caso, o que torna a fundamentação exclusivamente baseada nos dispositivos da CLT citados.",
+  "tokens_in": 299,
+  "tokens_out": 384,
+  "latency_ms": 6447,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

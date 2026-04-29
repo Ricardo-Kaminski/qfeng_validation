@@ -1,0 +1,30 @@
+{
+  "sha256": "e22733d7dcb15a5889d105145cc56ccba02674664d7a33c895fdb2a59a772793",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T23:08:32Z",
+  "prompt_sha": "df1029f717a9057c55dcd4415f596b5b79c52eb9d0bc84855a640fd4defece65",
+  "response_text": "### 1. **ANÁLISE: Aplicação dos predicados normativos ao caso concreto**  \n- **obligation_to_ground_decision_in_identified_ratio_decidendi**:  \n  A decisão trabalhista cumpre essa obrigação ao fundamentar-se explicitamente na **Súmula TST 85** (que invalida o banco de horas sem CCT) e no **CLT Art. 489, §1°, V** (que exige a existência de CCT para a validade do banco de horas). Além disso, a aplicação do método *distinguishing* (distinção entre o caso concreto e o precedente com CCT) demonstra que a decisão está ancorada em uma **ratio decidendi** clara e identificável, evitando generalizações.  \n\n- **sumula_tst_85_hour_bank_without_cct_invalid**:  \n  A decisão está **em conformidade** com essa norma, pois reconhece a **invalidade do banco de horas** no caso concreto, **sem a existência de CCT**, distinguido do precedente (TST-Ag-RR-868-65.2021) que envolvia um banco de horas com CCT. A Súmula TST 85 é aplicada de forma direta e correta, reforçando a **obrigatoriedade da negociação coletiva** para a validade do banco de horas.  \n\n- **due_process_of_law**:  \n  A decisão **não viola** o princípio do devido processo legal, pois:  \n  - A fundamentação é **clara e fundamentada** em normas jurídicas (CLT e Súmula TST 85), garantindo transparência.  \n  - O método *distinguishing* é usado para **diferenciar o caso concreto** do precedente, evitando equívocos e assegurando que a decisão seja baseada em fatos e normas específicos.  \n  - Não há menção a vícios processuais (como omissão de provas ou falta de audiência), o que sugere que o processo foi conduzido com regularidade.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA decisão trabalhista **deve ser mantida**, pois:  \n- **Cumpre rigorosamente** as obrigações normativas (obligation_to_ground_decision_in_identified_ratio_decidendi e sumula_tst_85_hour_bank_without_cct_invalid).  \n- **Aplica corretamente** a Súmula TST 85, reconhecendo a **invalidade do banco de horas** no caso concreto, com base na ausência de CCT.  \n- **Respeita o devido processo legal** ao fundamentar-se em normas claras e distinguir o caso de precedentes.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: **Conformidade** (a decisão fundamenta-se em normas jurídicas específicas e claras).  \n- **sumula_tst_85_hour_bank_without_cct_invalid**: **Conformidade** (a decisão reconhece a invalidade do banco de horas sem CCT, conforme a Súmula TST 85).  \n- **due_process_of_law**: **Conformidade** (a decisão respeita o devido processo legal, com fundamentação clara e distinção correta de precedentes).  \n\n**Nenhum predicado foi violado** no cenário descrito. A decisão está **em plena conformidade** com os requisitos normativos e processuais.",
+  "tokens_in": 407,
+  "tokens_out": 1209,
+  "latency_ms": 36859,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

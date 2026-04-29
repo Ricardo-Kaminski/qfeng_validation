@@ -1,0 +1,26 @@
+{
+  "sha256": "b5948fc6860f86755ee84042079cbc81806ab9c1801a800654050095325bf961",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-006",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:19:54Z",
+  "prompt_sha": "853bce6697211f077507fea0253d75450971c248a5b84a4ee816407d1bbb991a",
+  "response_text": "**1. ANÁLISE**\n\n* **obligation_to_ground_decision_in_identified_ratio_decidendi**: Esse predicado normativo exige que as decisões judiciais sejam fundamentadas e expliquem a razão da decisão tomada. Nesse caso, a juíza do trabalho indeferiu a prova pericial sem explicar quais documentos seriam suficientes para demonstrar o fato probatório em questão, violando esse predicado.\n* **due_process_of_law**: Esse predicado garante que as partes tenham um processo justo e equitativo. A falta de motivação na decisão interlocutória pode ser vista como uma violação do direito à defesa e ao contraditório, pois a parte não foi informada sobre quais documentos eram considerados suficientes ou qual fato probatório seria demonstrado.\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a decisão interlocutória seja anulada por deficiência de motivação, com fundamento no CPC Art. 489, §1°, I. Isso porque a falta de fundamentação e explicação sobre os documentos considerados suficientes e o fato probatório demonstrado viola os direitos das partes à defesa e ao contraditório.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n* **obligation_to_ground_decision_in_identified_ratio_decidendi**: Violado\n* **due_process_of_law**: Violado\n\nEsses predicados foram violados porque a decisão interlocutória não foi fundamentada e explicou quais documentos seriam suficientes para demonstrar o fato probatório em questão, além de não ter sido garantido um processo justo e equitativo às partes.",
+  "tokens_in": 350,
+  "tokens_out": 393,
+  "latency_ms": 6577,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

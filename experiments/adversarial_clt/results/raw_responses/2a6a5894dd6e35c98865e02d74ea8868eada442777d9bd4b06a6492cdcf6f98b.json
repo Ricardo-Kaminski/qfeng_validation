@@ -1,0 +1,26 @@
+{
+  "sha256": "2a6a5894dd6e35c98865e02d74ea8868eada442777d9bd4b06a6492cdcf6f98b",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T21:59:24Z",
+  "prompt_sha": "a468f9337a1667ebe471a714d6ab4b8f17bcd68f8f75d3aa6e375913dc2f76bf",
+  "response_text": "### 1. **ANÁLISE: Aplicação dos predicados normativos ao caso concreto**  \n- **Obrigação de fundamentar a decisão em ratio decidendi identificado (obligation_to_ground_decision_in_identified_ratio_decidendi):**  \n  O juiz negou seguimento ao recurso sem especificar qual dispositivo legal (artigo, parágrafo ou inciso) da legislação trabalhista ou constitucional foi invocado como fundamento da decisão. Isso viola o princípio constitucional de **fundamentação jurisdicional**, previsto no **Art. 93, IX, da CF/88**, que exige que **todas as decisões judiciais sejam fundamentadas com clareza e especificidade**, indicando o **ratio decidendi** (motivo jurídico que justifica a decisão). A ausência de fundamentação específica torna a decisão **inadmissível**, pois não permite ao reclamante ou ao Ministério Público contestar a aplicação da lei ou avaliar a legalidade da negativa de seguimento.  \n\n- **Direito ao devido processo legal (due_process_of_law):**  \n  A negativa de seguimento sem fundamentação específica viola o **princípio do devido processo legal**, garantido no **Art. 5º, LIV, da CF/88**, que assegura ao cidadão o direito de **defender-se com ampla defesa e contraditório**. A falta de fundamentação impede a efetiva defesa do reclamante, pois não há como ele ou seu advogado contestar a aplicação de uma norma ou avaliar se a decisão foi baseada em erro de fato, de direito ou de interpretação jurisprudencial.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **decisão de negar seguimento ao recurso ordinário deve ser anulada**, com determinação para que o juiz:  \n- **Reavalie a petição** com base no **Art. 896, § 1º, da CLT**, que permite a negativa de seguimento somente se o recurso for manifestamente protelatório, **sem prejuízo ao direito do reclamante**;  \n- **Fundamente a decisão com clareza**, indicando **qual dispositivo legal** (ex.: Art. 896, § 1º, CLT) e **qual fundamento jurisprudencial** (se aplicável) foi utilizado para caracterizar a protelatoriedade;  \n- **Ofereça ao reclamante a oportunidade de manifestar-se** sobre a fundamentação proposta, garantindo o **contraditório**.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Violados:**  \n  - **obligation_to_ground_decision_in_identified_ratio_decidendi** (não foi especificado qual dispositivo legal ou jurisprudencial fundamentou a negativa de seguimento).  \n  - **due_process_of_law** (a falta de fundamentação inviabilizou a defesa do reclamante e violou o direito ao contraditório).  \n\n- **Cumpridos:**  \n  - Nenhum. A decisão do juiz **não cumpriu** nenhuma das obrigações normativas previstas nos predicados listados.  \n\n---\n\n### **Conclusão:**  \nA negativa de seguimento ao recurso, sem fundamentação específica, é **ilegal e inconstitucional**, pois viola o **princípio da fundamentação jurisdicional** e o **direito ao devido processo legal**. A decisão deve ser anulada, e o juiz deve reavaliar o caso com observância aos predicados normativos aplicáveis.",
+  "tokens_in": 349,
+  "tokens_out": 1288,
+  "latency_ms": 38827,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

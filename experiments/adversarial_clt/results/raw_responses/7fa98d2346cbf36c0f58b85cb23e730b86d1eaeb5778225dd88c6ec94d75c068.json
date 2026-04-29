@@ -1,0 +1,29 @@
+{
+  "sha256": "7fa98d2346cbf36c0f58b85cb23e730b86d1eaeb5778225dd88c6ec94d75c068",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-006",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T22:29:36Z",
+  "prompt_sha": "b5f3c80de151d181ed81c9553198da00fb088cfbddccc1f18b7d78267efcf67e",
+  "response_text": "### 1. **ANÁLISE**  \n**a) Predicado `semester_hour_bank_requires_cct_or_act`:**  \nO banco de horas semestral, conforme previsto no art. 59 da CLT, **requer a existência de um Acordo Coletivo de Trabalho (ACT) ou Convenção Coletiva de Trabalho (CCT)**, que devem ser celebrados com a participação obrigatória do sindicato representativo da categoria. No caso, a empresa aprovou o banco de horas por meio de **assembleia interna dos empregados**, **sem a presença do sindicato**. Isso **viola o requisito legal de que a norma coletiva (ACT/CCT) deve ser negociada com o sindicato**, conforme determina o art. 59, §2º da CLT. A assembleia interna, por si só, **não substitui a negociação coletiva com o sindicato**, mesmo que a maioria dos empregados tenha concordado com o regulamento.  \n\n**b) Predicado `recognition_of_collective_bargaining`:**  \nA **negociação coletiva** (base para a celebração de ACT/CCT) **exige a participação do sindicato representativo**, conforme reforçado pela jurisprudência do TST (ex.: Súmula 363, que afirma que a negociação coletiva é direito exclusivo do sindicato). A ausência do sindicato na assembleia interna **viola o princípio da representatividade sindical**, que é **obrigatório para a validade de normas coletivas**. Assim, a aprovação do regulamento por assembleia sem sindicato **não reconhece a negociação coletiva** como previsto na legislação.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **empresa deve ser condenada** por violar os requisitos legais para a implementação do banco de horas semestral. A **assembleia interna, sem a participação do sindicato, não é equivalente a um ACT/CCT**, conforme previsto no art. 59, §2º da CLT. A **norma interna aprovada** é **inválida**, pois **não cumpre os requisitos de negociação coletiva com o sindicato**. A empresa deve:  \n- **Revogar o regulamento interno** aprovado;  \n- **Negociar com o sindicato representativo** para celebrar um ACT/CCT válido;  \n- **Compensar eventuais horas extras** ou benefícios indevidamente concedidos sob o regime inválido, se aplicável.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **`semester_hour_bank_requires_cct_or_act`**: **Violação**.  \n  A empresa não celebrou um ACT/CCT válido, pois a assembleia interna **não substitui a negociação coletiva com o sindicato**.  \n\n- **`recognition_of_collective_bargaining`**: **Violação**.  \n  A **ausência do sindicato** na assembleia **viola o princípio da representatividade sindical**, essencial para a validade da norma coletiva.  \n\n**Conclusão**: **Ambos os predicados normativos são violados** no cenário descrito.",
+  "tokens_in": 361,
+  "tokens_out": 1197,
+  "latency_ms": 36860,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

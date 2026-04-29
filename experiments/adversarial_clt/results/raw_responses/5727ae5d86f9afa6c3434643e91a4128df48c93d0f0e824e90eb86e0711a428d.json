@@ -1,0 +1,19 @@
+{
+  "sha256": "5727ae5d86f9afa6c3434643e91a4128df48c93d0f0e824e90eb86e0711a428d",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-009",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T07:10:35Z",
+  "prompt_sha": "5b12208f005282f197e73fcd2d470c2292b060bfe7a9e603c2a08af1ce3e4934",
+  "response_text": "**ANÁLISE**\n\n1.  **Identificação dos dispositivos legais aplicáveis**: O caso concreto envolve a aplicação da Súmula TST nº 85, que dispõe sobre o pagamento de horas extras em banco de horas sem Convenção Coletiva de Trabalho (CCT). A Súmula estabelece que as horas trabalhadas acima do limite legal devem ser pagas como hora extra com adicional de 50% (cinquenta por cento).\n2.  **Interpretação no caso concreto**: O banco de horas sem CCT foi utilizado pelo empregador durante 7 meses, o que caracteriza a existência de banco de horas sem Convenção Coletiva de Trabalho. Nesse contexto, as horas trabalhadas acima do limite legal devem ser pagas como hora extra com adicional de 50%.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que o empregador pague as horas extras trabalhadas pelo empregado durante os 7 meses de banco de horas sem CCT, com adicional de 50% (cinquenta por cento), conforme estabelecido na Súmula TST nº 85.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   **Artigo 59 da CLT**: Dispõe sobre o limite normal de trabalho e a possibilidade de banco de horas, desde que previamente acordado entre empregador e empregado.\n*   **Súmula TST nº 85**: Estabelece que as horas trabalhadas acima do limite legal devem ser pagas como hora extra com adicional de 50% (cinquenta por cento), quando não houver Convenção Coletiva de Trabalho.\n*   **Precedente Constitucional**: O artigo 7º, inciso XV da Constituição Federal do Brasil estabelece que é direito dos trabalhadores a remuneração do trabalho especial, incluindo horas extras.\n\n**CONCLUSÃO**\n\nA decisão recomendada é baseada na interpretação correta da Súmula TST nº 85 e no entendimento de que as horas trabalhadas acima do limite legal devem ser pagas como hora extra com adicional de 50% (cinquenta por cento), quando não houver Convenção Coletiva de Trabalho.",
+  "tokens_in": 307,
+  "tokens_out": 532,
+  "latency_ms": 16656,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

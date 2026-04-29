@@ -1,0 +1,19 @@
+{
+  "sha256": "03acb44ed013613bf939d4159802370e6418eff7dbb975b66f05bddbdaca2a2b",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T20:08:33Z",
+  "prompt_sha": "8d4ac12f0cc6e5150af73dba91fd8c1fbec988bd7586fea25703d7eb141373ba",
+  "response_text": "**ANÁLISE**\n\nOs dispositivos do contexto normativo aplicáveis ao caso são:\n\n*   Art. 489, §1°, V do Código de Processo Civil (CPC), que exige a demonstração de aplicabilidade da decisão ao caso concreto.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é a anulação da decisão do TRT por não ter feito o cotejo fático entre os fatos do precedente e os fatos do caso concreto em julgamento, conforme exigido pelo CPC Art. 489, §1°, V.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação normativa é baseada no seguinte dispositivo:\n\n*   Código de Processo Civil (CPC), Art. 489, §1°, V: \"V - a decisão exorbitante ou manifestamente contrária à garantia constitucional da isonomia\".\n\nEssa regra estabelece que as partes têm direito a uma fundamentação adequada das decisões judiciais, incluindo a demonstração de aplicabilidade do precedente ao caso concreto.",
+  "tokens_in": 303,
+  "tokens_out": 248,
+  "latency_ms": 4315,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

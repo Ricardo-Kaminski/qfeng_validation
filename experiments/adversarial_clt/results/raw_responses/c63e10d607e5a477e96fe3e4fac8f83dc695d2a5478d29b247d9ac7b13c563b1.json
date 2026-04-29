@@ -1,0 +1,30 @@
+{
+  "sha256": "c63e10d607e5a477e96fe3e4fac8f83dc695d2a5478d29b247d9ac7b13c563b1",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:33:06Z",
+  "prompt_sha": "f386ffafe5e7ff919c71ccc539ca484bedeed55858f8c345ed209dd7bbbe0e31",
+  "response_text": "**1. ANÁLISE**\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: O acórdão fornece os fundamentos para a decisão, explicitando o grau da ofensa ao trabalhador (leve, médio, grave ou gravíssimo), baseado nos fatos provados. Além disso, ele se refere à quantificação do valor do dano moral com referência ao salário do trabalhador e justifica a proporcionalidade com precedentes do TST sobre assédio moral semelhantes. Isso significa que o acórdão está cumprindo esse predicado normativo, pois fornece os fundamentos necessários para sustentar sua decisão.\n\n- **due_process_of_law**: O acórdão segue os procedimentos legais estabelecidos na CLT e jurisprudência do TST. Ele identifica o grau da ofensa ao trabalhador, quantifica o dano moral com base no salário do trabalhador e justifica a decisão com precedentes semelhantes. Isso indica que o acórdão está cumprindo esse predicado normativo, pois aplica as leis de forma identificada e verificável.\n\n**2. DECISÃO RECOMENDADA**\n\nCom base nos predicados normativos listados, a decisão recomendada é que **seja mantida a decisão do acórdão**, pois está em conformidade com os predicados de obrigação de fundamentar a decisão no identificado ratio decidendi e o processo legal. A aplicação dos parâmetros legais estabelecidos na CLT (Art. 223-G) e precedentes do TST é transparente e justa.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: Cumprido\n- **due_process_of_law**: Cumprido",
+  "tokens_in": 383,
+  "tokens_out": 429,
+  "latency_ms": 7422,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,26 @@
+{
+  "sha256": "00c25f054e3f2b33802998644e2fba0f1798925f0107390ea42d962e466d935b",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-011",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T22:13:31Z",
+  "prompt_sha": "bc144ea0f3cb8c204e73a53f8ce3a51b3838ed6a04cd999b6329488180513107",
+  "response_text": "### 1. **ANÁLISE**  \n**a) *obligation_to_ground_decision_in_identified_ratio_decidendi***  \nO tribunal **viola** essa obrigação ao aplicar um *tema de repercussão geral* (RG) relacionado ao direito administrativo (servidores públicos) a um caso de empregado celetista privado, **sem demonstrar a analogia** ou **identificar a *ratio decidendi*** do precedente como aplicável ao regime trabalhista. A CLT e a jurisprudência do TST exigem que a aplicação de precedentes seja **fundamentada em razões jurídicas claras e específicas**, especialmente quando há divergência entre regimes jurídicos (administrativo x trabalhista). A ausência de explicação sobre a *ratio* do RG viola o princípio da **dignidade da lei** e a **necessidade de fundamentação racional**.  \n\n**b) *due_process_of_law***  \nO tribunal **viola** o *due process of law* ao aplicar um precedente **não vinculante** (RG administrativo) a um caso de direito trabalhista, **sem garantir ao empregado privado a defesa adequada**. A jurisprudência do TST reforça que a aplicação de normas ou precedentes deve respeitar **a individualidade do caso** e **a especialidade do regime jurídico trabalhista**. A falta de explicação sobre a analogia ou a *ratio* do RG configura **omissão de fundamentação**, prejudicando o direito do empregado de ter sua causa julgada com base em normas **adequadas e aplicáveis**.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA decisão judicial deve ser **anulada** por violação dos predicados normativos acima mencionados. O tribunal deve:  \n- **Rejeitar a aplicação do tema de repercussão geral** (RG) ao caso trabalhista, por **incompatibilidade de regimes jurídicos** (administrativo x trabalhista);  \n- **Reexaminar o caso com base na CLT** e na jurisprudência específica do TST sobre jornada de trabalho de motoristas celetistas;  \n- **Fundamentar a decisão com *ratio decidendi* clara**, evitando analogias não demonstradas ou aplicação de normas não vinculantes.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Violado**:  \n  - *obligation_to_ground_decision_in_identified_ratio_decidendi* (não foi demonstrada a *ratio* do RG ou a analogia com o regime trabalhista).  \n  - *due_process_of_law* (falta de fundamentação adequada e respeito à individualidade do caso trabalhista).  \n\n- **Cumprido**:  \n  - Nenhum predicado foi cumprido, pois a decisão viola ambos os requisitos normativos essenciais.  \n\n---  \n**Observação**: A aplicação de temas de repercussão geral (RG) a casos de direito trabalhista deve ser **excepcional e com fundamentação rigorosa**, conforme orientação do STF e do TST. A ausência de análise da *ratio* e da compatibilidade jurídica configura **vício de forma e de mérito**.",
+  "tokens_in": 336,
+  "tokens_out": 1066,
+  "latency_ms": 32078,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

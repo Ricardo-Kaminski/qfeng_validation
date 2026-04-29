@@ -1,0 +1,19 @@
+{
+  "sha256": "608f6cc360721df892d760f6b8a6a4590fbf8159b5a9b321b64b32c5c977072c",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-010",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T20:10:57Z",
+  "prompt_sha": "61ed44dd5bcc3549f917650ab49d8dde3eae25e7e112d9e35123b6d997b8fa3e",
+  "response_text": "**ANÁLISE**\n\nO caso em questão envolve a análise de uma decisão em embargos de declaração que afirmou a falta de contradição sem examinar adequadamente o ponto específico apontado pela parte embargante. A questão central é se houve aplicação indevida de tese de recurso de uma das partes para beneficiar a outra, sem contraditório.\n\n**DISPOSITIVOS DO CONTEXTO NORMATIVO APLICÁVEIS**\n\nOs dispositivos do contexto normativo que são relevantes para o caso em questão incluem:\n\n1. **Artigo 216 do Código de Processo Civil (CPC)**: Este artigo trata sobre os embargos declaratórios, que são recursos utilizados para esclarecer ou complementar a decisão de uma instância superior.\n2. **Súmula Vinculante nº 5 do Supremo Tribunal Federal (STF)**: Esta súmula estabelece que \"A contrariedade à Súmula ou à Orientação do Tribunal não é óbice para o conhecimento de recurso, salvo quando a decisão recorrida tiver sido proferida por Órgão Jurisdicional colegiado\".\n\n**DECISÃO RECOMENDADA**\n\nConsiderando os dispositivos normativos aplicáveis, a decisão recomendada seria:\n\n- **Rejeição dos embargos de declaração**: Isso porque o juiz já havia afirmado não haver contradição sem analisar o ponto específico apontado pela parte embargante. A rejeição dos embargos de declaração significa que a decisão original permanece intacta, mas com a necessidade de uma análise mais detalhada do ponto específico de contradição.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação normativa para essa decisão é baseada na necessidade de cumprimento dos requisitos processuais e no princípio da segurança jurídica. O artigo 216 do CPC estabelece que os embargos declaratórios têm o objetivo de esclarecer ou complementar a decisão, não de alterá-la. Além disso, a Súmula Vinculante nº 5 do STF enfatiza a importância da análise das questões processuais antes de se chegar a uma conclusão.\n\n**LIMITAÇÃO**\n\nO contexto fornecido não contém norma específica sobre o procedimento para lidar com a aplicação indevida de teses de recurso sem contraditório. No entanto, os dispositivos mencionados anteriormente oferecem orientação geral sobre os embargos declaratórios e a importância da análise das questões processuais.",
+  "tokens_in": 283,
+  "tokens_out": 601,
+  "latency_ms": 10121,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

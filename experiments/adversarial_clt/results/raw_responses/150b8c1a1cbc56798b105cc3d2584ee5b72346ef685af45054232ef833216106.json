@@ -1,0 +1,19 @@
+{
+  "sha256": "150b8c1a1cbc56798b105cc3d2584ee5b72346ef685af45054232ef833216106",
+  "braco": "B1",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-27T21:15:32Z",
+  "prompt_sha": "1b16cff2fe61b19ccd39391d68ae7919bd21cd1c508bc8a32996d5405ad80e90",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos legais aplicáveis e sua interpretação no caso concreto**  \nA implementação de um **banco de horas** com compensação em prazo de 4 meses, mediante **Acordo Coletivo de Trabalho (ACT)**, está sujeita a requisitos legais específicos, especialmente a **obrigatoriedade de registro** na **Superintendência Regional do Trabalho (SRTE)**. A ausência de registro no prazo legal invalida o ACT, independentemente da intenção das partes.  \n\n- **Art. 611 da CLT**: Estabelece que os acordos coletivos de trabalho devem ser **registrados na SRTE** para ter validade legal. A falta de registro implica **nulidade do acordo**, mesmo que as partes concordem com sua validade.  \n- **Art. 612 da CLT**: Complementa o art. 611 ao determinar que a **falta de registro** pode ser considerada **nulidade absoluta** do acordo, salvo se comprovada a impossibilidade de registro (ex.: caso fortuito).  \n- **Súmula 187 do TST**: \"O registro do acordo coletivo de trabalho na SRTE é condição **sine qua non** para sua validade.\"  \n- **Súmula 334 do TST**: \"A falta de registro do acordo coletivo de trabalho na SRTE, dentro do prazo legal, pode ensejar sua **nulidade**, salvo se comprovada a impossibilidade de registro.\"  \n\nNo caso concreto, a **empresa alega que o registro seria mera formalidade**, mas a jurisprudência do TST e a CLT são claras: **o registro é condição essencial para a validade do ACT**, não apenas uma formalidade. A ausência de registro no prazo legal (art. 611, CLT) torna o acordo **nulo**, independentemente da intenção das partes.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**A ACT não é válida** devido à ausência de registro na SRTE dentro do prazo legal. Portanto, **a compensação de horas mediante o banco de horas não pode ser aplicada**, e os direitos dos trabalhadores devem ser calculados com base nas **regras gerais da CLT** (ex.: pagamento de horas extras, limites de jornada, etc.).  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 611 da CLT**: \"Os acordos coletivos de trabalho, celebrados entre sindicatos e empregadores ou entre sindicatos e sindicatos, devem ser **registrados na SRTE** para ter validade legal.\"  \n- **Art. 612 da CLT**: \"A falta de registro do acordo coletivo de trabalho pode ser considerada **nulidade absoluta**, salvo se comprovada a impossibilidade de registro.\"  \n- **Súmula 187 do TST**: \"O registro do acordo coletivo de trabalho na SRTE é condição **sine qua non** para sua validade.\"  \n- **Súmula 334 do TST**: \"A falta de registro do acordo coletivo de trabalho na SRTE, dentro do prazo legal, pode ensejar sua **nulidade**, salvo se comprovada a impossibilidade de registro.\"  \n- **Art. 7º, XV da CF/88**: Garante o direito de negociação coletiva, mas **não substitui a obrigatoriedade de registro** para validade legal.  \n\n**Conclusão**: A **nulidade do ACT** por falta de registro impõe que a empresa cumpra as regras da CLT para compensação de horas, como o pagamento de horas extras (art. 59 da CLT) e o cumprimento do limite de 8 horas diárias (art. 48 da CLT). A empresa deve, portanto, **revisar a compensação de horas** e **regularizar a situação** com os trabalhadores.",
+  "tokens_in": 284,
+  "tokens_out": 1390,
+  "latency_ms": 132359,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

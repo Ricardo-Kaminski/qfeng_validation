@@ -1,0 +1,19 @@
+{
+  "sha256": "8601b01f15a2b237534b5aa6ecf1457b9e791073b5c32a137ebafb406f5fcf2c",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T03:01:21Z",
+  "prompt_sha": "1e341e982e1a35ab11bab19385006224847929ef3611cc55df3a70399df78ec8",
+  "response_text": "### ANÁLISE:\n\nNo cenário apresentado, o trabalhador foi demitido sem justa causa após três anos de serviço. A empresa cumpriu todas as obrigações legais referentes à rescisão contratual dentro do prazo estipulado pela legislação trabalhista brasileira.\n\n#### Dispositivos Legais Aplicáveis:\n\n1. **Aviso Prévio Indenizado**: De acordo com o artigo 487 da CLT, o empregador pode optar por indenizar o aviso prévio, pagando ao empregado a importância correspondente aos dias de salário que teria recebido se tivesse trabalhado durante esse período.\n\n2. **Férias Proporcionais e 1/3 Constitucional**: O artigo 129 da CLT estabelece o direito ao pagamento das férias proporcionais, acrescido de um terço sobre elas, quando a rescisão ocorre antes do término do período normal.\n\n3. **13º Salário Proporcional**: Conforme o artigo 11 da Lei nº 4.749/65, o empregado tem direito ao pagamento proporcional do décimo terceiro salário até o mês em que ocorreu a rescisão contratual.\n\n4. **FGTS e Multa de 40%**: O artigo 20 da Lei nº 8.036/90 determina o depósito do FGTS na conta vinculada do empregado, além da multa de 40% sobre o saldo devedor em caso de demissão sem justa causa.\n\n5. **Saldo de Salário**: Deve ser pago conforme previsto no artigo 474 da CLT, que trata das verbas rescisórias a serem pagas na data do desligamento.\n\n6. **Habilitação ao Seguro-Desemprego**: O empregado tem direito ao seguro-desemprego após o término involuntário do contrato de trabalho sem justa causa, conforme regulamentação da Previdência Social.\n\n### DECISÃO RECOMENDADA:\n\nA decisão recomendada é que o trabalhador não tenha qualquer ação legal contra a empresa em relação à rescisão contratual, pois todas as obrigações legais foram cumpridas corretamente e no prazo estipulado pela legislação. A assinatura do recibo na presença do sindicato fortalece a validade da rescisão.\n\n### FUNDAMENTAÇÃO NORMATIVA:\n\n1. **Artigo 487 da CLT**: Trata-se da possibilidade de indenização do aviso prévio, que foi cumprida pela empresa ao pagar os dias correspondentes em salário.\n\n2. **Artigo 129 da CLT**: Estabelece o direito a férias proporcionais e acrescidas de um terço, conforme observado no pagamento feito à rescisão.\n\n3. **Artigo 11 da Lei nº 4.749/65**: Regula o pagamento proporcional do décimo terceiro salário até o mês em que ocorreu a rescisão.\n\n4. **Artigo 20 da Lei nº 8.036/90**: Determina o depósito do FGTS e a multa de 40% sobre o saldo devedor, conforme cumprido pela empresa.\n\n5. **Súmula 443 do TST**: \"A assinatura do recibo de rescisão contratual pelo empregado não obsta sua impugnação judicial.\"\n\n   No entanto, a presença do sindicato na assinatura fortalece a validade da rescisão, conforme entendimento jurisprudencial que valoriza a participação sindical no processo.\n\n6. **Súmula 378 do TST**: \"É devida a multa de 40% sobre o saldo de FGTS em caso de demissão sem justa causa.\"\n\n   Esta súmula confirma a obrigatoriedade e correção da multa aplicada pela empresa.\n\n### CONCLUSÃO:\n\nConsiderando que todas as verbas rescisórias foram pagas corretamente, no prazo legal, e com a presença do sindicato na assinatura do recibo de rescisão, não há base legal ou fática para qualquer contestação por parte do trabalhador. A empresa cumpriu integralmente suas obrigações conforme a legislação vigente.",
+  "tokens_in": 321,
+  "tokens_out": 975,
+  "latency_ms": 54328,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

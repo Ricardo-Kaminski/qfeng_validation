@@ -1,0 +1,26 @@
+{
+  "sha256": "9d77629b6e75664343fb798368aeb153ba78c4738d9c876d5a85a77cd93a2ada",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:59:22Z",
+  "prompt_sha": "edebec9d75758a7769d5b8b57f9d98a0d77aec6e3dfbd734a37cbb83239e8736",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nA decisão do TRT viola normas constitucionais e processuais trabalhistas, conforme os predicados soberanos ativos. O **predicado *obrigação de explicitar as consequências práticas da decisão*** (sovereign(obligation_to_state_practical_consequences_of_decision)) impõe que a sentença deve demonstrar claramente os efeitos concretos da condenação, como o cálculo das horas de sobreaviso. A ausência de tal explicação viola esse princípio.  \n\nO **predicado *proibição de citação genérica de precedentes*** (sovereign(prohibition_of_generic_precedent_citation)) exige que a decisão se baseie em normas vigentes e atualizadas. A citação da OJ 394, cancelada em 2012 e substituída pela Súmula 428, configura uma violação dessa regra, pois o TRT não reconheceu a mudança legal.  \n\nO **predicado *obrigação de abordar todos os argumentos jurídicos*** (sovereign(obligation_to_address_all_legal_arguments)) exige que a decisão examine todas as questões levantadas, incluindo a invalidade da OJ 394 e a aplicação da Súmula 428. A omissão desse exame viola a imparcialidade e a exaustividade do julgamento.  \n\nO **predicado *obrigação de fundamentar a decisão no *ratio decidendi* identificado*** (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)) impõe que a sentença seja fundamentada em uma razão jurídica clara e específica. A ausência de uma fundamentação que reconheça a Súmula 428 e a invalidade da OJ 394 viola esse princípio.  \n\nO **predicado *obrigação constitucional de fundamentar decisões*** (sovereign(constitutional_obligation_to_state_reasons_for_decisions)) e o **direito ao acesso à justiça** (sovereign(right_of_access_to_justice_and_judicial_review)) reforçam que a sentença deve ser transparente e revisável, o que não ocorreu.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O tribunal deve explicar, de forma clara, como a decisão afeta os direitos e deveres das partes (ex.: como as horas de sobreaviso são calculadas).  \n- **sovereign(prohibition_of_generic_precedent_citation)**: O tribunal não pode usar precedentes desatualizados ou cancelados (como a OJ 394) sem reconhecer sua invalidade.  \n- **sovereign(obligation_to_address_all_legal_arguments)**: O tribunal deve analisar todos os argumentos jurídicos levantados, incluindo a mudança legal que invalidou a OJ 394.  \n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão deve ser fundamentada em uma razão jurídica específica (ex.: a Súmula 428), não em normas obsoletas.  \n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: A sentença deve expor, de forma transparente, as razões que levaram à condenação, garantindo a revisão judicial.  \n- **sovereign(right_of_access_to_justice_and_judicial_review)**: O trabalhador tem direito a uma decisão que possa ser revisada, o que não ocorreu ao omitir a Súmula 428.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA sentença do TRT está errada porque:  \n1. **Não explicou direito**: O juiz não disse claramente como a condenação por horas de sobreaviso afeta o trabalhador ou a empresa.  \n2. **Usou uma regra antiga**: O juiz citou uma regra que foi cancelada em 2012, mas não mencionou a nova regra (Súmula 428) que substituiu a antiga.  \n3. **Ignorou argumentos**: O juiz não analisou a mudança legal que invalidou a regra antiga, o que é obrigatório.  \n4. **Não fundamentou a decisão**: A sentença não explica por que a condenação foi feita, o que é necessário para que a decisão seja revisada.  \n5. **Violou o direito à justiça**: O trabalhador tem direito a uma sentença clara e revisável, o que não aconteceu.  \n\nEm resumo, a sentença do TRT não seguiu as regras básicas de justiça e transparência, o que a torna inválida.",
+  "tokens_in": 523,
+  "tokens_out": 1536,
+  "latency_ms": 49062,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

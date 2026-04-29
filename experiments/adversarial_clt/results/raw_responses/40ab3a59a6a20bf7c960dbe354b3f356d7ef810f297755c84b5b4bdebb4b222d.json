@@ -1,0 +1,30 @@
+{
+  "sha256": "40ab3a59a6a20bf7c960dbe354b3f356d7ef810f297755c84b5b4bdebb4b222d",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-008",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T23:17:33Z",
+  "prompt_sha": "f386ffafe5e7ff919c71ccc539ca484bedeed55858f8c345ed209dd7bbbe0e31",
+  "response_text": "### 1. **ANÁLISE**  \n- **obligation_to_ground_decision_in_identified_ratio_decidendi**:  \n  O acórdão cumpre essa obrigação ao fundamentar a decisão com base em **predicados legais identificados e verificáveis**, como:  \n  - A aplicação do **CLT Art. 223-G (pós-reforma de 2017)**, que estabelece critérios para a quantificação de danos morais trabalhistas.  \n  - A **identificação do grau da ofensa** (leve, médio, grave ou gravíssimo) com fundamento nos **fatos provados**, garantindo que a decisão seja baseada em elementos concretos e não em conjecturas.  \n  - A **quantificação do valor** com referência ao **salário do trabalhador**, conforme determinado no **§1º do CLT Art. 223-G**, que define limites e critérios de proporcionalidade.  \n  - A **referência a precedentes do TST** sobre casos similares de assédio moral, assegurando a **uniformidade jurisprudencial** e a **adequação da decisão ao contexto legal**.  \n\n- **due_process_of_law**:  \n  O acórdão respeita o **devido processo legal** ao:  \n  - **Avaliar fatos provados**, garantindo que a decisão não se baseie em informações não comprovadas.  \n  - **Aplicar normas de forma objetiva e proporcional**, evitando arbitrariedade.  \n  - **Explicar a proporcionalidade** da quantificação do dano moral com base em **precedentes do TST**, assegurando transparência e razoabilidade na aplicação da lei.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA decisão deve **confirmar a validade do acórdão** e **recomendar sua manutenção**, pois:  \n- A aplicação do **CLT Art. 223-G** e seus dispositivos complementares foi **rigorosa e fundamentada**, observando os critérios de **grau da ofensa**, **proporcionalidade** e **referência a jurisprudência consolidada**.  \n- O **devido processo legal** foi respeitado, com base em **fatos provados** e **aplicação equilibrada da lei**, evitando excessos ou omissões.  \n- A **quantificação do dano moral** foi feita com **transparência e fundamentação jurídica**, assegurando a **justiça material** e a **confiabilidade do julgamento**.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: **Conformidade**.  \n  O acórdão cumpre a obrigação de fundamentar a decisão com **predicados legais identificados e verificáveis**, como a aplicação do CLT Art. 223-G, a análise do grau da ofensa e a referência a precedentes do TST.  \n\n- **due_process_of_law**: **Conformidade**.  \n  O acórdão respeita o **devido processo legal**, com base em **fatos provados**, **aplicação proporcional da lei** e **transparência na fundamentação**. Não há indícios de violação desse predicado.  \n\n**Nenhum predicado foi violado** no cenário descrito. A decisão está **em pleno conformidade** com os requisitos legais e processuais estabelecidos.",
+  "tokens_in": 387,
+  "tokens_out": 1354,
+  "latency_ms": 41453,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

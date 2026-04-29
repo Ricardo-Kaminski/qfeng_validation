@@ -1,0 +1,27 @@
+{
+  "sha256": "a5e93ac119124e77788a57c5eb9978a30eb9a40c1ea5e7cb661b321d31d7a588",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T01:27:03Z",
+  "prompt_sha": "14b6f55520b996d23d5c895d459de69f73ca99dfa99a77933f3f5ac637db2f97",
+  "response_text": "**ANÁLISE**\n\n1. **hour_bank_with_cct_max_1_year**: Este predicado normativo estabelece que a duração máxima de um banco de horas, quando previsto em uma Convenção Coletiva de Trabalho (CCT), é de 1 ano. A CCT do setor farmacêutico prevê o banco de horas anual renovável automaticamente.\n\nNo cenário apresentado, o trabalhador acumulou horas por 12 meses, o que atinge a duração máxima prevista pela cláusula da CCT. A empresa solicitou extensão por mais 3 meses sem nova negociação coletiva, alegando que a cláusula de renovação automática cobriria esse período adicional.\n\n2. **hour_bank_with_cct_max_1_year**: O predicado normativo é aplicável porque a CCT prevê um prazo máximo de 1 ano para o banco de horas, e o trabalhador já atingiu esse limite com suas horas acumuladas.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando que a duração máxima do banco de horas estabelecida na CCT é de 1 ano e que o trabalhador já acumulou horas por esse período, a decisão recomendada seria que a prorrogação sem nova negociação coletiva seja considerada incompatível com as normas da CLT e jurisprudência do TST.\n\n**PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **hour_bank_with_cct_max_1_year**: Violação. A empresa solicitou a prorrogação por mais 3 meses sem nova negociação coletiva, ultrapassando o limite de 1 ano estabelecido na CCT.\n\n**CONCLUSÃO**\n\nA decisão recomendada é que se considere incompatível com as normas da CLT e jurisprudência do TST a prorrogação do banco de horas sem nova negociação coletiva, uma vez que o trabalhador já atingiu o limite máximo de 1 ano estabelecido na CCT.",
+  "tokens_in": 369,
+  "tokens_out": 468,
+  "latency_ms": 7811,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

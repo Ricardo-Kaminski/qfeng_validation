@@ -1,0 +1,30 @@
+{
+  "sha256": "54b2b1883b1952f1be217850699ef59395f93bc8414a94713095d4957cd1b803",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-007",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:32:42Z",
+  "prompt_sha": "87cfca1418f3f656618cfac13aa7f2dd97f0633ba491f0fa22ab0f1a80de9a98",
+  "response_text": "**1. ANÁLISE**\n\na. **obligation_to_ground_decision_in_identified_ratio_decidendi**: O predicado normativo exige que a decisão seja fundamentada em uma razão decidente específica, relacionada ao caso concreto. Nesse cenário, a decisão do TRT foi fundamentada na CF/88 Art. 10, II, \"b\" (ADCT), Súmula TST 244 e OJ 399 da SDI-1, que são todos relevantes para o caso de rescisão de gestante. Além disso, a decisão analisa explicitamente os requisitos de estabilidade provisória e afasta a exigência de comunicação prévia da gravidez ao empregador, utilizando-se das referências normativas adequadas. Portanto, esse predicado foi cumprido.\n\nb. **due_process_of_law**: O predicado exige que o processo seja conduzido de acordo com as regras do direito processual e que todas as partes tenham sido ouvidas e tivessem a oportunidade de se defender. Nesse cenário, não há menção à violação dos princípios do devido processo legal. A decisão menciona a análise dos fatos provados (gravidez ocorreu antes da dispensa) e fundamenta-se em normas legais aplicáveis ao caso. Além disso, o fato de citar Súmula TST 244 e OJ 399 da SDI-1 sugere que as partes foram ouvidas e tiveram a oportunidade de se defender sobre esses aspectos específicos. Portanto, esse predicado também foi cumprido.\n\n**2. DECISÃO RECOMENDADA**\n\nCom base nos predicados acima, a decisão do TRT parece ser correta e fundamentada nas normas aplicáveis ao caso concreto. A análise dos fatos (gravidez ocorreu antes da dispensa) e a aplicação das normas legais (CF/88 Art. 10, II, \"b\" (ADCT), Súmula TST 244 e OJ 399 da SDI-1) são procedimentos adequados para resolver o caso de rescisão de gestante. Portanto, a decisão recomendada é que seja mantida a decisão do TRT.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: Cumprido\n- **due_process_of_law**: Cumprido",
+  "tokens_in": 387,
+  "tokens_out": 560,
+  "latency_ms": 9406,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

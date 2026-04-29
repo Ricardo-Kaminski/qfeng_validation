@@ -1,0 +1,19 @@
+{
+  "sha256": "a233008a58b983bfed1ce332c2f112320463ee17546f6a41851c5a001df14722",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T10:08:13Z",
+  "prompt_sha": "92aecfbcd48b18b24b7145bd3115c2c41dd569d979ba575e89a78b84c16595e4",
+  "response_text": "### 1. **ANÁLISE**  \nOs dispositivos normativos aplicáveis ao caso são:  \n- **Súmula TST 60**, que estabelece que *“o adicional noturno, em regime de revezamento, integra a remuneração do trabalhador”*.  \n- A **distinção** entre regimes de revezamento e turnos fixos (não noturnos) mencionada no contexto, que reforça a aplicação da Súmula 60 apenas quando há **revezamento noturno**.  \n\nNo caso concreto, o empregado trabalha em **regime 12x36 com períodos noturnos fixos**, o que **não se enquadra** no regime de revezamento descrito na Súmula 60. No entanto, o TRT aplicou a Súmula 60, **identificando que o regime do trabalhador se enquadra na hipótese da Súmula**, o que **contradiz a distinção** entre revezamento e turnos fixos.  \n\n### 2. **DECISÃO RECOMENDADA**  \nA **decisão deve ser reformada**, pois a aplicação da Súmula 60 ao caso de **turno fixo noturno** (e não de revezamento) **não é compatível com o dispositivo normativo**. A Súmula 60 se aplica **exclusivamente a regimes de revezamento noturno**, enquanto o regime 12x36 com turnos fixos **não integra o adicional noturno à remuneração** de forma automática.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Súmula TST 60**: *“O adicional noturno, em regime de revezamento, integra a remuneração do trabalhador”*.  \n  - **Aplicação**: A Súmula 60 **não se aplica** a regimes de **turno fixo noturno**, pois o **revezamento** é um elemento essencial para sua aplicação.  \n- **Distinção no contexto**: O TRT **explicitou** que a Súmula 60 **não se aplica a turnos fixos não noturnos**, mas **não considerou** a diferença entre **turnos fixos noturnos** e **revezamento noturno**.  \n\n**Limitação normativa**: O contexto **não menciona dispositivos legais** que abrangem **turnos fixos noturnos** (como a CLT, art. 193, que trata do adicional noturno em geral). A aplicação da Súmula 60 a regimes de **turno fixo noturno** **não está autorizada** por normas citadas no contexto.  \n\n---  \n**Conclusão**: A aplicação da Súmula 60 ao caso de regime 12x36 com turnos fixos noturnos **não é juridicamente válida** com base no contexto normativo fornecido. A decisão deve ser reformada para evitar a inclusão do adicional noturno na remuneração em regime de **turno fixo**, salvo se houver norma específica (não mencionada no contexto) que aborde essa hipótese.",
+  "tokens_in": 323,
+  "tokens_out": 1976,
+  "latency_ms": 124389,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

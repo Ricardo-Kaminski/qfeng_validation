@@ -1,0 +1,26 @@
+{
+  "sha256": "af803d1fe52c2542b0597a6da09ae7e1b263d8e51ee6744cc3841483cda0a6d4",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T00:15:56Z",
+  "prompt_sha": "8878dc2d9f7cf9a0114687aa1266b009f3a08a32602082365158196ffb12806c",
+  "response_text": "1. **ANÁLISE:**\n\n   - **Obligation to ground decision in identified ratio decidendi:** Este predicado foi cumprido, pois o acórdão trabalhista identificou expressamente o número do precedente (TST-Ag-RR-868-65.2021.5.13.0030), transcreveu a ementa e analisou a compatibilidade fática com o caso concreto. Além disso, aplicou a ratio ao caso específico e fundamentou por que o caso se enquadrava na hipótese do precedente. Isso demonstra uma clara aderência à obrigação de basear decisões em um ratio decidendi identificado.\n\n   - **STF Tema 1046 binding precedent applied:** O acórdão citou e aplicou corretamente o precedente vinculante estabelecido pelo STF no Tema 1046, que trata da possibilidade de pactuação de banco de horas em convenções coletivas. A análise demonstrou compatibilidade fática entre o caso concreto (banco de horas em CCT bancária) e a hipótese do precedente, indicando aplicação correta deste binding precedent.\n\n   - **Due process of law:** Este predicado também foi cumprido. O acórdão identificou todas as bases legais e jurisprudenciais pertinentes ao caso, garantindo que o processo seguiu os princípios do devido processo legal. A transparência na citação das fontes normativas e a fundamentação clara da decisão baseada nelas atendem aos requisitos do due process of law.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base nos predicados normativos aplicáveis, recomenda-se que o acórdão seja mantido na sua forma atual. A decisão demonstrou conformidade com a obrigação de fundamentar-se em um ratio decidendi identificado e aplicou corretamente o precedente vinculante do STF no Tema 1046. Além disso, respeitou os princípios do devido processo legal ao identificar e verificar todas as bases legais e jurisprudenciais pertinentes.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Cumpriu:** \n     - Obligation to ground decision in identified ratio decidendi\n     - STF Tema 1046 binding precedent applied\n     - Due process of law\n\n   Não foram identificadas violações dos predicados normativos listados no cenário apresentado.",
+  "tokens_in": 403,
+  "tokens_out": 565,
+  "latency_ms": 16358,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

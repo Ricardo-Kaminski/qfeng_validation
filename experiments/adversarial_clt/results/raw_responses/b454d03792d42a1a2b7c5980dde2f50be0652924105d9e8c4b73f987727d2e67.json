@@ -1,0 +1,19 @@
+{
+  "sha256": "b454d03792d42a1a2b7c5980dde2f50be0652924105d9e8c4b73f987727d2e67",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-006",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T12:17:15Z",
+  "prompt_sha": "caed60f8d7236d27119212e19182ccd57f46b0e0f27797e3747f1a33d35138bd",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, há uma aplicação incorreta da ratio decidendi de um precedente específico (Tema 1046/STF e TST-Ag-RR-868-65.2021). O tribunal utilizou a tese de validade de CCT bancária para justificar a validade de um banco de horas sem a existência de uma CCT, o que representa uma inversão da ratio decidendi do precedente citado.\n\nO Tema 1046/STF e TST-Ag-RR-868-65.2021 trata especificamente sobre a validade das cláusulas de convenções coletivas (CCT) no contexto bancário, reconhecendo que essas cláusulas podem estabelecer condições específicas para o banco de horas, desde que não contrariem normas de ordem pública. A aplicação correta do precedente pressupõe a existência de uma CCT válida que regulamente o banco de horas.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada seria rever a aplicação da ratio decidendi no acórdão em questão, reconhecendo que a validade do banco de horas sem uma CCT específica não pode ser justificada pelo Tema 1046/STF e TST-Ag-RR-868-65.2021. A autonomia negocial valorizada pelo precedente pressupõe a existência de um instrumento coletivo que regulamente as condições do banco de horas.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\nNo contexto normativo fornecido, não há citação explícita de artigos específicos da CLT ou súmulas do TST que possam ser aplicados diretamente ao caso. No entanto, é importante destacar a necessidade de observância das normas coletivas e individuais de trabalho conforme estabelecido na Consolidação das Leis do Trabalho (CLT), especialmente no que diz respeito à regulamentação do banco de horas.\n\nA aplicação correta do Tema 1046/STF e TST-Ag-RR-868-65.2021 exige a existência de uma CCT válida, conforme entendimento consolidado pelo Supremo Tribunal Federal (STF) e o Tribunal Superior do Trabalho (TST). A ausência de tal convenção coletiva invalida a aplicação da ratio decidendi ao caso em questão.\n\nPortanto, sem normas específicas citadas no contexto, a limitação está na necessidade de reconhecer que a decisão deve se alinhar com o entendimento jurisprudencial correto sobre a exigência de uma CCT para a validade do banco de horas.",
+  "tokens_in": 309,
+  "tokens_out": 604,
+  "latency_ms": 34546,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

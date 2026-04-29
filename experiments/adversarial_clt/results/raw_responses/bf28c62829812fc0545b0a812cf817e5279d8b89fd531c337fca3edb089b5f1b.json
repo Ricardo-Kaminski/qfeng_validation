@@ -1,0 +1,19 @@
+{
+  "sha256": "bf28c62829812fc0545b0a812cf817e5279d8b89fd531c337fca3edb089b5f1b",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T01:58:09Z",
+  "prompt_sha": "3313428edbc166d56a9b43d90f3fa7bed30c9f2491d71915a7aa6bf86caa812b",
+  "response_text": "### ANÁLISE\n\n1. **Dispositivos Legais Aplicáveis:**\n\n   - **Convenção Coletiva de Trabalho (CCT):** As CCTs são instrumentos normativos que permitem a negociação coletiva entre empregadores e trabalhadores, podendo estabelecer condições diferenciadas em relação à legislação trabalhista, desde que não contrariem disposições de ordem pública ou interesse social (art. 6º, inciso VII, da Constituição Federal).\n\n   - **Banco de Horas e Compensação:** O artigo 59 da CLT regula o banco de horas, permitindo a compensação das horas extras trabalhadas dentro de um prazo máximo de até 12 meses.\n\n   - **Súmula TST 85, V:** Estabelece que \"é nulo o acordo ou convenção coletiva que preveja prazo superior a um ano para a compensação de horas extras\".\n\n2. **Interpretação no Caso Concreto:**\n\n   - A CCT do setor hoteleiro estabeleceu um prazo de 14 meses para a compensação das horas extras, o que excede o limite máximo de 12 meses previsto na CLT.\n\n   - O sindicato dos hotéis argumenta que o limite de 1 ano é uma norma de ordem pública conforme Súmula TST 85, V. A jurisprudência do TST tem reiteradamente entendido que qualquer prazo superior a um ano para compensação de horas extras é nulo.\n\n   - A empresa hoteleira argumenta pela autonomia das partes coletivas e o princípio da adequação setorial negociada, sugerindo que as peculiaridades do setor justificariam uma flexibilização dos limites legais.\n\n### DECISÃO RECOMENDADA\n\nA decisão recomendada é a de considerar nulo o prazo estabelecido na CCT para compensação das horas extras em 14 meses. O limite máximo de 12 meses previsto na CLT e reforçado pela Súmula TST 85, V, não pode ser ultrapassado por convenção coletiva, pois trata-se de uma norma de ordem pública.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n1. **Artigo 59 da CLT:** Estabelece o prazo máximo de até 12 meses para a compensação das horas extras no banco de horas.\n\n2. **Súmula TST 85, V:** Define que qualquer acordo ou convenção coletiva que preveja um prazo superior a um ano para a compensação de horas extras é nulo.\n\n3. **Constituição Federal, artigo 7º, inciso XXVI e artigo 8º, incisos IV e VI:** Asseguram o direito à negociação coletiva, mas subordinado ao respeito às normas de ordem pública e interesse social.\n\n4. **Precedentes do TST:** A jurisprudência tem sido consistente em invalidar cláusulas que estendem o prazo máximo para compensação de horas extras além de 12 meses, reforçando a aplicabilidade da Súmula 85, V.\n\n### CONCLUSÃO\n\nA autonomia das partes coletivas não pode ser utilizada para flexibilizar normas de ordem pública. O limite de um ano para compensação de horas extras é uma garantia legal que protege os trabalhadores e deve ser respeitado pelas convenções coletivas, conforme estabelecido na CLT e reforçado pela Súmula TST 85, V. Portanto, a cláusula da CCT que prevê um prazo de 14 meses é nula.",
+  "tokens_in": 317,
+  "tokens_out": 836,
+  "latency_ms": 48110,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

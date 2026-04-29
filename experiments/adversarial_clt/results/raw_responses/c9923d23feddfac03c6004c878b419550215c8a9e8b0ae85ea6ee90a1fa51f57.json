@@ -1,0 +1,19 @@
+{
+  "sha256": "c9923d23feddfac03c6004c878b419550215c8a9e8b0ae85ea6ee90a1fa51f57",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-011",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T09:07:34Z",
+  "prompt_sha": "698446c093424052480aba5e941ff4b9c31d5df4e2fc44eccfe87ad07ed045e8",
+  "response_text": "### 1. **ANÁLISE**  \nOs dispositivos aplicáveis ao caso são:  \n- **CLT, Art. 611-B, IX**: Estabelece que cláusulas de acordos coletivos que sejam contrárias à lei ou à ordem pública são nulas.  \n- **CLT, Art. 611-B, I**: Define que os acordos coletivos são válidos, desde que observem as normas legais.  \n\nA cláusula que renuncia ao direito ao adicional de horas extras viola o **Art. 611-B, IX**, pois o direito ao adicional de horas extras é **inviolável** (art. 611-B, I, CLT), sendo garantido por lei (art. 7º, XIV, da Constituição Federal, não mencionado no contexto normativo, mas com relevância jurídica). A renúncia a esse direito é considerada **contrária à ordem pública**, já que a lei não permite a exclusão de direitos trabalhistas fundamentais.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA cláusula que renuncia ao adicional de horas extras é **nula**, por violar o **Art. 611-B, IX, CLT**. O direito ao adicional de horas extras é **inviolável**, independentemente de acordos coletivos, e a sua exclusão é considerada **contrária à ordem pública**.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **CLT, Art. 611-B, IX**: \"As cláusulas contrárias à lei ou à ordem pública são nulas.\"  \n- **CLT, Art. 611-B, I**: \"Os acordos coletivos são válidos, desde que observem as normas legais.\"  \n\n**Limitação do contexto normativo**:  \n- O contexto não menciona dispositivos constitucionais (como o **art. 7º, XIV, CF**), que reforçariam a inviolabilidade do direito ao adicional de horas extras.  \n- Não há menção a súmulas do TST ou jurisprudência específica no contexto fornecido.  \n\n**Conclusão**: A cláusula é nula por violar o **Art. 611-B, IX, CLT**, independentemente da assinatura do sindicato.",
+  "tokens_in": 308,
+  "tokens_out": 1124,
+  "latency_ms": 69937,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,26 @@
+{
+  "sha256": "432ce5eb6bc7e7ff5582576d1230ffe348a55b9631dce6846ea5b9189845987a",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-010",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T00:31:08Z",
+  "prompt_sha": "2ccf087828688c249158ffc8bae7cebf5d31cffd47aadf38f1078116d62627f1",
+  "response_text": "## Análise do Caso à Luz dos Predicados Normativos\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, segue a análise, decisão recomendada e identificação de cumprimento/violação dos predicados:\n\n**1. ANÁLISE:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** Este predicado é o central para a análise do caso. Ele exige que a decisão judicial seja fundamentada na *ratio decidendi* (o raciocínio essencial que justifica a decisão) identificada nos argumentos apresentados pelas partes e na lei. No cenário, o juiz afirmou não haver contradição, mas *não analisou* o ponto específico de contradição levantado pela embargante, que alegava a aplicação indevida de tese de recurso para beneficiar a parte contrária.  A afirmação genérica de inexistência de contradição, sem confrontá-la com a alegação específica da parte, demonstra uma falha em fundamentar a decisão na *ratio decidendi* do ponto controverso. A decisão, portanto, não se baseia em uma análise aprofundada do argumento apresentado, mas em uma conclusão superficial. Isso compromete a validade da decisão.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que o Tribunal (ou instância superior, dependendo do contexto processual) **anule** a decisão nos embargos de declaração. A anulação é necessária porque a decisão carece de fundamentação adequada sobre o ponto crucial da alegação de contradição.  O Tribunal deve determinar que o juiz, em nova decisão sobre os embargos, **analise especificamente** a alegação da embargante de que o acórdão embargado aplicou tese de recurso de uma parte para beneficiar a parte contrária sem contraditório. Essa análise deve ser clara, objetiva e demonstrar como o juiz chegou à conclusão sobre a inexistência ou existência de contradição, confrontando a alegação da parte com os fundamentos do acórdão embargado.  A nova decisão deve, portanto, demonstrar que o juiz compreendeu e respondeu diretamente à alegação da embargante.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** **Violação**. A decisão do juiz não se fundamentou na *ratio decidendi* do ponto específico de contradição alegado pela embargante. A afirmação genérica de inexistência de contradição não demonstra análise do argumento apresentado.\n\n**Justificativa Adicional:**\n\nA ausência de análise do ponto específico da alegação de contradição pode configurar cerceamento de defesa, pois impede a parte de ter seu argumento devidamente considerado e julgado. A decisão, ao ignorar a alegação específica, impede a parte de efetivamente se defender e contestar a decisão. A jurisprudência do TST é firme em exigir que os juízes analisem e respondam a todos os argumentos relevantes apresentados pelas partes, sob pena de anulação da decisão.\n",
+  "tokens_in": 314,
+  "tokens_out": 680,
+  "latency_ms": 18485,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

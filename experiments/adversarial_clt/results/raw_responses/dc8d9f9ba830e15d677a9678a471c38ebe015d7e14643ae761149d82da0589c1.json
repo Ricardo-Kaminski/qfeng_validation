@@ -1,0 +1,27 @@
+{
+  "sha256": "dc8d9f9ba830e15d677a9678a471c38ebe015d7e14643ae761149d82da0589c1",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-009",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T23:00:05Z",
+  "prompt_sha": "41f99391d623b6e4453b092d8b4f92a9e4baebd669c006a01fb7a1c18b0e7608",
+  "response_text": "### 1. **ANÁLISE: Aplicação dos predicados normativos ao caso concreto**  \n- **hour_bank_with_cct_max_1_year**:  \n  O prazo de 12 meses estabelecido na CCT está em conformidade com o predicado, pois o banco de horas foi criado com duração máxima de 1 ano (como previsto na CLT, art. 62, § 2º, combinado com a jurisprudência do TST que reconhece a validade de acordos coletivos com prazos limitados). A conversão ocorreu antes do término do prazo, garantindo que o banco de horas não ultrapassou o limite legal.  \n\n- **working_hours_negotiable_by_cct**:  \n  A CCT previu a possibilidade de conversão do saldo de horas em dinheiro com adicional de 50%, o que está em consonância com a negociação coletiva (art. 611, CLT). A anuência do empregador e a aplicação da regra específica da CCT confirmam que a negociação foi respeitada, sem violação da autonomia das partes.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA situação descrita está **em conformidade com a legislação trabalhista e com os termos da CCT**. O empregador não cometeu violação, pois:  \n- O banco de horas foi criado com prazo máximo de 12 meses (conforme o predicado *hour_bank_with_cct_max_1_year*).  \n- A conversão do saldo em dinheiro com adicional de 50% foi autorizada pela CCT e pela empresa, respeitando a negociação coletiva (predicado *working_hours_negotiable_by_cct*).  \n- A remuneração foi paga no mês seguinte à conversão, o que não viola a CLT (art. 464, CLT, que permite a compensação de horas em até 12 meses, com pagamento imediato).  \n\n**Recomendação**: O empregador deve manter o registro da conversão e do pagamento, garantindo transparência e cumprimento da CCT. O trabalhador não tem direito a reclamação trabalhista por violação legal, desde que os termos da CCT sejam respeitados.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **hour_bank_with_cct_max_1_year**: **Conformidade** (o prazo de 12 meses foi respeitado, e a conversão ocorreu antes do término).  \n- **working_hours_negotiable_by_cct**: **Conformidade** (a CCT previu a possibilidade de conversão e o adicional de 50%, com anuência do empregador).  \n\n**Nenhum predicado foi violado** no cenário descrito.",
+  "tokens_in": 358,
+  "tokens_out": 1034,
+  "latency_ms": 31500,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "830a29a60c4fd5d6250eb4ec3317c1601cb4431811abd4e6351d94530653a988",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-013",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T01:47:48Z",
+  "prompt_sha": "80281495f36721e3442a67c8e851e23aa42620978088ce92f2ee01e3661e0bd0",
+  "response_text": "### ANÁLISE\n\n**1. Identificação dos dispositivos legais aplicáveis:**\n\n- **Constituição Federal de 1988 (CF/88):**\n  - Artigo 7º, XIII e XIV: Estes artigos garantem a jornada máxima semanal de trabalho de 44 horas para os empregados do setor bancário e estabelecem que as convenções coletivas poderão prever compensação de horários mediante banco de horas.\n\n- **Convenção Coletiva de Trabalho (CCT) no Setor Bancário:**\n  - O Tema 1046/STF discutiu a validade do banco de horas na CCT do setor bancário, permitindo sua aplicação desde que respeitados os limites constitucionais.\n\n- **Setor Aéreo e Jornada de Trabalho:**\n  - No caso dos pilotos da aviação civil, a jornada de trabalho é regida por normas específicas do Ministério da Infraestrutura (Resolução ANAC nº 400/2016), que estabelecem limites máximos de horas de voo e descanso.\n\n**2. Interpretação no caso concreto:**\n\n- **Distinção Fática:**\n  - O setor bancário possui uma regulamentação específica na CF/88, permitindo a compensação de jornada mediante banco de horas.\n  - No setor aéreo, especialmente para pilotos, a legislação visa garantir segurança e saúde dos trabalhadores, estabelecendo limites rigorosos de tempo de voo e descanso.\n\n- **Ratio Decidendi do Tema 1046/STF:**\n  - A decisão permitiu o banco de horas no setor bancário, considerando a especificidade da atividade econômica e a previsibilidade constitucional.\n  - No entanto, essa ratio não se aplica ao setor aéreo, onde a segurança é primordial e as normas são mais restritivas.\n\n### DECISÃO RECOMENDADA\n\n**Decisão:**\nA decisão deve ser de inaplicabilidade da ratio do Tema 1046/STF ao caso dos pilotos da aviação civil. A distinção fática entre os setores bancário e aéreo justifica essa conclusão, considerando as normas específicas que regem o trabalho dos pilotos.\n\n**Por quê:**\n- **Segurança e Saúde:** As normas do setor aéreo são projetadas para proteger a saúde e segurança dos trabalhadores e passageiros, não permitindo flexibilização semelhante ao banco de horas.\n- **Normativa Específica:** A regulamentação específica para pilotos (Resolução ANAC) estabelece limites claros que não podem ser alterados por convenções coletivas.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n**1. Constituição Federal de 1988:**\n- **Artigo 7º, XIII e XIV:** Estabelecem a jornada máxima semanal para o setor bancário e permitem compensação mediante banco de horas, não aplicável ao setor aéreo.\n\n**2. Resolução ANAC nº 400/2016:**\n- Regula as condições de trabalho dos pilotos, estabelecendo limites máximos de tempo de voo e descanso necessário entre voos.\n\n**3. Súmulas do TST:**\n- **Súmula 331:** Estabelece que a convenção coletiva não pode contrariar norma de ordem pública ou interesse social, aplicável ao setor aéreo onde a segurança é uma questão de ordem pública.\n\n**4. Precedentes Constitucionais:**\n- **Tema 1046/STF:** Embora permita o banco de horas no setor bancário, não estende essa permissão a atividades com normas específicas e restritivas como a aviação civil.\n\nA decisão deve respeitar as peculiaridades do setor aéreo, garantindo que qualquer flexibilização na jornada de trabalho dos pilotos seja compatível com as normas de segurança vigentes.",
+  "tokens_in": 370,
+  "tokens_out": 936,
+  "latency_ms": 53953,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

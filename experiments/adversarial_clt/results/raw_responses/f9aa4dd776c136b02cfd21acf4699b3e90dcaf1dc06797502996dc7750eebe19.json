@@ -1,0 +1,19 @@
+{
+  "sha256": "f9aa4dd776c136b02cfd21acf4699b3e90dcaf1dc06797502996dc7750eebe19",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-008",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T11:43:20Z",
+  "prompt_sha": "e1659c5429e8d4021dbbfd8bec4539ebca49823acf42a3cc8afc510d0a89683d",
+  "response_text": "1. **ANÁLISE:** \n\nNo cenário apresentado, temos um caso de banco de horas estabelecido por Acordo Coletivo de Trabalho (ACT) com compensação prevista em 7 meses. O trabalhador pediu demissão após 5 meses, deixando um saldo positivo de 60 horas que não foram compensadas até a rescisão do contrato.\n\nOs dispositivos normativos relevantes para analisar este caso incluem:\n\n- **Artigo 59 da CLT (Consolidação das Leis do Trabalho):** Este artigo trata dos bancos de horas, permitindo que o empregador e os trabalhadores estabeleçam acordos ou convenções coletivas para compensar horas extras. No entanto, a compensação deve ocorrer dentro do prazo estipulado no acordo.\n\n- **Súmula 443 do TST (Tribunal Superior do Trabalho):** Esta súmula afirma que \"o saldo positivo de banco de horas é devido ao empregado na rescisão contratual, mesmo que o período para compensação não tenha expirado\".\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que a empresa deve pagar o saldo positivo de 60 horas ao trabalhador. A rescisão do contrato por demissão voluntária não anula o direito do empregado ao recebimento das horas extras pendentes, conforme estabelecido pela Súmula 443 do TST.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Artigo 59 da CLT:** Permite a compensação de horas extras mediante acordo ou convenção coletiva, mas não especifica que o direito ao saldo positivo seja extinto pela rescisão contratual antes do término do prazo estipulado.\n\n- **Súmula 443 do TST:** Explicitamente determina que o saldo positivo de banco de horas deve ser pago ao empregado na rescisão do contrato, mesmo que o período para compensação não tenha terminado. Isso se aplica independentemente da causa da rescisão (demissão ou pedido de demissão).\n\nPortanto, com base nos dispositivos normativos aplicáveis, a empresa está obrigada a pagar o saldo positivo ao empregado na ocasião do término do contrato.",
+  "tokens_in": 305,
+  "tokens_out": 526,
+  "latency_ms": 30155,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

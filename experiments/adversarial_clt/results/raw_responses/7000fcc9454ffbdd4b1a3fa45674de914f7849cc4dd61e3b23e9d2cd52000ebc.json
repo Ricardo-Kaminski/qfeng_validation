@@ -1,0 +1,19 @@
+{
+  "sha256": "7000fcc9454ffbdd4b1a3fa45674de914f7849cc4dd61e3b23e9d2cd52000ebc",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T06:40:15Z",
+  "prompt_sha": "b0e517f5c3de26d42993b73cacfec552caf0add056217d63ec5525a4332d8ed9",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a demissão de um empregado sem justa causa por uma empresa de vigilância, com saldo positivo de 80 horas no banco de horas estabelecido por Convenção Coletiva de Trabalho (CCT) e compensação semestral. A empresa pagou o saldo remanescente como hora normal, não como hora extra, o que levou o empregado a reivindicar o pagamento das horas do banco de horas com adicional de 50%.\n\n**Dispositivos Legais Aplicáveis:**\n\n1. **Artigo 59 da CLT**: Regula as condições de rescisão do contrato de trabalho e estabelece que, em caso de demissão sem justa causa, o empregado tem direito a receber o valor das horas trabalhadas acrescidas do adicional de hora extra.\n2. **Artigo 59, § 1º da CLT**: Determina que as horas extras trabalhadas até o limite estabelecido em convenção coletiva ou acordo coletivo devem ser pagas com acréscimo de 50% sobre o valor da hora normal.\n3. **Convenção Coletiva de Trabalho (CCT)**: Estabelece a compensação semestral das horas trabalhadas em excesso, mas não altera as regras legais aplicáveis às horas extras.\n\n**Interpretação no Caso Concreto:**\n\nA demissão sem justa causa pelo empregador confere ao empregado o direito de receber o valor das horas trabalhadas acrescidas do adicional de hora extra, conforme estabelece a CLT. O fato de haver compensação semestral não altera essa regra, pois as horas extras ainda devem ser pagas com acréscimo de 50% sobre o valor da hora normal.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que o empregado tenha direito a receber o saldo remanescente das horas trabalhadas no banco de horas com adicional de 50%, conforme estabelece a CLT e a CCT. Isso se deve ao fato de a demissão sem justa causa conferir ao empregado esse direito, independentemente da compensação semestral.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   **Artigo 59 da CLT:** \"Em caso de rescisão do contrato de trabalho sem justa causa, o empregador deve pagar ao empregado as horas trabalhadas acrescidas do adicional de hora extra.\"\n*   **Súmula nº 438 do TST**: \"A compensação das horas extras não exclui o direito à sua remuneração acrescida do adicional respectivo.\"",
+  "tokens_in": 297,
+  "tokens_out": 618,
+  "latency_ms": 22750,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

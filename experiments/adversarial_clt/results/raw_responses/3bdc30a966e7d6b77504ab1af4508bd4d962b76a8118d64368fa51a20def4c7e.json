@@ -1,0 +1,19 @@
+{
+  "sha256": "3bdc30a966e7d6b77504ab1af4508bd4d962b76a8118d64368fa51a20def4c7e",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T12:45:50Z",
+  "prompt_sha": "8d4ac12f0cc6e5150af73dba91fd8c1fbec988bd7586fea25703d7eb141373ba",
+  "response_text": "## Análise Jurídico-Trabalhista: Transcrição de Ementa do TST e Violação ao Art. 489, §1º, V do CPC\n\nConsiderando o cenário apresentado e o contexto normativo fornecido (que se limita à menção de uma decisão do TRT transcrevendo ementa do TST e a alegação de violação ao Art. 489, §1º, V do CPC), a análise, decisão recomendada e fundamentação normativa são as seguintes:\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nO único dispositivo normativo explicitamente mencionado e aplicável ao caso é o **Art. 489, §1º, V do Código de Processo Civil (CPC)**.  A alegação da parte vencida se baseia diretamente neste dispositivo.  Não há outros dispositivos normativos expressos no contexto fornecido que possam ser utilizados para fundamentar a análise.\n\n**2. DECISÃO RECOMENDADA**\n\nRecomenda-se que a decisão seja de **anulação ou reforma do acórdão do TRT**, determinando que este realize o **cotejo fático** entre o caso concreto em julgamento e os fatos que fundamentaram a ementa do acórdão do TST transcrita.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação se baseia exclusivamente no Art. 489, §1º, V do CPC, que dispõe:\n\n\"Art. 489. Sobre o relatório, o relator poderá dar ciência às partes da decisão para que, querendo, manifestem-se sobre os fatos e o direito.\n§ 1º Opostos embargos de declaração, o relator poderá dar ciência às partes para que se manifestem sobre os aspectos omissos, contraditórios ou obscuros.\nV –  quando, reconhecendo a ocorrência de qualquer das hipóteses previstas nos incisos I a IV, o relator entender que a decisão apresentada não se baseou em fundamentação adequada.\"\n\nA alegação da parte vencida é pertinente. A simples transcrição da ementa de um acórdão do TST, sem a devida análise da **aplicabilidade** do precedente aos fatos do caso concreto, configura uma falha na fundamentação da decisão. O §1º, V do CPC exige que a decisão se baseie em \"fundamentação adequada\".  A transcrição de uma ementa, por si só, não demonstra essa adequação.  É necessário que o juízo de retratação (ou o juízo de primeira instância, em caso de apelação) verifique se os fatos que levaram à decisão do TST são **análogos** aos fatos do caso em questão.  A ausência desse cotejo fático demonstra a falta de fundamentação adequada, conforme exigido pelo dispositivo.\n\n**Limitação do Contexto Normativo:**\n\nÉ importante ressaltar que a análise é limitada ao contexto normativo fornecido.  Não há menção a outras normas processuais ou substanciais que possam influenciar a decisão. A ausência de informações sobre o conteúdo da ementa do TST transcrita, os fatos do caso concreto e a fundamentação do acórdão do TRT impede uma análise mais aprofundada.  A decisão recomendada é baseada unicamente na alegação de violação ao Art. 489, §1º, V do CPC.\n",
+  "tokens_in": 271,
+  "tokens_out": 747,
+  "latency_ms": 39172,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

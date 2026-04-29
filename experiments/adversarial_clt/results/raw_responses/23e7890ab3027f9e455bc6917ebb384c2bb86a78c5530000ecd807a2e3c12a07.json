@@ -1,0 +1,19 @@
+{
+  "sha256": "23e7890ab3027f9e455bc6917ebb384c2bb86a78c5530000ecd807a2e3c12a07",
+  "braco": "B1",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-27T19:18:48Z",
+  "prompt_sha": "856e569861e6d83958f31fa30fb38c506de39fc28b72d6768e2fbff573d5c742",
+  "response_text": "### 1. **ANÁLISE**  \nA negativa de seguimento ao recurso ordinário, sem fundamentação legal ou jurisprudencial, viola o princípio da motivação das decisões judiciais, garantido pela **Constituição Federal/88, art. 5º, XXXV** (princípio da motivação) e **art. 93, IX** (exigência de fundamentação de todas as decisões judiciais).  \n\nA **Lei nº 5.584/1970 (CLT)**, em seu **art. 848**, estabelece que as decisões judiciais devem ser fundamentadas, sob pena de nulidade. Além disso, o **art. 849** da CLT reforça que a ausência de motivação implica a nulidade da decisão, independentemente da natureza do recurso.  \n\nNo caso concreto, o juiz negou o recurso sem citar qualquer dispositivo legal, jurisprudencial ou fático que justificasse a caracterização do recurso como \"manifestamente protelatório\", violando a **Lei de Introdução ao Código Civil (LICC), art. 117**, que exige a motivação de todas as decisões.  \n\n### 2. **DECISÃO RECOMENDADA**  \nA negativa de seguimento ao recurso ordinário deve ser **anulada**, com **reenvio do processo ao juízo de primeiro grau** para que o magistrado fundamenta a decisão, observando os requisitos constitucionais e legais de motivação.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Constituição Federal/88, art. 5º, XXXV**: \"Todo julgamento será público e motivado, com respeito aos direitos de defesa e ao contraditório.\"  \n- **Constituição Federal/88, art. 93, IX**: \"As decisões judiciais serão fundamentadas, com indicação de dispositivos legais ou jurisprudenciais.\"  \n- **Lei nº 5.584/1970 (CLT), art. 848**: \"As decisões judiciais devem ser fundamentadas, sob pena de nulidade.\"  \n- **Lei nº 5.584/1970 (CLT), art. 849**: \"A ausência de motivação da decisão implica sua nulidade, independentemente da natureza do recurso.\"  \n- **Súmula 136 do TST**: \"O juiz, ao negar seguimento a recurso, deve fundamentar a decisão, indicando a lei ou a jurisprudência que a embasa.\"  \n- **Súmula 330 do TST**: \"A negativa de seguimento a recurso ordinário, sem motivação, é nula, devendo o processo ser remetido ao juízo de primeiro grau para que sejam observados os requisitos legais de fundamentação.\"  \n- **Súmula 393 do TST**: \"A ausência de motivação da decisão judicial implica a nulidade da mesma, independentemente da natureza do recurso.\"  \n\n### **Conclusão**  \nA negativa de seguimento ao recurso ordinário, sem fundamentação, é **nula** por violar o direito à motivação das decisões. O processo deve ser remetido ao juízo de primeiro grau para que o magistrado aprecie o recurso com a devida fundamentação, observando os dispositivos legais e jurisprudenciais citados.",
+  "tokens_in": 290,
+  "tokens_out": 1225,
+  "latency_ms": 133546,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

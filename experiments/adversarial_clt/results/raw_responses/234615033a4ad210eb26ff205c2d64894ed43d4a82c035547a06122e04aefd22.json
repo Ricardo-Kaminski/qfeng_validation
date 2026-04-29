@@ -1,0 +1,26 @@
+{
+  "sha256": "234615033a4ad210eb26ff205c2d64894ed43d4a82c035547a06122e04aefd22",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-009",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T02:02:34Z",
+  "prompt_sha": "bcff85d452bf2f58ac15e7495135889c6ad856a88318d21e3e0178db0d0f040c",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nA decisão do magistrado viola normas constitucionais e processuais trabalhistas, conforme evidenciado pelos predicados soberanos ativos:  \n- **Obrigação de explicitar as consequências práticas da decisão** (sovereign(obligation_to_state_practical_consequences_of_decision)): O magistrado não explicou como a manutenção da sentença afeta os direitos concretos das partes (ex.: impactos financeiros, direitos trabalhistas).  \n- **Proibição de citação genérica de precedentes** (sovereign(prohibition_of_generic_precedent_citation)): O uso do precedente superado pelo TST, sem análise crítica, viola o princípio da atualidade jurisprudencial.  \n- **Obrigação de abordar todos os argumentos jurídicos** (sovereign(obligation_to_address_all_legal_arguments)): O acórdão ignorou a evolução jurisprudencial, omitindo a análise do precedente superado.  \n- **Obrigação de fundamentar a decisão em ratio decidendi identificada** (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)): A sentença não identificou claramente o fundamento jurídico que justificou a manutenção da decisão.  \n- **Obrigação constitucional de expor razões para decisões** (sovereign(constitutional_obligation_to_state_reasons_for_decisions)): A ausência de fundamentação específica viola o art. 5º, XXXV da CF/88, que exige transparência judicial.  \n- **Direito de acesso à justiça e revisão judicial** (sovereign(right_of_access_to_justice_and_judicial_review)): A falta de fundamentação compromete a possibilidade de revisão da decisão por instâncias superiores.  \n\nA combinação desses elementos configura uma **violação da ordem jurídica**, pois a decisão não atende aos requisitos mínimos de razoabilidade, transparência e atualidade jurisprudencial exigidos pelo sistema normativo trabalhista.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O magistrado deve explicar **como a decisão afeta os direitos concretos** das partes (ex.: se a sentença mantém uma indenização, quais são seus efeitos financeiros).  \n- **sovereign(prohibition_of_generic_precedent_citation)**: É proibido citar precedentes **sem verificar sua validade atual** (ex.: um precedente superado pelo TST não pode ser usado como fundamento).  \n- **sovereign(obligation_to_address_all_legal_arguments)**: O magistrado deve **analisar todos os argumentos jurídicos** apresentados, incluindo a evolução jurisprudencial (ex.: o precedente superado deve ser discutido).  \n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão deve **identificar claramente o fundamento jurídico** que a sustenta (ex.: não basta dizer \"a sentença está certa\", é preciso explicar por quê).  \n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: A Constituição exige que **toda decisão judicial seja fundamentada com razões específicas** (art. 5º, XXXV da CF/88).  \n- **sovereign(right_of_access_to_justice_and_judicial_review)**: O direito à justiça inclui a **possibilidade de revisão judicial** por meio de fundamentação clara e completa.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO juiz **não explicou adequadamente** por que manteve a sentença. Ele:  \n- **Ignorou um erro de jurisprudência**: Um precedente citado na sentença foi **anulado depois** pelo TST, mas o juiz não mencionou isso.  \n- **Não falou sobre os efeitos da decisão**: Não explicou como a manutenção da sentença afeta o trabalhador ou o empregador (ex.: se há direito a indenização, quanto será pago).  \n- **Não analisou todos os argumentos**: Deixou de discutir a mudança na jurisprudência, o que pode ter prejudicado a justiça do caso.  \n- **Não deu razões claras**: A sentença não explica **por quê** a decisão foi tomada, apenas repete o que já estava escrito antes.  \n\nIsso **viola a lei**, pois o juiz deveria:  \n- Explicar **como a decisão afeta as pessoas**.  \n- Usar **precedentes válidos**, não antigos ou superados.  \n- Garantir que **todo mundo entenda** por que a decisão foi feita.  \n\nEssa falta de clareza pode prejudicar o direito do trabalhador a uma justiça justa e transparente.",
+  "tokens_in": 513,
+  "tokens_out": 1603,
+  "latency_ms": 50766,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

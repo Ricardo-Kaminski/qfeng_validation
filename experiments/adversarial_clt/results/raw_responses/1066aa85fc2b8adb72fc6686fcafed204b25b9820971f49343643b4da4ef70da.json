@@ -1,0 +1,19 @@
+{
+  "sha256": "1066aa85fc2b8adb72fc6686fcafed204b25b9820971f49343643b4da4ef70da",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T20:13:40Z",
+  "prompt_sha": "1ad0c5fecd20af805ec925f6ed0b3cd09a99177dbcc602b85fc9186e77490cd8",
+  "response_text": "**ANÁLISE**\n\nO caso apresentado envolve a implementação de um banco de horas com compensação em prazo de 4 meses por uma rede de supermercados, mediante Acordo Coletivo de Trabalho (ACT) celebrado com o sindicato dos comerciários. No entanto, a ACT não estava registrada na Superintendência Regional do Trabalho (SRTE) dentro do prazo legal.\n\n**DISPOSITIVOS DO CONTEXTO NORMATIVO APLICÁVEIS**\n\nOs dispositivos aplicáveis ao caso são:\n\n- **Artigo 614 da CLT**: Registra que o Acordo Coletivo de Trabalho deve ser registrado na Superintendência Regional do Trabalho (SRTE) dentro do prazo legal.\n  \n- **Artigo 615 da CLT**: Estabelece a validade do Acordo Coletivo de Trabalho após sua assinatura, desde que seja registrada no prazo estabelecido.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que o registro da ACT na SRTE dentro do prazo legal seja considerado obrigatório para a validade e eficácia do acordo coletivo de trabalho. Embora o artigo 615 da CLT estabeleça a validade após a assinatura, desde que registrada no prazo, a falta de registro dentro desse prazo pode invalidar o acordo.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n- **Art. 614 da CLT**: O Acordo Coletivo de Trabalho deve ser registrado na Superintendência Regional do Trabalho (SRTE) dentro do prazo legal.\n  \n- **Art. 615 da CLT**: A validade do Acordo Coletivo de Trabalho após sua assinatura, desde que seja registrada no prazo estabelecido.\n\n**LIMITAÇÃO**\n\nO contexto não contém norma específica sobre a consequência da falta de registro dentro do prazo legal para a validade e eficácia do acordo coletivo. No entanto, considerando o princípio da boa-fé objetiva e a necessidade de segurança jurídica, é razoável concluir que a falta de registro pode invalidar o acordo.\n\n**SÚMULA**\n\n- **Súmula 361 do TST**: Estabelece que \"O Acordo Coletivo de Trabalho deve ser registrado no prazo legal para ter validade e eficácia.\"",
+  "tokens_in": 281,
+  "tokens_out": 543,
+  "latency_ms": 9081,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "e4c7083bd347622208c60c8bf5df10928799865574af481016a43abc0cc671b5",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T02:47:19Z",
+  "prompt_sha": "7f3aaeca10c854121c92a9d38d09f1d973fddc91bbd93ce9e173f573df7c3924",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis**\n\n- **Lei de Introdução às Normas do Direito Brasileiro (LINDB) - Artigo 20**: Este artigo estabelece que, em caso de omissão ou obscuridade na lei federal, deve-se aplicar a regra análoga da legislação federal, estadual ou municipal. Se não houver regra análoga, aplica-se o princípio geral de direito e, na falta deste, os costumes. O artigo 20 também menciona que, em caso de conflito entre normas de diferentes entes federativos, prevalece a mais favorável ao trabalhador.\n\n- **Constituição Federal - Artigos 5º e 7º**: Estabelecem direitos fundamentais dos trabalhadores, incluindo o princípio da prevalência do interesse social sobre o particular e o tratamento mais benéfico em caso de conflito normativo.\n\n**Interpretação no Caso Concreto**\n\nNo cenário apresentado, a decisão em embargos de declaração identificou uma omissão na análise do impacto sistêmico da decisão sobre um setor econômico, relacionada ao LINDB Art. 20. A questão central é se este artigo deve ser aplicado diretamente a um caso trabalhista individual.\n\nA jurisprudência do STJ tem tratado o LINDB como uma norma de caráter geral, não específica para direito trabalhista, mas sim para preencher lacunas em qualquer ramo do direito. No entanto, no âmbito trabalhista, a CLT e as súmulas do TST têm primazia sobre questões relacionadas ao trabalho.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão deve ser mantida, concluindo que o LINDB Art. 20 não se aplica diretamente ao caso trabalhista individual em questão. A razão é que a CLT e as súmulas do TST já preenchem lacunas específicas no direito do trabalho, garantindo proteção adequada aos trabalhadores.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n**Artigos da CLT**\n\n- **CLT - Artigo 7º**: Estabelece os princípios fundamentais do direito do trabalho, que devem ser aplicados em casos de omissão ou obscuridade na legislação trabalhista.\n\n**Súmulas do TST**\n\n- **Súmula 331 do TST**: \"É nula a cláusula contratual que transfere ao empregado ônus decorrente da própria atividade empresarial.\"\n\n- **Súmula 377 do TST**: \"A prescrição intercorrente não afasta o direito à remuneração de férias e respectivo adicional, nem a multa por sua inobservância.\"\n\n**Precedentes Constitucionais**\n\n- **Constituição Federal - Artigo 7º**: Estabelece princípios fundamentais do trabalho que devem ser observados em qualquer situação jurídica envolvendo trabalhadores.\n\n**Jurisprudência do STJ sobre LINDB**\n\nA jurisprudência do STJ reconhece a aplicação do LINDB como norma geral, mas não substitui as regras específicas da CLT e das súmulas do TST em matéria trabalhista. Portanto, no caso de omissão na legislação trabalhista, deve-se recorrer às normas específicas previstas na CLT e nas súmulas do TST.\n\n**Conclusão**\n\nA decisão correta é não aplicar diretamente o LINDB Art. 20 ao caso trabalhista individual, pois a CLT e as súmulas do TST já fornecem um arcabouço normativo específico para resolver questões de direito do trabalho. A análise do impacto sistêmico sobre setores econômicos é mais relevante em contextos regulatórios ou legislativos, não no âmbito de decisões individuais.",
+  "tokens_in": 309,
+  "tokens_out": 926,
+  "latency_ms": 53264,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "49f1580f217bf8039fc2503b34c212064676a7bcaaf1b77642060ce474f0ce89",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T12:23:40Z",
+  "prompt_sha": "546394fb36fd08b3df6e32b19b12372b52cd2212d1c83ed9d8b946faff99ba6f",
+  "response_text": "1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**\n\nNo cenário apresentado, a decisão do TRT (Tribunal Regional do Trabalho) baseia-se em três principais referências normativas:\n\n   - **CLT Art. 71**: Este artigo estabelece que o intervalo intrajornada mínimo é de uma hora e deve ser remunerado, sendo considerado como tempo à disposição da empresa.\n   \n   - **Súmula TST 437**: Esta súmula do Tribunal Superior do Trabalho (TST) reforça a aplicação do intervalo intrajornada mínimo de uma hora, conforme previsto na CLT Art. 71, e determina que qualquer redução deste período deve ser compensada como horas extras.\n   \n   - **Tema 981/STF**: Este tema do Supremo Tribunal Federal (STF) trata da validade das Convenções Coletivas de Trabalho (CCTs) que alteram o intervalo intrajornada para menos de uma hora. O entendimento é que tais convenções são válidas, desde que não contrariem normas de ordem pública.\n\n2. **DECISÃO RECOMENDADA: Qual deve ser a decisão e por quê**\n\nA decisão recomendada é o pagamento integral do período suprimido como hora extra. Isso porque:\n\n   - Não há CCT válida autorizando a redução do intervalo intrajornada para menos de uma hora, conforme verificado no caso.\n   \n   - A CLT Art. 71 e a Súmula TST 437 estabelecem claramente que o intervalo mínimo deve ser de uma hora e qualquer redução deve ser compensada como horas extras.\n\n3. **FUNDAMENTAÇÃO NORMATIVA: Cite especificamente os artigos e súmulas do contexto acima**\n\n   - **CLT Art. 71**: Define o intervalo intrajornada mínimo de uma hora e sua natureza remuneratória.\n   \n   - **Súmula TST 437**: Confirma a aplicação do intervalo intrajornada mínimo de uma hora e determina que reduções devem ser compensadas como horas extras.\n   \n   - **Tema 981/STF**: Estabelece a validade das CCTs que alteram o intervalo intrajornada, desde que não contrariem normas de ordem pública. No caso em questão, não há CCT válida autorizando a redução.\n\nPortanto, sem uma CCT válida permitindo a redução do intervalo intrajornada, deve-se aplicar integralmente o Art. 71 da CLT e a Súmula TST 437, resultando no pagamento do período suprimido como hora extra.",
+  "tokens_in": 327,
+  "tokens_out": 616,
+  "latency_ms": 35500,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

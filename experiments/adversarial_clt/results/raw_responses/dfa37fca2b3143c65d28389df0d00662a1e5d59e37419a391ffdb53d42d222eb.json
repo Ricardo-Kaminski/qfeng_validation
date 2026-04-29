@@ -1,0 +1,19 @@
+{
+  "sha256": "dfa37fca2b3143c65d28389df0d00662a1e5d59e37419a391ffdb53d42d222eb",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-007",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T02:26:06Z",
+  "prompt_sha": "0203c17d7e6bb0ed382852b09435518873855b089f30e8393ac946d556a2d38d",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Convenção Coletiva de Trabalho (CCT):** A CCT do setor bancário prevê a possibilidade de banco de horas anual, que é uma prática autorizada pelo artigo 59 da CLT. Este dispositivo permite a compensação de horários extras em um período estabelecido pela convenção ou acordo coletivo.\n\n- **Artigo 59 da CLT:** Permite a compensação de horas extras mediante acordo escrito, desde que não exceda determinados limites e seja feita no prazo estipulado. A CCT deve estar devidamente registrada e renovada para ter validade.\n\n- **Jurisprudência do TST (Ag-RR-868-65.2021):** Confirma a possibilidade de banco de horas anual, desde que respeitados os limites legais e as condições estabelecidas na CCT.\n\n- **Tema 1046/STF:** Trata da constitucionalidade do banco de horas em regime de compensação, reafirmando sua validade quando regulamentado por convenção coletiva.\n\n**Interpretação no Caso Concreto:**\n\nNo caso apresentado, o banco cumpriu com a renovação e entrega do extrato da CCT ao trabalhador, além de realizar a compensação das horas dentro do prazo estabelecido. Isso indica que o banco está agindo conforme as normas estabelecidas pela convenção coletiva.\n\nA questão central é se o banco de horas limita ou exclui o direito ao adicional de horas extras. De acordo com a jurisprudência e a doutrina, quando as horas são compensadas dentro do prazo previsto na CCT, não há incidência do adicional de 50% sobre essas horas.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é que o banco está agindo corretamente ao aplicar o banco de horas conforme a CCT e que as horas compensadas dentro do prazo estabelecido não geram direito ao adicional de horas extras. Isso se alinha à jurisprudência do TST e ao entendimento consolidado sobre o tema.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **Artigo 59 da CLT:** Permite a compensação de horas extras mediante acordo escrito, desde que não exceda determinados limites e seja feita no prazo estipulado.\n\n- **Jurisprudência do TST (Ag-RR-868-65.2021):** Confirma a validade do banco de horas anual quando regulamentado por convenção coletiva, desde que respeitados os limites legais e as condições estabelecidas.\n\n- **Tema 1046/STF:** Reafirma a constitucionalidade do banco de horas em regime de compensação, desde que regulamentado por convenção coletiva.\n\n- **Súmula 331 do TST:** \"É lícita a compensação de jornada mediante acordo escrito entre empregador e empregado, observados os limites legais.\"\n\nEssa fundamentação normativa apoia a decisão de que o banco está agindo dentro da legalidade ao aplicar o banco de horas conforme previsto na CCT, sem gerar direito ao adicional de horas extras para as horas compensadas.",
+  "tokens_in": 321,
+  "tokens_out": 760,
+  "latency_ms": 43641,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,29 @@
+{
+  "sha256": "d6af228dfc88cf80a7698b4a0a169f59b3516ee5a8c9faed9eacb6b9ee812960",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T22:23:45Z",
+  "prompt_sha": "9aed310839e4cb6680c5af139cfc1410b8dc65f015f8e8555e2fcb61291a68c3",
+  "response_text": "### 1. **ANÁLISE**  \nO predicado normativo **semester_hour_bank_requires_cct_or_act** estabelece que o banco de horas com compensação em prazo de até 4 meses **deve ser formalizado por meio de um acordo coletivo de trabalho (ACT)** ou convenção coletiva de trabalho (CCT), conforme previsto na CLT (art. 611, § 1º). No entanto, **a validade do ACT depende de sua devida registro na Superintendência Regional do Trabalho (SRTE)**, conforme determina a CLT (art. 611, § 2º) e jurisprudência do TST (Súmula 364, II).  \n\nNo caso concreto:  \n- A **empresa alega que o ACT é válido desde a assinatura**, ignorando a **obrigação legal de registro na SRTE**.  \n- A **ausência de registro** no prazo legal (art. 611, § 2º) **invalida o ACT**, pois a formalidade do registro é **condição sine qua non** para a validade do instrumento coletivo.  \n- A **compensação de horas** estabelecida no ACT, sem o registro, **não tem eficácia jurídica**, conforme reforçado pela jurisprudência do TST (ex.: **RR 102547-04.2018.5.02.0001**).  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **empresa deve:**\n- **Registrar imediatamente o ACT na SRTE**, conforme exigido pela CLT (art. 611, § 2º).  \n- **Suspender a aplicação do banco de horas** até a regularização do registro, pois o ACT **não pode ser considerado válido** enquanto não cumprida essa formalidade.  \n- **Indenizar os trabalhadores** caso a compensação de horas tenha sido aplicada de forma irregular, conforme previsto no art. 473 da CLT (compensação de horas sem autorização legal).  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Violado:**  \n  - **semester_hour_bank_requires_cct_or_act** (o ACT não foi registrado na SRTE, invalidando a compensação de horas).  \n  - **registration_of_act_required_by_clt** (ausência de registro no prazo legal, conforme art. 611, § 2º da CLT).  \n\n- **Cumprido:**  \n  - **semester_hour_bank_requires_cct_or_act** (a empresa utilizou um ACT para formalizar o banco de horas, cumprindo a exigência de instrumento coletivo).  \n\n--- \n\n**Observação:** A **ausência de registro** no prazo legal **invalida o ACT**, mesmo que a empresa tenha assinado o instrumento. A formalidade do registro é **obrigatória e irrenunciável**, conforme jurisprudência do TST.",
+  "tokens_in": 333,
+  "tokens_out": 1179,
+  "latency_ms": 36125,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

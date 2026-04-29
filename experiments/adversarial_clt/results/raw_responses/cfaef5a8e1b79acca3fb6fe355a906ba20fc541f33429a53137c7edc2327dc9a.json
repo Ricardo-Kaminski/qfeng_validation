@@ -1,0 +1,29 @@
+{
+  "sha256": "cfaef5a8e1b79acca3fb6fe355a906ba20fc541f33429a53137c7edc2327dc9a",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:24:05Z",
+  "prompt_sha": "e9b9a0f5b834d2f759bd4690a730595f761f0af48ca69ce693978c1f4c32a68d",
+  "response_text": "**1. ANÁLISE**\n\n* O predicado \"hour_bank_with_cct_max_1_year\" estabelece que o banco de horas pode ter um prazo máximo de compensação de 1 ano, conforme previsto em lei. Nesse caso, a CCT do setor hoteleiro estabeleceu um prazo de compensação de 14 meses, o que excede o limite de 1 ano previsto na lei.\n* A empresa argumenta que a CCT pode flexibilizar esse limite com base na autonomia das partes coletivas e no princípio da adequação setorial negociada. No entanto, essa afirmação não é suficiente para justificar a violação do predicado \"hour_bank_with_cct_max_1_year\", pois a lei prevê um limite de 1 ano que deve ser respeitado.\n* O sindicato dos hotéis argumenta que o limite de 1 ano é norma de ordem pública, conforme estabelecido na Súmula TST 85, V. Isso significa que a regra prevista na lei tem caráter geral e abstrato, aplicável a todos os setores, e não pode ser flexibilizada pelas partes coletivas.\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada é que o prazo de compensação do banco de horas estabelecido na CCT do setor hoteleiro seja considerado inválido, pois excede o limite de 1 ano previsto na lei. A empresa deve respeitar a regra prevista na lei e não pode flexibilizar o limite com base na autonomia das partes coletivas.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n* O predicado \"hour_bank_with_cct_max_1_year\" foi violado, pois o prazo de compensação estabelecido na CCT do setor hoteleiro excede o limite de 1 ano previsto na lei.\n* A norma de ordem pública (Súmula TST 85, V) foi cumprida, pois a regra prevista na lei tem caráter geral e abstrato, aplicável a todos os setores.",
+  "tokens_in": 362,
+  "tokens_out": 482,
+  "latency_ms": 8156,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,29 @@
+{
+  "sha256": "c64a7077066a88deb0027966619177775df48b558411bf9134740932e6c576fc",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T02:22:56Z",
+  "prompt_sha": "5f9cbe1e74df8f9f09dd27156f26d2bdba133bb47bb48855f1d568c3bfa09a2e",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que houve **violação normativa** com base nos seguintes predicados soberanos ativos:  \n- **`sovereign(overtime_minimum_additional_50pct)`**: O trabalhador tem direito a **adicional de 50% sobre as horas não compensadas** no banco de horas, conforme estabelecido pela legislação trabalhista. A empresa não respeitou esse direito ao pagar as horas como normais.  \n- **`sovereign(semester_hour_bank_requires_cct_or_act)`**: O banco de horas estabelecido pela CCT (Convenção Coletiva de Trabalho) é **legalmente válido**, mas **não isenta a empresa de pagar o adicional de 50%** sobre as horas remanescentes.  \n- **`sovereign(invalidity_of_clause_suppressing_overtime_payment)`**: Cláusulas que **suprimam ou reduzam o adicional de 50% sobre horas extras** são **nulas de pleno direito**, conforme determina a CLT (Consolidação das Leis do Trabalho).  \n- **`sovereign(prohibition_negotiation_reducing_overtime_additional)`**: A negociação coletiva **não pode reduzir ou eliminar o adicional de 50%** sobre horas extras, mesmo que prevista em CCT.  \n\nA combinação desses predicados soberanos indica que a empresa **viola a CLT ao não pagar o adicional de 50%** sobre as 80 horas não compensadas, mesmo que o banco de horas tenha sido estabelecido por CCT. A ausência de compensação semestral (ou a não aplicação do adicional) configura **violação do direito à remuneração justa**.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n**a) `sovereign(semester_hour_bank_requires_cct_or_act)`**  \n- **Significado jurídico**: O banco de horas **só pode ser estabelecido por meio de CCT ou ato normativo** (como lei ou decreto). A existência de um banco de horas válido **não isenta a empresa de pagar o adicional de 50%** sobre horas extras.  \n\n**b) `sovereign(invalidity_of_clause_suppressing_overtime_payment)`**  \n- **Significado jurídico**: Cláusulas que **eliminem ou reduzam o adicional de 50%** sobre horas extras são **nulas de pleno direito**, conforme art. 69 da CLT. A empresa **não pode se valer de acordos** para evitar esse pagamento.  \n\n**c) `sovereign(overtime_minimum_additional_50pct)`**  \n- **Significado jurídico**: O trabalhador tem **direito a 50% de adicional** sobre qualquer hora extra trabalhada, independentemente de compensação no banco de horas. A empresa **deve pagar esse adicional** mesmo que as horas tenham sido registradas como \"normais\".  \n\n**d) `sovereign(prohibition_negotiation_reducing_overtime_additional)`**  \n- **Significado jurídico**: A negociação coletiva **não pode reduzir ou eliminar o adicional de 50%** sobre horas extras. Mesmo que a CCT preveja compensação semestral, **o adicional de 50% deve ser pago** sobre as horas não compensadas.  \n\n**e) `sovereign(maximum_weekly_working_hours_44h)` e `sovereign(maximum_daily_working_hours_8h)`**  \n- **Significado jurídico**: Limitam a jornada de trabalho a **44h semanais e 8h diárias**, conforme art. 58 da CLT. A existência de um banco de horas **não pode ser usada para justificar jornadas acima desses limites**.  \n\n**f) `elastic(hour_bank_without_cct_max_6_months)`**  \n- **Significado jurídico**: Se o banco de horas **não tivesse sido estabelecido por CCT**, o prazo máximo para compensação seria de **6 meses**. No caso, como a CCT foi aplicada, esse predicado **não se aplica**, mas reforça que a compensação semestral **não isenta a empresa de pagar o adicional de 50%**.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \n**O que aconteceu?**  \nA empresa demitiu o trabalhador sem justa causa, e ele tinha 80 horas acumuladas em um \"banco de horas\" (como um saldo de horas extras que poderia ser compensado depois). A empresa pagou essas horas como se fossem normais, sem dar o **extra de 50%** que a lei exige.  \n\n**Por que a empresa está errada?**  \n- A lei diz que **qualquer hora extra** (mesmo que registrada no banco de horas) **deve ser paga com 50% de adicional**.  \n- Mesmo que a empresa tenha um acordo coletivo (CCT) para compensar horas no banco, **não pode evitar o pagamento do adicional**.  \n- A empresa **viola a lei** ao não pagar esse extra, e o trabalhador tem direito a **reclamar esse valor**.  \n\n**O que o trabalhador pode fazer?**  \nEle deve **reclamar o adicional de 50% sobre as 80 horas** no banco de horas, pois a empresa **não cumpriu a lei**. A decisão do sistema confirma que a empresa **violau o direito do trabalhador**.",
+  "tokens_in": 531,
+  "tokens_out": 1789,
+  "latency_ms": 57812,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

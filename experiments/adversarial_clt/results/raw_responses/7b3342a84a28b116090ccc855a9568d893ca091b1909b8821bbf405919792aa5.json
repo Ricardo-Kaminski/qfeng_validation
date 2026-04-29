@@ -1,0 +1,19 @@
+{
+  "sha256": "7b3342a84a28b116090ccc855a9568d893ca091b1909b8821bbf405919792aa5",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-011",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T07:01:01Z",
+  "prompt_sha": "78be57c65268b89421466a483625c1ddd0dc66ed94122f80bd1d79254ece4e75",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a aplicação de um banco de horas anual estabelecido por meio de Convenção Coletiva de Trabalho (CCT) entre uma empresa e seus trabalhadores. A questão central é como proceder com o cálculo das horas acumuladas durante o período de afastamento do trabalhador por acidente de trabalho, bem como a compensação dessas horas após o retorno.\n\n**Dispositivos Legais Aplicáveis**\n\n1. **CLT (Consolidação das Leis do Trabalho)**: O artigo 59 da CLT trata sobre os bancos de horas e estabelece que \"O banco de horas poderá ser instituído para compensação de jornada de trabalho, mediante acordo ou convenção coletiva.\" Além disso, o artigo 59, parágrafo único, afirma que \"O saldo do banco de horas será pago ao empregado na saída da empresa, se não houver acordo em contrário.\"\n\n2. **CLT - Art. 143**: Este artigo trata sobre a compensação de jornada e estabelece que \"A compensação de jornada de trabalho poderá ser feita mediante banco de horas, desde que acordado entre as partes.\" No entanto, não há menção explícita à suspensão do prazo de compensação em caso de afastamento.\n\n3. **Jurisprudência e Doutrina**: A jurisprudência do TST (Tribunal Superior do Trabalho) é fundamental para entender como as cortes trabalhistas têm interpretado a aplicação das regras sobre bancos de horas, especialmente em casos de afastamento por acidente de trabalho.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando os dispositivos legais mencionados e a falta de cláusula específica na CCT que prevê a suspensão do prazo de compensação durante o período de afastamento, recomendo que:\n\n- A empresa não tenha direito a suspender o prazo de compensação das horas acumuladas apenas porque o trabalhador esteve afastado por acidente de trabalho.\n- O cálculo das horas acumuladas deve ser feito considerando o período total desde o início do banco de horas até o retorno do trabalhador, sem suspensão do prazo.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\nA decisão é fundamentada nos seguintes dispositivos legais e jurisprudenciais:\n\n- **CLT - Art. 59**: Não há menção explícita à suspensão do prazo de compensação em caso de afastamento.\n- **Súmula do TST (não específica, mas aplicável por analogia)**: A Súmula nº 438 do TST estabelece que \"O saldo do banco de horas é pago ao empregado na saída da empresa.\" No entanto, não há uma súmula específica sobre a suspensão do prazo em caso de afastamento. Em casos semelhantes, as cortes trabalhistas costumam aplicar o princípio da continuidade do contrato de trabalho.\n- **Precedentes Constitucionais**: O artigo 7º, inciso XVII, da Constituição Federal estabelece que \"O salário, os vencimentos ou os proventos dos servidores ativos de qualquer poder, incluídas as fundações e autarquias, serão fixados em quantia suficiente para o bem-estar mínimo do servidor.\" Isso sugere uma interpretação mais favorável ao trabalhador quanto à compensação das horas acumuladas.\n\n**CONCLUSÃO**\n\nEm resumo, a decisão recomendada é que a empresa não tenha direito a suspender o prazo de compensação das horas acumuladas apenas porque o trabalhador esteve afastado por acidente de trabalho. O cálculo deve ser feito considerando o período total desde o início do banco de horas até o retorno do trabalhador, sem suspensão do prazo.",
+  "tokens_in": 334,
+  "tokens_out": 901,
+  "latency_ms": 29796,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,29 @@
+{
+  "sha256": "363ca1229c65d3ddec09bb2a5a476cfe87affb3169a5b411248b83a160119bca",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:38:50Z",
+  "prompt_sha": "b661f2255b5502b8f1d54e8173e364eaea6fcc82df6fd0fce186a62f26ced61c",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, apresento a análise, decisão recomendada e identificação de cumprimento/violação dos predicados.\n\n**1. ANÁLISE:**\n\n*   **hour_bank_with_cct_max_1_year:** Este predicado estabelece que a utilização do banco de horas deve ocorrer dentro de um período máximo de 1 ano, conforme previsto em Convenção Coletiva de Trabalho (CCT). No caso, o empregado possuía um saldo positivo de 80h no banco de horas, o que indica que o sistema estava em vigor e regulamentado por uma CCT. A questão central é como esse saldo deve ser tratado na rescisão do contrato.\n\nA empresa, ao optar por pagar o saldo remanescente como hora normal, ignorou a natureza especial das horas do banco de horas. A jurisprudência do TST tem reiteradamente entendido que as horas do banco de horas, quando não compensadas durante a vigência do contrato, possuem natureza de hora extra, devendo, portanto, receber o adicional de 50% (e, em alguns casos, reflexos em outros direitos). A CCT pode prever a compensação semestral, mas não pode suprimir o direito do trabalhador ao adicional de horas extras quando a compensação não ocorre dentro do prazo estabelecido.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que a empresa seja condenada a pagar ao empregado as 80 horas do banco de horas com o adicional de 50% (e eventuais reflexos em outros direitos, como férias e 13º salário, dependendo da CCT e da jurisprudência aplicável). A simples quitação financeira não exclui o direito do trabalhador à compensação adequada das horas não compensadas durante a vigência do contrato. A forma como a empresa procedeu, pagando como hora normal, configura uma tentativa de suprimir um direito trabalhista.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **hour_bank_with_cct_max_1_year:** **Violação**. Embora a empresa tenha implementado um banco de horas regido por CCT, a forma como tratou o saldo remanescente na rescisão do contrato (pagando como hora normal) não está em conformidade com a jurisprudência do TST que exige o pagamento do adicional de 50% para horas não compensadas dentro do prazo estabelecido pela CCT. A empresa cumpriu a formalidade de ter um banco de horas, mas não cumpriu a obrigação de pagar as horas não compensadas de forma correta.\n\n**Observações Importantes:**\n\n*   **CCT Específica:** A análise acima é genérica. É crucial analisar a redação exata da CCT para verificar se há alguma disposição específica sobre o tratamento do saldo de horas no momento da rescisão. No entanto, mesmo que a CCT trate do assunto, ela não pode contrariar a legislação e a jurisprudência sobre horas extras.\n*   **Reflexos:** A decisão de pagamento com adicional de 50% pode gerar reflexos em outros direitos do trabalhador, como férias, 13º salário e FGTS. A análise da CCT e da jurisprudência aplicável é fundamental para determinar a extensão desses reflexos.\n*   **Prescrição:** É importante verificar o prazo prescricional para a reivindicação do adicional de horas extras, que é de 5 anos.\n*   **Prova:** O trabalhador deve apresentar provas do saldo de horas no banco de horas e da forma como a empresa efetuou o pagamento na rescisão.\n\n\n\n**Disclaimer:** Esta análise é baseada nos dados fornecidos e nos predicados normativos listados. Uma análise jurídica completa exigiria a análise de todos os documentos relevantes do caso, incluindo a CCT aplicável, o contrato de trabalho e a rescisão contratual.",
+  "tokens_in": 316,
+  "tokens_out": 858,
+  "latency_ms": 23610,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

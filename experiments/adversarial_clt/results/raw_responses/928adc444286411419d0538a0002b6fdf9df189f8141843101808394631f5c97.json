@@ -1,0 +1,26 @@
+{
+  "sha256": "928adc444286411419d0538a0002b6fdf9df189f8141843101808394631f5c97",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:16:51Z",
+  "prompt_sha": "57cf080c70ee6d5ee75af46a8cd79a5aba980ddfcf3914fb8da919567e87ba49",
+  "response_text": "1. **ANÁLISE:**\n\n   - **obligation_to_pay_nocturnal_premium_20pct:** Este predicado normativo estabelece a obrigação de pagar um adicional noturno de 20% aos trabalhadores que laboram entre as 22h e 5h. No cenário apresentado, a empresa cumpre essa obrigação ao recolher adicionais noturnos de 20% para todos os motoristas que trabalham nesse horário. Além disso, o fato de os contracheques discriminarem o adicional noturno separadamente demonstra transparência e conformidade com a normativa.\n\n   - **maximum_daily_working_hours_8h:** Este predicado estabelece um limite máximo de 8 horas diárias de trabalho. No cenário, é mencionado que nenhuma hora extra é realizada além das 8h diárias para motoristas em turno noturno. Isso indica que a empresa está cumprindo com o limite estabelecido pela normativa.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base nos predicados analisados, recomenda-se que a prática da empresa seja considerada conforme à legislação trabalhista vigente. A empresa cumpre tanto a obrigação de pagar o adicional noturno de 20% quanto respeita o limite máximo de horas diárias de trabalho.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **CUMPRIDOS:**\n     - obligation_to_pay_nocturnal_premium_20pct: A empresa paga corretamente o adicional noturno de 20% e discrimina esse valor nos contracheques.\n     - maximum_daily_working_hours_8h: A empresa não exige horas extras além das 8h diárias para os motoristas em turno noturno.\n\n   Não há violações dos predicados normativos listados no cenário apresentado.",
+  "tokens_in": 372,
+  "tokens_out": 435,
+  "latency_ms": 12750,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

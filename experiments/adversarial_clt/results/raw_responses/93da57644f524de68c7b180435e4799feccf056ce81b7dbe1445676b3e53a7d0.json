@@ -1,0 +1,26 @@
+{
+  "sha256": "93da57644f524de68c7b180435e4799feccf056ce81b7dbe1445676b3e53a7d0",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T00:24:41Z",
+  "prompt_sha": "0308e544333fc597abdf8b239f7b18e49c0e2a9c2b0a3284266fdfb3ee4d598d",
+  "response_text": "## ANÁLISE DO CASO: Transcrição de Ementa do TST sem Cotejo Fático\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, segue a análise, decisão recomendada e identificação de cumprimento/violação dos predicados:\n\n**1. ANÁLISE:**\n\n*   **`obligation_to_ground_decision_in_identified_ratio_decidendi` (Obrigação de fundamentar a decisão no *ratio decidendi* identificado):** Este é o predicado central para a análise do caso. O *ratio decidendi* de um precedente do TST é a razão de decidir, a lógica que sustenta a decisão. A simples transcrição da ementa, sem a devida análise e cotejo com os fatos do caso concreto, não demonstra que o TRT efetivamente extraiu e aplicou o *ratio decidendi* do precedente. A ementa é um resumo, e a aplicação do precedente exige a compreensão da sua lógica e a verificação se essa lógica se aplica aos fatos em questão. A transcrição integral da ementa pode ser um elemento de fundamentação, mas não substitui a análise do *ratio decidendi* e sua aplicabilidade.\n*   **CPC Art. 489, §1°, V (Demonstração de aplicabilidade ao caso):** A alegação da parte vencida, baseada no artigo 489, §1°, V do CPC, é pertinente. Este dispositivo exige que a decisão judicial demonstre a aplicabilidade do entendimento do precedente aos fatos do caso concreto. A transcrição da ementa, por si só, não cumpre esse requisito.  É necessário que o juiz explique *por que* o precedente é aplicável, quais elementos fáticos do caso concreto se assemelham aos do caso que originou o precedente, e como a lógica do precedente se traduz em uma solução para o caso em questão. A mera repetição da ementa não demonstra essa aplicabilidade.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se o **provimento do recurso da parte vencida**, com o **anulação da decisão do TRT** e a determinação de que o processo seja remetido a novo julgamento. O novo julgamento deve observar os seguintes pontos:\n\n*   **Análise do *ratio decidendi*:** O TRT deve identificar e analisar a razão de decidir do acórdão do TST transcrito, compreendendo a lógica que o sustentou.\n*   **Cotejo Fático:** O TRT deve realizar um cotejo minucioso entre os fatos do caso concreto e os fatos do caso que originou o precedente do TST.  Deve ser demonstrado, de forma clara e fundamentada, a semelhança ou distinção dos fatos, e como essa semelhança ou distinção impacta a aplicabilidade do precedente.\n*   **Fundamentação Específica:** A decisão deve apresentar uma fundamentação específica, explicando *por que* o precedente do TST é aplicável (ou não) ao caso concreto, com base na análise do *ratio decidendi* e no cotejo fático. A simples transcrição da ementa não é suficiente.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **`obligation_to_ground_decision_in_identified_ratio_decidendi` (Obrigação de fundamentar a decisão no *ratio decidendi* identificado):** **Violação**. A transcrição da ementa sem análise e cotejo fático não demonstra que o *ratio decidendi* foi identificado e aplicado.\n*   **CPC Art. 489, §1°, V (Demonstração de aplicabilidade ao caso):** **Violação**. A decisão do TRT não demonstrou a aplicabilidade do precedente do TST aos fatos do caso concreto.\n\n\n\n**Observações:**\n\n*   A decisão de prover o recurso não implica necessariamente que o precedente do TST não seja aplicável. Apenas exige que a aplicabilidade seja demonstrada de forma adequada, com a devida análise e cotejo fático.\n*   A transcrição de ementas de precedentes é uma prática comum e legítima, desde que acompanhada da análise e do cotejo fático necessários para demonstrar a aplicabilidade do precedente ao caso concreto.\n*   Este parecer é baseado unicamente nos predicados normativos fornecidos e no cenário descrito. Uma análise completa do caso exigiria a análise do processo em si, incluindo a ementa do acórdão do TST transcrito e a fundamentação da decisão do TRT.",
+  "tokens_in": 330,
+  "tokens_out": 1000,
+  "latency_ms": 27421,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

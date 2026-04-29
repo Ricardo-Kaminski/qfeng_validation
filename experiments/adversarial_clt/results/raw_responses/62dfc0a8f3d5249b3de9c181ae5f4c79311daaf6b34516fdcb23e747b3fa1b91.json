@@ -1,0 +1,19 @@
+{
+  "sha256": "62dfc0a8f3d5249b3de9c181ae5f4c79311daaf6b34516fdcb23e747b3fa1b91",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T12:28:36Z",
+  "prompt_sha": "ffe2fd00d79be6f017d5acdc52228269f306dc6ce9f81283dc76ffc81b8e32e8",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, o trabalhador foi demitido sem justa causa após três anos de trabalho e recebeu todas as verbas rescisórias no prazo de 10 dias. As verbas pagas incluem saldo de salário, aviso prévio indenizado proporcional (33 dias), férias proporcionais com 1/3, 13º salário proporcional, FGTS mais multa de 40%, e o seguro-desemprego foi habilitado. O trabalhador assinou o recibo na presença do sindicato, sem identificar nenhuma irregularidade.\n\nOs dispositivos normativos relevantes neste contexto são:\n\n- **Aviso Prévio:** De acordo com a Consolidação das Leis do Trabalho (CLT), art. 487, o aviso prévio deve ser de 30 dias para empregados com mais de um ano de serviço. No caso da dispensa sem justa causa, este pode ser indenizado proporcionalmente ao tempo de trabalho.\n\n- **Férias Proporcionais:** Art. 129 da CLT estabelece que férias proporcionais são devidas aos empregados demitidos sem justa causa antes do término do período aquisitivo, incluindo o terço constitucional sobre elas.\n\n- **13º Salário Proporcional:** Art. 71 da CLT prevê o pagamento proporcional do décimo terceiro salário aos empregados demitidos sem justa causa antes de completar um ano na empresa.\n\n- **FGTS e Multa de 40%:** Art. 20, § 3º da Lei nº 8.036/1990 determina o pagamento de 40% sobre o saldo do FGTS em caso de demissão sem justa causa.\n\n- **Seguro-Desemprego:** A habilitação ao seguro-desemprego é um direito dos trabalhadores demitidos sem justa causa, conforme regulamentado pela legislação previdenciária e pelo art. 7º da Lei nº 7.998/89.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que a empresa não tenha qualquer obrigação adicional em relação à rescisão contratual, pois todas as verbas rescisórias foram pagas corretamente e no prazo estipulado pela legislação trabalhista. O fato de o recibo ter sido assinado na presença do sindicato fortalece a regularidade da documentação.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Art. 487, CLT:** Regula o aviso prévio e sua indenização proporcional.\n  \n- **Art. 129, CLT:** Estabelece as regras para férias proporcionais.\n\n- **Art. 71, CLT:** Define o pagamento do décimo terceiro salário proporcional.\n\n- **Art. 20, § 3º da Lei nº 8.036/1990:** Determina a multa de 40% sobre o FGTS em caso de demissão sem justa causa.\n\n- **Art. 7º da Lei nº 7.998/89:** Regula o seguro-desemprego, garantindo esse direito aos trabalhadores demitidos sem justa causa.\n\nDado que todas as obrigações legais foram cumpridas conforme os dispositivos normativos citados, não há irregularidades identificáveis no processo de rescisão do contrato de trabalho.",
+  "tokens_in": 312,
+  "tokens_out": 793,
+  "latency_ms": 45485,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

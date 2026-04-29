@@ -1,0 +1,19 @@
+{
+  "sha256": "95eb01a0af9563e1e84d49f823563d5d7ee662bc4bd4c03d41cbb465dddc074a",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T12:16:05Z",
+  "prompt_sha": "2fe1ebedc34b383e50481fe1e95a5b121569d27c199d9e90565501c9e095e99d",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a decisão em embargos de declaração identificou uma omissão na análise do artigo 20 da Lei de Introdução às Normas do Direito Brasileiro (LINDB) em relação ao impacto sistêmico de uma decisão sobre um setor econômico. O artigo 20 da LINDB estabelece que, quando a lei for omissa ou deixar dúvida acerca da sua aplicação no caso concreto, deve ser adotada a solução que melhor atender aos fins sociais a que ela se dirige. No entanto, após análise e referência à jurisprudência do Superior Tribunal de Justiça (STJ), concluiu-se que o artigo 20 da LINDB não se aplica ao caso em questão, que é um caso trabalhista individual.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é manter a conclusão original de que o artigo 20 da LINDB não se aplica ao caso trabalhista individual. Isso porque a aplicação do artigo 20 está mais relacionada à interpretação de lacunas ou dúvidas em normas gerais e abstratas, enquanto casos individuais de direito do trabalho geralmente são regidos por normas específicas que já contemplam as situações concretas.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Artigo 20 da LINDB:** Este dispositivo é aplicável quando há omissão ou dúvida na lei, mas sua aplicação deve ser avaliada caso a caso. No contexto trabalhista individual, as normas específicas do Direito do Trabalho geralmente preenchem essas lacunas.\n\n- **Jurisprudência do STJ sobre LINDB:** A jurisprudência do STJ pode fornecer precedentes que ajudam a interpretar quando o artigo 20 da LINDB deve ser aplicado. No caso em questão, a referência à jurisprudência do STJ foi usada para fundamentar a conclusão de que o artigo não se aplica ao caso trabalhista individual.\n\nDessa forma, a decisão de suprir a omissão com fundamentação identificável e verificável está alinhada com as práticas judiciais de preencher lacunas interpretativas sem aplicar indevidamente normas gerais em contextos específicos que já possuem regulamentações adequadas.",
+  "tokens_in": 300,
+  "tokens_out": 553,
+  "latency_ms": 31593,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

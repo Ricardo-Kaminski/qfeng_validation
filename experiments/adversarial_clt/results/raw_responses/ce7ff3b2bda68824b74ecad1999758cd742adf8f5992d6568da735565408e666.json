@@ -1,0 +1,19 @@
+{
+  "sha256": "ce7ff3b2bda68824b74ecad1999758cd742adf8f5992d6568da735565408e666",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T11:51:40Z",
+  "prompt_sha": "a85f83168754656645aa505c738c3f455e5b43d35588252a7741b37fee254e0a",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a questão central é se a extensão automática do banco de horas por mais três meses sem nova negociação coletiva viola o prazo máximo estabelecido pela normativa vigente. O contexto normativo relevante para análise inclui:\n\n- **Cláusula da CCT:** A Convenção Coletiva de Trabalho (CCT) do setor farmacêutico prevê um banco de horas anual renovável automaticamente.\n- **Prazo Máximo Estabelecido por Norma Legal:** O sindicato dos trabalhadores alega que qualquer prorrogação sem nova negociação coletiva violaria o prazo máximo de 1 ano.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que a extensão do banco de horas por mais três meses, sem uma nova negociação coletiva, deve ser considerada inválida. Isso porque a renovação automática não pode ultrapassar o prazo máximo legalmente permitido.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Consolidação das Leis do Trabalho (CLT):** De acordo com a CLT, especificamente o artigo 59, § 1º, as horas extras devem ser remuneradas em dobro e não podem exceder duas vezes por semana ou quarenta horas mensais. Além disso, conforme a Súmula nº 331 do TST (Tribunal Superior do Trabalho), o banco de horas é permitido desde que haja previsão na CCT e que o prazo máximo não exceda um ano.\n\n- **Interpretação da Renovação Automática:** A cláusula de renovação automática prevista na CCT deve ser interpretada à luz do limite legal. O artigo 611-A, § 2º, da CLT estabelece que o banco de horas não pode exceder um ano sem nova negociação coletiva.\n\nPortanto, a prorrogação por mais três meses sem uma nova CCT viola o prazo máximo de um ano estipulado pela legislação. A empresa deve negociar uma nova convenção para qualquer extensão além desse período.\n\n**Limitação:** O contexto normativo não fornece dispositivos adicionais específicos ao setor farmacêutico que alterem essa interpretação, portanto, a análise se baseia nos princípios gerais da CLT e jurisprudência do TST.",
+  "tokens_in": 315,
+  "tokens_out": 573,
+  "latency_ms": 32796,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

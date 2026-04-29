@@ -1,0 +1,26 @@
+{
+  "sha256": "55098a859725122f7e8c09c5a8acddb28a631f1413c9879f16ac2bba742fd09a",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CTRL-NEG-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T23:23:46Z",
+  "prompt_sha": "bc5354b8aa150da0fdce223f51b505bd2eeabf2f811bee24e295f29dad7011ee",
+  "response_text": "### 1. **ANÁLISE**  \nCada predicado normativo listado se aplica ao caso concreto da seguinte forma:  \n- **maximum_daily_working_hours_8h**: A empresa cumpre a norma, pois a jornada diária é de 8 horas, que é o limite máximo estabelecido pela CLT (art. 59, CLT).  \n- **maximum_weekly_working_hours_44h**: A empresa também cumpre a norma, pois a jornada semanal é de 44 horas, que é o limite máximo previsto na CLT (art. 59, CLT).  \n- **minimum_intrajornada_interval_1h**: A empresa cumpre a norma, pois concede integralmente o intervalo intrajornada de 1 hora para jornada de 8 horas, conforme determinado pela CLT (art. 68, CLT).  \n\n**Observações adicionais**:  \n- A ausência de banco de horas, trabalho noturno e horas extras indica que a empresa não está explorando exceções ou flexibilizações previstas na CLT (como a jornada de 12 horas com 30 minutos de intervalo, art. 59, CLT).  \n- A utilização de registros de ponto eletrônicos e auditáveis não é exigida por norma legal, mas é uma boa prática para evitar litígios trabalhistas.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA empresa está **totalmente em conformidade** com as normas trabalhistas brasileiras, conforme os predicados normativos fornecidos. Não há violações, e a jornada de trabalho está estritamente dentro dos limites legais. Recomenda-se manter a atual estrutura de jornada e intervalos, evitando qualquer alteração que possa gerar desvios das normas.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **maximum_daily_working_hours_8h**: **Conformidade** (jornada diária de 8 horas está dentro do limite legal).  \n- **maximum_weekly_working_hours_44h**: **Conformidade** (jornada semanal de 44 horas está dentro do limite legal).  \n- **minimum_intrajornada_interval_1h**: **Conformidade** (intervalo de 1 hora concedido integralmente para jornada de 8 horas).  \n\n**Nenhum predicado foi violado** no cenário descrito.",
+  "tokens_in": 364,
+  "tokens_out": 859,
+  "latency_ms": 25922,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

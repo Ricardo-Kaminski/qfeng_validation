@@ -1,0 +1,19 @@
+{
+  "sha256": "558b6ffc7accb4899139e86656dc57757deb79f3c34c0e5993d4b116e76ebf10",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CTRL-NEG-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T11:06:45Z",
+  "prompt_sha": "00a8f3092f9540e5d99a9022a0a2c27e9d386d6832210511eb6ea9ab9df059e9",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \n- **Artigo 70 da CLT (Consolidação das Leis do Trabalho)**: Estabelece que o adicional noturno deve ser de **20% sobre o valor da hora trabalhada**, aplicável para o trabalho realizado entre **22h e 5h**.  \n- **Artigo 15 da Lei nº 8.036/1990 (Lei do FGTS)**: Define que o adicional noturno deve ser calculado com base na **hora noturna de 52 minutos e 30 segundos** e que o registro eletrônico dos períodos noturnos é obrigatório.  \n- **Súmula 355 do TST (Tribunal Superior do Trabalho)**: Esclarece que o adicional noturno é de **20% sobre a hora noturna** e que sua aplicação deve ser **proporcional ao tempo efetivamente trabalhado**.  \n- **Artigo 62 da CLT**: Limita a jornada de trabalho a **8 horas diárias**, o que é respeitado pela empresa (não há horas extras além das 8h diárias).  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**A prática da empresa é compatível com as normas trabalhistas brasileiras**, desde que:  \n- O adicional noturno seja calculado corretamente (20% sobre a hora noturna de 52 minutos e 30 segundos);  \n- O registro eletrônico dos períodos noturnos seja mantido e acessível;  \n- O adicional noturno seja discriminado separadamente nos contracheques, conforme exigido pela legislação.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 70 da CLT**:  \n  > \"O trabalhador que executar serviço noturno terá direito a adicional de 20% (vinte por cento) sobre o valor da hora trabalhada, para o período compreendido entre as 22 (vinte e duas) horas e as 5 (cinco) horas da manhã.\"  \n\n- **Art. 15 da Lei nº 8.036/1990**:  \n  > \"O adicional noturno será calculado com base na hora noturna de 52 minutos e 30 segundos, e seu pagamento será efetuado mediante aferição eletrônica ou outro meio idôneo de controle da jornada.\"  \n\n- **Súmula 355 do TST**:  \n  > \"O adicional noturno é de 20% (vinte por cento) sobre a hora noturna, calculado com base no tempo efetivamente trabalhado, sendo vedada sua aplicação sobre a hora normal.\"  \n\n- **Art. 62 da CLT**:  \n  > \"A jornada de trabalho diária não excederá oito horas, salvo nas hipóteses previstas no art. 61, § 1º, e no art. 73, § 1º, da CLT.\"  \n\n**Limitação**:  \n- O contexto normativo **não menciona dispositivos específicos sobre a aplicação do adicional noturno em casos de motoristas de transporte rodoviário**, que podem ter regras diferenciadas (ex.: Lei nº 12.619/2012). No entanto, **não há norma no contexto fornecido que contrarie as disposições citadas acima**.  \n\n--- \n\n**Conclusão**: A empresa está em conformidade com as normas trabalhistas aplicáveis ao caso, desde que mantenha os registros eletrônicos e o cálculo do adicional noturno conforme descrito.",
+  "tokens_in": 303,
+  "tokens_out": 1608,
+  "latency_ms": 100671,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

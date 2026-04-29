@@ -1,0 +1,19 @@
+{
+  "sha256": "c5a1331a1540790e72de26586be47dc9f88bc81c6e42be3b55c8fa8fa8e6c71d",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-007",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T11:59:50Z",
+  "prompt_sha": "53087c86e5c2e0b853c4bc3f1ae306d1103f2f60060d1cd3fd8825586f837164",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a análise envolve um banco de horas anual (12 meses) previsto na CCT do setor bancário e sua compatibilidade com o direito ao adicional de horas extras. O contexto normativo menciona a jurisprudência do TST-Ag-RR-868-65.2021 e o Tema 1046/STF, que são relevantes para entender como essas questões devem ser tratadas.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que as horas compensadas no banco de horas não geram direito ao adicional de horas extras. Isso se deve ao fato de que o banco de horas, conforme previsto na CCT e em conformidade com a jurisprudência mencionada, permite a compensação das horas trabalhadas além do horário normal sem acréscimo de adicional, desde que as condições estabelecidas (como prazo para compensação) sejam cumpridas.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Jurisprudência do TST-Ag-RR-868-65.2021:** Esta jurisprudência trata da possibilidade de instituição de banco de horas em CCTs, permitindo a compensação das horas extras sem acréscimo de adicional, desde que as condições estabelecidas na norma coletiva sejam respeitadas.\n\n- **Tema 1046/STF:** O Supremo Tribunal Federal, ao julgar o Tema 1046, reconheceu a validade dos bancos de horas previstos em CCTs, desde que não excedam determinados limites e cumpram com as condições estabelecidas na norma coletiva. Isso inclui a compensação das horas extras dentro do prazo fixado.\n\nPortanto, conforme o contexto normativo fornecido, a decisão recomendada está alinhada com a jurisprudência vigente que permite a compensação de horas extras sem adicional, desde que as condições da CCT sejam cumpridas. Não há dispositivos específicos do Código Civil ou Trabalhista mencionados no contexto, mas a análise é baseada na interpretação das decisões judiciais citadas.",
+  "tokens_in": 312,
+  "tokens_out": 507,
+  "latency_ms": 28937,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

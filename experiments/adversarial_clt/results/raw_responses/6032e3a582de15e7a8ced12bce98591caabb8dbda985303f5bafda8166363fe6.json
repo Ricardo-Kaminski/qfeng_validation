@@ -1,0 +1,19 @@
+{
+  "sha256": "6032e3a582de15e7a8ced12bce98591caabb8dbda985303f5bafda8166363fe6",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T12:10:54Z",
+  "prompt_sha": "92aecfbcd48b18b24b7145bd3115c2c41dd569d979ba575e89a78b84c16595e4",
+  "response_text": "1. **ANÁLISE:** \n\nNo cenário apresentado, a decisão do Tribunal Regional do Trabalho (TRT) sobre a questão do adicional noturno está fundamentada na Súmula 60 do Tribunal Superior do Trabalho (TST). Esta súmula trata especificamente da incidência do adicional de remuneração para trabalho noturno em regimes de revezamento. A ratio da Súmula 60 é que o regime de revezamento noturno integra o adicional à remuneração, diferentemente dos casos em que o turno fixo não inclui períodos noturnos.\n\nNo caso concreto analisado pelo TRT, o empregado está sob um regime de trabalho 12x36 com períodos noturnos fixos. O TRT identificou que este regime se enquadra na hipótese da Súmula 60 porque envolve revezamento noturno.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é conceder o adicional noturno ao empregado, pois seu regime de trabalho (12x36) com períodos noturnos fixos se enquadra na hipótese prevista pela Súmula 60 do TST. O adicional deve ser pago porque o trabalhador está submetido a um revezamento que inclui turnos noturnos, conforme estabelecido na súmula.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Súmula 60 do TST:** Esta norma é aplicável ao caso e estabelece que o regime de revezamento noturno integra o adicional à remuneração. O TRT identificou corretamente que o regime de trabalho 12x36 com períodos noturnos fixos se enquadra nesta hipótese, diferentemente dos casos em que o turno é fixo e não inclui horários noturnos.\n\nA decisão do TRT está bem fundamentada na aplicação da Súmula 60, sem necessidade de recorrer a outras normas ou dispositivos legais adicionais no contexto fornecido.",
+  "tokens_in": 325,
+  "tokens_out": 483,
+  "latency_ms": 27562,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

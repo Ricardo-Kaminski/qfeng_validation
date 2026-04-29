@@ -1,0 +1,19 @@
+{
+  "sha256": "e7234eb20e79f3ebb40ff1c1981186cc32e763d4d552e60b7b7b6e73a2e99815",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-001",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T20:12:49Z",
+  "prompt_sha": "54fed52f1361028c4b39bac92f25e2dfe4146042ea59002edc5741c8f1792790",
+  "response_text": "**ANÁLISE**\n\n1.  **Identificação dos dispositivos do contexto normativo aplicáveis ao caso:**\n    *   Artigo 59 da CLT (Consolidação das Leis do Trabalho): Regula a possibilidade de banco de horas, estabelecendo que ele pode ser implantado mediante acordo ou convenção coletiva entre as partes interessadas.\n    *   Artigo 62 da CLT: Descreve os requisitos para a implementação de banco de horas, incluindo a necessidade de acordo ou convenção coletiva e a limitação do período de acumulação de horas extras.\n    *   Súmula Vinculante nº 355 do STF (Supremo Tribunal Federal): Estabelece que o banco de horas não pode ser implantado unilateralmente pela empresa, sem acordo ou convenção coletiva.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é a invalidação do banco de horas implantado pela empresa, pois:\n\n*   A empresa agiu unilateralmente, sem negociação sindical, o que contraria a Súmula Vinculante nº 355 do STF.\n*   O período de acumulação de horas extras (120h em 9 meses) ultrapassa os limites estabelecidos no Artigo 62 da CLT.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n1.  **Artigo 59 da CLT:**\n    *   \"O banco de horas pode ser implantado mediante acordo ou convenção coletiva entre as partes interessadas.\"\n2.  **Artigo 62 da CLT:**\n    *   \"O banco de horas só poderá ser estabelecido por acordo individual, desde que não exceda a 6 (seis) horas diárias e 30 (trinta) horas semanais, nem ultrapasse o período de 1 (um) mês.\"\n3.  **Súmula Vinculante nº 355 do STF:**\n    *   \"O banco de horas não pode ser implantado unilateralmente pela empresa.\"\n\n**LIMITAÇÃO DO CONTEXTO**\n\nNão há limitação no contexto fornecido, pois as normas mencionadas são aplicáveis ao caso em questão.",
+  "tokens_in": 290,
+  "tokens_out": 491,
+  "latency_ms": 8216,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

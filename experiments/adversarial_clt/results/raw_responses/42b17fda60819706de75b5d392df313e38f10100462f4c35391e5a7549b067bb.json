@@ -1,0 +1,19 @@
+{
+  "sha256": "42b17fda60819706de75b5d392df313e38f10100462f4c35391e5a7549b067bb",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CTRL-NEG-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T11:03:12Z",
+  "prompt_sha": "78faf043ffafa13b62c94bafbb4c2e0135abf258fd4b2cf3a75e7132cf2b38ec",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \n- **Art. 59 da CLT** (regulamenta o banco de horas):  \n  Permite a acumulação de horas extras, desde que respeitados os limites estabelecidos no acordo coletivo (no caso, 60h mensais). A CCT prevê o acúmulo máximo de 60h mensais, compatível com o princípio da autonomia das partes previsto no art. 59, § 1º.  \n- **Art. 614 da CLT** (registro de acordos coletivos):  \n  A CCT foi registrada na SRTE, cumprindo o requisito legal de validade (art. 614, § 1º).  \n- **Art. 63 da CLT** (compensação de horas extras):  \n  A compensação das horas acumuladas em folgas previamente comunicadas está alinhada com a previsão do art. 63, que permite a compensação de horas extras mediante restituição de horas de trabalho, desde que respeitada a comunicação prévia.  \n- **Cláusula de conversão em adicional de 50%**:  \n  Embora a CLT não mencione diretamente a conversão de horas não compensadas em adicional, a CCT prevê essa cláusula, compatível com o art. 59, § 2º, que permite acordos coletivos sobre a remuneração de horas extras.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**A CCT celebrada entre a empresa e o sindicato deve ser considerada válida e respeitada**, com a compensação das horas acumuladas em folgas previamente comunicadas, conforme previsto no acordo.  \n\n**Motivo**:  \n- A CCT foi registrada na SRTE (art. 614, CLT), garantindo sua validade legal.  \n- Todos os trabalhadores receberam cópias do acordo, e não há contestação sindical ou individual, o que confirma a aceitação tácita do conteúdo.  \n- A compensação das horas em folgas previamente comunicadas está em consonância com o art. 63, CLT.  \n- A cláusula de conversão em adicional de 50% é válida como parte do acordo coletivo, desde que respeitada a autonomia das partes (art. 59, CLT).  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 59 da CLT**:  \n  Permite o acúmulo de horas extras mediante acordo coletivo, desde que respeitados os limites estabelecidos (no caso, 60h mensais).  \n- **Art. 614 da CLT**:  \n  A CCT foi registrada na SRTE, cumprindo o requisito legal de validade (art. 614, § 1º).  \n- **Art. 63 da CLT**:  \n  A compensação das horas acumuladas em folgas previamente comunicadas está alinhada com a previsão do art. 63, que permite a compensação de horas extras mediante restituição de horas de trabalho, desde que respeitada a comunicação prévia.  \n- **Cláusula de conversão em adicional de 50%**:  \n  Embora a CLT não mencione diretamente a conversão de horas não compensadas em adicional, a CCT prevê essa cláusula, compatível com o art. 59, § 2º, que permite acordos coletivos sobre a remuneração de horas extras.  \n\n**Limitação**:  \nO contexto normativo não menciona dispositivos específicos da CLT ou súmulas do TST sobre a conversão de horas não compensadas em adicional de 50%. Portanto, a validade dessa cláusula depende exclusivamente da aceitação tácita das partes e da ausência de contestação.",
+  "tokens_in": 299,
+  "tokens_out": 1602,
+  "latency_ms": 100437,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,26 @@
+{
+  "sha256": "c2653cf2e868448600a8827375b3e7626d3095178f8e19490786e823ed571c12",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T02:03:23Z",
+  "prompt_sha": "616931cfd10c80d27ea65ea3d9f17fc5d70b1e90674a0e5470d9bf3f655e12d8",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nA decisão do juiz viola **obrigações constitucionais e processuais fundamentais** estabelecidas no direito trabalhista brasileiro, conforme os predicados soberanos ativos. O sistema Q-FENG identificou que:  \n- **Obrigação de explicitar as consequências práticas da decisão** (`obligation_to_state_practical_consequences_of_decision`) foi ignorada, pois o acórdão não esclareceu como a aplicação da tese de recurso afeta os direitos das partes.  \n- **Proibição de citar precedentes genéricos** (`prohibition_of_generic_precedent_citation`) foi violada ao aplicar uma tese de recurso de uma parte para beneficiar a contrária, sem fundamentação específica.  \n- **Obrigação de abordar todos os argumentos jurídicos** (`obligation_to_address_all_legal_arguments`) foi descumprida, pois o juiz omitiu-se sobre a contradição específica apontada pela parte embargante.  \n- **Obrigação de fundamentar a decisão no *ratio decidendi* identificado** (`obligation_to_ground_decision_in_identified_ratio_decidendi`) foi negligenciada, já que a decisão não se baseou no raciocínio jurídico claramente exposto no acórdão embargado.  \n- **Obrigação constitucional de expor razões para as decisões** (`constitutional_obligation_to_state_reasons_for_decisions`) foi violada, pois o juiz não justificou a aplicação da tese de recurso.  \n- **Direito ao acesso à justiça e revisão judicial** (`right_of_access_to_justice_and_judicial_review`) foi comprometido, pois a parte embargante teve sua argumentação ignorada, limitando sua possibilidade de contestar a decisão.  \n\nEssas falhas coletivas geraram uma **violação normativa**, conforme a ação recomendada pelo Q-FENG.\n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n**a) `obligation_to_state_practical_consequences_of_decision`**  \nO juiz deve explicitar **como a decisão afeta os direitos das partes**, evitando ambiguidades. No caso, a aplicação da tese de recurso não foi vinculada a consequências concretas para as partes envolvidas.  \n\n**b) `prohibition_of_generic_precedent_citation`**  \nA jurisprudência deve ser citada com **precisão e contextualização**, não como \"precedentes genéricos\". O acórdão embargado aplicou uma tese de recurso sem vincular a sua aplicação ao caso específico, violando essa regra.  \n\n**c) `obligation_to_address_all_legal_arguments`**  \nO juiz tem **obrigação de responder a todos os pontos levantados pelas partes**, mesmo que contrários à sua posição. Omissão sobre a contradição apontada pela parte embargante é uma violação direta.  \n\n**d) `obligation_to_ground_decision_in_identified_ratio_decidendi`**  \nA decisão deve ser fundamentada no **raciocínio jurídico (ratio decidendi)** claramente identificado no acórdão. No caso, a aplicação da tese de recurso não se baseou no *ratio* exposto, mas em uma interpretação não fundamentada.  \n\n**e) `constitutional_obligation_to_state_reasons_for_decisions`**  \nA Constituição exige que **todas as decisões judiciais sejam fundamentadas com clareza**, garantindo transparência e possibilidade de revisão. A ausência de justificativa para a aplicação da tese de recurso viola essa obrigação.  \n\n**f) `right_of_access_to_justice_and_judicial_review`**  \nO direito de **contestar decisões e revisá-las** é garantido pela Constituição. A omissão do juiz sobre a contradição apontada pela parte embargante limita esse direito, comprometendo a efetividade do processo.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO juiz **não explicou adequadamente sua decisão** e **ignorou um ponto importante** que a parte embargante levantou. Ele usou uma regra de outro caso (um \"precedente\") sem dizer como isso afeta o caso atual, o que é proibido por lei. Além disso, **não respondeu à contradição** que a parte embargante apontou, o que é uma obrigação do juiz. Isso significa que a decisão **não foi justificada com clareza** e **não respeitou o direito da parte de contestar a decisão**, o que é uma violação do direito trabalhista e da Constituição.",
+  "tokens_in": 511,
+  "tokens_out": 1582,
+  "latency_ms": 49452,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

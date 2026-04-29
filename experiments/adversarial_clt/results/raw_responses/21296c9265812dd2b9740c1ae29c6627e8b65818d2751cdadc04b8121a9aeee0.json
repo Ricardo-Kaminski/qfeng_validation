@@ -1,0 +1,19 @@
+{
+  "sha256": "21296c9265812dd2b9740c1ae29c6627e8b65818d2751cdadc04b8121a9aeee0",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T12:10:26Z",
+  "prompt_sha": "92aecfbcd48b18b24b7145bd3115c2c41dd569d979ba575e89a78b84c16595e4",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a decisão do Tribunal Regional do Trabalho (TRT) sobre a concessão de adicional noturno baseia-se na Súmula 60 do Tribunal Superior do Trabalho (TST). A análise envolve o regime de revezamento noturno e sua integração ao cômputo do adicional noturno, conforme estabelecido pela referida súmula.\n\nA Súmula 60 do TST trata especificamente da hipótese em que o trabalhador está submetido a regime de revezamento noturno. Nesse contexto, o adicional noturno deve ser considerado parte integrante da remuneração para fins de cálculo de outras verbas rescisórias e previdenciárias.\n\nNo caso concreto, o empregado está em um regime 12x36 com períodos noturnos fixos. A decisão do TRT deve analisar se esse regime realmente configura revezamento noturno conforme entendido pela Súmula 60, ou seja, se há alternância entre jornadas diurnas e noturnas.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é conceder o adicional noturno como parte integrante da remuneração do empregado, desde que esteja comprovadamente submetido a regime de revezamento noturno conforme descrito na Súmula 60. Isso porque o regime 12x36 com períodos noturnos fixos pode configurar um revezamento se houver alternância entre jornadas diurnas e noturnas.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Súmula 60 do TST:** Esta súmula estabelece que o adicional de horas extras, quando prestadas em regime de revezamento noturno, integra a remuneração para efeito de cálculo de outras verbas rescisórias e previdenciárias. A aplicação desta norma depende da caracterização do regime como sendo de revezamento.\n\n- **Artigo 73 da CLT (Consolidação das Leis do Trabalho):** Este artigo trata dos adicionais noturnos, estabelecendo que o trabalho realizado entre as 22h e 5h deve ser remunerado com adicional noturno. A interpretação desse dispositivo em conjunto com a Súmula 60 é crucial para determinar se o regime de revezamento está presente.\n\nA decisão deve considerar esses dispositivos normativos, verificando se os períodos noturnos fixos no regime 12x36 configuram um verdadeiro revezamento conforme entendido pela jurisprudência do TST. Se for o caso, a Súmula 60 é aplicável e o adicional noturno deve ser considerado parte da remuneração para todos os fins legais.",
+  "tokens_in": 325,
+  "tokens_out": 659,
+  "latency_ms": 37687,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

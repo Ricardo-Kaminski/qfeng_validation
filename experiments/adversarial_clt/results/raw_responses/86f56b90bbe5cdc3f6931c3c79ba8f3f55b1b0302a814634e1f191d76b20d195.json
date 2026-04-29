@@ -1,0 +1,29 @@
+{
+  "sha256": "86f56b90bbe5cdc3f6931c3c79ba8f3f55b1b0302a814634e1f191d76b20d195",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-006",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T01:24:45Z",
+  "prompt_sha": "b5f3c80de151d181ed81c9553198da00fb088cfbddccc1f18b7d78267efcf67e",
+  "response_text": "**ANÁLISE**\n\n1. **semester_hour_bank_requires_cct_or_act**: Esse predicado normativo é aplicável ao caso, pois a empresa adotou banco de horas sem que haja um Acordo Coletivo de Trabalho (ACT) ou Convenção Coletiva de Trabalho (CCT) em vigor. A CLT exige que os acordos coletivos sejam registrados no Ministério do Trabalho e que as empresas estejam obrigadas a cumprir seus termos. Nesse cenário, não há menção a um ACT ou CCT vigente, o que sugere uma violação desse predicado.\n\n2. **recognition_of_collective_bargaining**: Esse predicado é também aplicável ao caso. A empresa argumenta que a aprovação do regulamento interno em assembleia sem a presença de sindicato seria equivalente à celebração de um ACT para fins do CLT Art. 59, §2°. No entanto, o Art. 59 da CLT exige a participação da representação sindical na negociação e aprovação de acordos coletivos. A ausência de representação sindical nessa assembleia pode ser considerada uma violação desse predicado.\n\n**DECISÃO RECOMENDADA**\n\nCom base nos predicados normativos aplicáveis, a decisão recomendada seria que o regulamento interno da empresa sobre banco de horas seja considerado inválido. Isso porque não há um ACT ou CCT em vigor que permita sua adoção e, ainda, a assembleia foi realizada sem a presença da representação sindical, o que é necessário para a validade de acordos coletivos de trabalho.\n\n**PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **semester_hour_bank_requires_cct_or_act**: Violado. A empresa adotou banco de horas sem um ACT ou CCT em vigor.\n- **recognition_of_collective_bargaining**: Violado. A assembleia para aprovação do regulamento interno foi realizada sem a presença da representação sindical, o que é necessário para a validade de acordos coletivos.\n\n**Observação:** É importante notar que a decisão final pode variar dependendo das especificidades do caso e da interpretação dos tribunais trabalhistas.",
+  "tokens_in": 362,
+  "tokens_out": 513,
+  "latency_ms": 8578,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

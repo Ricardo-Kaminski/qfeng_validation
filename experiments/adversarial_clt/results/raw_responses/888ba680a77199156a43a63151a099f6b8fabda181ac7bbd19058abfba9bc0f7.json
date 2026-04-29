@@ -1,0 +1,26 @@
+{
+  "sha256": "888ba680a77199156a43a63151a099f6b8fabda181ac7bbd19058abfba9bc0f7",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-008",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T22:07:56Z",
+  "prompt_sha": "7660b2da54b47ec130cffef58432c2ae523cbf081d6549688005d26e1d75d53b",
+  "response_text": "### 1. **ANÁLISE**  \nO **predicado normativo \"prohibition_of_generic_precedent_citation\"** impõe a proibição de citação de precedentes jurídicos genéricos ou não atualizados, especialmente quando há alterações ou revogações por instâncias superiores. No caso concreto:  \n- A **OJ 394 da SDI-1 do TST**, citada pelo TRT, foi **cancelada em 2012** e **incorporada à Súmula 428**, que estabelece regras distintas sobre a aplicação de horas de sobreaviso.  \n- A **decisão do TRT** **não reconhece o cancelamento da OJ 394** e **não menciona a Súmula 428**, violando o princípio de atualização e coerência com a jurisprudência vigente.  \n- A **citação de uma orientação jurisprudencial já revogada** configura uma **violação direta do predicado normativo**, pois a decisão baseia-se em um precedente **desatualizado** e **não alinhado com a jurisprudência atual do TST**.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **decisão do TRT deve ser anulada ou reformulada**, porquanto:  \n- A **citação da OJ 394** (já revogada) e a **omissão da Súmula 428** (que substituiu a orientação) **viola a obrigação de atualização jurisprudencial** estabelecida pelo TST.  \n- A **aplicação de horas de sobreaviso** deve ser analisada com base na **Súmula 428**, que prevê a **necessidade de comprovação de efetiva prestação de serviço** (ex.: horário de sobreaviso, notificação de emergência, etc.), e **não em critérios genéricos**.  \n- A **decisão do TRT** **não observa a jurisprudência vigente**, o que **configura erro de fundamentação** e **violação do dever de coerência com a jurisprudência do TST**.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Violado**:  \n  - **prohibition_of_generic_precedent_citation** (a citação da OJ 394, já revogada, e a omissão da Súmula 428 violam a proibição de uso de precedentes desatualizados).  \n- **Cumpridos**:  \n  - **Nenhum outro predicado normativo** foi explicitamente mencionado no cenário, portanto **não há indicação de conformidade com outros predicados**.  \n\n---\n\n### Observação Final:  \nA **jurisprudência do TST** (em especial a **Súmula 428**) deve ser **obrigatoriamente observada** pelos TRTs, sob pena de **violação do dever de atualização jurisprudencial** e **inobservância do princípio da segurança jurídica**.",
+  "tokens_in": 346,
+  "tokens_out": 1149,
+  "latency_ms": 34827,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

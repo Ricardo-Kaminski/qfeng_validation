@@ -1,0 +1,19 @@
+{
+  "sha256": "e1e44fca82ac18941da5a088820210500f104ec0a4c8165625283917b400985e",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T12:25:29Z",
+  "prompt_sha": "f5275e170353578213712d821d1e842fb4a67591aa07b251afa99d260d607aad",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a empresa de manufatura segue uma jornada padrão de 8 horas diárias e 44 horas semanais para todos os empregados, sem banco de horas, trabalho noturno ou horas extras. Os intervalos intrajornada são concedidos integralmente (1 hora para jornada de 8h), e todos os registros de ponto são eletrônicos e auditáveis. Não há reclamações trabalhistas pendentes.\n\nOs dispositivos normativos aplicáveis ao caso incluem:\n\n- **Jornada de Trabalho:** A empresa segue a jornada padrão estabelecida pela Consolidação das Leis do Trabalho (CLT), que é de 8 horas diárias e 44 horas semanais.\n  \n- **Intervalo Intrajornada:** De acordo com o artigo 71 da CLT, para cada período ininterrupto de seis horas de trabalho, o empregado tem direito a um intervalo intrajornada mínimo de uma hora.\n\n- **Registro Eletrônico e Auditável:** A utilização de registros eletrônicos e auditáveis está em conformidade com as normas do Ministério da Economia que regulamentam o controle de ponto, garantindo transparência e verificação das jornadas trabalhadas.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é manter a prática atual da empresa, pois ela está em conformidade com as normas do Direito do Trabalho brasileiro. A empresa segue corretamente a jornada de trabalho padrão, concede os intervalos intrajornada conforme exigido por lei e utiliza um sistema de registro eletrônico auditável para o controle de ponto.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Artigo 7º da Constituição Federal:** Estabelece como direitos dos trabalhadores a jornada máxima de trabalho semanal de 44 horas, além do descanso semanal remunerado.\n\n- **Artigo 58 da CLT:** Define a jornada normal de trabalho em oito horas diárias e quarenta e quatro semanais.\n\n- **Artigo 71 da CLT:** Dispõe sobre o intervalo intrajornada, determinando que para cada período ininterrupto de seis horas de duração do trabalho, o empregado terá direito a um descanso mínimo de uma hora.\n\n- **Portaria nº 1510/2019 do Ministério da Economia:** Regula os sistemas eletrônicos de ponto e controle de jornada de trabalho, exigindo que sejam auditáveis para garantir a veracidade das informações registradas.\n\nDado o cumprimento das normas acima mencionadas, não há necessidade de alteração nas práticas atuais da empresa.",
+  "tokens_in": 293,
+  "tokens_out": 628,
+  "latency_ms": 35360,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

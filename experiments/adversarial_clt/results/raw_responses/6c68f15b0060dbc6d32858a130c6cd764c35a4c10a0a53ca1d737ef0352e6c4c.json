@@ -1,0 +1,19 @@
+{
+  "sha256": "6c68f15b0060dbc6d32858a130c6cd764c35a4c10a0a53ca1d737ef0352e6c4c",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-006",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T20:24:27Z",
+  "prompt_sha": "caed60f8d7236d27119212e19182ccd57f46b0e0f27797e3747f1a33d35138bd",
+  "response_text": "**ANÁLISE**\n\nO caso em questão envolve a aplicação de um precedente (Tema 1046/STF e TST-Ag-RR-868-65.2021) que valoriza a autonomia negocial, mas com uma interpretação invertida da sua ratio decidendi. O tribunal usou a tese de validade de CCT bancária para justificar a validade de banco de horas sem qualquer CCT.\n\n**DISPOSITIVOS DO CONTEXTO NORMATIVO APLICÁVEIS**\n\nAinda que não haja dispositivos legais explícitos citados no contexto, podemos inferir a aplicação do seguinte dispositivo:\n\n- **Súmula Vinculante nº 10 (SV 10)**: \"É ilegal o banco de horas sem prévia negociação coletiva\".\n\nEssa súmula é relevante para o caso pois estabelece que o banco de horas só pode ser implementado com a prévia negociação coletiva, o que não ocorreu no caso em questão.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada deve ser a invalidação do banco de horas sem CCT, pois essa prática contraria a súmula vinculante nº 10 do STF.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n1. A Súmula Vinculante nº 10 (SV 10) é clara ao estabelecer que o banco de horas só pode ser implementado com a prévia negociação coletiva, o que não ocorreu no caso em questão.\n\n2. O precedente mencionado (Tema 1046/STF e TST-Ag-RR-868-65.2021) valoriza a autonomia negocial, mas seu uso na forma invertida pelo tribunal não altera a aplicação da SV 10.\n\n3. A falta de CCT para justificar o banco de horas é um fato que contraria expressamente a SV 10.\n\n**LIMITAÇÃO**\n\nO contexto não contém normas específicas sobre como proceder em casos onde há precedentes com interpretação invertida, mas a aplicação da súmula vinculante nº 10 fornece uma base legal clara para a decisão.",
+  "tokens_in": 308,
+  "tokens_out": 495,
+  "latency_ms": 8323,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

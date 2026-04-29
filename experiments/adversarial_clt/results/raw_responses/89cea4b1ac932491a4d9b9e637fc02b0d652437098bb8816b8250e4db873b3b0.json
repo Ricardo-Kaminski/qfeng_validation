@@ -1,0 +1,30 @@
+{
+  "sha256": "89cea4b1ac932491a4d9b9e637fc02b0d652437098bb8816b8250e4db873b3b0",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-006",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:06:49Z",
+  "prompt_sha": "0350325c96e624064d77ae2514493ddca97cca71d270755c3466ec1954baa800",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso: Banco de Horas sem CCT e Inversão da Ratio Decidendi\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, a análise a seguir detalha a aplicação de cada um, a decisão recomendada e a identificação das violações/conformidades.\n\n**1. ANÁLISE:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** Este é o predicado central da questão. O acórdão, embora cite corretamente os precedentes (Tema 1046/STF e TST-Ag-RR-868-65.2021), falha em aplicar a *ratio decidendi* de forma adequada. A *ratio* dos precedentes citados reside na **validade de CCTs bancárias**, que estabelecem condições específicas de trabalho, incluindo a possibilidade de banco de horas. O acórdão inverte essa lógica, utilizando a validade da CCT bancária para justificar a validade de um banco de horas *sem* a existência de uma CCT.  A autonomia negocial, mencionada no acórdão, é um elemento que *sustenta* a validade da CCT, não sendo um fundamento independente para a implementação de um banco de horas. A autonomia negocial, sem a formalização em CCT, pode levar a acordos desequilibrados e prejudiciais ao trabalhador. A decisão do acórdão, portanto, não se fundamenta corretamente na *ratio decidendi* dos precedentes.\n\n**2. DECISÃO RECOMENDADA:**\n\nA decisão recomendada é a **anulação do trecho do acórdão que valida o banco de horas sem CCT**.  O acórdão deve ser reformulado para reconhecer que a implementação de um banco de horas, como regime de compensação de jornada, exige a existência de uma CCT que o regule.  A simples menção à autonomia negocial não é suficiente para suprir a necessidade de uma CCT, que garante a representatividade e a negociação coletiva, protegendo os direitos dos trabalhadores.  O acórdão deve, portanto, reconhecer a necessidade de uma CCT para validar a implementação do banco de horas, alinhando-se à *ratio decidendi* dos precedentes corretamente citados.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** **Violação**. O acórdão não aplicou a *ratio decidendi* dos precedentes de forma correta, invertendo a lógica e utilizando-os para justificar uma conclusão que não decorre diretamente da *ratio*. A validade da CCT bancária é o ponto central dos precedentes, e não a autonomia negocial como justificativa independente para a implementação de banco de horas.\n*   **Outros predicados:** Não há outros predicados listados que se apliquem diretamente ao caso. A análise se concentra na falha na aplicação da *ratio decidendi*, que é o ponto crucial da questão.\n\n**Justificativa Adicional:**\n\nÉ fundamental ressaltar que a jurisprudência do TST é consistente na necessidade de CCT para a validade de regimes de compensação de jornada como o banco de horas. A ausência de uma CCT pode indicar a falta de negociação coletiva adequada e a imposição unilateral de condições de trabalho, o que é passível de questionamento judicial. A decisão do acórdão, ao ignorar essa necessidade, abre espaço para a precarização das relações de trabalho e a desconsideração dos direitos dos trabalhadores.\n",
+  "tokens_in": 349,
+  "tokens_out": 791,
+  "latency_ms": 21828,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

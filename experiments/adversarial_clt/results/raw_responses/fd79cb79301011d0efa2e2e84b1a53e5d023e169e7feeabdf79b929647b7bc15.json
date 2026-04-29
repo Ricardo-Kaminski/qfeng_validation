@@ -1,0 +1,19 @@
+{
+  "sha256": "fd79cb79301011d0efa2e2e84b1a53e5d023e169e7feeabdf79b929647b7bc15",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-009",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T02:29:40Z",
+  "prompt_sha": "a35ace1fb188b4da5dfe0b936ce0dba31d53650766ffadff1c226ef58da85829",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Convenção Coletiva de Trabalho (CCT):** A CCT é um acordo entre sindicatos representativos dos trabalhadores e empregadores que estabelece normas específicas para a categoria. No caso concreto, a CCT prevê a possibilidade de conversão do saldo de banco de horas em dinheiro com adicional de 50%.\n\n- **Artigo 59 da CLT:** Este artigo permite o acerto de contas mediante compensação entre horas extras e bancadas, desde que haja acordo escrito entre empregador e empregado. A CCT pode estabelecer regras específicas para a compensação ou conversão do banco de horas.\n\n- **Artigo 62 da CLT:** Estabelece que as horas extras devem ser pagas com adicional, exceto quando houver acordo escrito entre empregador e empregado. A CCT pode estabelecer condições específicas para o pagamento das horas extras compensadas ou convertidas.\n\n**Interpretação no Caso Concreto:**\n\n- **Anuência do Empregador:** O trabalhador optou por converter o saldo de banco de horas em dinheiro com a anuência do empregador, conforme previsto na CCT. Isso indica que houve um acordo válido entre as partes.\n\n- **Adicional de 50%:** A CCT estabelece que as horas convertidas seriam pagas com adicional de 50%. Este termo deve ser respeitado, pois é uma condição acordada entre as partes e prevista na CCT.\n\n- **Prazo de Conversão:** A conversão ocorreu antes do término do prazo estabelecido pela CCT (12 meses). Portanto, não há violação das regras temporais estipuladas no acordo coletivo.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é que o pagamento realizado pelo empregador ao trabalhador esteja de acordo com os termos da CCT, ou seja, incluindo o adicional de 50% sobre as horas convertidas em dinheiro. Como a conversão ocorreu dentro do prazo estabelecido e com anuência das partes, não há ilegalidade na operação.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **Artigo 59 da CLT:** Permite o acerto de contas mediante compensação entre horas extras e bancadas, desde que haja acordo escrito entre as partes. A CCT serve como esse acordo coletivo, permitindo a conversão das horas conforme estabelecido.\n\n- **Artigo 62 da CLT:** Estipula que as horas extras devem ser pagas com adicional, exceto quando houver acordo escrito. A CCT pode prever condições específicas para o pagamento dessas horas, como o adicional de 50% no caso concreto.\n\n- **Súmula nº 331 do TST:** Estabelece que a compensação entre horas extras e bancadas deve respeitar as normas da CCT. A conversão das horas em dinheiro com adicional de 50% está de acordo com o previsto na CCT, portanto, é válida.\n\n- **Precedentes Constitucionais:** O artigo 7º, inciso XXVI, da Constituição Federal garante a prevalência dos direitos e vantagens decorrentes de convenção ou acordo coletivo sobre os mínimos legais. A CCT, ao estabelecer o adicional de 50%, está dentro do que é permitido constitucionalmente.\n\nPortanto, desde que as condições da CCT sejam respeitadas, a conversão das horas de banco em dinheiro com o adicional acordado é válida e deve ser cumprida pelo empregador.",
+  "tokens_in": 304,
+  "tokens_out": 848,
+  "latency_ms": 44781,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

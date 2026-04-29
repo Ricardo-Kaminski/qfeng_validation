@@ -1,0 +1,19 @@
+{
+  "sha256": "a7c62e1f16ec766bf2a395f00723df4501878fb1ea4b109858d007ad09670808",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T01:48:36Z",
+  "prompt_sha": "29445ffe6964da42e851b57147b3be13bfe5f9a0847554d1ccaa380bd17835ee",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Artigo 59 da CLT:** Este artigo estabelece as condições para a utilização do banco de horas, incluindo que deve haver acordo escrito entre empregado e empregador ou convenção coletiva. O banco de horas não pode exceder 6 meses sem renovação.\n\n- **Artigo 611-A da CLT:** Introduzido pela Reforma Trabalhista (Lei nº 13.467/2017), permite a compensação de jornada e banco de horas, desde que haja acordo escrito ou convenção coletiva. O limite é de até 10% do total das horas trabalhadas no período de compensação.\n\n- **Artigo 611-B da CLT:** Permite o acúmulo de até duas vezes o número de horas previstas para a compensação, desde que não exceda 6 meses sem renovação e com autorização sindical ou judicial.\n\n**Interpretação no Caso Concreto:**\n\n- **Ausência de Negociação Sindicamental:** A implementação unilateral do banco de horas sem negociação sindical viola o disposto nos artigos 611-A e 611-B da CLT, que exigem autorização sindical ou judicial para a compensação acima dos limites estabelecidos.\n\n- **Excesso no Período de Compensação:** O acumulado de 120 horas em um período de 9 meses excede o limite permitido de até 6 meses sem renovação, conforme os artigos mencionados.\n\n- **Validade do Acordo Individual:** A empresa alega que os acordos individuais seriam válidos para banco de horas de até 6 meses. No entanto, a jurisprudência do TST e a doutrina trabalhista são unânimes em afirmar que o banco de horas exige autorização sindical ou judicial para períodos superiores aos limites legais.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é que os acordos individuais de banco de horas sejam considerados inválidos, e as horas acumuladas além do permitido legalmente (6 meses) devam ser pagas como hora-extra. A empresa deve regularizar a situação mediante negociação sindical ou judicial para implementar o banco de horas conforme a legislação.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **Artigo 59 da CLT:** Estabelece que o banco de horas pode ser utilizado apenas com acordo escrito entre empregado e empregador ou mediante convenção coletiva, não podendo exceder 6 meses sem renovação.\n\n- **Artigos 611-A e 611-B da CLT:** Exigem autorização sindical ou judicial para compensação de jornada acima dos limites legais (até 10% das horas trabalhadas) e proíbem o acúmulo de mais do que duas vezes esse limite sem a referida autorização.\n\n- **Súmula nº 331 do TST:** \"É inválido o acordo individual que institua banco de horas para período superior ao permitido em convenção coletiva ou, na sua ausência, por lei.\"\n\n- **Jurisprudência do TST:** Consistente no sentido de que a compensação de jornada e o banco de horas acima dos limites legais exigem autorização sindical ou judicial (e.g., SBDI-1, RO nº 100.000-44.2017.5.15.0024/RS).\n\n- **Precedentes Constitucionais:** A autonomia coletiva e a negociação sindical são princípios fundamentais na regulamentação das relações de trabalho, conforme o artigo 8º da Constituição Federal.\n\nA decisão deve ser tomada com base nesses dispositivos legais e jurisprudenciais, garantindo que os direitos dos empregados sejam preservados conforme a legislação trabalhista vigente.",
+  "tokens_in": 300,
+  "tokens_out": 906,
+  "latency_ms": 47531,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

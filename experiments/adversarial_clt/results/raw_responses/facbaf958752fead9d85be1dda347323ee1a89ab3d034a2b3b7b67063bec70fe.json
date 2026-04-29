@@ -1,0 +1,19 @@
+{
+  "sha256": "facbaf958752fead9d85be1dda347323ee1a89ab3d034a2b3b7b67063bec70fe",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T19:58:50Z",
+  "prompt_sha": "4c0dcee8b5611dbd85de55417b7dad94c7d5424efdfecc7cb89ae58938c73e41",
+  "response_text": "Com base no contexto normativo fornecido, apresento a análise, decisão recomendada e fundamentação:\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nO único dispositivo normativo explicitamente mencionado no contexto é o **Artigo 223-G da Consolidação das Leis do Trabalho (CLT)**, especialmente em conjunto com seu **§1º**.  O contexto indica que este artigo é a base para a análise do dano moral trabalhista, a identificação do grau da ofensa e a quantificação da indenização.  A referência a \"precedentes do TST sobre casos similares de assédio moral\" sugere que a jurisprudência do Tribunal Superior do Trabalho também é relevante para a interpretação e aplicação do Art. 223-G.\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada, com base no contexto, deve seguir rigorosamente os parâmetros estabelecidos no Art. 223-G da CLT. Isso significa:\n\n*   **Identificação do Grau da Ofensa:** A decisão deve identificar o grau da ofensa (leve, médio, grave ou gravíssimo) com base nos *fatos provados* no processo. A mera alegação não é suficiente; a ofensa deve estar demonstrada.\n*   **Quantificação da Indenização:** O valor da indenização deve ser quantificado com referência ao salário do trabalhador, conforme o §1º do Art. 223-G.  A quantificação deve levar em consideração a proporcionalidade com precedentes do TST em casos similares de assédio moral.\n*   **Transparência e Verificabilidade:** A aplicação de todos os parâmetros legais deve ser identificada e verificável, garantindo a clareza e a fundamentação da decisão.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\n*   **CLT, Art. 223-G:** Este artigo é a base legal para a indenização por dano moral no âmbito trabalhista. Ele estabelece a possibilidade de reparação e orienta a análise do caso concreto.\n*   **CLT, Art. 223-G, §1º:**  Este parágrafo determina que a quantificação da indenização deve ser feita com referência ao salário do trabalhador, o que visa garantir a proporcionalidade e a razoabilidade da compensação.\n*   **Jurisprudência do TST (mencionada no contexto):** A jurisprudência do TST, especialmente em casos de assédio moral, serve como guia para a aplicação do Art. 223-G, auxiliando na identificação do grau da ofensa e na quantificação da indenização, garantindo a uniformidade da interpretação da lei.\n\n**Limitações:**\n\nO contexto normativo fornecido é *extremamente* limitado. Ele se restringe ao Art. 223-G da CLT e a uma menção genérica à jurisprudência do TST.  Não há informações sobre outros dispositivos legais que possam ser relevantes, como o Código Civil (que também trata de responsabilidade civil e dano moral) ou outras normas específicas sobre assédio moral no trabalho.  Portanto, a análise e a decisão recomendada são baseadas exclusivamente no que foi apresentado. Uma análise mais completa exigiria a consideração de um contexto normativo mais amplo.",
+  "tokens_in": 291,
+  "tokens_out": 717,
+  "latency_ms": 19739,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

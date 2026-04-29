@@ -1,0 +1,26 @@
+{
+  "sha256": "13dac487ce71b0cb37d634dcde7cf2f6f03bf208b6edb4fc12d28440136de602",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-013",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T23:46:44Z",
+  "prompt_sha": "e0d30695ad77e6fa82d74d87ad55c89df45927ed896fab63810d42a3383b74c7",
+  "response_text": "### 1. ANÁLISE:\n\n**Obligation to Ground Decision in Identified Ratio Decidendi:**\n- O acórdão do TST cumpre este predicado ao citar expressamente o julgado TST-Ag-RR-868-65.2021.5.13.0030 e identificar a ratio decidendi relacionada à validade de banco de horas em CCT do setor bancário, conforme o Tema 1046/STF. A análise subsequente da distinção fática entre os setores (bancário vs. aéreo) demonstra que a decisão foi fundamentada na identificação clara e aplicação da ratio decidendi.\n\n**Due Process of Law:**\n- O processo devido é respeitado ao analisar o caso concreto com base em uma distinção fática bem fundamentada. A decisão considerou as peculiaridades do setor aéreo, utilizando como referência os artigos 7°, XIII e XIV da CF/88, garantindo que a análise jurídica foi feita de forma completa e verificável.\n\n**STF Tema 1046 Binding Precedent Applied:**\n- O acórdão aplica o precedente do STF (Tema 1046) ao considerar sua relevância para o caso em questão, mesmo que a ratio decidendi tenha sido considerada inaplicável devido à distinção fática. A análise demonstra compreensão e aplicação correta do precedente, respeitando seu caráter vinculante.\n\n### 2. DECISÃO RECOMENDADA:\n\nA decisão deve ser mantida conforme o acórdão analisado. O TST cumpriu os requisitos normativos ao identificar e aplicar corretamente a ratio decidendi do precedente, realizar uma análise fática detalhada que justificou a inaplicabilidade da ratio ao caso concreto, e respeitar o processo devido na fundamentação da decisão.\n\n### 3. PREDICADOS VIOLADOS OU CUMPRIDOS:\n\n- **Cumpriu:**\n  - Obligation to Ground Decision in Identified Ratio Decidendi\n  - Due Process of Law\n  - STF Tema 1046 Binding Precedent Applied\n\nNenhum dos predicados foi violado no cenário apresentado. A decisão do TST demonstrou conformidade com os requisitos normativos estabelecidos, garantindo uma análise jurídica completa e fundamentada.",
+  "tokens_in": 439,
+  "tokens_out": 556,
+  "latency_ms": 16062,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

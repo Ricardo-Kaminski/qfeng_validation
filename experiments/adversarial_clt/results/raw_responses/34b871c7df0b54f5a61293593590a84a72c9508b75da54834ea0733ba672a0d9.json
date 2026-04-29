@@ -1,0 +1,30 @@
+{
+  "sha256": "34b871c7df0b54f5a61293593590a84a72c9508b75da54834ea0733ba672a0d9",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-009",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T23:20:01Z",
+  "prompt_sha": "6d91edef4f830b89da4360eaf0b135c5ffe380f3939107e2bba54ad7b7057f83",
+  "response_text": "### 1. **ANÁLISE**  \nO **predicado normativo** *\"obligation_to_ground_decision_in_identified_ratio_decidendi\"* (obrigação de fundamentar a decisão com base no ratio decidendi identificado) **não foi cumprido** no cenário descrito.  \n- A decisão **citou corretamente a Súmula TST 85, item V**, que estabelece que, no caso de banco de horas sem CCT (convenção coletiva de trabalho), as horas excedentes devem ser consideradas **horas extras com adicional de 50%**, conforme previsto no art. 66 da CLT.  \n- No entanto, **a consequência jurídica da Súmula não foi aplicada corretamente**, pois a decisão **não reconheceu o adicional de 50%** e determinou o pagamento das horas como **hora normal**, sem fundamentação para afastar o adicional estabelecido na Súmula.  \n- Isso viola a **obrigação de fundamentar a decisão com base no ratio decidendi identificado**, pois a aplicação da Súmula TST 85 exige, como consequência jurídica, a **reconhecimento do adicional de 50%**. A ausência de fundamentação para afastar essa consequência configura **omissão normativa**.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA decisão deve:  \n- **Reconhecer o adicional de 50%** sobre as horas excedentes, conforme disposto na **Súmula TST 85, item V**, e **revisar a aplicação da consequência jurídica**.  \n- **Fundamentar a decisão com base no ratio decidendi identificado**, ou seja, comprovar que o caso concreto (banco de horas sem CCT de 7 meses) se enquadra na Súmula TST 85, item V, e que, portanto, a **regra da CLT sobre horas extras (art. 66)** deve ser aplicada.  \n- **Evitar a aplicação de consequências jurídicas não previstas na norma citada**, como o pagamento das horas como \"hora normal\" sem adicional, que não está autorizado pela jurisprudência do TST.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Violação:**  \n  - **obligation_to_ground_decision_in_identified_ratio_decidendi** (obrigação de fundamentar a decisão com base no ratio decidendi identificado).  \n    *Justificativa:* A decisão citou corretamente a Súmula TST 85, mas **não aplicou a consequência jurídica** (adicional de 50%) e **não fundamentou a ausência do adicional**, violando a obrigação de fundamentar a decisão com base no ratio decidendi.  \n\n- **Conformidade:**  \n  - **Nenhum outro predicado normativo foi explicitamente mencionado no cenário**, mas a **cituação da Súmula TST 85** está em conformidade com a jurisprudência do TST.  \n\n--- \n\n**Conclusão:** A violação do predicado *\"obligation_to_ground_decision_in_identified_ratio_decidendi\"* configura **omissão normativa** e **incorreção jurídica**, exigindo a revisão da decisão para aplicar corretamente a consequência da Súmula TST 85, item V.",
+  "tokens_in": 356,
+  "tokens_out": 1264,
+  "latency_ms": 38421,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

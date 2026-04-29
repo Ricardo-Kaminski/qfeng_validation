@@ -1,0 +1,30 @@
+{
+  "sha256": "76e21c1478ee13251458d84dc2fadc19a30933954ff10bb41dfd25c8e0de3b51",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-006",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T00:09:45Z",
+  "prompt_sha": "0350325c96e624064d77ae2514493ddca97cca71d270755c3466ec1954baa800",
+  "response_text": "1. **ANÁLISE:**\n\n   No cenário apresentado, o acórdão cita corretamente as fontes normativas (Tema 1046/STF e TST-Ag-RR-868-65.2021), mas falha em aplicar a ratio decidendi de forma adequada. A obrigação de fundamentar decisões com base na identificação correta da ratio decidendi é crucial para garantir que as decisões judiciais sejam consistentes e justas, respeitando o precedente estabelecido.\n\n   - **Obligation to ground decision in identified ratio_decidendi:** Este predicado normativo exige que a aplicação de um precedente seja feita com base na razão jurídica (ratio decidendi) corretamente identificada. No caso, o tribunal não reconheceu que a validade da CCT bancária como fundamento para a validade do banco de horas pressupõe a existência de uma CCT específica. Ao aplicar a tese de forma invertida, sem considerar essa condição essencial, o tribunal violou este predicado normativo.\n\n2. **DECISÃO RECOMENDADA:**\n\n   A decisão deve ser reconsiderada para corrigir a aplicação errônea da ratio decidendi do precedente citado. O tribunal deve reconhecer que a validade do banco de horas, conforme o Tema 1046/STF e TST-Ag-RR-868-65.2021, depende da existência de uma CCT específica. Sem essa condição, não é possível aplicar a tese de autonomia negocial para validar o banco de horas em ausência de uma CCT.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violado:** \n     - obligation_to_ground_decision_in_identified_ratio_decidendi: O tribunal não aplicou corretamente a ratio decidendi do precedente, invertendo sua aplicação e ignorando a condição essencial de existência de uma CCT.\n\n   - **Cumprido:**\n     - Não há predicados cumpridos no cenário apresentado, pois o erro reside na aplicação incorreta da ratio decidendi, apesar da citação correta das fontes normativas.",
+  "tokens_in": 366,
+  "tokens_out": 493,
+  "latency_ms": 14312,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "90ca03921d64f35c8fa598f23456b574cd4a137a41915a6e2596df467accedce",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T06:25:07Z",
+  "prompt_sha": "53273bbf0c36e8fcb08a9f759c913431e814a5dc45530db80bd28cdf7bb88535",
+  "response_text": "**ANÁLISE**\n\n1.  **Identificação dos dispositivos legais aplicáveis**: O caso envolve a aplicação de justa causa ao empregado bancário por uso indevido de comunicações eletrônicas. Nesse contexto, os dispositivos legais mais relevantes são:\n    *   Artigo 391 da CLT: Define as causas que autorizam a rescisão do contrato de trabalho sem ressarcimento das despesas de fiança.\n    *   Artigo 482 da CLT: Descreve as hipóteses em que o empregador pode rescindir o contrato de trabalho sem aviso prévio, incluindo a justa causa.\n2.  **Interpretação no caso concreto**: A justa causa é uma das causas legais de rescisão do contrato de trabalho, prevista no artigo 482 da CLT. Para que seja aplicada, deve haver um fato grave e culpável cometido pelo empregado, que configure a violação de deveres e responsabilidades inerentes ao seu cargo.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é **MANTER A DECISÃO DO TRT-2ª Região**, porém com fundamentação específica. Isso porque a justa causa pode ser aplicada em casos de uso indevido de comunicações eletrônicas, desde que haja um fato grave e culpável cometido pelo empregado.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n1.  **Artigo 482 da CLT**: \"O contrato de trabalho terá a duração que lhe for estabelecida, sendo possível sua rescisão por mútuo consentimento das partes, ou por justa causa.\"\n2.  **Súmula nº 347 do TST**: \"A rescisão do contrato de trabalho por justa causa não exige a observância dos prazos previstos no artigo 853 da CLT.\"\n3.  **Artigo 391 da CLT**: \"Consideram-se causas que autorizam a rescisão do contrato de trabalho sem ressarcimento das despesas de fiança, as previstas no artigo 482 da CLT.\"\n\n**CONCLUSÃO**\n\nA decisão do TRT-2ª Região deve ser mantida, porém com fundamentação específica. Isso porque a justa causa pode ser aplicada em casos de uso indevido de comunicações eletrônicas, desde que haja um fato grave e culpável cometido pelo empregado. A fundamentação deve incluir dispositivos legais específicos da CLT, como artigo 482 e artigo 391, e precedentes do TST, como Súmula nº 347.",
+  "tokens_in": 326,
+  "tokens_out": 607,
+  "latency_ms": 20859,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

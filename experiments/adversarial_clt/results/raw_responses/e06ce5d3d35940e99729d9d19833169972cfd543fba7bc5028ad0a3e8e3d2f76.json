@@ -1,0 +1,19 @@
+{
+  "sha256": "e06ce5d3d35940e99729d9d19833169972cfd543fba7bc5028ad0a3e8e3d2f76",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-006",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T09:35:45Z",
+  "prompt_sha": "f3c84ccbea170369f112d30fe65e9798106cbf631f923ed7cbeb2573c0098f0a",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \n- **Cláusula da CCT sobre banco de horas com compensação em até 12 meses**: O acordo coletivo prevê a compensação de horas extras em até 12 meses, conforme mencionado no contexto.  \n- **Cláusula sobre compensação por folga nas semanas de baixo movimento**: A empresa ofereceu folga compensatória, aceita pelos trabalhadores, dentro do prazo estabelecido.  \n- **Cláusula sobre saldo não compensado**: A CCT prevê que horas extras não compensadas até o término do prazo (12 meses) devem ser pagas como hora extra com adicional de 50%.  \n- **Limitação de 2h/dia de jornada extra**: A compensação ocorreu com jornada extra nunca superior a 2h/dia, conforme descrito.  \n- **Extrato mensal entregue**: A empresa forneceu extrato mensal, embora o contexto não indique se essa prática é obrigatória por lei (não há menção a dispositivos legais nesse aspecto).  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**A empresa cumpriu os termos da CCT**, e **não há irregularidades trabalhistas no caso descrito**.  \n\n**Motivo**:  \n- A compensação de horas extras ocorreu dentro do prazo de 12 meses previsto na CCT.  \n- A folga compensatória foi oferecida e aceita pelos trabalhadores, conforme acordado.  \n- A jornada extra não ultrapassou 2h/dia, respeitando o limite estabelecido.  \n- Não houve necessidade de aplicar a cláusula de pagamento de horas extras com adicional de 50%, pois o saldo foi compensado dentro do prazo.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Dispositivos da CCT mencionados no contexto**:  \n  - **Compensação em até 12 meses** (cláusula da CCT).  \n  - **Folga compensatória nas semanas de baixo movimento** (cláusula da CCT).  \n  - **Pagamento de horas extras com adicional de 50% em caso de saldo não compensado** (cláusula da CCT).  \n\n- **Limitações do contexto**:  \n  - **Não há menção a dispositivos legais (como artigos da CLT ou súmulas do TST)** no contexto fornecido.  \n  - **Extrato mensal** não é mencionado como obrigatório por lei no contexto, embora a empresa tenha fornecido esse documento.  \n  - **A compensação por folga** e **limitação de 2h/dia** são regulamentadas exclusivamente pela CCT, e não há referência a normas legais externas no contexto.  \n\n**Conclusão**: A análise baseia-se **exclusivamente nos termos da CCT** e **não há normas legais externas citadas no contexto**. Portanto, não é possível fundamentar a decisão com artigos da CLT ou súmulas do TST.",
+  "tokens_in": 310,
+  "tokens_out": 1235,
+  "latency_ms": 76875,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

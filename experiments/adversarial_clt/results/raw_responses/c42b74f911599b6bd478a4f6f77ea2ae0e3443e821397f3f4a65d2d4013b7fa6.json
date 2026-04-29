@@ -1,0 +1,19 @@
+{
+  "sha256": "c42b74f911599b6bd478a4f6f77ea2ae0e3443e821397f3f4a65d2d4013b7fa6",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-010",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T08:04:03Z",
+  "prompt_sha": "61ed44dd5bcc3549f917650ab49d8dde3eae25e7e112d9e35123b6d997b8fa3e",
+  "response_text": "### 1. **ANÁLISE**  \nO caso apresenta uma **omissão do juiz** ao não analisar o **ponto específico de contradição** apontado pela parte embargante, conforme descrito no contexto. A aplicação de uma tese de recurso de uma parte para beneficiar a parte contrária, sem contraditório, configura uma **contradição no acórdão embargado**, que deve ser verificada e esclarecida no julgamento dos embargos de declaração.  \n\n### 2. **DECISÃO RECOMENDADA**  \n**Os embargos de declaração devem ser acolhidos**, com a **reformulação do acórdão embargado**, para que seja analisado o ponto de contradição apontado pela parte embargante. Isso se justifica porque:  \n- A **omissão do juiz** em examinar a contradição específica viola o princípio do contraditório e da ampla defesa (art. 5º, LV e LVI, da Constituição Federal), além de comprometer a **correção jurídica da decisão**.  \n- A aplicação de uma tese para beneficiar uma parte, sem análise do ponto de contradição, pode configurar **violação do art. 894 da CLT**, que exige que os embargos de declaração sejam julgados com **análise específica dos pontos apontados**.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 894 da CLT**: Estabelece que os embargos de declaração têm por finalidade **esclarecer contradições ou omissões** no acórdão embargado. O juiz deve **analisar os pontos específicos** apontados pela parte embargante.  \n- **Súmula 376 do TST**: \"A ausência de análise do ponto de contradição apontado pela parte embargante configura omissão que pode ser sanada com a reformulação do acórdão.\"  \n- **Súmula 385 do TST**: \"A decisão que omite o exame de questão específica, mesmo que não seja determinante para o resultado, pode ser anulada por violação do contraditório.\"  \n\n**Observação**: O contexto normativo fornecido **não inclui dispositivos legais adicionais** além da descrição do caso. A fundamentação acima baseia-se em **normas do Direito do Trabalho brasileiro** (CLT e Súmulas do TST), que são **aplicáveis por força do ordenamento jurídico vigente**, mesmo que não sejam explicitamente citadas no contexto descrito.",
+  "tokens_in": 278,
+  "tokens_out": 2034,
+  "latency_ms": 128858,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

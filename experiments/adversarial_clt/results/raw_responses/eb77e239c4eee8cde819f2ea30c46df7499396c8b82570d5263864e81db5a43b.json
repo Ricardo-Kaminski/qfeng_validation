@@ -1,0 +1,26 @@
+{
+  "sha256": "eb77e239c4eee8cde819f2ea30c46df7499396c8b82570d5263864e81db5a43b",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-011",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:21:47Z",
+  "prompt_sha": "bc144ea0f3cb8c204e73a53f8ce3a51b3838ed6a04cd999b6329488180513107",
+  "response_text": "**1. ANÁLISE**\n\n* **obligation_to_ground_decision_in_identified_ratio_decidendi**: O tribunal aplicou um tema de Repercussão Geral (RG) sobre direito administrativo a um caso de empregado celetista privado, sem explicar a analogia ou demonstrar que a ratio do precedente seria aplicável ao regime trabalhista. Isso viola o predicado normativo porque não há uma justificativa clara e específica para a aplicação da ratio decidendi em um contexto diferente do originalmente previsto.\n* **due_process_of_law**: O tribunal aplicou um tema de Repercussão Geral sem explicar a analogia ou demonstrar que a ratio do precedente seria aplicável ao regime trabalhista. Isso pode ser visto como uma violação do princípio do devido processo legal, pois os fundamentos da decisão não estão claros e transparentes.\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada é que o tribunal seja condenado a reexaminar sua decisão e justificar claramente por que a ratio decidendi do tema de Repercussão Geral em questão se aplica ao caso de empregado celetista privado. Além disso, deve-se garantir que a aplicação da lei seja feita de acordo com as regras específicas do Direito do Trabalho e não apenas por analogia com o direito administrativo.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n* **obligation_to_ground_decision_in_identified_ratio_decidendi**: Violado, pois a decisão não justificou claramente a aplicação da ratio decidendi do tema de Repercussão Geral ao caso específico.\n* **due_process_of_law**: Pode ser visto como violado, pois a falta de fundamentos claros e transparentes pode ser considerada uma violação do princípio do devido processo legal.",
+  "tokens_in": 338,
+  "tokens_out": 431,
+  "latency_ms": 7233,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "3b39a799c3a08a28d353be4ef3d94f81be9f4b2efcdfbe4c524ad84a7a89b744",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T20:14:01Z",
+  "prompt_sha": "2958cee28e7a701a18f57cc355fef5a0f23028baaba52627d910f4513b98c196",
+  "response_text": "**ANÁLISE**\n\nNo caso em questão, a empresa de vigilância demitiu um empregado sem justa causa, deixando um saldo positivo de 80 horas no banco de horas estabelecido por Convenção Coletiva de Trabalho (CCT). A empresa pagou o saldo remanescente como hora normal, não como hora extra. O empregado reivindica que as horas do banco não compensadas antes da rescisão devem ser pagas com adicional de 50%.\n\nPara analisar essa situação, é necessário identificar os dispositivos normativos aplicáveis ao caso.\n\n**DISPOSITIVOS DO CONTEXTO NORMATIVO APLICÁVEIS**\n\n1. **Convenção Coletiva de Trabalho (CCT)**: Embora não seja especificado o artigo da CCT que estabelece a compensação semestral, é comum em convenções coletivas de trabalho brasileiras a estipulação de bancos de horas e critérios para sua compensação. Portanto, considerando a falta de especificidade, assume-se que a CCT tenha regras aplicáveis ao banco de horas.\n2. **Lei nº 5.889/73 (CLT)**: Artigo 59 da CLT estabelece que as horas trabalhadas em excesso à jornada normal devem ser remuneradas com adicional de 50%. No entanto, o artigo não se refere explicitamente ao pagamento das horas do banco de horas após a rescisão do contrato de trabalho.\n3. **Lei nº 10.101/2000 (Lei da Reforma Trabalhista)**: Embora não seja mencionada explicitamente no contexto, é importante considerar que essa lei trouxe mudanças significativas ao Direito do Trabalho brasileiro, incluindo regras sobre a compensação de horas extras e o pagamento de saldos de banco de horas.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando os dispositivos normativos aplicáveis, a decisão recomendada é que as horas não compensadas antes da rescisão do contrato de trabalho devem ser pagas com adicional de 50%, conforme estabelecido no artigo 59 da CLT. Isso se baseia na interpretação de que o empregado tem direito a receber o pagamento das horas extras trabalhadas, mesmo após a rescisão do contrato.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n- **Art. 59 da CLT**: \"As horas trabalhadas em excesso à jornada normal devem ser remuneradas com adicional de 50%.\"\n\n- **Súmula Vinculante nº 3 do STF (STF/SC 003)**: Embora não seja diretamente aplicável, a súmula estabelece princípios sobre a proteção ao trabalhador e o cumprimento das leis trabalhistas.\n\n- **Lei nº 10.101/2000**: Embora não seja mencionada explicitamente no contexto, é importante considerar as mudanças trazidas pela Reforma Trabalhista que podem afetar a interpretação dos dispositivos aplicáveis.\n\n**LIMITAÇÃO**\n\nO contexto normativo fornecido não contém normas específicas sobre o pagamento de saldos de banco de horas após a rescisão do contrato de trabalho. No entanto, com base na análise feita e considerando as regras gerais do Direito do Trabalho brasileiro, é possível recomendar uma decisão que respeite os direitos dos trabalhadores.",
+  "tokens_in": 288,
+  "tokens_out": 789,
+  "latency_ms": 13267,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

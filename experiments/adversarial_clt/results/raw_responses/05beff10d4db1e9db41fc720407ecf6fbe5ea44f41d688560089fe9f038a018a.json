@@ -1,0 +1,26 @@
+{
+  "sha256": "05beff10d4db1e9db41fc720407ecf6fbe5ea44f41d688560089fe9f038a018a",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-011",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:21:40Z",
+  "prompt_sha": "bc144ea0f3cb8c204e73a53f8ce3a51b3838ed6a04cd999b6329488180513107",
+  "response_text": "**1. ANÁLISE**\n\n* **obligation_to_ground_decision_in_identified_ratio_decidendi**: O tribunal aplicou um Tema de Repercussão Geral sobre direito administrativo a um empregado celetista privado sem explicar a analogia ou demonstrar que a ratio do precedente seria aplicável ao regime trabalhista. Isso significa que o tribunal não justificou adequadamente por que e como a decisão de direito administrativo poderia ser aplicada à situação específica de um empregado celetista, violando assim o predicado normativo que exige que as decisões sejam fundamentadas em uma razão identificável (ratio decidendi) que seja diretamente aplicável ao caso concreto.\n* **due_process_of_law**: Além da falta de justificação para a analogia entre direito administrativo e regime trabalhista, não há menção a qualquer processo ou procedimento que tenha sido seguido para garantir que o empregado celetista tivesse conhecimento do precedente aplicável e a oportunidade de se manifestar sobre sua aplicação. Isso sugere uma violação ao princípio do devido processo legal, que exige a observância de procedimentos legais adequados e justos para garantir os direitos das partes envolvidas.\n\n**2. DECISÃO RECOMENDADA**\n\nDada a falta de fundamentação e o potencial desrespeito ao princípio do devido processo legal, recomenda-se que a decisão seja reformada ou revista com base nos seguintes argumentos:\n\n- A aplicação de um precedente sobre direito administrativo a uma situação de empregado celetista privado sem justificar adequadamente a analogia viola o princípio da ratio decidendi.\n- A falta de garantias processuais adequadas para as partes envolvidas, como conhecimento prévio do precedente e oportunidade de se manifestar sobre sua aplicação, desrespeita o princípio do devido processo legal.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: Violado\n- **due_process_of_law**: Violado",
+  "tokens_in": 338,
+  "tokens_out": 492,
+  "latency_ms": 8327,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

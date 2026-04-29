@@ -1,0 +1,30 @@
+{
+  "sha256": "2aae7f490f31495c4bd741b46454e1b44f131e7c1d901010253a344460b0ae56",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:05:49Z",
+  "prompt_sha": "403966b1450a17b6aaa9968db2609853f7fb34f41a126c9530a8ad7a9b038bde",
+  "response_text": "## Análise do Cenário à Luz dos Predicados Normativos\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, segue a análise e a decisão recomendada:\n\n**1. ANÁLISE:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi (Obrigação de fundamentar a decisão no *ratio decidendi* identificado):** Este predicado é **completamente cumprido** no cenário. A decisão em embargos de declaração demonstra um esforço claro em identificar a omissão (ausência de análise do LINDB Art. 20) e enfrentá-la. Mais importante, a decisão não apenas reconhece a omissão, mas a supre com um fundamento identificável e verificável: a jurisprudência do STJ sobre LINDB.  A referência à jurisprudência do STJ serve como o *ratio decidendi* que sustenta a conclusão de que o LINDB não se aplica ao caso trabalhista individual. A decisão não é arbitrária, mas sim baseada em um raciocínio lógico e em precedentes.\n\n*   **due_process_of_law (Devido processo legal):** Este predicado também é **cumprido** no cenário. O devido processo legal exige que as decisões sejam tomadas de forma justa, imparcial e com oportunidade para as partes apresentarem seus argumentos. A análise dos embargos de declaração, o enfrentamento do argumento sobre o LINDB e a fundamentação da decisão demonstram o cumprimento desse princípio. A parte teve a oportunidade de argumentar sobre a aplicabilidade do LINDB, e a decisão foi proferida após a análise desse argumento, com base em fundamentos jurídicos. A decisão, ao suprir a omissão, garante um processo mais completo e justo.\n\n**2. DECISÃO RECOMENDADA:**\n\nA decisão em embargos de declaração, conforme descrita no cenário, **deve ser mantida**. A decisão demonstra um esforço para corrigir uma omissão, fundamentando-se em jurisprudência do STJ para justificar a conclusão de que o LINDB não se aplica ao caso. A decisão é motivada, clara e demonstra respeito ao devido processo legal. Não há indícios de que a decisão tenha sido arbitrária ou que a parte tenha sido privada de um processo justo.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** **Conformidade** (Cumprido)\n*   **due_process_of_law:** **Conformidade** (Cumprido)\n\n**Observações Adicionais:**\n\nÉ importante ressaltar que a análise se baseia exclusivamente nos predicados normativos fornecidos e no cenário descrito. Uma análise mais aprofundada exigiria a avaliação do conteúdo específico dos embargos de declaração, da decisão original e da jurisprudência do STJ mencionada. No entanto, com base nas informações disponíveis, a decisão parece estar em conformidade com os princípios e obrigações estabelecidos.\n",
+  "tokens_in": 331,
+  "tokens_out": 664,
+  "latency_ms": 18358,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

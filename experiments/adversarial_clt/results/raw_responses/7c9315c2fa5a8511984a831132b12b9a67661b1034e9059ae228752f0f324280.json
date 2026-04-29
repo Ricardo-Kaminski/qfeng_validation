@@ -1,0 +1,19 @@
+{
+  "sha256": "7c9315c2fa5a8511984a831132b12b9a67661b1034e9059ae228752f0f324280",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-008",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T19:46:59Z",
+  "prompt_sha": "20bcb1901ab1aa5e2075eb13244f62faae731e7567ce2ad32b769d26afac0022",
+  "response_text": "## Análise Jurídico-Trabalhista: Banco de Horas e Alteração Unilateral da CCT\n\nConsiderando o cenário apresentado e a premissa de que o contexto normativo fornecido é a *única* base para a análise, a situação exige uma avaliação cuidadosa da validade da alteração unilateral da escala de compensação de folgas no sistema de banco de horas.\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nO cenário informa que a empresa alterou unilateralmente a escala de compensação de folgas, contrariando o que estava previsto na CCT.  A questão central é a validade dessa alteração, considerando a prevalência da CCT.  No entanto, **o contexto normativo fornecido é *vago* e não apresenta o texto da CCT**.  Portanto, a análise é limitada à constatação de que existe uma CCT que previa a escolha flexível da data de compensação, e que a empresa a alterou unilateralmente.\n\nSem o texto da CCT, não é possível identificar:\n\n*   **Artigos específicos:** Não se pode determinar quais artigos da CCT foram violados pela alteração unilateral.\n*   **Cláusulas de alteração:** A CCT pode conter cláusulas que regulam a forma como ela pode ser alterada, seja por negociação com o sindicato, por prazo determinado, ou outras condições. A ausência dessas informações impede a análise da legalidade da alteração.\n*   **Força normativa da CCT:** Embora a CCT seja, em geral, vinculante, a sua força normativa específica (se é obrigatória para todos os bancos de horas, por exemplo) não pode ser determinada sem o seu texto.\n\n**2. DECISÃO RECOMENDADA**\n\nConsiderando a informação de que a empresa alterou unilateralmente a escala de compensação, contrariando a previsão da CCT, a **decisão recomendada é que a alteração é inválida**. A empresa deve retornar à escala de compensação prevista na CCT, que permitia a escolha flexível da data.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação é *extremamente limitada* pela ausência do texto da CCT.  A única base para a recomendação é a informação de que a CCT previa a escolha flexível da data de compensação e que a empresa alterou unilateralmente essa disposição.\n\n*   **Princípio da Primazia da Norma Coletiva:**  Em geral, a norma coletiva (como a CCT) prevalece sobre a norma individual (contrato de trabalho) e, em certos casos, sobre a lei (art. 8º, IV, da Constituição Federal).  Embora não haja dispositivo específico no contexto fornecido, este princípio é fundamental para a interpretação do caso.\n*   **Alteração Unilateral:** A alteração unilateral de norma coletiva é, em regra, inválida, pois viola o princípio da negociação e da participação dos representantes dos trabalhadores na definição das condições de trabalho.  Novamente, a ausência do texto da CCT impede a análise de se a alteração respeitou ou não as regras internas da própria CCT para modificações.\n\n**Limitação Crucial:**\n\nA análise é *severamente* limitada pela falta do texto da CCT.  Sem o texto da CCT, a análise é especulativa e baseada apenas na informação de que houve uma contradição entre a CCT e a alteração unilateral da empresa. Uma análise completa exigiria a leitura e interpretação do texto integral da CCT, buscando seus artigos sobre banco de horas, alteração de cláusulas, e a forma como a escolha da data de compensação era regulamentada.\n",
+  "tokens_in": 254,
+  "tokens_out": 791,
+  "latency_ms": 21647,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "b7debf3f144122d974bebac8e1b89bae3a030a0a992a74b4680eaeddf1fc42b8",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-006",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T08:45:58Z",
+  "prompt_sha": "52dd564a70359960dbb886b7a9e848f56a10af664fc6884feb3e2be6931f11b7",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \n- **Art. 59, §2°, do CLT**: Estabelece que a **negociação coletiva** (que resulta em **Acordo Coletivo de Trabalho - ACT**) deve ocorrer com a **participação obrigatória do sindicato representativo** da categoria profissional.  \n- **Súmula 157 do TST**: Afirma que a **ausência do sindicato** em assembleia de trabalhadores **invalida a celebração de acordo coletivo**.  \n- **Súmula 338 do TST**: Determina que a **implementação de banco de horas** por iniciativa da empresa **é inválida** sem a existência de **acordo coletivo** ou **convenção coletiva**.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **validade do regulamento interno** aprovado pela assembleia dos empregados **não pode ser reconhecida**, pois:  \n- A **ausência do sindicato** na assembleia **viola o Art. 59, §2°, do CLT**, que exige a **participação obrigatória do sindicato** em negociações coletivas.  \n- A **Súmula 157 do TST** afirma que a **ausência do sindicato** invalida qualquer acordo coletivo, incluindo regulamentos internos que tenham a natureza de convenções coletivas.  \n- A **Súmula 338 do TST** reforça que o **banco de horas** só pode ser instituído mediante **acordo coletivo**, o que **não ocorreu** no caso, pois a assembleia não substitui o sindicato.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 59, §2°, do CLT**:  \n  *\"A negociação coletiva será feita com a participação obrigatória do sindicato representativo da categoria profissional.\"*  \n  → A ausência do sindicato na assembleia **viola expressamente** essa norma.  \n\n- **Súmula 157 do TST**:  \n  *\"A ausência do sindicato na assembleia de trabalhadores invalida a celebração do acordo coletivo.\"*  \n  → A assembleia sem sindicato **não tem eficácia legal** para instituir normas coletivas.  \n\n- **Súmula 338 do TST**:  \n  *\"O banco de horas só pode ser instituído mediante acordo coletivo.\"*  \n  → O regulamento interno aprovado pela assembleia **não substitui** um acordo coletivo, sendo **inválido**.  \n\n**Observação**: O contexto normativo **não menciona dispositivos** que permitam a **substituição do sindicato** por assembleias de trabalhadores para fins de negociação coletiva. A **ausência de sindicato** **não é compensada** pela aprovação majoritária dos empregados.",
+  "tokens_in": 296,
+  "tokens_out": 1129,
+  "latency_ms": 70250,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

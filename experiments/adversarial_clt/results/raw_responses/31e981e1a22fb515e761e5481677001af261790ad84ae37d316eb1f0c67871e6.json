@@ -1,0 +1,30 @@
+{
+  "sha256": "31e981e1a22fb515e761e5481677001af261790ad84ae37d316eb1f0c67871e6",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-009",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:33:31Z",
+  "prompt_sha": "6d91edef4f830b89da4360eaf0b135c5ffe380f3939107e2bba54ad7b7057f83",
+  "response_text": "**1. ANÁLISE**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi**: Este predicado exige que a decisão seja fundamentada em uma razão decidenda claramente identificada e aplicada corretamente ao caso concreto. No cenário, a decisão cita corretamente a Súmula TST 85, mas aplica de forma equivocada a consequência jurídica. A decisão não fundamenta adequadamente o afastamento do adicional estabelecido na Súmula TST 85, V.\n\n**2. DECISÃO RECOMENDADA**\n\n*   **Revisão da Decisão**: É recomendável revisar a decisão para que ela seja fundamentada corretamente e aplique as consequências jurídicas de acordo com a Súmula TST 85, V. A decisão deve ser revista para determinar o pagamento das horas extras com adicional de 50%, conforme estabelecido na súmula.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi**: Este predicado foi violado, pois a decisão não fundamentou adequadamente o afastamento do adicional estabelecido na Súmula TST 85, V.",
+  "tokens_in": 355,
+  "tokens_out": 300,
+  "latency_ms": 5093,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

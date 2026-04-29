@@ -1,0 +1,29 @@
+{
+  "sha256": "82f55aa96d67b1d850c65185e763b8810028b4c2cb908638e4aa12ab6dedf746",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T22:25:32Z",
+  "prompt_sha": "b661f2255b5502b8f1d54e8173e364eaea6fcc82df6fd0fce186a62f26ced61c",
+  "response_text": "### 1. **ANÁLISE**  \nO predicado **hour_bank_with_cct_max_1_year** refere-se à compensação de horas extras em banco de horas estabelecido por convenção coletiva de trabalho (CCT), com prazo máximo de 1 ano para compensação. No cenário descrito, a CCT prevê compensação **semestral** (a cada 6 meses), e o empregado foi demitido antes do término do prazo de compensação.  \n\n- **Aplicação do predicado**:  \n  - A CCT permite a compensação de horas extras em banco de horas, desde que respeitado o prazo máximo de 1 ano (ou, no caso, 6 meses, conforme previsto na CCT específica).  \n  - Ao final do prazo de compensação (semestral), as horas não utilizadas devem ser **convertidas em horas extras** (com adicional de 50%) ou **remuneradas como horas normais**, conforme previsto na CCT.  \n  - No caso, a empresa **não compensou** as 80h acumuladas antes da rescisão, e **não pagou o adicional de 50%** sobre o valor das horas, violando a regra de que horas não compensadas em tempo útil (antes do prazo máximo) devem ser remuneradas com o adicional devido.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA empresa deve:  \n- **Reembolsar o empregado** pelo valor das 80h acumuladas, **com adicional de 50%** (conforme previsto no art. 59 da CLT e jurisprudência do TST).  \n- **Justificar a violação** da CCT, que estabelece a compensação semestral e a remuneração das horas não utilizadas com o adicional devido.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Violação**:  \n  - **hour_bank_with_cct_max_1_year**: A empresa **não respeitou a regra de compensação** das horas acumuladas antes do prazo máximo (semestral), **não aplicando o adicional de 50%** sobre o valor das horas.  \n\n- **Conformidade**:  \n  - Nenhum outro predicado foi explicitamente mencionado no cenário, mas a CCT em questão **estabelece a compensação semestral**, o que **não foi violado** no aspecto da periodicidade (a compensação deveria ocorrer a cada 6 meses, mas o empregado foi demitido antes do prazo).  \n\n--- \n\n**Observação**: A jurisprudência do TST reforça que horas extras acumuladas em banco de horas, se não compensadas no prazo estabelecido, devem ser remuneradas com o adicional de 50% (Súmula 384 do TST). A empresa, ao não aplicar o adicional, viola a norma.",
+  "tokens_in": 343,
+  "tokens_out": 1077,
+  "latency_ms": 32875,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

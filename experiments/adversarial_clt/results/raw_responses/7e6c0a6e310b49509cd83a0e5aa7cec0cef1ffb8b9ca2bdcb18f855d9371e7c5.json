@@ -1,0 +1,19 @@
+{
+  "sha256": "7e6c0a6e310b49509cd83a0e5aa7cec0cef1ffb8b9ca2bdcb18f855d9371e7c5",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T11:32:18Z",
+  "prompt_sha": "54fed52f1361028c4b39bac92f25e2dfe4146042ea59002edc5741c8f1792790",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a empresa de call center implementou um banco de horas unilateralmente, sem negociação sindical, e os empregados acumularam até 120h no período de 9 meses. A empresa argumenta que os acordos individuais seriam válidos para bancos de horas de até 6 meses. No entanto, o sindicato da categoria não celebrou qualquer Acordo Coletivo de Trabalho (ACT) ou Convenção Coletiva de Trabalho (CCT) autorizando tal prática.\n\nOs dispositivos normativos aplicáveis ao caso são:\n\n- **Artigo 59 da CLT (Consolidação das Leis do Trabalho):** Este artigo estabelece que o banco de horas pode ser instituído por acordo individual escrito, desde que não exceda a compensação em até dois meses e meio. Além disso, para prazos superiores, é necessária a autorização expressa do sindicato da categoria profissional.\n\n- **Súmula 331 do TST (Tribunal Superior do Trabalho):** Esta súmula reforça que o banco de horas excedente ao período de dois meses e meio só pode ser instituído mediante autorização expressa do sindicato da categoria profissional.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é considerar a prática de banco de horas como inválida para o período que excedeu os dois meses e meio, uma vez que não houve autorização do sindicato da categoria profissional. Portanto, as horas acumuladas além desse limite devem ser pagas aos empregados.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Artigo 59 da CLT:** Permite o banco de horas por acordo individual escrito, limitado a compensação em até dois meses e meio. Para prazos superiores, é necessária autorização sindical.\n\n- **Súmula 331 do TST:** Estabelece que o banco de horas excedente ao período de dois meses e meio só pode ser instituído mediante autorização expressa do sindicato da categoria profissional.\n\nDessa forma, a empresa não cumpriu com os requisitos legais para implementar um banco de horas válido por mais de dois meses e meio sem a autorização sindical.",
+  "tokens_in": 291,
+  "tokens_out": 532,
+  "latency_ms": 30375,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

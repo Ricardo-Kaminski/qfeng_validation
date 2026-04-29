@@ -1,0 +1,30 @@
+{
+  "sha256": "3e95d4418442275e49f513e59b7d18bd31c30a8533a83ffc5f25edc69e15b85d",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T23:12:26Z",
+  "prompt_sha": "403966b1450a17b6aaa9968db2609853f7fb34f41a126c9530a8ad7a9b038bde",
+  "response_text": "### 1. **ANÁLISE**  \n**a) *obligation_to_ground_decision_in_identified_ratio_decidendi***  \nO predicado normativo *obligation_to_ground_decision_in_identified_ratio_decidendi* (obrigação de fundamentar a decisão com base em ratio decidendi identificável) foi **cumprido**. A decisão em embargos de declaração **identificou claramente o ponto omisso** (ausência de análise do LINDB Art. 20 sobre impacto sistêmico) e **enfrentou o argumento com referência à jurisprudência do STJ sobre LINDB**, que é uma fonte jurídica válida e identificável. A conclusão motivada de que o LINDB Art. 20 **não se aplica ao caso trabalhista individual** foi fundamentada com base em uma **ratio decidendi verificável**, cumprindo a obrigação de fundamentação.  \n\n**b) *due_process_of_law***  \nO predicado *due_process_of_law* (devido processo legal) também foi **cumprido**. A omissão identificada foi **suprida com fundamento identificável e verificável** (jurisprudência do STJ), garantindo que a parte embargante teve **ampla defesa e contraditório**. A decisão não deixou lacunas que poderiam prejudicar o direito à defesa ou à efetividade da tutela jurisdicional, respeitando os princípios constitucionais do devido processo legal.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA decisão em embargos de declaração **deve ser mantida**.  \n- **Fundamento**: A decisão cumpriu os requisitos legais e constitucionais, ao identificar e suprir a omissão com base em jurisprudência do STJ (fonte jurídica válida), garantindo a **adequação da fundamentação** (*ratio decidendi*) e o **cumprimento do devido processo legal**.  \n- **Consequência**: Não há motivos para anular ou reformar a decisão, pois ela foi **motivada, fundamentada e compatível com os direitos processuais**.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Cumpridos**:  \n  - *obligation_to_ground_decision_in_identified_ratio_decidendi* (a decisão foi fundamentada com base em jurisprudência do STJ, que é uma *ratio decidendi* identificável).  \n  - *due_process_of_law* (a omissão foi suprida com fundamento verificável, garantindo o devido processo legal).  \n\n- **Violados**:  \n  - **Nenhum**. Todos os predicados normativos aplicáveis foram **cumpridos** no cenário descrito.  \n\n--- \n\n**Conclusão**: A decisão em embargos de declaração está **em conformidade com os requisitos legais e processuais**, e sua manutenção é recomendada.",
+  "tokens_in": 360,
+  "tokens_out": 1005,
+  "latency_ms": 30452,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

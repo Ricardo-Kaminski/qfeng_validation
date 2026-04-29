@@ -1,0 +1,19 @@
+{
+  "sha256": "f640fd4c0b0f829ca6bb380f7e3a567b515f3905b46856f6f88aaff8b96be553",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-008",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T07:09:26Z",
+  "prompt_sha": "64ecfcd55e53682e3434d268d1372d75f5339eec180f24a09ed7b88deb3f59f5",
+  "response_text": "**ANÁLISE**\n\n1.  **Identificação dos dispositivos legais aplicáveis**: O caso em questão envolve a reparação de dano moral trabalhista, o que é regulado pela Consolidação das Leis do Trabalho (CLT). A partir da reforma trabalhista de 2017, o art. 223-G da CLT passou a regular a indenização por danos morais no âmbito trabalhista.\n2.  **Interpretação dos dispositivos legais**: O art. 223-G da CLT estabelece que a indenização por danos morais será calculada com base no salário do trabalhador, conforme o §1° do mesmo artigo. Além disso, é importante considerar a gravidade da ofensa, que deve ser identificada com fundamento nos fatos provados (art. 223-G, caput). A proporcionalidade da indenização também deve ser considerada, tendo em vista precedentes do Tribunal Superior do Trabalho (TST) sobre casos similares de assédio moral.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é a condenação do empregador ao pagamento de indenização por danos morais, calculada com base no salário do trabalhador e considerando a gravidade da ofensa. Além disso, deve ser observado o precedente do TST sobre casos similares de assédio moral para garantir a proporcionalidade da indenização.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   **Art. 223-G da CLT**: Regulamenta a indenização por danos morais no âmbito trabalhista, estabelecendo que a indenização será calculada com base no salário do trabalhador e considerando a gravidade da ofensa.\n*   **§1° do art. 223-G da CLT**: Estabelece que a indenização por danos morais será calculada com base no salário do trabalhador, o que deve ser observado na decisão.\n*   **Súmula nº 330 do TST**: \"A reparação do dano moral não se confunde com a penalidade de multa, e sim é uma compensação pela ofensa sofrida pelo empregado.\"\n*   **Precedentes do TST sobre casos similares de assédio moral**: Devem ser observados para garantir a proporcionalidade da indenização.",
+  "tokens_in": 328,
+  "tokens_out": 554,
+  "latency_ms": 19094,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

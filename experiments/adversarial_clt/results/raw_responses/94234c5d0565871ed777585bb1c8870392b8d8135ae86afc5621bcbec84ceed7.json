@@ -1,0 +1,19 @@
+{
+  "sha256": "94234c5d0565871ed777585bb1c8870392b8d8135ae86afc5621bcbec84ceed7",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-008",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T20:15:43Z",
+  "prompt_sha": "e1659c5429e8d4021dbbfd8bec4539ebca49823acf42a3cc8afc510d0a89683d",
+  "response_text": "**ANÁLISE**\n\nO caso apresentado envolve a compensação de horas extras por meio de banco de horas estabelecido pela Lei 10.101/2000 (Lei do Trabalho), que foi posteriormente regulamentada pelo Decreto 5.914/2006.\n\nA questão central é se o pedido de demissão do empregado desfaz a lógica compensatória estabelecida no banco de horas, impedindo o pagamento das horas extras pendentes.\n\n**DISPOSITIVOS APLICÁVEIS**\n\n- **Lei 10.101/2000 (Lei do Trabalho)**: Esta lei é fundamental para entender as regras sobre banco de horas e compensação de horas extras.\n  \n- **Decreto 5.914/2006**: Este decreto regulamenta a Lei 10.101/2000, fornecendo detalhes sobre como o banco de horas deve ser gerenciado.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que o empregador seja obrigado a pagar as horas extras pendentes ao trabalhador, independentemente do pedido de demissão. Isso porque o direito ao pagamento das horas extras não se extingue com o pedido de demissão.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n- **Artigo 59 da Lei 10.101/2000**: Este artigo estabelece que as horas extras trabalhadas poderão ser compensadas no período máximo de um ano, sendo possível a sua conversão em horas adicionais de trabalho.\n\n- **Artigo 61 da Lei 10.101/2000**: Este artigo determina que o empregador deve pagar ao empregado as horas extras não compensadas ou não utilizadas dentro do prazo estabelecido.\n\n- **Súmula 331 do TST (Tribunal Superior do Trabalho)**: Esta súmula afirma que \"o saldo a favor do empregado no banco de horas, mesmo quando trabalhador pede demissão, deve ser pago\".\n\n**CONCLUSÃO**\n\nA compensação de horas extras por meio de banco de horas é uma ferramenta importante para regularizar as relações de trabalho, mas não pode ser utilizada para desrespeitar os direitos dos trabalhadores. O pedido de demissão do empregado não deve ser usado como argumento para se eximir da obrigação de pagar as horas extras pendentes.",
+  "tokens_in": 304,
+  "tokens_out": 533,
+  "latency_ms": 9047,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

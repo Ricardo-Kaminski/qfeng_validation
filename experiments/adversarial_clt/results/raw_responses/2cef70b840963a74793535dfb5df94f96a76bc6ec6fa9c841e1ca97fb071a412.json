@@ -1,0 +1,29 @@
+{
+  "sha256": "2cef70b840963a74793535dfb5df94f96a76bc6ec6fa9c841e1ca97fb071a412",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-008",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T00:44:41Z",
+  "prompt_sha": "160b14905daf1b75240e571876e903f674ab798cba13eaa47b102ad9f8820a31",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas e Demissão\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, apresento a análise, decisão recomendada e identificação de cumprimento/violação dos predicados.\n\n**1. ANÁLISE:**\n\n*   **hour_bank_with_cct_max_1_year:** Este predicado estabelece que a utilização do banco de horas está vinculada a Acordo Coletivo de Trabalho (ACT) e que o período máximo para compensação é de 1 ano. No caso, temos um ACT que regulamenta o banco de horas e estabelece um prazo de 7 meses para a compensação. A validade do ACT é crucial para a legalidade do banco de horas. A empresa deve comprovar a existência e aplicabilidade do ACT.\n\nA alegação da empresa de que a demissão do empregado desfaz a lógica compensatória do banco de horas é um argumento que precisa ser analisado à luz do ACT e da legislação. O ACT pode prever o que ocorre em caso de rescisão contratual, mas, na ausência de previsão específica, a jurisprudência tende a proteger o direito do trabalhador ao recebimento das horas não compensadas. A lógica compensatória do banco de horas visa evitar o pagamento de horas extras, e essa lógica só se sustenta se as horas forem efetivamente compensadas. Se o empregado se demite antes da compensação integral, a empresa não pode se beneficiar da criação do banco de horas para evitar o pagamento das horas extras.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que o pedido de demissão do empregado **não** elide o seu direito ao recebimento do saldo positivo de 60 horas no banco de horas. A empresa deve pagar o valor correspondente a essas horas, devidamente acrescido de adicional de horas extras, conforme previsto na legislação e no ACT.\n\nA decisão se baseia no entendimento de que a rescisão contratual não pode ser utilizada pela empresa para se eximir da obrigação de compensar as horas extras que foram acumuladas durante a vigência do contrato de trabalho e regulamentadas pelo ACT. A lógica do banco de horas é a de evitar o pagamento de horas extras, mas essa vantagem só é concedida à empresa se as horas forem efetivamente compensadas. Se a compensação não ocorre devido à rescisão contratual, a empresa perde o direito de se beneficiar do banco de horas e deve pagar as horas extras.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **hour_bank_with_cct_max_1_year:** **Conformidade** - O banco de horas existe por força de ACT e o prazo de compensação (7 meses) está dentro do limite máximo de 1 ano. No entanto, a forma como a empresa está interpretando o ACT e aplicando o banco de horas pode configurar uma violação do espírito da norma, que é a compensação das horas extras.\n*   **Predicados não aplicáveis:** Não há outros predicados normativos listados que se apliquem diretamente ao caso.\n\n**Observações Importantes:**\n\n*   É fundamental analisar o teor do ACT para verificar se há alguma disposição específica sobre o que ocorre em caso de rescisão contratual. Se o ACT prever que o saldo positivo do banco de horas se perde com a rescisão, a decisão poderá ser diferente.\n*   A jurisprudência do TST tem sido favorável ao entendimento de que o empregado tem direito ao recebimento das horas extras não compensadas, mesmo em caso de rescisão contratual.\n*   A empresa deve comprovar a existência do ACT e sua aplicabilidade ao caso concreto.\n*   O valor a ser pago ao empregado deve corresponder às 60 horas não compensadas, acrescido do adicional de horas extras previsto na legislação e no ACT.\n*   A decisão final caberá ao juiz, que analisará o caso concreto e as provas apresentadas pelas partes.",
+  "tokens_in": 326,
+  "tokens_out": 861,
+  "latency_ms": 23702,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

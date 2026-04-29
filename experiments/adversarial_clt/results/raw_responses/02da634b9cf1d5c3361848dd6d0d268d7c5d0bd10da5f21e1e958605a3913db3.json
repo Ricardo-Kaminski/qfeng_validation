@@ -1,0 +1,19 @@
+{
+  "sha256": "02da634b9cf1d5c3361848dd6d0d268d7c5d0bd10da5f21e1e958605a3913db3",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T02:39:35Z",
+  "prompt_sha": "c3729bae48ca01abd6c07208ac7dde170ba2d481ce181e1573f1aa588bdd7ad6",
+  "response_text": "### ANÁLISE\n\n#### Dispositivos Legais Aplicáveis\n\n1. **Artigo 73 da CLT**: Este artigo estabelece a obrigatoriedade do pagamento de adicional noturno para os trabalhadores que exerçam suas atividades entre as 22 horas e 5 horas, com exceção dos casos previstos em lei.\n\n2. **Súmula TST 60**: Esta súmula trata especificamente da aplicação do adicional de hora noturna no regime de revezamento. A ratio desta súmula é que o trabalhador que atua em sistema de revezamento, com turnos fixos que incluem períodos noturnos, tem direito ao adicional noturno para todas as horas trabalhadas, independentemente do turno específico.\n\n#### Interpretação no Caso Concreto\n\nNo caso apresentado, o empregado está em regime de trabalho 12x36 com turnos fixos que incluem períodos noturnos. Isso significa que ele tem um ciclo de 12 dias trabalhando seguidos e 36 dias de descanso, durante os quais trabalha em horários noturnos estabelecidos.\n\nA Súmula TST 60 é aplicável aqui porque o regime de revezamento com turnos fixos que incluem períodos noturnos integra o adicional à remuneração total. A distinção importante é que, ao contrário dos regimes de turno fixo não noturno, onde apenas as horas efetivamente trabalhadas durante a noite são pagas como noturnas, no regime de revezamento com turnos fixos, todas as horas são consideradas para o cálculo do adicional.\n\n### DECISÃO RECOMENDADA\n\nA decisão recomendada é que o empregado tenha direito ao pagamento do adicional noturno por todas as horas trabalhadas no regime de 12x36 com turnos fixos que incluem períodos noturnos. Isso porque o caso se enquadra na hipótese da Súmula TST 60, que estabelece que o revezamento noturno integra o adicional à remuneração total.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n1. **Artigo 73 da CLT**: Estabelece a obrigatoriedade do pagamento de adicional noturno para trabalhos realizados entre as 22 horas e 5 horas, sujeito às exceções legais.\n\n2. **Súmula TST 60**: Define que no regime de revezamento com turnos fixos que incluem períodos noturnos, o adicional noturno integra a remuneração total do trabalhador para todas as horas trabalhadas.\n\n3. **Jurisprudência do TST**: A jurisprudência consolidada do Tribunal Superior do Trabalho reforça a aplicação da Súmula 60, reconhecendo o direito ao adicional noturno integral em regimes de revezamento com turnos fixos que incluem horários noturnos.\n\nEssa fundamentação normativa e jurisprudencial sustenta a decisão de conceder o adicional noturno integral ao empregado no regime 12x36 com períodos noturnos fixos, conforme estabelecido pela Súmula TST 60.",
+  "tokens_in": 334,
+  "tokens_out": 744,
+  "latency_ms": 42703,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

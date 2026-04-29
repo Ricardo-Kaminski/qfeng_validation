@@ -1,0 +1,26 @@
+{
+  "sha256": "cde8a77d3c7dd7dcddcad192424c1c7e6adea208a8e0c635fbafdbd45029dff0",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-009",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T01:21:13Z",
+  "prompt_sha": "d1fdc105e58bb56978ba05596e29a5c6877b1685ca6ea3d00eee6f782a96ee44",
+  "response_text": "**ANÁLISE**\n\n1. **obligation_to_ground_decision_in_identified_ratio_decidendi**: Esse predicado exige que as decisões judiciais sejam fundamentadas em razões de decidir claras e identificáveis, relacionadas ao caso concreto. Nesse cenário, o magistrado trabalhista manteve a sentença sem adicionar fundamentação, limitando-se a \"adotar os fundamentos da sentença como razões de decidir\". Isso viola esse predicado porque não há clareza sobre quais aspectos específicos da decisão foram mantidos e por quê, especialmente considerando que o precedente citado na sentença original foi superado.\n\n2. **due_process_of_law**: Este predicado garante que as partes tenham um processo justo e equitativo, com todas as oportunidades de defesa. Nesse caso, a decisão do magistrado trabalhista não apenas manteve a sentença sem adicionar fundamentação, como também ignorou a situação crítica de que o precedente citado na sentença original foi posteriormente superado pelo TST. Isso pode ser visto como uma violação ao direito de defesa das partes, pois elas têm o direito de conhecer as razões pelas quais suas alegações foram rejeitadas e de ter acesso à jurisprudência mais atualizada.\n\n**DECISÃO RECOMENDADA**\n\nDada a falta de fundamentação clara e identificável na decisão do magistrado trabalhista, assim como a omissão em considerar a mudança na jurisprudência do TST, recomenda-se que a decisão seja anulada e remetida para uma nova análise. Nesse novo processo, é essencial que as partes tenham acesso à fundamentação completa e atualizada da decisão, incluindo a consideração das alterações na jurisprudência do TST.\n\n**PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: Violado\n- **due_process_of_law**: Violado\n\nEsses predicados foram violados porque a decisão não ofereceu fundamentação clara e identificável, nem considerou adequadamente as alterações na jurisprudência do TST.",
+  "tokens_in": 349,
+  "tokens_out": 508,
+  "latency_ms": 8483,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

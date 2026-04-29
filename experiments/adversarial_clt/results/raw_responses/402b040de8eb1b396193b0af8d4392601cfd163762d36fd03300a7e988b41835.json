@@ -1,0 +1,19 @@
+{
+  "sha256": "402b040de8eb1b396193b0af8d4392601cfd163762d36fd03300a7e988b41835",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T11:31:47Z",
+  "prompt_sha": "54fed52f1361028c4b39bac92f25e2dfe4146042ea59002edc5741c8f1792790",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a empresa de call center implementou um banco de horas unilateralmente, sem negociação com o sindicato da categoria. Os empregados acumularam até 120h em um período de 9 meses, enquanto a empresa argumenta que acordos individuais seriam válidos para bancos de horas de até 6 meses.\n\nOs dispositivos normativos aplicáveis são:\n\n- **Artigo 59 da CLT (Consolidação das Leis do Trabalho):** Este artigo estabelece que o banco de horas só pode ser instituído mediante acordo ou convenção coletiva, e não por acordos individuais. Além disso, limita a acumulação máxima de horas em 200h, com prazo máximo de compensação de até dois anos.\n\n- **Súmula 331 do TST (Tribunal Superior do Trabalho):** Esta súmula reforça que o banco de horas deve ser instituído por acordo ou convenção coletiva e não pode ser estabelecido unilateralmente pela empresa.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é considerar a prática da empresa como inválida em relação ao banco de horas, pois foi implementada unilateralmente sem negociação sindical. Os empregados devem ser ressarcidos pelas horas trabalhadas além do horário normal, já que os acordos individuais não têm validade para instituir o banco de horas.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Artigo 59 da CLT:** Estabelece a necessidade de acordo ou convenção coletiva para a implantação do banco de horas, excluindo acordos individuais como meio válido para sua instituição.\n\n- **Súmula 331 do TST:** Confirma que o banco de horas deve ser estabelecido por meio de negociação coletiva e não pode ser implementado unilateralmente pela empresa.\n\nDessa forma, a prática da empresa é incompatível com as normas trabalhistas vigentes, e os empregados têm direito à compensação pelas horas excedentes.",
+  "tokens_in": 291,
+  "tokens_out": 489,
+  "latency_ms": 27906,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

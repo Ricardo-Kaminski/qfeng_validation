@@ -1,0 +1,19 @@
+{
+  "sha256": "d122f3161cdecd3a1f24a26a2222d90475030fc401d865f7cde7b522c8d6adc0",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-009",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T09:50:27Z",
+  "prompt_sha": "2722d03920b7e27b8bb0202ab5af9eebb5796cac03b26e86812fcd909b78f3bc",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO caso envolve a conversão de horas extras acumuladas em banco de horas, prevista em **Convenção Coletiva de Trabalho (CCT)**, com pagamento de **adicional de 50%**. A análise deve considerar:  \n- **Dispositivos da CCT**: A CCT prevê expressamente a possibilidade de conversão de horas em dinheiro, com adicional de 50% (como mencionado no contexto).  \n- **Normas gerais do Direito do Trabalho**: A **Consolidação das Leis do Trabalho (CLT)** e as **Súmulas do TST** são relevantes para avaliar a legalidade da conversão e do pagamento.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**A conversão do saldo de horas em dinheiro, com pagamento de adicional de 50%, é legal e compatível com as normas do Direito do Trabalho brasileiro, desde que a CCT esteja em conformidade com a CLT e as Súmulas do TST.**  \n\n**Motivo**:  \n- A **conversão de horas extras em dinheiro** é permitida por meio de **acordo coletivo** (CCT), desde que respeite os limites legais (ex.: não ultrapassar o teto de 20% do salário-base, conforme a CLT).  \n- O **adicional de 50%** está em consonância com a **Lei nº 6.029/1974** (art. 1º, § 2º), que estabelece que horas extras devem ser remuneradas com **adicional de 50%**.  \n- O **pagamento no mês seguinte à conversão** está dentro do prazo legal (art. 461 da CLT, que exige pagamento de salários em intervalos não superiores a 30 dias).  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Lei nº 6.029/1974, art. 1º, § 2º**: Estabelece que horas extras devem ser remuneradas com **adicional de 50%**.  \n- **Consolidação das Leis do Trabalho (CLT), art. 59**: Define que o trabalho extraordinário (horas extras) deve ser remunerado com **adicional de 50%**.  \n- **CLT, art. 461**: Determina que os salários devem ser pagos **em intervalos não superiores a 30 dias**, o que foi respeitado no caso (pagamento no mês seguinte).  \n- **Súmula nº 270 do TST**: Confirma que o **adicional de 50%** é obrigatório para horas extras, independentemente de acordo individual ou coletivo.  \n\n**Limitação do contexto**:  \n- O contexto **não menciona dispositivos específicos da CCT** (como artigos ou cláusulas), apenas que a CCT previa a possibilidade de conversão com adicional de 50%. Portanto, **não é possível avaliar a compatibilidade da CCT com a CLT** em detalhes, caso haja cláusulas conflitantes (ex.: adicional acima de 50% ou violação do teto de 20% do salário-base).  \n\n---\n\n### Conclusão:  \nA decisão recomendada é **favorável ao trabalhador**, desde que a CCT esteja em conformidade com a CLT e as Súmulas do TST. Se a CCT violar normas legais (ex.: adicional superior a 50% ou pagamento fora do prazo), o **TST** poderia considerar a cláusula inválida.",
+  "tokens_in": 291,
+  "tokens_out": 1688,
+  "latency_ms": 105766,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

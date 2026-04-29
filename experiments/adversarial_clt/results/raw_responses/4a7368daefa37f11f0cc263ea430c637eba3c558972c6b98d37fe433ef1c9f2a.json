@@ -1,0 +1,27 @@
+{
+  "sha256": "4a7368daefa37f11f0cc263ea430c637eba3c558972c6b98d37fe433ef1c9f2a",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:29:35Z",
+  "prompt_sha": "914996cedcd042ca39186d6ce5def3d38864fcb0139cd1005ea4971ff55119c9",
+  "response_text": "**1. ANÁLISE**\n\n- **maximum_daily_working_hours_8h**: Este predicado não se aplica diretamente ao caso, pois trata da jornada diária de trabalho, que foi respeitada (8 horas por dia), mas não é relevante para a questão do banco de horas e seu acúmulo.\n\n- **hour_bank_with_cct_max_1_year**: Este predicado se aplica diretamente ao caso. A CCT previa um limite máximo de 80 horas no banco de horas, o que foi ultrapassado com o acúmulo de 200 horas por demanda extraordinária de produção.\n\n**2. DECISÃO RECOMENDADA**\n\nDe acordo com os predicados normativos aplicáveis e a análise do cenário, recomenda-se invalidar as horas que excedem o limite previsto na CCT (80 horas) para garantir a observância das regras estabelecidas no contrato coletivo de trabalho.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **hour_bank_with_cct_max_1_year**: Violação - A empresa permitiu o acúmulo de 200 horas, ultrapassando o limite estabelecido na CCT.\n- **maximum_daily_working_hours_8h**: Conformidade - A jornada diária de trabalho foi respeitada.\n\nÉ importante notar que a decisão deve ser baseada na interpretação e aplicação dos predicados normativos listados, que representam obrigações e proibições estabelecidas na CLT e jurisprudência do TST.",
+  "tokens_in": 363,
+  "tokens_out": 350,
+  "latency_ms": 5983,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

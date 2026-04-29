@@ -1,0 +1,26 @@
+{
+  "sha256": "f50aeba8056cdcfae83bcd548617678c1593aa1e76d086baf6fcea00ad978001",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-010",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T22:12:23Z",
+  "prompt_sha": "2ccf087828688c249158ffc8bae7cebf5d31cffd47aadf38f1078116d62627f1",
+  "response_text": "### 1. **ANÁLISE**  \nO predicado **obligation_to_ground_decision_in_identified_ratio_decidendi** impõe que a decisão judicial **deve ser fundamentada no ratio decidendi identificado** (ou seja, no fundamento jurídico específico que justifica a conclusão do julgador). No cenário descrito, o juiz **omitiu-se de analisar o ponto de contradição** apontado pela parte embargante, que havia identificado uma aplicação de tese de recurso de uma parte para beneficiar a parte contrária **sem contraditório**. Isso configura uma **violação direta do predicado**, pois:  \n- A decisão **não foi fundamentada no ratio decidendi** (o fundamento jurídico específico da contradição apontada);  \n- O juiz **não realizou a análise necessária** para comprovar a ausência de contradição, como exigido pelo princípio da motivação das decisões (art. 1.014, CPC/1973, e jurisprudência do STJ e TST).  \n\n### 2. **DECISÃO RECOMENDADA**  \nA **decisão em embargos de declaração deve ser anulada**, e o caso deve ser remetido para nova análise, com **obrigação de o juiz examinar o ponto de contradição** especificamente apontado pela parte embargante. Isso se justifica porque:  \n- A ausência de análise do ratio decidendi identificado **viola o direito à ampla defesa** (art. 5º, LV, CF/1988) e o **princípio da motivação das decisões** (art. 1.014, CPC/1973);  \n- A jurisprudência do TST (ex.: Súmula 383) reconhece que a **omissão de análise de contradições específicas** configura erro de fundamentação, ensejando a nulidade da decisão.  \n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Violação**:  \n  - **obligation_to_ground_decision_in_identified_ratio_decidendi** (não foi cumprida, pois a decisão não fundamentou-se no ratio decidendi da contradição apontada).  \n- **Conformidade**:  \n  - Nenhum outro predicado foi explicitamente mencionado no cenário, mas a ausência de análise do ponto específico apontado pela parte embargante **viola implicitamente** outros princípios, como o da motivação (art. 1.014, CPC/1973) e a ampla defesa (art. 5º, LV, CF/1988).  \n\n---  \n**Observação**: A violação do **obligation_to_ground_decision_in_identified_ratio_decidendi** é central no caso, pois a ausência de fundamentação no ratio decidendi identificado **invalida a decisão**, independentemente de outras violações.",
+  "tokens_in": 337,
+  "tokens_out": 1073,
+  "latency_ms": 32266,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

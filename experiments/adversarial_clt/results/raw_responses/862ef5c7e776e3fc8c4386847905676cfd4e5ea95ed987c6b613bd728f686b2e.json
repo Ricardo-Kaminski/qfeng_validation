@@ -1,0 +1,30 @@
+{
+  "sha256": "862ef5c7e776e3fc8c4386847905676cfd4e5ea95ed987c6b613bd728f686b2e",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-010",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T23:22:55Z",
+  "prompt_sha": "bbd354def3962e7704377db628ebe8de6136e5b7bf76b2f7dfdbf1e221c99015",
+  "response_text": "### 1. **ANÁLISE: Aplicação dos predicados normativos ao caso concreto**  \n- **obligation_to_ground_decision_in_identified_ratio_decidendi**  \n  O TRT cumpriu essa obrigação ao fundamentar sua decisão com base em normas específicas:  \n  - **CLT Art. 71**: Estabelece a obrigatoriedade do intervalo intrajornada (1 hora para jornada de 6 a 8 horas, 2 horas para jornada superior a 8 horas).  \n  - **Súmula TST 437**: Reafirma que a redução do intervalo intrajornada só é válida se autorizada por **convenção coletiva de trabalho (CCT)**.  \n  - **Tema 981/STF**: Define que a redução do intervalo intrajornada para 30 minutos é válida **apenas se prevista em CCT**.  \n  A decisão do TRT explicita a **ratio decidendi** (fundamento jurídico) e aplica as normas de forma clara e vinculada, cumprindo esse predicado.  \n\n- **stf_tema981_interval_reduction_by_cct**  \n  O TRT aplicou corretamente o **Tema 981/STF**, que permite a redução do intervalo intrajornada para 30 minutos **apenas se houver CCT válida**. No caso, o TRT **constatou a ausência de CCT** autorizando a redução, o que implica que a redução não é válida. Assim, a aplicação do predicado está **alinhada com a jurisprudência do STF**.  \n\n- **due_process_of_law**  \n  O TRT respeitou o **devido processo legal** ao:  \n  - Analisar de forma **exaustiva** a existência de CCT válida (não encontrada).  \n  - Aplicar a **lei de forma vinculada** (CLT Art. 71 e Súmula TST 437), evitando interpretações descontextualizadas.  \n  - Concluir com base em **precedentes identificados** (Tema 981/STF), garantindo transparência e razoabilidade na decisão.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA decisão do TRT deve ser **mantida e confirmada**, pois:  \n- **Cumpriu todos os predicados normativos** (obrigação de fundamentação, aplicação correta do Tema 981/STF e respeito ao devido processo legal).  \n- **Aplicou a lei de forma vinculada**, reconhecendo que a ausência de CCT válida invalida a redução do intervalo intrajornada.  \n- **Condenou a empresa ao pagamento integral do período suprimido como hora extra**, conforme determina a CLT (Art. 71) e a Súmula TST 437.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: **Conformidade**.  \n  O TRT fundamentou a decisão com normas específicas (CLT Art. 71, Súmula TST 437 e Tema 981/STF), cumprindo a obrigação de explicitar o **ratio decidendi**.  \n\n- **stf_tema981_interval_reduction_by_cct**: **Conformidade**.  \n  O TRT aplicou corretamente o **Tema 981/STF**, reconhecendo que a redução do intervalo intrajornada só é válida com a existência de **CCT**. Como não houve CCT, a redução foi considerada inválida.  \n\n- **due_process_of_law**: **Conformidade**.  \n  O TRT respeitou o **devido processo legal** ao analisar de forma **exaustiva** a existência de CCT, aplicar a lei de forma vinculada e concluir com base em **precedentes jurisprudenciais**.  \n\n**Nenhum predicado foi violado** no cenário descrito. A decisão do TRT está **totalmente alinhada com a legislação e jurisprudência vigente**.",
+  "tokens_in": 407,
+  "tokens_out": 1650,
+  "latency_ms": 50437,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,26 @@
+{
+  "sha256": "005e658434a940540236001a5487a360e57c84313e8b5bbf76e5fb9cec4d978d",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T00:21:36Z",
+  "prompt_sha": "5f4e73ab753f8a08c92d9c93e9a38b2fa765bc9d63234ae058053a9bd2db5213",
+  "response_text": "## ANÁLISE DO CASO À LUZ DOS PREDICADOS NORMATIVOS\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, a análise segue abaixo:\n\n**1. ANÁLISE DA APLICAÇÃO DOS PREDICADOS:**\n\n*   **prohibition_of_generic_precedent_citation:** Este predicado proíbe a citação genérica de precedentes, exigindo que a fundamentação de uma decisão esteja ancorada em um julgamento real e verificável. A citação de uma \"Súmula 312 do TST\" que não existe na base jurisprudencial oficial configura uma clara violação deste predicado. A referência genérica, sem indicar o julgado específico que teria originado essa suposta súmula, impede a verificação da base normativa da decisão.\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** Este predicado impõe a obrigação de fundamentar a decisão no *ratio decidendi* (a razão da decisão) de um precedente identificado. Para que um precedente seja útil e legítimo, é necessário que o julgador indique qual o caso concreto que estabeleceu o princípio ou a regra que está sendo aplicado. A simples menção de uma súmula inexistente não cumpre essa obrigação, pois não há como identificar o *ratio decidendi* de algo que não existe. A decisão do TST, ao invocar uma súmula fictícia, não demonstra qual a lógica e os fundamentos que sustentam a aplicação da vedação à dispensa imotivada em período de estabilidade provisória.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que o pedido de nulidade do acórdão seja **provido**. A fundamentação do acórdão, ao invocar uma \"Súmula 312 do TST\" inexistente, viola frontalmente os princípios da segurança jurídica, transparência e controle da jurisdição. A decisão do TST, ao não identificar o precedente real que fundamenta a aplicação da vedação à dispensa imotivada, torna-se arbitrária e imprestável para fins de controle judicial. A ausência de um precedente identificável impede a verificação da correta aplicação do direito e a possibilidade de o trabalhador entender os fundamentos da decisão que lhe é desfavorável. A nulidade do acórdão é necessária para garantir a observância dos princípios processuais e a validade da decisão judicial.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **prohibition_of_generic_precedent_citation:** **Violação** - A citação de uma súmula inexistente é uma clara violação da proibição de citação genérica de precedentes.\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** **Violação** - A decisão não se fundamenta em um *ratio decidendi* identificável, pois a base invocada (a suposta Súmula 312) é inexistente.\n",
+  "tokens_in": 386,
+  "tokens_out": 665,
+  "latency_ms": 17967,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

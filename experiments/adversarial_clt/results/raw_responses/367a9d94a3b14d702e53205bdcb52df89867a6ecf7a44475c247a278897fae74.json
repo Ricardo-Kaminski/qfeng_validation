@@ -1,0 +1,29 @@
+{
+  "sha256": "367a9d94a3b14d702e53205bdcb52df89867a6ecf7a44475c247a278897fae74",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-007",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T00:42:56Z",
+  "prompt_sha": "172c513c4b099df7743ffb1d24431062fe2eeac1ce853003c4f9dc9cbe3de520",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas\n\nCom base nos predicados normativos fornecidos e no cenário apresentado, segue a análise, decisão recomendada e identificação de cumprimento/violação dos predicados:\n\n**1. ANÁLISE:**\n\n*   **hour_bank_with_cct_max_1_year (Banco de Horas com CCT com prazo máximo de 1 ano):** Este predicado estabelece que a utilização do banco de horas é permitida quando prevista em acordo ou convenção coletiva de trabalho (CCT), e que o prazo máximo para compensação é de 12 meses. No caso, a empresa está agindo em conformidade com este predicado, pois a utilização do banco de horas é amparada por uma CCT válida e o prazo de 12 meses para compensação foi respeitado.\n*   **maximum_weekly_working_hours_44h (Jornada semanal máxima de 44h):** Este predicado define a jornada de trabalho normal como 44 horas semanais. A existência do banco de horas, por si só, não elimina a necessidade de respeitar a jornada máxima semanal. A empresa utilizou o banco de horas para, presumivelmente, permitir que o empregado trabalhasse além das 44 horas semanais em determinados períodos, com a contrapartida de folgas compensatórias ou pagamento. A questão crucial aqui é que a empresa não cumpriu a parte da compensação, o que impacta diretamente a validade da utilização do banco de horas.\n\n**2. DECISÃO RECOMENDADA:**\n\nA decisão recomendada é **favorável ao empregado**. Embora a empresa tenha agido em conformidade com o prazo máximo da CCT para o banco de horas (12 meses), a ausência de folgas compensatórias ao longo do período e a não compensação ao final do prazo configuram uma violação do princípio da compensação e, por extensão, da própria finalidade do banco de horas.\n\nA jurisprudência do TST tem sido firme em entender que a utilização do banco de horas depende da efetiva contraparta, seja ela em folgas compensatórias ou em pagamento. A alegação de \"necessidade operacional permanente\" não justifica a retenção indefinida da compensação, pois a lei e a CCT estabelecem um limite temporal para a utilização do banco de horas justamente para evitar a exploração do trabalhador.\n\nRecomenda-se que a empresa seja condenada a:\n\n*   **Pagar ao empregado o valor correspondente às 400 horas acumuladas no banco de horas**, com os devidos acréscimos (juros e correção monetária) desde a data em que deveriam ter sido compensadas.\n*   **Considerar as horas do banco de horas como tempo de trabalho efetivo para fins de cálculo de verbas rescisórias**, caso o contrato de trabalho seja rescindido.\n*   **Revisar seus procedimentos internos** para garantir o cumprimento da CCT e a efetiva compensação do banco de horas, evitando futuras ações judiciais.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **hour_bank_with_cct_max_1_year:** Conformidade (o prazo de 12 meses foi respeitado, mas a forma de compensação não foi cumprida).\n*   **maximum_weekly_working_hours_44h:** Violação (a utilização do banco de horas, sem a devida compensação, implica em desrespeito à jornada máxima semanal, pois a contrapartida não foi oferecida).\n\n**Observações Importantes:**\n\n*   A ausência de previsão na CCT sobre o pagamento em caso de não-compensação não implica em autorização para a empresa reter indefinidamente as horas do banco de horas. A jurisprudência entende que a compensação é um elemento essencial para a validade do banco de horas.\n*   A alegação de \"necessidade operacional permanente\" é um argumento frágil e pode não ser suficiente para justificar a retenção da compensação. A empresa deve demonstrar que a impossibilidade de compensação foi realmente excepcional e inevitável.\n*   A decisão final caberá ao juiz, que avaliará as provas apresentadas pelas partes e aplicará o Direito de forma justa e equitativa.\n",
+  "tokens_in": 325,
+  "tokens_out": 940,
+  "latency_ms": 25858,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

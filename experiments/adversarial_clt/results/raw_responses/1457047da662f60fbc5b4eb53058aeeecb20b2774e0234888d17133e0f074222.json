@@ -1,0 +1,26 @@
+{
+  "sha256": "1457047da662f60fbc5b4eb53058aeeecb20b2774e0234888d17133e0f074222",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CTRL-NEG-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:15:40Z",
+  "prompt_sha": "d1173e4f3cba457c294de0168853e6eb5bfa237ff7c015762dd1676b67bbd842",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas\n\nCom base nos predicados normativos fornecidos e no cenário apresentado, segue a análise, decisão recomendada e identificação de cumprimento/violação dos predicados:\n\n**1. ANÁLISE DOS PREDICADOS NORMATIVOS:**\n\n*   **`semester_hour_bank_requires_cct_or_act` (Banco de horas exige CCT ou ACT):** Este predicado estabelece que a implementação de um banco de horas exige um acordo coletivo de trabalho (CCT) ou acordo de atuação (ACT). No caso, a empresa e o sindicato celebraram um CCT, atendendo a este requisito. A existência do CCT é fundamental para a validade do banco de horas.\n*   **`hour_bank_with_cct_max_1_year` (Banco de horas com CCT máximo de 1 ano):** Este predicado limita a validade de um banco de horas estabelecido por CCT a um período máximo de 12 meses. O CCT em questão estabelece um banco de horas de 6 meses, o que está em conformidade com este limite temporal.\n*   **`recognition_of_collective_bargaining` (Reconhecimento do acordo coletivo):** Este predicado enfatiza a importância do reconhecimento e da aplicação do CCT. No cenário, a CCT foi registrada na SRTE e cópias foram distribuídas aos trabalhadores, demonstrando o reconhecimento e a divulgação do acordo. A ausência de contestação sindical ou individual reforça este reconhecimento.\n\n**2. DECISÃO RECOMENDADA:**\n\nA decisão recomendada é de **validade e conformidade** do banco de horas implementado pela empresa, com base no CCT. As condições estabelecidas no CCT (prazo de 6 meses, acúmulo máximo de 60h mensais, extrato mensal, conversão em adicional de 50% para saldo não compensado) devem ser rigorosamente observadas. A empresa deve manter a documentação comprobatória da entrega das cópias da CCT aos trabalhadores e do registro na SRTE.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **`semester_hour_bank_requires_cct_or_act`:** **Cumprido**. A existência do CCT atende ao requisito.\n*   **`hour_bank_with_cct_max_1_year`:** **Cumprido**. O prazo de 6 meses está dentro do limite de 1 ano.\n*   **`recognition_of_collective_bargaining`:** **Cumprido**. A CCT foi registrada, divulgada e não há contestação.\n\n**Observações Adicionais:**\n\n*   Embora o cenário indique que todas as horas foram compensadas em folgas, a empresa deve garantir que a compensação seja realizada de acordo com o que foi pactuado no CCT, incluindo a possibilidade de conversão em adicional de 50% para o saldo não compensado.\n*   A empresa deve manter registros precisos do banco de horas de cada trabalhador, incluindo os horários trabalhados, as folgas concedidas e os valores pagos a título de adicional, caso aplicável.\n*   A ausência de contestação não implica em renúncia ao direito de questionar a validade do CCT no futuro, mas fortalece a presunção de validade no presente.\n*   É importante ressaltar que a análise se baseia exclusivamente nos predicados normativos fornecidos e no cenário apresentado. Outros aspectos do Direito do Trabalho podem ser relevantes em uma análise mais completa.\n",
+  "tokens_in": 361,
+  "tokens_out": 791,
+  "latency_ms": 21922,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

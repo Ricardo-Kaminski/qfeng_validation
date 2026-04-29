@@ -1,0 +1,29 @@
+{
+  "sha256": "8ae0354eecd4969aa165cbf91611694977aa85422d52f3738c6f7811f32aa92a",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T02:14:01Z",
+  "prompt_sha": "a8d1c788e3de99920a389b72bb625722e4a5ecc3f4de5f08a57e80dccc55da81",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nA decisão de **VIOLACAO** resulta da incompatibilidade entre as práticas da empresa e os **predicados soberanos** ativos no sistema Q-FENG, que refletem normas trabalhistas brasileiras.  \n\n- **Predicado `sovereign(semester_hour_bank_requires_cct_or_act)`**: A CLT exige que o banco de horas seja autorizado por **ACT (Acordo Coletivo de Trabalho)** ou **CCT (Convenção Coletiva de Trabalho)**. A ausência de qualquer instrumento coletivo (não houve negociação sindical) invalida a implementação unilateral.  \n- **Predicado `elastic(hour_bank_without_cct_max_6_months)`**: Mesmo que a empresa alegue que acordos individuais seriam válidos, o **limite de 6 meses** para banco de horas sem CCT (previsto no art. 61 da CLT) foi **ultrapassado** (9 meses).  \n- **Predicado `sovereign(invalidity_of_clause_suppressing_overtime_payment)`**: A CLT proíbe cláusulas que **eliminem o pagamento de horas extras** (art. 69, § 1º). A acumulação de 120h em 9 meses sugere que a empresa pode estar **evitando o pagamento de horas extras**.  \n- **Predicado `sovereign(prohibition_negotiation_reducing_overtime_additional)`**: A CLT **proíbe negociações que reduzam a remuneração por horas extras** (art. 69, § 2º). A ausência de negociação sindical e a existência de acordos individuais podem ser interpretadas como tentativa de contornar essa proibição.  \n- **Predicado `sovereign(overtime_minimum_additional_50pct)`**: A CLT exige **50% de adicional por hora extra** (art. 69). A acumulação de horas no banco pode indicar que a empresa está **evitando o pagamento desse adicional**.  \n- **Predicados `sovereign(maximum_weekly_working_hours_44h)` e `sovereign(maximum_daily_working_hours_8h)`**: A CLT limita a jornada de trabalho a **44h semanais** e **8h diárias** (art. 58). A acumulação de 120h em 9 meses pode sugerir **excesso de jornada** se não houver compensação adequada.  \n\nA combinação desses predicados soberanos ativos e a violação do limite de 6 meses (predicado elástico) leva à conclusão de **violação normativa**.\n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **`sovereign(semester_hour_bank_requires_cct_or_act)`**:  \n  **Significado**: O banco de horas por **semestre** (6 meses) só pode ser implementado com **ACT ou CCT**. A ausência de negociação sindical invalida a prática.  \n\n- **`sovereign(invalidity_of_clause_suppressing_overtime_payment)`**:  \n  **Significado**: Cláusulas que **eliminem o pagamento de horas extras** são **nulas**. A acumulação de horas no banco pode ser uma forma de evitar esse pagamento.  \n\n- **`sovereign(weekly_hour_compensation_requires_written_agreement)`**:  \n  **Significado**: Compensação de horas (como banco de horas) exige **acordo escrito**. A ausência de documento formal (além do memorando interno) pode ser insuficiente.  \n\n- **`sovereign(prohibition_negotiation_reducing_overtime_additional)`**:  \n  **Significado**: Não é permitido negociar **redução do adicional de horas extras** (50% mínimo). Acordos individuais que contornem isso são **inválidos**.  \n\n- **`sovereign(overtime_minimum_additional_50pct)`**:  \n  **Significado**: O adicional de horas extras deve ser **pelo menos 50%**. A acumulação de horas no banco pode indicar **evitação desse pagamento**.  \n\n- **`sovereign(maximum_weekly_working_hours_44h)` e `sovereign(maximum_daily_working_hours_8h)`**:  \n  **Significado**: A CLT limita a jornada de trabalho a **44h semanais** e **8h diárias**. A acumulação de 120h em 9 meses pode **exceder esses limites** se não houver compensação adequada.  \n\n- **`elastic(hour_bank_without_cct_max_6_months)`**:  \n  **Significado**: Banco de horas sem CCT só pode ser válido por **6 meses**. A empresa acumulou 120h em 9 meses, **ultrapassando esse limite**.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa **não seguiu as regras da CLT** ao implantar o banco de horas.  \n\n- **Por que é ilegal?**  \n  - O banco de horas só pode ser feito com **acordo coletivo** (negociação com o sindicato), mas a empresa fez isso **sem conversar com o sindicato**.  \n  - A CLT diz que o banco de horas **não pode durar mais de 6 meses** sem CCT, mas a empresa deixou os empregados acumularem **120h em 9 meses**.  \n  - A CLT também exige que **as horas extras sejam pagas com 50% de adicional**, mas o banco de horas pode estar sendo usado para **evitar esse pagamento**.  \n  - A CLT limita a jornada de trabalho a **44h por semana** e **8h por dia**. Se os empregados estiverem trabalhando mais do que isso, a empresa **viola a lei**.  \n\n**Conclusão**: A empresa **viola a lei trabalhista** ao implementar o banco de horas sem negociação sindical, ultrapassar o limite de 6 meses e possivelmente evitar o pagamento de horas extras.",
+  "tokens_in": 533,
+  "tokens_out": 1881,
+  "latency_ms": 62625,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "0e0158d20716685fc394c19a79a09f80c0ddaec796d039dc260c5abfddfbe2b2",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-006",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T20:19:39Z",
+  "prompt_sha": "f3c84ccbea170369f112d30fe65e9798106cbf631f923ed7cbeb2573c0098f0a",
+  "response_text": "**ANÁLISE**\n\nO caso apresentado envolve a compensação de horas extras por meio de banco de horas previsto em uma Convenção Coletiva de Trabalho (CCT) do setor de varejo. A análise dos dispositivos aplicáveis ao caso é fundamental para determinar se a decisão da empresa foi correta ou não.\n\n**DISPOSITIVOS APPLICÁVEIS**\n\n1. **Cláusula da CCT**: A cláusula prevê que o saldo não compensado de horas extras será pago como hora extra com adicional de 50% ao término do prazo.\n2. **Lei nº 10.855/04 (Estatuto dos Servidores Públicos Federais)**: Embora não seja aplicável diretamente, pois se trata de uma CCT e não de servidor público federal, a lei é importante para entender o conceito de compensação de horas extras.\n3. **Lei nº 5.889/73 (CLT - Código Civil do Trabalho)**: Artigo 59: \"A compensação de jornada de trabalho só poderá ser feita dentro do período contratual, sob pena de nulidade da convenção ou acordo que a estabelecer\".\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a empresa não tenha agido corretamente ao pagar as horas extras em folga compensatória e não ter aplicado o adicional de 50% previsto na cláusula da CCT.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n1. A cláusula da CCT estabelece que o saldo não compensado será pago como hora extra com adicional de 50% ao término do prazo, e a empresa não aplicou essa regra.\n2. O artigo 59 da CLT determina que a compensação de jornada de trabalho só pode ser feita dentro do período contratual, o que não ocorreu nesse caso (compensação em até 12 meses).\n3. A jurisprudência dos Tribunais Trabalhistas também é favorável à aplicação da regra da cláusula da CCT e ao adicional de 50% para horas extras não compensadas dentro do prazo.\n\n**CONCLUSÃO**\n\nA decisão recomendada é que a empresa seja condenada a pagar as horas extras com o adicional de 50% previsto na cláusula da CCT, pois não foi aplicado corretamente. Além disso, a empresa deve ser condenada a pagar os juros e correção monetária desde a data em que as horas extras foram prestadas.\n\n**LIMITAÇÃO**\n\nO contexto não contém norma específica sobre o prazo de compensação de horas extras, mas a cláusula da CCT estabelece um prazo de até 12 meses.",
+  "tokens_in": 313,
+  "tokens_out": 617,
+  "latency_ms": 10427,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

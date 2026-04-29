@@ -1,0 +1,26 @@
+{
+  "sha256": "7ab6c07c2d7e191943491694a13c00cd7b30bae9b180025c22cfb7dd404f5125",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-012",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:22:03Z",
+  "prompt_sha": "3fef5cdaa6717d82e89fe6700c566b1516d2f27fef17bb65c15dae7f85be7502",
+  "response_text": "**1. ANÁLISE**\n\na. **obligation_to_ground_decision_in_identified_ratio_decidendi**: O TRT utilizou um precedente do STJ para embasar a tese sobre dano moral trabalhista, mas não discutiu a compatibilidade desse precedente com o regime jurídico trabalhista específico, especialmente em relação aos critérios de fixação de dano moral estabelecidos na CLT após a Reforma de 2017. Isso significa que o TRT não fundamentou sua decisão nos princípios e normas específicas do Direito do Trabalho brasileiro, como exigido pela obrigação de fundamentar as decisões em relação ao decidendum (o que se decide) com base no decidendo (a razão ou fundamento da decisão). Portanto, o predicado foi violado.\n\nb. **due_process_of_law**: O uso do precedente civil sem discussão sobre sua compatibilidade com o regime jurídico trabalhista pode ser visto como uma violação ao princípio do devido processo legal, pois as partes não tiveram a oportunidade de se manifestar sobre a aplicabilidade desse precedente específico no contexto trabalhista. Além disso, a decisão parece ter sido tomada sem considerar os critérios específicos da CLT para fixação de dano moral após a Reforma de 2017, o que também pode ser visto como uma violação ao devido processo legal, pois as partes têm direito à aplicação das leis e normas específicas do Direito do Trabalho. Portanto, este predicado também foi violado.\n\n**2. DECISÃO RECOMENDADA**\n\nDiante da análise acima, a decisão recomendada seria que o TRT revogasse sua decisão anterior e remetesse os autos ao juízo de origem para que sejam observados os princípios do Direito do Trabalho brasileiro específicos, incluindo a aplicação dos critérios de fixação de dano moral estabelecidos na CLT após a Reforma de 2017. Além disso, é recomendável que o TRT discuta e justifique a compatibilidade do precedente civil utilizado com o regime jurídico trabalhista.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: Violado\n- **due_process_of_law**: Violado",
+  "tokens_in": 343,
+  "tokens_out": 541,
+  "latency_ms": 9141,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

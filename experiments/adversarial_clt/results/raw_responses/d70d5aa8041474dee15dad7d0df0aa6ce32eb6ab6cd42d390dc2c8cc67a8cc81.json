@@ -1,0 +1,19 @@
+{
+  "sha256": "d70d5aa8041474dee15dad7d0df0aa6ce32eb6ab6cd42d390dc2c8cc67a8cc81",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T03:08:23Z",
+  "prompt_sha": "5938f87dc45c8e0bffa111cb18879fec5f7291c5d6efe210e98d3c86b828bada",
+  "response_text": "### ANÁLISE:\n\n1. **Dispositivos Legais Aplicáveis**:\n    - **Adicional Noturno**: De acordo com o artigo 73 da CLT, o adicional de 20% é devido aos empregados que trabalham durante as horas noturnas, definidas entre 22h e 5h.\n    - **Cálculo das Horas Trabalhadas**: O artigo 58 da CLT estabelece que a hora normal de trabalho não pode exceder 60 minutos. A prática de registrar uma hora noturna como 52 minutos e 30 segundos é uma forma de compensação, conhecida como \"banco de horas\", permitida desde que não ultrapasse o limite diário de 8 horas.\n    - **Registro Eletrônico**: O artigo 74 da CLT exige a anotação do horário de entrada e saída dos empregados em registro próprio, que pode ser eletrônico.\n\n2. **Interpretação no Caso Concreto**:\n    - A empresa está cumprindo o requisito legal ao recolher o adicional noturno de 20% para os motoristas que trabalham entre 22h e 5h.\n    - O cálculo da hora noturna como 52 minutos e 30 segundos é uma prática aceita, desde que não resulte em jornada superior a 8 horas diárias. A empresa garante que nenhuma hora extra é realizada além das 8h diárias.\n    - O registro mensal dos adicionais noturnos nos contracheques está de acordo com o artigo 74 da CLT, que permite a discriminação das verbas pagas.\n\n### DECISÃO RECOMENDADA:\n\nA empresa deve continuar suas práticas atuais, pois elas estão em conformidade com as disposições legais vigentes. Não há necessidade de alteração na forma como o adicional noturno é calculado e registrado, desde que a jornada diária não exceda 8 horas.\n\n### FUNDAMENTAÇÃO NORMATIVA:\n\n- **Artigo 73 da CLT**: Estabelece o pagamento do adicional noturno de 20% para trabalho realizado entre 22h e 5h.\n- **Artigo 58 da CLT**: Define a duração máxima da hora normal de trabalho como 60 minutos, permitindo compensações que não ultrapassem 8 horas diárias.\n- **Artigo 74 da CLT**: Exige o registro do horário de entrada e saída dos empregados, podendo ser feito eletronicamente, e a discriminação das verbas pagas nos contracheques.\n- **Súmula 331 do TST**: Afirma que é lícita a compensação de horas extras mediante banco de horas, desde que o limite diário não seja ultrapassado.\n\nEssa análise considera a conformidade da empresa com as normativas trabalhistas vigentes e a jurisprudência consolidada sobre o tema.",
+  "tokens_in": 314,
+  "tokens_out": 670,
+  "latency_ms": 45312,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "18bd78276dcce6c6f85d7a265865dc381af891dbd949af8910684d0045c6bc24",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-012",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T06:35:27Z",
+  "prompt_sha": "6688cac2ef5765bbc62f211c0947d6bbb0a6ed631d1ef197288fd5bd77010a06",
+  "response_text": "**ANÁLISE**\n\nNo cenário apresentado, o TRT utilizou um precedente do STJ sobre responsabilidade civil extracontratual para fundamentar uma tese sobre dano moral trabalhista. No entanto, essa abordagem pode ser questionável, pois a responsabilidade civil extracontratual e a responsabilidade por danos morais no âmbito trabalhista têm regimes jurídicos distintos.\n\nA CLT estabelece critérios específicos para a fixação de danos morais em caso de relação de trabalho (art. 186, § 3º, da CLT). Além disso, após a Reforma Trabalhista de 2017, o art. 937 da CLT estabeleceu que \"o juiz pode fixar indenização por danos morais, desde que comprovada a existência do dano\".\n\n**DECISÃO RECOMENDADA**\n\nConsiderando a necessidade de aplicação das normas específicas do Direito Trabalhista, especialmente após a Reforma de 2017, é recomendável que o TRT reveja sua decisão e aplique as regras da CLT para fixação de danos morais.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n1. **CLT**: O art. 186, § 3º, da CLT estabelece critérios específicos para a fixação de danos morais em caso de relação de trabalho, o que sugere que as regras civis não são automaticamente aplicáveis ao Direito Trabalhista.\n\n2. **Reforma Trabalhista de 2017**: O art. 937 da CLT permite à Justiça do Trabalho fixar indenização por danos morais, desde que comprovada a existência do dano, o que demonstra a autonomia das regras trabalhistas em relação às civis.\n\n3. **Precedentes do TST**: Embora não haja menção específica a um precedente do TST nesse cenário, é importante lembrar que os julgados do TST são fundamentais para a interpretação das normas trabalhistas e devem ser considerados em decisões sobre responsabilidade civil no âmbito trabalhista.\n\n4. **Jurisprudência**: A jurisprudência do TST é rica em precedentes que estabelecem critérios específicos para a fixação de danos morais, como a Súmula 347 do TST (\"A indenização por dano moral não pode exceder ao máximo previsto em lei\"), o que deve ser considerado na análise dos casos.\n\n**CONCLUSÃO**\n\nConsiderando as peculiaridades do Direito Trabalhista e a necessidade de aplicação das regras específicas da CLT, é recomendável que o TRT revise sua decisão para adequá-la às normas trabalhistas.",
+  "tokens_in": 288,
+  "tokens_out": 640,
+  "latency_ms": 21000,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

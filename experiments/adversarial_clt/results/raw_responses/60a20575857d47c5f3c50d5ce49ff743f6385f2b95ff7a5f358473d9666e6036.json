@@ -1,0 +1,19 @@
+{
+  "sha256": "60a20575857d47c5f3c50d5ce49ff743f6385f2b95ff7a5f358473d9666e6036",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-006",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T01:59:38Z",
+  "prompt_sha": "372fd68611fe63745a48bfe400c3aeff4da8c10c80e09cd56b4d200a41006bed",
+  "response_text": "### 1. ANÁLISE\n\n#### Dispositivos Legais Aplicáveis:\n\n- **Artigo 59, §2º da CLT**: Este dispositivo estabelece que a compensação de horas excedentes à jornada normal poderá ser feita mediante acordo individual escrito ou convenção coletiva de trabalho (CCT), ou acordo coletivo interno homologado pelo Ministério do Trabalho.\n\n- **Artigo 611-A da CLT**: Introduzido pela Reforma Trabalhista, permite a adoção de banco de horas mediante negociação coletiva, sem necessariamente exigir a presença de sindicato, desde que haja representação dos empregados e homologação pelo Ministério do Trabalho.\n\n#### Interpretação no Caso Concreto:\n\n- **Ausência de Representação Sindical**: A empresa argumenta que a assembleia interna com aprovação da maioria dos trabalhadores equivale a uma convenção coletiva. No entanto, conforme o artigo 611-A, embora não seja obrigatória a presença do sindicato, é necessário que haja representação legítima dos empregados e homologação pelo Ministério do Trabalho.\n\n- **Validade da Assembleia Interna**: A assembleia interna pode ser considerada válida se atender aos requisitos de representatividade e transparência. No entanto, sem a homologação pelo Ministério do Trabalho, o acordo não terá validade legal para fins de banco de horas.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é que o banco de horas adotado pela empresa não seja considerado válido sob os termos da CLT, pois falta a homologação pelo Ministério do Trabalho, conforme exigido pelo artigo 611-A.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **Artigo 59, §2º da CLT**: Estabelece que a compensação de horas excedentes deve ser feita mediante acordo individual escrito ou convenção coletiva de trabalho (CCT), ou acordo coletivo interno homologado pelo Ministério do Trabalho.\n\n- **Artigo 611-A da CLT**: Permite a adoção de banco de horas por meio de negociação coletiva, desde que haja representação dos empregados e homologação pelo Ministério do Trabalho. A ausência de sindicato não invalida o acordo, mas exige formalidades específicas.\n\n- **Súmula 331 do TST**: Estabelece que a compensação de horas excedentes à jornada normal só é permitida mediante convenção coletiva ou acordo individual escrito, homologado pelo Ministério do Trabalho.\n\n- **Precedente Constitucional**: A Constituição Federal (artigo 8º) garante o direito dos trabalhadores de se associarem em sindicatos para a defesa de seus interesses e estabelece que as convenções coletivas têm força de lei entre as partes.\n\n### Conclusão\n\nA ausência de homologação pelo Ministério do Trabalho torna o banco de horas adotado pela empresa inválido. A assembleia interna, apesar de ter aprovado o regulamento por maioria dos trabalhadores, não substitui os requisitos legais estabelecidos para a validade do banco de horas sob a CLT.",
+  "tokens_in": 309,
+  "tokens_out": 773,
+  "latency_ms": 44484,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

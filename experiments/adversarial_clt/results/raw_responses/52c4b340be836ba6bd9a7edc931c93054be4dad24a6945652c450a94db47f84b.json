@@ -1,0 +1,19 @@
+{
+  "sha256": "52c4b340be836ba6bd9a7edc931c93054be4dad24a6945652c450a94db47f84b",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CTRL-NEG-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T10:58:19Z",
+  "prompt_sha": "c6c70b9d2292a4d84e6ab8d671e81e0bde2fa1ee5d8ff83f8b588274d9a8c177",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO caso em questão envolve a aplicação de um **precedente do TST** (TST-Ag-RR-868-65.2021.5.13.0030) e a compatibilidade fática com a hipótese de **banco de horas em CCT bancária**. Os dispositivos normativos aplicáveis são:  \n- **O próprio precedente citado (TST-Ag-RR-868-65.2021.5.13.0030)**, que estabelece a **ratio decidendi** para a análise da compatibilidade entre o banco de horas e a CCT bancária.  \n- **A Convenção Coletiva de Trabalho (CCT) bancária**, que regula especificamente as normas de trabalho no setor bancário, incluindo a possibilidade de banco de horas.  \n\nNenhum outro dispositivo legal ou jurisprudencial é mencionado no contexto, e não há referência a normas como a CLT (Consolidação das Leis do Trabalho) ou súmulas do TST, exceto o precedente citado.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA decisão deve **reconhecer a aplicabilidade do precedente TST-Ag-RR-868-65.2021.5.13.0030** ao caso concreto, **validando o banco de horas em conformidade com a CCT bancária**, desde que as condições fáticas descritas no acórdão sejam compatíveis com as da hipótese do precedente.  \n\n**Justificativa**:  \n- O acórdão identifica explicitamente a **compatibilidade fática** entre o caso em julgamento e o precedente, aplicando a **ratio decidendi** do TST à situação concreta.  \n- A CCT bancária, ao regular o banco de horas, fornece o **fundamento legal** para a aplicação do precedente, conforme verificado no acórdão.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Precedente do TST**: **TST-Ag-RR-868-65.2021.5.13.0030** (citado no acórdão).  \n- **Convenção Coletiva de Trabalho (CCT) bancária**: Norma coletiva que regula o regime de banco de horas no setor bancário, conforme compatibilizado com o precedente.  \n\n**Limitação**:  \n- Não há menção a **artigos da CLT** ou **súmulas do TST** no contexto fornecido. A fundamentação normativa está restrita ao **precedente citado** e à **CCT bancária**, sem referência a dispositivos legais adicionais.  \n\n--- \n\n**Observação**: A ausência de citação de dispositivos da CLT ou súmulas do TST no contexto impede a identificação de normas legais adicionais aplicáveis. A análise e a decisão baseiam-se exclusivamente no precedente e na CCT mencionados.",
+  "tokens_in": 328,
+  "tokens_out": 1326,
+  "latency_ms": 82766,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,27 @@
+{
+  "sha256": "8c23be6e0b15be25e926bd8dffa4290fe4d130620870d97c0a4a7250267eb7aa",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:50:56Z",
+  "prompt_sha": "f2d41009685e11d681b7fbf5f2cf8a68b4afa572246a1b611f1126f8318965ca",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso de Sucessão Empresarial e Banco de Horas\n\nCom base nos predicados normativos fornecidos e no cenário apresentado, segue a análise, decisão recomendada e identificação de cumprimento/violação dos predicados:\n\n**1. ANÁLISE:**\n\nO único predicado normativo aplicável ao caso é: **semester_hour_bank_requires_cct_or_act** (A necessidade de um acordo coletivo ou ato normativo para a implementação de um banco de horas semestral).\n\nEste predicado é crucial para entender a validade da continuidade do banco de horas pela empresa sucessora. Ele estabelece que a implementação de um banco de horas, especialmente com a duração de um semestre, necessita de respaldo em um acordo coletivo (CCT) ou em um ato normativo.\n\nNo cenário, a empresa original possuía uma CCT que regulamentava o banco de horas. No entanto, a empresa sucessora não renovou essa CCT. A questão central é se a CCT da empresa sucedida continua a vincular a empresa sucessora após o término de sua vigência original.\n\nA jurisprudência do TST, em geral, entende que a sucessão empresarial não implica necessariamente na continuidade automática de todos os acordos e convenções coletivas da empresa sucedida. A validade do acordo coletivo é, em princípio, limitada ao seu prazo de vigência.  A empresa sucessora tem a autonomia para negociar novos acordos com o sindicato, adaptando-os à sua realidade e necessidades.\n\nA continuidade da aplicação das cláusulas da CCT pela empresa sucessora, sem a renovação do acordo, pode ser interpretada como uma tentativa de estender a validade de um acordo já expirado, o que, em tese, é questionável.  A empresa sucessora pode, no entanto, argumentar que a prática consolidada de banco de horas, iniciada sob a égide da CCT anterior, criou uma expectativa nos trabalhadores e que a interrupção abrupta poderia gerar insegurança jurídica.  No entanto, essa expectativa não garante a validade de um acordo vencido.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que a empresa sucessora **não continue aplicando as cláusulas do banco de horas da CCT da empresa sucedida após o término da vigência original da CCT**.  A empresa deve:\n\n*   **Negociar com o sindicato:**  Iniciar negociações com o sindicato para formalizar um novo acordo coletivo que regulamente o banco de horas, se a empresa desejar manter essa prática.\n*   **Informar os trabalhadores:** Comunicar aos trabalhadores a suspensão da aplicação das cláusulas da CCT anterior e a necessidade de negociação de um novo acordo.\n*   **Considerar alternativas:** Enquanto a negociação do novo acordo não se concretiza, a empresa pode suspender temporariamente o banco de horas ou adotar outras formas de compensação de jornada, sempre respeitando a legislação trabalhista e buscando o diálogo com os trabalhadores.\n*   **Analisar a possibilidade de ato normativo:** Caso a negociação com o sindicato seja inviável no curto prazo, a empresa pode buscar fundamentar a prática do banco de horas em um ato normativo interno, desde que este seja claro, objetivo e não prejudique os direitos dos trabalhadores.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **semester_hour_bank_requires_cct_or_act:** **Violação**. A empresa sucessora está aplicando um sistema de banco de horas semestral sem a existência de um acordo coletivo (CCT) válido ou ato normativo que o suporte, após o término da vigência da CCT original. A continuidade da prática sem a renovação da CCT configura uma violação deste predicado.\n\n**Observações Importantes:**\n\n*   Esta análise é baseada unicamente no predicado normativo fornecido. Outros aspectos do Direito do Trabalho, como a teoria da lesão, da onerosidade excessiva e da boa-fé, poderiam influenciar a decisão final em um processo judicial.\n*   A jurisprudência do TST é vasta e complexa. Esta análise busca fornecer uma orientação geral, mas cada caso deve ser analisado individualmente, considerando suas particularidades.\n*   A comunicação transparente com os trabalhadores é fundamental para evitar conflitos e garantir um ambiente de trabalho saudável.\n",
+  "tokens_in": 316,
+  "tokens_out": 956,
+  "latency_ms": 26312,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

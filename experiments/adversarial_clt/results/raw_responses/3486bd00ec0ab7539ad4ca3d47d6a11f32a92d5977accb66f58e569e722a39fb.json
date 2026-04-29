@@ -1,0 +1,19 @@
+{
+  "sha256": "3486bd00ec0ab7539ad4ca3d47d6a11f32a92d5977accb66f58e569e722a39fb",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T07:02:56Z",
+  "prompt_sha": "c3729bae48ca01abd6c07208ac7dde170ba2d481ce181e1573f1aa588bdd7ad6",
+  "response_text": "**ANÁLISE**\n\n1. **Identificação dos dispositivos legais aplicáveis**: A questão em debate envolve a incidência do adicional noturno, previsto no artigo 73 da CLT (Lei nº 5.889/1973), que estabelece o regime de remuneração para os trabalhadores que laboram em turnos noturnos.\n2. **Interpretação no caso concreto**: O empregado está em um regime de revezamento, com períodos noturnos fixos, o que é característico do regime de revezamento previsto na Súmula TST 60. Essa súmula estabelece que \"O adicional noturno incide sobre a remuneração do período trabalhado em regime de revezamento\".\n\n**DECISÃO RECOMENDADA**\n\n2. **Qual deve ser a decisão e por quê**: Deve ser concedida a pretensão do empregado, pois o regime de revezamento noturno integra o adicional à remuneração, conforme estabelecido na Súmula TST 60.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n3. **Cite especificamente os artigos da CLT, Súmulas do TST e/ou precedentes constitucionais que embasam sua decisão**: A decisão é fundamentada nos seguintes dispositivos legais:\n\n- Artigo 73 da CLT: \"O trabalho noturno será remunerado com acréscimo de, no mínimo, vinte e cinco por cento sobre o valor da hora diurna.\"\n- Súmula TST 60: \"Adicional noturno — regime de revezamento\"\n- Precedentes do TST que estabelecem a incidência do adicional noturno em regimes de revezamento, como os julgados específicos sobre o tema.\n\nAlém disso, é importante considerar a jurisprudência consolidada do TST e a doutrina trabalhista especializada na área, que geralmente sustentam a aplicação da Súmula 60 em casos de revezamento noturno.",
+  "tokens_in": 333,
+  "tokens_out": 480,
+  "latency_ms": 15734,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

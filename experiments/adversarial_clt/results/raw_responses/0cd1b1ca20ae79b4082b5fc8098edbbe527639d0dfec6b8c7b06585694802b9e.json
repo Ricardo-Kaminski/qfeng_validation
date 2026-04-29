@@ -1,0 +1,29 @@
+{
+  "sha256": "0cd1b1ca20ae79b4082b5fc8098edbbe527639d0dfec6b8c7b06585694802b9e",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T23:48:29Z",
+  "prompt_sha": "8c96eb4d737be4ce8781d374931313b19e56c91b6fa2796bc527598d09d845e0",
+  "response_text": "1. **ANÁLISE:**\n\n   O predicado normativo aplicável ao caso é \"semester_hour_bank_requires_cct_or_act\". Este predicado estabelece que para a implementação de um banco de horas semestral, é necessário haver uma negociação coletiva ou acordo coletivo de trabalho (ACT) entre o sindicato patronal e os trabalhadores. No cenário apresentado, a indústria têxtil adotou o banco de horas mediante acordos individuais escritos com cada empregado, sem qualquer participação do sindicato ou negociação coletiva.\n\n   A CLT (Consolidação das Leis do Trabalho) e a jurisprudência do Tribunal Superior do Trabalho (TST) são claras ao exigir que o banco de horas semestral seja estabelecido por meio de negociação coletiva, uma vez que trata-se de uma modalidade específica de compensação de jornada que exige maior flexibilidade e controle sobre a carga horária dos trabalhadores. A adoção do banco de horas através de acordos individuais não cumpre com essa exigência legal.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base no predicado normativo \"semester_hour_bank_requires_cct_or_act\", recomenda-se que a empresa revogue o banco de horas implementado por meio de acordos individuais e proceda à negociação coletiva com o sindicato representante dos trabalhadores para estabelecer um acordo coletivo de trabalho (ACT) que preveja as condições do banco de horas semestral. Somente após a formalização desse acordo é que o banco de horas poderá ser implementado legalmente.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violado:** \"semester_hour_bank_requires_cct_or_act\" – A empresa violou este predicado ao implementar o banco de horas semestral por meio de acordos individuais, em vez de negociar coletivamente com o sindicato ou estabelecer um acordo coletivo.\n\n   - **Não cumprido:** Não há evidência no cenário apresentado de que a empresa tenha cumprido o requisito legal de negociação coletiva para implementação do banco de horas semestral.",
+  "tokens_in": 349,
+  "tokens_out": 519,
+  "latency_ms": 14985,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,26 @@
+{
+  "sha256": "c899ebeb5347604b3d725b4d12fb106ccf40a2706ed7f9cb7baea69e1802ec8c",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T23:38:45Z",
+  "prompt_sha": "a468f9337a1667ebe471a714d6ab4b8f17bcd68f8f75d3aa6e375913dc2f76bf",
+  "response_text": "1. **ANÁLISE:**\n\n   - **Obligation to Ground Decision in Identified Ratio Decidendi:** Este predicado normativo exige que todas as decisões judiciais sejam fundamentadas com base em um raciocínio jurídico claro e identificável, conhecido como \"ratio decidendi\". No cenário apresentado, o juiz do trabalho negou seguimento ao recurso ordinário sem especificar qual lei ou dispositivo legal embasava sua decisão. A mera menção de que o recurso é \"manifestamente protelatório\" não constitui uma fundamentação adequada, pois não identifica a norma jurídica aplicável nem explica como ela se aplica ao caso concreto. Portanto, há violação desse predicado, já que a decisão carece de um fundamento jurídico explícito.\n\n   - **Due Process of Law:** Este princípio está relacionado à garantia do devido processo legal, que inclui o direito ao contraditório e à ampla defesa. A Constituição Federal de 1988 (CF/88), em seu artigo 93, IX, estabelece a necessidade de fundamentação das decisões judiciais como parte essencial do devido processo legal. No caso concreto, ao não ser especificado qual lei ou dispositivo embasou a decisão, o juiz violou o princípio do devido processo legal, pois o reclamante não teve a oportunidade de compreender e contestar adequadamente as razões da decisão judicial.\n\n2. **DECISÃO RECOMENDADA:**\n\n   A decisão recomendada seria anular ou reconsiderar a decisão inicial do juiz do trabalho. O juiz deveria ser instado a reexaminar o recurso ordinário, fornecendo uma fundamentação detalhada e explícita que identifique claramente as normas jurídicas aplicáveis e como elas se relacionam com os fatos do caso. Isso garantiria conformidade tanto com o \"obligation to ground decision in identified ratio decidendi\" quanto com o princípio de \"due process of law\".\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violados:**\n     - Obligation to Ground Decision in Identified Ratio Decidendi: A decisão não foi fundamentada em um raciocínio jurídico identificável.\n     - Due Process of Law: A falta de fundamentação viola o princípio do devido processo legal, conforme exigido pela CF/88 Art. 93, IX.\n\n   - **Cumpridos:**\n     - Nenhum dos predicados listados foi cumprido no cenário apresentado, uma vez que a decisão judicial não atendeu aos requisitos mínimos de fundamentação e devido processo legal.",
+  "tokens_in": 351,
+  "tokens_out": 622,
+  "latency_ms": 17938,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

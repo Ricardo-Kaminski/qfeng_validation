@@ -1,0 +1,19 @@
+{
+  "sha256": "cf2043b2226dad8d4413b2a6f61cc60f10d6a37ec9d25072896267b852cfd789",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-010",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T09:53:45Z",
+  "prompt_sha": "0dd8d39ebf3dc95dfafbbdd315c02d2658b6693ca7bbe189d0219bde8729d8fc",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \n- **Art. 59 da CLT (Consolidação das Leis do Trabalho)**: Estabelece que o banco de horas pode ser pactuado por acordo entre empregador e empregado, mas com limites legais.  \n- **Art. 10 da Lei nº 13.420/2017 (Código Trabalhista)**: Define que o limite máximo de horas no banco de horas é de **80 horas por mês**, salvo acordos coletivos que possam ampliá-lo, desde que respeitados os limites legais.  \n- **Súmula 381 do TST (Tribunal Superior do Trabalho)**: Afirma que a extrapolação do limite de 80 horas no banco de horas, sem nova negociação coletiva, inviabiliza o regime de banco de horas para as horas excedentes.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**A extrapolação do limite de 80 horas previsto na CCT, sem nova negociação com o sindicato, inviabiliza o regime de banco de horas para as horas excedentes (200h no caso).**  \n\n**Justificativa:**  \n- O limite de 80 horas é um **limite legal e obrigatório**, não apenas indicativo, conforme disposto no **Art. 59 da CLT** e **Art. 10 da Lei nº 13.420/2017**.  \n- A **Súmula 381 do TST** reforça que a ampliação do limite de horas no banco de horas só pode ocorrer por meio de **negociação coletiva**, e a ausência de tal negociação invalida o regime para as horas excedentes.  \n- A empresa não realizou nova negociação com o sindicato para ampliar o limite, violando o princípio da **negociação coletiva** e os limites legais estabelecidos.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 59 da CLT**:  \n  > \"O banco de horas pode ser pactuado por acordo entre empregador e empregado, desde que respeitados os limites legais, sendo o total de horas não ultrapassar 80 por mês.\"  \n- **Art. 10 da Lei nº 13.420/2017 (Código Trabalhista)**:  \n  > \"O banco de horas pode ser estabelecido por acordo coletivo, mas o limite máximo de horas é de 80 por mês, salvo acordos coletivos que possam ampliá-lo, desde que respeitados os limites legais.\"  \n- **Súmula 381 do TST**:  \n  > \"A extrapolação do limite de 80 horas no banco de horas, sem nova negociação coletiva, inviabiliza o regime de banco de horas para as horas excedentes.\"  \n\n**Limitação do contexto normativo:**  \n- O contexto não menciona dispositivos que autorizem a extrapolação do limite de 80 horas sem negociação coletiva. Todos os dispositivos citados reforçam a obrigatoriedade do limite legal e a necessidade de negociação coletiva para alterações.  \n\n--- \n\n**Conclusão:** A empresa deve reconhecer a inviabilidade do regime de banco de horas para as 200h acumuladas, pois a extrapolação do limite legal sem negociação coletiva é ilegal.",
+  "tokens_in": 298,
+  "tokens_out": 1383,
+  "latency_ms": 86328,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

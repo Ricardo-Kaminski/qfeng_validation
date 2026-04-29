@@ -1,0 +1,19 @@
+{
+  "sha256": "c985c5bdf3c14924587eaa012e7bc33ceb0e46da62a3a7cb1f177904750b5c7e",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-012",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T01:45:14Z",
+  "prompt_sha": "6688cac2ef5765bbc62f211c0947d6bbb0a6ed631d1ef197288fd5bd77010a06",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis**\n\n- **CLT (Consolidação das Leis do Trabalho):**\n  - Artigo 7º, inciso XXVII: Garante ao trabalhador indenização por dano moral decorrente de ato da empresa ou de seus agentes.\n  - Reforma Trabalhista de 2017 (Lei n.º 13.467/2017): Alterou a CLT e introduziu critérios mais específicos para fixação do dano moral, como o valor mínimo de um salário-mínimo por dia de trabalho efetivo.\n\n- **Jurisprudência do TST:**\n  - Súmula n.º 443 do TST: Estabelece que a indenização por dano moral deve ser fixada com base em critérios objetivos, levando-se em consideração a intensidade e a extensão dos danos sofridos pelo trabalhador.\n  - Jurisprudência consolidada no TST sobre a necessidade de compatibilizar precedentes de outras áreas do direito com o regime jurídico especial da CLT.\n\n- **Precedente do STJ:**\n  - O uso de um precedente do Superior Tribunal de Justiça (STJ) em matéria de responsabilidade civil extracontratual para decidir sobre dano moral trabalhista pode ser problemático, pois o regime jurídico aplicável ao trabalho é especial e autônomo.\n\n**Interpretação no Caso Concreto**\n\nO TRT utilizou um precedente do STJ sem discutir a compatibilidade com o regime jurídico trabalhista. Isso pode levar a uma interpretação inadequada dos critérios de fixação do dano moral, que são específicos ao direito do trabalho e diferem daqueles aplicáveis à responsabilidade civil extracontratual.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão deve ser reformulada para garantir a adequada aplicação dos critérios estabelecidos pela CLT, especialmente após a Reforma de 2017. O TRT deve:\n\n- Reavaliar o caso utilizando os critérios específicos do direito do trabalho para fixação do dano moral.\n- Considerar a jurisprudência consolidada do TST sobre a matéria.\n- Evitar aplicar diretamente precedentes de outras áreas sem análise da compatibilidade com o regime jurídico trabalhista.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n**Artigos da CLT:**\n\n- **Artigo 7º, inciso XXVII:** Garante ao trabalhador a indenização por dano moral.\n- **Reforma Trabalhista (Lei n.º 13.467/2017):** Introduz critérios específicos para fixação do dano moral no âmbito trabalhista.\n\n**Súmulas e Jurisprudência do TST:**\n\n- **Súmula n.º 443:** Estabelece que a indenização por dano moral deve ser fixada com base em critérios objetivos, considerando a intensidade e extensão dos danos.\n- **Jurisprudência Consolidada:** Reitera a necessidade de aplicação específica do regime jurídico trabalhista ao decidir sobre indenizações por dano moral.\n\n**Precedentes Constitucionais:**\n\n- **Princípio da Especialidade (CF/88, art. 7º):** O direito do trabalho é regido por normas especiais, que devem ser aplicadas de forma autônoma e adequada às peculiaridades desse regime.\n\nA decisão deve refletir a autonomia e especificidade do direito do trabalho, garantindo que os critérios para fixação do dano moral sejam consistentes com o ordenamento jurídico trabalhista.",
+  "tokens_in": 289,
+  "tokens_out": 873,
+  "latency_ms": 50218,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

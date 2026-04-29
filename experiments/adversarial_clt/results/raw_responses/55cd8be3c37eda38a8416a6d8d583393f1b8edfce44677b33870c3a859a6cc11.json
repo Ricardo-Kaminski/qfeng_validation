@@ -1,0 +1,30 @@
+{
+  "sha256": "55cd8be3c37eda38a8416a6d8d583393f1b8edfce44677b33870c3a859a6cc11",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-009",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T00:12:38Z",
+  "prompt_sha": "6d91edef4f830b89da4360eaf0b135c5ffe380f3939107e2bba54ad7b7057f83",
+  "response_text": "1. **ANÁLISE:**\n\n   - **Obligation to Ground Decision in Identified Ratio Decidendi:** Este predicado normativo exige que a decisão judicial seja fundamentada com base na ratio decidendi, ou seja, o fundamento jurídico da decisão. No cenário apresentado, embora a decisão tenha citado corretamente a Súmula TST 85 sobre banco de horas sem CCT, ela não fundamentou adequadamente por que deveria aplicar a consequência jurídica de forma diferente do estabelecido na súmula. A Súmula TST 85 V determina o pagamento das horas extras com adicional de 50%. No entanto, a decisão em questão determinou o pagamento como hora normal sem qualquer fundamentação que justifique afastar o adicional previsto.\n\n2. **DECISÃO RECOMENDADA:**\n\n   A decisão deve ser reformulada para cumprir com o predicado normativo de fundamentação adequada. Deve-se explicitamente analisar e explicar por que, no caso concreto, a aplicação do adicional de 50% sobre as horas extras não se aplica, ou confirmar sua aplicabilidade conforme estabelecido na Súmula TST 85 V. Caso não haja fundamentos válidos para afastar o adicional, a decisão deve ser ajustada para determinar o pagamento das horas extras com o devido adicional.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Cumpriu:** A decisão cumpre ao identificar corretamente a aplicação da Súmula TST 85 em relação ao banco de horas sem CCT.\n   \n   - **Violou:** A decisão viola o predicado \"obligation to ground decision in identified ratio decidendi\" ao não fundamentar adequadamente a divergência do entendimento estabelecido na Súmula TST 85 V, que prevê o pagamento das horas extras com adicional de 50%.",
+  "tokens_in": 356,
+  "tokens_out": 453,
+  "latency_ms": 13062,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

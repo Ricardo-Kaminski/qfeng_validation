@@ -1,0 +1,27 @@
+{
+  "sha256": "0e818a48cdfcf80ac1d3f0f0011dd3b0dc9f9973aa844e51289e486a5830be3d",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-007",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T00:01:27Z",
+  "prompt_sha": "2c03cb68f103668260b4613de27731cfa0657d298f5e8f8f441eed46e4ed0161",
+  "response_text": "1. **ANÁLISE:**\n\n   - **validity_of_cct_annual_hour_bank_banking_sector:** Este predicado normativo confirma a validade de um banco de horas anual no setor bancário, conforme previsto na CCT (Convenção Coletiva de Trabalho). No cenário apresentado, a CCT do setor bancário estabelece um banco de horas com duração de 12 meses, o que está em conformidade com essa norma. Portanto, esse predicado é cumprido.\n\n   - **stf_tema1046_binding_precedent_applied:** O Tema 1046 do STF (Supremo Tribunal Federal) trata da possibilidade de compensação de jornada e banco de horas em convenções coletivas, estabelecendo que essas práticas são válidas desde que previstas na CCT. No caso concreto, a aplicação desse precedente é evidente, pois o banco de horas está sendo utilizado conforme as regras da CCT renovada e em linha com a jurisprudência do TST (Tribunal Superior do Trabalho). Assim, esse predicado também é cumprido.\n\n   - **hour_bank_with_cct_max_1_year:** Este predicado normativo estabelece que o banco de horas pode ser acordado por até um ano na CCT. No cenário em questão, a CCT prevê um banco de horas anual (12 meses), o que está dentro do limite permitido. Portanto, este predicado é cumprido.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base nos predicados normativos aplicáveis e na análise realizada, recomenda-se manter a prática atual de banco de horas conforme estabelecido na CCT do setor bancário. O banco de horas, se compensado dentro do prazo estipulado pela CCT, não gera direito ao adicional de horas extras, conforme esclarecido pelo sindicato e em conformidade com a jurisprudência vigente (TST-Ag-RR-868-65.2021 e Tema 1046/STF). Portanto, o trabalhador bancário não tem direito ao adicional de horas extras pelas horas compensadas dentro do banco de horas.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Cumpridos:**\n     - validity_of_cct_annual_hour_bank_banking_sector\n     - stf_tema1046_binding_precedent_applied\n     - hour_bank_with_cct_max_1_year\n\n   Nenhum dos predicados foi violado no cenário apresentado, já que todas as práticas estão em conformidade com a legislação e jurisprudência aplicáveis.",
+  "tokens_in": 394,
+  "tokens_out": 603,
+  "latency_ms": 17406,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

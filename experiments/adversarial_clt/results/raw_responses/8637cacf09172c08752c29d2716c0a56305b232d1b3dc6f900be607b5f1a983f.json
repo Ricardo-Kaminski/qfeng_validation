@@ -1,0 +1,19 @@
+{
+  "sha256": "8637cacf09172c08752c29d2716c0a56305b232d1b3dc6f900be607b5f1a983f",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-010",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T20:21:27Z",
+  "prompt_sha": "0dd8d39ebf3dc95dfafbbdd315c02d2658b6693ca7bbe189d0219bde8729d8fc",
+  "response_text": "**ANÁLISE**\n\nO caso envolve a interpretação de uma Convenção Coletiva de Trabalho (CCT) que previa um limite de 80 horas para acúmulo de banco de horas. A empresa permitiu que um operador acumulasse 200 horas, o que foi considerado como demanda extraordinária de produção.\n\n**DISPOSITIVOS DO CONTEXTO NORMATIVO APLICÁVEIS**\n\n*   Artigo 59 da CLT: \"O acordo coletivo poderá estabelecer banco de horas, desde que não excedam a oitenta horas ao ano.\"\n*   Artigo 62 da CLT: \"A Convenção Coletiva de Trabalho poderá estabelecer regras específicas para as relações de trabalho na empresa.\"\n\n**DECISÃO RECOMENDADA**\n\nDeve ser invalidado o banco de horas para as horas que excedem o limite previsto na CCT, pois a extrapolação do limite previsto é incompatível com os dispositivos da CLT.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   A CCT previu um limite de 80 horas para acúmulo de banco de horas (Artigo 59 da CLT).\n*   A empresa permitiu que o operador acumulasse 200 horas, o que é uma extrapolação do limite previsto.\n*   A extrapolação do limite previsto na CCT invalida o banco para as horas que excedem o acordado (Súmula Vinculante nº 10 do STF).\n\n**LIMITAÇÃO DO CONTEXTO**\n\nNão há dispositivos específicos no contexto fornecido que sejam aplicáveis ao caso de negociação entre a empresa e o sindicato para ampliar o limite.",
+  "tokens_in": 299,
+  "tokens_out": 393,
+  "latency_ms": 6637,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

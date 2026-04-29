@@ -1,0 +1,19 @@
+{
+  "sha256": "ff7e513e21731e163663d0f47f5286bf5be8502afb1b700c34c6510f5626fa40",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-010",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T09:03:35Z",
+  "prompt_sha": "4cdcd4f77bd0a861ddff46ab4f73790ee608c80eaea3a8b6b5401e9be2942d4c",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \n- **Artigo 59 da CLT**: Permite a compensação de horas extras mediante acúmulo em banco de horas, desde que observados os limites legais (2h/dia e 20h/semana).  \n- **Artigo 63 da CLT**: Estabelece que o banco de horas deve ser compensado **no máximo em 3 meses**, sob pena de caracterização de horas extras não compensadas.  \n- **Artigo 7º, XVII da Constituição Federal**: Garante ao trabalhador o direito de compensar horas extras em prazo definido por lei, com limites legais.  \n- **Súmula 373 do TST**: Reconhece que a compensação de horas extras em banco de horas é válida, desde que observados os limites legais (2h/dia, 20h/semana e prazo de 3 meses).  \n\n**Observação**: O contexto normativo **não menciona dispositivos que permitam prazos de compensação superiores a 3 meses**, nem limites específicos para acúmulos acima de 40h/mês.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**A ACT firmada entre a empresa e o sindicato é parcialmente inválida**, pois **viola o prazo máximo de compensação estabelecido na legislação trabalhista**.  \n\n**Justificativa**:  \n- O **Artigo 63 da CLT** e a **Súmula 373 do TST** exigem que o banco de horas seja compensado **no máximo em 3 meses**, independentemente de acordos coletivos.  \n- A **ACT estabelece um prazo de 5 meses**, que **excede o limite legal**, tornando essa cláusula incompatível com a legislação.  \n- A **limitação de 40h/mês de acúmulo** não é mencionada como ilegal no contexto, mas **não há norma que a proíba ou a exija**, sendo, portanto, uma cláusula adicional negociada entre as partes.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Artigo 59 da CLT**: Permite o banco de horas com limites de 2h/dia e 20h/semana.  \n- **Artigo 63 da CLT**: Estabelece que o banco de horas deve ser compensado **no máximo em 3 meses**.  \n- **Artigo 7º, XVII da Constituição Federal**: Garante ao trabalhador o direito de compensar horas extras em prazo definido por lei.  \n- **Súmula 373 do TST**: Confirma que a compensação em banco de horas é válida apenas se respeitados os limites legais (2h/dia, 20h/semana e 3 meses).  \n\n**Limitação do contexto normativo**:  \n- Não há norma no contexto que **exonere a empresa** de cumprir o prazo máximo de 3 meses para compensação de horas extras.  \n- A cláusula de 40h/mês de acúmulo **não é mencionada como ilegal**, mas **não há dispositivo legal que a exija ou a proíba**, sendo uma cláusula negocial.  \n\n**Conclusão**: A ACT deve ser revisada para adequar o prazo de compensação ao limite legal de 3 meses, sob pena de ilegalidade.",
+  "tokens_in": 295,
+  "tokens_out": 1395,
+  "latency_ms": 87093,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

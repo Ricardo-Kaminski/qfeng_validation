@@ -1,0 +1,19 @@
+{
+  "sha256": "26be3f31954832f1f4fd90e199ff89fc01cffb050fafe0ef1b8a9add512c2e1f",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T06:39:15Z",
+  "prompt_sha": "1b16cff2fe61b19ccd39391d68ae7919bd21cd1c508bc8a32996d5405ad80e90",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a implementação de um banco de horas com compensação em prazo de 4 meses pela Rede de supermercados, mediante Acordo Coletivo de Trabalho (ACT) celebrado com o sindicato dos comerciários. No entanto, o ACT não foi registrado na Superintendência Regional do Trabalho (SRTE) dentro do prazo legal estabelecido.\n\nA questão central é saber se a falta de registro do ACT no prazo legal invalida o acordo coletivo e, consequentemente, a implementação do banco de horas. Para isso, é necessário analisar os dispositivos legais aplicáveis e sua interpretação no caso concreto.\n\n**Dispositivos Legais Aplicáveis**\n\n- **Artigo 614 da CLT**: Estabelece que o Acordo Coletivo de Trabalho deve ser registrados na Superintendência Regional do Trabalho (SRTE) dentro de 8 dias úteis após sua assinatura.\n  \n- **Artigo 615 da CLT**: Registra que, após a homologação pelo juiz do trabalho, o Acordo Coletivo de Trabalho entra em vigor na data estabelecida no acordo ou, não havendo essa estipulação, na data da sua publicação.\n\n- **Súmula 338 do TST**: Estabelece que a falta de registro do Acordo Coletivo de Trabalho não invalida o acordo, desde que esteja homologado pelo juiz do trabalho e cumprido os requisitos legais para sua validade.\n\n**Interpretação**\n\nA falta de registro do ACT no prazo legal estabelecido pode ser considerada uma irregularidade. No entanto, a Súmula 338 do TST é expressa ao afirmar que a falta de registro não invalida o acordo coletivo desde que esteja homologado pelo juiz do trabalho e cumpridos os requisitos legais para sua validade.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando a Súmula 338 do TST, a decisão recomendada seria:\n\n- **Validade do Acordo Coletivo**: Considerar que o ACT é válido desde a assinatura, independentemente da falta de registro no prazo legal.\n  \n- **Implementação do Banco de Horas**: Autorizar a implementação do banco de horas com compensação em prazo de 4 meses, conforme estabelecido no ACT.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação para essa decisão é baseada nos seguintes dispositivos legais e jurisprudenciais:\n\n- **Artigo 614 da CLT**: Embora o prazo para registro seja de 8 dias úteis, a falta de registro não invalida o acordo.\n  \n- **Súmula 338 do TST**: Determina que a falta de registro do Acordo Coletivo de Trabalho não invalida o acordo coletivo desde que esteja homologado pelo juiz do trabalho e cumpridos os requisitos legais.\n\nEssa decisão é fundamentada na interpretação da CLT e jurisprudência do TST, que enfatiza a importância da validade dos acordos coletivos para a estabilidade das relações de trabalho.",
+  "tokens_in": 290,
+  "tokens_out": 725,
+  "latency_ms": 22046,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

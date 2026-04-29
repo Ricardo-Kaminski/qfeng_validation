@@ -1,0 +1,29 @@
+{
+  "sha256": "3c701d360fc9033cf84ef16d55df3f16b9a1e893c87735475f9019934aa5087b",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T02:20:19Z",
+  "prompt_sha": "0ae1cb23f5b2029af6ba34d6cbada55225e0756bb30ed00c0f6402a4a8c28764",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a implementação do banco de horas pela rede de supermercados **viola normas trabalhistas brasileiras**, com base nos seguintes predicados soberanos ativos:  \n\n- **`sovereign(semester_hour_bank_requires_cct_or_act)`**: A CLT exige que o banco de horas seja regulado por um **convenção coletiva de trabalho (CCT)** ou **acordo coletivo de trabalho (ACT)**, **registrados formalmente** na Superintendência Regional do Trabalho (SRTE). A ausência de registro da ACT invalida a sua eficácia jurídica, mesmo que a empresa alegue que o registro é \"mera formalidade\".  \n- **`sovereign(weekly_hour_compensation_requires_written_agreement)`**: A compensação de horas em prazo (como o banco de horas) exige **escrita e registro formal** de acordo, conforme previsto no art. 227 da CLT.  \n- **`sovereign(prohibition_negotiation_reducing_overtime_additional)`**: A CLT proíbe negociações que **reduzam a remuneração por horas extras**, garantindo o **mínimo de 50% adicional** (predicado `overtime_minimum_additional_50pct`).  \n- **`sovereign(maximum_weekly_working_hours_44h)`** e **`sovereign(maximum_daily_working_hours_8h)`**: A CLT estabelece limites máximos de jornada (44h semanais e 8h diárias), que devem ser respeitados mesmo com compensação de horas.  \n\nA ausência de registro da ACT e a falta de garantia de direitos mínimos (como o adicional de 50% por horas extras) configuram **violação legal**, conforme determinado pelo Q-FENG.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **`sovereign(semester_hour_bank_requires_cct_or_act)`**:  \n  **Significado**: O banco de horas só pode ser regulado por um CCT ou ACT **registrados na SRTE**. A falta de registro torna o acordo inválido.  \n- **`sovereign(invalidity_of_clause_suppressing_overtime_payment)`**:  \n  **Significado**: Cláusulas que **eliminem ou reduzam o adicional de horas extras** são nulas por violar a CLT.  \n- **`sovereign(weekly_hour_compensation_requires_written_agreement)`**:  \n  **Significado**: Compensação de horas (como banco de horas) exige **escrita e registro formal** de acordo, conforme art. 227 da CLT.  \n- **`sovereign(prohibition_negotiation_reducing_overtime_additional)`**:  \n  **Significado**: A CLT **proíbe negociações** que reduzam o adicional de 50% por horas extras, garantindo direitos mínimos.  \n- **`sovereign(overtime_minimum_additional_50pct)`**:  \n  **Significado**: O adicional de horas extras **não pode ser inferior a 50%** da remuneração normal.  \n- **`sovereign(maximum_weekly_working_hours_44h)`** e **`sovereign(maximum_daily_working_hours_8h)`**:  \n  **Significado**: A CLT estabelece **limites máximos de jornada** (44h semanais e 8h diárias), que devem ser respeitados mesmo com compensação de horas.  \n- **`elastic(hour_bank_without_cct_max_6_months)`**:  \n  **Significado**: O banco de horas **sem CCT ou ACT** pode ser aplicado por até 6 meses, mas **não pode ultrapassar esse prazo**.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa alega que o acordo coletivo (ACT) com o sindicato é válido desde que assinado, mas o sistema Q-FENG diz que **isso não é verdade**. A lei exige que **o ACT seja registrado na SRTE** para ser válido. Se o registro não foi feito, o acordo **não vale**, mesmo que a empresa diga que é \"só uma formalidade\".  \n\nAlém disso, a CLT diz que:  \n- **Ninguém pode trabalhar mais de 44h por semana** ou 8h por dia, mesmo com compensação de horas.  \n- **Horas extras devem ter um adicional de 50%**, e esse direito **não pode ser reduzido** por acordo.  \n\nComo o ACT não foi registrado e a empresa não garantiu esses direitos mínimos, o sistema conclui que **há violação da lei**. O trabalhador tem direito a reclamar isso na Justiça do Trabalho.",
+  "tokens_in": 522,
+  "tokens_out": 1675,
+  "latency_ms": 52141,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

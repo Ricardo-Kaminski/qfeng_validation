@@ -1,0 +1,19 @@
+{
+  "sha256": "e3c3df0d4dfe287adfe476d73fb73f4e75691f52c9c2f7c114376df983e25290",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T12:21:14Z",
+  "prompt_sha": "4c0dcee8b5611dbd85de55417b7dad94c7d5424efdfecc7cb89ae58938c73e41",
+  "response_text": "1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**\n\nNo cenário apresentado, a análise envolve o artigo 223-G da Consolidação das Leis do Trabalho (CLT), que trata de assédio moral no ambiente de trabalho. Este dispositivo foi introduzido pela reforma trabalhista de 2017 e estabelece critérios para identificar, classificar e quantificar o dano moral decorrente de assédio.\n\nOs aspectos relevantes do artigo 223-G incluem:\n- **Identificação do Grau da Ofensa**: O artigo exige que se determine se a ofensa é leve, média, grave ou gravíssima com base nos fatos provados.\n- **Quantificação do Valor**: Deve-se calcular o valor do dano moral com referência ao salário do trabalhador. O §1º do art. 223-G estabelece que a quantificação deve ser proporcional à natureza e gravidade da ofensa, podendo variar de uma a três vezes o último salário recebido pelo empregado.\n- **Proporcionalidade com Precedentes**: A decisão deve considerar precedentes do Tribunal Superior do Trabalho (TST) sobre casos similares para garantir a proporcionalidade e coerência na aplicação da norma.\n\n2. **DECISÃO RECOMENDADA: Qual deve ser a decisão e por quê**\n\nA decisão recomendada é que o juiz ou tribunal, ao julgar o caso de assédio moral, siga os seguintes passos:\n- **Classificação do Grau da Ofensa**: Baseado nos fatos provados no processo, classifique o grau da ofensa (leve, média, grave ou gravíssima).\n- **Quantificação Proporcional**: Após a classificação, determine o valor do dano moral de acordo com o §1º do art. 223-G, considerando a natureza e a gravidade da ofensa. A quantificação deve ser proporcional ao salário do trabalhador e estar alinhada aos parâmetros estabelecidos pelo dispositivo.\n- **Referência a Precedentes**: Consulte precedentes do TST para garantir que a decisão esteja em conformidade com entendimentos anteriores sobre casos similares, assegurando assim a proporcionalidade e justiça na aplicação da norma.\n\n3. **FUNDAMENTAÇÃO NORMATIVA: Cite especificamente os artigos e súmulas do contexto acima**\n\n- **Artigo 223-G da CLT**: Este é o dispositivo principal que regula o assédio moral no ambiente de trabalho, estabelecendo a necessidade de identificação do grau da ofensa e a quantificação proporcional do dano moral.\n- **§1º do Art. 223-G da CLT**: Especifica como deve ser feita a quantificação do valor do dano moral, referenciando-se ao salário do trabalhador e considerando a gravidade da ofensa.\n\nNão há menção explícita de súmulas específicas no contexto fornecido, mas é recomendável consultar as súmulas do TST que tratam de assédio moral para garantir a consistência com precedentes judiciais. Se o contexto não contivesse norma aplicável, seria necessário indicar essa limitação e buscar outras fontes legais ou jurisprudenciais relevantes.\n\nEm resumo, a decisão deve ser fundamentada no artigo 223-G da CLT e seus parágrafos, com referência aos precedentes do TST para garantir uma aplicação justa e proporcional da norma.",
+  "tokens_in": 320,
+  "tokens_out": 820,
+  "latency_ms": 47046,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

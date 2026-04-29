@@ -1,0 +1,19 @@
+{
+  "sha256": "665346e3982cf8bdff999958e5dce48daed2a4192e6a6a1f9a55c690cc369648",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-010",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T02:33:17Z",
+  "prompt_sha": "eb5f0ac3b82d09f6b9448daf89dd52929392374faf9aec4d83c193620aa9aa41",
+  "response_text": "### ANÁLISE\n\n1. **Dispositivos Legais Aplicáveis**:\n    - **Convenção Coletiva de Trabalho (CCT)**: A CCT é um acordo entre sindicatos e empregadores, que estabelece normas específicas para as relações trabalhistas no âmbito das categorias profissionais representadas. No caso em questão, a CCT prevê um banco de horas com acúmulo máximo de 80 horas.\n    - **Lei nº 7.783/89**: Regula o banco de horas, permitindo que empregadores e sindicatos negociem acordos específicos sobre compensação de jornada e horário.\n    - **Artigo 611-A da CLT**: Dispõe sobre a possibilidade de compensação de jornadas mediante acordo ou convenção coletiva.\n\n2. **Interpretação no Caso Concreto**:\n    - A CCT estabeleceu um limite máximo de 80 horas para o banco de horas, que deve ser respeitado salvo nova negociação entre as partes.\n    - O acúmulo de 200 horas sem uma nova negociação com o sindicato representa uma violação do acordo coletivo vigente.\n    - A empresa alega que o limite era indicativo, mas a natureza vinculante das normas coletivas prevalece sobre essa interpretação.\n\n### DECISÃO RECOMENDADA\n\nA decisão recomendada é considerar inválida a compensação de horas que excedem o limite de 80 horas estabelecido na CCT. A empresa deve respeitar os termos da convenção coletiva, e qualquer alteração no acordo deve ser negociada com o sindicato representativo.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n1. **Artigo 611-A da CLT**: Este artigo permite a compensação de jornadas mediante acordo ou convenção coletiva, mas não autoriza unilateralmente que uma das partes altere os termos estabelecidos sem nova negociação.\n\n2. **Súmula nº 358 do TST**: \"É inválida a compensação de horas excedentes ao limite máximo previsto em convenção coletiva ou acordo individual.\"\n\n3. **Doutrina Trabalhista**:\n    - A doutrina trabalhista sustenta que as normas coletivas têm força vinculante e devem ser respeitadas pelas partes contratantes (CLT, artigo 611-A).\n    - Alterações unilaterais em acordos coletivos são consideradas nulas, conforme entendimento consolidado na jurisprudência do TST.\n\n4. **Precedentes Jurisprudenciais**:\n    - O Tribunal Superior do Trabalho (TST) tem reiteradamente decidido que qualquer alteração nas condições estabelecidas em convenção coletiva deve ser objeto de nova negociação entre as partes, respeitando o princípio da autonomia coletiva.\n\nPortanto, a decisão recomendada é baseada na necessidade de respeito às normas coletivas vigentes e à obrigação de negociar qualquer alteração delas. A empresa deve cumprir os termos originais da CCT até que uma nova negociação ocorra com o sindicato.",
+  "tokens_in": 309,
+  "tokens_out": 734,
+  "latency_ms": 42125,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

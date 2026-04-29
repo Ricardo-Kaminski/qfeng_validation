@@ -1,0 +1,26 @@
+{
+  "sha256": "05f030b59cfa04e2161a5c3b27cb70d65e5dafd760c0a29ce2f20259dc3b8ce3",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-011",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T02:05:46Z",
+  "prompt_sha": "303f6d25275850db752b15d9c7d3d948ca264d609c3666e67b0493fb3b36ada5",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG identificou uma **violação normativa** no julgamento do caso, com base nos seguintes predicados soberanos ativos:  \n- **Obrigação de explicitar consequências práticas da decisão**: O tribunal não explicou como a aplicação do tema de repercussão geral (relativo a servidores públicos) afeta concretamente o direito do trabalhador celetista privado.  \n- **Proibição de citação genérica de precedentes**: O tribunal utilizou um tema de repercussão geral (RG) que **não se aplicava ao regime trabalhista privado**, sem demonstrar a analogia jurídica ou a razão de ordem (ratio) que justificaria a extensão do precedente.  \n- **Obrigação de abordar todos os argumentos jurídicos**: O julgamento não considerou de forma adequada as diferenças constitucionais e legais entre o regime público (servidores) e o regime privado (trabalhadores celetistas).  \n- **Obrigação de fundamentar a decisão em razão decidendi identificada**: O tribunal não identificou claramente a **razão de ordem** (ratio) do tema de RG citado, nem explicou por que essa razão seria aplicável ao caso trabalhista.  \n- **Obrigação constitucional de fundamentar a decisão**: A ausência de fundamentação clara viola o princípio constitucional de transparência e razoabilidade no julgamento.  \n- **Direito de acesso à justiça e revisão judicial**: A aplicação indevida do tema de RG limita o direito do trabalhador de contestar a decisão com base em argumentos jurídicos específicos ao regime privado.  \n\nA combinação desses predicados soberanos revela uma **falha de fundamentação jurídica** e uma **aplicação indevida de precedentes**, configurando uma violação normativa.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n**a) *Obrigação de explicitar consequências práticas da decisão***  \nO tribunal deve explicar **como a decisão afeta concretamente os direitos do trabalhador** (ex.: impactos na jornada de trabalho, remuneração, ou garantias legais). A ausência dessa explicação viola o princípio da razoabilidade.  \n\n**b) *Proibição de citação genérica de precedentes***  \nO uso de temas de repercussão geral (RG) **não pode ser feito de forma genérica**. O tribunal deve demonstrar que o **tema RG citado tem razão de ordem compatível com o caso trabalhista**, evitando aplicações descontextualizadas.  \n\n**c) *Obrigação de abordar todos os argumentos jurídicos***  \nO tribunal deve analisar **todos os pontos levantados** (ex.: diferenças entre servidores públicos e trabalhadores privados) para evitar decisões parciais ou omitidas.  \n\n**d) *Obrigação de fundamentar a decisão em razão decidendi identificada***  \nA decisão deve basear-se em **uma razão de ordem clara e específica** (ex.: uma norma ou princípio jurídico comum a ambos os regimes). A ausência dessa fundamentação torna a decisão arbitrária.  \n\n**e) *Obrigação constitucional de fundamentar a decisão***  \nO art. 5º, XXXV da CF exige que a decisão judicial seja **fundamentada com clareza**, garantindo transparência e possibilidade de revisão.  \n\n**f) *Direito de acesso à justiça e revisão judicial***  \nA aplicação indevida do tema RG **limita a capacidade do trabalhador de contestar a decisão**, violando o direito à defesa e à revisão judicial.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO tribunal **usou uma regra que serve para servidores públicos** (como funcionários do governo) para julgar um caso de um **motorista que trabalha em uma empresa privada**, sem explicar por que essa regra se aplicaria a ele. Isso é **injusto**, porque as leis para servidores públicos e trabalhadores privados são diferentes.  \n\nAlém disso, o tribunal **não explicou claramente por que tomou essa decisão**, o que dificulta que o motorista conteste a sentença. O sistema Q-FENG diz que isso é uma **violação**, porque a justiça deve sempre ser clara, fundamentada e justa para todos os trabalhadores, independentemente do setor em que atuam.",
+  "tokens_in": 503,
+  "tokens_out": 1514,
+  "latency_ms": 49422,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

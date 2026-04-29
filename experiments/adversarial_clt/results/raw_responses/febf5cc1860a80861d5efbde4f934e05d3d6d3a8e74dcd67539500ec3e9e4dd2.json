@@ -1,0 +1,30 @@
+{
+  "sha256": "febf5cc1860a80861d5efbde4f934e05d3d6d3a8e74dcd67539500ec3e9e4dd2",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-009",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T01:10:22Z",
+  "prompt_sha": "6d91edef4f830b89da4360eaf0b135c5ffe380f3939107e2bba54ad7b7057f83",
+  "response_text": "## ANÁLISE DO CASO À LUZ DOS PREDICADOS NORMATIVOS\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, a análise se desenvolve da seguinte forma:\n\n**1. ANÁLISE DA APLICAÇÃO DOS PREDICADOS:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** Este predicado é central para a análise. A decisão judicial *inicia* corretamente, citando a Súmula TST 85 e identificando o caso como um banco de horas não regulamentado por CCT, abrangendo um período de 7 meses. Isso demonstra o reconhecimento da aplicabilidade da Súmula ao caso. No entanto, a decisão *derrapa* ao aplicar a consequência jurídica de forma equivocada. A Súmula 85 estabelece que o banco de horas, na ausência de CCT, deve ser compensado em até seis meses, sob pena de pagamento como hora extra com adicional de 50%. A decisão, ao determinar o pagamento como hora normal (sem adicional), **não fundamenta** o afastamento da aplicação da Súmula 85, violando diretamente este predicado. Não há justificativa legal ou jurisprudencial apresentada para desconsiderar a aplicação da Súmula.\n\n**2. DECISÃO RECOMENDADA:**\n\nA decisão deve ser **reformaada**.  Apesar da correta identificação do caso como um banco de horas não regulamentado por CCT (Súmula 85), a aplicação da consequência jurídica está incorreta.  O pagamento das horas excedentes do banco de horas deve ser realizado como **hora extra com adicional de 50%**, conforme orientação da Súmula TST 85, V.  A decisão original não apresentou qualquer razão para afastar a aplicação da Súmula, o que é inaceitável.  É fundamental que a decisão reformada justifique a aplicação da Súmula, reiterando que a ausência de regulamentação por CCT implica a compensação em até seis meses, sob pena de pagamento como hora extra.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** **Violação**. A decisão reconheceu a aplicabilidade da Súmula 85, mas não fundamentou a decisão de aplicar uma consequência jurídica diferente daquela expressamente prevista na Súmula. A falta de fundamentação demonstra uma falha na aplicação do *ratio decidendi* da Súmula.\n",
+  "tokens_in": 331,
+  "tokens_out": 573,
+  "latency_ms": 15625,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

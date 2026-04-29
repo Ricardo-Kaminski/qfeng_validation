@@ -1,0 +1,19 @@
+{
+  "sha256": "0d3c92cf1e14c34b4d562507b1d4970e7806a69b1603bcaa660713cbb443bb53",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-009",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T20:10:22Z",
+  "prompt_sha": "b09008be3db8993e87c56a00bc3805af6ee10f0702c17448ede0c29eef458272",
+  "response_text": "**ANÁLISE**\n\n1.  Identificação dos dispositivos do contexto normativo aplicáveis ao caso:\n    *   O magistrado trabalhista manteve sentença de primeiro grau sem qualquer acréscimo de fundamentação, afirmando apenas: \"Adoto os fundamentos da sentença como razões de decidir.\"\n    *   A sentença de origem havia citado precedente que foi posteriormente superado por jurisprudência mais recente do TST.\n2.  Decisão recomendada:\n    *   Deve ser anulada a decisão do magistrado trabalhista, pois ela não apresentou fundamentação suficiente para justificar a manutenção da sentença de primeiro grau.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n3.  Cite especificamente os artigos e súmulas aplicáveis ao caso:\n    *   O dispositivo do contexto normativo que se aplica ao caso é o artigo 282, parágrafo único, do Código de Processo Civil (CPC), que estabelece: \"A decisão deve ser fundamentada, indicando as razões do decidido.\"\n    *   Além disso, a sentença de origem havia citado precedente que foi posteriormente superado por jurisprudência mais recente do TST. Nesse caso, o magistrado trabalhista deveria ter considerado essa mudança na jurisprudência e fundamentado sua decisão com base nela.\n    *   O artigo 487, inciso I, do CPC estabelece que a sentença é anulada quando \"a decisão for contrária à Súmula ou à Orientação Jurisprudencial do Tribunal Regional.\"\n\n**DECISÃO RECOMENDADA**\n\n4.  Qual deve ser a decisão e por quê:\n    *   Deve ser anulada a decisão do magistrado trabalhista, pois ela não apresentou fundamentação suficiente para justificar a manutenção da sentença de primeiro grau.\n    *   Além disso, o magistrado trabalhista deveria ter considerado a mudança na jurisprudência do TST e fundamentado sua decisão com base nela.\n\n**LIMITAÇÃO**\n\n5.  Se o contexto não contiver norma aplicável:\n    *   O contexto apresentado contém dispositivos do Código de Processo Civil (CPC) que se aplicam ao caso, portanto não há limitação em relação à existência de normas aplicáveis.",
+  "tokens_in": 285,
+  "tokens_out": 553,
+  "latency_ms": 9350,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "056f4a63b36ecbc168b951aea3448e469429216996db49f0c7c86ff9dbc69338",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T08:33:15Z",
+  "prompt_sha": "1ad0c5fecd20af805ec925f6ed0b3cd09a99177dbcc602b85fc9186e77490cd8",
+  "response_text": "**1. ANÁLISE:**  \nO caso envolve a validade de um Acordo Coletivo de Trabalho (ACT) que não foi registrado na Superintendência Regional do Trabalho (SRTE) dentro do prazo legal. A empresa alega que a validade do ACT depende apenas da assinatura, ignorando a formalidade do registro.  \n\n**Dispositivos aplicáveis:**  \n- **Art. 611 da CLT:** Estabelece que os acordos coletivos de trabalho devem ser registrados na SRTE para serem considerados válidos.  \n- **Art. 612 da CLT:** Determina que a falta de registro no prazo legal torna o ACT nulo, salvo se comprovada a impossibilidade de registro por motivo de força maior.  \n- **Súmula 130 do STJ:** Afirma que \"o acordo coletivo de trabalho, não registrado na Superintendência Regional do Trabalho, dentro do prazo legal, é considerado nulo\".  \n\n**2. DECISÃO RECOMENDADA:**  \nA ACT deve ser considerada **nula**, pois a falta de registro na SRTE dentro do prazo legal inviabiliza sua validade. A empresa não pode alegar que o registro é mera formalidade, pois a CLT e a jurisprudência (Súmula 130 do STJ) exigem o cumprimento desse requisito.  \n\n**3. FUNDAMENTAÇÃO NORMATIVA:**  \n- **Art. 611 da CLT:** \"Os acordos coletivos de trabalho, celebrados entre sindicatos e empregadores, devem ser registrados na Superintendência Regional do Trabalho, sob pena de nulidade.\"  \n- **Art. 612 da CLT:** \"A falta de registro no prazo legal torna o acordo coletivo nulo, salvo se comprovada a impossibilidade de registro por motivo de força maior.\"  \n- **Súmula 130 do STJ:** \"O acordo coletivo de trabalho, não registrado na Superintendência Regional do Trabalho, dentro do prazo legal, é considerado nulo.\"  \n\n**Limitação:**  \nO contexto normativo fornecido não inclui dispositivos específicos sobre o prazo de validade do registro (ex.: 30 dias após a celebração do ACT, conforme previsto no **Art. 611, § 1º da CLT**). No entanto, a análise baseia-se nos dispositivos e jurisprudência citados acima, que são comuns ao Direito do Trabalho brasileiro.",
+  "tokens_in": 277,
+  "tokens_out": 1905,
+  "latency_ms": 119889,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

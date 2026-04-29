@@ -1,0 +1,26 @@
+{
+  "sha256": "46bc3ea9c023ec078accc8bfa004fa9bb7d2098d499f6a8795b8cc415c22d86d",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-013",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T01:22:49Z",
+  "prompt_sha": "e0d30695ad77e6fa82d74d87ad55c89df45927ed896fab63810d42a3383b74c7",
+  "response_text": "**1. ANÁLISE**\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: O acórdão do TST identificou a ratio decidendi do julgado citado (TST-Ag-RR-868-65.2021.5.13.0030) e analisou sua aplicabilidade ao caso concreto, fundamentando a distinção com base em razões jurídicas específicas. Isso demonstra que o acórdão buscou fundamentar sua decisão nos termos da ratio decidendi do julgado citado, cumprindo esse predicado.\n\n- **due_process_of_law**: O processo descrito segue as etapas de análise necessárias para uma decisão justa: a identificação da ratio decidendi, a distinção fática com o caso concreto e a fundamentação completa das razões pelas quais a ratio decidendi não se aplica. Isso indica que o processo seguiu os princípios do devido processo legal, cumprindo esse predicado.\n\n- **stf_tema1046_binding_precedent_applied**: O acórdão analisou a aplicabilidade da decisão do STF (Tema 1046) no caso concreto. No entanto, concluiu que a ratio decidendi não se aplica ao setor aéreo devido às distinções fáticas em relação ao setor bancário. Isso sugere que o acórdão aplicou o precedente do STF de forma crítica e fundamentada, considerando as especificidades do caso concreto. Portanto, esse predicado também foi cumprido.\n\n**2. DECISÃO RECOMENDADA**\n\nCom base nos predicados normativos listados e na análise realizada, a decisão recomendada deve ser aquela que atende aos princípios de fundamentação completa, aplicação do precedente do STF com crítica e consideração das especificidades do caso concreto. Portanto, recomenda-se manter a decisão do acórdão do TST, pois ela segue os procedimentos necessários para uma decisão justa e fundamentada.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: Cumprido\n- **due_process_of_law**: Cumprido\n- **stf_tema1046_binding_precedent_applied**: Cumprido\n\nNenhum dos predicados normativos listados foi violado.",
+  "tokens_in": 438,
+  "tokens_out": 553,
+  "latency_ms": 9235,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

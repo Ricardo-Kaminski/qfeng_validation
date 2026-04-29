@@ -1,0 +1,26 @@
+{
+  "sha256": "0ef9b70de4ad7a689ecc2b7a50e3774a615f7a687f15dc07a848eed57845bcfd",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CTRL-NEG-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T23:34:29Z",
+  "prompt_sha": "57cf080c70ee6d5ee75af46a8cd79a5aba980ddfcf3914fb8da919567e87ba49",
+  "response_text": "### 1. **ANÁLISE**  \n- **obligation_to_pay_nocturnal_premium_20pct**:  \n  A empresa cumpre a obrigação de pagar o adicional noturno de 20% para motoristas que trabalham entre 22h e 5h, conforme determina o art. 72 da CLT. O recolhimento mensal e a discriminação do adicional nos contracheques são práticas compatíveis com a norma, garantindo transparência e cumprimento da obrigação.  \n\n- **maximum_daily_working_hours_8h**:  \n  A empresa respeita o limite de 8 horas diárias de trabalho, conforme estabelecido no art. 59 da CLT. A ausência de horas extras além desse limite indica conformidade com a norma, evitando a violação do princípio da limitação do tempo de trabalho.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA empresa está em **conformidade total** com as normas trabalhistas brasileiras no que diz respeito aos predicados normativos aplicáveis. Não há indícios de violação, pois:  \n- O adicional noturno de 20% é corretamente calculado e recolhido, com transparência nos contracheques.  \n- O limite de 8 horas diárias é respeitado, sem ocorrência de horas extras.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **obligation_to_pay_nocturnal_premium_20pct**: **Conformidade** (cumprida).  \n- **maximum_daily_working_hours_8h**: **Conformidade** (cumprida).  \n\n**Observação**: A empresa não viola nenhum dos predicados normativos listados. A forma de cálculo da \"hora noturna\" (52 minutos e 30 segundos) não é abordada nos predicados fornecidos e, portanto, não é objeto de análise neste caso.",
+  "tokens_in": 373,
+  "tokens_out": 1390,
+  "latency_ms": 44062,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

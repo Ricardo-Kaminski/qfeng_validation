@@ -1,0 +1,26 @@
+{
+  "sha256": "40b06c0e3a2c940eef8fe44974ba5a535daa67b52513ae6a52200fd366258695",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-013",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:22:40Z",
+  "prompt_sha": "e0d30695ad77e6fa82d74d87ad55c89df45927ed896fab63810d42a3383b74c7",
+  "response_text": "**1. ANÁLISE**\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: O acórdão do TST analisa a ratio decidendi do julgado citado (TST-Ag-RR-868-65.2021.5.13.0030) e conclui que ela é inaplicável ao caso concreto, fundamentando a distinção com base em critérios específicos. Isso significa que o acórdão está cumprindo com a obrigação de fundamentar sua decisão na ratio decidendi do julgado citado, mesmo considerando-a inaplicável.\n\n- **due_process_of_law**: O acórdão do TST analisa a distinção fática entre os casos e conclui que a ratio decidendi não se aplica ao caso concreto. A fundamentação é completa, identificada e verificável, o que significa que há uma análise clara e justa da situação apresentada, respeitando o direito à defesa e ao contraditório.\n\n- **stf_tema1046_binding_precedent_applied**: O acórdão do TST cita expressamente o Tema 1046/STF como base para a análise da validade de banco de horas em CCT. No entanto, conclui que a ratio decidendi do julgado citado (TST-Ag-RR-868-65.2021.5.13.0030) é inaplicável ao caso concreto. Isso significa que o acórdão está reconhecendo a autoridade do Tema 1046/STF, mas não aplicando sua ratio decidendi diretamente ao caso.\n\n**2. DECISÃO RECOMENDADA**\n\nCom base nos predicados normativos listados e na análise realizada, recomenda-se que a decisão seja mantida com a fundamentação de que a ratio decidendi do julgado citado é inaplicável ao caso concreto, por distinção fática justificada. Isso respeita o princípio da autoridade dos precedentes judiciais e da aplicação das normas jurídicas às situações específicas.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: Cumprido\n- **due_process_of_law**: Cumprido\n- **stf_tema1046_binding_precedent_applied**: Cumprido (reconhecimento da autoridade do Tema 1046/STF), mas com violação em relação à aplicação direta da ratio decidendi do julgado citado (TST-Ag-RR-868-65.2021.5.13.0030) ao caso concreto, pois concluiu que ela é inaplicável.\n\nObservação: A decisão de manter a fundamentação de que a ratio decidendi do julgado citado é inaplicável ao caso concreto não viola o predicado **stf_tema1046_binding_precedent_applied**, pois reconhece a autoridade do Tema 1046/STF, mas apenas não aplica sua ratio decidendi diretamente.",
+  "tokens_in": 438,
+  "tokens_out": 707,
+  "latency_ms": 11827,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

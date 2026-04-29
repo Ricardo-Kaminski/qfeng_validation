@@ -1,0 +1,19 @@
+{
+  "sha256": "d32afd5e5c119fa6dd4dfc7c63c154aa4cea1e3f5f0d2e5b5466826aac3124b5",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T19:54:59Z",
+  "prompt_sha": "b6e4c61ea8527c860962ba88d6b508c94439e853c9816adb4eb2e1c7272aacf0",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas sem CCT\n\nCom base no contexto normativo fornecido, apresento a análise, decisão recomendada e fundamentação para o caso de banco de horas sem CCT, conforme a decisão do Tribunal Regional do Trabalho (TRT) e a Súmula TST 85.\n\n**1. ANÁLISE: Dispositivos Normativos Aplicáveis**\n\nO caso em questão gira em torno da validade de um sistema de banco de horas implementado em um banco, sem a existência de um acordo ou convenção coletiva de trabalho (CCT/ACT) que o regulamentasse. O TRT fundamentou sua decisão na Súmula TST 85, especificamente nos itens I, II e V.  A empresa tentou argumentar a existência de um \"acordo tácito\", que foi rejeitado pelo TRT.\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada, em consonância com o acórdão do TRT, é que **todas as horas não compensadas no sistema de banco de horas sejam consideradas horas extras, devendo receber o adicional de 50%**.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação para essa decisão reside exclusivamente nos dispositivos normativos apresentados no contexto:\n\n*   **Súmula TST 85:** Esta súmula trata do banco de horas e estabelece condições para sua validade. O acórdão do TRT especificamente se refere aos itens I, II e V da súmula, que, conforme a decisão, são aplicáveis ao caso. Embora o texto do contexto não transcreva integralmente esses itens, a referência do TRT indica que eles foram utilizados para fundamentar a decisão.  A ausência de transcrição integral dos itens da súmula não impede a análise, pois a referência é explícita.\n*   **Ausência de CCT/ACT:** O TRT explicitamente concluiu que o sistema de banco de horas não possui regulamentação em acordo ou convenção coletiva de trabalho (CCT/ACT). Essa ausência é crucial, pois a Súmula TST 85, em seus itens I, II e V, estabelece que o banco de horas só é válido se regulamentado por CCT/ACT.\n*   **Rejeição da Tese do Acordo Tácito:** O TRT afastou a tese da empresa de \"acordo tácito\", afirmando que um acordo tácito **não substitui a necessidade de regulamentação por CCT/ACT para a validade do banco de horas**.  Essa rejeição é fundamental, pois demonstra que a empresa não conseguiu comprovar a existência de uma base legal para a implementação do sistema de banco de horas sem a devida regulamentação coletiva.\n\n**Limitações:**\n\nO contexto normativo fornecido é limitado. Não contém a íntegra da Súmula TST 85, o que impede a análise detalhada dos itens I, II e V.  Além disso, não há informações sobre a legislação infraconstitucional (como a CLT) que possa complementar a análise.  A análise se restringe, portanto, ao que foi explicitamente apresentado no contexto.",
+  "tokens_in": 308,
+  "tokens_out": 701,
+  "latency_ms": 19279,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

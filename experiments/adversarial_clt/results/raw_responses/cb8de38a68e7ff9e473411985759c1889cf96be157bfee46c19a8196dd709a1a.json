@@ -1,0 +1,19 @@
+{
+  "sha256": "cb8de38a68e7ff9e473411985759c1889cf96be157bfee46c19a8196dd709a1a",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T06:52:50Z",
+  "prompt_sha": "ccb8d9ff5ecb68e6342252f2d9062b97997b2594352bf919ebcfbf76c5be0071",
+  "response_text": "**ANÁLISE**\n\n1.  **Dispositivos legais aplicáveis**: A CCT firmada entre a trabalhadora e o banco de horas semestral de 6 meses é regida pelas normas da CLT (Consolidação das Leis do Trabalho). O artigo 59 da CLT estabelece que a jornada de trabalho pode ser ajustada por acordo individual ou coletivo, desde que não ultrapasse o limite máximo de horas previsto na legislação trabalhista. No entanto, o artigo 59 também determina que os acordos individuais ou coletivos devem respeitar as condições legais mínimas dos trabalhadores.\n2.  **Interpretação no caso concreto**: A suspensão do cômputo do banco de horas durante a licença maternidade não viola o artigo 59 da CLT, pois a legislação trabalhista permite acordos que ajustem a jornada de trabalho. No entanto, a reativação do cômputo ao retorno da trabalhadora pode ser questionável, pois não há dispositivo legal específico que autorize a suspensão e posterior reativação do banco de horas durante licenças maternidade.\n3.  **Compensação total**: A compensação total ocorreu em 8 meses (contando o período útil), dentro do prazo acordado na CCT, o que não viola as normas da CLT.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a compensação total realizada em 8 meses (contando o período útil) seja considerada válida, pois atende ao prazo acordado na CCT. No entanto, a suspensão e posterior reativação do cômputo do banco de horas durante a licença maternidade poderia ser questionável, mas não viola as normas da CLT.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   **Artigo 59 da CLT**: Estabelece que a jornada de trabalho pode ser ajustada por acordo individual ou coletivo, desde que não ultrapasse o limite máximo de horas previsto na legislação trabalhista.\n*   **Súmula 428 do TST**: Determina que a compensação de horas extras é permitida, desde que atenda ao prazo acordado no acordo coletivo ou individual.\n*   **Precedente constitucional**: O precedente constitucional não foi citado, pois o caso concreto está regido pela CLT e não há dispositivo legal específico que autorize a suspensão e posterior reativação do banco de horas durante licenças maternidade.\n\n**CONCLUSÃO**\n\nA decisão recomendada é que a compensação total realizada em 8 meses (contando o período útil) seja considerada válida, pois atende ao prazo acordado na CCT. No entanto, a suspensão e posterior reativação do cômputo do banco de horas durante a licença maternidade poderia ser questionável, mas não viola as normas da CLT.",
+  "tokens_in": 305,
+  "tokens_out": 689,
+  "latency_ms": 22656,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

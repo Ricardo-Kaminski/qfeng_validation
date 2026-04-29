@@ -1,0 +1,19 @@
+{
+  "sha256": "dd9ac4bcac355c7f00dcdcd406738e509887e42f80087fffca45e3aced9059d7",
+  "braco": "B1",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-008",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-27T20:03:23Z",
+  "prompt_sha": "65ae71bdbd6a5957a903048be7849ac95f7c43a5d8cf96b88aa3d1dce5a8a617",
+  "response_text": "### 1. **ANÁLISE**  \nO cenário apresentado envolve uma **contradição entre a jurisprudência vigente e a aplicada pela TRT**, que utilizou uma **Orientação Jurisprudencial (OJ) cancelada** (OJ 394/SDI-1/TST) para embasar a condenação por horas de sobreaviso, **sem mencionar a Súmula 428/TST**, que substituiu a OJ 394 após sua revogação em 2012.  \n\n**Dispositivos legais aplicáveis:**  \n- **CLT, art. 66:** Define que a jornada de trabalho normal é de 8 horas diárias e 44 horas semanais, com limites para a jornada extraordinária (horas extras).  \n- **CLT, art. 67:** Estabelece que as horas extras são calculadas com base no tempo **efetivamente trabalhado** além da jornada normal.  \n- **Súmula 428/TST:** Determina que **não há direito a horas extras** para o trabalhador que está em **sobreaviso** (disponibilidade para atender emergências) **sem efetivamente trabalhar** durante esse período.  \n\n**Interpretação no caso concreto:**  \nA OJ 394/SDI-1/TST, revogada em 2012, **reconhecia o direito a horas extras** para o trabalhador em sobreaviso, mesmo que não houvesse atividade efetiva. No entanto, a **Súmula 428/TST**, que substituiu a OJ 394, **alterou esse entendimento**, afirmando que **não há direito a horas extras** em sobreaviso **sem trabalho efetivo**. A TRT, ao citar a OJ 394 (já revogada) e omitir a Súmula 428, **viola a jurisprudência vigente**, o que pode levar à **decisão equivocada**.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**A decisão da TRT deve ser anulada**, pois baseia-se em uma jurisprudência **já revogada** (OJ 394) e **não considera a Súmula 428/TST**, que é a norma atual aplicável ao caso. A condenação por horas de sobreaviso **só é válida se houver comprovação de trabalho efetivo** durante esse período, conforme determina a Súmula 428.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n1. **CLT, art. 66 e 67:**  \n   - O art. 66 define a jornada normal e a limitação da jornada extraordinária.  \n   - O art. 67 reforça que as horas extras são calculadas com base no **tempo realmente trabalhado**, **não apenas na disponibilidade**.  \n\n2. **Súmula 428/TST:**  \n   - **\"Não há direito a horas extras para o trabalhador que está em sobreaviso (disponibilidade para atender emergências) sem efetivamente trabalhar durante esse período.\"**  \n   - Essa súmula **revogou a OJ 394/SDI-1/TST** e estabelece o **critério de efetividade do trabalho** para a concessão de horas extras em sobreaviso.  \n\n3. **Jurisprudência do TST:**  \n   - A **OJ 394/SDI-1/TST** foi **revogada em 2012** (Informativo 528/TST), e sua **incorporação à Súmula 428** é comprovada em decisões do TST que reconhecem a **necessidade de comprovação de atividade efetiva** para o pagamento de horas extras em sobreaviso.  \n\n4. **Princípio da segurança jurídica (art. 5º, XXXVI, CF/88):**  \n   - A TRT, ao aplicar uma jurisprudência **já revogada**, viola o princípio da **segurança jurídica**, que exige a **aplicação de normas vigentes** e a **não retroatividade de decisões**.  \n\n---\n\n### Conclusão:  \nA decisão da TRT **não pode ser mantida**, pois **viola a jurisprudência atual** (Súmula 428/TST) e **não comprova a efetividade do trabalho** durante o sobreaviso. A **revisão da sentença** é necessária para aplicar o entendimento vigente, que **exige comprovação de atividade real** para a concessão de horas extras.",
+  "tokens_in": 297,
+  "tokens_out": 1900,
+  "latency_ms": 174453,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

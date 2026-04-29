@@ -1,0 +1,19 @@
+{
+  "sha256": "f9d19ddac7dacb21953c855f933c42653d00b7495358e0ac551f333e3f542dbb",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T12:26:04Z",
+  "prompt_sha": "f5275e170353578213712d821d1e842fb4a67591aa07b251afa99d260d607aad",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a empresa de manufatura segue uma jornada padrão de 8 horas diárias e 44 horas semanais para todos os empregados. A ausência de banco de horas, trabalho noturno e horas extras indica que a empresa está operando dentro dos limites normais da jornada de trabalho estabelecida pela legislação trabalhista brasileira. Além disso, os intervalos intrajornada são concedidos integralmente (1 hora para jornada de 8 horas), o que é uma prática em conformidade com a legislação vigente.\n\nOs registros de ponto eletrônicos e auditáveis garantem a transparência e a verificação da aderência à jornada estabelecida, evitando possíveis disputas sobre o cumprimento das horas trabalhadas. A ausência de reclamações trabalhistas pendentes também sugere que não há conflitos atuais entre empregados e empregadores em relação às condições de trabalho.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é manter a prática atual da empresa, pois ela está em conformidade com as normas trabalhistas vigentes no Brasil. Não há necessidade de alterações nas políticas atuais de jornada de trabalho e registro de ponto, uma vez que todas as práticas descritas estão alinhadas com os requisitos legais.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- A jornada padrão de 8 horas diárias e 44 horas semanais é estabelecida pelo artigo 7º, inciso XXII da Constituição Federal de 1988, que garante a limitação do trabalho em oito horas diárias, quarenta e oito semanais, salvo exceções previstas em lei.\n  \n- O intervalo intrajornada de uma hora para jornadas superiores a seis horas é regulamentado pelo artigo 71 da CLT (Consolidação das Leis do Trabalho), que estabelece o direito ao descanso remunerado após cinco horas consecutivas de trabalho.\n\n- A obrigatoriedade dos registros de ponto, mesmo sendo eletrônicos e auditáveis, é reforçada pela Súmula 437 do TST (Tribunal Superior do Trabalho), que determina a necessidade de controle efetivo da jornada de trabalho para comprovação das horas trabalhadas.\n\nDado o contexto normativo fornecido e as práticas descritas, não há limitações ou ausência de normas aplicáveis. A empresa está em conformidade com as disposições legais vigentes no Brasil relativas à jornada de trabalho e registro de ponto.",
+  "tokens_in": 293,
+  "tokens_out": 611,
+  "latency_ms": 34905,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

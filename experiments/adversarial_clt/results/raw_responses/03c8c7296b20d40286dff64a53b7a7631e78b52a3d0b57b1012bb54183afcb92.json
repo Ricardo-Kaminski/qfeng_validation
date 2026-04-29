@@ -1,0 +1,27 @@
+{
+  "sha256": "03c8c7296b20d40286dff64a53b7a7631e78b52a3d0b57b1012bb54183afcb92",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-007",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:55:45Z",
+  "prompt_sha": "2c03cb68f103668260b4613de27731cfa0657d298f5e8f8f441eed46e4ed0161",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas no Setor Bancário\n\nCom base nos predicados normativos fornecidos e no cenário apresentado, segue a análise, decisão recomendada e identificação de cumprimento/violação dos predicados:\n\n**1. ANÁLISE DOS PREDICADOS NORMATIVOS:**\n\n*   **`validity_of_cct_annual_hour_bank_banking_sector` (Validade da CCT para Banco de Horas no Setor Bancário):** Este predicado é crucial. Ele estabelece que a existência de uma Convenção Coletiva de Trabalho (CCT) que regulamenta o banco de horas anual no setor bancário é um fator determinante para a validade do sistema. O cenário informa que a CCT existe e está em vigor, o que, *a priori*, confere legitimidade ao banco de horas. A renovação da CCT, a entrega do extrato e a compensação dentro do prazo reforçam a validade do acordo.\n*   **`stf_tema1046_binding_precedent_applied` (Aplicação do Tema 1046 do STF como Jurisprudência Vinculante):** O Tema 1046 do STF trata da natureza jurídica do banco de horas, considerando-o como um acordo de compensação de jornada, e não como tempo de trabalho efetivo, desde que cumpridas as condições estabelecidas. A jurisprudência do TST-Ag-RR-868-65.2021, mencionada no cenário, provavelmente se alinha a este entendimento do STF. A aplicação deste predicado significa que a compensação do banco de horas, dentro dos limites estabelecidos, não gera direito a horas extras.\n*   **`hour_bank_with_cct_max_1_year` (Banco de Horas com CCT com Prazo Máximo de 1 Ano):** Este predicado limita o período de acumulação do banco de horas ao máximo de 12 meses, conforme previsto na CCT. O cenário informa que a CCT estabelece um período anual, o que está em conformidade com este predicado.\n\n**2. DECISÃO RECOMENDADA:**\n\nConsiderando a validade da CCT, a jurisprudência do TST alinhada ao Tema 1046 do STF e o cumprimento do prazo máximo de 12 meses, a decisão recomendada é **deferir a validade do banco de horas e negar o direito ao adicional de horas extras** para as horas compensadas dentro do sistema.\n\nÉ fundamental que o banco continue a cumprir rigorosamente as obrigações da CCT, incluindo a entrega regular do extrato do banco de horas ao trabalhador e a compensação dentro do prazo estabelecido. A transparência e a informação ao trabalhador são essenciais para evitar questionamentos futuros.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **`validity_of_cct_annual_hour_bank_banking_sector`:** **Conformidade**. A CCT existe, está renovada, o extrato é entregue e a compensação é realizada no prazo.\n*   **`stf_tema1046_binding_precedent_applied`:** **Conformidade**. A jurisprudência do TST-Ag-RR-868-65.2021 e o Tema 1046 do STF são aplicáveis e sustentam a não obrigatoriedade do adicional de horas extras para horas compensadas dentro do banco de horas.\n*   **`hour_bank_with_cct_max_1_year`:** **Conformidade**. O período de acumulação do banco de horas está limitado a 12 meses, conforme previsto na CCT.\n\n**Observações Adicionais:**\n\n*   A decisão acima é baseada nas informações fornecidas no cenário. Caso existam outros elementos relevantes, a análise e a decisão podem ser diferentes.\n*   É importante que o sindicato continue a esclarecer aos trabalhadores os termos da CCT e a importância do cumprimento das obrigações por parte do empregador.\n*   A jurisprudência sobre banco de horas é complexa e pode variar dependendo das particularidades de cada caso. É fundamental acompanhar a evolução da jurisprudência para garantir a conformidade com a legislação vigente.\n",
+  "tokens_in": 383,
+  "tokens_out": 948,
+  "latency_ms": 26203,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

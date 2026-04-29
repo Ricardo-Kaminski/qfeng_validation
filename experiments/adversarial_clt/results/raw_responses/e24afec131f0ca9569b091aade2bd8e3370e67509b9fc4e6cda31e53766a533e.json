@@ -1,0 +1,27 @@
+{
+  "sha256": "e24afec131f0ca9569b091aade2bd8e3370e67509b9fc4e6cda31e53766a533e",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-008",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T00:57:40Z",
+  "prompt_sha": "56026c91d89b6d756ed7ce2eaf106a0c54a871ecc1ed1a0e49d045b3570664eb",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso: Alteração Unilateral da Escala de Compensação de Folgas em Banco de Horas\n\nCom base nos predicados normativos fornecidos e no cenário apresentado, apresento a análise, decisão recomendada e identificação de predicados violados/cumpridos.\n\n**1. ANÁLISE:**\n\n*   **recognition_of_collective_bargaining (Reconhecimento da Negociação Coletiva):** Este predicado é fundamental para o caso. A CLT e a jurisprudência do TST reconhecem a força vinculante da negociação coletiva, especialmente quando se trata de CCTs. A CCT, por definição, é fruto de um acordo entre sindicatos de empregadores e empregados, estabelecendo condições de trabalho específicas para a categoria. A alteração unilateral da escala de compensação de folgas pela empresa demonstra uma desconsideração à negociação coletiva, pois a empresa agiu contrariando o que foi previamente acordado. A validade do banco de horas, como um acordo derivado da CCT, depende do respeito aos termos da própria CCT.\n*   **working_hours_negotiable_by_cct (Jornada de Trabalho Negociável por CCT):** Este predicado reforça a importância da CCT. A CCT, ao estabelecer o sistema de banco de horas e a flexibilidade na compensação das folgas, regulamentou a jornada de trabalho de forma específica para a categoria. A alteração unilateral da escala de compensação, restringindo a escolha da data para sexta-feira, representa uma modificação na forma como a jornada de trabalho, previamente negociada, seria cumprida.  A empresa, ao impor essa restrição, desvirtua a autonomia da negociação coletiva sobre a organização da jornada de trabalho.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que a decisão seja favorável aos trabalhadores. A alteração unilateral da escala de compensação de folgas pela empresa é **nula e inválida**.  A empresa deve ser obrigada a restabelecer a flexibilidade na escolha da data de compensação, conforme previsto na CCT.  A invalidade da escala imposta pela empresa pode, inclusive, levar à discussão sobre a validade do próprio banco de horas, especialmente se a restrição à data de compensação for considerada uma alteração substancial do acordo original.  É importante ressaltar que a empresa não pode unilateralmente modificar os termos de uma CCT.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **recognition_of_collective_bargaining (Reconhecimento da Negociação Coletiva):** **Violação**. A empresa ignorou a negociação coletiva ao alterar unilateralmente a escala de compensação.\n*   **working_hours_negotiable_by_cct (Jornada de Trabalho Negociável por CCT):** **Violação**. A empresa restringiu a flexibilidade da jornada de trabalho, previamente negociada na CCT, impondo uma escala de compensação específica.\n\n**Observações Adicionais:**\n\n*   A decisão final dependerá da análise detalhada da CCT e da jurisprudência aplicável ao caso específico.\n*   É importante verificar se a alteração unilateral da escala de compensação causou prejuízo aos trabalhadores, o que poderia gerar direito a indenização por danos morais.\n*   A empresa deve buscar a negociação com o sindicato para alterar os termos da CCT, seguindo os procedimentos legais e garantindo a participação dos representantes dos trabalhadores.",
+  "tokens_in": 317,
+  "tokens_out": 771,
+  "latency_ms": 21250,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

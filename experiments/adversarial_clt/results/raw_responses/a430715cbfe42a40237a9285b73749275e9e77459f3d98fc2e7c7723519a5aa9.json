@@ -1,0 +1,19 @@
+{
+  "sha256": "a430715cbfe42a40237a9285b73749275e9e77459f3d98fc2e7c7723519a5aa9",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T20:23:27Z",
+  "prompt_sha": "b6e4c61ea8527c860962ba88d6b508c94439e853c9816adb4eb2e1c7272aacf0",
+  "response_text": "**ANÁLISE**\n\n1.  **Identificação dos dispositivos do contexto normativo aplicáveis ao caso:**\n    *   A Súmula TST nº 85 é a norma aplicável ao caso, pois trata de banco de horas sem Contrato Coletivo de Trabalho (CCT) ou Acordo Coletivo de Trabalho (ACT).\n2.  **Decisão Recomendada:**\n    *   A decisão recomendada é que todas as horas trabalhadas sejam consideradas extras, com adicional de 50%, pois o banco não tem CCT/ACT e a Súmula TST nº 85 (itens I, II e V) determina essa regra.\n3.  **Fundamentação Normativa:**\n    *   A fundamentação normativa é baseada nos itens I, II e V da Súmula TST nº 85, que estabelecem as seguintes regras:\n        *   Item I: \"O regime de banco de horas não pode ser convencionado em contrato individual de trabalho.\"\n        *   Item II: \"A ocorrência de saldo a favor do empregador no período de um ano, mediante compensação de horas trabalhadas e não pagas, não implica rescisão do contrato de trabalho.\"\n        *   Item V: \"O regime de banco de horas não pode ser convencionado em contrato individual de trabalho. A ocorrência de saldo a favor do empregador no período de um ano, mediante compensação de horas trabalhadas e não pagas, não implica rescisão do contrato de trabalho.\"\n    *   Além disso, a decisão também se baseia na ausência de CCT/ACT, pois a Súmula TST nº 85 (itens I, II e V) determina que o regime de banco de horas deve ser convencionado em CCT/ACT.",
+  "tokens_in": 328,
+  "tokens_out": 416,
+  "latency_ms": 7077,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

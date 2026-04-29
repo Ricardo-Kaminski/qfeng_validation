@@ -1,0 +1,27 @@
+{
+  "sha256": "83920468800b85a9e410caffd6cbf75711267d5f806010351ffe338c7136d7ce",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T23:56:15Z",
+  "prompt_sha": "d850bd7abdcb7227665403051d94794859c730819b16d4aa28c926c6680567ee",
+  "response_text": "1. **ANÁLISE:**\n\n   - **hour_bank_with_cct_max_1_year:** Este predicado normativo estabelece que o banco de horas pode ser acordado por meio de CCT, com um prazo máximo de compensação de 12 meses. No caso concreto, a empresa firmou uma CCT que prevê o banco de horas anual, e todas as horas acumuladas foram compensadas dentro do prazo de 12 meses estabelecido na convenção coletiva. Portanto, este predicado foi cumprido.\n\n   - **recognition_of_collective_bargaining:** Este predicado reconhece a validade das negociações coletivas para definir condições específicas de trabalho, como o banco de horas. A CCT firmada pela empresa é um exemplo de acordo coletivo que estabeleceu as regras do banco de horas. Além disso, o sindicato homologou a prestação anual de contas do banco de horas, demonstrando reconhecimento e cumprimento das negociações coletivas. Assim, este predicado também foi cumprido.\n\n   - **working_hours_negotiable_by_cct:** Este predicado permite que as jornadas de trabalho sejam negociadas por meio da CCT. No caso em questão, a jornada diária nunca ultrapassou 10 horas, o que indica que a empresa respeitou os limites estabelecidos na negociação coletiva. Portanto, este predicado foi cumprido.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base nos predicados normativos aplicáveis e no cenário apresentado, recomenda-se que a decisão seja de conformidade com as normas estabelecidas na CCT. A empresa cumpriu todas as obrigações relacionadas ao banco de horas, respeitando o prazo máximo de 12 meses para compensação, entregou os extratos mensais e obteve a homologação do sindicato. Portanto, não há violações normativas no caso concreto.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Cumpridos:**\n     - hour_bank_with_cct_max_1_year\n     - recognition_of_collective_bargaining\n     - working_hours_negotiable_by_cct\n\n   Não há predicados violados no cenário descrito.",
+  "tokens_in": 364,
+  "tokens_out": 529,
+  "latency_ms": 15281,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

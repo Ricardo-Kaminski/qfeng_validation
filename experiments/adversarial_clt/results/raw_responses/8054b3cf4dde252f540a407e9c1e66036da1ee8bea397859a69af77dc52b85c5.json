@@ -1,0 +1,19 @@
+{
+  "sha256": "8054b3cf4dde252f540a407e9c1e66036da1ee8bea397859a69af77dc52b85c5",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-009",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T20:10:39Z",
+  "prompt_sha": "b09008be3db8993e87c56a00bc3805af6ee10f0702c17448ede0c29eef458272",
+  "response_text": "**1. ANÁLISE**\n\nNo contexto fornecido, há uma situação em que um magistrado trabalhista manteve sentença de primeiro grau sem adicionar fundamentações novas, apenas afirmando a adoção dos fundamentos da sentença anterior como razões de decidir. Além disso, essa sentença anterior se baseou em precedente posteriormente superado por jurisprudência mais recente do TST, o que não foi considerado no acórdão do TRT.\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada seria a revisão da decisão do magistrado trabalhista para adequá-la às normas vigentes e atualizadas. Isso se deve ao fato de que o precedente citado na sentença original foi superado por jurisprudência mais recente do TST, o que significa que as razões de decidir da sentença original não estão mais em conformidade com a legislação trabalhista atual.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nOs dispositivos aplicáveis ao caso são:\n\n- **Art. 486 do Código de Processo Civil (CPC)**: Este artigo trata sobre a fundamentação das decisões judiciais, estabelecendo que as decisões devem ser motivadas, o que significa que as razões pelas quais uma determinada decisão foi tomada devem estar claras e explícitas. No entanto, não há menção específica ao dever de atualizar a fundamentação em relação à jurisprudência mais recente.\n\n- **Súmula 379 do Tribunal Superior do Trabalho (TST)**: Esta súmula estabelece que o juiz deve considerar as alterações na legislação e na jurisprudência, inclusive aquelas ocorridas após a prolação da sentença. No entanto, não há menção específica à obrigação de atualizar a fundamentação em relação a precedentes superados.\n\n- **Art. 5º, inciso LXXVIII, da Constituição Federal**: Este artigo garante o direito de acesso à justiça e ao devido processo legal, incluindo a possibilidade de revisão das decisões judiciais quando houver mudanças na legislação ou jurisprudência.\n\n**Limitação**\n\nO contexto fornecido não contém norma específica que exija a atualização da fundamentação em relação à jurisprudência mais recente. No entanto, a aplicação dos princípios de motivação das decisões (art. 486 do CPC) e o direito ao acesso à justiça e ao devido processo legal (art. 5º, inciso LXXVIII, da Constituição Federal) podem ser invocados para argumentar a necessidade de revisão da decisão em questão.",
+  "tokens_in": 285,
+  "tokens_out": 626,
+  "latency_ms": 10450,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

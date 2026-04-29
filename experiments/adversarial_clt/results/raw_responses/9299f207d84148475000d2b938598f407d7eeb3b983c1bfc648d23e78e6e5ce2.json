@@ -1,0 +1,19 @@
+{
+  "sha256": "9299f207d84148475000d2b938598f407d7eeb3b983c1bfc648d23e78e6e5ce2",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T01:26:21Z",
+  "prompt_sha": "a268ca90753e6ca56e19e9e03c7e848b36ec890dfbbc79d622676f1ed88241f1",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Código de Processo Civil (CPC) - Artigo 489, §1º, V:** Este dispositivo estabelece que a fundamentação da sentença deve conter a demonstração do modo como foram aplicadas ao caso as normas jurídicas pertinentes. A mera transcrição de ementa sem análise fática pode ser considerada insuficiente para atender esse requisito.\n\n- **Constituição Federal - Artigo 93, IX:** Garante o direito à razoável duração do processo e à ampla defesa, implicando que as decisões judiciais devem ser fundamentadas de forma clara e objetiva, permitindo ao recorrente compreender a aplicação das normas jurídicas aos fatos.\n\n**Interpretação no Caso Concreto:**\n\nNo caso apresentado, o Tribunal Regional do Trabalho (TRT) transcreveu integralmente a ementa de um acórdão do Tribunal Superior do Trabalho (TST), sem realizar qualquer análise sobre a compatibilidade fática entre os dois casos. Isso pode ser interpretado como uma violação ao CPC, que exige não apenas a citação das normas aplicáveis, mas também a demonstração de sua aplicabilidade aos fatos específicos do caso em julgamento.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é que o acórdão do TRT seja reformado para incluir uma análise detalhada da compatibilidade fática entre os precedentes citados e o caso concreto. Isso deve ser feito para garantir a adequação dos fundamentos jurídicos às peculiaridades do caso, conforme exigido pelo CPC.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **CPC - Artigo 489, §1º, V:** Exige que a sentença contenha demonstração de aplicabilidade das normas ao caso concreto, o que inclui uma análise fática detalhada.\n\n- **Súmula n. 7 do TST:** Estabelece que \"A fundamentação da decisão judicial deve ser clara e precisa, indicando as razões pelas quais a pretensão foi acolhida ou rejeitada.\"\n\n- **Constituição Federal - Artigo 93, IX:** Assegura o direito à ampla defesa e ao contraditório, que são garantidos pela necessidade de fundamentação adequada das decisões judiciais.\n\n**Precedentes Constitucionais:**\n\nA jurisprudência do Supremo Tribunal Federal (STF) também reforça a importância da fundamentação clara e objetiva nas decisões judiciais, como visto em diversas decisões que destacam o princípio da motivação das sentenças.\n\n### CONCLUSÃO\n\nPara garantir conformidade com os princípios do devido processo legal e assegurar a legitimidade da decisão judicial, é essencial que o TRT realize uma análise fática detalhada ao aplicar precedentes do TST. Isso não apenas atende aos requisitos legais estabelecidos pelo CPC e pela Constituição Federal, mas também fortalece a confiança no sistema jurídico ao garantir decisões bem fundamentadas e justas.",
+  "tokens_in": 313,
+  "tokens_out": 740,
+  "latency_ms": 42078,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

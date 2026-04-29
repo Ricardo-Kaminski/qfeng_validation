@@ -1,0 +1,19 @@
+{
+  "sha256": "3ac46be0c8a21eec4151c4e5beb50d7dbe9a1611641588fe621592ff12918f3c",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T06:49:03Z",
+  "prompt_sha": "789bb3f3b629b4227cddab821933c060fd792fe2c27e2e611000914cf65be9d2",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a aplicação de um banco de horas anual previsto em uma Convenção Coletiva de Trabalho (CCT) entre a empresa e o sindicato dos trabalhadores. O dispositivo legal principal nesse caso é o artigo 59 da Consolidação das Leis do Trabalho (CLT), que trata sobre os bancos de horas.\n\nO artigo 59, parágrafo único, estabelece que \"A compensação de jornada excedente poderá ser feita dentro do prazo de até um ano, contado da data em que se operou o acréscimo.\"\n\n**Interpretação no caso concreto:**\n\nNo cenário apresentado, a empresa firmou uma CCT prevendo banco de horas anual e o trabalhador acumulou horas ao longo de 11 meses. A compensação das horas excedentes foi feita dentro do prazo de 12 meses estabelecido na CCT, mediante folgas, sem que a jornada diária ultrapassasse as 10 horas.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando o disposto no artigo 59 da CLT e o fato de que a compensação das horas excedentes foi feita dentro do prazo estabelecido na CCT, recomendo que seja **DEFINIDA A VALIDADE DA COMPENSAÇÃO DAS HORAS EXCEDENTES**.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   Artigo 59 da CLT: \"A compensação de jornada excedente poderá ser feita dentro do prazo de até um ano, contado da data em que se operou o acréscimo.\"\n*   Súmula 379 do TST: \"O banco de horas é facultativo e não pode ser imposto ao trabalhador. A sua utilização deve estar prevista no contrato coletivo ou individual de trabalho.\"\n\n**CONSIDERAÇÕES ADICIONAIS**\n\nA homologação da prestação anual de contas do banco de horas pelo sindicato é um passo importante, pois demonstra a observância das regras estabelecidas na CCT e no artigo 59 da CLT. Além disso, o fato de as folgas terem sido concedidas sem que a jornada diária ultrapassasse as 10 horas indica que a compensação foi feita de forma justa e respeitosa aos direitos do trabalhador.\n\nEm resumo, considerando a legislação aplicável e os fatos apresentados, recomendo que seja definida a validade da compensação das horas excedentes.",
+  "tokens_in": 298,
+  "tokens_out": 587,
+  "latency_ms": 19265,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

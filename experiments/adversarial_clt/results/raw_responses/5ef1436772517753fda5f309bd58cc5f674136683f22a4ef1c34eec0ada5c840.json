@@ -1,0 +1,26 @@
+{
+  "sha256": "5ef1436772517753fda5f309bd58cc5f674136683f22a4ef1c34eec0ada5c840",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T23:42:37Z",
+  "prompt_sha": "7660b2da54b47ec130cffef58432c2ae523cbf081d6549688005d26e1d75d53b",
+  "response_text": "1. **ANÁLISE:**\n\n   No cenário apresentado, o TRT utilizou a OJ 394 da SDI-1 do TST para fundamentar uma condenação por horas de sobreaviso. Contudo, essa Orientação Jurisprudencial foi cancelada em 2012 e substituída pela Súmula 428, que possui conteúdo parcialmente distinto. A decisão não menciona a Súmula 428 nem reconhece o cancelamento da OJ 394.\n\n   - **prohibition_of_generic_precedent_citation**: Este predicado normativo é diretamente aplicável ao caso. Ele estabelece que, após o cancelamento de uma Orientação Jurisprudencial (OJ) e sua substituição por outra forma de precedente, como uma Súmula, deve-se citar a nova norma vigente em vez da OJ cancelada. A decisão do TRT violou este princípio ao basear-se na OJ 394 sem reconhecer seu cancelamento e sem referenciar a Súmula 428.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Recomenda-se que o acórdão seja reformado para corrigir a citação normativa utilizada como fundamento da decisão. O TRT deve, portanto, basear sua condenação nas disposições atuais da Súmula 428 do TST, em vez de continuar referenciando a OJ 394, que já foi cancelada. Além disso, é importante que o acórdão reconheça explicitamente o cancelamento da OJ e justifique a aplicação das normas vigentes.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **prohibition_of_generic_precedent_citation**: Violação. A decisão do TRT não seguiu este princípio ao citar uma Orientação Jurisprudencial cancelada sem referenciar a norma atual (Súmula 428) que substituiu a OJ 394.\n\nEm resumo, o acórdão deve ser ajustado para cumprir com as exigências normativas vigentes, garantindo que a fundamentação jurídica esteja alinhada com os precedentes atuais do TST.",
+  "tokens_in": 339,
+  "tokens_out": 510,
+  "latency_ms": 14702,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

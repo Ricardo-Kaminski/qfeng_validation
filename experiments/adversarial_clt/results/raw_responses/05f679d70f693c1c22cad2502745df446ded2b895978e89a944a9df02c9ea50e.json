@@ -1,0 +1,26 @@
+{
+  "sha256": "05f679d70f693c1c22cad2502745df446ded2b895978e89a944a9df02c9ea50e",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T23:43:58Z",
+  "prompt_sha": "2ccf087828688c249158ffc8bae7cebf5d31cffd47aadf38f1078116d62627f1",
+  "response_text": "1. **ANÁLISE:**\n\nO predicado normativo aplicável ao caso é \"obligation_to_ground_decision_in_identified_ratio_decidendi\". Este princípio estabelece que qualquer decisão judicial deve ser fundamentada com base nos motivos de decidir identificados no processo, especialmente em situações onde se discute contradição ou erro material.\n\nNo cenário apresentado, a decisão dos embargos de declaração afirmou que \"não há contradição\" sem analisar o ponto específico apontado pela parte embargante. A parte embargante havia identificado uma suposta contradição no acórdão embargado, onde uma tese de recurso aplicada a uma parte foi usada para beneficiar a parte contrária, sem que houvesse contraditório adequado.\n\nA ausência de análise sobre o ponto específico da contradição apontada pela parte embargante indica que a decisão não cumpriu com a obrigação de fundamentar-se no ratio decidendi identificado. O juiz deveria ter examinado e discutido o argumento apresentado, para determinar se realmente havia ou não uma contradição na aplicação da tese jurídica.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada seria a reforma dos embargos de declaração para que o juiz realize uma análise detalhada do ponto específico de contradição apontado pela parte embargante. O magistrado deve examinar se houve, de fato, aplicação indevida da tese jurídica sem contraditório e, caso confirmada a existência de contradição ou erro material, corrigir o acórdão para assegurar a justiça processual.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n- **Violado:** \"obligation_to_ground_decision_in_identified_ratio_decidendi\" - A decisão não foi fundamentada com base no ponto específico de contradição identificado pela parte embargante, o que é obrigatório para garantir a clareza e correção jurídica da decisão.\n\n- **Cumpriu:** Não há predicados listados que foram cumpridos no cenário apresentado, pois a análise revela uma violação do princípio de fundamentação adequada.",
+  "tokens_in": 341,
+  "tokens_out": 526,
+  "latency_ms": 15327,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,29 @@
+{
+  "sha256": "68e89ecad88fe1694f2230f1b606cbcee09040da97fa84e3a9964cd83af68691",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-006",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:41:10Z",
+  "prompt_sha": "b5f3c80de151d181ed81c9553198da00fb088cfbddccc1f18b7d78267efcf67e",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas em Empresa de Limpeza Urbana\n\nCom base nos predicados normativos fornecidos e no cenário apresentado, apresento a análise, decisão recomendada e identificação de cumprimento/violação dos predicados:\n\n**1. ANÁLISE DOS PREDICADOS NORMATIVOS:**\n\n*   **`semester_hour_bank_requires_cct_or_act` (Banco de horas exige CCT ou ACT):** Este predicado é crucial para o caso. Ele estabelece que a implementação de um banco de horas, como forma de compensação de jornada, exige a aprovação por meio de um acordo coletivo de trabalho (ACT) ou convenção coletiva de trabalho (CCT). A CLT, em seu artigo 59, §2º, regulamenta a possibilidade de banco de horas, mas condiciona sua validade à forma prevista em lei, que é a negociação coletiva. A jurisprudência do TST tem reiteradamente reforçado essa necessidade de representação sindical para a validade do banco de horas, visando proteger os direitos dos trabalhadores e garantir a negociação justa das condições de trabalho.\n*   **`recognition_of_collective_bargaining` (Reconhecimento da negociação coletiva):** Este predicado reforça a importância da negociação coletiva como instrumento para a definição de condições de trabalho. A ausência de participação sindical no processo de criação do regulamento interno do banco de horas demonstra uma falha nesse reconhecimento, pois a voz dos trabalhadores, devidamente representada, não foi ouvida na definição das regras. A assembleia de empregados, por si só, não substitui a negociação coletiva formalizada por meio de ACT ou CCT.\n\n**Análise Específica do Caso:**\n\nA empresa tenta equiparar a assembleia de empregados a um ACT, argumentando que a aprovação por maioria dos trabalhadores seria suficiente para validar o regulamento interno do banco de horas. No entanto, essa interpretação não encontra respaldo na legislação e na jurisprudência do TST. A assembleia, embora importante como forma de manifestação da vontade dos empregados, não possui o mesmo efeito jurídico de um ACT, que é fruto de negociação entre empregadores e representantes sindicais dos trabalhadores. A ausência de representação sindical na assembleia compromete a legitimidade do regulamento interno, pois não garante que os direitos dos trabalhadores foram devidamente considerados e protegidos. A compensação mensal, mesmo que prevista no regulamento, não legitima a ausência de ACT ou CCT.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que a Justiça declare a **invalidade** do regulamento interno do banco de horas implementado pela empresa. A empresa deverá cessar a utilização do banco de horas até que um ACT ou CCT seja formalizado, que contemple a regulamentação do sistema de compensação de jornada, garantindo a representação sindical e a proteção dos direitos dos trabalhadores. A empresa deve buscar a negociação com o sindicato da categoria para formalizar o ACT ou CCT.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **`semester_hour_bank_requires_cct_or_act` (Banco de horas exige CCT ou ACT):** **Violação**. O regulamento interno do banco de horas foi implementado sem a aprovação por meio de ACT ou CCT.\n*   **`recognition_of_collective_bargaining` (Reconhecimento da negociação coletiva):** **Violação**. A ausência de representação sindical no processo de criação do regulamento interno demonstra a falta de reconhecimento da importância da negociação coletiva.\n\n**Observações:**\n\n*   A decisão final caberá ao Poder Judiciário, que avaliará as provas e argumentos apresentados pelas partes.\n*   A empresa pode tentar argumentar que a assembleia de empregados representa a vontade da maioria dos trabalhadores, mas essa alegação não é suficiente para suprir a necessidade de um ACT ou CCT.\n*   É importante que a empresa busque o diálogo com o sindicato para regularizar a situação e evitar futuros questionamentos judiciais.",
+  "tokens_in": 333,
+  "tokens_out": 900,
+  "latency_ms": 24764,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

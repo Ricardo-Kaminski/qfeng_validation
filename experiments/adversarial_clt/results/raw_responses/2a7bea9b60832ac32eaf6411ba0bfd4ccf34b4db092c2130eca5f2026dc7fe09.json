@@ -1,0 +1,19 @@
+{
+  "sha256": "2a7bea9b60832ac32eaf6411ba0bfd4ccf34b4db092c2130eca5f2026dc7fe09",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T01:24:56Z",
+  "prompt_sha": "856e569861e6d83958f31fa30fb38c506de39fc28b72d6768e2fbff573d5c742",
+  "response_text": "### 1. ANÁLISE\n\n#### Dispositivos Legais Aplicáveis:\n\n- **Constituição Federal de 1988 (CF/88), Artigo 93, IX**: Este dispositivo estabelece que todas as decisões judiciais devem ser fundamentadas, garantindo transparência e segurança jurídica ao processo. A falta de fundamentação pode configurar ofensa à Constituição.\n\n- **Lei nº 13.105/2015 (Código de Processo Civil - CPC)**: Artigo 489, inciso IV, estabelece que o juiz não conhecerá do recurso manifestamente protelatório. O conceito de \"manifestamente protelatório\" refere-se a recursos interpostos com intuito claro de retardar ou impedir a efetivação da decisão judicial.\n\n- **Súmula 7 do TST**: Define que o recurso manifestamente protelatório não será conhecido. A Súmula estabelece critérios para identificar recursos interpostos com intuito meramente dilatório.\n\n#### Interpretação no Caso Concreto:\n\nNo caso apresentado, o juiz negou seguimento ao recurso ordinário do metalúrgico sob a alegação de que era \"manifestamente protelatório\". No entanto, não especificou qual lei ou dispositivo jurídico fundamentava essa decisão. A ausência de fundamentação específica pode ser considerada uma violação ao princípio constitucional da motivação das decisões judiciais.\n\n### 2. DECISÃO RECOMENDADA\n\nRecomenda-se que a decisão do juiz seja reconsiderada para incluir a especificação dos dispositivos legais e fundamentos jurídicos que embasam a classificação do recurso como manifestamente protelatório. Isso é necessário para garantir o cumprimento do princípio constitucional de motivação das decisões judiciais.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **CF/88, Artigo 93, IX**: Exige que todas as decisões judiciais sejam fundamentadas, garantindo transparência e segurança jurídica ao processo.\n\n- **CPC, Artigo 489, IV**: Permite ao juiz não conhecer de recursos manifestamente protelatórios, mas exige que a decisão seja claramente fundamentada para evitar arbitrariedades.\n\n- **Súmula 7 do TST**: Estabelece critérios para identificar recursos interpostos com intuito meramente dilatório e não conhecê-los. A aplicação dessa súmula deve ser acompanhada de fundamentação clara que demonstre a manifesta protelação.\n\n#### Precedentes Constitucionais:\n\nA jurisprudência do Supremo Tribunal Federal (STF) reforça o princípio da motivação das decisões judiciais como essencial para a garantia dos direitos fundamentais, especialmente no que tange à segurança jurídica e ao devido processo legal.\n\n### Conclusão\n\nPara assegurar a conformidade com os princípios constitucionais e normativos aplicáveis, é imprescindível que o juiz forneça uma fundamentação clara e específica para a decisão de negar seguimento ao recurso ordinário. Isso não apenas respeita o direito do reclamante à motivação da decisão, mas também fortalece a legitimidade e transparência do processo judicial.",
+  "tokens_in": 296,
+  "tokens_out": 767,
+  "latency_ms": 44046,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

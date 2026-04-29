@@ -1,0 +1,27 @@
+{
+  "sha256": "2ad02dc9c4a34fd9f2d5b1c72b5de490fdca0a56588f65bdaec27e0ddcbf0a1f",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T22:50:53Z",
+  "prompt_sha": "9ddadcfbd5dbebfc988f0d0afbf51a1545713cd3a59a541f7d3ad04a951daf64",
+  "response_text": "### 1. **ANÁLISE: Aplicação dos Predicados Normativos ao Caso Concreto**\n\n- **hour_bank_with_cct_max_1_year**:  \n  Esse predicado estabelece que o **prazo máximo para compensação de horas em um banco de horas acordado em uma Convenção Coletiva de Trabalho (CCT)** não pode ultrapassar **1 ano**. No caso, a CCT previa um banco de horas **semestral (6 meses)**, mas a compensação ocorreu em **8 meses**, incluindo o período útil (após a licença maternidade).  \n  - **Alicerce Normativo**: A CLT e jurisprudência do TST reconhecem que o prazo de compensação do banco de horas deve ser **compatível com o termo acordado na CCT**. Se o prazo acordado foi de 6 meses, a compensação em 8 meses **ultrapassa o limite estabelecido**, mesmo que o período de licença maternidade tenha sido excluído da contagem.  \n  - **Conflito**: A empresa alega que o prazo foi cumprido, mas a **contagem de 8 meses** (independentemente da suspensão durante a licença) **viola o limite de 1 ano** estabelecido pelo predicado.  \n\n- **recognition_of_collective_bargaining**:  \n  Esse predicado reforça que **acordos coletivos são vinculantes** e devem ser respeitados integralmente, incluindo termos como prazos de compensação de horas.  \n  - **Alicerce Normativo**: A CCT é um instrumento normativo de força obrigatória, e sua aplicação deve ser **rigorosa**. A empresa **suspendeu o cômputo do banco de horas durante a licença maternidade**, o que **não é proibido**, mas **não altera o prazo máximo de compensação acordado**.  \n  - **Conflito**: A compensação em 8 meses **não está alinhada com o prazo de 6 meses** acordado, o que **viola o princípio da observância integral da CCT**.\n\n---\n\n### 2. **DECISÃO RECOMENDADA**\n\nA **empresa deve reconhecer que a compensação em 8 meses viola o prazo máximo de 6 meses acordado na CCT**, mesmo que o período de licença maternidade tenha sido excluído da contagem.  \n- **Fundamento**: O **prazo máximo de compensação** (6 meses) é um **termo essencial da CCT**, e sua **ultrapassagem** configura **violação do acordo coletivo**, independentemente da suspensão durante a licença.  \n- **Recomendação**: A empresa deve **revisar o prazo de compensação** para garantir conformidade com a CCT e, se necessário, **renegociar termos com a trabalhadora** ou a categoria representativa.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **hour_bank_with_cct_max_1_year**: **Violação**  \n  - **Motivo**: A compensação ocorreu em **8 meses**, ultrapassando o prazo de **6 meses** acordado na CCT, mesmo que o período de licença tenha sido excluído.  \n\n- **recognition_of_collective_bargaining**: **Violação**  \n  - **Motivo**: A empresa **não respeitou integralmente os termos da CCT**, ao permitir a compensação em um prazo maior que o acordado, **desrespeitando o princípio da vinculação dos acordos coletivos**.  \n\n---\n\n### **Conclusão Normativa**  \nA **violação dos dois predicados** configura **incumprimento legal e coletivo**, exigindo que a empresa:  \n1. **Reconheça a violação** do prazo máximo de compensação (6 meses).  \n2. **Restabeleça a conformidade** com a CCT, ajustando o prazo de compensação ou renegociando termos.  \n3. **Evite penalidades** por descumprimento de normas trabalhistas e coletivas.",
+  "tokens_in": 357,
+  "tokens_out": 2269,
+  "latency_ms": 70328,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

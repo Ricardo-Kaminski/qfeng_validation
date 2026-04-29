@@ -1,0 +1,30 @@
+{
+  "sha256": "54f625fb5a423704e281c87f7453e65c7d2dc9a10bceb494f17b3e6db74a0c3e",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:05:06Z",
+  "prompt_sha": "10d9b2fbb4ee509c4f26baa324dc98f4f9ca6d963ab67e38165e303c94f53cd8",
+  "response_text": "## ANÁLISE DO CASO À LUZ DOS PREDICADOS NORMATIVOS\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, a análise se desenvolve da seguinte forma:\n\n**1. ANÁLISE DA APLICAÇÃO DOS PREDICADOS:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** Este predicado exige que a decisão judicial seja fundamentada em um raciocínio lógico e claro, extraído da ratio decidendi das normas aplicáveis. No caso, o Acórdão do TRT demonstra cumprimento rigoroso deste predicado. Ele identifica especificamente os itens I, II e V da Súmula TST 85, que tratam da validade do banco de horas, e os utiliza como base para sua argumentação. A decisão não é genérica, mas detalha como cada item da Súmula se aplica aos fatos do caso. A rejeição da tese da empresa também é devidamente justificada, demonstrando a conexão entre a lei/jurisprudência e a conclusão.\n*   **sumula_tst_85_hour_bank_without_cct_invalid:** A Súmula TST 85, em seus itens I, II e V, estabelece que a implementação de um banco de horas é válida apenas se houver acordo ou convenção coletiva de trabalho (CCT) ou acordo coletivo de trabalho (ACT). A ausência de CCT/ACT torna o banco de horas inválido. O Acórdão do TRT corretamente aplica essa Súmula, concluindo que, na ausência de CCT/ACT, as horas extras devem ser pagas com o adicional de 50%. O cenário descreve que o Acórdão demonstra a inexistência de CCT/ACT, corroborando a aplicação da Súmula.\n*   **due_process_of_law:** Este predicado garante o direito ao devido processo legal, que inclui o direito à ampla defesa e ao contraditório. A decisão do TRT, ao analisar a tese da empresa de \"acordo tácito\" e rejeitá-la com fundamentação, demonstra o cumprimento do devido processo legal. A empresa teve a oportunidade de apresentar sua defesa, e o Tribunal analisou seus argumentos e os refutou com base na lei e na jurisprudência. A rejeição do \"acordo tácito\" como substituto para CCT/ACT reforça a proteção do direito do trabalhador.\n\n**2. DECISÃO RECOMENDADA:**\n\nA decisão do Acórdão do TRT, conforme descrita no cenário, é a decisão recomendada. Ela está em consonância com a legislação e a jurisprudência aplicáveis, e demonstra o cumprimento do devido processo legal. A condenação ao pagamento de horas extras com adicional de 50% é a medida correta diante da ausência de CCT/ACT.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** **Conformidade**. O Acórdão demonstra fundamentação clara e detalhada na ratio decidendi da Súmula TST 85.\n*   **sumula_tst_85_hour_bank_without_cct_invalid:** **Conformidade**. A aplicação da Súmula é correta, considerando a ausência de CCT/ACT.\n*   **due_process_of_law:** **Conformidade**. A análise da tese da empresa e a rejeição fundamentada demonstram o cumprimento do devido processo legal.\n\n**Em resumo:** A decisão do TRT está alinhada com a legislação e a jurisprudência, e cumpre os predicados normativos estabelecidos. A condenação ao pagamento de horas extras com adicional de 50% é a consequência lógica da ausência de CCT/ACT para a implementação do banco de horas. A fundamentação do Acórdão demonstra o respeito ao devido processo legal e à importância da ratio decidendi na construção da decisão judicial.",
+  "tokens_in": 397,
+  "tokens_out": 883,
+  "latency_ms": 24485,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

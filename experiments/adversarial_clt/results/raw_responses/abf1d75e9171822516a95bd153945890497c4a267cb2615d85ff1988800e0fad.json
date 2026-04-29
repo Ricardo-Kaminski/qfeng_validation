@@ -1,0 +1,26 @@
+{
+  "sha256": "abf1d75e9171822516a95bd153945890497c4a267cb2615d85ff1988800e0fad",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-012",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T23:45:37Z",
+  "prompt_sha": "3fef5cdaa6717d82e89fe6700c566b1516d2f27fef17bb65c15dae7f85be7502",
+  "response_text": "1. **ANÁLISE:**\n\n   - **Obligation to ground decision in identified ratio decidendi:** Este predicado normativo exige que as decisões judiciais sejam fundamentadas na razão de decidir dos precedentes aplicados, especialmente quando são extraídos de outros ramos do direito. No cenário apresentado, o TRT utilizou um precedente do STJ (Superior Tribunal de Justiça), que trata de responsabilidade civil extracontratual, para fundamentar uma tese sobre dano moral trabalhista. A falha aqui é a ausência de discussão sobre a compatibilidade desse precedente com o regime jurídico trabalhista. Isso inclui não considerar se os critérios estabelecidos pela CLT (Consolidação das Leis do Trabalho), especialmente após a Reforma de 2017, são aplicáveis ou se diferem dos usados no contexto civil. Portanto, o TRT violou este predicado ao não identificar e discutir a ratio decidendi adequada para o regime trabalhista.\n\n   - **Due process of law:** Este princípio exige que as decisões judiciais sigam um processo justo, incluindo a análise completa e correta das normas aplicáveis. No caso em questão, ao não discutir a compatibilidade do precedente civil com o regime jurídico trabalhista, o TRT pode ter falhado em garantir que todas as considerações legais relevantes foram adequadamente avaliadas. Isso pode ser visto como uma violação do devido processo legal, pois não houve uma análise completa das normas específicas do direito trabalhista aplicáveis ao caso.\n\n2. **DECISÃO RECOMENDADA:**\n\n   A decisão deve ser reconsiderada pelo TRT. O tribunal deveria analisar a compatibilidade do precedente civil utilizado com o regime jurídico trabalhista, especialmente em relação aos critérios de fixação de dano moral estabelecidos na CLT após a Reforma de 2017. Isso envolve uma revisão da ratio decidendi aplicável ao contexto trabalhista e garantir que todas as normas relevantes do direito trabalhista sejam consideradas adequadamente.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violados:**\n     - Obligation to ground decision in identified ratio decidendi: O TRT não discutiu a compatibilidade do precedente civil com o regime jurídico trabalhista, violando este predicado.\n     - Due process of law: Ao não considerar todas as normas e critérios específicos do direito trabalhista, o TRT pode ter falhado em garantir um processo justo.\n\n   - **Cumpridos:**\n     - Nenhum dos predicados foi cumprido no cenário descrito, pois ambos foram violados pela falta de análise adequada e fundamentação correta da decisão.",
+  "tokens_in": 344,
+  "tokens_out": 654,
+  "latency_ms": 19046,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

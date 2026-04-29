@@ -1,0 +1,19 @@
+{
+  "sha256": "6e9661dc62218262564fb4fdd7df25ca73d3ef2b83d60f3bade60c126eb1aafe",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-001",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T11:32:51Z",
+  "prompt_sha": "54fed52f1361028c4b39bac92f25e2dfe4146042ea59002edc5741c8f1792790",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a empresa de call center implementou um banco de horas unilateralmente através de memorando interno assinado pelos empregados, sem negociação sindical prévia. Os empregados acumularam até 120 horas em um período de nove meses. A empresa alega que os acordos individuais são válidos para bancos de horas de até seis meses, mas o sindicato da categoria não autorizou qualquer Acordo Coletivo de Trabalho (ACT) ou Convenção Coletiva de Trabalho (CCT) que permitisse tal prática.\n\nOs dispositivos normativos aplicáveis incluem:\n\n- **Artigo 59 da CLT**: Regula o banco de horas, estabelecendo que ele deve ser pactuado em acordo coletivo ou convenção coletiva de trabalho. O artigo também determina que o banco não pode exceder 200 horas e deve ser utilizado dentro do prazo máximo de dois anos.\n  \n- **Súmula 331 do TST**: Estabelece que \"o banco de horas é instituto regulado pelo art. 59 da CLT, sendo vedada a sua utilização sem prévia negociação coletiva\".\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada seria considerar o banco de horas implementado pela empresa como inválido, pois não houve negociação sindical prévia para autorizar tal prática. A empresa deve cessar a utilização do banco de horas sob as condições atuais e devolver as horas excedentes aos empregados.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Artigo 59 da CLT**: Este artigo estabelece que o banco de horas só pode ser implementado mediante acordo coletivo ou convenção coletiva, e não por acordos individuais. Além disso, limita a acumulação máxima a 200 horas e o prazo para utilização a dois anos.\n\n- **Súmula 331 do TST**: Confirma que o banco de horas é um instituto regulado pelo artigo 59 da CLT e não pode ser utilizado sem prévia negociação coletiva. Isso invalida os acordos individuais feitos unilateralmente pela empresa.\n\nPortanto, a ausência de autorização sindical para o banco de horas torna a prática inválida conforme as normas trabalhistas vigentes no Brasil. A empresa deve ajustar sua política de banco de horas em conformidade com a legislação e os princípios da negociação coletiva.",
+  "tokens_in": 291,
+  "tokens_out": 580,
+  "latency_ms": 33141,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,30 @@
+{
+  "sha256": "80889ff27beced4f5cfb1e58cc26b851ce67013729886d332c0b990c99d27dbe",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-007",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:32:32Z",
+  "prompt_sha": "87cfca1418f3f656618cfac13aa7f2dd97f0633ba491f0fa22ab0f1a80de9a98",
+  "response_text": "**1. ANÁLISE**\n\na) **obligation_to_ground_decision_in_identified_ratio_decidendi**: O predicado exige que a decisão seja fundamentada em razões de Direito identificadas e explicitadas na sentença, relacionando-se ao caso concreto. Nesse cenário, o TRT analisou os fatos (gravidez ocorreu antes da dispensa) e aplicou as normas pertinentes (CF/88 Art. 10, II, \"b\" (ADCT), Súmula TST 244 e OJ 399 da SDI-1). A decisão explicitamente fundamentou-se na OJ 399 para afastar a exigência de comunicação prévia da gravidez ao empregador. Portanto, o predicado foi **cumprido**.\n\nb) **due_process_of_law**: Este predicado exige que todos os direitos do trabalhador sejam respeitados e garantidos no processo, incluindo a oportunidade de defesa. A decisão mencionou expressamente as normas aplicáveis (CF/88 Art. 10, II, \"b\" (ADCT), Súmula TST 244 e OJ 399 da SDI-1) e analisou os fatos para concluir pela nulidade da dispensa e reintegração do trabalhador gestante. A decisão também afastou a exigência de comunicação prévia da gravidez, o que é um direito garantido ao trabalhador. Portanto, o predicado foi **cumprido**.\n\n**2. DECISÃO RECOMENDADA**\n\nCom base nos predicados normativos aplicáveis e na análise realizada, a decisão recomendada é a de **MANTER** a decisão do TRT, pois ela está fundamentada em razões de Direito identificadas e explicitadas (obligation_to_ground_decision_in_identified_ratio_decidendi) e respeita os direitos do trabalhador garantidos no processo (due_process_of_law).\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **cumprido**: obligation_to_ground_decision_in_identified_ratio_decidendi\n- **cumprido**: due_process_of_law",
+  "tokens_in": 387,
+  "tokens_out": 495,
+  "latency_ms": 8421,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

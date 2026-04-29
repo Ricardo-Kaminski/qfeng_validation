@@ -1,0 +1,27 @@
+{
+  "sha256": "6495d5bc9ad4e0e858dcb01cc2b388765858514a7e61072c1831cdcccaf27d17",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-007",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:00:53Z",
+  "prompt_sha": "2c03cb68f103668260b4613de27731cfa0657d298f5e8f8f441eed46e4ed0161",
+  "response_text": "### 1. ANÁLISE:\n\n**a. validity_of_cct_annual_hour_bank_banking_sector**\n\nEste predicado normativo confirma a validade de um banco de horas anual no setor bancário, conforme previsto na CCT (Convenção Coletiva de Trabalho) e alinhado com jurisprudência específica do TST. No cenário apresentado, a CCT estabelece um banco de horas válido por 12 meses, o que está em conformidade com este predicado.\n\n**b. stf_tema1046_binding_precedent_applied**\n\nO Tema 1046 do STF trata da possibilidade de compensação de jornada e salário para fins de cumprimento da duração máxima da jornada semanal ou diária, desde que haja acordo ou convenção coletiva. A aplicação deste precedente no caso em questão reforça a validade do banco de horas anual previsto na CCT, pois está alinhado com o entendimento do STF sobre compensações.\n\n**c. hour_bank_with_cct_max_1_year**\n\nEste predicado estabelece que um banco de horas pode ser estipulado por até 1 ano através de uma CCT. No cenário descrito, a CCT prevê exatamente esse prazo (12 meses), o que está em conformidade com este predicado.\n\n### 2. DECISÃO RECOMENDADA:\n\nCom base nos predicados normativos aplicáveis e na análise do cenário, recomenda-se que a decisão seja favorável à manutenção da validade do banco de horas anual estabelecido pela CCT no setor bancário. O banco de horas, desde que compensado dentro do prazo estipulado (12 meses), não gera direito ao adicional de horas extras conforme esclarecido pelo sindicato e alinhado com a jurisprudência vigente.\n\n### 3. PREDICADOS VIOLADOS OU CUMPRIDOS:\n\n- **Cumpridos:**\n  - *validity_of_cct_annual_hour_bank_banking_sector*: A CCT prevê um banco de horas anual válido e em conformidade com a jurisprudência do TST.\n  - *stf_tema1046_binding_precedent_applied*: O entendimento sobre compensação de jornada está alinhado com o Tema 1046/STF.\n  - *hour_bank_with_cct_max_1_year*: A CCT estabelece um banco de horas por até 1 ano, conforme permitido.\n\nNenhum dos predicados foi violado no cenário apresentado.",
+  "tokens_in": 394,
+  "tokens_out": 569,
+  "latency_ms": 16671,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

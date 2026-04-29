@@ -1,0 +1,19 @@
+{
+  "sha256": "610c0e0eb8a25eff2b81039c6521f8edd31d03779792fd97f8608694a6686ee4",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T12:15:02Z",
+  "prompt_sha": "2fe1ebedc34b383e50481fe1e95a5b121569d27c199d9e90565501c9e095e99d",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a decisão em embargos de declaração identificou uma omissão referente à ausência de análise do Artigo 20 da Lei de Introdução às Normas do Direito Brasileiro (LINDB) sobre o impacto sistêmico da decisão no setor econômico. O Artigo 20 da LINDB trata do princípio da analogia e dos casos omissos, estabelecendo que a lei se aplica por analogia quando não houver norma expressa para uma situação específica.\n\nA análise realizada enfrentou esse argumento com referência à jurisprudência do Superior Tribunal de Justiça (STJ) sobre a aplicação da LINDB em casos trabalhistas. A conclusão foi que o Artigo 20 da LINDB não se aplica ao caso trabalhista individual, pois a matéria é regida por normas específicas do Direito do Trabalho.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada deve ser manter a conclusão de que o Artigo 20 da LINDB não se aplica ao caso trabalhista individual, desde que essa análise esteja bem fundamentada e motivada. A justificativa é que o Direito do Trabalho possui normas próprias que regem as relações individuais de trabalho, e a aplicação analógica prevista na LINDB não se sobrepõe às regras específicas estabelecidas pelo ordenamento jurídico trabalhista.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Artigo 20 da Lei de Introdução às Normas do Direito Brasileiro (LINDB):** Este dispositivo trata da aplicação analógica das leis e dos casos omissos, mas sua aplicabilidade deve ser limitada em matérias que possuem normas específicas, como é o caso do Direito do Trabalho.\n\n- **Jurisprudência do STJ:** Embora não seja um dispositivo normativo explícito no contexto fornecido, a referência à jurisprudência do STJ sobre a aplicação da LINDB em casos trabalhistas é crucial. O entendimento consolidado pelo STJ é que as regras específicas do Direito do Trabalho prevalecem sobre a analogia prevista na LINDB.\n\nEm resumo, a decisão deve ser fundamentada no princípio de que o ordenamento jurídico trabalhista possui normas próprias que devem ser aplicadas diretamente às questões individuais de trabalho, sem recorrer à analogia prevista na LINDB.",
+  "tokens_in": 300,
+  "tokens_out": 586,
+  "latency_ms": 32311,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

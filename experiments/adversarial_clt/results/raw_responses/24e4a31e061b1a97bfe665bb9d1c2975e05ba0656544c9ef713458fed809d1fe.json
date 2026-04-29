@@ -1,0 +1,26 @@
+{
+  "sha256": "24e4a31e061b1a97bfe665bb9d1c2975e05ba0656544c9ef713458fed809d1fe",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T22:08:34Z",
+  "prompt_sha": "7660b2da54b47ec130cffef58432c2ae523cbf081d6549688005d26e1d75d53b",
+  "response_text": "### 1. **ANÁLISE**  \nO **predicado normativo \"prohibition_of_generic_precedent_citation\"** estabelece que a jurisprudência do TST (ou de outros órgãos jurisdicionais) deve ser citada de forma específica, atualizada e conforme seu conteúdo vigente. No cenário descrito, o acórdão do TRT **viola esse princípio**, pois:  \n- **Cita uma OJ (Orientação Jurisprudencial) 394 da SDI-1 do TST**, que foi **cancelada em 2012** e **incorporada à Súmula 428** com conteúdo **parcialmente distinto**.  \n- **Não menciona a Súmula 428**, que é a norma vigente e correta para embasar a questão jurídica.  \n- **Não reconhece o cancelamento da OJ 394**, o que configura o uso de uma **jurisprudência desatualizada e inválida**.  \n\nEssa conduta viola o **proibição de citar precedentes genéricos ou desatualizados**, pois a decisão do TRT baseia-se em uma orientação jurisprudencial que **não mais é válida** e **não reflete a jurisprudência atual do TST**.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **decisão do TRT deve ser anulada ou reformulada**, pois:  \n- A **base jurídica utilizada (OJ 394) é inválida** e **não corresponde à jurisprudência vigente** (Súmula 428).  \n- A **omissão de mencionar a Súmula 428** e o **cancelamento da OJ 394** configura **violação do dever de atualização jurisprudencial**, que é obrigatório para garantir a **correção e a coerência da decisão**.  \n- A **aplicação de uma norma desatualizada** pode levar a **decisões injustas ou contrárias ao direito vigente**.  \n\nPortanto, o TRT deve:  \n- **Revogar a condenação** baseada na OJ 394;  \n- **Reavaliar o caso** com base na **Súmula 428** (que substituiu a OJ 394);  \n- **Reconhecer o cancelamento da OJ 394** e a **validade da Súmula 428** como referência jurisprudencial.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Violado**:  \n  - **prohibition_of_generic_precedent_citation** (o TRT citou uma OJ desatualizada e não mencionou a Súmula 428, violando o dever de usar precedentes válidos e específicos).  \n\n- **Cumprido**:  \n  - **Nenhum outro predicado normativo** está explicitamente mencionado no cenário, mas a **violação do \"prohibition_of_generic_precedent_citation\"** é a única identificada.  \n\n---\n\n### CONCLUSÃO  \nA decisão do TRT é **incompatível com a jurisprudência vigente do TST** e **viola o dever de citar precedentes atualizados**. A **anulação da condenação** e a **reavaliação do caso com base na Súmula 428** são medidas necessárias para garantir a **correção jurídica e a conformidade com as normas vigentes**.",
+  "tokens_in": 346,
+  "tokens_out": 1252,
+  "latency_ms": 37953,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

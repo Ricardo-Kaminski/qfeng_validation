@@ -1,0 +1,29 @@
+{
+  "sha256": "44ac838da323484a01ac832a074eb88579c912e61285cd4d47c62e45379b54c3",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T23:49:31Z",
+  "prompt_sha": "b661f2255b5502b8f1d54e8173e364eaea6fcc82df6fd0fce186a62f26ced61c",
+  "response_text": "1. **ANÁLISE:**\n\n   - **Predicado Normativo Aplicável:** `hour_bank_with_cct_max_1_year`\n\n     Este predicado estabelece que, segundo a Consolidação das Leis do Trabalho (CLT) e jurisprudência do Tribunal Superior do Trabalho (TST), o saldo de banco de horas firmado por Convenção Coletiva de Trabalho (CCT) deve ser utilizado ou compensado dentro de um prazo máximo de 1 ano. Caso não seja utilizado nesse período, as horas remanescentes devem ser pagas como hora extra.\n\n     No cenário apresentado, o empregado tinha saldo positivo de 80h no banco de horas estabelecido por CCT com compensação semestral. Como a rescisão ocorreu antes que esse prazo fosse completado e as horas não foram utilizadas ou compensadas, conforme previsto pela norma, essas horas devem ser pagas como hora extra, incluindo o adicional de 50%.\n\n2. **DECISÃO RECOMENDADA:**\n\n   A decisão recomendada é que a empresa deve pagar ao empregado as 80h remanescentes do banco de horas com o adicional de 50%, conforme estabelecido pelo predicado normativo `hour_bank_with_cct_max_1_year`. Isso porque, segundo a CLT e jurisprudência do TST, quando o saldo não é utilizado ou compensado dentro do prazo máximo de um ano, as horas devem ser pagas como hora extra.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violado:** `hour_bank_with_cct_max_1_year`\n     \n     A empresa violou este predicado ao não pagar o saldo remanescente do banco de horas como hora extra, com adicional de 50%, após a rescisão sem justa causa e antes que as horas pudessem ser utilizadas ou compensadas dentro do prazo máximo estabelecido pela CCT.\n\n   - **Cumprido:** Não há predicados cumpridos no cenário apresentado, já que o pagamento realizado pela empresa não está em conformidade com a normativa aplicável ao banco de horas.",
+  "tokens_in": 344,
+  "tokens_out": 492,
+  "latency_ms": 14375,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

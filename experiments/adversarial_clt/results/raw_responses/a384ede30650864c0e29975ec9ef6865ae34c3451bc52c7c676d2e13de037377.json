@@ -1,0 +1,19 @@
+{
+  "sha256": "a384ede30650864c0e29975ec9ef6865ae34c3451bc52c7c676d2e13de037377",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-012",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T01:43:36Z",
+  "prompt_sha": "6688cac2ef5765bbc62f211c0947d6bbb0a6ed631d1ef197288fd5bd77010a06",
+  "response_text": "### ANÁLISE:\n\n1. **Dispositivos Legais Aplicáveis**:\n   - **CLT (Consolidação das Leis do Trabalho)**: A CLT, especialmente após a Reforma Trabalhista de 2017, estabelece critérios específicos para o reconhecimento e quantificação de danos morais no âmbito trabalhista. O artigo 223-G da CLT introduziu normas sobre dano moral, destacando que sua fixação deve ser feita com base em critérios objetivos.\n   - **Precedentes do TST**: A jurisprudência do Tribunal Superior do Trabalho (TST) tem consolidado entendimentos específicos sobre danos morais no contexto trabalhista, diferenciando-se dos critérios aplicáveis na responsabilidade civil extracontratual.\n\n2. **Interpretação no Caso Concreto**:\n   - O uso de um precedente do STJ (Superior Tribunal de Justiça) para fundamentar uma decisão sobre dano moral trabalhista pode ser problemático se não houver uma análise cuidadosa da compatibilidade entre os regimes jurídicos civil e trabalhista. A responsabilidade civil extracontratual tem critérios próprios que podem divergir dos estabelecidos na CLT para danos morais.\n   - Após a Reforma Trabalhista, o TST vem adotando uma abordagem mais rigorosa e objetiva na fixação de indenizações por dano moral, buscando evitar arbitrariedades. A aplicação direta de critérios do STJ sem considerar essa evolução pode levar a decisões não alinhadas com o atual entendimento jurisprudencial trabalhista.\n\n### DECISÃO RECOMENDADA:\n\nA decisão deve ser revista para garantir que os critérios específicos da CLT e a jurisprudência do TST sobre dano moral sejam adequadamente considerados. O TRT deve realizar uma análise detalhada da compatibilidade entre o precedente civil utilizado e as normas trabalhistas, especialmente após a Reforma de 2017.\n\n### FUNDAMENTAÇÃO NORMATIVA:\n\n1. **Artigo 223-G da CLT**: Estabelece que a fixação do dano moral deve ser feita com base em critérios objetivos, evitando arbitrariedades.\n   \n2. **Súmula nº 331 do TST**: \"É devido o pagamento de indenização por dano moral quando houver ofensa à personalidade do empregado.\"\n\n3. **Jurisprudência do TST**:\n   - A jurisprudência tem se consolidado no sentido de que a fixação do valor da indenização por dano moral deve considerar critérios objetivos, como o grau de ofensa e as condições subjetivas da vítima, mas sempre dentro dos limites estabelecidos pela CLT.\n   - O TST tem reiterado que a análise do dano moral no âmbito trabalhista deve levar em conta a natureza específica das relações de trabalho e os princípios protetivos da legislação trabalhista.\n\n4. **Precedentes Constitucionais**:\n   - A Constituição Federal, em seu artigo 5º, inciso X, assegura o direito à indenização por dano moral, mas sua aplicação no âmbito trabalhista deve respeitar a legislação específica (CLT) e a jurisprudência consolidada pelo TST.\n\n### CONCLUSÃO:\n\nA decisão do TRT deve ser ajustada para refletir os critérios objetivos estabelecidos na CLT e a jurisprudência do TST, garantindo que o dano moral seja fixado de forma compatível com as normas trabalhistas vigentes. Isso evitará desalinhamentos entre os regimes jurídicos civil e trabalhista e promoverá uma aplicação justa e consistente das leis laborais.",
+  "tokens_in": 289,
+  "tokens_out": 897,
+  "latency_ms": 48547,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

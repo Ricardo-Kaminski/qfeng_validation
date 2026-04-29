@@ -1,0 +1,26 @@
+{
+  "sha256": "1d8d340bb402a162d40b858f5ae35d01d88cfddc9c44b5e0eb8ca178cd281c4f",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-009",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:21:04Z",
+  "prompt_sha": "d1fdc105e58bb56978ba05596e29a5c6877b1685ca6ea3d00eee6f782a96ee44",
+  "response_text": "**1. ANÁLISE**\n\na) **obligation_to_ground_decision_in_identified_ratio_decidendi**: Esse predicado normativo estabelece a obrigação de os magistrados fundamentarem suas decisões com base em uma razão decidente clara e identificada, que seja diretamente aplicável ao caso concreto. Nesse cenário, o magistrado trabalhista manteve a sentença sem acréscimo de fundamentação, apenas adotando os fundamentos da sentença anterior como razões de decidir. Isso viola o predicado porque não há uma fundamentação específica e clara que justifique a decisão tomada, especialmente considerando que a sentença original se baseou em um precedente posteriormente superado.\n\nb) **due_process_of_law**: Este predicado garante o direito de defesa e o processo justo. No cenário apresentado, não há evidências de violação desse princípio, pois a decisão do magistrado trabalhista se baseou na sentença anterior sem adicionar fundamentações novas. Contudo, a falta de consideração sobre a superação do precedente citado pela sentença original pode ser vista como uma omissão que poderia ter sido evitada com uma análise mais profunda dos fatos e da jurisprudência atual.\n\n**2. DECISÃO RECOMENDADA**\n\nConsiderando os predicados normativos aplicáveis, a decisão recomendada seria anular a sentença do magistrado trabalhista e determinar que ele reexamine o caso com fundamentação clara e identificada, considerando a jurisprudência mais recente do TST sobre o precedente citado pela sentença original. Isso garantiria um processo justo e observaria os princípios de fundamentação das decisões.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: Violada\n- **due_process_of_law**: Não há evidências claras de violação, mas a falta de consideração sobre a superação do precedente pode ser vista como uma omissão.\n\nObservação: A decisão recomendada visa garantir que as decisões sejam fundamentadas e observem os princípios processuais, mas é importante notar que a análise da conformidade ou violação dos predicados pode variar dependendo da interpretação específica do caso concreto.",
+  "tokens_in": 349,
+  "tokens_out": 538,
+  "latency_ms": 9014,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

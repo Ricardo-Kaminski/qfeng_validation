@@ -1,0 +1,19 @@
+{
+  "sha256": "4b8c74ea746515bce1a37211b12b8ffd7126dade6c7d6a0e77062a170fc885c7",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T07:12:37Z",
+  "prompt_sha": "7b0cbc03ad98143352874ea0c76ba5a873641ee2e08420b887502c4876d7fb17",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve uma empresa de manufatura com jornada de trabalho de 8 horas diárias e 44 horas semanais, sem banco de horas, trabalho noturno ou horas extras. Além disso, os intervalos intrajornada são concedidos integralmente e todos os registros de ponto são eletrônicos e auditáveis.\n\nOs dispositivos legais aplicáveis nesse cenário incluem:\n\n- Art. 7º, inciso XIII da Constituição Federal: Direito a remuneração do trabalho noturno superior à do trabalho diurno;\n- Art. 59 da CLT: Regulamenta o artigo anterior e estabelece que os trabalhadores têm direito a intervalos intrajornada de, no mínimo, uma hora para cada oito horas de duração da jornada de trabalho;\n- Art. 61 da CLT: Estabelece que as horas de intervalo devem ser remuneradas como trabalho efetivo;\n- Art. 59 e 61 da CLT também tratam sobre a remuneração do trabalho noturno, o qual deve ser superior ao trabalho diurno.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando que não há reclamação trabalhista pendente e os registros de ponto são eletrônicos e auditáveis, não há evidências de violação das normas trabalhistas. Portanto, a decisão recomendada é:\n\n- **Manter a jornada de trabalho atual**, pois ela atende aos requisitos legais aplicáveis (8 horas diárias e 44 horas semanais) e não há necessidade de alterações para evitar reclamações trabalhistas.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n1. **Constituição Federal**: O artigo 7º, inciso XIII estabelece o direito a remuneração do trabalho noturno superior à do trabalho diurno. Embora não haja trabalho noturno no cenário apresentado, essa disposição é importante para entender os princípios de proteção ao trabalhador.\n\n2. **CLT**: O artigo 59 estabelece a obrigatoriedade de intervalos intrajornada, enquanto o artigo 61 trata da remuneração desses intervalos como trabalho efetivo. Além disso, o artigo 7º da CLT também menciona a necessidade de remuneração superior para o trabalho noturno.\n\n3. **Súmulas do TST**: Embora não haja menção específica ao cenário apresentado, as súmulas do TST geralmente se referem à proteção dos direitos trabalhistas e à aplicação da CLT de forma a garantir esses direitos.\n\n4. **Precedentes Constitucionais**: Não há precedentes constitucionais específicos para esse cenário, mas a interpretação da CLT deve ser feita com base nos princípios constitucionais de proteção ao trabalho e à dignidade do trabalhador.\n\n**CONCLUSÃO**\n\nConsiderando os dispositivos legais aplicáveis e a falta de reclamações trabalhistas pendentes, não há necessidade de alteração na jornada de trabalho da empresa. A decisão recomendada é manter a jornada atual, pois ela atende aos requisitos legais e protege os direitos dos trabalhadores.",
+  "tokens_in": 301,
+  "tokens_out": 737,
+  "latency_ms": 22953,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

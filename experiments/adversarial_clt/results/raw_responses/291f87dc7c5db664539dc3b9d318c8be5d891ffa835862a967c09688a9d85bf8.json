@@ -1,0 +1,19 @@
+{
+  "sha256": "291f87dc7c5db664539dc3b9d318c8be5d891ffa835862a967c09688a9d85bf8",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-010",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T20:16:54Z",
+  "prompt_sha": "4cdcd4f77bd0a861ddff46ab4f73790ee608c80eaea3a8b6b5401e9be2942d4c",
+  "response_text": "**ANÁLISE**\n\nO caso apresentado envolve a empresa de tecnologia que firmou um Acordo Coletivo de Trabalho (ACT) com sindicato dos trabalhadores em informática. O ACT estabelece o banco de horas com compensação mensal, limitado a 40 horas mensais de acúmulo e prazo máximo de 5 meses.\n\n**DISPOSITIVOS DO CONTEXTO NORMATIVO APLICÁVEIS**\n\n- **CLT (Consolidação das Leis do Trabalho)**: Artigo 59 - \"O banco de horas poderá ser utilizado para compensação de jornada, desde que não exceda a 10% da jornada semanal normal.\" No entanto, o ACT estabelece limites mais rigorosos (40h mensais e prazo máximo de 5 meses), o que pode ser considerado como uma cláusula mais favorável aos trabalhadores.\n- **CLT**: Artigo 59, parágrafo único - \"A compensação da jornada de trabalho poderá ser feita mediante banco de horas, desde que não exceda a 10% da jornada semanal normal.\" O ACT estabelece uma limitação diferente (40h mensais), o que pode ser considerado como uma cláusula mais favorável aos trabalhadores.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é **VALIDAR O ACORDO COLETIVO DE TRABALHO (ACT)**, pois ele estabelece condições mais favoráveis aos trabalhadores do que as previstas na CLT. Além disso, o ACT foi devidamente registrado e os saldos são compensados dentro do prazo estabelecido.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n- A validade do ACT é fundamentada no Artigo 611 da CLT, que permite a celebração de acordos coletivos entre empregadores e sindicatos.\n- O fato de o ACT ter sido devidamente registrado é fundamental para sua validade (Artigo 615 da CLT).\n- A compensação dos saldos dentro do prazo estabelecido demonstra a boa-fé das partes envolvidas na negociação.\n\n**LIMITAÇÃO**\n\nNão há limitações no contexto fornecido que impeçam a aplicação das normas acima mencionadas.",
+  "tokens_in": 298,
+  "tokens_out": 521,
+  "latency_ms": 8743,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

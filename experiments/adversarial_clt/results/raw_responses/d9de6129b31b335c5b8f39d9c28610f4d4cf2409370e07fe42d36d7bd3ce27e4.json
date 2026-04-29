@@ -1,0 +1,26 @@
+{
+  "sha256": "d9de6129b31b335c5b8f39d9c28610f4d4cf2409370e07fe42d36d7bd3ce27e4",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-006",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T01:55:24Z",
+  "prompt_sha": "324f58b06ace5123feff726f55259a913c5f926bf4c3eff790b1b83195a3e292",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nA decisão judicial que indeferiu a prova pericial sem explicar quais documentos foram considerados suficientes ou quais fatos foram demonstrados viola **obrigações constitucionais e processuais** estabelecidas na legislação brasileira. O sistema Q-FENG identificou que:  \n- **Obrigação de explicitar as consequências práticas da decisão** (predicado `sovereign(obligation_to_state_practical_consequences_of_decision)`): A juíza não explicou como a ausência da prova pericial afeta o desfecho do processo, o que é essencial para a compreensão do réu e para a efetividade da justiça.  \n- **Proibição de citar precedentes genéricos** (predicado `sovereign(prohibition_of_generic_precedent_citation)`): A decisão não se fundamentou em normas específicas ou precedentes concretos, apenas em uma afirmação vaga (\"documentos já acostados\"), o que é incompatível com o princípio da motivação.  \n- **Obrigação de abordar todos os argumentos jurídicos** (predicado `sovereign(obligation_to_address_all_legal_arguments)`): A juíza não respondeu ao argumento da parte sobre a necessidade de uma análise técnica para comprovar fatos relevantes (ex.: horas extras, acidentes de trabalho).  \n- **Obrigação de fundamentar a decisão em razões identificáveis** (predicado `sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)`): A decisão não apontou quais documentos específicos (ex.: contratos, testemunhas, registros de ponto) foram considerados suficientes para substituir a prova pericial.  \n- **Obrigação constitucional de fundamentar decisões** (predicado `sovereign(constitutional_obligation_to_state_reasons_for_decisions)`): A falta de motivação viola o art. 5º, XXXV da CF/88, que garante o direito à ampla defesa e ao contraditório.  \n- **Direito de acesso à justiça e revisão judicial** (predicado `sovereign(right_of_access_to_justice_and_judicial_review)`): A ausência de fundamentação impede a revisão da decisão por instâncias superiores, comprometendo a segurança jurídica.  \n\nA violação desses princípios fundamentais justifica a recomendação de **anulação da decisão interlocutória** por deficiência de motivação, conforme o CPC, art. 489, §1º, I.\n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **`sovereign(obligation_to_state_practical_consequences_of_decision)`**: O juiz deve explicar **como a decisão afeta os direitos das partes** (ex.: se a ausência da prova pericial prejudica o direito à indenização).  \n- **`sovereign(prohibition_of_generic_precedent_citation)`**: Proíbe o uso de fundamentos genéricos (ex.: \"documentos já acostados\") sem vincular a norma ou precedente a **fatos específicos** do caso.  \n- **`sovereign(obligation_to_address_all_legal_arguments)`**: O juiz deve responder a **todos os argumentos da parte** (ex.: a necessidade de uma análise técnica para comprovar horas extras).  \n- **`sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)`**: A decisão deve se basear em **razões identificáveis** (ex.: \"o contrato de trabalho e o registro de ponto são suficientes para provar a jornada\").  \n- **`sovereign(constitutional_obligation_to_state_reasons_for_decisions)`**: O art. 5º, XXXV da CF/88 exige que a decisão seja **fundamentada em razões claras**, garantindo o direito à defesa.  \n- **`sovereign(right_of_access_to_justice_and_judicial_review)`**: A falta de motivação **impede a revisão judicial**, violando o direito à justiça e à efetividade do processo.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA juíza **não explicou por que os documentos já no processo são suficientes** para resolver o caso, nem disse quais documentos específicos (ex.: contrato de trabalho, registros de ponto) foram usados para tomar a decisão. Isso é **ilegal**, porque a lei exige que o juiz **explique claramente** como chegou à conclusão. A falta de explicação deixa o trabalhador sem saber **por que a prova pericial foi negada**, o que pode prejudicar seus direitos (ex.: não conseguir comprovar horas extras ou acidentes de trabalho). Por isso, a decisão deve ser **anulada**, para que a juíza explique melhor sua decisão e garantir que todos os direitos sejam respeitados.",
+  "tokens_in": 515,
+  "tokens_out": 1553,
+  "latency_ms": 47641,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

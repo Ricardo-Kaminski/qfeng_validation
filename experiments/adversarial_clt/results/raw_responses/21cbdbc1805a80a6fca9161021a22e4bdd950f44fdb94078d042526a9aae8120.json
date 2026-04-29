@@ -1,0 +1,26 @@
+{
+  "sha256": "21cbdbc1805a80a6fca9161021a22e4bdd950f44fdb94078d042526a9aae8120",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CTRL-NEG-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T23:29:43Z",
+  "prompt_sha": "d11d747246713e214367caa10635ee2da91740b47d7d1199b6d612847a92e627",
+  "response_text": "### 1. **ANÁLISE**  \nOs predicados normativos fornecidos (limites de horas diárias e semanais de trabalho) **não se aplicam diretamente ao cenário descrito**, pois o caso envolve a **demissão sem justa causa** e o **cumprimento das obrigações rescisórias**, e não a **organização do tempo de trabalho**.  \n\n- **maximum_daily_working_hours_8h** e **maximum_weekly_working_hours_44h** são normas que regulam a **duração da jornada de trabalho**, mas **não se relacionam com a demissão ou o pagamento de verbas rescisórias**.  \n- O cenário não menciona **excesso de horas trabalhadas**, **horas extras não remuneradas**, **violações de limites de jornada** ou **questões relacionadas à organização do tempo de trabalho**, o que torna esses predicados **irrelevantes** para a análise do caso.  \n- A empresa cumpriu as **obrigações rescisórias** (pago de todas as verbas no prazo legal, inclusão do seguro-desemprego, assinatura do recibo na presença do sindicato), o que **não envolve os limites de horas de trabalho**.  \n\n### 2. **DECISÃO RECOMENDADA**  \n- **Não há violação das normas fornecidas**, pois elas **não se aplicam ao caso**.  \n- A **empresa cumpriu suas obrigações legais** no momento da demissão, incluindo o pagamento das verbas rescisórias no prazo de 10 dias, o que está em conformidade com a legislação trabalhista (CLT, art. 487, § 1º, e Súmulas do TST).  \n- **Não há direito à indenização adicional** por parte do trabalhador, já que a demissão foi sem justa causa e a empresa cumpriu todas as formalidades legais.  \n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **maximum_daily_working_hours_8h**: **Não se aplica** ao caso.  \n- **maximum_weekly_working_hours_44h**: **Não se aplica** ao caso.  \n\n**Conclusão**:  \nOs predicados normativos fornecidos **não foram violados nem cumpridos**, pois **não se aplicam ao cenário descrito**. A empresa cumpriu suas obrigações rescisórias, e não há irregularidades identificáveis.",
+  "tokens_in": 377,
+  "tokens_out": 883,
+  "latency_ms": 28047,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

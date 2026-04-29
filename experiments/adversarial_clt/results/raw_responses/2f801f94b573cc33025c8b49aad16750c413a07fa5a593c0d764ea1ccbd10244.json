@@ -1,0 +1,26 @@
+{
+  "sha256": "2f801f94b573cc33025c8b49aad16750c413a07fa5a593c0d764ea1ccbd10244",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T00:14:48Z",
+  "prompt_sha": "d11d747246713e214367caa10635ee2da91740b47d7d1199b6d612847a92e627",
+  "response_text": "1. **ANÁLISE:**\n\n   - **maximum_daily_working_hours_8h:** Este predicado normativo estabelece que o trabalhador não deve exceder 8 horas de trabalho por dia. No cenário apresentado, não há informações sobre a jornada diária do trabalhador durante seu período de emprego. Portanto, não é possível determinar se este predicado foi cumprido ou violado com base nas informações fornecidas.\n\n   - **maximum_weekly_working_hours_44h:** Este predicado normativo estabelece que a jornada semanal máxima deve ser de 44 horas para o trabalhador. Assim como no caso anterior, não há detalhes sobre a carga horária semanal do empregado durante os três anos de trabalho. Portanto, também não é possível avaliar se este predicado foi cumprido ou violado.\n\n   No que diz respeito às verbas rescisórias e ao processo de demissão, o cenário descreve que todas as obrigações foram cumpridas pela empresa: pagamento do saldo de salário, aviso prévio indenizado proporcional (33 dias), férias proporcionais com 1/3 adicional, 13° salário proporcional, FGTS mais a multa de 40%, e habilitação para o seguro-desemprego. O recibo foi assinado na presença do sindicato, indicando conformidade com as normas trabalhistas.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base nos predicados normativos fornecidos e nas informações apresentadas no cenário, recomenda-se que não haja ação legal adicional por parte do trabalhador em relação à demissão ou ao pagamento das verbas rescisórias. A empresa cumpriu todas as obrigações legais relacionadas ao término do contrato de trabalho.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **maximum_daily_working_hours_8h:** Não há informações suficientes para determinar se foi cumprido ou violado.\n   \n   - **maximum_weekly_working_hours_44h:** Não há informações suficientes para determinar se foi cumprido ou violado.\n\n   As obrigações relacionadas às verbas rescisórias e ao processo de demissão foram cumpridas conforme as normas trabalhistas, indicando conformidade com os requisitos legais.",
+  "tokens_in": 375,
+  "tokens_out": 536,
+  "latency_ms": 15485,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

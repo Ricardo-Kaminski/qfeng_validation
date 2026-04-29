@@ -1,0 +1,26 @@
+{
+  "sha256": "eeedbfb084839a519ca5c205d3b8b334702e7dde5af4487754340f413fc22b35",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:24:14Z",
+  "prompt_sha": "0308e544333fc597abdf8b239f7b18e49c0e2a9c2b0a3284266fdfb3ee4d598d",
+  "response_text": "## ANÁLISE JURÍDICA DO CASO: Transcrição de Ementa do TST sem Cotejo Fático\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, a análise e a decisão recomendada são as seguintes:\n\n**1. ANÁLISE:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** Este predicado é o central para a análise do caso. Ele impõe a obrigação de fundamentar a decisão em um *ratio decidendi* identificado. A simples transcrição da ementa de um acórdão do TST, sem a devida análise e cotejo com os fatos do caso concreto, não demonstra que o *ratio decidendi* do precedente foi devidamente identificado e aplicado. A ementa é um resumo, e o *ratio decidendi* reside na fundamentação do acórdão, que precisa ser confrontada com a situação específica. A transcrição integral da ementa, por si só, não cumpre essa obrigação.  A decisão do TRT, ao transcrever a ementa sem análise comparativa, falha em demonstrar a aplicabilidade do precedente.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se o **provimento do recurso da parte vencida**. A decisão do TRT deve ser **anulada** ou, alternativamente, **revisada**. O TRT deve, em nova decisão, analisar minuciosamente os fatos do caso concreto e compará-los com os fatos que fundamentaram a decisão do TST transcrita.  É imprescindível que o TRT demonstre, de forma clara e objetiva, a aplicabilidade do precedente do TST ao caso em questão, explicitando as semelhanças e diferenças relevantes entre as situações.  A mera transcrição da ementa não substitui essa análise.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** **Violação**. A decisão do TRT não cumpriu essa obrigação, pois a transcrição da ementa não equivale a identificar e aplicar o *ratio decidendi* do precedente.\n*   **CPC Art. 489, §1°, V:** Embora não seja um predicado normativo listado, a alegação da parte vencida de violação ao artigo 489, §1°, V do CPC (obrigação de fundamentar a decisão, indicando os fatos e o *thema decidendum*), está diretamente relacionada à violação do predicado principal. A falta de cotejo fático impede o cumprimento da obrigação de fundamentação prevista no CPC.\n\n\n\n**Justificativa Adicional:**\n\nA jurisprudência do TST tem reiteradamente enfatizado a importância do cotejo analítico entre os fatos do caso concreto e os fatos que fundamentaram a decisão do precedente. A simples citação ou transcrição de ementas não é suficiente para garantir a correta aplicação da lei. A análise comparativa é essencial para evitar a aplicação indevida de precedentes, que poderia levar a decisões injustas e imprevisíveis. A exigência de demonstração de aplicabilidade, conforme o art. 489, §1°, V do CPC, reforça a necessidade de um exame aprofundado da relação entre o precedente e o caso concreto.",
+  "tokens_in": 330,
+  "tokens_out": 734,
+  "latency_ms": 20109,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

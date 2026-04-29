@@ -1,0 +1,30 @@
+{
+  "sha256": "fda7fc463012dee95923122c8071208ae829338d476b3caa36a073d7f9ac30d1",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T00:08:59Z",
+  "prompt_sha": "403966b1450a17b6aaa9968db2609853f7fb34f41a126c9530a8ad7a9b038bde",
+  "response_text": "1. **ANÁLISE:**\n\n   - **Obligation to Ground Decision in Identified Ratio Decidendi:** Este predicado normativo exige que qualquer decisão judicial seja fundamentada em um ratio decidendi identificável, ou seja, o motivo de direito que justifica a decisão. No cenário apresentado, a decisão em embargos de declaração enfrentou o argumento sobre a aplicação do Art. 20 da Lei de Introdução às Normas do Direito Brasileiro (LINDB) e concluiu motivadamente que não se aplica ao caso trabalhista individual. A análise foi feita com referência à jurisprudência do Superior Tribunal de Justiça (STJ), o que indica que a decisão está fundamentada em um motivo jurídico identificável e verificável, cumprindo assim este predicado.\n\n   - **Due Process of Law:** Este predicado normativo assegura que todos os procedimentos legais sejam seguidos de maneira justa e imparcial. No caso concreto, a decisão supriu a omissão inicial (ausência de análise do impacto sistêmico da decisão sobre o setor econômico) ao enfrentar o argumento com referência à jurisprudência do STJ. Ao fazer isso, a decisão seguiu um processo justo e completo, garantindo que todas as questões relevantes foram consideradas antes de chegar a uma conclusão. Portanto, este predicado também foi cumprido.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base nos predicados normativos aplicáveis ao caso, a decisão em embargos de declaração deve ser mantida. A decisão já supriu a omissão inicial com uma fundamentação jurídica identificável e verificável, cumprindo os requisitos do obligation to ground decision in identified ratio decidendi. Além disso, ao considerar todos os argumentos relevantes de forma justa e imparcial, também cumpriu o due process of law.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Cumpridos:**\n     - obligation to ground decision in identified ratio decidendi\n     - due process of law\n\n   Não há violação de predicados no cenário apresentado, já que ambos foram cumpridos conforme a análise realizada.",
+  "tokens_in": 364,
+  "tokens_out": 528,
+  "latency_ms": 15250,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

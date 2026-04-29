@@ -1,0 +1,19 @@
+{
+  "sha256": "d21ceee7985a14d5bb38053d25e7ca69de8709a40014d8e4af6ce7eecc8a2e0a",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T10:35:44Z",
+  "prompt_sha": "546394fb36fd08b3df6e32b19b12372b52cd2212d1c83ed9d8b946faff99ba6f",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \n- **CLT Art. 71**: Estabelece que o intervalo intrajornada mínimo é de **15 minutos**, sendo **obrigatório** para jornadas superiores a 6 horas.  \n- **Súmula TST 437**: Afirma que **a redução do intervalo intrajornada** (para menos de 15 minutos) **é inválida** se não houver **Convenção Coletiva de Trabalho (CCT)** expressamente autorizando a redução.  \n- **Tema 981/STF**: Determina que a **CCT pode reduzir o intervalo intrajornada para 30 minutos**, mas **apenas se houver previsão expressa** na convenção e **se a redução for compatível com a legislação trabalhista**.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**O TRT deve manter a decisão de revogar a sentença de primeiro grau e condenar o empregador ao pagamento integral do período suprimido como hora extra.**  \n\n**Justificativa**:  \n- A ausência de **CCT válida** autorizando a redução do intervalo intrajornada (como exigido pela **Súmula TST 437** e **Tema 981/STF**) torna ilegal a supressão do período previsto na **CLT Art. 71**.  \n- A **CLT Art. 71** e a **Súmula TST 437** são claras: **a redução do intervalo intrajornada** é **inválida** sem a existência de uma CCT específica.  \n- O **Tema 981/STF** reforça que, mesmo com uma CCT, a redução só é válida se **respeitar os limites legais** (neste caso, **30 minutos**), mas **não há CCT no caso**.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **CLT Art. 71**:  \n  > \"Art. 71. [...] O intervalo intrajornada, em qualquer hipótese, não será inferior a quinze minutos, sendo obrigatório para jornadas superiores a seis horas.\"  \n  - **Aplicação**: O empregador não pode reduzir o intervalo intrajornada abaixo de 15 minutos sem CCT válida.  \n\n- **Súmula TST 437**:  \n  > \"437. A redução do intervalo intrajornada, para menos de quinze minutos, é inválida, salvo se houver convenção coletiva de trabalho que expressamente autorize a redução.\"  \n  - **Aplicação**: A ausência de CCT inválida a redução, tornando o período suprimido **hora extra**.  \n\n- **Tema 981/STF**:  \n  > \"A redução do intervalo intrajornada para 30 minutos, prevista em convenção coletiva de trabalho, é válida, desde que compatível com a legislação trabalhista.\"  \n  - **Aplicação**: Mesmo com CCT, a redução só é válida se **expressamente prevista**. No caso, **não há CCT**, logo a redução é **inválida**.  \n\n**Limitação**:  \n- O contexto **não menciona outras normas** (como leis complementares ou acordos coletivos específicos), portanto, **não há base legal para validar a redução do intervalo intrajornada**.  \n\n--- \n\n**Conclusão**: A decisão do TRT está **alinhada com a legislação e as súmulas do TST**, garantindo o direito do trabalhador ao pagamento integral do período suprimido como hora extra.",
+  "tokens_in": 327,
+  "tokens_out": 1227,
+  "latency_ms": 77531,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,27 @@
+{
+  "sha256": "0f2668702563c19a23f30c0bb8a3234ba0cccc57d4229420eac53b38c7a93a7e",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T00:53:51Z",
+  "prompt_sha": "c7e8449adba3d199c2e40ce6b3b2330c3ed8856c57fb05362f83ba3b237f1489",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso: Jornada de 10h/dia e Banco de Horas\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, apresento a análise, decisão recomendada e identificação de cumprimento/violação dos predicados.\n\n**1. ANÁLISE:**\n\n*   **maximum_daily_working_hours_8h:** Este predicado, derivado do Art. 7º, XIII da Constituição Federal, estabelece o limite máximo de 8 horas diárias para a jornada de trabalho. A jornada de 10 horas diárias implementada pela empresa, mesmo que com a finalidade de compensação semanal através de banco de horas, **colide diretamente** com este limite. A existência de uma CCT que autoriza o banco de horas não é, por si só, suficiente para afastar a obrigatoriedade do cumprimento da jornada máxima diária de 8 horas. A CCT pode regular a forma como o banco de horas é implementado, mas não pode legalizar a desobediência à norma constitucional que fixa a duração máxima da jornada diária. A jurisprudência do TST tem sido consistente em limitar a possibilidade de desvio da jornada máxima diária, mesmo com CCT, a situações excepcionais e devidamente regulamentadas.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que a empresa **revise imediatamente** a jornada de trabalho implementada, adequando-a ao limite máximo de 8 horas diárias. A implementação do banco de horas deve ser revista para garantir que a compensação ocorra dentro do limite legal de 8 horas diárias, possivelmente através de ajustes na distribuição das horas ao longo da semana ou da utilização de folgas compensatórias.\n\nÉ crucial que a empresa dialogue com os trabalhadores e o sindicato para encontrar uma solução que atenda às necessidades da empresa e respeite os direitos dos empregados. A imposição unilateral de uma jornada de 10 horas diárias, mesmo com a justificativa do banco de horas, pode gerar passivos trabalhistas e judicialização da questão.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **maximum_daily_working_hours_8h:** **VIOLAÇÃO**. A jornada de 10 horas diárias implementada pela empresa excede o limite máximo de 8 horas estabelecido na Constituição Federal. A CCT, embora autorize o banco de horas, não pode legalizar a violação deste limite constitucional.\n\n**Observações Adicionais:**\n\n*   **Interpretação da CCT:** A CCT, ao autorizar o banco de horas, não pode ser interpretada como uma autorização irrestrita para desrespeitar a duração máxima da jornada diária. A interpretação deve ser restritiva, buscando a compatibilização com a Constituição Federal.\n*   **Negociação Coletiva:** Embora a CCT possa regular aspectos do banco de horas, a imposição de uma jornada de 10 horas diárias pode ser considerada uma matéria mais ampla que deveria ter sido objeto de negociação coletiva mais detalhada, com a participação dos representantes dos trabalhadores.\n*   **Riscos Trabalhistas:** A empresa corre o risco de ações judiciais movidas pelos trabalhadores, buscando o reconhecimento do direito à compensação das horas extras trabalhadas e outros danos decorrentes da jornada excessiva.\n*   **Jurisprudência:** É importante consultar a jurisprudência do TST sobre a aplicação do banco de horas e a possibilidade de desvio da jornada máxima diária, para garantir que a empresa esteja agindo em conformidade com a lei.\n",
+  "tokens_in": 336,
+  "tokens_out": 778,
+  "latency_ms": 21217,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

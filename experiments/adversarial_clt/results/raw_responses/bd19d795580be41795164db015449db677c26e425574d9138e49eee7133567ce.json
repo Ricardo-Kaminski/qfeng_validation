@@ -1,0 +1,19 @@
+{
+  "sha256": "bd19d795580be41795164db015449db677c26e425574d9138e49eee7133567ce",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T11:35:17Z",
+  "prompt_sha": "1ad0c5fecd20af805ec925f6ed0b3cd09a99177dbcc602b85fc9186e77490cd8",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a Rede de supermercados implementou um banco de horas com compensação em prazo de 4 meses mediante Acordo Coletivo de Trabalho (ACT) celebrado com o sindicato dos comerciários. No entanto, não houve registro do ACT na Superintendência Regional do Trabalho e Emprego (SRTE) dentro do prazo legal.\n\nOs dispositivos normativos aplicáveis ao caso incluem:\n\n- **Artigo 620 da CLT (Consolidação das Leis do Trabalho):** Este artigo estabelece que o ACT deve ser registrado na SRTE no prazo de 10 dias, contados da data de sua assinatura. O registro é uma condição para a validade do acordo.\n\n- **Súmula 331 do TST (Tribunal Superior do Trabalho):** Esta súmula afirma que o não cumprimento do prazo legal para o registro do ACT na SRTE acarreta sua nulidade, salvo se o atraso for devidamente justificado.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é considerar o ACT como inválido em relação à compensação no prazo de 4 meses por não ter sido registrado na SRTE dentro do prazo legal. A empresa deve cumprir com as normas estabelecidas pela CLT e pelo TST, que exigem o registro para a validade dos acordos coletivos.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Artigo 620 da CLT:** Este artigo determina que o ACT deve ser registrado na SRTE no prazo de 10 dias após sua assinatura, sendo este um requisito para a validade do acordo.\n\n- **Súmula 331 do TST:** Estabelece que o não cumprimento do prazo legal para o registro do ACT acarreta sua nulidade, salvo se houver justificativa plausível para o atraso. No caso apresentado, não há menção de qualquer justificativa para o atraso no registro.\n\nPortanto, com base nos dispositivos normativos mencionados, o ACT celebrado pela Rede de supermercados deve ser considerado inválido em relação à compensação estabelecida, até que seja regularmente registrado na SRTE.",
+  "tokens_in": 282,
+  "tokens_out": 527,
+  "latency_ms": 30062,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

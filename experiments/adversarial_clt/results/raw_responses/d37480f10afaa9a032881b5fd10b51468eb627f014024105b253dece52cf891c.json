@@ -1,0 +1,26 @@
+{
+  "sha256": "d37480f10afaa9a032881b5fd10b51468eb627f014024105b253dece52cf891c",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-006",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T22:05:26Z",
+  "prompt_sha": "853bce6697211f077507fea0253d75450971c248a5b84a4ee816407d1bbb991a",
+  "response_text": "### 1. **ANÁLISE**  \n**a) *Obligation_to_ground_decision_in_identified_ratio_decidendi***  \nA decisão interlocutória da juíza, ao indeferir a prova pericial, **não cumpriu a obrigação de fundamentar a decisão com o *ratio decidendi* identificado**, conforme previsto no **CPC Art. 489, §1°, I** (motivação da decisão). A juíza não especificou quais documentos acostados aos autos seriam suficientes para demonstrar o fato probatório, nem explicou como tais documentos substituem a necessidade da prova pericial. Isso viola o princípio da motivação das decisões, que exige que o magistrado **identifique claramente a razão jurídica e fática que fundamenta sua decisão**, permitindo à parte contrária compreender e contestar o raciocínio adotado.  \n\n**b) *Due_process_of_law***  \nA falta de motivação da decisão também **viola o direito à ampla defesa e ao devido processo legal**, garantidos pela **Constituição Federal (CF/88, art. 5°, LV)** e reforçados pela jurisprudência do TST. A parte que requereu a prova pericial tem o direito de saber **quais documentos foram considerados suficientes** e **como eles se relacionam com o fato probatório**. A ausência de fundamentação impede a efetiva defesa da parte, configurando uma violação do direito à informação e à possibilidade de contestação, elementos essenciais ao devido processo legal.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **decisão interlocutória deve ser anulada** por deficiência de motivação, conforme previsto no **CPC Art. 489, §1°, I**, e a juíza deve ser obrigada a **reexaminar a questão da admissibilidade da prova pericial**, com a **especificação clara dos documentos acostados aos autos** e a **explicação de como tais documentos demonstram o fato probatório**. A anulação da decisão interlocutória é necessária para garantir o cumprimento do princípio da motivação e o respeito ao direito à ampla defesa.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Violação**:  \n  - *Obligation_to_ground_decision_in_identified_ratio_decidendi* (a decisão não identificou o *ratio decidendi* com clareza, omitindo documentos e fato probatório demonstrado).  \n  - *Due_process_of_law* (a falta de motivação viola o direito à ampla defesa e ao devido processo legal, garantidos pela CF/88 e jurisprudência do TST).  \n\n- **Conformidade**:  \n  - Nenhum predicado foi cumprido, pois a decisão interlocutória **não atendeu aos requisitos mínimos de motivação e de respeito ao direito à defesa**.  \n\n--- \n\n**Observação**: A análise se baseia exclusivamente nos predicados normativos fornecidos, sem incluir outros princípios ou normas não mencionados.",
+  "tokens_in": 348,
+  "tokens_out": 1139,
+  "latency_ms": 34343,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

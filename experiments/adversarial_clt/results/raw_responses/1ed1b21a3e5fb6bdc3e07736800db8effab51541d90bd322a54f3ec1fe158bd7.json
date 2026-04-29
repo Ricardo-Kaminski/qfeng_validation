@@ -1,0 +1,19 @@
+{
+  "sha256": "1ed1b21a3e5fb6bdc3e07736800db8effab51541d90bd322a54f3ec1fe158bd7",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T08:20:24Z",
+  "prompt_sha": "54fed52f1361028c4b39bac92f25e2dfe4146042ea59002edc5741c8f1792790",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO caso envolve a implantação de **banco de horas** por uma empresa de call center, mediante **memorando interno assinado pelos empregados**, **sem negociação sindical**, e com **acúmulo de até 120h de banco no período de 9 meses**. A análise deve considerar os seguintes dispositivos do Direito do Trabalho brasileiro:  \n\n- **Art. 59 da CLT (Consolidação das Leis do Trabalho)**: Estabelece que o banco de horas só pode ser instituído por **acordo coletivo (ACT ou CCT)** ou **por solicitação individual do empregado**, e **não pode ultrapassar 6 meses**.  \n- **Súmula 172 do TST (Tribunal Superior do Trabalho)**: Determina que o **banco de horas só pode ser instituído por meio de acordo coletivo**, e não por ato unilateral da empresa.  \n\n### 2. **DECISÃO RECOMENDADA**  \n**A implantação do banco de horas pela empresa é ilegal**, e **os acordos individuais firmados pelos empregados são nulos**. A empresa deve:  \n- **Reembolsar ou compensar as horas acumuladas** (até 120h) de forma proporcional ao tempo de trabalho, conforme prevê o **Art. 59, § 2º da CLT**.  \n- **Suspender o uso do banco de horas** imediatamente, pois o período de 9 meses ultrapassa o limite legal de 6 meses estabelecido no **Art. 59 da CLT**.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 59 da CLT**:  \n  - *\"O banco de horas só pode ser instituído por meio de acordo coletivo, ou por solicitação individual do empregado, e não pode ultrapassar o período de 6 (seis) meses.\"*  \n  - **Aplicação ao caso**: A empresa implantou o banco de horas **unilateralmente**, **sem acordo coletivo**, e o período de 9 meses **excede o limite de 6 meses** estabelecido no artigo.  \n\n- **Súmula 172 do TST**:  \n  - *\"O banco de horas só pode ser instituído por meio de acordo coletivo.\"*  \n  - **Aplicação ao caso**: A ausência de **ACT ou CCT** autorizando o banco de horas (como destacado no contexto) **invalida a implantação unilateral**.  \n\n- **Art. 59, § 2º da CLT**:  \n  - *\"O tempo excedente do banco de horas, se não for compensado dentro do prazo legal, será remunerado com base no salário horário.\"*  \n  - **Aplicação ao caso**: As 120h acumuladas **devem ser reembolsadas** à empresa, conforme o salário horário dos empregados.  \n\n### **Limitação do contexto normativo**  \nO contexto **não menciona normas específicas sobre a validade de acordos individuais** para banco de horas. No entanto, a **Súmula 172 do TST** e o **Art. 59 da CLT** já **excluem a possibilidade de acordos individuais** para instituir o banco de horas, reforçando que **apenas acordos coletivos são válidos**.  \n\n---  \n**Conclusão**: A implantação do banco de horas pela empresa é **ilegal** por violar o **Art. 59 da CLT** e a **Súmula 172 do TST**, e a empresa deve **regularizar a situação** com reembolso das horas acumuladas e suspensão do sistema.",
+  "tokens_in": 288,
+  "tokens_out": 1406,
+  "latency_ms": 85889,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

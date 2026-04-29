@@ -1,0 +1,19 @@
+{
+  "sha256": "7725cb566a2ff53481597f4330e3f1b2e8159d24f8fa8f1813d7b9b9e13c98ce",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T20:14:17Z",
+  "prompt_sha": "2958cee28e7a701a18f57cc355fef5a0f23028baaba52627d910f4513b98c196",
+  "response_text": "**ANÁLISE**\n\nO caso envolve a demissão de um empregado sem justa causa e o pagamento de saldo remanescente no banco de horas. A empresa pagou o saldo como hora normal, não como hora extra, o que levanta a questão sobre a forma correta de pagamento do saldo.\n\n**DISPOSITIVOS DO CONTEXTO NORMATIVO APLICÁVEIS**\n\n*   Não há dispositivos específicos mencionados no contexto normativo. No entanto, podemos considerar a aplicação da Lei nº 10.406/2002 (Código Civil) e da Consolidação das Leis do Trabalho (CLT), que estabelecem as regras gerais sobre emprego e trabalho.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que o empregado tenha direito a receber o saldo remanescente no banco de horas como hora extra, com adicional de 50%, conforme estabelecido na CCT. Isso se baseia na interpretação da CLT e da CCT.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   A CLT (art. 59) estabelece que o empregado tem direito a receber o saldo remanescente no banco de horas, caso não seja compensado antes da rescisão do contrato.\n*   A CCT estabelece a compensação semestral e o adicional de 50% para as horas extras trabalhadas. Portanto, é razoável considerar que o empregado tenha direito ao pagamento das horas extras com adicional, conforme estabelecido na CCT.\n*   A Súmula nº 438 do TST estabelece que \"O saldo de horas não compensado deve ser pago como hora extra\".",
+  "tokens_in": 288,
+  "tokens_out": 390,
+  "latency_ms": 6576,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

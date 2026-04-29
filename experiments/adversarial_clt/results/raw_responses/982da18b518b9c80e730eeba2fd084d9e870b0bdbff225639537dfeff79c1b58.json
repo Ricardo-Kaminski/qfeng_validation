@@ -1,0 +1,19 @@
+{
+  "sha256": "982da18b518b9c80e730eeba2fd084d9e870b0bdbff225639537dfeff79c1b58",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-008",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T06:30:18Z",
+  "prompt_sha": "65ae71bdbd6a5957a903048be7849ac95f7c43a5d8cf96b88aa3d1dce5a8a617",
+  "response_text": "**ANÁLISE**\n\n1.  **Identificação dos dispositivos legais aplicáveis**: O caso em questão envolve a análise de horas de sobreaviso, o que remete ao artigo 59 da CLT, que estabelece regras para o trabalho em regime de sobreaviso.\n2.  **Interpretação no caso concreto**: A decisão do TRT se baseia na Orientação Jurisprudencial (OJ) 394 da SDI-1 do TST, que foi cancelada pelo TST em 2012 e incorporada à Súmula 428. No entanto, a decisão não menciona a Súmula 428 nem reconhece o cancelamento da OJ 394.\n\n**DECISÃO RECOMENDADA**\n\nDevido ao cancelamento da OJ 394 e sua subsequente incorporação parcial à Súmula 428, a decisão do TRT é inválida por falta de aplicação das normas atualizadas. Portanto, recomenda-se que o caso seja remetido para uma nova análise, considerando as disposições atuais da CLT e as súmulas do TST.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   **Artigo 59 da CLT**: Regulamenta o trabalho em regime de sobreaviso.\n*   **Súmula 428 do TST**: Incorporou parcialmente a OJ 394, mas com conteúdo distinto. A decisão não menciona essa súmula nem reconhece o cancelamento da OJ 394.\n*   **Cancelamento da OJ 394 em 2012**: Isso invalida a aplicação da OJ 394 como fundamento para a decisão do TRT.\n\n**CONCLUSÃO**\n\nA decisão do TRT, embasada na OJ 394 cancelada e incorporada à Súmula 428 sem reconhecimento desse fato, não é válida. É recomendável uma nova análise com base nas disposições atuais da CLT e súmulas do TST para garantir a aplicação das normas corretas no caso concreto.",
+  "tokens_in": 293,
+  "tokens_out": 481,
+  "latency_ms": 16718,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

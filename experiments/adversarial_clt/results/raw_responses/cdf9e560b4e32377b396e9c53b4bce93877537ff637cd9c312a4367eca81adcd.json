@@ -1,0 +1,19 @@
+{
+  "sha256": "cdf9e560b4e32377b396e9c53b4bce93877537ff637cd9c312a4367eca81adcd",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-012",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T20:11:36Z",
+  "prompt_sha": "010a064866f5ea0c4b62f002bb79c2c7d6aba595a7194825470e549ee36b292d",
+  "response_text": "**ANÁLISE**\n\n1.  Identificação dos dispositivos do contexto normativo aplicáveis ao caso:\n    *   A utilização de precedente do STJ (não do TST) sobre responsabilidade civil extracontratual para embasar tese sobre dano moral trabalhista sugere a necessidade de análise da compatibilidade com o regime jurídico trabalhista, especialmente quanto aos critérios de fixação de dano moral estabelecidos na CLT após a Reforma de 2017.\n2.  Decisão recomendada:\n    *   A decisão recomendada seria a de que o TRT não deve utilizar precedente do STJ (não do TST) sobre responsabilidade civil extracontratual para embasar tese sobre dano moral trabalhista, sem discutir a compatibilidade com o regime jurídico trabalhista. Isso porque os critérios de fixação de dano moral estabelecidos na CLT após a Reforma de 2017 são específicos do direito trabalhista e não podem ser aplicados diretamente da responsabilidade civil extracontratual.\n3.  Fundamentação normativa:\n    *   A fundamentação normativa deve considerar os dispositivos da CLT que estabelecem critérios para a fixação de dano moral, especialmente após a Reforma de 2017.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   Art. 186 do Código Civil: \"O dever de indenizar independe da existência de culpa.\"\n*   Súmula nº 362 do STJ: \"A responsabilidade civil objetiva não exclui a subjetiva.\"\n*   CLT (Consolidação das Leis do Trabalho), art. 186-A: \"O empregador ressarcirá ao trabalhador o valor da indenização por danos morais, de acordo com os critérios estabelecidos na legislação vigente.\"\n*   CLT (Consolidação das Leis do Trabalho), art. 186-B: \"A fixação do dano moral será feita com base nos critérios estabelecidos na legislação vigente, considerando a gravidade da lesão e o grau de culpa do empregador.\"",
+  "tokens_in": 279,
+  "tokens_out": 499,
+  "latency_ms": 8445,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

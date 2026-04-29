@@ -1,0 +1,19 @@
+{
+  "sha256": "e709f1e316c6e392c08cd44b8077c8269212110d3a2b7d7002c428d617ffdf6e",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T07:14:59Z",
+  "prompt_sha": "52ceb6ebc2f3ef70b0de7fc8bc6a7c0023fe64a2bc4bdfa6866316bb31086218",
+  "response_text": "**ANÁLISE**\n\nO caso em julgamento envolve a aplicação de um precedente do Tribunal Superior do Trabalho (TST) à uma situação específica de banco de horas em uma CCT (Convenção Coletiva de Trabalho) da bancária. O número do precedente é identificado e transcrita a ementa, o que indica que o julgador está se baseando em uma decisão anterior do TST para resolver o caso.\n\n**DISPOSITIVOS LEGAIS APLICÁVEIS**\n\n*   Artigo 59 da CLT: \"O banco de horas é aquele em que as horas trabalhadas além da jornada normal são compensadas por igual número de horas não trabalhadas, no mesmo período ou no período subsequente.\"\n*   Artigo 59, parágrafo único da CLT: \"A compensação pode ser feita mediante acordo entre empregador e empregado, desde que homologado pela autoridade competente.\"\n\n**INTERPRETAÇÃO DO CASO CONCRETO**\n\nNo caso em julgamento, a empresa bancária está aplicando um regime de banco de horas em conformidade com a CCT. O empregado não trabalhou além da jornada normal e, portanto, não há necessidade de compensação.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que o pedido do empregado seja negado, pois não houve violação da CLT ou da CCT.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   \"O banco de horas é aquele em que as horas trabalhadas além da jornada normal são compensadas por igual número de horas não trabalhadas, no mesmo período ou no período subsequente.\" (Art. 59 da CLT)\n*   \"A compensação pode ser feita mediante acordo entre empregador e empregado, desde que homologado pela autoridade competente.\" (Parágrafo único do Art. 59 da CLT)\n\n**SÚMULA DO TST**\n\n*   Súmula 428/TST: \"O banco de horas é aquele em que as horas trabalhadas além da jornada normal são compensadas por igual número de horas não trabalhadas, no mesmo período ou no período subsequente.\"\n\n**PRECEDENTES CONSTITUCIONAIS**\n\n*   Não há precedentes constitucionais relevantes para esse caso.\n\n**CONCLUSÃO**\n\nA decisão recomendada é que o pedido do empregado seja negado, pois não houve violação da CLT ou da CCT. A fundamentação normativa está baseada nos dispositivos legais aplicáveis e na interpretação do caso concreto.",
+  "tokens_in": 333,
+  "tokens_out": 578,
+  "latency_ms": 22203,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

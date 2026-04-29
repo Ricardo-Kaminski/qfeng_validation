@@ -1,0 +1,27 @@
+{
+  "sha256": "6a656f4b941a526d7aa5bfb95e79edf14bd152942ee3f1f5e92da33e676f0eed",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-011",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:00:30Z",
+  "prompt_sha": "2c917ebff9639a22c39eb6a23c31205687007f48fb8e9394fc445acc35358322",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso: Banco de Horas e Afastamento por Acidente de Trabalho\n\nCom base nos predicados normativos fornecidos e no cenário apresentado, a análise, decisão recomendada e identificação de cumprimento/violação de predicados são as seguintes:\n\n**1. ANÁLISE: Aplicação do Predicado Normativo**\n\n*   **hour_bank_with_cct_max_1_year:** Este predicado estabelece que a utilização do banco de horas deve ocorrer no prazo máximo de 1 ano, conforme previsto na Convenção Coletiva de Trabalho (CCT). O cenário demonstra que a empresa, mesmo com o afastamento do trabalhador, pretende compensar as horas acumuladas em um período superior a 1 ano, o que coloca em xeque o cumprimento deste predicado. A empresa argumenta que o afastamento deveria suspender o prazo, mas a CCT não previu essa suspensão. A ausência de previsão contratual é crucial para a análise.\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada é **favorável ao trabalhador**. A empresa **não pode** exigir a compensação das horas em um prazo que exceda 1 ano, mesmo que o trabalhador tenha ficado afastado por acidente de trabalho.\n\n**Fundamentação:**\n\n*   **Prevalência da CCT:** A CCT é a lei da relação, e as partes devem se sujeitar aos seus termos. Se a CCT estabelece um prazo máximo de 1 ano para a compensação do banco de horas e **não** prevê a suspensão desse prazo em caso de afastamento, a empresa está obrigada a cumprir o prazo estabelecido.\n*   **Interpretação Restritiva:** Cláusulas que impõem obrigações ou restrições devem ser interpretadas restritivamente, em favor do trabalhador. A empresa tenta ampliar o prazo de compensação, o que não é permitido na ausência de previsão legal ou contratual.\n*   **Afastamento e Direito ao Descanso:** O afastamento por acidente de trabalho é um período em que o trabalhador está temporariamente incapacitado para o trabalho. Exigir a compensação do banco de horas em um prazo estendido pode gerar um impacto negativo na sua recuperação e reintegração ao trabalho.\n*   **Princípio da Boa-fé:** A empresa deve agir com boa-fé na aplicação da CCT. Tentar contornar o prazo estabelecido sem base legal ou contratual demonstra falta de boa-fé.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n*   **hour_bank_with_cct_max_1_year:** **Violação**. A empresa está tentando impor um prazo de compensação superior a 1 ano, contrariando a CCT.\n*   **Outros predicados:** Não há outros predicados listados que se apliquem diretamente ao caso. A análise se concentra na aplicação específica do predicado relacionado ao prazo máximo do banco de horas.\n\n**Observações Importantes:**\n\n*   Esta análise é baseada unicamente nos predicados normativos fornecidos. Outros aspectos do caso, como a natureza do acidente de trabalho, a legislação previdenciária e a jurisprudência específica sobre o tema, poderiam influenciar a decisão final.\n*   É fundamental analisar a CCT na íntegra para verificar se há outras disposições que possam impactar a interpretação do prazo do banco de horas.\n*   A decisão final caberá ao Poder Judiciário, que avaliará as provas e argumentos apresentados pelas partes.\n",
+  "tokens_in": 347,
+  "tokens_out": 782,
+  "latency_ms": 21609,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

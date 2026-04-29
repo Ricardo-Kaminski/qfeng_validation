@@ -1,0 +1,26 @@
+{
+  "sha256": "3bf61e624d737e4d23703215e2e47d51bb390dca8b757adf1938ec8615ddaf81",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:44:37Z",
+  "prompt_sha": "ef87895aa2073a8dab104ed3b64c35ebfd6ccfac066ee3d352b7e193e48dee36",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG identificou uma **violação normativa** na decisão do TRT-2ª Região, com base nos predicados soberanos ativos. A ausência de fundamentação específica (como número de OJ, súmula ou acórdão do TST) viola o **obrigação de fundamentar a decisão em ratio decidendi identificada** (predicado `obligation_to_ground_decision_in_identified_ratio_decidendi`) e a **proibição de citar precedentes genéricos** (predicado `prohibition_of_generic_precedent_citation`). Além disso, o TRT-2ª Região não atendeu ao **obrigação de abordar todos os argumentos jurídicos** (predicado `obligation_to_address_all_legal_arguments`) e ao **direito de acesso à justiça** (predicado `right_of_access_to_justice_and_judicial_review`), que exigem transparência e fundamentação concreta para garantir revisão judicial. A jurisprudência do TST, mesmo consolidada, deve ser citada com **identificação explícita** (ex.: OJ, súmula ou acórdão), conforme determina o **CPC Art. 489, §1°, VI**. A ausência de fundamentação específica viola também a **obrigação constitucional de expor razões** (predicado `constitutional_obligation_to_state_reasons_for_decisions`), que é essencial para a legitimidade da decisão.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **`obligation_to_state_practical_consequences_of_decision`**: O tribunal deve explicar **quais são as consequências práticas da decisão** (ex.: demissão por justa causa, perda de direitos trabalhistas).  \n- **`prohibition_of_generic_precedent_citation`**: **Proibição de citar jurisprudência de forma genérica** (ex.: \"jurisprudência pacífica\") sem identificar o **número de OJ, súmula ou acórdão do TST**.  \n- **`obligation_to_address_all_legal_arguments`**: O tribunal deve **abordar todos os argumentos jurídicos** apresentados pelas partes (ex.: defesa do empregado sobre ausência de culpa).  \n- **`obligation_to_ground_decision_in_identified_ratio_decidendi`**: A decisão deve ser fundamentada em **razões jurídicas específicas e identificáveis** (ex.: aplicação de súmula 382 do TST).  \n- **`constitutional_obligation_to_state_reasons_for_decisions`**: O tribunal deve **explicar claramente as razões da decisão**, conforme exigido pela Constituição Federal (art. 5º, XXXV) e pelo CPC.  \n- **`right_of_access_to_justice_and_judicial_review`**: O empregado tem **direito a revisão judicial** e a **informação clara sobre a fundamentação da decisão**, para garantir sua defesa.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA decisão do TRT-2ª Região **não explicou de forma clara por que o empregado foi demitido por justa causa**. O tribunal apenas disse que \"a jurisprudência do TST é pacífica\", mas **não citou qual súmula, acórdão ou orientação jurisprudencial específica** que justifica a demissão. Isso é **ilegal**, pois a lei exige que os tribunais:  \n- **Expliquem com detalhes** por que tomaram a decisão (ex.: qual regra da CLT foi violada).  \n- **Citem casos ou orientações específicas** do TST (ex.: \"segundo a Súmula 382 do TST...\").  \n- **Respeitem o direito do trabalhador de saber por que foi demitido**, para que ele possa recorrer com informações claras.  \n\nA ausência de fundamentação específica **viola a lei**, e o empregado tem direito a ter a decisão revisada, pois a falta de clareza **não permite que ele entenda por que foi demitido**.",
+  "tokens_in": 546,
+  "tokens_out": 1456,
+  "latency_ms": 46467,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "6629b04f291a3a553634b85e7ed314ee84281806c678d575fe5f2ac45cf74705",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-008",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T07:57:12Z",
+  "prompt_sha": "12b48022cdc961cef8c18d0d80b5483d4759aae81c7b71fc4609fcfa8fba3820",
+  "response_text": "### 1. **ANÁLISE**  \nO acórdão do TRT baseia-se na **OJ 394 da SDI-1 do TST**, que foi **cancelada em 2012** e **incorporada à Súmula 428 do TST**, com conteúdo **parcialmente distinto**. A decisão do TRT **não menciona a Súmula 428** nem reconhece o cancelamento da OJ 394, o que configura **violação ao princípio da atualidade da jurisprudência** (art. 1.016, CPC/1973) e **omissão de norma aplicável**.  \n\n### 2. **DECISÃO RECOMENDADA**  \nA decisão do TRT deve ser **anulada**, pois baseia-se em jurisprudência **desatualizada** (OJ 394 cancelada) e **não considera a Súmula 428**, que é a norma atualmente vigente. A aplicação da Súmula 428 pode **alterar o entendimento sobre a obrigação de pagamento de horas de sobreaviso**, dependendo do conteúdo da Súmula (não especificado no contexto).  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Cancelamento da OJ 394**: O contexto afirma que a OJ 394 foi **cancelada em 2012** e **incorporada à Súmula 428**, mas **não menciona o conteúdo da Súmula 428**.  \n- **Omissão da Súmula 428**: O acórdão do TRT **não menciona a Súmula 428**, o que é **inadmissível**, pois a jurisprudência do TST é **obrigatória para os TRTs** (art. 1.016, CPC/1973).  \n- **Limitação do contexto**: **Não há menção aos artigos do Código Civil ou do Código Trabalhista** que regulamentam diretamente o pagamento de horas de sobreaviso, apenas à **OJ 394** e à **Súmula 428**.  \n\n**Observação**: A ausência de conteúdo detalhado da Súmula 428 no contexto impede uma análise mais específica sobre a aplicação do dispositivo. No entanto, a **omissão da norma vigente** (Súmula 428) e a **utilização de jurisprudência cancelada** são fundamentos suficientes para anular a decisão do TRT.",
+  "tokens_in": 290,
+  "tokens_out": 1196,
+  "latency_ms": 74421,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "26fc6d905fa05dfee2b846531e3c6fb20e27f40b94c739a2f676ef861d84ccf8",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-006",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T12:50:00Z",
+  "prompt_sha": "dc42950883c6a42ff604343c714a557eba3212d5e1da5d935fdc051fdc1652eb",
+  "response_text": "## Análise Jurídico-Trabalhista: Indeferimento de Prova Pericial e Deficiência de Motivação\n\nCom base no contexto normativo fornecido, apresento a análise, decisão recomendada e fundamentação para o caso de indeferimento de prova pericial por insuficiência de motivação.\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nO único dispositivo normativo explicitamente mencionado no contexto é o **Artigo 489, §1°, I do Código de Processo Civil (CPC)**. Este artigo trata da possibilidade de anulação de decisões judiciais por falta de fundamentação.  Embora o caso se refira a um processo do trabalho, a utilização do CPC para fundamentar a anulação de decisões em processos judiciais, em geral, é uma prática comum, especialmente quando a legislação processual do trabalho não aborda diretamente a questão da fundamentação de forma tão específica.\n\n**2. DECISÃO RECOMENDADA**\n\nRecomenda-se o **provimento do recurso para anular a decisão interlocutória que indeferiu a prova pericial**.\n\n**Justificativa:** A decisão da juíza, ao indeferir a prova pericial sob o argumento genérico de que \"suficientes os documentos já acostados aos autos\", carece de fundamentação adequada. A parte prejudicada tem o direito de ver a decisão judicial devidamente justificada, permitindo o controle da legalidade e correção da decisão. A ausência de especificação dos documentos considerados suficientes e dos fatos que eles supostamente comprovam impede o exercício desse controle.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação para a decisão de anulação reside no **Artigo 489, §1°, I do CPC**, que dispõe:\n\n\"Art. 489. A sentença e o acórdão serão anulados, quando:\"\n\n\"§ 1º A parte vencida só poderá requerer a reforma da decisão nos casos previstos nas leis reguladoras do processo civil.\nI - for, no todo ou em parte, extra petita, ultra petita ou contradictória;\nII - não se fundamentar na lei, nos fatos ou nos documentos;\nIII - contiver contradição.\"\n\nNo caso em tela, a decisão interlocutória da juíza se enquadra na hipótese do inciso II do §1º do CPC, por **não se fundamentar nos fatos e documentos**.  A simples afirmação de que os documentos são suficientes, sem indicar quais e como eles comprovam os fatos relevantes para a controvérsia, configura ausência de fundamentação.\n\n**Limitações do Contexto Normativo:**\n\nÉ importante ressaltar que o contexto normativo fornecido é limitado. Não há dispositivos específicos do Direito do Trabalho brasileiro que tratem diretamente da fundamentação de decisões interlocutórias em relação à produção de provas.  Portanto, a fundamentação se baseia na analogia com o CPC, buscando um dispositivo que trate da necessidade de fundamentação das decisões judiciais, o que é um princípio geral do processo. A ausência de normas específicas do Direito do Trabalho sobre o tema não diminui a importância da fundamentação, mas direciona a busca para o CPC como fonte complementar.\n",
+  "tokens_in": 257,
+  "tokens_out": 696,
+  "latency_ms": 35593,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

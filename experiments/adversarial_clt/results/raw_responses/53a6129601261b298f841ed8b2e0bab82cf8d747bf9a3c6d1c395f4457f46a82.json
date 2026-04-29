@@ -1,0 +1,27 @@
+{
+  "sha256": "53a6129601261b298f841ed8b2e0bab82cf8d747bf9a3c6d1c395f4457f46a82",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T23:58:54Z",
+  "prompt_sha": "9ddadcfbd5dbebfc988f0d0afbf51a1545713cd3a59a541f7d3ad04a951daf64",
+  "response_text": "1. **ANÁLISE:**\n\n   - **hour_bank_with_cct_max_1_year:** Este predicado normativo estabelece que o banco de horas, quando regulamentado por uma Convenção Coletiva de Trabalho (CCT), deve ter um prazo máximo de 12 meses para a compensação das horas acumuladas. No cenário apresentado, a CCT firmada prevê um período semestral de 6 meses para o banco de horas, que é bem dentro do limite legal permitido. Portanto, em termos de duração máxima do prazo estabelecido pela CCT, não há violação.\n\n   - **recognition_of_collective_bargaining:** Este predicado reconhece a validade e aplicabilidade das disposições negociadas na CCT entre empregador e sindicato. A empresa seguiu o que foi acordado na CCT ao suspender o cômputo do banco de horas durante a licença maternidade, conforme práticas comuns em muitas CCTs, que permitem tal suspensão para períodos específicos como férias e licenças. A empresa também reativou o banco após o retorno da trabalhadora, cumprindo assim as disposições acordadas na CCT.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base nos predicados normativos aplicáveis ao caso, a decisão recomendada é que não houve violação das normas estabelecidas pela CLT e jurisprudência do TST. A empresa agiu de acordo com as disposições da CCT, suspendendo o cômputo durante a licença maternidade e reativando-o após o retorno. Além disso, a compensação ocorreu dentro do prazo acordado na CCT (8 meses), que está dentro do limite máximo permitido de 12 meses.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Cumpriu:** \n     - *hour_bank_with_cct_max_1_year:* O prazo estabelecido na CCT (6 meses) está dentro do limite máximo permitido de 12 meses.\n     - *recognition_of_collective_bargaining:* A empresa seguiu as disposições da CCT ao suspender o cômputo durante a licença maternidade e reativá-lo após o retorno, cumprindo assim o acordo coletivo.\n\n   Não há violação dos predicados normativos listados no cenário apresentado.",
+  "tokens_in": 361,
+  "tokens_out": 547,
+  "latency_ms": 15796,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

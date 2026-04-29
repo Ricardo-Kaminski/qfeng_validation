@@ -1,0 +1,19 @@
+{
+  "sha256": "05e6b873f36cbd0eeebd937670764373b9c0d50f911451a142889ed081b7c88b",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T20:19:01Z",
+  "prompt_sha": "e0dac6366f336fe82237c38403a15b7a308e7e52230ad445438fe232cc5f2b76",
+  "response_text": "**ANÁLISE**\n\n1.  O dispositivo aplicável ao caso é a CCT (Convenção Coletiva de Trabalho) que estabelece um banco de horas semestral de 6 meses.\n2.  A licença maternidade não é mencionada explicitamente na CCT, mas a lei trabalhista brasileira regula as licenças e os direitos da gestante.\n\n**DECISÃO RECOMENDADA**\n\nA compensação do banco de horas deve incluir o período de licença maternidade. O período de licença não pode ser considerado como um período de suspensão do contrato de trabalho, mas sim como uma licença prevista na lei trabalhista brasileira.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n1.  **CCT:** Não há dispositivo específico da CCT mencionada que regule o período de licença maternidade e sua relação com o banco de horas.\n2.  **Lei Trabalhista Brasileira:**\n    *   O artigo 7º, inciso XV, da Constituição Federal Brasileira estabelece o direito à licença-maternidade como um direito fundamental do trabalhador.\n    *   O artigo 10, § 1º, da Lei nº 8.112/1990 (Lei de Regulamentação dos Direitos e Previdenciários dos Servidores Públicos Civis) estabelece que a licença maternidade é um direito garantido à gestante.\n    *   O artigo 153, § 2º, da Lei nº 8.112/1990 estabelece que a licença maternidade não suspende o contrato de trabalho.\n\n**LIMITAÇÃO**\n\nNão há dispositivo específico da CCT mencionada que regule o período de licença maternidade e sua relação com o banco de horas, mas a lei trabalhista brasileira regula as licenças e os direitos da gestante.",
+  "tokens_in": 296,
+  "tokens_out": 433,
+  "latency_ms": 7264,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

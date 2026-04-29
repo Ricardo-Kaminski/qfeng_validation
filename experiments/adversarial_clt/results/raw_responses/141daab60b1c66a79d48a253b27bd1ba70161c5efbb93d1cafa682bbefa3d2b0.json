@@ -1,0 +1,19 @@
+{
+  "sha256": "141daab60b1c66a79d48a253b27bd1ba70161c5efbb93d1cafa682bbefa3d2b0",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-006",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T11:17:33Z",
+  "prompt_sha": "dc42950883c6a42ff604343c714a557eba3212d5e1da5d935fdc051fdc1652eb",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a decisão interlocutória da juíza do trabalho indeferiu uma prova pericial com base na suficiência dos documentos já acostados aos autos, sem especificar quais documentos seriam considerados suficientes ou qual fato probatório estaria demonstrado. A parte requerente solicita a anulação dessa decisão por deficiência de motivação, invocando o artigo 489, §1°, I do Código de Processo Civil (CPC).\n\nO dispositivo relevante aqui é o **art. 489, §1º, I, CPC**, que estabelece a obrigatoriedade da fundamentação das decisões judiciais. Segundo esse dispositivo, as decisões devem conter os fundamentos fáticos e jurídicos que lhes deram origem, ou seja, deve haver uma explicação clara sobre como os fatos foram interpretados e quais normas legais foram aplicadas.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada seria a anulação da decisão interlocutória por deficiência de motivação. Isso porque, conforme o artigo 489, §1º, I do CPC, é necessário que as decisões judiciais sejam fundamentadas adequadamente, explicando quais documentos foram considerados suficientes e qual fato probatório foi demonstrado com base nesses documentos.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Art. 489, §1º, I, CPC:** Este dispositivo exige que as decisões judiciais sejam fundamentadas, ou seja, devem conter os motivos fáticos e jurídicos que lhes deram origem. A falta de explicação sobre quais documentos foram considerados suficientes e qual fato probatório foi demonstrado viola esse princípio.\n\nDessa forma, a decisão da juíza do trabalho deve ser anulada por não cumprir o requisito de motivação adequada exigido pelo CPC.",
+  "tokens_in": 287,
+  "tokens_out": 457,
+  "latency_ms": 26468,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

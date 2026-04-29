@@ -1,0 +1,19 @@
+{
+  "sha256": "b4d2bfd58b72948c635c9aed0a26d37f1d375a23531fae4a1bbf943e53e990f8",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T01:20:25Z",
+  "prompt_sha": "1945afa8ee8746097d159824e442bc1c3d3a2b1a739515ba6bd5c3312239080a",
+  "response_text": "### 1. ANÁLISE\n\n**Identificação dos dispositivos legais aplicáveis:**\n\n- **Código de Processo Civil (CPC), Art. 489, §1º, V:** Este dispositivo exige que a fundamentação das decisões judiciais cite precedentes concretos e verificáveis. A citação de uma súmula inexistentes viola este princípio.\n\n- **Súmulas do TST:** As Súmulas do Tribunal Superior do Trabalho (TST) são resumos de jurisprudência consolidada que devem ser utilizadas para fundamentar decisões judiciais. A menção a uma súmula inexistentes compromete a validade da decisão.\n\n- **Estabilidade Provisória:** O período de estabilidade provisória é previsto no artigo 10, §1º, da CLT e protege o empregado contra dispensa arbitrária durante determinados períodos, como após acidente de trabalho ou doença profissional.\n\n**Interpretação no caso concreto:**\n\nNo presente caso, a fundamentação do acórdão do TST citou uma súmula inexistentes (Súmula 312), o que compromete a validade da decisão sob o argumento de violação ao CPC. A parte prejudicada tem razão em questionar a nulidade do acórdão, pois a citação incorreta de um precedente não permite a verificação e confirmação do fundamento jurídico utilizado.\n\n### 2. DECISÃO RECOMENDADA\n\n**Recomenda-se que o acórdão seja anulado parcialmente:**\n\nA decisão deve ser anulada no que tange à fundamentação incorreta, especificamente a citação da Súmula 312 do TST. O tribunal deverá reexaminar e rediscutir os fundamentos legais da decisão, utilizando súmulas ou precedentes corretos e verificáveis.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n**Artigos e Precedentes:**\n\n- **CPC, Art. 489, §1º, V:** Exige que a fundamentação das decisões judiciais cite precedentes concretos e verificáveis. A citação incorreta de uma súmula inexistentes viola este princípio.\n\n- **CLT, Art. 10, §1º:** Estabelece o período de estabilidade provisória para empregados em situações específicas, como após acidente de trabalho ou doença profissional, protegendo-os contra dispensas arbitrárias durante esse período.\n\n- **Súmula Vinculante n. 10 do STF:** Embora não diretamente aplicável ao caso, reforça a necessidade de fundamentação adequada das decisões judiciais com base em precedentes concretos e verificáveis.\n\n**Conclusão:**\n\nA anulação parcial do acórdão é recomendada para corrigir a violação ao CPC, garantindo que a nova fundamentação seja baseada em súmulas ou precedentes reais e verificáveis. Isso assegura a conformidade com os princípios processuais e o respeito à segurança jurídica.",
+  "tokens_in": 349,
+  "tokens_out": 725,
+  "latency_ms": 41578,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

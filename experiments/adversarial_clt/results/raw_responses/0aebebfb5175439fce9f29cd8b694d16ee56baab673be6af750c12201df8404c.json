@@ -1,0 +1,29 @@
+{
+  "sha256": "0aebebfb5175439fce9f29cd8b694d16ee56baab673be6af750c12201df8404c",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-008",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T23:53:15Z",
+  "prompt_sha": "160b14905daf1b75240e571876e903f674ab798cba13eaa47b102ad9f8820a31",
+  "response_text": "1. **ANÁLISE:**\n\n   - **Predicado normativo aplicável: `hour_bank_with_cct_max_1_year`**\n   \n     Este predicado estabelece que o banco de horas, quando instituído por Acordo Coletivo de Trabalho (ACT), deve ter um prazo máximo de compensação de até 12 meses. No cenário apresentado, o banco de horas foi estabelecido com uma previsão de compensação em 7 meses, o que está dentro do limite permitido pela norma.\n\n     A questão central é a recusa da empresa em pagar o saldo positivo de 60 horas após a demissão do empregado. O predicado não aborda diretamente o pagamento das horas extras pendentes no caso de rescisão, mas estabelece que o banco de horas deve ser respeitado dentro dos prazos acordados.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base no predicado normativo aplicável e na jurisprudência do TST, a empresa está obrigada a pagar o saldo positivo das horas extras acumuladas até o momento da rescisão contratual. A demissão não anula o direito ao pagamento dessas horas, pois elas foram efetivamente trabalhadas pelo empregado e estão dentro do prazo de compensação estabelecido pelo ACT.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Cumpriu:** \n     - `hour_bank_with_cct_max_1_year`: O banco de horas foi estabelecido com um prazo de compensação de 7 meses, o que está dentro do limite máximo permitido de 12 meses.\n\n   - **Violado:**\n     - Embora não haja um predicado específico listado para a obrigação de pagamento das horas extras pendentes em caso de rescisão, a recusa da empresa em pagar o saldo positivo viola o princípio do direito trabalhista que garante ao empregado o recebimento dos valores correspondentes às horas efetivamente trabalhadas e não compensadas até o momento da demissão. \n\nPortanto, recomenda-se que a empresa pague o saldo de 60 horas extras acumuladas pelo empregado no banco de horas.",
+  "tokens_in": 360,
+  "tokens_out": 506,
+  "latency_ms": 14593,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

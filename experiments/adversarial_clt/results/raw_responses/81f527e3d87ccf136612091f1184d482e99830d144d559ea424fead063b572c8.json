@@ -1,0 +1,19 @@
+{
+  "sha256": "81f527e3d87ccf136612091f1184d482e99830d144d559ea424fead063b572c8",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T20:23:44Z",
+  "prompt_sha": "b6e4c61ea8527c860962ba88d6b508c94439e853c9816adb4eb2e1c7272aacf0",
+  "response_text": "**ANÁLISE**\n\nO caso envolve a aplicação de Súmula TST 85 em uma situação de banco de horas sem Contrato Coletivo de Trabalho (CCT) ou Acordo Coletivo de Trabalho (ACT). A decisão do TRT citou os itens I, II e V da Súmula TST 85 para resolver o caso.\n\n**DISPOSITIVOS DO CONTEXTO NORMATIVO APPLICÁVEIS**\n\nOs dispositivos aplicáveis são:\n\n- **Súmula TST 85 (itens I, II e V)**: \n    - Item I: \"O período de trabalho normal é o fixado no contrato individual ou coletivo de trabalho.\"\n    - Item II: \"Considera-se tempo à disposição do empregador, para todos os fins legais, o tempo que o empregado estiver a serviço do empregador, ainda que não esteja executando tarefas específicas.\"\n    - Item V: \"É considerado como trabalho em horas suplementares o período de trabalho que exceder as 44 horas semanais para os homens e 40 horas para as mulheres.\"\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é a de que todas as horas trabalhadas sejam consideradas extras, com adicional de 50%, pois não há CCT/ACT estabelecendo o período normal de trabalho. Isso está em consonância com os itens I e V da Súmula TST 85.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação normativa é baseada nos seguintes dispositivos:\n\n- A ausência de CCT/ACT que estabeleça o período normal de trabalho (Súmula TST 85, item I) justifica a aplicação dos critérios para horas extras.\n- O fato de todas as horas trabalhadas serem consideradas como tempo à disposição do empregador (Súmula TST 85, item II), o que inclui o período de trabalho excedente às horas normais estabelecidas na legislação ou no contrato coletivo.\n- A aplicação do item V da Súmula TST 85 para considerar como trabalho em horas suplementares o período de trabalho que exceder as 44 horas semanais para os homens e 40 horas para as mulheres, sem a necessidade de um CCT/ACT estabelecendo essas horas como normais.\n\n**LIMITAÇÃO**\n\nNão há limitação na aplicação das normas aqui mencionadas. A decisão se baseia diretamente nas disposições da Súmula TST 85 e na ausência de um CCT/ACT que estabeleça o período normal de trabalho para a empresa em questão.",
+  "tokens_in": 328,
+  "tokens_out": 605,
+  "latency_ms": 10121,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

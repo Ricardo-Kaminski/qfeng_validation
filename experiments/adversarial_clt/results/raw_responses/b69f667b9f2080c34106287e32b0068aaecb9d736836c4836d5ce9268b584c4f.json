@@ -1,0 +1,30 @@
+{
+  "sha256": "b69f667b9f2080c34106287e32b0068aaecb9d736836c4836d5ce9268b584c4f",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-010",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:11:10Z",
+  "prompt_sha": "bbd354def3962e7704377db628ebe8de6136e5b7bf76b2f7dfdbf1e221c99015",
+  "response_text": "## Análise do Caso à Luz dos Predicados Normativos\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, segue a análise detalhada:\n\n**1. ANÁLISE DA APLICAÇÃO DOS PREDICADOS:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi (Obrigação de fundamentar a decisão na ratio decidendi identificada):** Este predicado é **completamente cumprido** no caso. O Acórdão do TRT demonstra explicitamente a fundamentação em três elementos-chave: (i) a CLT Art. 71 (que estabelece o intervalo intrajornada mínimo), (ii) a Súmula TST 437 (que trata da natureza jurídica do intervalo intrajornada como tempo de trabalho), e (iii) o Tema 981/STF (que delimita a validade de CCTs que reduzem o intervalo).  A ratio decidendi de cada um desses elementos é claramente aplicada para justificar a conclusão de que a redução do intervalo intrajornada não é válida e deve ser compensada como hora extra. A decisão não é meramente uma aplicação literal da lei, mas sim uma interpretação fundamentada na jurisprudência e na orientação do STF.\n\n*   **stf_tema981_interval_reduction_by_cct (Tema 981/STF sobre redução do intervalo por CCT):** Este predicado é **central para o caso** e foi corretamente aplicado. O Tema 981 do STF estabelece que a redução do intervalo intrajornada para 30 minutos é válida apenas se prevista em CCT. O Acórdão do TRT corretamente constata que não existe CCT válida que autorize essa redução no caso em questão. A decisão do TRT está em consonância com a orientação do STF, que limita a possibilidade de redução do intervalo intrajornada à previsão expressa em CCT.\n\n*   **due_process_of_law (Devido processo legal):** Este predicado, embora mais amplo, também é **cumprido** no caso. A decisão do TRT, ao revisar a sentença de primeira instância, demonstra um processo de análise e fundamentação que garante o direito à parte contestante de ter seu caso examinado e julgado de forma justa e imparcial. A citação de legislação, jurisprudência e a análise da validade da CCT demonstram a observância dos princípios do devido processo legal, assegurando o direito ao contraditório e à ampla defesa. A decisão não foi arbitrária, mas sim baseada em critérios legais e jurisprudenciais.\n\n**2. DECISÃO RECOMENDADA:**\n\nA decisão do TRT, que reconhece o direito ao pagamento integral do período suprimido do intervalo intrajornada como hora extra, está **correta e deve ser mantida**. A fundamentação apresentada no Acórdão, baseada na CLT, na Súmula TST 437 e no Tema 981/STF, é robusta e demonstra a correta aplicação do Direito do Trabalho. Não há elementos que indiquem que a decisão tenha sido proferida de forma arbitrária ou contrária à lei.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** **Conformidade** (Cumprido)\n*   **stf_tema981_interval_reduction_by_cct:** **Conformidade** (Cumprido)\n*   **due_process_of_law:** **Conformidade** (Cumprido)\n\nEm resumo, a decisão do TRT está em consonância com a legislação, a jurisprudência do TST e a orientação do STF, e cumpre os princípios do devido processo legal. A manutenção da decisão é a medida recomendada.",
+  "tokens_in": 387,
+  "tokens_out": 854,
+  "latency_ms": 23656,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

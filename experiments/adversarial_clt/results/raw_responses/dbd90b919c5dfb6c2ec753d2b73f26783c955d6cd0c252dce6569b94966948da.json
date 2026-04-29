@@ -1,0 +1,19 @@
+{
+  "sha256": "dbd90b919c5dfb6c2ec753d2b73f26783c955d6cd0c252dce6569b94966948da",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T06:49:49Z",
+  "prompt_sha": "e3a03423f59d54e94c80b16f3aeda0e741ca90b34230fe57c0b6d041a819afcb",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a aplicação de uma Convenção Coletiva de Trabalho (CCT) específica para o setor farmacêutico, que prevê um banco de horas anual renovável automaticamente. O trabalhador acumulou horas por 12 meses e, ao término do prazo estabelecido pela CCT, a empresa solicitou extensão por mais 3 meses sem uma nova negociação coletiva.\n\nPara analisar essa situação, é necessário identificar os dispositivos legais aplicáveis. A CLT (Consolidação das Leis do Trabalho) é o principal marco legal trabalhista brasileiro e regula as relações de trabalho entre empregadores e empregados. A CCT em questão deve ser interpretada à luz da CLT, especialmente considerando a autonomia coletiva que permite às partes estabelecer regras específicas para o setor.\n\nA cláusula de renovação automática do banco de horas é um acordo entre as partes envolvidas (empregadores e empregados, representados pelo sindicato) sobre a forma como os acréscimos de jornada serão gerenciados. A questão central é se essa cláusula permite ou não a prorrogação do período sem uma nova negociação coletiva.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando a autonomia coletiva e a interpretação da CCT, recomendo que a decisão seja favorável ao sindicato dos trabalhadores. A justificativa está na necessidade de uma nova negociação coletiva para estabelecer regras específicas para o período adicional solicitado pela empresa.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação normativa se baseia nos seguintes dispositivos legais e jurisprudenciais:\n\n1. **CLT - Artigo 611-A**: Este artigo trata sobre a negociação coletiva e estabelece que os acordos e convenções coletivas são fonte principal do direito trabalhista, sendo interpretados de forma sistemática com as leis e demais instrumentos normativos.\n\n2. **CLT - Artigo 611-B**: Esse artigo regula a renovação automática dos contratos coletivos, mas não aborda expressamente a possibilidade de prorrogação sem nova negociação coletiva.\n\n3. **Súmula do TST (6ª Turma) nº 434/2005**: Esta súmula estabelece que \"A renovação automática da convenção coletiva não implica em sua aplicação tácita ao período subsequente, sem a necessidade de nova negociação\".\n\n4. **Precedentes Constitucionais e Jurisprudenciais do TST**: Embora específicos, os precedentes costumam enfatizar a importância da autonomia coletiva e a necessidade de uma nova negociação coletiva para estabelecer regras que sejam aplicáveis durante períodos subsequentes.\n\nConsiderando esses dispositivos legais e jurisprudenciais, é razoável concluir que a prorrogação do período sem uma nova negociação coletiva viola o espírito da autonomia coletiva e as regras estabelecidas pela CCT. Portanto, recomendo que a decisão seja favorável ao sindicato dos trabalhadores, afirmando a necessidade de uma nova negociação coletiva para regular os acréscimos de jornada durante o período adicional solicitado pela empresa.",
+  "tokens_in": 323,
+  "tokens_out": 803,
+  "latency_ms": 27890,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "9f0ef463fe13882588fad8564ef44b263bb6c72bf234d3f619623ba6b4171e33",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-010",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T02:57:29Z",
+  "prompt_sha": "4d48a62ffa2628de18a5603b3fc64f01cd710cb9c400026b5027fea3559fd413",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Artigo 71 da CLT:** Este artigo estabelece que o intervalo intrajornada não poderá ser inferior a trinta minutos, devendo ser concedido após cinco horas consecutivas de trabalho. Se houver redução do intervalo para menos de trinta minutos, o tempo suprimido será compensado com pagamento em dobro.\n\n- **Súmula 437 do TST:** Esta súmula reforça que a redução do intervalo intrajornada inferior a trinta minutos implica na necessidade de pagamento da hora extra correspondente ao período não concedido, sem prejuízo das demais verbas legais e contratuais.\n\n- **Tema 981 do STF:** Este tema trata sobre a validade de cláusulas coletivas que reduzem o intervalo intrajornada para menos de trinta minutos. O Supremo Tribunal Federal (STF) decidiu que tais cláusulas são válidas, desde que haja compensação financeira pelo tempo não concedido.\n\n**Interpretação no Caso Concreto:**\n\nNo caso em análise, o TRT reviu a sentença de primeiro grau ao constatar que não havia CCT (Convenção Coletiva de Trabalho) válida autorizando a redução do intervalo intrajornada para menos de trinta minutos. Sem uma cláusula coletiva específica e válida, a aplicação direta do Artigo 71 da CLT é necessária.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão correta seria manter o pagamento integral do período suprimido como hora extra. Isso porque não há CCT válida autorizando a redução do intervalo intrajornada, e, portanto, deve-se aplicar diretamente o Artigo 71 da CLT.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **Artigo 71 da CLT:** Estabelece que qualquer redução do intervalo intrajornada inferior a trinta minutos deve ser compensada com pagamento em dobro, configurando-se como hora extra.\n\n- **Súmula 437 do TST:** Confirma que a supressão ou redução do intervalo intrajornada abaixo de trinta minutos implica no pagamento da hora extra correspondente ao período não concedido.\n\n- **Tema 981 do STF:** Embora permita cláusulas coletivas que reduzam o intervalo, essas são válidas apenas se houver compensação financeira. No caso presente, a ausência de uma CCT válida torna aplicável diretamente o Artigo 71 da CLT.\n\nPortanto, sem uma CCT específica e válida autorizando a redução do intervalo intrajornada, deve-se garantir ao empregado o pagamento integral do período suprimido como hora extra, conforme determina a legislação trabalhista vigente.",
+  "tokens_in": 336,
+  "tokens_out": 663,
+  "latency_ms": 38030,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

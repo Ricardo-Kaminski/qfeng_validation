@@ -1,0 +1,19 @@
+{
+  "sha256": "8de77ff3caadde9764f78933d6f6667b11ec241e0cf8cfd2e2a04219bbd50f83",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T03:09:02Z",
+  "prompt_sha": "5938f87dc45c8e0bffa111cb18879fec5f7291c5d6efe210e98d3c86b828bada",
+  "response_text": "### ANÁLISE\n\n**1. Dispositivos Legais Aplicáveis**\n\n- **Adicional Noturno:** De acordo com o artigo 73 da CLT, os empregados que trabalham durante a noite têm direito ao adicional de 20% sobre o valor da hora normal de trabalho.\n\n- **Cálculo do Tempo Noturno:** O artigo 74 da CLT estabelece que o período noturno compreende as horas entre 22h e 5h. A empresa calcula a hora noturna como 52 minutos e 30 segundos, o que é uma prática comum para facilitar o cálculo de jornadas mistas (diurna/noturna).\n\n- **Registro Eletrônico:** O artigo 62 da CLT exige que seja feito o registro diário do horário de entrada e saída dos empregados, o qual pode ser realizado por meio eletrônico.\n\n**2. Interpretação no Caso Concreto**\n\n- **Recolhimento Mensal:** A empresa realiza o recolhimento mensalmente, o que é permitido desde que discriminado corretamente nos contracheques, conforme exigido pelo artigo 62 da CLT e pela Súmula nº 331 do TST.\n\n- **Discriminação no Contracheque:** A discriminação separada do adicional noturno nos contracheques é uma prática recomendada para garantir transparência e facilitar a fiscalização, conforme orientação da Súmula nº 331 do TST.\n\n### DECISÃO RECOMENDADA\n\nA empresa deve continuar com sua prática atual de recolhimento mensal dos adicionais noturnos, desde que mantenha a discriminação correta nos contracheques e o registro eletrônico das jornadas. Não há irregularidades aparentes no cálculo do tempo noturno ou na forma de pagamento.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n- **Artigo 73 da CLT:** Estabelece o direito ao adicional noturno de 20% para os empregados que trabalham durante a noite.\n\n- **Artigo 74 da CLT:** Define o período noturno e permite o cálculo do tempo noturno como 52 minutos e 30 segundos por hora, facilitando o cálculo em jornadas mistas.\n\n- **Artigo 62 da CLT:** Exige o registro diário das horas trabalhadas, que pode ser feito eletronicamente, garantindo a verificação do cumprimento da jornada de trabalho.\n\n- **Súmula nº 331 do TST:** Dispõe sobre a possibilidade de pagamento dos adicionais noturnos em folha salarial mensal, desde que discriminados corretamente nos contracheques.\n\nA empresa está agindo conforme as normas legais vigentes e deve continuar suas práticas atuais, garantindo sempre a transparência e o cumprimento das obrigações trabalhistas.",
+  "tokens_in": 314,
+  "tokens_out": 665,
+  "latency_ms": 38187,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

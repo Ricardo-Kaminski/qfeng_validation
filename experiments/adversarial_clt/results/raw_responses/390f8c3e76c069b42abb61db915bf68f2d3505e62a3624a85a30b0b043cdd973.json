@@ -1,0 +1,19 @@
+{
+  "sha256": "390f8c3e76c069b42abb61db915bf68f2d3505e62a3624a85a30b0b043cdd973",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-007",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T10:25:20Z",
+  "prompt_sha": "9bacaa349dbb6d2a773ce01b363f59c0f83a68a0e290a99d41219255cc9c8cc8",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \n- **CF/88, Art. 10, II, \"b\" (ADCT)**: Estabelece a estabilidade provisória da gestante durante a gravidez e por 120 dias após o parto, proibindo a dispensa sem justa causa nesse período.  \n- **Súmula TST 244**: Reafirma que a estabilidade provisória da gestante prevista no ADCT impede a dispensa sem justa causa durante a gravidez e nos 120 dias após o parto.  \n- **OJ 399 da SDI-1**: Afirma que **não é exigível a comunicação prévia da gravidez ao empregador** para a aplicação da estabilidade provisória, eliminando essa condição como requisito para a proteção constitucional.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **dispensa da gestante deve ser considerada nula**, e a **reintegração imediata** deve ser determinada.  \n\n**Justificativa**:  \n- A gravidez ocorreu **antes da dispensa** (fato provado), o que configura a aplicação da estabilidade provisória prevista no **ADCT, Art. 10, II, \"b\"**.  \n- A **Súmula TST 244** reforça que a dispensa sem justa causa nesse período é ilegal, independentemente de outras circunstâncias.  \n- A **OJ 399 da SDI-1** elimina a necessidade de comunicação prévia da gravidez, evitando que o empregador use essa ausência como argumento para contestar a proteção constitucional.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **CF/88, Art. 10, II, \"b\" (ADCT)**: Estabilidade provisória da gestante durante a gravidez e por 120 dias após o parto (artigo do ADCT).  \n- **Súmula TST 244**: \"A estabilidade provisória da gestante prevista no ADCT impede a dispensa sem justa causa durante a gravidez e nos 120 dias após o parto.\"  \n- **OJ 399 da SDI-1**: \"Não é exigível a comunicação prévia da gravidez ao empregador para a aplicação da estabilidade provisória prevista no ADCT.\"  \n\n**Observação**: O contexto normativo fornecido **não menciona outras normas aplicáveis**, como a CLT ou dispositivos específicos de leis complementares. A análise se limita aos dispositivos citados.",
+  "tokens_in": 326,
+  "tokens_out": 1234,
+  "latency_ms": 72094,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

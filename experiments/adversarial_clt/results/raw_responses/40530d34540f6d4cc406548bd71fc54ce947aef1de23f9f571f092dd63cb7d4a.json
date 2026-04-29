@@ -1,0 +1,19 @@
+{
+  "sha256": "40530d34540f6d4cc406548bd71fc54ce947aef1de23f9f571f092dd63cb7d4a",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-006",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T01:31:40Z",
+  "prompt_sha": "3c3bf26b759c3caf4921d03d84985f8e176601166be5cbd9d11c060520954d15",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis**\n\n- **Código de Processo Civil (CPC) Art. 489, §1°, I**: Este dispositivo estabelece que a sentença deve conter fundamentação suficiente e motivada, indicando os fatos considerados provados e as razões pelas quais foi decidida da forma como foi.\n\n- **Constituição Federal de 1988, art. 93, IX**: Garante o direito à ampla defesa e ao contraditório em todos os processos judiciais.\n\n**Interpretação no Caso Concreto**\n\nA decisão interlocutória da juíza do trabalho indeferiu a prova pericial com base na suficiência dos documentos já acostados aos autos, sem especificar quais documentos seriam considerados suficientes ou qual fato probatório seria demonstrado. Isso levanta questões sobre a motivação e fundamentação da decisão.\n\nA ausência de uma explicação clara sobre quais documentos foram considerados suficientes e como eles atendem à necessidade de prova pericial pode ser vista como uma deficiência na motivação da decisão. O CPC exige que as decisões judiciais sejam motivadas, permitindo que as partes compreendam os fundamentos da decisão e, se necessário, possam recorrer com base em argumentos específicos.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão deve ser anulada por deficiência de motivação. A juíza deveria ter especificado quais documentos foram considerados suficientes e como eles atendem à necessidade da prova pericial, além de explicar qual fato probatório foi demonstrado com esses documentos.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **CPC Art. 489, §1°, I**: Requer que a sentença contenha fundamentação suficiente e motivada, indicando os fatos considerados provados e as razões pelas quais foi decidida da forma como foi.\n\n- **Súmula nº 126 do TST**: \"É nula de pleno direito a decisão que não mencione os documentos ou depoimentos que lhe serviram de fundamento.\"\n\n- **Constituição Federal, art. 93, IX**: Assegura o direito à ampla defesa e ao contraditório em todos os processos judiciais.\n\n**Precedentes Constitucionais**\n\nA jurisprudência do Supremo Tribunal Federal (STF) também reforça a necessidade de motivação adequada nas decisões judiciais, como visto na Súmula Vinculante nº 13: \"É inconstitucional lei que vede a apresentação de provas ou estabelece tratamento desigual entre as partes no processo.\"\n\n### CONCLUSÃO\n\nA decisão da juíza deve ser anulada por deficiência de motivação, conforme o CPC e a jurisprudência do TST. A falta de especificidade na fundamentação impede que as partes compreendam os motivos da decisão e prejudica o exercício dos direitos constitucionais à ampla defesa e ao contraditório.",
+  "tokens_in": 296,
+  "tokens_out": 724,
+  "latency_ms": 41594,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

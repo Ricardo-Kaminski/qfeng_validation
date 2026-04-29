@@ -1,0 +1,19 @@
+{
+  "sha256": "12a8d6434cd970e517ff6067d61211b7e2578d97413a8144eede1cd0982ae756",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T10:09:44Z",
+  "prompt_sha": "28e5ee2fe40269eaf7e270303edc3924e42a31538f7fe0bdd2f1ad02643e5cf1",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO caso concreto envolve a **invalidade de banco de horas sem Convenção Coletiva de Trabalho (CCT)**, fundamentada nos seguintes dispositivos:  \n- **CLT, Art. 489, §1°, V** (via remissão à integração CPC/CLT): Estabelece a aplicação do CPC/CLT no Direito do Trabalho, permitindo a utilização de princípios processuais e materiais do CPC em casos trabalhistas.  \n- **Súmula TST 85, V**: Define que **o banco de horas só é válido se houver Convenção Coletiva de Trabalho (CCT)**, pois é uma prática que altera a estrutura do contrato de trabalho.  \n- **TST-Ag-RR-868-65.2021**: Precedente que distingue **casos com CCT** (válidos) de **casos sem CCT** (inválidos), reforçando que a ausência de negociação coletiva configura violação do art. 489, §1°, V da CLT.  \n\n### 2. **DECISÃO RECOMENDADA**  \nA **decisão deve reconhecer a invalidade do banco de horas** no caso concreto, por ausência de CCT, com base na **Súmula TST 85, V** e no **TST-Ag-RR-868-65.2021**. Isso se deve ao fato de que o banco de horas é uma **alteração substancial do contrato de trabalho**, que só pode ser instituído mediante negociação coletiva (CCT), conforme disposto no art. 489, §1°, V da CLT.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **CLT, Art. 489, §1°, V**: Estabelece que a integração do CPC/CLT no Direito do Trabalho permite a aplicação de princípios como a **necessidade de negociação coletiva** para alterações substanciais no contrato de trabalho, como o banco de horas.  \n- **Súmula TST 85, V**: \"O **banco de horas só é válido se houver Convenção Coletiva de Trabalho** (CCT), pois é uma prática que altera a estrutura do contrato de trabalho.\"  \n- **TST-Ag-RR-868-65.2021**: Precedente que **distingue casos com CCT** (válidos) de **casos sem CCT** (inválidos), reforçando que a ausência de negociação coletiva configura violação do art. 489, §1°, V da CLT.  \n\n**Limitação**: O contexto normativo não menciona dispositivos adicionais que possam ampliar ou restringir a aplicação da Súmula TST 85, V ou do TST-Ag-RR-868-65.2021. A análise se baseia exclusivamente nos textos fornecidos.",
+  "tokens_in": 326,
+  "tokens_out": 1389,
+  "latency_ms": 91406,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

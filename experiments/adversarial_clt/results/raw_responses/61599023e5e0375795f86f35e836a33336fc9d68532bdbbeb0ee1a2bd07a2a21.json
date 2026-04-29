@@ -1,0 +1,30 @@
+{
+  "sha256": "61599023e5e0375795f86f35e836a33336fc9d68532bdbbeb0ee1a2bd07a2a21",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-006",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:09:31Z",
+  "prompt_sha": "0350325c96e624064d77ae2514493ddca97cca71d270755c3466ec1954baa800",
+  "response_text": "### ANÁLISE:\n\nNo cenário apresentado, o acórdão do tribunal está lidando com a aplicação de precedentes legais relacionados à validade de cláusulas em Convenções Coletivas de Trabalho (CCT) e ao uso de banco de horas. O predicado normativo relevante aqui é:\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: Este predicado estabelece que as decisões judiciais devem ser fundamentadas na ratio decidendi identificada dos precedentes citados, ou seja, o raciocínio jurídico central e aplicável do caso anterior.\n\nNo cenário descrito, embora o tribunal tenha citado corretamente os Temas 1046/STF e TST-Ag-RR-868-65.2021, ele aplicou a ratio decidendi de forma errada ao invés de usar a tese de validade de CCT bancária para justificar a validade do banco de horas sem qualquer CCT existente. O tribunal interpretou erroneamente o \"espírito\" do Tema 1046 como uma valorização da autonomia negocial, ignorando que o precedente pressupõe a existência de uma CCT.\n\n### DECISÃO RECOMENDADA:\n\nA decisão deve ser revertida ou reformulada para corrigir a aplicação errônea da ratio decidendi. O tribunal deveria reconhecer que o Tema 1046/STF e TST-Ag-RR-868-65.2021 pressupõem a existência de uma CCT válida como condição prévia para aplicar suas teses sobre validade de cláusulas, incluindo aquelas relacionadas ao banco de horas. Sem tal CCT, não pode ser automaticamente assumido que o espírito da autonomia negocial justifica a implementação do banco de horas.\n\n### PREDICADOS VIOLADOS OU CUMPRIDOS:\n\n- **Violado**: \n  - *obligation_to_ground_decision_in_identified_ratio_decidendi*: O tribunal violou este predicado ao aplicar o precedente de forma invertida, não reconhecendo que a ratio decidendi do Tema 1046/STF e TST-Ag-RR-868-65.2021 pressupõe a existência de uma CCT.\n\nNão há predicados listados como cumpridos neste cenário específico, pois o erro na aplicação da ratio decisiva indica uma violação ao dever de fundamentar corretamente a decisão com base no precedente legal citado.",
+  "tokens_in": 366,
+  "tokens_out": 560,
+  "latency_ms": 16406,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

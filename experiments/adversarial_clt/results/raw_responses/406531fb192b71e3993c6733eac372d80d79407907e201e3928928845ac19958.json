@@ -1,0 +1,19 @@
+{
+  "sha256": "406531fb192b71e3993c6733eac372d80d79407907e201e3928928845ac19958",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T02:53:23Z",
+  "prompt_sha": "64ecfcd55e53682e3434d268d1372d75f5339eec180f24a09ed7b88deb3f59f5",
+  "response_text": "### ANÁLISE\n\n1. **Dispositivos Legais Aplicáveis**:\n   - **Artigo 223-G da CLT**: Introduzido pela Reforma Trabalhista de 2017, este artigo trata do assédio moral no ambiente de trabalho e estabelece que o empregador é responsável por reparar os danos causados pelo assédio moral praticado contra seus empregados.\n   - **§1º do Art. 223-G da CLT**: Define a quantificação dos valores indenizatórios com base no salário do trabalhador, considerando o grau de ofensa (leve, médio, grave ou gravíssimo).\n\n2. **Interpretação no Caso Concreto**:\n   - A análise deve começar identificando a natureza e as circunstâncias dos fatos provados que caracterizam o assédio moral.\n   - O grau da ofensa (leve, médio, grave ou gravíssimo) é determinado com base na intensidade do dano psicológico sofrido pelo trabalhador e nas consequências práticas no ambiente de trabalho.\n\n### DECISÃO RECOMENDADA\n\n1. **Identificação do Grau da Ofensa**:\n   - Com base nos fatos provados, se o assédio moral foi constante e resultou em impacto significativo na saúde mental do trabalhador, pode ser classificado como \"grave\" ou \"gravíssimo\".\n   - Se os episódios foram esporádicos e tiveram um impacto menor, a classificação poderia ser \"leve\" ou \"médio\".\n\n2. **Quantificação da Indenização**:\n   - Para ofensas de grau \"grave\", o valor indenizatório pode variar entre 3 a 6 vezes o último salário do empregado.\n   - Para ofensas de grau \"gravíssimo\", a indenização pode ser superior, podendo chegar até 10 vezes o último salário.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n1. **Artigos da CLT**:\n   - **Art. 223-G**: Estabelece a responsabilidade do empregador pelo assédio moral e define os critérios para quantificação dos danos.\n   - **§1º do Art. 223-G**: Fornece parâmetros para calcular o valor da indenização com base no salário do trabalhador e na gravidade da ofensa.\n\n2. **Precedentes do TST**:\n   - A jurisprudência do Tribunal Superior do Trabalho (TST) tem estabelecido que a quantificação dos danos morais deve considerar a proporcionalidade, levando em conta o grau de ofensa e as consequências práticas para o trabalhador.\n   - **Súmula 443 do TST**: Estabelece que é cabível indenização por dano moral decorrente de assédio moral no ambiente de trabalho.\n\n3. **Considerações sobre Proporcionalidade**:\n   - A decisão deve ser proporcional ao impacto sofrido pelo trabalhador, considerando a gravidade dos fatos e as provas apresentadas.\n   - O TST tem reiterado que o valor da indenização não pode ser arbitrário, devendo refletir adequadamente o dano moral experimentado.\n\n### CONCLUSÃO\n\nA decisão deve fundamentar-se nos dispositivos legais aplicáveis, considerando a gravidade dos fatos provados e as orientações jurisprudenciais do TST. A quantificação da indenização deve ser proporcional ao grau de ofensa sofrido pelo trabalhador, conforme estabelecido no §1º do Art. 223-G da CLT.",
+  "tokens_in": 329,
+  "tokens_out": 843,
+  "latency_ms": 48483,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

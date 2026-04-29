@@ -1,0 +1,26 @@
+{
+  "sha256": "9dd42ab8130c66d9ffe74a235dc181feb8a8a8cefa167f3b63b7f15a16b518e6",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-011",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T02:06:38Z",
+  "prompt_sha": "303f6d25275850db752b15d9c7d3d948ca264d609c3666e67b0493fb3b36ada5",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que houve **violação** da legalidade no caso analisado, com base nos seguintes princípios soberanos ativos:  \n- **Obrigação de demonstrar consequências práticas da decisão** (sovereign(obligation_to_state_practical_consequences_of_decision)): O tribunal não explicou como a aplicação do tema de repercussão geral (relativo a servidores públicos) afeta concretamente os direitos do trabalhador celetista, gerando incerteza jurídica.  \n- **Proibição de citação genérica de precedentes** (sovereign(prohibition_of_generic_precedent_citation)): O tribunal citou um tema de repercussão geral (RG) sem demonstrar que sua **ratio decidendi** (fundamento jurídico) é compatível com o regime trabalhista privado, violando o princípio da **especificidade da aplicação do direito**.  \n- **Obrigação de abordar todos os argumentos jurídicos** (sovereign(obligation_to_address_all_legal_arguments)): O tribunal ignorou a distinção entre regimes jurídicos (servidores públicos vs. trabalhadores celetistas), omitindo a análise de argumentos relevantes.  \n- **Obrigação de fundamentar a decisão no ratio decidendi identificado** (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)): Não houve vinculação clara entre o tema RG citado e a situação concreta do trabalhador, violando o princípio da **transparência do raciocínio jurídico**.  \n- **Obrigação constitucional de fundamentar a decisão** (sovereign(constitutional_obligation_to_state_reasons_for_decisions)): A falta de explicações sobre a analogia ou a aplicabilidade do tema RG viola o art. 5º, XXXV da CF/88 (princípio da motivação das decisões).  \n- **Direito de acesso à justiça e revisão judicial** (sovereign(right_of_access_to_judicial_review)): A aplicação descontextualizada do tema RG limita a possibilidade de revisão da decisão, comprometendo a **equidade do processo**.  \n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O tribunal deve explicar **como a decisão afeta os direitos do trabalhador** (ex.: impactos na jornada, remuneração, etc.), evitando decisões abstratas.  \n- **sovereign(prohibition_of_generic_precedent_citation)**: Proíbe a aplicação mecânica de precedentes sem **análise de compatibilidade** com o caso concreto (ex.: não se aplica um tema de RG sobre servidores públicos a um trabalhador privado).  \n- **sovereign(obligation_to_address_all_legal_arguments)**: O tribunal deve considerar **todos os argumentos** apresentados (ex.: distinções entre regimes jurídicos, natureza da relação de trabalho).  \n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão deve estar **vinculada a um fundamento jurídico claro** (ex.: se o tema RG tem base no art. 37 da CF, deve-se demonstrar sua aplicabilidade ao caso).  \n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: O art. 5º, XXXV da CF exige que a decisão seja **motivada com razões objetivas**, não genéricas.  \n- **sovereign(right_of_access_to_judicial_review)**: O trabalhador deve ter **garantia de revisão** da decisão, o que é comprometido por decisões imprecisas.  \n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO tribunal **errou** ao aplicar uma regra que vale para servidores públicos a um motorista celetista (trabalhador privado). Eles **não explicaram por que** essa regra se aplica ao caso, deixando o trabalhador sem direito a um processo justo. Isso é um problema porque:  \n- **A regra não se encaixa** no caso do motorista (ex.: servidores têm direitos diferentes).  \n- **O tribunal não considerou todos os argumentos** apresentados (ex.: diferenças entre regimes jurídicos).  \n- **A decisão não explica claramente** por que foi tomada, o que dificulta a revisão da decisão.  \n- **O trabalhador foi prejudicado** por falta de transparência e equidade no julgamento.  \n\nA Q-FENG concluiu que isso é uma **violação** da lei, pois o tribunal não respeitou os direitos básicos do trabalhador.",
+  "tokens_in": 503,
+  "tokens_out": 1610,
+  "latency_ms": 52202,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

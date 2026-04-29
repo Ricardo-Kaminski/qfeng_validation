@@ -1,0 +1,29 @@
+{
+  "sha256": "bbb3dc9ffa977981e81f3f290b008a755fd9afc5d517e245e3e480957f8ef5ba",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T00:40:45Z",
+  "prompt_sha": "e9b9a0f5b834d2f759bd4690a730595f761f0af48ca69ce693978c1f4c32a68d",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas no Setor Hoteleiro\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, apresento a análise, decisão recomendada e identificação de cumprimento/violação dos predicados.\n\n**1. ANÁLISE:**\n\n*   **hour_bank_with_cct_max_1_year:** Este predicado estabelece que, mesmo com a possibilidade de negociação coletiva para a implementação do banco de horas, o prazo máximo para a compensação das horas extras, quando definido em CCT, não pode ultrapassar 1 ano.  A empresa hoteleira argumenta que a autonomia das partes coletivas e o princípio da adequação setorial negociada permitiriam um prazo superior, conforme estabelecido na CCT do setor hoteleiro (14 meses).  O sindicato, por outro lado, defende a prevalência do limite de 1 ano, fundamentando-se na Súmula TST 85, V.\n\n**Análise da Tensão entre os Argumentos:**\n\nA questão central reside na interpretação da Súmula TST 85, V, que, embora reconheça a possibilidade de negociação coletiva para a instituição do banco de horas, não concede às partes coletivas a liberdade irrestrita para estabelecer prazos de compensação superiores ao limite legal de 1 ano. A jurisprudência do TST tem reiteradamente limitado a autonomia da vontade coletiva quando esta contraria normas de ordem pública, como as que visam proteger o direito ao tempo de descanso do trabalhador. A CCT, embora possua força normativa, não pode inovar em prejuízo a direitos mínimos assegurados pela legislação.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que a decisão seja no sentido de **manter o limite de 1 ano para a compensação das horas no banco de horas, mesmo que a CCT do setor hoteleiro estabeleça um prazo de 14 meses.** A autonomia das partes coletivas, embora importante, não pode sobrepor-se a normas de ordem pública que visam proteger o direito ao descanso do trabalhador.  A Súmula TST 85, V, demonstra a orientação do TST sobre a matéria, limitando a flexibilização do prazo máximo para a compensação.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **hour_bank_with_cct_max_1_year:** **Violação**. A CCT do setor hoteleiro, ao estabelecer um prazo de 14 meses para a compensação, ultrapassa o limite máximo de 1 ano previsto neste predicado. A decisão recomendada visa restabelecer a conformidade com este predicado.\n\n**Observações Adicionais:**\n\n*   É importante ressaltar que a decisão final caberá ao Poder Judiciário, que deverá analisar o caso concreto à luz da legislação e da jurisprudência aplicáveis.\n*   A empresa hoteleira e o sindicato dos hotéis poderiam buscar uma negociação para adequar a CCT ao limite de 1 ano, garantindo a compensação das horas extras dentro do prazo legal.\n*   A Súmula TST 85, V, é um importante instrumento de uniformização da jurisprudência sobre o tema, e sua observância é fundamental para garantir a segurança jurídica nas relações de trabalho.\n",
+  "tokens_in": 334,
+  "tokens_out": 741,
+  "latency_ms": 20407,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

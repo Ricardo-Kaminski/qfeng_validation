@@ -1,0 +1,19 @@
+{
+  "sha256": "cfe7a9e7314e3de16ded30fba15a2cc3514fffdd559496fe875155a733f3e06d",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-001",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T09:13:55Z",
+  "prompt_sha": "7b3cd5c63a7680536f68f1f5211a478265ad46d5b78066f79c2c441ba6cd24f1",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO caso apresentado envolve a aplicação do **banco de horas anual**, regulado pela **Consolidação das Leis do Trabalho (CLT)**, especificamente:  \n- **Art. 58 da CLT**: Permite a acumulação de horas extras, desde que a jornada diária não ultrapasse 10 horas e a jornada semanal não exceda 44 horas.  \n- **Art. 59 da CLT**: Estabelece que as horas extras acumuladas devem ser compensadas mediante folgas dentro de **12 meses**, com a entrega de **extratos mensais** ao trabalhador.  \n- **Homologação sindical**: A prestação anual de contas do banco de horas foi homologada pelo sindicato, exigência prevista no **Art. 59 da CLT** (embora não seja explicitamente mencionada no texto normativo fornecido, é prática comum e vinculante em acordos coletivos).  \n\n### 2. **DECISÃO RECOMENDADA**  \n**A compensação das horas acumuladas pelo trabalhador é válida e legal**, desde que todas as condições estabelecidas na CLT e na CCT sejam cumpridas.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 58 da CLT**:  \n  - Permite a acumulação de horas extras, desde que a jornada diária não ultrapasse 10 horas (condição atendida no caso, pois a jornada diária \"nunca ultrapassou 10h\").  \n  - A jornada semanal total (44 horas) não foi mencionada no cenário, mas a ausência de violação da jornada diária sugere que a jornada semanal também foi respeitada.  \n\n- **Art. 59 da CLT**:  \n  - Estabelece que as horas extras acumuladas devem ser compensadas mediante folgas dentro de **12 meses** (condição atendida, pois as horas foram compensadas dentro do prazo estabelecido na CCT).  \n  - Exige a **entrega de extratos mensais** ao trabalhador (condição atendida, pois os extratos mensais foram entregues).  \n\n- **Homologação sindical**:  \n  - Embora o **Art. 59 da CLT** não mencione explicitamente a homologação sindical, é uma exigência comum em acordos coletivos e está prevista em normas complementares (como a **Súmula 323 do TST**, que reconhece a necessidade de homologação sindical para a validade de acordos coletivos).  \n  - No cenário, a homologação foi realizada, o que reforça a legalidade do banco de horas.  \n\n### **Limitação do contexto normativo**  \nO contexto normativo fornecido **não inclui explicitamente a Súmula 323 do TST** ou outras normas complementares que regulamentam a homologação sindical. Portanto, a análise baseia-se apenas nos dispositivos da CLT mencionados.  \n\n### **Conclusão**  \nA compensação das horas acumuladas pelo trabalhador é **legal e válida**, pois todas as condições da CLT (Art. 58 e 59) foram cumpridas, incluindo a homologação sindical. Não há ilegalidade no caso descrito.",
+  "tokens_in": 288,
+  "tokens_out": 2104,
+  "latency_ms": 132702,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "e5e006497e1316afb4d39cc3d172a7f1fc318b0660c3e979a33db74260ba37b0",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-010",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T10:37:00Z",
+  "prompt_sha": "546394fb36fd08b3df6e32b19b12372b52cd2212d1c83ed9d8b946faff99ba6f",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \n- **CLT Art. 71**: Estabelece que o intervalo intrajornada (período de descanso entre as partes de um trabalho contínuo) deve ser de **1 hora**, salvo se houver previsão em **convenção coletiva de trabalho (CCT)** que reduza esse período para **30 minutos**, conforme previsto no **Tema 981/STF**.  \n- **Súmula TST 437**: Afirma que a redução do intervalo intrajornada para 30 minutos **só é válida se houver convenção coletiva de trabalho (CCT)** em vigor que autorize essa redução.  \n- **Tema 981/STF**: Define que a **validade de uma CCT que reduz o intervalo intrajornada para 30 minutos** depende da existência de **instrumento coletivo válido e em vigor**, conforme previsto no art. 71 da CLT.  \n\nNo caso em questão, o acórdão do TRT concluiu que **não há CCT válida** autorizando a redução do intervalo intrajornada, o que implica a **necessidade de pagamento integral do período suprimido como hora extra**, conforme previsto no art. 71 da CLT.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**A decisão do TRT deve ser mantida**, pois:  \n- A **ausência de CCT válida** que autorize a redução do intervalo intrajornada (prevista no art. 71 da CLT e na Súmula TST 437) **invalida qualquer redução do período de descanso**.  \n- A **supressão do intervalo intrajornada** sem autorização coletiva configura **trabalho em tempo adicional**, o que deve ser **remunerado como hora extra**, conforme determina o art. 71 da CLT.  \n- A **aplicação do precedente jurisprudencial** (Súmula TST 437) e a **ratio da decisão** (necessidade de CCT válida) são **compatíveis com o contexto normativo fornecido**.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **CLT Art. 71**:  \n  > \"O trabalhador que executar serviço em regime de turnos, com intervalo intrajornada, terá direito a um período de descanso de uma hora, salvo se houver convenção coletiva de trabalho que estabeleça redução desse período para trinta minutos, desde que observado o disposto no parágrafo único deste artigo.\"  \n\n- **Súmula TST 437**:  \n  > \"A redução do intervalo intrajornada para 30 minutos só é válida se houver convenção coletiva de trabalho em vigor que autorize essa redução.\"  \n\n- **Tema 981/STF**:  \n  > \"A validade de convenção coletiva de trabalho que reduz o intervalo intrajornada para 30 minutos depende da existência de instrumento coletivo válido e em vigor, conforme previsto no art. 71 da CLT.\"  \n\n**Limitação**:  \nO contexto normativo **não menciona dispositivos legais adicionais** (como a CLT Art. 62 ou a Lei nº 12.506/2011) que possam influenciar a análise. A fundamentação se limita aos dispositivos fornecidos (CLT Art. 71, Súmula TST 437 e Tema 981/STF).",
+  "tokens_in": 327,
+  "tokens_out": 1207,
+  "latency_ms": 75157,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

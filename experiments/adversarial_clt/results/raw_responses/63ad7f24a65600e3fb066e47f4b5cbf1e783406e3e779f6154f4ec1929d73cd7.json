@@ -1,0 +1,19 @@
+{
+  "sha256": "63ad7f24a65600e3fb066e47f4b5cbf1e783406e3e779f6154f4ec1929d73cd7",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T20:19:29Z",
+  "prompt_sha": "c5e3679e280261d29913500eb4cf5116a82e74baef192b57794293c17afc2e50",
+  "response_text": "**ANÁLISE**\n\nO caso em questão envolve uma empresa que implantou uma jornada de trabalho de 10 horas diárias para compensação semanal (modelo 5×10) com base na Convenção Coletiva de Trabalho (CCT), que autoriza o banco de horas sem detalhar o modelo específico de compensação. Os trabalhadores questionam se essa jornada viola o limite constitucional de 8 horas diárias de trabalho, conforme estabelecido no Artigo 7º, XIII da Constituição Federal de 1988 (CF/88).\n\n**DISPOSITIVOS DO CONTEXTO NORMATIVO APPLICÁVEIS**\n\n- **Constituição Federal de 1988 (CF/88)**: O dispositivo mais diretamente aplicável ao caso é o Artigo 7º, XIII, que estabelece a jornada de trabalho como sendo de 8 horas diárias e 44 horas semanais para os trabalhadores urbanos. No entanto, essa regra pode ser excepcionada por convenção coletiva de trabalho ou acordo entre empregador e empregado.\n\n- **Convenção Coletiva de Trabalho (CCT)**: A CCT em questão autoriza o banco de horas sem detalhar o modelo específico de compensação. Isso significa que, embora não tenha sido especificada uma jornada diária de 10 horas como modelo de compensação, a CCT permite a flexibilização da jornada de trabalho.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando a autorização expressa na CCT para o banco de horas e a possibilidade de exceção à jornada de trabalho de 8 horas diárias prevista no Artigo 7º, XIII da CF/88, recomendo que a decisão seja favorável à empresa. Isso se deve ao fato de que a CCT autoriza a flexibilização da jornada de trabalho, o que pode incluir modelos de compensação como o modelo 5×10, desde que não haja prejuízo aos direitos dos trabalhadores.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n- **Artigo 7º, XIII da Constituição Federal de 1988 (CF/88)**: Estabelece a jornada de trabalho como sendo de 8 horas diárias e 44 horas semanais para os trabalhadores urbanos.\n  \n- **Súmula do Tribunal Superior do Trabalho (TST) ou decisões específicas**: Não foram citadas súmulas ou decisões específicas no contexto fornecido. No entanto, é importante consultar as súmulas e jurisprudência do TST para casos semelhantes.\n\n**LIMITAÇÃO DO CONTEXTO**\n\nO contexto não contém norma aplicável que detalhe a implementação de modelos de compensação como o modelo 5×10 em relação à jornada diária. Portanto, é importante consultar as leis trabalhistas específicas e a jurisprudência do TST para casos semelhantes.",
+  "tokens_in": 306,
+  "tokens_out": 665,
+  "latency_ms": 11124,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

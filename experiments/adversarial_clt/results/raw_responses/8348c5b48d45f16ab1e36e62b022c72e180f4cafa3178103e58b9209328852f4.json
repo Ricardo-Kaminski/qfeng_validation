@@ -1,0 +1,19 @@
+{
+  "sha256": "8348c5b48d45f16ab1e36e62b022c72e180f4cafa3178103e58b9209328852f4",
+  "braco": "B1",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T00:02:33Z",
+  "prompt_sha": "5b8f75ba208096eb458c3fc1f2bdca9675e25a232157ca9f9ce6515cdd7f9fb4",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos legais aplicáveis e sua interpretação no caso concreto**  \nO caso envolve a aplicação do **Art. 489, §1°, V, da CLT**, que estabelece que a **negociação coletiva** é **condição necessária** para a instituição de **banco de horas**. Esse dispositivo, ao remeter à integração com o **CPC/CLT**, reforça que a **negociação coletiva** (CCT) é **elemento essencial** para a validade do banco de horas, pois visa equilibrar interesses individuais e coletivos, garantindo a proteção do trabalhador.  \n\nA **Súmula TST 85, V**, ao afirmar que **\"o banco de horas só é válido se houver acordo coletivo\"**, reforça que a ausência de **CCT** inviabiliza a instituição do banco de horas, independentemente de consentimento individual. Isso porque a CLT e a jurisprudência do TST entendem que a **negociação coletiva** é **pressuposto legal** para a criação de regimes de trabalho flexíveis, como o banco de horas.  \n\nO **TST-Ag-RR-868-65.2021** (citado na decisão) é um precedente que **distingue** casos com e sem **CCT bancária**, reforçando que a **ausência de negociação coletiva** configura **violação do Art. 489, §1°, V, da CLT**. A **distinguição** feita na decisão é válida, pois o caso concreto **não envolve CCT**, diferenciando-se do precedente (que trata de banco com CCT), e, portanto, **não se enquadra nas exceções** previstas na legislação.  \n\n### 2. **DECISÃO RECOMENDADA: Qual deve ser a decisão e por quê**  \nA **decisão recomendada** é a **invalidação do banco de horas** no caso concreto, com base na **ausência de CCT**. Isso porque:  \n- O **Art. 489, §1°, V, da CLT** exige **negociação coletiva** como **condição sine qua non** para a instituição do banco de horas.  \n- A **Súmula TST 85, V** reforça que a **ausência de CCT** inviabiliza o banco de horas, independentemente de consentimento individual.  \n- A **distinguição** feita na decisão é correta, pois o caso concreto **não se enquadra nas exceções** previstas na legislação (como a existência de CCT), e a **violação do Art. 489, §1°, V, da CLT** é clara.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \nA fundamentação normativa deve incluir:  \n- **Art. 489, §1°, V, da CLT**: Estabelece que a **negociação coletiva** é **condição necessária** para a instituição de **banco de horas**, garantindo a proteção coletiva do trabalhador.  \n- **Súmula TST 85, V**: Afirma que **\"o banco de horas só é válido se houver acordo coletivo\"**, reforçando a **necessidade de CCT** para a validade do regime.  \n- **TST-Ag-RR-868-65.2021**: Precedente que **distingue** casos com e sem **CCT**, confirmando que a **ausência de negociação coletiva** configura **violação do Art. 489, §1°, V, da CLT**.  \n- **Princípio da legalidade** (Art. 5°, caput, da CF/88): A **instituição de banco de horas** sem **CCT** viola a **legalidade**, pois a CLT e a jurisprudência do TST exigem **negociação coletiva** como **pressuposto legal**.  \n\n**Conclusão**: A **invalidação do banco de horas** no caso concreto é **juridicamente fundamentada**, pois a **ausência de CCT** viola expressamente o **Art. 489, §1°, V, da CLT** e a **Súmula TST 85, V**, com apoio no **TST-Ag-RR-868-65.2021**. A **distinguição** feita na decisão é válida, pois o caso concreto **não se enquadra nas exceções** previstas na legislação.",
+  "tokens_in": 333,
+  "tokens_out": 1796,
+  "latency_ms": 101171,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "e3260d6c150df378df4387063ea87a8f9b32e217625f8e73849767855794dfa6",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-009",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T07:10:53Z",
+  "prompt_sha": "5b12208f005282f197e73fcd2d470c2292b060bfe7a9e603c2a08af1ce3e4934",
+  "response_text": "**ANÁLISE**\n\n1.  **Identificação dos dispositivos legais aplicáveis**: O caso concreto envolve a aplicação da Súmula TST 85, que trata sobre o banco de horas sem Convenção Coletiva de Trabalho (CCT). A Súmula estabelece que as horas trabalhadas acima do limite normal devem ser pagas como hora extra com adicional de 50%.\n2.  **Interpretação no caso concreto**: O caso específico refere-se a um banco de horas sem CCT, com duração de 7 meses. Nesse período, o empregado trabalhou horas extras sem receber o adicional devido.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que o empregador pague as horas extras trabalhadas pelo empregado durante os 7 meses com adicional de 50%, conforme estabelecido na Súmula TST 85.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n1.  **Súmula TST 85**: A Súmula TST 85 é expressa no seguinte teor: \"O acréscimo de horas trabalhadas, sem convenção coletiva de trabalho, não se confunde com a compensação prevista no artigo 59 da CLT\". Isso significa que as horas extras trabalhadas sem CCT devem ser pagas como hora extra, com adicional de 50%.\n2.  **Artigo 59 da CLT**: O artigo 59 da CLT estabelece a possibilidade de compensação de jornada, mas apenas se houver convenção coletiva de trabalho que autorize essa prática.\n3.  **Precedentes constitucionais**: A Constituição Federal brasileira de 1988 protege o direito dos trabalhadores à remuneração justa por suas horas extras (artigo 7º, inciso XV).\n\n**CONCLUSÃO**\n\nEm resumo, a decisão recomendada é que o empregador pague as horas extras trabalhadas pelo empregado durante os 7 meses com adicional de 50%, conforme estabelecido na Súmula TST 85. Isso se baseia na interpretação da Súmula TST 85 e no artigo 59 da CLT, que não autorizam a compensação de jornada sem convenção coletiva de trabalho. Além disso, a Constituição Federal protege o direito dos trabalhadores à remuneração justa por suas horas extras.",
+  "tokens_in": 307,
+  "tokens_out": 562,
+  "latency_ms": 18438,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

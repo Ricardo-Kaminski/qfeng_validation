@@ -1,0 +1,19 @@
+{
+  "sha256": "c0071d4a702ab9260b4bf29dde54ea62565ffa27e531fd2d98e1c265972d17aa",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-009",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T11:45:03Z",
+  "prompt_sha": "b52c58418328df387e8b7c94bfb4ec79b990e353534114db4eac578f0ac5539c",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a construtora firmou uma Convenção Coletiva de Trabalho (CCT) com um sindicato da construção civil que previa o banco de horas anual. No entanto, essa CCT não foi negociada com o sindicato representativo dos empregados administrativos, que constituem uma categoria diferenciada.\n\nOs dispositivos normativos relevantes para analisar este caso incluem:\n\n- **Artigo 7º da CLT (Consolidação das Leis do Trabalho):** Este artigo estabelece a necessidade de participação dos sindicatos representantes das categorias profissionais na negociação e celebração de CCTs. A aplicabilidade desse dispositivo é crucial, pois indica que uma convenção deve ser negociada com o sindicato da categoria específica para ter validade.\n\n- **Súmula 357 do TST (Tribunal Superior do Trabalho):** Esta súmula estabelece que a CCT vincula apenas as partes signatárias e seus filiados, não podendo ser aplicada a categorias profissionais diferentes das representadas pelos sindicatos negociadores.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é considerar o banco de horas inválido para os empregados administrativos da construtora. Isso se deve ao fato de que a CCT foi firmada sem a participação do sindicato representativo dessa categoria diferenciada, conforme exigido pela legislação trabalhista brasileira.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Artigo 7º da CLT:** Este artigo sublinha a necessidade de que as convenções coletivas sejam negociadas e celebradas pelos sindicatos representativos das categorias profissionais envolvidas, garantindo que apenas esses trabalhadores estejam vinculados às condições estabelecidas na CCT.\n\n- **Súmula 357 do TST:** Esta súmula reforça a ideia de que uma CCT só tem efeito sobre as categorias profissionais representadas pelos sindicatos signatários. Portanto, aplicar o banco de horas aos administrativos sem a participação de seu sindicato na negociação da CCT viola essa normativa.\n\nDessa forma, a decisão deve ser tomada em conformidade com esses dispositivos normativos, reconhecendo que os empregados administrativos não estão vinculados ao banco de horas estabelecido pela CCT firmada sem sua representação sindical adequada.",
+  "tokens_in": 292,
+  "tokens_out": 579,
+  "latency_ms": 33094,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

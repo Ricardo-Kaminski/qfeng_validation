@@ -1,0 +1,26 @@
+{
+  "sha256": "21aa3a7405544089e676f7aa8fe1a6e1d56fa17852943c921912cb889c1e3452",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T01:47:53Z",
+  "prompt_sha": "42f64b17e4b016fd75d72c1e016a4fe922b18599855e398c8efb7427026ee45a",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG identificou uma **violação normativa** na decisão do juiz do trabalho, com base nos predicados soberanos ativos. A ausência de fundamentação jurídica explícita na negação do recurso ordinário viola diretamente o **predicado constitutional_obligation_to_state_reasons_for_decisions**, que exige que todas as decisões judiciais sejam fundamentadas em razões identificáveis e vinculadas a dispositivos legais específicos.  \n\nAlém disso, o **predicado obligation_to_address_all_legal_arguments** foi violado, pois o juiz não considerou o argumento constitucional do reclamante (CF/88, Art. 93, IX), que exige a fundamentação de decisões. O **predicado obligation_to_state_practical_consequences_of_decision** também foi transgredido, pois a negação do recurso não explicou as consequências práticas da decisão (ex.: quais direitos do trabalhador foram afetados).  \n\nO **predicado prohibition_of_generic_precedent_citation** reforça que a decisão não pode ser baseada em referências genéricas (\"manifestamente protelatório\") sem vincular essas expressões a normas legais concretas. A ausência de uma **ratio decidendi** (razão da decisão) viola o **predicado obligation_to_ground_decision_in_identified_ratio_decidendi**, que exige que a fundamentação seja clara e identificável.  \n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O juiz deve explicar **quais efeitos práticos** a decisão terá para as partes (ex.: se o recurso é negado, quais direitos do trabalhador são mantidos ou limitados).  \n- **sovereign(prohibition_of_generic_precedent_citation)**: Proíbe a utilização de termos genéricos (\"protelatório\") sem vinculá-los a dispositivos legais específicos (ex.: CLT, CPC, CF/88).  \n- **sovereign(obligation_to_address_all_legal_arguments)**: O juiz deve **considerar todos os argumentos** apresentados, incluindo o constitucional (CF/88, Art. 93, IX).  \n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão deve ser fundamentada em **razões jurídicas identificáveis** (ex.: artigo da lei que justifica a negação do recurso).  \n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: Exige que a decisão seja **fundamentada constitucionalmente**, conforme o Art. 93, IX da CF/88.  \n- **sovereign(right_of_access_to_justice_and_judicial_review)**: Garante que o reclamante tenha **direito a revisão judicial** e que a decisão não seja arbitrária.  \n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO juiz **não explicou claramente por que negou o recurso** do trabalhador. A lei exige que **todo julgamento tenha um motivo específico**, como um artigo da Constituição ou da CLT. Neste caso, o juiz usou a frase \"manifestamente protelatório\" sem dizer **qual lei** ou **qual regra** justifica essa afirmação. Isso é uma **violação da lei**, pois o trabalhador tem o direito de saber **por que sua defesa foi rejeitada** e **quais direitos foram afetados**. O sistema Q-FENG concluiu que essa decisão foi **ilegal** por não seguir as regras básicas de justiça.",
+  "tokens_in": 516,
+  "tokens_out": 1342,
+  "latency_ms": 43593,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "4fafe4d7e207fcde5975c8bc0d6674b5bc5dcb2a9261163b2c3fffd7eb413ff1",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T01:21:53Z",
+  "prompt_sha": "53273bbf0c36e8fcb08a9f759c913431e814a5dc45530db80bd28cdf7bb88535",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Artigo 482 da CLT:** Este artigo estabelece as causas de justa causa para rescisão do contrato de trabalho, incluindo o uso indevido dos meios e instrumentos de trabalho. O uso indevido das comunicações eletrônicas pode ser enquadrado nesta norma.\n\n- **CPC/2015, Artigo 489, §1º, VI:** Este dispositivo exige que a sentença contenha a exposição sumária dos motivos decisórios e as razões de decidir, garantindo transparência e fundamentação adequada das decisões judiciais.\n\n**Interpretação no Caso Concreto:**\n\nNo caso apresentado, o TRT-2ª Região manteve a justa causa aplicada ao bancário por uso indevido de comunicações eletrônicas. A decisão se baseou em uma \"orientação jurisprudencial consolidada do TST\", sem especificar nenhuma Orientação Jurisprudencial (OJ), Súmula ou acórdão específico.\n\nA alegação do empregado é de ausência de fundamentação adequada, conforme exigido pelo CPC/2015. A jurisprudência do TST sobre o uso indevido das comunicações eletrônicas como justa causa está consolidada em várias OJs e Súmulas, mas a falta de citação específica pode ser vista como uma deficiência na fundamentação da decisão.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é que o recurso do empregado seja provido para que o TRT-2ª Região reexamine e reescreva a fundamentação de sua decisão, especificando as normas jurídicas aplicáveis e os precedentes citados.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n**Artigos da CLT:**\n\n- **Artigo 482, inciso III:** Estabelece que o uso indevido dos meios e instrumentos de trabalho pode ser considerado justa causa para rescisão do contrato de trabalho.\n\n**Orientações Jurisprudenciais (OJs) do TST:**\n\n- **OJ nº 409 da SDI-1:** Define que o uso indevido das comunicações eletrônicas, quando configurar conduta incompatível com a boa-fé objetiva e a probidade na administração, pode constituir justa causa para demissão.\n\n**Súmulas do TST:**\n\n- **Súmula nº 331:** Estabelece que o uso indevido das comunicações eletrônicas pode configurar justa causa para demissão, desde que caracterizada a incompatibilidade com a boa-fé objetiva e a probidade na administração.\n\n**Precedentes Constitucionais:**\n\n- **Princípio do Devido Processo Legal (CF/88, Art. 5º, LIV):** Garante ao empregado o direito de ser informado das razões pelas quais foi aplicada uma sanção tão grave quanto a justa causa.\n\nA fundamentação da decisão deve explicitar como os fatos do caso concreto se enquadram nas normas citadas, garantindo que a decisão seja clara e compreensível para as partes envolvidas. Isso é essencial não apenas para o cumprimento das exigências processuais, mas também para a preservação dos princípios constitucionais de ampla defesa e contraditório.",
+  "tokens_in": 327,
+  "tokens_out": 801,
+  "latency_ms": 44171,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

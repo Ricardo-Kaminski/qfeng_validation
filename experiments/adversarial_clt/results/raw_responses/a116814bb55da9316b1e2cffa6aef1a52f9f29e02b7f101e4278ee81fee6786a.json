@@ -1,0 +1,19 @@
+{
+  "sha256": "a116814bb55da9316b1e2cffa6aef1a52f9f29e02b7f101e4278ee81fee6786a",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-008",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T12:00:56Z",
+  "prompt_sha": "20bcb1901ab1aa5e2075eb13244f62faae731e7567ce2ad32b769d26afac0022",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a empresa alterou unilateralmente a escala de compensação de folgas prevista na Convenção Coletiva de Trabalho (CCT), estabelecendo que as horas extras devem ser compensadas apenas às sextas-feiras. A CCT original permitia aos trabalhadores escolher flexivelmente a data para tal compensação. Os trabalhadores argumentam que essa mudança unilateral viola a CCT e, por extensão, invalida o banco de horas.\n\nOs dispositivos normativos aplicáveis neste caso incluem:\n\n- **Convenção Coletiva de Trabalho (CCT):** A CCT é um acordo entre sindicatos e empregadores que estabelece condições específicas para os trabalhadores em determinado setor ou empresa. Alterações unilaterais a essas condições podem ser consideradas violações, dependendo do conteúdo da CCT.\n\n- **Lei nº 7.783/89 (Banco de Horas):** Esta lei regula o banco de horas no Brasil e estabelece que as compensações devem ocorrer dentro dos limites acordados na CCT ou acordo coletivo, não podendo ser alteradas unilateralmente pelo empregador.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que a empresa reverta a mudança unilateral e restabeleça o regime de compensação conforme originalmente previsto na CCT. A alteração feita pela empresa violou os termos acordados, uma vez que qualquer modificação ao banco de horas deve ser negociada coletivamente.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Lei nº 7.783/89:** Esta lei estabelece que o banco de horas é regido pelas condições previstas na CCT ou acordo coletivo, e qualquer alteração deve ser feita mediante negociação coletiva (artigo 2º). A unilateralidade na mudança da escala de compensação viola essa norma.\n\n- **Convenção Coletiva de Trabalho (CCT):** As CCTs têm força legal como acordos entre as partes, e qualquer alteração unilateral por parte do empregador pode ser considerada nula se contrariar o que foi pactuado. A flexibilidade na escolha da data para compensação é um termo específico da CCT em questão.\n\nDessa forma, a empresa deve negociar quaisquer mudanças futuras com os representantes dos trabalhadores, respeitando o princípio de negociação coletiva previsto no Direito do Trabalho brasileiro.",
+  "tokens_in": 282,
+  "tokens_out": 587,
+  "latency_ms": 34109,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

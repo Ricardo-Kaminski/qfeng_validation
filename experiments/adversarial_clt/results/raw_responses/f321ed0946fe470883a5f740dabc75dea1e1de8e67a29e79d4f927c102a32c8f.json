@@ -1,0 +1,26 @@
+{
+  "sha256": "f321ed0946fe470883a5f740dabc75dea1e1de8e67a29e79d4f927c102a32c8f",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T01:18:59Z",
+  "prompt_sha": "a468f9337a1667ebe471a714d6ab4b8f17bcd68f8f75d3aa6e375913dc2f76bf",
+  "response_text": "**ANÁLISE**\n\n1. **obligation_to_ground_decision_in_identified_ratio_decidendi**: Esse predicado normativo exige que as decisões judiciais sejam fundamentadas com base em uma relação de causa e efeito entre a legislação aplicável e a conclusão alcançada. Nesse caso, o juiz do trabalho negou seguimento ao recurso ordinário sem especificar qual lei, dispositivo ou fundamento jurídico embasa sua decisão. Isso significa que o predicado **obligation_to_ground_decision_in_identified_ratio_decidendi** foi violado.\n\n2. **due_process_of_law**: Esse predicado normativo garante o direito de defesa e a necessidade de fundamentação das decisões judiciais, garantindo assim um processo justo e transparente. A decisão do juiz não apenas negou seguimento ao recurso sem fundamentação, mas também não respeitou o direito do reclamante de ter suas alegações consideradas e respondidas. Além disso, a falta de especificação da lei ou dispositivo aplicado viola o princípio da publicidade dos atos processuais e da transparência na aplicação da lei. Portanto, o predicado **due_process_of_law** também foi violado.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando a violação dos predicados mencionados, a decisão recomendada seria a anulação da decisão do juiz do trabalho e a remessa do processo para uma nova análise, garantindo que as partes tenham o direito de defesa pleno e que as decisões sejam fundamentadas de acordo com a legislação aplicável.\n\n**PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: Violado\n- **due_process_of_law**: Violado\n\nEsses predicados foram violados, pois a decisão do juiz não foi fundamentada de acordo com a legislação aplicável e não respeitou o direito de defesa do reclamante.",
+  "tokens_in": 350,
+  "tokens_out": 454,
+  "latency_ms": 7610,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

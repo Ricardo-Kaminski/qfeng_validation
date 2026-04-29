@@ -1,0 +1,19 @@
+{
+  "sha256": "56c5cbd744ca60e80d2d483625eb921c9f52391a95bbe3f8666a078bdb8b4e08",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-007",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T02:01:12Z",
+  "prompt_sha": "dd6f2e003476c4afd5536719c324f62f60775ac34721283dda4b2bcc970f33b6",
+  "response_text": "### ANÁLISE:\n\nNo cenário apresentado, o empregado acumulou 400 horas em banco de horas com prazo de compensação de 12 meses. A empresa não realizou a compensação das folgas durante esse período e também não efetuou o pagamento ao final do prazo estipulado pela CCT (Convenção Coletiva de Trabalho), que não previa mecanismo de pagamento em caso de não-compensação.\n\n#### Dispositivos Legais Aplicáveis:\n\n1. **Banco de Horas**: Regido pelo artigo 59 da CLT, permite a compensação de horas extras mediante acordo individual ou coletivo, desde que observadas as condições estabelecidas na lei e nas convenções coletivas.\n\n2. **Prazo Máximo para Compensação**: A jurisprudência do TST (Tribunal Superior do Trabalho) estabeleceu que o prazo máximo para compensação de horas em banco de horas é de 6 meses, conforme a Súmula 338 do TST. No entanto, convenções coletivas podem prever prazos maiores, desde que não excedam 12 meses.\n\n3. **Pagamento das Horas Não Compensadas**: A jurisprudência do TST também estabeleceu que, ao final do prazo de compensação, as horas extras não compensadas devem ser pagas como hora extra normal (Súmula 338 do TST).\n\n#### Interpretação no Caso Concreto:\n\n- **Prazo de Compensação**: A CCT estabeleceu um prazo de 12 meses para compensação, que é o limite máximo permitido pela jurisprudência do TST.\n  \n- **Necessidade Operacional Permanente**: Alegações da empresa sobre necessidade operacional não são suficientes para justificar a não-compensação das horas acumuladas, especialmente após o término do prazo estabelecido.\n\n- **Ausência de Mecanismo de Pagamento na CCT**: Embora a CCT não preveja pagamento em caso de não-compensação, a jurisprudência do TST é clara no sentido de que as horas extras não compensadas devem ser pagas após o término do prazo.\n\n### DECISÃO RECOMENDADA:\n\nA empresa deve pagar ao empregado o valor correspondente às 400 horas extras acumuladas e não compensadas, calculado como hora extra normal. Isso porque, ao final do prazo de 12 meses, as horas não foram compensadas conforme estabelecido na CCT.\n\n### FUNDAMENTAÇÃO NORMATIVA:\n\n1. **Artigo 59 da CLT**: Regula a possibilidade de banco de horas mediante acordo coletivo ou individual.\n\n2. **Súmula 338 do TST**: Estabelece que o prazo máximo para compensação de horas em banco de horas é de 6 meses, podendo ser estendido até 12 meses por convenção coletiva. Após esse período, as horas extras não compensadas devem ser pagas como hora extra normal.\n\n3. **Jurisprudência do TST**: Confirma que a necessidade operacional da empresa não justifica a não-compensação das horas após o término do prazo estabelecido na CCT (TST, 5ª Turma, RR: 1.086-53.2013.5.04.0014).\n\nEssa decisão está alinhada com os princípios da proteção ao trabalhador e a interpretação uniforme das normas trabalhistas pelo TST.",
+  "tokens_in": 292,
+  "tokens_out": 792,
+  "latency_ms": 47625,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

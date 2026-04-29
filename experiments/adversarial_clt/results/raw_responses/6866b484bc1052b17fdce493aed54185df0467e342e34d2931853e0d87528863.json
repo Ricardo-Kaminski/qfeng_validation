@@ -1,0 +1,19 @@
+{
+  "sha256": "6866b484bc1052b17fdce493aed54185df0467e342e34d2931853e0d87528863",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T11:34:16Z",
+  "prompt_sha": "5ea5a4ec4b7a213278e903919d216504e93002c7ed7cad9209cdd623ae666231",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a empresa adotou um banco de horas com base em acordos individuais escritos, sem negociação coletiva. O principal ponto de controvérsia é se esses acordos individuais podem substituir a necessidade de um acordo coletivo para implementar o banco de horas.\n\nNo Direito do Trabalho brasileiro, especialmente em relação ao banco de horas, há normas específicas que regem como esse instrumento deve ser aplicado. A principal referência é a Consolidação das Leis do Trabalho (CLT), que estabelece requisitos para o uso do banco de horas.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada seria considerar os acordos individuais inválidos na medida em que substituem a necessidade de um acordo coletivo, conforme exigido pela legislação trabalhista brasileira para o banco de horas. A empresa deve buscar negociar e formalizar um acordo coletivo com a participação do sindicato representante dos trabalhadores.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Artigo 59 da CLT:** Este artigo estabelece que o banco de horas só pode ser instituído mediante acordo ou convenção coletiva de trabalho, e não por meio de acordos individuais. A norma é clara ao exigir a participação do sindicato representante dos trabalhadores para a validade do instrumento.\n\n- **Súmula 331 do TST (Tribunal Superior do Trabalho):** Esta súmula reforça que o banco de horas deve ser instituído por acordo ou convenção coletiva, não sendo permitida sua implementação por meio de acordos individuais.\n\nPortanto, a empresa deve buscar um acordo coletivo para regularizar a situação do banco de horas e garantir conformidade com as normas trabalhistas vigentes.",
+  "tokens_in": 295,
+  "tokens_out": 440,
+  "latency_ms": 25109,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

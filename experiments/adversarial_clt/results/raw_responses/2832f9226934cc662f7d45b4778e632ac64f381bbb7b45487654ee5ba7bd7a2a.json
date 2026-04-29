@@ -1,0 +1,19 @@
+{
+  "sha256": "2832f9226934cc662f7d45b4778e632ac64f381bbb7b45487654ee5ba7bd7a2a",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-006",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T07:50:06Z",
+  "prompt_sha": "dc42950883c6a42ff604343c714a557eba3212d5e1da5d935fdc051fdc1652eb",
+  "response_text": "### 1. **ANÁLISE**  \nO caso envolve a **necessidade de motivação da decisão judicial**, conforme previsto no **Código de Processo Civil (CPC)**. A juíza indeferiu a prova pericial sem **especificar quais documentos foram considerados suficientes** para demonstrar os fatos probatórios, o que configura **deficiência de motivação**. A análise deve se basear exclusivamente no dispositivo citado no contexto normativo (CPC Art. 489, §1°, I), que exige que a decisão contenha **a exposição clara dos fatos e fundamentos jurídicos** que justificam a conclusão.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **decisão interlocutória deve ser anulada** por deficiência de motivação. A ausência de indicação específica dos documentos considerados suficientes e a falta de vinculação entre os fatos probatórios e os elementos de convicção violam o **princípio da motivação das decisões**, garantido pelo CPC. A anulação é necessária para que a juíza reformule a decisão com o devido **fundamentação jurídica e fática**, conforme exigido pelo ordenamento processual.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Código de Processo Civil (CPC), Art. 489, §1°, I**:  \n  *\"A decisão judicial deve conter a exposição clara dos fatos e fundamentos jurídicos que justificam a conclusão.\"*  \n  A ausência de indicação dos documentos considerados suficientes e a falta de vinculação entre os fatos e os elementos de convicção violam este dispositivo.  \n\n- **Limitação do contexto normativo**:  \n  O contexto não menciona outras normas aplicáveis (como súmulas do STJ ou STF, ou dispositivos do **Código Civil** ou **Consolidação das Leis do Trabalho**), sendo **exclusivamente baseado no CPC Art. 489, §1°, I**.  \n\n---\n\n### Observação Final:  \nA análise está restrita aos dispositivos fornecidos no contexto, conforme solicitado. A deficiência de motivação da decisão judicial é **inadmissível** sob o CPC, independentemente da área do direito (trabalhista, civil, etc.), e deve ser corrigida por meio da anulação da decisão.",
+  "tokens_in": 282,
+  "tokens_out": 960,
+  "latency_ms": 59844,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

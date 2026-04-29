@@ -1,0 +1,26 @@
+{
+  "sha256": "770c1d52a03c3ee0293a6dfee1c1ef2a5d63ef3c3940b65a313d9ca3469648f0",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-009",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T00:29:51Z",
+  "prompt_sha": "d1fdc105e58bb56978ba05596e29a5c6877b1685ca6ea3d00eee6f782a96ee44",
+  "response_text": "## Análise do Caso à Luz dos Predicados Normativos\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, a análise e a decisão recomendada são as seguintes:\n\n**1. ANÁLISE:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi (Obrigação de fundamentar a decisão no *ratio decidendi* identificado):** Este predicado é *claramente violado* no caso. A simples reprodução dos fundamentos da sentença de primeiro grau não cumpre a obrigação de o acórdão do TRT apresentar uma análise própria e independente. O *ratio decidendi* é a razão de decidir, a lógica jurídica que sustenta a decisão. A mera citação da sentença de origem não substitui a necessidade de o acórdão demonstrar como a lei e a jurisprudência aplicáveis foram interpretadas e aplicadas ao caso concreto.  A situação é agravada pelo fato de a sentença de origem ter se baseado em um precedente superado pelo TST. O acórdão do TRT, ao adotar integralmente a sentença, perpetua a aplicação de um entendimento jurídico obsoleto, sem demonstrar que ele ainda é aplicável ou justificável.  A fundamentação deve ser original e refletir a análise do colegiado sobre o caso.\n\n*   **due_process_of_law (Devido processo legal):** Embora a violação do *ratio decidendi* não configure, por si só, uma violação do devido processo legal, a falta de fundamentação adequada pode, em determinadas circunstâncias, levar a essa violação. O devido processo legal garante ao reclamante o direito de ter o caso analisado de forma justa e imparcial, com a possibilidade de compreender as razões que levaram à decisão e de apresentar suas alegações em resposta. A ausência de uma fundamentação clara e completa impede o reclamante de exercer plenamente esse direito, tornando a decisão arbitrária e, potencialmente, violando o princípio da legalidade e da transparência. A utilização de um precedente superado, sem a devida análise crítica, também pode indicar uma falta de imparcialidade.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que o acórdão do TRT seja **anulado** ou, alternativamente, seja determinado o seu **retorno à Turma para nova apreciação**.  A anulação é a medida mais drástica, mas a mais adequada para garantir a observância do *ratio decidendi* e do devido processo legal.  Se a anulação não for possível ou desejável, a Turma deve ser instruída a elaborar um novo acórdão que:\n\n*   Analise o caso concreto de forma independente, sem mera reprodução da sentença de primeiro grau.\n*   Considere a jurisprudência atual do TST, especialmente a que superou o precedente utilizado na sentença de origem.\n*   Fundamente a decisão de forma clara e completa, demonstrando a aplicação da lei e da jurisprudência ao caso.\n*   Permita ao reclamante compreender as razões da decisão e apresentar suas alegações em resposta.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** **Violação**. O acórdão não cumpriu a obrigação de fundamentar a decisão em uma análise própria do *ratio decidendi*.\n*   **due_process_of_law:** **Possível Violação**. A falta de fundamentação adequada pode, em determinadas circunstâncias, configurar violação do devido processo legal, especialmente se impedir o reclamante de compreender e contestar a decisão. A utilização de um precedente superado sem análise crítica também pode indicar uma falta de imparcialidade, o que também pode configurar violação do devido processo legal.",
+  "tokens_in": 318,
+  "tokens_out": 819,
+  "latency_ms": 22500,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

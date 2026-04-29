@@ -1,0 +1,19 @@
+{
+  "sha256": "d8c5c5b010946acf7a3a1be7d1b9f19ca35fca54cc1084af9bc79da4d7e7937c",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T06:53:18Z",
+  "prompt_sha": "5eb3d71f8379d34717c7c3be19d2ecbcc590cb01ed22ee807b806f8f59c3dc88",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve uma empresa do setor químico que implantou uma jornada de trabalho de 10 horas diárias para compensação semanal, sem previsão específica na Convenção Coletiva de Trabalho (CCT). A CCT apenas autoriza o banco de horas sem detalhar o modelo de compensação.\n\nA primeira análise a ser feita é se a jornada de 10 horas diárias viola o limite constitucional de 8 horas de trabalho por dia, conforme estabelecido na Constituição Federal de 1988 (CF/88), no artigo 7º, XIII. Para isso, é necessário analisar a compatibilidade entre as regras da CCT e os limites legais impostos pela legislação trabalhista.\n\n**Dispositivos Legais Aplicáveis**\n\n- **Constituição Federal de 1988 (CF/88)**: O artigo 7º, XIII, estabelece que é direito dos trabalhadores a jornada de trabalho não superior a oito horas diárias e quarenta horas semanais, salvo nos casos excepcionados pela legislação.\n- **Consolidação das Leis do Trabalho (CLT)**: A CLT é a principal fonte de direito trabalhista no Brasil. Ela estabelece as regras gerais para o trabalho e os direitos dos trabalhadores, incluindo as normas sobre jornada de trabalho.\n- **Convenção Coletiva de Trabalho (CCT)**: A CCT é um acordo entre empregados e empregadores que regula condições de trabalho específicas para a categoria. Ela pode estabelecer regras mais favoráveis aos trabalhadores do que as previstas na legislação.\n\n**Interpretação no Caso Concreto**\n\nA CCT autorizou o banco de horas sem detalhar o modelo de compensação, mas não especificou uma jornada diária de 10 horas como forma de compensação. A questão é se essa prática viola a regra constitucional de que a jornada de trabalho não pode ser superior a 8 horas diárias.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada seria que a jornada de 10 horas diárias, embora autorizada pela CCT, é inconstitucional e viola o limite de 8 horas diárias estabelecido na CF/88. Isso porque a Constituição prevê exceções para essa regra, mas elas devem ser expressamente mencionadas em lei ou convenção coletiva que seja específica sobre esses aspectos.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n- **Artigo 7º, XIII da CF/88**: Estabelece o limite de 8 horas diárias para a jornada de trabalho.\n- **Súmula do TST nº 438**: \"O banco de horas só é permitido quando previsto em convenção coletiva ou acordo individual.\"\n- **Precedentes Constitucionais**: Embora não mencionados explicitamente, os precedentes constitucionais que embasam essa decisão são aqueles que estabelecem a supremacia da Constituição sobre as leis e convenções coletivas, quando houver conflito entre esses dispositivos.\n\n**Conclusão**\n\nA jornada de trabalho de 10 horas diárias, mesmo autorizada pela CCT, viola o limite constitucional de 8 horas diárias estabelecido na CF/88. Portanto, é recomendável que a decisão seja favorável aos trabalhadores, declarando a inconstitucionalidade da jornada de trabalho de 10 horas diárias e determinando sua redução para o limite de 8 horas diárias, respeitadas as exceções previstas na legislação.",
+  "tokens_in": 315,
+  "tokens_out": 854,
+  "latency_ms": 27343,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

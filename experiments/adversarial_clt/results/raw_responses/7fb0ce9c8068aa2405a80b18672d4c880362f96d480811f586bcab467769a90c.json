@@ -1,0 +1,19 @@
+{
+  "sha256": "7fb0ce9c8068aa2405a80b18672d4c880362f96d480811f586bcab467769a90c",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T06:26:33Z",
+  "prompt_sha": "856e569861e6d83958f31fa30fb38c506de39fc28b72d6768e2fbff573d5c742",
+  "response_text": "**ANÁLISE**\n\n1.  **Identificação dos dispositivos legais aplicáveis:** O dispositivo legal aplicável nesse caso é o Artigo 93, IX da Constituição Federal de 1988 (CF/88), que estabelece a obrigação de fundamentação das decisões judiciais.\n2.  **Interpretação no caso concreto:** A negativa de seguimento ao recurso ordinário sem especificar o dispositivo legal ou fundamento jurídico viola expressamente o Artigo 93, IX da CF/88, pois é obrigatório que as decisões judiciais sejam fundamentadas.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é a anulação da decisão do juiz do trabalho e determinação de que ele esclareça os fundamentos jurídicos para negar seguimento ao recurso ordinário, pois a falta de fundamentação viola expressamente o Artigo 93, IX da CF/88.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n1.  **Artigo 93, IX da Constituição Federal de 1988 (CF/88):** \"O juiz que negar seguimento a recurso terá obrigação de fundamentar a decisão.\"\n2.  **Súmula do TST nº 242:** \"A falta de motivação não obsta o conhecimento do recurso, mas impõe ao juiz a manifestação sobre os argumentos trazidos na petição recursal.\"\n3.  **Precedentes Constitucionais:** O Supremo Tribunal Federal (STF) tem decidido que a fundamentação é obrigatória em todas as decisões judiciais, conforme se pode ver nos julgados do STF como o RE 567.568/RS.\n\n**CONCLUSÃO**\n\nA decisão do juiz do trabalho de negar seguimento ao recurso ordinário sem especificar o dispositivo legal ou fundamento jurídico viola expressamente o Artigo 93, IX da CF/88 e deve ser anulada para que ele esclareça os fundamentos jurídicos.",
+  "tokens_in": 295,
+  "tokens_out": 455,
+  "latency_ms": 14890,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

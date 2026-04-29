@@ -1,0 +1,19 @@
+{
+  "sha256": "d5c40cf65c360d403ea7166700c9828f0fdc4987abfeb8b9805e05e4e82155a5",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-008",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T06:45:14Z",
+  "prompt_sha": "b2b2d260bf53882cb44456094a53708ed791ae3fa391812830b34aac68cb56b6",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a aplicação do regime de banco de horas estabelecido por Acordo Coletivo de Trabalho (ACT) entre a empresa e os empregados, com compensação em 7 meses. O trabalhador pediu demissão após 5 meses da vigência do acordo, deixando um saldo positivo de 60 horas.\n\nA primeira questão a ser analisada é se o pedido de demissão pelo empregado desfaz a lógica compensatória do banco de horas. A lei trabalhista não estabelece que o pedido de demissão por parte do empregado possa invalidar automaticamente os acordos coletivos celebrados entre a empresa e os sindicatos representativos dos empregados.\n\nO artigo 599 da CLT estabelece que, no caso de rescisão do contrato de trabalho, o empregador deve pagar ao empregado as horas extras não compensadas. Além disso, a Súmula nº 438 do TST estabelece que \"o saldo favorável ao empregado em banco de horas é pago no momento da rescisão do contrato\".\n\nPortanto, o pedido de demissão pelo trabalhador não desfaz a lógica compensatória do banco de horas. O empregado tem direito ao pagamento das horas extras pendentes, independentemente do pedido de demissão.\n\n**DECISÃO RECOMENDADA**\n\nDeve ser reconhecido o direito do empregado ao pagamento das 60 horas extras não compensadas, com base nos artigos 599 da CLT e Súmula nº 438 do TST. A empresa deve pagar ao trabalhador o valor correspondente às horas extras pendentes.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n* Artigo 599 da CLT: \"No caso de rescisão do contrato de trabalho, o empregador deve pagar ao empregado as horas extras não compensadas.\"\n* Súmula nº 438 do TST: \"O saldo favorável ao empregado em banco de horas é pago no momento da rescisão do contrato.\"\n\nAlém disso, a jurisprudência do TST também reconhece o direito do empregado ao pagamento das horas extras pendentes após a rescisão do contrato de trabalho. Exemplo: \"A rescisão do contrato de trabalho não desfaz a lógica compensatória do banco de horas\" (TST - RO 1.212/2007-050.009.00.01).\n\nPortanto, com base nos dispositivos legais e na jurisprudência do TST, é recomendada a decisão favorável ao empregado no caso concreto.",
+  "tokens_in": 313,
+  "tokens_out": 604,
+  "latency_ms": 19796,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

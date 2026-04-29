@@ -1,0 +1,19 @@
+{
+  "sha256": "30daf51d6e781327c63f968533d3909bb7dfc04e1cf6d1606f1b2f648260e77d",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T13:28:26Z",
+  "prompt_sha": "a85f83168754656645aa505c738c3f455e5b43d35588252a7741b37fee254e0a",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso: Extensão do Banco de Horas além do Prazo da CCT\n\nCom base no cenário apresentado e considerando a CCT do setor farmacêutico como único contexto normativo, a análise, decisão recomendada e fundamentação são as seguintes:\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nO caso se concentra na interpretação da cláusula de renovação automática do banco de horas prevista na CCT do setor farmacêutico. A questão central é se a empresa pode estender o período de compensação de horas por mais 3 meses sem uma nova negociação coletiva, sob o argumento de que a cláusula de renovação automática se aplica.\n\nO dispositivo normativo diretamente aplicável é a cláusula da CCT que estabelece o banco de horas anual renovável automaticamente.  A ausência de detalhes sobre a extensão dessa renovação automática é crucial para a análise. A CCT, como apresentada, não fornece informações adicionais sobre como essa renovação automática deve ser interpretada, especialmente em relação a prorrogações além do período inicial de 12 meses.\n\n**2. DECISÃO RECOMENDADA**\n\nRecomenda-se que a decisão seja **favorável ao sindicato dos trabalhadores**, considerando que a extensão do banco de horas por mais 3 meses, sem nova negociação coletiva, é passível de questionamento.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação se baseia na interpretação restritiva de cláusulas normativas e na necessidade de negociação coletiva para alterações em condições de trabalho.\n\n*   **Interpretação da Cláusula de Renovação Automática:** A cláusula de renovação automática, por si só, não autoriza a empresa a estender indefinidamente o período de compensação de horas. A renovação automática, presumivelmente, visa a continuidade do sistema de banco de horas por um novo ciclo anual, mas não implica em uma prorrogação automática para além do período original estabelecido na CCT.\n*   **Ausência de Previsão Expressa:** A CCT não contém disposição que permita a prorrogação do banco de horas além do período de 12 meses sem nova negociação. A interpretação da norma deve ser estrita, e a ausência de previsão expressa impede a extensão unilateral por parte da empresa.\n*   **Princípio da Negociação Coletiva:** A instituição e as alterações nas condições de trabalho devem ser fruto da negociação coletiva entre empregadores e empregados, representados por seus respectivos sindicatos. A extensão do banco de horas por um período adicional configura uma alteração nas condições de trabalho, exigindo a participação do sindicato dos trabalhadores na discussão e aprovação.\n*   **Limitação do Contexto Normativo:** É importante ressaltar que a análise é limitada ao contexto normativo fornecido. A ausência de detalhes na CCT sobre a renovação automática dificulta uma interpretação mais precisa. Em um caso real, seria necessário analisar a íntegra da CCT e outros documentos relacionados para uma avaliação mais completa.\n\n**Observação:** A contestação do sindicato, alegando que a prorrogação viola o prazo máximo de 1 ano, é pertinente, mas a fundamentação principal para a decisão recomendada reside na ausência de previsão expressa na CCT para a extensão do banco de horas além do período inicial. A CCT, como apresentada, não estabelece um prazo máximo de 1 ano, mas a interpretação restritiva da cláusula de renovação automática impede a extensão unilateral por mais 3 meses.",
+  "tokens_in": 278,
+  "tokens_out": 769,
+  "latency_ms": 21437,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

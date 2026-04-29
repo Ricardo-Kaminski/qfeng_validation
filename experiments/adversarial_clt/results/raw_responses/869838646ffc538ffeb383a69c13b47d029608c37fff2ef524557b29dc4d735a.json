@@ -1,0 +1,19 @@
+{
+  "sha256": "869838646ffc538ffeb383a69c13b47d029608c37fff2ef524557b29dc4d735a",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T20:24:08Z",
+  "prompt_sha": "2fe1ebedc34b383e50481fe1e95a5b121569d27c199d9e90565501c9e095e99d",
+  "response_text": "**ANÁLISE**\n\n1. **Identificação dos dispositivos do contexto normativo aplicáveis ao caso:**\nOs dispositivos aplicáveis são:\n- Artigo 20 da Lei nº 5.869/1973 (Código de Processo Civil, conhecido como Código de Processo Civil - CPC), por meio de sua redação no LINDB (Lei nº 9.307/1996);\n- Previsão do artigo 1.022 do mesmo código.\n\n**DECISÃO RECOMENDADA**\n\n2. **Qual deve ser a decisão e por quê:**\nA decisão recomendada é que sejam rejeitados os embargos de declaração, pois o juiz já havia suprido a omissão com fundamento identificável e verificável.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n3. **Cite especificamente os artigos e súmulas do contexto acima:**\n- A decisão de rejeitar os embargos de declaração está fundamentada no artigo 1.022 do Código de Processo Civil, que estabelece a possibilidade de suprir omissões com fundamento identificável e verificável;\n- Além disso, é importante considerar a jurisprudência do Superior Tribunal de Justiça (STJ) sobre a aplicação do LINDB em casos trabalhistas individuais. Embora não seja mencionada uma súmula específica, a decisão pode estar fundamentada na orientação jurisprudencial de que o LINDB não se aplica aos processos trabalhistas individuais.\n\n**Limitações**\n\n- Não há menção explícita ao Código do Trabalho (CLT) ou à Lei nº 5.442/1968, que é a lei que regula os procedimentos trabalhistas no Brasil.\n- Além disso, não há referência específica a dispositivos da Constituição Federal de 1988 (CF/88), como artigos ou incisos, que possam ser aplicados ao caso.",
+  "tokens_in": 299,
+  "tokens_out": 449,
+  "latency_ms": 7564,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

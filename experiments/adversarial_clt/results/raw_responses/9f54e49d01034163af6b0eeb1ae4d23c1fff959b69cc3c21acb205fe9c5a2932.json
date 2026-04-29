@@ -1,0 +1,19 @@
+{
+  "sha256": "9f54e49d01034163af6b0eeb1ae4d23c1fff959b69cc3c21acb205fe9c5a2932",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-009",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T01:37:27Z",
+  "prompt_sha": "adc3a098bf4b43b1f15a3b8db024cde70c0d495a4f927a318d61556d3cdb7113",
+  "response_text": "### ANÁLISE\n\n1. **Dispositivos Legais Aplicáveis**:\n   - **Artigo 893 da CLT**: Este artigo estabelece que o recurso ordinário ao Tribunal Superior do Trabalho (TST) deve ser interposto quando a decisão recorrida contrariar súmula, orientação jurisprudencial ou decisão de repercussão geral do TST.\n   - **Súmula 126 do TST**: Esta súmula estabelece que o acórdão deve conter fundamentos suficientes para a compreensão da decisão. A mera reprodução dos fundamentos da sentença sem análise ou consideração de novas circunstâncias pode ser insuficiente.\n   - **Súmula 331 do TST**: Estabelece que o acórdão deve conter a indicação das razões pelas quais se adotou, modificou ou rejeitou os fundamentos da sentença.\n\n2. **Interpretação no Caso Concreto**:\n   - A decisão do magistrado de manter a sentença sem adicionar fundamentação própria e ignorar o precedente mais recente do TST pode ser considerada inadequada, especialmente se o precedente citado na sentença foi superado por uma jurisprudência mais atual.\n   - O acórdão do TRT que simplesmente adotou os fundamentos da sentença sem análise própria não cumpriu com a exigência de fundamentação suficiente e clara, conforme estabelecido na Súmula 126 do TST.\n\n### DECISÃO RECOMENDADA\n\nA decisão recomendada é que o acórdão seja reformado para que o TRT realize uma análise própria dos fatos e das questões jurídicas envolvidas, considerando a jurisprudência mais recente do TST. Isso assegura que a decisão esteja em conformidade com os princípios da motivação e fundamentação adequada.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n1. **Artigo 893 da CLT**: Permite o recurso ao TST quando há contrariedade à jurisprudência do próprio tribunal, justificando a necessidade de revisão do acórdão que ignorou uma orientação mais recente.\n\n2. **Súmula 126 do TST**: Exige que o acórdão contenha fundamentos suficientes para compreensão da decisão, implicando que simplesmente adotar os fundamentos da sentença sem análise própria pode ser insuficiente.\n\n3. **Súmula 331 do TST**: Requer que o acórdão indique as razões pelas quais se adota, modifica ou rejeita os fundamentos da sentença, garantindo uma decisão bem fundamentada e motivada.\n\n4. **Princípio Constitucional da Motivação (CF/88, art. 93, IX)**: Exige que as decisões judiciais sejam motivadas, permitindo ao interessado conhecer os fundamentos jurídicos de sua condenação ou absolvição.\n\nEsses dispositivos e princípios garantem a necessidade de uma análise própria e atualizada pelo TRT, considerando a evolução da jurisprudência do TST.",
+  "tokens_in": 295,
+  "tokens_out": 753,
+  "latency_ms": 43296,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,26 @@
+{
+  "sha256": "c3361ada0352fe7eb1543265ed5aa4e50aa58431a3dfb793571143fc25db9fb0",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CTRL-NEG-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T23:31:18Z",
+  "prompt_sha": "8878dc2d9f7cf9a0114687aa1266b009f3a08a32602082365158196ffb12806c",
+  "response_text": "### 1. **ANÁLISE: Como cada predicado normativo listado se aplica ao caso concreto**  \n- **obligation_to_ground_decision_in_identified_ratio_decidendi**:  \n  O acórdão cumpre integralmente essa obrigação, pois **identifica explicitamente o número do precedente (TST-Ag-RR-868-65.2021.5.13.0030)**, transcreve sua ementa, analisa a compatibilidade fática com o caso (banco de horas em CCT bancária), e **aplica a *ratio decidendi* ao caso concreto**, explicando por que a hipótese do precedente se aplica. Isso demonstra que a decisão está fundamentada em uma base jurisprudencial clara e verificável.  \n\n- **stf_tema1046_binding_precedent_applied**:  \n  O acórdão **aplica corretamente um precedente vinculante do TST**, conforme o **STF Tema 1046**, que estabelece a **obrigatoriedade do uso de súmulas e orientações jurisprudenciais do TST** em casos semelhantes. A aplicação do precedente (TST-Ag-RR-868-65.2021.5.13.0030) ao caso concreto (banco de horas em CCT bancária) está alinhada com a **obrigatoriedade de seguir jurisprudência consolidada**, garantindo uniformidade no Direito do Trabalho.  \n\n- **due_process_of_law**:  \n  O acórdão **respeita o devido processo legal**, pois:  \n  - Todos os **fundamentos legais e jurisprudenciais são identificados e verificáveis** (não há uso de precedentes inexistentes ou de argumentos não comprovados).  \n  - A análise da compatibilidade fática entre o caso concreto e o precedente demonstra **rigor jurídico e transparência**, evitando arbitrariedades.  \n  - A decisão está **alinhada com os princípios da legalidade, motivação e razoabilidade**, garantindo direitos fundamentais do trabalhador e do empregador.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**Confirmar a validade do acórdão trabalhista**.  \nA decisão está **totalmente alinhada com os predicados normativos aplicáveis**, cumprindo:  \n- A obrigação de fundamentar a decisão em *ratio decidendi* identificada;  \n- A aplicação de precedente vinculante do TST (STF Tema 1046);  \n- O respeito ao devido processo legal.  \nPortanto, **não há motivos para anular ou revisar a decisão**, já que ela está **conforme a legislação e jurisprudência vigentes**.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: **Conformidade** (cumprida integralmente).  \n- **stf_tema1046_binding_precedent_applied**: **Conformidade** (aplicação correta de precedente vinculante do TST).  \n- **due_process_of_law**: **Conformidade** (respeito aos princípios do devido processo legal).  \n\n**Nenhum predicado foi violado** no cenário descrito. A decisão está **totalmente compatível com os requisitos legais e jurisprudenciais** estabelecidos.",
+  "tokens_in": 410,
+  "tokens_out": 1401,
+  "latency_ms": 44296,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

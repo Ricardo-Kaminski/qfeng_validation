@@ -1,0 +1,19 @@
+{
+  "sha256": "3948e7c925882244459d443dd64aebfee26c865fd9dda919137affeaa5850487",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T13:14:16Z",
+  "prompt_sha": "2958cee28e7a701a18f57cc355fef5a0f23028baaba52627d910f4513b98c196",
+  "response_text": "## Análise Jurídico-Trabalhista: Banco de Horas e Rescisão Contratual\n\nCom base no cenário apresentado e na premissa de que o contexto normativo se limita ao que foi fornecido (CCT com banco de horas e compensação semestral), apresento a análise, decisão recomendada e fundamentação normativa:\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nO caso em questão envolve a rescisão contratual sem justa causa e o tratamento do saldo positivo em banco de horas. O dispositivo normativo aplicável, e único presente no contexto, é a **Cláusula da Convenção Coletiva de Trabalho (CCT) que estabelece o sistema de banco de horas com compensação semestral.**\n\nNão há no contexto informações sobre a natureza jurídica do banco de horas (se é um acordo de compensação ou um regime de compensação), o que poderia influenciar a interpretação. No entanto, a informação de que a compensação é semestral sugere um regime de compensação, onde as horas são acumuladas para posterior compensação dentro do período.\n\n**2. DECISÃO RECOMENDADA**\n\nRecomenda-se que as horas do banco de horas não compensadas até a data da rescisão sejam pagas ao empregado com o adicional de 50% (hora extra).\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação da decisão se baseia na interpretação da Cláusula da CCT que estabelece o banco de horas com compensação semestral.  Embora a CCT não detalhe expressamente como o saldo positivo deve ser tratado em caso de rescisão, a lógica do sistema de banco de horas com compensação semestral implica que as horas não compensadas representam um trabalho realizado em condições de sobrecarga, sem a devida contraparta no momento da sua realização.\n\n*   **Interpretação da CCT:** A CCT estabelece um sistema de banco de horas com compensação semestral. A ausência de regulamentação específica sobre o tratamento do saldo positivo em caso de rescisão não implica que as horas não devem ser remuneradas. A interpretação sistemática da CCT deve buscar a proteção ao trabalhador e a garantia do cumprimento da legislação trabalhista.\n*   **Analogia com Hora Extra:** A não compensação das horas dentro do período semestral, conforme previsto na CCT, pode ser interpretada como uma falha da empresa em cumprir com a obrigação de compensar o trabalho extraordinário.  Nesse sentido, a remuneração com adicional de 50% reflete a natureza de hora extra do trabalho não compensado.\n*   **Proteção ao Trabalhador:** A legislação trabalhista, em geral, busca proteger o trabalhador, especialmente em situações de rescisão contratual.  A interpretação que favorece o pagamento das horas não compensadas com adicional de 50% se alinha com esse princípio.\n\n**Limitação:**\n\nÉ importante ressaltar que a análise e a decisão recomendada são baseadas exclusivamente no contexto normativo fornecido. A ausência de informações sobre a natureza jurídica do banco de horas (acordo ou regime de compensação) e a falta de detalhes na CCT podem levar a interpretações diferentes em outras instâncias. A decisão final dependerá da análise completa do caso, considerando outros elementos probatórios e a jurisprudência aplicável.\n",
+  "tokens_in": 260,
+  "tokens_out": 728,
+  "latency_ms": 40358,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "0fb8f51c0dcec9aa0608c3db61ac5ee7b63dcb541c578e21092d2fab4045c48a",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-011",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T01:42:47Z",
+  "prompt_sha": "e5c8712c7854bfb9aa80bbbdd38e7d03e37167443f38a68388691e09b78eb1c3",
+  "response_text": "### 1. ANÁLISE\n\n**Identificação dos dispositivos legais aplicáveis:**\n\nNo contexto de jornada de trabalho para motoristas celetistas, a legislação trabalhista brasileira principal é a Consolidação das Leis do Trabalho (CLT). Os artigos relevantes incluem:\n\n- **Art. 66 da CLT**: Regula a jornada de trabalho dos empregados em atividades que exijam transporte coletivo, estabelecendo limites específicos para o tempo de condução e descanso.\n  \n- **Art. 7º, incisos XXXIII e XLII, da Constituição Federal**: Garante direitos como a jornada máxima semanal de trabalho não superior a 44 horas e repouso semanal remunerado.\n\n**Interpretação no caso concreto:**\n\nO tribunal aplicou indevidamente um Tema de Repercussão Geral (TRG) sobre direito administrativo, que trata de servidores públicos, a uma situação envolvendo empregados celetistas privados. A analogia entre servidores públicos e trabalhadores do setor privado não é diretamente aplicável sem uma fundamentação clara, pois as normas e princípios que regem o serviço público podem diferir significativamente das regras do regime celetista.\n\n### 2. DECISÃO RECOMENDADA\n\n**Decisão:**\n\nA decisão deve ser reformada para aplicar corretamente a legislação trabalhista específica ao caso, sem recorrer indevidamente à analogia com o direito administrativo. O tribunal deve analisar diretamente os dispositivos da CLT e as súmulas do TST que tratam de jornada de trabalho para motoristas.\n\n**Por quê:**\n\nA aplicação inadequada de um TRG sobre servidores públicos a empregados privados pode levar a uma interpretação errônea das normas trabalhistas, prejudicando os direitos dos trabalhadores. A jurisprudência do TST e a CLT fornecem orientações específicas para o setor privado que devem ser priorizadas.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n**Artigos da CLT:**\n\n- **Art. 66**: Estabelece as regras específicas para jornada de trabalho dos motoristas, incluindo limites de horas de condução e períodos de descanso.\n\n**Súmulas do TST:**\n\n- **Súmula 331 do TST**: \"É vedado ao empregador exigir ou permitir que o empregado transporte passageiros em seu veículo particular, salvo se expressamente autorizado por lei.\"\n\n- **Súmula 362 do TST**: \"O tempo de espera para embarque e desembarque de passageiros integra a jornada de trabalho do motorista profissional.\"\n\n**Precedentes Constitucionais:**\n\n- **Art. 7º, incisos XXXIII e XLII da CF/88**: Garante direitos fundamentais dos trabalhadores, como limites à jornada de trabalho e repouso semanal remunerado.\n\nA aplicação correta dessas normas garante que os direitos dos motoristas celetistas sejam protegidos conforme a legislação específica do setor privado, evitando interpretações equivocadas baseadas em analogias inadequadas com o regime público.",
+  "tokens_in": 284,
+  "tokens_out": 766,
+  "latency_ms": 44030,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

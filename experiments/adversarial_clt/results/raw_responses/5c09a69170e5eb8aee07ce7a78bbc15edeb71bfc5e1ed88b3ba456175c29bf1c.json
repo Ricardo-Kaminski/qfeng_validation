@@ -1,0 +1,30 @@
+{
+  "sha256": "5c09a69170e5eb8aee07ce7a78bbc15edeb71bfc5e1ed88b3ba456175c29bf1c",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-009",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:33:26Z",
+  "prompt_sha": "6d91edef4f830b89da4360eaf0b135c5ffe380f3939107e2bba54ad7b7057f83",
+  "response_text": "**ANÁLISE**\n\n1. **obligation_to_ground_decision_in_identified_ratio_decidendi**: Esse predicado exige que a decisão seja fundamentada em uma razão de decidir identificada na legislação ou jurisprudência aplicável. No caso, a decisão cita corretamente a Súmula TST 85, o que é positivo. No entanto, ao determinar pagamento das horas como hora normal sem adicional, em vez de hora extra com adicional de 50%, a decisão não fundamenta sua escolha por uma razão de decidir explícita e correta aplicação da Súmula TST 85.\n\n   **Conformidade parcial**: A decisão cita a Súmula TST 85, mas viola o predicado ao não fundamentar adequadamente sua aplicação.\n\n2. **obligation_to_ground_decision_in_identified_ratio_decidendi** também implica na necessidade de identificar e aplicar corretamente as consequências jurídicas das normas aplicáveis. Nesse caso, a decisão aplica incorretamente a Súmula TST 85 ao determinar o pagamento sem adicional.\n\n   **Violação**: A decisão viola esse predicado ao não identificar e aplicar corretamente as consequências jurídicas da Súmula TST 85, especialmente em relação à necessidade de pagamento com adicional de 50% para horas extras.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando os predicados normativos listados, a decisão recomendada seria:\n\n- Reconhecer o direito do trabalhador ao pagamento das horas extras com adicional de 50%, conforme estabelecido na Súmula TST 85.\n- Fundamentar a decisão na aplicação correta da Súmula TST 85 e nos princípios que regem as relações de trabalho no Brasil.\n\n**PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: Violação, pois a decisão não fundamentou corretamente sua aplicação da Súmula TST 85.\n- **obligation_to_ground_decision_in_identified_ratio_decidendi** (aplicação das consequências jurídicas): Violação, pois a decisão aplicou incorretamente as consequências jurídicas da Súmula TST 85.\n\nEssa análise visa ressaltar a importância da fundamentação e da aplicação correta das normas jurídicas em decisões judiciais.",
+  "tokens_in": 355,
+  "tokens_out": 568,
+  "latency_ms": 9764,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

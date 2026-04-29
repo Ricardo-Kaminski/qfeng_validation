@@ -1,0 +1,29 @@
+{
+  "sha256": "9765d1bce60bc6fdc7f7cf729e5c07b0f2005f2d8dbaee400a6e017018a0234d",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:23:27Z",
+  "prompt_sha": "9aed310839e4cb6680c5af139cfc1410b8dc65f015f8e8555e2fcb61291a68c3",
+  "response_text": "**ANÁLISE**\n\n1. **semester_hour_bank_requires_cct_or_act**: Esse predicado normativo estabelece que, para a implementação de um banco de horas com compensação, é necessário o registro da ACT na Superintendência Regional do Trabalho (SRTE) dentro do prazo legal. No cenário apresentado, a empresa assinou a ACT com o sindicato dos comerciários, mas não registrada na SRTE dentro do prazo legal. Portanto, esse predicado foi **VIOLADO**.\n\n**DECISÃO RECOMENDADA**\n\nDevido à falta de registro da ACT na SRTE dentro do prazo legal, recomendo que a decisão seja favorável ao trabalhador, considerando a invalidade da ACT e, consequentemente, a ineficácia do banco de horas com compensação implementado pela empresa.\n\n**PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n* **semester_hour_bank_requires_cct_or_act**: VIOLADO\n\nObservação: A falta de registro da ACT na SRTE dentro do prazo legal é um requisito essencial para a validade e eficácia de um banco de horas com compensação, conforme estabelecido pela legislação trabalhista brasileira.",
+  "tokens_in": 335,
+  "tokens_out": 275,
+  "latency_ms": 4719,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

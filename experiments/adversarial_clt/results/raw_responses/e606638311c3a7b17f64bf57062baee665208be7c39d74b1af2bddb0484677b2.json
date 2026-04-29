@@ -1,0 +1,27 @@
+{
+  "sha256": "e606638311c3a7b17f64bf57062baee665208be7c39d74b1af2bddb0484677b2",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-009",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T22:59:34Z",
+  "prompt_sha": "41f99391d623b6e4453b092d8b4f92a9e4baebd669c006a01fb7a1c18b0e7608",
+  "response_text": "### 1. **ANÁLISE**  \n**a) Predicado `hour_bank_with_cct_max_1_year`:**  \nO prazo máximo de 12 meses para o banco de horas estabelecido na CCT está **cumprido**, pois a conversão ocorreu antes do término do prazo previsto no acordo coletivo. A norma não impõe restrições adicionais sobre a conversão de horas antes do encerramento do prazo, desde que respeitadas as condições pactuadas na CCT.  \n\n**b) Predicado `working_hours_negotiable_by_cct`:**  \nA CCT prevê a possibilidade de conversão de horas em dinheiro com adicional de 50%, o que está **em conformidade** com a negociação coletiva de horas de trabalho. A anuência do empregador e a aplicação do adicional de 50% (como previsto na CCT) reforçam a validade da negociação coletiva. A remuneração foi paga no mês seguinte à conversão, o que não viola a norma, pois a CCT não estabelece prazos específicos para a liquidação do pagamento.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA conversão do saldo do banco de horas em dinheiro, com o adicional de 50% previsto na CCT, está **em conformidade com as normas jurídicas aplicáveis**. O empregador deve manter a remuneração acordada e garantir que a conversão seja realizada dentro do prazo de 12 meses estabelecido no acordo coletivo. Não há violação de direitos do trabalhador, desde que a CCT seja respeitada integralmente.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Cumpridos (conformidade):**  \n  - `hour_bank_with_cct_max_1_year` (prazo de 12 meses respeitado).  \n  - `working_hours_negotiable_by_cct` (negociação coletiva válida e aplicada conforme previsto na CCT).  \n\n- **Violados (não aplicáveis):**  \n  - Nenhum predicado foi violado, pois a situação está em conformidade com as normas estabelecidas.  \n\n--- \n\n**Observação:** A remuneração paga no mês seguinte à conversão não viola a CLT ou jurisprudência do TST, pois a CCT não impõe prazos rígidos para a liquidação do pagamento, desde que a conversão seja autorizada e o adicional de 50% seja aplicado.",
+  "tokens_in": 358,
+  "tokens_out": 1004,
+  "latency_ms": 30561,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

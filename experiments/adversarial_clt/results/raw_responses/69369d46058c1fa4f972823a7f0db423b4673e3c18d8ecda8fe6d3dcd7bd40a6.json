@@ -1,0 +1,26 @@
+{
+  "sha256": "69369d46058c1fa4f972823a7f0db423b4673e3c18d8ecda8fe6d3dcd7bd40a6",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-007",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T23:41:38Z",
+  "prompt_sha": "1d68b02e56a3be519b2c411e30a4e5202d217b01b44ee4ca2db84ac049f73210",
+  "response_text": "1. **ANÁLISE:**\n\n   - **prohibition_of_generic_precedent_citation:** Este predicado normativo proíbe a citação de precedentes que não possuem eficácia vinculante nacional, como é o caso dos IRDR (Informativos de Recursos Repetitivos) regionais. No cenário apresentado, o TST aplicou uma tese fixada em um IRDR do TRT-15ª Região como se fosse um precedente vinculante nacional. Isso viola a proibição de citar genericamente precedentes que não têm eficácia nacional, já que os IRDR regionais não possuem tal efeito.\n\n   - **obligation_to_ground_decision_in_identified_ratio_decidendi:** Este predicado normativo exige que as decisões sejam fundamentadas em um ratio decidendi identificado, ou seja, no fundamento jurídico específico da decisão. No caso concreto, ao aplicar uma tese de IRDR regional como precedente vinculante nacional sem a devida análise e fundamentação adequada, o TST não cumpriu com a obrigação de basear sua decisão em um ratio decidendi identificado que tenha eficácia nacional.\n\n2. **DECISÃO RECOMENDADA:**\n\n   A decisão recomendada seria anular ou reformar a decisão do TST, considerando a violação dos predicados normativos aplicáveis. O tribunal deve fundamentar sua decisão em precedentes nacionais vinculantes ou em uma análise jurídica que respeite as hierarquias e eficácias das decisões judiciais.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violados:**\n     - **prohibition_of_generic_precedent_citation:** O TST violou este predicado ao aplicar um IRDR regional como se fosse um precedente vinculante nacional.\n     - **obligation_to_ground_decision_in_identified_ratio_decidendi:** O TST também violou este predicado, pois não fundamentou sua decisão em um ratio decidendi que tenha eficácia nacional.\n\n   - **Cumpriu:**\n     - Não há indicativo de cumprimento dos predicados normativos listados no cenário apresentado.",
+  "tokens_in": 379,
+  "tokens_out": 509,
+  "latency_ms": 14922,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

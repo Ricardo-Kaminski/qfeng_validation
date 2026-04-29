@@ -1,0 +1,26 @@
+{
+  "sha256": "af861f63a2e9e49749771b4776ccc30b9cef1b38fa1034e617975a1c36359efc",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CTRL-NEG-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:12:42Z",
+  "prompt_sha": "d11d747246713e214367caa10635ee2da91740b47d7d1199b6d612847a92e627",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, apresento a análise, decisão recomendada e identificação de cumprimento/violação dos predicados.\n\n**1. ANÁLISE:**\n\n*   **maximum_daily_working_hours_8h:** Este predicado estabelece o limite máximo de 8 horas diárias de trabalho. Embora o cenário não forneça informações sobre a jornada de trabalho do empregado, a sua aplicação é fundamental para verificar se houve o cumprimento da legislação durante o contrato de trabalho. A ausência de informações sobre a jornada de trabalho impede uma análise completa, mas a presunção é que a empresa cumpriu a lei nesse aspecto.\n*   **maximum_weekly_working_hours_44h:** Similarmente ao predicado anterior, este estabelece o limite máximo de 44 horas semanais de trabalho. A mesma ressalva se aplica: a ausência de informações sobre a jornada de trabalho impede uma análise completa, mas a presunção é que a empresa cumpriu a lei nesse aspecto.\n\n**2. DECISÃO RECOMENDADA:**\n\nConsiderando a informação de que todas as verbas rescisórias foram pagas no prazo legal, o aviso prévio indenizado foi calculado corretamente (proporcional a 33 dias, conforme o tempo de serviço), as férias proporcionais com 1/3, o 13º proporcional, o FGTS com a multa de 40% foram devidamente pagos e o seguro-desemprego foi habilitado, e que o trabalhador assinou o recibo na presença do sindicato, **recomenda-se o arquivamento do caso sem maiores providências.**\n\nA assinatura do recibo em presença do sindicato demonstra que o trabalhador teve seus direitos esclarecidos e concordou com os valores pagos. A ausência de indícios de irregularidades no pagamento das verbas rescisórias, e a observância dos prazos legais, indicam que a rescisão contratual foi conduzida de forma regular.\n\n**Importante:** A recomendação acima é baseada nas informações fornecidas. Uma análise mais aprofundada exigiria a verificação da exatidão da jornada de trabalho, a comprovação de pagamento de horas extras (se houver), a análise de eventuais diferenças salariais não pagas e a verificação da correta aplicação de outros benefícios previstos em acordo ou convenção coletiva.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **maximum_daily_working_hours_8h:** Conformidade (presunção, falta de informações para comprovar o contrário).\n*   **maximum_weekly_working_hours_44h:** Conformidade (presunção, falta de informações para comprovar o contrário).\n\n**Observação:** A ausência de informações sobre a jornada de trabalho impede uma conclusão definitiva sobre o cumprimento destes predicados. Uma auditoria na empresa poderia confirmar ou refutar essa presunção.\n",
+  "tokens_in": 348,
+  "tokens_out": 647,
+  "latency_ms": 17812,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

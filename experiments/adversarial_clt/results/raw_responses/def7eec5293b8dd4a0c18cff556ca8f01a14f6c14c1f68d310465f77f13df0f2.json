@@ -1,0 +1,19 @@
+{
+  "sha256": "def7eec5293b8dd4a0c18cff556ca8f01a14f6c14c1f68d310465f77f13df0f2",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T11:56:25Z",
+  "prompt_sha": "c5e3679e280261d29913500eb4cf5116a82e74baef192b57794293c17afc2e50",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a empresa implementou uma jornada de trabalho de 10 horas diárias em um modelo 5×10 sem previsão específica na Convenção Coletiva de Trabalho (CCT) para esse tipo de compensação. A CCT apenas autoriza o banco de horas, mas não detalha como deve ser feita a compensação.\n\nOs dispositivos normativos relevantes são:\n\n- **Constituição Federal de 1988 (CF/88), Artigo 7°, XIII**: Estabelece que é assegurado ao trabalhador direito à jornada de trabalho de oito horas diárias e quarenta e oito semanais.\n  \n- **Consolidação das Leis do Trabalho (CLT), Artigo 62**: Permite a compensação de horários mediante acordo ou convenção coletiva, desde que não excedam em mais de duas horas diárias nem em mais de quatro horas semanais.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que a jornada de 10 horas diárias deve ser considerada incompatível com o limite constitucional, a menos que haja previsão específica na CCT para esse modelo de compensação (5×10). A empresa deveria negociar uma alteração na CCT para incluir explicitamente essa modalidade de banco de horas.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **CF/88, Artigo 7°, XIII**: Estabelece o limite máximo da jornada diária de trabalho em oito horas.\n  \n- **CLT, Artigo 62**: Permite a compensação de horários mediante acordo ou convenção coletiva, mas exige que não ultrapasse os limites estabelecidos (mais de duas horas diárias e quatro semanais).\n\nAlém disso, é importante considerar as súmulas do Tribunal Superior do Trabalho (TST) relacionadas ao assunto:\n\n- **Súmula 331 do TST**: \"É nula a convenção coletiva que autoriza o trabalho em regime de escala de revezamento sem previsão expressa na norma coletiva sobre os limites da compensação de horário.\"\n\nPortanto, para validar a jornada de 10 horas diárias sob o modelo 5×10, seria necessário uma clara previsão na CCT que autorize essa forma específica de banco de horas. Sem isso, a prática pode ser considerada inconstitucional e nula conforme as normas citadas.\n\nSe o contexto não contivesse norma aplicável para detalhar a compensação, seria necessário negociar uma alteração na CCT para incluir especificamente essa modalidade de banco de horas.",
+  "tokens_in": 307,
+  "tokens_out": 621,
+  "latency_ms": 35500,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "fc3f372eabf338bf35ae9b2817a1c86ea2cfafa1ba3280022a26d275a815e598",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T07:17:00Z",
+  "prompt_sha": "b4b14594da3c7a164c292ae6e458e16f7609ea973ab3bf9bdf1ce0baf6924978",
+  "response_text": "**ANÁLISE**\n\n1.  **Dispositivos legais aplicáveis:**\n    *   Artigo 59 da CLT: Regula a possibilidade de banco de horas, permitindo a compensação de horas extras em até 6 meses.\n    *   Artigo 61 da CLT: Determina que as horas extras acumuladas sejam convertidas em adicional de pagamento quando não houver possibilidade de compensação.\n    *   Artigo 62 da CLT: Estabelece a necessidade de comunicação prévia das folgas para compensação de horas extras.\n2.  **Interpretação no caso concreto:**\n    *   A empresa e o sindicato celebraram uma Convenção Coletiva de Trabalho (CCT) que estabelece um banco de horas de 6 meses, com acúmulo máximo de 60h mensais, entrega de extrato mensal e conversão em adicional de 50% para saldo não compensado.\n    *   Após 5 meses, todas as horas foram compensadas em folgas previamente comunicadas, o que atende ao disposto no artigo 62 da CLT.\n\n**DECISÃO RECOMENDADA**\n\nDeve ser reconhecida a validade e eficácia do acordo coletivo de trabalho celebrado entre a empresa e o sindicato, pois atende aos requisitos legais necessários para sua celebração e aplicação. Além disso, não há contestação sindical ou individual à CCT.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   **Artigo 59 da CLT:** \"O banco de horas poderá ser estabelecido em convenção coletiva de trabalho, desde que não exceda a seis meses.\"\n*   **Artigo 61 da CLT:** \"As horas extras acumuladas serão convertidas em adicional de pagamento, quando não houver possibilidade de compensação.\"\n*   **Súmula 379 do TST:** \"A convenção coletiva que estabelece banco de horas é válida desde que não exceda a seis meses e seja comunicada ao sindicato da categoria profissional.\"\n*   **Precedente constitucional:** O Supremo Tribunal Federal (STF) tem reconhecido a validade dos acordos coletivos de trabalho, desde que atendam aos requisitos legais necessários para sua celebração e aplicação.\n\nEm resumo, o acordo coletivo de trabalho celebrado entre a empresa e o sindicato é válido e eficaz, pois atende aos requisitos legais necessários para sua celebração e aplicação. Além disso, não há contestação sindical ou individual à CCT.",
+  "tokens_in": 310,
+  "tokens_out": 598,
+  "latency_ms": 19641,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

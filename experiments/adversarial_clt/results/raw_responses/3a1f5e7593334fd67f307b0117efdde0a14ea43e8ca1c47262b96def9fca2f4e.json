@@ -1,0 +1,30 @@
+{
+  "sha256": "3a1f5e7593334fd67f307b0117efdde0a14ea43e8ca1c47262b96def9fca2f4e",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-006",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T23:13:43Z",
+  "prompt_sha": "0350325c96e624064d77ae2514493ddca97cca71d270755c3466ec1954baa800",
+  "response_text": "### 1. **ANÁLISE**  \nO **predicado normativo \"obligation_to_ground_decision_in_identified_ratio_decidendi\"** exige que o tribunal baseie sua decisão **exclusivamente na ratio decidendi** do precedente citado, ou seja, no **fundamento jurídico específico** que motivou a decisão do tribunal superior. No cenário descrito, o tribunal **viola esse predicado**, pois:  \n- **Cita corretamente** os precedentes (Tema 1046/STF e TST-Ag-RR-868-65.2021), mas **interpreta de forma invertida** a *ratio decidendi* deles.  \n- O **Tema 1046/STF** estabelece que a validade de um banco de horas **pressupõe a existência de uma CCT** (Convenção Coletiva de Trabalho) que regulamente a modalidade, conforme jurisprudência do TST.  \n- O tribunal, ao invés de reconhecer esse pressuposto, **extrapola a tese** de \"valorização da autonomia negocial\" para justificar a validade de um banco de horas **sem CCT**, o que **desvia-se do fundamento jurídico** do precedente citado.  \n- Essa aplicação invertida da *ratio decidendi* configura uma **violação do dever de fundamentação** exigido pelo direito processual e pela jurisprudência do TST, que exige que os tribunais **respeitem o fundamento jurídico** dos precedentes, não apenas sua \"espírito\" ou \"intenção\".  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **decisão do tribunal deve ser anulada** por violação do **obrigação de fundamentar a decisão com base na ratio decidendi identificada**. O tribunal:  \n- **Deve reconhecer** que o **Tema 1046/STF** e o **TST-Ag-RR-868-65.2021** estabelecem que a validade de um banco de horas **depende da existência de uma CCT** que o regulamente, e não da \"autonomia negocial\" isolada.  \n- **Deve rejeitar** a aplicação do precedente em sentido inverso, pois isso **viola o princípio da segurança jurídica** e a **coerência jurisprudencial**.  \n- **Deve ser remetido o caso** para análise de **existência de CCT** que legitime o banco de horas, caso contrário, a modalidade deve ser considerada **nula** por falta de pressuposto legal.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Violado:**  \n  - **obligation_to_ground_decision_in_identified_ratio_decidendi** (o tribunal aplicou de forma invertida a *ratio decidendi* dos precedentes, violando o dever de fundamentação baseado no fundamento jurídico identificado).  \n\n- **Cumpridos:**  \n  - Nenhum outro predicado foi explicitamente mencionado no cenário, mas **não há indícios de violação** de outros princípios (como, por exemplo, o da legalidade ou da isonomia), já que o erro está limitado à **interpretação equivocada da ratio decidendi**.  \n\n--- \n\n**Conclusão:** A violação do predicado \"obligation_to_ground_decision_in_identified_ratio_decidendi\" configura uma **falha jurídica grave**, pois o tribunal **não respeitou o fundamento jurídico** do precedente citado, o que compromete a **validade da decisão** e a **coerência da jurisprudência do TST**.",
+  "tokens_in": 372,
+  "tokens_out": 1413,
+  "latency_ms": 43233,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

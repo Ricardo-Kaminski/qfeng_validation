@@ -1,0 +1,19 @@
+{
+  "sha256": "0c674f0c50ae7ec379f6fb108fccbaa385cb1c01beead0c01b76dacf5c8f81be",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T12:46:29Z",
+  "prompt_sha": "c800b08bc530e3122be31b4e610bc034e22dcdc366a0e85bec8990b192b786cb",
+  "response_text": "## ANÁLISE JURÍDICA: Citação Doutrinária Genérica em Acórdão Trabalhista\n\nConsiderando o cenário apresentado e o único dispositivo normativo fornecido (Art. 20 do LINDB), a análise jurídica se concentra na validade da citação doutrinária genérica em um acórdão trabalhista, sob a ótica da fundamentação judicial.\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nO único dispositivo normativo explicitamente mencionado no contexto é o **Art. 20 do LINDB (Lei de Introdução às normas do Direito Brasileiro)**. Este artigo é crucial para a análise, pois trata da fundamentação das decisões judiciais.\n\nEmbora não haja outras normas diretamente relacionadas ao caso no contexto fornecido, é importante notar que o Direito do Trabalho brasileiro, em geral, exige que as decisões judiciais sejam fundamentadas, permitindo o controle da legalidade e a compreensão do raciocínio adotado pelo julgador. A falta de fundamentação pode levar à anulação da decisão.\n\n**2. DECISÃO RECOMENDADA**\n\nRecomenda-se que a alegação do recorrente seja **acolhida**, ou seja, que a citação doutrinária genérica seja considerada insuficiente para fundamentar a decisão.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação para essa recomendação reside no **Art. 20 da LINDB**, que dispõe:\n\n*\"Art. 20.  A decisão de recurso, a sentença e o acórdão somente produzirão efeitos entre as partes se forem acompanhados de exposição dos fatos e fundamentos jurídicos.\"*\n\nA redação do artigo 20 da LINDB é clara: a decisão judicial (no caso, o acórdão trabalhista) deve ser acompanhada de \"exposição dos fatos e fundamentos jurídicos\". A citação de doutrina é um meio de fundamentar a decisão, mas essa citação deve ser precisa e permitir que o leitor (advogado, partes, outros julgadores) localize a fonte utilizada.\n\nA citação genérica, como a apresentada no cenário (\"Martins, Sergio Pinto\"), sem a indicação da obra, edição, ano ou página, **não cumpre o requisito de \"exposição dos fundamentos jurídicos\"**.  Não permite a verificação da correta aplicação da doutrina ao caso concreto.  É impossível, portanto, verificar se a interpretação do autor realmente sustenta a conclusão do acórdão.\n\nA alegação do recorrente de que a citação doutrinária genérica equivale à ausência de fundamentação é, portanto, **plausível e encontra respaldo no Art. 20 da LINDB**.  A falta de precisão na citação compromete a transparência e a possibilidade de controle da decisão judicial.\n\n**Limitação do Contexto Normativo:**\n\nÉ importante ressaltar que a análise se baseou exclusivamente no contexto normativo fornecido.  Outras normas do Direito do Trabalho brasileiro (como as que tratam da obrigatoriedade de fundamentação das decisões) poderiam ser relevantes em uma análise mais abrangente, mas não foram incluídas no contexto.  Além disso, a jurisprudência sobre a validade de citações doutrinárias genéricas pode variar, e uma análise mais aprofundada exigiria a consulta a essa jurisprudência.\n",
+  "tokens_in": 256,
+  "tokens_out": 717,
+  "latency_ms": 38233,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

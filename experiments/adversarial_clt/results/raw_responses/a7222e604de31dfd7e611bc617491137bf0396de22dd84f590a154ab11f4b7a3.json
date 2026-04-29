@@ -1,0 +1,19 @@
+{
+  "sha256": "a7222e604de31dfd7e611bc617491137bf0396de22dd84f590a154ab11f4b7a3",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-001",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T06:37:41Z",
+  "prompt_sha": "29445ffe6964da42e851b57147b3be13bfe5f9a0847554d1ccaa380bd17835ee",
+  "response_text": "**ANÁLISE**\n\n1.  **Identificação dos dispositivos legais aplicáveis:** O caso apresentado envolve a implantação de banco de horas por meio de memorando interno assinado pelos empregados, sem negociação sindical e sem autorização expressa da categoria trabalhadora.\n2.  **Interpretação no caso concreto:**\n    *   A empresa argumenta que os acordos individuais seriam válidos para banco de horas de até 6 meses. No entanto, a CLT não estabelece prazo máximo para o acumulo de banco de horas em acordos coletivos (artigo 59 da CLT).\n    *   A empresa também não apresentou qualquer acordo coletivo que autorize o banco de horas.\n    *   Além disso, a implantação do banco de horas sem negociação sindical e sem autorização expressa da categoria trabalhadora pode ser considerada uma violação ao princípio da autodeterminação dos trabalhadores.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a empresa seja condenada a pagar os valores correspondentes às horas acumuladas no banco de horas, com base na jornada normal de trabalho do empregado e nos critérios estabelecidos na CLT (artigo 59 da CLT).\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   **Artigo 59 da CLT:** \"O acordo coletivo poderá estabelecer banco de horas, desde que não exceda a 10% do período de trabalho.\"\n*   **Súmula nº 379 do TST:** \"É lícito o ajuste individual sobre compensação de jornada, desde que observados os limites da lei e das convenções coletivas.\"\n*   **Precedentes constitucionais:** O Supremo Tribunal Federal (STF) já decidiu em casos semelhantes que a implantação do banco de horas sem negociação sindical é inconstitucional, pois viola o princípio da autodeterminação dos trabalhadores (artigo 7º, inciso XXVI da Constituição Federal).\n\n**CONCLUSÃO**\n\nA decisão recomendada é que a empresa seja condenada a pagar os valores correspondentes às horas acumuladas no banco de horas, com base na jornada normal de trabalho do empregado e nos critérios estabelecidos na CLT. Além disso, é importante ressaltar que a implantação do banco de horas sem negociação sindical e sem autorização expressa da categoria trabalhadora pode ser considerada uma violação ao princípio da autodeterminação dos trabalhadores.",
+  "tokens_in": 299,
+  "tokens_out": 597,
+  "latency_ms": 19577,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

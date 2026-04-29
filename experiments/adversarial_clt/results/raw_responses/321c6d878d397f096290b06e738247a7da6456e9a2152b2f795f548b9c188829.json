@@ -1,0 +1,19 @@
+{
+  "sha256": "321c6d878d397f096290b06e738247a7da6456e9a2152b2f795f548b9c188829",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-001",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T11:10:39Z",
+  "prompt_sha": "26d12e151509fbe11099db792d4aca8584a935f407834eb1a45392c3cbb25402",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, o Tribunal Superior do Trabalho (TST) proferiu um acórdão em recurso de revista que citou a Súmula 312 como base para sua decisão. No entanto, essa súmula não existe na base jurisprudencial oficial do TST. O problema central é a violação ao Código de Processo Civil (CPC) Art. 489, §1°, V, que estabelece a necessidade de identificação de precedentes com base em julgamento real e verificável.\n\n2. **DECISÃO RECOMENDADA:**\n\nRecomenda-se que o acórdão seja anulado ou reconsiderado. A fundamentação do acórdão se baseou em uma súmula inexistentes, o que viola a exigência de identificação de precedentes verificáveis conforme estabelecido pelo CPC Art. 489, §1°, V.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **CPC Art. 489, §1°, V:** Este dispositivo exige que os fundamentos das decisões judiciais sejam baseados em precedentes reais e verificáveis. A citação de uma súmula inexistentes (Súmula 312) viola essa exigência.\n\n- **Limitação do Contexto Normativo:** Não há normas específicas no contexto fornecido que tratem diretamente da existência ou inexistência de súmulas, além das referências ao CPC. Portanto, a análise se baseia exclusivamente na aplicabilidade do CPC Art. 489, §1°, V à situação descrita.\n\nEm resumo, a decisão deve ser anulada por não cumprir o requisito de fundamentação em precedentes verificáveis, conforme exigido pelo Código de Processo Civil.",
+  "tokens_in": 340,
+  "tokens_out": 420,
+  "latency_ms": 23922,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

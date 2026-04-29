@@ -1,0 +1,19 @@
+{
+  "sha256": "f23513c5d8cbe5f3ceebd6339bf0e49a109544ff170e438075b77defbf85f573",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-009",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T06:46:17Z",
+  "prompt_sha": "d0791bac331e15eb82405e1b2f1d97fa896175b6f7834bc3e8aab7ca707c30df",
+  "response_text": "**ANÁLISE**\n\n1.  **Identificação dos dispositivos legais aplicáveis:** A CCT (Convenção Coletiva de Trabalho) é um acordo entre a empresa e o sindicato representativo da categoria de trabalhadores que regula condições de trabalho, salários e benefícios. No entanto, no caso apresentado, a CCT foi firmada sem a participação do sindicato representativo da categoria de empregados administrativos.\n2.  **Interpretação no caso concreto:** A questão central é saber se os empregados administrativos podem ser obrigados a aderir ao banco de horas estabelecido na CCT, que foi firmada sem a participação do seu sindicato representativo.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é **anular o banco de horas para os empregados administrativos**, pois a CCT não os representa. Isso se baseia no princípio da representatividade sindical, que é fundamental na negociação coletiva.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n1.  **Artigo 513 da CLT:** Este artigo estabelece que as convenções coletivas de trabalho devem ser firmadas entre a empresa e o sindicato representativo da categoria dos trabalhadores.\n2.  **Súmula 379 do TST:** Esta súmula determina que \"A Convenção Coletiva de Trabalho não é válida para os empregados pertencentes a categoria diferenciada, se não foi firmada com o sindicato representativo daquela categoria\".\n3.  **Precedente constitucional:** O artigo 8º, inciso III da Constituição Federal, que garante ao trabalhador o direito de livre associação e sindicalização, também é relevante para este caso.\n\n**CONCLUSÃO**\n\nA decisão recomendada é anular o banco de horas para os empregados administrativos, pois a CCT não os representa. Isso se baseia no princípio da representatividade sindical, estabelecido na CLT e reforçado pela jurisprudência do TST.",
+  "tokens_in": 300,
+  "tokens_out": 479,
+  "latency_ms": 15688,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

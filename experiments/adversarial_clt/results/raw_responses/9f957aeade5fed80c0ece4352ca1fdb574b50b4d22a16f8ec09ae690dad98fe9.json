@@ -1,0 +1,19 @@
+{
+  "sha256": "9f957aeade5fed80c0ece4352ca1fdb574b50b4d22a16f8ec09ae690dad98fe9",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T06:50:39Z",
+  "prompt_sha": "e3a03423f59d54e94c80b16f3aeda0e741ca90b34230fe57c0b6d041a819afcb",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a aplicação de uma cláusula de banco de horas anual renovável automaticamente prevista em uma Convenção Coletiva de Trabalho (CCT) do setor farmacêutico. A análise deve considerar as regras da Consolidação das Leis do Trabalho (CLT), especialmente os dispositivos que tratam sobre a negociação coletiva, banco de horas e prazos.\n\n**Dispositivos Legais Aplicáveis**\n\n1. **Art. 611-A da CLT**: Este artigo trata sobre o acordo coletivo de trabalho, incluindo as convenções coletivas de trabalho (CCTs), que são acordos entre empregadores e sindicatos representativos dos trabalhadores para regular condições de trabalho.\n\n2. **Art. 611-B da CLT**: Este artigo versa sobre a renovação automática do acordo coletivo, estabelecendo critérios para sua renovação sem necessidade de nova negociação.\n\n3. **Art. 611-C da CLT**: Regulamenta o prazo de duração dos acordos coletivos e a possibilidade de sua renovação.\n\n4. **Súmula nº 379 do TST**: Esta súmula estabelece que \"A convenção coletiva de trabalho, por ter sido celebrada entre as partes interessadas, é título hábil para o registro no Cartório de Registro de Imóveis e Documentos do Trabalho\".\n\n**Interpretação**\n\nA cláusula de renovação automática prevista na CCT deve ser interpretada à luz da CLT. A renovação automática pressupõe a existência de um mecanismo que permita a continuidade das regras estabelecidas sem necessidade de nova negociação, desde que atendidos os requisitos legais.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando a interpretação dos dispositivos legais mencionados e a jurisprudência do TST, recomenda-se que a decisão seja favorável ao sindicato dos trabalhadores. A prorrogação da vigência de uma convenção coletiva sem nova negociação coletiva, especialmente quando se trata de um período além do previsto na cláusula de renovação automática, pode ser considerada inconstitucional e violadora das regras trabalhistas.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   **Art. 611-A da CLT**: A convenção coletiva é um acordo entre as partes interessadas e deve atender aos requisitos legais para sua validade.\n*   **Súmula nº 379 do TST**: A convenção coletiva é título hábil para registro, o que confere legitimidade à negociação coletiva.\n*   **Art. 611-C da CLT**: Regulamenta a duração dos acordos coletivos e a possibilidade de sua renovação.\n\n**CONCLUSÃO**\n\nA decisão favorável ao sindicato dos trabalhadores se baseia na interpretação das regras legais que tratam sobre negociação coletiva, banco de horas e prazos. A prorrogação da vigência da convenção coletiva sem nova negociação coletiva, especialmente quando se trata de um período além do previsto na cláusula de renovação automática, pode ser considerada inconstitucional e violadora das regras trabalhistas.",
+  "tokens_in": 323,
+  "tokens_out": 794,
+  "latency_ms": 26139,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "5da86dcc2c1e93e9a317a89290056a120e7ee900a88c2915ee74ec3055dfc584",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T20:14:24Z",
+  "prompt_sha": "fe5ea1e90bce3809f6b9e66296de41abc23c26c20d8a019c18931364e6d77260",
+  "response_text": "**ANÁLISE**\n\n1.  Identificação dos dispositivos do contexto normativo aplicáveis ao caso:\n    *   A CCT (Convenção Coletiva de Trabalho) é um acordo entre as partes envolvidas no setor hoteleiro, que estabelece regras e condições específicas para os trabalhadores nesse setor.\n    *   O dispositivo da lei que estabelece o limite de 1 ano para compensação de banco de horas é o artigo não especificado (por falta de informação no contexto).\n    *   A Súmula TST 85, V afirma que a limitação do prazo de compensação de banco de horas é norma de ordem pública.\n2.  **DECISÃO RECOMENDADA**\n\nA decisão recomendada seria que o limite de 1 ano para compensação de banco de horas previsto na lei deve ser respeitado, pois a Súmula TST 85, V considera essa limitação como norma de ordem pública.\n\n3.  **FUNDAMENTAÇÃO NORMATIVA**\n\n   *   A CCT pode flexibilizar regras e condições estabelecidas em leis específicas, desde que haja uma adequação setorial negociada.\n   *   O artigo não especificado da lei estabelece o limite de 1 ano para compensação de banco de horas.\n   *   A Súmula TST 85, V afirma que a limitação do prazo de compensação de banco de horas é norma de ordem pública.\n\n**LIMITAÇÃO DO CONTEXTO**\n\nNão há dispositivo específico da lei mencionado no contexto.",
+  "tokens_in": 307,
+  "tokens_out": 368,
+  "latency_ms": 6266,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

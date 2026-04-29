@@ -1,0 +1,29 @@
+{
+  "sha256": "d7ce91e5138ae359b03ca608e2475e82c787778710fdbdbe91ad8b2117c5a8cb",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T23:53:00Z",
+  "prompt_sha": "160b14905daf1b75240e571876e903f674ab798cba13eaa47b102ad9f8820a31",
+  "response_text": "1. **ANÁLISE:**\n\n   - **Predicado Normativo Aplicável: hour_bank_with_cct_max_1_year**\n     - Este predicado estabelece que o banco de horas, quando instituído por Acordo Coletivo de Trabalho (ACT), deve ter uma vigência máxima de um ano. No cenário apresentado, o banco de horas foi estabelecido com compensação em 7 meses, o que está dentro do limite permitido pela norma.\n     - O predicado não aborda diretamente a situação de rescisão do contrato de trabalho e o direito ao pagamento das horas extras acumuladas. No entanto, é importante considerar que a jurisprudência do Tribunal Superior do Trabalho (TST) tem se posicionado favoravelmente ao pagamento das horas extras pendentes em caso de demissão, independentemente da rescisão ser iniciada pelo empregador ou pelo empregado.\n\n2. **DECISÃO RECOMENDADA:**\n\n   - Com base no predicado normativo e na jurisprudência do TST, a decisão recomendada é que o saldo positivo de horas extras acumulado durante o período de vigência do banco de horas deve ser pago ao empregado. A rescisão do contrato por iniciativa do empregado não elide o direito ao recebimento das horas extras pendentes.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Cumpriu:** \n     - O banco de horas foi estabelecido com uma compensação em 7 meses, cumprindo a norma que permite até um ano para esse tipo de acordo.\n   \n   - **Violado:**\n     - A empresa se recusou a pagar o saldo das horas extras acumuladas, o que pode ser considerado uma violação do direito ao pagamento dessas horas, conforme entendimento da jurisprudência do TST. A rescisão por iniciativa do empregado não anula o direito ao recebimento das horas extras pendentes.\n\nPortanto, a empresa deve proceder com o pagamento do saldo de 60h acumulado pelo trabalhador, respeitando os direitos estabelecidos na legislação e jurisprudência vigente.",
+  "tokens_in": 360,
+  "tokens_out": 498,
+  "latency_ms": 14360,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

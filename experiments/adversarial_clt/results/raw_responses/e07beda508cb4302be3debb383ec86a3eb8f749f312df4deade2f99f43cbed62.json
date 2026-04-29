@@ -1,0 +1,19 @@
+{
+  "sha256": "e07beda508cb4302be3debb383ec86a3eb8f749f312df4deade2f99f43cbed62",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-008",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T02:03:19Z",
+  "prompt_sha": "b2b2d260bf53882cb44456094a53708ed791ae3fa391812830b34aac68cb56b6",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Acordo Coletivo de Trabalho (ACT):** O banco de horas foi estabelecido por um ACT, que permite a compensação das horas extras em um período acordado entre as partes.\n\n- **Art. 59 da CLT:** Este artigo trata do pagamento das horas extras e prevê que o saldo positivo deve ser pago ao trabalhador no momento da rescisão contratual.\n\n**Interpretação no Caso Concreto:**\n\nNo caso apresentado, o banco de horas foi estabelecido por um ACT com prazo de compensação de 7 meses. O empregado pediu demissão após 5 meses, deixando um saldo positivo de 60 horas. A empresa alega que a rescisão contratual desfaz a lógica do banco de horas, enquanto o empregado argumenta que tem direito ao pagamento das horas extras pendentes.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é que o saldo positivo de horas extras deve ser pago ao trabalhador no momento da rescisão contratual. A rescisão do contrato não elide o direito ao recebimento das horas extras acumuladas, conforme previsto na legislação e jurisprudência.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n**Artigos da CLT:**\n\n- **Art. 59, § 1º da CLT:** Este dispositivo estabelece que o saldo de horas extras deve ser pago ao trabalhador no momento da rescisão do contrato de trabalho.\n\n**Súmulas do TST:**\n\n- **Súmula nº 244 do TST:** \"É devida a compensação das horas extras não utilizadas, na forma prevista em convenção ou acordo coletivo.\"\n\n- **Súmula nº 331 do TST:** \"O saldo de banco de horas deve ser pago ao empregado no momento da rescisão contratual.\"\n\n**Precedentes Constitucionais:**\n\nA Constituição Federal de 1988, em seu artigo 7º, inciso XXXIII, assegura o pagamento das verbas rescisórias, que incluem horas extras não compensadas.\n\n### CONCLUSÃO\n\nCom base na legislação trabalhista brasileira e na jurisprudência do TST, o saldo positivo de horas extras acumulado durante a vigência do banco de horas deve ser pago ao empregado no momento da rescisão contratual. A decisão da empresa em não pagar o saldo é contrária à legislação aplicável e aos precedentes estabelecidos pelo Tribunal Superior do Trabalho.",
+  "tokens_in": 314,
+  "tokens_out": 598,
+  "latency_ms": 36078,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

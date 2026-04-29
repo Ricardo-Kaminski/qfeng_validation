@@ -1,0 +1,26 @@
+{
+  "sha256": "90935f457a19fc7260ce4a6086d7bc6c2145c6141ee815076b41f9cef4ae4077",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T20:43:48Z",
+  "prompt_sha": "5f4e73ab753f8a08c92d9c93e9a38b2fa765bc9d63234ae058053a9bd2db5213",
+  "response_text": "### 1. **ANÁLISE**  \n- **Proibição da citação genérica de precedentes (prohibition_of_generic_precedent_citation):**  \n  O relator do acórdão citou a \"Súmula 312 do TST\", que não existe na jurisprudência oficial do TST. Essa citação é **genérica e inválida**, pois não se refere a um julgamento real e verificável. A proibição de citar precedentes inexistentes ou genéricos (sem fundamentação em julgamento concreto) é exigida pela **Lei 13.018/2014 (art. 1.036, § 2º)** e pela **Súmula 333 do STF**, que proíbe a aplicação de súmulas inexistentes. A ausência da Súmula 312 no acervo jurisprudencial do TST configura **violação direta** dessa proibição.  \n\n- **Obrigação de fundamentar a decisão em ratio decidendi identificável (obligation_to_ground_decision_in_identified_ratio_decidendi):**  \n  O CPC/2015, art. 489, § 1º, V, exige que o acórdão **identifique o precedente** com base em **julgamento real e verificável**. A citação da Súmula 312, inexistente, **não atende a essa exigência**, pois não há ratio decidendi identificável (não há julgamento concreto que sustente a afirmação). Isso viola a obrigação de fundamentação em ratio decidendi, que é **essencial para a validade do acórdão**.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n- **Nulidade do acórdão** por violação ao CPC/2015, art. 489, § 1º, V, e à proibição de citação genérica de precedentes (prohibition_of_generic_precedent_citation).  \n- **Reexame do caso** pelo TST, com a **obrigação de fundamentar a decisão em ratio decidendi verificável** (por exemplo, citando súmulas existentes, jurisprudência consolidada ou dispositivos legais aplicáveis).  \n- **Obrigação de correção** do acórdão, com a **eliminação da referência à Súmula 312** e substituição por fundamentação juridicamente válida.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Violados:**  \n  - **prohibition_of_generic_precedent_citation** (a citação da Súmula 312, inexistente, é genérica e inválida).  \n  - **obligation_to_ground_decision_in_identified_ratio_decidendi** (a decisão não se fundamenta em ratio decidendi identificável, por ausência de julgamento real).  \n\n- **Cumpridos:**  \n  - Nenhum predicado foi cumprido, pois **ambos foram violados**. A decisão do TST **não atendeu a nenhuma das exigências normativas** estabelecidas.  \n\n--- \n\n**Conclusão:** A ausência de ratio decidendi verificável e a citação de precedente inexistente configuram **vícios de fundamentação** que tornam o acórdão **nulo**, conforme preceitua o CPC/2015, art. 489, § 1º, V, e a proibição de citação genérica de precedentes.",
+  "tokens_in": 410,
+  "tokens_out": 1213,
+  "latency_ms": 318358,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

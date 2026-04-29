@@ -1,0 +1,19 @@
+{
+  "sha256": "7796bb09d10c5034c0ea5101b247986700a13fa9bb8a4fb27c7a255782ac8577",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-006",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T20:24:36Z",
+  "prompt_sha": "caed60f8d7236d27119212e19182ccd57f46b0e0f27797e3747f1a33d35138bd",
+  "response_text": "**1. ANÁLISE**\n\nO caso apresentado envolve a aplicação de um precedente judicial (Tema 1046/STF e TST-Ag-RR-868-65.2021) que valoriza a autonomia negocial, mas com interpretação invertida em relação à sua ratio decidendi. A questão central é se o uso da autonomia negocial pode justificar a validade de banco de horas sem qualquer Contrato Coletivo de Trabalho (CCT).\n\n**2. DECISÃO RECOMENDADA**\n\nDeve ser anulada a decisão do tribunal que aplicou a ratio decidendi do precedente de forma invertida, pois essa interpretação não está em consonância com os dispositivos normativos aplicáveis.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nO dispositivo normativo relevante aqui é o Tema 1046/STF e TST-Ag-RR-868-65.2021, que valoriza a autonomia negocial, mas sem especificar que essa autonomia possa ser exercida de forma isolada ou sem observância das condições estabelecidas em CCTs.\n\nNo entanto, o dispositivo normativo mais relevante para determinar se a autonomia negocial pode ser utilizada para justificar validade de banco de horas sem qualquer CCT é o artigo 7º da Constituição Federal do Brasil, que estabelece direitos fundamentais dos trabalhadores, incluindo a jornada de trabalho e os intervalos entre elas.\n\nAlém disso, o art. 611-A da CLT (Consolidação das Leis do Trabalho) regula as condições para a utilização de banco de horas, estabelecendo que só pode ser utilizado se houver acordo coletivo ou convenção coletiva de trabalho.\n\nPortanto, a decisão recomendada é que o tribunal reconheça o erro na aplicação da ratio decidendi do precedente e considere os dispositivos normativos específicos que regulamentam a jornada de trabalho e o banco de horas, concluindo que a validade de banco de horas sem qualquer CCT não está respaldada pela autonomia negocial valorizada pelo Tema 1046/STF.\n\n**Limitação**: O contexto não contém normas explícitas sobre como aplicar a autonomia negocial em casos específicos, o que torna necessária uma interpretação baseada nos dispositivos normativos mais amplos e relevantes para a questão.",
+  "tokens_in": 308,
+  "tokens_out": 539,
+  "latency_ms": 9005,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

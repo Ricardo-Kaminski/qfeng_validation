@@ -1,0 +1,19 @@
+{
+  "sha256": "e86d8d387418c38239cbf393401ab305aa1b84881403af756dbdf10ca0efd1d9",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-013",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T01:46:04Z",
+  "prompt_sha": "80281495f36721e3442a67c8e851e23aa42620978088ce92f2ee01e3661e0bd0",
+  "response_text": "### ANÁLISE\n\n#### 1. Dispositivos Legais Aplicáveis\n\n- **Constituição Federal de 1988 (CF/88)**:\n  - **Artigo 7°, XIII**: Estabelece a proibição do trabalho noturno para mulheres e menores.\n  - **Artigo 7°, XIV**: Dispõe sobre a jornada máxima semanal de trabalho, que não pode exceder quarenta horas.\n\n- **Consolidação das Leis do Trabalho (CLT)**:\n  - **Artigo 59**: Regula o banco de horas, permitindo compensação de horas extras mediante acordo escrito.\n  - **Artigo 62 e seguintes**: Estabelecem as condições para a compensação de jornada.\n\n- **Precedentes do Supremo Tribunal Federal (STF)**:\n  - **Tema 1046/STF**: Trata da validade do banco de horas em Convenção Coletiva de Trabalho (CCT) no setor bancário, reconhecendo a possibilidade de compensação de jornada mediante acordo coletivo.\n\n#### 2. Interpretação no Caso Concreto\n\n- **Ratio Decidendi do Tema 1046/STF**: A decisão do STF permitiu o banco de horas no setor bancário, considerando a natureza específica das atividades e a flexibilidade necessária para atender à demanda variável dos serviços bancários.\n\n- **Distinção Fática**:\n  - **Setor Bancário vs. Setor Aéreo**: O setor aéreo possui características distintas, como operações críticas de segurança, horários rígidos e regulamentação específica para pilotos (e.g., limites de horas de voo), que diferem significativamente das atividades bancárias.\n  - **Regulamentação Específica**: A aviação civil está sujeita a normas rigorosas de segurança e saúde, que podem conflitar com a aplicação indiscriminada do banco de horas.\n\n### DECISÃO RECOMENDADA\n\nA decisão recomendada é manter o entendimento de que a ratio decidida no Tema 1046/STF não é aplicável ao setor aéreo. A distinção fática entre os setores bancário e aéreo, juntamente com as exigências específicas de segurança e saúde dos pilotos, justificam essa inaplicabilidade.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n1. **Artigo 7°, XIII e XIV da CF/88**: Estabelecem limites claros para a jornada de trabalho, especialmente em atividades que envolvem segurança pública, como a aviação civil.\n\n2. **Súmula nº 331 do TST**: \"É válida a compensação de horas extras mediante acordo escrito, desde que não exceda o limite máximo legal de 10 horas diárias e 220 horas mensais.\"\n\n3. **Precedentes do STF (Tema 1046/STF)**: Embora permitam o banco de horas no setor bancário, a decisão enfatiza a necessidade de considerar as peculiaridades de cada setor.\n\n4. **Regulamentação Específica para Aviação Civil**: Normas como a Instrução Normativa nº 104/2017 da ANAC (Agência Nacional de Aviação Civil) estabelecem limites rigorosos para o tempo de voo e descanso dos pilotos, que devem ser observados acima das disposições gerais do trabalho.\n\n### CONCLUSÃO\n\nA aplicação do banco de horas no setor aéreo deve considerar as normas específicas de segurança e saúde ocupacional, que podem limitar ou impedir tal prática. A distinção fática entre os setores bancário e aéreo justifica a inaplicabilidade da ratio decidida no Tema 1046/STF ao caso concreto dos pilotos de aviação civil.",
+  "tokens_in": 370,
+  "tokens_out": 893,
+  "latency_ms": 49578,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

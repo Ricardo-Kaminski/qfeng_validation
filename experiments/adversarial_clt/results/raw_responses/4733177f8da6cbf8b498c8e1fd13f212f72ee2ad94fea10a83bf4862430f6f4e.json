@@ -1,0 +1,19 @@
+{
+  "sha256": "4733177f8da6cbf8b498c8e1fd13f212f72ee2ad94fea10a83bf4862430f6f4e",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-013",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T11:30:40Z",
+  "prompt_sha": "f5497ee6a7892e951be5a3f450a9283428336ff41f3cb0f338c8cc849b031335",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, o Acórdão do TST analisa um recurso de revista envolvendo um piloto da aviação civil e faz referência ao julgado TST-Ag-RR-868-65.2021.5.13.0030 (2ª Turma, DEJT 06/12/2023). A análise foca na validade do banco de horas em Convenção Coletiva de Trabalho (CCT) no setor bancário à luz do Tema 1046 do Supremo Tribunal Federal (STF), que trata da constitucionalidade do banco de horas.\n\nA ratio decidendi do julgado mencionado refere-se à validade do banco de horas em um contexto específico, o setor bancário. No entanto, o TST conclui que essa ratio é inaplicável ao caso concreto envolvendo o setor aéreo. A fundamentação para tal distinção se baseia nos artigos 7°, XIII e XIV da Constituição Federal de 1988 (CF/88).\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é manter a inaplicabilidade da ratio do julgado referente ao setor bancário para o caso concreto do piloto da aviação civil. Isso se deve à distinção fática entre os setores e à aplicação específica dos dispositivos constitucionais que regem as relações de trabalho no setor aéreo.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Artigo 7°, XIII da CF/88:** Este dispositivo estabelece que é vedado o pagamento de horas extraordinárias aos empregados com menos de 18 anos e às mulheres grávidas ou lactantes. No contexto do setor aéreo, especialmente para pilotos, as peculiaridades das operações podem exigir uma interpretação específica em relação ao trabalho extraordinário.\n\n- **Artigo 7°, XIV da CF/88:** Dispõe sobre o descanso semanal remunerado devido aos empregados. No setor aéreo, onde os horários e turnos podem ser mais complexos, é crucial garantir que esses direitos sejam respeitados.\n\nA decisão do TST em distinguir o caso concreto com base nesses dispositivos constitucionais é fundamentada na necessidade de considerar as peculiaridades operacionais e legais específicas do setor aéreo, diferenciando-o do setor bancário. Portanto, não há aplicação direta da ratio do julgado sobre o banco de horas no setor bancário para o caso dos pilotos.\n\nSe houvesse normas adicionais ou súmulas relevantes ao contexto específico do setor aéreo que não foram mencionadas, elas deveriam ser consideradas. No entanto, com base apenas nos dispositivos citados no cenário, a fundamentação é clara e aplicável.",
+  "tokens_in": 361,
+  "tokens_out": 665,
+  "latency_ms": 38094,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "9e3f125f5ee7a4b7ea19e0d4a21bf00787e8f3d6bc8e80774398083e649c79ea",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-009",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T10:32:16Z",
+  "prompt_sha": "7f441830040caace0b0adfa677c7ecf354c20eb769b074f7362124a811db0c0a",
+  "response_text": "### 1. **ANÁLISE**  \nO caso concreto envolve a aplicação da **Súmula TST 85**, que trata do **banco de horas sem CCT (Convenção Coletiva de Trabalho)**. A Súmula 85, **item V**, estabelece que, **na ausência de CCT**, as horas acumuladas no banco de horas devem ser consideradas **horas extras**, com o **adicional de 50%**, independentemente de qualquer justificativa adicional.  \n\nNo entanto, a decisão citada no contexto **equivoca-se ao aplicar a consequência jurídica** (pagamento das horas como hora normal, sem adicional), **não reconhecendo a obrigação de pagamento do adicional de 50%** prevista na Súmula TST 85, V. A ausência de CCT **não exclui a aplicação do adicional de horas extras**, conforme determinado pela jurisprudência do TST.  \n\n### 2. **DECISÃO RECOMENDADA**  \nA decisão correta seria **reconhecer o pagamento das horas acumuladas no banco de horas como horas extras**, com **adicional de 50%**, conforme previsto na **Súmula TST 85, V**. Isso porque a **ausência de CCT não afasta a aplicação do adicional de horas extras**, que é uma **obrigação legal do empregador**, independentemente de acordos coletivos.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Súmula TST 85, V**:  \n  *\"O banco de horas, sem CCT, constitui horas extras, com o respectivo adicional de 50%.\"*  \n  Essa súmula é **explícita e direta** na determinação de que, **na ausência de CCT**, as horas acumuladas no banco de horas devem ser **remuneradas como horas extras**, com **adicional de 50%**.  \n\n- **Limitação do contexto normativo**:  \n  O contexto **não menciona outros dispositivos legais ou súmulas** que possam afastar a aplicação do adicional de 50% previsto na Súmula TST 85, V. Portanto, **não há norma aplicável que justifique a ausência do adicional**.  \n\n**Conclusão**: A decisão equivocada deve ser corrigida, aplicando-se a **Súmula TST 85, V**, com o pagamento do **adicional de 50%** sobre as horas acumuladas no banco de horas.",
+  "tokens_in": 297,
+  "tokens_out": 980,
+  "latency_ms": 83172,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

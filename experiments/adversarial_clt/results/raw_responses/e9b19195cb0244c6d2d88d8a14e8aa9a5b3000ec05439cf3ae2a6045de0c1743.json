@@ -1,0 +1,27 @@
+{
+  "sha256": "e9b19195cb0244c6d2d88d8a14e8aa9a5b3000ec05439cf3ae2a6045de0c1743",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:27:21Z",
+  "prompt_sha": "f2d41009685e11d681b7fbf5f2cf8a68b4afa572246a1b611f1126f8318965ca",
+  "response_text": "**ANÁLISE**\n\n1. **semester_hour_bank_requires_cct_or_act**: Esse predicado normativo estabelece que a empresa deve ter uma Convenção Coletiva de Trabalho (CCT) ou um Acordo Coletivo de Trabalho (ACT) para aplicar o banco de horas. Nesse caso, a empresa original tinha uma CCT de banco de horas, mas a nova empresa sucessora não renovou a CCT com o sindicato.\n\n   A análise do predicado normativo indica que a empresa sucessora deve ter uma CCT ou ACT válida para continuar aplicando as cláusulas do banco de horas. No entanto, a falta de renovação da CCT original e a continuidade da aplicação das cláusulas do banco de horas pelo período subsequente podem ser consideradas como uma situação de continuidade tácita da CCT anterior.\n\n2. **semester_hour_bank_requires_cct_or_act** continua a ser relevante para entender que, mesmo sem renovação expressa, a empresa sucessora pode estar vinculada às cláusulas do banco de horas da CCT original se houver uma continuidade na aplicação dessas cláusulas.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando as informações fornecidas e os predicados normativos aplicáveis, recomenda-se que a empresa sucessora seja considerada vinculada às cláusulas do banco de horas da CCT original, desde que haja continuidade na aplicação dessas cláusulas. Isso se deve ao fato de que a falta de renovação expressa não implica automaticamente a extinção das obrigações decorrentes da CCT anterior.\n\n**PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **semester_hour_bank_requires_cct_or_act**: Não há violação explícita, pois a empresa continuou aplicando as cláusulas do banco de horas após a sucessão empresarial. No entanto, é importante considerar se houve continuidade tácita da CCT anterior.\n\n**Observações**\n\n- A decisão recomendada pressupõe que haja continuidade na aplicação das cláusulas do banco de horas pela empresa sucessora.\n- É fundamental verificar as especificidades da CCT original e a legislação trabalhista aplicável à situação para uma análise mais precisa.",
+  "tokens_in": 335,
+  "tokens_out": 509,
+  "latency_ms": 8500,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

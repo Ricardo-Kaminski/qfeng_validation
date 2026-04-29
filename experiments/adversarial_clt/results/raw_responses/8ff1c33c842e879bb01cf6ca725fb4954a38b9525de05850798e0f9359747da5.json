@@ -1,0 +1,27 @@
+{
+  "sha256": "8ff1c33c842e879bb01cf6ca725fb4954a38b9525de05850798e0f9359747da5",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-007",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:28:36Z",
+  "prompt_sha": "2c03cb68f103668260b4613de27731cfa0657d298f5e8f8f441eed46e4ed0161",
+  "response_text": "**1. ANÁLISE**\n\n- **validity_of_cct_annual_hour_bank_banking_sector**: O banco de horas anual previsto na CCT do setor bancário é válido, pois está em conformidade com a jurisprudência do TST-Ag-RR-868-65.2021 e o Tema 1046/STF. Portanto, este predicado é **cumprido**.\n\n- **stf_tema1046_binding_precedent_applied**: O Tema 1046/STF é aplicável ao caso, pois estabelece que a compensação de horas extras pode ser realizada por meio de banco de horas anual. Este predicado também é **cumprido**.\n\n- **hour_bank_with_cct_max_1_year**: A CCT prevê um período máximo de 12 meses para o banco de horas, o que está em conformidade com a regra de que as horas do banco, se compensadas, não geram adicional. Este predicado é **cumprido**.\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada é que o direito ao adicional de horas extras seja limitado pelas horas do banco de horas anual previstas na CCT, desde que as horas sejam compensadas dentro do prazo estabelecido e não excedam o período máximo de 12 meses.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **validity_of_cct_annual_hour_bank_banking_sector**: **Cumprido**\n- **stf_tema1046_binding_precedent_applied**: **Cumprido**\n- **hour_bank_with_cct_max_1_year**: **Cumprido**",
+  "tokens_in": 393,
+  "tokens_out": 370,
+  "latency_ms": 6327,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

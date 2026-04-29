@@ -1,0 +1,26 @@
+{
+  "sha256": "8fcd2c145fd7fa487a92f0251030b330f8a2c58e62e7fb1aa4443bcff865f5e1",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T23:40:19Z",
+  "prompt_sha": "489d4d0cb986d91530d7db7ba9d629c987a55e79987825665efedd8b88b39c59",
+  "response_text": "1. **ANÁLISE:**\n\n   O predicado normativo aplicável ao caso é \"obligation_to_ground_decision_in_identified_ratio_decidendi\". Este predicado estabelece que uma decisão judicial deve ser fundamentada em um ratio decidendi identificado, o que significa que a base legal e fática da decisão deve estar claramente exposta para permitir sua compreensão e eventual revisão.\n\n   No cenário apresentado, o acórdão trabalhista cita doutrina do autor \"Martins, Sergio Pinto\" sem especificar obra, edição, ano ou página. Isso cria uma dificuldade em identificar qual exatamente é a fonte da doutrina utilizada para embasar o entendimento sobre horas extras. A ausência de referências completas impede que se verifique com precisão qual argumento doutrinário foi adotado pelo tribunal, comprometendo a transparência e a fundamentação adequada do acórdão.\n\n   O recorrente alega que essa forma de citação equivale à ausência de fundamentação para fins do Art. 20 da Lei de Introdução às Normas do Direito Brasileiro (LINDB), que exige que as decisões judiciais sejam motivadas, ou seja, devem apresentar os fundamentos legais e fáticos que levaram à decisão.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base no predicado normativo aplicável, a recomendação seria para o tribunal revisor considerar a possibilidade de reforma do acórdão em questão, sobretudo se a falta de identificação completa da doutrina citada comprometeu a clareza e a adequação da fundamentação jurídica. O tribunal deveria exigir que o acórdão seja refeito com citações completas das fontes doutrinárias utilizadas, permitindo assim uma análise precisa do ratio decidendi adotado.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violado:** \n     - \"obligation_to_ground_decision_in_identified_ratio_decidendi\": A decisão foi violada neste aspecto, pois a fundamentação não está clara devido à citação incompleta da doutrina utilizada. Isso impede que se identifique com precisão o fundamento jurídico adotado pelo tribunal.\n\n   - **Não Cumpriu:**\n     - Não há predicados listados que tenham sido cumpridos no cenário, pois a fundamentação adequada não foi alcançada devido à falta de referências completas da doutrina citada.",
+  "tokens_in": 342,
+  "tokens_out": 588,
+  "latency_ms": 16953,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

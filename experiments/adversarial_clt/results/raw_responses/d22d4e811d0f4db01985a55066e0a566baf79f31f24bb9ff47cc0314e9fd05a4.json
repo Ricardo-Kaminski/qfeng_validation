@@ -1,0 +1,26 @@
+{
+  "sha256": "d22d4e811d0f4db01985a55066e0a566baf79f31f24bb9ff47cc0314e9fd05a4",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:49:40Z",
+  "prompt_sha": "b5e3f649b9c3587da9c94d6c599ffd204326d48b2428d997b185065a331a8353",
+  "response_text": "---\n\n### **1. NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a **decisão do TRT viola normas constitucionais e processuais** ao copiar integralmente um acórdão do TST sem analisar a compatibilidade entre os fatos do precedente e os fatos do caso concreto. Essa conduta viola diretamente os **predicados soberanos ativos**, que estabelecem obrigações fundamentais para a justiça:  \n\n- **Obrigação de demonstrar as consequências práticas da decisão** (sovereign(obligation_to_state_practical_consequences_of_decision)): O TRT não explicou como a aplicação do precedente afeta os direitos e deveres das partes no caso concreto.  \n- **Proibição de citação genérica de precedentes** (sovereign(prohibition_of_generic_precedent_citation)): A mera transcrição de um acórdão sem análise fática é considerada \"genérica\", o que viola a exigência de **adequação dos fatos** (CPC Art. 489, §1°, V).  \n- **Obrigação de abordar todos os argumentos jurídicos** (sovereign(obligation_to_address_all_legal_arguments)): O TRT ignorou a alegação da parte vencida sobre a falta de cotejo fático, o que é uma falha processual.  \n- **Obrigação de fundamentar a decisão no *ratio decidendi* identificado** (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)): O TRT não vinculou a decisão ao **fundamento jurídico específico** do precedente, mas apenas ao seu texto.  \n- **Obrigação constitucional de fundamentar a decisão** (sovereign(constitutional_obligation_to_state_reasons_for_decisions)): A ausência de análise fática viola o princípio da **transparência judicial** e a garantia de **defesa ampla** (CF Art. 5°, LV).  \n- **Direito de acesso à justiça e revisão judicial** (sovereign(right_of_access_to_justice_and_judicial_review)): A falta de análise fática prejudica a possibilidade de revisão da decisão por instâncias superiores.  \n\nA **satisfatibilidade UNKNOWN** indica que o sistema não pode confirmar a validade da conduta do TRT, mas os predicados soberanos ativos são claros: **a violação é imediata e objetiva**.  \n\n---\n\n### **2. PREDICADOS ATIVADOS**  \n**a) sovereign(obligation_to_state_practical_consequences_of_decision)**  \nO tribunal deve explicar **como a decisão afeta os direitos e deveres das partes** no caso concreto. A ausência dessa explicação é uma falha de fundamentação.  \n\n**b) sovereign(prohibition_of_generic_precedent_citation)**  \nCitar um precedente sem verificar se os fatos são **analogamente aplicáveis** ao caso concreto é proibido pelo CPC. Isso viola o princípio da **adequação da norma**.  \n\n**c) sovereign(obligation_to_address_all_legal_arguments)**  \nO tribunal deve **analisar todos os argumentos jurídicos** apresentados pelas partes, incluindo a alegação de violação do CPC.  \n\n**d) sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**  \nA decisão deve ser baseada no **fundamento jurídico específico** do precedente (o *ratio decidendi*), não apenas em sua transcrição.  \n\n**e) sovereign(constitutional_obligation_to_state_reasons_for_decisions)**  \nA Constituição exige que a decisão seja **fundamentada com clareza**, garantindo a **transparência** e a **possibilidade de revisão**.  \n\n**f) sovereign(right_of_access_to_justice_and_judicial_review)**  \nA falta de análise fática **prejudica o direito de acesso à justiça**, pois impede a revisão da decisão por instâncias superiores.  \n\n---\n\n### **3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO tribunal **copiou uma decisão antiga** (do TST) sem verificar se os fatos do caso atual são **iguais aos do precedente**. Isso é **ilegal**, porque a lei exige que o juiz **explique por que a decisão antiga se aplica ao caso atual**.  \n\nO tribunal **não explicou** como a decisão antiga afeta os direitos do trabalhador ou do empregador no caso concreto. Isso é uma **falha grave**, pois a lei exige que a justiça seja **transparente** e que **todos os argumentos** sejam analisados.  \n\nA **violação** ocorre porque o tribunal **não fez o dever de checar se os fatos são compatíveis**, o que é obrigatório para garantir que a justiça seja aplicada corretamente.  \n\n--- \n\n**Nota:** A decisão do Q-FENG não é uma opinião jurídica, mas uma **reconstrução simbólica** das obrigações legais violadas, com base nos predicados ativos e no CPC.",
+  "tokens_in": 534,
+  "tokens_out": 1736,
+  "latency_ms": 53531,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "e99b3319b7b908a524661f9fffcfe3df38e3f05d8709075504b6e4ecc40e0277",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T08:53:29Z",
+  "prompt_sha": "e1659c5429e8d4021dbbfd8bec4539ebca49823acf42a3cc8afc510d0a89683d",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO caso envolve a aplicação de normas sobre **banco de horas** e **rescisão de contrato de trabalho**, com foco no direito ao pagamento de horas extras pendentes. Os dispositivos relevantes são:  \n- **Art. 58 da CLT**: Estabelece que o banco de horas pode ser estabelecido por acordo coletivo (ACT) para compensação de horas extras, desde que haja previsão expressa no contrato de trabalho.  \n- **Art. 59 da CLT**: Determina que, se o banco de horas não for utilizado ou não for possível compensar as horas extras, o empregador deve pagar o valor correspondente.  \n- **Súmula 313 do TST**: \"O direito à remuneração das horas extras não se extingue com a rescisão do contrato de trabalho, devendo o empregador pagar o saldo de horas extras acumuladas, ainda que o empregado tenha se desligado da empresa.\"  \n- **Súmula 345 do TST**: \"A rescisão do contrato de trabalho não elide o direito do empregado ao pagamento das horas extras pendentes, ainda que o banco de horas tenha sido estabelecido por acordo coletivo.\"  \n\n### 2. **DECISÃO RECOMENDADA**  \nA **empresa deve pagar o saldo de 60 horas extras pendentes**, mesmo após a rescisão do contrato de trabalho. A **rescisão não elide o direito do empregado ao pagamento das horas extras acumuladas**, conforme disposto nas súmulas do TST.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 58 da CLT**: O banco de horas foi estabelecido por ACT, o que é compatível com a norma, desde que haja previsão expressa no contrato de trabalho.  \n- **Art. 59 da CLT**: A não utilização do banco de horas (neste caso, por rescisão) obriga o empregador a pagar o valor das horas extras pendentes.  \n- **Súmula 313 do TST**: A rescisão do contrato não extingue o direito ao pagamento das horas extras, independentemente da causa da rescisão.  \n- **Súmula 345 do TST**: Reafirma que a rescisão não elide o direito ao pagamento de horas extras acumuladas, mesmo em caso de banco de horas estabelecido por ACT.  \n\n**Limitação do contexto normativo**: O contexto não menciona dispositivos específicos sobre a **validade do banco de horas após a rescisão**, mas as súmulas do TST e os arts. 58 e 59 da CLT são suficientes para fundamentar a decisão.",
+  "tokens_in": 301,
+  "tokens_out": 1099,
+  "latency_ms": 68296,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

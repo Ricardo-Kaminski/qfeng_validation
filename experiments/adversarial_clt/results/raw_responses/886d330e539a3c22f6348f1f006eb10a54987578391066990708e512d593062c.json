@@ -1,0 +1,27 @@
+{
+  "sha256": "886d330e539a3c22f6348f1f006eb10a54987578391066990708e512d593062c",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T23:57:46Z",
+  "prompt_sha": "f2d41009685e11d681b7fbf5f2cf8a68b4afa572246a1b611f1126f8318965ca",
+  "response_text": "1. **ANÁLISE:**\n\n   No cenário apresentado, a empresa sucessora continua aplicando as cláusulas do banco de horas após o término da vigência original da CCT sem renovar o acordo com o sindicato. O predicado normativo relevante aqui é \"semester_hour_bank_requires_cct_or_act\", que indica que o uso de um banco de horas, especialmente aquele estendido por 12 meses, requer uma convenção coletiva de trabalho (CCT) ou ato normativo específico para sua validade.\n\n   A jurisprudência do Tribunal Superior do Trabalho (TST) e a Consolidação das Leis do Trabalho (CLT) estabelecem que, após o término da vigência de uma CCT, suas cláusulas não são automaticamente renovadas ou transferidas para uma nova empresa sucessora. A continuidade das condições previstas na CCT original depende de um novo acordo entre a empresa e o sindicato representativo dos trabalhadores.\n\n   Portanto, ao continuar aplicando as cláusulas do banco de horas sem ter renovado a CCT ou celebrado um novo ato normativo que autorize essa prática, a empresa sucessora pode estar em desacordo com os requisitos legais estabelecidos pelo predicado normativo.\n\n2. **DECISÃO RECOMENDADA:**\n\n   A decisão recomendada é que a empresa sucessora deve cessar imediatamente a aplicação das cláusulas do banco de horas da CCT anterior, a menos que celebre um novo acordo com o sindicato representante dos trabalhadores. Isso garante conformidade com as normas legais e jurisprudenciais vigentes. A empresa deve buscar renegociar uma nova CCT ou ato normativo que permita a continuidade do banco de horas, se for desejado por ambas as partes.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violado:** \"semester_hour_bank_requires_cct_or_act\" – A empresa sucessora está aplicando o banco de horas sem ter uma CCT ou ato normativo vigente que autorize essa prática após a expiração da CCT original.\n\n   Não há predicados listados que indiquem conformidade no cenário, dado que a continuidade das cláusulas do banco de horas sem renovação ou novo acordo viola o requisito estabelecido pelo predicado normativo aplicável.",
+  "tokens_in": 337,
+  "tokens_out": 545,
+  "latency_ms": 15764,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

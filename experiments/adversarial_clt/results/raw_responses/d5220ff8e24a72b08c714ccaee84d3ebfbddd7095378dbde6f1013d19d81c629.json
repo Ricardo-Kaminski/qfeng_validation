@@ -1,0 +1,19 @@
+{
+  "sha256": "d5220ff8e24a72b08c714ccaee84d3ebfbddd7095378dbde6f1013d19d81c629",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T02:19:18Z",
+  "prompt_sha": "ccb8d9ff5ecb68e6342252f2d9062b97997b2594352bf919ebcfbf76c5be0071",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Convenção Coletiva de Trabalho (CCT):** A CCT estabeleceu um banco de horas semestral com prazo de compensação de 6 meses. O acordo coletivo é uma fonte normativa importante no Direito do Trabalho, conforme previsto na CLT.\n\n- **Artigo 59 da CLT:** Este artigo trata das férias e licenças, estabelecendo que o período de afastamento não interrompe a contagem dos prazos legais ou convencionados, salvo disposição em contrário expressa na CCT.\n\n- **Súmula 369 do TST:** Estabelece que \"o período de licença-maternidade integra-se ao tempo de serviço para todos os efeitos\".\n\n**Interpretação no Caso Concreto:**\n\nA trabalhadora entrou em licença maternidade no quarto mês e o banco de horas foi suspenso durante esse período. Ao retornar, a empresa reativou o cômputo do banco de horas, que foi compensado dentro dos 8 meses úteis.\n\nA questão central é se o prazo de compensação deve incluir o período de licença maternidade. A CCT não especifica expressamente sobre a contagem do prazo durante a licença, o que leva à aplicação do disposto no artigo 59 da CLT e na Súmula 369 do TST.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é que o período de licença maternidade deve ser contado para fins de prazo de compensação do banco de horas, conforme previsto no artigo 59 da CLT e na Súmula 369 do TST.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **Artigo 59 da CLT:** Este dispositivo estabelece que o período de afastamento não interrompe a contagem dos prazos legais ou convencionados, salvo disposição em contrário expressa na CCT. No caso concreto, a CCT não prevê expressamente a suspensão do prazo durante a licença maternidade.\n\n- **Súmula 369 do TST:** A súmula afirma que o período de licença-maternidade integra-se ao tempo de serviço para todos os efeitos. Isso inclui a contagem de prazos convencionados, como o banco de horas, a menos que haja uma disposição específica na CCT.\n\n- **Doutrina Trabalhista:** A doutrina majoritária entende que, em ausência de previsão contrária expressa na CCT, os períodos de afastamento devem ser contados para efeitos de prazos convencionais. Isso se alinha à proteção das trabalhadoras durante a licença maternidade.\n\nPortanto, a decisão deve considerar o período de licença maternidade como parte do prazo de compensação do banco de horas, conforme os dispositivos legais e jurisprudência aplicáveis.",
+  "tokens_in": 306,
+  "tokens_out": 702,
+  "latency_ms": 40297,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

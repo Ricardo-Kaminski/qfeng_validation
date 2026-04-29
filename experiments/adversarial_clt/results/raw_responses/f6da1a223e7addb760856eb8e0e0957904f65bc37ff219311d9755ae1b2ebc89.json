@@ -1,0 +1,19 @@
+{
+  "sha256": "f6da1a223e7addb760856eb8e0e0957904f65bc37ff219311d9755ae1b2ebc89",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CTRL-NEG-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T11:01:31Z",
+  "prompt_sha": "78faf043ffafa13b62c94bafbb4c2e0135abf258fd4b2cf3a75e7132cf2b38ec",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO contexto normativo fornecido não inclui dispositivos legais específicos (como artigos da CLT, Súmulas do TST ou outras normas) que possam ser aplicados ao caso. A análise baseia-se exclusivamente nas informações descritas no cenário, como:  \n- **CCT com banco de horas de 6 meses**, com **acúmulo máximo de 60h mensais**;  \n- **Extrato entregue mensalmente**;  \n- **Cláusula de conversão em adicional de 50% para saldo não compensado**;  \n- **Compensação total das horas em folgas previamente comunicadas**;  \n- **CCT registrada na SRTE**;  \n- **Cópias entregues aos trabalhadores**;  \n- **Ausência de contestação sindical ou individual**.  \n\n### 2. **DECISÃO RECOMENDADA**  \n**A compensação das horas acumuladas em folgas previamente comunicadas é válida e não gera direito à conversão em adicional de 50%**, conforme previsto na cláusula da CCT.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n**Limitação:** O contexto normativo fornecido **não contém dispositivos legais específicos** (como artigos da CLT, Súmulas do TST ou outras normas) que possam ser citados para fundamentar a análise. A decisão baseia-se **exclusivamente nas informações do cenário**, que não mencionam normas aplicáveis.  \n\n**Observação:**  \n- A cláusula de conversão em adicional de 50% só se aplicaria se **houvesse saldo não compensado** após o prazo de 6 meses. Como **todas as horas foram compensadas em folgas**, não há base para a conversão.  \n- A validade da CCT está atrelada à sua **registrar na SRTE** e à **ausência de contestação**, conforme previsto no art. 613 da CLT (não mencionado no contexto, mas assumido como parte do cenário).  \n\n**Conclusão:**  \nA ausência de normas legais no contexto impede uma fundamentação jurídica mais detalhada. No entanto, com base no cenário descrito, a compensação das horas em folgas é compatível com a CCT celebrada.",
+  "tokens_in": 299,
+  "tokens_out": 1580,
+  "latency_ms": 98983,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

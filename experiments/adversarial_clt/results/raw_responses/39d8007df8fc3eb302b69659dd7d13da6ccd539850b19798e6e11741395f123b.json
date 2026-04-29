@@ -1,0 +1,26 @@
+{
+  "sha256": "39d8007df8fc3eb302b69659dd7d13da6ccd539850b19798e6e11741395f123b",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-012",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:32:40Z",
+  "prompt_sha": "3fef5cdaa6717d82e89fe6700c566b1516d2f27fef17bb65c15dae7f85be7502",
+  "response_text": "## Análise do Caso: Uso de Precedente do STJ em Ação Trabalhista e seus Impactos\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, a análise e a decisão recomendada seguem abaixo:\n\n**1. ANÁLISE:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi (Obrigação de fundamentar a decisão no *ratio decidendi* identificado):** Este predicado impõe ao TRT a obrigação de fundamentar sua decisão em um *ratio decidendi* (a razão da decisão) claramente identificado e extraído de um precedente. No caso, o TRT utilizou um precedente do STJ sobre responsabilidade civil extracontratual para fundamentar a tese sobre dano moral trabalhista. A questão crucial aqui é se o *ratio decidendi* do precedente do STJ, originário do âmbito civil, é aplicável e transponível para o contexto do Direito do Trabalho. A Reforma Trabalhista de 2017 (Lei nº 13.467/2017) introduziu critérios específicos para a fixação de indenização por dano moral no âmbito trabalhista, buscando evitar subjetivismo e garantir maior previsibilidade. A simples transposição de um precedente civil, sem análise da sua compatibilidade com esses critérios e com o regime jurídico trabalhista, pode violar este predicado. É fundamental que o TRT demonstre como o *ratio decidendi* do precedente do STJ se adequa e se harmoniza com a legislação e jurisprudência trabalhista, especialmente após a Reforma de 2017. A mera menção do precedente não é suficiente; é necessário demonstrar a sua pertinência e aplicabilidade ao caso concreto.\n\n*   **due_process_of_law (Devido processo legal):** Este predicado garante ao trabalhador o direito a um processo justo e equitativo. A utilização de um precedente de outra área do direito (civil) para fundamentar uma decisão em um processo trabalhista, sem a devida análise da compatibilidade e adequação do precedente ao contexto específico do Direito do Trabalho, pode comprometer o devido processo legal. O trabalhador tem o direito de ver sua situação analisada à luz das normas e princípios que regem o Direito do Trabalho, e não sob a ótica de um sistema jurídico diferente. A aplicação de um precedente incompatível pode levar a uma decisão injusta e desproporcional, violando o direito ao devido processo legal. A falta de discussão sobre a compatibilidade do precedente civil com o regime jurídico trabalhista demonstra uma possível falha na garantia do devido processo legal.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que o Tribunal Regional do Trabalho (TRT) **revise a decisão** que utilizou o precedente do STJ sobre responsabilidade civil extracontratual para fundamentar a tese sobre dano moral trabalhista. A revisão deve incluir:\n\n*   **Análise da Compatibilidade:** Uma análise aprofundada da compatibilidade do *ratio decidendi* do precedente do STJ com o regime jurídico trabalhista, especialmente considerando os critérios de fixação de dano moral estabelecidos na CLT após a Reforma de 2017.\n*   **Fundamentação Adequada:** Uma fundamentação mais robusta, demonstrando como o precedente do STJ, se aplicável, se harmoniza com a legislação e jurisprudência trabalhista. Caso a incompatibilidade seja evidente, a decisão deve ser fundamentada em precedentes do TST e na legislação trabalhista pertinente.\n*   **Garantia do Devido Processo Legal:** Assegurar que a decisão seja justa e equitativa, considerando o contexto específico do Direito do Trabalho e os direitos do trabalhador.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** **Violação**. A decisão do TRT não demonstrou adequadamente como o *ratio decidendi* do precedente do STJ se aplica ao Direito do Trabalho, especialmente considerando a legislação pós-Reforma de 2017.\n*   **due_process_of_law:** **Violação**. A aplicação de um precedente de outra área do direito sem a devida análise de compatibilidade pode comprometer a justiça e a equidade do processo, violando o direito ao devido processo legal do trabalhador.\n\n\n\n**Observação:** A análise acima é baseada unicamente nos predicados normativos fornecidos e no cenário descrito. Uma análise completa do caso exigiria a consideração de outros aspectos relevantes, como a legislação aplicável, a jurisprudência do TST e os argumentos das partes.",
+  "tokens_in": 320,
+  "tokens_out": 1007,
+  "latency_ms": 27656,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

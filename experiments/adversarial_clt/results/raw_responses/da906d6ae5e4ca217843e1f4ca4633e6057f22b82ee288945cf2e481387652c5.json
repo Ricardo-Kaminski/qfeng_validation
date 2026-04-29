@@ -1,0 +1,26 @@
+{
+  "sha256": "da906d6ae5e4ca217843e1f4ca4633e6057f22b82ee288945cf2e481387652c5",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-013",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T00:34:51Z",
+  "prompt_sha": "e0d30695ad77e6fa82d74d87ad55c89df45927ed896fab63810d42a3383b74c7",
+  "response_text": "## Análise do Caso à Luz dos Predicados Normativos\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, a análise segue abaixo:\n\n**1. ANÁLISE DA APLICAÇÃO DOS PREDICADOS:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi (Obrigação de fundamentar a decisão na ratio decidendi identificada):** Este predicado é **cumprido** de forma exemplar no cenário. O acórdão do TST não apenas cita o TST-Ag-RR-868-65.2021.5.13.0030, mas também **identifica explicitamente a *ratio decidendi*** desse julgado (validade do banco de horas no contexto do CCT bancário, sob a ótica do Tema 1046/STF).  A decisão subsequente demonstra o esforço de compreender a lógica do precedente citado.  A análise da distinção fática é crucial para a aplicação correta deste predicado.\n*   **due_process_of_law (Devido processo legal):** Este predicado é **cumprido**. A decisão do TST, ao analisar o precedente, distinguir os fatos e fundamentar a inaplicabilidade com base na Constituição Federal (Art. 7º, XIII e XIV), demonstra a observância do devido processo legal.  O piloto teve a oportunidade de apresentar seus argumentos, e a decisão foi proferida com base em fundamentos jurídicos claros e identificáveis. A distinção fática, em si, é um elemento essencial do devido processo, pois garante que a lei seja aplicada ao caso concreto de forma justa e adequada.\n*   **stf_tema1046_binding_precedent_applied (Aplicação do precedente do STF Tema 1046):** Este predicado é **cumprido em relação ao precedente *citado***. O acórdão reconhece a importância do Tema 1046/STF como base para a *ratio decidendi* do TST-Ag-RR-868-65.2021.5.13.0030.  No entanto, a decisão do TST **não aplica diretamente** o Tema 1046 ao caso do piloto aéreo, pois a distinção fática demonstra que a situação do setor bancário (que deu origem ao Tema 1046) é diferente da do setor aéreo.  A referência ao Tema 1046 é utilizada como ponto de partida para a análise, mas não como regra a ser aplicada automaticamente.\n\n**2. DECISÃO RECOMENDADA:**\n\nA decisão do TST, que **rejeita a aplicação da *ratio decidendi* do TST-Ag-RR-868-65.2021.5.13.0030 ao caso do piloto aéreo**, é a decisão **correta e recomendada**. A fundamentação baseada na distinção fática, utilizando a CF/88 Art. 7º, XIII e XIV, demonstra a aplicação adequada do direito e a observância do devido processo legal.  A decisão demonstra a capacidade do TST de interpretar e aplicar precedentes de forma criteriosa, considerando as particularidades de cada caso.  A manutenção da decisão que rejeita a aplicação do precedente é a que melhor se alinha com os predicados normativos.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** **Conformidade** (cumprido).\n*   **due_process_of_law:** **Conformidade** (cumprido).\n*   **stf_tema1046_binding_precedent_applied:** **Conformidade parcial** (cumprido em relação ao precedente citado, mas não aplicado diretamente ao caso).\n\n**Observações Adicionais:**\n\n*   A distinção fática é um elemento crucial para a aplicação correta do direito e para evitar a aplicação injusta de precedentes.\n*   A fundamentação da decisão deve ser clara, completa e verificável, permitindo que as partes compreendam a lógica da decisão e possam, eventualmente, recorrer da mesma.\n*   A referência a precedentes, mesmo que para fins de distinção, demonstra o respeito à jurisprudência e contribui para a segurança jurídica.\n",
+  "tokens_in": 429,
+  "tokens_out": 960,
+  "latency_ms": 26562,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

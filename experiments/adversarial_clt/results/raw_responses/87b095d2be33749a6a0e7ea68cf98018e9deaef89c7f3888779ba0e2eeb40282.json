@@ -1,0 +1,19 @@
+{
+  "sha256": "87b095d2be33749a6a0e7ea68cf98018e9deaef89c7f3888779ba0e2eeb40282",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T11:55:50Z",
+  "prompt_sha": "c5e3679e280261d29913500eb4cf5116a82e74baef192b57794293c17afc2e50",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a empresa adotou uma jornada de trabalho de 10 horas diárias semanalmente (modelo 5×10) com base em um banco de horas anuais autorizado por sua CCT (Convenção Coletiva de Trabalho), mas sem previsão específica sobre o modelo de compensação. Os trabalhadores questionam a legalidade dessa jornada diária sob o argumento de que viola o limite constitucional de 8 horas diárias estabelecido no Artigo 7º, XIII da Constituição Federal de 1988 (CF/88).\n\nOs dispositivos normativos relevantes incluem:\n\n- **Constituição Federal de 1988 (CF/88), Art. 7º, XIII**: Estabelece o limite máximo de 8 horas diárias ou 44 semanais de trabalho.\n  \n- **Consolidação das Leis do Trabalho (CLT), Artigo 58**: Permite a compensação de horários mediante acordo escrito entre empregador e empregado, desde que não ultrapasse duas horas por dia.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que a jornada diária de 10 horas seja considerada ilegal sob o regime constitucional, pois excede o limite máximo estabelecido no Artigo 7º, XIII da CF/88. A CCT não pode autorizar práticas contrárias ao disposto na Constituição Federal.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **CF/88, Art. 7º, XIII**: \"É assegurado a todos o direito ao trabalho, à livre iniciativa, à segurança no emprego e à proteção contra demissão arbitrária ou sem justa causa.\"\n\n  Este dispositivo constitucional estabelece claramente que a jornada máxima de trabalho não pode exceder 8 horas diárias. Qualquer acordo coletivo que permita uma jornada superior deve ser interpretado à luz deste limite máximo, sob pena de inconstitucionalidade.\n\n- **CLT, Artigo 58**: \"A compensação de horários poderá ocorrer mediante acordo escrito entre empregador e empregado, desde que não ultrapasse duas horas por dia.\"\n\n  Este artigo reforça a limitação para a compensação de horas, permitindo apenas até duas horas diárias. A jornada de 10 horas diárias excede essa margem permitida.\n\nPortanto, mesmo com autorização em uma CCT para banco de horas, o limite constitucional e legal deve ser respeitado, não sendo possível estender a jornada além das 8 horas diárias sem violar a legislação vigente. A empresa deveria ajustar sua prática à norma constitucional e trabalhista, mantendo-se dentro dos limites legais de jornada diária ou buscando outras formas de compensação que respeitem os dispositivos mencionados.",
+  "tokens_in": 307,
+  "tokens_out": 669,
+  "latency_ms": 38281,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

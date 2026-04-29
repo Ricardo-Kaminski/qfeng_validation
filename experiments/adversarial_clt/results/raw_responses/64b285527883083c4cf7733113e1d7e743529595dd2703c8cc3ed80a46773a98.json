@@ -1,0 +1,29 @@
+{
+  "sha256": "64b285527883083c4cf7733113e1d7e743529595dd2703c8cc3ed80a46773a98",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-001",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T00:36:05Z",
+  "prompt_sha": "1bd0aef03e0b6d03d84ca202cf6b7a00e95994884a42849dc5597c5e0bcb70a2",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas em Call Center\n\nCom base nos predicados normativos fornecidos e no cenário apresentado, segue a análise, decisão recomendada e identificação de cumprimento/violação dos predicados:\n\n**1. ANÁLISE:**\n\n*   **`semester_hour_bank_requires_cct_or_act` (O banco de horas semestral exige CCT ou ACT):** Este predicado é crucial para o caso. Ele estabelece que a implementação de um banco de horas com duração semestral (o que parece ser o caso, considerando a acumulação de 120h em 9 meses, extrapolando o período de 6 meses alegado pela empresa) exige a existência de uma Convenção Coletiva de Trabalho (CCT) ou Acordo Coletivo de Trabalho (ACT) que o autorize. A ausência de um ACT ou CCT que trate do banco de horas é um ponto central na análise da legalidade da implementação. A empresa não pode, unilateralmente, impor um sistema de banco de horas sem a participação e acordo da categoria profissional.\n\n*   **`prohibition_on_unilateral_hour_bank` (Proibição de banco de horas unilateral):** Este predicado reforça a necessidade de negociação para a implementação do banco de horas. Mesmo que a empresa argumente que os acordos individuais assinados pelos empregados validam o sistema, a lei e a jurisprudência do TST são claras: a imposição unilateral de um banco de horas é ilegal, independentemente da assinatura de termos individuais. A assinatura individual não convalida uma imposição unilateral, pois o banco de horas altera as condições de trabalho e exige negociação coletiva. A simples assinatura de um memorando não elimina a necessidade de negociação.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se a **invalidade** do banco de horas implementado pela empresa. A empresa deve:\n\n*   **Suspender imediatamente** a prática de compensação de horas no sistema de banco de horas.\n*   **Pagar aos empregados** as horas acumuladas no banco de horas como extras, acrescidas de pelo menos 50% (conforme previsto no Art. 7, Inciso VII da CLT para horas extras).\n*   **Iniciar negociação** com o sindicato da categoria para estabelecer um sistema de banco de horas legalmente válido, que respeite os limites e condições estabelecidos na legislação e jurisprudência.\n*   **Considerar a possibilidade de regularização** das horas acumuladas, através de pagamento como horas extras, para evitar litígios.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **`semester_hour_bank_requires_cct_or_act`:** **Violação**. A empresa implementou um banco de horas sem a existência de CCT ou ACT que o autorizasse.\n*   **`prohibition_on_unilateral_hour_bank`:** **Violação**. A empresa implementou o banco de horas de forma unilateral, sem negociação com o sindicato da categoria, e a assinatura individual dos empregados não convalida essa imposição.\n\n**Observações Adicionais:**\n\n*   A alegação da empresa de que os acordos individuais validariam o banco de horas de até 6 meses não tem amparo legal. A jurisprudência do TST é firme em relação à necessidade de negociação coletiva para a implementação de bancos de horas.\n*   A acumulação de até 120 horas em 9 meses, extrapolando o período de 6 meses alegado pela empresa, reforça a ilegalidade da prática, pois demonstra a natureza semestral do banco de horas, que exige ainda mais a autorização coletiva.\n*   A empresa pode ser responsabilizada por danos morais aos empregados, caso seja comprovado que a imposição do banco de horas causou-lhes prejuízo ou constrangimento.\n*   É importante verificar se a empresa possui outros instrumentos normativos internos que tratem do tema, mas mesmo estes não podem contrariar a lei e a jurisprudência.\n\nEsta análise e recomendação são baseadas nos predicados normativos fornecidos e no cenário apresentado. Uma análise mais aprofundada poderia considerar outros aspectos do caso, como a existência de outros instrumentos normativos e a jurisprudência específica da região.",
+  "tokens_in": 333,
+  "tokens_out": 946,
+  "latency_ms": 26031,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

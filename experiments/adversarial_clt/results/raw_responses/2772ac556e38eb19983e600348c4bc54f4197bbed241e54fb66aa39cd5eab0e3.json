@@ -1,0 +1,27 @@
+{
+  "sha256": "2772ac556e38eb19983e600348c4bc54f4197bbed241e54fb66aa39cd5eab0e3",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T22:42:51Z",
+  "prompt_sha": "d850bd7abdcb7227665403051d94794859c730819b16d4aa28c926c6680567ee",
+  "response_text": "### 1. **ANÁLISE**  \n**a) Predicado: *hour_bank_with_cct_max_1_year***  \n- **Aplicação:** A CCT estabeleceu um banco de horas com prazo máximo de 12 meses, e o trabalhador utilizou as horas acumuladas dentro desse prazo. A CLT (art. 59, § 2º) permite o banco de horas com duração máxima de 12 meses, desde que previsto em convenção ou acordo coletivo.  \n- **Conclusão:** O prazo máximo de 12 meses foi respeitado, e o uso das horas foi realizado dentro do período estabelecido.  \n\n**b) Predicado: *recognition_of_collective_bargaining***  \n- **Aplicação:** A CCT foi firmada e homologada pelo sindicato, o que demonstra a validade e reconhecimento da negociação coletiva. A CLT (art. 611) exige que a convenção coletiva seja homologada pelo sindicato representativo da categoria.  \n- **Conclusão:** A CCT foi formalmente reconhecida e homologada, cumprindo a obrigação legal de validação coletiva.  \n\n**c) Predicado: *working_hours_negotiable_by_cct***  \n- **Aplicação:** A CCT previu o banco de horas, permitindo flexibilidade na jornada (acúmulo e compensação). A CLT (art. 59, § 1º) permite a negociação de jornada de trabalho em convenções coletivas, desde que respeitados os limites legais (ex.: 10h/dia).  \n- **Conclusão:** A jornada diária não ultrapassou 10h, e o banco de horas foi negociado conforme a CCT, cumprindo os limites legais.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n- **Conclusão:** A empresa cumpriu todas as obrigações legais e normativas previstas na CLT e na CCT. O banco de horas foi aplicado dentro do prazo máximo de 12 meses, com validação sindical e respeito aos limites de jornada.  \n- **Recomendação:** A empresa deve manter os registros dos extratos mensais e garantir a transparência na compensação das horas, conforme previsto na CCT. Não há irregularidades que exijam ações corretivas ou penalidades.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **hour_bank_with_cct_max_1_year:** **Conformidade** (prazo de 12 meses respeitado).  \n- **recognition_of_collective_bargaining:** **Conformidade** (CCT homologada pelo sindicato).  \n- **working_hours_negotiable_by_cct:** **Conformidade** (jornada diária não ultrapassou 10h e banco de horas negociado conforme CCT).  \n\n**Nenhum predicado foi violado.**",
+  "tokens_in": 364,
+  "tokens_out": 1074,
+  "latency_ms": 33000,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

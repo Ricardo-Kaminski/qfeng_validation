@@ -1,0 +1,26 @@
+{
+  "sha256": "187fc2a54335da300783c002c81bed1666fa21489a096258514935703ec8d9ad",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-006",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:54:36Z",
+  "prompt_sha": "324f58b06ace5123feff726f55259a913c5f926bf4c3eff790b1b83195a3e292",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nA decisão de indeferir a prova pericial sem motivar a decisão viola **predicados soberanos** fundamentais da CLT e do CPC. O sistema Q-FENG identificou que:  \n- **Obrigação de explicitar as consequências práticas da decisão** (sovereign(obligation_to_state_practical_consequences_of_decision)): A juíza não explicou quais documentos seriam suficientes para substituir a prova pericial, deixando a parte sem clareza sobre os efeitos da decisão.  \n- **Proibição de citar precedentes genéricos** (sovereign(prohibition_of_generic_precedent_citation)): A decisão não se baseou em uma análise específica dos documentos acostados, mas apenas em uma afirmação vaga (\"suficientes os documentos\"), o que viola a proibição de recorrer a fundamentos genéricos.  \n- **Obrigação de abordar todos os argumentos jurídicos** (sovereign(obligation_to_address_all_legal_arguments)): A parte requereu a anulação por deficiência de motivação, mas a juíza não respondeu a esse argumento, ignorando a obrigação de considerar todas as questões levantadas.  \n- **Obrigação de fundamentar a decisão em razão decidendi identificada** (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)): A juíza não identificou quais fatos ou documentos específicos seriam probatórios, violando a necessidade de fundamentação concreta.  \n- **Obrigação constitucional de expor razões para decisões** (sovereign(constitutional_obligation_to_state_reasons_for_decisions)): O CPC Art. 489, §1°, I exige que a decisão seja motivada, o que não ocorreu.  \n- **Direito de acesso à justiça e revisão judicial** (sovereign(right_of_access_to_justice_and_judicial_review)): A falta de motivação impede a revisão da decisão por parte da parte, violando o direito à defesa.  \n\nA combinação desses predicados soberanos ativos leva à conclusão de que houve **violação** da decisão, pois a falta de motivação e fundamentação específica é incompatível com os princípios jurídicos mínimos garantidos pela CLT e pelo CPC.\n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O juiz deve explicar **como a decisão afeta os direitos das partes**, como, por exemplo, quais documentos seriam suficientes para substituir a prova pericial.  \n- **sovereign(prohibition_of_generic_precedent_citation)**: O juiz **não pode recorrer a fundamentos genéricos** (como \"os documentos são suficientes\") sem identificar quais documentos e por quê.  \n- **sovereign(obligation_to_address_all_legal_arguments)**: O juiz deve **responder a todos os argumentos jurídicos** levantados, incluindo a solicitação de anulação por deficiência de motivação.  \n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão deve **se basear em razões específicas e identificáveis**, como a análise de documentos concretos, e não em afirmações vagas.  \n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: O CPC exige que a decisão **explicite claramente as razões** para a decisão, garantindo transparência e possibilidade de revisão.  \n- **sovereign(right_of_access_to_justice_and_judicial_review)**: A falta de motivação **viola o direito da parte de contestar a decisão** e de ter acesso a um processo justo.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA juíza decidiu que não seria feita a prova pericial, mas **não explicou por quê**. Ela não disse quais documentos já no processo seriam suficientes para substituir a prova pericial, nem explica **como esses documentos provam algo**. Isso é um problema porque:  \n- **Você tem direito a saber** por que a juíza tomou essa decisão.  \n- **A lei exige que a decisão seja clara**, com explicações específicas, não apenas com frases genéricas.  \n- **A falta de explicações** impede que você conteste a decisão ou peça revisão.  \n\nO sistema Q-FENG concluiu que a juíza **viola a lei** ao não motivar a decisão, o que é um erro grave, pois **a justiça deve ser transparente e compreensível para todos**.",
+  "tokens_in": 515,
+  "tokens_out": 1568,
+  "latency_ms": 48156,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

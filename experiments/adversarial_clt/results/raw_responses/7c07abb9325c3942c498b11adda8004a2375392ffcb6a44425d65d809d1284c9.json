@@ -1,0 +1,19 @@
+{
+  "sha256": "7c07abb9325c3942c498b11adda8004a2375392ffcb6a44425d65d809d1284c9",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T07:13:41Z",
+  "prompt_sha": "1e341e982e1a35ab11bab19385006224847929ef3611cc55df3a70399df78ec8",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a demissão de um trabalhador sem justa causa após 3 anos de trabalho. A empresa pagou todas as verbas rescisórias no prazo determinado pela CLT, incluindo o saldo de salário, aviso prévio indenizado proporcional (33 dias), férias proporcionais com 1/3, 13° proporcional, FGTS + multa de 40%, e seguro-desemprego habilitado. O trabalhador assinou o recibo na presença do sindicato.\n\n**Dispositivos legais aplicáveis:**\n\n- Artigo 477 da CLT: Regulamentação das verbas rescisórias.\n- Artigo 477-A da CLT: Pagamento das verbas rescisórias no prazo de até 10 dias após a homologação do termo de rescisão do contrato de trabalho.\n- Artigo 477-B da CLT: Obrigação do empregador em pagar as verbas rescisórias dentro do prazo estabelecido, sob pena de responsabilidade civil e penal.\n\n**Interpretação no caso concreto:** \nA empresa cumpriu com os requisitos legais ao pagar todas as verbas rescisórias no prazo determinado pela CLT. O fato de o trabalhador ter assinado o recibo na presença do sindicato é um ato que confirma a aceitação das verbas pagas e da forma como elas foram calculadas, conforme prevê a legislação.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é **REJEITAR A DEMANDA**. Isso ocorre porque a empresa cumpriu com todos os requisitos legais para a rescisão do contrato de trabalho sem justa causa, incluindo o pagamento das verbas rescisórias no prazo determinado.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n- Artigo 477 da CLT: \"O empregador pagará ao empregado as verbas rescisórias dentro do prazo de até 10 dias após a homologação do termo de rescisão do contrato de trabalho.\"\n- Súmula 443/TST: \"A rescisão do contrato de trabalho sem justa causa, por parte do empregador, não implica na obrigação de pagar o aviso prévio indenizado se o empregado tiver sido pago o seu valor correspondente à respectiva remuneração.\"\n- Precedentes constitucionais: A Constituição Federal Brasileira garante a liberdade de contratar e rescindir os contratos de trabalho, desde que cumpridos os requisitos legais.",
+  "tokens_in": 319,
+  "tokens_out": 598,
+  "latency_ms": 19780,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

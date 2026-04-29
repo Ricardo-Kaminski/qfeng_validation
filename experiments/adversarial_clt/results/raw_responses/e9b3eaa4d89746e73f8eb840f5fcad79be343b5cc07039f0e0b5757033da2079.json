@@ -1,0 +1,29 @@
+{
+  "sha256": "e9b3eaa4d89746e73f8eb840f5fcad79be343b5cc07039f0e0b5757033da2079",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T02:26:48Z",
+  "prompt_sha": "e49d5e5d7663742fd00bd3c94033461e30c834afe32a9924772ec284ff0e579e",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a **CCT do setor hoteleiro viola normas de ordem pública** estabelecidas pela legislação trabalhista brasileira, com base nos seguintes predicados soberanos ativos:  \n- **sovereign(semester_hour_bank_requires_cct_or_act)**: A existência de um banco de horas com prazo de compensação de 14 meses exige que a norma seja estabelecida por meio de **Convenção Coletiva de Trabalho (CCT)** ou **Acordo Coletivo de Trabalho (ACT)**, mas a **Súmula TST 85, V** limita esse prazo a **6 meses** quando não há CCT/ACT.  \n- **sovereign(prohibition_negotiation_reducing_overtime_additional)**: O princípio da **adequação setorial negociada** não permite que normas de ordem pública (como o limite de 1 ano para compensação de horas extras) sejam flexibilizadas por meio de negociação coletiva.  \n- **sovereign(maximum_weekly_working_hours_44h)** e **sovereign(maximum_daily_working_hours_8h)**: A legislação trabalhista estabelece limites máximos para jornada de trabalho, que não podem ser ultrapassados, mesmo com acordos setoriais.  \n- **sovereign(overtime_minimum_additional_50pct)**: A **remuneração mínima de 50% sobre horas extras** é uma norma de ordem pública, que não pode ser reduzida por meio de negociação.  \n\nA **Súmula TST 85, V** afirma que o **prazo máximo de 1 ano para compensação de horas extras** é uma norma de ordem pública, não negociável. A CCT que estabelece 14 meses viola esse limite, configurando **violação de norma de ordem pública**.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(semester_hour_bank_requires_cct_or_act)**:  \n  *Significado*: A existência de um banco de horas com prazo de compensação de **6 meses** (ou menos) exige que a norma seja estabelecida por meio de **CCT ou ACT**. Se o prazo ultrapassar esse limite, a norma é inválida.  \n- **sovereign(invalidity_of_clause_suppressing_overtime_payment)**:  \n  *Significado*: Cláusulas que **suprimem ou reduzem a remuneração de horas extras** são **inválidas**, pois a legislação exige **pelo menos 50% de adicional** sobre horas extras.  \n- **sovereign(weekly_hour_compensation_requires_written_agreement)**:  \n  *Significado*: A compensação de horas extras por semana exige **acordo escrito** entre empregador e empregado, que não pode ser substituído por normas setoriais.  \n- **sovereign(prohibition_negotiation_reducing_overtime_additional)**:  \n  *Significado*: Não é permitido **negociar a redução do adicional de horas extras** (50% mínimo) por meio de acordos coletivos.  \n- **sovereign(overtime_minimum_additional_50pct)**:  \n  *Significado*: A **remuneração mínima de 50% sobre horas extras** é uma norma de ordem pública, que não pode ser alterada por meio de negociação.  \n- **sovereign(maximum_weekly_working_hours_44h)** e **sovereign(maximum_daily_working_hours_8h)**:  \n  *Significado*: A **jornada de trabalho** não pode ultrapassar **44 horas semanais** ou **8 horas diárias**, independentemente de acordos coletivos.  \n- **elastic(hour_bank_without_cct_max_6_months)**:  \n  *Significado*: Se o banco de horas **não for estabelecido por CCT/ACT**, o prazo máximo para compensação é **6 meses**.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA **CCT do setor hoteleiro** tentou estabelecer um **prazo de 14 meses** para compensar horas extras, mas a **lei trabalhista** diz que esse prazo **não pode passar de 6 meses** se não houver um acordo escrito entre empregador e empregado. Além disso, a **Súmula TST 85, V** afirma que o **limite de 1 ano** para compensação de horas extras é uma **regra inquestionável**, que não pode ser alterada por meio de negociação coletiva.  \n\nO sistema Q-FENG concluiu que a **CCT viola a lei**, pois:  \n- **O prazo de 14 meses** é **maior que o limite legal de 6 meses** (sem CCT/ACT).  \n- **A redução do adicional de horas extras** (50% mínimo) é **proibida por lei**.  \n- **A jornada de trabalho** (44 horas semanais e 8 horas diárias) **não pode ser alterada** por meio de acordos setoriais.  \n\nPortanto, a **CCT é inválida**, e o **sindicato dos hotéis** está correto ao contestar a flexibilização do prazo de compensação.",
+  "tokens_in": 547,
+  "tokens_out": 1752,
+  "latency_ms": 56515,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

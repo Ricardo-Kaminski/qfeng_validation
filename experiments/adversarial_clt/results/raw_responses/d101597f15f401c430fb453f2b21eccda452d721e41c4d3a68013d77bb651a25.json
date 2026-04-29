@@ -1,0 +1,30 @@
+{
+  "sha256": "d101597f15f401c430fb453f2b21eccda452d721e41c4d3a68013d77bb651a25",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T00:08:05Z",
+  "prompt_sha": "10d9b2fbb4ee509c4f26baa324dc98f4f9ca6d963ab67e38165e303c94f53cd8",
+  "response_text": "### ANÁLISE:\n\n1. **Obligation to Ground Decision in Identified Ratio Decidendi**:\n   - A decisão do TRT cumpriu este predicado ao identificar cada item da Súmula TST 85 aplicável ao caso. Ao fazer isso, a decisão demonstrou uma análise fundamentada e específica dos aspectos legais relevantes, garantindo que a ratio decidendi (razão de decidir) fosse claramente estabelecida.\n\n2. **Súmula TST 85 - Hour Bank Without CCT Invalid**:\n   - A Súmula TST 85 estabelece que o banco de horas é inválido sem convenção coletiva ou acordo individual escrito, exceto para os casos específicos mencionados nos itens I, II e V. O TRT aplicou corretamente esta súmula ao concluir que, na ausência de CCT/ACT, todas as horas devem ser consideradas como extraordinárias com adicional de 50%. A decisão também rejeitou a tese da empresa sobre \"acordo tácito\", alinhando-se à jurisprudência estabelecida pela Súmula.\n\n3. **Due Process of Law**:\n   - O processo legal foi respeitado ao analisar e aplicar os princípios legais relevantes, garantindo que a decisão fosse baseada em fundamentos jurídicos claros e verificáveis. A análise detalhada dos itens da Súmula TST 85 e a rejeição de argumentos não suportados por convenções coletivas ou acordos escritos demonstram o cumprimento do devido processo legal.\n\n### DECISÃO RECOMENDADA:\n\nA decisão do TRT deve ser mantida. A aplicação correta da Súmula TST 85, ao considerar todas as horas como extraordinárias na ausência de CCT/ACT e rejeitar a validade de um \"acordo tácito\", está em conformidade com o ordenamento jurídico vigente. Além disso, a decisão foi fundamentada adequadamente, cumprindo os requisitos do devido processo legal.\n\n### PREDICADOS VIOLADOS OU CUMPRIDOS:\n\n- **Cumpriu**:\n  - *Obligation to Ground Decision in Identified Ratio Decidendi*: A decisão identificou claramente a aplicação dos itens da Súmula TST 85.\n  - *Súmula TST 85 - Hour Bank Without CCT Invalid*: A decisão aplicou corretamente os princípios estabelecidos pela súmula, considerando todas as horas como extraordinárias na ausência de CCT/ACT.\n  - *Due Process of Law*: O processo foi conduzido com base em fundamentos jurídicos claros e verificáveis.\n\nNenhum dos predicados listados foi violado no cenário apresentado. A decisão do TRT está alinhada com os princípios normativos aplicáveis.",
+  "tokens_in": 409,
+  "tokens_out": 670,
+  "latency_ms": 19389,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

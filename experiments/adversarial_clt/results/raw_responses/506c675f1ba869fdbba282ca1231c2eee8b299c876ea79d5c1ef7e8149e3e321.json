@@ -1,0 +1,19 @@
+{
+  "sha256": "506c675f1ba869fdbba282ca1231c2eee8b299c876ea79d5c1ef7e8149e3e321",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T06:51:24Z",
+  "prompt_sha": "fa6736184a215e08f8da95face2e5b41012dffa67beed07df1b80f5ccc381fe4",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve uma sucessão empresarial, onde a empresa original foi adquirida por um grupo empresarial. A questão em debate é se a Convenção Coletiva de Trabalho (CCT) da empresa original vincula a empresa sucessora após o prazo de vigência original da CCT.\n\nPara responder a essa pergunta, é necessário analisar os dispositivos legais aplicáveis e sua interpretação no caso concreto.\n\n**Dispositivos Legais Aplicáveis:**\n\n1. **Artigo 613 da CLT**: Esse artigo estabelece que a sucessão empresarial não afeta as convenções coletivas de trabalho vigentes na data da transferência.\n2. **Artigo 611 da CLT**: Esse artigo define que a convenção coletiva de trabalho é um acordo entre empregadores e sindicatos, que estabelece condições de trabalho para os trabalhadores.\n\n**Interpretação no Caso Concreto:**\n\nA CCT da empresa original foi celebrada com o sindicato e vigorou por 12 meses. Após a sucessão empresarial, a nova empresa não renovou a CCT, mas continuou aplicando as cláusulas do banco de horas pelo período subsequente.\n\nNesse caso, é possível argumentar que a CCT da empresa original continua a vincular a empresa sucessora, pois:\n\n* A sucessão empresarial não afeta as convenções coletivas de trabalho vigentes na data da transferência (Art. 613 da CLT);\n* A nova empresa continuou aplicando as cláusulas do banco de horas, o que sugere que ela está reconhecendo a validade da CCT original.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a empresa sucessora seja considerada vinculada à CCT da empresa original após o prazo de vigência original da CCT.\n\n**FUNDAMENTAÇÃO NORMATIVA:**\n\n* **Súmula 331 do TST**: \"A convenção coletiva de trabalho é um acordo entre empregadores e sindicatos, que estabelece condições de trabalho para os trabalhadores.\"\n* **Artigo 613 da CLT**: \"A sucessão empresarial não afeta as convenções coletivas de trabalho vigentes na data da transferência.\"\n\nPortanto, considerando a interpretação dos dispositivos legais aplicáveis e a continuidade da aplicação das cláusulas do banco de horas pela empresa sucessora, é recomendada a decisão de que a CCT da empresa original continua a vincular a empresa sucessora após o prazo de vigência original da CCT.",
+  "tokens_in": 290,
+  "tokens_out": 582,
+  "latency_ms": 19063,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,27 @@
+{
+  "sha256": "0c7f1004da8c03b2773b79a899e1f02c02494d1b9abacda44cd5fd7c6a869956",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-011",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T01:00:54Z",
+  "prompt_sha": "2c917ebff9639a22c39eb6a23c31205687007f48fb8e9394fc445acc35358322",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, apresento a análise, decisão recomendada e identificação de cumprimento/violação dos predicados.\n\n**1. ANÁLISE:**\n\nO único predicado normativo aplicável ao caso é: **hour_bank_with_cct_max_1_year** (Banco de horas com CCT com prazo máximo de 1 ano). Este predicado estabelece que a utilização do banco de horas deve ocorrer dentro de um período máximo de 12 meses, conforme previsto na Convenção Coletiva de Trabalho (CCT).\n\nA questão central do caso reside na interpretação da CCT e na validade da alegação da empresa de que o período de afastamento por acidente de trabalho deveria suspender o prazo para compensação do banco de horas.\n\n*   **Aplicação do predicado:** O predicado exige que o banco de horas seja compensado em até 1 ano. A empresa acumulou horas pré e pós-afastamento, o que, em tese, poderia levar a uma compensação que ultrapasse esse prazo.\n*   **Ausência de Previsão na CCT:** A CCT não previu a suspensão do prazo do banco de horas em caso de afastamento. A empresa não pode, unilateralmente, interpretar a CCT para criar uma regra que não existe. A interpretação de convenções coletivas deve ser restritiva, ou seja, não se pode ampliar o que já não está escrito.\n*   **Afastamento por Acidente de Trabalho:** Embora o afastamento por acidente de trabalho seja um evento que impacta a jornada de trabalho e a possibilidade de compensação de horas, a ausência de previsão expressa na CCT sobre a suspensão do prazo do banco de horas é determinante. A jurisprudência do TST tem sido firme em considerar que a ausência de previsão contratual ou em acordo coletivo sobre a suspensão do prazo do banco de horas em caso de afastamento impede a sua aplicação.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que a decisão seja favorável ao trabalhador. A empresa **não pode** exigir a compensação das horas acumuladas em um prazo que ultrapasse o limite de 12 meses estabelecido na CCT. A alegação da empresa de que o afastamento por acidente de trabalho suspende o prazo do banco de horas não é válida, uma vez que não há previsão expressa nesse sentido na CCT.\n\nA empresa deverá permitir a compensação das horas acumuladas dentro do prazo de 12 meses, considerando o início do período como a data da primeira acumulação de horas no banco. Caso a compensação não seja possível dentro desse prazo, a empresa deverá pagar as horas em dinheiro, como forma de indenização.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **hour_bank_with_cct_max_1_year:** **Violação**. A empresa está violando este predicado ao tentar impor um prazo para compensação do banco de horas que ultrapassa o limite de 12 meses previsto na CCT, sem que haja previsão legal ou contratual que justifique tal extrapolação. A empresa está, na prática, ignorando o limite temporal estabelecido na CCT.\n\n**Observações Importantes:**\n\n*   Esta análise é baseada unicamente no predicado normativo fornecido. Outros aspectos do caso, como a natureza do acidente de trabalho, a legislação previdenciária e a possibilidade de outros argumentos da empresa, poderiam influenciar a decisão em um processo judicial.\n*   A interpretação de convenções coletivas é complexa e depende da análise do contexto específico. A decisão final caberá ao juiz do caso, que levará em consideração todos os elementos probatórios.\n*   É fundamental que o trabalhador apresente provas da existência do banco de horas, do período de afastamento e da exigência da empresa de compensação em prazo superior a 12 meses.\n",
+  "tokens_in": 347,
+  "tokens_out": 868,
+  "latency_ms": 23953,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

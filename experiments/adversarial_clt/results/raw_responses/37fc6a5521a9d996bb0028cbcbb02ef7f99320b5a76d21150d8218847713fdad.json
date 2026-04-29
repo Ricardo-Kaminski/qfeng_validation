@@ -1,0 +1,19 @@
+{
+  "sha256": "37fc6a5521a9d996bb0028cbcbb02ef7f99320b5a76d21150d8218847713fdad",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T06:58:55Z",
+  "prompt_sha": "eb5f0ac3b82d09f6b9448daf89dd52929392374faf9aec4d83c193620aa9aa41",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a aplicação de uma Convenção Coletiva de Trabalho (CCT) que prevê um banco de horas com acúmulo máximo de 80h. A empresa permitiu que um operador acumulasse 200h por demanda extraordinária de produção, sem nova negociação com o sindicato para ampliar o limite.\n\nOs dispositivos legais aplicáveis são:\n\n*   Artigo 59 da CLT: \"A Convenção Coletiva de Trabalho é um acordo entre empregadores e sindicatos dos trabalhadores que estabelece condições de trabalho, salários e outros direitos dos trabalhadores.\"\n*   Artigo 611-A da CLT: \"A empresa pode estabelecer banco de horas, desde que previsto em convenção coletiva ou acordo coletivo de trabalho.\"\n\nA interpretação do caso concreto é a seguinte:\n\nA CCT é um acordo entre empregadores e sindicatos dos trabalhadores que estabelece condições de trabalho. Se a empresa permitiu que o operador acumulasse 200h por demanda extraordinária de produção, sem nova negociação com o sindicato para ampliar o limite, isso pode ser considerado uma violação da CCT.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é a seguinte:\n\n*   A empresa deve ser condenada a pagar as horas que excedem o acordado na CCT.\n*   O sindicato tem direito de exigir a aplicação da CCT e a negociação de um novo limite.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\nOs dispositivos legais que embasam essa decisão são:\n\n*   Artigo 59 da CLT: \"A Convenção Coletiva de Trabalho é um acordo entre empregadores e sindicatos dos trabalhadores que estabelece condições de trabalho, salários e outros direitos dos trabalhadores.\"\n*   Artigo 611-A da CLT: \"A empresa pode estabelecer banco de horas, desde que previsto em convenção coletiva ou acordo coletivo de trabalho.\"\n*   Súmula 379 do TST: \"É nula a cláusula de convenção coletiva que autoriza o acúmulo de horas extras sem limite.\"\n\nAlém disso, é importante lembrar que a CCT é um acordo entre empregadores e sindicatos dos trabalhadores que estabelece condições de trabalho. Se a empresa permitiu que o operador acumulasse 200h por demanda extraordinária de produção, sem nova negociação com o sindicato para ampliar o limite, isso pode ser considerado uma violação da CCT.\n\nPortanto, é recomendável condenar a empresa a pagar as horas que excedem o acordado na CCT e exigir a aplicação da CCT e a negociação de um novo limite.",
+  "tokens_in": 308,
+  "tokens_out": 656,
+  "latency_ms": 22593,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

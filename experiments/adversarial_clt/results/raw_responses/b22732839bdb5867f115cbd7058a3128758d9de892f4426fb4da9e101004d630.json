@@ -1,0 +1,30 @@
+{
+  "sha256": "b22732839bdb5867f115cbd7058a3128758d9de892f4426fb4da9e101004d630",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T00:09:14Z",
+  "prompt_sha": "403966b1450a17b6aaa9968db2609853f7fb34f41a126c9530a8ad7a9b038bde",
+  "response_text": "1. **ANÁLISE:**\n\n   - **Obligation to ground decision in identified ratio decidendi:** Este predicado normativo exige que a decisão judicial seja fundamentada em um raciocínio jurídico claro e identificável, conhecido como \"ratio decidendi\". No cenário apresentado, a decisão em embargos de declaração enfrentou o ponto omisso mencionado (ausência de análise do LINDB Art. 20) e concluiu que não se aplica ao caso trabalhista individual, com base na jurisprudência do STJ sobre o tema. Isso indica que a decisão foi fundamentada em um raciocínio identificável e verificável, cumprindo assim este predicado normativo.\n\n   - **Due process of law:** Este princípio exige que todos os procedimentos legais sejam realizados de maneira justa, garantindo o direito das partes de serem ouvidas e de terem suas alegações consideradas. No cenário, ao identificar e enfrentar o ponto omisso apontado (ausência de análise do LINDB Art. 20), a decisão demonstrou que foi dado espaço para a consideração de argumentos adicionais e que a omissão inicial foi corretamente suprida com fundamentação adequada. Isso sugere que o princípio do devido processo legal foi respeitado.\n\n2. **DECISÃO RECOMENDADA:**\n\n   A decisão deve ser mantida, pois os predicados normativos aplicáveis foram cumpridos. A decisão em embargos de declaração supriu a omissão inicial com uma fundamentação clara e identificável, respeitando tanto a obrigação de fundamentar a decisão no \"ratio decidendi\" quanto ao princípio do devido processo legal.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Obligation to ground decision in identified ratio decidendi:** Cumprido. A decisão foi fundamentada em um raciocínio identificável e verificável, baseando-se na jurisprudência do STJ sobre o LINDB.\n\n   - **Due process of law:** Cumprido. A decisão enfrentou a omissão apontada de maneira justa, permitindo que o argumento fosse considerado e suprido com fundamentação adequada.",
+  "tokens_in": 364,
+  "tokens_out": 530,
+  "latency_ms": 15343,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

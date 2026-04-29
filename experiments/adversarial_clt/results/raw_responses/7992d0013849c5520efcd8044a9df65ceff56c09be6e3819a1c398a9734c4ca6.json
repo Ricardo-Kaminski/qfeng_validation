@@ -1,0 +1,29 @@
+{
+  "sha256": "7992d0013849c5520efcd8044a9df65ceff56c09be6e3819a1c398a9734c4ca6",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T23:50:14Z",
+  "prompt_sha": "e9b9a0f5b834d2f759bd4690a730595f761f0af48ca69ce693978c1f4c32a68d",
+  "response_text": "1. **ANÁLISE:**\n\n   - **Predicado Normativo Aplicável:** `hour_bank_with_cct_max_1_year`\n\n     Este predicado estabelece que o banco de horas, mesmo quando negociado em uma Convenção Coletiva de Trabalho (CCT), deve respeitar um prazo máximo de compensação de 12 meses. A Súmula TST 85, V, reforça essa norma ao considerar que o limite de 1 ano para a compensação do banco de horas é uma questão de ordem pública e não pode ser flexibilizado pelas partes coletivas.\n\n   - **Situação Concreta:** A CCT do setor hoteleiro estabeleceu um prazo de compensação de 14 meses, o que excede o limite máximo permitido por lei. A empresa alega autonomia das partes para negociar termos mais flexíveis, enquanto o sindicato contesta com base na norma de ordem pública.\n\n   - **Interpretação Jurídica:** De acordo com a jurisprudência do TST e a Súmula 85, V, qualquer cláusula que estenda o prazo de compensação além de um ano é considerada nula por violar uma norma de ordem pública. A autonomia das partes coletivas não pode sobrepor-se a essa limitação legal.\n\n2. **DECISÃO RECOMENDADA:**\n\n   A decisão recomendada, com base nos predicados normativos aplicáveis e na jurisprudência do TST, é que o prazo de 14 meses estabelecido pela CCT deve ser considerado inválido. O limite máximo de compensação para banco de horas deve ser de até 12 meses, conforme a legislação vigente e a Súmula TST 85, V.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violado:** `hour_bank_with_cct_max_1_year`\n\n     A CCT estabeleceu um prazo de compensação que excede o limite máximo permitido por lei (14 meses em vez dos 12 autorizados), violando a norma de ordem pública.\n\n   - **Cumpriu:** Não há predicados cumpridos no cenário, pois a tentativa da CCT de estender o prazo ultrapassou os limites legais permitidos.",
+  "tokens_in": 363,
+  "tokens_out": 527,
+  "latency_ms": 15406,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

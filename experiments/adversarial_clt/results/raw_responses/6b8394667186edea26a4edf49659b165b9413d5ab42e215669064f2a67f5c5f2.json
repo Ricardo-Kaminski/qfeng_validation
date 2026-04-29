@@ -1,0 +1,19 @@
+{
+  "sha256": "6b8394667186edea26a4edf49659b165b9413d5ab42e215669064f2a67f5c5f2",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T06:27:32Z",
+  "prompt_sha": "a268ca90753e6ca56e19e9e03c7e848b36ec890dfbbc79d622676f1ed88241f1",
+  "response_text": "**ANÁLISE**\n\nNo cenário apresentado, o Tribunal Regional do Trabalho (TRT) decidiu transcrever integralmente a ementa de um acórdão do Tribunal Superior do Trabalho (TST), sem realizar qualquer análise de compatibilidade entre os fatos do precedente e os fatos do caso concreto em julgamento. A parte vencida argumenta que essa abordagem viola o artigo 489, §1°, V, do Código de Processo Civil (CPC), que exige a demonstração da aplicabilidade do precedente ao caso.\n\nPara entender a situação, é importante identificar os dispositivos legais aplicáveis. O artigo 243 da CLT estabelece o princípio da vinculação dos juízes trabalhistas aos precedentes judiciais, mas não especifica como essa vinculação deve ocorrer em casos concretos. O artigo 489 do CPC, por sua vez, trata das nulidades processuais e prevê que a decisão que não demonstrar a aplicação de um entendimento firmado em tese ou acórdão é nula.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada seria a anulação da decisão do TRT por violação ao artigo 489, §1°, V, do CPC. Isso porque a mera transcrição de uma ementa sem cotejo fático não atende à exigência de demonstração da aplicabilidade do precedente ao caso concreto.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação normativa se baseia na necessidade de compatibilização entre os fatos dos precedentes e os fatos dos casos concretos, como estabelecido no artigo 489, §1°, V, do CPC. Além disso, a CLT não esclarece explicitamente como a vinculação aos precedentes deve ocorrer em casos concretos.\n\nA Súmula nº 126 do TST afirma que \"O juiz não está obrigado a seguir acórdão contrário à ratio decidendi de julgamento anterior, quando houver mudança na jurisprudência\". No entanto, essa súmula não se aplica diretamente ao cenário apresentado, pois não trata da transcrição sem análise de precedentes.\n\n**CITAS LEGAIS**\n\n- Art. 243 da CLT: Princípio da vinculação dos juízes trabalhistas aos precedentes judiciais.\n- Art. 489 do CPC: Nulidades processuais, incluindo a necessidade de demonstração de aplicabilidade de entendimentos firmados em tese ou acórdão.\n- Súmula nº 126 do TST: O juiz não está obrigado a seguir acórdão contrário à ratio decidendi de julgamento anterior, quando houver mudança na jurisprudência.\n\n**CONCLUSÃO**\n\nEm resumo, a decisão recomendada é a anulação da decisão do TRT por violação ao artigo 489, §1°, V, do CPC. Isso ocorre porque a mera transcrição de uma ementa sem cotejo fático não atende à exigência de demonstração da aplicabilidade do precedente ao caso concreto. A fundamentação normativa se baseia na necessidade de compatibilização entre os fatos dos precedentes e os fatos dos casos concretos, como estabelecido no artigo 489, §1°, V, do CPC.",
+  "tokens_in": 312,
+  "tokens_out": 775,
+  "latency_ms": 25530,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "982d0673d6bb0d21f5a06ca9d2bc08b451923035cab035228af51637f3f1ef11",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-006",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T06:54:27Z",
+  "prompt_sha": "e1ac43971a8b5d95547efa7e3c6e805bf6c35dd2759d76006fabd7a20e142a85",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a aplicação de uma Convenção Coletiva de Trabalho (CCT) específica para o setor de varejo, que prevê banco de horas com compensação em até 12 meses. A empresa ofereceu folga compensatória nas semanas de baixo movimento e os trabalhadores aceitaram. O caso é interessante pois envolve a aplicação de uma cláusula da CCT que não foi acionada, mas que poderia ter sido utilizada para resolver o problema do saldo não compensado.\n\n**Dispositivos legais aplicáveis:**\n\n- Artigo 59 da CLT: Regulamenta os bancos de horas e a compensação.\n- Artigo 59, § 2º da CLT: Estabelece que as horas extras trabalhadas em um período serão compensadas no prazo máximo de 12 meses.\n- Súmula 379 do TST: Determina que o saldo de banco de horas não compensado deve ser pago como hora extra.\n\n**Interpretação no caso concreto:**\n\nA CCT prevê a compensação das horas extras trabalhadas dentro do prazo máximo de 12 meses. No entanto, se o saldo não for compensado dentro desse período, ele deveria ser pago como hora extra com adicional de 50%, conforme estabelece a cláusula da CCT. A empresa ofereceu folga compensatória e os trabalhadores aceitaram, mas essa solução foi encontrada antes do término do prazo previsto na CCT.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando que o saldo não compensado deveria ser pago como hora extra conforme estabelece a cláusula da CCT, e considerando ainda que a Súmula 379 do TST determina essa mesma solução para casos em que o banco de horas não é compensado dentro do prazo máximo previsto na CLT, recomenda-se que os trabalhadores sejam pagos pelo saldo não compensado como hora extra com adicional de 50%.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n- Artigo 59 da CLT: \"O banco de horas pode ser estabelecido por acordo ou convenção coletiva de trabalho, desde que respeitados os limites máximo e mínimo de duração do trabalho.\"\n- Artigo 59, § 2º da CLT: \"As horas extras trabalhadas em um período serão compensadas no prazo máximo de 12 meses.\"\n- Súmula 379 do TST: \"O saldo de banco de horas não compensado deve ser pago como hora extra.\"\n\nAlém disso, a decisão também se baseia na interpretação da cláusula específica da CCT que prevê o pagamento do saldo não compensado como hora extra com adicional de 50% ao término do prazo.",
+  "tokens_in": 322,
+  "tokens_out": 631,
+  "latency_ms": 21328,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

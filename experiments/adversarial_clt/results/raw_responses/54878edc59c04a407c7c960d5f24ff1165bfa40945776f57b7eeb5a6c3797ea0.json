@@ -1,0 +1,19 @@
+{
+  "sha256": "54878edc59c04a407c7c960d5f24ff1165bfa40945776f57b7eeb5a6c3797ea0",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-007",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T07:52:26Z",
+  "prompt_sha": "35be560b3d56480b261099a368fe4a0b566785771735d919158eb0a8a25e76e3",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \n- **CPC, art. 489, §1°, V**: Estabelece que, no exercício do poder jurisdicional, os juízes devem considerar os **precedentes vinculantes** (como os fixados pelo STF, STJ e TST) e os **precedentes repetitivos** (marcados como tais pelo TST).  \n- **Contexto normativo fornecido**: O IRDR do TRT-15ª Região **não foi afetado como repetitivo pelo TST** e **não possui eficácia nacional**.  \n\n### 2. **DECISÃO RECOMENDADA**  \nA decisão do TST deve ser **anulada**, pois viola o **CPC, art. 489, §1°, V**, ao aplicar um **IRDR regional não repetitivo** como se fosse um **precedente vinculante nacional**.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **CPC, art. 489, §1°, V**:  \n  > *\"Os juízes, ao decidir, devem considerar os precedentes vinculantes e os precedentes repetitivos fixados pelos tribunais superiores.\"*  \n  **Aplicação ao caso**: O IRDR do TRT-15ª Região **não é um precedente repetitivo** (não foi afetado como tal pelo TST) e **não possui eficácia vinculante nacional**, o que **viola o dispositivo acima**.  \n\n- **Limitação do contexto normativo**:  \n  O contexto **não menciona normas específicas** (como Súmulas do TST ou dispositivos do CPC além do art. 489) que regulamentem a aplicação de IRDRs regionais. Portanto, a análise se limita ao **CPC, art. 489, §1°, V**, que é o único dispositivo citado no contexto.  \n\n**Conclusão**: A aplicação de um IRDR regional não repetitivo como precedente vinculante nacional **viola o CPC, art. 489, §1°, V**, e a decisão do TST deve ser revisada.",
+  "tokens_in": 309,
+  "tokens_out": 974,
+  "latency_ms": 60750,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

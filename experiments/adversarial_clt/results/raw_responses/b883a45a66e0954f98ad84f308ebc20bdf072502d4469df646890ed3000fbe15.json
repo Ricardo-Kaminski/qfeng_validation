@@ -1,0 +1,26 @@
+{
+  "sha256": "b883a45a66e0954f98ad84f308ebc20bdf072502d4469df646890ed3000fbe15",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-011",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T23:45:00Z",
+  "prompt_sha": "bc144ea0f3cb8c204e73a53f8ce3a51b3838ed6a04cd999b6329488180513107",
+  "response_text": "1. **ANÁLISE:**\n\n   - **Obligation to ground decision in identified ratio decidendi:** Este predicado normativo exige que a decisão judicial seja fundamentada na ratio decidendi, ou seja, o raciocínio jurídico central do precedente aplicado. No cenário apresentado, o tribunal aplicou um Tema de Repercussão Geral (TRG) sobre direito administrativo, relativo a servidores públicos, ao caso de um empregado celetista privado sem explicar ou demonstrar que a ratio do precedente seria aplicável ao regime trabalhista. Isso viola o princípio da obrigatoriedade de fundamentação adequada, pois não houve uma clara identificação e justificativa para a analogia entre os contextos administrativo e privado.\n\n   - **Due process of law:** Este predicado normativo abrange o direito à ampla defesa e ao contraditório, bem como a necessidade de fundamentação adequada das decisões judiciais. A aplicação inadequada do TRG sem explicar a analogia ou demonstrar sua aplicabilidade viola o princípio do devido processo legal, pois não garante que as partes tenham tido uma oportunidade justa de compreender e contestar os fundamentos da decisão.\n\n2. **DECISÃO RECOMENDADA:**\n\n   A decisão deve ser reconsiderada ou reformulada pelo tribunal. É necessário que o tribunal explique claramente a razão pela qual o Tema de Repercussão Geral sobre direito administrativo foi aplicado ao caso de um empregado celetista privado, demonstrando como a ratio decidendi do TRG é pertinente e aplicável ao contexto trabalhista. Caso não seja possível estabelecer uma analogia válida, o tribunal deve buscar fundamentos adequados dentro da legislação trabalhista vigente.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violados:**\n     - Obligation to ground decision in identified ratio decidendi: O tribunal não identificou ou explicou a aplicabilidade da ratio decidendi do TRG ao caso concreto.\n     - Due process of law: A decisão foi tomada sem uma fundamentação adequada, prejudicando o direito à ampla defesa e ao contraditório.\n\n   - **Cumpridos:** Nenhum dos predicados listados foi cumprido no cenário apresentado.",
+  "tokens_in": 339,
+  "tokens_out": 544,
+  "latency_ms": 15702,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

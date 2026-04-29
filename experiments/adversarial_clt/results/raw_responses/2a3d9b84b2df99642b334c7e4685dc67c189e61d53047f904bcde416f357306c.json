@@ -1,0 +1,19 @@
+{
+  "sha256": "2a3d9b84b2df99642b334c7e4685dc67c189e61d53047f904bcde416f357306c",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-001",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T20:26:29Z",
+  "prompt_sha": "f5275e170353578213712d821d1e842fb4a67591aa07b251afa99d260d607aad",
+  "response_text": "**ANÁLISE**\n\n1.  O contexto apresentado refere-se a uma empresa de manufatura que mantém jornada de trabalho de 8 horas diárias e 44 horas semanais para todos os empregados. Nesse cenário, não há banco de horas, trabalho noturno ou horas extras. Além disso, os intervalos intrajornada são concedidos integralmente (1 hora para jornada de 8h) e todos os registros de ponto são eletrônicos e auditáveis.\n2.  A empresa mencionou que não há reclamação trabalhista pendente.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a empresa mantenha as condições de trabalho atuais, pois elas estão em conformidade com as normas trabalhistas aplicáveis.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n1.  **Jornada de Trabalho**: De acordo com o artigo 7º da Constituição Federal do Brasil, é direito dos trabalhadores a jornada de trabalho não superior a 8 horas diárias e 44 horas semanais. Além disso, o artigo 59 da Consolidação das Leis do Trabalho (CLT) estabelece que a duração da jornada de trabalho é de 8 horas diárias e 44 horas semanais.\n2.  **Intervalos Intrajornada**: O artigo 67 da CLT determina que os intervalos intrajornada devem ser concedidos integralmente, sendo de pelo menos 1 hora para jornadas de trabalho de até 6 horas diárias e de pelo menos 15 minutos para cada 3 horas trabalhadas.\n3.  **Registros de Ponto**: O artigo 74 da CLT estabelece que os registros de ponto devem ser eletrônicos e auditáveis, garantindo a precisão e a autenticidade dos dados.\n4.  **Banco de Horas e Trabalho Noturno**: O artigo 59 da CLT não menciona o banco de horas como uma condição obrigatória para as empresas. Além disso, o trabalho noturno é regulamentado pelo artigo 73 da CLT, que estabelece que o trabalho noturno deve ser remunerado com um adicional de no mínimo 20% sobre o valor da hora normal.\n5.  **Horas Extras**: O artigo 59 da CLT não menciona as horas extras como uma condição obrigatória para as empresas.\n\n**Súmulas**\n\n*   A Súmula 379 do Tribunal Superior do Trabalho (TST) estabelece que a jornada de trabalho é de 8 horas diárias e 44 horas semanais.\n*   A Súmula 438 do TST determina que os intervalos intrajornada devem ser concedidos integralmente, sendo de pelo menos 1 hora para jornadas de trabalho de até 6 horas diárias.\n\n**Limitação**\n\nNesse contexto, não há reclamação trabalhista pendente.",
+  "tokens_in": 292,
+  "tokens_out": 679,
+  "latency_ms": 11377,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

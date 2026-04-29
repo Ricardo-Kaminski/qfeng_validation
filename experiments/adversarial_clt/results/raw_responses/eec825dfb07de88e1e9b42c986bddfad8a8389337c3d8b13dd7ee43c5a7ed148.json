@@ -1,0 +1,29 @@
+{
+  "sha256": "eec825dfb07de88e1e9b42c986bddfad8a8389337c3d8b13dd7ee43c5a7ed148",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T22:34:49Z",
+  "prompt_sha": "160b14905daf1b75240e571876e903f674ab798cba13eaa47b102ad9f8820a31",
+  "response_text": "### 1. **ANÁLISE**  \nO predicado **hour_bank_with_cct_max_1_year** estabelece que, **quando um banco de horas é estabelecido por um Acordo Coletivo de Trabalho (ACT)**, a compensação das horas extras deve ocorrer **no prazo máximo de 1 ano** (art. 227, § 1º, da CLT, combinado com jurisprudência do TST). No caso concreto:  \n- **O ACT prevê compensação em 7 meses**, que está **dentro do limite legal de 1 ano**, logo, **o banco de horas é válido**.  \n- **A rescisão do contrato de trabalho não elide o direito do trabalhador ao pagamento das horas extras pendentes**, pois o banco de horas é uma **obrigação do empregador** decorrente do ACT, independentemente da vontade do trabalhador (Súmula 361 do TST).  \n- **A empresa está violando o predicado**, ao se recusar a pagar o saldo positivo de 60h, pois **a compensação deve ser feita mesmo após a rescisão**, desde que o prazo estabelecido no ACT (7 meses) ainda não tenha se esgotado.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**O empregado deve ser condenado a receber o saldo positivo de 60h**, conforme previsto no ACT, **independentemente da rescisão do contrato**. A empresa está **obrigada a honrar a compensação das horas extras pendentes**, pois o banco de horas é uma **obrigação contratual e legal**, e a rescisão não desconstitui esse direito.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **hour_bank_with_cct_max_1_year**: **Violação**.  \n  - **Justificativa**: A empresa **não cumpriu a obrigação de pagar as horas extras pendentes** (60h) após a rescisão, **violando o direito do trabalhador** estabelecido pelo ACT e pela CLT.  \n  - **Observação**: O prazo de 7 meses previsto no ACT está **dentro do limite legal de 1 ano**, mas a **obrigação de compensação não se extingue com a rescisão**, conforme jurisprudência do TST.  \n\n---\n\n### **Conclusão**  \nA **empresa viola o predicado hour_bank_with_cct_max_1_year**, pois **não honra a compensação das horas extras pendentes** após a rescisão do contrato, **desrespeitando o direito do trabalhador** garantido pelo ACT e pela CLT. A **decisão deve ser favorável ao empregado**, com **obrigação de pagamento das 60h**.",
+  "tokens_in": 358,
+  "tokens_out": 1182,
+  "latency_ms": 36360,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

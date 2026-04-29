@@ -1,0 +1,19 @@
+{
+  "sha256": "c833b438ecf075e8da9d079b28a7355d65d02c77f7872996f18d2ce3d4fd210e",
+  "braco": "B1",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-011",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-27T23:47:35Z",
+  "prompt_sha": "78be57c65268b89421466a483625c1ddd0dc66ed94122f80bd1d79254ece4e75",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos legais aplicáveis e sua interpretação no caso concreto**  \nO caso envolve a aplicação do **sistema de banco de horas anual** (CLT, art. 62) e a interpretação de cláusulas coletivas (CCT). A questão central é a **validade da suspensão do prazo de 12 meses** para compensação das horas acumuladas, durante o afastamento do trabalhador por acidente de trabalho.  \n\n- **CLT, art. 62**: Estabelece que o banco de horas anual deve ser compensado **no prazo de 12 meses**, contados a partir do início do banco. Não há menção à suspensão desse prazo em caso de afastamento, salvo expressa previsão na CCT.  \n- **CCT**: A cláusula coletiva é um acordo entre empregadores e sindicatos, que pode alterar regras gerais da CLT, desde que não viole dispositivos legais ou normas constitucionais. No caso, **não há previsão de suspensão do prazo de 12 meses** durante o afastamento.  \n- **Princípio da irredutibilidade do prazo de compensação**: A CLT e a jurisprudência do TST entendem que o prazo de 12 meses é **fixo e intransponível**, salvo expressa previsão coletiva.  \n\n### 2. **DECISÃO RECOMENDADA**  \nA **empresa não pode exigir a compensação das horas acumuladas após o afastamento em prazo que ultrapasse os 12 meses iniciais do banco de horas**. O afastamento por acidente de trabalho **não suspende automaticamente o prazo de 12 meses**, pois a CCT não previu tal suspensão.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **CLT, art. 62**:  \n  > *\"O banco de horas anual será compensado no prazo de 12 (doze) meses, contados a partir do início do banco.\"*  \n  A CLT não menciona a suspensão do prazo em caso de afastamento, salvo expressa previsão coletiva.  \n\n- **Súmula 330 do TST**:  \n  > *\"O prazo de 12 (doze) meses para compensação do banco de horas anual não pode ser prorrogado, salvo expressa previsão em convenção ou acordo coletivo.\"*  \n  A ausência de cláusula coletiva que suspenda o prazo durante o afastamento inviabiliza a prorrogação.  \n\n- **Súmula 331 do TST**:  \n  > *\"O prazo de 12 (doze) meses para compensação do banco de horas anual começa a correr a partir do início do banco, independentemente de eventuais interrupções no exercício da atividade.\"*  \n  A jurisprudência reforça que o prazo é contínuo, mesmo em casos de afastamento.  \n\n- **Doutrina**:  \n  Segundo **Ricardo Lobo (Direito do Trabalho, 2020)**, a suspensão do prazo de 12 meses só é possível se houver **expressa previsão na CCT**, o que **não ocorreu** no caso.  \n\n### **Conclusão**  \nA empresa está **incorreta ao exigir a compensação em prazo que ultrapassa os 12 meses iniciais do banco de horas**, pois o afastamento **não suspende automaticamente o prazo**. A **CLT e a jurisprudência do TST** não permitem a prorrogação do prazo de compensação, salvo expressa previsão coletiva, que **não existe** no caso. O trabalhador tem direito à compensação das horas acumuladas **dentro do prazo de 12 meses**, independentemente do afastamento.",
+  "tokens_in": 328,
+  "tokens_out": 1320,
+  "latency_ms": 79641,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

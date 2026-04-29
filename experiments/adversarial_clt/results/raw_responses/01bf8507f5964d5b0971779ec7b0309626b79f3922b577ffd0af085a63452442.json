@@ -1,0 +1,27 @@
+{
+  "sha256": "01bf8507f5964d5b0971779ec7b0309626b79f3922b577ffd0af085a63452442",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:27:12Z",
+  "prompt_sha": "f2d41009685e11d681b7fbf5f2cf8a68b4afa572246a1b611f1126f8318965ca",
+  "response_text": "**ANÁLISE**\n\n1. **semester_hour_bank_requires_cct_or_act**: Esse predicado normativo estabelece que a empresa deve ter uma Convenção Coletiva de Trabalho (CCT) ou um Acordo Coletivo de Trabalho (ACT) para aplicar o banco de horas. No cenário apresentado, a empresa original tinha uma CCT com banco de horas de 12 meses, mas não foi renovada pela empresa sucessora.\n\n   A análise indica que a empresa sucessora não cumpriu esse predicado normativo, pois não renovou a CCT e não substituiu-a por outra convenção coletiva ou acordo coletivo. Isso significa que a empresa não tem uma base legal para aplicar o banco de horas.\n\n2. **Consequências da falta de renovação da CCT**: A falta de renovação da CCT pela empresa sucessora implica que ela não está mais vinculada às cláusulas do contrato coletivo original, incluindo as relativas ao banco de horas. No entanto, a continuidade na aplicação das cláusulas do banco de horas pelo período subsequente pode ser interpretada como uma prática consolidada da empresa, que poderia ser considerada uma convenção tácita.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando os predicados normativos e as consequências da falta de renovação da CCT, recomenda-se:\n\n- A empresa sucessora deve reconhecer a continuidade das cláusulas do banco de horas aplicadas anteriormente, considerando que a não renovação da CCT original não invalida automaticamente as práticas consolidadas.\n- No entanto, é recomendável que a empresa sucessora busque renovar ou substituir a CCT original por uma nova convenção coletiva ou acordo coletivo, para garantir uma base legal atualizada e evitar futuras disputas.\n\n**PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **semester_hour_bank_requires_cct_or_act**: Violado. A empresa sucessora não cumpriu com a necessidade de ter uma CCT ou ACT válida para aplicar o banco de horas.\n- A continuidade na aplicação das cláusulas do banco de horas pode ser considerada como uma prática consolidada da empresa, mas isso não elimina a necessidade de renovação ou substituição da CCT original por uma convenção coletiva ou acordo coletivo atualizado.",
+  "tokens_in": 335,
+  "tokens_out": 530,
+  "latency_ms": 8937,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

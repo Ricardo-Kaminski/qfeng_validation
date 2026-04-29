@@ -1,0 +1,19 @@
+{
+  "sha256": "49abd09b902149be1cb27b43a68bf70de3164919e681062557a9806b3948107e",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T02:42:25Z",
+  "prompt_sha": "5b8f75ba208096eb458c3fc1f2bdca9675e25a232157ca9f9ce6515cdd7f9fb4",
+  "response_text": "### ANÁLISE\n\n1. **Dispositivos Legais Aplicáveis**\n\n   - **CLT Art. 489, §1°, V (via remissão à integração CPC/CLT):** Este dispositivo permite que a Justiça do Trabalho aplique normas de direito material em casos omissos ou inadequados, com base na analogia e no princípio da razoabilidade. No caso concreto, ele é utilizado para justificar a aplicação de regras mais favoráveis ao empregado quando não há previsão expressa em norma coletiva.\n\n   - **Súmula TST 85, V:** Esta súmula estabelece que o banco de horas sem acordo ou convenção coletiva é nulo. A decisão se baseia nesta súmula para invalidar o banco de horas implementado sem negociação coletiva.\n\n   - **TST-Ag-RR-868-65.2021:** Este precedente trata de um caso específico onde foi reconhecida a validade do banco de horas em uma categoria bancária com CCT (Convenção Coletiva de Trabalho) que autorizava tal prática. A decisão atual distingue este caso, pois não há CCT no contexto apresentado.\n\n2. **Interpretação no Caso Concreto**\n\n   - O banco de horas foi implementado sem negociação coletiva, o que viola a Súmula TST 85, V. A ausência de uma convenção ou acordo coletivo específico para autorizar essa prática torna-a inválida.\n   \n   - O método distinguishing é aplicado corretamente ao diferenciar o caso concreto do precedente mencionado (TST-Ag-RR-868-65.2021), que tratava de uma situação com CCT específica, não presente aqui.\n\n### DECISÃO RECOMENDADA\n\nA decisão deve ser mantida, reconhecendo a invalidade do banco de horas implementado sem negociação coletiva. Isso se justifica pela aplicação correta da Súmula TST 85, V e pelo método distinguishing utilizado para diferenciar o caso concreto dos precedentes que tratam de situações com CCT.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n1. **CLT Art. 489, §1°, V (via remissão à integração CPC/CLT):** Permite a aplicação de normas mais favoráveis ao empregado em casos omissos, reforçando a invalidade do banco de horas sem CCT.\n\n2. **Súmula TST 85, V:** Estabelece que o banco de horas é nulo se não houver acordo ou convenção coletiva específica autorizando sua implementação.\n\n3. **TST-Ag-RR-868-65.2021:** Serve como precedente para distinção, mostrando a validade do banco de horas em contextos com CCT específica, o que não se aplica ao caso atual.\n\nEssa fundamentação normativa apoia a decisão de invalidar o banco de horas implementado sem negociação coletiva, respeitando os princípios da proteção ao trabalho e à dignidade do empregado.",
+  "tokens_in": 333,
+  "tokens_out": 727,
+  "latency_ms": 41750,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

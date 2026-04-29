@@ -1,0 +1,19 @@
+{
+  "sha256": "859f905a85e7858fd3f59a0204bfeba6197048e01a5a5c0c1f7ebd1f0ff72724",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T10:10:49Z",
+  "prompt_sha": "28e5ee2fe40269eaf7e270303edc3924e42a31538f7fe0bdd2f1ad02643e5cf1",
+  "response_text": "### 1. **ANÁLISE**  \nOs dispositivos normativos aplicáveis ao caso são:  \n- **CLT, art. 489, § 1º, V**: Estabelece que o banco de horas só pode ser instituído mediante acordo coletivo de trabalho (CCT), conforme remissão à integração CPC/CLT.  \n- **Súmula TST 85, V**: Fixa que a existência de banco de horas sem a celebração de CCT é ilegal, pois viola a previsão legal da CLT.  \n- **TST-Ag-RR-868-65.2021**: Precedente jurisprudencial que reconhece a invalidade de banco de horas em casos sem CCT, distinguindo-o de situações em que a CCT bancária foi celebrada.  \n\nA decisão trabalhista baseia-se no **método distinguishing**, distinguindo o caso concreto (sem CCT) do precedente (com CCT), concluindo que a ausência de negociação coletiva viola a CLT e a Súmula TST 85, V.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**A decisão deve reconhecer a invalidade do banco de horas**, pois a ausência de CCT viola expressamente a CLT, art. 489, § 1º, V, e a Súmula TST 85, V.  \n\n**Justificativa**:  \n- A CLT exige a celebração de CCT para a instituição de banco de horas (CLT, art. 489, § 1º, V).  \n- A Súmula TST 85, V reforça que a ausência de CCT torna o banco de horas ilegal.  \n- O precedente TST-Ag-RR-868-65.2021 confirma que a distinção entre casos com e sem CCT é relevante para a aplicação da norma.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **CLT, art. 489, § 1º, V**: \"O banco de horas só pode ser instituído mediante acordo coletivo de trabalho (CCT).\"  \n- **Súmula TST 85, V**: \"O banco de horas, instituído sem acordo coletivo de trabalho, é ilegal.\"  \n- **TST-Ag-RR-868-65.2021**: Precedente que reconhece a invalidade de banco de horas sem CCT, distinguindo-o de situações com CCT.  \n\n**Limitação**:  \nO contexto normativo fornecido não menciona outras normas aplicáveis ao caso, como dispositivos da Consolidação das Leis do Trabalho (CLT) ou outras súmulas do TST além das citadas. A análise é restrita aos textos fornecidos.",
+  "tokens_in": 326,
+  "tokens_out": 1039,
+  "latency_ms": 64546,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

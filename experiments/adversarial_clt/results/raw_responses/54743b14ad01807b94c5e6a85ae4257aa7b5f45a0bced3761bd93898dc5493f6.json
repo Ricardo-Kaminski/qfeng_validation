@@ -1,0 +1,26 @@
+{
+  "sha256": "54743b14ad01807b94c5e6a85ae4257aa7b5f45a0bced3761bd93898dc5493f6",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CTRL-NEG-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T01:16:07Z",
+  "prompt_sha": "d1173e4f3cba457c294de0168853e6eb5bfa237ff7c015762dd1676b67bbd842",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas\n\nCom base nos predicados normativos fornecidos e no cenário apresentado, segue a análise, decisão recomendada e identificação de cumprimento/violação dos predicados:\n\n**1. ANÁLISE DOS PREDICADOS NORMATIVOS:**\n\n*   **`semester_hour_bank_requires_cct_or_act` (Banco de horas exige CCT ou Ato):** Este predicado estabelece que a implementação de um banco de horas é legalmente viável apenas mediante acordo coletivo (CCT) ou ato normativo. No caso, a empresa implementou o banco de horas com base em um CCT, o que **atende** a este predicado. A existência do CCT é fundamental para a validade da prática.\n\n*   **`hour_bank_with_cct_max_1_year` (Banco de horas com CCT máximo de 1 ano):** Este predicado limita a validade de um banco de horas estabelecido por CCT a um período máximo de 12 meses.  Embora o cenário não especifique a data de início do CCT, a validade do banco de horas, por força deste predicado, deve ser revista a cada 12 meses.  Se o CCT tiver mais de 1 ano, a continuidade do banco de horas pode ser questionada, necessitando de renovação ou adequação.  **A conformidade depende da data de início do CCT.**\n\n*   **`recognition_of_collective_bargaining` (Reconhecimento do acordo coletivo):** Este predicado exige que o CCT seja devidamente registrado e divulgado aos trabalhadores para que seja considerado válido e eficaz. No cenário, o CCT foi registrado na SRTE e cópias foram distribuídas aos trabalhadores, demonstrando o **reconhecimento** do acordo coletivo. A ausência de contestação sindical ou individual reforça a validade do acordo.\n\n**2. DECISÃO RECOMENDADA:**\n\nConsiderando o cenário e os predicados, a decisão recomendada é a seguinte:\n\n*   **Validade do Banco de Horas:** O banco de horas implementado pela empresa é válido, em princípio, devido à existência do CCT registrado e divulgado aos trabalhadores.\n*   **Revisão Periódica:** A empresa deve verificar a data de início do CCT e, ao atingir o prazo de 12 meses, promover a sua revisão ou renovação, garantindo a continuidade legal do banco de horas.\n*   **Cumprimento das Cláusulas:** A empresa deve continuar a cumprir rigorosamente as cláusulas do CCT, incluindo a entrega mensal do extrato de horas, a compensação das horas em folgas previamente comunicadas e a conversão em adicional de 50% para o saldo não compensado.\n*   **Documentação:** Manter a documentação comprobatória do registro do CCT na SRTE, da distribuição de cópias aos trabalhadores e do controle das horas trabalhadas e compensadas.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **`semester_hour_bank_requires_cct_or_act`:** **Conformidade** - O banco de horas foi implementado com base em CCT.\n*   **`hour_bank_with_cct_max_1_year`:** **Potencial Violação** - A conformidade depende da data de início do CCT. Se o CCT tiver mais de 1 ano, há potencial violação.\n*   **`recognition_of_collective_bargaining`:** **Conformidade** - O CCT foi registrado e divulgado aos trabalhadores, sem contestação.\n\n**Observações Importantes:**\n\n*   A ausência de contestação sindical ou individual não garante a imunidade absoluta do CCT. A validade do acordo pode ser questionada em outras instâncias, como a Justiça do Trabalho.\n*   A interpretação dos CCTs é complexa e depende da análise do conjunto de cláusulas e do contexto fático.\n*   Esta análise é baseada unicamente nos predicados fornecidos e no cenário descrito. Outros aspectos legais podem ser relevantes para uma análise mais completa.\n*   A legislação trabalhista está em constante evolução, sendo importante manter-se atualizado sobre as decisões judiciais e as normas regulamentadoras.\n",
+  "tokens_in": 361,
+  "tokens_out": 945,
+  "latency_ms": 26108,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

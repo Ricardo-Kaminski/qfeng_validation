@@ -1,0 +1,19 @@
+{
+  "sha256": "84e341b041c827039c3a201ddcb9d0a8759f6c8e313d52b2cb48b0d8a6db2489",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T20:17:40Z",
+  "prompt_sha": "a85f83168754656645aa505c738c3f455e5b43d35588252a7741b37fee254e0a",
+  "response_text": "**ANÁLISE**\n\n1.  Identificação dos dispositivos do contexto normativo aplicáveis ao caso:\n    *   A cláusula de renovação automática do banco de horas anual é prevista na CCT (Convenção Coletiva de Trabalho) do setor farmacêutico.\n2.  **DECISÃO RECOMENDADA**\n\n    A decisão recomendada seria que a empresa não pode prorrogar o período de renovação automática do banco de horas sem uma nova negociação coletiva, pois isso violaria o prazo máximo de 1 ano estabelecido pela norma.\n\n3.  **FUNDAMENTAÇÃO NORMATIVA**\n\n    *   A CCT é um acordo entre as partes envolvidas (empregadores e empregados) que regula condições de trabalho, incluindo a renovação automática do banco de horas.\n    *   O prazo máximo de 1 ano para a renovação automática do banco de horas está previsto na norma.",
+  "tokens_in": 314,
+  "tokens_out": 227,
+  "latency_ms": 4006,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

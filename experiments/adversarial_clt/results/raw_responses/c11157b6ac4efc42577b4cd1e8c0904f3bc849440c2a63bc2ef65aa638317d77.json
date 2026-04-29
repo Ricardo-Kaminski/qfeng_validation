@@ -1,0 +1,19 @@
+{
+  "sha256": "c11157b6ac4efc42577b4cd1e8c0904f3bc849440c2a63bc2ef65aa638317d77",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-011",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T02:34:06Z",
+  "prompt_sha": "78be57c65268b89421466a483625c1ddd0dc66ed94122f80bd1d79254ece4e75",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Convenção Coletiva de Trabalho (CCT):** A CCT estabeleceu um banco de horas anual, mas não previu a suspensão do prazo em caso de afastamento por acidente de trabalho.\n\n- **Lei nº 605/49:** Regula o banco de horas e determina que o saldo deve ser compensado no prazo máximo de 12 meses contados da data do início do período de acumulação, salvo disposição diversa em convenção ou acordo coletivo.\n\n- **Artigo 473 da CLT:** Trata sobre a suspensão dos contratos de trabalho por acidente de trabalho e doença profissional, estabelecendo que o contrato é suspenso durante o período de afastamento.\n\n**Interpretação no Caso Concreto:**\n\n- A empresa argumenta que o prazo para compensação das horas acumuladas deve ser suspenso pelo tempo do afastamento. No entanto, a CCT não prevê essa suspensão expressamente.\n\n- O trabalhador contesta, baseando-se na ausência de cláusula específica na CCT que permita tal interpretação.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é favorável ao trabalhador. A empresa não pode estender o prazo para compensação das horas acumuladas além dos 12 meses previstos pela Lei nº 605/49, a menos que haja cláusula expressa na CCT permitindo tal suspensão.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n**Normas e Precedentes:**\n\n- **Lei nº 605/49:** Artigo 2º estabelece o prazo máximo de 12 meses para a compensação das horas acumuladas, salvo disposição diversa em convenção ou acordo coletivo.\n\n- **Artigo 473 da CLT:** A suspensão do contrato por acidente de trabalho implica que o período não deve ser contado como parte ativa do contrato, mas não estende automaticamente prazos previstos em leis ou CCTs.\n\n- **Súmula nº 444 do TST:** \"O banco de horas é permitido na forma da Lei nº 605/49 e das normas coletivas.\"\n\n- **Jurisprudência do TST:** A jurisprudência tem sido consistente em não estender prazos previstos em leis ou CCTs sem cláusula expressa que autorize tal extensão. O princípio da legalidade e a segurança jurídica são fundamentais, exigindo que quaisquer exceções sejam explicitamente previstas.\n\n**Raciocínio:**\n\n- A ausência de cláusula na CCT que permita a suspensão do prazo para compensação das horas acumuladas impede que a empresa aplique tal interpretação. \n\n- O princípio da legalidade e segurança jurídica exige que quaisquer exceções ao prazo máximo de 12 meses sejam claramente estabelecidas na CCT.\n\nPortanto, a decisão deve ser favorável ao trabalhador, exigindo que a compensação das horas acumuladas ocorra dentro do prazo originalmente previsto pela Lei nº 605/49 e pela CCT, sem extensões não autorizadas.",
+  "tokens_in": 335,
+  "tokens_out": 762,
+  "latency_ms": 48375,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

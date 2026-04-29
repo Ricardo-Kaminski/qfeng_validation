@@ -1,0 +1,30 @@
+{
+  "sha256": "0f830cf0cf0a767e493dc8f458acfea9ec650457dbd9c51cc9a51e61a74788b1",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-006",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T00:10:03Z",
+  "prompt_sha": "0350325c96e624064d77ae2514493ddca97cca71d270755c3466ec1954baa800",
+  "response_text": "1. **ANÁLISE:**\n\n   O predicado normativo aplicável ao caso é \"obligation_to_ground_decision_in_identified_ratio_decidendi\". Este princípio exige que a decisão judicial seja fundamentada na ratio decidendi corretamente identificada dos precedentes citados, ou seja, o fundamento jurídico essencial daqueles casos. No cenário apresentado, o tribunal cita o Tema 1046/STF e o TST-Ag-RR-868-65.2021 para fundamentar sua decisão sobre a validade de um banco de horas sem a existência de uma Convenção Coletiva de Trabalho (CCT). \n\n   No entanto, ao aplicar a ratio decidendi dos precedentes citados de forma invertida, o tribunal cometeu um erro. O Tema 1046/STF e o TST-Ag-RR-868-65.2021 tratam da validade das cláusulas em CCTs bancárias específicas, pressupondo a existência de uma CCT como condição para sua aplicação. A tese de valorização da autonomia negocial é relevante apenas no contexto onde há um acordo coletivo preexistente que pode ser interpretado ou ajustado.\n\n   Ao usar esses precedentes para justificar a validade do banco de horas sem qualquer CCT, o tribunal não está respeitando a ratio decidendi correta dos casos citados. O espírito do Tema 1046 e do TST-Ag-RR-868-65.2021 é aplicável apenas quando há uma CCT que possa ser interpretada ou ajustada, não para criar validade legal onde não existe um acordo coletivo.\n\n2. **DECISÃO RECOMENDADA:**\n\n   A decisão deve ser reconsiderada com base na correta identificação e aplicação da ratio decidendi dos precedentes citados. O tribunal deveria reconhecer que a validade do banco de horas, conforme os casos mencionados, depende da existência de uma CCT específica. Sem tal convenção coletiva, não há fundamento nos precedentes para validar o banco de horas apenas com base na autonomia negocial.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violado:** \"obligation_to_ground_decision_in_identified_ratio_decidendi\" – O tribunal violou este predicado ao aplicar a ratio decidendi dos precedentes de forma invertida, utilizando-os para justificar uma situação que não se enquadra nas condições estabelecidas nos casos citados.\n\n   - **Não Cumprido:** Não há predicados cumpridos no cenário apresentado, pois o tribunal falhou em aplicar corretamente a ratio decidendi dos precedentes mencionados.",
+  "tokens_in": 366,
+  "tokens_out": 610,
+  "latency_ms": 17656,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

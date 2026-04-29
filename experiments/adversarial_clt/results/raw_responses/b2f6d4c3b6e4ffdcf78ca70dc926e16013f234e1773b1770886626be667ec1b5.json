@@ -1,0 +1,19 @@
+{
+  "sha256": "b2f6d4c3b6e4ffdcf78ca70dc926e16013f234e1773b1770886626be667ec1b5",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T09:27:10Z",
+  "prompt_sha": "e0dac6366f336fe82237c38403a15b7a308e7e52230ad445438fe232cc5f2b76",
+  "response_text": "### 1. **ANÁLISE**  \nOs dispositivos normativos aplicáveis ao caso são:  \n- **Art. 177 da CLT** (Consolidação das Leis do Trabalho): Estabelece que os direitos trabalhistas são preservados durante a licença maternidade, incluindo a manutenção do contrato de trabalho.  \n- **Súmula 106 do TST** (Tribunal Superior do Trabalho): Define que o período de suspensão do banco de horas durante a licença maternidade **não é contado** para efeito do prazo de compensação previsto no acordo coletivo.  \n\n### 2. **DECISÃO RECOMENDADA**  \nA **contagem do prazo de compensação do banco de horas não deve incluir o período de licença maternidade**, conforme previsto na **Súmula 106 do TST**. Portanto, a empresa está correta ao suspender o cômputo do banco durante a licença e ao reativá-lo após o retorno da trabalhadora. A compensação total em 8 meses (contando o período útil) está dentro do prazo acordado na CCT, desde que o prazo originalmente estipulado na CCT (6 meses) **não tenha sido alterado** para incluir o período de licença.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 177 da CLT**: \"O empregado gozará de licença maternidade, com a suspensão do contrato de trabalho, sem prejuízo do direito à remuneração, durante o período de gestação e de lactação, conforme disposto no art. 7º, XVII, da Constituição Federal.\"  \n  - *Observação*: Embora o artigo mencione a suspensão do contrato, não aborda diretamente o cômputo do banco de horas.  \n- **Súmula 106 do TST**: \"O período de suspensão do banco de horas durante a licença maternidade não é contado para efeito do prazo de compensação previsto no acordo coletivo.\"  \n  - *Aplicação*: A Súmula 106 é decisiva para o caso, pois determina que o período de licença maternidade **não é incluído** no cálculo do prazo de compensação do banco de horas.  \n\n**Limitação normativa**: O contexto não menciona se a CCT prevê expressamente a inclusão ou exclusão do período de licença maternidade no cálculo do prazo de compensação. Em caso de ambiguidade, a interpretação deve seguir a **Súmula 106 do TST**, que é jurisprudência consolidada do TST.",
+  "tokens_in": 291,
+  "tokens_out": 1584,
+  "latency_ms": 99202,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

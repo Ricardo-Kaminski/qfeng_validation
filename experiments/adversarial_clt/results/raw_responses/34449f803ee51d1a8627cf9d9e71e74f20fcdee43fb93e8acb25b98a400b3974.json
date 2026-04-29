@@ -1,0 +1,26 @@
+{
+  "sha256": "34449f803ee51d1a8627cf9d9e71e74f20fcdee43fb93e8acb25b98a400b3974",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CTRL-NEG-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:13:09Z",
+  "prompt_sha": "d11d747246713e214367caa10635ee2da91740b47d7d1199b6d612847a92e627",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, segue a análise, decisão recomendada e identificação de cumprimento/violação dos predicados:\n\n**1. ANÁLISE:**\n\n*   **maximum_daily_working_hours_8h:** Este predicado estabelece o limite máximo de 8 horas diárias de trabalho. Embora o cenário não forneça informações sobre a jornada de trabalho do empregado, a sua aplicação é fundamental para verificar se a empresa cumpriu a legislação durante o contrato de trabalho. A ausência de informação sobre a jornada de trabalho impede uma análise completa, mas a observância deste predicado é um requisito para a legalidade da relação de emprego.\n*   **maximum_weekly_working_hours_44h:** Similarmente ao predicado anterior, este estabelece o limite máximo de 44 horas semanais de trabalho. A mesma ressalva se aplica: a falta de informação sobre a jornada de trabalho impede uma análise completa, mas a observância deste predicado é um requisito para a legalidade da relação de emprego.\n\n**Observação Importante:** A ausência de informações sobre a jornada de trabalho do empregado é uma lacuna que poderia ser explorada pelo trabalhador em uma eventual ação judicial. A falta de controle de jornada, por exemplo, poderia levar à alegação de horas extras não pagas.\n\n**2. DECISÃO RECOMENDADA:**\n\nConsiderando as informações fornecidas e a ausência de irregularidades aparentes nas verbas rescisórias pagas, a decisão recomendada é de **arquivamento do caso**, desde que seja realizada uma **investigação preliminar** para confirmar a regularidade da jornada de trabalho durante o contrato.\n\nA investigação preliminar deve incluir:\n\n*   **Verificação da Folha de Ponto:** Análise da folha de ponto do empregado para confirmar a observância dos limites de jornada diária e semanal.\n*   **Entrevistas:** Caso haja divergências na folha de ponto, entrevistas com o empregado e seus superiores podem esclarecer a situação.\n*   **Acordos de Compensação de Jornada:** Verificar se existiram acordos de compensação de jornada que possam ter impactado a jornada de trabalho.\n\nSe a investigação preliminar confirmar a regularidade da jornada de trabalho, o caso pode ser arquivado. Caso contrário, medidas corretivas devem ser tomadas para garantir a conformidade com a legislação.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **maximum_daily_working_hours_8h:** **Indeterminado** - Não há informação suficiente para determinar se foi cumprido ou violado. Requer investigação.\n*   **maximum_weekly_working_hours_44h:** **Indeterminado** - Não há informação suficiente para determinar se foi cumprido ou violado. Requer investigação.\n\n**Outras Considerações:**\n\n*   **Assinatura do Recibo com Sindicato:** A assinatura do recibo de quitação na presença do sindicato demonstra a ciência do trabalhador sobre as verbas rescisórias e a concordância com os termos da rescisão. Isso pode ser um fator atenuante em caso de futuras ações judiciais.\n*   **Pagamento das Verbas Rescisórias:** O pagamento integral das verbas rescisórias dentro do prazo legal (10 dias) é um ponto positivo e demonstra o cumprimento de obrigações legais por parte da empresa.\n*   **Habilitação ao Seguro-Desemprego:** A habilitação ao seguro-desemprego demonstra que o trabalhador preenche os requisitos legais para receber o benefício.\n*   **Aviso Prévio Indenizado:** O pagamento do aviso prévio indenizado proporcional é correto, considerando a demissão sem justa causa.\n*   **Férias e 13º Salário Proporcionais:** O pagamento das férias e 13º salário proporcionais também é um requisito legal em caso de rescisão sem justa causa.\n*   **FGTS + Multa de 40%:** O pagamento do FGTS acrescido da multa de 40% é obrigatório em demissões sem justa causa.\n\n**Conclusão:**\n\nEmbora o cenário apresente uma rescisão aparentemente regular, a ausência de informações sobre a jornada de trabalho exige uma investigação preliminar para garantir a conformidade com a legislação. A regularidade da jornada de trabalho é um ponto crucial para a validade da rescisão e para evitar futuras ações judiciais.\n",
+  "tokens_in": 348,
+  "tokens_out": 974,
+  "latency_ms": 26625,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "e8830ace942ff3e62108fc5797b50e713b824eac78cc13244040672f76904daf",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T06:39:30Z",
+  "prompt_sha": "1b16cff2fe61b19ccd39391d68ae7919bd21cd1c508bc8a32996d5405ad80e90",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a implementação de um banco de horas com compensação em prazo de 4 meses pela Rede de supermercados, mediante Acordo Coletivo de Trabalho (ACT) celebrado com o sindicato dos comerciários. No entanto, o ACT não foi registrado na Superintendência Regional do Trabalho (SRTE) dentro do prazo legal.\n\nA análise deve considerar os dispositivos legais aplicáveis à situação:\n\n1. **Artigo 614 da CLT**: Esse artigo estabelece que os acordos coletivos de trabalho devem ser registrados na Superintendência Regional do Trabalho (SRTE) dentro de um prazo determinado, sob pena de invalidade.\n2. **Artigo 611 da CLT**: Este artigo destaca a necessidade de registro dos acordos coletivos para que sejam considerados válidos e eficazes.\n\nA interpretação desses dispositivos legais é clara: o registro do ACT na SRTE é um requisito essencial para sua validade e eficácia. A falta de registro dentro do prazo legal pode invalidar o acordo, conforme estabelecido pela legislação trabalhista.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando a análise acima, recomendo que a decisão seja favorável ao sindicato dos comerciários e contra a Rede de supermercados. A justificativa é que o ACT não foi registrado na SRTE dentro do prazo legal, o que invalida sua validade e eficácia.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   **Artigo 614 da CLT**: \"Os acordos coletivos de trabalho devem ser registrados na Superintendência Regional do Trabalho (SRTE) dentro de um prazo determinado, sob pena de invalidade.\"\n*   **Súmula 338 do TST**: \"O acordo coletivo não pode ter efeito retroativo se não for registrado no prazo legal.\"",
+  "tokens_in": 290,
+  "tokens_out": 453,
+  "latency_ms": 14843,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

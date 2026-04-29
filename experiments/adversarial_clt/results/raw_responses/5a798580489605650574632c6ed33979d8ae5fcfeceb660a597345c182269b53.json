@@ -1,0 +1,19 @@
+{
+  "sha256": "5a798580489605650574632c6ed33979d8ae5fcfeceb660a597345c182269b53",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-010",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T12:24:15Z",
+  "prompt_sha": "546394fb36fd08b3df6e32b19b12372b52cd2212d1c83ed9d8b946faff99ba6f",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a decisão do TRT (Tribunal Regional do Trabalho) revê uma sentença de primeiro grau sobre um intervalo intrajornada reduzido. Os dispositivos normativos aplicáveis ao caso são:\n\n   - **CLT Art. 71:** Este artigo estabelece que o empregador deve conceder aos seus empregados, durante a jornada de trabalho, um descanso mínimo de uma hora para refeição e lanche.\n   \n   - **Súmula TST 437:** Esta súmula do Tribunal Superior do Trabalho (TST) afirma que o intervalo intrajornada não pode ser inferior a trinta minutos. Qualquer redução além desse limite é considerada como tempo à disposição da empresa, devendo ser remunerado como hora extra.\n   \n   - **Tema 981/STF:** Este tema do Supremo Tribunal Federal (STF) trata da validade de Convenções Coletivas de Trabalho (CCTs) que reduzem o intervalo intrajornada para menos de trinta minutos. O STF decidiu que tais cláusulas são ineficazes, pois violam a norma legal mínima estabelecida pela CLT.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é confirmar o pagamento integral do período suprimido como hora extra. Isso porque não há CCT válida autorizando a redução do intervalo intrajornada para menos de trinta minutos, conforme estabelecido pelo Tema 981/STF. Portanto, qualquer tempo além dos trinta minutos mínimo deve ser considerado como tempo à disposição da empresa e remunerado como hora extra.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **CLT Art. 71:** Estabelece a obrigatoriedade de um intervalo mínimo de uma hora para refeição, que pode ser reduzido apenas mediante acordo ou convenção coletiva, mas não inferior a trinta minutos.\n\n- **Súmula TST 437:** Confirma que qualquer redução do intervalo intrajornada abaixo de trinta minutos deve ser remunerada como hora extra.\n\n- **Tema 981/STF:** Determina que cláusulas em CCTs que reduzem o intervalo intrajornada para menos de trinta minutos são ineficazes, pois contrariam a norma legal mínima da CLT.\n\nDessa forma, sem uma CCT válida autorizando a redução do intervalo intrajornada para menos de trinta minutos, a decisão correta é o pagamento integral do período suprimido como hora extra.",
+  "tokens_in": 327,
+  "tokens_out": 602,
+  "latency_ms": 34452,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "9d9ba3b8eec4b73f8e0a87b2d374da105c2c4861c02ce6eee183915c03d78591",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-009",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T06:58:12Z",
+  "prompt_sha": "a35ace1fb188b4da5dfe0b936ce0dba31d53650766ffadff1c226ef58da85829",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a conversão de saldo de horas em dinheiro por meio de uma Convenção Coletiva de Trabalho (CCT) entre o empregador e os trabalhadores. A CCT é um acordo coletivo que estabelece condições de trabalho, incluindo a possibilidade de conversão de horas extras em folgas ou pagamento em dinheiro, com adicional de 50% sobre o valor da hora normal.\n\nOs dispositivos legais aplicáveis nesse caso são:\n\n1. **CLT - Artigo 59**: Esse artigo estabelece que as convenções coletivas de trabalho têm força de lei para os acordos entre empregadores e sindicatos ou federações de trabalhadores, abrangendo questões como jornada de trabalho, remuneração e condições de trabalho.\n2. **CLT - Artigo 611-A**: Este artigo trata sobre a compensação de horas extras, permitindo que as empresas estabeleçam planos de compensação de horas ou pagamentos em dinheiro para o saldo de horas extras trabalhadas pelos empregados.\n\nA interpretação desses dispositivos legais no caso concreto é a seguinte:\n\n- A CCT previu a possibilidade de conversão do saldo de horas em pagamento em dinheiro, com adicional de 50% sobre o valor da hora normal. Isso está em conformidade com a CLT, que permite que as convenções coletivas estabeleçam condições específicas para a compensação de horas extras.\n- A conversão ocorreu antes do término do prazo previsto na CCT (12 meses), o que não afeta a validade da opção pelo trabalhador de converter seu saldo em dinheiro.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a conversão do saldo de horas em pagamento em dinheiro seja considerada válida e que o trabalhador tenha direito ao adicional de 50% sobre o valor da hora normal, conforme previsto na CCT.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação normativa para essa decisão é baseada nos seguintes dispositivos legais:\n\n- **CLT - Artigo 59**: Esta disposição garante a força de lei das convenções coletivas, incluindo as condições sobre compensação de horas extras.\n- **CLT - Artigo 611-A**: Este artigo permite que as empresas estabeleçam planos de compensação de horas ou pagamentos em dinheiro para o saldo de horas extras trabalhadas pelos empregados.\n- **Súmula do TST (Tribunal Superior do Trabalho)**: A Súmula 438 do TST afirma que \"A convenção coletiva de trabalho tem força de lei para os acordos entre empregadores e sindicatos ou federações de trabalhadores\". Isso reforça a validade das condições estabelecidas na CCT.\n- **Precedentes Constitucionais**: Embora não citados explicitamente, a decisão é embasada no princípio da autonomia coletiva e na proteção dos direitos dos trabalhadores previstos na Constituição Federal brasileira.\n\nEm resumo, a conversão do saldo de horas em pagamento em dinheiro, com adicional de 50% sobre o valor da hora normal, é válida e deve ser reconhecida pelo empregador, conforme estabelecido na CCT e nos dispositivos legais aplicáveis.",
+  "tokens_in": 303,
+  "tokens_out": 766,
+  "latency_ms": 25218,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

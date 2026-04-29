@@ -1,0 +1,29 @@
+{
+  "sha256": "a7ed66f8d64f10fa4f1a43b61695af4333b053ea4a7ba5ba609d227b60f3c3cb",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-011",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T22:41:37Z",
+  "prompt_sha": "6fac52d3c2ea75bbed1139d969eba52baa7f8af6a911387e6e7845d9583ea12b",
+  "response_text": "### 1. **ANÁLISE**  \nO predicado normativo **semester_hour_bank_requires_cct_or_act** estabelece que o banco de horas semestral deve ser formalizado por meio de **convenção coletiva de trabalho (CCT)** ou **ato normativo coletivo**. No cenário descrito, a CCT foi firmada com a inclusão de uma cláusula que renuncia ao direito ao adicional de horas extras caso o banco de horas não fosse compensado no prazo.  \n\nA **Lei nº 12.506/2011** (que alterou a CLT) e a jurisprudência do TST (como no **Recurso de Revista nº 112.360/2015**) reforçam que **a renúncia ao direito ao adicional de horas extras é inválida**, pois viola o **art. 611-B, IX da CLT**, que determina que, **se o banco de horas não for compensado no prazo estabelecido**, o trabalhador tem direito ao adicional de horas extras.  \n\nA cláusula da CCT que exclui esse direito **não pode ser considerada válida**, pois **viola a norma jurídica absoluta** prevista no art. 611-B, IX da CLT, que **não admite renúncia** por parte do trabalhador. Mesmo que o sindicato tenha assinado a CCT, a cláusula em questão **não pode ser imposta aos trabalhadores**, pois **não há previsão legal para sua validade**.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA cláusula da CCT que renuncia ao direito ao adicional de horas extras **deve ser considerada nula**, por violação ao art. 611-B, IX da CLT. O trabalhador **mantém o direito ao adicional de horas extras** caso o banco de horas não seja compensado no prazo estabelecido. A empresa deve:  \n- **Reconhecer o direito ao adicional de horas extras** nos casos em que o banco de horas não foi compensado;  \n- **Revisar a cláusula da CCT** para conformidade com a legislação trabalhista.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **semester_hour_bank_requires_cct_or_act**: **CUMPRIDO** (a CCT foi firmada, cumprindo o requisito legal para o banco de horas semestral).  \n- **Art. 611-B, IX da CLT** (não listado como predicado, mas **violado** pela cláusula da CCT que renuncia ao adicional de horas extras).  \n\n**Observação**: O predicado **semester_hour_bank_requires_cct_or_act** foi **cumprido**, pois a CCT foi formalizada. No entanto, **a cláusula específica que renuncia ao adicional de horas extras viola a CLT**, mesmo que o predicado normativo não tenha sido explicitamente listado. A jurisprudência do TST e a legislação trabalhista são claras sobre a **inviabilidade da renúncia ao direito ao adicional de horas extras**.",
+  "tokens_in": 364,
+  "tokens_out": 1674,
+  "latency_ms": 51608,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

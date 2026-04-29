@@ -1,0 +1,19 @@
+{
+  "sha256": "49c2b199b59f1c76e92d283f0af2d6f74451b4fc04d654239cc27aeec58fc733",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-006",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T11:18:42Z",
+  "prompt_sha": "dc42950883c6a42ff604343c714a557eba3212d5e1da5d935fdc051fdc1652eb",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a decisão interlocutória da juíza do trabalho indeferiu uma prova pericial com base na suficiência dos documentos já acostados aos autos. A parte requerente argumenta que a decisão deve ser anulada por deficiência de motivação, invocando o artigo 489, §1º, I, do Código de Processo Civil (CPC).\n\nO dispositivo normativo relevante é o **Art. 489, §1º, I, do CPC**, que estabelece que as decisões interlocutórias devem conter fundamentação suficiente para demonstrar a adequada apreciação dos fatos e das razões de direito apresentadas pelas partes. A falta de motivação específica sobre quais documentos seriam considerados suficientes e qual fato probatório seria atendido pode configurar uma deficiência na fundamentação da decisão.\n\n2. **DECISÃO RECOMENDADA:**\n\nRecomenda-se que a decisão seja reconsiderada ou anulada por deficiência de motivação, conforme requerido pela parte interessada. A juíza deve explicitar quais documentos foram considerados suficientes e qual fato probatório foi atendido com esses documentos. Isso é necessário para garantir que a decisão esteja adequadamente fundamentada, conforme exigido pelo CPC.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Art. 489, §1º, I, do CPC:** Este dispositivo exige que as decisões interlocutórias sejam motivadas de forma suficiente para demonstrar a adequada apreciação dos fatos e das razões de direito apresentadas pelas partes. A falta de explicação sobre quais documentos são considerados suficientes e qual fato probatório é atendido pode ser vista como uma deficiência na motivação da decisão.\n\n- **Súmula 7 do TST (Tribunal Superior do Trabalho):** Embora não mencionada diretamente no contexto, a Súmula 7 do TST reforça que as decisões judiciais devem ser fundamentadas, especialmente quando indeferem provas. Isso complementa o entendimento de que a motivação é essencial para garantir a segurança jurídica e a transparência das decisões judiciais.\n\nPortanto, a recomendação se baseia na necessidade de conformidade com os requisitos de motivação estabelecidos pelo CPC, assegurando que a decisão judicial seja clara e justificada.",
+  "tokens_in": 287,
+  "tokens_out": 582,
+  "latency_ms": 33265,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

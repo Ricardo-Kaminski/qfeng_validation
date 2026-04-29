@@ -1,0 +1,26 @@
+{
+  "sha256": "132d2b7006448e564c25fffa1a391a3645ae0ec84b79c9e33d601e5b5a247ac1",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CTRL-NEG-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:15:18Z",
+  "prompt_sha": "d1173e4f3cba457c294de0168853e6eb5bfa237ff7c015762dd1676b67bbd842",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas\n\nCom base nos predicados normativos fornecidos e no cenário apresentado, segue a análise, decisão recomendada e identificação de cumprimento/violação dos predicados:\n\n**1. ANÁLISE DOS PREDICADOS NORMATIVOS:**\n\n*   **`semester_hour_bank_requires_cct_or_act` (Banco de horas exige CCT ou Ato Coletivo):** Este predicado estabelece que a implementação de um banco de horas é legalmente viável somente mediante acordo ou convenção coletiva de trabalho (CCT). No caso, a empresa e o sindicato celebraram uma CCT que regulamenta o banco de horas, cumprindo este predicado. A existência da CCT é fundamental para legitimar a prática.\n*   **`hour_bank_with_cct_max_1_year` (Banco de horas com CCT máximo de 1 ano):** Este predicado impõe um limite de 1 ano para a validade de um banco de horas estabelecido por CCT. Embora a CCT tenha sido registrada na SRTE e distribuída aos trabalhadores, a análise da sua vigência é crucial. Se a CCT foi firmada há mais de um ano, a sua validade para regular o banco de horas poderia ser questionada, embora a jurisprudência do TST tenha flexibilizado essa interpretação, considerando a força da negociação coletiva. Para fins de análise, assumiremos que a CCT ainda está em vigor.\n*   **`recognition_of_collective_bargaining` (Reconhecimento da negociação coletiva):** Este predicado reforça a importância do reconhecimento e respeito à negociação coletiva. A CCT, por ter sido registrada na SRTE e divulgada aos trabalhadores, demonstra o reconhecimento da negociação coletiva como forma legítima de regular as relações de trabalho. A ausência de contestação sindical ou individual reforça esse reconhecimento.\n\n**2. DECISÃO RECOMENDADA:**\n\nConsiderando o cenário apresentado e a aplicação dos predicados normativos, a decisão recomendada é de **validade do banco de horas implementado**, desde que a CCT ainda esteja em vigor e dentro do prazo máximo de 1 ano (ou, alternativamente, que a jurisprudência do TST, em caso de questionamento, reconheça a validade da CCT por força da negociação coletiva).\n\nA empresa deve continuar a seguir rigorosamente os termos da CCT, incluindo:\n\n*   A entrega mensal do extrato do banco de horas aos trabalhadores.\n*   A compensação das horas em folgas previamente comunicadas.\n*   A conversão do saldo não compensado em adicional de 50%, caso essa situação ocorra no futuro.\n\nÉ recomendável que a empresa mantenha registros detalhados da CCT, da sua distribuição aos trabalhadores e do controle do banco de horas, para fins de comprovação em caso de eventuais questionamentos.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **`semester_hour_bank_requires_cct_or_act`:** **Conformidade**. A existência da CCT atende ao requisito.\n*   **`hour_bank_with_cct_max_1_year`:** **Conformidade (com ressalvas)**. A validade depende da vigência da CCT. É crucial verificar se a CCT está dentro do prazo de 1 ano. Caso contrário, a conformidade é questionável e pode gerar litígios.\n*   **`recognition_of_collective_bargaining`:** **Conformidade**. A CCT registrada e divulgada demonstra o reconhecimento da negociação coletiva. A ausência de contestação reforça a conformidade.\n\n**Observações Importantes:**\n\n*   A ausência de contestação sindical ou individual não garante a imunidade absoluta da empresa. A validade da CCT e do banco de horas pode ser questionada judicialmente, especialmente se houver alegações de que os termos da CCT foram aplicados de forma abusiva ou que os direitos dos trabalhadores foram violados.\n*   A jurisprudência do TST tem evoluído no sentido de dar maior liberdade à negociação coletiva, mas a interpretação dos acordos e convenções coletivas deve ser sempre feita com cautela, levando em consideração as particularidades de cada caso.\n*   É fundamental que a empresa mantenha um diálogo aberto com os trabalhadores e com o sindicato, a fim de garantir a transparência e a justiça na aplicação do banco de horas.\n*   A análise aqui apresentada é baseada unicamente nos predicados normativos fornecidos e no cenário descrito. Outros fatores, como a legislação infraconstitucional e a jurisprudência aplicável, podem influenciar a decisão final.\n",
+  "tokens_in": 361,
+  "tokens_out": 1041,
+  "latency_ms": 28750,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

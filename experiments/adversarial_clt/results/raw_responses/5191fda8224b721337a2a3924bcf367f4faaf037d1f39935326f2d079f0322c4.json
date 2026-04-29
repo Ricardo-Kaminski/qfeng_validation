@@ -1,0 +1,19 @@
+{
+  "sha256": "5191fda8224b721337a2a3924bcf367f4faaf037d1f39935326f2d079f0322c4",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-011",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T20:17:09Z",
+  "prompt_sha": "698446c093424052480aba5e941ff4b9c31d5df4e2fc44eccfe87ad07ed045e8",
+  "response_text": "**ANÁLISE**\n\nOs dispositivos do contexto normativo aplicáveis ao caso são:\n\n*   CLT (Consolidação das Leis do Trabalho) Art. 611-B, IX.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a cláusula de renúncia ao adicional de horas extras seja considerada inválida, por violação ao CLT Art. 611-B, IX.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\nO dispositivo aplicável ao caso é o CLT Art. 611-B, IX, que estabelece regras específicas para a compensação de horas extras e o adicional de horas extras. A cláusula em questão, que exige que os trabalhadores abram mão do direito ao adicional caso o banco de horas não seja compensado no prazo, viola esse dispositivo.\n\nO CLT Art. 611-B, IX estabelece que a compensação de horas extras deve ser feita dentro do período máximo de 12 meses e que os empregados têm direito ao adicional de horas extras se o banco de horas não for compensado no prazo. Portanto, a cláusula em questão é inválida por violar essa regra.\n\nNão há súmulas específicas do contexto acima, pois o caso é baseado apenas na análise da CLT Art. 611-B, IX.",
+  "tokens_in": 310,
+  "tokens_out": 312,
+  "latency_ms": 5289,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

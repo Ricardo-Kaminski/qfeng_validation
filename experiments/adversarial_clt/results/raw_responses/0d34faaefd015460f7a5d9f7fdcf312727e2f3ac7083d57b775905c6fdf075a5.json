@@ -1,0 +1,19 @@
+{
+  "sha256": "0d34faaefd015460f7a5d9f7fdcf312727e2f3ac7083d57b775905c6fdf075a5",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T20:14:40Z",
+  "prompt_sha": "fe5ea1e90bce3809f6b9e66296de41abc23c26c20d8a019c18931364e6d77260",
+  "response_text": "**ANÁLISE**\n\nO caso em questão envolve a interpretação de um acordo coletivo (CCT) que estabelece um banco de horas com prazo de compensação de 14 meses no setor hoteleiro, e questiona se essa flexibilização do limite de 1 ano previsto na lei é válida. A análise deve considerar a relação entre as normas coletivas (CCT) e as normas legais.\n\n**DISPOSITIVOS DO CONTEXTO NORMATIVO APLICÁVEIS**\n\n*   **Súmula TST 85, V**: Essa súmula é crucial para entender se o limite de 1 ano é considerado uma norma de ordem pública. A Súmula TST 85, V estabelece que \"A cláusula de banco de horas não pode exceder a um ano\". Isso sugere que o prazo de 1 ano é visto como um limite mínimo e não flexível.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando a Súmula TST 85, V, que estabelece o limite máximo de 1 ano para cláusulas de banco de horas, a decisão recomendada seria:\n\n-   **Rejeição da flexibilização proposta pela empresa hoteleira**: A CCT não pode flexibilizar o limite de 1 ano previsto na lei, pois este é considerado uma norma de ordem pública.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação para essa decisão está diretamente relacionada à Súmula TST 85, V. Essa súmula estabelece um limite máximo de 1 ano para as cláusulas de banco de horas, o que significa que qualquer tentativa de flexibilizar esse prazo é inconstitucional.\n\n**CONCLUSÃO**\n\nA decisão deve ser baseada exclusivamente na interpretação da Súmula TST 85, V. Essa súmula estabelece um limite mínimo para as cláusulas de banco de horas e não permite flexibilização desse prazo.",
+  "tokens_in": 307,
+  "tokens_out": 470,
+  "latency_ms": 7863,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

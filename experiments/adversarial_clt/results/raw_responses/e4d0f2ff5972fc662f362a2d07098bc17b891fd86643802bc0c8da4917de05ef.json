@@ -1,0 +1,27 @@
+{
+  "sha256": "e4d0f2ff5972fc662f362a2d07098bc17b891fd86643802bc0c8da4917de05ef",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T00:50:10Z",
+  "prompt_sha": "14b6f55520b996d23d5c895d459de69f73ca99dfa99a77933f3f5ac637db2f97",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas no Setor Farmacêutico\n\nCom base nos predicados normativos fornecidos e no cenário apresentado, a análise, decisão recomendada e identificação de cumprimento/violação de predicados são as seguintes:\n\n**1. ANÁLISE:**\n\n*   **hour_bank_with_cct_max_1_year:** Este predicado estabelece que o banco de horas deve estar previsto em um acordo ou convenção coletiva (CCT) e que o prazo máximo para a validade do banco de horas é de 1 ano. A CCT do setor farmacêutico, de fato, prevê o banco de horas anual e renovável automaticamente. No entanto, a questão central é se a extensão unilateral por 3 meses, sem nova negociação coletiva, respeita o limite de 1 ano estabelecido no predicado. A empresa argumenta que a renovação automática da CCT cobre o período adicional, enquanto o sindicato alega o contrário. A interpretação do que constitui \"renovação automática\" e se ela abrange a extensão do prazo é crucial.\n\n**2. DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que a prorrogação do banco de horas por mais 3 meses, sem nova negociação coletiva, **não é válida**.\n\n**Fundamentação:** Embora a CCT preveja a renovação automática, essa renovação deve se manter dentro dos parâmetros estabelecidos na própria CCT. A extensão unilateral do prazo, ultrapassando o período de 1 ano (inicialmente previsto e renovado), configura uma alteração nas condições de trabalho que exige nova negociação coletiva. A jurisprudência do TST tem sido consistente em proteger a autonomia da negociação coletiva e evitar interpretações que permitam alterações unilaterais nas condições de trabalho, mesmo que baseadas em cláusulas de renovação automática. A interpretação da empresa abre um precedente perigoso, permitindo a extensão indefinida do banco de horas sem a participação do sindicato, o que violaria o princípio da proteção ao trabalhador.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **hour_bank_with_cct_max_1_year:** **Violação**. A empresa, ao estender o prazo do banco de horas por 3 meses sem nova negociação coletiva, extrapolou o limite máximo de 1 ano estabelecido no predicado, mesmo que a CCT preveja renovação automática. A renovação automática não pode ser interpretada como uma autorização para ignorar o limite temporal.\n\n**Observações Adicionais:**\n\n*   É importante analisar a redação exata da cláusula de renovação automática da CCT para determinar o alcance da renovação.\n*   A empresa poderia buscar uma negociação com o sindicato para formalizar a extensão do prazo do banco de horas, garantindo a legalidade da medida.\n*   A decisão final caberá à Justiça do Trabalho, que avaliará as provas e argumentos apresentados pelas partes.\n*   A jurisprudência do TST é fundamental para orientar a interpretação da CCT e a aplicação do predicado normativo.",
+  "tokens_in": 334,
+  "tokens_out": 690,
+  "latency_ms": 19047,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

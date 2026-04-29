@@ -1,0 +1,19 @@
+{
+  "sha256": "dd08b0597d6b26d66d762ccd15478b04d2969b4d3ffe55805057e5b14884a76c",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-010",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T12:05:38Z",
+  "prompt_sha": "0dd8d39ebf3dc95dfafbbdd315c02d2658b6693ca7bbe189d0219bde8729d8fc",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a Convenção Coletiva de Trabalho (CCT) previa um banco de horas com acúmulo máximo de 80 horas. A empresa permitiu que um operador acumulasse 200 horas sem negociar uma alteração desse limite com o sindicato. O debate central é se a extrapolação do limite estabelecido na CCT invalida as horas excedentes no banco de horas.\n\nOs dispositivos normativos relevantes nesse contexto incluem:\n\n- **Artigo 611-A da CLT (Consolidação das Leis do Trabalho):** Este artigo regula o banco de horas, permitindo que seja estabelecido por acordo ou convenção coletiva. O limite máximo de horas acumuláveis é fixado em até 200 horas, mas pode ser reduzido por meio de negociação coletiva.\n\n- **Artigo 6º da CLT:** Este artigo estipula que as normas mais favoráveis ao trabalhador prevalecem sobre outras. Se a CCT estabelece um limite inferior ao máximo permitido pela lei, esse limite deve ser respeitado.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que o acúmulo de 200 horas seja considerado inválido para as 120 horas excedentes do limite estabelecido na CCT (80 horas). A empresa não pode unilateralmente alterar os termos da CCT sem nova negociação com o sindicato. Portanto, apenas as primeiras 80 horas acumuladas estarão válidas no banco de horas.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Artigo 611-A da CLT:** Regula a possibilidade do banco de horas e estabelece que o limite máximo é de até 200 horas, mas pode ser reduzido por meio de negociação coletiva. No caso em questão, a CCT fixou um limite de 80 horas.\n\n- **Artigo 6º da CLT:** Estipula que as normas mais favoráveis ao trabalhador prevalecem sobre outras. Como a CCT estabeleceu um limite inferior ao máximo permitido pela lei (200 horas), esse limite deve ser respeitado até que seja alterado por meio de negociação coletiva.\n\nPortanto, sem nova negociação com o sindicato para ampliar o limite do banco de horas, a empresa não pode permitir um acúmulo superior ao estabelecido na CCT. As 120 horas excedentes devem ser consideradas inválidas no contexto do banco de horas.",
+  "tokens_in": 300,
+  "tokens_out": 584,
+  "latency_ms": 33422,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

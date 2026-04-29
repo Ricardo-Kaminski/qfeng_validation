@@ -1,0 +1,30 @@
+{
+  "sha256": "20c66f06dc852b7dad83d44f624bc70ae3a7a9aa18deeb74f41741d4ef16c19f",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T00:05:21Z",
+  "prompt_sha": "0d6d211e2ba94d6b5ad507e54fb6e6c5213e18e400fd08657c709dda55070d6d",
+  "response_text": "1. **ANÁLISE:**\n\n   - **obligation_to_ground_decision_in_identified_ratio_decidendi**: Este predicado normativo exige que a decisão judicial seja fundamentada em um ratio decidendi identificado, ou seja, o raciocínio jurídico central da decisão de uma instância superior. No caso concreto, o acórdão do TST cumpre essa obrigação ao citar expressamente o ARE 1.121.633 (Tema 1046/STF) e identificar a tese fixada pelo STF sobre a constitucionalidade dos acordos que estabelecem compensações baseadas no princípio da adequação setorial negociada. Ao analisar se a CCT bancária em questão preenche os requisitos do Tema 1046, o TST demonstra que sua decisão está fundamentada em um ratio decidendi identificado e aplicável.\n\n   - **stf_tema1046_binding_precedent_applied**: Este predicado normativo refere-se à aplicação de precedentes vinculantes estabelecidos pelo STF. O Tema 1046 do STF é considerado um precedente vinculante, que trata da constitucionalidade dos acordos e convenções coletivas que estipulam vantagens ou supressões de direitos com base na compensação estabelecida pelo princípio da adequação setorial negociada. No caso concreto, o TST aplica corretamente este precedente ao analisar a CCT bancária e concluir pela sua validade em relação ao banco de horas, demonstrando conformidade com o predicado normativo.\n\n   - **due_process_of_law**: Este predicado normativo abrange os princípios do devido processo legal, que incluem garantias processuais como a fundamentação adequada das decisões judiciais e o respeito aos precedentes vinculantes. No caso concreto, ao citar expressamente o Tema 1046/STF e analisar se a CCT bancária atende aos requisitos estabelecidos pelo STF, o TST cumpre com os princípios do devido processo legal, garantindo que a decisão seja fundamentada e respeite as orientações jurisprudenciais superiores.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base nos predicados normativos aplicáveis ao caso, recomenda-se que a decisão do TST seja mantida. A análise demonstra que o acórdão cumpre com os requisitos de fundamentação adequada e respeito aos precedentes vinculantes estabelecidos pelo STF, conforme exigido pelos predicados normativos.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Cumpriu**:\n     - obligation_to_ground_decision_in_identified_ratio_decidendi\n     - stf_tema1046_binding_precedent_applied\n     - due_process_of_law\n\n   No cenário apresentado, todos os predicados normativos foram cumpridos, indicando que a decisão do TST está em conformidade com as obrigações e precedentes estabelecidos.",
+  "tokens_in": 418,
+  "tokens_out": 702,
+  "latency_ms": 20312,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

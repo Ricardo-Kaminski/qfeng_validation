@@ -1,0 +1,26 @@
+{
+  "sha256": "c23130b9cbadff858300899269288060dd60140bc654fb9f86d027b862ad85e7",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CTRL-NEG-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T01:13:28Z",
+  "prompt_sha": "d11d747246713e214367caa10635ee2da91740b47d7d1199b6d612847a92e627",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso\n\nCom base nos predicados normativos fornecidos e no cenário apresentado, segue a análise, decisão recomendada e identificação de cumprimento/violação dos predicados:\n\n**1. ANÁLISE:**\n\n*   **maximum_daily_working_hours_8h:** Este predicado estabelece o limite máximo de 8 horas diárias de trabalho. Embora o cenário não forneça informações sobre a jornada de trabalho do empregado, a sua aplicação é fundamental para garantir a legalidade da relação de emprego durante os 3 anos de trabalho. A ausência de informações sobre a jornada de trabalho impede uma análise completa, mas a presunção é que a empresa cumpriu este limite, sob pena de reclamação trabalhista futura.\n*   **maximum_weekly_working_hours_44h:** Similarmente ao predicado anterior, este estabelece o limite máximo de 44 horas semanais. A ausência de informações sobre a jornada de trabalho impede uma análise completa, mas a presunção é que a empresa cumpriu este limite, sob pena de reclamação trabalhista futura.\n\n**2. DECISÃO RECOMENDADA:**\n\nConsiderando que o cenário descreve o pagamento integral e no prazo das verbas rescisórias, a habilitação para o seguro-desemprego e a assinatura do recibo com a presença do sindicato, a decisão recomendada é de **deferimento da rescisão contratual**.  A empresa parece ter cumprido as obrigações legais e sindicais decorrentes da demissão sem justa causa.\n\n**Observações Importantes:**\n\n*   **Ausência de Informações sobre Jornada:** A análise é limitada pela falta de informações sobre a jornada de trabalho do empregado. É crucial verificar se a jornada cumprida estava dentro dos limites legais (8 horas diárias e 44 horas semanais) e se havia controle de ponto. Caso a jornada fosse superior aos limites, a empresa estaria sujeita a reclamações trabalhistas por horas extras não pagas.\n*   **Possíveis Reclamações Futuras:** Mesmo com o pagamento das verbas rescisórias, o trabalhador pode intentar uma ação judicial alegando outros direitos (ex: assédio moral, discriminação, condições de trabalho inadequadas). A assinatura do recibo não impede a propositura de ações judiciais, embora possa ser utilizada como prova de quitação parcial.\n*   **Análise da Demissão:** A decisão recomendada foca na parte rescisória. A legalidade da própria demissão (sem justa causa) não é analisada aqui, pois não há informações sobre o motivo da demissão.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **maximum_daily_working_hours_8h:** Conformidade (presunção, falta de informações para confirmar).\n*   **maximum_weekly_working_hours_44h:** Conformidade (presunção, falta de informações para confirmar).\n\n**Disclaimer:** Esta análise é baseada unicamente nas informações fornecidas e nos predicados normativos listados. Uma análise completa exigiria a avaliação de todos os documentos da rescisão contratual, a verificação da jornada de trabalho e a consideração de outros fatores relevantes.\n",
+  "tokens_in": 348,
+  "tokens_out": 696,
+  "latency_ms": 19250,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

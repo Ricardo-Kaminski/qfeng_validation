@@ -1,0 +1,26 @@
+{
+  "sha256": "87c5653d8ecd4a5fbfced188dd766ffc6c1cbcff7e46190620eb8664cbe9be52",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-013",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T22:17:03Z",
+  "prompt_sha": "e0d30695ad77e6fa82d74d87ad55c89df45927ed896fab63810d42a3383b74c7",
+  "response_text": "### 1. **ANÁLISE: Aplicação dos predicados normativos ao caso concreto**  \n- **obligation_to_ground_decision_in_identified_ratio_decidendi**  \n  O acórdão do TST cumpre esse predicado, pois **identifica claramente a *ratio decidendi* do julgado citado (validade de banco de horas em CCT do setor bancário sob o Tema 1046/STF)**, analisa a distinção fática entre o caso concreto (setor aéreo) e o julgado (setor bancário), e fundamenta sua conclusão com base na **CF/88, Art. 7°, XIII e XIV**. A fundamentação é **explícita, verificável e vinculada ao *ratio* identificado**, mesmo que a conclusão seja de inaplicabilidade.  \n\n- **due_process_of_law**  \n  O acórdão cumpre esse predicado, pois **respeita o devido processo legal**, garantindo:  \n  - **Análise completa** das diferenças fáticas entre os setores (bancário vs. aéreo);  \n  - **Fundamentação clara** com base em dispositivos constitucionais (CF/88, Art. 7°, XIII e XIV);  \n  - **Transparência** na aplicação do *ratio* do julgado citado, sem omitir ou distorcer a análise.  \n\n- **stf_tema1046_binding_precedent_applied**  \n  O acórdão **aplica o precedente vinculante do Tema 1046/STF**, mesmo que **não o adote como *ratio* para o caso concreto**. O TST **utiliza o Tema 1046 como referência** para comparar a situação do setor aéreo, reconhecendo sua validade no setor bancário, mas **distingue faticamente** a aplicação ao setor aéreo. Isso **respeita a vinculação ao precedente**, ao mesmo tempo que **reconhece a necessidade de distinção** entre setores regulamentados.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **decisão do TST deve ser mantida**, pois:  \n- **Cumpre todos os predicados normativos** (obrigação de fundamentação, devido processo legal e aplicação do Tema 1046/STF);  \n- **Respeita a distinção fática** entre setores regulamentados (bancário vs. aéreo), fundamentada na CF/88, Art. 7°, XIII e XIV;  \n- **Não viola a vinculação ao precedente** do Tema 1046/STF, ao utilizá-lo como referência para análise, mesmo que conclua sua inaplicabilidade ao caso concreto.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: **Cumprido**.  \n  - O acórdão fundamenta-se claramente no *ratio* do julgado citado (TST-Ag-RR-868-65.2021.5.13.0030) e analisa sua inaplicabilidade ao caso concreto.  \n\n- **due_process_of_law**: **Cumprido**.  \n  - O julgamento foi realizado com transparência, análise fática e fundamentação constitucional.  \n\n- **stf_tema1046_binding_precedent_applied**: **Cumprido**.  \n  - O TST aplica o precedente vinculante do Tema 1046/STF como referência, mesmo que conclua sua inaplicabilidade ao setor aéreo.  \n\n**Nenhum predicado foi violado**. A decisão do TST está **em conformidade com os requisitos normativos** estabelecidos.",
+  "tokens_in": 453,
+  "tokens_out": 1877,
+  "latency_ms": 57610,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

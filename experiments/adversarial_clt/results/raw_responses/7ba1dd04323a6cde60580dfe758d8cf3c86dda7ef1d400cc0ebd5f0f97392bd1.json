@@ -1,0 +1,19 @@
+{
+  "sha256": "7ba1dd04323a6cde60580dfe758d8cf3c86dda7ef1d400cc0ebd5f0f97392bd1",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-006",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T07:07:32Z",
+  "prompt_sha": "f4920283beb1853668bb4251074fa4825bbe27b93c35dcf2e68fe50e755832b2",
+  "response_text": "**ANÁLISE**\n\nNo cenário apresentado, o tribunal aplicou a ratio do precedente de forma invertida, utilizando a tese de validade de CCT bancária para justificar a validade de banco de horas sem qualquer CCT. No entanto, é importante lembrar que o precedente em questão (Tema 1046/STF e TST-Ag-RR-868-65.2021) pressupõe a existência de uma Convenção Coletiva de Trabalho (CCT) específica para a atividade bancária.\n\nA análise do caso deve considerar os dispositivos legais aplicáveis, especialmente o artigo 611-A da CLT, que trata sobre a compensação de jornada. Além disso, é fundamental entender a relação entre a autonomia negocial e a existência de CCT para justificar a validade de banco de horas.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada deve ser a invalidação da aplicação do banco de horas sem qualquer CCT, pois essa prática não está respaldada pela existência de uma convenção coletiva específica. A autonomia negocial é importante, mas não pode ser utilizada para justificar a violação das normas trabalhistas.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\nPara embasar essa decisão, devem ser citados os seguintes dispositivos legais e precedentes:\n\n1. **Artigo 611-A da CLT**: Especifica as regras para compensação de jornada, incluindo a necessidade de uma convenção coletiva específica.\n2. **Tema 1046/STF**: Embora citado corretamente, seu conteúdo deve ser interpretado de forma que pressupõe a existência de CCT específica para justificar a prática em questão.\n3. **Súmula 379 do TST**: \"A compensação de jornada é facultativa, desde que haja acordo ou convenção coletiva sobre o assunto.\"\n4. **Precedente TST-Ag-RR-868-65.2021**: Embora citado como precedente aplicável, sua ratio decidendi deve ser interpretada de forma a não justificar a prática em questão sem a existência de CCT específica.\n\nA decisão recomendada é que o tribunal reconheça a necessidade de uma convenção coletiva específica para justificar a prática de banco de horas e, consequentemente, invalidar sua aplicação sem essa base legal.",
+  "tokens_in": 317,
+  "tokens_out": 547,
+  "latency_ms": 17985,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

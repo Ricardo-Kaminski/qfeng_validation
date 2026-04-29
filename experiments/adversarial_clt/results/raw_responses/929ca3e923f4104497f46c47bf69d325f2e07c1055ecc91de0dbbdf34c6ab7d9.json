@@ -1,0 +1,19 @@
+{
+  "sha256": "929ca3e923f4104497f46c47bf69d325f2e07c1055ecc91de0dbbdf34c6ab7d9",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T12:42:07Z",
+  "prompt_sha": "0fa7a0f28f59a9fa10b66549d620533d50b13739f11a99646341103e54f0bad2",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso\n\nConsiderando o cenário apresentado e o contexto normativo fornecido, a análise, decisão recomendada e fundamentação são as seguintes:\n\n**1. ANÁLISE: Dispositivos do Contexto Normativo Aplicáveis**\n\nO único dispositivo normativo explicitamente mencionado no contexto é o **Artigo 489, §1°, VI do Código de Processo Civil (CPC)**.  Este artigo trata da fundamentação das decisões judiciais e é o ponto central da alegação do empregado.\n\nNão há outros dispositivos normativos (leis, instruções normativas, acordos, etc.) presentes no contexto que possam ser diretamente aplicados à análise da legalidade da justa causa ou do uso de comunicações eletrônicas no ambiente de trabalho. A referência à \"orientação jurisprudencial consolidada do TST\" é genérica e não traz à tona nenhum dispositivo específico.\n\n**2. DECISÃO RECOMENDADA**\n\nRecomenda-se o **provimento do recurso do empregado**, determinando o retorno do caso ao Tribunal Regional do Trabalho (TRT) para nova análise.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação da decisão recomendada reside exclusivamente no **Artigo 489, §1°, VI do CPC**, que estabelece:\n\n*\"Art. 489. § 1º A decisão de mérito deverá ser fundamentada, sempre que possível, com base na legislação, nos tratados e nos ordenamentos jurídicos estrangeiros aplicáveis, ou em jurisprudência dos tribunais superiores.\"*\n\n*   *\"VI - indicar expressamente os motivos que levaram à decisão, expondo os fatos relevantes para a solução da controvérsia.\"*\n\nNo caso em tela, o acórdão do TRT-2ª Região, ao manter a justa causa aplicada ao bancário, fundamentou sua decisão com base em uma suposta \"orientação jurisprudencial consolidada do TST\" sem especificar qual OJ, Súmula ou acórdão específico do TST embasaria essa conclusão.  A simples afirmação de que a \"jurisprudência é pacífica nesse sentido\" não atende ao requisito do §1°, VI do CPC, que exige a **expressa indicação dos motivos** que levaram à decisão.\n\nA ausência de fundamentação adequada, conforme o Artigo 489, §1°, VI do CPC, é uma falha processual que pode levar à anulação da decisão. O empregado tem o direito de saber quais foram os fundamentos específicos que levaram o TRT a manter a justa causa, permitindo que ele possa efetivamente exercer seu direito de recorrer.\n\n**Limitação do Contexto Normativo:**\n\nÉ crucial ressaltar que a análise é limitada ao contexto normativo fornecido. A ausência de informações sobre a legislação trabalhista aplicável ao caso (como a que trata de faltas disciplinares e justa causa) e a falta de detalhes sobre a conduta do bancário impedem uma análise mais aprofundada da legalidade da justa causa em si. A análise se restringe à questão da fundamentação da decisão judicial, conforme o Artigo 489, §1°, VI do CPC.\n",
+  "tokens_in": 282,
+  "tokens_out": 692,
+  "latency_ms": 36984,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

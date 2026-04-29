@@ -1,0 +1,30 @@
+{
+  "sha256": "7a677f53c5311e87c2f0becd8ccd61316121e19595dfbec486b98fd2ee0f69e6",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T23:21:23Z",
+  "prompt_sha": "bbd354def3962e7704377db628ebe8de6136e5b7bf76b2f7dfdbf1e221c99015",
+  "response_text": "### 1. **ANÁLISE: Aplicação dos predicados normativos ao caso concreto**  \n- **obligation_to_ground_decision_in_identified_ratio_decidendi**:  \n  O acórdão do TRT cumpriu esse predicado ao fundamentar sua decisão com base em normas específicas (CLT Art. 71, Súmula TST 437 e Tema 981/STF), explicitando a **ratio decidendi** (razão da decisão). A análise do caso foi conduzida com transparência, demonstrando que a ausência de CCT válida inviabiliza a redução do intervalo intrajornada, conforme preceituado pelo STF.  \n\n- **stf_tema981_interval_reduction_by_cct**:  \n  O predicado foi aplicado corretamente, pois o TRT utilizou o **Tema 981/STF** para determinar que a redução do intervalo intrajornada para 30 minutos **só é válida se autorizada por CCT**. Como o caso não apresentava CCT válida, a redução foi considerada ilegal, e o empregado teve direito ao pagamento integral do período suprimido como hora extra.  \n\n- **due_process_of_law**:  \n  O direito à ampla defesa e à contraditória foi respeitado, pois o TRT analisou **todos os elementos do caso**, incluindo a ausência de CCT, antes de concluir pela aplicação da CLT Art. 71 (que estabelece o intervalo intrajornada de 1 hora) e pela Súmula TST 437 (que reconhece a ilegalidade de redução sem CCT). A decisão foi fundamentada e não omitiu informações relevantes.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA decisão do TRT deve ser **mantida e confirmada**, pois:  \n- **Cumpriu todos os predicados normativos** (obrigação de fundamentação, aplicação correta do Tema 981/STF e respeito ao devido processo legal).  \n- **Adequadamente aplicou a CLT Art. 71** (intervalo intrajornada de 1 hora) e a Súmula TST 437 (ilegalidade de redução sem CCT).  \n- **Identificou corretamente a ausência de CCT válida**, evitando a aplicação de uma norma que depende de autorização coletiva.  \n- **Concluiu com base em precedente jurisprudencial** (Tema 981/STF), garantindo coerência com a jurisprudência do STF.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Cumpridos**:  \n  - **obligation_to_ground_decision_in_identified_ratio_decidendi** (decisão fundamentada com clareza e referência a normas específicas).  \n  - **stf_tema981_interval_reduction_by_cct** (aplicação correta do Tema 981/STF, considerando a ausência de CCT válida).  \n  - **due_process_of_law** (respeito ao devido processo legal, com análise completa e transparência).  \n\n- **Violações**:  \n  **Nenhuma violação foi identificada**. Todos os predicados normativos foram cumpridos, e a decisão do TRT está alinhada com a CLT, jurisprudência do TST e orientação do STF (Tema 981/STF).  \n\n--- \n\n**Conclusão**: A decisão do TRT é **juridicamente correta** e **normativamente compatível**, devendo ser mantida. A ausência de CCT válida inviabiliza a redução do intervalo intrajornada, garantindo o direito do trabalhador à remuneração integral do período suprimido.",
+  "tokens_in": 407,
+  "tokens_out": 1511,
+  "latency_ms": 46360,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

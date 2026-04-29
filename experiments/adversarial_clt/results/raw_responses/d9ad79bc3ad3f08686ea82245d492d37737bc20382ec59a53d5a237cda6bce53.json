@@ -1,0 +1,29 @@
+{
+  "sha256": "d9ad79bc3ad3f08686ea82245d492d37737bc20382ec59a53d5a237cda6bce53",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-007",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T22:31:26Z",
+  "prompt_sha": "172c513c4b099df7743ffb1d24431062fe2eeac1ce853003c4f9dc9cbe3de520",
+  "response_text": "### 1. **ANÁLISE**  \n- **hour_bank_with_cct_max_1_year**:  \n  O banco de horas foi estabelecido em CCT válida com prazo de compensação de 12 meses, que está em conformidade com o predicado normativo. O empregado acumulou 400h dentro do prazo máximo de 12 meses, o que respeita a limitação estabelecida. No entanto, **a falta de compensação ou pagamento ao final do prazo** configura uma **violação da obrigação de compensação ou remuneração** prevista no art. 63 da CLT, que exige que horas extras sejam compensadas ou pagas, mesmo que previstas em CCT. A ausência de mecanismo de pagamento na CCT não invalida o banco de horas, mas **não exime a empresa de cumprir a obrigação de compensação ou pagamento**.  \n\n- **maximum_weekly_working_hours_44h**:  \n  O empregado acumulou 400h em 12 meses, o que equivale a **~7,69h semanais** (400h ÷ 52 semanas). Esse valor está **abaixo do limite legal de 44h semanais**, portanto, **não há violação** desse predicado normativo.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n- A empresa **deve pagar as 400h acumuladas**, pois a falta de compensação ou pagamento ao final do prazo de 12 meses configura **violação da obrigação de remuneração** prevista no art. 63 da CLT, independentemente da existência de CCT.  \n- A CCT **não pode ser interpretada como isentando a empresa de cumprir a obrigação legal de compensação ou pagamento**, mesmo que não tenha previsto mecanismo de pagamento.  \n- A empresa deve **regularizar a situação** mediante pagamento das horas extras ou compensação por folgas, conforme previsto no art. 63 da CLT.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **hour_bank_with_cct_max_1_year**: **Conformidade** (prazo de 12 meses foi respeitado).  \n- **maximum_weekly_working_hours_44h**: **Conformidade** (horas acumuladas estão abaixo do limite legal).  \n- **Violação implícita** (não listada nos predicados): A falta de compensação ou pagamento das horas extras **viola a obrigação legal de remuneração** (art. 63 da CLT), mesmo que não seja explicitamente abordada nos predicados fornecidos.  \n\n--- \n\n**Observação**: Os predicados fornecidos não abordam diretamente a **obrigação de compensação ou pagamento de horas extras**, mas a ausência de cumprimento dessa obrigação configura **violação da CLT**, independentemente da CCT.",
+  "tokens_in": 349,
+  "tokens_out": 1773,
+  "latency_ms": 56000,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

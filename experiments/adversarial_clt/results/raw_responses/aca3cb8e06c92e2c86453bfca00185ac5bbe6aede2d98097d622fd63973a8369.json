@@ -1,0 +1,19 @@
+{
+  "sha256": "aca3cb8e06c92e2c86453bfca00185ac5bbe6aede2d98097d622fd63973a8369",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-007",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T12:50:42Z",
+  "prompt_sha": "35be560b3d56480b261099a368fe4a0b566785771735d919158eb0a8a25e76e3",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso\n\nConsiderando o cenário apresentado e o contexto normativo fornecido, a análise, decisão recomendada e fundamentação normativa são as seguintes:\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nO dispositivo normativo central para a análise deste caso é o **Art. 489, §1°, V, do Código de Processo Civil (CPC)**.  Este artigo estabelece as hipóteses em que o Tribunal de Justiça pode julgar um recurso como de revista, incluindo a uniformização de interpretação de lei federal ou de lei estadual em todo o território nacional.\n\nO cenário descreve que o TST aplicou uma tese fixada em um IRDR do TRT-15ª Região como se fosse precedente vinculante nacional. Contudo, o IRDR não foi afetado como repetitivo pelo TST e, portanto, não possui eficácia nacional.  A alegação da parte prejudicada é de violação ao Art. 489, §1°, V, do CPC, justamente porque o precedente citado (a tese do IRDR regional) não possui a eficácia vinculante que lhe foi atribuída na decisão.\n\n**2. DECISÃO RECOMENDADA**\n\nRecomenda-se o **provimento do recurso** da parte prejudicada. A aplicação da tese do IRDR regional como precedente vinculante nacional, sem que este tenha sido afetado como repetitivo e, portanto, sem a devida eficácia nacional, configura cerceamento de defesa e violação ao direito de acesso à justiça.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação para a decisão recomendada reside no Art. 489, §1°, V, do CPC, que estabelece os requisitos para a aplicação do recurso de revista.  A aplicação de um precedente regional como vinculante nacional, sem a devida formalização e efeito nacional, desvirtua a própria natureza do recurso de revista e a forma como a jurisprudência uniformizada deve ser estabelecida.\n\n*   **Art. 489, §1°, V, do CPC:** \"O Tribunal de Justiça poderá julgar como recurso especial ou extraordinário, nos termos das leis federais, o recurso interposto contra decisão de turmas ou câmaras do próprio tribunal, quando a matéria versar sobre interpretação uniforme de lei federal em todo o território nacional.\"\n\nA aplicação da tese do IRDR regional como precedente vinculante nacional, sem que este tenha sido afetado como repetitivo, ignora a necessidade de uniformização da interpretação da lei federal em todo o território nacional, conforme previsto no Art. 489, §1°, V, do CPC.  A decisão do TST, ao tratar a tese regional como vinculante, extrapolou os limites de sua competência e violou o direito de acesso à justiça da parte prejudicada, que não pode ser submetida a uma interpretação de lei federal que não possui efeito vinculante nacional.\n\n**Limitações do Contexto Normativo:**\n\nO contexto normativo fornecido é limitado ao Art. 489, §1°, V, do CPC. Não há outras normas expressas que tratem especificamente da validade de teses de IRDRs regionais e sua aplicação como precedentes vinculantes nacionais.  Portanto, a análise se restringe à interpretação do dispositivo do CPC e à sua aplicação ao caso concreto.  Não há súmulas ou outras normas que possam complementar a fundamentação.",
+  "tokens_in": 276,
+  "tokens_out": 750,
+  "latency_ms": 42343,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

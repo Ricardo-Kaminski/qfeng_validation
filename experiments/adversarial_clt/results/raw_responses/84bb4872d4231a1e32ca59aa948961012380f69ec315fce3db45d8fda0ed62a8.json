@@ -1,0 +1,19 @@
+{
+  "sha256": "84bb4872d4231a1e32ca59aa948961012380f69ec315fce3db45d8fda0ed62a8",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-006",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T11:40:07Z",
+  "prompt_sha": "52dd564a70359960dbb886b7a9e848f56a10af664fc6884feb3e2be6931f11b7",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a empresa de limpeza urbana implementou um banco de horas por meio de um regulamento interno aprovado em assembleia dos empregados, sem a presença de representantes sindicais. A questão central é se essa aprovação pode ser considerada equivalente à autorização coletiva do trabalho (ACT) conforme o artigo 59, §2º da Consolidação das Leis do Trabalho (CLT).\n\nOs dispositivos normativos relevantes são:\n\n- **Art. 59, §2º da CLT**: Este dispositivo estabelece que a adoção de banco de horas pode ser feita mediante acordo ou convenção coletiva de trabalho (ACT), ou por autorização dada em assembleia geral dos empregados, desde que não haja sindicato representativo da categoria profissional.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que a implementação do banco de horas nesse contexto não seja considerada válida para fins legais. Isso ocorre porque o artigo 59, §2º da CLT especifica que a assembleia geral dos empregados pode autorizar o banco de horas somente na ausência de sindicato representativo da categoria profissional.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Art. 59, §2º da CLT**: Este artigo permite a adoção do banco de horas por meio de assembleia geral dos empregados apenas quando não houver sindicato representativo da categoria. No caso apresentado, embora o regulamento tenha sido aprovado em assembleia, a ausência de representação sindical não é suficiente para validar a implementação se houver um sindicato representativo ativo.\n\nPortanto, sem evidências claras de que não há sindicato representativo da categoria profissional dos empregados envolvidos, a aprovação em assembleia não substitui uma ACT válida. A ausência de representação sindical na assembleia torna o regulamento interno inválido para fins do banco de horas conforme exigido pela CLT.\n\nSe houver um sindicato representativo da categoria profissional, a implementação deveria ter sido feita por meio de acordo ou convenção coletiva de trabalho.",
+  "tokens_in": 300,
+  "tokens_out": 512,
+  "latency_ms": 29233,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

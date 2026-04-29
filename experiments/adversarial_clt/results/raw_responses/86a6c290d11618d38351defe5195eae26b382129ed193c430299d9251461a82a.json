@@ -1,0 +1,19 @@
+{
+  "sha256": "86a6c290d11618d38351defe5195eae26b382129ed193c430299d9251461a82a",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T10:06:08Z",
+  "prompt_sha": "92aecfbcd48b18b24b7145bd3115c2c41dd569d979ba575e89a78b84c16595e4",
+  "response_text": "### 1. **ANÁLISE**  \nOs dispositivos normativos aplicáveis ao caso são:  \n- **Súmula TST 60**, que estabelece que o adicional noturno, em regime de revezamento, integra a remuneração do trabalhador, independentemente da periodicidade do turno.  \n- A **distinção entre regime de revezamento e turno fixo não noturno**, explicitada no contexto, é relevante para a aplicação da Súmula.  \n\nNo caso concreto, o empregado trabalha em regime **12x36** com **períodos noturnos fixos**, o que se enquadra na hipótese da Súmula 60, pois o revezamento noturno (mesmo com períodos fixos) integra o adicional à remuneração. A diferença em relação a casos de turno fixo não noturno reside no fato de que, no regime de revezamento, o adicional noturno é considerado parte da remuneração, enquanto em turnos fixos não noturnos, o adicional não se aplica.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **decisão deve reconhecer o direito do empregado ao adicional noturno**, com base na Súmula TST 60. Isso ocorre porque:  \n- O regime de trabalho (12x36 com períodos noturnos fixos) se enquadra na hipótese de **revezamento noturno**, prevista na Súmula.  \n- A Súmula TST 60 estabelece que, nesse regime, o adicional noturno **integra a remuneração**, independentemente da periodicidade do turno.  \n- A distinção com casos de turno fixo não noturno (em que o adicional não se aplica) é explicitamente reconhecida no contexto.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Súmula TST 60**:  \n  *\"Adicional noturno — regime de revezamento — integra a remuneração do trabalhador.\"*  \n  A Súmula é diretamente aplicável ao caso, pois o regime de 12x36 com períodos noturnos fixos configura um **revezamento noturno**, e a Súmula afirma que, nesse caso, o adicional noturno integra a remuneração.  \n\n- **Contexto normativo fornecido**:  \n  - O **regime de revezamento** (12x36 com períodos noturnos fixos) é identificado como compatível com a Súmula 60.  \n  - A **ratio da Súmula** (integração do adicional noturno à remuneração) é aplicada ao caso concreto.  \n  - A **distinção com turnos fixos não noturnos** é explicitada no contexto, reforçando a aplicabilidade da Súmula.  \n\n**Limitação**:  \nO contexto normativo **não menciona outros dispositivos legais** (como artigos da CLT ou leis complementares) que possam ampliar ou restringir a aplicação da Súmula 60. A análise se limita aos elementos fornecidos.",
+  "tokens_in": 323,
+  "tokens_out": 1366,
+  "latency_ms": 85234,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "d96968f8158c24e0c43082db6edd96174e405cb0c56b8f7e3a21cf60db365796",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-013",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T20:12:21Z",
+  "prompt_sha": "f5497ee6a7892e951be5a3f450a9283428336ff41f3cb0f338c8cc849b031335",
+  "response_text": "**1. ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso.**\n\nOs dispositivos do contexto normativo aplicáveis ao caso são:\n\n*   CF/88 Art. 7°, XIII e XIV.\n\nEsses artigos da Constituição Federal de 1988 estabelecem direitos trabalhistas fundamentais, incluindo o direito a salário mínimo (Art. 7°, IV) e a jornada de trabalho (Art. 7°, XIII), além do direito à garantia de emprego público (Art. 7°, XIV).\n\n**2. DECISÃO RECOMENDADA: Qual deve ser a decisão e por quê.**\n\nA decisão recomendada é que o pedido de validade de banco de horas em CCT do setor aéreo seja negado.\n\nIsso porque a fundamentação da decisão do TST se baseia na distinção fática entre os casos, considerando as especificidades do setor bancário e do setor aéreo. Além disso, a ratio decidendi do julgado (validade de banco de horas em CCT do setor bancário à luz do Tema 1046/STF) é inaplicável ao caso concreto.\n\n**3. FUNDAMENTAÇÃO NORMATIVA: Cite especificamente os artigos e súmulas do contexto acima.**\n\nA fundamentação normativa se baseia nos seguintes dispositivos:\n\n*   CF/88 Art. 7°, XIII (jornada de trabalho) e XIV (garantia de emprego público).\n*   TST-Ag-RR-868-65.2021.5.13.0030 (2ª Turma, DEJT 06/12/2023).\n\nEsses dispositivos estabelecem os direitos trabalhistas fundamentais e a ratio decidendi do julgado, que serviram de base para a decisão recomendada.\n\n**LIMITAÇÃO:**\n\nNão há limitação na aplicabilidade das normas.",
+  "tokens_in": 360,
+  "tokens_out": 438,
+  "latency_ms": 7357,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

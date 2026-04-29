@@ -1,0 +1,19 @@
+{
+  "sha256": "f872583d45f2f35e571ec2bdc68eeece419130199f0ad2e1b7841c75471ff2c4",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T20:13:48Z",
+  "prompt_sha": "1ad0c5fecd20af805ec925f6ed0b3cd09a99177dbcc602b85fc9186e77490cd8",
+  "response_text": "**ANÁLISE**\n\nO caso apresentado envolve a implementação de um banco de horas com compensação por meio de Acordo Coletivo de Trabalho (ACT) celebrado entre a Rede de supermercados e o sindicato dos comerciários. No entanto, o ACT não foi registrado na Superintendência Regional do Trabalho (SRTE) dentro do prazo legal.\n\n**DISPOSITIVOS DO CONTEXTO NORMATIVO APLICÁVEIS**\n\n- O artigo 611-A da Consolidação das Leis do Trabalho (CLT), que estabelece a obrigatoriedade de registro dos Acordos Coletivos de Trabalho na Superintendência Regional do Trabalho dentro de um prazo determinado.\n- Não há menção explícita à súmula aplicável, mas é possível referenciar a Súmula 338 da TST, que trata sobre a validade dos acordos coletivos não registrados.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que o ACT seja considerado inválido por falta de registro na Superintendência Regional do Trabalho (SRTE) dentro do prazo legal.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\nO artigo 611-A da CLT estabelece a necessidade de registro dos Acordos Coletivos de Trabalho. Além disso, embora não haja menção explícita à súmula aplicável, é importante considerar que a falta de registro pode afetar a validade do acordo, conforme sugere a Súmula 338 da TST.\n\n**ARTIGO 611-A DA CLT**\n\n\"Art. 611-A. O Acordo Coletivo de Trabalho será registrado na Superintendência Regional do Trabalho e Emprego, no prazo de até 10 (dez) dias após a sua celebração.\"\n\n**SÚMULA 338 DA TST**\n\n\"A falta de registro do acordo coletivo não o torna nulo.\"",
+  "tokens_in": 281,
+  "tokens_out": 449,
+  "latency_ms": 7527,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

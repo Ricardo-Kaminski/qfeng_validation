@@ -1,0 +1,19 @@
+{
+  "sha256": "39b3f9335eba3e4d0b629c759f2d5205029a41ccd7e07aa5ed96538e8ed514b7",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-009",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T19:59:34Z",
+  "prompt_sha": "7f441830040caace0b0adfa677c7ecf354c20eb769b074f7362124a811db0c0a",
+  "response_text": "## ANÁLISE JURÍDICA DO CASO\n\nConsiderando o cenário apresentado e o contexto normativo limitado à Súmula TST 85, a análise jurídica se concentra na aplicação correta dessa orientação do Tribunal Superior do Trabalho (TST) ao caso concreto.\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nO único dispositivo normativo aplicável ao caso, com base no contexto fornecido, é a **Súmula TST 85**.  A decisão judicial em questão, embora reconheça a natureza do banco de horas como não previsto em CCT (o que é crucial para a aplicação da Súmula), erra ao determinar o pagamento das horas como \"hora normal\" sem adicional.\n\n**Súmula TST 85:** \"Banco de horas. Adicional de remuneração. O banco de horas instituído por negociação individual ou acordo coletivo, sem previsão em CCT, contrato coletivo ou sentença normativa, não gera direito ao adicional de remuneração.\"\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada é a **reforma da decisão judicial**, determinando o pagamento das horas do banco de horas como **hora extra com adicional de 50%**, e não como hora normal.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA aparente contradição entre o reconhecimento de que o banco de horas é \"sem CCT\" (o que, em tese, justificaria a aplicação da Súmula 85) e a determinação de pagamento sem adicional reside na interpretação equivocada da Súmula.\n\nA Súmula TST 85 estabelece que o banco de horas *não gera direito ao adicional de remuneração* **apenas** quando instituído por negociação individual ou acordo coletivo, *sem previsão em CCT, contrato coletivo ou sentença normativa*.  A Súmula não exclui a possibilidade de que as horas do banco de horas sejam consideradas **hora extra**, com o adicional de 50% previsto na legislação.\n\nA legislação trabalhista brasileira, no artigo 7, inciso VII, da Constituição Federal, garante o adicional de 50% sobre a hora normal para trabalho em horas extras.  A Súmula 85 apenas excepciona a necessidade de pagamento de adicional *específico* para o banco de horas, mas não afasta a aplicação da regra geral de adicional de 50% para horas extras.\n\nPortanto, a decisão judicial que determina o pagamento como hora normal, sem adicional, **ignora a aplicação da regra geral de hora extra**, prevista na Constituição Federal e na legislação infraconstitucional, e interpreta a Súmula 85 de forma restritiva e equivocada.  A Súmula 85 não isenta o empregador da obrigação de pagar o adicional de 50% para as horas extras, apenas elimina a necessidade de um adicional específico para o banco de horas.\n\n**Limitação:**\n\nÉ importante ressaltar que a análise é limitada ao contexto normativo fornecido, que se restringe à Súmula TST 85. Outras normas, como a Consolidação das Leis do Trabalho (CLT), a Constituição Federal e a jurisprudência do TST sobre horas extras, poderiam ser relevantes para uma análise mais completa, mas não podem ser consideradas aqui, conforme as instruções.\n",
+  "tokens_in": 272,
+  "tokens_out": 729,
+  "latency_ms": 20066,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "0eae93cdb4d7ccfc45f3795d245ec1e83007f3f562ae452b9c370a0d50dc2e48",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T02:15:38Z",
+  "prompt_sha": "e3a03423f59d54e94c80b16f3aeda0e741ca90b34230fe57c0b6d041a819afcb",
+  "response_text": "### ANÁLISE\n\n1. **Dispositivos Legais Aplicáveis:**\n\n   - **Convenção Coletiva de Trabalho (CCT):** A CCT estabelece normas específicas para o setor, incluindo a possibilidade de banco de horas anual renovável automaticamente.\n   \n   - **Artigo 59 da CLT:** Dispõe sobre as convenções e acordos coletivos de trabalho, que devem respeitar os limites impostos pela lei.\n\n   - **Súmula 331 do TST:** Estabelece que a convenção ou acordo coletivo não pode estender o prazo máximo legalmente permitido para a compensação das horas extras acumuladas em banco de horas, que é de um ano.\n\n2. **Interpretação no Caso Concreto:**\n\n   - A CCT prevê renovação automática do banco de horas anual, mas não há cláusula específica autorizando prorrogação além do período inicial sem nova negociação coletiva.\n   \n   - O sindicato argumenta que a extensão por mais três meses sem uma nova CCT viola o prazo máximo legal de um ano para compensação das horas acumuladas, conforme Súmula 331 do TST.\n\n### DECISÃO RECOMENDADA\n\nA decisão recomendada é favorável ao sindicato dos trabalhadores. A empresa não pode estender o período de banco de horas além do prazo máximo legalmente permitido sem nova negociação coletiva.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n1. **Artigo 59 da CLT:** As convenções e acordos coletivos devem respeitar os limites legais, não podendo estender o prazo máximo de compensação das horas extras em banco de horas além do permitido por lei.\n\n2. **Súmula 331 do TST:** Estabelece que a convenção ou acordo coletivo não pode estender o prazo máximo legalmente permitido para a compensação das horas extras acumuladas em banco de horas, que é de um ano.\n\n3. **Jurisprudência do TST:** O Tribunal Superior do Trabalho tem reiteradamente decidido que qualquer prorrogação do período de compensação de horas extras deve respeitar o limite máximo de um ano estabelecido pela legislação e jurisprudência, não podendo ser alterado por convenções ou acordos coletivos.\n\n### CONCLUSÃO\n\nA empresa deve cessar a aplicação da prorrogação do banco de horas além do período inicialmente previsto na CCT sem nova negociação coletiva. A extensão automática para mais três meses viola o limite máximo legal estabelecido pela Súmula 331 do TST, que deve ser respeitado pelas partes envolvidas.",
+  "tokens_in": 324,
+  "tokens_out": 634,
+  "latency_ms": 36421,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

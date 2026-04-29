@@ -1,0 +1,19 @@
+{
+  "sha256": "881437747fb9bb88a66570ff45710b922eeb773127b96bb16b0a343d7b8cfc75",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T11:42:49Z",
+  "prompt_sha": "e1659c5429e8d4021dbbfd8bec4539ebca49823acf42a3cc8afc510d0a89683d",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a questão central é se o saldo positivo de horas acumuladas em um banco de horas estabelecido por Acordo Coletivo de Trabalho (ACT) deve ser pago ao empregado que pede demissão antes do prazo previsto para compensação. O ACT estipula a compensação das horas extras em até 7 meses, mas o trabalhador rescindiu o contrato após 5 meses, com um saldo positivo de 60 horas.\n\nOs dispositivos normativos relevantes incluem:\n\n- **Artigo 59 da CLT (Consolidação das Leis do Trabalho):** Este artigo trata dos acordos coletivos e permite a compensação de horas extras mediante acordo entre empregador e empregado, desde que respeitados os limites legais.\n  \n- **Súmula 331 do TST (Tribunal Superior do Trabalho):** Esta súmula estabelece que \"o saldo positivo de banco de horas deve ser pago ao trabalhador na rescisão contratual, ainda que não tenha ocorrido a compensação no prazo previsto em acordo ou convenção.\"\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que o empregado deve receber o pagamento do saldo positivo de 60 horas acumuladas no banco de horas. Isso se baseia na aplicação da Súmula 331 do TST, que claramente estabelece o direito ao recebimento das horas extras pendentes em caso de rescisão contratual.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Artigo 59 da CLT:** Permite a compensação de horas extras mediante acordo coletivo, desde que respeitados os limites legais e as condições estabelecidas no ACT.\n  \n- **Súmula 331 do TST:** Estipula que o saldo positivo de banco de horas deve ser pago ao trabalhador na rescisão contratual, ainda que não tenha ocorrido a compensação no prazo previsto em acordo ou convenção.\n\nPortanto, conforme os dispositivos normativos aplicáveis, o empregado tem direito ao pagamento das 60 horas extras acumuladas, independentemente do fato de ter pedido demissão antes do término do período estabelecido para compensação.",
+  "tokens_in": 305,
+  "tokens_out": 535,
+  "latency_ms": 30578,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

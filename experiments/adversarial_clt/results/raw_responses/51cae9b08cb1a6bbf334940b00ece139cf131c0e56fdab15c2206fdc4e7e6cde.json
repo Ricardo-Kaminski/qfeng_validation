@@ -1,0 +1,30 @@
+{
+  "sha256": "51cae9b08cb1a6bbf334940b00ece139cf131c0e56fdab15c2206fdc4e7e6cde",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-008",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:11:17Z",
+  "prompt_sha": "f386ffafe5e7ff919c71ccc539ca484bedeed55858f8c345ed209dd7bbbe0e31",
+  "response_text": "1. **ANÁLISE:**\n\n   - **Obligation to Ground Decision in Identified Ratio Decidendi:** Este predicado normativo exige que a decisão judicial seja fundamentada em um \"ratio decidendi\" claramente identificado, ou seja, o raciocínio jurídico que sustenta a decisão. No cenário apresentado, o acórdão sobre dano moral trabalhista cumpre essa obrigação ao citar explicitamente o artigo 223-G da CLT (pós-reforma de 2017), identificar o grau da ofensa com base nos fatos provados e quantificar o valor do dano conforme o salário do trabalhador. Além disso, a decisão explica a proporcionalidade ao referenciar precedentes do TST sobre casos similares de assédio moral. Isso demonstra que a fundamentação jurídica está claramente estabelecida e baseada em normas legais e jurisprudência aplicável.\n\n   - **Due Process of Law:** Este predicado refere-se ao princípio do devido processo legal, garantindo que todas as partes tenham uma oportunidade justa de serem ouvidas e que a decisão seja tomada com base em um procedimento justo. No cenário descrito, o cumprimento desse predicado pode ser inferido pelo fato de que os parâmetros legais foram aplicados de forma identificada e verificável, sugerindo que houve uma análise cuidadosa dos fatos provados e das normas aplicáveis. A referência a precedentes do TST também indica que o processo seguiu um padrão reconhecido de justiça.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base nos predicados analisados, recomenda-se que a decisão seja mantida. O acórdão demonstra conformidade com os requisitos normativos ao fundamentar-se em uma análise clara e verificável dos fatos provados, aplicação das normas legais pertinentes (CLT Art. 223-G) e referência a precedentes do TST. Isso indica que tanto o \"ratio decidendi\" foi adequadamente identificado quanto o devido processo legal foi respeitado.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Cumpriu:** \n     - *Obligation to Ground Decision in Identified Ratio Decidendi:* A decisão foi claramente fundamentada em normas legais específicas e precedentes aplicáveis.\n     - *Due Process of Law:* O procedimento seguido parece ter sido justo, com uma análise cuidadosa dos fatos e referência a jurisprudências relevantes.\n\n   Não há indicação de violação dos predicados listados no cenário apresentado.",
+  "tokens_in": 384,
+  "tokens_out": 620,
+  "latency_ms": 18110,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

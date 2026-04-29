@@ -1,0 +1,26 @@
+{
+  "sha256": "e554f3a9acb770c11e22eefca17770f6db6c302dea09db255fb94954248974ea",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-009",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T02:00:59Z",
+  "prompt_sha": "bcff85d452bf2f58ac15e7495135889c6ad856a88318d21e3e0178db0d0f040c",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG identificou uma **violação normativa** com base nos predicados soberanos ativos, que estabelecem obrigações constitucionais e processuais inquestionáveis no direito trabalhista brasileiro. A decisão do magistrado, ao simplesmente reproduzir os fundamentos da sentença de primeiro grau sem qualquer análise crítica ou atualização jurisprudencial, **viola diretamente** os seguintes princípios:  \n- **Obrigação de expor as consequências práticas da decisão** (ex: impactos no direito à saúde, segurança ou renda do trabalhador), que é essencial para garantir a transparência e a efetividade da justiça.  \n- **Proibição de citação genérica de precedentes**, pois o uso de jurisprudência superada (como o caso do TST) sem análise crítica **nega a função social da jurisdição**.  \n- **Obrigação de abordar todos os argumentos jurídicos** apresentados, incluindo a invalidade do precedente citado.  \n- **Obrigação de fundamentar a decisão em ratio decidendi identificada**, ou seja, em razões específicas e não em mera repetição de fundamentos anteriores.  \n- **Obrigação constitucional de expor razões para decisões**, que é um direito fundamental do cidadão.  \n- **Direito de acesso à justiça e revisão judicial**, que exige que a decisão seja clara, fundamentada e revisável.  \n\nA ausência de fundamentação nova e a ignorância da jurisprudência atualizada **nega a legitimidade da decisão**, violando direitos constitucionais e processuais.\n\n---\n\n### 2. **PREDICADOS SOBERANOS ATIVOS**  \n- **obrigação de expor as consequências práticas da decisão**: O magistrado deve explicar como a decisão afeta concretamente os direitos do trabalhador (ex: se a sentença afeta o pagamento de horas extras ou o direito à estabilidade).  \n- **proibição de citação genérica de precedentes**: Não é permitido citar jurisprudência sem analisar sua validade atual (ex: se um precedente do TST foi superado, ele não pode ser usado como base).  \n- **obrigação de abordar todos os argumentos jurídicos**: O juiz deve considerar todas as questões levantadas (ex: a validade do precedente citado).  \n- **obrigação de fundamentar a decisão em ratio decidendi identificada**: A decisão deve basear-se em razões específicas (ex: artigo da CLT ou súmula do TST), não em repetição de fundamentos anteriores.  \n- **obrigação constitucional de expor razões para decisões**: Garante que a decisão seja transparente e revisável, conforme o art. 5º, XXXV da CF.  \n- **direito de acesso à justiça e revisão judicial**: Assegura que a decisão seja compreensível e que o trabalhador possa contestá-la com base em fundamentos claros.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO juiz **não explicou corretamente sua decisão**. Ele simplesmente repetiu o que o juiz de primeira instância já havia dito, sem analisar se a lei usada antes ainda é válida (já que uma jurisprudência mais recente do TST a invalidou). Isso é um problema porque:  \n- **O trabalhador não sabe por que a decisão foi tomada** (não há explicações claras).  \n- **A decisão pode estar usando uma regra de lei que já está errada** (o precedente superado).  \n- **O trabalhador não tem como contestar a decisão** se ela não explica suas razões.  \n\nIsso **viola o direito de ser ouvido e de ter uma decisão justa**, que é garantido pela Constituição. O sistema Q-FENG alerta que essa decisão **não é válida** e deve ser revisada.",
+  "tokens_in": 513,
+  "tokens_out": 1385,
+  "latency_ms": 44358,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

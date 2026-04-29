@@ -1,0 +1,19 @@
+{
+  "sha256": "c5e4cd70638eaa1601bb9579456ac84727626c1823a56bc79683141e0d199264",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-009",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T12:22:16Z",
+  "prompt_sha": "7f441830040caace0b0adfa677c7ecf354c20eb769b074f7362124a811db0c0a",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a decisão judicial cita corretamente a Súmula TST 85, que trata do banco de horas sem convenção coletiva de trabalho (CCT). A Súmula TST 85 V estabelece que, na ausência de CCT ou acordo individual escrito, as horas excedentes devem ser remuneradas como hora extra com adicional de 50%. No caso concreto, o banco de horas foi utilizado por um período de 7 meses sem a existência de uma CCT. Portanto, conforme a norma aplicável, as horas excedentes deveriam ser pagas como hora extra.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão deve determinar o pagamento das horas excedentes como hora extra com adicional de 50%. Isso porque não há fundamentação legal ou normativa que justifique a aplicação do pagamento dessas horas como hora normal, sem adicional.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Súmula TST 85 V:** Esta súmula estabelece que, na ausência de convenção coletiva ou acordo individual escrito, as horas excedentes devem ser remuneradas como hora extra com adicional de 50%. No caso concreto, não havendo CCT para o período em questão (7 meses), a aplicação da Súmula TST 85 V é direta e obrigatória.\n\nPortanto, a decisão deve ser reformada para assegurar o pagamento das horas excedentes como hora extra com adicional de 50%, conforme estabelecido na Súmula TST 85 V.",
+  "tokens_in": 299,
+  "tokens_out": 376,
+  "latency_ms": 22500,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,26 @@
+{
+  "sha256": "f713e7c732d43a4ea6f50f3e77949cf2531215b9f59f4526da4538d3ea8dc51e",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CTRL-NEG-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T01:17:23Z",
+  "prompt_sha": "57cf080c70ee6d5ee75af46a8cd79a5aba980ddfcf3914fb8da919567e87ba49",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso\n\nCom base nos predicados normativos fornecidos e no cenário apresentado, segue a análise, decisão recomendada e identificação de cumprimento/violação:\n\n**1. ANÁLISE:**\n\n*   **obligation_to_pay_nocturnal_premium_20pct (Obrigação de pagar adicional noturno de 20%):** Este predicado é fundamental para o caso. A empresa está cumprindo a obrigação formal de pagar o adicional noturno de 20% aos motoristas que trabalham no período noturno (22h às 5h). A discriminação do adicional no contracheque também demonstra transparência e facilita a fiscalização. No entanto, a forma como a empresa calcula a hora noturna é crucial para determinar se a obrigação está sendo cumprida integralmente (abordado abaixo).\n*   **maximum_daily_working_hours_8h (Limite máximo de 8 horas diárias):** A empresa afirma que não realiza horas extras, o que, em tese, indica cumprimento deste predicado. Contudo, a forma como a empresa calcula a hora noturna impacta diretamente a jornada de trabalho e, consequentemente, a observância deste limite. Se a duração da hora noturna (52 minutos e 30 segundos) não refletir a realidade da jornada, pode haver uma \"maquiagem\" da jornada, permitindo que o motorista trabalhe mais de 8 horas diárias sem o devido registro e pagamento de horas extras.\n\n**Análise Adicional Crucial (não expressa nos predicados, mas derivada deles):**\n\nA forma como a empresa calcula a hora noturna (52 minutos e 30 segundos) é um ponto crítico. A CLT não estabelece um tempo fixo para a hora noturna. O tempo usualmente adotado é de 52 minutos e 30 segundos, mas a jurisprudência do TST tem flexibilizado essa interpretação, permitindo que a empresa estabeleça um tempo diferente, desde que haja acordo coletivo ou que a duração da hora noturna reflita a realidade da jornada de trabalho e não seja utilizada para mascarar horas extras. Se a empresa está utilizando 52 minutos e 30 segundos para reduzir a jornada de trabalho e evitar o pagamento de horas extras, essa prática pode ser considerada ilícita.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se as seguintes ações:\n\n*   **Auditoria da Jornada de Trabalho:** Realizar uma auditoria detalhada da jornada de trabalho dos motoristas, comparando o tempo registrado no sistema eletrônico com o tempo real de trabalho. Isso inclui verificar se a duração da hora noturna (52 minutos e 30 segundos) é compatível com a realidade da jornada.\n*   **Análise da Base de Cálculo da Hora Noturna:** Verificar se a empresa possui acordo coletivo que justifique a utilização de 52 minutos e 30 segundos como duração da hora noturna. Caso contrário, a empresa deve revisar a forma como calcula a hora noturna, garantindo que ela reflita a realidade da jornada de trabalho.\n*   **Pagamento de Horas Extras (se aplicável):** Se a auditoria revelar que os motoristas estão trabalhando mais de 8 horas diárias, mesmo sem registro de hora extra, a empresa deve pagar as horas extras devidas, acrescidas do adicional de 50% e, em alguns casos, indenização por descumprimento de normas de saúde e segurança do trabalho.\n*   **Revisão do Sistema Eletrônico:** Garantir que o sistema eletrônico de registro de ponto seja preciso e reflita a realidade da jornada de trabalho.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **obligation_to_pay_nocturnal_premium_20pct:** **Conformidade** (formalmente cumprido, mas a validade depende da forma como a hora noturna é calculada).\n*   **maximum_daily_working_hours_8h:** **Potencial Violação** (depende da forma como a hora noturna é calculada e da real jornada de trabalho dos motoristas).  Se a hora noturna for utilizada para mascarar horas extras, há violação.\n\n**Observação Importante:** Esta análise é baseada apenas nos predicados fornecidos e no cenário descrito. Uma análise completa exigiria informações adicionais, como acordos coletivos, contratos individuais de trabalho, e a possibilidade de inspeção da jornada de trabalho dos motoristas.\n",
+  "tokens_in": 345,
+  "tokens_out": 975,
+  "latency_ms": 26906,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

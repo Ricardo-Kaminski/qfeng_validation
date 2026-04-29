@@ -1,0 +1,26 @@
+{
+  "sha256": "071a7a48a0f8cc8ddb0b3d1a2d4517dc1071b4c1bf2b3feb69cdc8f4618bc806",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-010",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T01:21:32Z",
+  "prompt_sha": "2ccf087828688c249158ffc8bae7cebf5d31cffd47aadf38f1078116d62627f1",
+  "response_text": "**ANÁLISE**\n\n1. **obligation_to_ground_decision_in_identified_ratio_decidendi**: Esse predicado exige que as decisões judiciais sejam fundamentadas em razões de fato e direito identificadas na petição inicial ou no recurso. No caso, o juiz não analisou o ponto específico apontado pela parte embargante, apenas afirmou \"não há contradição\" sem justificar essa conclusão. Isso viola esse predicado normativo.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada seria a reformulação da decisão em embargos de declaração para que o juiz analise e julgue o ponto específico apontado pela parte embargante, fundamentando sua decisão nos termos do artigo 489, III, do Código de Processo Civil (CLT), que exige a motivação das decisões judiciais.\n\n**PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi**: Violado. O juiz não fundamentou sua decisão nos termos do artigo 489, III, do CPC.\n*   **nenhum outro predicado foi violado ou cumprido**, pois os demais foram ignorados na análise.",
+  "tokens_in": 340,
+  "tokens_out": 291,
+  "latency_ms": 4922,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

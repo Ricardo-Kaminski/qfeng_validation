@@ -1,0 +1,19 @@
+{
+  "sha256": "9f271530b6e245a748bc6de33510f070725581f1a6f9c2b50413a8e5236b1da0",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-006",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T02:49:36Z",
+  "prompt_sha": "f4920283beb1853668bb4251074fa4825bbe27b93c35dcf2e68fe50e755832b2",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis**\n\n- **Convenção Coletiva de Trabalho (CCT):** A CCT é um instrumento normativo coletivo que regula as condições de trabalho entre empregadores e trabalhadores, conforme previsto no art. 611-A da CLT.\n\n- **Banco de Horas:** O banco de horas é regulado pelo art. 59, § 1º, da CLT, que permite a compensação de jornada mediante acordo escrito entre empregador e empregado, desde que não exceda determinados limites (máximo de duas horas diárias e quarenta semanais).\n\n- **Autonomia Negocial:** O Tema 1046 do STF reconhece a autonomia negocial como princípio constitucional, permitindo que as partes ajustem condições de trabalho por meio de convenção coletiva.\n\n**Interpretação no Caso Concreto**\n\nNo caso apresentado, o tribunal aplicou incorretamente a ratio do Tema 1046/STF e do precedente TST-Ag-RR-868-65.2021. O Tema 1046 trata da validade de cláusulas em CCTs que permitem acordos individuais sobre jornada, remuneração e outros direitos trabalhistas, desde que não afrontem normas de ordem pública ou interesse social.\n\nO precedente TST-Ag-RR-868-65.2021 reconheceu a validade de cláusulas em CCTs bancárias que permitem o banco de horas sem necessidade de autorização prévia do empregado, desde que respeitadas as condições estabelecidas na CLT.\n\nNo entanto, o tribunal no caso concreto extrapolou essa ratio ao aplicar a validade da cláusula de CCT bancária para justificar um banco de horas sem qualquer CCT. A autonomia negocial pressupõe a existência de uma convenção coletiva que regulamente a matéria.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é anular o acórdão e reconhecer a invalidade do banco de horas implementado sem a existência de uma CCT específica que autorize tal prática. O tribunal deve corrigir a aplicação da ratio decidendi, respeitando o pressuposto de que a autonomia negocial se exerce mediante convenção coletiva.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **Artigo 611-A da CLT:** Estabelece que as condições de trabalho podem ser negociadas por meio de CCT, respeitando os limites legais e constitucionais.\n\n- **Artigo 59, § 1º da CLT:** Regula o banco de horas, exigindo acordo escrito entre empregador e empregado, sem mencionar a possibilidade de dispensa desse requisito por meio de CCT.\n\n- **Tema 1046 do STF:** Reconhece a autonomia negocial para ajustes individuais em condições de trabalho, mas pressupõe a existência de uma CCT que autorize tais ajustes.\n\n- **Súmula nº 331 do TST:** \"É vedada a compensação de horas extras com folgas ou descanso semanal remunerado.\"\n\n- **Precedente TST-Ag-RR-868-65.2021:** Reconhece a validade de cláusulas em CCTs que permitem o banco de horas, mas pressupõe a existência de uma CCT específica.\n\nA decisão deve respeitar os limites legais e constitucionais estabelecidos para a aplicação da autonomia negocial, garantindo que qualquer prática como o banco de horas seja precedida pela existência de uma convenção coletiva que autorize tal modalidade.",
+  "tokens_in": 318,
+  "tokens_out": 864,
+  "latency_ms": 49671,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

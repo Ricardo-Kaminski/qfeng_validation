@@ -1,0 +1,30 @@
+{
+  "sha256": "6b84e3d4d9e4f285a07bc4110811857767ae9549ed9def390cefc32d4725077e",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T01:32:07Z",
+  "prompt_sha": "403966b1450a17b6aaa9968db2609853f7fb34f41a126c9530a8ad7a9b038bde",
+  "response_text": "**ANÁLISE**\n\n1. **obligation_to_ground_decision_in_identified_ratio_decidendi**: Esse predicado exige que a decisão seja fundamentada em um entendimento específico da legislação aplicável, com base na qual se aplica o caso concreto. Nesse cenário, a decisão identificou o ponto omisso (ausência de análise do impacto sistêmico da decisão sobre o setor econômico), enfrentou o argumento com referência à jurisprudência do STJ e concluiu motivadamente que não se aplica ao caso trabalhista individual. Além disso, a omissão foi suprida por fundamento identificável e verificável. Portanto, esse predicado é **cumprido**.\n\n2. **due_process_of_law**: Esse predicado garante que as partes tenham sido tratadas de acordo com os procedimentos legais adequados, garantindo a igualdade entre elas. Nesse caso, a decisão em embargos de declaração foi capaz de identificar o ponto omisso e supri-lo com fundamento verificável, sem que isso tenha violado direitos das partes ou procedimentos legais. Portanto, esse predicado também é **cumprido**.\n\n**DECISÃO RECOMENDADA**\n\nCom base nos predicados acima, a decisão recomendada deve ser aquela que:\n- Identifica corretamente o ponto omisso na análise (ausência de consideração sobre o impacto sistêmico da decisão no setor econômico);\n- Enfrenta adequadamente os argumentos apresentados com referência à jurisprudência do STJ;\n- Conclui motivadamente que a aplicação específica não se aplica ao caso trabalhista individual, considerando as peculiaridades desse tipo de caso;\n- Supre a omissão com fundamento identificável e verificável.\n\n**PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: Cumprido\n- **due_process_of_law**: Cumprido\n\nNenhum dos predicados listados foi violado. A decisão tomada atendeu aos requisitos de fundamentação e procedimento legal adequados, garantindo a igualdade das partes e o cumprimento da legislação aplicável.",
+  "tokens_in": 363,
+  "tokens_out": 527,
+  "latency_ms": 8937,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

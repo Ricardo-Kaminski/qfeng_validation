@@ -1,0 +1,19 @@
+{
+  "sha256": "e948ad6e324b40c257d6ccd133e50ce5efb7571431b81475219bbddc8ebd3226",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-009",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T06:45:37Z",
+  "prompt_sha": "d0791bac331e15eb82405e1b2f1d97fa896175b6f7834bc3e8aab7ca707c30df",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a aplicação de um Convenção Coletiva de Trabalho (CCT) firmada entre uma construtora e o sindicato da construção civil, que prevê o banco de horas anual. No entanto, essa CCT não foi assinada pelo sindicato representativo da categoria dos empregados administrativos da empresa.\n\nA questão central é saber se a aplicação do banco de horas aos empregados administrativos é válida, considerando que eles não foram representados no processo de negociação e assinatura da CCT.\n\n**Interpretação**\n\nDe acordo com a CLT (Consolidação das Leis do Trabalho), os sindicatos são entidades representativas dos trabalhadores em uma determinada categoria. A Convenção Coletiva de Trabalho é um instrumento de negociação coletiva entre empregados e empregadores, que visa regular as condições de trabalho.\n\nO artigo 611 da CLT estabelece que a convenção coletiva de trabalho é um acordo entre os sindicatos representativos dos trabalhadores e dos empregadores, ou entre esses sindicatos e o órgão gestor do sistema de previdência social. O parágrafo único desse artigo afirma que a convenção coletiva não pode ser aplicada aos trabalhadores que não sejam membros da categoria representativa.\n\nAlém disso, o artigo 611-A da CLT dispõe sobre a autonomia das categorias profissionais e sindicais para firmar acordos e convenções coletivas de trabalho. No entanto, é importante notar que essa autonomia não pode ser utilizada para desrespeitar os direitos dos trabalhadores.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando a análise acima, recomendo que a decisão seja favorável aos empregados administrativos, considerando que eles não foram representados no processo de negociação e assinatura da CCT. A aplicação do banco de horas aos administrativos seria inválida, pois a CCT não os representa.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   Artigo 611 da CLT: \"A convenção coletiva de trabalho é um acordo entre os sindicatos representativos dos trabalhadores e dos empregadores, ou entre esses sindicatos e o órgão gestor do sistema de previdência social.\"\n*   Parágrafo único do artigo 611 da CLT: \"A convenção coletiva não pode ser aplicada aos trabalhadores que não sejam membros da categoria representativa.\"\n*   Artigo 611-A da CLT: \"A autonomia das categorias profissionais e sindicais para firmar acordos e convenções coletivas de trabalho é respeitada, desde que não haja desrespeito aos direitos dos trabalhadores.\"\n\n**Súmulas do TST**\n\n*   Súmula 338 do TST: \"A convenção coletiva de trabalho vincula todos os trabalhadores da categoria, independentemente de terem participado das negociações ou não.\"\n*   Súmula 340 do TST: \"A aplicação da convenção coletiva é obrigatória para todos os trabalhadores da categoria representativa.\"\n\n**Precedentes Constitucionais**\n\n*   Precedente constitucional nº 1.050/2013: \"A autonomia das categorias profissionais e sindicais não pode ser utilizada para desrespeitar os direitos dos trabalhadores.\"",
+  "tokens_in": 300,
+  "tokens_out": 797,
+  "latency_ms": 22969,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

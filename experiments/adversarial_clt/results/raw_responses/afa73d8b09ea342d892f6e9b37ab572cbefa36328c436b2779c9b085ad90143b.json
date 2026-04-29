@@ -1,0 +1,19 @@
+{
+  "sha256": "afa73d8b09ea342d892f6e9b37ab572cbefa36328c436b2779c9b085ad90143b",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T07:47:02Z",
+  "prompt_sha": "c800b08bc530e3122be31b4e610bc034e22dcdc366a0e85bec8990b192b786cb",
+  "response_text": "### 1. **ANÁLISE**  \nO contexto normativo apresentado não inclui o texto do **LINDB (Lei de Introdução à Normas do Direito Brasileiro)**, nem menciona dispositivos específicos do **Direito do Trabalho** que regulamentem a **citação de obras doutrinárias em acórdãos**. A única referência normativa mencionada é a **alegação do recorrente** de que a ausência de identificação completa da obra (obra, edição, ano, página) viola o **LINDB Art. 20**, mas **não há reprodução do texto do LINDB Art. 20** no contexto fornecido.  \n\nAlém disso, o contexto não menciona dispositivos do **Código Civil**, **Código de Processo Civil**, **Código de Processo Penal**, **Lei nº 5.584/1970** (Lei de Execução Penal) ou **Lei nº 8.212/1991** (Regime Geral de Previdência Social), que poderiam ser relevantes para a análise da fundamentação judicial.  \n\n### 2. **DECISÃO RECOMENDADA**  \n**A decisão deve ser a de que a citação doutrinária incompleta não é suficiente para fundamentar o acórdão**, conforme o entendimento do **recorrente**, **porque o contexto normativo não fornece dispositivos que autorizem ou exijam a citação de obras doutrinárias sem identificação completa**.  \n\nNo entanto, **não há norma específica do Direito do Trabalho ou do LINDB no contexto fornecido** que estabeleça que a ausência de identificação completa da obra é equivalente à ausência de fundamentação. Portanto, **a decisão deve ser baseada em critérios de fundamentação judicial gerais**, como os previstos no **Código de Processo Civil (Art. 1.021)**, que exige fundamentação com base em normas jurídicas, e não apenas em doutrina.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Contexto normativo fornecido**: Não inclui o **LINDB Art. 20**, **Código de Processo Civil**, **Lei nº 5.584/1970**, **Lei nº 8.212/1991** ou outros dispositivos relevantes.  \n- **Limitação**: **Não há norma específica no contexto fornecido** que vincule a ausência de identificação completa da obra doutrinária à **ausência de fundamentação**.  \n- **Critérios gerais de fundamentação judicial**: O **Código de Processo Civil (Art. 1.021)** exige que as decisões judiciais sejam fundamentadas com base em **normas jurídicas**, e não apenas em **doutrina**. A **doutrina**, embora relevante, **não substitui a aplicação de leis ou dispositivos normativos**.  \n\n**Conclusão**: A ausência de identificação completa da obra doutrinária pode ser considerada uma **falha de fundamentação**, mas **não há norma no contexto fornecido** que estabeleça essa equivalência. A decisão deve ser baseada em critérios gerais de fundamentação judicial, como os do **Código de Processo Civil**, e não em dispositivos específicos do **LINDB** ou do **Direito do Trabalho**.",
+  "tokens_in": 279,
+  "tokens_out": 1636,
+  "latency_ms": 102983,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

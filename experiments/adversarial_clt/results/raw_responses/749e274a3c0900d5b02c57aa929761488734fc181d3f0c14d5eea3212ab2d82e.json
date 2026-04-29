@@ -1,0 +1,19 @@
+{
+  "sha256": "749e274a3c0900d5b02c57aa929761488734fc181d3f0c14d5eea3212ab2d82e",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T10:17:58Z",
+  "prompt_sha": "2fe1ebedc34b383e50481fe1e95a5b121569d27c199d9e90565501c9e095e99d",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO caso envolve a aplicação do **LINDB (Lei nº 11.419/2006)**, especificamente o **Art. 20**, que trata do **impacto sistêmico da decisão sobre o setor econômico**. A decisão em embargos de declaração analisou a omissão apontada (não análise do Art. 20) e confrontou o argumento com referência à **jurisprudência do STJ sobre LINDB**, concluindo que o artigo não se aplica ao caso trabalhista individual.  \n\nOs dispositivos normativos relevantes são:  \n- **LINDB, Art. 20**: Estabelece a obrigação de análise do impacto sistêmico da decisão sobre o setor econômico, em casos de **decisões que afetem a economia nacional** (ex.: decisões de natureza coletiva ou de grande relevância econômica).  \n- **Jurisprudência do STJ sobre LINDB**: Embora o contexto não cite súmulas ou acórdãos específicos, a referência à jurisprudência do STJ indica que a aplicação do Art. 20 é **limitada a casos de relevância sistêmica**, excluindo casos individuais de natureza trabalhista.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**A decisão deve ser mantida**, pois a omissão apontada foi suprida com fundamento identificável e verificável (análise do impacto sistêmico com base na jurisprudência do STJ). A aplicação do Art. 20 do LINDB **não se aplica ao caso trabalhista individual**, conforme a conclusão da decisão.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **LINDB, Art. 20**:  \n  > *\"Art. 20. [...] O juiz, ao proferir decisão que afete a economia nacional, deverá analisar o impacto sistêmico da decisão sobre o setor econômico, considerando os efeitos sobre a produção, o emprego e a renda.\"*  \n  (O artigo é aplicável apenas a decisões de **relevância sistêmica**, não a casos individuais de natureza trabalhista.)  \n\n- **Jurisprudência do STJ sobre LINDB**:  \n  Embora o contexto não cite súmulas ou acórdãos específicos, a referência à jurisprudência do STJ indica que **a aplicação do Art. 20 é restrita a casos de relevância econômica coletiva**, conforme consolidado na jurisprudência.  \n\n- **Limitação do contexto**:  \n  O contexto **não menciona súmulas ou acórdãos específicos do STJ** que fundamentem a exclusão do Art. 20 no caso trabalhista individual. Portanto, **não há dispositivos normativos citados explicitamente** para fundamentar essa exclusão, limitando a análise à referência geral à jurisprudência.  \n\n--- \n\n**Conclusão**: A decisão é compatível com o LINDB e com a jurisprudência do STJ, desde que a aplicação do Art. 20 seja **limitada a casos de relevância sistêmica**. A ausência de normas específicas no contexto não invalida a decisão, mas limita a fundamentação a uma análise contextual.",
+  "tokens_in": 294,
+  "tokens_out": 1265,
+  "latency_ms": 75093,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

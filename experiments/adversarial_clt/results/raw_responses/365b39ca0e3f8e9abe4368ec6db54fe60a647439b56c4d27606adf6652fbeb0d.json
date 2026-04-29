@@ -1,0 +1,29 @@
+{
+  "sha256": "365b39ca0e3f8e9abe4368ec6db54fe60a647439b56c4d27606adf6652fbeb0d",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:25:51Z",
+  "prompt_sha": "70c99fcc6dafa8ce31ce53bbe06b00e3241aab50f61531be099540706399dce4",
+  "response_text": "**1. ANÁLISE**\n\n- **semester_hour_bank_requires_cct**: Não se aplica, pois a empresa firmou ACT com sindicato e não é necessário um CCT para estabelecer o banco de horas.\n\n- **hour_bank_without_cct_max_6_months**: Não se aplica, pois a empresa tem um prazo máximo de 5 meses para compensação, que é menor do que os 6 meses permitidos sem CCT.\n\n- **maximum_daily_working_hours_8h**: Se aplica, pois não há horas extras acima de 2h/dia, o que está dentro da limitação diária estabelecida (8h).\n\n**2. DECISÃO RECOMENDADA**\n\nNão há necessidade de uma decisão em sentido estrito, pois a empresa está cumprindo as normas aplicáveis.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **semester_hour_bank_requires_cct**: Conformidade (não se aplica)\n- **hour_bank_without_cct_max_6_months**: Conformidade (prazo de 5 meses é menor do que o permitido sem CCT)\n- **maximum_daily_working_hours_8h**: Conformidade",
+  "tokens_in": 372,
+  "tokens_out": 259,
+  "latency_ms": 4483,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

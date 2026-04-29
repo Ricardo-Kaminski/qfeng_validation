@@ -1,0 +1,19 @@
+{
+  "sha256": "b75259c61fb47484f9cff60527ed6d9b44783d4aa219f096e2df3b8727fa876f",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T20:09:03Z",
+  "prompt_sha": "c800b08bc530e3122be31b4e610bc034e22dcdc366a0e85bec8990b192b786cb",
+  "response_text": "**ANÁLISE**\n\n1.  Identificação dos dispositivos do contexto normativo aplicáveis ao caso:\n    *   Artigo 20 da Lei nº 5.869/1973 (Código de Processo Civil), que estabelece a regra sobre fundamentação das decisões judiciais.\n2.  DECISÃO RECOMENDADA:\n\nA decisão recomendada é que o acórdão trabalhista seja anulado, pois não cumpriu com os requisitos da fundamentação previstos no Artigo 20 do Código de Processo Civil.\n\n3.  FUNDAMENTAÇÃO NORMATIVA:\n\nO Artigo 20 do Código de Processo Civil estabelece que as decisões judiciais devem ser fundamentadas, ou seja, o juiz deve explicitar os motivos e as razões pelas quais tomou a decisão. A falta de fundamentação é considerada um vício processual grave.\n\nNesse caso específico, o acórdão trabalhista cita doutrina sem identificação completa, o que não atende aos requisitos da fundamentação previstos no Artigo 20 do Código de Processo Civil. Isso significa que a decisão não está de acordo com as regras processuais e deve ser anulada.\n\n**Limitações:**\n\nNão há súmulas específicas mencionadas no contexto fornecido, apenas o artigo 20 da Lei nº 5.869/1973 (Código de Processo Civil).",
+  "tokens_in": 284,
+  "tokens_out": 331,
+  "latency_ms": 5589,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

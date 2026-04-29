@@ -1,0 +1,19 @@
+{
+  "sha256": "235dc4af1f83e2e24a5f780f0b4056a0ed591a259584a1b1869dbdcfac196384",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T20:09:12Z",
+  "prompt_sha": "c800b08bc530e3122be31b4e610bc034e22dcdc366a0e85bec8990b192b786cb",
+  "response_text": "**ANÁLISE**\n\nO caso envolve uma citação doutrinária em um Acórdão trabalhista sem a devida identificação da obra, edição, ano ou página. O recorrente argumenta que tal falta de especificidade torna a citação equivalente à ausência de fundamentação, o que violaria os princípios do artigo 20 do Código Civil (LINDB - Lei nº 5.869/1973).\n\n**DISPOSITIVOS DO CONTEXTO NORMATIVO APPLICÁVEIS**\n\n1. **Lei nº 5.869/1973 (Código Civil)**: Art. 20, que trata sobre a fundamentação das decisões judiciais.\n2. **Não há menção explícita a súmulas do Superior Tribunal de Justiça (STJ) ou Supremo Tribunal Federal (STF) específicas para este caso.**\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que o Acórdão seja anulado e remetido à relatoria original, com a solicitação ao juiz de realizar uma nova fundamentação completa da decisão, incluindo a citação precisa da obra doutrinária. Isso se deve ao fato de que a falta de identificação específica da fonte doutrinária viola o princípio do artigo 20 do Código Civil, que exige a fundamentação das decisões judiciais.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\nArt. 20 do Código Civil (Lei nº 5.869/1973):\n\n\"O juiz de primeira instância decidirá no prazo de trinta dias, contados da data em que o processo estiver em condições de ser julgado. A decisão será fundamentada nos termos do artigo anterior.\"\n\nEssa norma é aplicável ao caso pois exige a fundamentação das decisões judiciais, o que inclui a citação precisa de fontes doutrinárias.\n\n**LIMITAÇÃO**\n\nNão há dispositivos específicos do contexto acima mencionado que sejam aplicáveis diretamente à questão da súmula. As súmulas são pronunciamentos do STF e STJ sobre interpretações das leis, mas não foram citadas no contexto fornecido.",
+  "tokens_in": 284,
+  "tokens_out": 504,
+  "latency_ms": 8408,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

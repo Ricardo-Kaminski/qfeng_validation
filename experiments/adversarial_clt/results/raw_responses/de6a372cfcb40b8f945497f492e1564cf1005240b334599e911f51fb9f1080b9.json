@@ -1,0 +1,30 @@
+{
+  "sha256": "de6a372cfcb40b8f945497f492e1564cf1005240b334599e911f51fb9f1080b9",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:30:36Z",
+  "prompt_sha": "2894b7676eac7e9e2cb55e15eed63978b4e2d5820472a6bee747c60e44ab8c8e",
+  "response_text": "**1. ANÁLISE**\n\na. **obligation_to_ground_decision_in_identified_ratio_decidendi**: O TRT decidiu a ação citando a Súmula TST 60 e identificou a ratio decidendi (o revezamento noturno integra o adicional à remuneração). Além disso, analisou o caso concreto e aplicou a Súmula de forma adequada, demonstrando que o regime do trabalhador se enquadra na hipótese da Súmula. Isso significa que o TRT cumpriu com a obrigação de fundamentar sua decisão no ratio decidendi identificado.\n\nb. **due_process_of_law**: O TRT analisou o caso concreto, aplicando a Súmula TST 60 e explicitando a distinção com casos de turno fixo não noturno. Isso demonstra que o processo foi conduzido de forma justa e equitativa, respeitando os direitos do trabalhador e as normas aplicáveis. Portanto, o TRT cumpriu com o princípio do devido processo legal.\n\n**2. DECISÃO RECOMENDADA**\n\nCom base nos predicados acima, a decisão recomendada é que seja mantida a decisão do TRT, pois ela está fundamentada na aplicação correta da Súmula TST 60 e respeita os direitos do trabalhador.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi**: Cumprido\n*   **due_process_of_law**: Cumprido",
+  "tokens_in": 388,
+  "tokens_out": 374,
+  "latency_ms": 6391,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

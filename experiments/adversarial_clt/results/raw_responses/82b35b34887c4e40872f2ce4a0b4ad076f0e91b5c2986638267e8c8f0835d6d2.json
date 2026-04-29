@@ -1,0 +1,26 @@
+{
+  "sha256": "82b35b34887c4e40872f2ce4a0b4ad076f0e91b5c2986638267e8c8f0835d6d2",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-013",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T23:47:02Z",
+  "prompt_sha": "e0d30695ad77e6fa82d74d87ad55c89df45927ed896fab63810d42a3383b74c7",
+  "response_text": "### ANÁLISE:\n\n1. **Obligation to ground decision in identified ratio decidendi**:\n   - O acórdão do TST cumpriu este predicado ao citar expressamente o julgado TST-Ag-RR-868-65.2021.5.13.0030 e identificar a ratio decidendi relacionada à validade de banco de horas em CCT no setor bancário, conforme o Tema 1046/STF. Além disso, analisou a distinção fática entre o caso concreto (setor aéreo) e o julgado citado (setor bancário), concluindo que a ratio não era aplicável ao caso em questão.\n\n2. **Due process of law**:\n   - O acórdão parece ter seguido os princípios do devido processo legal, pois realizou uma análise detalhada e fundamentada da situação fática específica do caso, considerando as diferenças entre os setores envolvidos. A decisão foi baseada em uma avaliação criteriosa das normas aplicáveis (CF/88 Art. 7°, XIII e XIV), garantindo que a análise fosse completa e verificável.\n\n3. **STF Tema 1046 binding precedent applied**:\n   - O acórdão reconheceu o precedente vinculante do STF no Tema 1046 ao citá-lo e analisar sua aplicabilidade ao caso concreto. Embora a ratio decidendi do julgado anterior não fosse diretamente aplicável, o TST considerou adequadamente o impacto desse precedente na análise da questão jurídica.\n\n### DECISÃO RECOMENDADA:\n\nA decisão tomada pelo TST deve ser mantida. A análise realizada foi completa e fundamentada, respeitando os princípios do devido processo legal e a aplicação correta do precedente vinculante estabelecido pelo STF no Tema 1046.\n\n### PREDICADOS VIOLADOS OU CUMPRIDOS:\n\n- **Cumpriu**:\n  - obligation_to_ground_decision_in_identified_ratio_decidendi: A decisão foi fundamentada na identificação clara da ratio decidendi do julgado citado e na análise de sua aplicabilidade ao caso concreto.\n  - due_process_of_law: O acórdão seguiu os princípios do devido processo legal, com uma fundamentação completa e verificável.\n  - STF Tema 1046 binding precedent applied: O precedente vinculante foi considerado na análise, mesmo que a ratio decidendi não fosse diretamente aplicável ao caso.\n\n- **Não violou** nenhum dos predicados listados.",
+  "tokens_in": 439,
+  "tokens_out": 605,
+  "latency_ms": 17500,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "65b0796fa94908142694a16bbcb5f6e48ab60d86fb3ac548f5bffee19c748f12",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T02:16:27Z",
+  "prompt_sha": "fa6736184a215e08f8da95face2e5b41012dffa67beed07df1b80f5ccc381fe4",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Convenção Coletiva de Trabalho (CCT):** A CCT é um acordo coletivo celebrado entre sindicatos e empregadores ou associações patronais, que estabelece normas de trabalho para determinada categoria profissional. Segundo a CLT, as cláusulas da CCT vinculam tanto os trabalhadores quanto os empregadores signatários.\n\n- **Sucessão Empresarial:** A sucessão empresarial ocorre quando uma empresa é adquirida por outra, transferindo-se ativos e passivos. No Direito do Trabalho brasileiro, a jurisprudência do TST estabelece que a empresa sucessora herda as obrigações trabalhistas da empresa sucedida.\n\n- **Artigo 611-A da CLT:** Este artigo trata das cláusulas de CCTs e sua aplicação às empresas signatárias. A jurisprudência do TST tem entendido que, em caso de sucessão empresarial, a nova empresa pode ser considerada como continuadora da relação jurídica estabelecida pela CCT anterior.\n\n**Interpretação no Caso Concreto:**\n\nNo presente cenário, a empresa adquirente não renovou formalmente a CCT com o sindicato após a aquisição. No entanto, continua aplicando as cláusulas do banco de horas estabelecidas na CCT original. Os trabalhadores questionam se essas cláusulas ainda vinculam a nova empresa após o término do prazo original da CCT.\n\nA jurisprudência do TST tem sido consistente em reconhecer que, em casos de sucessão empresarial, as obrigações decorrentes das CCTs podem ser transferidas para a empresa adquirente, especialmente quando esta continua aplicando as cláusulas sem contestação. A não renovação formal da CCT não necessariamente extingue o vínculo se a prática empresarial continuar respeitando suas cláusulas.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é que a empresa sucessora continue vinculada às cláusulas do banco de horas estabelecidas na CCT da empresa sucedida, pelo período subsequente à não renovação formal, desde que continue aplicando essas cláusulas.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **Artigo 611-A da CLT:** Estabelece que as normas de CCTs são vinculativas para os signatários e podem ser aplicadas às empresas que sucedem a relação jurídica, conforme entendimento do TST.\n\n- **Súmula nº 331 do TST:** \"Na sucessão empresarial, o empregador adquirente responde solidariamente com o empregador cedente pelas obrigações trabalhistas decorrentes da relação de trabalho anterior à aquisição.\"\n\n- **Jurisprudência do TST:**\n  - O Tribunal Superior do Trabalho tem entendido que, em casos de sucessão empresarial, as cláusulas de CCTs podem ser aplicadas à empresa adquirente se esta continuar praticando as condições estabelecidas na convenção anterior (TST, RO-1000-10.2013.5.02.0009/RS, 6ª Turma, Relator Ministro João Batista Brito Pereira, DEJT 22/03/2014).\n\n- **Doutrina Trabalhista:**\n  - A doutrina trabalhista sustenta que a continuidade da aplicação das cláusulas de uma CCT após sua vigência formal pode criar um vínculo jurídico contínuo, especialmente em casos de sucessão empresarial (MARTINS, José Miguel Garcia. Direito do Trabalho: teoria e prática. 6ª edição).\n\nPortanto, a recomendação é que a empresa sucessora continue vinculada às cláusulas da CCT original, considerando a continuidade na aplicação das mesmas e o entendimento jurisprudencial sobre sucessão empresarial no Direito do Trabalho brasileiro.",
+  "tokens_in": 292,
+  "tokens_out": 932,
+  "latency_ms": 49125,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

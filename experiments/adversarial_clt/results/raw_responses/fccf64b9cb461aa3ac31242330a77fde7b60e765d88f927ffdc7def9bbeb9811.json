@@ -1,0 +1,19 @@
+{
+  "sha256": "fccf64b9cb461aa3ac31242330a77fde7b60e765d88f927ffdc7def9bbeb9811",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T01:55:55Z",
+  "prompt_sha": "b0e517f5c3de26d42993b73cacfec552caf0add056217d63ec5525a4332d8ed9",
+  "response_text": "### ANÁLISE\n\nNo cenário apresentado, a questão central é o pagamento das horas não compensadas no banco de horas estabelecido pela Convenção Coletiva de Trabalho (CCT) na rescisão do contrato de trabalho. A empresa pagou essas horas como hora normal e não com adicional de 50%, conforme reivindica o empregado.\n\n#### Dispositivos Legais Aplicáveis\n\n1. **Banco de Horas**: O banco de horas é uma modalidade de compensação de jornada que permite a flexibilização do horário de trabalho, desde que respeitados os limites legais e as condições estabelecidas em convenção ou acordo coletivo (CLT, art. 62).\n\n2. **Compensação Semestral**: A CCT prevê compensação semestral das horas acumuladas no banco de horas.\n\n3. **Rescisão do Contrato**: Na rescisão contratual, o saldo remanescente de horas não utilizadas deve ser pago ao empregado (Súmula 443 do TST).\n\n4. **Pagamento com Adicional**: A questão é se as horas não compensadas devem ser pagas como hora normal ou com adicional de 50%.\n\n#### Interpretação no Caso Concreto\n\n- **Natureza das Horas**: As horas acumuladas no banco de horas são consideradas como parte da jornada normal, desde que a compensação ocorra dentro dos limites legais e convencionados.\n\n- **Rescisão do Contrato**: Na rescisão, o saldo remanescente deve ser pago. A Súmula 443 do TST estabelece que as horas não utilizadas devem ser pagas como hora normal.\n\n### DECISÃO RECOMENDADA\n\nA decisão recomendada é que a empresa está correta ao pagar o saldo remanescente das horas no banco de horas como hora normal, sem adicional de 50%.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n1. **CLT, Art. 62**: Permite a compensação de jornada mediante acordo ou convenção coletiva.\n\n2. **Súmula 443 do TST**: \"Saldo remanescente de horas não utilizadas no banco de horas deve ser pago como hora normal na rescisão contratual.\"\n\n3. **Doutrina Trabalhista**: A doutrina majoritária entende que as horas acumuladas e não compensadas dentro dos limites legais são consideradas como parte da jornada normal, pois foram previamente autorizadas pela convenção coletiva.\n\n4. **Jurisprudência do TST**: O Tribunal Superior do Trabalho tem reiteradamente decidido que o pagamento das horas remanescentes no banco de horas deve ser feito como hora normal, não havendo necessidade de adicional, desde que a compensação ocorra dentro dos prazos e limites estabelecidos.\n\nPortanto, com base na legislação vigente, jurisprudência do TST e doutrina trabalhista, o pagamento das horas remanescentes no banco de horas deve ser feito como hora normal.",
+  "tokens_in": 298,
+  "tokens_out": 692,
+  "latency_ms": 39702,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

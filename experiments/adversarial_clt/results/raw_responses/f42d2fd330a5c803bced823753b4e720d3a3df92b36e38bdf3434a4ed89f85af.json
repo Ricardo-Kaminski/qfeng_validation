@@ -1,0 +1,29 @@
+{
+  "sha256": "f42d2fd330a5c803bced823753b4e720d3a3df92b36e38bdf3434a4ed89f85af",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-001",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T23:47:47Z",
+  "prompt_sha": "1bd0aef03e0b6d03d84ca202cf6b7a00e95994884a42849dc5597c5e0bcb70a2",
+  "response_text": "1. **ANÁLISE:**\n\n   - **semester_hour_bank_requires_cct_or_act:** Este predicado normativo estabelece que o banco de horas deve ser regulamentado por um Acordo Coletivo de Trabalho (ACT) ou Convenção Coletiva de Trabalho (CCT). No cenário apresentado, a empresa implementou unilateralmente o banco de horas sem a celebração de qualquer ACT ou CCT que autorizasse tal prática. Isso indica uma violação do requisito normativo, pois não houve negociação sindical para legitimar o banco de horas.\n\n   - **prohibition_on_unilateral_hour_bank:** Este predicado proíbe a implementação unilateral do banco de horas por parte da empresa. A empresa no caso em questão implantou o banco de horas mediante um memorando interno assinado pelos empregados, sem negociação sindical. Isso constitui uma violação da norma que exige que tal prática seja negociada e aprovada coletivamente, não unilateralmente.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base nos predicados normativos aplicáveis, recomenda-se que o banco de horas implementado pela empresa seja considerado inválido, já que foi estabelecido unilateralmente sem a necessária negociação sindical e ausência de autorização por meio de um ACT ou CCT. A empresa deve cessar imediatamente a utilização do banco de horas sob as condições atuais e buscar negociar com o sindicato da categoria para regularizar a situação conforme a legislação trabalhista.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violados:**\n     - *semester_hour_bank_requires_cct_or_act:* A empresa não obteve autorização por meio de um ACT ou CCT para o banco de horas.\n     - *prohibition_on_unilateral_hour_bank:* A implementação do banco de horas foi feita unilateralmente, sem negociação sindical.\n\n   - **Cumpridos:**\n     - Não há predicados cumpridos no cenário apresentado, pois ambas as normativas foram violadas pela empresa.",
+  "tokens_in": 353,
+  "tokens_out": 474,
+  "latency_ms": 13672,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

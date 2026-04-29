@@ -1,0 +1,19 @@
+{
+  "sha256": "580c8e7d5aa8ec8fa018f550af60566271def254352b1f6700cca6d5ca84a716",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-010",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T06:47:17Z",
+  "prompt_sha": "54c78e8764f323ecedb1581931d4078369f96ca3a87490a0206e6eebe8350d10",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a utilização de banco de horas com compensação mensal em uma empresa de tecnologia que firmou Acordo Coletivo de Trabalho (ACT) com o sindicato dos trabalhadores em informática. A análise deve considerar os dispositivos legais aplicáveis, especialmente os artigos da Consolidação das Leis do Trabalho (CLT), jurisprudência do Tribunal Superior do Trabalho (TST) e doutrina trabalhista.\n\n**Dispositivos Legais Aplicáveis**\n\n- **Banco de Horas com Compensação Mensal**: O artigo 59 da CLT permite a compensação de horas extras, desde que dentro dos limites estabelecidos no contrato coletivo ou acordo individual. Nesse caso, o ACT estabeleceu um limite de 40h mensais de acúmulo e prazo máximo de 5 meses.\n  \n- **Compensação Mensal**: A compensação das horas extras é realizada dentro do prazo estabelecido no contrato coletivo ou acordo individual. Nesse caso, a compensação mensal está de acordo com o disposto na legislação.\n\n- **Limites da Compensação e Prazo Máximo**: O artigo 59 da CLT não estabelece um limite máximo para a compensação de horas extras em termos de prazo. No entanto, a jurisprudência do TST tem reconhecido que a compensação deve ser feita dentro de prazos razoáveis e que o prazo de 5 meses pode ser considerado razoável, desde que não seja abusivo.\n\n- **Fornecimento de Extrato do Banco**: O artigo 145 da CLT estabelece a obrigação do empregador em fornecer ao empregado, mensalmente, um extrato das horas trabalhadas e compensadas. Nesse caso, o empregador está cumprindo com essa obrigação.\n\n- **Horas Extras Acima de 2h/dia**: A CLT não estabelece um limite máximo para a realização de horas extras diárias. No entanto, a jurisprudência do TST tem reconhecido que o trabalho em excesso pode ser considerado como horas extras se não for previsto no contrato coletivo ou acordo individual.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando os dispositivos legais aplicáveis e a interpretação da legislação trabalhista, recomenda-se que a decisão seja favorável à empresa, desde que:\n\n- A compensação mensal esteja sendo realizada dentro do prazo estabelecido no ACT.\n- O empregador esteja fornecendo ao empregado o extrato das horas trabalhadas e compensadas de forma regular.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n- **Artigo 59 da CLT**: Permite a compensação de horas extras, desde que dentro dos limites estabelecidos no contrato coletivo ou acordo individual.\n  \n- **Súmula 438 do TST**: Estabelece que a compensação de horas extras deve ser feita dentro de prazos razoáveis.\n\n- **Precedentes Constitucionais**: Embora não específicos, os princípios da boa-fé e da igualdade devem ser considerados ao interpretar as cláusulas do ACT e a legislação trabalhista.",
+  "tokens_in": 307,
+  "tokens_out": 754,
+  "latency_ms": 24811,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

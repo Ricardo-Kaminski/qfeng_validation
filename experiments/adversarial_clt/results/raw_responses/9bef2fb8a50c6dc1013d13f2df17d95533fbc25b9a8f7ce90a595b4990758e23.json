@@ -1,0 +1,29 @@
+{
+  "sha256": "9bef2fb8a50c6dc1013d13f2df17d95533fbc25b9a8f7ce90a595b4990758e23",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:40:02Z",
+  "prompt_sha": "e9b9a0f5b834d2f759bd4690a730595f761f0af48ca69ce693978c1f4c32a68d",
+  "response_text": "## Análise do Caso: Banco de Horas na Indústria Hoteleira e o Prazo de Compensação\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, segue a análise, decisão recomendada e identificação de cumprimento/violação dos predicados:\n\n**1. ANÁLISE:**\n\n*   **hour_bank_with_cct_max_1_year:** Este predicado estabelece que, em geral, o prazo máximo para compensação do banco de horas, quando regulamentado por CCT, é de 1 ano. A empresa hoteleira argumenta que a autonomia das partes coletivas e o princípio da adequação setorial negociada permitiriam estender esse prazo, conforme estabelecido na CCT do setor hoteleiro para 14 meses. O sindicato, por outro lado, defende a prevalência do limite de 1 ano, invocando a Súmula TST 85, V.\n\n    *   **Interpretação do Predicado:** O predicado não é absoluto. Ele reconhece a possibilidade de flexibilização por meio de CCT, mas a jurisprudência do TST (Súmula 85, V) impõe limites a essa flexibilização. A questão central é se a extensão do prazo para 14 meses, por meio da CCT, excede os limites da autonomia coletiva e da adequação setorial negociada, ou se ainda se encontra dentro dos parâmetros aceitáveis.\n    *   **Súmula TST 85, V:** A Súmula 85, V, do TST, estabelece que o prazo para compensação do banco de horas não pode exceder o limite de 1 ano, sob pena de reconhecimento da dívida como horas extras. Essa súmula reflete a preocupação em proteger o direito do trabalhador à limitação da jornada de trabalho e ao pagamento de horas extras quando a compensação não ocorre dentro de um prazo razoável.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que a decisão seja **favorável ao sindicato dos hotéis e que o prazo de compensação do banco de horas seja limitado a 1 ano**, conforme a Súmula TST 85, V.\n\n*   **Justificativa:** Embora a autonomia das partes coletivas e o princípio da adequação setorial negociada sejam importantes para a regulamentação das relações de trabalho, eles não são ilimitados. A jurisprudência do TST, expressa na Súmula 85, V, estabelece um limite de 1 ano para a compensação do banco de horas, considerado norma de ordem pública. Ultrapassar esse limite pode levar à reclassificação das horas não compensadas como horas extras, o que teria consequências financeiras significativas para a empresa e desvirtuaria a finalidade do banco de horas, que é a flexibilização da jornada de trabalho sem o pagamento de horas extras.\n*   **Considerações Adicionais:** É importante ressaltar que a CCT pode prever regras específicas para o funcionamento do banco de horas, desde que não violem os direitos mínimos assegurados pela legislação trabalhista e a jurisprudência do TST.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **hour_bank_with_cct_max_1_year:** **Violação**. A CCT estabeleceu um prazo de 14 meses, extrapolando o limite máximo de 1 ano previsto no predicado, embora com a ressalva de que CCTs podem flexibilizar. No entanto, essa flexibilização é limitada pela jurisprudência do TST (Súmula 85, V).\n*   **Súmula TST 85, V:** **Conformidade**. A decisão recomendada está em conformidade com a Súmula 85, V, que estabelece o limite de 1 ano para a compensação do banco de horas.\n\n**Em resumo, a autonomia coletiva e o princípio da adequação setorial negociada não podem ser utilizados para ignorar ou contornar normas de ordem pública, como o limite de 1 ano para a compensação do banco de horas estabelecido pela jurisprudência do TST.**",
+  "tokens_in": 334,
+  "tokens_out": 923,
+  "latency_ms": 25437,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

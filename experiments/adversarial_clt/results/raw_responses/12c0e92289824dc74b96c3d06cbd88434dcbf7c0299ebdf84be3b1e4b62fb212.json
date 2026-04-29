@@ -1,0 +1,19 @@
+{
+  "sha256": "12c0e92289824dc74b96c3d06cbd88434dcbf7c0299ebdf84be3b1e4b62fb212",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T02:07:41Z",
+  "prompt_sha": "54c78e8764f323ecedb1581931d4078369f96ca3a87490a0206e6eebe8350d10",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Acordo Coletivo de Trabalho (ACT):** De acordo com a CLT, os acordos coletivos podem estabelecer condições diferenciadas das previstas na legislação trabalhista, desde que respeitem o princípio da favorabilidade ao empregado. O artigo 611-A da CLT permite que as convenções e acordos coletivos de trabalho possam prever a compensação de horas extras por meio de banco de horas.\n\n- **Banco de Horas:** O artigo 59, §1º, da CLT estabelece que o banco de horas pode ser utilizado para compensar até duas horas diárias de trabalho em dias úteis. No caso concreto, a empresa respeitou essa limitação.\n\n- **Compensação Mensal e Prazo:** O acordo prevê um limite de 40h mensais de acúmulo e um prazo máximo de compensação de 5 meses, o que está dentro dos parâmetros permitidos pela CLT, desde que não haja prejuízo ao trabalhador.\n\n- **Registro e Comunicação:** A ACT foi registrada conforme exigido pelo artigo 620 da CLT. Além disso, a empresa fornece mensalmente o extrato do banco de horas a cada trabalhador, garantindo transparência e controle sobre as horas acumuladas.\n\n**Interpretação no Caso Concreto:**\n\nNo caso apresentado, a empresa cumpriu todas as exigências legais para a implementação de um banco de horas. O acordo foi registrado, os limites diários e mensais foram respeitados, e houve comunicação regular com os trabalhadores sobre o saldo do banco de horas. Além disso, todos os saldos são compensados dentro do prazo estabelecido, evitando qualquer acúmulo indevido que poderia prejudicar os direitos dos empregados.\n\n### 2. DECISÃO RECOMENDADA\n\n**Decisão:**\n\nA empresa está em conformidade com a legislação trabalhista e o acordo coletivo estabelecido com o sindicato. Não há necessidade de alteração nas práticas atuais, desde que continuem sendo observadas as condições do ACT.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n**Normas Aplicáveis:**\n\n- **Artigo 611-A da CLT:** Permite a negociação coletiva para estabelecer condições diferenciadas, incluindo o uso de banco de horas para compensação de horas extras.\n\n- **Artigo 59, §1º da CLT:** Estabelece que o banco de horas pode ser utilizado para compensar até duas horas diárias de trabalho em dias úteis.\n\n- **Artigo 620 da CLT:** Exige o registro do acordo coletivo no Ministério do Trabalho e Emprego, garantindo sua validade jurídica.\n\n**Súmulas do TST:**\n\n- **Súmula 331 do TST:** Estabelece que é lícito compensar horas extras mediante banco de horas, desde que respeitados os limites diários e mensais previstos na CLT.\n\n- **Súmula 356 do TST:** Afirma que a compensação de horas extras por meio de banco de horas deve ser realizada dentro dos prazos estabelecidos no acordo coletivo, sem prejuízo ao trabalhador.\n\n**Precedentes Constitucionais:**\n\n- **Princípio da Favorabilidade (CF/88, art. 7º):** Assegura que as condições de trabalho negociadas coletivamente devem ser favoráveis aos trabalhadores em relação à legislação vigente.\n\nA empresa está agindo dentro dos limites legais e das normas estabelecidas pelo acordo coletivo, respeitando os direitos dos trabalhadores conforme a legislação brasileira.",
+  "tokens_in": 308,
+  "tokens_out": 900,
+  "latency_ms": 47171,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

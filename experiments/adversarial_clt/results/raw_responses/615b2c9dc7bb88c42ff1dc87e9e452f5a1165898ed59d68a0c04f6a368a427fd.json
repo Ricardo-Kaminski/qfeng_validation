@@ -1,0 +1,30 @@
+{
+  "sha256": "615b2c9dc7bb88c42ff1dc87e9e452f5a1165898ed59d68a0c04f6a368a427fd",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-007",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T23:16:51Z",
+  "prompt_sha": "87cfca1418f3f656618cfac13aa7f2dd97f0633ba491f0fa22ab0f1a80de9a98",
+  "response_text": "### 1. **ANÁLISE: Aplicação dos predicados normativos ao caso concreto**  \n- **obligation_to_ground_decision_in_identified_ratio_decidendi**  \n  A decisão do TRT está plenamente alinhada com esse predicado, pois **identificou claramente o fundamento jurídico** (CF/88 Art. 10, II, \"b\" (ADCT), Súmula TST 244 e OJ 399 da SDI-1) para concluir pela nulidade da dispensa. A menção explícita à OJ 399, que afasta a exigência de comunicação prévia da gravidez ao empregador, demonstra que a decisão foi fundamentada em um **ratio decidendi identificado e vinculado à norma jurídica aplicável**.  \n\n- **due_process_of_law**  \n  O TRT observou o devido processo legal ao **analisar os fatos provados** (gravidez anterior à dispensa) e ao aplicar as normas de forma sistemática. A decisão não omitiu elementos essenciais (como a existência da estabilidade provisória) e **respeitou os direitos da parte** ao reconhecer a nulidade da dispensa e a reintegração, conforme previsto na legislação trabalhista.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA decisão do TRT está **em conformidade com a lei e com os predicados normativos aplicáveis**. Portanto, **não há necessidade de revisão ou anulação** da decisão. Recomenda-se **manter a sentença** que afirma a nulidade da dispensa da gestante e determina sua reintegração, com base no **devido processo legal** e na **fundamentação jurídica adequada**.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: **Conformidade**  \n  A decisão do TRT fundamentou-se claramente em normas jurídicas identificadas (CF/88 Art. 10, II, \"b\" (ADCT), Súmula TST 244 e OJ 399 da SDI-1), cumprindo o requisito de vinculação ao ratio decidendi.  \n\n- **due_process_of_law**: **Conformidade**  \n  O TRT observou o devido processo legal ao analisar os fatos provados, aplicar as normas de forma sistemática e respeitar os direitos da parte (reintegração da gestante). Não houve violação de qualquer garantia processual.  \n\n**Predicados violados**: **Nenhum**.  \n**Predicados cumpridos**: **Ambos** (obligation_to_ground_decision_in_identified_ratio_decidendi e due_process_of_law).",
+  "tokens_in": 392,
+  "tokens_out": 1078,
+  "latency_ms": 32718,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

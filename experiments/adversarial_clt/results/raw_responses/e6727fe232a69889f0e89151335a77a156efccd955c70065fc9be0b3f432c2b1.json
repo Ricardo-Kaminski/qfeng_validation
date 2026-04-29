@@ -1,0 +1,26 @@
+{
+  "sha256": "e6727fe232a69889f0e89151335a77a156efccd955c70065fc9be0b3f432c2b1",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T22:11:23Z",
+  "prompt_sha": "2ccf087828688c249158ffc8bae7cebf5d31cffd47aadf38f1078116d62627f1",
+  "response_text": "### 1. **ANÁLISE**  \nO predicado normativo **obligation_to_ground_decision_in_identified_ratio_decidendi** impõe que a decisão judicial deve ser fundamentada em **razões específicas e identificáveis**, vinculadas aos fatos e às normas jurídicas aplicáveis ao caso concreto. No cenário descrito, o juiz **omitiu-se de analisar o ponto de contradição específico** apontado pela parte embargante (a aplicação de tese de recurso de uma parte para beneficiar a parte contrária, sem contraditório), **não fundamentando a decisão em razões identificáveis**. Isso viola o princípio da **motivação da decisão**, previsto no art. 1.019 do CPC/1973 (e no art. 5º, XXXVIII, da CF/1988), que exige que a decisão contenha **explicação clara e fundamentada** para a conclusão jurídica alcançada.  \n\nA ausência de análise do ponto específico da contradição **não cumpre a obrigação de fundamentar a decisão em razões identificáveis**, pois o juiz não demonstrou como a aplicação da tese de recurso de uma parte beneficiou a parte contrária, nem como isso foi compatível com o contraditório processual. Isso configura uma **omissão de fundamentação**, que pode ser considerada **nulidade** da decisão, conforme jurisprudência do STJ e TST (ex.: REsp 1.683.844/SP, STJ, 5ª Turma, 2020).\n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **decisão nos embargos de declaração deve ser anulada**, pois o juiz **não cumpriu a obrigação de fundamentar a decisão em razões identificáveis** (predicado normativo violado). A parte embargante deve ser **ouvida novamente** para que o juiz analise o ponto de contradição específico (a aplicação de tese de recurso de uma parte para beneficiar a parte contrária, sem contraditório), **fundamentando a decisão com base em normas jurídicas e fatos concretos**. Caso o juiz persista na decisão, a **nulidade** pode ser declarada por **omissão de fundamentação**, conforme prevê o art. 485, § 1º, do CPC/1973.\n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Violado**:  \n  - **obligation_to_ground_decision_in_identified_ratio_decidendi** (o juiz omitiu-se de analisar o ponto de contradição específico, não fundamentando a decisão em razões identificáveis).  \n\n- **Conformidade**:  \n  - **Nenhum outro predicado normativo foi explicitamente mencionado no cenário**, mas a ausência de análise do ponto específico da contradição **viola diretamente** o predicado acima listado.  \n\n--- \n\n**Conclusão**: A decisão nos embargos de declaração é **nula por omissão de fundamentação**, e o juiz deve ser compelido a reanalisar o ponto de contradição apontado pela parte embargante, com base em **razões identificáveis**.",
+  "tokens_in": 337,
+  "tokens_out": 1145,
+  "latency_ms": 34625,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

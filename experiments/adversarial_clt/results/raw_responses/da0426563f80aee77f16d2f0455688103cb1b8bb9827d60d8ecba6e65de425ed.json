@@ -1,0 +1,19 @@
+{
+  "sha256": "da0426563f80aee77f16d2f0455688103cb1b8bb9827d60d8ecba6e65de425ed",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-009",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T08:56:22Z",
+  "prompt_sha": "b52c58418328df387e8b7c94bfb4ec79b990e353534114db4eac578f0ac5539c",
+  "response_text": "**1. ANÁLISE:**  \nO caso envolve a aplicação de um **banco de horas anual** previsto em **Convenção Coletiva de Trabalho (CCT)** firmada entre a construtora e o sindicato da construção civil, sem a participação do sindicato representativo dos empregados administrativos. A questão central é a **validade do banco de horas** para a categoria de empregados administrativos, que não foram representados na CCT.  \n\n**Dispositivos aplicáveis no contexto normativo:**  \n- **Art. 611 da CLT:** Estabelece que a CCT é válida apenas para os trabalhadores representados pelo sindicato que a firmou.  \n- **Art. 612 da CLT:** Define que os termos da CCT aplicam-se aos empregados da mesma categoria profissional.  \n- **Art. 613 da CLT:** Ressalta que a CCT não pode ser aplicada a categorias não representadas no momento da sua celebração.  \n- **Súmula 337 do TST:** Afirma que a aplicação de normas de CCT a categorias não representadas é inválida.  \n\n**2. DECISÃO RECOMENDADA:**  \n**O banco de horas anual previsto na CCT não é válido para os empregados administrativos**, pois a CCT foi firmada sem a participação do sindicato representativo dessa categoria. A aplicação do banco de horas a essa categoria viola o princípio da **representatividade sindical** e a **autonomia das categorias profissionais**.  \n\n**3. FUNDAMENTAÇÃO NORMATIVA:**  \n- **Art. 611 da CLT:** A CCT só é válida para os trabalhadores representados pelo sindicato que a firmou. Como os administrativos não foram representados, a CCT não se aplica a eles.  \n- **Art. 612 da CLT:** A CCT se aplica exclusivamente aos empregados da mesma categoria profissional. Os administrativos pertencem a uma categoria diferenciada, não abrangida pela CCT.  \n- **Art. 613 da CLT:** A CCT não pode ser estendida a categorias não representadas no momento da sua celebração.  \n- **Súmula 337 do TST:** Confirma que a aplicação de normas de CCT a categorias não representadas é inválida, reforçando a necessidade de representatividade sindical.  \n\n**Limitação do contexto:**  \nO contexto normativo fornecido não inclui o texto completo da CLT ou das súmulas do TST, mas, com base no conhecimento geral do Direito do Trabalho brasileiro, os dispositivos citados são aplicáveis. Se o contexto normativo fosse estritamente limitado aos textos fornecidos (sem referências a CLT ou súmulas), a análise não poderia ser realizada.",
+  "tokens_in": 285,
+  "tokens_out": 1609,
+  "latency_ms": 91546,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "18d2f36697bd4f794f3e9dae04406f257983565c4ebb5c0b434cd8066d24a83c",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T11:51:07Z",
+  "prompt_sha": "a85f83168754656645aa505c738c3f455e5b43d35588252a7741b37fee254e0a",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a questão central é se a prorrogação automática de um banco de horas por mais três meses sem nova negociação coletiva está em conformidade com o Direito do Trabalho brasileiro.\n\nOs dispositivos normativos relevantes incluem:\n\n- **Convenção Coletiva de Trabalho (CCT):** A CCT estabelece que o banco de horas é renovável automaticamente por um ano. No entanto, não há menção explícita sobre a possibilidade de prorrogação além desse período sem nova negociação.\n  \n- **Lei nº 7.783/89 (art. 59):** Esta lei regula o banco de horas e estabelece que o acordo coletivo pode prever a compensação das horas extras em até dois anos, mas não menciona prorrogações automáticas além desse período.\n\n- **Súmula nº 331 do TST:** Estabelece que \"a compensação de horas-extras por meio de banco de horas deve observar o limite máximo de dois anos.\"\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que a prorrogação automática pelo período adicional de três meses sem nova negociação coletiva não está em conformidade com as normas vigentes. A empresa deve negociar uma nova CCT para estender o banco de horas além do prazo inicial de um ano.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Lei nº 7.783/89, art. 59:** Embora permita a compensação das horas extras em até dois anos, não autoriza prorrogações automáticas sem nova negociação coletiva após o término do acordo vigente.\n\n- **Súmula nº 331 do TST:** Reafirma que qualquer extensão do banco de horas deve respeitar os limites estabelecidos e, implicitamente, requer a renovação ou re-negociação coletiva para prorrogações adicionais.\n\nPortanto, sem uma nova CCT negociada após o término do primeiro ano, a empresa não pode automaticamente estender o banco de horas por mais três meses. A necessidade de negociação coletiva é um princípio fundamental no Direito do Trabalho brasileiro para alterações ou renovações de acordos vigentes.",
+  "tokens_in": 315,
+  "tokens_out": 535,
+  "latency_ms": 30625,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

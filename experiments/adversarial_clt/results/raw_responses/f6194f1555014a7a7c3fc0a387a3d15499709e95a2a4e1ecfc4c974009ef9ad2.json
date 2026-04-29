@@ -1,0 +1,19 @@
+{
+  "sha256": "f6194f1555014a7a7c3fc0a387a3d15499709e95a2a4e1ecfc4c974009ef9ad2",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T02:44:52Z",
+  "prompt_sha": "d8db250f652a0b2a86ce52ca33e3f146036705232aad1ad4a2023ee032d07112",
+  "response_text": "### ANÁLISE\n\n**1. Dispositivos Legais Aplicáveis**\n\n- **Súmula 85 do TST**: Esta súmula trata da possibilidade de compensação das horas extras, desde que haja previsão em convenção coletiva ou acordo individual escrito (item I), e que a compensação ocorra no prazo máximo de seis meses (item II). O item V estabelece que as horas não compensadas dentro do prazo previsto são consideradas como extras.\n\n- **Consolidação das Leis do Trabalho (CLT)**: \n  - **Art. 59**: Estabelece que o excesso de jornada diária ou semanal deve ser remunerado com adicional de, no mínimo, 50%.\n  - **Art. 61**: Permite a compensação das horas extras mediante acordo escrito entre empregador e empregado, desde que não exceda a seis meses.\n\n**2. Interpretação no Caso Concreto**\n\n- **Ausência de CCT/ACT**: O TRT identificou que não há convenção coletiva (CCT) ou acordos coletivos de trabalho (ACT) que regulamentem o banco de horas na empresa, o que é um requisito essencial para a validade do mecanismo.\n\n- **Aplicação da Súmula 85**: \n  - **Item I**: Sem CCT/ACT, não há previsão legal ou coletiva autorizando o banco de horas.\n  - **Item II**: Mesmo que houvesse previsão, o prazo máximo para compensação é de seis meses. No caso, o período foi de cinco meses, mas sem a previsão necessária em CCT/ACT, este fator não se aplica.\n  - **Item V**: Como as horas extras não foram compensadas dentro do prazo previsto por uma norma coletiva válida, todas devem ser consideradas como horas extraordinárias.\n\n- **Tese da Empresa de \"Acordo Tácito\"**: A empresa alegou que haveria um acordo tácito com os empregados. No entanto, o TRT afastou essa tese, pois a jurisprudência do TST e a própria CLT exigem que qualquer acordo sobre banco de horas seja formalizado por escrito (Art. 61 da CLT).\n\n### DECISÃO RECOMENDADA\n\nA decisão correta é considerar todas as horas não compensadas como extras, remuneradas com adicional de 50%, conforme estabelecido na Súmula 85 do TST e no Art. 59 da CLT. A ausência de CCT/ACT ou acordo individual escrito invalida a prática de banco de horas sem a formalização necessária.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n1. **Súmula 85 do TST**:\n   - Item I: Requisito de previsão em convenção coletiva ou acordo individual escrito.\n   - Item II: Prazo máximo de seis meses para compensação das horas extras.\n   - Item V: Horas não compensadas no prazo são consideradas como extras.\n\n2. **Artigos da CLT**:\n   - **Art. 59**: Estabelece o adicional mínimo de 50% para horas extraordinárias.\n   - **Art. 61**: Exige que a compensação das horas extras seja feita por acordo escrito, com prazo máximo de seis meses.\n\n3. **Jurisprudência do TST**:\n   - A jurisprudência reitera que o banco de horas deve ser regulamentado por CCT/ACT ou por acordo individual escrito, não sendo suficiente um \"acordo tácito\".\n\nEssa fundamentação normativa e jurisprudencial sustenta a decisão de considerar todas as horas não compensadas como extras, remuneradas com adicional de 50%.",
+  "tokens_in": 340,
+  "tokens_out": 862,
+  "latency_ms": 49561,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

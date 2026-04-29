@@ -1,0 +1,29 @@
+{
+  "sha256": "3136108dcc58bafeadf39257f4162a36fec41b23bc30ca050a3d14ad458d1e90",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T23:49:17Z",
+  "prompt_sha": "9aed310839e4cb6680c5af139cfc1410b8dc65f015f8e8555e2fcb61291a68c3",
+  "response_text": "1. **ANÁLISE:**\n\n   - **Predicado Normativo Aplicável: `semester_hour_bank_requires_cct_or_act`**\n   \n     Este predicado normativo estabelece que a implementação de um banco de horas, com compensação em prazo superior a dois meses, requer a celebração de uma Convenção Coletiva de Trabalho (CCT) ou Acordo Coletivo de Trabalho (ACT). No cenário apresentado, a rede de supermercados implementou um banco de horas com compensação até 4 meses e celebrou um ACT com o sindicato dos comerciários. Portanto, inicialmente, parece que houve cumprimento deste requisito normativo.\n\n     Contudo, é importante destacar que além da celebração do ACT, há uma exigência legal de registro do mesmo na Superintendência Regional do Trabalho (SRTE) para sua validade. A empresa alega que o não registro seria apenas uma formalidade e que a assinatura do ACT já garantiria sua eficácia.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base no predicado normativo aplicável, a decisão recomendada é que a implementação do banco de horas por prazo superior a dois meses seja considerada inválida até que o ACT seja registrado na SRTE. A validade do acordo coletivo depende não apenas da assinatura, mas também do cumprimento das formalidades legais, incluindo o registro no órgão competente.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Cumprido:** \n     - `semester_hour_bank_requires_cct_or_act`: A empresa celebrou um ACT para implementar o banco de horas com prazo superior a dois meses, atendendo ao requisito normativo.\n\n   - **Violado:**\n     - Embora não listado explicitamente entre os predicados fornecidos, há uma violação implícita do requisito legal de registro do ACT na SRTE. Este passo é essencial para que o acordo coletivo tenha validade jurídica e eficácia operacional.\n\nPortanto, a empresa deve proceder ao registro imediato do ACT na SRTE para regularizar a situação e garantir a legalidade da implementação do banco de horas conforme estabelecido no acordo.",
+  "tokens_in": 336,
+  "tokens_out": 521,
+  "latency_ms": 15016,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

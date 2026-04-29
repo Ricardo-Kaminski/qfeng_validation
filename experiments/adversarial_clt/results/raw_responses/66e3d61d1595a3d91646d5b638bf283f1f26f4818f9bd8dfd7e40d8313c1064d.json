@@ -1,0 +1,19 @@
+{
+  "sha256": "66e3d61d1595a3d91646d5b638bf283f1f26f4818f9bd8dfd7e40d8313c1064d",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-006",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T12:17:51Z",
+  "prompt_sha": "caed60f8d7236d27119212e19182ccd57f46b0e0f27797e3747f1a33d35138bd",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, o tribunal aplica de forma inadequada a ratio decidendi do Tema 1046/STF e da decisão TST-Ag-RR-868-65.2021. O Tema 1046/STF trata sobre a validade das cláusulas de convenção coletiva de trabalho (CCT) que preveem banco de horas, mas pressupõe a existência de uma CCT específica que regulamente tal prática. A decisão TST-Ag-RR-868-65.2021 também fundamenta-se na validade das cláusulas contidas em uma CCT já estabelecida.\n\nO erro do tribunal é utilizar o espírito ou a tese de valorização da autonomia negocial para justificar a validade do banco de horas sem que haja uma CCT específica regulando essa prática. A ratio decidendi dos precedentes citados não se aplica automaticamente fora do contexto de uma CCT existente.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada seria rever o acórdão para corrigir a aplicação da jurisprudência. O tribunal deve reconhecer que, sem a existência de uma CCT específica que regule o banco de horas, não é possível invocar os precedentes do Tema 1046/STF e TST-Ag-RR-868-65.2021 para validar tal prática. A autonomia negocial deve ser exercida dentro dos limites legais e normativos estabelecidos.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\nOs dispositivos normativos relevantes incluem:\n\n- **Constituição Federal de 1988, Artigo 7º, XXVI:** que permite a negociação coletiva para fixar condições de trabalho, desde que não contrárias aos mínimos legais.\n  \n- **Tema 1046/STF:** trata especificamente da validade das cláusulas de CCT que preveem banco de horas, mas pressupõe a existência de uma CCT específica.\n\n- **Súmula nº 331 do TST:** \"É válida a cláusula de convenção ou acordo coletivo de trabalho que estabelece banco de horas, desde que respeitados os limites legais.\"\n\nA aplicação dessas normas e precedentes deve ser feita com o entendimento de que a validade do banco de horas depende da existência de uma CCT específica. Sem essa regulamentação coletiva, não se pode invocar a autonomia negocial para justificar práticas como o banco de horas.\n\nSe o contexto normativo não contivesse dispositivos aplicáveis diretamente ao caso (como a ausência de uma CCT), seria necessário reconhecer essa limitação e adotar outras bases legais ou jurisprudenciais adequadas.",
+  "tokens_in": 309,
+  "tokens_out": 640,
+  "latency_ms": 36625,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

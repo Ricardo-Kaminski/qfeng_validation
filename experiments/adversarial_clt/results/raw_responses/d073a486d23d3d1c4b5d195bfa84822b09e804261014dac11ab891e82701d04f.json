@@ -1,0 +1,29 @@
+{
+  "sha256": "d073a486d23d3d1c4b5d195bfa84822b09e804261014dac11ab891e82701d04f",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:36:27Z",
+  "prompt_sha": "8c96eb4d737be4ce8781d374931313b19e56c91b6fa2796bc527598d09d845e0",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas na Indústria Têxtil\n\nCom base nos predicados normativos fornecidos e no cenário apresentado, segue a análise, decisão recomendada e identificação de cumprimento/violação dos predicados:\n\n**1. ANÁLISE:**\n\n*   **`semester_hour_bank_requires_cct_or_act`**: Este predicado é o central para a análise do caso. Ele estabelece que a implementação de um banco de horas semestral exige a existência de um acordo coletivo de trabalho (ACT) ou de um acordo coletivo de trabalho (CCT). A empresa alega que os acordos individuais por escrito com cada empregado substituem a necessidade de negociação coletiva. Essa alegação **não se sustenta**. A legislação e a jurisprudência do TST são claras: o banco de horas, por ser uma alteração contratual que afeta a jornada de trabalho e a remuneração, não pode ser implementado unilateralmente pela empresa, mesmo que por meio de acordos individuais. A necessidade de negociação coletiva visa garantir a representação dos trabalhadores e a discussão transparente dos termos e condições do banco de horas. A simples assinatura de um acordo individual não elimina a necessidade de participação dos sindicatos.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que a implementação do banco de horas seja considerada **nula**. A empresa deverá:\n\n*   **Interromper imediatamente** a utilização do banco de horas implementado por meio de acordos individuais.\n*   **Iniciar negociação coletiva** com o sindicato patronal e o sindicato dos trabalhadores para estabelecer um acordo coletivo que regule o banco de horas, definindo seus termos, condições, limites e forma de compensação.\n*   **Compensar os empregados** pelas horas extras trabalhadas durante o período em que o banco de horas foi utilizado, com o adicional de, no mínimo, 50% previsto no artigo 7, inciso VII, da CLT.\n*   **Garantir a transparência** do processo de negociação coletiva, informando os empregados sobre os termos propostos e os resultados da negociação.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **`semester_hour_bank_requires_cct_or_act`**: **Violação**. A empresa implementou o banco de horas sem a existência de um acordo coletivo de trabalho (ACT) ou de um acordo coletivo de trabalho (CCT), contrariando a exigência expressa do predicado.\n*   **Predicados não listados**: É importante ressaltar que, embora não listados, outros princípios e normas do Direito do Trabalho também foram violados, como o princípio da proteção ao trabalhador, a necessidade de negociação coletiva para alterações contratuais e a garantia do direito à informação.\n\n\n\n**Observações:**\n\n*   A possibilidade de compensação em até 5 meses, prevista nos acordos individuais, pode ser considerada excessiva, uma vez que a jurisprudência do TST tem limitado esse prazo em acordo coletivo.\n*   A empresa pode tentar argumentar que os acordos individuais são válidos, mas essa alegação dificilmente será acolhida pela Justiça do Trabalho, dada a jurisprudência consolidada sobre a necessidade de negociação coletiva para a implementação de bancos de horas.\n*   A decisão final caberá ao juiz do trabalho, que avaliará as provas e os argumentos das partes, mas a análise acima fornece uma base sólida para a tomada de decisão.",
+  "tokens_in": 316,
+  "tokens_out": 773,
+  "latency_ms": 21281,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

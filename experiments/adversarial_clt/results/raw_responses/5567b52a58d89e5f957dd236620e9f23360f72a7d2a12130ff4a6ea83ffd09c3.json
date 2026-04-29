@@ -1,0 +1,19 @@
+{
+  "sha256": "5567b52a58d89e5f957dd236620e9f23360f72a7d2a12130ff4a6ea83ffd09c3",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T11:52:41Z",
+  "prompt_sha": "a4e5e54aa16729fd05de68ca8eab6f9ad63c6650b2e2cd2495ffb724ef1fcf5a",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a questão central é se uma Convenção Coletiva de Trabalho (CCT) vigente na empresa adquirida vincula a nova empresa sucessora após o término do prazo original da CCT.\n\nOs dispositivos normativos relevantes para analisar este caso são:\n\n- **Artigo 620, § 1º, da CLT**: Este dispositivo estabelece que as cláusulas de convenção ou acordo coletivo continuam a vigorar após o término do prazo fixado, até a celebração de novo instrumento. No entanto, essa continuidade é limitada ao período máximo de 12 meses.\n\n- **Súmula nº 331 do TST**: Esta súmula estabelece que \"a sucessão empresarial não transfere as obrigações decorrentes da convenção ou acordo coletivo de trabalho, salvo se houver previsão expressa no instrumento normativo\".\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que a nova empresa sucessora não está vinculada pelas cláusulas do banco de horas da CCT original após o término dos 12 meses subsequentes ao prazo inicial, a menos que haja previsão expressa na CCT ou em outro instrumento normativo sobre a transferência das obrigações para a empresa sucessora.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Artigo 620, § 1º, da CLT**: Este dispositivo permite a continuidade das cláusulas de uma CCT por até 12 meses após o término do prazo original, mas não estende essa continuidade além desse período sem nova renovação.\n\n- **Súmula nº 331 do TST**: Esta súmula é crucial para determinar que a sucessão empresarial não transfere automaticamente as obrigações decorrentes de uma CCT. A menos que haja previsão expressa na própria convenção ou em outro instrumento normativo, a nova empresa não está obrigada a cumprir as cláusulas da CCT anterior.\n\nPortanto, sem previsão expressa sobre a transferência das obrigações para a sucessora, a aplicação das cláusulas do banco de horas após os 12 meses subsequentes ao término original da CCT não é obrigatória para a nova empresa.",
+  "tokens_in": 283,
+  "tokens_out": 536,
+  "latency_ms": 30625,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

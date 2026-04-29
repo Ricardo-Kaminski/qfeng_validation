@@ -1,0 +1,27 @@
+{
+  "sha256": "6c92d51a830ce869d4613a388ddce2ef178f38bcd3dd3605d43ea778b00922b9",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-007",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T01:28:50Z",
+  "prompt_sha": "2c03cb68f103668260b4613de27731cfa0657d298f5e8f8f441eed46e4ed0161",
+  "response_text": "**ANÁLISE**\n\n1.  **validity_of_cct_annual_hour_bank_banking_sector**: O predicado indica que a CCT do setor bancário prevê banco de horas anual, o que é compatível com a jurisprudência do TST-Ag-RR-868-65.2021 e o Tema 1046/STF. Nesse caso, o predicado está sendo cumprido (conformidade) porque a CCT foi renovada e as horas de banco foram compensadas no prazo.\n2.  **stf_tema1046_binding_precedent_applied**: O Tema 1046 do STF estabelece que o banco de horas não gera direito a adicional, desde que as horas sejam compensadas. Nesse caso, o predicado está sendo cumprido (conformidade) porque o sindicato esclareceu que as horas do banco, se compensadas, não geram adicional.\n3.  **hour_bank_with_cct_max_1_year**: O predicado indica que as horas de banco só podem ser utilizadas em até um ano. Nesse caso, o predicado está sendo cumprido (conformidade) porque a CCT prevê banco de horas anual e as horas foram compensadas no prazo.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a reclamação do trabalhador bancário seja negada. Isso porque os predicados normativos listados estão sendo cumpridos (conformidade) no cenário apresentado, ou seja, a CCT foi renovada e as horas de banco foram compensadas no prazo.\n\n**PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n*   **validity_of_cct_annual_hour_bank_banking_sector**: Cumprido (conformidade)\n*   **stf_tema1046_binding_precedent_applied**: Cumprido (conformidade)\n*   **hour_bank_with_cct_max_1_year**: Cumprido (conformidade)",
+  "tokens_in": 393,
+  "tokens_out": 439,
+  "latency_ms": 7358,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

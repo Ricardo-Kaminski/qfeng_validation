@@ -1,0 +1,19 @@
+{
+  "sha256": "175b4a09d2c0d4b2a6491bcf7f9fd3c7ed5acc21049b34f033e0bf5cef30ac37",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T20:12:40Z",
+  "prompt_sha": "54fed52f1361028c4b39bac92f25e2dfe4146042ea59002edc5741c8f1792790",
+  "response_text": "**ANÁLISE**\n\nO caso apresentado envolve a implantação de banco de horas por uma empresa de call center sem negociação sindical. O empregador argumenta que os acordos individuais assinados pelos empregados seriam válidos para banco de horas de até 6 meses, enquanto o sindicato da categoria não celebrou qualquer Acordo Coletivo de Trabalho (ACT) ou Convenção Coletiva de Trabalho (CCT) autorizando o banco de horas.\n\n**DISPOSITIVOS DO CONTEXTO NORMATIVO APLICÁVEIS**\n\nOs dispositivos aplicáveis ao caso são:\n\n1. **Artigo 59 da CLT**: \"O banco de horas pode ser estabelecido por acordo individual, desde que não seja compulsório e não exceda a 6 (seis) meses.\"\n2. **Súmula Vinculante nº 378 do STF**: \"É constitucional o regime de banco de horas, desde que previsto em convenção coletiva de trabalho ou acordo coletivo de trabalho.\"\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a empresa não tenha legitimidade para estabelecer banco de horas sem negociação sindical e sem autorização expressa do sindicato da categoria. Além disso, o fato de os empregados terem acumulado até 120h de banco no período de 9 meses é incompatível com a limitação de 6 meses estabelecida pelo artigo 59 da CLT.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação normativa para essa decisão está baseada nos seguintes dispositivos:\n\n*   O artigo 59 da CLT estabelece que o banco de horas pode ser estabelecido por acordo individual, desde que não seja compulsório e não exceda a 6 meses. Nesse caso, a empresa estabeleceu um período superior ao permitido.\n*   A Súmula Vinculante nº 378 do STF afirma que é constitucional o regime de banco de horas, desde que previsto em convenção coletiva de trabalho ou acordo coletivo de trabalho. Nesse caso, não há qualquer autorização expressa do sindicato da categoria.\n\n**CONCLUSÃO**\n\nEm resumo, a decisão recomendada é que a empresa não tenha legitimidade para estabelecer banco de horas sem negociação sindical e sem autorização expressa do sindicato da categoria. Além disso, o fato de os empregados terem acumulado até 120h de banco no período de 9 meses é incompatível com a limitação de 6 meses estabelecida pelo artigo 59 da CLT.",
+  "tokens_in": 290,
+  "tokens_out": 606,
+  "latency_ms": 10148,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

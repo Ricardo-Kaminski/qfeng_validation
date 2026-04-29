@@ -1,0 +1,19 @@
+{
+  "sha256": "0c483686ce20cbf97d24f4d6bef27126d2029a5ddc719ff57f9c60a70981bdb7",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T02:18:38Z",
+  "prompt_sha": "ccb8d9ff5ecb68e6342252f2d9062b97997b2594352bf919ebcfbf76c5be0071",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Convenção Coletiva de Trabalho (CCT):** A CCT estabeleceu um banco de horas semestral de 6 meses, permitindo que o período de compensação fosse contado até 8 meses. O ponto central da questão é se o prazo deve incluir ou excluir o tempo de licença maternidade.\n\n- **Artigo 392 da CLT:** Este artigo trata do banco de horas e estabelece que a compensação das horas extras pode ser feita mediante acordo coletivo, respeitando os limites legais. A CCT é válida desde que não contrarie disposições de ordem pública.\n\n- **Licença Maternidade:** De acordo com o artigo 392-A da CLT, a licença maternidade tem efeitos sobre as férias e outros direitos trabalhistas, mas não há menção específica sobre o impacto no banco de horas em CCTs.\n\n**Interpretação no Caso Concreto:**\n\nA empresa suspendeu o cômputo do banco de horas durante a licença maternidade e reativou ao retorno. A compensação total ocorreu dentro dos 8 meses estabelecidos na CCT, contando apenas os períodos úteis.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é que o prazo de compensação do banco de horas deve ser contado excluindo-se o período de licença maternidade, conforme a interpretação da CCT e a jurisprudência aplicável.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n**Artigos da CLT:**\n\n- **Artigo 392:** Permite a compensação das horas extras mediante acordo coletivo, respeitando os limites legais.\n  \n- **Artigo 392-A:** Trata dos efeitos da licença maternidade sobre férias e outros direitos, mas não especifica o impacto no banco de horas.\n\n**Súmulas do TST:**\n\n- **Súmula 366 do TST:** \"É lícita a compensação das horas extras mediante acordo coletivo de trabalho.\"\n\n- **Súmula 388 do TST:** \"O período de afastamento para tratamento de saúde não interrompe o curso da contagem do prazo prescricional ou decadencial, salvo se o trabalhador estiver impossibilitado de exercer qualquer atividade profissional.\"\n\n**Precedentes e Doutrina:**\n\n- A jurisprudência majoritária do TST entende que períodos de afastamento não laborativo, como a licença maternidade, não devem interromper o curso de prazos previstos em CCTs, desde que a compensação ocorra dentro dos limites legais e acordados.\n\n- A doutrina trabalhista geralmente sustenta que a suspensão do cômputo durante períodos de afastamento não laborativo é uma prática comum e aceita, desde que o acordo coletivo ou individual assim o estabeleça.\n\n**Conclusão:**\n\nA decisão da empresa de excluir o período de licença maternidade do cômputo do banco de horas está em conformidade com a CCT e a jurisprudência aplicável. A compensação ocorreu dentro dos prazos acordados, considerando apenas os períodos úteis, o que é uma interpretação razoável e aceita na prática trabalhista.",
+  "tokens_in": 306,
+  "tokens_out": 789,
+  "latency_ms": 43186,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

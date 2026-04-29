@@ -1,0 +1,19 @@
+{
+  "sha256": "4d6ad9b550c7791aa2afb8b91b1d07d40abbdf510c5f5d9a8d522f12dd9e7898",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-009",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T20:00:07Z",
+  "prompt_sha": "7f441830040caace0b0adfa677c7ecf354c20eb769b074f7362124a811db0c0a",
+  "response_text": "## ANÁLISE JURÍDICA-TRABALHISTA: Banco de Horas sem CCT e Adicional de 50%\n\nCom base no cenário apresentado e na Súmula TST 85, a análise jurídica-trabalhista se desenvolve da seguinte forma:\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nO único dispositivo normativo explicitamente relevante para o caso em questão é a **Súmula TST 85**. O cenário informa que a decisão judicial analisada corretamente identificou o caso como envolvendo um banco de horas não previsto em acordo ou convenção coletiva de trabalho (CCT), o que a Súmula 85 se aplica.  A decisão, contudo, errou ao determinar o pagamento das horas como \"hora normal\" sem o adicional de 50%.\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada é a **reforma da decisão judicial**, determinando o pagamento das horas do banco de horas como **hora extra com adicional de 50%**.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação para a decisão recomendada reside exclusivamente na **Súmula TST 85**.  A redação da súmula é clara e objetiva:\n\n*   **Súmula TST 85, V:** \"No regime de banco de horas, instituído na empresa, sem previsão em acordo ou convenção coletiva, as horas extraordinárias habituais devem ser remuneradas com acréscimo de 50%.\"\n\nA Súmula 85 estabelece, de forma expressa, que, na ausência de acordo ou convenção coletiva que trate do tema, as horas extraordinárias habituais realizadas no regime de banco de horas devem receber o adicional de 50%.  A decisão judicial que determinou o pagamento como hora normal, sem o adicional, **contraria diretamente a orientação da Súmula TST 85**.\n\n**Limitações do Contexto Normativo:**\n\nO contexto normativo fornecido é limitado à Súmula TST 85. Não há outros dispositivos legais ou jurisprudenciais mencionados que permitam afastar a aplicação da súmula neste caso específico.  Portanto, a análise e a decisão recomendada se baseiam unicamente na interpretação e aplicação da Súmula TST 85.\n",
+  "tokens_in": 272,
+  "tokens_out": 520,
+  "latency_ms": 14183,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

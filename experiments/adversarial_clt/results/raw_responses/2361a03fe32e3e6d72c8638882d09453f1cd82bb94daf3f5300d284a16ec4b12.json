@@ -1,0 +1,19 @@
+{
+  "sha256": "2361a03fe32e3e6d72c8638882d09453f1cd82bb94daf3f5300d284a16ec4b12",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-007",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T12:51:24Z",
+  "prompt_sha": "35be560b3d56480b261099a368fe4a0b566785771735d919158eb0a8a25e76e3",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso\n\nConsiderando o cenário apresentado e o contexto normativo limitado, apresento a análise, decisão recomendada e fundamentação:\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nO único dispositivo normativo explicitamente mencionado no contexto é o **Art. 489, §1°, V, do Código de Processo Civil (CPC)**. Este dispositivo, embora de lei processual civil, é invocado pela parte prejudicada para sustentar a ilegalidade da decisão do TST. A alegação é que a aplicação de uma tese de IRDR regional como precedente vinculante nacional violaria o disposto no artigo, que trata da possibilidade de reforma da decisão quando houver \"divergência jurisprudencial, para efeito de uniformização da interpretação da lei federal\".\n\nÉ crucial notar que o contexto ressalta que o IRDR regional **não foi afetado como repetitivo pelo TST** e, portanto, **não possui eficácia nacional**. Essa informação é fundamental para a análise da legalidade da decisão do TST.\n\n**2. DECISÃO RECOMENDADA**\n\nRecomenda-se o **provimento do recurso**, reformando a decisão do TST.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação para a decisão recomendada reside na interpretação do Art. 489, §1°, V, do CPC, em conjunto com a informação de que o IRDR regional não possui eficácia nacional.\n\n*   **Art. 489, §1°, V, do CPC:** Este dispositivo permite a reforma da decisão em caso de divergência jurisprudencial para efeito de uniformização da interpretação da lei federal. A parte prejudicada alega que o TST atribuiu eficácia vinculante a um precedente regional (IRDR) que, na realidade, não a possui, configurando, portanto, uma divergência jurisprudencial. A aplicação de um entendimento regional como se fosse vinculante nacional, sem o devido processo de uniformização (afetação como recurso repetitivo), pode levar a interpretações distintas da lei federal em diferentes regiões do país, frustrando a finalidade do próprio Art. 489, §1°, V.\n\n*   **Informação Contextual:** A informação de que o IRDR regional **não foi afetado como repetitivo pelo TST** e, consequentemente, **não possui eficácia nacional** é crucial. A uniformização da jurisprudência em âmbito nacional, para fins de aplicação do Art. 489, §1°, V, do CPC, geralmente ocorre através da afetação do recurso como repetitivo, conforme previsto no artigo 896 da Consolidação de Leis do Trabalho (CLT). A ausência desse procedimento demonstra que a tese do IRDR não passou pelo processo adequado de uniformização, tornando sua aplicação como precedente vinculante nacional ilegal.\n\n**Limitação do Contexto Normativo:**\n\nÉ importante ressaltar que o contexto normativo fornecido é extremamente limitado. A análise se baseia unicamente no Art. 489, §1°, V, do CPC e nas informações sobre o IRDR. Uma análise mais completa exigiria a consulta à Consolidação de Leis do Trabalho (CLT), especialmente o artigo 896, que trata da uniformização da jurisprudência, e a Lei nº 11.496/2007, que regulamenta a sistemática dos recursos repetitivos. Além disso, seria necessário analisar a jurisprudência do TST sobre a aplicação de teses de IRDRs regionais e a sua eficácia.\n",
+  "tokens_in": 276,
+  "tokens_out": 773,
+  "latency_ms": 41733,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

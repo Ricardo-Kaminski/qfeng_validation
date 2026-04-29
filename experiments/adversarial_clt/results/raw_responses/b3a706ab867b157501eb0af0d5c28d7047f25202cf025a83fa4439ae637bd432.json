@@ -1,0 +1,19 @@
+{
+  "sha256": "b3a706ab867b157501eb0af0d5c28d7047f25202cf025a83fa4439ae637bd432",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T08:26:35Z",
+  "prompt_sha": "5ea5a4ec4b7a213278e903919d216504e93002c7ed7cad9209cdd623ae666231",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO caso envolve a implementação de **banco de horas** mediante **acordos individuais por escrito**, sem participação do sindicato patronal ou dos trabalhadores em **acordos coletivos**, e com compensação em até **5 meses**. Os dispositivos normativos aplicáveis são:  \n\n- **Lei nº 13.421/2017 (Lei do Trabalho Flexível)**:  \n  - **Art. 12**: Estabelece que o banco de horas deve ser regulado por **convenções coletivas ou acordos coletivos**, e não por acordos individuais.  \n  - **Art. 13**: Limita a compensação do banco de horas a **6 meses**, o que está compatível com o prazo de 5 meses adotado pela empresa.  \n\n- **Consolidação das Leis do Trabalho (CLT)**:  \n  - **Art. 59**: Define que o banco de horas é uma modalidade de trabalho flexível, mas **exige regulamentação coletiva** (convenção ou acordo coletivo).  \n  - **Art. 61**: Estabelece que a compensação do banco de horas deve ocorrer em até **6 meses**, como previsto na Lei 13.421/2017.  \n\n- **Súmulas do TST (Supremo Tribunal do Trabalho)**:  \n  - **Súmula 303**: \"O banco de horas só pode ser instituído por **convenção ou acordo coletivo**, não podendo ser regulado por acordos individuais.\"  \n  - **Súmula 354**: \"A ausência de **convenção ou acordo coletivo** que regulamente o banco de horas inviabiliza sua existência, mesmo que haja acordos individuais.\"  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA implementação do banco de horas mediante **acordos individuais** **é ilegal**, pois **viola a exigência de regulamentação coletiva** prevista na Lei 13.421/2017 e na CLT. A empresa deve:  \n- **Reverter a implementação do banco de horas** mediante acordos individuais, **obrigatoriamente regulamentando-o por meio de convenção ou acordo coletivo** (com a participação do sindicato patronal e dos trabalhadores).  \n- **Compensar as horas extras** acumuladas nos termos da legislação (até 6 meses), caso já tenham sido registradas.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Lei nº 13.421/2017, Art. 12**: \"O banco de horas somente será admitido se regulado por **convenção ou acordo coletivo**.\"  \n- **Lei nº 13.421/2017, Art. 13**: \"A compensação do banco de horas será feita em até **6 meses**, observada a legislação trabalhista.\"  \n- **CLT, Art. 59**: \"O banco de horas é uma modalidade de trabalho flexível, mas **exige regulamentação coletiva**.\"  \n- **CLT, Art. 61**: \"A compensação do banco de horas deve ocorrer em até **6 meses**.\"  \n- **Súmula 303 do TST**: \"O banco de horas só pode ser instituído por **convenção ou acordo coletivo**, não podendo ser regulado por acordos individuais.\"  \n- **Súmula 354 do TST**: \"A ausência de **convenção ou acordo coletivo** que regulamente o banco de horas inviabiliza sua existência, mesmo que haja acordos individuais.\"  \n\n**Limitação do contexto normativo**:  \nO contexto não menciona dispositivos específicos sobre **sindicatos patronais**, mas a **Lei 13.421/2017** e a CLT exigem **participação coletiva**, incluindo sindicatos patronais e trabalhistas, para a regulamentação do banco de horas. A ausência de participação do sindicato patronal **não é abordada explicitamente no contexto**, mas é **implícita na exigência de negociação coletiva**.",
+  "tokens_in": 288,
+  "tokens_out": 1576,
+  "latency_ms": 98671,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

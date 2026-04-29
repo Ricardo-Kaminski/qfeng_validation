@@ -1,0 +1,29 @@
+{
+  "sha256": "2c1c79c8fd8b9335a3f9efd5b7c95d798caa8b37948ad8740b8eb1f84b9cb9e5",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-008",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:43:48Z",
+  "prompt_sha": "160b14905daf1b75240e571876e903f674ab798cba13eaa47b102ad9f8820a31",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas e Demissão\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, apresento a análise, decisão recomendada e identificação de cumprimento/violação dos predicados.\n\n**1. ANÁLISE:**\n\n*   **hour_bank_with_cct_max_1_year:** Este predicado estabelece que a utilização do banco de horas está vinculada a Acordo Coletivo de Trabalho (ACT) e que o prazo máximo para compensação é de 1 ano. No caso, a existência de um ACT que regulamenta o banco de horas é um ponto crucial. A validade do ACT e sua conformidade com a legislação (especialmente a CLT) serão elementos a serem verificados, mas a premissa é que ele existe e estabelece as regras do banco de horas. O prazo de 7 meses para compensação, dentro do limite de 1 ano, também está em conformidade com este predicado. A questão central é se a rescisão contratual afeta o direito do empregado ao saldo positivo.\n\nA alegação da empresa de que a demissão \"desfaz a lógica compensatória\" do banco de horas é problemática. Embora a lógica do banco de horas seja a compensação das horas extras trabalhadas com horas de folga, a rescisão contratual não pode, por si só, extinguir o direito do empregado ao pagamento do saldo positivo, especialmente quando a compensação não foi integralmente realizada dentro do prazo estabelecido no ACT. A responsabilidade da empresa em compensar as horas extras, mesmo em regime de banco de horas, persiste, e a rescisão contratual não a elimina. A empresa tem a obrigação de liquidar o saldo positivo, convertendo-o em horas extras a serem pagas.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que o pedido do empregado seja **provido**. A empresa deve ser condenada a pagar o saldo positivo de 60 horas, devidamente acrescido de reflexos (como adicional noturno, se aplicável, e outras verbas contratuais ou legais), conforme a legislação trabalhista e o ACT.\n\nA decisão deve ser fundamentada na premissa de que a rescisão contratual, por iniciativa do empregado ou do empregador, não elide o direito do empregado ao recebimento das horas extras pendentes, mesmo quando estas foram acumuladas no regime de banco de horas. A empresa tem a responsabilidade de compensar as horas extras, e a rescisão contratual não a isenta dessa obrigação. A lógica compensatória do banco de horas não se sobrepõe ao direito do trabalhador de receber o pagamento das horas extras não compensadas.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **hour_bank_with_cct_max_1_year:** **Conformidade**. O banco de horas foi estabelecido por ACT e o prazo de compensação (7 meses) está dentro do limite de 1 ano. No entanto, a recusa da empresa em pagar o saldo positivo demonstra uma interpretação inadequada do ACT e da legislação, o que pode ser considerado uma violação indireta do espírito do predicado. A empresa não cumpriu a obrigação de compensar as horas extras no prazo estabelecido pelo ACT, o que implica em uma falha no cumprimento integral do predicado.\n\n**Observações Adicionais:**\n\n*   É importante analisar o ACT para verificar se há alguma cláusula específica que trate da rescisão contratual e do saldo positivo do banco de horas. Caso haja, a interpretação dessa cláusula será fundamental para a decisão.\n*   A jurisprudência do TST tem sido consistente em proteger o direito do trabalhador ao recebimento das horas extras, mesmo em regimes de banco de horas.\n*   A recusa da empresa em pagar o saldo positivo pode configurar uma tentativa de fraudar a legislação trabalhista, o que pode gerar outras consequências legais para a empresa.\n*   É crucial verificar se o ACT foi devidamente registrado na Delegacia Regional do Trabalho (DRT) ou equivalente, para garantir sua validade.\n*   A empresa deve apresentar provas robustas de que as horas extras foram devidamente controladas e que o empregado teve a oportunidade de compensá-las dentro do prazo estabelecido.\n\nEsta análise é baseada nos predicados normativos fornecidos e na interpretação da legislação trabalhista brasileira. Uma análise mais aprofundada do caso concreto pode revelar outros aspectos relevantes que podem influenciar a decisão final.",
+  "tokens_in": 326,
+  "tokens_out": 972,
+  "latency_ms": 26750,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

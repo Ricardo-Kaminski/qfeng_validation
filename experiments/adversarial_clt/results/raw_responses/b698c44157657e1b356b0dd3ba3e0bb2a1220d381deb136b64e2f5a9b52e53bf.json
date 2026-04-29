@@ -1,0 +1,30 @@
+{
+  "sha256": "b698c44157657e1b356b0dd3ba3e0bb2a1220d381deb136b64e2f5a9b52e53bf",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T23:04:20Z",
+  "prompt_sha": "0d6d211e2ba94d6b5ad507e54fb6e6c5213e18e400fd08657c709dda55070d6d",
+  "response_text": "### 1. **ANÁLISE**  \n- **obligation_to_ground_decision_in_identified_ratio_decidendi**:  \n  O acórdão do TST fundamenta sua decisão com base no **ARE 1.121.633 (Tema 1046/STF)**, que estabelece a constitucionalidade de acordos e convenções coletivas que estipulam compensações de direitos com base no princípio da adequação setorial negociada. Isso demonstra que a decisão está **claramente fundamentada em um ratio decidendi identificado**, cumprindo a obrigação de fundamentação normativa.  \n\n- **stf_tema1046_binding_precedent_applied**:  \n  O TST aplica **diretamente o precedente vinculante do Tema 1046/STF**, reconhecendo que a CCT bancária em questão preenche os requisitos estabelecidos no tema (compensação de direitos com base na adequação setorial). Isso mostra que o **precedente vinculante do STF foi aplicado de forma correta e obrigatória**, conforme exigido pela jurisprudência.  \n\n- **due_process_of_law**:  \n  A análise do TST é **exaustiva e verificável**, verificando se a CCT bancária cumpre os requisitos do Tema 1046 (exclusividade de compensação de direitos, ausência de supressão de direitos fundamentais e base na negociação setorial). Isso assegura que o **devido processo legal foi respeitado**, garantindo a imparcialidade e a transparência da decisão.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA decisão **deve ser mantida** e **confirmada**, pois:  \n- O TST aplicou corretamente o **Tema 1046/STF**, que é vinculante e constitucionalmente válido.  \n- A fundamentação do acórdão está **alinhada com a CLT e com a jurisprudência do STF**, garantindo a **legalidade e a coerência normativa**.  \n- O **princípio da adequação setorial negociada** foi respeitado, e a CCT bancária foi validada com base em critérios objetivos e verificáveis.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Cumpridos**:  \n  - **obligation_to_ground_decision_in_identified_ratio_decidendi** (a decisão está fundamentada no Tema 1046/STF).  \n  - **stf_tema1046_binding_precedent_applied** (o precedente vinculante foi aplicado corretamente).  \n  - **due_process_of_law** (o devido processo legal foi respeitado na análise).  \n\n- **Violações**:  \n  **Nenhuma violação foi identificada**. Todos os predicados normativos foram **cumpridos** de forma clara e verificável.",
+  "tokens_in": 421,
+  "tokens_out": 1088,
+  "latency_ms": 33406,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

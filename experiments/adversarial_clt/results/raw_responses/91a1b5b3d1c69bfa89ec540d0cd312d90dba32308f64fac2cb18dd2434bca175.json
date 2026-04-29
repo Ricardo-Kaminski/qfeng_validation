@@ -1,0 +1,19 @@
+{
+  "sha256": "91a1b5b3d1c69bfa89ec540d0cd312d90dba32308f64fac2cb18dd2434bca175",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-006",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T01:30:19Z",
+  "prompt_sha": "3c3bf26b759c3caf4921d03d84985f8e176601166be5cbd9d11c060520954d15",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Código de Processo Civil (CPC) - Artigo 489, §1º, I:** Este dispositivo exige que as decisões judiciais sejam fundamentadas, esclarecendo os motivos da decisão. A falta de motivação adequada pode ser motivo para anulação ou reforma da decisão.\n\n- **Constituição Federal - Artigo 93, IX:** Garante o direito ao contraditório e à ampla defesa, que incluem a necessidade de fundamentação clara das decisões judiciais para permitir o exercício desses direitos.\n\n**Interpretação no Caso Concreto:**\n\nA decisão da juíza do trabalho indeferindo a prova pericial sem especificar quais documentos seriam suficientes ou qual fato probatório seria demonstrado representa uma deficiência de motivação. A fundamentação deve ser clara e objetiva, permitindo que as partes compreendam os motivos da decisão para exercerem seus direitos de defesa e recurso.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão interlocutória deve ser reformada ou anulada por deficiência de motivação. A ausência de uma explicação clara sobre quais documentos foram considerados suficientes e qual fato probatório foi demonstrado viola o princípio da motivação, conforme exigido pelo CPC e pela Constituição Federal.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **CPC - Artigo 489, §1º, I:** Exige que as decisões sejam fundamentadas, permitindo a compreensão dos motivos da decisão pelas partes envolvidas.\n\n- **Constituição Federal - Artigo 93, IX:** Assegura o direito ao contraditório e à ampla defesa, que dependem de uma motivação clara das decisões judiciais.\n\n- **Súmula nº 126 do TST:** \"É inadmissível a prova pericial quando já existirem nos autos elementos suficientes para dirimir a controvérsia.\" No entanto, é necessário que o juiz explique quais são esses elementos e como eles se relacionam com os fatos em disputa.\n\n- **Precedentes do TST:** A jurisprudência do Tribunal Superior do Trabalho reiteradamente enfatiza a necessidade de motivação adequada nas decisões judiciais, especialmente quando se trata de indeferimento de provas periciais. A falta de fundamentação clara pode levar à anulação da decisão.\n\nPortanto, diante da deficiência de motivação na decisão interlocutória, recomenda-se que a mesma seja reformada ou anulada para que o juízo se manifeste adequadamente sobre os documentos considerados suficientes e os fatos probatórios demonstrados.",
+  "tokens_in": 296,
+  "tokens_out": 661,
+  "latency_ms": 36735,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

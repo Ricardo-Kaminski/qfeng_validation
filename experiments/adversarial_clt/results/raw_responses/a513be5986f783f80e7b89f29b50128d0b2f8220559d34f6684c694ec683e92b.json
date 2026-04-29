@@ -1,0 +1,26 @@
+{
+  "sha256": "a513be5986f783f80e7b89f29b50128d0b2f8220559d34f6684c694ec683e92b",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-006",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T00:27:01Z",
+  "prompt_sha": "853bce6697211f077507fea0253d75450971c248a5b84a4ee816407d1bbb991a",
+  "response_text": "## Análise do Caso: Indeferimento de Prova Pericial e Deficiência de Motivação\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, a análise e a decisão recomendada seguem abaixo:\n\n**1. ANÁLISE:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi (Obrigação de fundamentar a decisão no ratio decidendi identificado):** Este predicado é central para a análise do caso. A decisão interlocutória da juíza, ao indeferir a prova pericial apenas com a justificativa genérica de que \"suficientes os documentos já acostados aos autos\", **não cumpre** essa obrigação.  Um *ratio decidendi* adequado exigiria que a magistrada indicasse especificamente quais documentos já presentes nos autos seriam suficientes para comprovar os fatos em discussão e, crucialmente, *como* esses documentos demonstram a suficiência probatória. A ausência dessa especificação impede a compreensão da lógica que levou à decisão e impossibilita o controle da legalidade e da correta aplicação do direito. A simples menção de \"suficientes documentos\" não configura um *ratio decidendi* adequado, pois não explica a base fática e jurídica da decisão.\n*   **due_process_of_law (Devido processo legal):** A decisão judicial, para ser legítima e justa, deve observar o devido processo legal, que inclui o direito à motivação adequada. A falta de motivação específica, como a apresentada no caso, compromete o direito da parte à defesa e à possibilidade de contestar a decisão de forma efetiva. A parte prejudicada não pode saber quais elementos foram considerados para a decisão, o que impede a apresentação de argumentos contrários ou a produção de provas adicionais que poderiam alterar o resultado. A decisão, como proferida, limita a efetividade do direito de ação e de defesa da parte.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que o pedido de anulação da decisão interlocutória seja **provido**. A decisão da juíza que indeferiu a prova pericial deve ser **anulada** por deficiência de motivação.  A magistrada deverá, em nova decisão, fundamentar o indeferimento da prova pericial de forma clara e específica, indicando:\n\n*   Quais documentos acostados aos autos são considerados suficientes para comprovar os fatos relevantes.\n*   Como esses documentos demonstram a suficiência probatória, ou seja, qual o fato probando que eles comprovam.\n*   Por que a prova pericial seria desnecessária para a elucidação dos fatos.\n\nA anulação da decisão garante o direito à parte de ter a decisão devidamente fundamentada, permitindo a compreensão e a contestação da mesma, assegurando, assim, o devido processo legal.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** **Violação**. A decisão não foi fundamentada em um *ratio decidendi* identificado e específico.\n*   **due_process_of_law:** **Violação**. A ausência de motivação adequada comprometeu o direito à defesa e a efetividade do processo.\n",
+  "tokens_in": 325,
+  "tokens_out": 716,
+  "latency_ms": 19672,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "ebb65fb1aa41ce6da7b4b36914e50484baa54004de20aa3378eb5c443716c5ba",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-006",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T08:44:48Z",
+  "prompt_sha": "52dd564a70359960dbb886b7a9e848f56a10af664fc6884feb3e2be6931f11b7",
+  "response_text": "### 1. **ANÁLISE: Dispositivos aplicáveis ao caso**  \n- **CLT, Art. 59, §2°**: Estabelece que acordos coletivos de trabalho (ACT) devem ser celebrados entre empregador e sindicato representativo da categoria. Se não houver sindicato, o acordo pode ser firmado com a maioria dos trabalhadores.  \n- **Súmula 121 do TST**: Define que a ausência do sindicato na negociação de um ACT torna-o nulo, por violar o princípio da representação sindical obrigatória.  \n- **Súmula 364 do TST**: Reafirma que a ausência do sindicato na negociação de um ACT é nulidade absoluta, independentemente da existência de assembleia dos trabalhadores.  \n- **CLT, Art. 59, caput**: Ressalta que os acordos coletivos são celebrados entre empregador e sindicato, sendo a representação sindical indispensável.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **validade do regulamento interno** aprovado pela assembleia dos trabalhadores **não pode ser equiparada à de um ACT**. A ausência do sindicato na negociação e aprovação do regulamento **invalida a equivalência com o ACT**, conforme prevê a legislação e as súmulas do TST.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **CLT, Art. 59, caput e §2°**:  \n  - O ACT é um acordo coletivo celebrado **exclusivamente entre empregador e sindicato** (caput).  \n  - Se não houver sindicato, o acordo pode ser firmado com a **maioria dos trabalhadores**, mas **não se confunde com um ACT** (§2°).  \n  - O regulamento interno aprovado pela assembleia **não é um ACT**, mas sim uma norma interna da empresa.  \n\n- **Súmula 121 do TST**:  \n  - \"A ausência do sindicato na negociação de acordo coletivo de trabalho é nulidade absoluta.\"  \n  - A **ausência do sindicato** no processo de aprovação do regulamento **invalida a equivalência com um ACT**, mesmo que a maioria dos trabalhadores tenha participado.  \n\n- **Súmula 364 do TST**:  \n  - \"A ausência do sindicato na negociação de acordo coletivo de trabalho é nulidade absoluta, independentemente da existência de assembleia dos trabalhadores.\"  \n  - Confirma que **a representação sindical é obrigatória** para a validade de um ACT, independentemente da participação dos trabalhadores.  \n\n- **Limitação do contexto**:  \n  - O contexto **não menciona dispositivos específicos** que autorizem a equivalência entre assembleia dos trabalhadores (sem sindicato) e ACT.  \n  - A **equivalência proposta pela empresa** não é válida, pois **não há norma que a legitime**.  \n\n---\n\n### CONCLUSÃO:  \nA **empresa não pode equiparar o regulamento interno aprovado pela assembleia aos termos de um ACT**. A ausência do sindicato **invalida a validade do acordo**, conforme disposto no CLT e nas súmulas do TST. A **decisão recomendada** é **rejeitar a equivalência** e **reconhecer a nulidade do regulamento** como ACT, mas **não necessariamente como norma interna inválida**, desde que esteja em conformidade com outras exigências legais (ex.: não viole direitos fundamentais dos trabalhadores).",
+  "tokens_in": 296,
+  "tokens_out": 1564,
+  "latency_ms": 97937,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

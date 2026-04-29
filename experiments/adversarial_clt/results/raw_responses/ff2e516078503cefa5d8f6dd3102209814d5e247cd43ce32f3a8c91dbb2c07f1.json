@@ -1,0 +1,19 @@
+{
+  "sha256": "ff2e516078503cefa5d8f6dd3102209814d5e247cd43ce32f3a8c91dbb2c07f1",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T13:13:36Z",
+  "prompt_sha": "2958cee28e7a701a18f57cc355fef5a0f23028baaba52627d910f4513b98c196",
+  "response_text": "## Análise Jurídico-Trabalhista: Banco de Horas e Rescisão Contratual\n\nConsiderando o cenário apresentado e a premissa de que o contexto normativo fornecido é a *única* base para a análise, a situação envolve a demissão sem justa causa de um empregado com saldo positivo em banco de horas, cuja compensação não foi realizada até a rescisão, e o pagamento indevido como hora normal.\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nA análise se restringe estritamente ao que foi fornecido no contexto.  Não há, neste contexto, leis, decretos, constituições ou outras normas. A única fonte normativa é a **Convenção Coletiva de Trabalho (CCT)** mencionada.  A CCT estabelece a existência de um banco de horas com compensação semestral.  A empresa pagou o saldo remanescente como hora normal, o que é o ponto central da controvérsia.\n\n**2. DECISÃO RECOMENDADA**\n\nRecomenda-se que as horas do banco de horas não compensadas até a data da rescisão sejam pagas com o adicional de 50% (hora extra).\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação se baseia exclusivamente na CCT mencionada no contexto.  Embora a CCT não detalhe *como* o saldo do banco de horas deve ser pago em caso de rescisão, o fato de estabelecer um sistema de banco de horas com **compensação semestral** implica que a empresa tinha a obrigação de permitir que o empregado usufruísse dessas horas em folgas ou as compensasse financeiramente.\n\nA empresa, ao optar por pagar o saldo como hora normal, desvirtuou a finalidade do banco de horas, que é justamente a compensação da jornada de trabalho.  A não compensação das horas dentro do prazo estabelecido (semestral) demonstra a falha da empresa em cumprir o que foi acordado na CCT.\n\n**Limitação:**\n\nÉ crucial ressaltar que esta análise é **extremamente limitada** pelo contexto fornecido.  Em uma situação real, a análise jurídica seria muito mais complexa e consideraria:\n\n*   **Conteúdo integral da CCT:** A CCT pode conter disposições específicas sobre o pagamento do saldo do banco de horas em caso de rescisão.\n*   **Legislação trabalhista:** A Consolidação das Leis do Trabalho (CLT) e a jurisprudência do Tribunal Superior do Trabalho (TST) seriam fundamentais para interpretar a CCT e determinar a natureza jurídica das horas não compensadas.\n*   **Acordos individuais:**  Pode haver acordos individuais entre o empregado e a empresa que tratem do tema.\n*   **Jurisprudência:** Decisões judiciais anteriores sobre casos semelhantes.\n\nSem essas informações adicionais, a análise se restringe à interpretação da única informação disponível: a existência de um banco de horas com compensação semestral na CCT. A ausência de regulamentação específica na CCT sobre a rescisão contratual força uma interpretação sistemática que favoreça o trabalhador, dada a natureza compensatória do banco de horas.\n",
+  "tokens_in": 260,
+  "tokens_out": 694,
+  "latency_ms": 37703,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

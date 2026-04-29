@@ -1,0 +1,19 @@
+{
+  "sha256": "1ca3cfd4700b7bee2ca447e6a1f9d02ddce081d55d0b922ad13212ae40f01c73",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T12:09:48Z",
+  "prompt_sha": "92aecfbcd48b18b24b7145bd3115c2c41dd569d979ba575e89a78b84c16595e4",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a decisão do Tribunal Regional do Trabalho (TRT) sobre a concessão de adicional noturno foi baseada na Súmula 60 do Tribunal Superior do Trabalho (TST). A Súmula 60 aborda especificamente o tema do \"adicional noturno — regime de revezamento\". A ratio da decisão é que, no caso de um regime de trabalho em revezamento noturno, este período deve ser considerado como integrante do adicional à remuneração.\n\nNo caso concreto, o empregado está sob um regime 12x36 com períodos noturnos fixos. Isso significa que ele trabalha por 12 horas seguidas e descansa por 36 horas, em um ciclo contínuo, incluindo turnos noturnos estabelecidos.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é conceder o adicional noturno ao empregado. Isso se deve ao fato de que o regime 12x36 com períodos noturnos fixos se enquadra na hipótese prevista pela Súmula 60 do TST, que estabelece a incidência do adicional noturno em regimes de revezamento.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Súmula 60 do TST:** Esta súmula é diretamente aplicável ao caso, pois trata da concessão do adicional noturno em regime de revezamento. Ela estabelece que o período noturno trabalhado no sistema de revezamento deve ser remunerado com adicional noturno.\n\nA distinção feita entre casos de turno fixo não noturno e regimes de revezamento é importante, pois a Súmula 60 se aplica especificamente ao regime de revezamento. No caso de um turno fixo que não inclua períodos noturnos, a análise seria diferente.\n\nNeste contexto normativo, não há necessidade de recorrer a outros dispositivos legais além da Súmula 60 do TST para fundamentar a decisão, pois ela abrange suficientemente o caso em questão.",
+  "tokens_in": 325,
+  "tokens_out": 503,
+  "latency_ms": 29735,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

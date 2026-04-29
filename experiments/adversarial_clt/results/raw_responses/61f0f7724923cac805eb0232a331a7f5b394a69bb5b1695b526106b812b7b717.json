@@ -1,0 +1,26 @@
+{
+  "sha256": "61f0f7724923cac805eb0232a331a7f5b394a69bb5b1695b526106b812b7b717",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CTRL-NEG-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T23:24:36Z",
+  "prompt_sha": "d11d747246713e214367caa10635ee2da91740b47d7d1199b6d612847a92e627",
+  "response_text": "### 1. **ANÁLISE**  \nOs predicados normativos fornecidos (**maximum_daily_working_hours_8h** e **maximum_weekly_working_hours_44h**) são diretrizes relacionadas à **duração da jornada de trabalho**, previstas na CLT (art. 69, § 1º e art. 72, § 1º). No cenário descrito, **não há menção a irregularidades relacionadas à jornada de trabalho**, como horas extras, excedentes de 8 horas diárias ou 44 horas semanais.  \n\nA demissão sem justa causa e o pagamento das verbas rescisórias (saldo de salário, aviso prévio indenizado, férias proporcionais, 13º proporcional, FGTS com multa de 40% e seguro-desemprego) foram **realizados conforme as normas trabalhistas**, com prazo adequado (10 dias) e assinatura do recibo na presença do sindicato, o que **garante a legalidade do processo**.  \n\n### 2. **DECISÃO RECOMENDADA**  \n**Não há violação dos predicados normativos fornecidos**, pois eles não se aplicam ao cenário descrito (que envolve demissão e pagamento de verbas rescisórias, não a jornada de trabalho). A empresa **cumpriu suas obrigações legais**, e o trabalhador **não tem direito a indenizações adicionais** por irregularidades, já que o caso não apresenta falhas identificáveis.  \n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **maximum_daily_working_hours_8h**: **Conformidade**. Não há menção a horas diárias excedentes.  \n- **maximum_weekly_working_hours_44h**: **Conformidade**. Não há menção a horas semanais excedentes.  \n\n**Observação**: Os predicados normativos fornecidos não se aplicam ao cenário de demissão e pagamento de verbas rescisórias, mas sim à regulamentação da jornada de trabalho. A empresa cumpriu as obrigações trabalhistas no caso descrito.",
+  "tokens_in": 377,
+  "tokens_out": 804,
+  "latency_ms": 24453,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

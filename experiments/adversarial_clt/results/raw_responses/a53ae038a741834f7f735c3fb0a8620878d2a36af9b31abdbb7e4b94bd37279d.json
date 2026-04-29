@@ -1,0 +1,19 @@
+{
+  "sha256": "a53ae038a741834f7f735c3fb0a8620878d2a36af9b31abdbb7e4b94bd37279d",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T01:50:34Z",
+  "prompt_sha": "ad4c06343c39e40beb5354b3121dc7db4493d512c68418d9b093860317c762b8",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Artigo 59 da CLT:** Regula a compensação de horas extras, permitindo o banco de horas com compensação em até dois meses, salvo acordo ou convenção coletiva que estenda esse prazo para até quatro meses.\n\n- **Artigo 62 da CLT:** Estabelece que as normas gerais sobre jornada e descanso devem ser observadas, a menos que haja disposição em contrário prevista na lei ou em convenção coletiva.\n\n- **Súmula 331 do TST:** Determina que o banco de horas exige prévia negociação coletiva, salvo se autorizado por acordo individual escrito e homologado pelo Ministério do Trabalho (atualmente pela Justiça do Trabalho).\n\n**Interpretação no Caso Concreto:**\n\n- **Ausência de Negociação Coletiva:** A empresa implementou o banco de horas sem a participação do sindicato patronal ou dos trabalhadores em qualquer acordo coletivo, o que é uma exigência fundamental conforme a Súmula 331 do TST.\n\n- **Acordo Individual Escrito:** Embora os acordos individuais escritos sejam permitidos para estender o prazo de compensação até quatro meses (e não cinco), eles não substituem a necessidade de negociação coletiva, conforme exigido pela jurisprudência do TST.\n\n- **Prorrogação do Prazo:** A empresa pretende estender o prazo para compensação em até 5 meses, o que excede o limite máximo permitido por acordo ou convenção coletiva (quatro meses), conforme o artigo 59 da CLT.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é a anulação do banco de horas implementado pela empresa sob os acordos individuais, pois não houve negociação coletiva prévia e o prazo estabelecido para compensação excede o permitido por lei.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **Artigo 59 da CLT:** Limita a extensão do prazo de compensação de horas extras em banco de horas a até quatro meses, salvo acordo ou convenção coletiva que preveja prazo maior.\n\n- **Súmula 331 do TST:** Exige negociação coletiva prévia para implementação do banco de horas, salvo se autorizado por acordo individual escrito e homologado pela Justiça do Trabalho. A ausência de qualquer forma de negociação coletiva torna o banco de horas inválido.\n\n- **Jurisprudência do TST:** Consistente em exigir a participação sindical na implementação de mecanismos como o banco de horas, reforçando que acordos individuais não substituem a negociação coletiva (TST - RR: 1000012-84.2015.5.04.0001).\n\nEsses dispositivos e precedentes indicam claramente que a implementação do banco de horas pela empresa foi irregular, tanto em termos de processo quanto de prazo estabelecido para compensação.",
+  "tokens_in": 304,
+  "tokens_out": 727,
+  "latency_ms": 42235,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "4f125f67a8dc0a357f07c84ea37e9ed0eb1aad6c1e56a0f12ff7f461df8cb499",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T01:51:15Z",
+  "prompt_sha": "ad4c06343c39e40beb5354b3121dc7db4493d512c68418d9b093860317c762b8",
+  "response_text": "### 1. ANÁLISE\n\n#### Dispositivos Legais Aplicáveis:\n\n- **Artigo 59 da CLT**: Este artigo estabelece as condições para a adoção do banco de horas, que incluem a compensação integral das horas excedentes em até dois meses e a necessidade de prévia negociação coletiva ou autorização sindical.\n\n- **Súmula 331 do TST**: Esta súmula reitera que o banco de horas deve ser estabelecido mediante acordo ou convenção coletiva, não sendo permitida sua instituição por meio de acordos individuais.\n\n#### Interpretação no Caso Concreto:\n\nA indústria têxtil implementou um sistema de banco de horas com base em acordos individuais escritos, estipulando compensação das horas excedentes em até cinco meses. No entanto, conforme o Artigo 59 da CLT e a Súmula 331 do TST, tal prática é incompatível com a legislação trabalhista vigente.\n\nA ausência de negociação coletiva ou autorização sindical torna os acordos individuais inválidos para a instituição do banco de horas. Além disso, o prazo estabelecido pela empresa (cinco meses) excede o limite máximo permitido por lei (dois meses), configurando outra irregularidade.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é que a indústria têxtil revogue os acordos individuais de banco de horas e adote as práticas conforme exigidas pela legislação trabalhista, ou seja:\n\n- Realizar negociação coletiva com o sindicato representativo dos empregados para estabelecer um acordo ou convenção coletiva que institua o banco de horas.\n  \n- Garantir a compensação das horas excedentes em até dois meses, conforme previsão legal.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n#### Artigos da CLT:\n\n- **Artigo 59**: Estabelece as condições para a adoção do banco de horas, incluindo a necessidade de prévia negociação coletiva ou autorização sindical e o prazo máximo de compensação das horas excedentes.\n\n#### Súmulas do TST:\n\n- **Súmula 331**: Determina que o banco de horas deve ser instituído por meio de acordo ou convenção coletiva, não sendo permitida a sua implementação através de acordos individuais.\n\n#### Precedentes Constitucionais:\n\nA Constituição Federal de 1988 (Artigo 7º, inciso XXVI) assegura o direito dos trabalhadores à negociação coletiva, reforçando a necessidade de envolvimento sindical na definição de condições de trabalho que afetam os empregados em massa.\n\n### Conclusão\n\nA adoção do banco de horas por meio de acordos individuais sem a participação do sindicato é ilegal conforme o ordenamento jurídico brasileiro. A empresa deve, portanto, buscar uma solução coletiva que respeite os direitos dos trabalhadores e as normas legais vigentes.",
+  "tokens_in": 304,
+  "tokens_out": 725,
+  "latency_ms": 41671,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

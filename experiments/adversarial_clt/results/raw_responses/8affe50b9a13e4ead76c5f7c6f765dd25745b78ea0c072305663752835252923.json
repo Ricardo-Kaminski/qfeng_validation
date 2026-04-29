@@ -1,0 +1,26 @@
+{
+  "sha256": "8affe50b9a13e4ead76c5f7c6f765dd25745b78ea0c072305663752835252923",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-001",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T01:34:19Z",
+  "prompt_sha": "bc5354b8aa150da0fdce223f51b505bd2eeabf2f811bee24e295f29dad7011ee",
+  "response_text": "**1. ANÁLISE**\n\n- **maximum_daily_working_hours_8h**: Esta norma é cumprida, pois a empresa mantém jornada de 8 horas diárias para todos os empregados.\n\n- **maximum_weekly_working_hours_44h**: Esta norma também é cumprida, pois a empresa limita as horas semanais em 44 horas para todos os empregados.\n\n- **minimum_intrajornada_interval_1h**: Esta norma é cumprida, pois os intervalos intrajornada são concedidos integralmente (1 hora para jornada de 8h), atendendo ao mínimo exigido pela legislação.\n\n**2. DECISÃO RECOMENDADA**\n\nNão há necessidade de uma decisão judicial ou administrativa, pois as condições da empresa estão em conformidade com os predicados normativos listados.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **Conformidade (Cumpridos)**: \n  - maximum_daily_working_hours_8h\n  - maximum_weekly_working_hours_44h\n  - minimum_intrajornada_interval_1h\n\nNão há violação dos predicados normativos listados no cenário descrito.",
+  "tokens_in": 366,
+  "tokens_out": 267,
+  "latency_ms": 4593,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

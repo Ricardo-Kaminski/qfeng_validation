@@ -1,0 +1,19 @@
+{
+  "sha256": "fb86db6ce7d60a213a18832d6bf2659231805a4f00d1dc338ccacf1befb11213",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T11:38:41Z",
+  "prompt_sha": "fe5ea1e90bce3809f6b9e66296de41abc23c26c20d8a019c18931364e6d77260",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a questão central é se uma Convenção Coletiva de Trabalho (CCT) pode estabelecer um prazo de compensação para banco de horas que exceda o limite de 12 meses previsto na legislação trabalhista brasileira. A empresa hoteleira argumenta pela flexibilização com base na autonomia das partes coletivas e no princípio da adequação setorial negociada, enquanto o sindicato dos hotéis alega que o limite de 1 ano é uma norma de ordem pública.\n\nOs dispositivos relevantes neste contexto são:\n- **Súmula TST 85, V:** Esta súmula estabelece que o prazo máximo para compensação de horas extras em banco de horas não pode exceder 12 meses.\n- **Princípio da ordem pública:** Normas consideradas de ordem pública são aquelas cuja violação é inadmissível, mesmo com acordo entre as partes.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada deve ser a favor do sindicato dos hotéis, mantendo o limite de 12 meses para compensação de horas em banco de horas. Isso porque a Súmula TST 85, V estabelece claramente que o prazo máximo não pode exceder um ano, e essa norma é considerada de ordem pública.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Súmula TST 85, V:** Esta súmula explicitamente estabelece o limite de 12 meses como máximo para a compensação de horas extras em banco de horas, sendo uma norma de ordem pública.\n  \nO princípio da autonomia das partes coletivas e a adequação setorial negociada não podem sobrepor-se a normas de ordem pública. Portanto, qualquer convenção ou acordo que pretenda estender esse prazo além do limite legalmente estabelecido é ineficaz em face dessa norma.\n\nDessa forma, a decisão deve respeitar o limite máximo de 12 meses para compensação de horas extras em banco de horas conforme determinado pela Súmula TST 85, V.",
+  "tokens_in": 308,
+  "tokens_out": 502,
+  "latency_ms": 28610,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

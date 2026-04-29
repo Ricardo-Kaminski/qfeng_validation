@@ -1,0 +1,26 @@
+{
+  "sha256": "4ac6e2c038d4764328369519d7d7fa47e5c3a2b8eea07486f4533fd7a7e218b9",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-007",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:20:19Z",
+  "prompt_sha": "1d68b02e56a3be519b2c411e30a4e5202d217b01b44ee4ca2db84ac049f73210",
+  "response_text": "**1. ANÁLISE**\n\nO caso apresenta uma situação em que o TST aplicou uma tese fixada em IRDR do TRT-15ª Região como se fosse precedente vinculante nacional, embora a decisão regional não tenha sido afetada como repetitivo pelo TST e não possua eficácia nacional.\n\n**Análise dos predicados normativos:**\n\n- **prohibition_of_generic_precedent_citation**: Este predicado impede que precedentes sejam citados de forma genérica, sem a necessidade de identificar o caso concreto em que foi decidido. Nesse cenário, o TST aplicou uma tese como se fosse um precedente vinculante nacional, sem especificar o caso concreto em que essa tese foi fixada originalmente. Isso viola o predicado devido à falta de precisão na citação do precedente.\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: Este predicado obriga as decisões a fundamentarem-se no ratio decidendi específico da sentença que serve de base para a aplicação. Nesse caso, o TST aplicou uma tese sem especificar como essa tese foi fixada originalmente ou qual é o seu ratio decidendi. Isso também viola esse predicado, pois não há fundamentação clara sobre por que aquela tese deve ser aplicada.\n\n**2. DECISÃO RECOMENDADA**\n\nDiante das análises acima, a decisão recomendada seria anular a decisão do TST e determinar o retorno dos autos ao órgão superior para que sejam reavaliadas as teses aplicadas, fundamentando-se em precedentes específicos e identificando claramente os ratio decidendi das sentenças que servem de base para essas aplicações.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **prohibition_of_generic_precedent_citation**: Violado\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: Violado",
+  "tokens_in": 378,
+  "tokens_out": 454,
+  "latency_ms": 7593,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

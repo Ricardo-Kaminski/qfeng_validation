@@ -1,0 +1,26 @@
+{
+  "sha256": "fa443e79cb260ca7ffb7bdb705db96292ed601a9491723f5a4300e29c797d967",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-011",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T22:12:59Z",
+  "prompt_sha": "bc144ea0f3cb8c204e73a53f8ce3a51b3838ed6a04cd999b6329488180513107",
+  "response_text": "### 1. **ANÁLISE**  \n**a) *obligation_to_ground_decision_in_identified_ratio_decidendi***  \nO tribunal **viola** essa obrigação ao aplicar um *tema de repercussão geral* (RG) de direito administrativo (relativo a servidores públicos) a um caso de empregado celetista privado, **sem identificar ou fundamentar a analogia** entre os regimes jurídicos (administrativo e trabalhista). A CLT exige que a decisão seja fundamentada em **ratio decidendi** claramente identificável e aplicável ao caso concreto. A aplicação de um precedente de RG sem demonstrar sua **adequação ao regime trabalhista** viola essa obrigação, pois não há base normativa ou jurisprudencial específica para tal analogia.  \n\n**b) *due_process_of_law***  \nO tribunal **viola** o direito ao devido processo legal ao **não explicar a analogia** ou **demonstrar a aplicabilidade** do *tema de RG* ao regime trabalhista. O devido processo exige que o juiz:  \n- **Fundamente a decisão** com argumentos claros e vinculados ao caso;  \n- **Respeite a distinção entre regimes jurídicos** (trabalhista e administrativo), evitando aplicação automática de normas de um setor a outro;  \n- **Garanta a defesa do empregado**, ao não permitir que ele conteste a aplicação de um precedente inaplicável.  \nA ausência de fundamentação e a aplicação de norma estranha ao caso concreto configuram violação do devido processo.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **decisão deve ser anulada** e o caso remetido ao tribunal competente para:  \n- **Reavaliar a aplicação do *tema de RG***, com base em **normas trabalhistas específicas** (CLT, Súmulas do TST, jurisprudência do STF/STJ);  \n- **Explicar a analogia** (se aplicável) ou **rejeitar a aplicação do precedente** de RG, caso não haja vinculação jurídica com o regime trabalhista;  \n- **Garantir o devido processo** ao empregado, assegurando que ele possa contestar a aplicação de normas estranhas ao seu caso.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Violados:**  \n  - *obligation_to_ground_decision_in_identified_ratio_decidendi* (o tribunal não fundamentou a decisão com *ratio decidendi* aplicável ao regime trabalhista);  \n  - *due_process_of_law* (não houve garantia de defesa e fundamentação adequada da aplicação de norma estranha ao caso).  \n\n- **Cumpridos:**  \n  - Nenhum predicado foi cumprido, pois **ambos foram violados**. A aplicação do *tema de RG* sem fundamentação e sem respeito ao regime trabalhista configura **violação de direitos fundamentais**.  \n\n---  \n**Conclusão:** A decisão do tribunal é **nula** por violação de direitos fundamentais e obrigações processuais, exigindo **reanálise do caso com base em normas trabalhistas específicas**.",
+  "tokens_in": 336,
+  "tokens_out": 1183,
+  "latency_ms": 35828,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

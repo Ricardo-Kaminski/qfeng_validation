@@ -1,0 +1,19 @@
+{
+  "sha256": "4fd21a46fc43cf9ecb0f6b7c48f0867363b9ff238e448eb8f2980a86430357bd",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-001",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T07:13:21Z",
+  "prompt_sha": "7b0cbc03ad98143352874ea0c76ba5a873641ee2e08420b887502c4876d7fb17",
+  "response_text": "**ANÁLISE**\n\nNo cenário apresentado, a empresa de manufatura mantém uma jornada de trabalho regularizada, com 8 horas diárias e 44 horas semanais para todos os empregados. A ausência de banco de horas, trabalho noturno e horas extras é relevante, pois não há necessidade de compensação ou pagamento adicional por excesso de horas trabalhadas. Além disso, a concessionar integral dos intervalos intrajornada (1 hora para jornada de 8h) também está de acordo com as exigências legais.\n\n**DISPOSITIVOS LEGAIS APLICÁVEIS**\n\n- **Jornada de Trabalho**: O artigo 7º, inciso XIII da Constituição Federal estabelece que é direito dos trabalhadores a jornada de trabalho de oito horas diárias e quarenta e quatro horas semanais. Além disso, o artigo 59 da CLT define que a jornada normal de trabalho é de 8 horas diárias e 44 horas semanais.\n  \n- **Intervalos Intra-Jornada**: O artigo 74 da CLT estabelece que os empregados têm direito a um intervalo para repouso, no mínimo de uma hora, quando a duração do trabalho for de oito horas ou mais. Nesse caso, a concessionar integral dos intervalos intrajornada está em conformidade com as exigências legais.\n\n- **Registros de Ponto**: O artigo 75 da CLT estabelece que os registros de ponto devem ser eletrônicos e auditáveis, o que é cumprido no cenário apresentado.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a empresa está em conformidade com as exigências legais trabalhistas. Não há necessidade de alteração na jornada de trabalho ou nos intervalos intrajornada, pois todos os requisitos legais estão sendo cumpridos.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n- **Constituição Federal**: Artigo 7º, inciso XIII.\n  \n- **CLT (Consolidação das Leis do Trabalho)**: Artigos 59 e 74.\n\n- **Súmulas do TST (Superior Tribunal de Justiça)**: Não há necessidade de citação específica, pois a análise está baseada em dispositivos legais explícitos que não requerem interpretação jurisprudencial para sua aplicação.\n\n**CONCLUSÃO**\n\nA empresa de manufatura está cumprindo com todas as exigências legais trabalhistas. Portanto, não há necessidade de alterações na jornada de trabalho ou nos intervalos intrajornada.",
+  "tokens_in": 301,
+  "tokens_out": 604,
+  "latency_ms": 19843,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

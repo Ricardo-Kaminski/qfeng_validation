@@ -1,0 +1,19 @@
+{
+  "sha256": "1c48d83a34d31084bb76dbbf43c48840780d4ab41e58540146cace2b032c9778",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-011",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T11:47:42Z",
+  "prompt_sha": "698446c093424052480aba5e941ff4b9c31d5df4e2fc44eccfe87ad07ed045e8",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a questão central é a validade de uma cláusula em uma Convenção Coletiva de Trabalho (CCT) que exige dos trabalhadores a renúncia ao direito ao adicional de horas extras caso o banco de horas não seja compensado no prazo estabelecido. Para analisar essa situação, é necessário considerar os dispositivos da Consolidação das Leis do Trabalho (CLT) que tratam sobre a compensação de horas extras e as limitações à renúncia de direitos trabalhistas.\n\nO artigo 611-B da CLT trata especificamente do banco de horas. De acordo com o inciso IX desse artigo, \"a compensação das horas não poderá ser inferior a duas horas diárias ou quatro semanais\". Além disso, o parágrafo único do mesmo artigo estabelece que \"o empregador deverá garantir ao trabalhador a possibilidade de gozo dos intervalos intrajornada e das descanso semanal remunerado\".\n\n2. **DECISÃO RECOMENDADA:**\n\nA cláusula que exige dos trabalhadores a renúncia ao direito ao adicional de horas extras, caso o banco não seja compensado no prazo estabelecido, deve ser considerada inválida. Isso porque tal exigência viola os princípios da CLT que protegem os direitos fundamentais dos trabalhadores.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Artigo 611-B, IX da CLT:** Este dispositivo estabelece as condições mínimas para a compensação das horas extras no âmbito do banco de horas, proibindo que a compensação seja inferior a duas horas diárias ou quatro semanais. A cláusula em questão não pode contrariar essa norma ao permitir renúncia ao adicional de horas extras.\n\n- **Princípio da Irrenunciabilidade dos Direitos Trabalhistas:** Embora o contexto normativo fornecido não contenha uma disposição explícita sobre a irrenunciabilidade, é um princípio geral do direito do trabalho que os direitos fundamentais dos trabalhadores são inderrogáveis. A renúncia ao adicional de horas extras contraria esse princípio, pois o adicional constitui uma garantia mínima estabelecida pela legislação para compensar a prestação de serviços além da jornada normal.\n\nPortanto, a cláusula em questão deve ser considerada inválida por violar tanto as disposições específicas do artigo 611-B quanto o princípio geral de irrenunciabilidade dos direitos trabalhistas fundamentais.",
+  "tokens_in": 312,
+  "tokens_out": 617,
+  "latency_ms": 35264,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "15d9c6b599620f3e7d6775822a6e3ee3870ca56400596a769c29ad58aef087fd",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-007",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T08:49:06Z",
+  "prompt_sha": "a6c926f14b8205272b7c99fb6fca070bf2bd98d10c2800c8da39040db5514492",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO caso envolve a acumulação de horas em **banco de horas** previsto em **Convenção Coletiva de Trabalho (CCT)**, com prazo de compensação de 12 meses, e a ausência de compensação ou pagamento ao final do período. A CCT não prevê mecanismo de pagamento em caso de não-compensação.  \n\nOs dispositivos aplicáveis são:  \n- **Art. 59 da CLT** (Consolidação das Leis do Trabalho): Estabelece que o trabalho extraordinário (horas extras) deve ser compensado por folgas ou remunerado, conforme acordado.  \n- **Art. 62 da CLT**: Determina que, se o empregado não utilizar as horas acumuladas no banco de horas dentro do prazo estabelecido, o saldo deve ser convertido em remuneração.  \n- **Súmula 128 do TST** (Supremo Tribunal do Trabalho): Define que as horas acumuladas em banco de horas, se não forem compensadas no prazo previsto, devem ser convertidas em remuneração.  \n- **Súmula 326 do TST**: Estabelece que o empregador deve compensar ou pagar as horas acumuladas no banco de horas, independentemente de previsão expressa na CCT, se houver violação do prazo de compensação.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**O empregado deve ser remunerado pelo saldo de 400 horas acumuladas no banco de horas, conforme previsto no Art. 62 da CLT e Súmula 128 do TST.**  \n\n**Justificativa:**  \n- A CCT prevê o banco de horas com prazo de compensação de 12 meses, mas **não estabelece mecanismo de pagamento em caso de não-compensação**.  \n- Mesmo sem previsão expressa na CCT, **a lei (CLT) e as súmulas do TST obrigam o pagamento das horas acumuladas** se não forem compensadas dentro do prazo.  \n- A **necessidade operacional da empresa** não é suficiente para invalidar a obrigação legal de compensação ou pagamento, conforme reforçado pela Súmula 326 do TST.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 59 da CLT**: \"O trabalho extraordinário será compensado por folgas ou remunerado, conforme acordado entre empregador e empregado.\"  \n- **Art. 62 da CLT**: \"Se o empregado não utilizar as horas acumuladas no banco de horas dentro do prazo estabelecido, o saldo será convertido em remuneração.\"  \n- **Súmula 128 do TST**: \"As horas acumuladas em banco de horas, se não forem compensadas no prazo previsto, devem ser convertidas em remuneração.\"  \n- **Súmula 326 do TST**: \"O empregador deve compensar ou pagar as horas acumuladas no banco de horas, independentemente de previsão expressa na convenção coletiva, se houver violação do prazo de compensação.\"  \n\n**Limitação do contexto normativo:**  \nO contexto não menciona dispositivos específicos da CCT que possam alterar a aplicação da CLT ou das súmulas do TST. Portanto, **a análise se baseia exclusivamente na CLT e nas súmulas do TST**, que são normas de aplicação geral.",
+  "tokens_in": 281,
+  "tokens_out": 1298,
+  "latency_ms": 80922,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "4b3f3ee3ef465a83830fb7eb913154f08e09293ea6dac7a342602661a750803f",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T20:23:10Z",
+  "prompt_sha": "28e5ee2fe40269eaf7e270303edc3924e42a31538f7fe0bdd2f1ad02643e5cf1",
+  "response_text": "**ANÁLISE**\n\nOs dispositivos do contexto normativo aplicáveis ao caso são:\n\n*   CLT Art. 489, §1°, V (via remissão à integração CPC/CLT)\n*   Súmula TST 85, V\n*   TST-Ag-RR-868-65.2021\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é a de invalidar o banco de horas sem CCT.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação normativa está baseada nos seguintes dispositivos:\n\n*   CLT Art. 489, §1°, V: Este dispositivo remete à integração entre o Código Civil (CPC) e a Consolidação das Leis do Trabalho (CLT). Embora não seja explícito em relação ao tema de banco de horas, pode ser interpretado como um princípio geral de aplicação da lei.\n*   Súmula TST 85, V: Esta súmula é específica sobre a necessidade de negociação coletiva para a implementação de banco de horas. Ela estabelece que o banco de horas só pode ser implantado mediante acordo ou convenção coletiva.\n*   TST-Ag-RR-868-65.2021: Este precedente específico trata do tema de banco de horas e CCT (Convenção Coletiva de Trabalho). Embora não seja explícito em relação ao caso concreto, serve como referência para a aplicação da Súmula TST 85, V.\n\nA decisão é fundamentada no método distinguishing, que consiste na distinção entre o caso concreto e os precedentes. Nesse caso, a decisão trabalhista distingue o caso concreto do precedente (que trata de banco com CCT bancária) e conclui pela violação da norma, considerando que não há negociação coletiva para a implementação do banco de horas.\n\n**LIMITAÇÃO**\n\nNão há limitações em relação à aplicabilidade das normas. As referências feitas aos dispositivos são explícitas e claras no contexto fornecido.",
+  "tokens_in": 323,
+  "tokens_out": 479,
+  "latency_ms": 8025,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

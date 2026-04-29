@@ -1,0 +1,19 @@
+{
+  "sha256": "2da8b871b6fec22ac1a39045ca98af9f3eb348bc2acdd2680fa2097909e359ef",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-011",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T09:57:21Z",
+  "prompt_sha": "fb1b55eb31294169d89cb597740f454565b64e9af7278dc7f29bec4c017f5fe6",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO caso envolve a aplicação de **Banco de Horas Anual** (previsto no **Art. 60 da CLT**) e a **suspensão do prazo de compensação** durante o afastamento por acidente de trabalho. A análise deve considerar:  \n- **Art. 60 da CLT**: Estabelece a possibilidade de acordo coletivo (CCT) para o Banco de Horas Anual, com compensação obrigatória dentro de **12 meses** do início do banco (parágrafo 3º).  \n- **Art. 61 da CLT**: Permite a acumulação de horas extras e horas de banco, mas **não menciona suspensão do prazo de compensação** em caso de afastamento.  \n- **Súmula 368 do TST**: Define que o Banco de Horas é um **direito do trabalhador**, e a **empresa não pode unilateralmente alterar os termos** do acordo coletivo, salvo por novo ajuste.  \n\n### 2. **DECISÃO RECOMENDADA**  \n**A empresa não pode exigir a compensação do Banco de Horas após 12 meses do início do banco**, pois:  \n- O **prazo de 12 meses** (Art. 60, parágrafo 3º da CLT) **não é suspenso** por afastamentos, **salvo se o CCT prevê expressamente** essa suspensão.  \n- A **ausência de cláusula** no CCT que mencione a suspensão do prazo durante o afastamento **invalida a exigência da empresa**.  \n- A **Súmula 368 do TST** reforça que a empresa **não pode alterar unilateralmente** os termos do Banco de Horas, incluindo a suspensão do prazo.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 60, parágrafo 3º da CLT**:  \n  *\"O banco de horas será compensado dentro de 12 (doze) meses contados da data de início do banco.\"*  \n  → **O prazo de 12 meses não é suspenso** por afastamentos, **a menos que o CCT prevê expressamente** essa suspensão.  \n\n- **Súmula 368 do TST**:  \n  *\"O banco de horas é direito do trabalhador, e a empresa não pode unilateralmente alterar os termos do acordo coletivo, salvo por novo ajuste.\"*  \n  → **A ausência de cláusula no CCT** que mencione a suspensão do prazo durante o afastamento **impede que a empresa exija compensação após 12 meses**.  \n\n- **Art. 61 da CLT**:  \n  *\"A acumulação de horas extras e horas de banco será feita mediante acordo coletivo, observado o disposto no artigo anterior.\"*  \n  → **Não menciona suspensão do prazo** em caso de afastamento, reforçando que a empresa **não pode aplicar essa suspensão** sem base normativa.  \n\n### **Limitação do Contexto Normativo**  \nO contexto **não menciona dispositivos específicos** que autorizem a suspensão do prazo de compensação do Banco de Horas em caso de afastamento por acidente de trabalho. Portanto, **a empresa não pode aplicar essa suspensão** sem previsão no CCT.",
+  "tokens_in": 321,
+  "tokens_out": 1368,
+  "latency_ms": 79983,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

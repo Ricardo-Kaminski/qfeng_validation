@@ -1,0 +1,19 @@
+{
+  "sha256": "f6d3b338df9b0fd614f502cd06ede81bc687784b080c7b2f8a5488bcfa3b5cff",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T10:02:03Z",
+  "prompt_sha": "72790d8991be5ef4727404f6c998a5accce45b39b15ebe25cef7018b0f9d220f",
+  "response_text": "### 1. **ANÁLISE**  \nOs dispositivos normativos aplicáveis ao caso são:  \n- **Tema 1046/STF** (ARE 1.121.633), que estabelece a constitucionalidade de acordos e convenções coletivas (CCTs) que, ao estipular exclusivamente vantagens ou supressões de direitos, se fundamentem no **princípio da adequação setorial negociada**.  \n- A **CCT bancária** em questão, conforme analisada no acórdão do TST, preenche os requisitos do Tema 1046, ou seja, sua validade depende da **negociação setorial** e da **compensação de direitos** em bases equitativas, sem violar direitos fundamentais.  \n\n### 2. **DECISÃO RECOMENDADA**  \n**Validar o banco de horas bancário**, desde que a CCT em questão:  \n- Esteja alinhada ao **princípio da adequação setorial negociada** (Tema 1046/STF);  \n- Não viole direitos fundamentais garantidos pela Constituição Federal (ex.: direito à saúde, segurança e dignidade do trabalhador);  \n- Tenha sido celebrada com a participação de representantes legais das partes (empregadores e sindicatos).  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Tema 1046/STF** (ARE 1.121.633): Fixa a tese de que **acordos e CCTs são constitucionais** se baseados no **princípio da adequação setorial negociada**, ou seja, se estabelecem compensações de direitos em bases setoriais, sem violar direitos fundamentais.  \n- **Constituição Federal, art. 7º, XV** (direito à negociação coletiva): Garante a possibilidade de acordos e convenções coletivas como forma de regulamentação das relações de trabalho.  \n- **Constituição Federal, art. 7º, XIV** (direito à saúde e segurança no trabalho): Impõe que qualquer regime de trabalho (como o banco de horas) não possa comprometer esses direitos.  \n\n**Limitação normativa**:  \nO contexto não menciona dispositivos específicos da **Lei nº 6.019/1973** (que regula o banco de horas) ou outras normas complementares. A análise se limita ao **Tema 1046/STF** e à interpretação do TST sobre a CCT bancária.",
+  "tokens_in": 339,
+  "tokens_out": 997,
+  "latency_ms": 61937,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

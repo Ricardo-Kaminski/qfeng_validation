@@ -1,0 +1,19 @@
+{
+  "sha256": "36c5e8e1e36501b3dfd24b925028cdaa78f46e49fa40c8c6c88f49aa6334f5e9",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T06:48:43Z",
+  "prompt_sha": "789bb3f3b629b4227cddab821933c060fd792fe2c27e2e611000914cf65be9d2",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a aplicação de um banco de horas anual previsto em uma Convenção Coletiva de Trabalho (CCT) entre a empresa do setor alimentício e os trabalhadores. O dispositivo legal mais relevante para essa análise é o artigo 59 da CLT, que trata sobre a compensação de jornada.\n\n**Interpretação no caso concreto:**\n\nO artigo 59 da CLT estabelece que \"A compensação de horas trabalhadas em excesso poderá ser feita mediante folga, dentro do período máximo de 12 (doze) meses, contados a partir do mês subsequente ao da prestação dos serviços.\" Além disso, o artigo 59 também estabelece que \"A compensação de horas trabalhadas em excesso poderá ser feita mediante folga, dentro do período máximo de 12 (doze) meses, contados a partir do mês subsequente ao da prestação dos serviços.\"\n\nNo caso concreto, o trabalhador acumulou horas ao longo de 11 meses e todas foram compensadas mediante folgas dentro do prazo de 12 meses estabelecido na CCT. Além disso, os extratos mensais foram entregues e a jornada diária nunca ultrapassou 10 horas.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando que o trabalhador cumpriu com as exigências da compensação de horas previstas no artigo 59 da CLT, incluindo a entrega dos extratos mensais e a compensação das horas dentro do prazo estabelecido na CCT, **é recomendada a homologação da prestação anual de contas do banco de horas**.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   Artigo 59 da CLT: \"A compensação de horas trabalhadas em excesso poderá ser feita mediante folga, dentro do período máximo de 12 (doze) meses, contados a partir do mês subsequente ao da prestação dos serviços.\"\n*   Súmula 438 do TST: \"O banco de horas deve ser utilizado no prazo de um ano, salvo convenção coletiva ou acordo em contrário.\"\n\n**CONCLUSÃO**\n\nConsiderando a aplicação das normas legais e jurisprudenciais mencionadas, é recomendada a homologação da prestação anual de contas do banco de horas.",
+  "tokens_in": 298,
+  "tokens_out": 541,
+  "latency_ms": 18469,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

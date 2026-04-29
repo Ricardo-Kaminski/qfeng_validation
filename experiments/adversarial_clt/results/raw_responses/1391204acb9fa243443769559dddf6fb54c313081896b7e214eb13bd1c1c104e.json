@@ -1,0 +1,19 @@
+{
+  "sha256": "1391204acb9fa243443769559dddf6fb54c313081896b7e214eb13bd1c1c104e",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CTRL-NEG-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T20:05:15Z",
+  "prompt_sha": "78faf043ffafa13b62c94bafbb4c2e0135abf258fd4b2cf3a75e7132cf2b38ec",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas\n\nCom base no contexto normativo fornecido, apresento a análise, decisão recomendada e fundamentação:\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nO cenário descreve a implementação de um sistema de banco de horas por meio de uma Convenção Coletiva de Trabalho (CCT) entre a empresa e o sindicato. Os dispositivos normativos aplicáveis, extraídos do contexto, são:\n\n*   **CCT:** É a principal fonte normativa do caso. A CCT estabelece as regras para o banco de horas, incluindo:\n    *   **Prazo de validade:** 6 meses.\n    *   **Acúmulo máximo:** 60 horas mensais.\n    *   **Entrega do extrato:** Mensalmente.\n    *   **Conversão em adicional:** 50% para saldo não compensado.\n*   **Registro na SRTE:** A CCT foi devidamente registrada na Superintendência Regional do Trabalho e Emprego (SRTE), o que confere validade jurídica e obrigatoriedade para as partes.\n*   **Divulgação aos trabalhadores:** A informação da CCT foi devidamente comunicada a todos os trabalhadores, garantindo transparência e conhecimento das regras.\n*   **Ausência de contestação:** Não há registro de contestação sindical ou individual, indicando que as partes estão em conformidade com o acordo.\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada é **validar a aplicação do sistema de banco de horas conforme estabelecido na CCT**. A empresa agiu corretamente ao compensar as horas em folgas previamente comunicadas, dentro do prazo de 6 meses e respeitando o limite máximo de acúmulo de 60 horas mensais. A ausência de contestação por parte dos trabalhadores ou do sindicato reforça a conformidade com as regras estabelecidas.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação para a decisão recomendada reside nos seguintes pontos:\n\n*   **Autonomia da Negociação Coletiva:** A CCT, por ser fruto da negociação entre a empresa e o sindicato, possui força normativa e vincula as partes, conforme a legislação trabalhista. Embora o contexto não cite artigos específicos da CLT sobre negociação coletiva, a própria existência e registro da CCT demonstram a sua validade e aplicabilidade.\n*   **Cumprimento das Cláusulas Contratuais:** A empresa cumpriu integralmente as cláusulas da CCT, compensando as horas em folgas dentro do prazo estipulado e respeitando o limite máximo de acúmulo.\n*   **Transparência e Informação:** A comunicação da CCT aos trabalhadores garante a sua ciência e conhecimento das regras, evitando questionamentos futuros.\n*   **Ausência de Impugnação:** A falta de contestação sindical ou individual demonstra a concordância das partes com o sistema de banco de horas implementado.\n\n**Limitações do Contexto Normativo**\n\nÉ importante ressaltar que o contexto normativo fornecido é limitado. Não há menção a dispositivos específicos da Consolidação das Leis do Trabalho (CLT) ou de outras normas que regulem o banco de horas em si. A análise se baseia exclusivamente nas cláusulas da CCT e nos fatos narrados no cenário. Uma análise mais aprofundada exigiria a consulta à legislação complementar e à jurisprudência sobre o tema.\n",
+  "tokens_in": 279,
+  "tokens_out": 753,
+  "latency_ms": 20528,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

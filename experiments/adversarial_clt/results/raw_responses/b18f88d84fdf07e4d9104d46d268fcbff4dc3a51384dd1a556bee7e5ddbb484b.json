@@ -1,0 +1,26 @@
+{
+  "sha256": "b18f88d84fdf07e4d9104d46d268fcbff4dc3a51384dd1a556bee7e5ddbb484b",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CTRL-NEG-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:11:51Z",
+  "prompt_sha": "bc5354b8aa150da0fdce223f51b505bd2eeabf2f811bee24e295f29dad7011ee",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso\n\nCom base nos predicados normativos fornecidos e no cenário apresentado, segue a análise, decisão recomendada e identificação de cumprimento/violação:\n\n**1. ANÁLISE:**\n\n*   **`maximum_daily_working_hours_8h` (Jornada Diária Máxima de 8 Horas):** A empresa cumpre este predicado. A jornada de trabalho diária dos empregados é fixada em 8 horas, respeitando o limite máximo estabelecido pela legislação.\n*   **`maximum_weekly_working_hours_44h` (Jornada Semanal Máxima de 44 Horas):** A empresa também cumpre este predicado. A jornada de trabalho semanal dos empregados é de 44 horas, o que está dentro do limite legal.\n*   **`minimum_intrajornada_interval_1h` (Intervalo Intrajornada Mínimo de 1 Hora):** A empresa cumpre este predicado. Os empregados recebem um intervalo intrajornada de 1 hora, atendendo ao mínimo legal para jornadas de 8 horas. A garantia de que os intervalos são concedidos integralmente é um ponto crucial para a conformidade.\n\n**2. DECISÃO RECOMENDADA:**\n\nA decisão recomendada é de **manutenção da situação atual**. A empresa demonstra estar em conformidade com os predicados normativos aplicáveis, garantindo o respeito aos limites da jornada de trabalho diária e semanal, bem como o intervalo intrajornada mínimo. A existência de registros de ponto eletrônicos e auditáveis reforça a transparência e a possibilidade de comprovação do cumprimento da legislação. A ausência de reclamações trabalhistas pendentes também sugere que a prática da empresa é bem recebida pelos empregados.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **`maximum_daily_working_hours_8h`:** Conformidade\n*   **`maximum_weekly_working_hours_44h`:** Conformidade\n*   **`minimum_intrajornada_interval_1h`:** Conformidade\n\n**Observações Adicionais:**\n\n*   **Auditoria Contínua:** Embora a empresa esteja em conformidade no momento, é recomendável manter a auditoria dos registros de ponto de forma contínua para garantir que a conformidade seja mantida ao longo do tempo.\n*   **Mudanças Futuras:** Qualquer alteração na organização do trabalho, como a introdução de banco de horas ou trabalho noturno, exigirá uma nova análise para garantir a conformidade com a legislação.\n*   **Registro de Ponto:** A utilização de registros de ponto eletrônicos é fundamental para comprovar o cumprimento da jornada de trabalho e dos intervalos, além de facilitar a gestão do tempo dos empregados. É importante assegurar que o sistema de registro de ponto seja utilizado corretamente e que os dados sejam armazenados de forma segura.\n",
+  "tokens_in": 344,
+  "tokens_out": 644,
+  "latency_ms": 17843,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

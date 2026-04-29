@@ -1,0 +1,26 @@
+{
+  "sha256": "6fa278443aa9a526733be9e5655cff34781f4739dd2664f35eaec40dfecf7a0a",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T00:25:57Z",
+  "prompt_sha": "489d4d0cb986d91530d7db7ba9d629c987a55e79987825665efedd8b88b39c59",
+  "response_text": "## Análise do Caso: Citação Doutrinária Genérica em Acórdão Trabalhista\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, a análise e a decisão recomendada são as seguintes:\n\n**1. ANÁLISE:**\n\n* **obligation_to_ground_decision_in_identified_ratio_decidendi:** Este predicado é o central para a análise do caso. Ele impõe a obrigação de fundamentar a decisão em um *ratio decidendi* identificado. A citação de doutrina, para ser válida e cumprir este predicado, deve permitir que o julgador (e as partes) verifiquem a origem do pensamento e a base da argumentação. A simples menção ao nome de um autor (\"Martins, Sergio Pinto\") sem a indicação da obra específica, edição, ano e página, **não cumpre** este predicado.  Não é possível verificar qual a tese específica de Martins que o acórdão está utilizando para fundamentar sua decisão.  A amplitude da obra de um autor como Martins, com diversas publicações sobre Direito do Trabalho, torna a citação genérica inútil para a verificação da fundamentação.  O recorrente está correto ao alegar que, na prática, a citação genérica equivale à ausência de fundamentação.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que o Tribunal do Trabalho **anule a parte da decisão que se baseia na citação doutrinária genérica**.  A decisão deve determinar que o acórdão seja reanalisado e que a fundamentação seja devidamente complementada, indicando a obra específica, edição, ano e página da qual a doutrina de Martins foi extraída.  A falta de clareza na fundamentação impede o controle da decisão e a possibilidade de as partes verificarem a base legal e doutrinária utilizada.  A anulação da parte da decisão não implica necessariamente na anulação da totalidade do acórdão, mas sim na necessidade de refazer a fundamentação sobre o ponto específico.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n* **obligation_to_ground_decision_in_identified_ratio_decidendi:** **Violação**. A citação doutrinária genérica não permite a identificação do *ratio decidendi* e, portanto, não cumpre a obrigação de fundamentar a decisão em uma base identificável.\n* **Outros predicados:** Não há informação sobre outros predicados que possam ter sido violados ou cumpridos, pois a análise se concentra especificamente na questão da fundamentação da decisão.  É importante ressaltar que a falta de fundamentação adequada pode levar à violação de outros princípios do devido processo legal e do direito de defesa.\n",
+  "tokens_in": 315,
+  "tokens_out": 596,
+  "latency_ms": 16141,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

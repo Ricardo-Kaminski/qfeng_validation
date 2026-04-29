@@ -1,0 +1,19 @@
+{
+  "sha256": "898a29dbef48194073f6b7fbb82aa2952f5906472d5b58d9d06369dc1d2ebfc0",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-008",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T19:47:45Z",
+  "prompt_sha": "20bcb1901ab1aa5e2075eb13244f62faae731e7567ce2ad32b769d26afac0022",
+  "response_text": "## Análise Jurídico-Trabalhista: Banco de Horas e Alteração Unilateral da CCT\n\nConsiderando o cenário apresentado e a premissa de que o contexto normativo fornecido é a *única* base para a análise, a situação exige uma avaliação cuidadosa da validade da alteração unilateral da escala de compensação de folgas no sistema de banco de horas.\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nO cenário descreve uma empresa que alterou unilateralmente a escala de compensação de folgas prevista em uma Convenção Coletiva de Trabalho (CCT). A questão central é se essa alteração viola a CCT e, consequentemente, invalida o sistema de banco de horas.\n\nNo entanto, o contexto normativo fornecido é *extremamente limitado*. Não há a CCT em si, apenas a descrição de que ela prevê \"escolha flexível da data de compensação\".  Sem o texto da CCT, a análise fica severamente restrita.  A única informação que podemos extrair é que a CCT originalmente permitia a flexibilidade na escolha da data de compensação.\n\n**2. DECISÃO RECOMENDADA**\n\nRecomenda-se que a alteração unilateral da escala de compensação de folgas seja considerada **nula e inválida**. A empresa deve retornar à escala de compensação prevista na CCT original, que permitia a escolha flexível da data.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação é construída com base na *única* informação disponível no contexto:\n\n*   **A CCT previa escolha flexível da data de compensação:**  A própria descrição do cenário indica que a CCT original estabelecia a flexibilidade na data de compensação. A alteração unilateral para compensação exclusiva às sextas-feiras contraria diretamente essa previsão.  Embora não haja um artigo específico citado, a descrição da CCT como tendo previsto a flexibilidade é suficiente para indicar uma violação.\n\n**Limitações Cruciais:**\n\nÉ *imperativo* ressaltar que esta análise é *extremamente limitada* pela ausência do texto da CCT. Uma análise completa e definitiva exigiria a leitura e interpretação do texto integral da CCT, buscando os artigos que tratam do banco de horas, da compensação de folgas e da sua flexibilidade.\n\nAlém disso, a análise não considera:\n\n*   **Jurisprudência:** Não há súmulas ou decisões judiciais fornecidas no contexto para embasar a decisão.\n*   **Princípios Gerais do Direito do Trabalho:**  Embora princípios como a boa-fé e a proteção ao trabalhador sejam relevantes, a instrução é para basear a análise *exclusivamente* no contexto fornecido.\n*   **Possíveis Cláusulas de Negociação:** A CCT pode conter cláusulas que permitam alterações, mesmo que unilaterais, em determinadas condições. Sem o texto da CCT, essa possibilidade não pode ser avaliada.\n*   **Direito de Alteração da Empresa:** A empresa pode ter algum direito de alterar a escala de compensação, dependendo do que está previsto na CCT. Sem o texto da CCT, não é possível determinar se esse direito existe e quais são seus limites.\n\nEm resumo, a decisão recomendada é baseada na informação limitada de que a CCT original previa a flexibilidade na data de compensação, e a alteração unilateral da empresa contraria essa previsão. Uma análise mais completa e precisa exigiria a análise do texto integral da CCT.",
+  "tokens_in": 254,
+  "tokens_out": 759,
+  "latency_ms": 20784,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

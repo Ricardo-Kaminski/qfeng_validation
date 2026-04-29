@@ -1,0 +1,29 @@
+{
+  "sha256": "5672fb5cfe497525b23cbcff786961de0295376a4681cc17998cfc200659d40b",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T01:24:22Z",
+  "prompt_sha": "e9b9a0f5b834d2f759bd4690a730595f761f0af48ca69ce693978c1f4c32a68d",
+  "response_text": "**ANÁLISE**\n\n1. **hour_bank_with_cct_max_1_year**: Este predicado normativo é aplicável ao caso, pois estabelece que a compensação de banco de horas deve ocorrer dentro do prazo máximo de 1 ano, conforme previsto na lei. A empresa hoteleira está tentando flexibilizar este limite com base em uma CCT setorial, o que pode ser considerado incompatível com este predicado.\n2. **CCT pode flexibilizar o limite de 1 ano previsto em lei, com base na autonomia das partes coletivas e no princípio da adequação setorial negociada**: Este argumento da empresa hoteleira não é aplicável diretamente ao caso, pois a questão em discussão é se uma CCT pode alterar um limite estabelecido por lei, o que não está explícito como uma opção de flexibilização permitida pelas normas aplicáveis.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando os predicados normativos listados e a análise realizada, recomenda-se que a decisão seja favorável ao sindicato dos hotéis. Isso porque o limite de 1 ano para compensação de banco de horas é uma norma de ordem pública, conforme estabelecido pela Súmula TST 85, V, e não pode ser flexibilizado por uma CCT setorial.\n\n**PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **hour_bank_with_cct_max_1_year**: Este predicado é violado (violação), pois a empresa hoteleira está tentando compensar o banco de horas além do prazo máximo de 1 ano estabelecido pela lei.\n- **CCT pode flexibilizar o limite de 1 ano previsto em lei, com base na autonomia das partes coletivas e no princípio da adequação setorial negociada**: Este predicado não é aplicável ou cumprido (conformidade) diretamente ao caso, pois a questão em discussão envolve a possibilidade de alterar um limite estabelecido por lei, o que não está claro como uma opção permitida pelas normas aplicáveis.\n- **Norma de ordem pública**: Este predicado é cumprido (conformidade), pois o sindicato dos hotéis está defendendo a aplicação da Súmula TST 85, V, que estabelece o limite de 1 ano como uma norma de ordem pública.",
+  "tokens_in": 362,
+  "tokens_out": 547,
+  "latency_ms": 9156,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

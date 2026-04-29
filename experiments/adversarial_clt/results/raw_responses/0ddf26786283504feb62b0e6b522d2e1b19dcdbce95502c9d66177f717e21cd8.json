@@ -1,0 +1,26 @@
+{
+  "sha256": "0ddf26786283504feb62b0e6b522d2e1b19dcdbce95502c9d66177f717e21cd8",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T21:59:53Z",
+  "prompt_sha": "a468f9337a1667ebe471a714d6ab4b8f17bcd68f8f75d3aa6e375913dc2f76bf",
+  "response_text": "### 1. **ANÁLISE**  \n**a) *obligation_to_ground_decision_in_identified_ratio_decidendi***  \nO juiz do trabalho, ao negar seguimento ao recurso ordinário, **viola expressamente** a obrigação de fundamentar a decisão em dispositivo legal identificado. A Constituição Federal/88, art. 93, IX, exige que **todas as decisões judiciais sejam fundamentadas com clareza**, indicando **qual dispositivo legal** (artigo, parágrafo, inciso) e **qual fundamento jurídico** (princípio, norma, jurisprudência) embasam a decisão. No caso, o juiz utilizou a expressão genérica \"na forma da lei\" sem citar **nenhum dispositivo legal específico**, o que **não atende ao requisito constitucional de fundamentação**.  \n\n**b) *due_process_of_law***  \nA falta de fundamentação legal viola o **devido processo legal**, garantido pela CF/88, art. 5º, LXXVIII, e pela CLT, art. 825, que exigem que a decisão judicial seja **objetiva, fundamentada e motivada**. A ausência de indicação de qual lei ou dispositivo foi aplicado **impede a revisão da decisão** e **limita o direito do reclamante de contestar a fundamentação**, configurando uma violação ao direito à defesa e à ampla defesa.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **decisão do juiz deve ser anulada** por violação aos requisitos constitucionais e processuais de fundamentação. O **recurso ordinário deve ser remetido ao juízo de primeiro grau** para reavaliação, com **obrigação de fundamentação específica**, indicando:  \n- Qual dispositivo legal (ex.: CLT, art. 818, § 1º, ou outro) foi aplicado para caracterizar o recurso como protelatório;  \n- Qual critério jurisprudencial ou doutrinário foi utilizado para fundamentar a decisão.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Violado**:  \n  - *obligation_to_ground_decision_in_identified_ratio_decidendi* (o juiz não identificou dispositivo legal específico para fundamentar a decisão);  \n  - *due_process_of_law* (a falta de fundamentação viola o direito à defesa e à ampla defesa, garantidos pelo devido processo legal).  \n\n- **Cumprido**:  \n  - Nenhum predicado foi cumprido, pois a decisão **não atendeu aos requisitos mínimos de fundamentação** exigidos pela lei e pela Constituição.  \n\n--- \n\n**Conclusão**: A decisão do juiz é **nula por falta de fundamentação**, e o recurso ordinário deve ser reanalisado com a devida motivação legal.",
+  "tokens_in": 349,
+  "tokens_out": 981,
+  "latency_ms": 29343,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

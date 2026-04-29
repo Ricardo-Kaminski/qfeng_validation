@@ -1,0 +1,19 @@
+{
+  "sha256": "d4cd0e4df97a2d086c9df95e6ba50ff85efd816e8cd64e1c8a2d0f7b98d3fd2b",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T11:35:46Z",
+  "prompt_sha": "1ad0c5fecd20af805ec925f6ed0b3cd09a99177dbcc602b85fc9186e77490cd8",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a Rede de Supermercados implementou um banco de horas com compensação em prazo de 4 meses, conforme Acordo Coletivo de Trabalho (ACT) celebrado com o sindicato dos comerciários. Contudo, este ACT não foi registrado na Superintendência Regional do Trabalho e Emprego (SRTE) no prazo legal.\n\nOs dispositivos normativos aplicáveis ao caso são:\n\n- **Artigo 611-A da CLT:** Este artigo estabelece que os acordos coletivos de trabalho, inclusive aqueles que alteram ou dispensam disposições legais relativas à duração do trabalho, condições especiais de trabalho e direitos dos trabalhadores, devem ser registrados na Superintendência Regional do Trabalho para produzirem seus efeitos.\n\n- **Súmula 331 do TST:** Esta súmula afirma que a validade do acordo coletivo depende de seu registro na Superintendência Regional do Trabalho. A falta de registro impede que o acordo produza efeitos jurídicos.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é considerar o ACT inválido para fins legais, uma vez que não foi registrado no prazo legal na SRTE. Isso significa que a implementação do banco de horas com compensação em prazo superior ao permitido por lei (que geralmente é de 2 meses) não pode ser sustentada apenas pelo acordo firmado.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Artigo 611-A da CLT:** Este artigo exige o registro dos acordos coletivos que alterem ou dispensem disposições legais sobre duração do trabalho e condições especiais de trabalho, para que tenham validade.\n\n- **Súmula 331 do TST:** Estabelece que a validade do acordo depende de seu registro na Superintendência Regional do Trabalho. A falta de registro impede que o acordo produza efeitos jurídicos.\n\nPortanto, conforme os dispositivos normativos citados, o ACT não registrado não pode ser considerado válido para justificar práticas como a compensação de horas extras em prazo superior ao legalmente permitido.",
+  "tokens_in": 282,
+  "tokens_out": 516,
+  "latency_ms": 29468,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

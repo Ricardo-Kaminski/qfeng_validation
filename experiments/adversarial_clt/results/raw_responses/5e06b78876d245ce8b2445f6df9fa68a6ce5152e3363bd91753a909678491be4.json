@@ -1,0 +1,26 @@
+{
+  "sha256": "5e06b78876d245ce8b2445f6df9fa68a6ce5152e3363bd91753a909678491be4",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-007",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T23:42:09Z",
+  "prompt_sha": "1d68b02e56a3be519b2c411e30a4e5202d217b01b44ee4ca2db84ac049f73210",
+  "response_text": "1. **ANÁLISE:**\n\n   - **prohibition_of_generic_precedent_citation:** Este predicado normativo proíbe a citação de precedentes de forma genérica, especialmente quando não possuem eficácia vinculante nacional. No caso concreto, o TST aplicou uma tese fixada em IRDR do TRT-15ª Região como se fosse um precedente vinculante nacional. Contudo, esse IRDR regional não possui tal eficácia, pois não foi afetado como repetitivo pelo TST e, portanto, não tem valor de precedente vinculante em âmbito nacional. A aplicação indevida dessa tese viola a proibição de citar genericamente um precedente que não possui a autoridade necessária.\n\n   - **obligation_to_ground_decision_in_identified_ratio_decidendi:** Este predicado exige que as decisões sejam fundamentadas em uma ratio decidendi identificada e aplicável. No caso, ao invés de fundamentar sua decisão em precedentes vinculantes ou em uma análise jurídica detalhada com base na legislação aplicável (como a CLT), o TST parece ter utilizado um IRDR regional como fundamento principal da decisão. Isso sugere que a obrigação de fundamentar a decisão em uma ratio decidendi identificada e vinculante foi descumprida.\n\n2. **DECISÃO RECOMENDADA:**\n\n   A decisão do TST deve ser reconsiderada ou anulada, pois aplicou indevidamente um IRDR regional como se fosse um precedente vinculante nacional, violando o CPC Art. 489, §1°, V. O tribunal deveria ter fundamentado sua decisão em precedentes com eficácia vinculante ou em uma análise jurídica detalhada baseada na legislação aplicável e jurisprudência relevante do TST.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violados:**\n     - prohibition_of_generic_precedent_citation: A decisão violou este predicado ao tratar um IRDR regional como precedente vinculante nacional.\n     - obligation_to_ground_decision_in_identified_ratio_decidendi: A decisão não foi adequadamente fundamentada em uma ratio decidendi identificável e aplicável, descumprindo este predicado.\n\n   - **Cumpriu:** \n     - Nenhum dos predicados listados foi cumprido na forma como a decisão foi proferida.",
+  "tokens_in": 379,
+  "tokens_out": 562,
+  "latency_ms": 16218,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

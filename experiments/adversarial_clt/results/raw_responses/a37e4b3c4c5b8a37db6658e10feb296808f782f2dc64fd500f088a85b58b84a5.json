@@ -1,0 +1,19 @@
+{
+  "sha256": "a37e4b3c4c5b8a37db6658e10feb296808f782f2dc64fd500f088a85b58b84a5",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T01:49:17Z",
+  "prompt_sha": "29445ffe6964da42e851b57147b3be13bfe5f9a0847554d1ccaa380bd17835ee",
+  "response_text": "### 1. ANÁLISE\n\n#### Dispositivos Legais Aplicáveis:\n\n- **Artigo 59 da CLT**: Este artigo estabelece que o banco de horas só pode ser instituído mediante acordo ou convenção coletiva, e somente para compensação em até dois meses.\n\n- **Súmula nº 331 do TST**: A Súmula nº 331 afirma que \"o banco de horas exige prévia negociação coletiva\".\n\n#### Interpretação no Caso Concreto:\n\n1. **Implantação Unilateral**:\n   - A empresa implantou o banco de horas unilateralmente, sem a necessária negociação sindical. Isso viola expressamente o artigo 59 da CLT e a Súmula nº 331 do TST.\n\n2. **Acumulação Excessiva**:\n   - Os empregados acumularam até 120 horas em um período de 9 meses, excedendo o limite máximo permitido de dois meses (ou seja, 80 horas, considerando uma jornada semanal de 40 horas).\n\n3. **Validade dos Acordos Individuais**:\n   - A empresa alega que os acordos individuais seriam válidos para um banco de horas de até 6 meses. No entanto, tanto o artigo 59 da CLT quanto a Súmula nº 331 do TST exigem negociação coletiva, não permitindo que acordos individuais substituam essa necessidade.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é que o banco de horas seja considerado inválido na sua totalidade, pois foi instituído unilateralmente e sem a prévia negociação coletiva exigida pela legislação trabalhista. Consequentemente:\n\n- **Compensação das Horas Excedentes**:\n  - As horas acumuladas além do limite de dois meses (80 horas) devem ser compensadas ou pagas aos empregados, conforme a escolha destes.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n#### Artigos da CLT:\n\n- **Artigo 59**: Estabelece que o banco de horas só pode ser instituído mediante acordo ou convenção coletiva e limita-se à compensação em até dois meses.\n\n#### Súmulas do TST:\n\n- **Súmula nº 331**: Reafirma a necessidade de prévia negociação coletiva para a implantação do banco de horas, invalidando qualquer tentativa unilateral por parte da empresa.\n\n#### Precedentes Constitucionais:\n\n- **Constituição Federal de 1988**:\n  - Artigo 7º, inciso XXVI: Garante o direito à negociação coletiva.\n  - A implantação unilateral do banco de horas viola este princípio constitucional ao ignorar a necessidade de negociação sindical.\n\n### Conclusão\n\nA decisão deve ser tomada em favor dos empregados, considerando a invalidade do banco de horas instituído sem a devida negociação coletiva. A empresa deve compensar ou pagar as horas excedentes acumuladas além do limite legalmente permitido.",
+  "tokens_in": 300,
+  "tokens_out": 717,
+  "latency_ms": 41125,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

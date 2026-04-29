@@ -1,0 +1,19 @@
+{
+  "sha256": "dbb61300295208d7bbe192a8c04c65b074ed3644c9570e897fb9e5cabb69e142",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-007",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T10:27:32Z",
+  "prompt_sha": "9bacaa349dbb6d2a773ce01b363f59c0f83a68a0e290a99d41219255cc9c8cc8",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \n- **Constituição Federal/1988, Art. 10, II, \"b\" (ADCT)**: Estabelece a estabilidade provisória da gestante, garantindo que a empregada não possa ser dispensada sem justa causa durante a gravidez e nos 120 dias subsequentes ao parto.  \n- **Súmula TST 244**: Define que a estabilidade provisória da gestante se aplica mesmo que a gravidez tenha ocorrido antes da dispensa, desde que comprovada.  \n- **Orientação Jurisprudencial (OJ) 399 da SDI-1**: Afirma que não é exigida a comunicação prévia da gravidez ao empregador para a aplicação da estabilidade provisória, eliminando essa condição como requisito para a proteção legal.  \n\n### 2. **DECISÃO RECOMENDADA**  \nA **dispensa da empregada gestante é nula**, e deve ser determinada a **reintegração imediata**. A decisão deve fundamentar-se na aplicação direta do **Art. 10, II, \"b\" (ADCT)** da CF/88, complementada pela **Súmula TST 244** e pela **OJ 399 da SDI-1**, que garantem a proteção da gestante independentemente da comunicação prévia da gravidez.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Constituição Federal/1988, Art. 10, II, \"b\" (ADCT)**: Garante a estabilidade provisória da gestante, proibindo a dispensa sem justa causa durante a gravidez e nos 120 dias após o parto.  \n- **Súmula TST 244**: Esclarece que a estabilidade provisória da gestante se aplica mesmo que a gravidez tenha ocorrido antes da dispensa, desde que comprovada.  \n- **Orientação Jurisprudencial (OJ) 399 da SDI-1**: Elimina a exigência de comunicação prévia da gravidez ao empregador para a aplicação da estabilidade provisória, reconhecendo que a proteção legal não depende dessa formalidade.  \n\n**Limitação**: O contexto normativo fornecido não menciona outras normas relevantes (como a CLT ou outras súmulas do TST), mas as citadas são suficientes para fundamentar a decisão.",
+  "tokens_in": 326,
+  "tokens_out": 1115,
+  "latency_ms": 69344,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

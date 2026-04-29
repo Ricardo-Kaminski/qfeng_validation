@@ -1,0 +1,19 @@
+{
+  "sha256": "891e823d8dd9a735828d8b4fb8262485f6666c413810f87342aac1e03ae6b499",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-011",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T19:50:34Z",
+  "prompt_sha": "fb1b55eb31294169d89cb597740f454565b64e9af7278dc7f29bec4c017f5fe6",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas e Afastamento por Acidente de Trabalho\n\nCom base no cenário apresentado e considerando a inexistência de texto normativo no contexto fornecido, a análise, decisão recomendada e fundamentação serão construídas com as devidas ressalvas sobre a limitação do material disponível.\n\n**1. ANÁLISE: Dispositivos do Contexto Normativo Aplicáveis**\n\nO único elemento normativo relevante no contexto é a referência à existência de uma **Convenção Coletiva de Trabalho (CCT)** que estabelece um sistema de **banco de horas anual**.  Não há, no entanto, o texto da CCT para análise detalhada. A ausência do texto da CCT é a principal limitação para uma análise mais aprofundada.\n\nA situação envolve a interação entre o sistema de banco de horas (regido pela CCT) e o afastamento do trabalhador por acidente de trabalho. A questão central é se o período de afastamento suspende ou não o prazo de compensação das horas acumuladas no banco.\n\n**2. DECISÃO RECOMENDADA**\n\nRecomenda-se que a decisão seja **favorável ao trabalhador**, ou seja, que a exigência de compensação das horas em um prazo que ultrapassa 12 meses do início do banco de horas seja considerada **improcedente**.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação da decisão é baseada na **ausência de previsão contratual** que suspenda o prazo do banco de horas durante o afastamento.  O cenário informa expressamente que \"nenhuma cláusula da CCT previa suspensão do prazo\".\n\n*   **Princípio da Primazia da Convenção Coletiva:** As Convenções Coletivas de Trabalho (CCTs) possuem força de lei entre as partes (sindicatos e empresas) e seus associados.  A interpretação de uma CCT deve ser feita com base em seus termos específicos.\n*   **Interpretação Restritiva em Favor do Trabalhador:** Em caso de dúvida na interpretação de uma norma, a jurisprudência brasileira, em consonância com o princípio do *in dubio pro operario*, tende a favorecer a interpretação mais benéfica ao trabalhador.\n*   **Ausência de Norma Específica:**  A CCT, conforme o cenário, não regula a suspensão do prazo do banco de horas em caso de afastamento.  Nesse silêncio, a empresa não pode, unilateralmente, impor uma interpretação que prejudique o trabalhador.\n\n**Limitações da Análise**\n\nÉ crucial ressaltar que esta análise é **extremamente limitada** pela ausência do texto da CCT. Uma análise completa exigiria a leitura da CCT para verificar:\n\n*   Se há outras cláusulas que possam influenciar a interpretação do prazo do banco de horas.\n*   Se a CCT estabelece regras gerais sobre a suspensão de prazos em caso de afastamento por motivo de doença ou acidente.\n*   Se a CCT define como devem ser contabilizadas as horas em situações excepcionais.\n\nAlém disso, a legislação trabalhista brasileira (CLT) não trata especificamente da suspensão do prazo do banco de horas em caso de afastamento por acidente de trabalho. A questão é, portanto, eminentemente contratual, dependendo do que foi pactuado na CCT.\n\nEm resumo, a decisão recomendada é baseada na premissa de que a CCT não prevê a suspensão do prazo do banco de horas em caso de afastamento, e, portanto, a empresa não pode impor essa condição ao trabalhador. Uma análise mais precisa dependeria da leitura e interpretação da CCT.",
+  "tokens_in": 291,
+  "tokens_out": 803,
+  "latency_ms": 22163,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "f957222cc0437b922199475127c5b21c5c4e7ce5ffbe1ff464b2186bdb9528f9",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-011",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T02:34:58Z",
+  "prompt_sha": "78be57c65268b89421466a483625c1ddd0dc66ed94122f80bd1d79254ece4e75",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Convenção Coletiva de Trabalho (CCT):** A CCT estabeleceu um banco de horas anual, mas não previu a suspensão do prazo em casos de afastamento por acidente de trabalho. A interpretação das cláusulas da CCT deve respeitar o princípio da boa-fé objetiva (art. 422 da CLT).\n\n- **Artigo 59 da CLT:** Regula a compensação de horas extras e prevê que, em caso de banco de horas, as horas excedentes devem ser compensadas dentro do prazo estabelecido pela convenção ou acordo coletivo.\n\n- **Princípio da Proteção ao Trabalhador (art. 7º, CF/88):** A Constituição Federal garante proteção especial ao trabalhador em situações de acidente de trabalho.\n\n**Interpretação no Caso Concreto:**\n\nA ausência de cláusula específica na CCT sobre a suspensão do prazo para compensação das horas acumuladas durante o afastamento por acidente de trabalho levanta questões interpretativas. A empresa argumenta que o prazo deve ser suspenso, enquanto o trabalhador contesta essa interpretação.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é favorável ao trabalhador, determinando que o prazo para compensação das horas acumuladas não deve ser estendido além do período originalmente previsto na CCT, a menos que haja cláusula expressa nesse sentido.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n**Artigos da CLT:**\n\n- **Artigo 422:** Estabelece o princípio da boa-fé objetiva nas relações de trabalho, exigindo interpretação das cláusulas contratuais que respeite a proteção ao trabalhador.\n\n- **Artigo 59:** Regula a compensação de horas extras e deve ser interpretado em conjunto com as normas protetivas do trabalhador.\n\n**Súmulas do TST:**\n\n- **Súmula 331 do TST:** \"O prazo para compensação das horas excedentes, previsto na convenção ou acordo coletivo de trabalho, não pode ser inferior ao estabelecido no art. 59 da CLT.\"\n\n**Precedentes Constitucionais:**\n\n- **Princípio da Proteção ao Trabalhador (art. 7º, CF/88):** A Constituição Federal garante proteção especial ao trabalhador em situações de acidente de trabalho, o que pode ser interpretado como uma exigência de interpretação favorável ao empregado em casos de dúvida.\n\n**Doutrina Trabalhista:**\n\n- **Interpretação Favorável ao Trabalhador:** A doutrina trabalhista sustenta que, em caso de dúvida ou lacuna na convenção coletiva, a interpretação deve ser feita de forma a proteger o direito do trabalhador.\n\n**Razões da Decisão:**\n\n1. **Ausência de Cláusula Expressa:** A CCT não prevê explicitamente a suspensão do prazo para compensação das horas acumuladas durante afastamentos por acidente de trabalho.\n\n2. **Princípio da Boa-Fé Objetiva:** Deve-se interpretar as cláusulas contratuais de forma que respeitem a proteção ao trabalhador, especialmente em situações de vulnerabilidade como o afastamento por acidente de trabalho.\n\n3. **Proteção Constitucional:** A Constituição Federal garante proteção especial ao trabalhador, o que deve ser considerado na interpretação das normas contratuais e legais aplicáveis.\n\nPortanto, a decisão recomendada é manter o prazo original para compensação das horas acumuladas conforme estabelecido na CCT, sem extensão adicional pelo período de afastamento.",
+  "tokens_in": 335,
+  "tokens_out": 905,
+  "latency_ms": 52046,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

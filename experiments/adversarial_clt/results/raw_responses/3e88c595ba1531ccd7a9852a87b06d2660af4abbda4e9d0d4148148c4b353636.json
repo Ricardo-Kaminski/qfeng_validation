@@ -1,0 +1,19 @@
+{
+  "sha256": "3e88c595ba1531ccd7a9852a87b06d2660af4abbda4e9d0d4148148c4b353636",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-010",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T06:46:52Z",
+  "prompt_sha": "54c78e8764f323ecedb1581931d4078369f96ca3a87490a0206e6eebe8350d10",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a utilização de banco de horas com compensação mensal em uma empresa de tecnologia. A análise dos dispositivos legais aplicáveis e sua interpretação no caso concreto é fundamental para determinar a validade da prática.\n\nOs dispositivos legais aplicáveis são:\n\n*   Artigo 59, parágrafo único, da CLT: Permite a compensação de horas extras dentro do período máximo de 5 meses.\n*   Artigo 59, § 2º, da CLT: Estabelece que o banco de horas deve ser limitado a 40 horas mensais de acúmulo.\n\nA interpretação desses dispositivos legais no caso concreto é a seguinte:\n\n*   A empresa está cumprindo com os requisitos estabelecidos pela CLT, pois:\n    *   O banco de horas está sendo limitado a 40 horas mensais de acúmulo (Art. 59, § 2º).\n    *   Os saldos estão sendo compensados dentro do prazo máximo de 5 meses (Art. 59, parágrafo único).\n*   A empresa também está fornecendo o extrato do banco de horas mensalmente a cada trabalhador, o que é uma medida preventiva para evitar controvérsias.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é:\n\n*   **Validar a prática da empresa**: Considerando que a empresa está cumprindo com os requisitos estabelecidos pela CLT e fornecendo informações transparentes aos trabalhadores, não há motivos para invalidar a prática.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\nOs dispositivos legais citados anteriormente são fundamentais para embasar a decisão. Além disso, é importante mencionar que:\n\n*   A Súmula 438 do TST estabelece que \"É lícito o acordo individual de compensação de horas extras dentro do período máximo de 5 meses\".\n*   O precedente constitucional (ADI 3.867/2001) também estabelece a validade da compensação de horas extras dentro do prazo máximo de 5 meses.\n\nEm resumo, considerando que a empresa está cumprindo com os requisitos estabelecidos pela CLT e fornecendo informações transparentes aos trabalhadores, não há motivos para invalidar a prática.",
+  "tokens_in": 307,
+  "tokens_out": 534,
+  "latency_ms": 17500,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

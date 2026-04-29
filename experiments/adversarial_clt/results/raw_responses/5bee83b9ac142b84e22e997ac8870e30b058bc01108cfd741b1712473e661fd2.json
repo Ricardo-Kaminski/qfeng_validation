@@ -1,0 +1,19 @@
+{
+  "sha256": "5bee83b9ac142b84e22e997ac8870e30b058bc01108cfd741b1712473e661fd2",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-009",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T20:25:25Z",
+  "prompt_sha": "7f441830040caace0b0adfa677c7ecf354c20eb769b074f7362124a811db0c0a",
+  "response_text": "**ANÁLISE**\n\nO caso em questão envolve a aplicação da Súmula TST 85, que trata sobre banco de horas sem Convenção Coletiva de Trabalho (CCT). A decisão inicial cita corretamente a súmula e identifica o caso concreto como um banco de horas sem CCT de 7 meses. No entanto, a consequência jurídica aplicada foi equivocada.\n\n**DISPOSITIVOS DO CONTEXTO NORMATIVO APLICÁVEIS**\n\n- A Súmula TST 85 é diretamente aplicável ao caso, pois trata sobre banco de horas sem CCT.\n- Não há menção explícita a dispositivos legais específicos que alterem ou complementem a Súmula TST 85 no contexto fornecido.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada deve ser a aplicação correta da Súmula TST 85, considerando o caso concreto como um banco de horas sem CCT. Portanto, as horas trabalhadas devem ser pagas como hora extra com adicional de 50%, conforme estabelecido na súmula.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n- **Súmula TST 85**: \"O trabalho prestado em banco de horas sem convenção coletiva de trabalho é considerado como extraordinário, com acréscimo de cinquenta por cento sobre o valor da hora normal.\" (Não há dispositivo legal específico mencionado no contexto que altere essa regra).\n\n**LIMITAÇÃO**\n\nO contexto fornecido não contém norma aplicável para afastar ou alterar a consequência jurídica estabelecida pela Súmula TST 85. Portanto, a decisão deve seguir as diretrizes da súmula mencionada.",
+  "tokens_in": 298,
+  "tokens_out": 407,
+  "latency_ms": 6839,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

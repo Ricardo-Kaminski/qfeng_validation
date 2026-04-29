@@ -1,0 +1,19 @@
+{
+  "sha256": "ccdce25d839cce7833b6a603b60409d2fd615d4984ef4713004ae5affafbdb2a",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T12:27:09Z",
+  "prompt_sha": "ffe2fd00d79be6f017d5acdc52228269f306dc6ce9f81283dc76ffc81b8e32e8",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a empresa seguiu as obrigações legais de pagamento das verbas rescisórias após a demissão sem justa causa do trabalhador. As principais verbas pagas incluem:\n\n- Saldo de salário\n- Aviso prévio indenizado proporcional (33 dias)\n- Férias proporcionais com 1/3 adicional\n- 13º salário proporcional\n- FGTS + multa de 40%\n- Habilitação ao seguro-desemprego\n\nA assinatura do recibo em presença do sindicato também é um procedimento adequado, garantindo que o trabalhador tenha ciência e concordância com os termos da rescisão.\n\n2. **DECISÃO RECOMENDADA:**\n\nDada a descrição do cenário, recomenda-se que não haja nenhuma ação adicional por parte do trabalhador ou de terceiros, uma vez que todas as obrigações legais foram cumpridas pela empresa. A demissão sem justa causa foi tratada conforme o previsto na legislação trabalhista brasileira.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\nAs principais normas aplicáveis ao caso são:\n\n- **Lei nº 8.036/1990 (FGTS):** Artigo 20 estabelece a multa de 40% sobre o saldo do FGTS em casos de demissão sem justa causa.\n  \n- **Consolidação das Leis do Trabalho (CLT), Lei nº 5.452/1943:**\n  - **Artigo 487:** Dispõe sobre o pagamento do aviso prévio indenizado proporcional ao tempo de serviço, no caso de dispensa sem justa causa.\n  - **Artigo 477, § 1º:** Estabelece que a demissão sem justa causa implica o pagamento das férias proporcionais acrescidas do terço constitucional e dos reflexos sobre as verbas rescisórias.\n  - **Artigo 11, §§ 2º e 3º:** Regula o cálculo do décimo-terceiro salário proporcional ao tempo trabalhado no ano.\n\n- **Súmula nº 428 do TST (Tribunal Superior do Trabalho):** Estabelece que, na demissão sem justa causa, deve ser pago o aviso prévio indenizado.\n\n- **Lei nº 7.998/1990:** Regulamenta o seguro-desemprego e estabelece os requisitos para sua concessão após a dispensa sem justa causa.\n\nDado que todas as obrigações foram cumpridas conforme estas normas, não há irregularidades identificáveis no processo de rescisão. Portanto, não é necessária qualquer intervenção adicional ou contestação judicial.",
+  "tokens_in": 312,
+  "tokens_out": 649,
+  "latency_ms": 37125,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "428428f3ff9264afbce9900b9f7c45fbd649c311b325f5c8d25cd6b5fbb397df",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-006",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T06:42:27Z",
+  "prompt_sha": "372fd68611fe63745a48bfe400c3aeff4da8c10c80e09cd56b4d200a41006bed",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a adoção de um banco de horas por uma empresa de limpeza urbana, mediante regulamento interno aprovado em assembleia dos empregados. A questão central gira em torno da validade desse regulamento, considerando que ele foi adotado sem a presença do sindicato e com base apenas na maioria dos trabalhadores presentes.\n\n**Aplicação Legal**\n\nA análise deve partir do Artigo 59 da CLT, que trata sobre as Convenções Coletivas de Trabalho (CCTs) e Acordos Coletivos de Trabalho (ACTs). O §2° desse artigo estabelece que \"As convenções coletivas de trabalho, quando aprovadas em assembleia de trabalhadores, sem a presença do sindicato da respectiva categoria, não terão validade para os fins previstos no art. 611-A.\"\n\n**Interpretação**\n\nA adoção de um regulamento interno que estabelece banco de horas, mesmo com compensação mensal, pode ser considerada uma Convenção Coletiva de Trabalho (CCT) ou Acordo Coletivo de Trabalho (ACT), dependendo da sua natureza e do seu escopo. Se o regulamento interno tem o objetivo de regular condições de trabalho específicas para a empresa em questão, pode ser considerado um ACT.\n\n**Ausência de Representação Sindicato**\n\nA ausência do sindicato na assembleia que aprovou o regulamento interno é crucial para determinar a validade desse acordo. Conforme estabelece o §2° do Artigo 59 da CLT, as convenções coletivas de trabalho (que incluem os ACTs) não têm validade se aprovadas sem a presença do sindicato.\n\n**Decisão Recomendada**\n\nConsiderando a ausência do sindicato na assembleia que aprovou o regulamento interno e a interpretação do Artigo 59 da CLT, **a decisão recomendada é anular o regulamento interno** que estabelece banco de horas sem a validade necessária para ser aplicado em substituição às normas trabalhistas previstas na CLT.\n\n**Fundamentação Normativa**\n\nA fundamentação para essa decisão está baseada nos seguintes dispositivos legais e jurisprudenciais:\n\n- Art. 59 da CLT: Especificamente no §2°, que estabelece a condição de presença do sindicato como requisito para a validade das convenções coletivas.\n- Súmula 331 do TST: \"A ausência do sindicato na assembleia não impede a validação da convenção coletiva.\"\n  **Nota:** A Súmula 331 pode ser aplicada em casos onde o sindicato esteja presente, mas sua presença seja facultativa. No entanto, sua aplicação direta nesse cenário pode ser questionável, pois a ausência do sindicato é expressa como um requisito para a validade.\n- Precedentes Constitucionais: Embora não citados explicitamente aqui, a interpretação da CLT e a jurisprudência trabalhista devem estar alinhadas com as disposições constitucionais que protegem os direitos dos trabalhadores.\n\n**Observação**\n\nA decisão recomendada considera apenas a questão específica da ausência do sindicato na assembleia de aprovação do regulamento interno. Outros aspectos, como a legalidade das compensações mensais e a compatibilidade com as normas trabalhistas previstas na CLT, podem ser objeto de análise adicional.",
+  "tokens_in": 308,
+  "tokens_out": 825,
+  "latency_ms": 25468,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

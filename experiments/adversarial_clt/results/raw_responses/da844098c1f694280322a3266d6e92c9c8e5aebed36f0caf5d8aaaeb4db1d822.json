@@ -1,0 +1,19 @@
+{
+  "sha256": "da844098c1f694280322a3266d6e92c9c8e5aebed36f0caf5d8aaaeb4db1d822",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T12:43:11Z",
+  "prompt_sha": "96b1feece965611b89e3956a1f10e137a308a959c7f66e3125395cd005ec45d0",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso\n\nConsiderando o cenário apresentado e o contexto normativo fornecido, a análise, decisão recomendada e fundamentação normativa são as seguintes:\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nO único dispositivo normativo explicitamente mencionado no contexto é o **Artigo 93, IX, da Constituição Federal de 1988 (CF/88)**. Este artigo estabelece a obrigatoriedade de fundamentação de todas as decisões judiciais. A decisão do juiz do trabalho, ao negar seguimento ao recurso ordinário com a simples afirmação de que este é \"manifestamente protelatório\" e que a decisão está \"na forma da lei\", carece de fundamentação específica.\n\nNão há outros dispositivos normativos fornecidos no contexto que possam ser diretamente aplicados à análise do caso.\n\n**2. DECISÃO RECOMENDADA**\n\nRecomenda-se o **anulação da decisão do juiz do trabalho** e o retorno do processo para que o magistrado profira nova decisão sobre o recurso ordinário, devidamente fundamentada.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA decisão do juiz, conforme apresentada, viola frontalmente o **Artigo 93, IX, da Constituição Federal (CF/88)**, que dispõe:\n\n*\"Art. 93. A jurisdição é instituída para a solução regular de litígios, no processo adequado, com respeito aos seus procedimentos e à lei natural.\n(...)\nIX - todos os julgamentos serão públicos;\nX - fundar-se-ão em evidências obtidas durante o processo;\nXI - serão motivados, sempre que possível.\"*\n\nA motivação, no contexto do artigo 93, IX, da CF/88, não se limita a uma simples referência à lei ou a uma afirmação genérica como \"manifestamente protelatório\". Exige-se que o juiz apresente os **fundamentos de fato e de direito** que o levaram a concluir que o recurso é protelatório.  A falta de fundamentação impede o controle da decisão por instâncias superiores e viola o direito de acesso à justiça e ao devido processo legal do reclamante.\n\n**Limitação do Contexto Normativo:**\n\nÉ importante ressaltar que o contexto normativo fornecido é extremamente limitado. Não há, por exemplo, dispositivos específicos do Código de Processo Civil (CPC) ou da Consolidação das Leis do Trabalho (CLT) que tratem expressamente da questão da fundamentação das decisões em recursos ordinários. A análise, portanto, se restringe à interpretação do artigo 93, IX, da CF/88.\n",
+  "tokens_in": 261,
+  "tokens_out": 581,
+  "latency_ms": 30858,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,26 @@
+{
+  "sha256": "6193066c8adff8df92a74a7f899c8b75a18fcd4afbf4cda35a0c8e7d41c9e996",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:20:42Z",
+  "prompt_sha": "7660b2da54b47ec130cffef58432c2ae523cbf081d6549688005d26e1d75d53b",
+  "response_text": "**1. ANÁLISE**\n\nO caso apresenta uma situação em que um acórdão de TRT cita uma Orientação Jurisprudencial (OJ) do TST, que foi posteriormente cancelada e incorporada à Súmula 428 com conteúdo parcialmente distinto. O predicado \"prohibition_of_generic_precedent_citation\" proíbe a citação de precedentes genéricos sem menção específica ao seu cancelamento ou à sua substituição por outro dispositivo normativo.\n\nNesse caso, o acórdão do TRT não menciona a Súmula 428 nem reconhece o cancelamento da OJ 394. Isso significa que está citando um precedente que mais não é aplicável em termos de direito vigente, uma vez que foi substituído por outro dispositivo normativo.\n\n**2. DECISÃO RECOMENDADA**\n\nDiante disso, a decisão recomendada seria anular o acórdão do TRT e determinar que ele seja reformulado para se basear na Súmula 428, que é o dispositivo normativo atualmente aplicável ao caso.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **prohibition_of_generic_precedent_citation**: Violado. O acórdão do TRT citou um precedente genérico sem menção específica à sua substituição pela Súmula 428.\n\nEssa análise se baseia na necessidade de os julgadores sempre se referirem a dispositivos normativos atualizados e aplicáveis, evitando a citação de precedentes que já não refletem o direito vigente.",
+  "tokens_in": 338,
+  "tokens_out": 369,
+  "latency_ms": 6218,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

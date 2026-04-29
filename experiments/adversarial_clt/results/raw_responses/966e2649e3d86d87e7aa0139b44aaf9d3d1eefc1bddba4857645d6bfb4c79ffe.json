@@ -1,0 +1,19 @@
+{
+  "sha256": "966e2649e3d86d87e7aa0139b44aaf9d3d1eefc1bddba4857645d6bfb4c79ffe",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T19:52:39Z",
+  "prompt_sha": "92aecfbcd48b18b24b7145bd3115c2c41dd569d979ba575e89a78b84c16595e4",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso: Adicional Noturno em Regime 12x36\n\nCom base no contexto normativo fornecido, apresento a análise, decisão recomendada e fundamentação jurídica do caso.\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nO único dispositivo normativo explicitamente aplicável ao caso, conforme o contexto, é a **Súmula TST nº 60**.  O cenário apresentado descreve uma decisão do Tribunal Regional do Trabalho (TRT) que se fundamenta nessa súmula para julgar uma ação sobre adicional noturno. A decisão do TRT destaca que a ratio da Súmula TST 60 é a de que o revezamento noturno integra-se à remuneração, justificando o pagamento do adicional.  O TRT também diferencia o caso em questão (regime 12x36 com períodos noturnos fixos) de casos de turno fixo não noturno, demonstrando a especificidade da aplicação da Súmula.\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada, em consonância com a decisão do TRT e a fundamentação da Súmula TST 60, é que o empregado em regime 12x36 com períodos noturnos fixos **tem direito ao adicional noturno**.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação para a decisão recomendada reside exclusivamente na **Súmula TST nº 60**, conforme explicitado no contexto:\n\n*   **Súmula TST nº 60:** \"O regime de revezamento, em que o empregado presta serviços em turnos noturnos alternados, integra-se à remuneração, para efeito de adicional noturno.\"\n\nA decisão do TRT, conforme o contexto, aplicou a Súmula TST 60 ao caso concreto, demonstrando que o regime de trabalho do empregado (12x36 com períodos noturnos fixos) se enquadra na hipótese da Súmula. A distinção feita pelo TRT entre o regime de revezamento e o turno fixo não noturno reforça a aplicação da Súmula ao caso em análise.\n\n**Limitação:**\n\nÉ importante ressaltar que a análise e a decisão recomendada são baseadas *exclusivamente* no contexto normativo fornecido.  Não há outras normas mencionadas ou disponíveis para análise. Uma análise mais completa exigiria a consideração de outras leis, convenções coletivas, acordos individuais e jurisprudência adicional, que não estão presentes no contexto.",
+  "tokens_in": 292,
+  "tokens_out": 573,
+  "latency_ms": 15573,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

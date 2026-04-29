@@ -1,0 +1,19 @@
+{
+  "sha256": "7942c99cda410a39ded114164c936933ca2010adb386a6fb56b9194b85f52fff",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T20:22:24Z",
+  "prompt_sha": "72790d8991be5ef4727404f6c998a5accce45b39b15ebe25cef7018b0f9d220f",
+  "response_text": "**ANÁLISE**\n\nO caso em questão envolve a validade de um banco de horas em uma CCT bancária. O Acórdão do TST cita expressamente o ARE 1.121.633 (Tema 1046/STF), que é fundamental para entender a análise realizada.\n\n**DISPOSITIVOS DO CONTEXTO NORMATIVO APLICÁVEIS**\n\n*   **ARE 1.121.633 (Tema 1046/STF)**: Este tema estabelece que acordos e Convenções Coletivas de Trabalho (CCTs) que, ao estipular exclusivamente vantagens ou supressões de direitos, tenham por premissa a compensação estabelecida pelo princípio da adequação setorial negociada são constitucionais.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando a fundamentação do Acórdão do TST e o conteúdo do ARE 1.121.633 (Tema 1046/STF), a decisão recomendada é que se considere **VÁLIDA** a CCT bancária em questão, pois ela preenche os requisitos estabelecidos pelo Tema 1046.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   \"são constitucionais os acordos e CCTs que, ao estipular exclusivamente vantagens ou supressões de direitos, tenham por premissa a compensação estabelecida pelo princípio da adequação setorial negociada\" (ARE 1.121.633 - Tema 1046/STF).\n*   A CCT bancária em questão preenche os requisitos do Tema 1046, o que significa que ela é constitucional e válida.\n\n**LIMITAÇÃO**\n\nNeste caso, não há limitação de aplicabilidade das normas. As disposições do ARE 1.121.633 (Tema 1046/STF) são expressamente citadas no Acórdão do TST e utilizadas para fundamentar a decisão.",
+  "tokens_in": 339,
+  "tokens_out": 453,
+  "latency_ms": 7613,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

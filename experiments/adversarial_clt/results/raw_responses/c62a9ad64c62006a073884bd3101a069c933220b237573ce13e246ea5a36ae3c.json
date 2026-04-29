@@ -1,0 +1,30 @@
+{
+  "sha256": "c62a9ad64c62006a073884bd3101a069c933220b237573ce13e246ea5a36ae3c",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-009",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T01:33:38Z",
+  "prompt_sha": "6d91edef4f830b89da4360eaf0b135c5ffe380f3939107e2bba54ad7b7057f83",
+  "response_text": "**ANÁLISE**\n\n1. **obligation_to_ground_decision_in_identified_ratio_decidendi**: Esse predicado normativo exige que a decisão seja fundamentada em uma razão jurídica específica e identificável, relacionada ao caso concreto. No cenário apresentado, a decisão cita corretamente a Súmula TST 85, mas aplica-a de forma equivocada sem qualquer justificativa para afastar o adicional estabelecido na súmula. Portanto, esse predicado é violado.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada deve ser a que se alinhe com os princípios e normas jurídicas aplicáveis ao caso concreto. Dessa forma, a decisão deveria:\n\n- Reconhecer o banco de horas sem CCT como previsto na Súmula TST 85;\n- Aplicar corretamente as consequências jurídicas da súmula, que inclui o pagamento das horas extras com adicional de 50%;\n- Fundamentar a decisão no artigo da CLT e/ou na jurisprudência do TST que estabelece o direito ao adicional por trabalho extra.\n\n**PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: Violado. A decisão não fundamenta a aplicação das consequências jurídicas de forma equivocada, sem justificativa para afastar o adicional estabelecido na Súmula TST 85.\n\nEssa análise é baseada nos predicados normativos fornecidos e visa ressaltar a importância da fundamentação das decisões judiciais em direito do trabalho, bem como a aplicação correta das normas jurídicas pertinentes ao caso concreto.",
+  "tokens_in": 355,
+  "tokens_out": 411,
+  "latency_ms": 7141,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

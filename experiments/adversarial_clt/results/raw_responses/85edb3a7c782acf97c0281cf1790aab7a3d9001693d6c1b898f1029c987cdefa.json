@@ -1,0 +1,26 @@
+{
+  "sha256": "85edb3a7c782acf97c0281cf1790aab7a3d9001693d6c1b898f1029c987cdefa",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T01:34:35Z",
+  "prompt_sha": "d11d747246713e214367caa10635ee2da91740b47d7d1199b6d612847a92e627",
+  "response_text": "**ANÁLISE**\n\n1. **maximum_daily_working_hours_8h**: Não há informações sobre as condições de trabalho do empregado durante os 3 anos de contrato, portanto não é possível afirmar se este predicado foi violado ou cumprido.\n2. **maximum_weekly_working_hours_44h**: Além da falta de informações sobre a carga horária diária, também não há dados específicos sobre a carga semanal do empregado durante os 3 anos. Portanto, não é possível determinar se este predicado foi violado ou cumprido.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando que as verbas rescisórias foram pagas no prazo de 10 dias e não há irregularidades identificáveis, a decisão recomendada seria a **conformidade com as obrigações trabalhistas**, pois o empregador cumpriu com os pagamentos das verbas rescisórias dentro do prazo estabelecido.\n\n**PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n* **maximum_daily_working_hours_8h**: Não há informação suficiente para determinar se foi violado ou cumprido.\n* **maximum_weekly_working_hours_44h**: Não há informação suficiente para determinar se foi violado ou cumprido.\n\n**Observações**\n\nÉ importante notar que a análise dos predicados normativos listados não contempla todas as possibilidades de aplicação das regras trabalhistas. Outros aspectos, como a justa causa da demissão, a existência de acordos ou convenções coletivas específicas, podem influenciar na decisão final.",
+  "tokens_in": 373,
+  "tokens_out": 362,
+  "latency_ms": 6110,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

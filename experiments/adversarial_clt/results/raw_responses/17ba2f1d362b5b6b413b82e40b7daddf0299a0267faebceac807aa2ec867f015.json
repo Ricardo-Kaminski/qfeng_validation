@@ -1,0 +1,19 @@
+{
+  "sha256": "17ba2f1d362b5b6b413b82e40b7daddf0299a0267faebceac807aa2ec867f015",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-010",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T11:24:53Z",
+  "prompt_sha": "61ed44dd5bcc3549f917650ab49d8dde3eae25e7e112d9e35123b6d997b8fa3e",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a decisão em embargos de declaração afirmou que \"não há contradição\" sem analisar o ponto específico apontado pela parte embargante. A questão central é a alegação de que o acórdão aplicou tese de recurso de uma parte para beneficiar a outra, sem contraditório, e o juiz omitiu-se sobre esse ponto.\n\nNo Direito do Trabalho brasileiro, os embargos de declaração são instrumentos processuais previstos no art. 897-A da CLT (Consolidação das Leis do Trabalho) para sanar obscuridades, omissões ou contradições em decisões judiciais.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada seria a reforma dos embargos de declaração para que seja realizada uma análise detalhada do ponto específico apontado pela parte embargante, especialmente se houver indícios claros de omissão ou contradição no acórdão. Isso é necessário para garantir a ampla defesa e o contraditório, princípios fundamentais do processo judicial.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Art. 897-A da CLT:** Este artigo trata dos embargos de declaração no âmbito trabalhista, permitindo que sejam apresentados para sanar obscuridades, omissões ou contradições em decisões judiciais.\n\n- **Súmula nº 297 do TST (Tribunal Superior do Trabalho):** \"Os embargos de declaração não têm natureza recursal e não se destinam a reformar a decisão, mas apenas a sanar obscuridades, omissões ou contradições.\" Esta súmula reforça que os embargos devem ser utilizados para esclarecer pontos específicos que possam ter sido negligenciados na decisão original.\n\nDada a situação descrita, onde houve uma alegação de aplicação indevida de tese sem contraditório e o juiz não analisou o ponto específico apontado pela parte embargante, há indícios claros de omissão. Portanto, os dispositivos normativos citados acima são diretamente aplicáveis para recomendar a reforma dos embargos de declaração, assegurando que todos os pontos relevantes sejam adequadamente analisados e esclarecidos.",
+  "tokens_in": 284,
+  "tokens_out": 568,
+  "latency_ms": 32437,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "aec824a00d01a313870ecca9772e415da631e920d1044553ac745d0a7c3d45be",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-007",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T06:56:11Z",
+  "prompt_sha": "0203c17d7e6bb0ed382852b09435518873855b089f30e8393ac946d556a2d38d",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a aplicação de um acordo coletivo (CCT) no setor bancário, que prevê o banco de horas anual. O trabalhador questiona se as horas trabalhadas em banco de horas limitam seu direito ao adicional de horas extras.\n\n**Identificação dos dispositivos legais aplicáveis e sua interpretação no caso concreto:**\n\n- **Artigo 59 da CLT**: Este artigo trata sobre o regime de compensação de jornada, permitindo que as empresas estabeleçam acordos com os trabalhadores para compensar horas extras por meio de banco de horas. No entanto, é importante verificar se a compensação das horas não gera direito a adicional.\n  \n- **Jurisprudência do TST-Ag-RR-868-65.2021 e o Tema 1046/STF**: Esses precedentes jurisprudenciais são fundamentais para entender como as horas trabalhadas em banco de horas se relacionam com o direito ao adicional de horas extras. Eles podem estabelecer critérios específicos sobre quando a compensação de jornada pode ou não gerar direito a adicional.\n\n- **Súmula 438 do TST**: Esta súmula estabelece que as horas trabalhadas em banco de horas, se compensadas dentro do prazo estabelecido no acordo coletivo, não geram direito a adicional. Isso significa que, desde que o acordo seja cumprido e as horas sejam compensadas dentro da janela temporal prevista, o trabalhador não tem direito ao adicional de horas extras.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando os dispositivos legais e jurisprudenciais mencionados, a decisão recomendada é que as horas trabalhadas em banco de horas, se compensadas dentro do prazo estabelecido no acordo coletivo, não gerem direito a adicional de horas extras.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n- **Artigo 59 da CLT**: Este artigo permite a compensação de jornada por meio de banco de horas, mas é crucial verificar se as condições do acordo atendem aos requisitos para evitar o direito ao adicional.\n  \n- **Jurisprudência do TST-Ag-RR-868-65.2021 e o Tema 1046/STF**: Esses precedentes jurisprudenciais são fundamentais para entender a relação entre compensação de jornada e direito ao adicional, estabelecendo critérios específicos.\n  \n- **Súmula 438 do TST**: Esta súmula é expressa sobre o tema, afirmando que as horas trabalhadas em banco de horas, se compensadas dentro do prazo, não geram direito a adicional.\n\nEm resumo, com base na CLT e jurisprudência do TST, especialmente a Súmula 438, é possível concluir que as horas trabalhadas em banco de horas, desde que compensadas dentro do prazo estabelecido no acordo coletivo, não geram direito ao adicional de horas extras.",
+  "tokens_in": 320,
+  "tokens_out": 706,
+  "latency_ms": 23266,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "58acbe121f0948c497d51e010419e863bf88344ea63a06c605854a5f4a93844e",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T07:05:38Z",
+  "prompt_sha": "d8db250f652a0b2a86ce52ca33e3f146036705232aad1ad4a2023ee032d07112",
+  "response_text": "**ANÁLISE**\n\n1.  **Identificação dos dispositivos legais aplicáveis:** No caso apresentado, a decisão se baseia na Súmula nº 85 do TST (itens I, II e V), que dispõe sobre as regras para o cálculo das horas extras em casos de banco de horas sem Contrato Coletivo de Trabalho (CCT) ou Acordo Coletivo de Trabalho (ACT).\n\n    **Interpretação no caso concreto:** A Súmula nº 85 do TST é aplicada quando há banco de horas sem CCT/ACT. Nesse caso, a decisão identificou que o banco não tem CCT/ACT e, portanto, deve ser aplicada a regra da Súmula para cálculo das horas extras.\n\n2.  **DECISÃO RECOMENDADA**\n\n    A decisão recomendada é a de que todas as horas trabalhadas no período de 5 meses sejam consideradas como horas extras, com adicional de 50%. Isso porque o banco não tem CCT/ACT e, portanto, deve ser aplicada a regra da Súmula nº 85 do TST.\n\n    **Motivação:** A decisão é fundamentada na Súmula nº 85 do TST (itens I, II e V), que estabelece as regras para cálculo das horas extras em casos de banco de horas sem CCT/ACT. Além disso, a decisão também afasta a tese da empresa de \"acordo tácito\", pois acordo tácito não substitui CCT/ACT para banco de horas.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   **Artigo 59 da CLT:** Dispõe sobre o cálculo das horas extras em casos de banco de horas.\n*   **Súmula nº 85 do TST (itens I, II e V):** Estabelece as regras para cálculo das horas extras em casos de banco de horas sem CCT/ACT.\n*   **Precedentes constitucionais:** Não há menção a precedentes constitucionais específicos na fundamentação.\n\n**CONCLUSÃO**\n\nA decisão recomendada é a de que todas as horas trabalhadas no período de 5 meses sejam consideradas como horas extras, com adicional de 50%. Isso porque o banco não tem CCT/ACT e, portanto, deve ser aplicada a regra da Súmula nº 85 do TST. A fundamentação é baseada na Súmula nº 85 do TST (itens I, II e V) e no artigo 59 da CLT.",
+  "tokens_in": 337,
+  "tokens_out": 593,
+  "latency_ms": 19469,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

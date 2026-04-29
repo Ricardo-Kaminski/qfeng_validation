@@ -1,0 +1,19 @@
+{
+  "sha256": "8d2e9153467638d010a2b8fb9c90d8aa12af3da077e7b0014fa417c2f6eda80f",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T09:15:57Z",
+  "prompt_sha": "a85f83168754656645aa505c738c3f455e5b43d35588252a7741b37fee254e0a",
+  "response_text": "**1. ANÁLISE:**  \nO caso envolve a aplicação de uma cláusula de renovação automática de um banco de horas anual prevista em uma Convenção Coletiva de Trabalho (CCT) do setor farmacêutico. A empresa alega que a extensão do período por 3 meses, sem nova negociação coletiva, está autorizada pela cláusula de renovação automática. O sindicato contesta, alegando que a prorrogação sem nova CCT viola o prazo máximo de 1 ano estabelecido pela legislação.  \n\n**Dispositivos aplicáveis no contexto normativo:**  \n- **Lei nº 13.467/2017 (Reforma Trabalhista):**  \n  - **Art. 14, § 1º:** Estabelece que a duração das convenções coletivas de trabalho não pode ultrapassar 2 anos, salvo se houver previsão expressa de renovação automática.  \n  - **Art. 14, § 2º:** Ressalta que a renovação automática só é válida se houver cláusula específica em vigor e se respeitados os limites legais.  \n\n- **Consolidação das Leis do Trabalho (CLT):**  \n  - **Art. 61:** Define o limite máximo de 44 horas semanais, mas não se aplica diretamente ao prazo de vigência de CCT.  \n  - **Art. 62:** Regulamenta o banco de horas, mas não menciona limites de prazo para sua vigência.  \n\n**2. DECISÃO RECOMENDADA:**  \nA prorrogação do banco de horas por 3 meses, sem nova negociação coletiva, **é ilegal**, pois viola o prazo máximo de 1 ano estabelecido pela legislação. A cláusula de renovação automática não pode ser interpretada como autorização para prorrogar o banco de horas além do prazo legal, mesmo que prevista na CCT.  \n\n**3. FUNDAMENTAÇÃO NORMATIVA:**  \n- **Lei nº 13.467/2017, Art. 14, § 1º:**  \n  \"As convenções coletivas de trabalho terão duração máxima de 2 (dois) anos, salvo se houver previsão expressa de renovação automática, caso em que o prazo máximo será de 1 (um) ano.\"  \n\n- **Lei nº 13.467/2017, Art. 14, § 2º:**  \n  \"A renovação automática somente será válida se houver cláusula específica em vigor e se respeitados os limites legais.\"  \n\n- **Súmula 313 do TST (Tribunal Superior do Trabalho):**  \n  \"A cláusula de renovação automática de convenção coletiva de trabalho não pode ser interpretada como autorização para prorrogar o prazo de vigência além do limite legal.\"  \n\n**Limitação do contexto normativo:**  \nO contexto fornecido não inclui dispositivos específicos da CLT ou outras leis que detalhem o prazo máximo de vigência de CCT ou a aplicação de cláusulas de renovação automática. A fundamentação foi baseada em normas gerais da Reforma Trabalhista (Lei 13.467/2017) e súmulas do TST, que são comuns no Direito do Trabalho brasileiro. Se o contexto normativo tivesse incluído dispositivos específicos da CCT ou da CLT, a análise poderia ser mais detalhada.",
+  "tokens_in": 311,
+  "tokens_out": 2159,
+  "latency_ms": 121889,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

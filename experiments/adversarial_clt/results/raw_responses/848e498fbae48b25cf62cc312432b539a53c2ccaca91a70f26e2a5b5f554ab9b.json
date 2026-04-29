@@ -1,0 +1,19 @@
+{
+  "sha256": "848e498fbae48b25cf62cc312432b539a53c2ccaca91a70f26e2a5b5f554ab9b",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T19:42:57Z",
+  "prompt_sha": "e0dac6366f336fe82237c38403a15b7a308e7e52230ad445438fe232cc5f2b76",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas e Licença Maternidade\n\nCom base no cenário apresentado e no contexto normativo fornecido (que, repito, é a *única* base para esta análise), apresento a seguinte análise, decisão recomendada e fundamentação:\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nO caso envolve a aplicação de um Acordo Coletivo de Trabalho (CCT) que estabelece um sistema de banco de horas semestral. A questão central é se o período de licença-maternidade deve ou não ser considerado no cálculo do prazo para a compensação do banco de horas.\n\nO dispositivo normativo diretamente aplicável é a cláusula do CCT que define o período de vigência do banco de horas como \"semestral\".  Não há, no contexto fornecido, qualquer disposição que trate especificamente da suspensão ou exclusão do cômputo do prazo em caso de licença-maternidade. A empresa agiu com base em uma interpretação da CCT, suspendendo o cômputo do banco de horas durante a licença e reativando-o ao retorno da trabalhadora.\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada é que **o período de licença-maternidade *não* deve ser incluído na contagem do prazo semestral para a compensação do banco de horas.**\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação para essa decisão reside na interpretação da cláusula do CCT que estabelece o período de vigência do banco de horas como \"semestral\".  A interpretação mais razoável, na ausência de disposição específica sobre o tema, é que o período semestral se refere a um ciclo de trabalho contínuo, interrompido por eventos que afastam a empregada do laboratório.\n\n*   **Interrupção do Ciclo de Trabalho:** A licença-maternidade, por definição, interrompe a prestação de serviços da empregada. A legislação previdenciária e trabalhista (que não nos foram fornecidas, mas que são a base para a licença-maternidade) garante esse afastamento para proteção da mãe e do bebê.  Considerar o período de licença como parte do ciclo de trabalho semestral implicaria em penalizar a trabalhadora por usufruir de um direito legalmente assegurado.\n*   **Reativação do Banco de Horas:** A conduta da empresa, ao suspender o cômputo do banco de horas durante a licença e reativá-lo ao retorno, demonstra uma compreensão de que a licença interrompe o ciclo de trabalho e, portanto, não deve ser computada para fins de compensação.\n*   **Cumprimento do Prazo:** O cenário informa que a compensação total ocorreu em 8 meses, dentro do prazo acordado na CCT. Isso indica que a empresa, ao reativar o banco de horas ao retorno da trabalhadora, ajustou o prazo para compensar o período de licença, garantindo o cumprimento do acordo.\n\n**Limitação do Contexto Normativo:**\n\nÉ importante ressaltar que a análise é limitada ao contexto normativo fornecido. A ausência de dispositivos específicos sobre a licença-maternidade e o banco de horas no CCT dificulta uma análise mais aprofundada. Em um caso real, seria necessário analisar a legislação trabalhista (CLT, Constituição Federal), a legislação previdenciária e outros Acordos ou Convenções Coletivas que possam tratar do tema. A jurisprudência também seria relevante para auxiliar na interpretação da CCT.\n",
+  "tokens_in": 273,
+  "tokens_out": 794,
+  "latency_ms": 21805,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

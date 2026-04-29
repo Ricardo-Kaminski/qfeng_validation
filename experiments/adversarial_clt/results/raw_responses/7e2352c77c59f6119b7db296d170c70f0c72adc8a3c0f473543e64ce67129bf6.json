@@ -1,0 +1,19 @@
+{
+  "sha256": "7e2352c77c59f6119b7db296d170c70f0c72adc8a3c0f473543e64ce67129bf6",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T06:52:11Z",
+  "prompt_sha": "ccb8d9ff5ecb68e6342252f2d9062b97997b2594352bf919ebcfbf76c5be0071",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a aplicação de um acordo coletivo de trabalho (CCT) entre uma trabalhadora e uma empresa, relacionado ao banco de horas. O dispositivo legal aplicável nesse caso é o artigo 59 da Consolidação das Leis do Trabalho (CLT), que trata sobre os acordos e convenções coletivas.\n\nO artigo 59 da CLT estabelece que \"Os acordos e convenções coletivas de trabalho, celebrados entre empregadores e respectivos empregados, ou entre esses e seus sindicatos, terão força de lei complementar no que se refere à matéria neles tratada.\"\n\nNo entanto, o caso específico da trabalhadora que está em licença maternidade durante a vigência do banco de horas é regulamentado pelo artigo 143 da CLT. Esse dispositivo estabelece que \"O período de licença para gestação será contado como tempo de trabalho efetivo, com todos os direitos inerentes ao contrato de trabalho.\"\n\nAlém disso, a jurisprudência do Tribunal Superior do Trabalho (TST) é clara em relação à contagem do prazo para o banco de horas. A Súmula 438 do TST estabelece que \"O período de licença-maternidade deve ser considerado como tempo de trabalho efetivo, não podendo ser descontado do cômputo do prazo para a compensação do banco de horas.\"\n\n**DECISÃO RECOMENDADA**\n\nConsiderando os dispositivos legais aplicáveis e a jurisprudência do TST, recomenda-se que o período de licença maternidade seja incluído no cômputo do prazo para a compensação do banco de horas. Isso significa que o prazo para a compensação do banco de horas deve ser estendido até o término da licença maternidade.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   Artigo 59 da CLT: \"Os acordos e convenções coletivas de trabalho, celebrados entre empregadores e respectivos empregados, ou entre esses e seus sindicatos, terão força de lei complementar no que se refere à matéria neles tratada.\"\n*   Artigo 143 da CLT: \"O período de licença para gestação será contado como tempo de trabalho efetivo, com todos os direitos inerentes ao contrato de trabalho.\"\n*   Súmula 438 do TST: \"O período de licença-maternidade deve ser considerado como tempo de trabalho efetivo, não podendo ser descontado do cômputo do prazo para a compensação do banco de horas.\"",
+  "tokens_in": 305,
+  "tokens_out": 608,
+  "latency_ms": 21311,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "e750917a42bd0a1d8e2a1e4599894ac46408bbad9cecac8476730a0ddf3d0c7b",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T09:18:44Z",
+  "prompt_sha": "a85f83168754656645aa505c738c3f455e5b43d35588252a7741b37fee254e0a",
+  "response_text": "**1. ANÁLISE:**  \nO caso envolve a interpretação de uma cláusula de renovação automática de banco de horas anual prevista em CCT do setor farmacêutico, bem como a validade da prorrogação de 3 meses sem nova negociação coletiva. A questão central é a aplicabilidade do prazo máximo de 1 ano para o banco de horas, conforme disposto no **Art. 59, § 1º, da CLT**, que estabelece que o banco de horas pode ser estabelecido por prazo máximo de 1 ano, renovável por igual período mediante acordo coletivo.  \n\nNo entanto, o contexto normativo **não fornece dispositivos específicos** que regulamentem a renovação automática de banco de horas ou a validade de prorrogações sem nova negociação coletiva. A análise depende de normas gerais do Direito do Trabalho, como a CLT e a Lei 13.467/2017 (Estatuto da Reforma Trabalhista), que não estão explicitamente citadas no contexto fornecido.  \n\n---\n\n**2. DECISÃO RECOMENDADA:**  \nA prorrogação de 3 meses sem nova negociação coletiva **não é válida**, pois viola o prazo máximo de 1 ano estabelecido pelo **Art. 59, § 1º, da CLT**. A renovação automática da cláusula CCT **não pode ultrapassar o limite legal de 1 ano**, independentemente da existência de uma cláusula de renovação. A empresa teria que celebrar uma nova CCT para prorrogar o banco de horas além do prazo legal.  \n\n---\n\n**3. FUNDAMENTAÇÃO NORMATIVA:**  \n- **Art. 59, § 1º, da CLT:** Estabelece que o banco de horas pode ser estabelecido por prazo máximo de 1 ano, renovável por igual período mediante acordo coletivo.  \n- **Lei 13.467/2017 (Estatuto da Reforma Trabalhista):** Não mencionada no contexto, mas é comum que normas como a **Súmula 452 do TST** (que reconhece a validade de acordos coletivos com prazos renováveis) sejam citadas. No entanto, **não há dispositivos específicos do contexto fornecido** que abordem a renovação automática ou a prorrogação sem negociação coletiva.  \n\n**Limitação do contexto:**  \nO contexto normativo **não contém dispositivos legais ou jurisprudenciais** que regulamentem a renovação automática de banco de horas ou a validade de prorrogações sem nova CCT. A análise depende de normas gerais do Direito do Trabalho, que não foram explicitamente citadas no contexto fornecido.",
+  "tokens_in": 311,
+  "tokens_out": 1133,
+  "latency_ms": 70577,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

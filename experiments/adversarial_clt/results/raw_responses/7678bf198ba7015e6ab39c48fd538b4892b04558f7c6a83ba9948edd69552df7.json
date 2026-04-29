@@ -1,0 +1,29 @@
+{
+  "sha256": "7678bf198ba7015e6ab39c48fd538b4892b04558f7c6a83ba9948edd69552df7",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T00:35:39Z",
+  "prompt_sha": "1bd0aef03e0b6d03d84ca202cf6b7a00e95994884a42849dc5597c5e0bcb70a2",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas em Call Center\n\nCom base nos predicados normativos fornecidos e no cenário apresentado, a análise, decisão recomendada e identificação de cumprimento/violação dos predicados são as seguintes:\n\n**1. ANÁLISE:**\n\n*   **`semester_hour_bank_requires_cct_or_act` (O banco de horas semestral exige CCT ou ACT):** Este predicado é **crucial** para o caso. Ele estabelece que a implementação de um banco de horas semestral (e, por inferência, de duração significativa) depende da existência de uma Convenção Coletiva de Trabalho (CCT) ou Acordo Coletivo de Trabalho (ACT) que o autorize. A empresa, ao implantar o banco de horas sem a anuência do sindicato da categoria, **desrespeitou** este predicado. A alegação de que os acordos individuais assinados pelos empregados podem validar o banco de horas é irrelevante, pois a lei exige a negociação coletiva para a implementação de sistemas que alterem a jornada de trabalho e a forma como o tempo é compensado.\n*   **`prohibition_on_unilateral_hour_bank` (Proibição de banco de horas unilateral):** Este predicado reforça a análise anterior. Ele impede que a empresa, de forma unilateral, estabeleça um banco de horas. A simples assinatura de um memorando pelos empregados não legitima a medida, pois a lei exige a participação do sindicato na discussão e negociação das condições do banco de horas. A empresa, ao impor o banco de horas por meio de memorando interno, **viola** este predicado. A acumulação de até 120 horas em 9 meses, sem a devida negociação, agrava a ilegalidade da medida.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se a **anulação** do banco de horas implementado unilateralmente pela empresa. A empresa deve:\n\n*   **Imediata suspensão** da prática de compensação de horas por meio do banco de horas.\n*   **Pagamento das horas** acumuladas no banco de horas como extras, com todos os acréscimos legais (jorada normal + 50% de adicional noturno, se houver).\n*   **Início de negociação** com o sindicato da categoria para a implementação de um banco de horas que atenda aos requisitos legais, incluindo a definição de regras claras sobre a duração máxima, a forma de compensação e a participação dos empregados na negociação.\n*   **Revisão dos acordos individuais** assinados pelos empregados, com o objetivo de garantir que a implementação do banco de horas não cause prejuízo aos direitos trabalhistas.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **`semester_hour_bank_requires_cct_or_act`:** **Violação**. A empresa implementou um banco de horas sem a autorização de uma CCT ou ACT.\n*   **`prohibition_on_unilateral_hour_bank`:** **Violação**. A empresa implementou o banco de horas de forma unilateral, sem negociação com o sindicato.\n\n**Observações Adicionais:**\n\n*   A alegação da empresa de que os acordos individuais poderiam validar o banco de horas de até 6 meses é insustentável, pois a lei exige a negociação coletiva para a implementação de sistemas que alterem a jornada de trabalho.\n*   A acumulação de 120 horas em 9 meses pode ser considerada um desequilíbrio contratual, reforçando a necessidade de anulação do banco de horas.\n*   É importante verificar se a empresa cumpriu outros requisitos legais relacionados à jornada de trabalho, como os limites máximos de horas extras e o direito ao descanso semanal remunerado.\n*   A empresa pode estar sujeita a ações judiciais movidas pelos empregados ou pelo sindicato da categoria, buscando a reparação dos danos causados pela implementação ilegal do banco de horas.",
+  "tokens_in": 333,
+  "tokens_out": 888,
+  "latency_ms": 24438,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

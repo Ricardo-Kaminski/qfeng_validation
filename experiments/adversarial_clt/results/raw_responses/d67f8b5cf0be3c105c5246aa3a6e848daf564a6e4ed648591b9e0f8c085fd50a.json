@@ -1,0 +1,19 @@
+{
+  "sha256": "d67f8b5cf0be3c105c5246aa3a6e848daf564a6e4ed648591b9e0f8c085fd50a",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-011",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T12:06:16Z",
+  "prompt_sha": "fb1b55eb31294169d89cb597740f454565b64e9af7278dc7f29bec4c017f5fe6",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a questão central é se o prazo para compensação de horas acumuladas em um banco de horas deve ser suspenso durante o período de afastamento do trabalhador por acidente de trabalho.\n\nOs dispositivos normativos relevantes no Direito do Trabalho brasileiro que podem ser aplicados incluem:\n\n- **Art. 59 da CLT (Consolidação das Leis do Trabalho):** Este artigo trata dos efeitos do afastamento por acidente de trabalho, especificando que o período de afastamento não será computado para fins de antiguidade ou progressão funcional.\n\n- **Súmula 444 do TST (Tribunal Superior do Trabalho):** Estabelece que \"o prazo prescricional é suspenso durante a ausência do empregado por motivo de acidente de trabalho\".\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada seria favorável ao trabalhador, determinando que o prazo para compensação das horas acumuladas no banco de horas deve ser suspenso durante o período em que ele esteve afastado por acidente de trabalho.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Art. 59 da CLT:** Embora este artigo não trate diretamente dos bancos de horas, estabelece a suspensão de efeitos do afastamento para certas contabilizações no emprego, o que pode ser interpretado como um princípio aplicável à compensação das horas acumuladas.\n\n- **Súmula 444 do TST:** Esta súmula é diretamente aplicável ao caso, pois estabelece a suspensão de prazos prescricionais durante o afastamento por acidente de trabalho. A exigência da empresa para que as horas sejam compensadas em um prazo que ultrapassa 12 meses do início do banco deve considerar essa suspensão.\n\nDessa forma, a ausência do trabalhador por acidente de trabalho impede que o prazo seja contado durante esse período, e a exigência da empresa não respeita essa norma. Assim, o prazo para compensação das horas acumuladas deve ser ajustado considerando a suspensão durante o afastamento.\n\nSe o contexto normativo fornecido não incluísse esses dispositivos específicos (Art. 59 da CLT e Súmula 444 do TST), a análise seria limitada à interpretação das cláusulas contratuais da CCT, que, neste caso, não previam a suspensão do prazo. No entanto, com base nos dispositivos normativos mencionados, a decisão deve ser favorável ao trabalhador.",
+  "tokens_in": 326,
+  "tokens_out": 624,
+  "latency_ms": 37484,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

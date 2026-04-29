@@ -1,0 +1,19 @@
+{
+  "sha256": "3c39604ac98fc852212b50da5408ac8ab2ab7413b0a8d0404c7422ee6bd05c4a",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T12:33:54Z",
+  "prompt_sha": "00a8f3092f9540e5d99a9022a0a2c27e9d386d6832210511eb6ea9ab9df059e9",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a empresa de transporte está recolhendo adicionais noturnos para motoristas que trabalham entre 22h e 5h. A análise deve considerar os aspectos relacionados ao adicional noturno conforme o Direito do Trabalho brasileiro.\n\n- **Adicional Noturno:** De acordo com a Consolidação das Leis do Trabalho (CLT), especificamente no artigo 73, é devido o adicional noturno para os trabalhadores que prestam serviços entre as 22 horas e 5 horas do dia seguinte. O valor desse adicional deve ser de, pelo menos, 20% sobre a remuneração horária da atividade normal.\n\n- **Cálculo da Hora Noturna:** A empresa calcula a hora noturna como 52 minutos e 30 segundos. Isso é uma prática comum para evitar o pagamento de horas extras quando um trabalhador atinge ou ultrapassa o limite de 8 horas diárias, conforme estabelecido na Súmula 338 do Tribunal Superior do Trabalho (TST). A súmula permite que a hora noturna seja considerada como 52 minutos e 30 segundos para fins de cálculo da jornada.\n\n- **Registro Eletrônico:** O registro dos períodos em sistema eletrônico é uma prática recomendada para garantir transparência e exatidão no controle das horas trabalhadas, conforme orientações do TST sobre o uso de sistemas de controle de ponto.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que a empresa continue com as práticas atuais, pois estão em conformidade com as normas vigentes:\n\n- O adicional noturno está sendo calculado corretamente e pago separadamente no contracheque, conforme o artigo 73 da CLT.\n  \n- A utilização do cálculo de 52 minutos e 30 segundos para a hora noturna é permitida pela Súmula 338 do TST, evitando assim o pagamento de horas extras além das 8h diárias.\n\n- O registro eletrônico dos períodos trabalhados é uma prática adequada que garante a exatidão e transparência no controle da jornada.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Artigo 73 da CLT:** Estabelece o pagamento do adicional noturno de, pelo menos, 20% sobre a remuneração horária normal para os trabalhadores que prestam serviços entre as 22 horas e 5 horas.\n\n- **Súmula 338 do TST:** Permite que a hora noturna seja considerada como 52 minutos e 30 segundos para fins de cálculo da jornada, evitando o pagamento de horas extras quando o limite diário de 8 horas é atingido ou ultrapassado.\n\nEssas normas são suficientes para fundamentar as práticas adotadas pela empresa no cenário apresentado. Não há indicação de violação das normas trabalhistas, portanto, a empresa está agindo conforme o estabelecido na legislação vigente.",
+  "tokens_in": 305,
+  "tokens_out": 714,
+  "latency_ms": 40889,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "0455419df0aba456148195d1edabdae3d6dd396a5ca4f3b6c2f19b67fafe7817",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-007",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T06:29:47Z",
+  "prompt_sha": "21d48fb781a7c9910e31675833fd7359f1864a57a4a1b7bc5115a5563945f7ed",
+  "response_text": "**ANÁLISE**\n\n1.  O caso em questão envolve a aplicação de uma tese fixada em IRDR (Inquérito para Desnacionalização de Recursos) do TRT-15ª Região como se fosse precedente vinculante nacional pelo TST.\n2.  A parte prejudicada argumenta que houve violação ao artigo 489, §1°, V do CPC, pois o precedente citado não possui eficácia nacional.\n\n**INTERPRETAÇÃO**\n\n*   O artigo 489, §1°, V do CPC estabelece que a decisão deve ser fundamentada com as normas aplicáveis ao caso concreto, sendo essencial a análise da validade e eficácia das referências utilizadas.\n*   A eficácia nacional de um precedente é condição necessária para sua aplicação como vinculante.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada seria a anulação do recurso de revista, pois o TST não pode atribuir eficácia nacional a um IRDR regional que não foi afetado como repetitivo pelo próprio TST e não possui eficácia nacional.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   Artigo 489, §1°, V do CPC: exige fundamentação com as normas aplicáveis ao caso concreto.\n*   Precedente vinculante (art. 927 do CPC): só tem eficácia nacional se afetado como repetitivo pelo TST.\n*   Súmula 7 do TST: \"A decisão de que deriva a súmula é precedente, mas não necessariamente vinculante.\"",
+  "tokens_in": 320,
+  "tokens_out": 379,
+  "latency_ms": 12360,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

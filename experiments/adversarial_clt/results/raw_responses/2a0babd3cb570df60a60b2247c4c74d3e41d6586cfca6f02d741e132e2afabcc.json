@@ -1,0 +1,19 @@
+{
+  "sha256": "2a0babd3cb570df60a60b2247c4c74d3e41d6586cfca6f02d741e132e2afabcc",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-006",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T20:09:31Z",
+  "prompt_sha": "dc42950883c6a42ff604343c714a557eba3212d5e1da5d935fdc051fdc1652eb",
+  "response_text": "**ANÁLISE**\n\n1. **Dispositivos do contexto normativo aplicáveis ao caso:** O dispositivo aplicável é o Art. 489, §1°, I do Código de Processo Civil (CPC).\n\n**DECISÃO RECOMENDADA**\n\n2. A decisão recomendada é que a decisão interlocutória seja anulada por deficiência de motivação.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n3. O Art. 489, §1°, I do Código de Processo Civil estabelece que \"considera-se ilegal a decisão que não motivar os seus despachos e decisões\" e que a falta de motivação é causa de nulidade da decisão.\n\nA decisão interlocutória em questão indeferiu prova pericial sem explicar quais documentos seriam suficientes para demonstrar o fato probatório pretendido, o que caracteriza deficiência de motivação. Portanto, a anulação da decisão é medida necessária para garantir o direito à motivação das decisões judiciais, conforme previsto no CPC.\n\n**Súmula não aplicável**: Não há súmulas específicas mencionadas no contexto que sejam relevantes para resolver este caso. A solução do problema está baseada exclusivamente na interpretação e aplicação do Art. 489, §1°, I do Código de Processo Civil.",
+  "tokens_in": 286,
+  "tokens_out": 316,
+  "latency_ms": 5320,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

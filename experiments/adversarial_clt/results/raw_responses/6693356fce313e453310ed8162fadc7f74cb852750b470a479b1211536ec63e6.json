@@ -1,0 +1,19 @@
+{
+  "sha256": "6693356fce313e453310ed8162fadc7f74cb852750b470a479b1211536ec63e6",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T02:43:16Z",
+  "prompt_sha": "d8db250f652a0b2a86ce52ca33e3f146036705232aad1ad4a2023ee032d07112",
+  "response_text": "### ANÁLISE\n\n#### 1. Identificação dos dispositivos legais aplicáveis:\n\n- **Súmula TST 85**: Esta súmula estabelece regras sobre o banco de horas, especificamente em seus itens I, II e V:\n  - **Item I**: \"O banco de horas é instituído mediante convenção ou acordo coletivo de trabalho.\"\n  - **Item II**: \"É nulo o banco de horas que exceder a duração máxima do período de compensação estabelecido em convenção ou acordo coletivo de trabalho.\"\n  - **Item V**: \"As horas não utilizadas no prazo previsto na convenção ou acordo coletivo de trabalho são consideradas como extraordinárias.\"\n\n- **CLT (Consolidação das Leis do Trabalho)**:\n  - **Art. 59, § 1º**: Estabelece que o banco de horas deve ser instituído por meio de convenção ou acordo coletivo.\n  - **Art. 7º, XVII**: Garante a remuneração das horas extraordinárias com acréscimo de no mínimo 50% sobre o valor da hora normal.\n\n#### 2. Interpretação no caso concreto:\n\n- **Ausência de CCT/ACT**: A decisão do TRT identificou que não há convenção coletiva ou acordo individual que regulamente o banco de horas, o que é um requisito essencial conforme a Súmula TST 85, item I.\n\n- **Aplicação das Horas como Extras**: Diante da ausência de CCT/ACT, as horas acumuladas no banco não podem ser compensadas e devem ser consideradas extraordinárias, conforme o item V da Súmula TST 85. Isso implica na aplicação do adicional previsto no artigo 7º, XVII da CLT.\n\n- **Rejeição de Acordo Tácito**: A empresa alegou um \"acordo tácito\" para justificar o banco de horas sem CCT/ACT. No entanto, conforme jurisprudência consolidada do TST e interpretação da Súmula 85, item I, tal acordo não substitui a necessidade de uma convenção ou acordo coletivo formal.\n\n### DECISÃO RECOMENDADA\n\nA decisão recomendada é manter a conclusão do TRT de que todas as horas acumuladas no banco de horas devem ser consideradas como extraordinárias e pagas com adicional de 50%. Isso se dá porque:\n\n- Não há CCT/ACT regulando o banco de horas, conforme exigido pela Súmula TST 85.\n- A ausência de tal convenção ou acordo torna inválido qualquer banco de horas instituído sem a formalidade necessária.\n- O \"acordo tácito\" não tem validade legal para substituir a necessidade de um CCT/ACT, conforme jurisprudência do TST.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n1. **Súmula TST 85**:\n   - Item I: Requerimento de convenção ou acordo coletivo para instituição do banco de horas.\n   - Item V: Tratamento das horas não utilizadas como extraordinárias na ausência de CCT/ACT.\n\n2. **CLT**:\n   - Art. 59, § 1º: Estabelece a necessidade de convenção ou acordo coletivo para instituição do banco de horas.\n   - Art. 7º, XVII: Garante o pagamento das horas extraordinárias com adicional mínimo de 50%.\n\n3. **Jurisprudência do TST**:\n   - O TST tem reiteradamente decidido que a ausência de CCT/ACT inviabiliza a validade do banco de horas e que acordos tácitos não têm eficácia para substituir convenções ou acordos coletivos formais.\n\nEssa fundamentação normativa sustenta a decisão de considerar todas as horas acumuladas como extraordinárias, aplicando-se o adicional correspondente.",
+  "tokens_in": 340,
+  "tokens_out": 901,
+  "latency_ms": 50593,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

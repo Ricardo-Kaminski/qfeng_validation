@@ -1,0 +1,19 @@
+{
+  "sha256": "f1757c94696f52410128df93d2aa6ded7fae3fde30b5673030b2bd6c410b34f6",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-006",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T20:15:03Z",
+  "prompt_sha": "52dd564a70359960dbb886b7a9e848f56a10af664fc6884feb3e2be6931f11b7",
+  "response_text": "**1. ANÁLISE**\n\nO caso em questão envolve a adoção de um regulamento interno por uma empresa de limpeza urbana que estabelece banco de horas com compensação mensal. A aprovação do regulamento ocorreu em assembleia dos empregados, sem a presença de representantes sindicais.\n\nA análise inicial indica que o dispositivo mais relevante para esse caso é o Art. 59 da CLT (Consolidação das Leis do Trabalho), especificamente seu §2°. Esse artigo trata sobre a aprovação de acordos coletivos e convenções coletivas.\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada é que o regulamento interno da empresa não seja considerado equivalente a Acordo Coletivo de Trabalho (ACT) para fins do Art. 59, §2° da CLT, por falta de representação sindical na assembleia.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nO dispositivo específico aplicável é o Art. 59, §2° da CLT:\n\n> \"§ 2º Os acordos e convenções coletivas de trabalho só produzirão efeito entre as partes que os celebraram, se homologados pelo Ministério do Trabalho.\"\n\nEspecificamente, a falta de representação sindical na assembleia é crucial para a validade do regulamento interno como equivalente a ACT. A ausência da presença de representantes sindicais invalida o processo de aprovação do regulamento interno em relação à normativa que trata sobre acordos coletivos e convenções coletivas.\n\n**Limitação**\n\nO contexto não contém súmulas específicas aplicáveis a este caso. A decisão é baseada exclusivamente na interpretação dos dispositivos da CLT mencionados.",
+  "tokens_in": 299,
+  "tokens_out": 411,
+  "latency_ms": 6918,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

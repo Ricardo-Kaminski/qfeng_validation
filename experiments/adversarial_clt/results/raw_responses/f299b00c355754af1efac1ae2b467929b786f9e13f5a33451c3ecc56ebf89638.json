@@ -1,0 +1,19 @@
+{
+  "sha256": "f299b00c355754af1efac1ae2b467929b786f9e13f5a33451c3ecc56ebf89638",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-006",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T20:14:50Z",
+  "prompt_sha": "52dd564a70359960dbb886b7a9e848f56a10af664fc6884feb3e2be6931f11b7",
+  "response_text": "**ANÁLISE**\n\nO caso apresentado envolve a adoção de um banco de horas por uma empresa de limpeza urbana, mediante regulamento interno aprovado em assembleia dos empregados. O regulamento foi assinado por maioria dos trabalhadores, mas sem a presença de representantes sindicais.\n\n**IDENTIFICAÇÃO DOS DISPOSITIVOS DO CONTEXTO NORMATIVO APLICÁVEIS**\n\n1. **Artigo 59 da CLT**: Este artigo trata sobre a Convenção Coletiva de Trabalho (CCT) e sua validade como Ata de Conciliação Coletiva (ACT). O §2° do Artigo 59 estabelece que, para ser considerada ACT, a CCT deve ter sido negociada entre os sindicatos representativos das categorias econômicas ou profissionais envolvidas e as empresas patronais.\n\n2. **Artigo 611 da CLT**: Este artigo trata sobre a Convenção Coletiva de Trabalho (CCT) e sua aplicação, incluindo a necessidade de assinatura por sindicatos representativos das categorias econômicas ou profissionais envolvidas.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que o regulamento interno da empresa não seja considerado válido como Ata de Conciliação Coletiva (ACT) para fins do Artigo 59, §2° da CLT. Isso porque a assembleia foi realizada sem a presença de representantes sindicais, contrariando os requisitos estabelecidos pelo Artigo 611 da CLT e o espírito do Artigo 59, §2°.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação normativa está baseada nos dispositivos mencionados acima. A ausência de representantes sindicais na assembleia que aprovou o regulamento interno invalida sua consideração como ACT para fins da CLT, pois não atende aos requisitos estabelecidos pela legislação trabalhista brasileira.\n\n**CONCLUSÃO**\n\nA decisão recomendada é que o empregado tenha razão em questionar a validade do regulamento interno por ausência de representação sindical. A adoção de um banco de horas sem a validação necessária torna inválido o acordo para fins trabalhistas.\n\n**LIMITAÇÃO**\n\nNeste contexto, não há limitações na aplicação das normas mencionadas, pois as mesmas são claras e específicas sobre os requisitos para a validação de acordos coletivos.",
+  "tokens_in": 299,
+  "tokens_out": 572,
+  "latency_ms": 9678,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

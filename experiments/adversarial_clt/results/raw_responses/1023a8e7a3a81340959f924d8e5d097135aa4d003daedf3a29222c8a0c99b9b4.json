@@ -1,0 +1,19 @@
+{
+  "sha256": "1023a8e7a3a81340959f924d8e5d097135aa4d003daedf3a29222c8a0c99b9b4",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T20:14:32Z",
+  "prompt_sha": "fe5ea1e90bce3809f6b9e66296de41abc23c26c20d8a019c18931364e6d77260",
+  "response_text": "**ANÁLISE**\n\n1.  Identificação dos dispositivos do contexto normativo aplicáveis ao caso:\n    *   A CCT (Convenção Coletiva de Trabalho) é um acordo entre empregadores e sindicatos que estabelece condições de trabalho específicas para o setor hoteleiro.\n    *   O dispositivo da CCT mencionado no contexto estabeleceu banco de horas com prazo de compensação de 14 meses.\n    *   A Lei que prevê o limite de 1 ano para a compensação de horas é mencionada, mas não especificada. No entanto, como se trata de uma lei federal e o limite de 1 ano é considerado norma de ordem pública, podemos inferir que se refere à Lei nº 10.097/2000 (Lei do Novo Código Civil) ou à Consolidação das Leis do Trabalho (CLT), artigo 59.\n    *   A Súmula TST 85, V é mencionada como referência para a norma de ordem pública que estabelece o limite de 1 ano para compensação de horas.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que sejam aplicadas as regras da Lei e da Súmula TST, pois elas são consideradas normas de ordem pública. Isso significa que a CCT não pode flexibilizar o limite de 1 ano previsto na lei para compensação de horas.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   A Lei que estabelece o limite de 1 ano para compensação de horas é mencionada, mas como se trata de uma lei federal e o limite de 1 ano é considerado norma de ordem pública, podemos inferir que se refere à Lei nº 10.097/2000 (Lei do Novo Código Civil) ou à Consolidação das Leis do Trabalho (CLT), artigo 59.\n*   A Súmula TST 85, V estabelece que \"O limite de um ano para a compensação de horas é norma de ordem pública\".",
+  "tokens_in": 307,
+  "tokens_out": 477,
+  "latency_ms": 7994,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,26 @@
+{
+  "sha256": "dec3c6fc023a80c7e8e01fb8e3541bad6a412fdc4757668b4777ff71c2e4d25d",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T23:37:37Z",
+  "prompt_sha": "a01627cdbd8b1cd3b3f8d644f3236118fbd7445d66aaa97eead1388400a4615a",
+  "response_text": "1. **ANÁLISE:**\n\n   - **prohibition_of_generic_precedent_citation:** Este predicado normativo proíbe a citação genérica de precedentes sem identificar especificamente quais decisões, como OJ (Orientações Jurisprudenciais), Súmulas ou acórdãos específicos do TST. No cenário apresentado, o TRT-2ª Região citou uma \"orientação jurisprudencial consolidada\" sem especificar quais decisões estavam sendo referidas. Isso viola a proibição de citação genérica, pois não fornece aos interessados a possibilidade de verificar e analisar as decisões específicas que fundamentaram a conclusão do tribunal.\n\n   - **obligation_to_ground_decision_in_identified_ratio_decidendi:** Este predicado normativo estabelece a obrigação de fundamentar decisões judiciais em um \"ratio decidendi\" identificado, ou seja, no raciocínio jurídico específico que sustenta uma decisão. No caso concreto, ao afirmar apenas que a jurisprudência é pacífica sem indicar quais decisões específicas compõem essa jurisprudência, o TRT-2ª Região não cumpriu com a obrigação de fundamentar sua decisão em um raciocínio jurídico identificável e concreto. A falta de especificidade impede que se entenda claramente qual foi o fundamento legal da decisão.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base nos predicados normativos aplicáveis, recomenda-se que a decisão do TRT-2ª Região seja reformada ou anulada em parte, exigindo uma nova fundamentação adequada. O tribunal deve identificar e citar explicitamente as decisões específicas (OJ, Súmulas ou acórdãos) que compõem a \"orientação jurisprudencial consolidada\" referida na sentença original. Isso garantirá conformidade com o CPC Art. 489, §1°, VI, ao fornecer uma fundamentação clara e detalhada da decisão.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violados:**\n     - prohibition_of_generic_precedent_citation: A decisão violou este predicado ao citar genericamente a jurisprudência sem especificar quais decisões estavam sendo referidas.\n     - obligation_to_ground_decision_in_identified_ratio_decidendi: A decisão também violou este predicado, pois não fundamentou adequadamente em um raciocínio jurídico específico e identificável.\n\n   - **Cumpridos:**\n     - Não há cumprimento explícito de nenhum dos predicados listados no cenário apresentado.",
+  "tokens_in": 385,
+  "tokens_out": 626,
+  "latency_ms": 18250,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

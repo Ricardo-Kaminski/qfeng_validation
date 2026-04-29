@@ -1,0 +1,29 @@
+{
+  "sha256": "531a6a760a7e966c6fd04b5df6608e956dc1a4b451c1cd0b8c2ad74aea986c98",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-008",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T22:34:13Z",
+  "prompt_sha": "160b14905daf1b75240e571876e903f674ab798cba13eaa47b102ad9f8820a31",
+  "response_text": "### 1. **ANÁLISE: Aplicação dos predicados normativos ao caso concreto**  \nO predicado **hour_bank_with_cct_max_1_year** estabelece que **bancos de horas** podem ser pactuados em **acordos coletivos de trabalho (ACT)**, desde que **não excedam a 1 ano de duração** e que a compensação das horas extras seja feita **no prazo estipulado no acordo**.  \n\nNo caso:  \n- O banco de horas foi estabelecido por **ACT com compensação em 7 meses**, o que está **dentro do limite de 1 ano** (conformidade com o predicado).  \n- O trabalhador **respondeu por 5 meses** (menos de 7 meses) e **deixou saldo positivo de 60h**, o que **não viola o prazo máximo de 1 ano** (conformidade).  \n- A **empresa se recusa a pagar o saldo**, alegando que a **rescisão do contrato desfaz a lógica compensatória do banco**, mas **não há norma que vincule a existência do banco de horas à permanência do trabalhador**.  \n\n**Conclusão da análise:**  \nO **predicado hour_bank_with_cct_max_1_year** **não é violado** por si só, pois o prazo de 7 meses está dentro do limite de 1 ano. No entanto, **a empresa está violando a obrigação de pagar as horas extras pendentes**, pois a **rescisão não elide o direito do trabalhador ao saldo positivo**. A **jurisprudência do TST** (ex.: Súmula 323) reforça que **o banco de horas é uma forma de compensação**, mas **não pode ser usado para negar o pagamento de horas extras acumuladas**.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **empresa deve pagar as 60h acumuladas**, pois:  \n- O **banco de horas** foi pactuado em **ACT**, com **compensação em 7 meses** (conforme o predicado).  \n- A **rescisão do contrato não extingue o direito do trabalhador ao saldo positivo**, pois a **compensação é uma obrigação do empregador**, independentemente da vontade do trabalhador (art. 44 da CLT).  \n- A **empresa está violando a norma trabalhista**, ao **negar o pagamento de horas extras pendentes**.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **hour_bank_with_cct_max_1_year**: **Conformidade** (o prazo de 7 meses está dentro do limite de 1 ano).  \n- **Obrigação de pagamento de horas extras pendentes** (implícita no art. 44 da CLT e jurisprudência do TST): **Violação** (a empresa se recusa a pagar o saldo positivo de 60h, violando o direito do trabalhador).  \n\n--- \n\n**Observação:** A **violação normativa** não está diretamente ligada ao predicado **hour_bank_with_cct_max_1_year**, mas sim à **obrigação de pagamento de horas extras pendentes**, que **não foi explicitamente listada** nos predicados fornecidos. No entanto, a **jurisprudência do TST** e a **CLT** são fundamentais para a decisão.",
+  "tokens_in": 358,
+  "tokens_out": 1438,
+  "latency_ms": 44750,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

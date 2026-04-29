@@ -1,0 +1,19 @@
+{
+  "sha256": "2380aa2afffaeabd493b2805084a7e0ca69c6265c27f0cb9fa18d1f23b3e56f7",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T12:04:27Z",
+  "prompt_sha": "0dd8d39ebf3dc95dfafbbdd315c02d2658b6693ca7bbe189d0219bde8729d8fc",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a Convenção Coletiva de Trabalho (CCT) estabeleceu um limite máximo de 80 horas para o banco de horas. A empresa permitiu que um operador acumulasse até 200 horas sem negociar com o sindicato uma alteração desse limite. O problema central é se a empresa pode exceder o limite acordado na CCT sem nova negociação.\n\nOs dispositivos normativos relevantes no contexto do Direito do Trabalho brasileiro incluem:\n\n- **Artigo 611-A da CLT (Consolidação das Leis do Trabalho):** Este artigo trata do banco de horas, estabelecendo que a compensação deve ocorrer em até seis meses e que o limite máximo é fixado por convenção ou acordo coletivo. A cláusula na CCT que define um limite de 80 horas é uma aplicação direta desse dispositivo.\n\n- **Artigo 7º, inciso XXVI da Constituição Federal:** Garante a negociação coletiva como meio de estabelecer condições de trabalho, incluindo o banco de horas. Isso implica que qualquer alteração substancial no acordo deve ser negociada com o sindicato.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que a empresa não pode permitir o acúmulo de 200 horas sem uma nova negociação e acordo formalizado com o sindicato. A extrapolação do limite previsto na CCT invalida o banco de horas para as horas que excedem o acordado, pois qualquer alteração substancial no acordo coletivo deve ser negociada.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Artigo 611-A da CLT:** Estabelece que a compensação das horas extras acumuladas em banco de horas deve ocorrer dentro do limite fixado pela convenção ou acordo coletivo, não podendo exceder o limite sem nova negociação.\n\n- **Artigo 7º, inciso XXVI da Constituição Federal:** Reafirma a importância da negociação coletiva para estabelecer condições de trabalho, incluindo alterações no banco de horas. A empresa deve negociar qualquer mudança significativa com o sindicato.\n\nPortanto, sem uma nova negociação e acordo formalizado que permita um acúmulo maior do que 80 horas, a empresa não pode legalmente permitir o acúmulo de 200 horas, conforme estabelecido na CCT vigente.",
+  "tokens_in": 300,
+  "tokens_out": 571,
+  "latency_ms": 34641,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

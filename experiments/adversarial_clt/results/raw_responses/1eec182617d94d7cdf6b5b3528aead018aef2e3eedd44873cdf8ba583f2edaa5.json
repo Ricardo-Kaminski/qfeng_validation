@@ -1,0 +1,19 @@
+{
+  "sha256": "1eec182617d94d7cdf6b5b3528aead018aef2e3eedd44873cdf8ba583f2edaa5",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T01:26:57Z",
+  "prompt_sha": "a268ca90753e6ca56e19e9e03c7e848b36ec890dfbbc79d622676f1ed88241f1",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Código de Processo Civil (CPC) - Art. 489, §1º, V:** Este dispositivo estabelece que a fundamentação da sentença deve conter a demonstração da aplicabilidade das normas jurídicas aos fatos provados, incluindo a análise dos precedentes judiciais utilizados.\n\n- **Constituição Federal de 1988 - Art. 93, IX:** Garante o direito à razoável duração do processo e ao julgamento fundamentado.\n\n**Interpretação no Caso Concreto:**\n\nA mera transcrição da ementa de um acórdão do TST sem análise fática específica pode ser considerada inadequada, pois não demonstra a aplicabilidade direta dos precedentes ao caso concreto. O CPC exige que a sentença mostre como os fatos provados se relacionam com as normas jurídicas e precedentes citados. A ausência de tal análise pode resultar em uma decisão considerada genérica ou inadequadamente fundamentada, violando o princípio da motivação.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é que o Tribunal Regional do Trabalho (TRT) reexamine a sentença para garantir que haja uma análise detalhada e específica dos fatos do caso concreto em relação ao precedente citado. A fundamentação deve explicitar como os elementos fáticos do caso se alinham com o entendimento jurisprudencial aplicado, assegurando a adequada motivação da decisão.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **CPC - Art. 489, §1º, V:** Reitera a necessidade de demonstração da aplicabilidade das normas jurídicas aos fatos provados, incluindo precedentes judiciais.\n\n- **Constituição Federal - Art. 93, IX:** Assegura o direito ao julgamento fundamentado e à razoável duração do processo.\n\n- **Súmula Vinculante nº 13 do STF:** Estabelece que a decisão judicial deve ser motivada, sob pena de nulidade.\n\n- **Jurisprudência do TST:** O Tribunal Superior do Trabalho tem reiteradamente exigido que as instâncias inferiores demonstrem a aplicabilidade dos precedentes aos casos concretos, conforme destacado em diversas súmulas e julgados.\n\nA recomendação de revisão da sentença visa garantir o cumprimento desses princípios fundamentais do processo judicial, assegurando que a decisão seja adequada, motivada e respeitosa ao direito das partes à ampla defesa e ao contraditório.",
+  "tokens_in": 313,
+  "tokens_out": 637,
+  "latency_ms": 36561,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

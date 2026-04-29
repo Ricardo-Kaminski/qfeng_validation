@@ -1,0 +1,26 @@
+{
+  "sha256": "f16df1ebd7e6ed69e53ac0a7f5715fea20147e42b18d4071378e29c3a018b079",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T23:38:12Z",
+  "prompt_sha": "a01627cdbd8b1cd3b3f8d644f3236118fbd7445d66aaa97eead1388400a4615a",
+  "response_text": "1. **ANÁLISE:**\n\n   - **prohibition_of_generic_precedent_citation:** Este predicado normativo estabelece que a citação de precedentes deve ser específica e identificável, evitando referências genéricas à \"jurisprudência consolidada\" ou \"orientação jurisprudencial\". No caso em questão, o acórdão do TRT-2ª Região manteve a justa causa citando uma \"orientação jurisprudencial consolidada do TST\" sem identificar nenhum número específico de Orientação Jurisprudencial (OJ), Súmula ou acórdão. Isso viola o princípio da especificidade na citação de precedentes, pois não permite ao recorrente verificar a base jurídica exata que fundamentou a decisão.\n\n   - **obligation_to_ground_decision_in_identified_ratio_decidendi:** Este predicado normativo impõe a obrigação de fundamentar decisões judiciais em um \"ratio decidendi\" identificado, ou seja, o fundamento lógico e jurídico específico que sustenta a decisão. A decisão do TRT-2ª Região não cumpriu com essa obrigação ao se referir genericamente à jurisprudência como sendo pacífica sobre o uso indevido de comunicações eletrônicas, sem indicar quais casos específicos ou fundamentos jurídicos foram utilizados para sustentar a decisão. Isso resulta em uma falta de transparência e clareza na fundamentação da sentença.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base nos predicados normativos aplicáveis, recomenda-se que o recurso do empregado seja provido para anular ou reformar a decisão do TRT-2ª Região. A decisão deve ser revista para garantir que ela esteja devidamente fundamentada em precedentes específicos e identificáveis, cumprindo com as exigências do CPC Art. 489, §1°, VI, que exige uma motivação adequada das decisões judiciais.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violados:**\n     - prohibition_of_generic_precedent_citation: A decisão violou este predicado ao citar genericamente a jurisprudência sem identificar precedentes específicos.\n     - obligation_to_ground_decision_in_identified_ratio_decidendi: A decisão também violou este predicado, pois não fundamentou adequadamente em um \"ratio decidendi\" identificado.\n\n   - **Cumpridos:**\n     - Nenhum dos predicados listados foi cumprido no cenário apresentado.",
+  "tokens_in": 385,
+  "tokens_out": 603,
+  "latency_ms": 17389,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

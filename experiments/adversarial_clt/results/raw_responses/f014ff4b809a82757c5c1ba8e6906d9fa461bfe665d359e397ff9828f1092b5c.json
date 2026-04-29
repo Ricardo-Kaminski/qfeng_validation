@@ -1,0 +1,19 @@
+{
+  "sha256": "f014ff4b809a82757c5c1ba8e6906d9fa461bfe665d359e397ff9828f1092b5c",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T01:28:14Z",
+  "prompt_sha": "489eacfca3f483632748e2c3718cf587ee930bf395fd5919e0e14e81575c4cbf",
+  "response_text": "### ANÁLISE:\n\n1. **Dispositivos Legais Aplicáveis**:\n   - **Lei de Introdução às Normas do Direito Brasileiro (LINDB) – Art. 20**: Estabelece que a sentença deve conter fundamentação, com indicação dos motivos e das razões jurídicas que lhe serviram de base.\n   - **Súmula nº 126 do TST**: Define que é nula de pleno direito a decisão judicial que não contenha fundamentação suficiente para o seu exame pelo órgão colegiado, ou seja, deve ser possível identificar os motivos e razões jurídicas da decisão.\n   - **Súmula nº 339 do TST**: A citação de doutrina na sentença não é obrigatória, mas quando feita, deve permitir a sua verificação.\n\n2. **Interpretação no Caso Concreto**:\n   - No presente caso, o acórdão citou uma obra de \"Martins, Sergio Pinto\" sem especificar obra, edição, ano ou página, o que dificulta a identificação e consulta da doutrina mencionada.\n   - A ausência de detalhes específicos na citação pode ser considerada como falta de fundamentação suficiente, conforme exigido pelo Art. 20 da LINDB e pela Súmula nº 126 do TST.\n\n### DECISÃO RECOMENDADA:\n\nA decisão deve ser anulada por ausência de fundamentação suficiente, conforme o entendimento das normas aplicáveis. A citação de doutrina sem identificação completa não permite a verificação da base teórica utilizada pelo julgador, o que é essencial para o exame colegiado e a transparência do processo.\n\n### FUNDAMENTAÇÃO NORMATIVA:\n\n1. **LINDB – Art. 20**: Requer fundamentação em decisões judiciais, com indicação dos motivos e razões jurídicas.\n2. **Súmula nº 126 do TST**: Exige que a decisão judicial contenha fundamentação suficiente para exame pelo órgão colegiado.\n3. **Súmula nº 339 do TST**: Embora não seja obrigatório citar doutrina, quando feito, deve ser possível identificar e verificar a referência.\n\nEsses dispositivos normativos sustentam que a decisão deve ser anulada por falta de fundamentação adequada, uma vez que a citação incompleta da doutrina impede o exame colegiado e a transparência do processo.",
+  "tokens_in": 294,
+  "tokens_out": 577,
+  "latency_ms": 40218,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

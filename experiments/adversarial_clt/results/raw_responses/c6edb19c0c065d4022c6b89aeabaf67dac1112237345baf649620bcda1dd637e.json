@@ -1,0 +1,19 @@
+{
+  "sha256": "c6edb19c0c065d4022c6b89aeabaf67dac1112237345baf649620bcda1dd637e",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T02:56:51Z",
+  "prompt_sha": "4d48a62ffa2628de18a5603b3fc64f01cd710cb9c400026b5027fea3559fd413",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Artigo 71 da CLT:** Este artigo estabelece que, para jornadas de trabalho superiores a seis horas ininterruptas, o empregador deve conceder um intervalo intrajornada não inferior a trinta minutos. A norma visa garantir condições adequadas de saúde e segurança do trabalhador.\n\n- **Súmula 437 do TST:** Esta súmula afirma que \"não se considera como hora extraordinária o tempo correspondente ao intervalo intrajornada reduzido ou suprimido, quando autorizado por convenção coletiva de trabalho\". Portanto, a validade da Convenção Coletiva de Trabalho (CCT) é crucial para determinar se a redução do intervalo pode ser considerada legal.\n\n- **Tema 981 do STF:** Este tema trata da possibilidade de CCTs estabelecerem intervalos intrajornada inferiores a trinta minutos, desde que haja compensação adequada. O Supremo Tribunal Federal reconheceu a validade dessas cláusulas, desde que não comprometam direitos fundamentais dos trabalhadores.\n\n**Interpretação no Caso Concreto:**\n\nNo caso em análise, o TRT reviu uma sentença de primeiro grau ao constatar que não havia CCT válida autorizando a redução do intervalo intrajornada para menos de trinta minutos. Sem essa autorização coletiva, a redução ou supressão do intervalo intrajornada deve ser considerada como hora extra, conforme o entendimento tradicional da CLT e jurisprudência consolidada.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é manter a conclusão do TRT de que o período suprimido deve ser pago como hora extra. Isso porque não há CCT válida autorizando a redução do intervalo intrajornada, e, portanto, a proteção legal prevista no Artigo 71 da CLT deve ser aplicada integralmente.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **Artigo 71 da CLT:** Garante o direito ao intervalo intrajornada de pelo menos trinta minutos para jornadas superiores a seis horas, salvo autorização em contrário por CCT válida.\n\n- **Súmula 437 do TST:** Estabelece que a redução ou supressão do intervalo pode ser considerada legal se houver autorização por meio de CCT. No entanto, na ausência dessa autorização, o tempo não trabalhado deve ser pago como hora extra.\n\n- **Tema 981 do STF:** Reconhece a validade das cláusulas em CCTs que reduzem o intervalo intrajornada para menos de trinta minutos, desde que haja compensação adequada. No entanto, no presente caso, não há tal autorização coletiva.\n\n**Ratio da Decisão:**\n\nA decisão se fundamenta na ausência de uma CCT válida que autorize a redução do intervalo intrajornada para menos de trinta minutos. Sem essa autorização, o direito ao intervalo previsto no Artigo 71 da CLT deve ser integralmente respeitado, e qualquer tempo não concedido deve ser compensado como hora extra. Esta é uma interpretação coerente com a legislação trabalhista vigente e a jurisprudência consolidada do TST e STF.",
+  "tokens_in": 336,
+  "tokens_out": 783,
+  "latency_ms": 42733,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

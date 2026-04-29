@@ -1,0 +1,27 @@
+{
+  "sha256": "9ebfa07f7b08f8958e72945185bafd4dcd13284e99851a287d10aef32bebb92a",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-011",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T23:02:34Z",
+  "prompt_sha": "2c917ebff9639a22c39eb6a23c31205687007f48fb8e9394fc445acc35358322",
+  "response_text": "### 1. **ANÁLISE:**  \nO predicado **hour_bank_with_cct_max_1_year** estabelece que, em contratos coletivos de trabalho (CCT) que prevêem o uso de banco de horas, o prazo máximo para compensação das horas acumuladas **não pode ultrapassar 12 meses**, salvo se houver previsão expressa na CCT para prorrogação em casos específicos (como afastamentos).  \n\nNo caso concreto:  \n- A empresa **não comprovou** que a CCT previa a **suspensão do prazo do banco de horas** durante o afastamento por acidente de trabalho.  \n- A **ausência de cláusula específica** na CCT para suspensão do prazo durante afastamentos impede que a empresa estenda o prazo de compensação além de 12 meses, mesmo com o afastamento do trabalhador.  \n- A **CLT e jurisprudência do TST** (ex.: Súmula 378/2007) reforçam que o prazo do banco de horas é contado **ininterruptamente**, salvo se houver acordo expresso.  \n\n### 2. **DECISÃO RECOMENDADA:**  \nA empresa **não pode exigir compensação de horas acumuladas** após o retorno do trabalhador se o prazo ultrapassar **12 meses**, pois:  \n- A CCT **não previu a suspensão do prazo** durante o afastamento.  \n- A **lei e jurisprudência** não permitem a **automática suspensão do prazo do banco de horas** em casos de afastamento, salvo previsão expressa.  \n- O trabalhador tem direito à compensação das horas acumuladas **no prazo de 12 meses**, independentemente do afastamento.  \n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**  \n- **hour_bank_with_cct_max_1_year:** **Violação**  \n  - A empresa **ultrapassou o prazo de 12 meses** para compensação, **sem previsão expressa na CCT** para prorrogação.  \n  - O prazo deve ser contado **ininterruptamente**, conforme exigido pelo direito do trabalho.  \n\n---  \n**Conclusão:** A empresa deve compensar as horas acumuladas **no prazo de 12 meses**, independentemente do afastamento, e não pode estender o prazo com base em argumentos não previstos na CCT.",
+  "tokens_in": 378,
+  "tokens_out": 959,
+  "latency_ms": 29453,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

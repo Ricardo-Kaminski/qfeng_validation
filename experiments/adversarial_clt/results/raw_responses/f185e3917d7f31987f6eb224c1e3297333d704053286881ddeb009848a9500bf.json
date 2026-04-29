@@ -1,0 +1,27 @@
+{
+  "sha256": "f185e3917d7f31987f6eb224c1e3297333d704053286881ddeb009848a9500bf",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:48:42Z",
+  "prompt_sha": "d850bd7abdcb7227665403051d94794859c730819b16d4aa28c926c6680567ee",
+  "response_text": "## Análise do Caso do Banco de Horas na Empresa Alimentícia\n\nCom base nos predicados normativos fornecidos e no cenário apresentado, segue a análise, decisão recomendada e identificação de cumprimento/violação dos predicados:\n\n**1. ANÁLISE:**\n\n*   **hour_bank_with_cct_max_1_year:** Este predicado estabelece que a utilização do banco de horas deve ocorrer dentro de um período máximo de 1 ano. No caso concreto, a CCT previu o banco de horas anual e todas as horas acumuladas foram compensadas por meio de folgas dentro desse prazo de 12 meses, demonstrando conformidade com este predicado.\n*   **recognition_of_collective_bargaining:** Este predicado exige o reconhecimento da CCT como fonte normativa válida. A empresa firmou uma CCT que regulamenta o banco de horas, e o sindicato homologou a prestação de contas anual, o que demonstra o reconhecimento da CCT e sua aplicação no contexto laboral. A homologação sindical é um elemento crucial para a validade do banco de horas.\n*   **working_hours_negotiable_by_cct:** Este predicado indica que a organização da jornada de trabalho, incluindo a possibilidade de banco de horas, pode ser negociada por meio de CCT. A existência de uma CCT que prevê o banco de horas já demonstra a aplicação deste predicado, pois a jornada de trabalho foi organizada de forma diferente da regra geral, por meio de negociação coletiva. A informação de que a jornada diária nunca ultrapassou 10h reforça que a organização da jornada, mesmo com o banco de horas, respeitou limites razoáveis.\n\n**2. DECISÃO RECOMENDADA:**\n\nConsiderando que todas as horas acumuladas foram compensadas dentro do prazo de 12 meses estabelecido na CCT, que a CCT foi reconhecida e homologada pelo sindicato, e que a jornada diária não ultrapassou 10 horas, a decisão recomendada é **deferir a validade do banco de horas implementado pela empresa**. Não há indícios de irregularidades que justifiquem a invalidação do sistema. É importante ressaltar a importância da manutenção da entrega dos extratos mensais como forma de transparência e controle.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **hour_bank_with_cct_max_1_year:** **Conformidade** - As horas foram compensadas dentro do prazo de 1 ano.\n*   **recognition_of_collective_bargaining:** **Conformidade** - A CCT foi firmada e homologada pelo sindicato.\n*   **working_hours_negotiable_by_cct:** **Conformidade** - A jornada de trabalho foi organizada por meio de negociação coletiva.\n\n**Observações Adicionais:**\n\n*   A homologação sindical é um fator determinante para a validade do banco de horas. A ausência dessa homologação poderia levar à invalidade do sistema.\n*   A entrega regular dos extratos mensais é fundamental para garantir a transparência e o controle da jornada de trabalho, evitando questionamentos futuros.\n*   É importante verificar se a CCT estabelece regras específicas sobre a forma de compensação das horas (folgas, redução da jornada, etc.) e se estas foram cumpridas.\n*   A jornada diária de 10 horas é um ponto positivo, pois demonstra que a organização do trabalho, mesmo com o banco de horas, não impôs jornadas excessivas aos trabalhadores.\n",
+  "tokens_in": 343,
+  "tokens_out": 769,
+  "latency_ms": 21250,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

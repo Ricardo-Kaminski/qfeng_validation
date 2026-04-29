@@ -1,0 +1,26 @@
+{
+  "sha256": "1f766a7391e444a8cc53fa7a61e50d7f8d95912e8d89ac48dbe3a69a2958de76",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:19:30Z",
+  "prompt_sha": "489d4d0cb986d91530d7db7ba9d629c987a55e79987825665efedd8b88b39c59",
+  "response_text": "**1. ANÁLISE**\n\nO predicado \"obligation_to_ground_decision_in_identified_ratio_decidendi\" se refere à obrigação de fundamentar a decisão com base em uma razão decidenda específica e identificada.\n\nNesse caso, o acórdão trabalhista cita doutrina de Sergio Pinto Martins para embasar seu entendimento sobre horas extras, mas não indica obra, edição, ano ou página. Isso significa que a decisão não está fundamentada em uma razão decidenda específica e identificada.\n\nA falta de identificação completa da obra citada é equivalente à ausência de fundamentação para fins do Código Civil (Art. 20), pois o Artigo 20 exige que as decisões sejam fundamentadas com base em precedentes judiciais ou doutrinários, e a identificação completa da obra citada é essencial para que essa fundamentação seja considerada válida.\n\n**2. DECISÃO RECOMENDADA**\n\nDiante disso, recomendo que a decisão seja anulada por falta de fundamentação adequada, pois o acórdão trabalhista não cumpriu com a obrigação de fundamentar sua decisão com base em uma razão decidenda específica e identificada.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n* **obligation_to_ground_decision_in_identified_ratio_decidendi**: Violação - O acórdão trabalhista não fundamentou sua decisão com base em uma razão decidenda específica e identificada.\n* Nenhum outro predicado foi mencionado como aplicável ao caso, portanto não há violação ou cumprimento de outros predicados.",
+  "tokens_in": 341,
+  "tokens_out": 375,
+  "latency_ms": 6311,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

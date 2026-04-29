@@ -1,0 +1,26 @@
+{
+  "sha256": "7966da59b4d0edeafc4b04ff47a545973f5eeb5546fee26de6d5d818116699a5",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:19:24Z",
+  "prompt_sha": "489d4d0cb986d91530d7db7ba9d629c987a55e79987825665efedd8b88b39c59",
+  "response_text": "**ANÁLISE**\n\n1. **obligation_to_ground_decision_in_identified_ratio_decidendi**: Esse predicado normativo exige que as decisões judiciais sejam fundamentadas em razões de decidir específicas e identificáveis, o que é essencial para a aplicação do princípio da legalidade (art. 5º, II da CF/88) e para garantir a segurança jurídica. No caso em questão, o acórdão trabalhista cita doutrina de \"Martins, Sergio Pinto\" sem indicar obra, edição, ano ou página específicos. Isso significa que a decisão não está fundamentada em uma razão de decidir identificável e específica, violando assim o predicado da obligation_to_ground_decision_in_identified_ratio_decidendi.\n\n**DECISÃO RECOMENDADA**\n\nDiante da análise acima, recomenda-se que a decisão seja **MANTIDA**, mas com a necessidade de fundamentação mais detalhada. O juiz ou tribunal deve esclarecer melhor as razões pelas quais se baseou na doutrina de \"Martins, Sergio Pinto\" e fornecer informações adicionais para garantir que a decisão esteja suficientemente fundamentada.\n\n**PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: Violado. A decisão não está fundamentada em uma razão de decidir identificável e específica.\n- Não há outros predicados listados que sejam aplicáveis diretamente ao cenário descrito, mas é importante lembrar que a ausência de fundamentação suficiente pode ter implicações mais amplas na aplicação da lei e na garantia dos direitos das partes envolvidas.",
+  "tokens_in": 341,
+  "tokens_out": 396,
+  "latency_ms": 6733,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

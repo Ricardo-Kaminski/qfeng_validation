@@ -1,0 +1,26 @@
+{
+  "sha256": "2620312e1ca579533939fcb31fcf62f6c521c33d91e95f0331e3de72823047f6",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-010",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T02:04:14Z",
+  "prompt_sha": "616931cfd10c80d27ea65ea3d9f17fc5d70b1e90674a0e5470d9bf3f655e12d8",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG identificou uma **violação** normativa com base nos predicados soberanos ativos, que estabelecem obrigações constitucionais e processuais fundamentais no direito trabalhista brasileiro. A decisão judicial em questão **não cumpriu** os seguintes deveres:  \n- **Obrigação de expor as consequências práticas da decisão** (sovereign(obligation_to_state_practical_consequences_of_decision)): O juiz não explicou claramente como a aplicação da tese do recurso afeta os direitos das partes envolvidas.  \n- **Proibição de citar precedentes genéricos** (sovereign(prohibition_of_generic_precedent_citation)): A aplicação da tese de outro recurso sem análise específica do caso (sem \"contraditório\") viola o princípio da **necessidade de fundamentação concreta**.  \n- **Obrigação de abordar todos os argumentos jurídicos** (sovereign(obligation_to_address_all_legal_arguments)): O juiz omitiu-se de analisar o ponto específico de contradição apontado pela parte embargante.  \n- **Obrigação de fundamentar a decisão no *ratio decidendi* identificado** (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)): A decisão não se baseou no raciocínio jurídico específico que justificaria a aplicação da tese.  \n- **Obrigação constitucional de expor razões para as decisões** (sovereign(constitutional_obligation_to_state_reasons_for_decisions)): A ausência de fundamentação clara viola o princípio da **transparência judicial**.  \n- **Direito de acesso à justiça e revisão judicial** (sovereign(right_of_access_to_justice_and_judicial_review)): A omissão do juiz prejudica o direito da parte embargante de obter uma decisão fundamentada e revisável.  \n\nA combinação desses fatores leva à conclusão de que houve **violação** das normas processuais e constitucionais, conforme determinado pelo Q-FENG.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n**a) sovereign(obligation_to_state_practical_consequences_of_decision)**  \nO juiz deve explicar **como a decisão afeta os direitos das partes** (ex.: se uma empresa deve pagar uma indenização, quais são as consequências práticas para o trabalhador e a empresa).  \n\n**b) sovereign(prohibition_of_generic_precedent_citation)**  \nO juiz **não pode citar precedentes genéricos** (ex.: \"a jurisprudência diz que...\") sem aplicá-los ao caso concreto. A aplicação de uma tese de outro processo sem análise específica do caso viola esse princípio.  \n\n**c) sovereign(obligation_to_address_all_legal_arguments)**  \nO juiz deve **analisar todos os argumentos jurídicos** apresentados pelas partes, mesmo os que são contrários à sua posição.  \n\n**d) sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**  \nA decisão deve ser fundamentada no **raciocínio jurídico específico** que a sustenta (ex.: \"a cláusula de não concorrência é inválida porque viola o art. 12 da CLT\").  \n\n**e) sovereign(constitutional_obligation_to_state_reasons_for_decisions)**  \nO juiz deve **explicar claramente as razões** para sua decisão, garantindo transparência e permitindo revisão judicial.  \n\n**f) sovereign(right_of_access_to_justice_and_judicial_review)**  \nO trabalhador tem **direito a uma decisão fundamentada** e revisável, garantindo que a justiça não seja aplicada de forma arbitrária.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO juiz **não explicou direito** por que tomou a decisão. Ele **ignorou um ponto importante** que a parte embargante levantou (ex.: \"você usou uma regra de outro caso para prejudicar minha posição, mas não me deu chance de contestar isso\"). Isso é **ilegal**, porque:  \n- O juiz **deveria dizer claramente** como a decisão afeta as pessoas envolvidas (ex.: \"você ganha R$ 10.000 de indenização porque...\").  \n- **Não pode usar uma regra genérica** (ex.: \"a lei diz que...\") sem aplicá-la ao caso específico.  \n- **Deveria responder a todas as perguntas** que a parte embargante fez.  \n- **Precisa dizer por que tomou a decisão**, para que qualquer um possa revisar se ela está certa.  \n\nEssa omissão **viola direitos básicos**, como o direito de ser ouvido e de ter uma decisão justa e compreensível.",
+  "tokens_in": 511,
+  "tokens_out": 1608,
+  "latency_ms": 50452,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "deb00558ae631d345721b818ee426bf6f26a61671fa184aeb21c6f76a67384b3",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-007",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T11:41:16Z",
+  "prompt_sha": "a6c926f14b8205272b7c99fb6fca070bf2bd98d10c2800c8da39040db5514492",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, um empregado acumulou 400 horas em banco de horas conforme previsto na Convenção Coletiva de Trabalho (CCT) válida, com prazo de compensação de 12 meses. No entanto, a empresa não cumpriu o compromisso de disponibilizar folgas compensatórias ao longo do período, justificando-se por necessidade operacional permanente e, ao final do prazo, não pagou nem compensou as horas acumuladas.\n\nOs dispositivos normativos aplicáveis neste caso incluem:\n\n- **Artigo 59 da CLT (Consolidação das Leis do Trabalho):** Este artigo trata de banco de horas, estabelecendo que a compensação deve ocorrer dentro do prazo previsto na CCT ou acordo coletivo. Se não houver compensação no prazo acordado, o saldo deve ser pago como hora-extra.\n\n- **Súmula 331 do TST (Tribunal Superior do Trabalho):** Esta súmula estabelece que a compensação de horas extras por meio de banco de horas só é válida se houver previsão em convenção ou acordo coletivo e desde que o saldo seja zerado no prazo acordado. Caso contrário, as horas devem ser pagas como hora-extra.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que a empresa deve pagar ao empregado o valor correspondente às 400 horas acumuladas como hora-extra. Isso se dá porque não houve compensação das horas no prazo estabelecido pela CCT, e a própria CCT não previa mecanismo de pagamento em caso de não-compensação.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Artigo 59 da CLT:** Este dispositivo permite o banco de horas mediante previsão em convenção ou acordo coletivo, mas estabelece que a compensação deve ocorrer no prazo acordado. Se não houver compensação, as horas devem ser pagas como hora-extra.\n\n- **Súmula 331 do TST:** Confirma que o banco de horas só é válido se previsto em convenção ou acordo coletivo e desde que o saldo seja zerado no prazo acordado. Caso contrário, as horas extras devem ser pagas como tal.\n\nDessa forma, a empresa está obrigada a pagar as horas não compensadas como hora-extra, conforme determina a legislação trabalhista brasileira aplicável ao caso.",
+  "tokens_in": 283,
+  "tokens_out": 574,
+  "latency_ms": 32813,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

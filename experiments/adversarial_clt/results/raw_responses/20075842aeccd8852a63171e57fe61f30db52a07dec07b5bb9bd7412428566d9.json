@@ -1,0 +1,19 @@
+{
+  "sha256": "20075842aeccd8852a63171e57fe61f30db52a07dec07b5bb9bd7412428566d9",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-006",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T11:39:13Z",
+  "prompt_sha": "52dd564a70359960dbb886b7a9e848f56a10af664fc6884feb3e2be6931f11b7",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a empresa de limpeza urbana adotou um banco de horas por meio de um regulamento interno aprovado em assembleia dos empregados, sem a presença do sindicato. A validade dessa prática é questionada pelos empregados devido à ausência da representação sindical.\n\nOs dispositivos normativos aplicáveis são:\n\n- **Artigo 59, §2º da CLT:** Este dispositivo estabelece que as convenções e acordos coletivos de trabalho (ACTs) podem disciplinar a compensação de horas extras mediante banco de horas. No entanto, o artigo exige que tais instrumentos sejam celebrados entre sindicatos ou associações representativas dos trabalhadores e empregadores.\n\n- **Súmula 331 do TST:** Esta súmula estabelece que a compensação de horas extras mediante banco de horas somente pode ser instituída por convenção ou acordo coletivo, o que implica necessariamente a participação dos sindicatos representativos.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é considerar inválida a adoção do banco de horas nesse caso específico. Isso porque a ausência da representação sindical na assembleia impede que o regulamento interno seja equiparado a uma convenção ou acordo coletivo, conforme exigido pela legislação trabalhista e jurisprudência consolidada.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Artigo 59, §2º da CLT:** Este dispositivo exige que as alterações relativas ao banco de horas sejam feitas por meio de convenções ou acordos coletivos, implicando a necessária participação dos sindicatos.\n\n- **Súmula 331 do TST:** Reafirma que o instituto do banco de horas só pode ser implementado através de convenção ou acordo coletivo, reforçando a exigência da presença e intervenção sindical no processo.\n\nPortanto, sem a participação dos sindicatos representativos, a aprovação em assembleia não atende aos requisitos legais para instituição do banco de horas.",
+  "tokens_in": 300,
+  "tokens_out": 498,
+  "latency_ms": 31703,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

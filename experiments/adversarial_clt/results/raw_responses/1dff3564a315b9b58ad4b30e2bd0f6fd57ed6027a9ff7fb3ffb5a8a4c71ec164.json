@@ -1,0 +1,19 @@
+{
+  "sha256": "1dff3564a315b9b58ad4b30e2bd0f6fd57ed6027a9ff7fb3ffb5a8a4c71ec164",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-006",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T10:24:08Z",
+  "prompt_sha": "caed60f8d7236d27119212e19182ccd57f46b0e0f27797e3747f1a33d35138bd",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO contexto normativo menciona dois dispositivos jurídicos relevantes:  \n- **Tema 1046/STF**: Estabelece que a validade de **Convenções Coletivas de Trabalho (CCT)** no setor bancário depende da existência de negociação coletiva, respeitando os limites da autonomia negocial.  \n- **TST-Ag-RR-868-65.2021**: Esclarece que a **CCT bancária** é pressuposto necessário para a validade de dispositivos como o **banco de horas**, já que a autonomia negocial se limita ao âmbito da negociação coletiva previamente formalizada.  \n\nO acórdão analisado **inverte a ratio decidendi** dos precedentes, ao aplicar a tese de validade de CCT bancária para justificar a existência de banco de horas **sem CCT**, o que contraria o pressuposto essencial da existência de negociação coletiva previamente formalizada.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**A decisão deve ser: anular o acórdão e remeter o caso para reavaliação, com base na correta aplicação do Tema 1046/STF e do TST-Ag-RR-868-65.2021.**  \n\n**Justificativa:**  \nO Tribunal **não reconheceu o pressuposto essencial** de existência de CCT para a validade do banco de horas, invertendo a **ratio decidendi** dos precedentes. A autonomia negocial, como interpretada pelos dispositivos mencionados, **não autoriza a criação de banco de horas sem a existência prévia de CCT**, já que a negociação coletiva é condição sine qua non para a validade de tais dispositivos.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Tema 1046/STF**: Estabelece que a validade de CCT bancária depende da negociação coletiva, reforçando que a autonomia negocial **não se estende a dispositivos como banco de horas sem a formalização de CCT**.  \n- **TST-Ag-RR-868-65.2021**: Confirma que a **CCT bancária é pressuposto necessário** para a validade de dispositivos como o banco de horas, já que a autonomia negocial se limita ao âmbito da negociação coletiva previamente formalizada.  \n\n**Limitação do contexto normativo:**  \nO contexto não fornece **artigos específicos de leis ou súmulas** além dos precedentes citados (Tema 1046/STF e TST-Ag-RR-868-65.2021). Portanto, a fundamentação se baseia exclusivamente na interpretação dos dispositivos mencionados, sem extrapolação de normas não descritas no contexto.",
+  "tokens_in": 313,
+  "tokens_out": 1176,
+  "latency_ms": 73172,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "b334e10fc9be10c9a5d786f8bc5f55a01fa9c45ec23279466106cd6fb54e43d0",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-013",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T08:18:58Z",
+  "prompt_sha": "f5497ee6a7892e951be5a3f450a9283428336ff41f3cb0f338c8cc849b031335",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \n- **Constituição Federal/88, Art. 7°, XIII e XIV**:  \n  - **Art. 7°, XIII**: Garante o direito à jornada de trabalho normal de oito horas diárias e quarenta e quatro semanais, com limites estabelecidos por lei.  \n  - **Art. 7°, XIV**: Estabelece a proibição de jornada superior a oito horas diárias e quarenta e quatro semanais, salvo em casos previstos em lei (como em situações de emergência ou atividades que exijam continuidade de serviço).  \n  - Esses dispositivos são fundamentais para a análise da validade da **banco de horas** em CCT, pois definem os limites legais da jornada de trabalho.  \n\n- **Tema 1046/STF**:  \n  - Relaciona-se à **validade do banco de horas** em CCT do setor bancário, reconhecendo sua legalidade desde que observados os limites constitucionais (Art. 7°, XIII e XIV).  \n  - No entanto, a **ratio decidendi** do julgado (TST-Ag-RR-868-65.2021.5.13.0030) **não é aplicável ao setor aéreo**, conforme destacado no acórdão analisado.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**Invalidar a aplicação do banco de horas no CCT do setor aéreo**, com base na distinção fática entre os setores (bancário vs. aéreo) e na interpretação constitucional do Art. 7°, XIII e XIV.  \n\n**Motivo**:  \n- O **Tema 1046/STF** foi aplicado ao setor bancário, mas **não se aplica ao setor aéreo** devido a diferenças fáticas (ex.: exigência de continuidade de serviço, riscos à segurança aérea, e peculiaridades da atividade).  \n- A **Constituição Federal/88, Art. 7°, XIV** proíbe jornadas superiores a oito horas diárias, salvo em casos excepcionais (ex.: atividades que exijam continuidade de serviço). No setor aéreo, a **continuidade de serviço** pode ser considerada excepcional, mas **não justifica a validade do banco de horas** se não houver previsão legal explícita.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Constituição Federal/88, Art. 7°, XIII e XIV**:  \n  - **Art. 7°, XIII**: Limita a jornada de trabalho a oito horas diárias e quarenta e quatro semanais.  \n  - **Art. 7°, XIV**: Proíbe jornadas superiores a oito horas diárias, salvo em casos previstos em lei.  \n  - Esses dispositivos são **fundamentais para a análise da legalidade do banco de horas**, independentemente do setor.  \n\n- **Tema 1046/STF**:  \n  - Reconhece a validade do banco de horas em CCT do setor bancário, desde que observados os limites constitucionais.  \n  - **Não é aplicável ao setor aéreo**, conforme destacado no acórdão do TST (TST-Ag-RR-868-65.2021.5.13.0030), por **diferenças fáticas** (ex.: riscos à segurança aérea, exigência de continuidade de serviço).  \n\n- **Limitação do contexto normativo**:  \n  - O contexto **não menciona normas específicas** (como leis setoriais ou súmulas do TST) que regulamentem o banco de horas no setor aéreo.  \n  - A análise se baseia **exclusivamente** na Constituição Federal/88 e no **Tema 1046/STF**, com a distinção fática entre os setores.  \n\n--- \n\n**Conclusão**: A decisão deve seguir o **Art. 7°, XIV da CF/88**, invalidando o banco de horas no setor aéreo, pois a **ratio decidendi do Tema 1046/STF** não se aplica ao caso concreto.",
+  "tokens_in": 371,
+  "tokens_out": 1615,
+  "latency_ms": 101436,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

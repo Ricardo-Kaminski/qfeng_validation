@@ -1,0 +1,19 @@
+{
+  "sha256": "f9e56fb5f875c2586c3d3b0d0e841e7ba985506f99d18e03b9dd302613e4f5ca",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-007",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T20:09:37Z",
+  "prompt_sha": "35be560b3d56480b261099a368fe4a0b566785771735d919158eb0a8a25e76e3",
+  "response_text": "**1. ANÁLISE**\n\nOs dispositivos do contexto normativo aplicáveis ao caso são:\n\n*   Artigo 489, §1°, V do Código de Processo Civil (CPC): que trata sobre a violação da tese ou doutrina jurídica.\n*   Regulamento do Tribunal Superior do Trabalho (TST) não foi citado no contexto.\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada é que o recurso de revista seja provido, pois a parte prejudicada tem razão ao argumentar que o precedente regional não possui eficácia nacional e não pode ser aplicado como se fosse precedente vinculante.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação normativa é baseada no Artigo 489, §1°, V do Código de Processo Civil (CPC), que estabelece a violação da tese ou doutrina jurídica como um dos motivos para anulação de decisão.\n\nA eficácia nacional dos precedentes vinculantes é garantida pelo Artigo 102-A da Constituição Federal, que estabelece a competência do Supremo Tribunal Federal (STF) para julgar as questões constitucionais e o TST não tem competência para julgar questões constitucionais.\n\nPortanto, a decisão do TST ao aplicar tese fixada em IRDR regional como se fosse precedente vinculante nacional viola o Artigo 489, §1°, V do Código de Processo Civil (CPC) e a Constituição Federal.",
+  "tokens_in": 311,
+  "tokens_out": 355,
+  "latency_ms": 6075,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,27 @@
+{
+  "sha256": "5a4ec1c5e6f781e516954e22d62705029d85bb5ca3a86604a27aba4d602c4c76",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T00:52:46Z",
+  "prompt_sha": "9ddadcfbd5dbebfc988f0d0afbf51a1545713cd3a59a541f7d3ad04a951daf64",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, apresento a análise, decisão recomendada e identificação de cumprimento/violação dos predicados.\n\n**1. ANÁLISE:**\n\n*   **hour_bank_with_cct_max_1_year (Banco de Horas com CCT com prazo máximo de 1 ano):** Este predicado estabelece que a utilização do banco de horas deve estar prevista em acordo ou convenção coletiva e que o prazo máximo para a compensação é de 1 ano. No caso, a trabalhadora firmou um CCT que estabeleceu um banco de horas semestral, o que está em conformidade com este predicado. A questão central é se a licença-maternidade interrompe ou não a contagem desse prazo.\n*   **recognition_of_collective_bargaining (Reconhecimento do Acordo/Convenção Coletiva):** Este predicado reforça a obrigatoriedade de se dar validade e cumprimento aos acordos e convenções coletivas de trabalho. No caso, a CCT estabeleceu o banco de horas semestral, e a empresa agiu em consonância com o que foi acordado ao suspender o cômputo e reativar ao retorno da licença. A validade do acordo é fundamental para a relação de trabalho.\n\n**Interpretação e Aplicação ao Caso:**\n\nA licença-maternidade é um período de proteção especial à mulher trabalhadora, garantido pela Constituição Federal e pela CLT. Durante a licença, a trabalhadora está afastada do trabalho, e a lei presume que ela não pode prestar seus serviços. A jurisprudência do TST, embora não trate especificamente da contagem de prazo de banco de horas durante a licença-maternidade, entende que eventos que impedem o cumprimento de obrigações contratuais, como a licença, podem levar à suspensão ou prorrogação de prazos.\n\nNo caso em tela, a empresa suspendeu o cômputo do banco de horas durante a licença-maternidade, o que demonstra uma interpretação razoável e em consonância com o espírito da lei, que busca proteger a trabalhadora em período de fragilidade. A reativação do banco de horas ao retorno da licença também é coerente com essa lógica. A compensação total ocorreu em 8 meses, dentro do prazo semestral estabelecido na CCT, o que demonstra que a suspensão do cômputo durante a licença não extrapolou o prazo acordado.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que a decisão seja favorável à empresa. A conduta da empresa de suspender o cômputo do banco de horas durante a licença-maternidade e reativá-lo ao retorno da trabalhadora é razoável e está em conformidade com o espírito da lei e com o acordo coletivo. A compensação total em 8 meses, dentro do prazo semestral estabelecido na CCT, demonstra que a suspensão do cômputo não prejudicou a trabalhadora. A trabalhadora não tem direito a uma prorrogação do prazo para compensar o banco de horas, uma vez que a licença-maternidade é um evento previsível e a empresa agiu de forma a garantir a proteção da trabalhadora sem violar o acordo coletivo.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **hour_bank_with_cct_max_1_year:** **Conformidade**. O prazo máximo de 1 ano não foi violado, pois a compensação ocorreu em 8 meses, dentro do prazo semestral estabelecido na CCT.\n*   **recognition_of_collective_bargaining:** **Conformidade**. A empresa reconheceu e cumpriu o acordo coletivo ao suspender o cômputo do banco de horas durante a licença-maternidade e reativá-lo ao retorno da trabalhadora.\n\n**Observação:** Esta análise é baseada exclusivamente nos predicados normativos fornecidos e no cenário apresentado. Outros fatores, como a interpretação específica da CCT e a jurisprudência aplicável, poderiam influenciar a decisão final.\n",
+  "tokens_in": 339,
+  "tokens_out": 938,
+  "latency_ms": 25968,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "4dac4d25310440dc6b00060d7110be2015018cd68d384bf60d825a0c6110b627",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-009",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T13:23:30Z",
+  "prompt_sha": "b52c58418328df387e8b7c94bfb4ec79b990e353534114db4eac578f0ac5539c",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas em Empresa de Construção Civil\n\nCom base no cenário apresentado e na premissa de que o contexto normativo fornecido é a *única* base para a análise, a situação envolvendo a aplicação do banco de horas aos empregados administrativos da construtora exige uma avaliação cuidadosa.\n\n**1. ANÁLISE: Dispositivos do Contexto Normativo Aplicáveis**\n\nO único dispositivo normativo explicitamente mencionado no contexto é a **CCT (Convenção Coletiva de Trabalho) firmada entre a Construtora e o sindicato da construção civil, que prevê o banco de horas anual.**  Não há outros dispositivos normativos mencionados, como a Consolidação das Leis do Trabalho (CLT) ou jurisprudência.\n\nA questão central reside na validade da aplicação dessa CCT aos empregados administrativos, considerando que ela foi firmada sem a participação do sindicato representativo dessa categoria diferenciada.\n\n**2. DECISÃO RECOMENDADA**\n\nRecomenda-se que a aplicação do banco de horas aos empregados administrativos seja considerada **inválida**.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação para essa recomendação é construída a partir da análise do que *não* está presente no contexto, e da implicação disso.  Embora a CCT seja um instrumento normativo importante, sua validade e aplicabilidade dependem da representatividade das partes envolvidas.\n\n*   **Ausência de Representatividade:** O cenário informa que a CCT foi firmada sem a participação do sindicato que representa a categoria dos empregados administrativos.  A falta de participação desse sindicato levanta sérias dúvidas sobre a legitimidade da CCT para abranger essa categoria.  Embora não haja dispositivo específico no contexto que trate da necessidade de representação de todas as categorias, a própria existência da categoria diferenciada (empregados administrativos) e a informação de que não foram representados indicam uma potencial falha na representatividade da CCT.\n\n*   **Limitação do Contexto:** É crucial ressaltar que a análise é *estritamente* limitada ao contexto fornecido.  Em uma situação real, seria necessário analisar a legislação trabalhista (CLT, Constituição Federal, etc.) e a jurisprudência para determinar se a CCT, mesmo sem a participação do sindicato da categoria administrativa, poderia ser aplicada a essa categoria.  No entanto, como a instrução é para usar *exclusivamente* o contexto, essa análise externa é impossível.\n\n**Observação Importante:** A ausência de dispositivos específicos no contexto que tratem da validade de CCTs firmadas sem a participação de todas as categorias envolvidas é uma **limitação significativa**. Em uma análise completa, seria fundamental consultar a legislação e a jurisprudência para complementar a análise. No entanto, seguindo rigorosamente a instrução de usar apenas o contexto fornecido, a decisão recomendada é a invalidade da aplicação do banco de horas aos empregados administrativos, com base na ausência de representatividade.",
+  "tokens_in": 265,
+  "tokens_out": 652,
+  "latency_ms": 18562,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

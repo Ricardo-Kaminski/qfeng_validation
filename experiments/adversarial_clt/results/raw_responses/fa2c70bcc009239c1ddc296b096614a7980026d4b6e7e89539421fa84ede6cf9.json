@@ -1,0 +1,26 @@
+{
+  "sha256": "fa2c70bcc009239c1ddc296b096614a7980026d4b6e7e89539421fa84ede6cf9",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-006",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T23:41:23Z",
+  "prompt_sha": "853bce6697211f077507fea0253d75450971c248a5b84a4ee816407d1bbb991a",
+  "response_text": "1. **ANÁLISE:**\n\n   - **Obligation to ground decision in identified ratio decidendi:** Este predicado normativo exige que qualquer decisão judicial, especialmente uma interlocutória, seja fundamentada de maneira clara e objetiva, identificando o motivo pelo qual a decisão foi tomada. No cenário apresentado, a juíza não explicou quais documentos considerou suficientes nem qual fato probatório seria comprovado por eles. Isso indica uma deficiência na motivação da decisão, pois a parte interessada não consegue entender o raciocínio jurídico que levou à conclusão de que a prova pericial era desnecessária.\n\n   - **Due process of law:** O princípio do devido processo legal garante que todas as partes em um litígio tenham a oportunidade de serem ouvidas e de apresentar suas provas. Ao indeferir uma prova pericial sem explicar adequadamente os motivos, pode-se argumentar que o direito da parte requerente de ter acesso à justiça foi prejudicado, pois ela não teve a chance de contestar efetivamente a decisão com base em fundamentos claros e identificáveis.\n\n2. **DECISÃO RECOMENDADA:**\n\n   A recomendação seria anular ou reformar a decisão interlocutória por deficiência de motivação, conforme solicitado pela parte requerente. Isso porque a decisão não cumpriu com o requisito de fundamentação adequada, violando tanto o princípio da identificação do ratio decidendi quanto o direito ao devido processo legal.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violados:**\n     - *Obligation to ground decision in identified ratio decidendi:* A decisão não foi adequadamente fundamentada, pois a juíza não identificou quais documentos seriam suficientes ou qual fato probatório seria comprovado.\n     - *Due process of law:* Ao não fornecer uma motivação clara e objetiva para o indeferimento da prova pericial, a parte requerente pode ter sido prejudicada em seu direito de apresentar provas e contestar a decisão.\n\n   - **Cumpridos:**\n     - Não há predicados listados que tenham sido cumpridos no cenário descrito, dado o foco na deficiência de motivação da decisão.",
+  "tokens_in": 351,
+  "tokens_out": 545,
+  "latency_ms": 15703,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

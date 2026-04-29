@@ -1,0 +1,26 @@
+{
+  "sha256": "729a8761f77fb1090f9db5f9865486914c1591ad2acb77b5f771f32a5f47b9c2",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-006",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:53:48Z",
+  "prompt_sha": "324f58b06ace5123feff726f55259a913c5f926bf4c3eff790b1b83195a3e292",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nA decisão da juíza do trabalho viola normas fundamentais do processo judicial, conforme os predicados soberanos ativos do Q-FENG. O **predicado *obrigação de explicitar as consequências práticas da decisão*** (sovereign(obligation_to_state_practical_consequences_of_decision)) exige que a decisão interlocutória indique claramente quais documentos são considerados suficientes e como eles demonstram os fatos probatórios. A ausência dessa explicação viola o **predicado *obrigação de fundamentar a decisão em ratio decidendi identificada*** (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)), que exige que o juiz vincule sua decisão a razões específicas e identificáveis.  \n\nAlém disso, o **predicado *proibição de citação de precedentes genéricos*** (sovereign(prohibition_of_generic_precedent_citation)) reforça que a decisão não pode se basear em fundamentos vagos ou genéricos, como \"documentos já acostados\", sem detalhar quais são esses documentos e como eles se relacionam aos fatos. A **obrigação de abordar todos os argumentos jurídicos** (sovereign(obligation_to_address_all_legal_arguments)) também foi violada, pois a parte não teve sua solicitação de prova pericial respondida de forma específica.  \n\nPor fim, o **direito de acesso à justiça e revisão judicial** (sovereign(right_of_access_to_justice_and_judicial_review)) é comprometido, pois a decisão não permite que a parte compreenda os fundamentos da negativa da prova pericial, limitando sua capacidade de contestar a decisão.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O juiz deve explicar **quais efeitos práticos** a decisão terá no processo. No caso, não foi esclarecido quais documentos são suficientes para substituir a prova pericial.  \n- **sovereign(prohibition_of_generic_precedent_citation)**: Proíbe o uso de fundamentos genéricos (como \"documentos já acostados\") sem especificar quais documentos são relevantes e como eles provam os fatos.  \n- **sovereign(obligation_to_address_all_legal_arguments)**: O juiz deve responder **todos os argumentos jurídicos** apresentados pelas partes. A negativa da prova pericial não foi fundamentada com argumentos concretos.  \n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão deve ser baseada em **razões específicas e identificáveis** (ratio decidendi). A juíza não indicou qual é a razão jurídica que justifica a negativa da prova pericial.  \n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: O direito constitucional exige que todas as decisões sejam **motivadas com clareza**, permitindo que as partes compreendam e contestem os fundamentos.  \n- **sovereign(right_of_access_to_justice_and_judicial_review)**: Garante que a parte tenha **acesso à justiça** e possa revisar a decisão com base em fundamentos claros. A ausência de motivação viola esse direito.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA juíza não explicou **por que os documentos já no processo são suficientes** para provar o que a parte queria com a prova pericial. Isso é um problema, pois a lei exige que **todo juiz explique claramente suas decisões**, para que as partes entendam e possam contestar se necessário.  \n\nA decisão da juíza está **sem fundamentos específicos**, o que pode prejudicar a justiça do processo. Por exemplo, se os documentos não forem suficientes para provar algo importante, a parte que pediu a prova pericial pode ter direito a ter sua decisão anulada, pois a juíza não explicou por que não aceitou a prova.  \n\nEm resumo: **a juíza não explicou o que ela fez e por que fez**, o que é obrigatório pela lei, e isso pode ser um motivo para anular a decisão.",
+  "tokens_in": 515,
+  "tokens_out": 1392,
+  "latency_ms": 43577,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

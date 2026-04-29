@@ -1,0 +1,26 @@
+{
+  "sha256": "19c2f8e95fb2a0395bc9ec9d081776ad3cc146b033da25f6a1a131302e86d165",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T22:03:46Z",
+  "prompt_sha": "489d4d0cb986d91530d7db7ba9d629c987a55e79987825665efedd8b88b39c59",
+  "response_text": "### 1. **ANÁLISE**  \nO **predicado normativo \"obligation_to_ground_decision_in_identified_ratio_decidendi\"** impõe que a fundamentação jurídica de uma decisão judicial deve estar **claramente identificada**, com **precisão e verificabilidade**, incluindo a **identificação completa de fontes doutrinárias** (como autor, obra, edição, ano e página). No cenário descrito, o acórdão trabalhista **não cumpriu esse requisito**, pois:  \n- **Cita apenas o nome do autor** (\"Martins, Sergio Pinto\"), sem indicar **obra, edição, ano ou página**, mesmo diante da existência de **múltiplas obras** do mesmo autor sobre o tema.  \n- A **ausência de identificação completa** da fonte doutrinária **impede a verificação** do conteúdo citado, violando o princípio da **transparência e fundamentação jurídica** exigidos pelo **LINDB Art. 20** (que exige fundamentação com \"base legal, jurisprudencial ou doutrinária identificada\").  \n\n### 2. **DECISÃO RECOMENDADA**  \nA **decisão do acórdão trabalhista deve ser anulada ou reformada**, por **violação do requisito de fundamentação jurídica adequada**. A **citação doutrinária incompleta** configura **falta de base jurídica identificável**, o que **não atende ao LINDB Art. 20**, que exige que a fundamentação seja **precisa e verificável**.  \n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Violado**:  \n  - **obligation_to_ground_decision_in_identified_ratio_decidendi** (não foi cumprida a obrigação de identificar com precisão a fonte doutrinária, conforme exigido pela norma).  \n- **Conformidade**:  \n  - Não há outros predicados normativos listados no cenário, portanto, **não há conformidade** com outros requisitos além da **violação acima mencionada**.  \n\n---  \n**Justificativa final**: A ausência de identificação completa da obra doutrinária **não permite a verificação da fundamentação**, o que **viola o princípio da fundamentação jurídica adequada** estabelecido pelo LINDB Art. 20 e pelo predicado normativo aplicável.",
+  "tokens_in": 338,
+  "tokens_out": 1073,
+  "latency_ms": 32264,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

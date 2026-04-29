@@ -1,0 +1,19 @@
+{
+  "sha256": "129052a86973d81d18b7a30e2555db16a669875fc4379bef92266e967fc87241",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-001",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T10:03:11Z",
+  "prompt_sha": "72790d8991be5ef4727404f6c998a5accce45b39b15ebe25cef7018b0f9d220f",
+  "response_text": "### 1. **ANÁLISE**  \nOs dispositivos normativos aplicáveis ao caso são:  \n- **Tema 1046/STF** (ARE 1.121.633), que fixa a tese de que **\"são constitucionais os acordos e convenções coletivas de trabalho (CCTs) que, ao estipular exclusivamente vantagens ou supressões de direitos, tenham por premissa a compensação estabelecida pelo princípio da adequação setorial negociada\"**.  \n- **Princípio da adequação setorial negociada**, que permite a negociação coletiva de direitos e condições de trabalho, desde que haja **equilíbrio e compensação** entre as partes envolvidas.  \n\nNo caso em questão, a **CCT bancária** foi analisada pelo TST e considerada compatível com o **Tema 1046/STF**, pois:  \n- Estabelece **supressões de direitos** (como o banco de horas) com base em **compensações** (como flexibilidade de horário ou benefícios setoriais).  \n- Respeita o **princípio da adequação setorial negociada**, reconhecendo a necessidade de adaptação das normas trabalhistas às particularidades do setor bancário.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**Validar o banco de horas** estabelecido na CCT bancária, **porque a norma é compatível com o Tema 1046/STF**.  \n\n**Justificativa**:  \nA CCT bancária em questão preenche os requisitos do **Tema 1046/STF**, que permite a negociação coletiva de direitos e condições de trabalho desde que haja **equilíbrio e compensação**. O banco de horas, ao ser pactuado com outras vantagens ou flexibilidades setoriais, não viola a Constituição Federal, nem os direitos fundamentais do trabalhador, desde que a compensação seja **explícita e equilibrada**.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Tema 1046/STF** (ARE 1.121.633):  \n  > *\"São constitucionais os acordos e CCTs que, ao estipular exclusivamente vantagens ou supressões de direitos, tenham por premissa a compensação estabelecida pelo princípio da adequação setorial negociada.\"*  \n\n- **Princípio da adequação setorial negociada** (implícito no Tema 1046/STF):  \n  Permite a negociação coletiva de direitos e condições de trabalho, desde que haja **equilíbrio e compensação** entre as partes, como previsto no **Tema 1046/STF**.  \n\n**Limitação**:  \nO contexto normativo **não menciona artigos específicos da CLT ou outras leis** que regem o banco de horas, mas **aplica-se exclusivamente ao Tema 1046/STF**, que é a base da decisão do TST. Não há referência a outras normas ou súmulas do TST ou do STF no contexto fornecido.",
+  "tokens_in": 339,
+  "tokens_out": 1099,
+  "latency_ms": 68312,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

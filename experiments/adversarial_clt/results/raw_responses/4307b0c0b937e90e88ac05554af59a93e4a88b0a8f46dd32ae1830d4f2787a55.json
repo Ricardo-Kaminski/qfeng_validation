@@ -1,0 +1,19 @@
+{
+  "sha256": "4307b0c0b937e90e88ac05554af59a93e4a88b0a8f46dd32ae1830d4f2787a55",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-010",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T07:12:14Z",
+  "prompt_sha": "4d48a62ffa2628de18a5603b3fc64f01cd710cb9c400026b5027fea3559fd413",
+  "response_text": "**ANÁLISE**\n\n1.  **Identificação dos dispositivos legais aplicáveis:** O caso em questão envolve a redução de intervalo intrajornada, o que é regulado pela CLT (Consolidação das Leis do Trabalho). A análise deve considerar os dispositivos legais específicos relacionados à matéria.\n2.  **Interpretação no caso concreto:**\n    *   **CLT Art. 71:** Regula a duração do trabalho e prevê que o intervalo intrajornada é de 15 minutos, podendo ser aumentado ou diminuído por acordo individual ou coletivo.\n    *   **Súmula TST 437:** Estabelece que a redução do intervalo intrajornada não pode exceder à metade da duração prevista na CLT (7,5 minutos), salvo em caso de acordo coletivo ou convenção coletiva.\n    *   **Tema 981/STF:** Trata sobre a validade de CCT que reduz o intervalo intrajornada para 30 minutos. No entanto, não há menção específica de que essa temática seja aplicável ao caso em questão.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é:\n\n*   **Reconhecimento do direito ao pagamento integral do período suprimido como hora extra**, pois a redução do intervalo intrajornada não foi autorizada por acordo coletivo ou convenção coletiva.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n1.  **CLT Art. 71:** O artigo estabelece que o intervalo intrajornada é de 15 minutos, podendo ser aumentado ou diminuído por acordo individual ou coletivo.\n2.  **Súmula TST 437:** A súmula prevê que a redução do intervalo intrajornada não pode exceder à metade da duração prevista na CLT (7,5 minutos), salvo em caso de acordo coletivo ou convenção coletiva.\n3.  **TST e Doutrina Trabalhista:** A jurisprudência do TST e a doutrina trabalhista estabelecem que a redução do intervalo intrajornada sem autorização por acordo coletivo ou convenção coletiva é ilegal, resultando no pagamento integral do período suprimido como hora extra.\n\n**CONCLUSÃO**\n\nA decisão recomendada é baseada na interpretação dos dispositivos legais aplicáveis e na jurisprudência do TST. A redução do intervalo intrajornada sem autorização por acordo coletivo ou convenção coletiva é ilegal, resultando no pagamento integral do período suprimido como hora extra.",
+  "tokens_in": 335,
+  "tokens_out": 621,
+  "latency_ms": 20438,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

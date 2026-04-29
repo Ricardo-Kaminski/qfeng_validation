@@ -1,0 +1,27 @@
+{
+  "sha256": "e08c4cf81e0cb6be054ab615e53779883e139cd5a1e2dee45235337baf2f0a78",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T22:51:34Z",
+  "prompt_sha": "c7e8449adba3d199c2e40ce6b3b2330c3ed8856c57fb05362f83ba3b237f1489",
+  "response_text": "### 1. **ANÁLISE**  \nO **predicado normativo *maximum_daily_working_hours_8h*** estabelece que a jornada diária de trabalho não pode ultrapassar 8 horas, conforme previsto no **Art. 7°, XIII da CF/88**, salvo exceções expressas em legislação específica (como o modelo de compensação semanal de 5×10, previsto no **Art. 59, § 2º da CLT**).  \n\nNo cenário descrito:  \n- A **CCT** autoriza o uso de **banco de horas anuais**, mas **não menciona explicitamente o modelo de compensação semanal (5×10)**.  \n- A **empresa implementou a jornada de 10h/dia** sem previsão específica na CCT, o que **não atende aos requisitos da CLT** para a aplicação do modelo 5×10.  \n- O **Art. 7°, XIII da CF/88** **não permite a jornada de 10h/dia** **sem autorização expressa em norma coletiva** (CCT ou convenção coletiva), mesmo que a compensação ocorra semanalmente.  \n\nPortanto, a **jornada de 10h/dia** **viola o limite constitucional de 8h/dia**, pois **não há base normativa coletiva** (CCT) que autorize a exceção prevista no **Art. 59, § 2º da CLT**.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **empresa deve rever a jornada de trabalho** e:  \n- **Revertê-la para 8h/dia**, conforme o limite constitucional (Art. 7°, XIII da CF/88), **até que a CCT seja atualizada** para incluir a autorização explícita do modelo 5×10.  \n- **Negociar com os trabalhadores e sindicatos** a inclusão do modelo de compensação semanal (5×10) na CCT, com respeito aos limites legais e à compensação de horas.  \n- **Evitar a aplicação unilateral de jornadas acima de 8h/dia**, pois isso configura **violação direta da CF/88** e pode gerar responsabilidades administrativas e civis.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Violado**:  \n  - **maximum_daily_working_hours_8h** (Art. 7°, XIII da CF/88): A jornada de 10h/dia **viola o limite constitucional de 8h/dia**, pois **não há autorização expressa na CCT** para o modelo de compensação semanal.  \n\n- **Cumprido**:  \n  - **Nenhum outro predicado normativo** está explicitamente mencionado no cenário, mas a **CCT** cumpre o requisito de autorizar o **banco de horas anuais**, mesmo que **não detalhe o modelo de compensação**.  \n\n---\n\n### Observação Final:  \nA **exceção de 10h/dia (modelo 5×10)** **só é válida se prevista expressamente na CCT** (Art. 59, § 2º da CLT). A ausência dessa previsão **invalida a aplicação da jornada de 10h/dia**, mesmo com a existência de um banco de horas anuais.",
+  "tokens_in": 360,
+  "tokens_out": 1357,
+  "latency_ms": 41686,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

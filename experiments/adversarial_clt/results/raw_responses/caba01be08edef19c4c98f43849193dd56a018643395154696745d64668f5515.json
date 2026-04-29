@@ -1,0 +1,29 @@
+{
+  "sha256": "caba01be08edef19c4c98f43849193dd56a018643395154696745d64668f5515",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-001",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T22:20:54Z",
+  "prompt_sha": "1bd0aef03e0b6d03d84ca202cf6b7a00e95994884a42849dc5597c5e0bcb70a2",
+  "response_text": "### 1. **ANÁLISE**  \n- **Predicado `semester_hour_bank_requires_cct_or_act`**:  \n  O banco de horas, ao ultrapassar o limite de 6 meses (como no caso, 9 meses), **requer a celebração de um Acordo Coletivo de Trabalho (ACT) ou Convenção Coletiva de Trabalho (CCT)**, conforme disposto no art. 59 da CLT. A ausência de qualquer instrumento coletivo válido (como o ACT ou CCT) **viola esse predicado**, pois a empresa não obteve autorização coletiva para a implementação do banco de horas.  \n\n- **Predicado `prohibition_on_unilateral_hour_bank`**:  \n  A CLT proíbe a implantação unilateral de banco de horas, independentemente do prazo (mesmo para até 6 meses). A empresa **viola esse predicado** ao utilizar um memorando interno assinado pelos empregados, sem negociação sindical ou celebração de instrumento coletivo. A assinatura individual dos empregados **não substitui a necessidade de autorização coletiva**, conforme jurisprudência do TST (Súmula 353/2017).  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n- **Invalidação do banco de horas**: O banco de horas implantado unilateralmente deve ser considerado **nulo**, pois viola expressamente a CLT e a jurisprudência do TST.  \n- **Obrigação de negociação coletiva**: A empresa deve **negociar com o sindicato da categoria** a celebração de um ACT ou CCT para regular o banco de horas, observando os limites legais (6 meses, conforme art. 59, § 1º, CLT).  \n- **Reembolso de horas acumuladas**: Se o banco de horas for considerado nulo, as horas acumuladas (até 120h) devem ser **convertidas em horas extras**, com pagamento conforme previsto no art. 59, § 2º, CLT (100% do valor da hora normal).  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Violações**:  \n  - `semester_hour_bank_requires_cct_or_act` (não houve celebração de ACT ou CCT para o banco de horas de 9 meses).  \n  - `prohibition_on_unilateral_hour_bank` (implantação unilateral mediante memorando interno, sem negociação coletiva).  \n\n- **Conformidade**:  \n  - Nenhum predicado foi cumprido, pois a empresa **viola diretamente os requisitos legais** para a implementação de banco de horas.  \n\n--- \n\n**Observação**: A jurisprudência do TST reforça que a validade do banco de horas depende **exclusivamente de instrumentos coletivos**, e a assinatura individual dos empregados **não pode ser considerada como consentimento coletivo** (Súmula 353/2017).",
+  "tokens_in": 352,
+  "tokens_out": 1049,
+  "latency_ms": 31905,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

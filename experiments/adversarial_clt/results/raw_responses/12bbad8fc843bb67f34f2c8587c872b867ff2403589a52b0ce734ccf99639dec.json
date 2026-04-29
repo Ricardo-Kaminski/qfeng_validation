@@ -1,0 +1,19 @@
+{
+  "sha256": "12bbad8fc843bb67f34f2c8587c872b867ff2403589a52b0ce734ccf99639dec",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-008",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T02:28:56Z",
+  "prompt_sha": "b2bf5ad536abfb09b7f28030507e1f5d0965dc4b53a43a29e254c01e58ba7038",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis**\n\n- **Convenção Coletiva de Trabalho (CCT):** A CCT possui força normativa e vincula as partes, incluindo a empresa e os trabalhadores. Alterações unilaterais que contrariem o conteúdo da CCT são consideradas nulas ou ineficazes.\n\n- **Artigo 7º, inciso XXVI, da Constituição Federal:** Garante às entidades sindicais a autonomia para celebrar convenções coletivas de trabalho, assegurando-lhes força normativa.\n\n- **Art. 468 da CLT:** Estabelece que as cláusulas das CCTs são obrigatórias tanto para os empregadores quanto para os trabalhadores.\n\n**Interpretação no Caso Concreto**\n\nA empresa alterou unilateralmente a escala de compensação de folgas prevista na CCT, contrariando o acordo coletivo que permitia flexibilidade na escolha da data. Essa mudança unilateral viola o princípio pactuado e estabelecido na CCT, que tem força normativa.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é anular a alteração unilateral feita pela empresa em relação à escala de compensação das horas extras previstas no banco de horas. A empresa deve retornar ao cumprimento da CCT original, permitindo aos trabalhadores a escolha flexível da data para compensação das folgas.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n**Artigos da CLT**\n\n- **Art. 468:** As cláusulas de convenções e acordos coletivos são obrigatórias tanto para os empregadores quanto para os trabalhadores, não podendo ser alteradas unilateralmente.\n\n**Súmulas do TST**\n\n- **Súmula 331 do TST:** \"É nula a cláusula de convenção ou acordo coletivo que contrarie norma de ordem pública.\"\n\n- **Súmula 370 do TST:** \"A alteração unilateral das condições pactuadas em convenção ou acordo coletivo, sem prévia negociação com o sindicato da categoria profissional, é nula.\"\n\n**Precedentes Constitucionais**\n\n- **Art. 7º, XXVI, CF/88:** Assegura a autonomia sindical para celebrar CCTs e assegura-lhes força normativa.\n\nA alteração unilateral feita pela empresa contraria o conteúdo da CCT, que possui força normativa e deve ser respeitada. Portanto, a decisão deve garantir o cumprimento do acordo coletivo original, permitindo aos trabalhadores a escolha flexível para compensar as horas extras conforme previsto na CCT.",
+  "tokens_in": 291,
+  "tokens_out": 624,
+  "latency_ms": 35765,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

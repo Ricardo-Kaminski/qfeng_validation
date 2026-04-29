@@ -1,0 +1,19 @@
+{
+  "sha256": "2ddfbac83a1a16cbefa09b67636ee210976d23a4a7526b0d8f9366dbb7017f97",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T13:26:58Z",
+  "prompt_sha": "7b3cd5c63a7680536f68f1f5211a478265ad46d5b78066f79c2c441ba6cd24f1",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas\n\nCom base no contexto normativo fornecido, apresento a análise, decisão recomendada e fundamentação:\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nO caso em questão envolve a aplicação de um sistema de banco de horas, regulamentado por uma Convenção Coletiva de Trabalho (CCT). Os dispositivos normativos aplicáveis, extraídos do cenário apresentado, são:\n\n*   **CCT:** A CCT é a principal fonte normativa, pois estabelece as regras específicas para o banco de horas na empresa do setor alimentício. Embora o texto da CCT não seja integralmente apresentado, a informação de que ela prevê o banco de horas anual é crucial.\n*   **Prazo de Compensação:** A CCT estabelece um prazo de 12 meses para a compensação das horas acumuladas no banco de horas.\n*   **Entrega de Extratos Mensais:** A CCT exige a entrega de extratos mensais, o que demonstra transparência e controle sobre a acumulação e compensação das horas.\n*   **Limitação da Jornada Diária:** A jornada diária do trabalhador nunca ultrapassou 10 horas, indicando respeito aos limites legais e, possivelmente, às regras da CCT.\n*   **Homologação Sindical:** A homologação da prestação anual de contas do banco de horas pelo sindicato reforça a legalidade e a conformidade do sistema com as normas estabelecidas.\n\n**2. DECISÃO RECOMENDADA**\n\nConsiderando as informações apresentadas, a decisão recomendada é **deferir a compensação integral das horas acumuladas no banco de horas**, sem a necessidade de qualquer acréscimo ou penalidade para a empresa ou para o trabalhador.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA decisão se baseia nos seguintes pontos:\n\n*   **Conformidade com a CCT:** A empresa agiu em conformidade com a CCT, que é a norma que rege a situação. A CCT previu a instituição do banco de horas anual, e a empresa cumpriu as obrigações ali estabelecidas.\n*   **Cumprimento do Prazo:** As horas acumuladas foram integralmente compensadas dentro do prazo de 12 meses estabelecido na CCT.  A não utilização das horas dentro do prazo poderia gerar questionamentos, mas, no caso, a compensação ocorreu tempestivamente.\n*   **Transparência e Controle:** A entrega regular de extratos mensais demonstra a transparência do sistema e permite ao trabalhador acompanhar a acumulação e a compensação das horas.\n*   **Homologação Sindical:** A homologação da prestação anual de contas pelo sindicato é um forte indicativo de que o sistema de banco de horas foi implementado e operado de acordo com as normas e a CCT. A homologação sindical é um ato que atesta a regularidade da situação, conferindo segurança jurídica às partes.\n*   **Limitação da Jornada:** O fato de a jornada diária não ter ultrapassado 10 horas sugere que a empresa também observou os limites legais de jornada, o que reforça a regularidade do banco de horas.\n\n**Limitações:**\n\nÉ importante ressaltar que a análise é limitada ao contexto normativo fornecido. A ausência do texto integral da CCT impede uma análise mais aprofundada das regras específicas sobre o banco de horas, como a forma de compensação, os critérios para a acumulação e a possibilidade de pagamento em dinheiro das horas não compensadas. Além disso, a ausência de informações sobre a natureza do trabalho e as condições de trabalho do empregado impede uma análise mais completa.\n",
+  "tokens_in": 264,
+  "tokens_out": 802,
+  "latency_ms": 22389,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

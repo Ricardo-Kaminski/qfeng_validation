@@ -1,0 +1,19 @@
+{
+  "sha256": "a091de4d87d3b1f326407962f766473c302cfc55f1610a95975e659e9913826f",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T12:47:43Z",
+  "prompt_sha": "c800b08bc530e3122be31b4e610bc034e22dcdc366a0e85bec8990b192b786cb",
+  "response_text": "## ANÁLISE JURÍDICA: Citação Doutrinária Genérica em Acórdão Trabalhista\n\nConsiderando o cenário apresentado e o único dispositivo normativo fornecido (Art. 20 do LINDB), a análise jurídica se concentra na validade da citação doutrinária genérica como fundamentação em decisão judicial.\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nO único dispositivo normativo explicitamente mencionado no contexto é o **Art. 20 do LINDB (Lei de Introdução às normas do Direito Brasileiro)**.  Este artigo é crucial para a análise, pois trata da fundamentação das decisões judiciais.  Não há outros dispositivos normativos fornecidos que possam ser diretamente aplicados ao caso.\n\n**2. DECISÃO RECOMENDADA**\n\nRecomenda-se que a alegação do recorrente seja **acolhida**, ou seja, que a citação doutrinária genérica seja considerada insuficiente para fundamentar a decisão do acórdão trabalhista.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação para a decisão recomendada reside exclusivamente no **Art. 20 do LINDB**.  Este artigo estabelece:\n\n*\"Art. 20. A decisão dos órgãos julgadores, sempre que possível, deverá ser acompanhada de fundamentação escrita, traduzida em votos, resumos ou sinopses, conforme as normas da respectiva legislação.\"*\n\nEmbora o artigo não trate especificamente de citações doutrinárias, a exigência de \"fundamentação escrita\" implica que a decisão deve ser devidamente justificada. Uma citação doutrinária genérica, sem a indicação precisa da obra, edição, ano e página, **não cumpre o requisito de fundamentação escrita adequada**.\n\nA alegação do recorrente de que a citação genérica equivale à ausência de fundamentação é pertinente.  A fundamentação, para ser útil e permitir o controle da legalidade da decisão, deve permitir que o julgador (e as partes) identifiquem a base teórica e jurídica utilizada.  A falta de informações sobre a obra de Martins, Sergio Pinto, impede essa identificação e, portanto, compromete a transparência e a possibilidade de controle da decisão.\n\n**Limitação do Contexto Normativo:**\n\nÉ importante ressaltar que a análise se baseia *exclusivamente* no contexto normativo fornecido.  Outras normas processuais (como o Código de Processo Civil, que pode ser aplicado subsidiariamente ao processo do trabalho) ou princípios gerais do direito processual (como o da transparência e do devido processo legal) poderiam reforçar a mesma conclusão, mas não podem ser utilizados para fundamentar a decisão, dado o escopo limitado do contexto.  A ausência de outras normas no contexto impede uma análise mais abrangente.\n",
+  "tokens_in": 256,
+  "tokens_out": 603,
+  "latency_ms": 32047,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

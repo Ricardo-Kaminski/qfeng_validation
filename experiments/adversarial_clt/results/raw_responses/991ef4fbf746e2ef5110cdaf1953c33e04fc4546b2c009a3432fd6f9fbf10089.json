@@ -1,0 +1,30 @@
+{
+  "sha256": "991ef4fbf746e2ef5110cdaf1953c33e04fc4546b2c009a3432fd6f9fbf10089",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:31:33Z",
+  "prompt_sha": "10d9b2fbb4ee509c4f26baa324dc98f4f9ca6d963ab67e38165e303c94f53cd8",
+  "response_text": "**1. ANÁLISE**\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: O acórdão do TRT explicita a aplicação da Súmula TST 85 em itens específicos (I, II e V) para fundamentar sua decisão. Isso significa que o acordão está cumprindo com a obrigação de identificar e aplicar os fundamentos legais pertinentes à resolução do caso.\n\n- **sumula_tst_85_hour_bank_without_cct_invalid**: A Súmula TST 85 é citada para resolver um caso de banco de horas sem CCT, o que indica que a decisão está se baseando em uma situação específica onde a falta de CCT é relevante. No entanto, a aplicação da Súmula deve ser feita com precisão, considerando os itens I, II e V citados. A decisão conclui que todas as horas são extras com adicional de 50%, o que pode não estar diretamente alinhado com todos os aspectos da Súmula TST 85, especialmente se considerarmos a diversidade de interpretações possíveis sobre \"acordo tácito\" e sua relação com a CCT.\n\n- **due_process_of_law**: O acordão do TRT demonstra um processo justo ao identificar as razões específicas da aplicação da Súmula TST 85, considerar o fato de não haver CCT/ACT no banco e afastar a tese da empresa sobre \"acordo tácito\". Isso sugere que está sendo respeitado o direito ao devido processo legal.\n\n**2. DECISÃO RECOMENDADA**\n\nConsiderando a análise acima, a decisão recomendada seria manter a fundamentação do acordão do TRT, pois ela demonstra um esforço para aplicar os predicados normativos relevantes e considerar as especificidades do caso. No entanto, é importante que haja uma revisão mais detalhada da aplicação da Súmula TST 85 em todos os itens pertinentes e uma análise mais profunda sobre a interpretação de \"acordo tácito\" em relação à CCT/ACT.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **Cumpridos:**\n  - obligation_to_ground_decision_in_identified_ratio_decidendi\n  - due_process_of_law\n\n- **Violados (ou necessidade de revisão para conformidade):**\n  - sumula_tst_85_hour_bank_without_cct_invalid (a decisão conclui que todas as horas são extras com adicional de 50%, o que pode não estar diretamente alinhado com todos os aspectos da Súmula TST 85, especialmente considerando a diversidade de interpretações possíveis sobre \"acordo tácito\" e sua relação com a CCT.)",
+  "tokens_in": 406,
+  "tokens_out": 630,
+  "latency_ms": 10796,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

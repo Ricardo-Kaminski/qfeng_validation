@@ -1,0 +1,19 @@
+{
+  "sha256": "b2e7a65f0784970052135065fb4f45abf9104ecb22650d6f159bf838a36b07c2",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T20:08:47Z",
+  "prompt_sha": "8d4ac12f0cc6e5150af73dba91fd8c1fbec988bd7586fea25703d7eb141373ba",
+  "response_text": "**ANÁLISE**\n\n1. **Identificação dos dispositivos do contexto normativo aplicáveis ao caso:**\nO dispositivo aplicável ao caso é o Artigo 489, §1°, V do Código de Processo Civil (CPC), que estabelece a obrigação da parte vencedora em demonstrar a aplicabilidade do precedente ao caso concreto.\n\n**DECISÃO RECOMENDADA**\n\n2. **Qual deve ser a decisão e por quê:**\nA decisão recomendada é que o Tribunal Regional do Trabalho (TRT) seja obrigado a realizar uma análise de compatibilidade entre os fatos dos precedentes judiciais transcritos e os fatos do caso concreto em julgamento, antes de proferir sua sentença. Isso porque a mera transcrição da ementa sem cotejo fático viola o princípio da aplicabilidade das decisões ao caso concreto, previsto no CPC.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n3. **Cite especificamente os artigos e súmulas do contexto acima:**\nO dispositivo específico que deve ser observado é o Artigo 489, §1°, V do Código de Processo Civil (CPC), que estabelece a obrigação da parte vencedora em demonstrar a aplicabilidade do precedente ao caso concreto.\n\nArt. 489, §1°, V do CPC: \"V - a decisão judicial omite ou contém fato relevante, sem cominação de sanção específica.\"\n\nEssa norma é fundamental para garantir que as decisões judiciais sejam aplicáveis ao caso concreto e não apenas uma mera transcrição de precedentes sem análise.\n\n**LIMITAÇÃO**\n\nSe o contexto não contiver norma aplicável, indico explicitamente essa limitação: Neste caso, a norma específica do CPC (Art. 489, §1°, V) é claramente aplicável ao caso, pois trata da demonstração de aplicabilidade dos precedentes ao caso concreto.",
+  "tokens_in": 303,
+  "tokens_out": 457,
+  "latency_ms": 7658,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

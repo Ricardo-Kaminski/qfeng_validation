@@ -1,0 +1,19 @@
+{
+  "sha256": "5069508b14c59d90fcde81f34cf999205bdb2192986c045e9aba5fe99af43c65",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-010",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T02:58:05Z",
+  "prompt_sha": "4d48a62ffa2628de18a5603b3fc64f01cd710cb9c400026b5027fea3559fd413",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis**\n\n- **Artigo 71 da CLT**: Este artigo estabelece que o intervalo intrajornada não poderá ser inferior a trinta minutos, devendo coincidir com o horário de refeição do empregado. O intervalo deve ser concedido no período compreendido entre as seis horas iniciais e finais da jornada diária.\n\n- **Súmula 437 do TST**: Esta súmula afirma que a redução do intervalo intrajornada para menos de trinta minutos, sem autorização em Convenção ou Acordo Coletivo de Trabalho (CCT), configura supressão ilícita e deve ser compensada como hora extraordinária.\n\n- **Tema 981 do STF**: Este tema trata da validade das CCTs que reduzem o intervalo intrajornada para menos de trinta minutos. O Supremo Tribunal Federal reconheceu a possibilidade de redução, desde que haja autorização expressa em CCT ou acordo coletivo.\n\n**Interpretação no Caso Concreto**\n\nNo caso apresentado, o TRT analisou se havia uma CCT válida que autorizasse a redução do intervalo intrajornada para menos de trinta minutos. Ao constatar a ausência de tal convenção ou acordo, aplicou a Súmula 437 do TST, determinando o pagamento integral do período suprimido como hora extra.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão tomada pelo TRT é correta e deve ser mantida. Como não há CCT válida autorizando a redução do intervalo intrajornada para menos de trinta minutos, o intervalo foi suprimido ilicitamente. Portanto, o período suprimido deve ser compensado como hora extra.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **Artigo 71 da CLT**: Estabelece a duração mínima do intervalo intrajornada e sua coincidência com o horário de refeição, garantindo ao empregado um período adequado para descanso.\n\n- **Súmula 437 do TST**: Confirma que qualquer redução do intervalo intrajornada sem autorização em CCT ou acordo coletivo é considerada supressão ilícita e deve ser compensada como hora extraordinária.\n\n- **Tema 981 do STF**: Embora reconheça a possibilidade de redução do intervalo por meio de convenções coletivas, não se aplica ao caso em questão, pois não há CCT válida que autorize tal redução.\n\nA decisão está alinhada com os dispositivos legais e jurisprudências citadas, garantindo o cumprimento das normas trabalhistas vigentes.",
+  "tokens_in": 336,
+  "tokens_out": 633,
+  "latency_ms": 36343,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

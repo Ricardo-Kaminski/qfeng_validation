@@ -1,0 +1,19 @@
+{
+  "sha256": "26704caf7f1be396daedfef00d9fd2192e81283956b015ae03009b2af24ae5c0",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T02:44:03Z",
+  "prompt_sha": "d8db250f652a0b2a86ce52ca33e3f146036705232aad1ad4a2023ee032d07112",
+  "response_text": "### ANÁLISE\n\n#### 1. Identificação dos dispositivos legais aplicáveis:\n\n- **Súmula TST 85**: Esta súmula trata da validade do banco de horas e estabelece três requisitos principais para sua legalidade: (I) a existência de convenção coletiva ou acordo individual; (II) o prazo máximo de compensação das horas não exceder um mês; (V) a compensação deverá ocorrer em até dois meses.\n\n- **CLT - Consolidação das Leis do Trabalho**:\n  - **Art. 59**: Dispõe sobre as horas extras, estabelecendo que estas devem ser pagas com acréscimo de pelo menos 50%.\n  - **Art. 62**: Permite a compensação de horas extras mediante acordo escrito entre empregador e empregado.\n\n#### 2. Interpretação no caso concreto:\n\n- **Aplicação da Súmula TST 85**:\n  - **Item I**: Não há CCT (Convenção Coletiva de Trabalho) ou ACT (Acordo Coletivo de Trabalho) que autorize o banco de horas, conforme apontado pelo TRT.\n  - **Item II**: O período de compensação das horas excedeu cinco meses, ultrapassando o limite máximo de um mês estabelecido pela Súmula TST 85.\n  - **Item V**: A compensação não ocorreu em até dois meses, conforme exigido.\n\n- **Ausência de Acordo Tácito**:\n  - O TRT afasta a tese da empresa sobre \"acordo tácito\", destacando que tal acordo não substitui a necessidade de uma CCT/ACT para a validade do banco de horas. A jurisprudência majoritária e a doutrina trabalhista sustentam que o banco de horas requer formalização por meio de convenção ou acordo coletivo, conforme previsão legal.\n\n### DECISÃO RECOMENDADA\n\nA decisão correta é manter a conclusão do TRT de que todas as horas registradas no banco de horas devem ser consideradas como horas extras e pagas com adicional de 50%. Isso se deve ao fato de não haver CCT/ACT autorizando o banco de horas, além da inobservância dos prazos máximos para compensação estabelecidos pela Súmula TST 85.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n1. **Súmula TST 85**:\n   - Estabelece os requisitos para a validade do banco de horas, que não foram cumpridos no caso em questão (ausência de CCT/ACT e prazos excedidos).\n\n2. **Artigo 59 da CLT**:\n   - Define o pagamento das horas extras com acréscimo mínimo de 50%, aplicável quando as condições para banco de horas não são atendidas.\n\n3. **Jurisprudência do TST**:\n   - A jurisprudência majoritária do TST reitera que a ausência de CCT/ACT impede a validade do banco de horas, e que o acordo tácito não é suficiente para substituir esses instrumentos coletivos.\n\n4. **Doutrina Trabalhista**:\n   - A doutrina sustenta que o banco de horas requer formalização por meio de convenção ou acordo coletivo, reforçando a necessidade de observância dos prazos máximos para compensação.\n\nPortanto, a decisão do TRT está correta ao considerar todas as horas como extras e aplicar o adicional correspondente.",
+  "tokens_in": 340,
+  "tokens_out": 816,
+  "latency_ms": 46890,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

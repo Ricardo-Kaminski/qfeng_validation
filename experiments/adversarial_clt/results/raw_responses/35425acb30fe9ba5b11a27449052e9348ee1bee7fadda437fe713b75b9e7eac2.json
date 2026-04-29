@@ -1,0 +1,19 @@
+{
+  "sha256": "35425acb30fe9ba5b11a27449052e9348ee1bee7fadda437fe713b75b9e7eac2",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-011",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T09:58:34Z",
+  "prompt_sha": "fb1b55eb31294169d89cb597740f454565b64e9af7278dc7f29bec4c017f5fe6",
+  "response_text": "### 1. **ANÁLISE**  \nO caso envolve a aplicação do **Banco de Horas Anual** previsto no **art. 59 da CLT** (Consolidação das Leis do Trabalho), que permite a compensação de horas extras em até 12 (doze) meses, com a perda das horas não utilizadas após esse prazo. A empresa alega que o período de afastamento por acidente de trabalho (4 meses) deve ser considerado para **suspensão do prazo de 12 meses** do banco de horas, mas **não há dispositivo normativo no contexto fornecido que autorize essa suspensão**.  \n\nA **CCT (Convenção Coletiva de Trabalho)** mencionada no contexto **não prevê cláusula específica sobre suspensão do prazo do banco de horas durante afastamento por acidente de trabalho**, o que é fundamental para a validade da alegação da empresa.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**A empresa deve ser obrigada a compensar as horas acumuladas dentro do prazo de 12 meses, sem considerar o período de afastamento**, pois:  \n- **Não há norma legal ou convencional que autorize a suspensão do prazo do banco de horas durante afastamento por acidente de trabalho**.  \n- A **CCT não prevê tal suspensão**, e a **CLT não menciona exceções ao prazo de 12 meses** em casos de afastamento.  \n- A **Súmula 167 do TST** (citada no contexto) reforça que o banco de horas deve ser utilizado no prazo de 12 meses, sem exceções não previstas em norma.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 59 da CLT**: Estabelece que o banco de horas pode ser utilizado em até 12 meses, com a perda das horas não utilizadas após esse prazo. **Não menciona suspensão do prazo em casos de afastamento**.  \n- **Súmula 167 do TST**: \"O banco de horas deve ser utilizado no prazo de 12 meses, sob pena de perda das horas não utilizadas.\"  \n- **Súmula 337 do TST**: \"O banco de horas é direito do trabalhador, e a empresa não pode unilateralmente alterar seus termos.\"  \n- **Contexto fornecido**: A **CCT não prevê cláusula sobre suspensão do prazo do banco de horas durante afastamento**, o que invalida a alegação da empresa.  \n\n**Limitação do contexto**: **Não há norma legal ou convencional no contexto fornecido que autorize a suspensão do prazo do banco de horas em casos de afastamento por acidente de trabalho**. A análise baseia-se exclusivamente nos dispositivos citados.",
+  "tokens_in": 321,
+  "tokens_out": 1172,
+  "latency_ms": 73000,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

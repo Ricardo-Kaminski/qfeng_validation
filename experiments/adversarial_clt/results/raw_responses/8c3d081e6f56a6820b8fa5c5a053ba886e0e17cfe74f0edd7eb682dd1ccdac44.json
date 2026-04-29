@@ -1,0 +1,30 @@
+{
+  "sha256": "8c3d081e6f56a6820b8fa5c5a053ba886e0e17cfe74f0edd7eb682dd1ccdac44",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-007",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T01:08:44Z",
+  "prompt_sha": "87cfca1418f3f656618cfac13aa7f2dd97f0633ba491f0fa22ab0f1a80de9a98",
+  "response_text": "## Análise do Caso de Rescisão de Gestante à Luz dos Predicados Normativos\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, segue a análise, decisão recomendada e identificação de cumprimento/violação dos predicados:\n\n**1. ANÁLISE DA APLICAÇÃO DOS PREDICADOS NORMATIVOS:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi (Obrigação de fundamentar a decisão no _ratio decidendi_ identificado):** Este predicado é **central** para o caso. O TRT demonstrou cumprimento rigoroso deste predicado ao citar expressamente a Constituição Federal (Art. 10, II, \"b\" do ADCT), a Súmula TST 244 e a OJ 399 da SDI-1.  A decisão não se baseia em generalidades, mas em fundamentos jurídicos específicos e já consolidados na jurisprudência do TST. A identificação do requisito da estabilidade provisória, a análise da data da gravidez em relação à dispensa, e a utilização da OJ 399 para afastar a exigência de comunicação prévia demonstram a busca e aplicação do _ratio decidendi_ de cada norma. A fundamentação completa é crucial para garantir a transparência e a possibilidade de controle da decisão.\n\n*   **due_process_of_law (Devido processo legal):** Este predicado se manifesta na garantia de que a empregada gestante teve a oportunidade de ser ouvida e de apresentar sua defesa no processo. Embora o cenário não detalhe esse aspecto, a própria existência de um processo judicial, com a possibilidade de produção de provas e apresentação de argumentos, já garante, em princípio, o devido processo legal. A citação de normas e a análise do caso concreto, como realizado pelo TRT, contribuem para a imparcialidade e a justiça da decisão, elementos essenciais do devido processo legal. A decisão do TRT, ao aplicar a lei e a jurisprudência, busca garantir a proteção de um direito fundamental da trabalhadora.\n\n**2. DECISÃO RECOMENDADA:**\n\nA decisão do TRT, que declara a nulidade da dispensa e determina a reintegração da empregada gestante, **deve ser mantida**. A fundamentação apresentada, baseada na CF/88 (Art. 10, II, \"b\" do ADCT), Súmula TST 244 e OJ 399 da SDI-1, é sólida e demonstra a correta aplicação do direito. A gravidez preexistente à dispensa é um fator determinante para a proteção da estabilidade provisória, conforme a jurisprudência do TST. A OJ 399, ao afastar a necessidade de comunicação prévia da gravidez, reforça a proteção da trabalhadora e evita que o empregador utilize essa informação para justificar a dispensa.  Alterar essa decisão implicaria em desconsiderar a jurisprudência consolidada e a proteção constitucional à maternidade.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** **Conformidade**. O TRT cumpriu rigorosamente este predicado, fundamentando sua decisão em normas e jurisprudência específicas.\n*   **due_process_of_law:** **Conformidade**.  A existência do processo judicial e a análise do caso concreto, com base em fundamentos jurídicos, indicam o cumprimento do devido processo legal. (Observação: a confirmação absoluta dependeria de verificar se a trabalhadora teve efetiva oportunidade de se defender no processo).\n\n\n\n**Observação Importante:** Esta análise é baseada unicamente nas informações fornecidas no cenário e nos predicados normativos listados. Uma análise completa exigiria a avaliação do conjunto probatório e de outros aspectos do caso concreto.",
+  "tokens_in": 370,
+  "tokens_out": 849,
+  "latency_ms": 23436,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "e2e15d16f877bb9acc45592d613bc0155f0a123d9088cbef870da9a4826838e1",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T20:13:09Z",
+  "prompt_sha": "5ea5a4ec4b7a213278e903919d216504e93002c7ed7cad9209cdd623ae666231",
+  "response_text": "**ANÁLISE**\n\nO caso apresentado envolve a implementação de banco de horas em uma indústria têxtil sem a participação dos sindicatos patronal e trabalhadores em acordo coletivo. A empresa argumenta que o acordo individual por escrito com cada empregado supre a ausência de negociação coletiva para banco de horas semestral.\n\n**DISPOSITIVOS DO CONTEXTO NORMATIVO APLICÁVEIS**\n\n1. **Artigo 611 da CLT**: Regula sobre o banco de horas, mas não aborda especificamente a necessidade de acordo coletivo ou individual por escrito.\n2. **Artigo 611-A da CLT (inclusão pela Lei nº 10.101/2000)**: Estabelece que o banco de horas deve ser previsto em acordo coletivo, mas não aborda a possibilidade de acordo individual por escrito.\n3. **Súmula Vinculante nº 378 do STF**: Determina que \"O acordo individual de trabalho, para sua validade, não depende da prévia homologação pelo sindicato profissional\".\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que o banco de horas implementado pela empresa seja considerado inválido por falta de acordo coletivo e que os empregados tenham direito à compensação das horas trabalhadas.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação normativa se baseia na ausência de acordo coletivo previsto no Artigo 611-A da CLT, o qual é expresso sobre a necessidade de negociação coletiva para implementar banco de horas. A Lei não aborda explicitamente a possibilidade de acordo individual por escrito como substituto válido à negociação coletiva.\n\nA Súmula Vinculante nº 378 do STF, no entanto, estabelece que o acordo individual é válido sem prévia homologação pelo sindicato profissional. No entanto, essa súmula não aborda a questão específica de substituição da negociação coletiva por acordos individuais em casos como o do banco de horas.\n\nPortanto, considerando a falta de previsão legal para acordo individual por escrito como substituto válido à negociação coletiva e a ausência de participação dos sindicatos patronal e trabalhadores, a decisão recomendada é que o banco de horas seja considerado inválido.",
+  "tokens_in": 293,
+  "tokens_out": 548,
+  "latency_ms": 9190,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

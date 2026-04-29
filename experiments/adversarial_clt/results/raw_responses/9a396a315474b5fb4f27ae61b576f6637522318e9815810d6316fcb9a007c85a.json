@@ -1,0 +1,26 @@
+{
+  "sha256": "9a396a315474b5fb4f27ae61b576f6637522318e9815810d6316fcb9a007c85a",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:34:29Z",
+  "prompt_sha": "d11d747246713e214367caa10635ee2da91740b47d7d1199b6d612847a92e627",
+  "response_text": "**ANÁLISE**\n\n1. **maximum_daily_working_hours_8h**: Não há informações sobre a jornada de trabalho do trabalhador, mas não há indícios de que ele tenha excedido as 8 horas diárias de trabalho. Portanto, este predicado parece estar cumprido.\n2. **maximum_weekly_working_hours_44h**: Além da falta de informações sobre a jornada de trabalho do trabalhador, o cenário não menciona que ele tenha ultrapassado as 44 horas semanais de trabalho. Este predicado também parece estar cumprido.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando que os predicados normativos listados foram cumpridos e não há nenhuma irregularidade identificável no cenário, a decisão recomendada é **APROVAR A DEMISSÃO SEM JUSTA CAUSA**, uma vez que o trabalhador foi pago todas as verbas rescisórias no prazo de 10 dias.\n\n**PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n* **maximum_daily_working_hours_8h**: Cumprido\n* **maximum_weekly_working_hours_44h**: Cumprido",
+  "tokens_in": 373,
+  "tokens_out": 257,
+  "latency_ms": 4421,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

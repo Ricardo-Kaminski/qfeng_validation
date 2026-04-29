@@ -1,0 +1,26 @@
+{
+  "sha256": "83eac16224e47fac2c1dd7573e61499185d48037eda8bd19b6f144031203c1fa",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-007",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T22:06:04Z",
+  "prompt_sha": "1d68b02e56a3be519b2c411e30a4e5202d217b01b44ee4ca2db84ac049f73210",
+  "response_text": "### 1. **ANÁLISE**  \n**a) Proibição de citação de precedentes genéricos (prohibition_of_generic_precedent_citation):**  \nO TST utilizou um **IRDR (Instrução Normativa de Direito Resoluto)** do TRT-15ª Região como se fosse um **precedente vinculante nacional**, apesar de não ter sido afetado como **repetitivo** pelo TST e de não possuir eficácia nacional. Isso viola a **proibição de citar precedentes genéricos ou não vinculantes**, pois a jurisprudência do TST deve se basear apenas em **precedentes vinculantes** (como os fixados em Súmulas do TST ou em decisões do STF/STJ com eficácia vinculante). A utilização de um IRDR não repetitivo como se fosse um precedente nacional configura uma **citação genérica e inválida**, violando o princípio da **segurança jurídica** e da **unidade da jurisprudência**.  \n\n**b) Obrigação de fundamentar a decisão em ratio decidendi identificado (obligation_to_ground_decision_in_identified_ratio_decidendi):**  \nA decisão do TST não fundamentou a aplicação da tese do IRDR regional em um **ratio decidendi** (motivo jurídico específico) que possa ser identificado e replicado em outros casos. A ausência de uma fundamentação clara e vinculante no âmbito nacional viola a **obrigação de fundamentar a decisão em um ratio decidendi identificado**, pois a jurisprudência do TST deve ser **explícita, vinculante e replicável**, evitando o uso de decisões regionais sem eficácia nacional como base para julgamentos.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **decisão do TST deve ser anulada** por violação aos predicados normativos acima mencionados. O TST:  \n- **Deve reconhecer que o IRDR regional não tem eficácia vinculante nacional**, conforme previsto no **CPC Art. 489, §1°, V**, que exige que precedentes citados tenham eficácia vinculante.  \n- **Deve reformular a decisão**, fundamentando-a em **precedentes vinculantes** (como súmulas do TST, jurisprudência do STF/STJ ou decisões do TST com eficácia repetitiva).  \n- **Deve evitar a utilização de IRDRs não repetitivos** como base para julgamentos, garantindo a **unidade da jurisprudência** e a **segurança jurídica**.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Proibição de citação de precedentes genéricos (prohibition_of_generic_precedent_citation):**  \n  **Violação** – O TST utilizou um IRDR não repetitivo como se fosse um precedente vinculante nacional, o que configura uma **citação genérica e inválida**.  \n\n- **Obrigação de fundamentar a decisão em ratio decidendi identificado (obligation_to_ground_decision_in_identified_ratio_decidendi):**  \n  **Violação** – A decisão do TST não fundamentou a aplicação da tese do IRDR regional em um **ratio decidendi** vinculante e identificável, violando a **obrigação de fundamentação jurídica clara**.  \n\n**Conclusão:**  \nAmbos os predicados normativos foram **violados** no cenário descrito, configurando uma **decisão ilegal e incompatível com o CPC Art. 489, §1°, V**.",
+  "tokens_in": 378,
+  "tokens_out": 1226,
+  "latency_ms": 37266,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,27 @@
+{
+  "sha256": "960018adf560465fe8f091851d140edbf22f5c0bb795471d57b49a15338c827a",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T00:57:19Z",
+  "prompt_sha": "56026c91d89b6d756ed7ce2eaf106a0c54a871ecc1ed1a0e49d045b3570664eb",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, segue a análise, decisão recomendada e identificação de cumprimento/violação dos predicados:\n\n**1. ANÁLISE:**\n\n*   **recognition_of_collective_bargaining (Reconhecimento da Negociação Coletiva):** Este predicado é fundamental para o caso. A existência de uma CCT (Convenção Coletiva de Trabalho) estabelece um acordo previamente negociado entre sindicato e empregador. A CCT, portanto, possui força normativa, vinculando ambas as partes. A unilateralidade da empresa na alteração da escala de compensação de folgas demonstra uma desconsideração ao processo de negociação coletiva, pois a CCT já havia estabelecido a flexibilidade na escolha da data de compensação. A alteração imposta pela empresa, sem negociação, fere o princípio do reconhecimento da negociação coletiva.\n*   **working_hours_negotiable_by_cct (Horário de Trabalho Negociável por CCT):** Este predicado reforça a importância da CCT na definição das condições de trabalho, incluindo a forma como o banco de horas e a compensação de folgas são implementados. A CCT, ao prever a flexibilidade na data de compensação, estabeleceu um modelo de organização do trabalho que deveria ser seguido. A imposição de uma escala fixa de compensação às sextas-feiras, contrariando a previsão da CCT, demonstra que a empresa não está respeitando a negociabilidade do horário de trabalho conforme definido no acordo coletivo.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que a decisão judicial seja favorável aos trabalhadores. A empresa agiu de forma unilateral ao alterar a escala de compensação de folgas, contrariando a CCT. A imposição de uma escala fixa de compensação às sextas-feiras, em detrimento da flexibilidade prevista na CCT, configura uma violação ao princípio da negociação coletiva e à autonomia da vontade das partes.\n\nA decisão deve determinar:\n\n*   A **anulação da escala de compensação de folgas imposta unilateralmente pela empresa**.\n*   A **retomada da aplicação da CCT**, garantindo aos trabalhadores a flexibilidade na escolha da data de compensação das folgas, conforme previsto no acordo coletivo.\n*   A **possibilidade de indenização aos trabalhadores** pelos danos morais e materiais decorrentes da imposição da escala unilateral, a depender da análise do caso concreto e da comprovação dos prejuízos sofridos.\n*   A **obrigação da empresa em negociar com o sindicato** qualquer alteração nas condições de trabalho relacionadas ao banco de horas e à compensação de folgas, garantindo a observância do princípio da negociação coletiva.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **recognition_of_collective_bargaining:** **Violação**. A empresa desconsiderou a CCT ao impor a escala de compensação unilateralmente.\n*   **working_hours_negotiable_by_cct:** **Violação**. A empresa restringiu a flexibilidade do horário de trabalho, contrariando a previsão da CCT.\n",
+  "tokens_in": 317,
+  "tokens_out": 709,
+  "latency_ms": 19563,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

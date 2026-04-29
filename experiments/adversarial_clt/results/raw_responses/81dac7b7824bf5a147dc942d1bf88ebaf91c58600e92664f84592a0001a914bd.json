@@ -1,0 +1,26 @@
+{
+  "sha256": "81dac7b7824bf5a147dc942d1bf88ebaf91c58600e92664f84592a0001a914bd",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-012",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T02:10:11Z",
+  "prompt_sha": "5a8f6c7e3f499c88bbaaf7f049ff195a1844aab8c62088076ae22a749461e3d3",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG identificou uma **violação normativa** na atuação do TRT (Tribunal Regional do Trabalho), com base nos predicados soberanos ativos. A decisão do TRT utilizou um **precedente civil do STJ** (Superior Tribunal de Justiça) para fundamentar uma tese sobre **dano moral trabalhista**, sem analisar se esse precedente civil é compatível com o **regime jurídico trabalhista** (especialmente os critérios da CLT após a Reforma de 2017). Isso viola:  \n- **Obrigação de fundamentar a decisão com um *ratio decidendi* identificado** (não basta citar um precedente genérico, é preciso vincular o caso concreto a uma regra específica da CLT).  \n- **Proibição de citar precedentes genéricos** (o STJ é um tribunal civil, e seu precedente não pode ser aplicado automaticamente ao direito do trabalho, que tem regras distintas).  \n- **Obrigação de abordar todos os argumentos jurídicos** (o TRT não discutiu a incompatibilidade do precedente civil com a CLT, o que é um dever constitucional).  \n- **Direito de acesso à justiça e revisão judicial** (a decisão não garantiu transparência e fundamentação adequada, prejudicando o direito do trabalhador a uma análise equilibrada).  \n\nA ausência de compatibilidade entre o precedente civil e a CLT (especialmente os critérios de fixação de dano moral após a Reforma de 2017) configura uma **falha normativa**, pois o regime jurídico trabalhista tem regras específicas que não podem ser substituídas por princípios gerais do direito civil.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O tribunal deve explicar claramente as **consequências práticas da decisão** (ex.: como o dano moral será calculado, quais são os limites legais).  \n- **sovereign(prohibition_of_generic_precedent_citation)**: É proibido citar **precedentes genéricos** (como o do STJ) sem verificar sua **compatibilidade com a CLT**.  \n- **sovereign(obligation_to_address_all_legal_arguments)**: O tribunal deve **abordar todos os argumentos jurídicos** (ex.: por que o precedente civil não se aplica ao regime trabalhista).  \n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão deve ser fundamentada em um **ratio decidendi** (regra específica da CLT) e não em princípios gerais do direito civil.  \n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: O tribunal tem **obrigação constitucional** de explicar as razões da decisão (ex.: por que o precedente civil foi adotado, mesmo que não seja compatível com a CLT).  \n- **sovereign(right_of_access_to_justice_and_judicial_review)**: O trabalhador tem **direito a uma decisão transparente** que permita revisão judicial (ex.: se o tribunal não explica por que o precedente civil foi usado, o trabalhador não pode contestar a decisão).  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO tribunal **não explicou corretamente** por que usou uma regra do direito civil (do STJ) para decidir um caso de dano moral no trabalho. O direito do trabalho tem regras próprias (especialmente depois da Reforma de 2017), e o tribunal **não verificou se a regra do STJ se encaixa nesses critérios**. Isso é um problema porque:  \n- O tribunal **não deve usar regras genéricas** do direito civil para decidir casos de trabalho, sem analisar se elas são compatíveis com a CLT.  \n- O trabalhador **não sabe por que a decisão foi tomada** (não há explicação clara sobre como o dano moral foi calculado ou por que a regra do STJ foi usada).  \n- Isso **viola o direito do trabalhador a uma decisão justa e transparente**, que possa ser revisada se necessário.  \n\nO sistema Q-FENG concluiu que essa atitude do tribunal **viola a lei**, pois o direito do trabalho tem regras específicas que não podem ser substituídas por princípios gerais do direito civil.",
+  "tokens_in": 510,
+  "tokens_out": 1669,
+  "latency_ms": 52406,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

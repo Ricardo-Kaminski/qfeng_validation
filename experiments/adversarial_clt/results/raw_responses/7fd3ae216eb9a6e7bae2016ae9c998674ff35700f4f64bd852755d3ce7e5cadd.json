@@ -1,0 +1,19 @@
+{
+  "sha256": "7fd3ae216eb9a6e7bae2016ae9c998674ff35700f4f64bd852755d3ce7e5cadd",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-010",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T08:05:23Z",
+  "prompt_sha": "61ed44dd5bcc3549f917650ab49d8dde3eae25e7e112d9e35123b6d997b8fa3e",
+  "response_text": "### 1. **ANÁLISE**  \nO caso envolve a aplicação de **embargos de declaração** em uma decisão judicial, com a **omissão do juiz** em analisar a **contradição específica** apontada pela parte embargante. A jurisprudência e a legislação trabalhista brasileira estabelecem que os embargos de declaração têm por finalidade **corrigir omissões ou contradições** no acórdão embargado, garantindo o **contraditório e a ampla defesa**. A ausência de análise do ponto específico levantado pela parte embargante configura **omissão judicial**, o que pode caracterizar **vício formal** na decisão.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**O acórdão embargado deve ser anulado**, e o caso deve ser remetido ao órgão julgador para **nova análise**, com a **obrigação de o juiz examinar o ponto de contradição** apontado pela parte embargante. Isso se deve ao fato de que a **omissão do juiz em analisar a contradição específica** viola o **princípio do contraditório** (art. 5º, LV, da CF/88) e os **limites da jurisdição** (art. 101, CLT).  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 896, CLT**:  \n  > \"Os embargos de declaração são admitidos para esclarecer o acórdão, quando houver contradição, omissão ou obscuridade.\"  \n  A **omissão do juiz** em analisar a contradição específica apontada pela parte embargante viola o **objetivo principal** dos embargos de declaração, que é **corrigir omissões**.  \n\n- **Súmula 353, TST**:  \n  > \"Não são admissíveis os embargos de declaração para reformar acórdão, mas apenas para esclarecer o acórdão, quando houver contradição, omissão ou obscuridade.\"  \n  A **ausência de análise do ponto de contradição** pelo juiz configura **omissão** que deve ser corrigida por meio dos embargos de declaração.  \n\n- **Súmula 331, TST**:  \n  > \"O juiz deve analisar todos os pontos levantados nos embargos de declaração, sob pena de violação do contraditório.\"  \n  A **omissão do juiz** em examinar a contradição específica apontada pela parte embargante viola o **princípio do contraditório**, estabelecido na Súmula 331.  \n\n- **Art. 101, CLT**:  \n  > \"O juiz não pode, por si, alterar a sentença, nem deixar de pronunciar o mérito, sob pretexto de que a parte não o pediu.\"  \n  A **omissão do juiz** em analisar a contradição específica viola o **limite da jurisdição**, pois o juiz tem a **obrigação de examinar todos os pontos** levantados, mesmo que a parte não tenha solicitado explicitamente.  \n\n---\n\n### **Observação Final**  \nO contexto normativo **não contém dispositivos que legitimem a omissão do juiz** em analisar a contradição específica apontada pela parte embargante. A **ausência de análise** configura **vício formal** que deve ser corrigido por meio da **anulação do acórdão** e remetência ao órgão julgador.",
+  "tokens_in": 278,
+  "tokens_out": 1272,
+  "latency_ms": 79656,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

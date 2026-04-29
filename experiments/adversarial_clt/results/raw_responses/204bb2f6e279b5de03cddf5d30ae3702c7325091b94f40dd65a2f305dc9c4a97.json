@@ -1,0 +1,29 @@
+{
+  "sha256": "204bb2f6e279b5de03cddf5d30ae3702c7325091b94f40dd65a2f305dc9c4a97",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T23:49:02Z",
+  "prompt_sha": "9aed310839e4cb6680c5af139cfc1410b8dc65f015f8e8555e2fcb61291a68c3",
+  "response_text": "1. **ANÁLISE:**\n\n   O predicado normativo aplicável ao caso é \"semester_hour_bank_requires_cct_or_act\". Este predicado estabelece que a implementação de um banco de horas com compensação em prazo superior a 2 meses (ou seja, mais de duas semanas) requer a celebração de uma Convenção Coletiva de Trabalho (CCT) ou Acordo Coletivo de Trabalho (ACT). No cenário apresentado, a rede de supermercados implementou um banco de horas com compensação em prazo de 4 meses, o que excede o limite de duas semanas. Portanto, é obrigatório ter uma CCT ou ACT para regular essa situação.\n\n   A empresa celebrou um ACT com o sindicato dos comerciários, atendendo à exigência normativa de formalizar a compensação em prazo superior ao permitido por lei sem tal instrumento coletivo. No entanto, surge um problema quanto ao registro do ACT na Superintendência Regional do Trabalho (SRTE). A legislação trabalhista brasileira exige que o ACT seja registrado no órgão competente para ter validade jurídica.\n\n2. **DECISÃO RECOMENDADA:**\n\n   A decisão recomendada é que a empresa deve registrar o ACT na SRTE dentro do prazo legal estipulado, pois apenas com esse registro o acordo adquire eficácia jurídica. O argumento da empresa de que o registro seria uma \"mera formalidade\" não se sustenta diante da normativa vigente, que exige o cumprimento desse requisito para a validade do ACT.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Cumprido:** O predicado \"semester_hour_bank_requires_cct_or_act\" foi cumprido pela empresa ao celebrar um ACT para regular o banco de horas com compensação em prazo superior a duas semanas.\n\n   - **Violado:** A falha no registro do ACT na SRTE dentro do prazo legal viola as exigências normativas que conferem validade jurídica ao acordo. Portanto, embora tenha sido celebrado um ACT, sua eficácia está comprometida pela falta de registro.\n\nEm resumo, enquanto a empresa cumpriu o requisito de formalizar o banco de horas através de um ACT, ela violou as normas ao não registrar o acordo no órgão competente dentro do prazo legal.",
+  "tokens_in": 336,
+  "tokens_out": 545,
+  "latency_ms": 15718,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

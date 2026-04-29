@@ -1,0 +1,19 @@
+{
+  "sha256": "a359bf3eadde2448d50031e8fb5d1224e035a9103d61e559da41e7ae1a57bb59",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T07:40:03Z",
+  "prompt_sha": "8d4ac12f0cc6e5150af73dba91fd8c1fbec988bd7586fea25703d7eb141373ba",
+  "response_text": "### 1. **ANÁLISE**  \nOs dispositivos normativos aplicáveis ao caso são:  \n- **Código de Processo Civil (CPC)**, **Art. 489, § 1º, V**, que estabelece que, no uso de precedentes jurisprudenciais, o juiz deve **demonstrar a aplicabilidade do precedente aos fatos do caso concreto**, mediante **análise de compatibilidade** entre os fatos do precedente e os fatos do processo.  \n- A **não realização de cotejo fático** entre o precedente e o caso concreto configura **violação do princípio da motivação do julgamento** (art. 1.014, CPC), pois o juiz não demonstra como o precedente se aplica ao caso, o que é essencial para a **validade da decisão**.  \n\n### 2. **DECISÃO RECOMENDADA**  \nA **decisão do TRT deve ser anulada**, pois a mera transcrição do acórdão do TST, sem análise de compatibilidade fática, **viola o CPC Art. 489, § 1º, V**, que exige a demonstração de aplicabilidade do precedente ao caso concreto. A ausência de cotejo fático compromete a **correção jurídica** e a **transparência do julgamento**, elementos fundamentais para a **segurança jurídica**.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **CPC Art. 489, § 1º, V**:  \n  *\"O juiz, ao utilizar precedente jurisprudencial, deverá demonstrar a aplicabilidade do acórdão aos fatos do caso concreto, mediante análise de compatibilidade entre os fatos do precedente e os fatos do processo.\"*  \n  A **não observância** desse dispositivo configura **vício de forma** na decisão, pois o juiz não realizou o **cotejo fático** necessário para a aplicação do precedente.  \n\n- **Limitação do contexto normativo**:  \n  O contexto não menciona **súmulas do TST** ou **dispositivos específicos do Direito do Trabalho** que tratem da **obrigatoriedade de cotejo fático em decisões com base em precedentes**, limitando-se ao **CPC Art. 489, § 1º, V**.  \n\n**Conclusão**: A decisão do TRT deve ser revisada, pois a ausência de análise de compatibilidade fática entre o precedente e o caso concreto **viola o CPC Art. 489, § 1º, V**, independentemente de outras normas específicas do Direito do Trabalho.",
+  "tokens_in": 301,
+  "tokens_out": 1064,
+  "latency_ms": 67671,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

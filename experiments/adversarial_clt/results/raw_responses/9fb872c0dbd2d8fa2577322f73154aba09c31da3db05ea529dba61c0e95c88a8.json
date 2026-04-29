@@ -1,0 +1,26 @@
+{
+  "sha256": "9fb872c0dbd2d8fa2577322f73154aba09c31da3db05ea529dba61c0e95c88a8",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T00:16:20Z",
+  "prompt_sha": "d1173e4f3cba457c294de0168853e6eb5bfa237ff7c015762dd1676b67bbd842",
+  "response_text": "1. **ANÁLISE:**\n\n   - **semester_hour_bank_requires_cct_or_act:** Este predicado estabelece que o banco de horas deve ser regulamentado por uma Convenção Coletiva de Trabalho (CCT) ou Acordo Coletivo de Trabalho (ACT). No cenário apresentado, a empresa e o sindicato celebraram uma CCT que inclui um banco de horas. Portanto, este requisito foi cumprido.\n\n   - **hour_bank_with_cct_max_1_year:** Este predicado indica que, quando regulamentado por uma CCT ou ACT, o banco de horas pode ter duração máxima de 12 meses. No caso em questão, a CCT estabeleceu um banco de horas com validade de 6 meses, o que está dentro do limite permitido. Assim, este predicado também foi cumprido.\n\n   - **recognition_of_collective_bargaining:** Este predicado reconhece a legitimidade e eficácia das cláusulas estabelecidas em CCTs ou ACTs, desde que devidamente registradas e comunicadas aos trabalhadores. No cenário, a CCT foi registrada na SRTE (Secretaria Regional do Trabalho e Emprego) e todas as cópias foram entregues aos trabalhadores, sem contestações sindicais ou individuais. Portanto, este predicado também foi cumprido.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base nos predicados normativos aplicáveis ao caso, a decisão recomendada é que o banco de horas estabelecido pela CCT está em conformidade com as obrigações legais e regulamentares vigentes. A empresa deve continuar operando sob os termos da CCT sem necessidade de alterações ou correções adicionais.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Cumpriu:** \n     - semester_hour_bank_requires_cct_or_act\n     - hour_bank_with_cct_max_1_year\n     - recognition_of_collective_bargaining\n\n   Nenhum dos predicados foi violado no cenário apresentado. Todos os requisitos legais e normativos foram atendidos conforme descrito na análise.",
+  "tokens_in": 376,
+  "tokens_out": 491,
+  "latency_ms": 23639,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

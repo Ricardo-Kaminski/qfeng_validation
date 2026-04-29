@@ -1,0 +1,19 @@
+{
+  "sha256": "63665f68df5a3aa4586eecf280401dd12466bb05c21832c3179dcb088b6d6ffa",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T20:08:39Z",
+  "prompt_sha": "8d4ac12f0cc6e5150af73dba91fd8c1fbec988bd7586fea25703d7eb141373ba",
+  "response_text": "**ANÁLISE**\n\nOs dispositivos do contexto normativo aplicáveis ao caso são:\n\n*   Art. 489, §1°, V do Código de Processo Civil (CPC), que exige a demonstração da aplicabilidade do precedente ao caso concreto.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que o TRT realize um cotejo fático entre os fatos do precedente e os fatos do caso concreto em julgamento, antes de transcrever a ementa do acórdão do TST. Isso porque a mera transcrição sem análise da compatibilidade dos fatos pode ser considerada uma violação ao artigo 489, §1°, V do CPC.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\nO dispositivo normativo aplicável é o Art. 489, §1°, V do Código de Processo Civil (CPC), que estabelece a necessidade de demonstração da aplicabilidade do precedente ao caso concreto:\n\n> \"Art. 489. A petição inicial... V - a fundamentação da decisão, inclusive a dos motivos de jurisprudência invocados.\"\n\nAlém disso, o artigo 926 do CPC também é relevante para este contexto, pois estabelece que os tribunais devem fundamentar suas decisões:\n\n> \"Art. 926. A decisão deve ser fundamentada e publicada no prazo de cinco dias, contados da data em que foi proferida.\"\n\nÉ importante ressaltar que a falta de análise fática pode levar à invalidação da decisão do TRT, pois a mera transcrição sem cotejo fático não atende aos requisitos legais.",
+  "tokens_in": 303,
+  "tokens_out": 382,
+  "latency_ms": 6407,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

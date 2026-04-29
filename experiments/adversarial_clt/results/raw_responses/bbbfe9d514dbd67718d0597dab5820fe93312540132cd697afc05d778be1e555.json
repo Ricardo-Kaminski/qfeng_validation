@@ -1,0 +1,29 @@
+{
+  "sha256": "bbbfe9d514dbd67718d0597dab5820fe93312540132cd697afc05d778be1e555",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-009",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T23:54:02Z",
+  "prompt_sha": "80af890d500c9e214e8752f76bb2139a52a118a1a0ce063f734a5a13323783cf",
+  "response_text": "1. **ANÁLISE:**\n\n   - **semester_hour_bank_requires_cct_or_act:** Este predicado normativo estabelece que a criação de um banco de horas deve ser prevista em uma Convenção Coletiva de Trabalho (CCT) ou Acordo Coletivo de Trabalho (ACT). No cenário apresentado, a empresa firmou uma CCT com o sindicato da construção civil para estabelecer um banco de horas anual. Portanto, este requisito foi cumprido em relação à existência formal do instrumento coletivo que prevê o banco de horas.\n\n   - **recognition_of_collective_bargaining:** Este predicado enfatiza a necessidade de reconhecimento da representação sindical adequada para a celebração válida de CCTs ou ACTs. No caso concreto, a CCT foi firmada sem a participação do sindicato que representa os empregados administrativos, uma categoria diferenciada dentro da empresa. Isso significa que a aplicação do banco de horas aos administrativos pode ser questionável, pois a representatividade adequada não foi assegurada para essa categoria específica.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base nos predicados normativos analisados, recomenda-se que o banco de horas aplicado aos empregados administrativos seja considerado inválido para essa categoria específica. A empresa deve revisar a aplicação do banco de horas e garantir que quaisquer alterações ou extensões desse regime sejam negociadas com o sindicato representativo dos administrativos, respeitando sua autonomia e especificidades.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Cumpriu:** \n     - *semester_hour_bank_requires_cct_or_act*: A empresa cumpriu este predicado ao estabelecer o banco de horas através de uma CCT válida com o sindicato da construção civil.\n\n   - **Violou:**\n     - *recognition_of_collective_bargaining*: A empresa violou este predicado ao aplicar a CCT, que não representava os empregados administrativos, à categoria diferenciada sem negociar um instrumento coletivo específico com o sindicato representativo desses trabalhadores.",
+  "tokens_in": 355,
+  "tokens_out": 507,
+  "latency_ms": 14625,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

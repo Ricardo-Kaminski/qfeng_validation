@@ -1,0 +1,30 @@
+{
+  "sha256": "9760020147d63fecb3466146e3c64d0c9d6d2f0b57cb420f2f602f3b55f4e285",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:31:22Z",
+  "prompt_sha": "10d9b2fbb4ee509c4f26baa324dc98f4f9ca6d963ab67e38165e303c94f53cd8",
+  "response_text": "**1. ANÁLISE**\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: O acórdão do TRT explicita a aplicação da Súmula TST 85 em todos os itens relevantes (I, II e V) para fundamentar sua decisão. Isso significa que o tribunal identificou claramente a razão de decidir (ratio decidendi) com base na súmula aplicável, cumprindo esse predicado.\n\n- **sumula_tst_85_hour_bank_without_cct_invalid**: A Súmula TST 85 é citada e aplicada ao caso específico de banco de horas sem CCT. O acórdão analisa se o banco em questão tem ou não CCT/ACT, concluindo que as horas trabalhadas são extras com adicional de 50% quando não há CCT/ACT. Isso significa que a súmula foi aplicada corretamente no contexto do caso, cumprindo esse predicado.\n\n- **due_process_of_law**: O acórdão segue um procedimento claro e fundamenta sua decisão com base em evidências (presença de banco de horas sem CCT) e interpretação da lei (Súmula TST 85), garantindo que a empresa tenha sido ouvida e que as razões para a decisão sejam explícitas. Isso indica que o processo foi conduzido de acordo com o direito, cumprindo esse predicado.\n\n**2. DECISÃO RECOMENDADA**\n\nCom base nos predicados normativos aplicáveis, a decisão recomendada é que seja mantida a decisão do TRT, pois ela se fundamenta corretamente na Súmula TST 85 e segue o procedimento legal adequado para resolver o caso.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **Cumpridos:**\n  - obligation_to_ground_decision_in_identified_ratio_decidendi\n  - sumula_tst_85_hour_bank_without_cct_invalid\n  - due_process_of_law\n\n- **Nenhum predicado foi violado** no cenário fornecido, pois a decisão do TRT se baseou corretamente na aplicação da Súmula TST 85 e seguiu o procedimento legal adequado.",
+  "tokens_in": 406,
+  "tokens_out": 507,
+  "latency_ms": 8687,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,29 @@
+{
+  "sha256": "41b727480a9c1eaf89fd3627f5516abea51dcaf843df2880fb564b5853979c59",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T23:49:45Z",
+  "prompt_sha": "b661f2255b5502b8f1d54e8173e364eaea6fcc82df6fd0fce186a62f26ced61c",
+  "response_text": "1. **ANÁLISE:**\n\n   - **Predicado Normativo Aplicável: hour_bank_with_cct_max_1_year**\n     Este predicado estabelece que, conforme a Consolidação das Leis do Trabalho (CLT) e jurisprudência consolidada do Tribunal Superior do Trabalho (TST), o saldo de banco de horas deve ser compensado ou liquidado até um ano após sua constituição. Caso não seja utilizado dentro deste prazo, as horas devem ser pagas como hora extra.\n\n   No cenário apresentado, a empresa estabeleceu um banco de horas com compensação semestral conforme cláusula da Convenção Coletiva de Trabalho (CCT). O saldo positivo de 80h não foi utilizado antes da rescisão do contrato. Portanto, o predicado normativo indica que, após a rescisão e considerando que o prazo máximo para compensação ou liquidação é um ano, as horas remanescentes devem ser pagas como hora extra.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base no predicado normativo \"hour_bank_with_cct_max_1_year\", a decisão recomendada é que o saldo de 80h do banco de horas não utilizado antes da rescisão deve ser pago ao empregado como hora extra, com adicional de 50%. Isso porque o prazo máximo para compensação ou liquidação das horas foi ultrapassado sem uso efetivo.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violados:**\n     - O predicado \"hour_bank_with_cct_max_1_year\" foi violado, pois a empresa não pagou o saldo remanescente como hora extra após o prazo de um ano para compensação ou liquidação sem uso efetivo das horas.\n\n   - **Cumpridos:**\n     - Não há predicados cumpridos explicitamente no cenário apresentado, já que a obrigatoriedade de pagamento do saldo como hora extra não foi observada pela empresa.",
+  "tokens_in": 344,
+  "tokens_out": 458,
+  "latency_ms": 13219,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

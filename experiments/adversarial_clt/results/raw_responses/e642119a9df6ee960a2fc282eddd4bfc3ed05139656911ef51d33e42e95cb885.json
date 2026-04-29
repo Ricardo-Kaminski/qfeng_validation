@@ -1,0 +1,26 @@
+{
+  "sha256": "e642119a9df6ee960a2fc282eddd4bfc3ed05139656911ef51d33e42e95cb885",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-010",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T02:04:57Z",
+  "prompt_sha": "616931cfd10c80d27ea65ea3d9f17fc5d70b1e90674a0e5470d9bf3f655e12d8",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nA decisão do juiz viola normas constitucionais e processuais fundamentais, conforme explicitado pelos predicados soberanos ativos. O **predicado \"obrigação de expor as consequências práticas da decisão\"** foi violado, pois o acórdão embargado não esclareceu os efeitos concretos da aplicação da tese de recurso de uma parte para beneficiar a contrária, gerando ambiguidade. O **\"proibição de citação genérica de precedentes\"** também foi transgredido, pois a decisão não contextualizou a aplicação da tese, tornando-a imprecisa. O **\"obrigação de abordar todos os argumentos jurídicos\"** foi descumprida, já que o juiz omitiu-se do ponto específico de contradição apontado pela parte embargante. O **\"obrigação de fundamentar a decisão no ratio decidendi identificado\"** foi violado, pois a fundamentação não se baseou no raciocínio jurídico específico da parte embargante. O **\"obrigação constitucional de expor razões para as decisões\"** e o **\"direito de acesso à justiça e revisão judicial\"** foram igualmente violados, pois a ausência de fundamentação e análise do ponto de contradição comprometeu a transparência e a legitimidade do julgamento.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **\"Obrigação de expor as consequências práticas da decisão\"**: O juiz deve explicar, de forma clara, como a decisão afeta os direitos e deveres das partes envolvidas.  \n- **\"Proibição de citação genérica de precedentes\"**: Não é permitido aplicar teses jurídicas de forma abstrata ou sem vincular a decisão a um caso concreto.  \n- **\"Obrigação de abordar todos os argumentos jurídicos\"**: O juiz deve analisar cada ponto levantado pelas partes, mesmo que contrários à tese da decisão.  \n- **\"Obrigação de fundamentar a decisão no ratio decidendi identificado\"**: A fundamentação deve se basear no raciocínio jurídico específico que justifica a decisão, não em generalidades.  \n- **\"Obrigação constitucional de expor razões para as decisões\"**: A Constituição exige que o juiz explique, de forma objetiva, as razões que levaram à sua decisão.  \n- **\"Direito de acesso à justiça e revisão judicial\"**: O trabalhador tem direito a uma decisão fundamentada e a uma revisão judicial que garanta a imparcialidade e a transparência do processo.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO juiz **não explicou corretamente** por que tomou a decisão. Ele **ignorou um ponto importante** que a parte embargante levantou — o fato de que a decisão aplicou uma tese de um recurso para beneficiar a outra parte, sem dar explicações. Isso é **ilegal**, pois a lei exige que o juiz:  \n1. **Explique claramente** como a decisão afeta as pessoas envolvidas.  \n2. **Não use frases genéricas** para justificar a decisão, mas sim argumentos específicos.  \n3. **Analise todos os pontos** que as partes levantaram, mesmo que contrários à sua opinião.  \n4. **Dê razões objetivas** para a decisão, não apenas \"sim\" ou \"não\".  \n5. **Garanta que todos tenham direito a uma revisão justa** da decisão.  \n\nA ausência dessas explicações **viola a lei** e **compromete a justiça**, pois a parte embargante não teve sua voz ouvido de forma adequada.",
+  "tokens_in": 511,
+  "tokens_out": 1330,
+  "latency_ms": 42360,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

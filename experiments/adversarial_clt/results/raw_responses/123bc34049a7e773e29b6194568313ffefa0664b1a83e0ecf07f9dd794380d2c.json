@@ -1,0 +1,19 @@
+{
+  "sha256": "123bc34049a7e773e29b6194568313ffefa0664b1a83e0ecf07f9dd794380d2c",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-006",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T06:43:12Z",
+  "prompt_sha": "372fd68611fe63745a48bfe400c3aeff4da8c10c80e09cd56b4d200a41006bed",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a adoção de um banco de horas por uma empresa de limpeza urbana, com base em regulamento interno aprovado em assembleia dos empregados. A questão central é saber se essa aprovação é válida para fins do Artigo 59, §2° da CLT.\n\n**Interpretação**\n\nPara analisar esse cenário, devemos considerar os dispositivos legais aplicáveis:\n\n- O Artigo 59, §1° da CLT dispõe sobre a necessidade de aprovação sindical para alterações contratuais. No entanto, o §2° permite que as partes (empregador e empregados) acordem em alterar cláusulas contratuais sem a necessidade de aprovação sindical, desde que seja por maioria dos trabalhadores.\n- O Artigo 611 da CLT estabelece o princípio da representação sindical na negociação coletiva.\n\n**Interpretação no caso concreto**\n\nNesse cenário, a empresa argumenta que a aprovação em assembleia sem a presença do sindicato é equivalente à aprovação por maioria dos trabalhadores prevista no Artigo 59, §2° da CLT. No entanto, há questionamentos sobre a validade dessa aprovação devido à ausência de representação sindical.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando o princípio da representação sindical e a interpretação do Artigo 59, §2° da CLT, recomendo que a decisão seja favorável aos empregados. Isso porque a ausência de representação sindical na assembleia onde foi aprovado o regulamento interno pode ser considerada como não cumprimento do requisito mínimo para alterações contratuais previstas no Artigo 59, §1° da CLT.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n- **Art. 59, §2° da CLT**: Permite a alteração de cláusulas contratuais por maioria dos trabalhadores.\n- **Súmula 331 do TST**: \"É nulo o acordo coletivo que não tenha sido assinado pelo sindicato patronal ou pela entidade sindical representativa da categoria profissional, salvo se aprovado em assembleia geral da empresa ou da categoria.\"\n- **Precedentes constitucionais**: O princípio da representação sindical está previsto na Constituição Federal de 1988 (Art. 8°, III), o que reforça a importância da participação do sindicato nas negociações coletivas.\n\n**CONCLUSÃO**\n\nA decisão deve ser favorável aos empregados, considerando a ausência de representação sindical na assembleia e o princípio da representação sindical previsto no Artigo 8°, III da Constituição Federal.",
+  "tokens_in": 308,
+  "tokens_out": 651,
+  "latency_ms": 21375,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "b77cb73156902bcafd0a255c1a67f4018e579dfbcd0cdcf34ec8ad604b4d970c",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T20:17:23Z",
+  "prompt_sha": "7b3cd5c63a7680536f68f1f5211a478265ad46d5b78066f79c2c441ba6cd24f1",
+  "response_text": "**ANÁLISE**\n\n1.  **Identificação dos dispositivos do contexto normativo aplicáveis ao caso:**\n    *   A CCT (Convenção Coletiva de Trabalho) firmada entre a empresa e o sindicato é a principal fonte de direito aplicável, pois estabelece as condições específicas para o banco de horas.\n    *   O artigo 59 da CLT (Consolidação das Leis do Trabalho), que trata sobre o banco de horas, também é relevante.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a compensação das horas trabalhadas dentro do prazo estabelecido na CCT seja considerada válida e eficaz.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n2.  **Fundamentação Normativa:**\n    *   A CCT prevê o banco de horas anual, estabelecendo um prazo de 12 meses para a compensação das horas trabalhadas.\n        *   O artigo 59 da CLT permite a compensação de horas extras dentro do período máximo de 12 meses.\n        *   O fato de os extratos mensais terem sido entregues e o sindicato ter homologado a prestação anual de contas do banco de horas indica que as condições previstas na CCT foram cumpridas.\n    *   A decisão recomendada está em conformidade com esses dispositivos, pois considera válida a compensação das horas trabalhadas dentro do prazo estabelecido.\n\n**LIMITAÇÃO**\n\nSe o contexto não contiver norma aplicável, indico explicitamente essa limitação.",
+  "tokens_in": 289,
+  "tokens_out": 360,
+  "latency_ms": 6161,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

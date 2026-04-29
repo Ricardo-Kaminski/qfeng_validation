@@ -1,0 +1,19 @@
+{
+  "sha256": "2d126c36ea327644bc9b4627769dfa15d69612754c72f71356518e2389a7bdbc",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T10:12:08Z",
+  "prompt_sha": "28e5ee2fe40269eaf7e270303edc3924e42a31538f7fe0bdd2f1ad02643e5cf1",
+  "response_text": "### 1. **ANÁLISE**  \nOs dispositivos normativos aplicáveis ao caso são:  \n- **CLT Art. 489, §1°, V** (via remissão à integração CPC/CLT): Estabelece que a negociação coletiva é condição para a celebração de acordos ou convenções coletivas, incluindo a regulamentação de sistemas como o banco de horas.  \n- **Súmula TST 85, V**: Fixa que a utilização de banco de horas sem a existência de **convenção coletiva** (CCT) ou acordo coletivo é ilegal, pois viola o princípio da negociação coletiva previsto no art. 7°, XIII, da Constituição Federal.  \n- **TST-Ag-RR-868-65.2021**: Cita precedente que distingue casos de banco de horas com CCT (legitimo) de casos sem CCT (ilegal), reforçando a necessidade de negociação coletiva para a validade do sistema.  \n\nO caso concreto envolve um banco de horas **sem negociação coletiva**, o que diferencia o presente caso do precedente citado (que envolve banco de horas com CCT bancária). A ausência de CCT configura violação do art. 489, §1°, V da CLT e da Súmula TST 85, V, pois a regulamentação de banco de horas exige a existência de acordo coletivo.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**A decisão deve ser favorável ao trabalhador**, reconhecendo a **invalidade do banco de horas** por ausência de CCT.  \n\n**Motivo**: A regulamentação de banco de horas exige a existência de negociação coletiva (CCT ou acordo coletivo), conforme determina o art. 489, §1°, V da CLT e a Súmula TST 85, V. A ausência de CCT no caso concreto viola esses dispositivos, configurando ilegalidade do sistema. A distinção feita no TST-Ag-RR-868-65.2021 entre casos com e sem CCT reforça essa conclusão.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **CLT Art. 489, §1°, V**: Estabelece que a negociação coletiva é condição para a celebração de acordos ou convenções coletivas, incluindo a regulamentação de sistemas como o banco de horas.  \n- **Súmula TST 85, V**: Fixa que a utilização de banco de horas sem a existência de **convenção coletiva** (CCT) ou acordo coletivo é ilegal, pois viola o princípio da negociação coletiva previsto no art. 7°, XIII, da Constituição Federal.  \n- **TST-Ag-RR-868-65.2021**: Cita precedente que distingue casos de banco de horas com CCT (legitimo) de casos sem CCT (ilegal), reforçando a necessidade de negociação coletiva para a validade do sistema.  \n\n**Limitação**: O contexto não fornece o texto integral do **TST-Ag-RR-868-65.2021**, limitando a análise a sua menção no caso concreto. No entanto, os dispositivos da CLT e da Súmula TST 85, V são suficientes para fundamentar a decisão.",
+  "tokens_in": 326,
+  "tokens_out": 1265,
+  "latency_ms": 78827,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,29 @@
+{
+  "sha256": "24926bb82548d4ce721b4176b7088b5e6f6a40398bf57882f841d78efbc88d63",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T00:44:17Z",
+  "prompt_sha": "160b14905daf1b75240e571876e903f674ab798cba13eaa47b102ad9f8820a31",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas e Demissão\n\nCom base nos predicados normativos fornecidos e no cenário apresentado, apresento a análise, decisão recomendada e identificação de cumprimento/violação dos predicados.\n\n**1. ANÁLISE:**\n\n*   **hour_bank_with_cct_max_1_year:** Este predicado estabelece que a utilização do banco de horas está vinculada a Acordo Coletivo de Trabalho (ACT) e que o período máximo de compensação é de 1 ano. No caso, a existência de um ACT que regulamenta o banco de horas é um ponto crucial. O ACT define as regras, a forma de compensação e, presumivelmente, o tratamento em caso de rescisão contratual. A limitação de 1 ano para compensação é relevante para determinar a validade do saldo existente no momento da rescisão.\n\n**Análise Detalhada da Questão da Rescisão e o Direito ao Pagamento:**\n\nA alegação da empresa de que a demissão do empregado desfaz a lógica compensatória do banco de horas é problemática. Embora seja verdade que a lógica do banco de horas se baseia na compensação das horas extras trabalhadas em um período futuro, a rescisão contratual não pode, *a priori*, extinguir o direito do empregado ao pagamento do saldo positivo existente.\n\nA jurisprudência do TST tem sido consistente em proteger o direito do trabalhador ao recebimento do saldo positivo de horas no banco de horas, mesmo em caso de rescisão contratual, especialmente quando não há previsão expressa no ACT que trate especificamente essa situação. A lógica subjacente é que o empregado, ao trabalhar as horas extras e concordar com a compensação através do banco de horas, está abrindo mão do pagamento imediato em troca de um benefício futuro (tempo de folga). A rescisão contratual não pode privá-lo desse benefício de forma injusta.\n\nA empresa, ao se recusar a pagar o saldo de 60h, está, na prática, penalizando o empregado por ter solicitado a demissão, o que pode ser interpretado como uma forma de coação ou pressão para que ele permaneça na empresa.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que o pedido de demissão do empregado seja julgado procedente, determinando que a empresa pague o saldo positivo de 60 horas, devidamente acrescido de reflexos em verbas rescisórias (como férias + 1/3, 13º salário proporcionais e FGTS + multa de 40%).\n\nA decisão deve ser fundamentada na proteção do direito do trabalhador ao recebimento do saldo positivo do banco de horas, mesmo em caso de rescisão contratual, e na necessidade de garantir a efetividade do ACT que regulamenta o banco de horas.\n\nÉ importante ressaltar que, caso o ACT contenha disposição específica sobre o tratamento do saldo positivo em caso de rescisão, essa disposição deverá ser considerada na decisão, desde que seja clara e expressa. No entanto, na ausência de tal previsão, a jurisprudência do TST prevalece.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **hour_bank_with_cct_max_1_year:** **Conformidade**. O caso envolve a utilização de um banco de horas regulamentado por ACT e o saldo existente (60h) está dentro do período máximo de 1 ano. A questão central é a interpretação da aplicação deste predicado em face da rescisão contratual.\n*   **Predicados Implícitos (não listados, mas relevantes):**\n    *   **Princípio da Proteção ao Trabalhador:** Violação. A recusa da empresa em pagar o saldo positivo do banco de horas, em face da rescisão, demonstra uma postura que não considera a proteção devida ao trabalhador.\n    *   **Boa-fé Contratual:** Violação. A empresa agiu de má-fé ao tentar privar o empregado do benefício do banco de horas, utilizando a rescisão como pretexto.\n    *   **Jurisprudência do TST sobre Banco de Horas:** Violação. A conduta da empresa contraria a jurisprudência do TST que garante o direito do trabalhador ao recebimento do saldo positivo do banco de horas em caso de rescisão.\n\n\n\n**Observações:**\n\n*   Esta análise é baseada unicamente nos predicados normativos fornecidos e no cenário apresentado. Uma análise completa exigiria a consulta do ACT específico, da legislação aplicável e de outros elementos probatórios.\n*   A decisão final caberá ao juízo competente, que avaliará todas as circunstâncias do caso concreto.\n*   É fundamental que o empregado apresente provas do saldo positivo no banco de horas e da recusa da empresa em pagar.",
+  "tokens_in": 326,
+  "tokens_out": 1058,
+  "latency_ms": 29093,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

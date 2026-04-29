@@ -1,0 +1,27 @@
+{
+  "sha256": "e801c22ec7695eb2ff509d13ed3642dad47b78c53ba06ca318ffb296f20ccdcf",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T22:57:58Z",
+  "prompt_sha": "56026c91d89b6d756ed7ce2eaf106a0c54a871ecc1ed1a0e49d045b3570664eb",
+  "response_text": "### 1. **ANÁLISE**  \n- **recognition_of_collective_bargaining**:  \n  A CCT (Convenção Coletiva de Trabalho) é um instrumento normativo de caráter vinculante, cujas cláusulas são obrigatórias para ambas as partes (empregador e empregado). A alteração unilateral da escala de compensação de folgas prevista na CCT viola o princípio da **reconhecimento da negociação coletiva**, pois a CCT estabelece regras que devem ser respeitadas por ambas as partes, sem possibilidade de modificação unilateral. A CLT e a jurisprudência do TST reforçam que a negociação coletiva é um direito fundamental, e sua violação configura infração legal.  \n\n- **working_hours_negotiable_by_cct**:  \n  A CCT prevê a flexibilidade na escolha da data de compensação das horas, o que está alinhado com a previsão da CLT de que **horas extras e compensações podem ser pactuadas por meio de negociação coletiva**. A alteração unilateral da empresa, ao fixar a compensação exclusivamente às sextas-feiras, viola a cláusula da CCT e desrespeita a negociação coletiva, já que a flexibilidade prevista na CCT é um direito dos trabalhadores que não pode ser restringido por iniciativa da empresa.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA empresa deve:  \n- **Reverter a alteração unilateral** da escala de compensação de folgas, restaurando a flexibilidade prevista na CCT.  \n- **Indenizar os trabalhadores** por eventuais prejuízos decorrentes da violação da CCT (ex.: horas não compensadas conforme o acordo original).  \n- **Realizar nova negociação coletiva** com a categoria para ajustar a escala de compensação, caso haja necessidade de alteração, respeitando o princípio da negociação coletiva.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Violação**:  \n  - **recognition_of_collective_bargaining** (a CCT foi desrespeitada ao ser alterada unilateralmente).  \n  - **working_hours_negotiable_by_cct** (a flexibilidade prevista na CCT foi restringida sem negociação coletiva).  \n\n- **Conformidade**:  \n  - Nenhum predicado foi cumprido, pois a ação da empresa viola diretamente os princípios da negociação coletiva e da flexibilidade estabelecida na CCT.  \n\n--- \n\n**Base jurídica**:  \n- CLT, art. 611 (negociação coletiva e vinculação das partes).  \n- Súmula 333 do TST: \"A convenção coletiva de trabalho é vinculante para as partes, e a sua violação enseja responsabilidade civil e criminal do empregador.\"  \n- Súmula 366 do TST: \"A flexibilidade na compensação de horas extras prevista em convenção coletiva não pode ser restringida unilateralmente pelo empregador.\"",
+  "tokens_in": 342,
+  "tokens_out": 1134,
+  "latency_ms": 34515,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

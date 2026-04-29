@@ -1,0 +1,27 @@
+{
+  "sha256": "21d051cc08a0044f1967a991db885e6b8c35d72699c7735034b2076273b4faf8",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-010",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T23:02:04Z",
+  "prompt_sha": "914996cedcd042ca39186d6ce5def3d38864fcb0139cd1005ea4971ff55119c9",
+  "response_text": "### 1. **ANÁLISE**  \n**a) *maximum_daily_working_hours_8h*:**  \nEsse predicado normativo (art. 59 da CLT) estabelece que a jornada diária de trabalho não pode ultrapassar 8 horas. No cenário descrito, **não há menção direta a violação desse limite diário**, pois o foco do caso está no **acúmulo de horas no banco de horas** (não na jornada diária). Portanto, **não há aplicação direta desse predicado ao caso concreto**.  \n\n**b) *hour_bank_with_cct_max_1_year*:**  \nEsse predicado (art. 487, § 3º, CLT, conjugado com jurisprudência do TST) determina que o **acúmulo de horas no banco de horas** (via CCT) **não pode ultrapassar o limite estabelecido no acordo coletivo**, sob pena de **invalidação do banco de horas para as horas que excedam o limite acordado**.  \nNo caso, a CCT previa um **limite máximo de 80h** para o banco de horas, mas a empresa permitiu o acúmulo de **200h** sem **renegociação com o sindicato**. A jurisprudência do TST (ex.: Súmula 312/2013) reforça que **o limite estabelecido na CCT é vinculante**, e sua extrapolação **invalida o banco de horas para as horas que excedem o acordado**.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA empresa **viola o acordo coletivo** ao permitir o acúmulo de 200h sem renegociação com o sindicato. A **invalidação do banco de horas** deve ser aplicada **para as 120h excedentes** (200h – 80h). A empresa deve:  \n- **Restabelecer o limite de 80h** conforme a CCT original;  \n- **Indenizar o trabalhador** por eventuais prejuízos decorrentes da extrapolação (ex.: horas extras não remuneradas, se aplicável);  \n- **Renegociar o limite do banco de horas** com o sindicato, caso haja necessidade de ampliação.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **hour_bank_with_cct_max_1_year:** **Violação** (o limite de 80h estabelecido na CCT foi ultrapassado sem renegociação, invalidando o banco de horas para as horas excedentes).  \n- **maximum_daily_working_hours_8h:** **Conformidade** (não há menção de violação da jornada diária de 8h no cenário descrito).  \n\n---  \n**Conclusão:** A extrapolação do limite de acúmulo de horas no banco de horas, sem renegociação coletiva, **viola expressamente a CCT e a CLT**, conforme jurisprudência do TST.",
+  "tokens_in": 364,
+  "tokens_out": 1244,
+  "latency_ms": 37985,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

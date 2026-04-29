@@ -1,0 +1,19 @@
+{
+  "sha256": "6ae9b285f0ba2ee078e194b087ca82c6dbd2e4d9c472a0115832332aaa5120d1",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T07:06:51Z",
+  "prompt_sha": "7f3aaeca10c854121c92a9d38d09f1d973fddc91bbd93ce9e173f573df7c3924",
+  "response_text": "**ANÁLISE**\n\n1. **Identificação dos dispositivos legais aplicáveis**: O caso em questão envolve a análise de uma decisão em embargos de declaração, que identificou o ponto omisso na decisão anterior quanto ao impacto sistêmico da decisão sobre setor econômico, relacionado ao artigo 20 do Código Civil (Lei nº 10.406/2002), conhecido como Lei de Introdução às Normas de Direito Brasileiro (LINDB).\n   \n   - **LINDB (Código Civil)**: Art. 20, que estabelece regras sobre a interpretação das leis e sua aplicação.\n   \n   - **CLT**: Embora não seja diretamente mencionado, a CLT é a lei básica do trabalho no Brasil e regula as relações de trabalho, incluindo princípios sobre direito trabalhista que podem ser afetados por decisões judiciais.\n\n2. **Interpretação no caso concreto**: A omissão identificada na decisão anterior foi a ausência de análise do impacto sistêmico da decisão sobre setor econômico, relacionado ao artigo 20 do Código Civil. A questão central é se essa análise é aplicável em um caso trabalhista individual.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada deve ser que a omissão foi suprida com fundamento identificável e verificável, mas considerando a natureza do caso (trabalhista individual) e a jurisprudência aplicável, é provável que a decisão seja favorável à manutenção da decisão original, desde que os fundamentos sejam suficientes para justificar a omissão.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n- **LINDB (Código Civil)**: Art. 20, que estabelece regras sobre interpretação das leis e sua aplicação.\n  \n- **Jurisprudência do STJ**: É importante considerar a jurisprudência do Superior Tribunal de Justiça (STJ) sobre o LINDB, especialmente em relação à sua aplicabilidade em casos trabalhistas individuais.\n\n- **Súmulas do TST**: Embora não seja mencionado explicitamente, as súmulas do Tribunal Superior do Trabalho (TST) podem ser relevantes para a interpretação de direitos trabalhistas e a aplicação de leis no âmbito trabalhista.\n\n- **Precedentes Constitucionais**: A decisão deve estar em consonância com os princípios constitucionais que regem o Direito do Trabalho, como a proteção ao trabalho e à dignidade da pessoa humana.\n\n**CONCLUSÃO**\n\nConsiderando a natureza do caso trabalhista individual e a jurisprudência aplicável, a decisão recomendada é que a omissão foi suprida com fundamento identificável e verificável. A fundamentação deve estar em consonância com os dispositivos legais aplicáveis, incluindo o artigo 20 do Código Civil (LINDB), e considerar a jurisprudência do STJ sobre LINDB e as súmulas do TST relevantes para o caso.",
+  "tokens_in": 308,
+  "tokens_out": 720,
+  "latency_ms": 23671,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

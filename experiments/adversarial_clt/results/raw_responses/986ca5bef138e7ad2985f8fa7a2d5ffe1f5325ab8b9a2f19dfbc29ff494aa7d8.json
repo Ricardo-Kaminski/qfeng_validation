@@ -1,0 +1,26 @@
+{
+  "sha256": "986ca5bef138e7ad2985f8fa7a2d5ffe1f5325ab8b9a2f19dfbc29ff494aa7d8",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:13:52Z",
+  "prompt_sha": "bc5354b8aa150da0fdce223f51b505bd2eeabf2f811bee24e295f29dad7011ee",
+  "response_text": "1. **ANÁLISE:**\n\n   - **maximum_daily_working_hours_8h:** A empresa mantém uma jornada de trabalho diária de 8 horas, o que está em conformidade com a norma estabelecida pela CLT, que limita as horas diárias de trabalho a no máximo 8 horas.\n\n   - **maximum_weekly_working_hours_44h:** Com uma jornada semanal total de 44 horas (8 horas por dia durante 5 dias), a empresa está cumprindo o limite máximo estabelecido pela CLT para a semana, que é de até 44 horas. Isso inclui o acréscimo de 4 horas extras não remuneradas previstas na legislação.\n\n   - **minimum_intrajornada_interval_1h:** A empresa concede intervalos intrajornada de 1 hora integralmente para jornadas de 8 horas, cumprindo assim a exigência legal que estabelece um mínimo de 1 hora para esse tipo de intervalo em jornadas dessa duração.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base nos predicados normativos aplicáveis e na análise do cenário apresentado, recomenda-se que a empresa continue com as práticas atuais, pois está cumprindo integralmente os requisitos legais estabelecidos pela CLT em relação às jornadas de trabalho diárias e semanais, bem como aos intervalos intrajornada.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Cumpriu:** \n     - maximum_daily_working_hours_8h\n     - maximum_weekly_working_hours_44h\n     - minimum_intrajornada_interval_1h\n\n   Não há violações de predicados normativos no cenário descrito, já que a empresa está em conformidade com todas as obrigações estabelecidas pelas normas trabalhistas citadas.",
+  "tokens_in": 367,
+  "tokens_out": 421,
+  "latency_ms": 12343,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

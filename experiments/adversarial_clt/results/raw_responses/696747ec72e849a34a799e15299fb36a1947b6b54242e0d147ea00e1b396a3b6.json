@@ -1,0 +1,30 @@
+{
+  "sha256": "696747ec72e849a34a799e15299fb36a1947b6b54242e0d147ea00e1b396a3b6",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T01:31:13Z",
+  "prompt_sha": "df1029f717a9057c55dcd4415f596b5b79c52eb9d0bc84855a640fd4defece65",
+  "response_text": "**1. ANÁLISE**\n\na) **obligation_to_ground_decision_in_identified_ratio_decidendi**: O caso concreto apresenta uma fundamentação explícita, utilizando o método de distinguir (distinguishing), que permite identificar a relação entre o precedente e o caso em análise. Portanto, este predicado foi cumprido.\n\nb) **sumula_tst_85_hour_bank_without_cct_invalid**: A Súmula TST 85 se refere à validade de banco de horas sem negociação coletiva (CCT). No entanto, o caso em análise envolveu um banco de horas sem CCT, e a decisão fundamentou sua invalidade com base na aplicação da súmula. Este predicado foi cumprido.\n\nc) **due_process_of_law**: O processo trabalhista é regido pela CLT e pelo CPC, que estabelecem procedimentos para a tramitação das demandas. A decisão em questão remete à integração do CPC/CLT (Art. 489, §1°, V) como fundamento, o que indica uma aplicação correta dos procedimentos legais. Este predicado foi cumprido.\n\n**2. DECISÃO RECOMENDADA**\n\nCom base nos predicados acima, a decisão recomendada é que seja mantida a fundamentação da invalidade do banco de horas sem CCT, pois atende aos requisitos legais e jurisprudenciais aplicáveis ao caso concreto.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **Cumpridos:**\n  - obligation_to_ground_decision_in_identified_ratio_decidendi\n  - sumula_tst_85_hour_bank_without_cct_invalid\n  - due_process_of_law\n\n- **Nenhum predicado foi violado**.",
+  "tokens_in": 401,
+  "tokens_out": 403,
+  "latency_ms": 6891,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

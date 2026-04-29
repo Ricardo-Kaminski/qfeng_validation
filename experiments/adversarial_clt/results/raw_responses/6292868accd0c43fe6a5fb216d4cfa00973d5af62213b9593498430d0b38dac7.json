@@ -1,0 +1,19 @@
+{
+  "sha256": "6292868accd0c43fe6a5fb216d4cfa00973d5af62213b9593498430d0b38dac7",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-009",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T20:25:19Z",
+  "prompt_sha": "7f441830040caace0b0adfa677c7ecf354c20eb769b074f7362124a811db0c0a",
+  "response_text": "**ANÁLISE**\n\n1.  Identificação dos dispositivos do contexto normativo aplicáveis ao caso:\n    *   A Súmula TST 85 (banco de horas sem CCT) é o dispositivo mais relevante para este caso, pois trata especificamente sobre banco de horas sem Convenção Coletiva de Trabalho (CCT).\n2.  **DECISÃO RECOMENDADA**\n\n    *   A decisão recomendada deve ser a seguinte: determinar o pagamento das horas trabalhadas no período como hora extra com adicional de 50%, conforme estabelecido na Súmula TST 85.\n3.  **FUNDAMENTAÇÃO NORMATIVA**\n\n    *   A fundamentação normativa para esta decisão é a própria Súmula TST 85, que estabelece que o banco de horas sem CCT deve ser pago com adicional de 50% sobre as horas trabalhadas.",
+  "tokens_in": 298,
+  "tokens_out": 206,
+  "latency_ms": 3634,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

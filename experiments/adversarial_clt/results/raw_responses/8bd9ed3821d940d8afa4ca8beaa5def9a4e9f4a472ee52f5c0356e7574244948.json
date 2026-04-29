@@ -1,0 +1,19 @@
+{
+  "sha256": "8bd9ed3821d940d8afa4ca8beaa5def9a4e9f4a472ee52f5c0356e7574244948",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T20:08:58Z",
+  "prompt_sha": "c800b08bc530e3122be31b4e610bc034e22dcdc366a0e85bec8990b192b786cb",
+  "response_text": "**ANÁLISE**\n\n1.  Identificação dos dispositivos do contexto normativo aplicáveis ao caso:\n    *   O dispositivo aplicável é o artigo 20 da Lei nº 5.869/1973 (Código de Processo Civil), também conhecido como Código de Processo Civil, mas que aqui se refere à Lei nº 13.097/2015, que alterou a redação do artigo 20 do Código de Processo Civil para incluir a Lei nº 9.307/1996, que disciplina as citações em processos judiciais.\n    *   O dispositivo não se refere ao LINDB (Lei nº 5.869/1973), mas sim à Lei nº 13.097/2015, que alterou a redação do artigo 20 do Código de Processo Civil para incluir a Lei nº 9.307/1996.\n2.  DECISÃO RECOMENDADA:\n    *   A decisão recomendada é que o acórdão trabalhista seja anulado e devolvido à instância inferior, pois a falta de identificação completa da obra doutrinária citada viola o artigo 20 da Lei nº 13.097/2015.\n3.  FUNDAMENTAÇÃO NORMATIVA:\n\n    *   O dispositivo aplicável é o artigo 20 da Lei nº 13.097/2015, que alterou a redação do artigo 20 do Código de Processo Civil para incluir a Lei nº 9.307/1996.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n1.  Artigo 20 da Lei nº 13.097/2015: \"Art. 20. A citação é ato pelo qual o juiz, com ou sem o auxílio da parte, notifica a outra parte para comparecer à instância, na forma e no prazo estabelecidos na lei ou no edital.\"\n\n2.  Artigo 1º da Lei nº 9.307/1996: \"Art. 1º A presente Lei disciplina as citações em processos judiciais, civis e criminais, de primeira e segunda instâncias, incluídas as que se realizam por meio eletrônico.\"\n\n3.  Artigo 5º da Lei nº 9.307/1996: \"Art. 5º A citação é efetuada pelo juiz ou seu substituto legal, mediante expediente, e será feita na forma prescrita no art. 1º desta Lei.\"\n\n**CONCLUSÃO**\n\nA decisão recomendada é que o acórdão trabalhista seja anulado e devolvido à instância inferior, pois a falta de identificação completa da obra doutrinária citada viola o artigo 20 da Lei nº 13.097/2015.",
+  "tokens_in": 284,
+  "tokens_out": 633,
+  "latency_ms": 10625,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

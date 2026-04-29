@@ -1,0 +1,19 @@
+{
+  "sha256": "f2b328f35013862a135dd955aab80a9b4365600ecc4510e2847d3221ad74e471",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-006",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T06:29:15Z",
+  "prompt_sha": "3c3bf26b759c3caf4921d03d84985f8e176601166be5cbd9d11c060520954d15",
+  "response_text": "**ANÁLISE**\n\n1.  **Identificação dos dispositivos legais aplicáveis:** O dispositivo legal aplicável nesse caso é o artigo 489, § 1°, I do Código de Processo Civil (CPC), que estabelece a obrigação da decisão ser fundamentada.\n2.  **Interpretação no caso concreto:** A decisão interlocutória da Juíza do Trabalho emitiu uma decisão sem explicar quais documentos seriam suficientes e qual fato probatório ficaria demonstrado, o que é um requisito fundamental para a decisão.\n3.  **Análise da decisão:** A decisão interlocutória não atende aos requisitos do artigo 489, §1°, I do CPC.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada deve ser a anulação da decisão interlocutória por deficiência de motivação, com fundamento no artigo 489, §1°, I do Código de Processo Civil (CPC).\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   **CLT:** Não há dispositivo específico da CLT que se aplique a esse caso.\n*   **Súmulas do TST:**\n    *   Súmula 121/STJ: \"A decisão interlocutória deve ser fundamentada.\"\n*   **Precedentes constitucionais:**\n    *   Artigo 93, inciso IX da Constituição Federal: \"Os juízes e os membros do Ministério Público são públicos e estáveis no exercício do cargo ou ministério por não podendo ser removidos senão por decisão judicial.\"\n*   **CPC:** Artigo 489, §1°, I: \"A decisão é ilógica quando contraditória com os fatos ou com as próprias parte da decisão.\"\n\n**CONCLUSÃO**\n\nEm resumo, a decisão interlocutória da Juíza do Trabalho não atende aos requisitos fundamentais de uma decisão. Portanto, deve ser anulada por deficiência de motivação, com fundamento no artigo 489, §1°, I do Código de Processo Civil (CPC).",
+  "tokens_in": 295,
+  "tokens_out": 500,
+  "latency_ms": 16375,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "94963b73f66bc5b97aded4c3e975872bc26de932ea6f9d93e06e2ed09c277f66",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-008",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T20:15:59Z",
+  "prompt_sha": "e1659c5429e8d4021dbbfd8bec4539ebca49823acf42a3cc8afc510d0a89683d",
+  "response_text": "**ANÁLISE**\n\nO caso apresentado envolve um empregado que pediu demissão após a estabelecimento de banco de horas por acordo coletivo (ACT) com compensação em 7 meses. O saldo positivo é de 60 horas, e o empregador se recusou a pagar este saldo alegando que o pedido de demissão desfaz a lógica compensatória do banco de horas.\n\n**DISPOSITIVOS APLICÁVEIS**\n\n1. **Artigo 59 da CLT**: Regula os acordos coletivos e estabelece que eles podem ser alterados ou rescindidos por acordo entre as partes, desde que não violem direitos dos empregados.\n2. **Artigo 59, § 2º da CLT**: Especifica que o acordo coletivo pode prever a compensação de horas extras dentro do período de um ano, podendo ser estendido por mais seis meses se houver acordo entre as partes.\n3. **Súmula Vinculante nº 331 do STF**: Determina que \"A rescisão do contrato de trabalho não extingue o direito ao pagamento das horas extras acumuladas.\"\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a empresa pague o saldo de 60 horas ao empregado. Isso porque, mesmo com o pedido de demissão, o empregado tem direito ao pagamento das horas extras pendentes, conforme estabelece a Súmula Vinculante nº 331 do STF.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\nA recusa da empresa em pagar o saldo devido ao empregado não está justificada. O pedido de demissão do empregado não extingue automaticamente seu direito ao pagamento das horas extras acumuladas, conforme determina a Súmula Vinculante nº 331 do STF.\n\nAlém disso, o acordo coletivo (ACT) que estabeleceu o banco de horas com compensação em 7 meses é válido e deve ser respeitado. O empregador não pode se recusar a pagar o saldo apenas porque o empregado pediu demissão.\n\nPortanto, é recomendável que a empresa pague o saldo devido ao empregado, cumprindo com suas obrigações trabalhistas e legais.",
+  "tokens_in": 304,
+  "tokens_out": 528,
+  "latency_ms": 8874,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

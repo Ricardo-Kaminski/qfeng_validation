@@ -1,0 +1,19 @@
+{
+  "sha256": "4a0a920050b82fb89f3b919cca072e4b5d5488382d5244de2c589f26cdb54a9f",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T12:29:22Z",
+  "prompt_sha": "c6c70b9d2292a4d84e6ab8d671e81e0bde2fa1ee5d8ff83f8b588274d9a8c177",
+  "response_text": "### ANÁLISE:\n\nNo cenário apresentado, um acórdão trabalhista está sendo analisado para determinar a compatibilidade de uma situação específica (banco de horas em CCT bancária) com um precedente do Tribunal Superior do Trabalho (TST). O processo normativo envolve a identificação e aplicação dos dispositivos legais e jurisprudenciais relevantes.\n\n1. **Identificação do Precedente**: O acórdão menciona o número específico do precedente (TST-Ag-RR-868-65.2021.5.13.0030), que é crucial para verificar a aplicabilidade ao caso concreto.\n   \n2. **Compatibilidade Fática**: A análise deve verificar se os fatos do caso em julgamento são compatíveis com aqueles tratados no precedente, especialmente em relação à implementação de banco de horas conforme estabelecido na CCT (Convenção Coletiva de Trabalho) bancária.\n\n3. **Aplicação da Ratio**: A ratio decidendi do precedente deve ser aplicada ao caso concreto para determinar se as mesmas razões jurídicas justificam a decisão no novo contexto.\n\n### DECISÃO RECOMENDADA:\n\nA decisão recomendada é que o caso em julgamento seja resolvido de acordo com os princípios estabelecidos no precedente citado, desde que haja compatibilidade fática e jurídica. Se o banco de horas foi implementado conforme as normas da CCT bancária e está alinhado com a jurisprudência do TST, deve ser considerado válido.\n\n### FUNDAMENTAÇÃO NORMATIVA:\n\n1. **Precedente Jurisprudencial**: O acórdão se baseia no precedente TST-Ag-RR-868-65.2021.5.13.0030. A análise do conteúdo desse precedente é essencial para garantir que as mesmas condições e razões jurídicas se apliquem ao caso em julgamento.\n\n2. **Normas Legais Aplicáveis**:\n   - **Convenção Coletiva de Trabalho (CCT)**: A CCT bancária deve ser examinada para verificar a legalidade da implementação do banco de horas.\n   - **Consolidação das Leis do Trabalho (CLT)**: Artigos relacionados ao banco de horas, como o artigo 59-A da CLT, que estabelece as condições sob as quais o banco de horas pode ser aplicado.\n\n3. **Súmulas do TST**: Se houver súmulas específicas do TST que tratam sobre a aplicação de banco de horas em CCTs, elas devem ser consideradas para reforçar a decisão.\n\n### Limitações:\n\nSe o contexto normativo não contiver dispositivos legais ou jurisprudenciais diretamente aplicáveis ao caso específico (por exemplo, se a CCT bancária não estiver alinhada com os requisitos legais do banco de horas), essa limitação deve ser explicitada. Nesse caso, a decisão poderia divergir do precedente citado.\n\nEm resumo, a decisão deve seguir o precedente e as normas aplicáveis, desde que haja compatibilidade fática e jurídica com o caso em julgamento.",
+  "tokens_in": 325,
+  "tokens_out": 737,
+  "latency_ms": 45327,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

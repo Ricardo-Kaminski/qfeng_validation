@@ -1,0 +1,29 @@
+{
+  "sha256": "53898349d7b02275936be50f550b8d9bd5f67de9e4706aa3f8b5c0acee6dff38",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-009",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:45:07Z",
+  "prompt_sha": "80af890d500c9e214e8752f76bb2139a52a118a1a0ce063f734a5a13323783cf",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, apresento a análise, decisão recomendada e identificação de cumprimento/violação dos predicados.\n\n**1. ANÁLISE:**\n\n*   **`semester_hour_bank_requires_cct_or_act` (Banco de horas requer CCT ou Ato):** Este predicado indica que a implementação de um banco de horas, como instrumento para flexibilização da jornada de trabalho, necessita de base legal, que pode ser uma Convenção Coletiva de Trabalho (CCT) ou um Ato (como um acordo individual ou acordo coletivo específico). No caso, a construtora invocou uma CCT para implementar o banco de horas. A validade dessa CCT, e consequentemente do banco de horas, é o ponto central da controvérsia.\n\n*   **`recognition_of_collective_bargaining` (Reconhecimento da negociação coletiva):** Este predicado estabelece que a negociação coletiva, para ser válida e eficaz, deve refletir a representatividade adequada das partes envolvidas. A CCT é fruto da negociação entre o sindicato da categoria econômica (construtores) e o sindicato da categoria profissional dos empregados (no caso, a alegação é de que não representava os administrativos). A ausência de participação do sindicato representativo dos empregados administrativos na negociação da CCT é o cerne da questão. A validade da CCT, portanto, depende do reconhecimento da sua representatividade.\n\n**Análise Concomitante:** A aplicação do banco de horas aos empregados administrativos, sem a sua representação na negociação da CCT, levanta a questão da validade da aplicação da CCT a essa categoria. A jurisprudência do TST tem sido rigorosa quanto à representatividade na negociação coletiva.  Embora a CCT possa regular as condições de trabalho para a categoria econômica e para a categoria profissional que a firmou, sua aplicação a outras categorias de trabalhadores exige cautela e, em alguns casos, pode ser considerada inválida se não houver uma base legal ou negocial que justifique essa extensão. A simples invocação da CCT para impor obrigações a uma categoria não representada pode ser considerada uma violação do princípio da representatividade.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se a decisão de que a aplicação do banco de horas aos empregados administrativos é **IMPROCEDENTE**. A CCT, por ter sido firmada sem a participação do sindicato representativo da categoria de empregados administrativos, não possui validade para regular as condições de trabalho dessa categoria em relação ao banco de horas. A imposição do banco de horas sem a devida representação configura uma violação do princípio da negociação coletiva e pode gerar o direito à compensação das horas extras não pagas, caso a jornada de trabalho excedesse a legal ou a contratual.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **`semester_hour_bank_requires_cct_or_act` (Banco de horas requer CCT ou Ato):** **Cumprido** em sua literalidade, pois existe uma CCT. No entanto, a validade da CCT é questionável, o que afeta a validade do ato implementado (banco de horas).\n*   **`recognition_of_collective_bargaining` (Reconhecimento da negociação coletiva):** **Violado**. A CCT foi firmada sem a participação do sindicato representativo da categoria de empregados administrativos, comprometendo a sua validade para essa categoria. A falta de reconhecimento da representatividade da CCT para os administrativos invalida a sua aplicação.\n\n**Observações:**\n\n*   A decisão final dependerá da análise do caso concreto, incluindo a avaliação da representatividade do sindicato que firmou a CCT e a existência de outros instrumentos normativos que possam regular as condições de trabalho dos empregados administrativos.\n*   A empresa poderia ter buscado um acordo específico com os empregados administrativos ou com o sindicato que os representa para implementar o banco de horas de forma legítima.\n*   É importante ressaltar que a jurisprudência do TST tem evoluído no sentido de proteger a autonomia das categorias profissionais e garantir a sua participação nas negociações coletivas.",
+  "tokens_in": 331,
+  "tokens_out": 943,
+  "latency_ms": 25983,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

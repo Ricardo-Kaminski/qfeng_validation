@@ -1,0 +1,19 @@
+{
+  "sha256": "325beec132dbf7263049ad8ae431621d7019ff006d4b33224be53fd4b0d7ee3a",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-007",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T11:19:52Z",
+  "prompt_sha": "35be560b3d56480b261099a368fe4a0b566785771735d919158eb0a8a25e76e3",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a questão central é se um IRDR (Informativo de Jurisprudência) do TRT da 15ª Região pode ser considerado como precedente vinculante nacional pelo TST ao julgar um recurso de revista. O CPC/2015 estabelece que os precedentes judiciais têm efeitos vinculantes em certas circunstâncias, mas há limitações quanto à sua aplicação.\n\n- **CPC Art. 489, §1°, V:** Este dispositivo do Código de Processo Civil estipula que é cabível a interposição de recurso especial quando houver violação ao princípio da isonomia ou à súmula vinculante, entre outros fundamentos. A parte prejudicada argumenta que o IRDR não possui eficácia nacional e, portanto, sua aplicação como precedente vinculante pelo TST constitui uma violação a este dispositivo.\n\n- **Natureza dos Precedentes:** O CPC/2015 (Art. 927) e as Súmulas do STF e do próprio TST estabelecem que os precedentes têm força normativa, mas apenas aqueles fixados pelo Supremo Tribunal Federal ou pelo próprio TST em julgamentos de recursos repetitivos possuem eficácia vinculante nacional.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada seria a anulação da aplicação do IRDR como precedente vinculante no caso, pois ele não possui essa qualidade legalmente reconhecida em âmbito nacional. O TST deve considerar apenas os precedentes que têm eficácia vinculante conforme estabelecido pelo CPC/2015 e pelas súmulas pertinentes.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **CPC Art. 489, §1°, V:** Permite a interposição de recurso especial quando houver violação ao princípio da isonomia ou à súmula vinculante. A aplicação do IRDR como precedente nacional sem que tenha sido afetado pelo TST como repetitivo viola este dispositivo, pois não possui eficácia vinculante.\n\n- **CPC Art. 927:** Estabelece a força normativa dos precedentes judiciais, mas destaca que apenas aqueles fixados em julgamentos de recursos repetitivos pelo TST ou súmulas do STF têm efeito vinculante nacional.\n\n- **Súmula Vinculante n. 10 do STF:** Define a eficácia dos precedentes judiciais, reforçando que apenas os fixados em julgamentos de recursos repetitivos pelo TST ou súmulas do STF têm efeito vinculante.\n\nDado o contexto normativo apresentado, não há disposição legal que permita ao IRDR de um TRT ter eficácia nacional como precedente vinculante. Portanto, a aplicação do IRDR nesse caso deve ser considerada inadequada sob as normas vigentes.",
+  "tokens_in": 312,
+  "tokens_out": 695,
+  "latency_ms": 39750,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

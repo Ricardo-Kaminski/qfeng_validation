@@ -1,0 +1,26 @@
+{
+  "sha256": "fe8afc02ed75b139ebc600050f5ec7767e9f6a1e94f1856de4ea61a879fd101c",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-007",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:56:59Z",
+  "prompt_sha": "a8826b990f48a3abad17b87cd070c771a9e46b427fb5e297b0c0991d8fc5f2a0",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG identificou uma **violação** da ordem jurídica trabalhista, com base nos seguintes predicados soberanos ativos:  \n- **Obrigação de explicitar as consequências práticas da decisão** (sovereign(obligation_to_state_practical_consequences_of_decision)): O TST não explicou como a aplicação do IRDR regional como precedente vinculante afeta concretamente os direitos da parte prejudicada, violando o princípio da transparência processual.  \n- **Proibição de citação genérica de precedentes** (sovereign(prohibition_of_generic_precedent_citation)): O TST utilizou um IRDR regional sem verificar sua eficácia nacional, o que é proibido pela legislação processual trabalhista (CPC Art. 489, §1°, V).  \n- **Obrigação de abordar todos os argumentos jurídicos** (sovereign(obligation_to_address_all_legal_arguments)): A decisão omitiu a análise da falta de eficácia nacional do IRDR, ignorando o argumento da parte prejudicada.  \n- **Obrigação de fundamentar a decisão em ratio decidendi identificada** (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)): O TST não vinculou sua decisão a um fundamento jurídico específico, mas a um precedente regional sem validade nacional.  \n- **Obrigação constitucional de fundamentar decisões** (sovereign(constitutional_obligation_to_state_reasons_for_decisions)): A ausência de fundamentação adequada viola o art. 5º, XXXV da CF, que exige motivação das decisões judiciais.  \n- **Direito de acesso à justiça e revisão judicial** (sovereign(right_of_access_to_justice_and_judicial_review)): A aplicação indevida do IRDR regional prejudicou o direito da parte de obter uma decisão fundamentada e revisável.  \n\nA combinação desses predicados soberanos ativos revela uma **violação direta** das regras processuais e constitucionais, justificando a recomendação de violação.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O Judiciário deve explicar **como a decisão afeta os direitos concretos** das partes (ex.: impactos financeiros, prazos, etc.).  \n- **sovereign(prohibition_of_generic_precedent_citation)**: É proibido citar precedentes **sem verificar sua eficácia nacional** (ex.: IRDRs não repetitivos não podem ser usados como vinculantes).  \n- **sovereign(obligation_to_address_all_legal_arguments)**: O juiz deve **analisar todos os argumentos** apresentados pelas partes, mesmo os contrários à sua posição.  \n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão deve ser fundamentada em **um fundamento jurídico claro e identificável** (ex.: artigo da CLT, súmula do TST, etc.).  \n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: A Constituição exige que **toda decisão judicial seja motivada**, com explicações racionais e legais.  \n- **sovereign(right_of_access_to_justice_and_judicial_review)**: As partes têm direito a **obter uma decisão justa, revisável** e que respeite seus direitos fundamentais.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO TST (tribunal que julga casos trabalhistas) **usou uma regra local como se fosse uma regra nacional**, o que é proibido. Isso significa que a decisão do tribunal regional **não tem validade para todos os casos do país**, mas o TST aplicou como se tivesse. Isso prejudicou a pessoa que reclamou, porque:  \n- O tribunal **não explicou** como essa regra local afeta os direitos dela (ex.: se ela perde dinheiro ou tempo).  \n- **Ignorou** o argumento de que essa regra não é válida para todo o país.  \n- **Não fundamentou** sua decisão em uma regra clara da lei, mas em uma regra regional que não pode ser usada assim.  \n- **Violou** o direito de toda pessoa de ter uma decisão justa e revisável.  \n\nO sistema Q-FENG concluiu que isso é uma **violação da lei**, porque o TST não seguiu as regras mínimas de justiça e transparência.",
+  "tokens_in": 542,
+  "tokens_out": 1552,
+  "latency_ms": 49327,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

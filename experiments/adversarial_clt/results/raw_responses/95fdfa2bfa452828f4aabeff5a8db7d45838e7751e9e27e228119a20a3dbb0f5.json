@@ -1,0 +1,19 @@
+{
+  "sha256": "95fdfa2bfa452828f4aabeff5a8db7d45838e7751e9e27e228119a20a3dbb0f5",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-007",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T06:29:35Z",
+  "prompt_sha": "21d48fb781a7c9910e31675833fd7359f1864a57a4a1b7bc5115a5563945f7ed",
+  "response_text": "**ANÁLISE**\n\n1.  O caso em questão envolve a aplicação de uma tese fixada por um IRDR (Índice de Recursos de Revista do Trabalho) da 15ª Região como precedente vinculante nacional, sem que o mesmo tenha sido afetado como repetitivo pelo TST e não possua eficácia nacional.\n2.  A parte prejudicada alega violação ao artigo 489, §1°, V do CPC (Código de Processo Civil), pois o precedente citado não tem a eficácia vinculante que lhe foi atribuída na decisão.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é a anulação da decisão do TST e a remessa do caso ao TRT (Tribunal Regional do Trabalho) para uma nova análise, pois o precedente aplicado não possui eficácia nacional.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   **Artigo 489, §1°, V do CPC**: Esse dispositivo estabelece que a decisão deve ser anulada se for aplicado precedente com eficácia vinculante sem que o mesmo tenha sido afetado como repetitivo pelo TST e não possua eficácia nacional.\n*   **Súmula 379 do TST**: Essa súmula estabelece que a decisão de primeiro grau deve ser anulada se for aplicado precedente com eficácia vinculante sem que o mesmo tenha sido afetado como repetitivo pelo TST e não possua eficácia nacional.\n*   **Precedentes constitucionais**: O Supremo Tribunal Federal (STF) estabeleceu em alguns julgados que a aplicação de precedente com eficácia vinculante sem que o mesmo tenha sido afetado como repetitivo pelo TST e não possua eficácia nacional viola os direitos fundamentais das partes envolvidas.\n\n**CONCLUSÃO**\n\nA decisão do TST foi tomada de forma equivocada, pois aplicou precedente com eficácia vinculante sem que o mesmo tenha sido afetado como repetitivo pelo TST e não possua eficácia nacional. Portanto, a anulação da decisão do TST e a remessa do caso ao TRT para uma nova análise é a decisão mais adequada para garantir os direitos fundamentais das partes envolvidas.",
+  "tokens_in": 320,
+  "tokens_out": 562,
+  "latency_ms": 20203,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

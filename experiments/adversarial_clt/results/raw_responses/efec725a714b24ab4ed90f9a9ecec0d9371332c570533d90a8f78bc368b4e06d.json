@@ -1,0 +1,26 @@
+{
+  "sha256": "efec725a714b24ab4ed90f9a9ecec0d9371332c570533d90a8f78bc368b4e06d",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-013",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T00:34:24Z",
+  "prompt_sha": "e0d30695ad77e6fa82d74d87ad55c89df45927ed896fab63810d42a3383b74c7",
+  "response_text": "## Análise do Caso à Luz dos Predicados Normativos\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, a análise se desenvolve da seguinte forma:\n\n**1. ANÁLISE DA APLICAÇÃO DOS PREDICADOS:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi (Obrigação de fundamentar a decisão na ratio decidendi identificada):** Este predicado é *cumprido* de forma exemplar no cenário. O acórdão do TST demonstra rigor na identificação da *ratio decidendi* do TST-Ag-RR-868-65.2021.5.13.0030 (validade do banco de horas no setor bancário).  A decisão não apenas cita o julgado, mas também o *analisa* para extrair sua ratio. A identificação é clara e verificável, demonstrando a intenção de aplicar corretamente o precedente.\n*   **due_process_of_law (Devido processo legal):** Este predicado é *cumprido*. A decisão do TST segue o devido processo legal ao analisar o precedente, identificar sua ratio, e, crucialmente, *distinguir* o caso concreto do precedente. A distinção fática, baseada na interpretação da CF/88 Art. 7°, XIII e XIV, demonstra a aplicação do princípio da legalidade e da razoabilidade, elementos essenciais do devido processo legal.  A parte aérea teve a oportunidade de apresentar seus argumentos, e a decisão do TST é fundamentada.\n*   **stf_tema1046_binding_precedent_applied (Aplicação do precedente do STF Tema 1046):** Este predicado é *cumprido* de forma indireta. O TST-Ag-RR-868-65.2021.5.13.0030, que é o precedente citado, já se fundamentou no Tema 1046 do STF.  Portanto, a decisão do TST, ao analisar e distinguir esse precedente, implicitamente considera e aplica a orientação do STF sobre a validade do banco de horas. A decisão do TST não ignora o Tema 1046, mas o interpreta à luz do caso concreto.\n\n**2. DECISÃO RECOMENDADA:**\n\nA decisão do TST, que rejeita a aplicação do precedente do setor bancário ao caso do setor aéreo, é a decisão *correta* e *recomenda-se* sua manutenção. A fundamentação baseada na distinção fática, ancorada na CF/88 Art. 7°, XIII e XIV, demonstra a correta aplicação do direito.  A decisão demonstra a importância de não aplicar cegamente precedentes, mas sim analisá-los criticamente à luz do caso concreto e da legislação aplicável.  A manutenção da decisão garante a segurança jurídica e a aplicação do direito de forma justa e equitativa.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** Conformidade (Cumprido)\n*   **due_process_of_law:** Conformidade (Cumprido)\n*   **stf_tema1046_binding_precedent_applied:** Conformidade (Cumprido - de forma indireta, através da análise do precedente do TST que já se fundamentou no Tema 1046)\n\n**Observação:** A decisão do TST, ao distinguir o precedente, não viola o princípio do *stare decisis* (seguir os precedentes). O *stare decisis* não exige a aplicação automática de precedentes, mas sim a análise cuidadosa e a fundamentação da decisão, mesmo quando se diverge de um precedente. A distinção fática, como demonstrada no cenário, é um mecanismo legítimo para evitar a aplicação indevida de precedentes.",
+  "tokens_in": 429,
+  "tokens_out": 865,
+  "latency_ms": 23953,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

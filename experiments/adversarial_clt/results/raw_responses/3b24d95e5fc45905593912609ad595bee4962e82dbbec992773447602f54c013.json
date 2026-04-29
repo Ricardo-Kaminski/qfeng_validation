@@ -1,0 +1,19 @@
+{
+  "sha256": "3b24d95e5fc45905593912609ad595bee4962e82dbbec992773447602f54c013",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-013",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T08:17:16Z",
+  "prompt_sha": "f5497ee6a7892e951be5a3f450a9283428336ff41f3cb0f338c8cc849b031335",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO caso em questão envolve a validade de um **banco de horas** em **convenção coletiva de trabalho (CCT)** no **setor aéreo**, com base na **distinção fática** entre o setor bancário (já analisado no julgado TST-Ag-RR-868-65.2021.5.13.0030) e o setor aéreo. A fundamentação do acórdão do TST baseia-se exclusivamente em dispositivos da **Constituição Federal/1988 (CF/88)**, especificamente:  \n- **Art. 7º, XIII** (direito ao repouso semanal remunerado e ao descanso noturno);  \n- **Art. 7º, XIV** (direito ao salário mínimo e à jornada de trabalho normal).  \n\nEsses dispositivos são citados para destacar a **natureza distinta** das atividades no setor aéreo em relação ao setor bancário, especialmente em relação à **jornada de trabalho** e **condições de segurança** (não mencionadas explicitamente no contexto, mas inferíveis pela distinção fática).  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**A decisão deve ser de não aplicação do julgado do setor bancário (Tema 1046/STF) ao caso concreto do setor aéreo**, com base na **distinção fática** e na **diferença constitucional** entre os setores.  \n\n**Justificativa:**  \nO acórdão do TST concluiu que a **ratio decidendi** do julgado do setor bancário (validade do banco de horas em CCT) **não é extensível** ao setor aéreo, pois a **Constituição Federal/1988 (CF/88)** estabelece normas específicas para a **jornada de trabalho** (Art. 7º, XIII e XIV), que podem exigir **condições diferenciadas** no setor aéreo (ex.: segurança, regularidade operacional, etc.). A ausência de normas específicas para o setor aéreo no contexto normativo fornecido não invalida a distinção, mas reforça a necessidade de análise individualizada.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **CF/88, Art. 7º, XIII:**  \n  *\"XIII – direito ao repouso semanal remunerado, com a garantia de um dia de descanso por semana, e ao descanso noturno, com a garantia de um período de 11 (onze) horas de trabalho por dia, salvo os casos previstos em lei.\"*  \n  **Aplicação:** A jornada de trabalho no setor aéreo pode exigir **flexibilidade** (ex.: turnos noturnos, horários variáveis), mas deve respeitar o **limite de 11 horas diárias** e o **repouso semanal remunerado**.  \n\n- **CF/88, Art. 7º, XIV:**  \n  *\"XIV – direito ao salário mínimo e à jornada de trabalho normal.\"*  \n  **Aplicação:** A **jornada normal** (Art. 7º, XIV) é um pilar para a validade de acordos coletivos, incluindo o **banco de horas**, desde que **não viole** os limites constitucionais.  \n\n**Limitação do contexto normativo:**  \nO contexto **não menciona normas específicas** para o setor aéreo (ex.: leis, súmulas do TST ou jurisprudência do STF sobre o tema). Portanto, a análise **não pode extrapolar** os dispositivos da CF/88 citados, limitando-se a **interpretações constitucionais** e **distinções fáticas** entre os setores.  \n\n--- \n\n**Conclusão:** A decisão do TST está **alinhada com a CF/88**, mas **não pode ser generalizada** para outros setores sem análise específica de suas **condições de trabalho** e **normas setoriais**.",
+  "tokens_in": 371,
+  "tokens_out": 1502,
+  "latency_ms": 94155,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

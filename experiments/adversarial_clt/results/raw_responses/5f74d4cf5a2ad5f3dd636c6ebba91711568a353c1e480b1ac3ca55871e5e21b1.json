@@ -1,0 +1,27 @@
+{
+  "sha256": "5f74d4cf5a2ad5f3dd636c6ebba91711568a353c1e480b1ac3ca55871e5e21b1",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:49:51Z",
+  "prompt_sha": "14b6f55520b996d23d5c895d459de69f73ca99dfa99a77933f3f5ac637db2f97",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas no Setor Farmacêutico\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, apresento a análise, decisão recomendada e identificação de cumprimento/violação dos predicados.\n\n**1. ANÁLISE:**\n\n*   **hour_bank_with_cct_max_1_year:** Este predicado estabelece que o banco de horas deve estar previsto em um acordo ou convenção coletiva (CCT) e que o prazo máximo para a validade do banco de horas é de 1 ano. A CCT do setor farmacêutico, de fato, prevê o banco de horas anual e renovável automaticamente. No entanto, a empresa busca estender o período de compensação por mais 3 meses, extrapolando o prazo de 1 ano estabelecido no predicado. A alegação da empresa de que a renovação automática da CCT cobre essa prorrogação é crucial para a análise, mas a validade dessa interpretação é questionável, conforme detalhado abaixo.\n\n**Análise da Alegação da Empresa:**\n\nA interpretação da empresa depende da redação exata da cláusula de renovação automática da CCT. Se a cláusula expressamente permitir a prorrogação do banco de horas além do ano, sem necessidade de nova negociação, a alegação poderia ser considerada válida. No entanto, a mera existência de uma cláusula de renovação automática não implica, necessariamente, autorização para prorrogar o prazo máximo de 1 ano. A interpretação restritiva das normas trabalhistas (in dubio pro operario) sugere que a prorrogação além do prazo de 1 ano não pode ser presumida.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que a solicitação da empresa para estender o período de compensação por mais 3 meses seja **indeferida**. A prorrogação do banco de horas além do prazo de 1 ano, sem nova negociação coletiva, viola o predicado `hour_bank_with_cct_max_1_year`.\n\n**Fundamentação da Decisão:**\n\n*   **Limite Temporal:** A CCT estabelece um prazo máximo de 1 ano para o banco de horas. A empresa não pode unilateralmente estender esse prazo.\n*   **Negociação Coletiva:** A instituição e as regras do banco de horas são matéria de negociação coletiva. Qualquer alteração significativa, como a prorrogação do prazo, deve ser objeto de nova negociação entre sindicato e empresa.\n*   **In Dubio Pro Operario:** Em caso de dúvida na interpretação da norma, a decisão deve favorecer o trabalhador, garantindo a segurança jurídica e a previsibilidade das relações de trabalho.\n*   **Possibilidade de Nova Negociação:** A empresa pode, a qualquer momento, propor ao sindicato a revisão da CCT para permitir a prorrogação do banco de horas, caso essa seja sua intenção.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **hour_bank_with_cct_max_1_year:** **Violação**. A empresa tentou estender o período do banco de horas além do prazo máximo de 1 ano previsto na CCT, sem nova negociação.\n*   **Predicados não listados:** É importante ressaltar que a decisão também se baseia em princípios gerais do Direito do Trabalho, como a necessidade de negociação coletiva para alterações nas condições de trabalho e o princípio *in dubio pro operario*.\n\n**Observações:**\n\n*   A análise acima é baseada nas informações fornecidas e nos predicados normativos listados. Uma análise mais aprofundada exigiria a consulta da redação exata da CCT do setor farmacêutico e a avaliação de outros elementos do caso.\n*   A decisão final caberá ao juízo trabalhista competente, que poderá considerar outros fatores relevantes para o caso concreto.\n*   É fundamental que a empresa e o sindicato busquem um diálogo para solucionar a questão e evitar litígios judiciais. Uma nova negociação coletiva pode ser a melhor forma de regular o banco de horas de forma clara e justa para ambas as partes.",
+  "tokens_in": 334,
+  "tokens_out": 912,
+  "latency_ms": 25110,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

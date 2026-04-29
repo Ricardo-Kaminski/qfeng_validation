@@ -1,0 +1,30 @@
+{
+  "sha256": "f96ea34844fb3c9dac79769446d9a60ae126da3c371ba79026ad53b7db877fea",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-006",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T23:14:23Z",
+  "prompt_sha": "0350325c96e624064d77ae2514493ddca97cca71d270755c3466ec1954baa800",
+  "response_text": "### 1. **ANÁLISE**  \nO predicado **obligation_to_ground_decision_in_identified_ratio_decidendi** impõe que a decisão judicial **deve ser fundamentada estritamente no ratio decidendi do precedente citado**, ou seja, no **fundamento jurídico específico** que motivou a conclusão do acórdão anterior. No caso concreto, o tribunal **viola esse predicado**, pois:  \n- **Cita corretamente** os precedentes (Tema 1046/STF e TST-Ag-RR-868-65.2021), mas **interpreta de forma invertida** a **ratio decidendi** do Tema 1046, que **pressupõe a existência de CCT** (Convenção Coletiva de Trabalho) para a validade de normas coletivas, incluindo o banco de horas.  \n- **Erro de aplicação**: O tribunal **usa a tese de validade de CCT bancária** para justificar a validade de banco de horas **sem CCT**, o que **contradiz o fundamento jurídico do precedente** (que exige CCT como pressuposto).  \n- **Violação da lógica jurídica**: A autonomia negocial (citada como \"espírito do Tema 1046\") **não pode ser invocada para suprir a ausência de CCT**, pois a CLT e a jurisprudência do TST exigem que a negociação coletiva seja **formalizada em documento escrito e homologado** (art. 611, CLT).  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA decisão judicial deve ser **anulada** por **violação do princípio da fundamentação jurídica** (art. 105, § 3º, da CF/88) e **incorreção na aplicação do ratio decidendi**. O tribunal:  \n- Deve reconhecer que **o Tema 1046/STF e o TST-Ag-RR-868-65.2021 pressupõem a existência de CCT** para a validade de normas coletivas, incluindo o banco de horas.  \n- Deve **rejeitar a argumentação de que a autonomia negocial pode justificar a validade de banco de horas sem CCT**, pois isso **contraria a CLT** (art. 611, CLT) e a jurisprudência do TST (ex: Súmula 396, TST).  \n- Deve **reexaminar o caso com base na ausência de CCT**, aplicando corretamente o ratio decidendi dos precedentes citados.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Violado**:  \n  - **obligation_to_ground_decision_in_identified_ratio_decidendi** (o tribunal **não fundamentou a decisão no ratio decidendi correto** dos precedentes, mas em sua inversão lógica).  \n\n- **Cumprido**:  \n  - **Nenhum outro predicado** está explicitamente listado no cenário, mas **a citação dos precedentes** (Tema 1046/STF e TST-Ag-RR-868-65.2021) **foi feita corretamente**, embora sua aplicação tenha sido equivocada.  \n\n--- \n\n### Observação Final:  \nA violação do **obligation_to_ground_decision_in_identified_ratio_decidendi** configura **vício formal e material** na decisão, pois a **falta de alinhamento entre o fundamento jurídico do precedente e a aplicação prática** compromete a **integridade da jurisprudência** e a **segurança jurídica**.",
+  "tokens_in": 372,
+  "tokens_out": 1312,
+  "latency_ms": 39921,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "01df1153d8ca942afca637eedf4e6ce4f325afaa0fe4d4e7ebcefc77a4b4e09d",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T12:12:09Z",
+  "prompt_sha": "28e5ee2fe40269eaf7e270303edc3924e42a31538f7fe0bdd2f1ad02643e5cf1",
+  "response_text": "1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**\n\nNo cenário apresentado, a decisão trabalhista se baseia em três principais referências normativas para fundamentar a invalidade de um banco de horas implementado sem negociação coletiva:\n\n   - **CLT Art. 489, §1°, V (via remissão à integração CPC/CLT)**: Este dispositivo trata da possibilidade de o juiz declarar a nulidade de ato ou contrato que viole norma imperativa de direito material ou formal, incluindo aquelas decorrentes do Direito Coletivo do Trabalho.\n   \n   - **Súmula TST 85, V**: Esta súmula estabelece que o banco de horas é válido somente se houver negociação coletiva. A ausência dessa negociação torna a prática inválida.\n\n   - **TST-Ag-RR-868-65.2021**: Este acórdão do Tribunal Superior do Trabalho (TST) trata de um caso específico onde o banco de horas foi considerado válido devido à existência de uma Convenção Coletiva de Trabalho (CCT) que regulamentava a prática, diferenciando-se do caso em análise.\n\n2. **DECISÃO RECOMENDADA: Qual deve ser a decisão e por quê**\n\nA decisão recomendada é manter a invalidade do banco de horas implementado sem negociação coletiva. Isso se justifica porque:\n\n   - A Súmula TST 85, V claramente estabelece que o banco de horas só pode ser válido mediante negociação coletiva.\n   \n   - O caso em questão não possui uma CCT específica que regulamente a prática, diferentemente do precedente citado (TST-Ag-RR-868-65.2021), onde a validade foi reconhecida devido à existência de uma CCT bancária.\n\n3. **FUNDAMENTAÇÃO NORMATIVA: Cite especificamente os artigos e súmulas do contexto acima**\n\n   - **CLT Art. 489, §1°, V**: Este dispositivo permite a nulidade de atos que violem normas imperativas, incluindo as decorrentes do Direito Coletivo do Trabalho, como a exigência de negociação coletiva para o banco de horas.\n\n   - **Súmula TST 85, V**: Estabelece que o banco de horas é válido apenas se houver negociação coletiva. A ausência dessa negociação torna a prática inválida.\n\n   - **TST-Ag-RR-868-65.2021**: Serve como precedente distinto, onde a validade do banco de horas foi reconhecida devido à existência de uma CCT específica que regulamentava a prática, diferenciando-se do caso atual.\n\nPortanto, com base nos dispositivos normativos citados e na análise do método distinguishing aplicado, a decisão deve ser pela invalidade do banco de horas implementado sem negociação coletiva.",
+  "tokens_in": 324,
+  "tokens_out": 709,
+  "latency_ms": 40547,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

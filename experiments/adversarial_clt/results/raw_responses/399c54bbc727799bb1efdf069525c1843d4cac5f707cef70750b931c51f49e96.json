@@ -1,0 +1,30 @@
+{
+  "sha256": "399c54bbc727799bb1efdf069525c1843d4cac5f707cef70750b931c51f49e96",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T23:06:05Z",
+  "prompt_sha": "2894b7676eac7e9e2cb55e15eed63978b4e2d5820472a6bee747c60e44ab8c8e",
+  "response_text": "### 1. **ANÁLISE**  \n**a) *obligation_to_ground_decision_in_identified_ratio_decidendi***  \nO TRT cumpriu essa obrigação ao:  \n- **Identificar claramente a *ratio decidendi*** da Súmula TST 60: \"o revezamento noturno integra o adicional à remuneração\".  \n- **Aplicar a *ratio* ao caso concreto**: ao analisar que o empregado trabalhava em regime 12x36 com \"períodos noturnos fixos\", o TRT demonstrou que o regime do trabalhador se enquadra na hipótese da Súmula (revezamento noturno), diferenciando-o de casos de turno fixo não noturno.  \n- **Fundamentar a decisão com base na norma identificada**, evitando o uso de critérios subjetivos ou inexistentes.  \n\n**b) *due_process_of_law***  \nO TRT observou o devido processo legal ao:  \n- **Realizar análise jurídica e fática** do caso, verificando se o regime de trabalho (12x36 com períodos noturnos fixos) correspondia ao *ratio* da Súmula TST 60.  \n- **Distinguir claramente** o caso concreto de situações não cobertas pela Súmula (ex.: turno fixo não noturno), garantindo que a aplicação da norma fosse justa e proporcional.  \n- **Evitar omissão de provas ou argumentos**, ao considerar a natureza do regime de trabalho e sua relação com a norma citada.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA decisão do TRT deve ser **confirmada e mantida**, pois:  \n- **Cumpriu a obrigação de fundamentar a decisão** com base na *ratio decidendi* da Súmula TST 60, demonstrando que o regime de trabalho do empregado (12x36 com períodos noturnos fixos) se enquadra na hipótese da Súmula.  \n- **Respeitou o devido processo legal**, ao analisar o caso concreto e diferenciá-lo de situações não abrangidas pela norma.  \n- **A aplicação da Súmula TST 60 é correta**, pois o revezamento noturno (mesmo que em horários fixos) integra o adicional noturno à remuneração, conforme jurisprudência consolidada.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Cumpridos**:  \n  - *obligation_to_ground_decision_in_identified_ratio_decidendi* (a decisão foi fundamentada com base na *ratio* da Súmula TST 60).  \n  - *due_process_of_law* (o TRT seguiu os requisitos de análise jurídica e fática, garantindo equidade e transparência).  \n\n- **Violações**:  \n  - **Nenhuma violação** foi identificada, pois os predicados normativos foram plenamente observados.  \n\n--- \n\n**Conclusão**: A decisão do TRT está **em conformidade com os predicados normativos**, e sua aplicação da Súmula TST 60 é juridicamente válida e procedimentalmente correta.",
+  "tokens_in": 389,
+  "tokens_out": 1194,
+  "latency_ms": 36593,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

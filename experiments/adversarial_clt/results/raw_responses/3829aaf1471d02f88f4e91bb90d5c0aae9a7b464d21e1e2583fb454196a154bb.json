@@ -1,0 +1,19 @@
+{
+  "sha256": "3829aaf1471d02f88f4e91bb90d5c0aae9a7b464d21e1e2583fb454196a154bb",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T08:28:37Z",
+  "prompt_sha": "5ea5a4ec4b7a213278e903919d216504e93002c7ed7cad9209cdd623ae666231",
+  "response_text": "**1. ANÁLISE:**  \nO caso envolve a implementação de um **banco de horas** por meio de **acordos individuais** sem participação de sindicatos ou negociação coletiva, o que contraria dispositivos do Direito do Trabalho brasileiro. A análise deve considerar:  \n- A **necessidade de negociação coletiva** para a instituição de banco de horas (art. 58 da CLT).  \n- A **invalidez de acordos individuais** que contrariem normas coletivas (art. 60 da CLT).  \n- A **obrigatoriedade de participação sindical** em negociações coletivas (art. 611 da CLT).  \n\n**2. DECISÃO RECOMENDADA:**  \nA **implementação do banco de horas** mediante acordos individuais **é ilegal**, pois:  \n- O banco de horas **deve ser instituído por meio de acordo coletivo** (art. 58 da CLT), e não por acordos individuais.  \n- A ausência de participação do sindicato patronal ou dos trabalhadores **invalida a negociação**, conforme previsto no art. 611 da CLT.  \n- A compensação em até 5 meses **não substitui a exigência legal de negociação coletiva**.  \n\n**3. FUNDAMENTAÇÃO NORMATIVA:**  \n- **Art. 58 da CLT:** \"O banco de horas poderá ser instituído por meio de acordo coletivo, convênio ou convenção coletiva de trabalho, observado o disposto no art. 60 desta Consolidação.\"  \n- **Art. 60 da CLT:** \"O acordo individual de trabalho não poderá conter cláusulas que contrariem as normas coletivas.\"  \n- **Art. 611 da CLT:** \"O sindicato dos trabalhadores e o sindicato dos empregadores terão direito a participar das negociações coletivas.\"  \n- **Súmula 121 do TST:** \"O banco de horas só pode ser instituído por meio de acordo coletivo, convênio ou convenção coletiva de trabalho.\"  \n\n**Limitação:**  \nO contexto normativo fornecido **não inclui dispositivos da Reforma Trabalhista (Lei 13.467/2017)**, que poderia ampliar a análise (ex.: art. 12, § 1º, da Lei 13.467/2017, que reforça a necessidade de negociação coletiva para banco de horas). No entanto, com base nas normas citadas acima, a ilegalidade do banco de horas por meio de acordos individuais é clara.",
+  "tokens_in": 288,
+  "tokens_out": 1932,
+  "latency_ms": 121655,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

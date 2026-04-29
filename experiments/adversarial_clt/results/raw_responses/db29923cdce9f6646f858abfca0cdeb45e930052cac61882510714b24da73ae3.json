@@ -1,0 +1,19 @@
+{
+  "sha256": "db29923cdce9f6646f858abfca0cdeb45e930052cac61882510714b24da73ae3",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T10:19:08Z",
+  "prompt_sha": "2fe1ebedc34b383e50481fe1e95a5b121569d27c199d9e90565501c9e095e99d",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO caso envolve a aplicação do **LINDB (Lei nº 13.043/2014)**, especificamente o **Art. 20**, que trata do **impacto sistêmico das decisões judiciais sobre setores econômicos**. A análise do contexto normativo revela que:  \n- O **Art. 20 do LINDB** foi citado como dispositivo relevante para avaliar a **extensão do impacto da decisão judicial** no setor econômico.  \n- A jurisprudência do **STJ (Superior Tribunal de Justiça)** foi invocada como base para a interpretação do LINDB, embora o contexto não mencione artigos ou súmulas específicas do STJ (limitação do contexto).  \n- A decisão concluiu que o **LINDB Art. 20 não se aplica ao caso trabalhista individual**, com base na **distinção entre decisões de caráter coletivo e individual**.  \n\n### 2. **DECISÃO RECOMENDADA**  \n**Confirmar a decisão proferida nos embargos de declaração**, pois:  \n- A **omissão apontada** (ausência de análise do LINDB Art. 20) foi **suprida com fundamento identificável e verificável**, conforme o contexto.  \n- A **jurisprudência do STJ** foi utilizada como base para a interpretação do LINDB, mesmo que o contexto não cite artigos ou súmulas específicas (limitação do contexto).  \n- A **distinção entre decisões individuais e coletivas** é compatível com a finalidade do LINDB Art. 20, que visa **proteger o equilíbrio econômico-financeiro do Estado** em casos de impacto sistêmico.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **LINDB Art. 20**: Dispositivo central para a análise do impacto sistêmico das decisões judiciais.  \n- **Jurisprudência do STJ**: Citada como base para a interpretação do LINDB, embora o contexto **não mencione artigos ou súmulas específicas** (limitação do contexto).  \n- **Limitação do contexto**: Não há menção a artigos ou súmulas do STJ que fundamentem explicitamente a aplicação do LINDB Art. 20 ao caso trabalhista individual.  \n\n**Observação**: A ausência de citação específica de normas do STJ no contexto impede uma fundamentação mais detalhada, mas a decisão está alinhada com a **interpretação do LINDB Art. 20** e com a **distinção entre decisões individuais e coletivas**.",
+  "tokens_in": 294,
+  "tokens_out": 1118,
+  "latency_ms": 69468,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

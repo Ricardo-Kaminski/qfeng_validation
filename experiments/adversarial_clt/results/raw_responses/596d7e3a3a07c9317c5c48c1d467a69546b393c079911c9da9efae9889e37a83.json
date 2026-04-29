@@ -1,0 +1,19 @@
+{
+  "sha256": "596d7e3a3a07c9317c5c48c1d467a69546b393c079911c9da9efae9889e37a83",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T06:38:53Z",
+  "prompt_sha": "ad4c06343c39e40beb5354b3121dc7db4493d512c68418d9b093860317c762b8",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a implementação de banco de horas em uma indústria têxtil por meio de acordo individual por escrito com cada empregado, sem a participação do sindicato patronal ou dos trabalhadores em qualquer acordo coletivo. A empresa sustenta que o acordo por escrito supriria a ausência de negociação coletiva para banco de horas semestral.\n\nPara analisar essa situação, é necessário identificar os dispositivos legais aplicáveis e sua interpretação no caso concreto.\n\n**Dispositivos Legais Aplicáveis**\n\n1.  **Artigo 611 da CLT**: Estabelece a possibilidade de banco de horas mediante acordo coletivo ou convenção coletiva.\n2.  **Artigo 612 da CLT**: Regula o caso em que o empregado não concordar com o acordo individual por escrito, permitindo a compensação das horas extras trabalhadas em até 5 meses.\n3.  **Súmula 379 do TST**: Determina que \"O acordo de compensação de jornada, para ser válido, depende da anuência do empregado e da prévia comunicação à autoridade competente.\"\n\n**Interpretação no Caso Concreto**\n\nA implementação do banco de horas sem a participação dos sindicatos patronal ou trabalhadores em acordo coletivo pode não atender às exigências legais. O artigo 611 da CLT exige que o banco de horas seja estabelecido por meio de acordo coletivo ou convenção coletiva, o que não ocorreu nesse caso.\n\nAlém disso, a Súmula 379 do TST determina que o acordo de compensação de jornada depende da anuência do empregado e da prévia comunicação à autoridade competente. Nesse cenário, não há menção a uma comunicação prévia ou à anuência dos empregados.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando os dispositivos legais aplicáveis e sua interpretação no caso concreto, recomenda-se que a decisão seja:\n\n*   **Declaração de nulidade do acordo individual por escrito**: O acordo não atende às exigências legais para implementação de banco de horas, pois foi estabelecido sem a participação dos sindicatos patronal ou trabalhadores em acordo coletivo e sem comunicação prévia à autoridade competente.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   **Artigo 611 da CLT**: \"O banco de horas só pode ser estabelecido por meio de acordo coletivo ou convenção coletiva.\"\n*   **Súmula 379 do TST**: \"O acordo de compensação de jornada, para ser válido, depende da anuência do empregado e da prévia comunicação à autoridade competente.\"\n\nEssa decisão visa garantir a observância das normas legais aplicáveis ao caso concreto, protegendo os direitos dos trabalhadores.",
+  "tokens_in": 302,
+  "tokens_out": 681,
+  "latency_ms": 22360,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "b1d999e666e8fb20ac9e613e48d4679a29b83995258a103090a8be094f67905c",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T08:38:14Z",
+  "prompt_sha": "2958cee28e7a701a18f57cc355fef5a0f23028baaba52627d910f4513b98c196",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO caso envolve a compensação de horas no banco de horas estabelecido por **Convenção Coletiva de Trabalho (CCT)**, com **compensação semestral**, e a **rescisão sem justa causa**. Os dispositivos normativos aplicáveis são:  \n- **Art. 59 da CLT**: Regulamenta a compensação de horas extras, estabelecendo que as horas trabalhadas além do limite legal podem ser compensadas por redução de horas em outro período.  \n- **Art. 69 da CLT**: Determina que, em caso de rescisão sem justa causa, a empresa deve pagar o saldo remanescente do banco de horas.  \n- **Súmula 270 do TST**: Estabelece que a compensação de horas no banco de horas deve ser feita **no mesmo período** em que foram trabalhadas, e se não for possível, as horas excedentes devem ser **remuneradas com adicional de 50%** (como horas extras).  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**A empresa deve pagar as 80 horas remanescentes do banco de horas com adicional de 50%**, conforme previsto na **Súmula 270 do TST**.  \n\n**Justificativa**:  \n- A **CCT** estabeleceu compensação **semestral**, mas **não substitui a regra geral da CLT** (Art. 59) e da Súmula 270 do TST.  \n- A **Súmula 270** prevalece sobre a compensação semestral, pois a compensação de horas no banco de horas **não pode ser feita em período posterior** ao da prestação do serviço, salvo se expressamente previsto em norma legal ou coletiva.  \n- Como a **rescisão ocorreu antes do término do semestre**, as horas não compensadas **não podem ser consideradas como horas normais**, mas sim como **horas extras**, exigindo o pagamento com **adicional de 50%**.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 59 da CLT**:  \n  *\"As horas extras podem ser compensadas por redução de horas em outro período, desde que não ultrapassem o limite legal.\"*  \n  (Aplica-se à compensação de horas, mas **não exime a empresa de pagar horas não compensadas como extras**.)  \n\n- **Art. 69 da CLT**:  \n  *\"Em caso de rescisão sem justa causa, a empresa deve pagar o saldo remanescente do banco de horas.\"*  \n  (Reforça a obrigação de pagamento, mas **não determina se as horas são normais ou extras**.)  \n\n- **Súmula 270 do TST**:  \n  *\"O banco de horas só pode ser compensado no mesmo período em que foram trabalhadas, e as horas excedentes devem ser remuneradas com adicional de 50%.\"*  \n  (Norma **supremo** que **prevalece sobre a CCT**, exigindo o pagamento com adicional de 50% para horas não compensadas antes da rescisão.)  \n\n**Limitação do contexto**:  \n- Não há norma no contexto que **exonere a empresa de pagar horas extras** em caso de compensação semestral. A **CCT** não substitui a **Súmula 270**, que é de **natureza geral e vinculante**.  \n\n--- \n\n### Conclusão:  \nA empresa deve pagar as 80 horas remanescentes com **adicional de 50%**, conforme a **Súmula 270 do TST** e o **Art. 59 da CLT**, independentemente da compensação semestral prevista na CCT.",
+  "tokens_in": 286,
+  "tokens_out": 2023,
+  "latency_ms": 127531,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

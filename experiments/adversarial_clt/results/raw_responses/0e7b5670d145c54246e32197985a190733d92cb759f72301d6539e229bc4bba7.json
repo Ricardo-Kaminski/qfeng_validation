@@ -1,0 +1,19 @@
+{
+  "sha256": "0e7b5670d145c54246e32197985a190733d92cb759f72301d6539e229bc4bba7",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T20:28:38Z",
+  "prompt_sha": "00a8f3092f9540e5d99a9022a0a2c27e9d386d6832210511eb6ea9ab9df059e9",
+  "response_text": "**ANÁLISE**\n\nO caso apresentado envolve a recolha de adicionais noturnos por parte da empresa de transporte. Para determinar se a empresa está atendendo às exigências legais, é necessário identificar os dispositivos normativos aplicáveis.\n\n**Dispositivos do contexto normativo aplicáveis:**\n\n*   Artigo 73 da CLT (Consolidação das Leis do Trabalho): Regula o cálculo e a remuneração dos adicionais noturnos.\n*   Artigo 59 da CLT: Define as condições de trabalho para os empregados em turnos ininterruptos de revezamento, incluindo os que trabalham à noite.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a empresa está atendendo às exigências legais, pois:\n\n*   A empresa calcula o adicional noturno como 52 minutos e 30 segundos, conforme estabelecido pelo artigo 73 da CLT.\n*   O recolhimento do adicional noturno é feito mensalmente e os contracheques discriminam o adicional noturno separadamente, o que atende ao disposto no artigo 59 da CLT.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   \"O adicional de 20% sobre o salário normal do empregado é devido, calculado na forma estabelecida em lei, para o trabalho executado entre 22 horas e 5 horas do dia seguinte.\" (Artigo 73 da CLT)\n*   \"Os turnos ininterruptos de revezamento, que se iniciam à noite, são considerados como trabalho noturno, salvo quando a duração do período diário de trabalho não excede o limite máximo estabelecido na lei.\" (Artigo 59 da CLT)\n\n**LIMITAÇÃO**\n\nNão há limitação na aplicação das normas acima mencionadas.",
+  "tokens_in": 304,
+  "tokens_out": 427,
+  "latency_ms": 7293,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

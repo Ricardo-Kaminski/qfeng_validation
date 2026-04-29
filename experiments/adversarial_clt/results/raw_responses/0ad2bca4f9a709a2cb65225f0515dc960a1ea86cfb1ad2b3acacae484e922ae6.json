@@ -1,0 +1,30 @@
+{
+  "sha256": "0ad2bca4f9a709a2cb65225f0515dc960a1ea86cfb1ad2b3acacae484e922ae6",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-001",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T01:30:29Z",
+  "prompt_sha": "0d6d211e2ba94d6b5ad507e54fb6e6c5213e18e400fd08657c709dda55070d6d",
+  "response_text": "**1. ANÁLISE**\n\na) **obligation_to_ground_decision_in_identified_ratio_decidendi**: O acórdão do TST em recurso de revista menciona expressamente o ARE 1.121.633 (Tema 1046/STF) e analisa que a CCT bancária em questão preenche os requisitos do Tema 1046, utilizando-o como base para fundamentar sua decisão. Portanto, esse predicado está cumprido.\n\nb) **stf_tema1046_binding_precedent_applied**: O acórdão do TST cita expressamente o ARE 1.121.633 (Tema 1046/STF), o que significa que está aplicando precedente vinculante da Suprema Corte. Além disso, analisa a CCT bancária à luz dos requisitos do Tema 1046 e conclui pela validade do banco de horas. Portanto, esse predicado também está cumprido.\n\nc) **due_process_of_law**: O acórdão do TST analisa a CCT bancária em questão e fundamenta sua decisão com base nos requisitos do Tema 1046/STF, o que indica que foram considerados todos os aspectos relevantes da questão. Além disso, não há indícios de que algum direito ou interesse legítimo tenha sido violado durante a análise e fundamentação da decisão. Portanto, esse predicado está cumprido.\n\n**2. DECISÃO RECOMENDADA**\n\nCom base nos predicados acima, recomendo que a decisão seja **PROFERIDA**, pois os requisitos necessários para tal foram atendidos: o acórdão do TST aplicou precedente vinculante da Suprema Corte (Tema 1046/STF), fundamentou sua decisão com base nos critérios estabelecidos pelo Tema e não há indícios de violação ao direito à prestação de contas.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **cumprido**: obligation_to_ground_decision_in_identified_ratio_decidendi, stf_tema1046_binding_precedent_applied e due_process_of_law.\n- **não há violação**: não há nenhum predicado que indique violação.",
+  "tokens_in": 417,
+  "tokens_out": 512,
+  "latency_ms": 8578,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

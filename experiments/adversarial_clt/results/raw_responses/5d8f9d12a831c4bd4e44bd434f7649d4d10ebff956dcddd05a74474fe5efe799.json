@@ -1,0 +1,19 @@
+{
+  "sha256": "5d8f9d12a831c4bd4e44bd434f7649d4d10ebff956dcddd05a74474fe5efe799",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-011",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T02:10:33Z",
+  "prompt_sha": "0bb468a82e3806412b782c7a6eb8b917f49bedfb81b3d537900aa9fbdba761b1",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Artigo 611-B da CLT:** Este artigo trata das normas relativas ao banco de horas, permitindo a compensação de jornadas em períodos específicos, desde que haja acordo entre empregador e empregado. O inciso IX do referido artigo estabelece que o banco de horas não pode ser utilizado para suprir necessidades extraordinárias ou eventuais da empresa.\n\n- **Artigo 59 da CLT:** Este dispositivo proíbe a renúncia, total ou parcial, dos direitos trabalhistas assegurados por lei. A doutrina e jurisprudência entendem que os direitos fundamentais do trabalho não podem ser objeto de negociação coletiva que resulte em sua supressão.\n\n**Interpretação no Caso Concreto:**\n\nA cláusula específica na CCT que exige dos trabalhadores a abertura de mão do adicional de horas extras, caso o banco de horas não seja compensado dentro do prazo estabelecido, pode ser considerada uma renúncia ao direito assegurado pelo artigo 59 da CLT. O adicional de horas extras é um direito individual e inerente à prestação de trabalho além da jornada normal, conforme previsto no artigo 7º, XVII, da Constituição Federal.\n\nAlém disso, a jurisprudência do TST tem se manifestado contrariamente a cláusulas que buscam suprimir direitos individuais fundamentais dos trabalhadores mediante negociação coletiva. A Súmula 331 do TST estabelece que \"A convenção ou o acordo coletivo de trabalho não podem excluir, limitar ou alterar dispositivos legais que protegem direitos individuais indisponíveis.\"\n\n### 2. DECISÃO RECOMENDADA\n\nA cláusula da CCT que obriga os trabalhadores a abrir mão do adicional de horas extras em caso de não compensação do banco de horas é inválida. A decisão deve ser tomada no sentido de anular essa cláusula específica, assegurando aos trabalhadores o direito ao recebimento do adicional de horas extras conforme previsto na legislação.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **Artigo 59 da CLT:** Proíbe a renúncia dos direitos individuais garantidos por lei, assegurando que os trabalhadores não possam abrir mão de direitos fundamentais em acordos coletivos.\n\n- **Súmula 331 do TST:** Estabelece que convenções ou acordos coletivos não podem excluir, limitar ou alterar dispositivos legais que protegem direitos individuais indisponíveis. Isso inclui o adicional de horas extras, um direito individual e inerente à prestação de trabalho além da jornada normal.\n\n- **Jurisprudência do TST:** O Tribunal Superior do Trabalho tem reiteradamente decidido que cláusulas coletivas que visam suprimir ou limitar direitos individuais fundamentais dos trabalhadores são nulas, conforme entendimento consolidado em diversas decisões.\n\nPortanto, a cláusula da CCT deve ser considerada inválida por violar princípios constitucionais e legais que protegem os direitos individuais dos trabalhadores.",
+  "tokens_in": 321,
+  "tokens_out": 772,
+  "latency_ms": 44375,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

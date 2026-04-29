@@ -1,0 +1,19 @@
+{
+  "sha256": "1cdb228abcd655bb3de2007548e665f86396a640640312cb5763298676af2fd4",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-007",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T06:55:30Z",
+  "prompt_sha": "0203c17d7e6bb0ed382852b09435518873855b089f30e8393ac946d556a2d38d",
+  "response_text": "**ANÁLISE**\n\nNo cenário apresentado, temos um banco com uma Convenção Coletiva de Trabalho (CCT) que prevê o sistema de banco de horas anual, conforme jurisprudência do TST-Ag-RR-868-65.2021 e o Tema 1046/STF. O trabalhador bancário questiona se a compensação das horas extras por meio do banco de horas afeta o direito ao adicional de horas extras.\n\nPara entender essa situação, é importante identificar os dispositivos legais aplicáveis:\n\n- **Banco de Horas**: Artigo 59 da CLT: \"O empregador poderá estabelecer um regime de compensação de horários, desde que não exceda a 10 horas diárias ou 44 horas semanais.\"\n- **Adicional de Horas Extras**: Artigo 73 da CLT: \"É devido o adicional de 50% sobre o salário-hora do empregado para as horas trabalhadas em excesso das 8 horas diárias, e de 100% para mais de 2 horas consecutivas ou 11 horas no mesmo dia.\"\n- **Sistema de Banco de Horas**: O sistema de banco de horas é uma forma de compensação de horários que permite ao empregado trabalhar mais tempo em um dia e compensar essas horas por meio do banco de horas, sem gerar direito a adicional.\n\n**Interpretação no Caso Concreto**\n\nConsiderando o cenário apresentado, onde a CCT prevê o sistema de banco de horas anual, e considerando que as horas trabalhadas são compensadas dentro do prazo estabelecido pela CCT, não há direito ao adicional de horas extras. Isso se deve à natureza do sistema de banco de horas como forma de compensação de horários, sem gerar direito a adicional.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que o trabalhador bancário não tenha direito ao adicional de horas extras, pois as horas trabalhadas foram compensadas dentro do prazo e sistema previsto na CCT.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n- **CLT**: Artigo 59 (Banco de Horas) e Artigo 73 (Adicional de Horas Extras).\n- **Jurisprudência do TST-Ag-RR-868-65.2021 e o Tema 1046/STF**: Sobre a validade do sistema de banco de horas anual como forma de compensação de horários.\n- **Súmula do TST**: Não específica, mas a interpretação da CLT e jurisprudência aplicada ao caso concreto é suficiente para embasar a decisão.\n\n**CONCLUSÃO**\n\nEm resumo, o sistema de banco de horas anual previsto na CCT, quando cumprido dentro do prazo estabelecido, não gera direito ao adicional de horas extras. A compensação das horas trabalhadas por meio desse sistema é uma forma válida de atender às necessidades de trabalho sem gerar direito a adicional.",
+  "tokens_in": 320,
+  "tokens_out": 692,
+  "latency_ms": 23547,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

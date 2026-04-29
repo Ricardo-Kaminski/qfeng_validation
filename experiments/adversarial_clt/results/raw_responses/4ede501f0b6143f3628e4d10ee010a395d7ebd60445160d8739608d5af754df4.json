@@ -1,0 +1,19 @@
+{
+  "sha256": "4ede501f0b6143f3628e4d10ee010a395d7ebd60445160d8739608d5af754df4",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-006",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T09:34:29Z",
+  "prompt_sha": "f3c84ccbea170369f112d30fe65e9798106cbf631f923ed7cbeb2573c0098f0a",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \n- **Cláusula da CCT sobre banco de horas com compensação em até 12 meses**: O acordo coletivo prevê a compensação de horas extras dentro de um prazo máximo de 12 meses, conforme descrito no contexto.  \n- **Cláusula sobre compensação por folga nas semanas de baixo movimento**: A empresa ofereceu folga compensatória, aceita pelos trabalhadores, alinhando-se ao princípio da flexibilidade previsto na CCT.  \n- **Cláusula sobre extrato mensal e prazo de compensação**: A entrega de extratos mensais e a compensação dentro do prazo de 12 meses foram cumpridas, garantindo transparência e conformidade com a CCT.  \n- **Cláusula sobre limite de 2h/dia de jornada extra**: A jornada extra nunca ultrapassou 2 horas por dia, conforme estipulado na CCT.  \n- **Cláusula sobre pagamento de horas extras não compensadas**: A CCT prevê que o saldo não compensado seria pago como hora extra com adicional de 50%, mas essa cláusula não foi acionada, pois todas as compensações ocorreram dentro do prazo.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**A empresa está em conformidade com a CCT e com as práticas descritas no contexto.**  \n**Justificativa**:  \n- A compensação de horas extras por meio de folgas nas semanas de baixo movimento, dentro do prazo de 12 meses, está alinhada com a cláusula da CCT.  \n- A entrega de extratos mensais e a compensação dentro do prazo garantem transparência e cumprimento das obrigações contratuais.  \n- O limite de 2h/dia de jornada extra foi respeitado, evitando a necessidade de aplicação da cláusula de pagamento de horas extras com adicional de 50%.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Dispositivos da CCT mencionados no contexto**:  \n  - **Banco de horas com prazo de compensação de 12 meses** (cláusula explícita no contexto).  \n  - **Compensação por folga nas semanas de baixo movimento** (cláusula explícita no contexto).  \n  - **Extrato mensal e prazo de compensação** (cláusula explícita no contexto).  \n  - **Limite de 2h/dia de jornada extra** (cláusula explícita no contexto).  \n  - **Pagamento de horas extras não compensadas com adicional de 50%** (cláusula explícita no contexto, mas não acionada).  \n\n- **Limitações do contexto**:  \n  - **Não há referência a dispositivos do Código Civil, da Consolidação das Leis do Trabalho (CLT) ou outras normas legais brasileiras**. A análise se restringe exclusivamente aos termos da CCT e aos fatos descritos no contexto.  \n  - **Não há menção a súmulas do TST ou jurisprudência** (como Súmula 382/2008 do TST, que trata de compensação de horas extras), pois o contexto normativo fornecido não inclui tais referências.  \n\n**Conclusão**: A conformidade com a CCT e a ausência de violações descritas no contexto justificam a decisão recomendada.",
+  "tokens_in": 310,
+  "tokens_out": 1408,
+  "latency_ms": 83718,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

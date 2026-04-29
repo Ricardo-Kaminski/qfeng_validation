@@ -1,0 +1,19 @@
+{
+  "sha256": "a13e39f58224ab5a925d49fd80a8b049a752359b41ed757031c1382342b2bff9",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T08:21:57Z",
+  "prompt_sha": "54fed52f1361028c4b39bac92f25e2dfe4146042ea59002edc5741c8f1792790",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \n- **Art. 59 da CLT**: Estabelece que o banco de horas só pode ser instituído por meio de **acordo coletivo de trabalho (ACT)** ou **convenção coletiva de trabalho (CCT)**, **não por meio de acordos individuais**.  \n- **Art. 60 da CLT**: Limita o banco de horas a **20% da carga horária normal** (equivalente a 8 horas diárias, 40 horas semanais, ou 160 horas mensais).  \n- **Súmula 325 do TST**: Determina que o banco de horas só é válido se instituído por **acordo coletivo**, **não por meio de acordos individuais**.  \n- **Súmula 331 do TST**: Esclarece que o banco de horas **não pode ultrapassar o período previsto no acordo coletivo**, e que **a ausência de acordo coletivo invalida a instituição do banco de horas**.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**A instituição do banco de horas pela empresa é ilegal**, e os empregados têm direito a **compensação por horas extras** acumuladas, **independentemente da assinatura dos memorandos individuais**.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 59 da CLT**:  \n  > *\"O banco de horas só pode ser instituído por meio de acordo coletivo de trabalho ou convenção coletiva de trabalho.\"*  \n  A empresa **não celebrou nenhum ACT ou CCT** com o sindicato, o que **invalida a instituição do banco de horas**.  \n\n- **Art. 60 da CLT**:  \n  > *\"O banco de horas só pode ser estabelecido por período máximo de 20% da carga horária normal.\"*  \n  Embora a empresa tenha respeitado o limite de 20% (120h em 9 meses = ~13,3h/mês), **a ausência de acordo coletivo** torna o banco de horas **nulo de pleno direito**.  \n\n- **Súmula 325 do TST**:  \n  > *\"O banco de horas só é válido se instituído por acordo coletivo, não por meio de acordos individuais.\"*  \n  A assinatura dos memorandos individuais **não substitui a necessidade de um acordo coletivo**, conforme determinado pelo TST.  \n\n- **Súmula 331 do TST**:  \n  > *\"A ausência de acordo coletivo que estabeleça o banco de horas invalida sua instituição.\"*  \n  Como o sindicato **não celebrou nenhum ACT ou CCT** com a empresa, o banco de horas **não tem validade legal**.  \n\n---\n\n### Conclusão:  \nA empresa **não pode instituir banco de horas unilateralmente**, e os empregados têm direito a **compensação por horas extras** (se aplicável) e **não podem ser obrigados a acumular horas sem base legal**. A ausência de acordo coletivo é **elemento determinante para a nulidade do banco de horas**.",
+  "tokens_in": 288,
+  "tokens_out": 1500,
+  "latency_ms": 93812,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

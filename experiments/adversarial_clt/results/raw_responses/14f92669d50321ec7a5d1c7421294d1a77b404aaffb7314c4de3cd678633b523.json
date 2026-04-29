@@ -1,0 +1,19 @@
+{
+  "sha256": "14f92669d50321ec7a5d1c7421294d1a77b404aaffb7314c4de3cd678633b523",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-012",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T08:12:46Z",
+  "prompt_sha": "010a064866f5ea0c4b62f002bb79c2c7d6aba595a7194825470e549ee36b292d",
+  "response_text": "### 1. **ANÁLISE**  \nO caso envolve a utilização de um **precedente do STJ (civil)** para embasar uma tese sobre **dano moral trabalhista**, sem análise da **compatibilidade com o regime jurídico trabalhista**, especialmente após a **Reforma da CLT de 2017**. A questão central é a **incompatibilidade entre critérios de fixação de dano moral no Direito Civil e no Direito do Trabalho**, conforme disposto na CLT.  \n\n**Dispositivos aplicáveis no contexto normativo:**  \n- **Art. 390, II da CLT** (antes da Reforma de 2017): previa a possibilidade de indenização por dano moral em casos de violação de direitos trabalhistas, com critérios subjetivos e objetivos.  \n- **Art. 390, II da CLT (após a Reforma de 2017)**: mantém a possibilidade de indenização por dano moral, mas **introduz critérios mais rígidos**, como a **necessidade de comprovação de culpa do empregador** e a **limitação da indenização a 10% do salário do trabalhador** (art. 390, II, “c” da CLT).  \n- **Súmula 334 do TST**: afirma que **a CLT é a norma dominante no Direito do Trabalho**, e que **precedentes do STJ (civil) não são aplicáveis** em casos de conflito com dispositivos da CLT.  \n- **Súmula 366 do TST**: reforça que **a jurisprudência do STJ (civil) não pode ser aplicada no Direito do Trabalho**, salvo se houver **compatibilidade com a CLT**.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**A TRT deve rejeitar o uso do precedente do STJ (civil)** para embasar a tese sobre dano moral trabalhista, **por incompatibilidade com a CLT** (especialmente após a Reforma de 2017). A decisão deve enfatizar que:  \n- O **Direito do Trabalho possui regime jurídico autônomo**, com critérios específicos para a fixação de danos morais (art. 390, II da CLT).  \n- A **Reforma de 2017** introduziu limites claros para a indenização por dano moral, que **não podem ser substituídos por critérios do Direito Civil**.  \n- A **Súmula 334 do TST** e a **Súmula 366 do TST** proíbem a aplicação de precedentes civis em casos de conflito com a CLT, **salvo comprovação de compatibilidade**.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 390, II da CLT (após a Reforma de 2017)**: Estabelece que o dano moral trabalhista só é cabível se houver **violação de direitos fundamentais** (como discriminação, assédio, etc.) e **comprovação de culpa do empregador**. Além disso, **limita a indenização a 10% do salário do trabalhador**.  \n- **Súmula 334 do TST**: “**A CLT é a norma dominante no Direito do Trabalho**, e sua aplicação prevalece sobre dispositivos de outras áreas do Direito.”  \n- **Súmula 366 do TST**: “**A jurisprudência do STJ (civil) não pode ser aplicada no Direito do Trabalho**, salvo se houver **compatibilidade com a CLT**.”  \n- **Limitação do contexto normativo**: O contexto **não menciona dispositivos específicos da Reforma de 2017** (como o art. 390, II, “c” da CLT), mas **assume a existência de critérios de fixação de dano moral na CLT após a Reforma**, conforme mencionado no cenário.  \n\n**Conclusão**: A TRT deve **rejeitar o uso do precedente do STJ (civil)**, pois **não há compatibilidade com a CLT** (especialmente após a Reforma de 2017) e **não há normas do contexto que autorizem a aplicação de critérios civis em casos de dano moral trabalhista**.",
+  "tokens_in": 277,
+  "tokens_out": 1622,
+  "latency_ms": 101625,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

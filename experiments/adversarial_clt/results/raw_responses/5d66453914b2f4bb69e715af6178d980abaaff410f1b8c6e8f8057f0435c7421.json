@@ -1,0 +1,19 @@
+{
+  "sha256": "5d66453914b2f4bb69e715af6178d980abaaff410f1b8c6e8f8057f0435c7421",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T02:11:47Z",
+  "prompt_sha": "789bb3f3b629b4227cddab821933c060fd792fe2c27e2e611000914cf65be9d2",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Convenção Coletiva de Trabalho (CCT):** A CCT firmada entre a empresa e o sindicato estabeleceu um banco de horas anual, permitindo que as horas extras fossem compensadas por meio de folgas dentro do prazo de 12 meses. Isso é uma modalidade válida de compensação das horas extras, desde que respeite os limites legais.\n\n- **Consolidação das Leis do Trabalho (CLT):** \n  - **Artigo 59 da CLT:** Permite a compensação de horas extras mediante acordo individual ou coletivo, desde que não ultrapasse o limite máximo de 10 horas diárias e 220 horas mensais.\n  - **Artigo 62 da CLT:** Estabelece que as horas extras devem ser pagas com acréscimo mínimo de 50% sobre o valor da hora normal.\n\n- **Súmulas do TST:**\n  - **Súmula 331 do TST:** Dispõe que a compensação das horas extras por folgas é permitida, desde que respeitados os limites legais e acordados em convenção coletiva ou acordo individual.\n  - **Súmula 377 do TST:** Estabelece que o banco de horas deve ser utilizado dentro do prazo estipulado na CCT.\n\n**Interpretação no Caso Concreto:**\n\nNo caso apresentado, a empresa e o sindicato firmaram uma CCT válida que prevê um banco de horas anual. O trabalhador acumulou horas extras ao longo de 11 meses e todas foram compensadas dentro do prazo de 12 meses estabelecido na CCT. A jornada diária nunca ultrapassou o limite máximo de 10 horas, conforme exigido pela CLT. Além disso, os extratos mensais foram entregues ao trabalhador, garantindo transparência e controle sobre as horas acumuladas e compensadas.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é que a prática adotada pela empresa seja considerada válida e legítima, conforme estabelecido na CCT homologada pelo sindicato. Não há irregularidades no cumprimento das disposições legais e coletivas vigentes.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **Artigo 59 da CLT:** Permite a compensação de horas extras mediante acordo, desde que não exceda o limite máximo diário de 10 horas.\n  \n- **Súmula 331 do TST:** Confirma a possibilidade de compensação das horas extras por folgas, respeitados os limites legais e acordos coletivos.\n\n- **Súmula 377 do TST:** Reafirma que o banco de horas deve ser utilizado dentro do prazo estipulado na CCT.\n\nDessa forma, a empresa agiu conforme as normas trabalhistas vigentes e a decisão do sindicato em homologar a prestação anual de contas do banco de horas confere validade ao procedimento adotado.",
+  "tokens_in": 299,
+  "tokens_out": 712,
+  "latency_ms": 41672,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

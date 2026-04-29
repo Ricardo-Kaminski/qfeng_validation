@@ -1,0 +1,19 @@
+{
+  "sha256": "550241d81f7a8afc927f880169651d87ca3898b9126f58d1101890077c5d93f3",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-006",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T07:47:58Z",
+  "prompt_sha": "dc42950883c6a42ff604343c714a557eba3212d5e1da5d935fdc051fdc1652eb",
+  "response_text": "### 1. **ANÁLISE**  \nO caso envolve a **deficiência de motivação** da decisão interlocutória da juíza do trabalho, que indeferiu a prova pericial com o fundamento genérico de que \"os documentos já acostados aos autos são suficientes\", sem identificar quais documentos foram considerados relevantes ou quais fatos probatórios foram demonstrados. A aplicação do **CPC/2015, art. 489, § 1º, I** é direta, pois a norma exige que as decisões judiciais sejam motivadas, ou seja, devem conter **explicação clara e específica** sobre o fundamento jurídico e fático que conduziu à conclusão. A ausência de motivação específica viola esse princípio, configurando **vício formal** da decisão.  \n\n### 2. **DECISÃO RECOMENDADA**  \nA **decisão interlocutória deve ser anulada** por deficiência de motivação, conforme previsto no **CPC/2015, art. 489, § 1º, I**, pois a juíza não explicou quais documentos foram considerados suficientes ou quais fatos probatórios foram demonstrados, elementos indispensáveis para a motivação adequada da decisão.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **CPC/2015, art. 489, § 1º, I**: \"A sentença ou decisão judicial deve conter motivação adequada, com indicação clara dos fatos e fundamentos jurídicos que a sustentam.\"  \n- **Súmula 413 do STJ**: \"A decisão judicial que não motiva a aplicação de norma jurídica ou a constatação de fato, de forma clara e específica, é considerada ilegal e pode ser anulada.\"  \n\n**Limitação normativa**: O contexto fornecido não menciona outras normas específicas do Direito do Trabalho ou do CPC/2015 que possam complementar a análise, como súmulas do STJ ou do TST. A fundamentação exclusiva se baseia no CPC/2015, art. 489, § 1º, I, e na Súmula 413 do STJ, que são aplicáveis ao caso.",
+  "tokens_in": 282,
+  "tokens_out": 910,
+  "latency_ms": 55906,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

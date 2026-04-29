@@ -1,0 +1,19 @@
+{
+  "sha256": "9b70ab3c58e4150bc5199d409e37aea1c4319152cfbd8460cf6ef8da4e489179",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T12:53:39Z",
+  "prompt_sha": "12b48022cdc961cef8c18d0d80b5483d4759aae81c7b71fc4609fcfa8fba3820",
+  "response_text": "## Análise Jurídico-Trabalhista: Horas de Sobreaviso e a Utilização de OJ Cancelada\n\nCom base no contexto normativo fornecido, apresento a análise, decisão recomendada e fundamentação:\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nO caso em questão envolve a condenação por horas de sobreaviso, fundamentada em um Acórdão do Tribunal Regional do Trabalho (TRT) que cita a Orientações Jurisprudenciais (OJ) nº 394 da Subseção de Divisão I (SDI-1) do Tribunal Superior do Trabalho (TST).  O ponto crucial é que a OJ 394 foi posteriormente cancelada pelo TST e incorporada à Súmula nº 428, com conteúdo modificado.\n\n*   **OJ 394 da SDI-1 do TST (cancelada):** Esta é a OJ que o Acórdão do TRT utilizou como fundamento.  A sua relevância é histórica, pois demonstra a base original da condenação, mas sua validade como norma aplicável é questionável devido ao seu cancelamento.\n*   **Súmula nº 428 do TST:** Esta súmula substituiu a OJ 394, incorporando parte do seu conteúdo, mas com alterações significativas.  A sua existência e a modificação do conteúdo original são elementos cruciais para a análise da legalidade da condenação.\n*   **Acórdão do TRT:**  Representa a decisão judicial que condenou o empregador, baseada na OJ 394.  A análise da legalidade desta decisão é o foco da questão.\n\n**2. DECISÃO RECOMENDADA**\n\nRecomenda-se a **revisão do Acórdão do TRT**. A decisão baseada na OJ 394, que já foi cancelada e substituída pela Súmula 428, não pode ser mantida sem a devida análise da aplicabilidade da Súmula 428 ao caso concreto.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação para a recomendação de revisão se baseia nos seguintes pontos:\n\n*   **Hierarquia das Normas:** No sistema jurídico brasileiro, as Orientações Jurisprudenciais (OJs) do TST têm força vinculante para os Tribunais Regionais do Trabalho, mas sua validade é limitada ao tempo em que estão em vigor.  Quando uma OJ é cancelada, ela perde sua força normativa.\n*   **Substituição da OJ pela Súmula:** O cancelamento da OJ 394 e sua incorporação à Súmula 428 indicam uma mudança na interpretação do TST sobre o tema das horas de sobreaviso. A Súmula 428, por conter conteúdo parcialmente distinto da OJ 394, pode levar a resultados diferentes na aplicação do direito.\n*   **Necessidade de Análise da Súmula 428:** A decisão do TRT, ao se basear exclusivamente na OJ 394, não considerou a Súmula 428, que é a norma atualmente vigente sobre o tema. É imprescindível que a decisão seja revista para verificar se a Súmula 428 se aplica ao caso concreto e qual seria o resultado sob a nova orientação do TST.\n\n**Limitações:**\n\nO contexto normativo fornecido é limitado. Não há informações sobre o conteúdo específico da OJ 394, da Súmula 428, ou sobre os fatos do caso concreto que levaram à condenação.  Portanto, a análise e a recomendação são baseadas apenas na informação de que a OJ foi cancelada e substituída pela Súmula, sem detalhar as diferenças entre elas. Uma análise mais aprofundada exigiria acesso ao texto integral da OJ 394, da Súmula 428 e dos autos do processo.\n",
+  "tokens_in": 265,
+  "tokens_out": 863,
+  "latency_ms": 47046,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

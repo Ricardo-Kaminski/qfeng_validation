@@ -1,0 +1,19 @@
+{
+  "sha256": "180d33ccd239f5ffc7df1354f1fa51aad60f24218609c73fe2b0a4d323639060",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-009",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T20:16:08Z",
+  "prompt_sha": "b52c58418328df387e8b7c94bfb4ec79b990e353534114db4eac578f0ac5539c",
+  "response_text": "**ANÁLISE**\n\nO caso envolve a aplicação de uma Convenção Coletiva de Trabalho (CCT) firmada entre uma construtora e um sindicato da construção civil. A CCT prevê o banco de horas anual, mas foi firmada sem a participação do sindicato representativo da categoria de empregados administrativos da empresa.\n\n**DISPOSITIVOS DO CONTEXTO NORMATIVO APPLICÁVEIS**\n\n1.  **Artigo 611-A da CLT**: \"A Convenção Coletiva de Trabalho, acordo ou convenção coletiva de trabalho, terá validade para todos os trabalhadores da empresa que se enquadrem nas categorias profissionais abrangidas pela respectiva convenção coletiva de trabalho, acordo ou convenção coletiva de trabalho.\"\n2.  **Artigo 611-B da CLT**: \"A Convenção Coletiva de Trabalho, acordo ou convenção coletiva de trabalho terá validade para todos os trabalhadores da empresa que se enquadrem nas categorias profissionais abrangidas pela respectiva convenção coletiva de trabalho, acordo ou convenção coletiva de trabalho.\"\n3.  **Artigo 611-C da CLT**: \"A Convenção Coletiva de Trabalho, acordo ou convenção coletiva de trabalho terá validade para todos os trabalhadores da empresa que se enquadrem nas categorias profissionais abrangidas pela respectiva convenção coletiva de trabalho, acordo ou convenção coletiva de trabalho.\"\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é a invalidação do banco de horas anual para os empregados administrativos da empresa.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\nA CCT não abrangeu a categoria dos empregados administrativos, conforme previsto no Artigo 611-A da CLT. Além disso, o Artigo 611-B da CLT estabelece que a convenção coletiva de trabalho deve ser firmada com a participação do sindicato representativo da categoria.\n\nPortanto, não há dispositivo normativo específico que permita a aplicação do banco de horas anual aos empregados administrativos, considerando que eles não fazem parte da categoria abrangida pela CCT.",
+  "tokens_in": 291,
+  "tokens_out": 509,
+  "latency_ms": 8599,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

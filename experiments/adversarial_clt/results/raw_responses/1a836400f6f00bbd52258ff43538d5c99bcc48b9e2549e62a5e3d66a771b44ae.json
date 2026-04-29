@@ -1,0 +1,19 @@
+{
+  "sha256": "1a836400f6f00bbd52258ff43538d5c99bcc48b9e2549e62a5e3d66a771b44ae",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T12:34:25Z",
+  "prompt_sha": "00a8f3092f9540e5d99a9022a0a2c27e9d386d6832210511eb6ea9ab9df059e9",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a empresa de transporte está recolhendo adicionais noturnos para motoristas que trabalham entre 22h e 5h, calculando a hora noturna como 52 minutos e 30 segundos. A questão central é se essa prática está em conformidade com as normas do Direito do Trabalho brasileiro.\n\nOs dispositivos legais relevantes para analisar este caso incluem:\n\n- **Artigo 73 da CLT (Consolidação das Leis do Trabalho):** Este artigo trata dos adicionais de horas extraordinárias e noturnas, estabelecendo que o adicional noturno é devido quando a jornada for realizada entre as 22h e 5h. O valor desse adicional deve ser no mínimo de 20% sobre o salário-hora da atividade exercida.\n\n- **Súmula nº 90 do TST (Tribunal Superior do Trabalho):** Esta súmula estabelece que a hora noturna é de 60 minutos, não podendo ser reduzida para menos. Portanto, calcular a hora noturna como 52 minutos e 30 segundos é uma prática ilegal.\n\n2. **DECISÃO RECOMENDADA:**\n\nA empresa deve ajustar sua prática de cálculo da hora noturna para que seja considerada integralmente como 60 minutos, conforme determinado pela Súmula nº 90 do TST. Além disso, deve ser verificada a adequação do recolhimento dos adicionais noturnos e sua discriminação nos contracheques.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Artigo 73 da CLT:** Estabelece o adicional de 20% para horas trabalhadas entre 22h e 5h, garantindo que os motoristas recebam esse acréscimo salarial por jornada noturna.\n\n- **Súmula nº 90 do TST:** Determina que a hora noturna deve ser contabilizada como 60 minutos. A prática de reduzir o tempo para menos de 60 minutos é incompatível com essa súmula, e portanto, ilegal.\n\nA empresa deve corrigir imediatamente o cálculo da hora noturna para evitar possíveis ações judiciais ou fiscalizações que possam resultar em penalidades.",
+  "tokens_in": 305,
+  "tokens_out": 547,
+  "latency_ms": 31327,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

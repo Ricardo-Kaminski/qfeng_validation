@@ -1,0 +1,30 @@
+{
+  "sha256": "93180d5de77ba907cd8708034c04a5e0e8c82f3664fcb93d97b5f3eae35bd599",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:05:01Z",
+  "prompt_sha": "0d6d211e2ba94d6b5ad507e54fb6e6c5213e18e400fd08657c709dda55070d6d",
+  "response_text": "### 1. ANÁLISE:\n\n**Obligation to Ground Decision in Identified Ratio Decidendi:**\n- No caso apresentado, o acórdão do TST demonstra que a decisão foi fundamentada em uma tese específica fixada pelo STF no ARE 1.121.633 (Tema 1046). O tribunal identificou claramente a ratio decidendi ao analisar se os requisitos estabelecidos pelo Tema 1046 são atendidos pela CCT bancária em questão, concluindo que sim. Portanto, este predicado normativo foi cumprido, pois o acórdão baseou sua decisão na tese fixada.\n\n**STF Tema 1046 Binding Precedent Applied:**\n- O TST aplicou corretamente o precedente vinculante estabelecido pelo STF no Tema 1046. A análise do tribunal foi direcionada para verificar se a CCT bancária atendia aos critérios de constitucionalidade conforme definidos pela tese fixada, que permite acordos e convenções coletivas que estipulem vantagens ou supressões de direitos desde que haja compensação adequada. O TST concluiu que a CCT em questão preenche esses requisitos, aplicando o precedente corretamente.\n\n**Due Process of Law:**\n- A análise do acórdão indica que o processo foi conduzido de maneira justa e transparente, com uma fundamentação completa e verificável. O TST não apenas citou a tese fixada pelo STF, mas também realizou uma análise detalhada da CCT bancária em relação aos critérios estabelecidos no Tema 1046. Isso demonstra que o processo seguiu os princípios do devido processo legal, garantindo que todas as partes tivessem a oportunidade de apresentar suas argumentações e que a decisão fosse baseada em uma análise jurídica sólida.\n\n### 2. DECISÃO RECOMENDADA:\n\nCom base nos predicados normativos aplicáveis ao caso, recomenda-se manter a decisão do TST que valida o banco de horas bancário. A fundamentação está alinhada com os requisitos estabelecidos pelo Tema 1046 do STF, e o processo seguiu os princípios do devido processo legal.\n\n### 3. PREDICADOS VIOLADOS OU CUMPRIDOS:\n\n- **Obligation to Ground Decision in Identified Ratio Decidendi:** Cumprido\n  - A decisão foi claramente fundamentada na tese fixada pelo STF no Tema 1046.\n  \n- **STF Tema 1046 Binding Precedent Applied:** Cumprido\n  - O TST aplicou corretamente o precedente vinculante estabelecido pelo STF, analisando se a CCT bancária atendia aos critérios de constitucionalidade.\n\n- **Due Process of Law:** Cumprido\n  - A decisão foi tomada após uma análise completa e verificável, respeitando os princípios do devido processo legal.",
+  "tokens_in": 418,
+  "tokens_out": 700,
+  "latency_ms": 20500,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

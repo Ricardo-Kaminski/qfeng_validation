@@ -1,0 +1,19 @@
+{
+  "sha256": "5d61b6ea8142be198bfc091c0ffd0833bf0a2ab4f83cbc8d7ddf7a6c90fb4229",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T10:04:43Z",
+  "prompt_sha": "92aecfbcd48b18b24b7145bd3115c2c41dd569d979ba575e89a78b84c16595e4",
+  "response_text": "### 1. **ANÁLISE**  \nOs dispositivos normativos aplicáveis ao caso são:  \n- **Súmula TST 60**: Estabelece que o adicional noturno, em regime de revezamento, integra a remuneração do trabalhador.  \n- **Art. 191 da CLT**: Define o adicional noturno como 20% sobre a remuneração normal, desde que o trabalho seja realizado entre 22h e 5h.  \n- **Art. 202 da CLT**: Regulamenta o regime de trabalho em turnos de 12 horas de trabalho e 36 horas de descanso (12x36).  \n\nO caso concreto envolve um empregado em regime 12x36 com **períodos noturnos fixos**, o que difere do regime de **revezamento** mencionado na Súmula TST 60. A Súmula 60 pressupõe a alternância entre turnos noturnos e diurnos, enquanto o regime fixo de trabalho noturno (sem alternância) não se enquadra na hipótese da Súmula.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA decisão deve **rejeitar a aplicação da Súmula TST 60** ao caso concreto, pois o regime de trabalho (períodos noturnos fixos) não se enquadra no **revezamento** previsto na Súmula. O adicional noturno, nesse caso, deve ser analisado com base no **Art. 191 da CLT**, que prevê o adicional de 20% para trabalho noturno, independentemente do regime de revezamento.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Súmula TST 60**: \"O adicional noturno, em regime de revezamento, integra a remuneração do trabalhador.\"  \n  - **Aplicabilidade**: **Não se aplica ao caso**, pois o regime de revezamento (alternância de turnos) não está presente no caso concreto (períodos noturnos fixos).  \n- **Art. 191 da CLT**: \"O adicional noturno será de 20% sobre a remuneração normal, quando o trabalho for realizado entre as 22 horas e as 5 horas.\"  \n  - **Aplicabilidade**: **Sim**, pois o trabalho noturno (entre 22h e 5h) está previsto, independentemente do regime de revezamento.  \n- **Art. 202 da CLT**: Regulamenta o regime 12x36, mas **não menciona** a aplicação automática do adicional noturno. A análise do adicional deve ser feita com base no horário de trabalho (Art. 191).  \n\n**Limitação normativa**: O contexto não contém dispositivo que **obrigue** o adicional noturno em regime de trabalho noturno fixo (sem revezamento). A aplicação do adicional depende da **realização do trabalho noturno**, conforme o Art. 191 da CLT.",
+  "tokens_in": 323,
+  "tokens_out": 1264,
+  "latency_ms": 91858,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

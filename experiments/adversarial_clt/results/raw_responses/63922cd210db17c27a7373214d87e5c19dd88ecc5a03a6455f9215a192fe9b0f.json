@@ -1,0 +1,19 @@
+{
+  "sha256": "63922cd210db17c27a7373214d87e5c19dd88ecc5a03a6455f9215a192fe9b0f",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T20:07:41Z",
+  "prompt_sha": "26d12e151509fbe11099db792d4aca8584a935f407834eb1a45392c3cbb25402",
+  "response_text": "**1. ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso.**\n\nOs dispositivos do contexto normativo aplicáveis ao caso são:\n\n*   O Código de Processo Civil (CPC), especificamente o Art. 489, §1°, V.\n*   A Súmula 312 do TST (que não existe na base jurisprudencial oficial).\n\n**2. DECISÃO RECOMENDADA: Qual deve ser a decisão e por quê.**\n\nA decisão recomendada é que o acórdão seja anulado, pois viola o disposto no Art. 489, §1°, V do CPC, que exige identificação de precedentes com base em julgamento real e verificável.\n\n**3. FUNDAMENTAÇÃO NORMATIVA: Cite especificamente os artigos e súmulas do contexto acima.**\n\n*   O Art. 489, §1°, V do CPC estabelece que é nulo o despacho ou decisão que não identificar o precedente com base em julgamento real e verificável.\n*   A Súmula 312 do TST não existe na base jurisprudencial oficial, o que torna inválida a sua citação como fundamento para a decisão.",
+  "tokens_in": 339,
+  "tokens_out": 287,
+  "latency_ms": 4881,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

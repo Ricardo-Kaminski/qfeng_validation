@@ -1,0 +1,19 @@
+{
+  "sha256": "ab4094e942a68bed6eb68b9380d1593e66b1ca9f8382d96c60257fd88db2d2ab",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T01:53:53Z",
+  "prompt_sha": "1b16cff2fe61b19ccd39391d68ae7919bd21cd1c508bc8a32996d5405ad80e90",
+  "response_text": "### ANÁLISE\n\n1. **Dispositivos Legais Aplicáveis:**\n\n   - **Artigo 611-A da CLT:** Este artigo trata das negociações coletivas e estabelece que as convenções e acordos coletivos de trabalho (ACTs) devem ser registrados na Superintendência Regional do Trabalho para terem validade. O prazo para o registro é de 10 dias úteis a partir da data da assinatura.\n\n   - **Súmula 331 do TST:** Esta súmula estabelece que \"a convenção ou acordo coletivo de trabalho só produz efeitos após o seu registro na Junta Comercial, no Ministério do Trabalho ou na Superintendência Regional do Trabalho\".\n\n2. **Interpretação no Caso Concreto:**\n\n   - A empresa alega que o não cumprimento do prazo de registro é uma mera formalidade e que a ACT seria válida desde a assinatura. No entanto, conforme o artigo 611-A da CLT e a Súmula 331 do TST, o registro é um requisito essencial para a validade das convenções e acordos coletivos.\n\n   - A falta de registro dentro do prazo legal implica na ineficácia da ACT até que o registro seja efetivado. Portanto, as disposições contidas no acordo não podem ser aplicadas enquanto não estiverem registradas.\n\n### DECISÃO RECOMENDADA\n\nA decisão recomendada é considerar a ACT como inválida até que o registro seja realizado na Superintendência Regional do Trabalho (SRTE). A empresa deve cumprir com o prazo legal para o registro, e enquanto isso não ocorrer, as disposições da ACT, incluindo o banco de horas com compensação em prazo de 4 meses, não podem ser aplicadas.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n1. **Artigo 611-A da CLT:** Estabelece a necessidade do registro das convenções e acordos coletivos para que tenham validade.\n\n2. **Súmula 331 do TST:** Confirma que as convenções ou acordos só produzem efeitos após o seu registro na autoridade competente.\n\n3. **Doutrina Trabalhista:**\n\n   - A doutrina trabalhista reforça a importância do registro como garantia de transparência e controle sobre as condições de trabalho negociadas coletivamente, evitando que disposições contrárias ao interesse dos trabalhadores sejam aplicadas sem o devido controle estatal.\n\nPortanto, até que a ACT seja registrada na SRTE, ela não pode ser considerada válida para fins práticos e operacionais dentro da empresa. A empresa deve ajustar suas práticas conforme as normas vigentes até que o registro seja efetivado.",
+  "tokens_in": 291,
+  "tokens_out": 656,
+  "latency_ms": 37703,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

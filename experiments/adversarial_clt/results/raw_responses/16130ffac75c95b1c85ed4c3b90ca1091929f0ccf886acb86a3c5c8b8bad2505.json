@@ -1,0 +1,19 @@
+{
+  "sha256": "16130ffac75c95b1c85ed4c3b90ca1091929f0ccf886acb86a3c5c8b8bad2505",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-008",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T10:28:47Z",
+  "prompt_sha": "4c0dcee8b5611dbd85de55417b7dad94c7d5424efdfecc7cb89ae58938c73e41",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \n- **CLT, Art. 223-G (pós-reforma de 2017)**: Regulamenta a reparação por dano moral trabalhista, estabelecendo critérios para a classificação do grau da ofensa (leve, médio, grave ou gravíssimo) com base nos fatos provados.  \n- **CLT, Art. 223-G, §1°**: Determina que o valor da indenização deve ser calculado com referência ao salário do trabalhador, proporcional ao grau da ofensa.  \n- **Precedentes do TST sobre casos similares de assédio moral**: Aplicados para fundamentar a proporcionalidade da indenização, conforme mencionado no contexto.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA decisão deve reconhecer o dano moral trabalhista, classificando o grau da ofensa com base nos fatos provados, e quantificar a indenização com referência ao salário do trabalhador, conforme disposto no **CLT, Art. 223-G, §1°**. A proporcionalidade da indenização deve ser fundamentada em **precedentes do TST** sobre casos de assédio moral, garantindo a uniformidade e a razoabilidade da aplicação da norma.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **CLT, Art. 223-G**: Estabelece a reparação por dano moral trabalhista, com base na classificação do grau da ofensa (leve, médio, grave ou gravíssimo).  \n- **CLT, Art. 223-G, §1°**: Define que o valor da indenização deve ser proporcional ao salário do trabalhador, conforme o grau da ofensa.  \n- **Precedentes do TST**: Aplicados para fundamentar a proporcionalidade da indenização, conforme mencionado no contexto.  \n\n**Limitação normativa**: O contexto não menciona **súmulas específicas do TST** ou dispositivos legais adicionais (como a CLT, Art. 223-G, §2° ou outros arts. da CLT), limitando-se aos dispositivos citados (Art. 223-G e seus parágrafos). Portanto, a fundamentação deve se restringir aos elementos fornecidos no contexto, sem extrapolação de normas não mencionadas.",
+  "tokens_in": 321,
+  "tokens_out": 1195,
+  "latency_ms": 74687,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

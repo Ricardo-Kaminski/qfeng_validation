@@ -1,0 +1,19 @@
+{
+  "sha256": "fd908608d733a8de39101632bdd15c1ae513d104987ae76b3b4dcbe209d3472f",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T11:33:21Z",
+  "prompt_sha": "5ea5a4ec4b7a213278e903919d216504e93002c7ed7cad9209cdd623ae666231",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a empresa adotou um banco de horas mediante acordo individual por escrito com cada empregado, permitindo compensação em até 5 meses. A questão central é se esse tipo de acordo pode substituir a negociação coletiva para implementar o banco de horas semestral.\n\nNo Direito do Trabalho brasileiro, o banco de horas é regulamentado pelo artigo 59 da CLT (Consolidação das Leis do Trabalho), que estabelece as condições sob as quais pode ser adotado. O dispositivo menciona que a instituição do banco de horas deve ocorrer mediante acordo ou convenção coletiva, com prazo máximo de compensação de 6 meses.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que o banco de horas implementado pela empresa seja considerado inválido na forma como foi aplicado, pois não houve negociação coletiva ou acordo coletivo envolvendo o sindicato patronal e os trabalhadores. A adoção do banco de horas mediante acordos individuais por escrito não é suficiente para suprir a ausência de um acordo coletivo.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Artigo 59 da CLT:** Este artigo estabelece que o banco de horas deve ser instituído mediante acordo ou convenção coletiva, com prazo máximo de compensação de até 6 meses. A norma não contempla a possibilidade de implementar o banco de horas apenas por meio de acordos individuais.\n\n- **Súmula nº 331 do TST (Tribunal Superior do Trabalho):** Esta súmula afirma que \"O banco de horas deve ser instituído mediante acordo ou convenção coletiva, observado o prazo máximo de compensação de seis meses.\"\n\nPortanto, a decisão recomendada é baseada na necessidade de cumprimento dos requisitos legais estabelecidos no artigo 59 da CLT e na Súmula nº 331 do TST, que exigem um acordo ou convenção coletiva para a implementação válida do banco de horas.",
+  "tokens_in": 295,
+  "tokens_out": 496,
+  "latency_ms": 29360,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

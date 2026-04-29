@@ -1,0 +1,29 @@
+{
+  "sha256": "acd9664130fcb7efbd27067264f31ca513300e1f89f9db40e379edbfe06729b8",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-007",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T23:52:11Z",
+  "prompt_sha": "172c513c4b099df7743ffb1d24431062fe2eeac1ce853003c4f9dc9cbe3de520",
+  "response_text": "1. **ANÁLISE:**\n\n   - **hour_bank_with_cct_max_1_year:** Este predicado normativo estabelece que o banco de horas previsto em uma Convenção Coletiva de Trabalho (CCT) deve ter um prazo máximo de compensação de 12 meses. No cenário apresentado, a CCT válida permite um período de compensação de 12 meses para o banco de horas acumulado pelo empregado. Portanto, este predicado está sendo cumprido em relação ao prazo estabelecido pela CCT.\n\n   - **maximum_weekly_working_hours_44h:** Este predicado normativo refere-se à limitação das horas extras que podem ser compensadas ou pagas dentro de um período semanal, não excedendo 50% da jornada normal do empregado, o que equivale a até 4 horas diárias e 20 horas semanais. No cenário, não há menção específica sobre a quantidade de horas extras acumuladas em relação ao limite semanal, mas o foco está na compensação ou pagamento após o prazo estabelecido pela CCT.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base nos predicados normativos aplicáveis e no cenário descrito, a decisão recomendada é que a empresa deve regularizar a situação do empregado em relação ao saldo de banco de horas não compensado após o prazo de 12 meses. Como a CCT não previa mecanismo de pagamento em caso de não-compensação, e considerando que o prazo máximo permitido foi respeitado, o saldo de horas deve ser convertido em verba indenizatória para o empregado. Isso se alinha com a jurisprudência do Tribunal Superior do Trabalho (TST), que orienta que, após o término do prazo máximo estabelecido pela CCT ou convenção coletiva, as horas excedentes devem ser pagas como hora-extra.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Cumpriu:** \n     - *hour_bank_with_cct_max_1_year:* A empresa cumpriu o prazo máximo de 12 meses estabelecido pela CCT para compensação do banco de horas.\n\n   - **Violou:**\n     - Embora não haja um predicado específico listado sobre a obrigatoriedade de pagamento após o término do prazo, a falha em compensar ou pagar as horas após o período máximo viola o princípio da proteção ao trabalhador estabelecido na CLT e jurisprudência do TST. Portanto, pode-se considerar que houve uma violação implícita das normas de proteção ao empregado em relação à compensação ou pagamento das horas excedentes após o prazo máximo permitido pela CCT.\n\nA empresa deve proceder com a conversão do saldo de banco de horas não utilizado em verba indenizatória, conforme orientações do TST.",
+  "tokens_in": 348,
+  "tokens_out": 662,
+  "latency_ms": 19093,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

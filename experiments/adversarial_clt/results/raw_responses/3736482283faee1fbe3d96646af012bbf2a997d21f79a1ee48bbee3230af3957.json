@@ -1,0 +1,19 @@
+{
+  "sha256": "3736482283faee1fbe3d96646af012bbf2a997d21f79a1ee48bbee3230af3957",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T13:15:46Z",
+  "prompt_sha": "fe5ea1e90bce3809f6b9e66296de41abc23c26c20d8a019c18931364e6d77260",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas no Setor Hoteleiro\n\nCom base no contexto normativo fornecido, apresento a análise, decisão recomendada e fundamentação jurídica do caso envolvendo o banco de horas na empresa hoteleira.\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nO caso em questão gira em torno da validade de uma Cláusula Coletiva de Trabalho (CCT) que estabelece um prazo de compensação de banco de horas superior ao limite legal de um ano. Os dispositivos normativos relevantes para a análise são:\n\n*   **CCT do Setor Hoteleiro:** Estabelece o sistema de banco de horas com prazo de compensação de 14 meses. Este é o ponto central da controvérsia.\n*   **Autonomia das Partes Coletivas:** A empresa hoteleira invoca este princípio para argumentar que a CCT pode flexibilizar a lei, devido à negociação entre sindicato e empregadores.\n*   **Princípio da Adequação Setorial Negociada:** Semelhante à autonomia das partes, este princípio sustenta que as particularidades de cada setor podem justificar condições de trabalho diferenciadas, negociadas coletivamente.\n*   **Súmula TST 85, V:** Esta súmula, conforme mencionada pelo sindicato dos hotéis, trata do prazo para compensação de horas extras, estabelecendo que \"O prazo de 1 ano para compensação de horas extras, estabelecido no art. 7º, XXVI, da Constituição Federal, não pode ser afastado por convenção ou acordo coletivo\".\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a CCT, no que tange ao prazo de compensação de 14 meses para o banco de horas, **é inválida**.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nApesar da invocação da autonomia das partes coletivas e do princípio da adequação setorial negociada, a Súmula TST 85, V, impõe um limite claro e inegociável ao prazo para compensação de horas extras, inclusive no sistema de banco de horas. A súmula é cristalina ao afirmar que o prazo de 1 ano não pode ser afastado por convenção ou acordo coletivo.\n\nA empresa hoteleira argumenta que a CCT pode flexibilizar a lei, mas a jurisprudência do Tribunal Superior do Trabalho (TST) tem reiteradamente reafirmado a natureza de ordem pública do limite de 1 ano para a compensação de horas extras, conforme a Súmula 85, V.  Normas de ordem pública são aquelas que visam proteger o interesse social e não podem ser objeto de negociação individual ou coletiva.\n\nEmbora a autonomia das partes coletivas seja um princípio fundamental nas relações do trabalho, ela não pode sobrepor-se a normas de ordem pública estabelecidas pela Constituição Federal e interpretadas pelo TST. A CCT, portanto, deve observar o limite de 1 ano para a compensação do banco de horas, conforme a Súmula TST 85, V.\n\n**Limitação do Contexto:**\n\nO contexto normativo fornecido é limitado, pois não apresenta o texto integral da CCT do setor hoteleiro, nem outras normas que possam influenciar a interpretação do caso. Uma análise mais aprofundada exigiria a consulta à CCT completa e a jurisprudência do TST sobre o tema.\n",
+  "tokens_in": 278,
+  "tokens_out": 758,
+  "latency_ms": 41639,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

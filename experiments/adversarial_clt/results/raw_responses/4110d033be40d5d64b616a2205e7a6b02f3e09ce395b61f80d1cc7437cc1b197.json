@@ -1,0 +1,26 @@
+{
+  "sha256": "4110d033be40d5d64b616a2205e7a6b02f3e09ce395b61f80d1cc7437cc1b197",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CTRL-NEG-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:12:07Z",
+  "prompt_sha": "bc5354b8aa150da0fdce223f51b505bd2eeabf2f811bee24e295f29dad7011ee",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso\n\nCom base nos predicados normativos fornecidos e no cenário apresentado, segue a análise, decisão recomendada e identificação de cumprimento/violação dos predicados:\n\n**1. ANÁLISE:**\n\n*   **maximum_daily_working_hours_8h:** A empresa está cumprindo este predicado. A jornada de trabalho diária dos empregados é fixada em 8 horas, o que está em consonância com o limite máximo estabelecido pela CLT.\n*   **maximum_weekly_working_hours_44h:** A empresa também está cumprindo este predicado. A jornada de trabalho semanal é de 44 horas, respeitando o limite máximo legal.\n*   **minimum_intrajornada_interval_1h:** A empresa está cumprindo este predicado. Os intervalos intrajornada estão sendo concedidos integralmente, com duração mínima de 1 hora para jornadas de 8 horas, conforme exigido pela legislação. A garantia de registros de ponto eletrônicos e auditáveis reforça a comprovação do cumprimento deste intervalo.\n\n**2. DECISÃO RECOMENDADA:**\n\nA empresa está agindo em conformidade com a legislação do trabalho, conforme demonstrado pelo cumprimento dos predicados normativos apresentados. Portanto, a decisão recomendada é **manter a prática atual**, garantindo a continuidade do cumprimento integral dos requisitos legais. É importante que a empresa continue monitorando e auditando os registros de ponto para assegurar a manutenção da conformidade, mesmo na ausência de reclamações. A existência de registros eletrônicos e auditáveis é um ponto positivo, pois facilita a comprovação do cumprimento das normas.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **maximum_daily_working_hours_8h:** Conformidade\n*   **maximum_weekly_working_hours_44h:** Conformidade\n*   **minimum_intrajornada_interval_1h:** Conformidade\n\n**Observações Adicionais:**\n\n*   Embora o cenário indique ausência de reclamações, é fundamental que a empresa mantenha um canal de comunicação aberto para que os empregados possam expressar suas preocupações e sugestões.\n*   A ausência de banco de horas e horas extras, conforme mencionado, contribui para a previsibilidade e controle da jornada de trabalho, evitando potenciais questionamentos futuros.\n*   A auditoria regular dos registros de ponto é crucial para garantir a conformidade contínua e identificar eventuais desvios.\n*   É importante ressaltar que a análise se baseia unicamente nos predicados fornecidos. Outros aspectos do Direito do Trabalho podem ser relevantes em uma análise mais abrangente.",
+  "tokens_in": 344,
+  "tokens_out": 585,
+  "latency_ms": 15983,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

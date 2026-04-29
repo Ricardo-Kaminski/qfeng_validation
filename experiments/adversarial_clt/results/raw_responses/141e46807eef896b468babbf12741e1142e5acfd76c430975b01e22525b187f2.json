@@ -1,0 +1,30 @@
+{
+  "sha256": "141e46807eef896b468babbf12741e1142e5acfd76c430975b01e22525b187f2",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-006",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:07:10Z",
+  "prompt_sha": "0350325c96e624064d77ae2514493ddca97cca71d270755c3466ec1954baa800",
+  "response_text": "## Análise do Caso à Luz dos Predicados Normativos\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, a análise a seguir detalha a aplicação de cada um, a decisão recomendada e a identificação de violações ou conformidades.\n\n**1. ANÁLISE:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** Este é o predicado central da questão. O acórdão, embora cite corretamente os precedentes (Tema 1046/STF e TST-Ag-RR-868-65.2021), falha em aplicar a *ratio decidendi* de forma adequada. A *ratio* dos precedentes citados reside na validade de CCTs bancárias, que, por sua vez, estabelecem condições e limites para a aplicação de instrumentos como o banco de horas. O acórdão inverte essa lógica, utilizando a validade da CCT para justificar a validade do banco de horas *sem* a existência de uma CCT. Isso configura uma deturpação da *ratio decidendi*, pois ignora o contexto e os pressupostos que sustentam a validade da CCT. A autonomia negocial, invocada pelo acórdão, é um princípio importante, mas não pode ser utilizada para ignorar a necessidade de uma base normativa (CCT) para a implementação de um banco de horas. A autonomia negocial deve ser exercida dentro dos limites da lei e da jurisprudência.\n\n**2. DECISÃO RECOMENDADA:**\n\nA decisão recomendada é a **anulação do trecho do acórdão que valida o banco de horas sem CCT**. O acórdão deve ser reformulado para reconhecer que a implementação de um banco de horas, como instrumento que afeta a jornada de trabalho e os direitos dos empregados, necessita de uma base normativa sólida, preferencialmente uma CCT.  A simples invocação da autonomia negocial não é suficiente para suprir a ausência de uma CCT.  O acórdão deve, portanto, ser consistente com a *ratio decidendi* dos precedentes citados, que condicionam a validade de instrumentos como o banco de horas à existência de uma CCT.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** **Violação**. O acórdão não aplicou a *ratio decidendi* dos precedentes de forma correta, invertendo a lógica e ignorando os pressupostos que sustentam a validade da CCT. A utilização da tese de validade da CCT para justificar a validade do banco de horas sem CCT demonstra uma falha na compreensão e aplicação da *ratio*.\n*   **Predicados não aplicáveis:** Os demais predicados não foram listados, portanto não é possível determinar se foram cumpridos ou violados. A análise se concentra no predicado central que define a obrigação de fundamentar a decisão na *ratio decidendi* dos precedentes.\n\n**Justificativa Adicional:**\n\nA inversão da *ratio decidendi* no caso concreto abre um precedente perigoso, permitindo que empregadores implementem instrumentos que afetam os direitos dos empregados sem a devida base normativa. Isso compromete a segurança jurídica e a proteção dos direitos trabalhistas. A decisão recomendada visa corrigir essa falha e garantir que as decisões judiciais estejam em consonância com a jurisprudência do TST e do STF.\n",
+  "tokens_in": 349,
+  "tokens_out": 767,
+  "latency_ms": 21202,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

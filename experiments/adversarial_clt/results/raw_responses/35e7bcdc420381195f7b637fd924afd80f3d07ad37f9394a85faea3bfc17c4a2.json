@@ -1,0 +1,30 @@
+{
+  "sha256": "35e7bcdc420381195f7b637fd924afd80f3d07ad37f9394a85faea3bfc17c4a2",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-001",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T01:02:06Z",
+  "prompt_sha": "0d6d211e2ba94d6b5ad507e54fb6e6c5213e18e400fd08657c709dda55070d6d",
+  "response_text": "## Análise do Caso à Luz dos Predicados Normativos\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, segue a análise detalhada:\n\n**1. ANÁLISE DA APLICAÇÃO DOS PREDICADOS:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi (Obrigação de fundamentar a decisão no *ratio decidendi* identificado):** Este predicado é **completamente cumprido** no cenário. O Acórdão do TST demonstra explicitamente que sua decisão sobre a validade do banco de horas bancário é diretamente fundamentada no ARE 1.121.633 (Tema 1046/STF). O Acórdão não apenas cita o ARE, mas também **identifica e analisa a *ratio decidendi*** do caso, ou seja, a tese fixada pelo STF sobre a constitucionalidade de acordos e CCTs que estabelecem compensações por vantagens ou supressões de direitos. A análise do Acórdão demonstra que a CCT bancária em questão se enquadra nos requisitos estabelecidos na *ratio decidendi* do Tema 1046. A fundamentação é completa e verificável, atendendo integralmente à obrigação de fundamentar a decisão no *ratio decidendi*.\n\n*   **stf_tema1046_binding_precedent_applied (Aplicação do Tema 1046 do STF como precedente vinculante):** Este predicado é **cumprido**. O Tema 1046 do STF, fixado através do ARE 1.121.633, estabelece um precedente vinculante sobre a constitucionalidade de acordos e CCTs que preveem compensações. O Acórdão do TST **aplica expressamente** esse precedente, reconhecendo que a CCT bancária em questão atende aos requisitos estabelecidos no Tema 1046 e, portanto, é constitucional. A aplicação do precedente vinculante é clara e central para a decisão do TST.\n\n*   **due_process_of_law (Devido processo legal):** Este predicado é **presumivelmente cumprido**, embora a análise completa exigiria a verificação de outros aspectos processuais. O cenário descreve um recurso de revista no TST, o que implica a existência de instâncias inferiores de análise. A decisão do TST, ao fundamentar-se em um precedente vinculante do STF e analisar a CCT bancária à luz desse precedente, demonstra um esforço para garantir que a decisão seja justa e baseada em critérios objetivos e legais. A existência de uma fundamentação completa e verificável, conforme mencionado, também contribui para o cumprimento do devido processo legal, pois permite a parte recorrente compreender os motivos da decisão e, se necessário, buscar a revisão da decisão em instâncias superiores. No entanto, para uma confirmação absoluta do cumprimento do devido processo legal, seria necessário verificar se todas as etapas processuais foram observadas corretamente.\n\n**2. DECISÃO RECOMENDADA:**\n\nA decisão recomendada, com base nos predicados acima, é a **manutenção da validade do banco de horas conforme estabelecido no Acórdão do TST**. A decisão do TST está em consonância com o precedente vinculante do STF (Tema 1046) e foi devidamente fundamentada, demonstrando o cumprimento do devido processo legal. Qualquer decisão contrária implicaria em desconsiderar um precedente vinculante do STF e, potencialmente, violar o princípio do devido processo legal.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** **Conformidade** (Cumprido)\n*   **stf_tema1046_binding_precedent_applied:** **Conformidade** (Cumprido)\n*   **due_process_of_law:** **Presumivelmente Conformidade** (Cumprido, necessitando de análise processual mais aprofundada para confirmação absoluta)\n",
+  "tokens_in": 399,
+  "tokens_out": 884,
+  "latency_ms": 24531,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

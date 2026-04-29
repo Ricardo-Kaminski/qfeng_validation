@@ -1,0 +1,29 @@
+{
+  "sha256": "15ea8950bd1ee4d343fe5c65bf2f1fb1caeaa21239a8d3a924da61fc1e09a295",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T22:22:36Z",
+  "prompt_sha": "8c96eb4d737be4ce8781d374931313b19e56c91b6fa2796bc527598d09d845e0",
+  "response_text": "### 1. **ANÁLISE**  \nO predicado normativo **semester_hour_bank_requires_cct_or_act** estabelece que o banco de horas semestral **exige a existência de um acordo coletivo de trabalho (CCT) ou um acordo de trabalho coletivo (ACT)**, conforme determinado pela CLT (art. 59, § 1º) e jurisprudência do TST. Esse requisito é **obrigatório**, independentemente da natureza do acordo (individual ou coletivo), **quando o banco de horas abrange um período superior a 3 meses** (limite estabelecido pela CLT para acordos individuais).  \n\nNo caso concreto:  \n- A empresa implementou um banco de horas **semestral** (período superior a 3 meses) **mediante acordos individuais**, **sem participação do sindicato patronal ou dos trabalhadores em qualquer acordo coletivo**.  \n- Isso **viola a exigência legal** de que, para períodos superiores a 3 meses, o banco de horas **só pode ser estabelecido mediante acordo coletivo** (CCT ou ACT), conforme previsto no art. 59, § 1º da CLT.  \n- A jurisprudência do TST (ex.: Súmula 263) reforça que a **negociação coletiva é obrigatória** para a implementação de banco de horas semestral, **independentemente da existência de acordos individuais**.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **empresa deve ser condenada** por:  \n- **Violar a obrigação de negociação coletiva** prevista no art. 59, § 1º da CLT e na jurisprudência do TST.  \n- **Implementar um banco de horas semestral sem a devida participação coletiva**, mesmo com acordos individuais, o que é **incompatível com a legislação trabalhista**.  \n\nA **decisão deve determinar**:  \n- A **nulidade do banco de horas** implementado, por falta de acordo coletivo.  \n- A **compensação das horas extras** acumuladas pelos empregados, conforme previsto no art. 59, § 2º da CLT (limites de 20 horas por mês).  \n- A **obrigação de a empresa celebrar um acordo coletivo** (CCT ou ACT) para a implementação de um banco de horas semestral, se desejar continuar com a prática.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Violação**:  \n  - **semester_hour_bank_requires_cct_or_act** (predicado normativo): A empresa **não cumpriu a exigência legal** de celebrar um acordo coletivo (CCT ou ACT) para a implementação de um banco de horas semestral, **violando diretamente esse predicado**.  \n\n- **Conformidade**:  \n  - **Nenhum outro predicado normativo** foi explicitamente mencionado no cenário, mas **não há conformidade com a legislação** no que diz respeito à implementação do banco de horas semestral.  \n\n--- \n\n**Conclusão**: A ausência de acordo coletivo para o banco de horas semestral configura **violação direta da CLT e da jurisprudência do TST**, independentemente da existência de acordos individuais.",
+  "tokens_in": 344,
+  "tokens_out": 1181,
+  "latency_ms": 36343,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

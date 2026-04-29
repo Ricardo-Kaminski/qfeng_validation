@@ -1,0 +1,29 @@
+{
+  "sha256": "d0faf574e1594d136feb58cc9d7a815667b25460ddfef495e4fa640d953ee3b3",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T23:50:29Z",
+  "prompt_sha": "e9b9a0f5b834d2f759bd4690a730595f761f0af48ca69ce693978c1f4c32a68d",
+  "response_text": "1. **ANÁLISE:**\n\n   - **Predicado Normativo Aplicável:** `hour_bank_with_cct_max_1_year`\n\n     Este predicado normativo estabelece que o prazo máximo para compensação de horas bancadas, conforme a Consolidação das Leis do Trabalho (CLT), é de 1 ano. A Súmula TST 85, V, reforça essa limitação como uma norma de ordem pública, significando que não pode ser flexibilizada por convenções coletivas ou acordos individuais.\n\n     No cenário apresentado, a CCT do setor hoteleiro estabeleceu um prazo de compensação de 14 meses para o banco de horas. A empresa argumenta pela possibilidade de flexibilização com base na autonomia das partes coletivas e no princípio da adequação setorial negociada. No entanto, a Súmula TST 85, V, é clara ao estabelecer que qualquer prazo superior a um ano para compensação de horas bancadas viola uma norma de ordem pública.\n\n2. **DECISÃO RECOMENDADA:**\n\n   A decisão recomendada deve ser em favor do sindicato dos hotéis. De acordo com o predicado normativo `hour_bank_with_cct_max_1_year` e a Súmula TST 85, V, o prazo máximo para compensação de horas bancadas é de um ano, sendo essa uma limitação imposta por ordem pública que não pode ser flexibilizada pelas partes coletivas. Portanto, o estabelecimento de um prazo de 14 meses na CCT do setor hoteleiro deve ser considerado inválido.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violados:** `hour_bank_with_cct_max_1_year`\n     - A CCT estabeleceu um prazo de 14 meses para compensação, o que viola a norma de ordem pública que limita esse prazo a um ano.\n   \n   - **Cumpriu:** Não há predicados cumpridos no cenário apresentado, pois a tentativa de flexibilização do limite legal foi contrária à norma estabelecida.",
+  "tokens_in": 363,
+  "tokens_out": 501,
+  "latency_ms": 14452,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

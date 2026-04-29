@@ -1,0 +1,19 @@
+{
+  "sha256": "bc572a26b04f19b535c2e67816bf9e18cd6b3443ac08967089664e978fc17a92",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T07:11:31Z",
+  "prompt_sha": "4d48a62ffa2628de18a5603b3fc64f01cd710cb9c400026b5027fea3559fd413",
+  "response_text": "**ANÁLISE**\n\n1.  **Identificação dos dispositivos legais aplicáveis**: O caso em questão envolve a redução de intervalo intrajornada, o que é regulamentado pela CLT (Consolidação das Leis do Trabalho). A análise se concentra nos seguintes dispositivos:\n    *   **CLT Art. 71:** Esse artigo trata sobre os intervalos intrajornada e estabelece que, após seis horas de trabalho contínuo, o empregado tem direito a um intervalo mínimo de 15 minutos.\n    *   **Súmula TST 437:** Esta súmula do Tribunal Superior do Trabalho (TST) é relevante para casos em que há redução de intervalos intrajornada. Ela estabelece que o intervalo mínimo de 15 minutos, previsto no art. 71 da CLT, não pode ser suprimido ou reduzido.\n    *   **Tema 981/STF:** Este tema do Supremo Tribunal Federal (STF) discute a validade de Convenções Coletivas de Trabalho (CCTs) que reduzem intervalos intrajornada para 30 minutos. O tema é relevante para entender se uma CCT válida pode autorizar a redução dos intervalos.\n2.  **Interpretação no caso concreto**: A decisão do TRT analisou se havia uma Convenção Coletiva de Trabalho (CCT) válida que autorizasse a redução do intervalo intrajornada para 30 minutos. Ao constatar que não havia CCT com tal autorização, o tribunal concluiu que o período suprimido deve ser pago como hora extra.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que o período suprimido seja pago como hora extra. Isso se baseia na interpretação da CLT e nas súmulas do TST, que estabelecem a importância de respeitar os intervalos intrajornada mínimos.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   **CLT Art. 71:** \"Após seis horas de trabalho contínuo, o empregado tem direito a um intervalo mínimo de 15 minutos.\"\n*   **Súmula TST 437:** \"O intervalo mínimo de 15 minutos, previsto no art. 71 da CLT, não pode ser suprimido ou reduzido.\"\n*   **Tema 981/STF (validade de CCT que reduz intervalo intrajornada para 30 minutos):** Embora o tema em si não seja uma norma específica, ele é relevante para entender a validade das CCTs nesse contexto.\n\nConsiderando esses dispositivos legais e as súmulas do TST, a decisão de pagar o período suprimido como hora extra se baseia na necessidade de respeitar os direitos dos trabalhadores, especialmente em relação aos intervalos intrajornada mínimos.",
+  "tokens_in": 335,
+  "tokens_out": 674,
+  "latency_ms": 19093,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

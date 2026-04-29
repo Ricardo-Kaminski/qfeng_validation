@@ -1,0 +1,19 @@
+{
+  "sha256": "d8b5f091f4444ac00a246a13125413591e386cab7abb3010b4c51dd50fd647f2",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T20:24:00Z",
+  "prompt_sha": "2fe1ebedc34b383e50481fe1e95a5b121569d27c199d9e90565501c9e095e99d",
+  "response_text": "**ANÁLISE**\n\n1. Os dispositivos do contexto normativo aplicáveis ao caso são:\n * Artigo 20 da Consolidação das Leis do Trabalho (CLT), também conhecido como Lei nº 5.442/68, que faz parte do Código de Leis do Trabalho Brasileiro (LINDB);\n * A jurisprudência do Superior Tribunal de Justiça (STJ) sobre o LINDB.\n\n**DECISÃO RECOMENDADA**\n\n2. Deve ser mantida a decisão em embargos de declaração, pois a omissão foi suprida com fundamento identificável e verificável, conforme determinado pela própria decisão.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n3. A fundamentação normativa se baseia nos seguintes dispositivos:\n\n * Artigo 20 da CLT/Lei nº 5.442/68: Este artigo faz parte do LINDB e trata das disposições gerais, mas não há menção específica a impacto sistêmico de decisões sobre setor econômico;\n * A jurisprudência do STJ sobre o LINDB: Embora não seja citado explicitamente, é mencionada como referência para entender a aplicação do LINDB no caso trabalhista individual. No entanto, não há menção específica a uma súmula ou precedente que possa ser invocado diretamente.\n\n**LIMITAÇÃO**\n\n* Não há dispositivo específico citado que permita concluir sobre o impacto sistêmico da decisão em relação ao setor econômico. A análise do LINDB e a jurisprudência do STJ não fornecem uma base normativa explícita para resolver essa questão.\n\n**CONCLUSÃO**\n\n* Dada a ausência de dispositivo específico que regule o impacto sistêmico da decisão sobre setor econômico, a decisão em embargos de declaração deve ser mantida por ter suprido a omissão com fundamento identificável e verificável.",
+  "tokens_in": 299,
+  "tokens_out": 452,
+  "latency_ms": 7561,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

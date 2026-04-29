@@ -1,0 +1,19 @@
+{
+  "sha256": "a9db1ddec8cacab84599f9f1c666c67a0ef7ca42ffe0a37afa3a3583df0ecacb",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-010",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T02:09:09Z",
+  "prompt_sha": "54c78e8764f323ecedb1581931d4078369f96ca3a87490a0206e6eebe8350d10",
+  "response_text": "### ANÁLISE\n\n**1. Dispositivos Legais Aplicáveis**\n\n- **Convenção Coletiva de Trabalho (ACT):** A ACT é um instrumento coletivo negociado entre empregadores e sindicatos, que pode estabelecer condições específicas para o trabalho em determinada categoria profissional. No caso apresentado, a ACT firmou banco de horas com compensação mensal.\n\n- **Banco de Horas:** O banco de horas é uma modalidade de flexibilização da jornada de trabalho prevista na CLT, que permite acúmulo e compensação de horas trabalhadas em períodos distintos. As regras para o banco de horas são estabelecidas no artigo 59-A da CLT.\n\n- **Artigo 59-A da CLT:** Este dispositivo legal regula a possibilidade de flexibilização da jornada de trabalho mediante acordo ou convenção coletiva, permitindo acúmulo e compensação de horas em períodos específicos. As condições estabelecidas na ACT devem estar em conformidade com as normas do artigo 59-A.\n\n**Interpretação no Caso Concreto**\n\n- **Registro da ACT:** A convenção foi registrada, o que é um requisito legal para sua validade e aplicabilidade (art. 620 da CLT).\n\n- **Limites de Acúmulo e Compensação:** O acúmulo está limitado a 40 horas mensais e a compensação deve ocorrer dentro do prazo máximo de cinco meses, o que está em conformidade com as normas gerais do artigo 59-A da CLT.\n\n- **Fornecimento de Extrato Mensal:** A entrega regular dos extratos do banco de horas aos trabalhadores é uma exigência legal para garantir transparência e controle sobre a compensação das horas (Súmula 331 do TST).\n\n- **Limites de Horas Extras Diárias:** As horas extras não ultrapassam o limite de duas horas diárias, conforme permitido pelo artigo 61 da CLT.\n\n### DECISÃO RECOMENDADA\n\nA decisão recomendada é que a empresa continue operando sob os termos estabelecidos na ACT, pois todos os requisitos legais e normativos estão sendo cumpridos. A implementação do banco de horas está em conformidade com o artigo 59-A da CLT, e todas as condições previstas na convenção coletiva são respeitadas.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n- **Artigo 59-A da CLT:** Permite a flexibilização da jornada de trabalho mediante acordo ou convenção coletiva, estabelecendo limites para acúmulo e compensação de horas trabalhadas.\n\n- **Súmula 331 do TST:** Estipula que o empregador deve fornecer extrato mensal das horas acumuladas no banco de horas aos trabalhadores, garantindo transparência e controle sobre a compensação.\n\n- **Artigo 61 da CLT:** Define os limites para as horas extras diárias, permitindo até duas horas adicionais por dia, o que está sendo respeitado na prática da empresa.\n\n- **Artigo 620 da CLT:** Exige o registro formal das convenções coletivas de trabalho para sua validade e aplicabilidade.\n\nA decisão é fundamentada no cumprimento integral dos dispositivos legais mencionados, garantindo que a empresa atue dentro do marco regulatório estabelecido pela legislação trabalhista brasileira.",
+  "tokens_in": 308,
+  "tokens_out": 786,
+  "latency_ms": 45171,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

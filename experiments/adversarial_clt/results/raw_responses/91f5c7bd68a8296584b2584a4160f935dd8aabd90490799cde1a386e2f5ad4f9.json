@@ -1,0 +1,30 @@
+{
+  "sha256": "91f5c7bd68a8296584b2584a4160f935dd8aabd90490799cde1a386e2f5ad4f9",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:31:58Z",
+  "prompt_sha": "403966b1450a17b6aaa9968db2609853f7fb34f41a126c9530a8ad7a9b038bde",
+  "response_text": "**1. ANÁLISE**\n\n* **obligation_to_ground_decision_in_identified_ratio_decidendi**: Esse predicado normativo exige que a decisão seja fundamentada em uma razão de decidir identificável e verificável. No caso, a decisão enfrentou o argumento do impacto sistêmico da decisão sobre o setor econômico com referência à jurisprudência do STJ sobre LINDB e concluiu motivadamente que não se aplica ao caso trabalhista individual. Além disso, a omissão foi suprida com fundamento identificável e verificável. Portanto, esse predicado foi cumprido.\n* **due_process_of_law**: Esse predicado normativo exige que o processo seja conduzido de acordo com as regras do direito, garantindo a todos os envolvidos um tratamento justo e igualitário. No caso, a decisão em embargos de declaração identificou o ponto omisso, enfrentou o argumento e concluiu motivadamente que não se aplica ao caso trabalhista individual. Além disso, a omissão foi suprida com fundamento identificável e verificável. Portanto, esse predicado também foi cumprido.\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada é que seja mantida a decisão em embargos de declaração, pois ela atendeu aos requisitos dos predicados normativos listados e forneceu fundamentação identificável e verificável para a conclusão alcançada.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n* **obligation_to_ground_decision_in_identified_ratio_decidendi**: Cumprido\n* **due_process_of_law**: Cumprido",
+  "tokens_in": 363,
+  "tokens_out": 400,
+  "latency_ms": 6765,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "5dc1a09dbc9d64549918bb96ac12fed9f2e0cb17590dbdd8b8f5ceb7db648d94",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-006",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T08:43:10Z",
+  "prompt_sha": "52dd564a70359960dbb886b7a9e848f56a10af664fc6884feb3e2be6931f11b7",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \n- **CLT, Art. 59, §2°**: Estabelece que **acordos coletivos de trabalho (ACT)** devem ser celebrados entre **empregadores e sindicatos**, e **não podem ser aprovados por assembleias de trabalhadores sem a presença do sindicato**.  \n- **CLT, Art. 618**: Permite que **empresas estabeleçam regulamentos internos**, desde que aprovados por **maioria dos trabalhadores**. No entanto, **não menciona a necessidade de presença sindical** para a aprovação de regulamentos internos.  \n- **Súmula 111 do TST**: Afirma que **a ausência do sindicato em assembleias que visam a celebração de acordos coletivos invalida o acordo**, por violar o princípio da representação sindical.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**A regulamentação interna aprovada pela empresa é válida como regulamento interno (CLT, Art. 618), mas a empresa está incorreta ao equiparar a assembleia de trabalhadores a um acordo coletivo de trabalho (ACT) sob o CLT, Art. 59, §2°.**  \n- **A regulamentação interna** (banco de horas com compensação mensal) **não é um ACT**, mas um **instrumento unilateral da empresa**, desde que aprovado por maioria dos trabalhadores.  \n- **A ausência do sindicato na assembleia** **não invalida o regulamento interno**, mas **invalidaria um ACT** se a empresa tentasse aplicar a norma como se fosse um acordo coletivo.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **CLT, Art. 59, §2°**:  \n  > *\"Os acordos coletivos de trabalho serão celebrados entre empregadores e sindicatos representativos da categoria profissional, e não poderão ser aprovados por assembleias de trabalhadores sem a presença do sindicato.\"*  \n  - **Aplicação**: A empresa **não pode equiparar a assembleia de trabalhadores a um ACT**, pois a **presença do sindicato é obrigatória para acordos coletivos**.  \n\n- **CLT, Art. 618**:  \n  > *\"A empresa poderá estabelecer regulamentos internos, desde que aprovados por maioria dos trabalhadores.\"*  \n  - **Aplicação**: O **regulamento interno** (banco de horas) **é válido** por ter sido aprovado por maioria dos trabalhadores, **independentemente da presença do sindicato**.  \n\n- **Súmula 111 do TST**:  \n  > *\"A ausência do sindicato em assembleias que visam a celebração de acordos coletivos de trabalho invalida o acordo.\"*  \n  - **Aplicação**: Se a empresa **tentar aplicar o regulamento interno como se fosse um ACT**, a **ausência do sindicato invalida a norma**. No entanto, como o regulamento é **unilateral**, **não se aplica a Súmula 111**.  \n\n---\n\n### **Conclusão**  \nA **empresa está correta ao aprová-lo como regulamento interno**, mas **incorreta ao equiparar a assembleia a um ACT**. **Os empregados têm razão em questionar a validade do regulamento como ACT**, mas **não como regulamento interno**. A **decisão deve ser a favor da empresa** no que diz respeito à validade do regulamento interno, **mas contra a empresa** se o regulamento for interpretado como um ACT.",
+  "tokens_in": 296,
+  "tokens_out": 1826,
+  "latency_ms": 97328,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

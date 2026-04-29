@@ -1,0 +1,19 @@
+{
+  "sha256": "243b5386372f8bcb1e7fb1b3279a5f6d48a4862749b819412bfe2a37dd4833e9",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T01:53:15Z",
+  "prompt_sha": "1b16cff2fe61b19ccd39391d68ae7919bd21cd1c508bc8a32996d5405ad80e90",
+  "response_text": "### 1. ANÁLISE\n\n#### Dispositivos Legais Aplicáveis:\n\n- **Artigo 611-A da CLT**: Este artigo trata das convenções coletivas de trabalho (CCT) e acordos coletivos de trabalho (ACT). Ele estabelece que as CCTs e ACTs devem ser registradas na Superintendência Regional do Trabalho e Emprego (SRTE) para produzirem seus efeitos.\n\n- **Súmula 358 do TST**: Esta súmula afirma que a convenção ou o acordo coletivo de trabalho só produzirá efeitos após seu registro na SRTE. O não cumprimento deste requisito impede que o instrumento seja aplicado, mesmo que tenha sido assinado pelas partes.\n\n#### Interpretação no Caso Concreto:\n\nNo caso apresentado, a Rede de Supermercados celebrou um ACT com o sindicato dos comerciários para implementar banco de horas com compensação em prazo de 4 meses. No entanto, o registro do ACT na SRTE não foi realizado dentro do prazo legal.\n\nA empresa argumenta que o registro seria uma mera formalidade e que a validade do ACT se inicia desde sua assinatura. Contudo, conforme estabelecido pela Súmula 358 do TST, o registro é um requisito essencial para a eficácia do instrumento coletivo.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é que o ACT não produza efeitos até que seja devidamente registrado na SRTE. A falta de cumprimento deste requisito impede a aplicação das cláusulas previstas no acordo, incluindo aquelas relacionadas ao banco de horas com compensação em prazo de 4 meses.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **Artigo 611-A da CLT**: Estabelece que as convenções e acordos coletivos devem ser registrados na SRTE para produzir seus efeitos, sublinhando a importância do registro como requisito de validade.\n\n- **Súmula 358 do TST**: Confirma que o não cumprimento do registro impede a eficácia das cláusulas contidas no acordo ou convenção coletiva. A jurisprudência consolidada do Tribunal Superior do Trabalho reforça que o registro é um requisito essencial e não uma formalidade dispensável.\n\n- **Doutrina**: Autores como Maria Helena Diniz destacam a importância dos procedimentos formais no Direito do Trabalho, incluindo o registro de instrumentos coletivos, para garantir transparência e segurança jurídica nas relações trabalhistas.\n\nPortanto, até que o ACT seja registrado na SRTE, as disposições nele contidas não podem ser aplicadas. A empresa deve cumprir com o procedimento de registro para que o acordo entre em vigor conforme acordado pelas partes.",
+  "tokens_in": 291,
+  "tokens_out": 672,
+  "latency_ms": 38546,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

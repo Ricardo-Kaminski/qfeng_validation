@@ -1,0 +1,19 @@
+{
+  "sha256": "33825e94c368e2c91c20a42fdfb2fec8a0a0fe9dd524e9288504a4195ed50991",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T20:28:30Z",
+  "prompt_sha": "78faf043ffafa13b62c94bafbb4c2e0135abf258fd4b2cf3a75e7132cf2b38ec",
+  "response_text": "**ANÁLISE**\n\nO caso apresentado envolve a celebração de uma Convenção Coletiva de Trabalho (CCT) entre uma empresa e um sindicato, que estabelece regras específicas para o banco de horas dos trabalhadores. A análise deve considerar os dispositivos normativos aplicáveis à CCT e ao processo de compensação das horas extras.\n\n**DISPOSITIVOS DO CONTEXTO NORMATIVO APLICÁVEIS**\n\n- **CCT com cláusula de conversão em adicional**: O dispositivo mais relevante é a cláusula que estabelece a conversão do saldo não compensado em adicional de 50% (não há artigo específico citado, mas é uma prática comum e permitida pela legislação trabalhista).\n- **Acúmulo máximo de 60 horas mensais**: Não há dispositivo legal que estabeleça um limite de acúmulo de horas extras para bancos de horas. A legislação trabalhista permite a compensação de horas extras dentro do período de validade da CCT.\n- **Extrato entregue mensalmente**: Embora não seja citado explicitamente, o artigo 61 da CLT (Consolidação das Leis do Trabalho) estabelece que os empregadores devem fornecer aos empregados um extrato de horas trabalhadas e compensadas.\n- **Cláusula de conversão em adicional**: Não há dispositivo legal específico citado, mas é uma prática comum e permitida pela legislação trabalhista.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada deve considerar a celebração da CCT como um acordo válido entre as partes envolvidas. Dado que todas as horas extras foram compensadas dentro do período estabelecido na CCT e não há contestação sindical ou individual, a decisão deve ser favorável à empresa.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n- **Artigo 611 da CLT**: Não citado explicitamente no contexto, mas é relevante para a compensação de horas extras.\n- **Súmulas do TST (Tribunal Superior do Trabalho)**: Embora não sejam citadas específicas súmulas, o entendimento do TST sobre a validade das CCTs e a compensação de horas extras é relevante para a decisão.\n\n**LIMITAÇÃO**\n\nNão há limitações significativas em relação à aplicação da legislação trabalhista ao caso apresentado. A celebração da CCT e a compensação das horas extras dentro do período estabelecido são práticas comuns e permitidas pela legislação trabalhista brasileira.\n\n**CONCLUSÃO**\n\nA decisão recomendada é que a empresa tenha agido de acordo com as cláusulas estabelecidas na CCT, compensando todas as horas extras dos trabalhadores dentro do período previsto. A falta de contestação e a validade da CCT tornam essa decisão justa e legalmente sustentável.",
+  "tokens_in": 301,
+  "tokens_out": 669,
+  "latency_ms": 11191,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,29 @@
+{
+  "sha256": "7b71294fa8dc8e721c1c6cb07cb1b1e095faf97728761b4787c2077d4282420f",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T23:50:43Z",
+  "prompt_sha": "e9b9a0f5b834d2f759bd4690a730595f761f0af48ca69ce693978c1f4c32a68d",
+  "response_text": "1. **ANÁLISE:**\n\n   - **Predicado normativo aplicável: `hour_bank_with_cct_max_1_year`**\n   \n     Este predicado estabelece que o prazo máximo para a compensação de banco de horas, conforme previsto na Consolidação das Leis do Trabalho (CLT), é de 12 meses. A Súmula Vinculante nº 85 do Tribunal Superior do Trabalho (TST) reforça que este limite não pode ser prorrogado por convenção coletiva ou acordo individual, pois se trata de uma norma de ordem pública. \n\n     No cenário apresentado, a CCT do setor hoteleiro estabeleceu um banco de horas com prazo de compensação de 14 meses, o que excede o limite máximo permitido pela CLT e confirmado pela Súmula TST 85, V. A empresa argumenta que há flexibilidade para as partes coletivas negociarem termos específicos do setor, mas essa alegação não se sustenta frente à norma de ordem pública estabelecida pelo TST.\n\n2. **DECISÃO RECOMENDADA:**\n\n   A decisão recomendada é que o prazo de compensação de 14 meses estipulado na CCT seja considerado inválido, pois viola a norma de ordem pública prevista no artigo da CLT e reforçada pela Súmula Vinculante nº 85 do TST. Portanto, deve ser aplicado o limite máximo de 12 meses para a compensação das horas bancadas.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violado:** `hour_bank_with_cct_max_1_year`\n     - A CCT estabeleceu um prazo de compensação de 14 meses, que excede o limite máximo permitido por lei e jurisprudência do TST. Portanto, este predicado foi violado.\n\n   - **Cumpriu:** Não há predicados cumpridos no cenário apresentado, uma vez que a norma estabelecida pela CLT e reforçada pelo TST não foi respeitada na negociação da CCT.",
+  "tokens_in": 363,
+  "tokens_out": 494,
+  "latency_ms": 14250,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

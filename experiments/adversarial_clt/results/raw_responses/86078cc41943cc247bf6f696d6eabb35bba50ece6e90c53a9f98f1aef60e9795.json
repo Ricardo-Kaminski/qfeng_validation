@@ -1,0 +1,30 @@
+{
+  "sha256": "86078cc41943cc247bf6f696d6eabb35bba50ece6e90c53a9f98f1aef60e9795",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T23:04:52Z",
+  "prompt_sha": "0d6d211e2ba94d6b5ad507e54fb6e6c5213e18e400fd08657c709dda55070d6d",
+  "response_text": "### 1. **ANÁLISE**  \n**a) obligation_to_ground_decision_in_identified_ratio_decidendi**  \nO acórdão do TST fundamenta sua decisão com base no **ARE 1.121.633 (Tema 1046/STF)**, que estabelece a constitucionalidade de acordos e convenções coletivas que estipulam compensações de direitos com base no princípio da adequação setorial negociada. A identificação clara do *ratio decidendi* (a tese fixada pelo STF) atende diretamente a esta obrigação, garantindo transparência e vinculação normativa à decisão.  \n\n**b) stf_tema1046_binding_precedent_applied**  \nO TST aplica explicitamente o **Tema 1046/STF**, que reconhece a validade de compensações de direitos em acordos coletivos desde que baseadas em negociações setoriais. A CCT bancária em questão foi analisada e considerada compatível com os requisitos do Tema 1046, o que demonstra a correta aplicação do precedente vinculante estabelecido pelo STF.  \n\n**c) due_process_of_law**  \nO princípio do devido processo legal foi respeitado, pois a CCT foi analisada com base em critérios objetivos (adequação setorial negociada) e não em premissas arbitrárias. A validação do banco de horas, conforme o TST, não viola direitos fundamentais, garantindo a proteção jurídica dos trabalhadores e a legalidade da negociação coletiva.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA decisão do TST deve ser **mantida e confirmada**, pois:  \n- A fundamentação está alinhada ao **Tema 1046/STF**, garantindo a vinculação normativa e a coerência com a jurisprudência do STF.  \n- O **princípio da adequação setorial negociada** foi corretamente aplicado, respeitando a autonomia das partes e a legalidade da CCT.  \n- O **devido processo legal** foi observado, assegurando a legitimidade da negociação coletiva e a proteção dos direitos dos trabalhadores.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Cumpridos**:  \n  - **obligation_to_ground_decision_in_identified_ratio_decidendi** (a decisão está fundamentada no *ratio decidendi* do Tema 1046/STF).  \n  - **stf_tema1046_binding_precedent_applied** (o TST aplicou corretamente o precedente vinculante do STF).  \n  - **due_process_of_law** (o devido processo legal foi respeitado na análise da CCT e no reconhecimento do banco de horas).  \n\n- **Violações**:  \n  - Nenhuma violação foi identificada, pois todos os predicados normativos foram cumpridos de forma plena e compatível com a CLT e a jurisprudência do TST/STF.",
+  "tokens_in": 421,
+  "tokens_out": 1071,
+  "latency_ms": 32610,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

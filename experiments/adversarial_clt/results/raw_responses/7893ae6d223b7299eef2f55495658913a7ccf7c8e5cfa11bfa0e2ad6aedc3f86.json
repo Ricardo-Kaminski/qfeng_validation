@@ -1,0 +1,19 @@
+{
+  "sha256": "7893ae6d223b7299eef2f55495658913a7ccf7c8e5cfa11bfa0e2ad6aedc3f86",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T08:34:37Z",
+  "prompt_sha": "2958cee28e7a701a18f57cc355fef5a0f23028baaba52627d910f4513b98c196",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \n- **Banco de horas**: O regime de banco de horas é regulado pelo **art. 59 da CLT**, que permite a compensação de horas extras e horas normais, desde que estabelecido por acordo coletivo (CCT).  \n- **Compensação semestral**: O CCT mencionado no contexto estabelece a compensação semestral do banco de horas, o que implica que o saldo positivo deve ser compensado dentro do prazo definido no acordo.  \n- **Pagamento de horas não compensadas**: A empresa pagou o saldo remanescente como hora normal, não como hora extra. A reivindicação do empregado baseia-se na ideia de que horas não compensadas antes da rescisão devem ser pagas com adicional de 50% (como hora extra).  \n\n### 2. **DECISÃO RECOMENDADA**  \n**A empresa não está obrigada a pagar o saldo remanescente do banco de horas com adicional de 50%**, desde que o CCT não preveja expressamente que horas não compensadas sejam consideradas horas extras. A compensação do saldo positivo do banco de horas deve seguir as regras estabelecidas no CCT, que, no caso, prevê compensação semestral. A ausência de previsão no CCT de que o saldo remanescente seja pago como hora extra (com adicional de 50%) inviabiliza a reivindicação do empregado.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 59 da CLT**:  \n  > \"O banco de horas pode ser estabelecido por acordo coletivo, mediante compensação de horas extras e horas normais, desde que observado o limite máximo de 200 horas por ano.\"  \n  *O artigo confirma que o banco de horas é regulado por acordo coletivo, mas não determina que horas não compensadas sejam automaticamente consideradas horas extras.*  \n\n- **Ausência de previsão no CCT**:  \n  *O contexto normativo não menciona que o CCT estabeleça a compensação do saldo remanescente com adicional de 50% (como hora extra). A compensação semestral prevista no CCT limita-se à utilização do saldo dentro do prazo definido, sem prever regras adicionais para horas não compensadas.*  \n\n- **Súmula 316 do TST**:  \n  > \"O banco de horas, instituído por acordo coletivo, não pode ser utilizado para a compensação de horas extras em período posterior ao estabelecido no acordo, salvo se houver expressa previsão no instrumento coletivo.\"  \n  *A súmula reforça que a compensação do banco de horas deve seguir as regras do CCT, e a ausência de previsão para horas não compensadas inviabiliza a reivindicação do empregado.*  \n\n**Limitação do contexto normativo**:  \nO contexto não fornece normas específicas que vinculem o pagamento de horas não compensadas do banco de horas com adicional de 50%, exceto se o CCT estabelecer isso expressamente. A análise baseia-se apenas nas disposições mencionadas no contexto, sem extrapolação de normas.",
+  "tokens_in": 286,
+  "tokens_out": 1244,
+  "latency_ms": 81718,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

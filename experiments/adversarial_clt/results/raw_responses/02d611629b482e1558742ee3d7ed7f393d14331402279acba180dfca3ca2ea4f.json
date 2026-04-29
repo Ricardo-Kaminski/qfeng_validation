@@ -1,0 +1,30 @@
+{
+  "sha256": "02d611629b482e1558742ee3d7ed7f393d14331402279acba180dfca3ca2ea4f",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-008",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T23:18:45Z",
+  "prompt_sha": "f386ffafe5e7ff919c71ccc539ca484bedeed55858f8c345ed209dd7bbbe0e31",
+  "response_text": "### 1. **ANÁLISE**  \n- **obligation_to_ground_decision_in_identified_ratio_decidendi**:  \n  O acórdão cumpre esta obrigação ao fundamentar a decisão com base em **predicados normativos específicos** (CLT Art. 223-G e seus parágrafos) e **precedentes do TST**. A identificação do grau da ofensa (leve, médio, grave ou gravíssimo) e a quantificação do valor com referência ao salário do trabalhador são **aplicados de forma verificável**, cumprindo o princípio da **razão decidendi identificada**.  \n\n- **due_process_of_law**:  \n  O acórdão respeita o devido processo legal ao:  \n  - **Fundamentar a decisão com base em fatos provados** (não apenas em conjecturas ou presunções);  \n  - **Aplicar a legislação de forma proporcional e sistemática**, com referência aos **precedentes do TST** (ex.: Súmulas, Orientações Jurisprudenciais e Acórdãos do TST);  \n  - **Quantificar o dano moral com critérios objetivos** (percentuais fixados no art. 223-G, §1°, CLT), evitando arbitrariedade.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA decisão do acórdão **deve ser mantida**, pois:  \n- **Cumprimento total dos predicados normativos** (obrigação de fundamentação e devido processo legal);  \n- **Aplicação correta da CLT Art. 223-G** e dos **precedentes do TST**, garantindo **equidade e proporcionalidade** na quantificação do dano moral;  \n- **Ausência de vícios jurisprudenciais** (ex.: falta de fundamentação, arbitrariedade ou desrespeito aos direitos do trabalhador).  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: **Conformidade** (cumprida com base em CLT Art. 223-G e precedentes do TST).  \n- **due_process_of_law**: **Conformidade** (respeito aos direitos do trabalhador, fundamentação em fatos provados e aplicação proporcional da legislação).  \n\n**Nenhum predicado foi violado** no cenário descrito. A decisão do acórdão está **em pleno conformidade com os requisitos legais e jurisprudenciais**.",
+  "tokens_in": 387,
+  "tokens_out": 1096,
+  "latency_ms": 33282,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

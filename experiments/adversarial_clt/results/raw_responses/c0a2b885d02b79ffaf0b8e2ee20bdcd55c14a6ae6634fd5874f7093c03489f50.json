@@ -1,0 +1,29 @@
+{
+  "sha256": "c0a2b885d02b79ffaf0b8e2ee20bdcd55c14a6ae6634fd5874f7093c03489f50",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:46:19Z",
+  "prompt_sha": "70c99fcc6dafa8ce31ce53bbe06b00e3241aab50f61531be099540706399dce4",
+  "response_text": "## Análise do Caso: Banco de Horas em Empresa de Tecnologia\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, segue a análise, decisão recomendada e identificação de cumprimento/violação:\n\n**1. ANÁLISE:**\n\n*   **`semester_hour_bank_requires_cct_or_act` (O banco de horas requer CCT ou ACT):** Este predicado estabelece a obrigatoriedade de um acordo ou convenção coletiva para a implementação de um banco de horas. No caso, a empresa possui uma **ACT (Acordo Coletivo de Trabalho)** devidamente registrada, o que atende a este predicado. A ACT é a base legal para a existência do banco de horas.\n*   **`hour_bank_without_cct_max_6_months` (Banco de horas sem CCT tem prazo máximo de 6 meses):** Este predicado limita a validade de um banco de horas implementado sem ACT a um período máximo de 6 meses.  Embora o cenário apresente um ACT, este predicado serve como um *check* importante.  A existência da ACT elimina a necessidade de considerar este limite de 6 meses.\n*   **`maximum_daily_working_hours_8h` (Horário máximo diário de trabalho é de 8h):** Este predicado define o limite máximo de 8 horas diárias de trabalho. O cenário informa que não há horas extras acima de 2h/dia, o que significa que, mesmo com o banco de horas, o limite diário de 8 horas está sendo respeitado.  A limitação de horas extras a 2h/dia é uma medida de controle que garante a observância deste predicado.\n\n**2. DECISÃO RECOMENDADA:**\n\nA decisão recomendada é de **conformidade e manutenção do sistema de banco de horas**, desde que a empresa continue a observar rigorosamente as condições estabelecidas na ACT e os limites de horas extras. É crucial que a empresa continue a fornecer o extrato mensal do banco de horas aos trabalhadores, garantindo a transparência e o controle individual sobre o saldo.  A empresa deve estar atenta para garantir que a ACT continue válida e atualizada, e que os saldos sejam sempre compensados dentro do prazo de 5 meses estabelecido.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **`semester_hour_bank_requires_cct_or_act`:** **Conformidade**. A empresa possui ACT.\n*   **`hour_bank_without_cct_max_6_months`:** **Conformidade**. A existência da ACT elimina a aplicação deste predicado.\n*   **`maximum_daily_working_hours_8h`:** **Conformidade**. O limite diário de 8 horas é respeitado, com a limitação de horas extras a 2h/dia.\n\n**Observações Adicionais:**\n\n*   A limitação de 40h mensais de acúmulo e o prazo máximo de 5 meses para compensação, estabelecidos na ACT, são elementos cruciais para a legalidade do banco de horas.\n*   A empresa deve manter a documentação da ACT e dos extratos do banco de horas como prova do cumprimento das obrigações legais.\n*   É importante que a empresa esteja atenta a eventuais questionamentos dos trabalhadores sobre o sistema de banco de horas e esteja preparada para fornecer esclarecimentos e garantir a sua transparência.\n*   A validade da ACT deve ser verificada periodicamente para garantir que ela ainda está em vigor e que suas disposições ainda são aplicáveis.\n",
+  "tokens_in": 353,
+  "tokens_out": 787,
+  "latency_ms": 21750,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

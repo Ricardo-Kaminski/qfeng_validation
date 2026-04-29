@@ -1,0 +1,19 @@
+{
+  "sha256": "8eebdb92b7ddda0a34bad8388f8d65eea11e071ac684e81262aede9c30698654",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T20:25:40Z",
+  "prompt_sha": "546394fb36fd08b3df6e32b19b12372b52cd2212d1c83ed9d8b946faff99ba6f",
+  "response_text": "**ANÁLISE**\n\nOs dispositivos do contexto normativo aplicáveis ao caso são:\n\n1. CLT Art. 71: Regulamenta a jornada de trabalho e estabelece que o intervalo intrajornada deve ser de no mínimo 11 minutos.\n2. Súmula TST 437: Não é citada explicitamente, mas pode estar relacionada à matéria em discussão (intervalo intrajornada).\n3. Tema 981/STF: Validade de CCT que reduz intervalo intrajornada para 30 minutos.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é a condenação do empregador ao pagamento integral do período suprimido como hora extra, pois não há CCT válida autorizando a redução do intervalo intrajornada.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação normativa está baseada nos seguintes dispositivos:\n\n* CLT Art. 71: \"O intervalo de que trata o artigo anterior (art. 67) não será computado na contagem da jornada diária, salvo se o empregado for obrigado a permanecer no local do trabalho durante esse período.\" (não diretamente aplicável, mas estabelece a obrigatoriedade do intervalo intrajornada)\n* CLT Art. 71 não é citado explicitamente como dispositivo aplicável, mas pode ser considerado que o artigo anterior (67) estabelece a jornada de trabalho e o intervalo intrajornada.\n* A decisão está baseada na falta de CCT válida autorizando a redução do intervalo intrajornada. Não há dispositivo específico citado como aplicável, mas pode ser considerado que a validade da CCT é regulamentada por outros dispositivos (não explicitados no contexto).\n\n**LIMITAÇÃO**\n\nNão há dispositivo específico do contexto normativo que estabeleça a regra de redução do intervalo intrajornada para 30 minutos. A decisão está baseada na falta de CCT válida autorizando essa redução, mas não há dispositivo específico citado como aplicável.",
+  "tokens_in": 326,
+  "tokens_out": 467,
+  "latency_ms": 7920,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

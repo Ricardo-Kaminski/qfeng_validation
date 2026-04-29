@@ -1,0 +1,19 @@
+{
+  "sha256": "63c06f4a25e70a0bcc24e0a47e3166e1d1ac306d12f73c91f0b6b0d327b89441",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-010",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T19:49:25Z",
+  "prompt_sha": "0dd8d39ebf3dc95dfafbbdd315c02d2658b6693ca7bbe189d0219bde8729d8fc",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas\n\nCom base no contexto normativo fornecido, apresento a análise, decisão recomendada e fundamentação:\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nO cenário apresenta um conflito entre a Convenção Coletiva de Trabalho (CCT) e a prática da empresa, envolvendo a utilização de banco de horas. O dispositivo normativo aplicável, e central para a discussão, é a **CCT que previa um limite máximo de acúmulo de 80 horas no banco de horas**.\n\nA empresa alega que o limite seria \"indicativo\" e não \"mandatório\". Essa alegação, por si só, não é suficiente para desconsiderar a CCT, conforme explicarei na fundamentação.\n\n**2. DECISÃO RECOMENDADA**\n\nRecomenda-se que a decisão seja favorável ao sindicato, determinando que o banco de horas seja considerado válido apenas para as horas acumuladas até o limite de 80 horas estabelecido na CCT. As horas que excederam esse limite (no caso, as 120 horas adicionais acumuladas pelo operador) devem ser consideradas como horas extras não remuneradas, devendo ser pagas com o adicional previsto em lei (geralmente 50%).\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação da decisão se baseia no princípio da primazia da norma coletiva e na força vinculante da CCT. Embora o contexto não apresente artigos de lei específicos, a CCT é a norma que rege a situação.\n\n*   **Força Vinculante da CCT:** As Convenções Coletivas de Trabalho (CCTs) são instrumentos normativos que estabelecem condições de trabalho aplicáveis a determinadas categorias profissionais. Elas são fruto de negociação entre empregadores e empregados, representados por seus respectivos sindicatos. A jurisprudência consolidada, expressa em diversas decisões judiciais (não presentes no contexto, mas amplamente reconhecida), entende que as CCTs possuem força vinculante para as partes envolvidas na negociação (empregadores e empregados da categoria).\n\n*   **Interpretação da CCT:** A alegação da empresa de que o limite de 80 horas seria \"indicativo\" não pode prevalecer. A interpretação das cláusulas normativas deve ser feita em consonância com a boa-fé e a razoabilidade. Se a CCT estabeleceu um limite específico, presume-se que essa foi a intenção das partes na negociação. A empresa, ao permitir o acúmulo de 200 horas, extrapolou os limites da negociação coletiva e agiu em desacordo com a CCT.\n\n*   **Invalidade Parcial do Banco de Horas:** A jurisprudência, embora não expressamente citada no contexto, tem admitido a possibilidade de invalidar parcialmente o banco de horas quando há descumprimento das condições estabelecidas na CCT. Nesse caso, a extrapolação do limite de 80 horas compromete a validade do banco de horas para o período em que essa extrapolação ocorreu. As horas excedentes devem ser tratadas como horas extras.\n\n**Limitações do Contexto:**\n\nÉ importante ressaltar que a análise é limitada ao contexto normativo fornecido. A ausência de informações sobre a natureza jurídica do banco de horas (se é um acordo individual ou coletivo), a existência de outras cláusulas na CCT que tratem do tema, e a legislação infraconstitucional aplicável (como a Consolidação das Leis do Trabalho - CLT) poderiam influenciar a decisão.\n",
+  "tokens_in": 275,
+  "tokens_out": 786,
+  "latency_ms": 21617,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

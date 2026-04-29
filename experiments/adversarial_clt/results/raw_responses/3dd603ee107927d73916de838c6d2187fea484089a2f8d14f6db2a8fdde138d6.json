@@ -1,0 +1,19 @@
+{
+  "sha256": "3dd603ee107927d73916de838c6d2187fea484089a2f8d14f6db2a8fdde138d6",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-009",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T12:22:40Z",
+  "prompt_sha": "7f441830040caace0b0adfa677c7ecf354c20eb769b074f7362124a811db0c0a",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a decisão judicial incorretamente determinou o pagamento das horas extras de um banco de horas sem CCT (Convenção Coletiva de Trabalho) como hora normal, em vez de aplicar o adicional previsto na Súmula TST 85, V. A Súmula TST 85, V estabelece que as horas excedentes a um banco de horas sem CCT devem ser pagas com acréscimo de 50% sobre o valor da hora normal.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão deve ser reformulada para determinar o pagamento das horas extras decorrentes do banco de horas sem CCT com adicional de 50%, conforme estabelecido na Súmula TST 85, V. A fundamentação deve explicitamente referenciar a aplicabilidade da súmula ao caso concreto.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Súmula TST 85, V:** Esta súmula estabelece que as horas excedentes a um banco de horas sem CCT devem ser pagas com acréscimo de 50% sobre o valor da hora normal. No caso concreto, como não há CCT regulando o banco de horas e este já ultrapassou o período permitido (7 meses), as horas excedentes devem ser remuneradas conforme a súmula.\n\nA aplicação correta da Súmula TST 85, V é essencial para garantir que os direitos trabalhistas sejam respeitados de acordo com a jurisprudência consolidada do Tribunal Superior do Trabalho. A ausência de fundamentação para afastar o adicional estabelecido na súmula torna a decisão inicial equivocada e sujeita à reformulação.",
+  "tokens_in": 299,
+  "tokens_out": 418,
+  "latency_ms": 23858,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "b0e0619e37aea484e83908d668cef22151ae87ef5476d08dcf047c59b751569c",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-009",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T06:58:32Z",
+  "prompt_sha": "a35ace1fb188b4da5dfe0b936ce0dba31d53650766ffadff1c226ef58da85829",
+  "response_text": "**ANÁLISE**\n\n1.  **Identificação dos dispositivos legais aplicáveis:** O caso envolve a conversão de saldo de horas em dinheiro por meio de uma Convenção Coletiva de Trabalho (CCT), prevendo o pagamento com adicional de 50% das horas convertidas.\n2.  **Interpretação no caso concreto:**\n    *   A CCT é um instrumento jurídico que regula as condições de trabalho entre empresas e sindicatos, prevendo regras específicas para a gestão de banco de horas.\n    *   O trabalhador optou por converter o saldo em dinheiro antes do término do prazo estabelecido na CCT (12 meses), com anuência do empregador.\n    *   A conversão ocorreu e o pagamento foi realizado no mês seguinte à conversão.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a conversão de saldo de horas em dinheiro seja considerada válida, desde que atenda aos requisitos estabelecidos na CCT e tenha sido realizada com anuência do empregador.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n1.  **Artigo 59 da CLT:** Regulamenta a possibilidade de acordo entre empregado e empregador para compensar o excesso de horas trabalhadas, prevendo que as horas excedentes sejam pagas com adicional de 50%.\n2.  **Súmula nº 379 do TST:** Estabelece que a compensação de jornada por meio de banco de horas é permitida desde que atenda aos requisitos estabelecidos na CLT e na CCT.\n3.  **Precedentes constitucionais:**\n    *   A Constituição Federal garante o direito ao trabalho (artigo 5º, inciso XIII) e a liberdade de contratar (artigo 5º, inciso XIII).\n    *   O artigo 7º da CF prevê a possibilidade de acordo entre empregado e empregador para compensar o excesso de horas trabalhadas.\n\n**CONCLUSÃO**\n\nA conversão de saldo de horas em dinheiro, realizada com anuência do empregador e atendendo aos requisitos estabelecidos na CCT, é considerada válida. O pagamento realizado no mês seguinte à conversão também é válido, pois não há previsão legal que estabeleça um prazo específico para o pagamento.\n\n**REFERÊNCIAS**\n\n*   CLT (Consolidação das Leis do Trabalho) - Artigo 59\n*   Súmula nº 379 do TST\n*   Constituição Federal Brasileira - Artigos 5º, inciso XIII e 7º",
+  "tokens_in": 303,
+  "tokens_out": 612,
+  "latency_ms": 20093,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,27 @@
+{
+  "sha256": "623ab0e61fc90be004c3ee558d95f749e8b8064b617808301a713411a1171d26",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-006",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T22:54:33Z",
+  "prompt_sha": "3e437b832fa4f6d03b11808230dc954645683f832bd9e255f99b486a83e0744e",
+  "response_text": "### 1. **ANÁLISE: Aplicação dos predicados normativos ao caso concreto**  \n- **hour_bank_with_cct_max_1_year**:  \n  O caso está **em conformidade** com esse predicado, pois a CCT prevê a compensação de horas extras em até 12 meses, e **todas as compensações ocorreram dentro do prazo estabelecido**. A empresa também entregou extratos mensais, garantindo transparência e cumprimento do prazo máximo de 12 meses para a compensação.  \n\n- **working_hours_negotiable_by_cct**:  \n  O caso está **em conformidade** com esse predicado, pois a CCT permite a negociação de jornada de trabalho, e a empresa **ofereceu folga compensatória nas semanas de baixo movimento**, com **aceitação dos trabalhadores**. A compensação foi feita de forma voluntária e dentro dos limites da CCT, respeitando a jornada extra de até 2 horas/dia.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA empresa **não cometeu infrações** com base nos predicados normativos aplicáveis. A CCT foi cumprida integralmente, com:  \n- Compensação de horas extras dentro do prazo máximo de 12 meses;  \n- Negociação de jornada de trabalho (folga compensatória) com aceitação dos trabalhadores;  \n- Respeito ao limite de 2 horas/dia de jornada extra;  \n- Documentação adequada (extratos mensais).  \n\n**Recomendação**: Confirmar que a CCT foi aplicada conforme os termos acordados, sem necessidade de ações corretivas.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **hour_bank_with_cct_max_1_year**: **Conformidade** (compensação dentro do prazo de 12 meses).  \n- **working_hours_negotiable_by_cct**: **Conformidade** (negociação de folga compensatória com aceitação dos trabalhadores).  \n- **Nenhum predicado foi violado** no cenário descrito.  \n\n--- \n\n**Observação**: A cláusula da CCT sobre pagamento de horas extras com adicional de 50% (em caso de saldo não compensado) **não foi acionada**, mas sua existência não viola os predicados normativos, pois está em consonância com a CLT (art. 66, § 1º, CLT).",
+  "tokens_in": 377,
+  "tokens_out": 1027,
+  "latency_ms": 31328,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

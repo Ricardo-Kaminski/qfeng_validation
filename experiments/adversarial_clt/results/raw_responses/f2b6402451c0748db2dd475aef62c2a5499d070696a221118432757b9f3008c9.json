@@ -1,0 +1,26 @@
+{
+  "sha256": "f2b6402451c0748db2dd475aef62c2a5499d070696a221118432757b9f3008c9",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-006",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T00:26:41Z",
+  "prompt_sha": "853bce6697211f077507fea0253d75450971c248a5b84a4ee816407d1bbb991a",
+  "response_text": "## Análise do Caso: Indeferimento de Prova Pericial e Deficiência de Motivação\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, a análise e a decisão recomendada são as seguintes:\n\n**1. ANÁLISE:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi (Obrigação de fundamentar a decisão no *ratio decidendi* identificado):** Este predicado é central para a análise do caso. A decisão interlocutória da juíza, ao indeferir a prova pericial apenas com a afirmação genérica de que \"suficientes os documentos já acostados aos autos\", **não cumpre essa obrigação**. Um *ratio decidendi* adequado exigiria que a magistrada identificasse especificamente quais documentos, dentre os apresentados, seriam suficientes para comprovar os fatos relevantes para a controvérsia. A simples menção à existência de documentos não substitui a análise e a justificativa da sua suficiência. A falta dessa identificação impede a compreensão da lógica da decisão e a possibilidade de controle judicial por instância superior.\n*   **due_process_of_law (Devido processo legal):** Embora a violação do devido processo legal seja mais grave e envolva a ausência de oportunidade de defesa ou a condução do processo de forma manifestamente injusta, a deficiência de motivação, como a apresentada no caso, **compromete a efetividade do devido processo legal**. A falta de clareza na fundamentação da decisão dificulta a defesa da parte requerente, que não consegue entender o que a levou à rejeição da prova pericial e, consequentemente, como poderia refutar os argumentos da magistrada. Isso limita a possibilidade de uma contestação efetiva e de uma decisão justa.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que o pedido de anulação da decisão interlocutória seja **provido**. A decisão da juíza carece de fundamentação adequada, violando o princípio do *devido processo legal* e a obrigação de fundamentar as decisões em *ratio decidendi* identificados.\n\nA anulação da decisão interlocutória não significa, necessariamente, que a prova pericial será concedida automaticamente. Significa que a juíza deverá reavaliar o pedido, apresentando uma motivação clara e específica, indicando quais documentos existentes são suficientes para comprovar os fatos relevantes e por que a prova pericial seria desnecessária. A parte requerente, por sua vez, terá a oportunidade de refutar essa fundamentação e demonstrar a necessidade da perícia.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** **Violação**. A decisão não foi fundamentada em um *ratio decidendi* identificado e específico.\n*   **due_process_of_law:** **Violação (em menor grau)**. A deficiência de motivação compromete a efetividade do devido processo legal, limitando a possibilidade de defesa da parte requerente.\n\n**Observações Adicionais:**\n\n*   A decisão do CPC Art. 489, §1°, I, que fundamenta o pedido de anulação, é pertinente ao caso, pois permite a reforma ou anulação de decisões judiciais por falta de fundamentação.\n*   É importante ressaltar que a anulação da decisão interlocutória não implica em um julgamento de mérito da questão da prova pericial. Apenas garante que a decisão seja tomada de forma mais justa e transparente, com a devida fundamentação.\n*   A jurisprudência do TST é consistente na importância da motivação das decisões judiciais, especialmente em matéria trabalhista, onde a complexidade dos fatos e a necessidade de proteger os direitos dos trabalhadores exigem uma análise cuidadosa e fundamentada.\n",
+  "tokens_in": 325,
+  "tokens_out": 836,
+  "latency_ms": 22936,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

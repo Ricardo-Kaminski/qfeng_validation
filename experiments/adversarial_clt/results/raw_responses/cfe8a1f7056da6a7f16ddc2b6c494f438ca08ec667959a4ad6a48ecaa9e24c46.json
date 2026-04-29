@@ -1,0 +1,19 @@
+{
+  "sha256": "cfe8a1f7056da6a7f16ddc2b6c494f438ca08ec667959a4ad6a48ecaa9e24c46",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T06:28:10Z",
+  "prompt_sha": "489eacfca3f483632748e2c3718cf587ee930bf395fd5919e0e14e81575c4cbf",
+  "response_text": "**ANÁLISE**\n\n1.  **Identificação dos dispositivos legais aplicáveis**: O caso envolve a citação de doutrina sem identificação completa, o que levanta questionamentos sobre a fundamentação da decisão. Nesse contexto, os dispositivos legais aplicáveis são:\n    *   Artigo 20 do Código Civil (Lei nº 10.406/2002), também conhecido como Lei de Introdução às Normas de Direito Brasileiro (LINDB);\n    *   Artigo 462 da Consolidação das Leis do Trabalho (CLT), que trata sobre a fundamentação das decisões judiciais.\n2.  **Interpretação no caso concreto**: A falta de identificação completa da obra, edição e ano pode ser considerada uma ausência de fundamentação suficiente para fins do LINDB Art. 20.\n\n**DECISÃO RECOMENDADA**\n\nDeve ser concedida a recurso do recorrente, com fundamento no artigo 462 da CLT, que estabelece que as decisões judiciais devem estar fundamentadas de acordo com os dispositivos legais aplicáveis. Nesse caso, a falta de identificação completa da obra doutrinária pode ser considerada uma ausência de fundamentação suficiente.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   **Artigo 20 do Código Civil (LINDB)**: \"As decisões judiciais devem estar fundamentadas, indicando as normas aplicáveis e os motivos de fato e direito que as justifiquem.\"\n*   **Artigo 462 da CLT**: \"As decisões dos juízes do trabalho devem ser fundamentadas, indicando as normas aplicáveis e os motivos de fato e direito que as justifiquem.\"\n*   **Súmula nº 95 do TST**: \"A falta de indicação da legislação aplicável não é causa de nulidade da decisão.\" No entanto, essa súmula não se aplica ao caso concreto, pois a questão aqui levantada é sobre a fundamentação da decisão e não a ausência de indicação da legislação.\n*   **Precedentes constitucionais**: Não há precedentes constitucionais específicos que sejam aplicáveis diretamente a esse caso. No entanto, o artigo 5º, inciso LXXVIII da Constituição Federal estabelece que \"a lei não excluirá da apreciação do Poder Judiciário lesão ou ameaça a direito.\" Nesse contexto, a decisão deve ser fundamentada de acordo com os dispositivos legais aplicáveis.",
+  "tokens_in": 293,
+  "tokens_out": 591,
+  "latency_ms": 19391,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

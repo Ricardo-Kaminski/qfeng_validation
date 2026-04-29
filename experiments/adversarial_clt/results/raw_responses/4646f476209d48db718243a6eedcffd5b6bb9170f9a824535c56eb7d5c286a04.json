@@ -1,0 +1,19 @@
+{
+  "sha256": "4646f476209d48db718243a6eedcffd5b6bb9170f9a824535c56eb7d5c286a04",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-006",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T06:42:51Z",
+  "prompt_sha": "372fd68611fe63745a48bfe400c3aeff4da8c10c80e09cd56b4d200a41006bed",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a adoção de um banco de horas por uma empresa de limpeza urbana, mediante regulamento interno aprovado em assembleia dos empregados. A questão central é saber se essa forma de aprovação é válida e equivalente à Convenção Coletiva de Trabalho (CCT) para fins do Artigo 59, §2° da Consolidação das Leis do Trabalho (CLT).\n\n**Interpretação dos dispositivos legais aplicáveis:**\n\n*   O Artigo 59, §1° da CLT estabelece que a Convenção Coletiva de Trabalho é um acordo entre empregadores e sindicatos de trabalhadores sobre condições de trabalho.\n*   O Artigo 59, §2° da CLT afirma que as convenções coletivas de trabalho são válidas para todos os trabalhadores do ramo ou setor de atividade, independentemente de terem participado das negociações ou não.\n*   O Artigo 611 da CLT estabelece a possibilidade de adoção de regulamentos internos pelas empresas, desde que aprovados em assembleia dos empregados.\n\n**Interpretação do caso concreto:**\n\nA aprovação do regulamento interno para o banco de horas pela maioria dos trabalhadores, sem a presença de um sindicato, não se equipara à Convenção Coletiva de Trabalho. A ausência de representação sindical invalida essa forma de aprovação, pois a CLT exige a participação dos sindicatos em processos coletivos.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que o regulamento interno para o banco de horas seja declarado inválido por ausência de representação sindical. Isso se baseia na interpretação do Artigo 59, §2° da CLT, que estabelece a necessidade de participação dos sindicatos em processos coletivos.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   Artigo 59, §1° e §2° da CLT: Estabelecem as condições para a validade das convenções coletivas de trabalho.\n*   Artigo 611 da CLT: Permite a adoção de regulamentos internos pelas empresas, desde que aprovados em assembleia dos empregados.\n*   Súmula 338 do TST: \"A falta de representação sindical na assembleia de eleição de delegado ou em assembleia para aprovação de convenção coletiva não invalida a escolha do trabalhador.\"\n*   Precedentes constitucionais: O Supremo Tribunal Federal (STF) tem entendido que a ausência de representação sindical pode invalidar processos coletivos, como em casos envolvendo greves e lockouts.\n\n**CONCLUSÃO**\n\nA decisão recomendada é que o regulamento interno para o banco de horas seja declarado inválido por ausência de representação sindical. Isso se baseia na interpretação do Artigo 59, §2° da CLT e em precedentes constitucionais.",
+  "tokens_in": 308,
+  "tokens_out": 712,
+  "latency_ms": 23391,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

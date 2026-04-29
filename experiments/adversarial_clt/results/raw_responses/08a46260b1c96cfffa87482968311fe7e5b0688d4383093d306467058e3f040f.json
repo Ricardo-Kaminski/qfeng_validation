@@ -1,0 +1,27 @@
+{
+  "sha256": "08a46260b1c96cfffa87482968311fe7e5b0688d4383093d306467058e3f040f",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-011",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:29:53Z",
+  "prompt_sha": "2c917ebff9639a22c39eb6a23c31205687007f48fb8e9394fc445acc35358322",
+  "response_text": "**ANÁLISE**\n\n1. **hour_bank_with_cct_max_1_year**: Esse predicado normativo estabelece que, em caso de contratos coletivos de trabalho (CCT) com banco de horas anual, o prazo máximo para compensação das horas acumuladas não pode exceder 12 meses do início do banco. No cenário apresentado, a empresa somou as horas acumuladas pré-afastamento com novas horas do período pós-retorno e exigiu compensação em um prazo que ultrapassou 12 meses do início do banco.\n\n   - **Aplicação**: O predicado é diretamente aplicável ao caso, pois a empresa está exigindo compensação de horas além do prazo máximo estabelecido na CCT. A empresa argumenta que o prazo deveria ser suspenso pelo período de afastamento, mas não há cláusula da CCT que prevê essa suspensão.\n\n2. **DECISÃO RECOMENDADA**:\n\n   - **Decisão**: Deve ser condenada a empresa por violar o predicado normativo **hour_bank_with_cct_max_1_year**, pois exigiu compensação de horas além do prazo máximo estabelecido na CCT.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS**:\n\n   - **Violados**: O único predicado violado é o **hour_bank_with_cct_max_1_year**, pois a empresa excedeu o prazo máximo de 12 meses para compensação das horas acumuladas.\n\n   - **Cumpridos**: Não há nenhum predicado que tenha sido cumprido no cenário, pois a empresa não cumpriu as regras estabelecidas pela CCT em relação ao banco de horas.",
+  "tokens_in": 380,
+  "tokens_out": 390,
+  "latency_ms": 6672,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "53d5649d6f01faf67d8fcee5f40e7eb9966688f02f987fc3c1b2d28b27955b03",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T07:42:47Z",
+  "prompt_sha": "c800b08bc530e3122be31b4e610bc034e22dcdc366a0e85bec8990b192b786cb",
+  "response_text": "### 1. **ANÁLISE**  \nO caso envolve a aplicação do **LINDB (Lei de Introdução à Normas do Direito Brasileiro)**, especificamente o **Art. 20**, que estabelece que as decisões judiciais devem ser fundamentadas em normas jurídicas. No entanto, o contexto normativo fornecido **não menciona dispositivos específicos que exijam a identificação completa de obras doutrinárias** (como edição, ano ou página) para fins de fundamentação.  \n\nO **Art. 20 do LINDB** exige que as decisões sejam fundamentadas em **normas jurídicas**, mas **não determina a necessidade de citar obras doutrinárias com detalhes completos**. A ausência de indicação de obra, edição, ano ou página **não configura, por si só, a ausência de fundamentação jurídica**, desde que a doutrina citada seja reconhecida como relevante para o entendimento do caso.  \n\n### 2. **DECISÃO RECOMENDADA**  \n**A decisão deve ser mantida**, pois a **ausência de identificação completa da obra doutrinária não viola o Art. 20 do LINDB**, desde que a citação doutrinária seja **pertinente e relevante** para o caso. A **necessidade de identificação completa de obras doutrinárias** **não está prevista no contexto normativo fornecido**, e, portanto, **não pode ser exigida como condição para a validade da fundamentação**.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 20 do LINDB**: Estabelece que as decisões judiciais devem ser fundamentadas em normas jurídicas, mas **não menciona a necessidade de citar obras doutrinárias com detalhes completos** (como edição, ano ou página).  \n- **Contexto normativo fornecido**: **Não contém dispositivos legais ou súmulas que exijam a identificação completa de obras doutrinárias** para fins de fundamentação.  \n- **Limitação**: A **ausência de norma específica** no contexto normativo que vincule a **identificação completa de obras doutrinárias** à validade da fundamentação jurídica.  \n\n**Conclusão**: A **ausência de detalhes da obra doutrinária** **não configura a ausência de fundamentação**, pois o **Art. 20 do LINDB** **não exige tal exige**. A **relevância doutrinária** para o caso é o critério principal, e não a **identificação completa da obra**.",
+  "tokens_in": 279,
+  "tokens_out": 962,
+  "latency_ms": 78421,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

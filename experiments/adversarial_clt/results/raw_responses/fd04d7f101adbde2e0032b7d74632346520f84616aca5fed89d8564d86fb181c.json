@@ -1,0 +1,26 @@
+{
+  "sha256": "fd04d7f101adbde2e0032b7d74632346520f84616aca5fed89d8564d86fb181c",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-008",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T02:00:14Z",
+  "prompt_sha": "edebec9d75758a7769d5b8b57f9d98a0d77aec6e3dfbd734a37cbb83239e8736",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG identificou uma **violação normativa** na decisão do TRT, com base nos seguintes predicados soberanos ativos:  \n- **Obrigação de explicitar as consequências práticas da decisão** (ex.: como a condenação por horas de sobreaviso afeta o trabalhador e o empregador).  \n- **Proibição de citar precedentes genéricos** (ex.: a OJ 394, cancelada em 2012, não pode ser usada como fundamento jurídico, pois foi substituída pela Súmula 428).  \n- **Obrigação de abordar todos os argumentos jurídicos** (ex.: o TRT não mencionou a Súmula 428, ignorando a atualização legal).  \n- **Obrigação de fundamentar a decisão em um *ratio decidendi* identificado** (ex.: a decisão não explica claramente qual princípio jurídico foi aplicado para condenar o empregador).  \n- **Obrigação constitucional de fundamentar a decisão** (ex.: a ausência de razões claras viola o art. 5º, XXXV da CF, que garante o direito à ampla defesa e à razão).  \n- **Direito de acesso à justiça e revisão judicial** (ex.: a decisão não permite que o empregador ou o trabalhador conteste a aplicação da norma, limitando o controle judicial).  \n\nA violação ocorre porque a decisão **não respeitou o estado atual da jurisprudência** (ignorando a Súmula 428), **não fundamentou a aplicação da norma** e **não garantiu transparência** no raciocínio jurídico, violando direitos constitucionais e processuais.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(obligation_to_state_practical_consequences_of_decision)**:  \n  *Significado*: A decisão judicial deve explicar **como a condenação afeta as partes** (ex.: quais são as obrigações do empregador e os direitos do trabalhador).  \n  *Contexto*: No caso, a TRT não detalhou como a condenação por horas de sobreaviso impacta a relação trabalhista.  \n\n- **sovereign(prohibition_of_generic_precedent_citation)**:  \n  *Significado*: **Não é permitido citar precedentes genéricos** (ex.: OJ 394) sem considerar sua **validade atual** (ex.: cancelada em 2012).  \n  *Contexto*: A TRT usou uma orientação judicial desatualizada, ignorando a Súmula 428.  \n\n- **sovereign(obligation_to_address_all_legal_arguments)**:  \n  *Significado*: A decisão deve **abordar todos os argumentos jurídicos** apresentados (ex.: a existência da Súmula 428).  \n  *Contexto*: A TRT não mencionou a Súmula 428, omitindo um argumento central.  \n\n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**:  \n  *Significado*: A decisão deve **identificar claramente o princípio jurídico** que a fundamenta (ex.: qual artigo da CLT ou Súmula foi aplicado).  \n  *Contexto*: A TRT não explicou qual norma foi usada para condenar o empregador.  \n\n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**:  \n  *Significado*: A decisão judicial deve **explicar as razões** que levaram à condenação, garantindo transparência.  \n  *Contexto*: A TRT não fundamentou a aplicação da norma, violando o art. 5º, XXXV da CF.  \n\n- **sovereign(right_of_access_to_justice_and_judicial_review)**:  \n  *Significado*: A decisão deve **garantir que as partes possam contestar** a aplicação da norma (ex.: revisão judicial).  \n  *Contexto*: A TRT não permitiu que o empregador ou o trabalhador contestasse a aplicação da norma.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA decisão do TRT **não está correta**, porque:  \n1. **Usou uma regra antiga** (a OJ 394) que foi **cancelada em 2012** e substituída por outra (a Súmula 428).  \n2. **Não explicou claramente** por que o empregador foi condenado (ex.: qual lei foi aplicada).  \n3. **Ignorou um argumento importante** (a Súmula 428), que poderia mudar a interpretação da norma.  \n4. **Não deixou claro** como a condenação afeta o trabalhador e o empregador.  \n5. **Não garantiu que as partes possam contestar** a decisão, violando o direito à justiça.  \n\nIsso é um problema porque a lei exige que as decisões sejam **justas, transparentes e respeitem as regras atuais**. A TRT **não seguiu essas regras**, e o sistema Q-FENG identificou essa falha.",
+  "tokens_in": 523,
+  "tokens_out": 1644,
+  "latency_ms": 52389,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,26 @@
+{
+  "sha256": "a9029315d3361bb621fecb12fb148ece8bf7e02442a279aa0772817a89ae0d83",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-012",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T22:15:29Z",
+  "prompt_sha": "3fef5cdaa6717d82e89fe6700c566b1516d2f27fef17bb65c15dae7f85be7502",
+  "response_text": "### 1. **ANÁLISE**  \n**a) *obligation_to_ground_decision_in_identified_ratio_decidendi***  \nO TRT utilizou um precedente do STJ (civil) para embasar uma tese sobre dano moral trabalhista, **sem discutir a compatibilidade** desse precedente com o regime jurídico trabalhista, especialmente com as novas regras da CLT após a Reforma de 2017 (ex.: art. 329, § 1º, CLT). Isso viola a **obrigação de fundamentar a decisão em um *ratio decidendi* identificado e compatível com a matéria**. A jurisprudência do TST estabelece que, em casos trabalhistas, **precedentes civis não são automaticamente aplicáveis** se não houver análise de sua compatibilidade com a CLT (ex.: Súmula 366 do TST).  \n\n**b) *due_process_of_law***  \nA ausência de análise sobre a compatibilidade do precedente civil com o regime jurídico trabalhista pode ser considerada **violação do devido processo legal**, pois:  \n- O juiz não realizou a **devida apuração da matéria de direito** (art. 104, CLT), deixando de aplicar os critérios específicos da CLT para fixação de dano moral (ex.: art. 329, CLT, que exige a demonstração de culpa, dolo ou negligência do empregador).  \n- A aplicação de regras civis sem adaptação ao contexto trabalhista pode **prejudicar o direito do trabalhador** (ex.: critérios de proporcionalidade do dano moral na CLT são mais restritivos que os do direito civil).  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**a) Reexaminar a fundamentação da decisão**  \nO TRT deve **reconsiderar a aplicação do precedente do STJ**, analisando se ele é compatível com a CLT após a Reforma de 2017, especialmente quanto aos critérios de fixação de dano moral (ex.: art. 329, CLT). Se não houver compatibilidade, o precedente civil **não pode ser aplicado** em matéria trabalhista.  \n\n**b) Consultar jurisprudência do TST**  \nO TRT deve buscar orientação no TST sobre a **aplicabilidade de precedentes civis em casos de dano moral trabalhista**, evitando a aplicação de regras que não respeitem a especificidade do regime jurídico trabalhista.  \n\n**c) Revisar a fixação do dano moral**  \nSe o precedente civil for aplicável, o TRT deve **adaptar os critérios de fixação do dano moral** à CLT, garantindo que sejam observados os limites estabelecidos pela Reforma de 2017 (ex.: art. 329, CLT).  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Violado**:  \n  - *obligation_to_ground_decision_in_identified_ratio_decidendi* (não houve fundamentação adequada no *ratio decidendi* da CLT, mas sim em precedente civil sem análise de compatibilidade).  \n  - *due_process_of_law* (a ausência de análise sobre a compatibilidade do precedente civil com a CLT pode configurar violação do devido processo legal, pois o trabalhador não teve direito à aplicação de regras específicas do regime jurídico trabalhista).  \n\n- **Cumprido**:  \n  - Nenhum predicado foi cumprido de forma plena, pois a decisão viola diretamente os dois predicados normativos listados.  \n\n--- \n\n**Observação**: A aplicação de precedentes civis em matéria trabalhista **não é proibida**, mas **exige análise de compatibilidade com a CLT** (Súmula 366 do TST). A ausência dessa análise configura violação dos predicados normativos acima.",
+  "tokens_in": 343,
+  "tokens_out": 1388,
+  "latency_ms": 41922,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

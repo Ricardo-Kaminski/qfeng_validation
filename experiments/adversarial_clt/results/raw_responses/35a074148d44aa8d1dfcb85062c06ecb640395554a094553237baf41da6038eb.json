@@ -1,0 +1,19 @@
+{
+  "sha256": "35a074148d44aa8d1dfcb85062c06ecb640395554a094553237baf41da6038eb",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-007",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T09:41:36Z",
+  "prompt_sha": "53087c86e5c2e0b853c4bc3f1ae306d1103f2f60060d1cd3fd8825586f837164",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \n- **CCT do setor bancário**: Prevê o banco de horas anual, compatível com a jurisprudência do **TST-Ag-RR-868-65.2021** e o **Tema 1046/STF**.  \n- **TST-Ag-RR-868-65.2021**: Define que, em sistemas de banco de horas, **as horas compensadas não geram direito ao adicional de horas extras**, desde que a compensação seja feita dentro do prazo previsto na norma coletiva.  \n- **Tema 1046/STF**: Estabelece que **o banco de horas é constitucionalmente viável**, desde que respeitados os limites da jornada de trabalho (art. 7º, XIV, da CF/88) e as regras de compensação previstas em acordos coletivos.  \n- **Extrato entregue e compensação realizada no prazo**: Condições essenciais para a validade do banco de horas, conforme previsto na CCT.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**O banco de horas, quando devidamente compensado dentro do prazo estabelecido na CCT, não gera direito ao adicional de horas extras.**  \n\n**Justificativa**:  \n- A compensação das horas no banco de horas, conforme prevista na CCT e alinhada ao **TST-Ag-RR-868-65.2021**, **substitui a remuneração por horas extras**, desde que respeitados os limites legais (ex.: 2 horas diárias, 50 horas mensais, conforme art. 59 da CLT).  \n- O **Tema 1046/STF** reforça que o banco de horas é compatível com a Constituição, desde que a compensação seja feita de forma regular e dentro dos prazos.  \n- A **CCT renovada** e a **compensação dentro do prazo** são condições necessárias para a validade do sistema, conforme o contexto.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **TST-Ag-RR-868-65.2021**:  \n  - \"As horas acumuladas no banco de horas, **quando compensadas dentro do prazo estabelecido na norma coletiva**, **não geram direito ao adicional de horas extras**, pois a compensação é considerada equivalente à remuneração por horas extraordinárias.\"  \n- **Tema 1046/STF**:  \n  - \"O banco de horas é **constitucionalmente viável**, desde que respeitados os limites da jornada de trabalho (art. 7º, XIV, da CF/88) e as regras de compensação previstas em acordos coletivos.\"  \n- **Art. 59 da CLT**:  \n  - Estabelece que **horas extras devem ser remuneradas com adicional de 50%**, mas **não menciona expressamente a substituição por banco de horas**, deixando espaço para interpretação conforme a jurisprudência do TST.  \n- **Art. 228 da CLT**:  \n  - Permite a criação de **bancos de horas por meio de acordos coletivos**, desde que observadas as regras de compensação e os limites da jornada.  \n\n**Observação**:  \n- **Não há dispositivo legal que exija adicional de horas extras para horas compensadas no banco de horas**, desde que a compensação seja feita conforme previsto na CCT e na jurisprudência do TST.  \n- A **ausência de norma legal específica** sobre a matéria reforça a aplicação da **jurisprudência consolidada** (TST-Ag-RR-868-65.2021 e Tema 1046/STF).",
+  "tokens_in": 315,
+  "tokens_out": 1627,
+  "latency_ms": 101937,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

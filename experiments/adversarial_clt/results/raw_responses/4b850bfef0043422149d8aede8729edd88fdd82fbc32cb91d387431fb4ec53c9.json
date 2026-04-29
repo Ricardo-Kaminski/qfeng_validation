@@ -1,0 +1,19 @@
+{
+  "sha256": "4b850bfef0043422149d8aede8729edd88fdd82fbc32cb91d387431fb4ec53c9",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T02:14:14Z",
+  "prompt_sha": "e3a03423f59d54e94c80b16f3aeda0e741ca90b34230fe57c0b6d041a819afcb",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Convenção Coletiva de Trabalho (CCT):** A CCT é um instrumento normativo negociado entre sindicatos e empregadores que estabelece direitos e deveres específicos para as partes envolvidas. No caso em questão, a CCT do setor farmacêutico prevê o banco de horas anual renovável automaticamente.\n\n- **Artigo 611-A da CLT:** Este artigo trata do banco de horas, permitindo que o empregador e os trabalhadores negociem acordos para compensação de jornada em períodos diferentes. No entanto, estabelece limites temporais: a compensação deve ocorrer até o final do mês subsequente ao da prestação dos serviços, com prazo máximo de 12 meses.\n\n- **Súmula 331 do TST:** Esta súmula afirma que \"a renovação automática de cláusulas econômicas e sociais de convenções coletivas de trabalho é válida\". No entanto, a aplicação desta súmula deve ser analisada no contexto das normas legais vigentes.\n\n**Interpretação no Caso Concreto:**\n\n- A CCT prevê renovação automática do banco de horas por um ano. O artigo 611-A da CLT estabelece que o prazo máximo para compensação é de 12 meses, não podendo ser ultrapassado sem nova negociação.\n\n- A empresa alega que a cláusula de renovação automática cobre o período adicional. No entanto, a Súmula 331 do TST deve ser interpretada à luz das normas legais vigentes, e não pode contrariar disposições expressas da CLT.\n\n- O sindicato argumenta que prorrogação sem nova CCT viola o prazo máximo de 1 ano estabelecido no artigo 611-A. A interpretação correta deve considerar a limitação temporal do banco de horas como uma garantia fundamental dos direitos trabalhistas.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é que o prazo adicional solicitado pela empresa sem nova negociação coletiva não seja válido, pois viola o limite máximo estabelecido no artigo 611-A da CLT. A renovação automática prevista na CCT deve respeitar os limites legais vigentes, e qualquer extensão além de um ano requer uma nova negociação coletiva.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **Artigo 611-A da CLT:** Estabelece o prazo máximo de 12 meses para a compensação no banco de horas, não podendo ser ultrapassado sem nova negociação.\n\n- **Súmula 331 do TST:** Embora permita a renovação automática das cláusulas econômicas e sociais, deve ser interpretada em conformidade com as normas legais vigentes, como o artigo 611-A da CLT.\n\n- **Doutrina Trabalhista:** Segundo a doutrina, a negociação coletiva não pode contrariar direitos fundamentais dos trabalhadores garantidos por lei. A limitação temporal do banco de horas é uma dessas garantias, visando proteger o equilíbrio entre as partes.\n\nPortanto, a decisão deve ser favorável ao sindicato dos trabalhadores, exigindo que qualquer prorrogação além do prazo máximo legal seja precedida por nova negociação coletiva.",
+  "tokens_in": 324,
+  "tokens_out": 815,
+  "latency_ms": 49046,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

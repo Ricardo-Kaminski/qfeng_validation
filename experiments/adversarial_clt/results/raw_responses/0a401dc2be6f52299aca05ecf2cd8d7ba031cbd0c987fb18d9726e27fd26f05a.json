@@ -1,0 +1,26 @@
+{
+  "sha256": "0a401dc2be6f52299aca05ecf2cd8d7ba031cbd0c987fb18d9726e27fd26f05a",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:43:51Z",
+  "prompt_sha": "ef87895aa2073a8dab104ed3b64c35ebfd6ccfac066ee3d352b7e193e48dee36",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a decisão do TRT-2ª Região viola normas constitucionais e processuais trabalhistas, conforme os predicados soberanos ativos. A ausência de fundamentação específica (como súmulas, orientações jurisprudenciais com número identificável ou acórdãos do TST) viola o **obrigação de fundamentar a decisão em *ratio decidendi* identificável** (predicado `obligation_to_ground_decision_in_identified_ratio_decidendi`) e o **proibição de citar precedentes genéricos** (predicado `prohibition_of_generic_precedent_citation`). Além disso, a decisão não atendeu ao **obrigação de abordar todos os argumentos jurídicos** (predicado `obligation_to_address_all_legal_arguments`) e ao **direito de acesso à justiça e revisão judicial** (predicado `right_of_access_to_justice_and_judicial_review`), que exigem transparência e fundamentação mínima para garantir a efetividade do recurso. A **incumpre o dever constitucional de expor razões** (predicado `constitutional_obligation_to_state_reasons_for_decisions`) e **não explicitou as consequências práticas da decisão** (predicado `obligation_to_state_practical_consequences_of_decision`), elementos essenciais para a legitimidade da aplicação da justa causa.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **`obligation_to_state_practical_consequences_of_decision`**: O tribunal deve explicar claramente as consequências da decisão para as partes (ex.: demissão, impactos financeiros, direitos afetados).  \n- **`prohibition_of_generic_precedent_citation`**: Não é permitido citar \"jurisprudência pacífica\" de forma genérica, sem identificar súmulas, orientações jurisprudenciais (OJ) ou acórdãos específicos do TST.  \n- **`obligation_to_address_all_legal_arguments`**: O tribunal deve analisar todos os argumentos do empregado (ex.: ausência de provas, irregularidade no uso de comunicações eletrônicas).  \n- **`obligation_to_ground_decision_in_identified_ratio_decidendi`**: A decisão deve fundamentar-se em **razões jurídicas identificáveis** (ex.: artigo da CLT, súmula do TST, acórdão específico).  \n- **`constitutional_obligation_to_state_reasons_for_decisions`**: O direito constitucional de **motivação da decisão** (art. 5º, XXXV da CF) exige que o tribunal expresse claramente as razões que levaram à aplicação da justa causa.  \n- **`right_of_access_to_justice_and_judicial_review`**: O empregado tem direito a **revisar a decisão** com base em fundamentos claros e identificáveis, garantindo a efetividade do recurso.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA decisão do tribunal **não está correta**, porque ele **não explicou claramente por que aplicou a justa causa**. O tribunal disse que \"a jurisprudência é pacífica\", mas **não citou nenhuma lei, súmula ou decisão específica do TST** que justifique a demissão. Isso é um problema, porque:  \n- **Você tem direito a saber** quais regras foram usadas para demiti-lo.  \n- **O tribunal não respondeu aos argumentos que você apresentou** no recurso (ex.: \"não há provas de que eu usei e-mails de forma indevida\").  \n- **A falta de fundamentação** torna a decisão **injusta e ilegal**, pois não permite que você conteste a demissão com base em provas concretas.  \nO sistema Q-FENG diz que isso é uma **violação da lei**, e você tem direito a um novo julgamento com fundamentos claros.",
+  "tokens_in": 546,
+  "tokens_out": 1394,
+  "latency_ms": 43860,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

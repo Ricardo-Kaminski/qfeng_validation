@@ -1,0 +1,19 @@
+{
+  "sha256": "2c5f34374a69903fd3d8d0a24eb80382a19e74320cf109aa4737c5fed2c4c9fd",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T03:06:05Z",
+  "prompt_sha": "b4b14594da3c7a164c292ae6e458e16f7609ea973ab3bf9bdf1ce0baf6924978",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Convenção Coletiva de Trabalho (CCT):** A CCT é um instrumento legalmente válido para estabelecer normas específicas que podem modificar ou complementar a legislação trabalhista, desde que não contrariem disposições de ordem pública. No caso concreto, a CCT prevê um banco de horas com prazo de 6 meses e acúmulo máximo de 60 horas mensais.\n\n- **Artigo 59 da CLT:** Este artigo permite o acréscimo ou diminuição do horário normal de trabalho mediante acordo escrito entre empregador e empregado, desde que não exceda a carga horária máxima legal. A CCT, como instrumento coletivo, também pode regular essa matéria.\n\n- **Artigo 62 da CLT:** Estabelece que o banco de horas deve ser compensado dentro do prazo estipulado na convenção ou acordo, sob pena de pagamento em folha de salário com acréscimo de 50% sobre as horas não compensadas.\n\n**Interpretação no Caso Concreto:**\n\n- A CCT foi celebrada e registrada corretamente na Superintendência Regional do Trabalho e Emprego (SRTE), o que confere-lhe validade legal. \n\n- O banco de horas estabelecido tem um prazo de 6 meses, com acúmulo máximo de 60h mensais, e prevê compensação em folgas pré-comunicadas, além de uma cláusula de conversão em adicional de 50% para saldo não compensado.\n\n- Após 5 meses, todas as horas foram compensadas conforme a CCT, o que significa que não houve saldo remanescente de horas a serem convertidas em adicional de 50%.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é manter a validade da execução da CCT conforme estabelecido, sem necessidade de correções ou ajustes adicionais. Isso porque todas as condições previstas na convenção foram cumpridas: o prazo de 6 meses foi respeitado, o acúmulo máximo não foi ultrapassado e a compensação das horas ocorreu dentro do período estipulado.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **Artigo 7º da CLT:** Permite que convenções ou acordos coletivos de trabalho alterem, ampliem ou restrinjam direitos individuais dos trabalhadores, desde que não contrariem disposições de ordem pública.\n\n- **Artigo 59 e Artigo 62 da CLT:** Regulam a possibilidade de ajuste do horário normal de trabalho mediante acordo escrito e estabelecem as condições para o banco de horas, incluindo a compensação obrigatória dentro do prazo fixado.\n\n- **Súmula 331 do TST:** \"É válida a cláusula de convenção ou acordo coletivo que institui banco de horas, desde que não exceda o limite máximo legal e seja respeitada a compensação no prazo estipulado.\"\n\n- **Precedentes do TST:** O Tribunal Superior do Trabalho tem reiteradamente reconhecido a validade das CCTs que regulam bancos de horas, desde que cumpridas as condições legais de acúmulo e compensação.\n\nPortanto, com base na legislação aplicável, jurisprudência consolidada e o cumprimento integral das cláusulas da CCT, a decisão recomendada é manter a validade do acordo sem alterações.",
+  "tokens_in": 311,
+  "tokens_out": 818,
+  "latency_ms": 46280,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

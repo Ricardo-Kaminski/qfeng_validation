@@ -1,0 +1,26 @@
+{
+  "sha256": "84fde265ccf477e9f6eb46359878a759c97394eec3e658bee1586a834b210230",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:34:44Z",
+  "prompt_sha": "8878dc2d9f7cf9a0114687aa1266b009f3a08a32602082365158196ffb12806c",
+  "response_text": "**1. ANÁLISE**\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: O acórdão trabalhista explicita a identificação do número do precedente específico, transcreve sua ementa e analisa a compatibilidade fática com o caso concreto (banco de horas em CCT bancária), aplicando a ratio decidendi ao caso. Isso demonstra que a decisão está fundamentada na aplicação correta da jurisprudência existente, cumprindo esse predicado.\n\n- **stf_tema1046_binding_precedent_applied**: O cenário não menciona explicitamente o tema 1046 do STF ou qualquer precedente vinculante de outro tribunal que tenha sido aplicado. Portanto, parece haver uma falta de aplicação explícita de um precedente vinculante, o que poderia indicar uma violação a esse predicado.\n\n- **due_process_of_law**: O acórdão trabalhista identifica expressamente as bases legais e jurisprudenciais aplicadas, transcreve a ementa do precedente e analisa sua compatibilidade com o caso concreto. Além disso, todas as bases são identificadas e verificáveis, o que sugere que o direito de defesa foi respeitado e que houve uma decisão fundamentada, cumprindo esse predicado.\n\n**2. DECISÃO RECOMENDADA**\n\nConsiderando a análise acima, recomenda-se manter a decisão do acórdão trabalhista, pois ele está baseado em precedentes existentes e aplicados de forma correta ao caso concreto, respeitando o direito de defesa e fundamentando sua decisão.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **stf_tema1046_binding_precedent_applied**: Violado (violação) - não houve aplicação explícita de um precedente vinculante.\n  \n- **obligation_to_ground_decision_in_identified_ratio_decidendi** e **due_process_of_law**: Cumpridos (conformidade) - a decisão está fundamentada na aplicação correta da jurisprudência existente, respeitando o direito de defesa.",
+  "tokens_in": 402,
+  "tokens_out": 501,
+  "latency_ms": 8577,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

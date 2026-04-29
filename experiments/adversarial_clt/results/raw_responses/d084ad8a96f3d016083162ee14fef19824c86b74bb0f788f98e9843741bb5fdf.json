@@ -1,0 +1,19 @@
+{
+  "sha256": "d084ad8a96f3d016083162ee14fef19824c86b74bb0f788f98e9843741bb5fdf",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-010",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T19:49:46Z",
+  "prompt_sha": "0dd8d39ebf3dc95dfafbbdd315c02d2658b6693ca7bbe189d0219bde8729d8fc",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas\n\nCom base no cenário apresentado e considerando a inexistência de textos normativos fornecidos, a análise, decisão recomendada e fundamentação serão construídas a partir dos princípios gerais do Direito do Trabalho brasileiro e da interpretação do que se entende como CCT (Convenção Coletiva de Trabalho).\n\n**1. ANÁLISE: Dispositivos do Contexto Normativo Aplicáveis**\n\nO único dispositivo normativo presente no contexto é a **CCT que previa um banco de horas com acúmulo máximo de 80 horas**.  Embora a empresa alegue que este limite é \"indicativo\", a análise deve considerar a força da CCT como norma coletiva.\n\nÉ importante ressaltar a ausência de outros dispositivos normativos no contexto. Isso significa que a análise se limita ao que está expresso no cenário e aos princípios gerais do Direito do Trabalho.\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a extrapolação do limite de 80 horas estabelecido na CCT invalide o banco de horas para as horas que excederem esse limite.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação se baseia nos seguintes pontos, considerando a ausência de textos normativos específicos no contexto:\n\n*   **Força da Convenção Coletiva de Trabalho (CCT):** As CCTs são instrumentos normativos que estabelecem condições de trabalho aplicáveis a determinadas categorias profissionais. Elas possuem força de lei entre as partes (empresários e trabalhadores) e seus representantes sindicais. A alegação da empresa de que o limite de 80 horas era \"indicativo\" é questionável, pois a interpretação de CCTs geralmente favorece a aplicação de seus termos para garantir a proteção dos direitos dos trabalhadores.\n*   **Princípio da Boa-Fé Objetiva:** As partes envolvidas em uma negociação coletiva (sindicato e empresa) devem agir com boa-fé, respeitando os termos acordados. A empresa, ao permitir o acúmulo de 200 horas sem nova negociação com o sindicato, demonstra falta de boa-fé ao desrespeitar o limite estabelecido na CCT.\n*   **Interpretação Restritiva em Favor do Trabalhador:** Em caso de dúvida na interpretação de normas coletivas, a jurisprudência brasileira adota a interpretação mais favorável ao trabalhador. A extrapolação do limite de horas no banco de horas, sem a devida negociação, pode ser vista como uma forma de precarização das condições de trabalho.\n*   **Possível Invalidade do Banco de Horas:** A extrapolação do limite estabelecido na CCT pode levar à invalidade do banco de horas para as horas que excederem o limite acordado. Isso significa que as horas extras trabalhadas além do limite de 80 horas devem ser remuneradas como horas extras, com o adicional previsto em lei (geralmente 50%).\n\n**Limitações da Análise**\n\nÉ crucial reiterar que esta análise é limitada pela ausência de textos normativos no contexto fornecido. Uma análise mais completa exigiria a consulta à CCT integral, a legislação trabalhista aplicável (CLT, Constituição Federal) e a jurisprudência sobre o tema. Além disso, a validade da CCT e a sua aplicabilidade ao caso concreto dependeriam da análise de outros elementos, como a representatividade do sindicato e a existência de acordos individuais que contrariem a CCT.",
+  "tokens_in": 275,
+  "tokens_out": 764,
+  "latency_ms": 21036,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

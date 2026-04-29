@@ -1,0 +1,26 @@
+{
+  "sha256": "baef966300a1774e7f4ec2867ee6e0247d62dde8df6830fe7c9c3a72634d2d02",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CTRL-NEG-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T23:32:38Z",
+  "prompt_sha": "d1173e4f3cba457c294de0168853e6eb5bfa237ff7c015762dd1676b67bbd842",
+  "response_text": "### 1. **ANÁLISE: Aplicação dos predicados normativos ao caso concreto**  \n- **semester_hour_bank_requires_cct_or_act**:  \n  O banco de horas de 6 meses foi estabelecido por meio de **CCT**, que é uma das formas previstas na legislação para regulamentar o banco de horas (art. 58 da CLT). A CCT foi registrada na SRTE e não há contestação, o que **cumpre o requisito de formalização**.  \n\n- **hour_bank_with_cct_max_1_year**:  \n  A duração do banco de horas (6 meses) está **dentro do limite máximo de 1 ano** estabelecido pela jurisprudência do TST (Súmula 433/2015). A cláusula de conversão em adicional de 50% para saldo não compensado também é compatível com a legislação, pois não viola o princípio da proibição de acordos que prejudiquem o trabalhador (art. 7º, XXII da CF).  \n\n- **recognition_of_collective_bargaining**:  \n  A CCT foi **registrada na SRTE** e todos os trabalhadores receberam cópias, o que atende ao requisito de **divulgação e reconhecimento** do acordo coletivo (art. 611 da CLT). A ausência de contestação sindical ou individual reforça a **validade da negociação coletiva**.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **CCT celebrada entre a empresa e o sindicato** está **em conformidade com a legislação trabalhista brasileira**, desde que:  \n- O banco de horas de 6 meses e a cláusula de conversão em adicional de 50% sejam **mantidos dentro dos limites legais** (não há excesso de duração ou de horas acordadas).  \n- A **compensação das horas acumuladas em folgas previamente comunicadas** seja **documentada e respeite os direitos do trabalhador** (ex.: não haver prejuízo à jornada normal).  \n- A **CCT continue válida** até o seu término natural, com eventuais renovações conforme previsto no art. 611, § 3º da CLT.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **semester_hour_bank_requires_cct_or_act**: **Conformidade** (cumprido, pois o banco de horas foi estabelecido por meio de CCT).  \n- **hour_bank_with_cct_max_1_year**: **Conformidade** (cumprido, pois o prazo de 6 meses está dentro do limite de 1 ano).  \n- **recognition_of_collective_bargaining**: **Conformidade** (cumprido, pois a CCT foi registrada, divulgada e não há contestação).  \n\n**Nenhum predicado foi violado** no cenário descrito. A CCT está **totalmente em conformidade** com as normas trabalhistas.",
+  "tokens_in": 375,
+  "tokens_out": 1224,
+  "latency_ms": 38781,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

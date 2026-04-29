@@ -1,0 +1,27 @@
+{
+  "sha256": "b4a9026b1d43a97be69c5ceb9dfe7464293d81d60ba92cbfdabe39621530ec87",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-006",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:54:33Z",
+  "prompt_sha": "3e437b832fa4f6d03b11808230dc954645683f832bd9e255f99b486a83e0744e",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas no Setor de Varejo\n\nCom base nos predicados normativos fornecidos e no cenário apresentado, segue a análise, decisão recomendada e identificação de cumprimento/violação dos predicados:\n\n**1. ANÁLISE:**\n\n*   **hour_bank_with_cct_max_1_year:** Este predicado estabelece que o banco de horas é permitido, desde que previsto em acordo ou convenção coletiva de trabalho (CCT) e que a compensação ocorra em até 12 meses. No caso, a CCT do setor de varejo expressamente prevê o banco de horas com compensação em até 12 meses, o que demonstra a conformidade com este predicado. A empresa agiu em consonância com a CCT, oferecendo folgas compensatórias.\n*   **working_hours_negotiable_by_cct:** Este predicado indica que a regulamentação da jornada de trabalho, incluindo a possibilidade de banco de horas, pode ser negociada por meio de CCT. A existência da CCT que permite o banco de horas e estabelece suas regras demonstra que a jornada de trabalho foi, de fato, negociada e regulamentada por meio de acordo coletivo. A limitação da jornada extra a 2h/dia também se enquadra nessa flexibilidade negociada, presumindo que a CCT ou normas internas da empresa estabeleçam esse limite.\n\n**2. DECISÃO RECOMENDADA:**\n\nConsiderando a conformidade com os predicados normativos, a decisão recomendada é de **validade da prática adotada pela empresa**. A empresa cumpriu integralmente o que foi estabelecido na CCT, oferecendo folgas compensatórias dentro do prazo de 12 meses e fornecendo extratos mensais aos trabalhadores. A aceitação da proposta pelos trabalhadores reforça a legalidade da prática.\n\nÉ importante ressaltar que, embora a cláusula de pagamento de horas não compensadas como hora extra com adicional de 50% não tenha sido acionada, a empresa deve manter a atenção para garantir que, caso o saldo não seja compensado dentro do prazo de 12 meses, a cláusula seja devidamente aplicada, evitando futuras contestações.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **hour_bank_with_cct_max_1_year:** **Conformidade** - A empresa cumpriu o limite de 12 meses para a compensação do banco de horas, conforme previsto na CCT.\n*   **working_hours_negotiable_by_cct:** **Conformidade** - A jornada de trabalho foi regulamentada por meio de CCT, permitindo a implementação do banco de horas e a limitação da jornada extra.\n\n**Observações Adicionais:**\n\n*   A aceitação da proposta pelos trabalhadores, embora relevante, não elimina a necessidade de comprovação da observância dos requisitos legais e da CCT.\n*   A empresa deve manter registros precisos e atualizados dos extratos mensais do banco de horas, disponíveis aos trabalhadores, como prova do cumprimento das obrigações.\n*   É fundamental que a CCT seja clara e objetiva quanto às regras do banco de horas, incluindo a definição de como o saldo será compensado e o que ocorrerá em caso de não compensação dentro do prazo.\n*   A limitação da jornada extra a 2h/dia deve estar expressa na CCT ou em norma interna da empresa, para evitar questionamentos futuros.\n*   A empresa deve estar atenta a possíveis questionamentos dos trabalhadores sobre a forma como as folgas compensatórias estão sendo concedidas, garantindo que sejam justas e adequadas.",
+  "tokens_in": 352,
+  "tokens_out": 808,
+  "latency_ms": 22312,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,30 @@
+{
+  "sha256": "c7f33fd02fb0738b433d2dfe6365a7e21bf4c600be17825380c8bdf6a0de8c78",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-008",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:32:59Z",
+  "prompt_sha": "f386ffafe5e7ff919c71ccc539ca484bedeed55858f8c345ed209dd7bbbe0e31",
+  "response_text": "**1. ANÁLISE**\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: O acórdão fornece os fundamentos para a decisão, incluindo a identificação do grau da ofensa (leve, médio, grave ou gravíssimo) com base nos fatos provados e a aplicação de precedentes do TST sobre assédio moral. Além disso, o valor do dano moral é calculado com referência ao salário do trabalhador conforme o artigo 223-G da CLT. Isso significa que os fundamentos para a decisão estão explicitados e identificáveis.\n\n- **due_process_of_law**: O acórdão segue os princípios do devido processo legal, pois se baseia em fatos provados (que são mencionados como fundamento para a classificação da ofensa), aplicação correta das normas legais pertinentes (CLT Art. 223-G e precedentes do TST) e explica a proporcionalidade com casos similares, garantindo que as partes tenham sido ouvidas e que os direitos processuais tenham sido respeitados.\n\n**2. DECISÃO RECOMENDADA**\n\nCom base nos predicados normativos aplicáveis ao caso, recomenda-se manter a decisão do acórdão, pois ela está de acordo com as obrigações estabelecidas pela legislação trabalhista e jurisprudência do TST.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: Cumprido. O acórdão fornece os fundamentos para a decisão, incluindo a identificação do grau da ofensa e a aplicação de precedentes.\n  \n- **due_process_of_law**: Cumprido. O acórdão segue os princípios do devido processo legal, baseando-se em fatos provados e aplicação correta das normas legais pertinentes.\n\nPortanto, não há violações dos predicados normativos listados no cenário apresentado.",
+  "tokens_in": 383,
+  "tokens_out": 467,
+  "latency_ms": 8046,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

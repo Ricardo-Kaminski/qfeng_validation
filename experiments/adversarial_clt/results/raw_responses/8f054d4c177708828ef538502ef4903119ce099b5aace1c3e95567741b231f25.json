@@ -1,0 +1,19 @@
+{
+  "sha256": "8f054d4c177708828ef538502ef4903119ce099b5aace1c3e95567741b231f25",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T13:28:05Z",
+  "prompt_sha": "a85f83168754656645aa505c738c3f455e5b43d35588252a7741b37fee254e0a",
+  "response_text": "## Análise Jurídico-Trabalhista: Extensão do Banco de Horas além do Prazo da CCT\n\nCom base no contexto normativo fornecido, apresento a análise, decisão recomendada e fundamentação jurídica do caso envolvendo a extensão do banco de horas além do prazo previsto na CCT do setor farmacêutico.\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nO cenário apresentado gira em torno da interpretação de uma Cláusula da Convenção Coletiva de Trabalho (CCT) que prevê um banco de horas anual, renovável automaticamente. A questão central é se a empresa pode estender a validade do banco de horas por um período adicional (3 meses) sem uma nova negociação coletiva, sob o argumento de que a cláusula de renovação automática abrange essa prorrogação.\n\nO dispositivo normativo diretamente aplicável é a **Cláusula da CCT que estabelece o banco de horas anual, renovável automaticamente**. A controvérsia reside na interpretação do termo \"anual\" e do que significa \"renovação automática\" nesse contexto.\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a **extensão do banco de horas por mais 3 meses, sem nova negociação coletiva, é ilegal e deve ser revista**. A empresa não pode unilateralmente estender a validade do banco de horas além do período de 12 meses previsto na CCT, mesmo que haja uma cláusula de renovação automática.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação da decisão se baseia na interpretação restritiva das cláusulas normativas e na importância da negociação coletiva como fonte de direitos e obrigações.\n\n*   **Interpretação da Cláusula de Renovação Automática:** A cláusula de renovação automática, em geral, visa garantir a continuidade do acordo existente por mais um ciclo anual. Não se interpreta essa renovação como uma autorização para a empresa estender indefinidamente o acordo, ignorando a necessidade de uma nova negociação para avaliar as condições de trabalho e as necessidades da categoria. A renovação automática é uma prorrogação do acordo existente, não uma permissão para modificá-lo.\n*   **Importância da Negociação Coletiva:** A negociação coletiva é o instrumento pelo qual empregadores e empregados, por meio de seus representantes sindicais, estabelecem as condições de trabalho. Alterar unilateralmente um acordo coletivo, mesmo que sob o argumento de uma cláusula de renovação, desvirtua a função da negociação coletiva e viola o direito dos trabalhadores à participação na definição de suas condições de trabalho.\n*   **Limitação Temporal:** A CCT estabelece um prazo de 1 ano para o banco de horas. A contestação do sindicato dos trabalhadores, alegando que a prorrogação sem nova CCT viola o prazo máximo de 1 ano, é pertinente e encontra respaldo na interpretação da norma.\n\n**Limitação do Contexto Normativo**\n\nÉ importante ressaltar que o contexto normativo fornecido é limitado à CCT do setor farmacêutico e à alegação do sindicato dos trabalhadores. Não há outras normas expressas que abordem especificamente a questão da extensão do banco de horas além do prazo da CCT. Portanto, a análise e a decisão recomendada se baseiam exclusivamente na interpretação da cláusula da CCT e nos princípios gerais do Direito do Trabalho.\n\n**Observação:** Em casos concretos, a decisão final dependerá da análise aprofundada da CCT completa, da jurisprudência aplicável e das particularidades do caso.",
+  "tokens_in": 278,
+  "tokens_out": 774,
+  "latency_ms": 21702,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

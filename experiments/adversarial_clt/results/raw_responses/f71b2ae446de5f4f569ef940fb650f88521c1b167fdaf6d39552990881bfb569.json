@@ -1,0 +1,19 @@
+{
+  "sha256": "f71b2ae446de5f4f569ef940fb650f88521c1b167fdaf6d39552990881bfb569",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T06:50:13Z",
+  "prompt_sha": "e3a03423f59d54e94c80b16f3aeda0e741ca90b34230fe57c0b6d041a819afcb",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a aplicação de uma Convenção Coletiva de Trabalho (CCT) específica para o setor farmacêutico, que prevê um banco de horas anual renovável automaticamente. O trabalhador acumulou horas por 12 meses e, ao término do prazo, a empresa solicitou extensão por mais 3 meses sem nova negociação coletiva.\n\nA cláusula de renovação automática é um dispositivo importante na CCT que permite a continuidade da aplicação das regras estabelecidas para o banco de horas sem a necessidade de uma nova negociação. No entanto, a questão central aqui é saber se essa cláusula pode ser interpretada como autorizando prorrogações indefinidas ou apenas prorrogações dentro do mesmo ano.\n\n**DISPOSITIVOS LEGAIS APLICÁVEIS**\n\n- **CLT (Consolidação das Leis do Trabalho)**: Artigo 611-A, que trata sobre o banco de horas e sua renovação.\n- **Jurisprudência do TST**: Súmula nº 379, que estabelece a necessidade de negociação coletiva para prorrogações de acordos coletivos.\n\n**INTERPRETAÇÃO NO CASO CONCRETO**\n\nA interpretação da cláusula de renovação automática deve considerar o contexto e os limites impostos pela legislação trabalhista. A CCT prevê a renovação do banco de horas anualmente, o que sugere uma aplicação dentro de um período determinado (ano calendário). A prorrogação por mais 3 meses sem nova negociação coletiva pode ser vista como uma tentativa de estender indefinidamente as regras do banco de horas, o que não está previsto na CCT.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a prorrogação por mais 3 meses sem nova negociação coletiva seja considerada inválida. Isso se baseia no entendimento de que a renovação automática da cláusula do banco de horas está limitada ao ano calendário e não autoriza prorrogações indefinidas.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n- **CLT**: Artigo 611-A, que estabelece as regras para o banco de horas, incluindo a renovação anual.\n- **Súmula do TST nº 379**: Que determina a necessidade de negociação coletiva para prorrogações de acordos coletivos.\n\n**PRECEDENTES CONSTITUCIONAIS**\n\n- A Constituição Federal de 1988, em seu artigo 7º, inciso XXVI, garante o direito dos trabalhadores à estabilidade no emprego e ao pagamento das horas extras.\n\nEm resumo, a decisão recomendada é que a prorrogação por mais 3 meses sem nova negociação coletiva seja considerada inválida, pois não está de acordo com as regras previstas na CCT e na legislação trabalhista.",
+  "tokens_in": 323,
+  "tokens_out": 708,
+  "latency_ms": 23311,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

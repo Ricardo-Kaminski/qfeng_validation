@@ -1,0 +1,19 @@
+{
+  "sha256": "87080acf09c4836950b8643f602dea42cadcdc596552b6fddc9a919c8fa58cf8",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-007",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T07:53:35Z",
+  "prompt_sha": "35be560b3d56480b261099a368fe4a0b566785771735d919158eb0a8a25e76e3",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO caso envolve a aplicação indevida de um **IRDR (Instrução Normativa do Regional) do TRT-15ª Região** como **precedente vinculante nacional** pelo **TST**, violando o **CPC Art. 489, §1°, V**, que estabelece critérios para a aplicação de precedentes.  \n\n- **CPC Art. 489, §1°, V**: Determina que, na aplicação de precedentes, o juiz deve considerar **precedentes vinculantes** (como os declarados pelo STJ ou TST como repetitivos) ou **precedentes com eficácia vinculante**.  \n- **Contexto normativo fornecido**: O **IRDR regional** não foi afetado como **repetitivo** pelo TST e **não possui eficácia nacional**, o que o exclui da categoria de precedentes vinculantes.  \n\n### 2. **DECISÃO RECOMENDADA**  \nA **decisão do TST deve ser anulada**, pois a aplicação do IRDR como precedente vinculante nacional viola o **CPC Art. 489, §1°, V**, que exige a observância de critérios específicos para a eficácia vinculante de precedentes.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **CPC Art. 489, §1°, V**:  \n  *\"O juiz, ao decidir, observará os seguintes critérios: [...] V – os precedentes vinculantes, inclusive os declarados como repetitivos pelo Supremo Tribunal Federal ou pelo Superior Tribunal de Justiça, ou pelo Tribunal Superior do Trabalho, quando aplicáveis.\"*  \n  **Aplicação**: O IRDR regional **não é um precedente vinculante nacional** (não foi declarado como repetitivo pelo TST e não possui eficácia nacional), o que **viola o disposto no CPC Art. 489, §1°, V**.  \n\n- **Limitação do contexto normativo**:  \n  O contexto **não menciona dispositivos específicos do TST** (como normas internas ou súmulas) que possam regular a aplicação de IRDRs como precedentes vinculantes. A análise se limita aos dispositivos do **CPC** fornecidos no contexto.  \n\n**Conclusão**: A violação do CPC Art. 489, §1°, V justifica a anulação da decisão do TST, por aplicação indevida de um precedente que **não atende aos critérios de eficácia vinculante nacional**.",
+  "tokens_in": 309,
+  "tokens_out": 1104,
+  "latency_ms": 68968,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

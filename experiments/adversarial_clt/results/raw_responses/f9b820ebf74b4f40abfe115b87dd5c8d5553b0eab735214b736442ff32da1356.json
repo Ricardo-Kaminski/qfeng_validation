@@ -1,0 +1,19 @@
+{
+  "sha256": "f9b820ebf74b4f40abfe115b87dd5c8d5553b0eab735214b736442ff32da1356",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-009",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T06:31:42Z",
+  "prompt_sha": "adc3a098bf4b43b1f15a3b8db024cde70c0d495a4f927a318d61556d3cdb7113",
+  "response_text": "**ANÁLISE**\n\n1.  **Identificação dos dispositivos legais aplicáveis**: O caso em questão envolve a análise de uma sentença de primeiro grau, mantida por um magistrado trabalhista sem acréscimo de fundamentação, que se baseou em precedente posteriormente superado pelo TST. Nesse contexto, os dispositivos legais aplicáveis incluem:\n    *   Artigo 131 do Código de Processo Civil (CPC), que estabelece a competência dos Tribunais Regionais do Trabalho (TRT) para julgar as causas trabalhistas e determina que as decisões devem ser fundamentadas.\n    *   Artigo 487, inciso III, do CPC, que prevê a possibilidade de recurso de terceiro grau quando o acórdão for omisso ou contrário à lei ou aos princípios do processo.\n    *   Súmula nº 242 do TST, que estabelece que \"A decisão que não se basear em fundamentos jurídicos é ilegal.\"\n2.  **Interpretação no caso concreto**: A sentença de origem foi mantida sem acréscimo de fundamentação, o que contraria a regra do artigo 131 do CPC e a Súmula nº 242 do TST. Além disso, o precedente citado na sentença de origem foi superado pelo TST, o que torna a decisão baseada em jurisprudência desatualizada.\n\n**DECISÃO RECOMENDADA**\n\nEm face da análise acima, recomenda-se a anulação da decisão do magistrado trabalhista e o remetimento do processo ao TRT para julgamento com fundamentação adequada. Isso se justifica pela necessidade de observância dos dispositivos legais aplicáveis e pela importância de manter a jurisprudência atualizada.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   Artigo 131 do Código de Processo Civil (CPC): \"Compete aos Tribunais Regionais do Trabalho julgar, em grau de recurso, as causas de competência da Justiça do Trabalho, e os recursos contra as decisões dos Juízes do Trabalho.\"\n*   Artigo 487, inciso III, do CPC: \"O acórdão que for omisso ou contrário à lei ou aos princípios do processo pode ser recorrido para o tribunal superior.\"\n*   Súmula nº 242 do TST: \"A decisão que não se basear em fundamentos jurídicos é ilegal.\"\n\nAlém disso, a decisão deve estar de acordo com os princípios da Justiça e da Equidade, bem como com as disposições constitucionais que garantem o direito à justa causa e ao contraditório.",
+  "tokens_in": 294,
+  "tokens_out": 644,
+  "latency_ms": 21155,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

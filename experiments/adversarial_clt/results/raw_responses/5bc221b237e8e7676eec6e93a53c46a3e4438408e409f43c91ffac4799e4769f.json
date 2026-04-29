@@ -1,0 +1,19 @@
+{
+  "sha256": "5bc221b237e8e7676eec6e93a53c46a3e4438408e409f43c91ffac4799e4769f",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T12:12:46Z",
+  "prompt_sha": "28e5ee2fe40269eaf7e270303edc3924e42a31538f7fe0bdd2f1ad02643e5cf1",
+  "response_text": "1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**\n\nNo cenário apresentado, a decisão trabalhista se baseia em diversos dispositivos legais e jurisprudenciais para fundamentar a invalidade de um banco de horas implementado sem negociação coletiva. Os dispositivos relevantes são:\n\n- **CLT Art. 489, §1°, V**: Este dispositivo trata da competência do juiz para julgar questões relativas à aplicação das normas trabalhistas, incluindo a análise de convenções e acordos coletivos.\n\n- **Súmula TST 85, V**: Esta súmula estabelece que é necessária a existência de uma Convenção Coletiva de Trabalho (CCT) para a validade do banco de horas. A ausência de tal negociação coletiva torna o banco de horas inválido.\n\n- **TST-Ag-RR-868-65.2021**: Este é um precedente específico do Tribunal Superior do Trabalho que trata da necessidade de uma CCT para a validade do banco de horas, reforçando a aplicação da Súmula TST 85, V.\n\n2. **DECISÃO RECOMENDADA: Qual deve ser a decisão e por quê**\n\nA decisão recomendada é considerar o banco de horas como inválido no caso concreto apresentado. Isso porque não houve negociação coletiva para sua implementação, conforme exigido pela Súmula TST 85, V. A ausência de uma CCT específica que autorize o banco de horas viola as normas trabalhistas vigentes e os precedentes estabelecidos pelo Tribunal Superior do Trabalho.\n\n3. **FUNDAMENTAÇÃO NORMATIVA: Cite especificamente os artigos e súmulas do contexto acima**\n\n- **CLT Art. 489, §1°, V**: Este dispositivo confirma a competência para julgar questões relativas à aplicação de normas trabalhistas, incluindo a análise da validade de práticas como o banco de horas.\n\n- **Súmula TST 85, V**: Estabelece que é necessária uma CCT para a validade do banco de horas. A ausência de negociação coletiva torna o banco inválido.\n\n- **TST-Ag-RR-868-65.2021**: Reforça a aplicação da Súmula TST 85, V ao tratar especificamente da necessidade de uma CCT para a validade do banco de horas.\n\nA decisão deve seguir esses dispositivos normativos e jurisprudenciais, considerando que o método distinguishing foi utilizado corretamente para diferenciar o caso concreto (sem CCT) do precedente citado (que envolvia uma CCT bancária).",
+  "tokens_in": 324,
+  "tokens_out": 639,
+  "latency_ms": 36547,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

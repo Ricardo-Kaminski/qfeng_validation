@@ -1,0 +1,30 @@
+{
+  "sha256": "671cfe7d535b51dab71947b233d001b9d38dae703a1a5bf96c62dfc819661961",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-009",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T00:12:25Z",
+  "prompt_sha": "6d91edef4f830b89da4360eaf0b135c5ffe380f3939107e2bba54ad7b7057f83",
+  "response_text": "1. **ANÁLISE:**\n\n   - **Obligation to ground decision in identified ratio decidendi**: Este predicado normativo exige que qualquer decisão judicial seja fundamentada com base na razão de decidir identificada, ou seja, o fundamento legal e fático que justifica a aplicação da norma ao caso concreto. No cenário apresentado, embora a decisão tenha citado corretamente a Súmula TST 85, que trata do banco de horas sem CCT (Convenção Coletiva de Trabalho), ela falhou em fundamentar adequadamente a aplicação da consequência jurídica. A Súmula TST 85 V estabelece que as horas excedentes devem ser pagas com adicional de 50%. No entanto, a decisão determinou o pagamento dessas horas como hora normal, sem adicional, e não forneceu qualquer fundamentação para justificar essa divergência da norma estabelecida na Súmula. Portanto, houve uma violação do dever de fundamentar adequadamente a decisão com base no ratio decidendi.\n\n2. **DECISÃO RECOMENDADA:**\n\n   A decisão deve ser reformulada para cumprir o predicado normativo de fundamentação adequada. Isso significa que a autoridade judicial deve explicitar claramente por que, apesar da aplicabilidade da Súmula TST 85 V ao caso concreto (banco de horas sem CCT), optou-se por não aplicar o adicional de 50% sobre as horas excedentes. Se houver alguma circunstância específica do caso que justifique a divergência, essa deve ser detalhadamente explicada na decisão. Caso contrário, a decisão deve ser ajustada para pagar as horas excedentes com o adicional de 50%, conforme estabelecido pela Súmula TST 85 V.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violado**: \n     - *Obligation to ground decision in identified ratio decidendi*: A decisão não foi adequadamente fundamentada em relação à aplicação da Súmula TST 85 V, pois determinou o pagamento das horas excedentes como hora normal sem justificar a divergência do adicional de 50% estabelecido na norma.\n\n   - **Cumprido**:\n     - A decisão cumpriu ao identificar corretamente a aplicabilidade da Súmula TST 85 ao caso concreto, reconhecendo que se tratava de um banco de horas sem CCT. No entanto, o cumprimento foi parcial, pois falhou na parte relativa à consequência jurídica adequada e sua fundamentação.\n\nEssa análise sugere a necessidade de revisão da decisão para garantir conformidade com os princípios de fundamentação exigidos pelo ordenamento jurídico trabalhista brasileiro.",
+  "tokens_in": 356,
+  "tokens_out": 661,
+  "latency_ms": 19078,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

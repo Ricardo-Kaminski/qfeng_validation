@@ -1,0 +1,19 @@
+{
+  "sha256": "93f3c8ecfca57361d187ffd8fd176db371bf9af8db60618e6c96e1f373c3e4d1",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-006",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T10:22:55Z",
+  "prompt_sha": "caed60f8d7236d27119212e19182ccd57f46b0e0f27797e3747f1a33d35138bd",
+  "response_text": "### 1. **ANÁLISE**  \nO caso envolve a **inversão da ratio decidendi** do **Tema 1046/STF** e do **TST-Ag-RR-868-65.2021**, que **pressupõem a existência de uma Convenção Coletiva de Trabalho (CCT)** para a validade de um banco de horas. A aplicação incorreta do precedente ocorre ao **usar a autonomia negocial** (valorizada pelo Tema 1046) como fundamento para a validade de um banco de horas **sem CCT**, o que **contraria o pressuposto essencial do precedente**.  \n\n### 2. **DECISÃO RECOMENDADA**  \nA decisão deve **rejeitar a aplicação do precedente** no caso, **anulando a validação do banco de horas sem CCT**. Isso porque:  \n- O **Tema 1046/STF** e o **TST-Ag-RR-868-65.2021** **pressupõem a existência de uma CCT** para a validade de normas coletivas, como o banco de horas.  \n- A **ausência de CCT** configura **vício formal** que inviabiliza a aplicação do precedente, já que a autonomia negocial **não se aplica em ausência de negociação coletiva**.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Tema 1046/STF**: Estabelece que a **validade de normas coletivas (como CCTs)** depende da **existência de negociação coletiva**, não da simples autonomia negocial.  \n- **TST-Ag-RR-868-65.2021**: Reafirma que a **CCT é pressuposto indispensável** para a validade de dispositivos como o banco de horas.  \n- **Limitação**: O contexto normativo **não menciona dispositivos legais específicos** (como artigos da CLT ou da CF) que regulamentem diretamente o banco de horas sem CCT, apenas **precedentes jurisprudenciais**. Portanto, a análise se baseia exclusivamente na interpretação dos **precedentes citados**.  \n\n**Conclusão**: A aplicação do precedente **não pode ser estendida a situações sem CCT**, pois o **pressuposto da negociação coletiva** é essencial para a validade do banco de horas.",
+  "tokens_in": 313,
+  "tokens_out": 979,
+  "latency_ms": 60733,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

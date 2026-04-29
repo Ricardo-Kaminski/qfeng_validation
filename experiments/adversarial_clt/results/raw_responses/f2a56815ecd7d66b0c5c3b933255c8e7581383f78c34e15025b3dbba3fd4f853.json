@@ -1,0 +1,19 @@
+{
+  "sha256": "f2a56815ecd7d66b0c5c3b933255c8e7581383f78c34e15025b3dbba3fd4f853",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-009",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T08:00:56Z",
+  "prompt_sha": "b09008be3db8993e87c56a00bc3805af6ee10f0702c17448ede0c29eef458272",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO contexto normativo fornecido não menciona explicitamente dispositivos legais ou jurisprudenciais aplicáveis ao caso (como artigos do Código Civil, do Código de Processo Civil, do Código Trabalhista ou súmulas do TST). A análise deve ser baseada apenas na descrição do cenário, que envolve:  \n- **Ausência de fundamentação na sentença do magistrado** (não há menção a normas que exijam fundamentação judicial).  \n- **Uso de precedente superado pelo TST** (não há citação de dispositivos que regulamentem a atualização de jurisprudência ou a obrigação de seguir jurisprudência atualizada).  \n\n### 2. **DECISÃO RECOMENDADA**  \nA decisão recomendada é **anular a sentença do TRT** e determinar a **reapreciação do caso**, pois:  \n- A ausência de fundamentação judicial viola o princípio da motivação das decisões (não há norma citada no contexto que exija isso, mas é um princípio constitucional e processual).  \n- A utilização de um precedente superado pelo TST configura **violação do princípio da jurisprudência atualizada**, mesmo que o contexto não mencione normas específicas sobre isso.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \nO contexto **não contém dispositivos normativos aplicáveis** ao caso. Não há menção a:  \n- Normas do Código de Processo Civil (como o art. 12, que exige fundamentação das decisões).  \n- Súmulas do TST (como a Súmula 334, que determina a atualização de jurisprudência).  \n- Outros dispositivos legais ou jurisprudenciais relevantes.  \n\n**Limitação:** A análise é restrita ao cenário descrito, que não inclui normas específicas. Portanto, **não é possível citar dispositivos normativos concretos** do contexto para fundamentar a decisão. A recomendação é baseada apenas na descrição do caso e em princípios gerais do direito processual e do trabalho.",
+  "tokens_in": 280,
+  "tokens_out": 1477,
+  "latency_ms": 92750,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

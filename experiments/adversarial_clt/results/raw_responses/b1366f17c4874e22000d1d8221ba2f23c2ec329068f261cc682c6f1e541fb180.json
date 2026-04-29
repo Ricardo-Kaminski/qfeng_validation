@@ -1,0 +1,29 @@
+{
+  "sha256": "b1366f17c4874e22000d1d8221ba2f23c2ec329068f261cc682c6f1e541fb180",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-006",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T22:30:30Z",
+  "prompt_sha": "b5f3c80de151d181ed81c9553198da00fb088cfbddccc1f18b7d78267efcf67e",
+  "response_text": "### 1. **ANÁLISE: Aplicação dos predicados normativos ao caso concreto**\n\n**a) *semester_hour_bank_requires_cct_or_act***  \nO **banco de horas** (ou *semester_hour_bank*) é uma modalidade de compensação de horas trabalhadas, regulamentada pelo **Art. 59, §2° da CLT**, que exige a existência de **convenção coletiva de trabalho (CCT)** ou **acordo coletivo de trabalho (ACT)** para sua instituição.  \nNo caso, a empresa aprovou o banco de horas por **regulamento interno** em assembleia dos próprios empregados, **sem a participação do sindicato**. Isso **não cumpre a exigência legal**, pois:  \n- A **CCT** ou **ACT** deve ser celebrada entre a **empresa** e o **sindicato** (ou, em sua ausência, pela **maioria dos trabalhadores**, conforme o **Art. 611, §1° da CLT**).  \n- A **assembleia dos trabalhadores**, por si só, **não substitui a existência de um acordo coletivo** (CCT/ACT), **mesmo que aprovada por maioria**.  \n- A **ausência do sindicato** na assembleia **viola a previsão legal**, pois a **negociação coletiva** (e sua formalização em CCT/ACT) **é obrigatória** para a instituição de normas que afetem direitos trabalhistas, como o banco de horas.  \n\n**b) *recognition_of_collective_bargaining***  \nA **negociação coletiva** (e sua formalização em CCT/ACT) **é um direito fundamental dos trabalhadores**, garantido pela **CLT** e pela **Constituição Federal** (Art. 8°, II).  \nNo caso, a **ausência do sindicato** na assembleia **viola a exigência de representação sindical** para a instituição de normas coletivas, conforme o **Art. 611, §1° da CLT**, que prevê que, **na ausência de sindicato**, a negociação coletiva deve ser feita com a **maioria dos trabalhadores**, **mas sempre com a participação do sindicato** (se existente).  \nA **empresa não demonstrou que o sindicato foi convidado ou participou da assembleia**, o que **invalida a formalização do banco de horas** como norma coletiva.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **empresa deve ser condenada** por:  \n- **Violação do Art. 59, §2° da CLT**, que exige a instituição do banco de horas por meio de **CCT** ou **ACT**.  \n- **Violação do Art. 611, §1° da CLT**, que exige a **participação do sindicato** na negociação coletiva, mesmo que a maioria dos trabalhadores concorde com a norma.  \n- **Invalidez do regulamento interno** aprovado em assembleia, por **não atender aos requisitos legais de negociação coletiva**.  \n\nA **empresa deve:**\n- **Revisar o regulamento interno** e **instituir o banco de horas** por meio de **CCT** ou **ACT**, com a **participação do sindicato** (se existente).  \n- **Compensar os empregados** por eventuais prejuízos decorrentes da aplicação do banco de horas em regime ilegal.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Violação de *semester_hour_bank_requires_cct_or_act***:  \n  O banco de horas foi instituído por **regulamento interno**, **sem a existência de CCT/ACT**, **viando a exigência legal**.  \n\n- **Violação de *recognition_of_collective_bargaining***:  \n  A **negociação coletiva** **não foi formalizada com o sindicato**, **viando a obrigação de representação sindical** na instituição de normas coletivas.  \n\n- **Conformidade parcial**:  \n  A **assembleia dos trabalhadores** foi realizada com **maioria dos empregados**, o que **cumpriria a exigência legal** **se o sindicato tivesse participado** (Art. 611, §1° da CLT). No entanto, **a ausência do sindicato** **invalida a formalização**.  \n\n---\n\n### CONCLUSÃO  \nA **empresa não cumpriu as exigências legais** para a instituição do banco de horas, **viando dois predicados normativos essenciais**. A **decisão recomendada** é a **invalidação do regulamento interno** e a **obrigação de celebrar CCT/ACT com a participação do sindicato**.",
+  "tokens_in": 361,
+  "tokens_out": 1711,
+  "latency_ms": 53483,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

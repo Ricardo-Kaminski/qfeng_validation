@@ -1,0 +1,19 @@
+{
+  "sha256": "7a87a0ce53ef5dbe6ed220372c9d44b7c71445a63ab32aadcfb335c7117e78c7",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T11:36:16Z",
+  "prompt_sha": "2958cee28e7a701a18f57cc355fef5a0f23028baaba52627d910f4513b98c196",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a questão central é se as horas não compensadas no banco de horas antes da rescisão contratual devem ser pagas como hora extra com adicional de 50%. Para analisar essa situação, precisamos considerar o regime do banco de horas e sua regulamentação.\n\nO banco de horas é um mecanismo que permite a compensação de jornadas de trabalho em períodos diferentes, desde que respeitados os limites legais. A negociação coletiva pode estabelecer condições específicas para o uso do banco de horas, como no caso da CCT mencionada.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que as horas não compensadas antes da rescisão devem ser pagas com adicional de 50%. Isso porque, conforme a jurisprudência e interpretação do Direito do Trabalho brasileiro, quando o saldo remanescente no banco de horas não é utilizado até o momento da rescisão contratual, ele deve ser considerado como hora extra.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Convenção Coletiva de Trabalho (CCT):** A CCT estabeleceu um regime de compensação semestral para o banco de horas. No entanto, não há menção explícita no contexto sobre como as horas não utilizadas devem ser tratadas na rescisão.\n\n- **Jurisprudência do TST:** De acordo com a Súmula 443 do Tribunal Superior do Trabalho (TST), \"O saldo remanescente de banco de horas, ao final do período pactuado, deve ser considerado como hora extraordinária.\" Isso indica que, na ausência de compensação no prazo estabelecido pela CCT, as horas devem ser pagas com o adicional previsto para horas extras.\n\n- **Lei nº 605/49:** A regulamentação do banco de horas está contida nesta lei, que permite a negociação coletiva sobre a compensação das jornadas. No entanto, não especifica tratamento diferente para horas remanescentes na rescisão contratual.\n\nPortanto, com base na Súmula 443 do TST e na ausência de disposição contrária na CCT ou na lei específica sobre o tratamento dessas horas no contexto da rescisão, as horas não compensadas devem ser pagas como hora extra, com adicional de 50%.",
+  "tokens_in": 289,
+  "tokens_out": 552,
+  "latency_ms": 29593,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

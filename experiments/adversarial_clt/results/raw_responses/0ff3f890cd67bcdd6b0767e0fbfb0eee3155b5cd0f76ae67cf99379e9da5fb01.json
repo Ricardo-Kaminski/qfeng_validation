@@ -1,0 +1,19 @@
+{
+  "sha256": "0ff3f890cd67bcdd6b0767e0fbfb0eee3155b5cd0f76ae67cf99379e9da5fb01",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-007",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T06:30:01Z",
+  "prompt_sha": "21d48fb781a7c9910e31675833fd7359f1864a57a4a1b7bc5115a5563945f7ed",
+  "response_text": "**ANÁLISE**\n\n1.  **Identificação dos dispositivos legais aplicáveis e sua interpretação no caso concreto:**\n    *   O artigo 489, §1°, V do CPC estabelece que a violação da eficácia vinculante de precedente é considerada uma das causas de nulidade absoluta da decisão.\n    *   A eficácia vinculante de precedentes é regulamentada pelo artigo 927 do CPC, que permite ao Supremo Tribunal Federal (STF) e ao Superior Tribunal de Justiça (STJ) editar súmulas vinculantes.\n    *   No entanto, o TST também pode editar enunciados de jurisprudência uniforme (EJT), que têm eficácia vinculante dentro do âmbito do próprio tribunal.\n\n**DECISÃO RECOMENDADA**\n\nA decisão deve ser a nulidade da decisão proferida pelo TST, pois o precedente citado não tinha a eficácia vinculante que lhe foi atribuída na decisão. Isso se justifica pela violação do artigo 489, §1°, V do CPC.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   O artigo 489, §1°, V do CPC estabelece que a violação da eficácia vinculante de precedente é considerada uma das causas de nulidade absoluta da decisão.\n*   A eficácia vinculante de precedentes é regulamentada pelo artigo 927 do CPC, que permite ao Supremo Tribunal Federal (STF) e ao Superior Tribunal de Justiça (STJ) editar súmulas vinculantes.\n*   No entanto, o TST também pode editar enunciados de jurisprudência uniforme (EJT), que têm eficácia vinculante dentro do próprio tribunal.",
+  "tokens_in": 320,
+  "tokens_out": 426,
+  "latency_ms": 13921,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

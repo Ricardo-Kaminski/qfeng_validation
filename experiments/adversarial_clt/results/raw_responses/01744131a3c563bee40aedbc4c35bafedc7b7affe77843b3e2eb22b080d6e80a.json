@@ -1,0 +1,19 @@
+{
+  "sha256": "01744131a3c563bee40aedbc4c35bafedc7b7affe77843b3e2eb22b080d6e80a",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T02:12:38Z",
+  "prompt_sha": "789bb3f3b629b4227cddab821933c060fd792fe2c27e2e611000914cf65be9d2",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Convenção Coletiva de Trabalho (CCT):** A CCT firmada entre a empresa e o sindicato estabeleceu um banco de horas anual, permitindo que as horas excedentes fossem compensadas mediante folgas dentro do prazo de 12 meses. Este tipo de acordo é regulamentado pelo artigo 59 da CLT, que permite a compensação das horas extras por meio de banco de horas, desde que haja prévia autorização em convenção ou acordo coletivo.\n\n- **Artigo 59 da CLT:** Permite a compensação de horas extras mediante banco de horas, desde que não ultrapasse o limite máximo estabelecido pela convenção ou acordo coletivo e que seja respeitado o prazo para utilização das folgas.\n\n- **Súmula 331 do TST:** Estabelece que a compensação de horas extras por meio de banco de horas é válida se houver prévia autorização em convenção ou acordo coletivo, desde que observados os limites legais e o prazo para utilização das folgas.\n\n**Interpretação no Caso Concreto:**\n\nNo caso apresentado, a empresa do setor alimentício firmou uma CCT que prevê um banco de horas anual. O trabalhador acumulou horas extras ao longo de 11 meses e todas foram compensadas mediante folgas dentro do prazo de 12 meses estabelecido na CCT. A jornada diária nunca ultrapassou 10 horas, o que está em conformidade com a legislação vigente (Lei nº 13.467/2017), que permite uma jornada máxima de 10 horas diárias.\n\nAlém disso, os extratos mensais foram entregues ao trabalhador, e o sindicato homologou a prestação anual de contas do banco de horas, o que demonstra transparência e conformidade com as normas estabelecidas na CCT.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é que a prática da empresa seja considerada conforme à legislação trabalhista vigente. A empresa cumpriu todos os requisitos legais para a implementação do banco de horas, incluindo a autorização em CCT, o respeito ao limite máximo de jornada diária e o cumprimento do prazo estabelecido para compensação das folgas.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **Artigo 59 da CLT:** Permite a compensação de horas extras mediante banco de horas, desde que haja prévia autorização em convenção ou acordo coletivo e respeitados os limites legais.\n\n- **Súmula 331 do TST:** Estabelece que a compensação de horas extras por meio de banco de horas é válida se houver prévia autorização em convenção ou acordo coletivo, desde que observados os limites legais e o prazo para utilização das folgas.\n\n- **Lei nº 13.467/2017 (Reforma Trabalhista):** Estabelece que a jornada máxima diária é de 10 horas, permitindo a compensação de horas extras mediante banco de horas, desde que respeitados os limites e prazos estabelecidos em convenção ou acordo coletivo.\n\n- **Doutrina Trabalhista:** Segundo a doutrina, a transparência na prestação de contas do banco de horas é essencial para garantir a legalidade da compensação das horas extras. A homologação pelo sindicato reforça a conformidade com as normas estabelecidas na CCT.\n\nPortanto, considerando que todos os requisitos legais foram cumpridos e houve transparência no processo de compensação das horas extras, a prática da empresa deve ser considerada válida.",
+  "tokens_in": 299,
+  "tokens_out": 880,
+  "latency_ms": 50671,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

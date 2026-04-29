@@ -1,0 +1,26 @@
+{
+  "sha256": "cd5d8f44fa3d5fb77b840bec319c1ea3e9fe577b3539aec4a422ca69dc7e4a41",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:22:13Z",
+  "prompt_sha": "a01627cdbd8b1cd3b3f8d644f3236118fbd7445d66aaa97eead1388400a4615a",
+  "response_text": "## Análise do Caso: Acórdão do TRT-2ª Região e Fundamentação Jurisprudencial\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, a análise e a decisão recomendada são as seguintes:\n\n**1. ANÁLISE:**\n\n*   **prohibition_of_generic_precedent_citation:** Este predicado proíbe a citação genérica de jurisprudência, exigindo que a fundamentação em decisões judiciais seja específica e identificável. No caso, o acórdão do TRT-2ª Região violou este predicado ao citar \"orientação jurisprudencial consolidada do TST\" sem indicar qual(is) OJ, Súmula ou acórdão específico que sustenta a decisão. A simples afirmação de que a jurisprudência é \"pacífica\" não cumpre o requisito de identificação da fonte normativa. A citação genérica impede a verificação da base legal da decisão e dificulta o controle da legalidade.\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** Este predicado impõe a obrigação de fundamentar a decisão no *ratio decidendi* (o princípio ou razão de decidir) de decisões judiciais específicas.  A decisão do TRT-2ª Região falhou em cumprir este predicado. Mesmo que exista uma \"orientação jurisprudencial consolidada\" do TST sobre o tema, a decisão do TRT não explicou qual o *ratio decidendi* dessa orientação, como ela se aplica ao caso concreto e por que a conduta do bancário se enquadra nos parâmetros estabelecidos. A falta de identificação da fonte e da sua aplicação impede a compreensão da lógica da decisão e a possibilidade de controle por instâncias superiores.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se o **provimento do recurso do empregado**. A decisão do TRT-2ª Região deve ser **anulada** ou, alternativamente, **remediada**. A anulação seria a medida mais adequada, pois a falta de fundamentação específica impede a compreensão da base legal da decisão e a possibilidade de controle. Se a remediação for a opção escolhida, o acórdão deve ser complementado com a identificação da(s) decisão(ões) do TST que fundamentam a aplicação da justa causa, expondo o *ratio decidendi* e demonstrando a sua pertinência ao caso concreto.  A ausência de fundamentação adequada viola o direito ao devido processo legal e ao contraditório, conforme previsto no CPC Art. 489, §1°, VI.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **prohibition_of_generic_precedent_citation:** **Violação** - O acórdão utilizou citação genérica de jurisprudência do TST, sem identificar número de OJ, Súmula ou acórdão específico.\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** **Violação** - A decisão não fundamentou a aplicação da justa causa no *ratio decidendi* de decisões judiciais específicas, limitando-se a afirmar a existência de jurisprudência \"pacífica\".\n",
+  "tokens_in": 353,
+  "tokens_out": 706,
+  "latency_ms": 19328,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "8b38ca599452d2e49c750ce4e1dafe3cce27d7e30d218309e78bf3491a9eed56",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-011",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T02:09:49Z",
+  "prompt_sha": "0bb468a82e3806412b782c7a6eb8b917f49bedfb81b3d537900aa9fbdba761b1",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Artigo 611-B da CLT:** Este artigo trata das normas relativas ao banco de horas, permitindo a compensação de jornada e/ou salário em períodos semestrais ou anuais. No entanto, o dispositivo não autoriza expressamente a renúncia ao adicional de horas extras.\n\n- **Artigo 7º, XVII da Constituição Federal:** Garante aos trabalhadores o direito à remuneração do trabalho extraordinário superior à do normal, além de outros direitos e garantias fundamentais.\n\n**Interpretação no Caso Concreto:**\n\nA cláusula em questão estabelece que os trabalhadores renunciem ao adicional de horas extras caso o banco de horas não seja compensado dentro do prazo. A validade dessa cláusula deve ser analisada à luz dos princípios constitucionais e da CLT.\n\nA jurisprudência do TST tem sido consistente em considerar nulas as renúncias ao adicional de horas extras, mesmo quando inseridas em convenções coletivas ou acordos individuais. A Súmula 331 do TST estabelece que \"é nula a cláusula de convenção ou acordo coletivo de trabalho que exclui o pagamento do adicional de horas extraordinárias\".\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é considerar a cláusula de renúncia ao adicional de horas extras como nula e inválida.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n**Artigos da CLT:**\n\n- **Artigo 611-B:** Embora permita o banco de horas, não autoriza expressamente a renúncia ao direito constitucional ao adicional de horas extras.\n\n**Constituição Federal:**\n\n- **Artigo 7º, XVII:** Assegura aos trabalhadores o direito à remuneração superior para as horas extraordinárias, reforçando que este é um direito individual e irrenunciável.\n\n**Jurisprudência do TST:**\n\n- **Súmula 331 do TST:** Declara a nulidade de cláusulas que excluem o pagamento do adicional de horas extraordinárias, mesmo quando inseridas em convenções coletivas ou acordos individuais.\n\n**Precedentes Constitucionais e Doutrina:**\n\n- A jurisprudência do Supremo Tribunal Federal (STF) também tem reforçado a natureza irrenunciável dos direitos fundamentais trabalhistas, incluindo o adicional de horas extras.\n\nPortanto, com base nos dispositivos legais mencionados e na jurisprudência consolidada, a cláusula que exige renúncia ao adicional de horas extras é nula por violar princípios constitucionais e normas trabalhistas. Os trabalhadores têm direito à remuneração do trabalho extraordinário conforme estabelecido no artigo 7º da Constituição Federal, independentemente das cláusulas contratuais que tentem renunciar a esse direito.",
+  "tokens_in": 321,
+  "tokens_out": 708,
+  "latency_ms": 39390,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

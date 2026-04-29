@@ -1,0 +1,27 @@
+{
+  "sha256": "9e37065a613455e6269dbbb75dfbc4f2d267f545820266e6795de113c0efe1fa",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-007",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T00:01:10Z",
+  "prompt_sha": "2c03cb68f103668260b4613de27731cfa0657d298f5e8f8f441eed46e4ed0161",
+  "response_text": "1. **ANÁLISE:**\n\n   - **validity_of_cct_annual_hour_bank_banking_sector**: Este predicado confirma a validade do banco de horas anual (12 meses) para o setor bancário, conforme estabelecido na CCT e alinhado com a jurisprudência do TST. No cenário apresentado, a CCT foi renovada adequadamente, indicando conformidade com este predicado.\n\n   - **stf_tema1046_binding_precedent_applied**: O Tema 1046 do STF estabelece que o banco de horas não pode exceder um ano e deve ser compensado no prazo. No cenário, a CCT prevê um banco de horas anual e as compensações foram realizadas dentro do prazo, demonstrando conformidade com este predicado.\n\n   - **hour_bank_with_cct_max_1_year**: Este predicado reforça que o banco de horas estabelecido por uma CCT não pode ultrapassar 12 meses. No caso em questão, a CCT prevê um banco de horas anual e foi renovada corretamente, cumprindo este requisito.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base nos predicados normativos aplicáveis, recomenda-se que o direito ao adicional de horas extras não seja reconhecido para as horas compensadas dentro do banco de horas anual previsto pela CCT. Isso ocorre porque a jurisprudência e os precedentes estabelecidos (TST-Ag-RR-868-65.2021 e Tema 1046/STF) permitem que o banco de horas, quando compensado no prazo estipulado, não gere adicional de horas extras.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Cumpridos**:\n     - *validity_of_cct_annual_hour_bank_banking_sector*: A CCT foi renovada e prevê um banco de horas anual, conforme permitido para o setor bancário.\n     - *stf_tema1046_binding_precedent_applied*: O banco de horas não excede 12 meses e as compensações foram realizadas no prazo estipulado.\n     - *hour_bank_with_cct_max_1_year*: A CCT prevê um banco de horas que respeita o limite máximo de 12 meses.\n\n   Nenhum dos predicados foi violado, já que todas as condições estabelecidas pela legislação e jurisprudência foram cumpridas no cenário apresentado.",
+  "tokens_in": 394,
+  "tokens_out": 559,
+  "latency_ms": 16139,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

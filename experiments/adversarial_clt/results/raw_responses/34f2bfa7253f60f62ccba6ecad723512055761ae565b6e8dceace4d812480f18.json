@@ -1,0 +1,30 @@
+{
+  "sha256": "34f2bfa7253f60f62ccba6ecad723512055761ae565b6e8dceace4d812480f18",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:30:12Z",
+  "prompt_sha": "0d6d211e2ba94d6b5ad507e54fb6e6c5213e18e400fd08657c709dda55070d6d",
+  "response_text": "**1. ANÁLISE**\n\na) **obligation_to_ground_decision_in_identified_ratio_decidendi**: O acórdão do TST em recurso de revista analisa a CCT bancária e fundamenta sua decisão com base na identificação da aplicação do Tema 1046/STF (ARE 1.121.633), demonstrando que o julgamento está amparado por uma ratio decidendi específica, ou seja, a premissa de compensação estabelecida pelo princípio da adequação setorial negociada. Portanto, este predicado é cumprido.\n\nb) **stf_tema1046_binding_precedent_applied**: O acórdão do TST explicitamente cita o ARE 1.121.633 (Tema 1046/STF) e analisa a CCT bancária em questão com base nessa premissa, aplicando-o ao caso concreto. Isso significa que o Tema 1046 foi aplicado como precedente vinculante, cumprindo este predicado.\n\nc) **due_process_of_law**: O acórdão do TST analisa a CCT bancária com base em critérios específicos (requisitos do Tema 1046), o que demonstra um processo de análise fundamentada e transparente. Além disso, a decisão é expressamente fundamentada, o que atende ao princípio do devido processo legal, cumprindo este predicado.\n\n**2. DECISÃO RECOMENDADA**\n\nCom base nos predicados normativos aplicáveis e na análise realizada, recomenda-se manter a decisão do acórdão do TST em recurso de revista que considera válida a CCT bancária, pois atende aos critérios estabelecidos pelo Tema 1046/STF.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **Cumprido**: obligation_to_ground_decision_in_identified_ratio_decidendi\n- **Cumprido**: stf_tema1046_binding_precedent_applied\n- **Cumprido**: due_process_of_law",
+  "tokens_in": 417,
+  "tokens_out": 470,
+  "latency_ms": 8016,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

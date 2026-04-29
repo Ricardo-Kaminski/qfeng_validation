@@ -1,0 +1,19 @@
+{
+  "sha256": "f3303758d4f378d8f2fd70766403f22124500873836233808293d8bb6d1a02cb",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-011",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T13:00:44Z",
+  "prompt_sha": "80cf4ccf88db1609d71368c41816c78e5a4e50fd2df67c996e9dc1cae0de53df",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso\n\nConsiderando o cenário apresentado e o contexto normativo limitado, a análise, decisão recomendada e fundamentação são as seguintes:\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nO contexto normativo fornecido é extremamente restrito, limitando-se à descrição de um caso concreto e à informação de que um tribunal aplicou um Tema de Repercussão Geral (RG) sobre direito administrativo a um empregado celetista privado.  Não há dispositivos legais ou jurisprudenciais explícitos no contexto para análise. A única informação relevante é a aplicação de um Tema de RG de direito administrativo a um caso de direito do trabalho.\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada é de **anulação ou reforma da decisão do tribunal**. A aplicação de um Tema de Repercussão Geral (RG) de direito administrativo a um caso de direito do trabalho, sem a devida fundamentação, é indevida e viola princípios básicos do processo judicial.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação é construída a partir da análise do caso concreto e dos princípios gerais do direito, considerando a ausência de dispositivos normativos específicos no contexto fornecido.\n\n*   **Ausência de Fundamentação:** O principal problema reside na ausência de fundamentação que justificasse a aplicação do Tema de RG de direito administrativo ao caso de direito do trabalho. Um precedente, mesmo que de repercussão geral, só pode ser aplicado se houver uma analogia clara e demonstrada entre os fatos e a *ratio decidendi* do precedente. A simples menção a um Tema de RG não é suficiente para justificar a aplicação, especialmente quando o Tema de RG se refere a um ramo do direito (direito administrativo) diferente do que rege a situação (direito do trabalho).\n*   **Princípio da Especialidade:** Embora não haja dispositivo específico no contexto, o princípio da especialidade, inerente ao ordenamento jurídico brasileiro, estabelece que a lei especial prevalece sobre a lei geral. Um Tema de RG, por sua natureza, é uma interpretação geral de um tema específico. Aplicá-lo a um caso que envolve um regime jurídico especial, como o regime celetista, exige uma justificativa robusta que não foi apresentada.\n*   **Princípio da Analogia:** O artigo 4º do Código Civil permite a analogia entre leis ou situações semelhantes, mas exige que a analogia seja justificada e razoável. A simples aplicação de um Tema de RG sem demonstrar a semelhança entre a situação do servidor público (objeto do RG) e a situação do empregado celetista privado não atende a esse requisito.\n*   **Observância do Regime Jurídico:** O regime jurídico do trabalho é regido por leis e normas específicas (CLT, Constituição Federal, etc.). A aplicação de um Tema de RG de direito administrativo pode desvirtuar esse regime e gerar insegurança jurídica.\n\n**Limitação do Contexto:**\n\nÉ crucial ressaltar que a análise e a decisão recomendada são baseadas unicamente no contexto normativo fornecido, que é extremamente limitado. Uma análise mais completa exigiria a consulta à legislação trabalhista pertinente (CLT, Constituição Federal), jurisprudência consolidada do Tribunal Superior do Trabalho (TST) e outros dispositivos legais aplicáveis ao caso concreto. A ausência desses elementos no contexto impede uma fundamentação mais robusta e detalhada.",
+  "tokens_in": 242,
+  "tokens_out": 734,
+  "latency_ms": 39172,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "2c92337f211528f0a4b36ec7ea8828c36c92eaaa6757e0bcbc5c494dcc3ba39b",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T06:40:58Z",
+  "prompt_sha": "b0e517f5c3de26d42993b73cacfec552caf0add056217d63ec5525a4332d8ed9",
+  "response_text": "**ANÁLISE**\n\nNo cenário apresentado, a empresa de vigilância demitiu um empregado sem justa causa, o que significa que o empregado tem direito à indenização pelas horas trabalhadas. O dispositivo legal aplicável é o artigo 477 da CLT, que estabelece as regras para a rescisão do contrato de trabalho sem justa causa.\n\nO empregado também tinha um saldo positivo de 80 horas no banco de horas, conforme estabelecido pela CCT (Convenção Coletiva de Trabalho). O artigo 59 da CLT permite que as partes celebrem acordos coletivos para regular a jornada de trabalho e o banco de horas.\n\nNo entanto, o empregado reivindica que as horas do banco de horas não compensadas antes da rescisão devem ser pagas com adicional de 50%, o que é um direito previsto no artigo 59 da CLT. O dispositivo legal estabelece que as horas trabalhadas em excesso, após a compensação do banco de horas, têm direito ao adicional de 50% sobre o valor da hora normal.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que o empregado tenha direito à indenização pelas horas trabalhadas com adicional de 50%, conforme estabelecido no artigo 59 da CLT. A empresa deve pagar as horas do banco de horas não compensadas antes da rescisão como hora extra, com adicional de 50% sobre o valor da hora normal.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   Artigo 477 da CLT: \"A rescisão do contrato de trabalho sem justa causa, por iniciativa do empregador, implica a obrigação de pagar ao empregado as verbas ressalduas e o valor das horas trabalhadas até à data da rescisão, acrescidas do adicional de 50% sobre o valor da hora normal.\"\n*   Artigo 59 da CLT: \"As horas trabalhadas em excesso, após a compensação do banco de horas, têm direito ao adicional de 50% sobre o valor da hora normal.\"\n*   Súmula 438 do TST: \"O empregado tem direito à indenização pelas horas trabalhadas com adicional de 50%, conforme estabelecido no artigo 59 da CLT.\"\n\n**CONCLUSÃO**\n\nEm resumo, a decisão recomendada é que o empregado tenha direito à indenização pelas horas trabalhadas com adicional de 50%, conforme estabelecido no artigo 59 da CLT. A empresa deve pagar as horas do banco de horas não compensadas antes da rescisão como hora extra, com adicional de 50% sobre o valor da hora normal.",
+  "tokens_in": 297,
+  "tokens_out": 634,
+  "latency_ms": 20797,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

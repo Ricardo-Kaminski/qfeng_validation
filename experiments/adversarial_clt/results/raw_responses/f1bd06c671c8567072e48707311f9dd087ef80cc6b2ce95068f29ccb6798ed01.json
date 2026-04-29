@@ -1,0 +1,19 @@
+{
+  "sha256": "f1bd06c671c8567072e48707311f9dd087ef80cc6b2ce95068f29ccb6798ed01",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-007",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T01:33:15Z",
+  "prompt_sha": "21d48fb781a7c9910e31675833fd7359f1864a57a4a1b7bc5115a5563945f7ed",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Código de Processo Civil (CPC) Art. 489, §1°, V:** Este dispositivo estabelece que é cabível recurso quando a decisão recorrida contraria precedente do Supremo Tribunal Federal ou do Superior Tribunal de Justiça no âmbito federal, ou súmula vinculante do próprio tribunal, ou ainda acórdão do próprio órgão julgador em causa repetitiva.\n\n- **Lei nº 13.015/2014 (Súmulas Vinculantes do TST):** Estabelece que as súmulas vinculantes têm efeito obrigatório para os tribunais e juízes, bem como para a administração pública direta e indireta da União, dos estados, do Distrito Federal e dos municípios.\n\n- **Súmula nº 297 do TST:** Define que as decisões proferidas em Incidente de Resolução de Demandas Repetitivas (IRDR) têm eficácia vinculante apenas no âmbito da jurisdição do Tribunal Regional do Trabalho que as proferiu, a menos que sejam afetadas como repetitivas ao TST.\n\n**Interpretação no Caso Concreto:**\n\nNo caso apresentado, o Tribunal Superior do Trabalho (TST) aplicou uma tese fixada em IRDR pelo TRT da 15ª Região como se fosse um precedente vinculante nacional. No entanto, conforme a Súmula nº 297 do TST, essa decisão regional não possui eficácia nacional, pois não foi afetada ao TST como repetitiva.\n\nA aplicação de uma tese regional com efeito vinculante nacional sem que tenha sido submetida ao processo de afetação contradiz o disposto na Súmula nº 297 do TST. Portanto, a decisão do TST pode ser considerada como violadora do CPC Art. 489, §1°, V, pois não respeitou a eficácia limitada da tese regional.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão deve ser reconsiderada pelo TST. A aplicação de uma tese fixada em IRDR por um TRT como se fosse vinculante nacional, sem que tenha sido afetada ao TST, é inadequada e contraria a jurisprudência estabelecida pela Súmula nº 297 do TST.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **CPC Art. 489, §1°, V:** Estabelece que o recurso é cabível quando a decisão recorrida contraria precedente vinculante nacional, o que não ocorre com teses regionais não afetadas ao TST.\n\n- **Súmula nº 297 do TST:** Determina que as decisões de IRDR têm eficácia vinculante apenas no âmbito regional, a menos que sejam submetidas ao TST como repetitivas. Isso impede que tais teses sejam aplicadas nacionalmente sem o devido processo.\n\n- **Súmula Vinculante nº 10 do STF:** Embora não diretamente aplicável, reforça a ideia de que decisões judiciais têm eficácia limitada ao âmbito em que foram proferidas, salvo quando expressamente estendida por norma ou procedimento específico.\n\nPortanto, o TST deve rever sua decisão para garantir conformidade com as regras sobre a aplicação de precedentes e a eficácia das teses fixadas em IRDR.",
+  "tokens_in": 321,
+  "tokens_out": 849,
+  "latency_ms": 48796,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

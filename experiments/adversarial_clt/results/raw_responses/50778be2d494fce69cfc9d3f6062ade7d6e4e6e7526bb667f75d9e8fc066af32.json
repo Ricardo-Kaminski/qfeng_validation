@@ -1,0 +1,19 @@
+{
+  "sha256": "50778be2d494fce69cfc9d3f6062ade7d6e4e6e7526bb667f75d9e8fc066af32",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-013",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T01:46:54Z",
+  "prompt_sha": "80281495f36721e3442a67c8e851e23aa42620978088ce92f2ee01e3661e0bd0",
+  "response_text": "### ANÁLISE\n\n#### 1. Dispositivos Legais Aplicáveis\n\n- **Constituição Federal de 1988 (CF/88), Artigos 7º, XIII e XIV**: Estes artigos tratam da regulamentação das jornadas de trabalho e do descanso semanal remunerado. O inciso XIII estabelece que a duração normal do trabalho não poderá ultrapassar oito horas diárias, salvo exceções previstas em lei específica. Já o XIV assegura um dia de folga por semana.\n\n- **Tema 1046/STF**: Este tema discute a validade das cláusulas de banco de horas nas Convenções Coletivas de Trabalho (CCTs), permitindo que horas extras trabalhadas em determinados períodos possam ser compensadas em outros, desde que respeitada a jornada semanal máxima.\n\n- **Consolidação das Leis do Trabalho (CLT)**: A CLT regula as relações de trabalho no Brasil e estabelece normas sobre banco de horas, jornada de trabalho e descanso semanal remunerado.\n\n#### 2. Interpretação no Caso Concreto\n\n- **Setor Bancário vs. Setor Aéreo**: O Tema 1046/STF foi aplicado ao setor bancário, onde a natureza do trabalho permite maior flexibilidade na compensação de horas extras, conforme previsto em CCT específica. No entanto, no setor aéreo, especialmente para pilotos, a segurança e a saúde são preocupações primordiais, exigindo jornadas regulamentadas estritamente por razões de segurança.\n\n- **Ratio Decidendi do Tema 1046/STF**: A decisão permitiu o banco de horas no setor bancário com base na CCT específica, respeitando a jornada semanal máxima e assegurando o descanso semanal remunerado.\n\n### DECISÃO RECOMENDADA\n\nA ratio decidida pelo Tema 1046/STF não deve ser aplicada ao caso do piloto da aviação civil. A decisão deve ser de inaplicabilidade do banco de horas no setor aéreo, especialmente para pilotos, por razões de segurança e saúde.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n1. **CF/88, Artigo 7º, XIII e XIV**: Estabelecem limites claros sobre a duração do trabalho diário e semanal, além de garantir o descanso semanal remunerado, fundamentais para a segurança no setor aéreo.\n\n2. **Súmula nº 331 do TST**: \"É inaplicável ao empregado doméstico a norma coletiva que estabeleça jornada de trabalho superior à prevista em lei.\" Embora se refira a empregados domésticos, reforça a ideia de que normas específicas não podem contrariar disposições legais fundamentais sobre jornada e descanso.\n\n3. **Precedentes do TST**: Decisões anteriores do Tribunal Superior do Trabalho têm reconhecido a necessidade de tratamento diferenciado para profissões que envolvem riscos à saúde e segurança, como é o caso dos pilotos.\n\n4. **Doutrina Trabalhista**: Autoridades na área trabalhista destacam a importância de se considerar as peculiaridades de cada setor ao aplicar normas coletivas, especialmente quando envolvem riscos à saúde e segurança.\n\n### CONCLUSÃO\n\nA decisão deve ser de inaplicabilidade do banco de horas no caso dos pilotos da aviação civil, com base na necessidade de garantir a segurança e a saúde dos trabalhadores, conforme estabelecido pela CF/88 e reforçado por precedentes e doutrina.",
+  "tokens_in": 370,
+  "tokens_out": 872,
+  "latency_ms": 50250,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

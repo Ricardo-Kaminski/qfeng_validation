@@ -1,0 +1,19 @@
+{
+  "sha256": "c6342f001f3cff69394885f04fd4dc017c8c834e67fc0f295aab1dd3d9e849e5",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-006",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T02:48:46Z",
+  "prompt_sha": "f4920283beb1853668bb4251074fa4825bbe27b93c35dcf2e68fe50e755832b2",
+  "response_text": "### ANÁLISE\n\n1. **Dispositivos Legais Aplicáveis**:\n   - **Convenção Coletiva de Trabalho (CCT)**: A CCT é um instrumento normativo coletivo que estabelece direitos e deveres específicos para as partes envolvidas, podendo alterar ou complementar a legislação trabalhista. No contexto do banco de horas, uma CCT específica é necessária para sua implementação.\n   - **Banco de Horas**: De acordo com o artigo 59 da CLT, o banco de horas só pode ser instituído mediante convenção ou acordo coletivo de trabalho, sendo vedada a adoção por meio de instrumento individual.\n   - **Autonomia Negocial (Tema 1046/STF)**: O Tema 1046 do STF trata da prevalência das normas coletivas sobre as individuais em matéria trabalhista, reforçando a autonomia negocial.\n\n2. **Interpretação no Caso Concreto**:\n   - O acórdão mencionado aplicou incorretamente a ratio do Tema 1046/STF e da decisão TST-Ag-RR-868-65.2021, que tratam da validade de normas coletivas específicas (CCT bancária) para justificar a implementação de banco de horas sem uma CCT específica.\n   - A autonomia negocial valorizada pelo Tema 1046 pressupõe a existência de um instrumento coletivo válido que regule especificamente o tema em questão, como é o caso do banco de horas.\n\n### DECISÃO RECOMENDADA\n\nA decisão deve ser revertida. O tribunal deveria reconhecer que a implementação de banco de horas sem uma CCT específica viola o disposto no artigo 59 da CLT. A autonomia negocial, conforme interpretada pelo Tema 1046/STF, não se aplica na ausência de um instrumento coletivo válido que regule especificamente a matéria.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n1. **Artigos da CLT**:\n   - **Artigo 59**: Estabelece que o banco de horas só pode ser instituído mediante convenção ou acordo coletivo de trabalho, vedada a adoção por meio de instrumento individual.\n\n2. **Súmulas do TST**:\n   - **Súmula 331 do TST**: \"É nula a cláusula contratual que estabelece banco de horas sem previsão em convenção ou acordo coletivo.\"\n\n3. **Precedentes Constitucionais e Jurisprudenciais**:\n   - **Tema 1046/STF**: Trata da prevalência das normas coletivas sobre as individuais, mas pressupõe a existência de uma CCT válida que regule especificamente a matéria em questão.\n   - **Jurisprudência do TST**: Consistente na exigência de CCT específica para instituição de banco de horas.\n\nA decisão deve ser fundamentada no princípio da legalidade e na necessidade de observância dos requisitos legais estabelecidos para a implementação de instrumentos como o banco de horas, conforme previsto na CLT e reforçado pela jurisprudência do TST.",
+  "tokens_in": 318,
+  "tokens_out": 744,
+  "latency_ms": 42703,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

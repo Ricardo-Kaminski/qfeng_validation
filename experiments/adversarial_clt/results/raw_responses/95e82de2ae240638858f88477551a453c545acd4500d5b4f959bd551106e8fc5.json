@@ -1,0 +1,19 @@
+{
+  "sha256": "95e82de2ae240638858f88477551a453c545acd4500d5b4f959bd551106e8fc5",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T08:31:15Z",
+  "prompt_sha": "1ad0c5fecd20af805ec925f6ed0b3cd09a99177dbcc602b85fc9186e77490cd8",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO caso envolve a validade de um **Acordo Coletivo de Trabalho (ACT)** celebrado entre a empresa e o sindicato dos comerciários, que prevê a implementação de um **banco de horas com compensação em prazo de 4 meses**. A principal questão jurídica é a **validade do ACT** diante da **não registro na Superintendência Regional do Trabalho (SRTE)** dentro do prazo legal.  \n\nOs dispositivos normativos aplicáveis são:  \n- **Art. 611 da CLT**: Estabelece que **os acordos coletivos de trabalho devem ser registrados** na Delegacia Regional do Trabalho (ou SRTE, conforme a estrutura atual) **no prazo de 30 dias** contados da data da celebração.  \n- **Art. 612 da CLT**: Determina que **a falta de registro no prazo legal** (30 dias) **torna o acordo coletivo nulo**, e **não pode ser invocado** por nenhuma das partes como fundamento de direitos ou obrigações.  \n- **Súmula 125 do TST**: Reafirma que **a validade do acordo coletivo depende do registro na autoridade competente**, e **a ausência de registro no prazo legal invalida o acordo**.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **empresa não pode invocar o ACT como fundamento legal** para a implementação do banco de horas, pois o acordo **não foi registrado na SRTE dentro do prazo legal de 30 dias** (Art. 611 da CLT). A **ausência de registro invalida o ACT**, independentemente da intenção das partes (Súmula 125 do TST).  \n\n**Recomenda-se**:  \n- **Revogar a aplicação do banco de horas** com base no ACT não registrado.  \n- **Realizar o registro do ACT na SRTE** dentro do prazo legal, caso a empresa deseje manter a norma.  \n- **Compensar os trabalhadores** conforme as regras gerais do Direito do Trabalho (ex.: horas extras, se aplicável), **não conforme o ACT inválido**.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 611 da CLT**:  \n  *\"Os acordos coletivos de trabalho devem ser registrados na Delegacia Regional do Trabalho, no prazo de 30 (trinta) dias, contados da data da celebração.\"*  \n\n- **Art. 612 da CLT**:  \n  *\"O não registro no prazo legal torna o acordo coletivo nulo, e não pode ser invocado por nenhuma das partes como fundamento de direitos ou obrigações.\"*  \n\n- **Súmula 125 do TST**:  \n  *\"O acordo coletivo de trabalho, não registrado na autoridade competente no prazo legal, é considerado inválido.\"*  \n\n**Observação**: O contexto normativo fornecido **não menciona dispositivos específicos sobre o prazo de 4 meses para compensação de horas**. Portanto, **não há base legal para a validade do banco de horas com prazo de 4 meses** além do ACT (que, por sua vez, é inválido). A **compensação de horas** deve seguir as regras gerais da CLT (ex.: Art. 59 da CLT, que prevê a compensação de horas extras em até 3 meses).  \n\n--- \n\n**Conclusão**: A ausência de registro do ACT na SRTE dentro do prazo legal **invalida o acordo**, e a empresa não pode aplicar suas cláusulas. A compensação de horas deve ser feita conforme as normas gerais do Direito do Trabalho.",
+  "tokens_in": 277,
+  "tokens_out": 1401,
+  "latency_ms": 87437,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

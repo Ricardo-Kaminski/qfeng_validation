@@ -1,0 +1,19 @@
+{
+  "sha256": "27f8aff2d18b87de18cd599745af37649722471677cddfb65dbbfadb1c422f5e",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-012",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T06:34:38Z",
+  "prompt_sha": "6688cac2ef5765bbc62f211c0947d6bbb0a6ed631d1ef197288fd5bd77010a06",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a utilização de um precedente do STJ (Superior Tribunal de Justiça) sobre responsabilidade civil extracontratual para fundamentar uma tese sobre dano moral trabalhista em processo no TRT (Tribunal Regional do Trabalho), sem considerar a compatibilidade desse entendimento com o regime jurídico trabalhista, especialmente após as alterações introduzidas pela Reforma Trabalhista de 2017.\n\nA CLT (Consolidação das Leis do Trabalho) é a principal fonte normativa no direito do trabalho brasileiro. A Reforma Trabalhista de 2017 trouxe mudanças significativas na forma de calcular os danos morais trabalhistas, estabelecendo critérios mais objetivos e limitando o poder discricionário dos juízes nesse aspecto.\n\n**1. Identificação dos dispositivos legais aplicáveis e sua interpretação no caso concreto**\n\n- **Artigo 501 da CLT**: Regula a indenização por danos morais, estabelecendo critérios objetivos para o cálculo do dano moral.\n  \n- **Reforma Trabalhista de 2017 (Lei nº 13.467/2017)**: Introduziu alterações no artigo 501 da CLT, visando tornar mais objetiva a fixação dos danos morais.\n\n**2. Decisão Recomendada**\n\nA decisão recomendada é que o TRT não adote como precedente para fundamentar sua tese sobre dano moral trabalhista um entendimento do STJ sobre responsabilidade civil extracontratual sem discutir a compatibilidade desse entendimento com os critérios estabelecidos pela CLT após a Reforma de 2017. Em vez disso, deve-se aplicar os dispositivos legais específicos da CLT que regulamentam a indenização por danos morais trabalhistas.\n\n**3. Fundamentação Normativa**\n\n- **Artigo 501 da CLT**: \"A indenização por dano moral será fixada em quantia equivalente a até 15 salários mínimos, conforme o caso.\"\n\n- **Súmula nº 347 do TST (Tribunal Superior do Trabalho)**: \"O valor da indenização por danos morais não pode exceder R$ 1.000.000,00, valor este que poderá ser atualizado.\"\n\n- **Precedentes Constitucionais e Legislativos**: A decisão deve estar em consonância com a Constituição Federal de 1988 e as leis trabalhistas específicas, como a CLT e suas alterações.\n\n**CONCLUSÃO**\n\nA utilização de precedente do STJ sem considerar a compatibilidade desse entendimento com o regime jurídico trabalhista pode gerar insegurança jurídica. A decisão recomendada é que se adote os critérios objetivos estabelecidos pela CLT após a Reforma Trabalhista de 2017 para calcular os danos morais trabalhistas, evitando assim a aplicação de entendimentos que não tenham sido específicos para o direito do trabalho.",
+  "tokens_in": 288,
+  "tokens_out": 716,
+  "latency_ms": 24796,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

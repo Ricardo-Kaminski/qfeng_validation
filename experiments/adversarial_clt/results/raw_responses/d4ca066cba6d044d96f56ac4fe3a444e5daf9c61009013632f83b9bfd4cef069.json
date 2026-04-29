@@ -1,0 +1,19 @@
+{
+  "sha256": "d4ca066cba6d044d96f56ac4fe3a444e5daf9c61009013632f83b9bfd4cef069",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-013",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T11:30:02Z",
+  "prompt_sha": "f5497ee6a7892e951be5a3f450a9283428336ff41f3cb0f338c8cc849b031335",
+  "response_text": "### 1. ANÁLISE:\n\nNo cenário apresentado, o Acórdão do TST analisa um recurso de revista envolvendo a validade de banco de horas em uma CCT (Convenção Coletiva de Trabalho) no setor da aviação civil, utilizando como referência o julgado TST-Ag-RR-868-65.2021.5.13.0030. A análise se concentra na ratio decidendi do Tema 1046/STF, que trata da validade de banco de horas em CCTs no setor bancário.\n\nOs dispositivos normativos relevantes mencionados são:\n\n- **CF/88 Art. 7°, XIII e XIV**: Estes artigos tratam das condições de trabalho, incluindo limitações ao trabalho noturno, periculosidade, insalubridade, além da proibição do trabalho aos domingos e feriados para os empregados que não optarem por trabalhar nestas datas.\n\n### 2. DECISÃO RECOMENDADA:\n\nA decisão recomendada é manter a inaplicabilidade da ratio decidida no Tema 1046/STF ao caso concreto do setor aéreo, diferentemente do setor bancário. Isso porque as peculiaridades do trabalho de pilotos na aviação civil justificam uma abordagem distinta em relação à aplicação das normas sobre banco de horas.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA:\n\n- **CF/88 Art. 7°, XIII e XIV**: Estes artigos são fundamentais para a análise, pois estabelecem limitações específicas ao trabalho noturno, perigoso ou insalubre, além de regras sobre o descanso aos domingos e feriados. No contexto da aviação civil, essas normas podem ser interpretadas como exigindo tratamento diferenciado para pilotos em relação a outros setores.\n\nA decisão do TST se baseia na distinção fática entre os setores bancário e aéreo, reconhecendo que as condições de trabalho no setor da aviação civil possuem características únicas que justificam uma aplicação diferenciada das normas sobre banco de horas. A análise considera que a aplicação direta do Tema 1046/STF ao setor aéreo não respeitaria as peculiaridades e exigências específicas desse trabalho, conforme estabelecido nos artigos da Constituição Federal mencionados.\n\nPortanto, a fundamentação normativa apoia a decisão de que a ratio do Tema 1046/STF é inaplicável ao caso concreto, respeitando as particularidades do setor aéreo em relação às condições de trabalho e aos direitos dos trabalhadores.",
+  "tokens_in": 361,
+  "tokens_out": 623,
+  "latency_ms": 35875,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,27 @@
+{
+  "sha256": "ab35a82c643054dd6b6322993be13ff1b1e958e256db0cdc0c1d80b5883da266",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-006",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T00:00:21Z",
+  "prompt_sha": "3e437b832fa4f6d03b11808230dc954645683f832bd9e255f99b486a83e0744e",
+  "response_text": "1. **ANÁLISE:**\n\n   - **Predicado: hour_bank_with_cct_max_1_year**\n     - Este predicado estabelece que o banco de horas, quando previsto em uma Convenção Coletiva de Trabalho (CCT), deve ter um prazo máximo de compensação de até 12 meses. No cenário apresentado, a CCT do setor de varejo prevê um banco de horas com compensação em até 12 meses, o que está dentro do limite estabelecido pelo predicado normativo. Portanto, este predicado é cumprido.\n\n   - **Predicado: working_hours_negotiable_by_cct**\n     - Este predicado permite que a jornada de trabalho e suas condições possam ser negociadas por meio da CCT. No cenário, as partes (empresa e trabalhadores) negociaram um banco de horas com compensação em até 12 meses, além de acordarem sobre a forma de compensação das horas extras (folga nas semanas de baixo movimento). Isso demonstra que as condições de trabalho foram ajustadas conforme permitido pela CCT. Portanto, este predicado também é cumprido.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base nos predicados normativos aplicáveis e na análise do cenário, a decisão recomendada é que o acordo estabelecido entre a empresa e os trabalhadores está em conformidade com as normas previstas pela CLT e jurisprudência do TST. A CCT foi utilizada para negociar condições de trabalho específicas, incluindo um banco de horas com prazo máximo de compensação de 12 meses, o que é permitido. Além disso, todas as compensações ocorreram dentro do prazo estabelecido e foram acompanhadas por extratos mensais, garantindo transparência e cumprimento das obrigações contratuais.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Cumpriu:** \n     - hour_bank_with_cct_max_1_year\n       - O banco de horas foi estabelecido com um prazo máximo de 12 meses, conforme permitido pela norma.\n     \n     - working_hours_negotiable_by_cct\n       - As condições de trabalho foram negociadas e ajustadas por meio da CCT, respeitando a flexibilidade permitida.\n\n   Não há violações dos predicados listados no cenário apresentado.",
+  "tokens_in": 379,
+  "tokens_out": 542,
+  "latency_ms": 15656,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

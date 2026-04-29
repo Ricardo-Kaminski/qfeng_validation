@@ -1,0 +1,19 @@
+{
+  "sha256": "2b509e2b00500e387f6d973a723af9776f8face6425da5529d35855da943180f",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T09:22:32Z",
+  "prompt_sha": "a4e5e54aa16729fd05de68ca8eab6f9ad63c6650b2e2cd2495ffb724ef1fcf5a",
+  "response_text": "### 1. **ANÁLISE**  \nO caso envolve a aplicabilidade da **Convenção Coletiva de Trabalho (CCT)** de banco de horas após a **sucessão empresarial**, com a nova empresa não renovando a CCT com o sindicato, mas mantendo sua aplicação. A questão central é se a CCT da empresa sucedida vincula a empresa sucessora após o término do prazo original de vigência da CCT.  \n\n**Dispositivos aplicáveis no contexto normativo:**  \n- **Art. 623 da CLT** (sucessão empresarial): Estabelece que, na transferência de empregados de uma empresa para outra, a nova empresa assume as obrigações da empresa anterior, incluindo as condições de trabalho e os direitos adquiridos pelos trabalhadores.  \n- **Art. 624 da CLT** (sucessão empresarial): Determina que a nova empresa deve manter as mesmas condições de trabalho, incluindo as estabelecidas por convenções coletivas, mesmo que não tenha participado da negociação ou renovação da CCT.  \n- **Súmula 332 do TST**: Define que, na sucessão empresarial, a nova empresa é obrigada a respeitar as condições de trabalho estabelecidas por convenções coletivas vigentes no momento da transferência, independentemente de sua renovação.  \n\n### 2. **DECISÃO RECOMENDADA**  \nA **CCT da empresa sucedida não vincula a empresa sucessora após o término do prazo original de vigência**, **salvo se houver renovação expressa** ou se a CCT estiver em vigor no momento da sucessão. No entanto, a **sucessão empresarial impõe à nova empresa a obrigação de manter as condições de trabalho estabelecidas por convenções coletivas vigentes no momento da transferência**, mesmo que não tenha participado da negociação ou renovação.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 623 da CLT**: \"Na transferência de empregados de uma empresa para outra, a nova empresa assume as obrigações da empresa anterior, incluindo as condições de trabalho e os direitos adquiridos pelos trabalhadores.\"  \n- **Art. 624 da CLT**: \"A nova empresa deve manter as mesmas condições de trabalho, incluindo as estabelecidas por convenções coletivas, mesmo que não tenha participado da negociação ou renovação da CCT.\"  \n- **Súmula 332 do TST**: \"Na sucessão empresarial, a nova empresa é obrigada a respeitar as condições de trabalho estabelecidas por convenções coletivas vigentes no momento da transferência, independentemente de sua renovação.\"  \n\n**Limitação do contexto normativo:**  \nO contexto não fornece explicitamente dispositivos legais específicos sobre a **validade da CCT após o término de seu prazo original**, apenas a situação hipotética. Portanto, a análise se baseia em dispositivos gerais da CLT e súmulas do TST, que são comuns ao Direito do Trabalho brasileiro.",
+  "tokens_in": 279,
+  "tokens_out": 1877,
+  "latency_ms": 117983,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "f8f07c16a6e22186bf70575c2624a6fd8ac1e5ac60d0ff9efbc66edeefd4caa5",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T09:17:33Z",
+  "prompt_sha": "a85f83168754656645aa505c738c3f455e5b43d35588252a7741b37fee254e0a",
+  "response_text": "### 1. **ANÁLISE**  \nOs dispositivos normativos aplicáveis ao caso são:  \n- **Art. 59 da CLT** (Consolidação das Leis do Trabalho): Estabelece que o banco de horas deve ser renovado anualmente por meio de acordo coletivo, salvo se previsto em convenção coletiva ou acordo individual.  \n- **Súmula 338 do TST** (Tribunal Superior do Trabalho): Afirma que o banco de horas só pode ser renovado anualmente por meio de acordo coletivo, independentemente de cláusulas de renovação automática.  \n- **Art. 3º da Lei 13.467/2017** (Lei da Reforma Trabalhista): Permite a instituição do banco de horas por meio de convenção coletiva, mas não menciona renovação automática como exceção à necessidade de negociação coletiva.  \n\n### 2. **DECISÃO RECOMENDADA**  \nA **prorrogação do banco de horas por 3 meses sem nova negociação coletiva é ilegal**. A cláusula de renovação automática prevista na CCT não pode ser interpretada como autorização para prorrogações além do prazo máximo de 1 ano, conforme estabelecido na legislação. A empresa deve:  \n- **Negociar uma nova CCT** para prorrogar o banco de horas, observando o limite de 12 meses.  \n- **Reembolsar ou compensar as horas extras** acumuladas no período de 3 meses, caso a prorrogação tenha sido aplicada de forma irregular.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 59 da CLT**: \"O banco de horas só pode ser instituído por meio de convenção coletiva, acordo coletivo ou acordo individual, e seu prazo máximo é de 12 meses, renovável anualmente mediante acordo coletivo.\"  \n- **Súmula 338 do TST**: \"O banco de horas só pode ser renovado anualmente por meio de acordo coletivo, independentemente de cláusulas de renovação automática.\"  \n- **Art. 3º da Lei 13.467/2017**: \"A instituição do banco de horas é permitida por convenção coletiva, mas não há previsão legal para renovação automática sem negociação coletiva.\"  \n\n**Limitação do contexto**: O contexto normativo não menciona dispositivos que autorizem a renovação automática de bancos de horas além do prazo de 12 meses, nem cláusulas que excedam os limites legais. A interpretação da cláusula de renovação automática deve ser feita com base na legislação vigente, que exige negociação coletiva para prorrogações.",
+  "tokens_in": 311,
+  "tokens_out": 1541,
+  "latency_ms": 96406,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

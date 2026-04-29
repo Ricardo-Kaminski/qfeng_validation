@@ -1,0 +1,30 @@
+{
+  "sha256": "f168237fca55480760a0523e3790727fa94b7c8c886d6a34b0022ff732bb7207",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T00:06:34Z",
+  "prompt_sha": "2894b7676eac7e9e2cb55e15eed63978b4e2d5820472a6bee747c60e44ab8c8e",
+  "response_text": "1. **ANÁLISE:**\n\n   - **Obligation to ground decision in identified ratio decidendi:** Este predicado normativo está diretamente aplicável ao caso, pois o TRT identificou a ratio da Súmula TST 60 como sendo que o regime de revezamento noturno integra o adicional à remuneração. A decisão foi fundamentada na análise dessa ratio, demonstrando claramente que o empregado em regime 12x36 com períodos noturnos fixos se enquadra nas condições estabelecidas pela Súmula. Além disso, a distinção entre casos de turno fixo não noturno e o regime de revezamento foi explicitada, reforçando que a decisão está bem fundamentada na ratio decidendi da norma aplicável.\n\n   - **Due process of law:** Este predicado é cumprido no cenário descrito. O TRT seguiu um processo justo ao analisar o caso concreto, identificando e aplicando corretamente a Súmula TST 60 à situação do empregado. A decisão foi tomada após uma análise detalhada dos fatos, com base na legislação pertinente e na jurisprudência consolidada, garantindo que o direito do trabalhador foi considerado de forma justa e equitativa.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base nos predicados normativos aplicáveis, a decisão recomendada é que o TRT mantenha sua posição de conceder o adicional noturno ao empregado em regime 12x36 com períodos noturnos fixos. A fundamentação está correta e alinhada à ratio decidendi da Súmula TST 60, garantindo que a decisão foi tomada conforme os princípios do devido processo legal.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Obligation to ground decision in identified ratio decidendi:** Cumprido. A decisão está bem fundamentada na identificação e aplicação correta da ratio decidendi da Súmula TST 60.\n\n   - **Due process of law:** Cumprido. O processo seguido pelo TRT foi justo, com análise detalhada dos fatos e aplicação adequada das normas jurídicas pertinentes.",
+  "tokens_in": 389,
+  "tokens_out": 526,
+  "latency_ms": 15218,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

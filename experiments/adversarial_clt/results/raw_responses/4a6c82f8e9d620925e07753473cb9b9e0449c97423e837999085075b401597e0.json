@@ -1,0 +1,19 @@
+{
+  "sha256": "4a6c82f8e9d620925e07753473cb9b9e0449c97423e837999085075b401597e0",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T12:31:21Z",
+  "prompt_sha": "78faf043ffafa13b62c94bafbb4c2e0135abf258fd4b2cf3a75e7132cf2b38ec",
+  "response_text": "### 1. ANÁLISE\n\nNo cenário apresentado, a empresa e o sindicato celebraram uma Convenção Coletiva de Trabalho (CCT) que estabeleceu um banco de horas com as seguintes características:\n\n- **Duração do Banco de Horas:** 6 meses.\n- **Acúmulo Máximo Mensal:** Até 60 horas por mês.\n- **Extrato Mensal:** A entrega mensal dos extratos é uma prática que garante transparência e controle sobre o acúmulo e compensação das horas.\n- **Cláusula de Conversão em Adicional:** Saldo não compensado após os 6 meses será convertido em adicional de 50%.\n\nApós 5 meses, todas as horas foram compensadas adequadamente com folgas previamente comunicadas. A CCT foi registrada na Superintendência Regional do Trabalho e Emprego (SRTE), e todos os trabalhadores receberam cópias da mesma, sem haver contestações sindicais ou individuais.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é que a empresa continue cumprindo as disposições estabelecidas na CCT conforme descrito no cenário:\n\n- **Compensação Adequada:** Como todas as horas foram compensadas dentro do período de 6 meses, não há necessidade de aplicar a cláusula de conversão em adicional de 50%.\n- **Transparência e Comunicação:** Manter a prática de entrega mensal dos extratos e comunicação prévia das folgas é essencial para garantir conformidade com a CCT.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\nOs dispositivos normativos aplicáveis ao caso são:\n\n- **Consolidação das Leis do Trabalho (CLT):**\n  - **Artigo 59:** Permite o acúmulo de horas extras mediante acordo ou convenção coletiva, desde que não exceda a duração máxima estabelecida.\n  - **Súmula 331 do TST:** Estabelece que é lícito o banco de horas com compensação em folgas, desde que observadas as normas da CCT e demais legislações aplicáveis.\n\n- **Convenção Coletiva de Trabalho (CCT):** A própria CCT estipula os termos do banco de horas, incluindo duração, acúmulo máximo, compensação, e cláusula de conversão em adicional. Como não há contestações sindicais ou individuais, a empresa deve seguir as disposições da CCT.\n\n### Limitações\n\nO contexto normativo fornecido é suficiente para analisar o caso conforme os dispositivos mencionados acima. Não há necessidade de extrapolação ou aplicação de normas adicionais fora do que foi estabelecido na CLT e na própria CCT, considerando a ausência de contestações.\n\nAssim, a empresa deve continuar operando dentro dos parâmetros da CCT já registrada e comunicada aos trabalhadores.",
+  "tokens_in": 302,
+  "tokens_out": 686,
+  "latency_ms": 39188,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

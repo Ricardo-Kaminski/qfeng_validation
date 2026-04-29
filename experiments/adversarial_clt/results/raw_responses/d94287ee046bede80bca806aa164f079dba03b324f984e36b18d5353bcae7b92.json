@@ -1,0 +1,19 @@
+{
+  "sha256": "d94287ee046bede80bca806aa164f079dba03b324f984e36b18d5353bcae7b92",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T12:39:30Z",
+  "prompt_sha": "26d12e151509fbe11099db792d4aca8584a935f407834eb1a45392c3cbb25402",
+  "response_text": "## Análise Jurídico-Trabalhista: Nulidade do Acórdão do TST\n\nCom base no contexto normativo fornecido, apresento a análise, decisão recomendada e fundamentação:\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nO caso em questão envolve a alegação de nulidade de um acórdão proferido pelo Tribunal Superior do Trabalho (TST) em um recurso de revista de trabalhador da aviação civil. A alegação de nulidade se baseia na forma como o acórdão fundamentou sua decisão, especificamente na citação de uma Súmula inexistente. Os dispositivos normativos aplicáveis, conforme o contexto, são:\n\n*   **Art. 489, §1°, V, do Código de Processo Civil (CPC):** Este dispositivo é crucial para a análise, pois estabelece um requisito específico para a fundamentação das decisões judiciais. Ele exige que, ao fundamentar uma decisão em jurisprudência, o julgador deve indicar o dispositivo legal ou o precedente qualificado, com a devida identificação do julgado de fato.\n*   **Súmula 312 do TST (supostamente citada):** Embora a Súmula 312 do TST não exista na base jurisprudencial oficial, ela é mencionada no acórdão como fundamento para a decisão. A referência a uma súmula inexistente é o ponto central da alegação de nulidade.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se o **provimento do pedido de nulidade** do acórdão do TST.\n\n**Por quê:** A fundamentação de uma decisão judicial em um precedente inexistente viola diretamente o princípio do devido processo legal e a garantia do contraditório. O Art. 489, §1°, V, do CPC impõe a obrgação de identificar precisamente o precedente utilizado, permitindo que as partes verifiquem sua validade e pertinência. A citação de uma Súmula inexistente impede essa verificação, tornando a fundamentação insustentável e, portanto, passível de nulidade. A parte prejudicada não teve a oportunidade de se manifestar sobre um precedente que, na realidade, não existe, o que compromete a lisura do processo.\n\n**3. FUNDAMENTAÇÃO NORMATIVA:**\n\n*   **Art. 489, §1°, V, do CPC:** \"O acórdão deverá conter a fundamentação suficiente para a solução da controvérsia, indicando a base jurídica do julgado, com a citação do dispositivo legal ou do precedente qualificado que serviu de fundamento à decisão.\"\n*   **Súmula 312 do TST (referência no acórdão):** A própria menção à Súmula 312 do TST, quando esta não existe na base jurisprudencial oficial, demonstra a incorreção da fundamentação e a violação do Art. 489, §1°, V, do CPC. A inexistência da súmula impede a verificação da base jurídica da decisão, tornando-a carente de fundamentação adequada.\n\n**Limitações:**\n\nO contexto normativo fornecido é limitado. Não há outras normas que possam ser diretamente aplicadas ao caso, além do Art. 489, §1°, V, do CPC e da referência à Súmula 312 do TST. Uma análise mais aprofundada exigiria a consulta a outras normas processuais e trabalhistas, bem como a jurisprudência consolidada sobre a aplicação do Art. 489, §1°, V, do CPC em casos semelhantes.\n",
+  "tokens_in": 315,
+  "tokens_out": 795,
+  "latency_ms": 42812,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

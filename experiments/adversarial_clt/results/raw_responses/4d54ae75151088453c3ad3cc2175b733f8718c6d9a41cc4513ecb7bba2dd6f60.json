@@ -1,0 +1,29 @@
+{
+  "sha256": "4d54ae75151088453c3ad3cc2175b733f8718c6d9a41cc4513ecb7bba2dd6f60",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-010",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T00:47:03Z",
+  "prompt_sha": "70c99fcc6dafa8ce31ce53bbe06b00e3241aab50f61531be099540706399dce4",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas\n\nCom base nos predicados normativos fornecidos e no cenário apresentado, segue a análise, decisão recomendada e identificação de cumprimento/violação dos predicados:\n\n**1. ANÁLISE:**\n\n*   **`semester_hour_bank_requires_cct_or_act` (O banco de horas requer CCT ou ACT):** Este predicado estabelece a obrigatoriedade de regulamentação do banco de horas por meio de Convenção Coletiva de Trabalho (CCT) ou Acordo Coletivo de Trabalho (ACT). No caso, a empresa firmou um ACT com o sindicato dos trabalhadores em informática, o que **atende** a este predicado. A ACT, por estar devidamente registrada, possui validade jurídica para regular as condições do banco de horas.\n\n*   **`hour_bank_without_cct_max_6_months` (Banco de horas sem CCT/ACT tem prazo máximo de 6 meses):** Este predicado impõe um limite máximo de 6 meses para a existência de um banco de horas quando não há regulamentação por CCT ou ACT.  Embora este predicado estabeleça um limite, ele é **iraplicável** ao caso em tela, pois a empresa possui ACT que regulamenta o banco de horas. O prazo estabelecido no ACT (5 meses) prevalece sobre o limite geral de 6 meses.\n\n*   **`maximum_daily_working_hours_8h` (Horário máximo diário de trabalho é 8h):** Este predicado define o limite máximo legal para a jornada diária de trabalho. O cenário informa que não há horas extras acima de 2h/dia.  Embora o banco de horas permita a flutuação da jornada, a limitação de 2h de horas extras diárias **garante** que a jornada diária não ultrapasse o limite de 8 horas, atendendo a este predicado.\n\n**2. DECISÃO RECOMENDADA:**\n\nA prática da empresa, conforme descrita no cenário, **está em conformidade** com a legislação e a jurisprudência do TST, especialmente considerando a existência de um ACT devidamente registrado que regulamenta o banco de horas. A empresa deve continuar a seguir as disposições do ACT, garantindo:\n\n*   A compensação mensal dos saldos do banco de horas.\n*   A limitação do acúmulo a 40h mensais.\n*   O prazo máximo de 5 meses para a compensação.\n*   A informação mensal dos saldos aos trabalhadores.\n*   A limitação das horas extras a 2h diárias.\n\nÉ recomendável que a empresa mantenha a documentação do ACT e dos extratos do banco de horas organizada, para comprovar a conformidade com a legislação em caso de fiscalização ou questionamento judicial.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **`semester_hour_bank_requires_cct_or_act`:** **Conformidade** (Atendido pela ACT)\n*   **`hour_bank_without_cct_max_6_months`:** **Iraplicável** (Existência de ACT)\n*   **`maximum_daily_working_hours_8h`:** **Conformidade** (Limitação de horas extras diárias)\n",
+  "tokens_in": 353,
+  "tokens_out": 740,
+  "latency_ms": 20453,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

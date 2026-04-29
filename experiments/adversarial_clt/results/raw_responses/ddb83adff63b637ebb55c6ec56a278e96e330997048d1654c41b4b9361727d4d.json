@@ -1,0 +1,19 @@
+{
+  "sha256": "ddb83adff63b637ebb55c6ec56a278e96e330997048d1654c41b4b9361727d4d",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T20:13:17Z",
+  "prompt_sha": "5ea5a4ec4b7a213278e903919d216504e93002c7ed7cad9209cdd623ae666231",
+  "response_text": "**ANÁLISE**\n\nO caso apresentado envolve a implementação de um banco de horas em uma empresa têxtil por meio de acordo individual por escrito com cada empregado. A empresa sustenta que o acordo por escrito supre a necessidade de negociação coletiva para a implementação do banco de horas semestral, enquanto os empregados reclamam da falta de participação dos sindicatos patronal e trabalhador em qualquer acordo coletivo.\n\n**DISPOSITIVOS APLICÁVEIS**\n\nOs dispositivos aplicáveis nesse contexto são:\n\n- **Art. 611-A da CLT**: Este artigo trata sobre a compensação de horas extras, mas não especifica que o banco de horas deve ser negociado apenas por meio de acordo coletivo.\n\n- **Art. 611-B da CLT**: Especificamente trata do banco de horas e permite sua adoção mediante negociação coletiva ou acordo individual entre empregador e empregado, desde que respeitados os limites estabelecidos pela legislação trabalhista.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando a existência de dispositivos legais que permitem a adoção do banco de horas por meio de acordo individual ou coletivo, e não há dispositivo legal que exija necessariamente a negociação coletiva para sua implementação, a decisão recomendada seria:\n\n- **Validar o Acordo Individual**: Considerando que o art. 611-B da CLT permite a adoção do banco de horas por meio de acordo individual entre empregador e empregado, desde que respeitados os limites estabelecidos pela legislação trabalhista, e não há dispositivo legal que exija a negociação coletiva para sua implementação.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n- **Art. 611-B da CLT**: \"O banco de horas poderá ser estabelecido por acordo individual entre empregador e empregado, desde que respeitados os limites estabelecidos pela legislação trabalhista.\"\n\n**LIMITAÇÕES DO CONTEXTO**\n\n- Não há dispositivo legal específico que exija a negociação coletiva para a implementação do banco de horas semestral.\n\nEssa análise se baseia exclusivamente nos dispositivos legais mencionados no contexto fornecido.",
+  "tokens_in": 293,
+  "tokens_out": 517,
+  "latency_ms": 8640,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

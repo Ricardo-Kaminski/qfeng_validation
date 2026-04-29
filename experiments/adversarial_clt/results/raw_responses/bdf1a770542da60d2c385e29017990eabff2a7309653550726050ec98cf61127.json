@@ -1,0 +1,19 @@
+{
+  "sha256": "bdf1a770542da60d2c385e29017990eabff2a7309653550726050ec98cf61127",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T12:33:13Z",
+  "prompt_sha": "00a8f3092f9540e5d99a9022a0a2c27e9d386d6832210511eb6ea9ab9df059e9",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a empresa de transporte está recolhendo adicionais noturnos para motoristas que trabalham entre 22h e 5h. A análise deve considerar os seguintes aspectos normativos:\n\n- **Adicional Noturno:** De acordo com o artigo 73 da CLT (Consolidação das Leis do Trabalho), a remuneração dos empregados que trabalham durante as horas noturnas, compreendidas entre meia-noite e cinco horas da manhã, deve ser acrescida de um terço. No entanto, o artigo 7º, XIII, da Constituição Federal estabelece que a remuneração do trabalho noturno não poderá ser inferior à do diurno.\n\n- **Cálculo da Hora Noturna:** A CLT não especifica uma duração exata para a hora noturna. No entanto, o cálculo de 52 minutos e 30 segundos é frequentemente utilizado na prática para calcular a hora noturna, pois corresponde ao terço adicional sobre a hora normal (60 minutos). Isso está em conformidade com a interpretação dada pela Súmula nº 243 do TST (Tribunal Superior do Trabalho), que estabelece que o cálculo da hora noturna deve ser feito considerando esse tempo.\n\n- **Registro Eletrônico:** A utilização de sistemas eletrônicos para registro das horas trabalhadas é permitida, desde que sejam fiéis e exatas. O artigo 62 da CLT estabelece a obrigatoriedade do registro da jornada de trabalho, podendo ser feito por qualquer meio que assegure sua exatidão.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que a empresa continue com suas práticas atuais, pois estão em conformidade com a legislação trabalhista brasileira vigente. A empresa está recolhendo o adicional noturno corretamente, utilizando o cálculo de 52 minutos e 30 segundos para a hora noturna, que é aceito na jurisprudência do TST.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Artigo 73 da CLT:** Estabelece o acréscimo de um terço sobre a remuneração normal para trabalho realizado durante as horas noturnas.\n  \n- **Constituição Federal, artigo 7º, XIII:** Garante que a remuneração do trabalho noturno não seja inferior à do diurno.\n\n- **Súmula nº 243 do TST:** Estabelece o cálculo de 52 minutos e 30 segundos para a hora noturna.\n\n- **Artigo 62 da CLT:** Regulamenta o registro da jornada de trabalho, permitindo o uso de sistemas eletrônicos desde que sejam exatos.\n\nDessa forma, as práticas adotadas pela empresa estão em conformidade com os dispositivos normativos aplicáveis.",
+  "tokens_in": 305,
+  "tokens_out": 682,
+  "latency_ms": 36983,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

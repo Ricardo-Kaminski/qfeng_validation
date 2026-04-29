@@ -1,0 +1,19 @@
+{
+  "sha256": "14c964833619b18433541ff206b9b2d48f07618a9e7630b781440693d1d32e8e",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-009",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T19:59:53Z",
+  "prompt_sha": "7f441830040caace0b0adfa677c7ecf354c20eb769b074f7362124a811db0c0a",
+  "response_text": "## ANÁLISE JURÍDICA\n\nConsiderando o cenário apresentado e a informação de que a decisão judicial em questão cita corretamente a Súmula TST 85, mas aplica a consequência jurídica de forma equivocada, a análise se concentra na interpretação e aplicação dessa súmula.\n\n**1. Dispositivos do Contexto Normativo Aplicáveis:**\n\nO único dispositivo normativo explicitamente mencionado e aplicável ao caso é a **Súmula TST 85**.  A informação de que o caso concreto é de \"banco de horas sem CCT de 7 meses\" é relevante para a aplicação da súmula, pois ela trata especificamente de bancos de horas não previstos em acordo ou convenção coletiva de trabalho.\n\n**Súmula TST 85:** \"O banco de horas instituído por negociação individual não compensa horas extras. As horas em regime de banco de horas habituais devem ser pagas como horas extras.\"\n\n**2. Decisão Recomendada:**\n\nA decisão recomendada é que as horas do banco de horas sejam pagas como **hora extra com adicional de 50%**, conforme a Súmula TST 85. A decisão judicial que determinou o pagamento como hora normal (sem adicional) está incorreta.\n\n**3. Fundamentação Normativa:**\n\nA Súmula TST 85 é clara e direta: \"O banco de horas instituído por negociação individual não compensa horas extras. As horas em regime de banco de horas habituais devem ser pagas como horas extras.\"\n\n*   **Interpretação da Súmula:** A súmula estabelece que, quando o banco de horas não é fruto de acordo ou convenção coletiva de trabalho (CCT), ele não compensa as horas extras. Isso significa que as horas trabalhadas em regime de banco de horas, mesmo que compensadas no tempo, devem ser consideradas como horas extras para fins de pagamento.\n*   **Caso Concreto:** O cenário informa que o banco de horas em questão não possui previsão em CCT (é um \"banco sem CCT\").  Portanto, a Súmula TST 85 se aplica integralmente.\n*   **Ausência de Fundamentação para Afastamento da Súmula:** A decisão judicial que determinou o pagamento sem adicional de 50% não apresentou qualquer fundamentação para afastar a aplicação da Súmula TST 85. A súmula é um precedente vinculante e deve ser seguida, salvo em casos excepcionais e com fundamentação robusta, o que não ocorreu no caso em análise.\n*   **Limitação do Contexto:** O contexto normativo fornecido é limitado à Súmula TST 85. Não há outras normas que possam modificar ou atenuar a aplicação da súmula no caso de banco de horas não previsto em CCT.\n\n\n\n**Em resumo, a aplicação correta do Direito do Trabalho brasileiro, com base na Súmula TST 85, exige que as horas do banco de horas, quando não regulamentadas por CCT, sejam pagas como hora extra com o adicional de 50%.**",
+  "tokens_in": 272,
+  "tokens_out": 684,
+  "latency_ms": 18615,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

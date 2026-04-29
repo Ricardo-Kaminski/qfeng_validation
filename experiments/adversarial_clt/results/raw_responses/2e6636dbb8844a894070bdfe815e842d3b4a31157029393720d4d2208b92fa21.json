@@ -1,0 +1,19 @@
+{
+  "sha256": "2e6636dbb8844a894070bdfe815e842d3b4a31157029393720d4d2208b92fa21",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-010",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T20:21:36Z",
+  "prompt_sha": "0dd8d39ebf3dc95dfafbbdd315c02d2658b6693ca7bbe189d0219bde8729d8fc",
+  "response_text": "**ANÁLISE**\n\nO caso envolve a interpretação de uma Convenção Coletiva de Trabalho (CCT) que estabelece um limite máximo de 80 horas para o acúmulo de banco de horas. A empresa permitiu que um operador acumulasse 200 horas, o que é considerado extrapolação do limite previsto na CCT.\n\n**DISPOSITIVOS DO CONTEXTO NORMATIVO APLICÁVEIS**\n\n*   O artigo 59 da CLT (Consolidação das Leis do Trabalho) estabelece a possibilidade de acordos coletivos que disciplinam condições de trabalho, incluindo o banco de horas.\n*   O artigo 611-A da CLT também trata sobre o banco de horas e estabelece regras para sua implementação.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a extrapolação do limite previsto na CCT invalida o banco de horas para as horas que excedem o acordado. Isso porque a CCT é um acordo coletivo que tem força de lei e estabelece regras para as partes envolvidas.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   O artigo 59 da CLT estabelece que os acordos coletivos têm força de lei, o que significa que devem ser cumpridos pelas partes envolvidas.\n*   O artigo 611-A da CLT estabelece regras para a implementação do banco de horas, incluindo a necessidade de acordo entre as partes envolvidas.\n*   A Súmula 379 do TST (Tribunal Superior do Trabalho) estabelece que o acréscimo de horas ao banco de horas sem acordo das partes é considerado ilegal.\n\n**CONCLUSÃO**\n\nA extrapolação do limite previsto na CCT invalida o banco de horas para as horas que excedem o acordado. Isso porque a CCT é um acordo coletivo que tem força de lei e estabelece regras para as partes envolvidas. A decisão recomendada é que a empresa seja condenada a pagar os salários das horas trabalhadas além do limite previsto na CCT, com acréscimo de 50% sobre o valor da hora normal.",
+  "tokens_in": 299,
+  "tokens_out": 525,
+  "latency_ms": 8800,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

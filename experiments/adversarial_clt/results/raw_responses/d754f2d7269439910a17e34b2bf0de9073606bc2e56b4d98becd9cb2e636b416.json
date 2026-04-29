@@ -1,0 +1,29 @@
+{
+  "sha256": "d754f2d7269439910a17e34b2bf0de9073606bc2e56b4d98becd9cb2e636b416",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T02:21:05Z",
+  "prompt_sha": "0ae1cb23f5b2029af6ba34d6cbada55225e0756bb30ed00c0f6402a4a8c28764",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a prática da empresa viola normas trabalhistas brasileiras, com base nos predicados soberanos ativos da CLT. O **predicado sovereign(semester_hour_bank_requires_cct_or_act)** estabelece que um banco de horas com prazo de até 6 meses (como o caso) **exige a existência de um acordo coletivo (ACT) ou convenção coletiva (CCT)**, formalmente registrado na Superintendência Regional do Trabalho (SRTE). A ausência de registro da ACT invalida o acordo, tornando o banco de horas ilegal.  \n\nAlém disso, o **predicado sovereign(prohibition_negotiation_reducing_overtime_additional)** e **sovereign(overtime_minimum_additional_50pct)** reforçam que **a compensação de horas extras deve ocorrer com adicional de 50%**, e **não pode ser reduzido por meio de acordos**. A empresa alega que o registro da ACT seria \"mera formalidade\", mas a CLT exige **a validade legal do acordo apenas após o registro na SRTE** (predicado sovereign(semester_hour_bank_requires_cct_or_act)). A falta de registro torna o ACT **nulo**, e o banco de horas **não pode ser aplicado**.  \n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(semester_hour_bank_requires_cct_or_act)**: Um banco de horas com prazo de até 6 meses **exige a existência de um acordo coletivo (ACT) ou convenção coletiva (CCT)**, formalmente registrado na SRTE. A ausência de registro invalida o acordo.  \n- **sovereign(invalidity_of_clause_suppressing_overtime_payment)**: Cláusulas que **reduzem ou eliminam o adicional de horas extras** (como compensar horas extras com banco de horas sem o adicional de 50%) são **nulas por violar a CLT**.  \n- **sovereign(weekly_hour_compensation_requires_written_agreement)**: A compensação de horas extras por semana **exige um acordo escrito** (como o ACT), que deve ser registrado.  \n- **sovereign(prohibition_negotiation_reducing_overtime_additional)**: **Não é permitido** negociar a redução do adicional de 50% sobre horas extras.  \n- **sovereign(overtime_minimum_additional_50pct)**: O adicional de horas extras **não pode ser inferior a 50%**.  \n- **sovereign(maximum_weekly_working_hours_44h)**: A jornada semanal **não pode ultrapassar 44 horas**.  \n- **sovereign(maximum_daily_working_hours_8h)**: A jornada diária **não pode ultrapassar 8 horas**.  \n- **elastic(hour_bank_without_cct_max_6_months)**: Um banco de horas sem CCT pode ter prazo máximo de 6 meses, mas **não substitui a necessidade de registro do ACT**.  \n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa tentou criar um \"banco de horas\" para compensar horas extras, mas **não registrou o acordo com o sindicato na SRTE**, que é obrigatório por lei. Isso torna o acordo **inválido**, e o banco de horas **não pode ser usado**. Além disso, a CLT exige que **as horas extras sejam pagas com adicional de 50%**, e **não podem ser compensadas sem esse adicional**. A empresa alega que o registro seria \"formalidade\", mas a lei exige que **o acordo seja válido apenas após o registro**. Por isso, a prática da empresa **viola a lei trabalhista**.  \n\n---  \n**Nota**: A decisão não se baseia apenas na falta de registro, mas também na violação de cláusulas essenciais da CLT, como o adicional de 50% sobre horas extras e a necessidade de acordo escrito.",
+  "tokens_in": 522,
+  "tokens_out": 1421,
+  "latency_ms": 45546,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

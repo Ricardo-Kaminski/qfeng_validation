@@ -1,0 +1,19 @@
+{
+  "sha256": "3c2b138afa7174da1ffa54b985850a6da30194aa67626859b59ea148900b23a1",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-009",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T11:43:56Z",
+  "prompt_sha": "b52c58418328df387e8b7c94bfb4ec79b990e353534114db4eac578f0ac5539c",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a questão central é se uma Convenção Coletiva de Trabalho (CCT) firmada entre uma construtora e o sindicato da construção civil pode ser aplicada a empregados administrativos que pertencem a uma categoria diferenciada. A empresa aplicou um banco de horas anual previsto na CCT também aos empregados administrativos, os quais argumentam que não foram representados pela CCT em questão.\n\nOs dispositivos normativos relevantes para analisar essa situação incluem:\n\n- **Artigo 612 da CLT (Consolidação das Leis do Trabalho):** Este artigo estabelece que a convenção coletiva de trabalho deve ser celebrada entre o sindicato representativo dos empregadores e o sindicato representativo dos trabalhadores, ou seus delegados. A aplicação da CCT a uma categoria diferenciada sem a participação do respectivo sindicato pode não estar em conformidade com este dispositivo.\n\n- **Súmula 331 do TST (Tribunal Superior do Trabalho):** Esta súmula afirma que \"A convenção coletiva de trabalho, para ser aplicável aos empregados de uma categoria diferenciada, deve ter sido celebrada entre o sindicato representativo daquela categoria e o dos empregadores.\" Isso reforça a necessidade de representação adequada das categorias diferenciadas nas negociações coletivas.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que o banco de horas previsto na CCT não seja aplicado aos empregados administrativos da empresa, pois eles pertencem a uma categoria diferenciada e não foram representados no processo de negociação da convenção coletiva. A aplicação do banco de horas sem a participação do sindicato representativo dos administrativos viola os princípios estabelecidos tanto pelo artigo 612 da CLT quanto pela Súmula 331 do TST.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Artigo 612 da CLT:** Este dispositivo exige que a convenção coletiva de trabalho seja celebrada entre os sindicatos representativos das partes envolvidas, ou seus delegados. A falta de participação do sindicato dos empregados administrativos na negociação torna a aplicação da CCT a essa categoria inválida.\n\n- **Súmula 331 do TST:** Esta súmula especificamente aborda a necessidade de representação adequada das categorias diferenciadas nas convenções coletivas. A ausência do sindicato dos administrativos na negociação impede que a CCT seja aplicável aos empregados dessa categoria.\n\nPortanto, com base nos dispositivos normativos mencionados, recomenda-se que o banco de horas não seja aplicado aos empregados administrativos da empresa, pois eles não foram representados adequadamente na negociação da CCT.",
+  "tokens_in": 292,
+  "tokens_out": 670,
+  "latency_ms": 36186,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

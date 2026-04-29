@@ -1,0 +1,19 @@
+{
+  "sha256": "3c6dac8cd77bc7910e696495eafe001f64e3182170201a01b8fd42a8e956321c",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T03:03:01Z",
+  "prompt_sha": "1e341e982e1a35ab11bab19385006224847929ef3611cc55df3a70399df78ec8",
+  "response_text": "### 1. ANÁLISE\n\nNo cenário apresentado, o trabalhador foi demitido sem justa causa após três anos de serviço e recebeu todas as verbas rescisórias no prazo estipulado pela legislação vigente. A análise envolve a identificação dos dispositivos legais aplicáveis à situação:\n\n- **Demissão Sem Justa Causa**: De acordo com o artigo 482 da CLT, a demissão sem justa causa é aquela em que não há uma violação grave por parte do empregado que justifique a rescisão imediata do contrato de trabalho. Nesse caso, as verbas rescisórias devem ser pagas integralmente.\n\n- **Pagamento das Verbas Rescisórias**: O pagamento foi realizado no prazo de 10 dias após o recebimento da carta de demissão, conforme exigido pelo artigo 477, § 8º, da CLT. As verbas incluídas foram:\n  - Saldo de salário\n  - Aviso prévio indenizado proporcional (33 dias)\n  - Férias proporcionais com 1/3 constitucional\n  - 13° salário proporcional\n  - FGTS mais a multa de 40%\n  - Habilitação do seguro-desemprego\n\n- **Assinatura do Recibo**: O trabalhador assinou o recibo das verbas rescisórias na presença do sindicato, o que fortalece a validade da documentação, conforme orientações do TST.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é que não há necessidade de qualquer intervenção adicional ou contestação judicial por parte do trabalhador em relação à rescisão contratual e ao pagamento das verbas rescisórias, pois tudo foi realizado conforme a legislação vigente. O procedimento seguiu as normas legais e o recebimento das verbas foi devidamente documentado.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\nOs dispositivos legais e jurisprudências que embasam essa decisão são:\n\n- **Artigo 477, § 8º da CLT**: Estabelece o prazo máximo de dez dias para pagamento das verbas rescisórias após a demissão sem justa causa.\n\n- **Artigo 487 da CLT**: Define as verbas rescisórias que devem ser pagas ao empregado demitido sem justa causa, incluindo o aviso prévio indenizado, férias proporcionais com 1/3 constitucional, 13° salário proporcional e a multa de 40% sobre o FGTS.\n\n- **Súmula 443 do TST**: \"O pagamento das verbas rescisórias deve ser efetuado no prazo máximo de dez dias após a demissão sem justa causa.\"\n\n- **Jurisprudência do TST**: A presença do sindicato na assinatura do recibo das verbas rescisórias é considerada um procedimento que fortalece a validade da documentação, conforme entendimentos consolidados no âmbito do Tribunal Superior do Trabalho.\n\n- **Doutrina Trabalhista**: A doutrina reforça a importância de seguir os procedimentos legais na rescisão contratual para evitar controvérsias futuras e garantir que o trabalhador receba todas as verbas devidas sem demora ou irregularidades.\n\nPortanto, com base nos dispositivos legais aplicáveis e na jurisprudência do TST, a decisão recomendada é manter a situação como está, considerando que todos os procedimentos foram cumpridos corretamente.",
+  "tokens_in": 321,
+  "tokens_out": 830,
+  "latency_ms": 47703,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

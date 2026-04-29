@@ -1,0 +1,19 @@
+{
+  "sha256": "01533b21df5437afc4efb124fdff5bf253baebf1b1aa5c86e002e8d372c74b7c",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-001",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T08:23:34Z",
+  "prompt_sha": "54fed52f1361028c4b39bac92f25e2dfe4146042ea59002edc5741c8f1792790",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \n- **Art. 59 da CLT** (Consolidação das Leis do Trabalho): Estabelece que o banco de horas só pode ser instituído mediante **acordo coletivo** (convenção ou acordo coletivo de trabalho) ou **convenção coletiva de trabalho** (CCT), **não unilateralmente**.  \n- **Art. 61 da CLT**: Limita o banco de horas a **6 meses**, salvo se houver previsão em convenção coletiva.  \n- **Art. 7º, XVII da Constituição Federal**: Garante o direito de **limitar a jornada de trabalho** a 8 horas diárias e 44 horas semanais, com **limitação de 2 horas de horas extras por dia**.  \n- **Súmula 364 do TST**: \"O banco de horas só é válido se instituído por **convenção ou acordo coletivo** de trabalho, não podendo ser estabelecido unilateralmente pela empresa.\"  \n- **Súmula 370 do TST**: \"O banco de horas, instituído por **acordo coletivo**, só é válido por **6 meses**, salvo se houver previsão em convenção coletiva.\"  \n- **Súmula 372 do TST**: \"O trabalhador tem direito à **compensação das horas extras** acumuladas no banco de horas, mesmo que o banco tenha sido instituído de forma irregular.\"  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**A implantação do banco de horas pela empresa é ilegal**, e os empregados têm direito à **compensação das horas extras acumuladas** (até 120h). A empresa deve:  \n- **Reembolsar as horas extras** acumuladas (art. 61 da CLT e Súmula 372 do TST).  \n- **Revisar a prática** de banco de horas, pois sua instituição **unilateral** é **nula** (art. 59 da CLT e Súmula 364 do TST).  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 59 da CLT**: \"O banco de horas só pode ser instituído mediante **acordo coletivo** ou **convenção coletiva de trabalho**.\"  \n  - A empresa **não celebrou nenhum ACT ou CCT** (contexto), logo, o banco de horas é **nulo**.  \n- **Art. 61 da CLT**: \"O banco de horas só é válido por **6 meses**, salvo se houver previsão em convenção coletiva.\"  \n  - O período de 9 meses **excede o limite legal**, mesmo que houvesse acordo coletivo (contexto não menciona CCT).  \n- **Súmula 364 do TST**: \"O banco de horas só é válido se instituído por **convenção ou acordo coletivo** de trabalho.\"  \n  - A ausência de negociação sindical **invalida o banco de horas**.  \n- **Súmula 372 do TST**: \"O trabalhador tem direito à **compensação das horas extras** acumuladas no banco de horas, mesmo que o banco tenha sido instituído de forma irregular.\"  \n  - Os empregados têm direito a **reembolso** das 120h acumuladas.  \n\n---\n\n### Observação:  \nO contexto normativo **não menciona dispositivos específicos sobre a validade de acordos individuais** para banco de horas. A **CLT e o TST** **não reconhecem acordos individuais** como base para instituição de banco de horas, exigindo **negociação coletiva** (art. 59 da CLT e Súmula 364 do TST).",
+  "tokens_in": 288,
+  "tokens_out": 1547,
+  "latency_ms": 96796,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "cd2d887143df7674cf96a5add4171f39f201b6fdc37a3fd85796c13b3f0bfb56",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-001",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T06:49:21Z",
+  "prompt_sha": "789bb3f3b629b4227cddab821933c060fd792fe2c27e2e611000914cf65be9d2",
+  "response_text": "**ANÁLISE**\n\n1.  **Dispositivos legais aplicáveis**: A situação apresentada envolve o uso de banco de horas anual previsto em um Convenio Coletivo de Trabalho (CCT). O dispositivo legal principal é o artigo 59 da CLT, que estabelece a possibilidade de compensação de jornadas extras mediante acordo entre empregado e empregador, desde que não ultrapasse a duração do trabalho normal semanal. Além disso, o artigo 60 da CLT trata sobre a compensação de horas extras dentro do prazo estabelecido no contrato coletivo ou convenção coletiva.\n2.  **Interpretação no caso concreto**: No cenário apresentado, a empresa e o trabalhador acordaram na compensação das horas extras acumuladas ao longo de 11 meses dentro do prazo de 12 meses estabelecido na CCT. O fato de os extratos mensais terem sido entregues e a jornada diária nunca ultrapassar 10 horas sugere que as horas extras foram compensadas de acordo com as regras estabelecidas no contrato coletivo.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é **PROFERIR JUDGAMENTO FAVORÁVEL À EMPRESA E AO TRABALHADOR**, reconhecendo a validade do acordo de compensação das horas extras dentro do prazo estabelecido na CCT.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   Art. 59 da CLT: \"É lícito ao empregador, com o consentimento do empregado, aumentar a duração normal da jornada de trabalho ou substituir um turno por outro, desde que não ultrapasse a duração do trabalho normal semanal.\"\n*   Art. 60 da CLT: \"A compensação de horas extras deve ser feita dentro do prazo estabelecido no contrato coletivo ou convenção coletiva.\"\n*   Súmula nº 379 do TST: \"É ilegal a rescisão do contrato de trabalho por justa causa, quando o empregado excedeu a jornada normal de trabalho, se não houver sido comunicado previamente ao sindicato da categoria e não tiver havido prévio acordo entre as partes.\"\n*   Precedente constitucional: O artigo 7º, inciso XIII, da Constituição Federal estabelece o direito à redução da jornada de trabalho sem diminuição do salário.",
+  "tokens_in": 298,
+  "tokens_out": 566,
+  "latency_ms": 18593,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

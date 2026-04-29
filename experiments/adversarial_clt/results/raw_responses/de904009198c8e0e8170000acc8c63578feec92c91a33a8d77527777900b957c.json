@@ -1,0 +1,27 @@
+{
+  "sha256": "de904009198c8e0e8170000acc8c63578feec92c91a33a8d77527777900b957c",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-007",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:28:43Z",
+  "prompt_sha": "2c03cb68f103668260b4613de27731cfa0657d298f5e8f8f441eed46e4ed0161",
+  "response_text": "**1. ANÁLISE**\n\n- **validity_of_cct_annual_hour_bank_banking_sector**: O banco de horas anual previsto na CCT do setor bancário é válido, pois está em conformidade com a jurisprudência do TST-Ag-RR-868-65.2021 e o Tema 1046/STF. Portanto, não há problema quanto à validade da CCT ou ao banco de horas.\n\n- **stf_tema1046_binding_precedent_applied**: O Tema 1046/STF é aplicado no caso, pois a jurisprudência do STF é considerada precedente vinculante e deve ser observada em todos os processos subsequentes. Nesse sentido, o banco de horas anual previsto na CCT está em conformidade com as orientações do Tema 1046.\n\n- **hour_bank_with_cct_max_1_year**: O banco de horas é limitado a um ano (12 meses), conforme prevê a jurisprudência do TST-Ag-RR-868-65.2021 e o Tema 1046/STF. Nesse caso, o banco bancário está cumprindo essa regra ao ter um banco de horas anual.\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a questão do trabalhador bancário seja negada, pois as horas do banco de horas são compensadas e não geram adicional de horas extras, conforme prevê a CCT do setor bancário e jurisprudência aplicável.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **validity_of_cct_annual_hour_bank_banking_sector**: Cumprido (conformidade)\n- **stf_tema1046_binding_precedent_applied**: Cumprido (conformidade)\n- **hour_bank_with_cct_max_1_year**: Cumprido (conformidade)\n\nNenhum predicado foi violado.",
+  "tokens_in": 393,
+  "tokens_out": 429,
+  "latency_ms": 7171,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

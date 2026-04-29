@@ -1,0 +1,29 @@
+{
+  "sha256": "18188096e51c46685d12eaaa4a171aeb72bfaa3a81a88fd46aa2935064f700d9",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T02:19:27Z",
+  "prompt_sha": "0ae1cb23f5b2029af6ba34d6cbada55225e0756bb30ed00c0f6402a4a8c28764",
+  "response_text": "---\n\n### **1. NARRATIVA DA DECISÃO Q-FENG**  \nA decisão de **VIOLACAO** resulta da análise dos predicados soberanos ativos, que estabelecem regras mínimas e inquestionáveis da CLT (Consolidação das Leis do Trabalho). O fato de a **ACT (Acordo Coletivo de Trabalho)** não estar registrada na **SRTE (Superintendência Regional do Trabalho)** dentro do prazo legal inviabiliza sua validade, conforme o predicado **sovereign(semester_hour_bank_requires_cct_or_act)**, que exige que o banco de horas seja formalizado por meio de **CCT (Convenção Coletiva de Trabalho)** ou **ACT**, **registrados** e **publicados**.  \n\nAlém disso, o **predicado sovereign(weekly_hour_compensation_requires_written_agreement)** reforça que a compensação de horas extras deve ser pactuada por escrito, o que não ocorreu de forma válida. A ausência de registro da ACT também viola o **predicado sovereign(prohibition_negotiation_reducing_overtime_additional)**, que proíbe acordos que reduzam a remuneração por horas extras (que, pela CLT, deve ser de **50%** do salário normal, conforme **sovereign(overtime_minimum_additional_50pct)**).  \n\nA **limitação de 44 horas semanais** (**sovereign(maximum_weekly_working_hours_44h)**) e **8 horas diárias** (**sovereign(maximum_daily_working_hours_8h)**) também são regras inquestionáveis, e a compensação em prazo de 4 meses (sem registro válido) não se enquadra nas exceções previstas para o banco de horas (como o **predicado elastic(hour_bank_without_cct_max_6_months)**, que só se aplica se a ACT estivesse registrada).  \n\n---\n\n### **2. PREDICADOS ATIVADOS**  \n- **sovereign(semester_hour_bank_requires_cct_or_act)**:  \n  *O banco de horas só pode ser pactuado por meio de CCT ou ACT, **registrados** e **publicados** na SRTE. A ausência de registro inviabiliza a validade do acordo.*  \n\n- **sovereign(invalidity_of_clause_suppressing_overtime_payment)**:  \n  *Cláusulas que reduzam ou suprimam o pagamento de horas extras são **nulas de pleno direito**, independentemente de acordo coletivo.*  \n\n- **sovereign(weekly_hour_compensation_requires_written_agreement)**:  \n  *A compensação de horas extras deve ser pactuada por escrito, **não podendo ser feita por oralidade ou costume**.*  \n\n- **sovereign(prohibition_negotiation_reducing_overtime_additional)**:  \n  *É proibido qualquer acordo que reduza o adicional de horas extras (que, pela CLT, deve ser de **50%** do salário normal).*  \n\n- **sovereign(overtime_minimum_additional_50pct)**:  \n  *O adicional de horas extras não pode ser inferior a **50%** do salário normal, independentemente de negociação.*  \n\n- **sovereign(maximum_weekly_working_hours_44h)**:  \n  *A jornada semanal não pode ultrapassar **44 horas**, salvo exceções previstas em lei.*  \n\n- **sovereign(maximum_daily_working_hours_8h)**:  \n  *A jornada diária não pode exceder **8 horas**, salvo em casos específicos (como atividades agrícolas).*  \n\n- **elastic(hour_bank_without_cct_max_6_months)**:  \n  *Se o banco de horas for pactuado sem CCT (como no caso de ACT), o prazo máximo para compensação é de **6 meses**, **não 4 meses**. A empresa viola esse limite.*  \n\n---\n\n### **3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa tentou criar um \"banco de horas\" para compensar horas extras em 4 meses, mas **não registrou o acordo com a sindicato** na SRTE, como a lei exige. Isso torna o acordo **inválido**, pois a lei diz que **só pode existir um banco de horas se houver um acordo escrito e registrado**.  \n\nAlém disso, a empresa **não pode reduzir o pagamento de horas extras** (que, pela lei, deve ser de **50% do salário normal**), e **não pode fazer a compensação em 4 meses** (a lei permite até **6 meses**, mas só se o acordo estivesse registrado).  \n\nA decisão de **VIOLACAO** significa que a empresa **não seguiu a lei** e **precisa corrigir a situação**, como registrar o acordo, pagar o adicional de horas extras e ajustar o prazo de compensação.  \n\n--- \n\n**Nota:** A decisão não é uma opinião, mas uma inferência lógica baseada nos predicados soberanos da CLT, que são regras inquestionáveis da legislação trabalhista brasileira.",
+  "tokens_in": 522,
+  "tokens_out": 1678,
+  "latency_ms": 54468,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

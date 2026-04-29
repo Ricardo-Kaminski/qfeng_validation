@@ -1,0 +1,19 @@
+{
+  "sha256": "681349d4955f63ae8f3061aeec6d66a23b0dd71a73dfe7d5d9c9aa11a15388a0",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T09:31:39Z",
+  "prompt_sha": "c5e3679e280261d29913500eb4cf5116a82e74baef192b57794293c17afc2e50",
+  "response_text": "### 1. **ANÁLISE**  \nOs dispositivos normativos aplicáveis ao caso são:  \n- **CF/88, Art. 7°, XIII**: Estabelece que a jornada de trabalho normal não pode exceder 8 horas diárias, salvo exceções previstas em lei.  \n- **CLT, Art. 60**: Permite a jornada de 10 horas diárias, desde que a jornada semanal total não exceda 44 horas, e que haja acordo coletivo (CCT) expresso sobre o modelo de compensação.  \n- **Súmula 223 do TST**: Afirma que a jornada de 10 horas diárias só é permitida se a semana total não ultrapassar 44 horas.  \n\nNo caso, a CCT **não prevê especificamente o modelo de compensação** (como o 5×10), apenas autoriza o banco de horas. A jornada de 10 horas diárias, se aplicada em um modelo que exige 5 dias de trabalho (totalizando 50 horas semanais), **viola o limite constitucional de 8 horas diárias** (CF/88, Art. 7°, XIII), **mesmo com a existência de CCT**, pois:  \n- A CLT, Art. 60 exige que a jornada de 10 horas diárias seja compatível com a limitação semanal de 44 horas.  \n- A Súmula 223 do TST reforça que a jornada de 10 horas diárias só é válida se a semana total for de 44 horas.  \n\n### 2. **DECISÃO RECOMENDADA**  \n**A jornada de 10 horas diárias (modelo 5×10) é ilegal**, pois:  \n- **Violeta o limite constitucional de 8 horas diárias** (CF/88, Art. 7°, XIII), salvo exceções expressas em lei (como a CLT, Art. 60).  \n- **A CCT não autoriza explicitamente o modelo 5×10**, apenas o banco de horas em geral.  \n- **A jornada de 10 horas diárias, se aplicada em 5 dias, ultrapassa a limitação semanal de 44 horas** (CLT, Art. 60), tornando-a inválida mesmo com CCT.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **CF/88, Art. 7°, XIII**: \"A jornada de trabalho normal não excederá oito horas diárias, salvo nas hipóteses previstas em lei.\"  \n- **CLT, Art. 60**: \"A jornada de trabalho poderá ser estabelecida em regime de 10 (dez) horas diárias, desde que a semana não exceda 44 (quarenta e quatro) horas, mediante acordo coletivo de trabalho.\"  \n- **Súmula 223 do TST**: \"A jornada de trabalho de 10 (dez) horas diárias só é permitida se a semana total não ultrapassar 44 (quarenta e quatro) horas.\"  \n\n**Limitação do contexto normativo**:  \n- O contexto **não menciona normas específicas** que autorizem a jornada de 10 horas diárias no setor químico ou que excedam a limitação semanal de 44 horas.  \n- A ausência de previsão detalhada no CCT sobre o modelo de compensação (como o 5×10) **invalida a aplicação da jornada de 10 horas diárias**, conforme a CLT, Art. 60 e Súmula 223 do TST.",
+  "tokens_in": 305,
+  "tokens_out": 1465,
+  "latency_ms": 91593,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

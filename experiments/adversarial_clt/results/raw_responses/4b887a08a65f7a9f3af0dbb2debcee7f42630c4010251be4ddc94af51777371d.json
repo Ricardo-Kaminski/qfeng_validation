@@ -1,0 +1,19 @@
+{
+  "sha256": "4b887a08a65f7a9f3af0dbb2debcee7f42630c4010251be4ddc94af51777371d",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-001",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T20:07:45Z",
+  "prompt_sha": "26d12e151509fbe11099db792d4aca8584a935f407834eb1a45392c3cbb25402",
+  "response_text": "**ANÁLISE**\n\n1. **Identificação dos dispositivos do contexto normativo aplicáveis ao caso:**\n   - O dispositivo aplicável é o Código de Processo Civil (CPC), especificamente o Art. 489, §1°, V.\n\n**DECISÃO RECOMENDADA**\n\n2. **Qual deve ser a decisão e por quê:**\n   A decisão recomendada é a anulação do acórdão prolatado pelo TST em virtude da violação ao disposto no CPC Art. 489, §1°, V. Isso porque o relator citou uma súmula inexistente (Súmula 312) como fundamento para a decisão.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n3. **Cite especificamente os artigos e súmulas do contexto acima:**\n   - O dispositivo específico aplicável é o Código de Processo Civil, mais precisamente o Art. 489, §1°, V, que exige a identificação precisa dos precedentes jurídicos utilizados na fundamentação da decisão.\n   - A súmula citada (Súmula 312 do TST) não existe e, portanto, não há fundamento para sua citação como base de decisão.",
+  "tokens_in": 339,
+  "tokens_out": 283,
+  "latency_ms": 4810,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,29 @@
+{
+  "sha256": "797a1818db9c4edf31e86c6b133092f288725b8d1bef79e2b9c9522b64b9ed24",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-007",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T22:33:28Z",
+  "prompt_sha": "172c513c4b099df7743ffb1d24431062fe2eeac1ce853003c4f9dc9cbe3de520",
+  "response_text": "### 1. **ANÁLISE**  \n- **hour_bank_with_cct_max_1_year**:  \n  O CCT estabelece um prazo de 12 meses para compensação de horas acumuladas no banco de horas, conforme o predicado. No cenário, o empregado acumulou 400h dentro desse prazo, mas a empresa **não compensou** as horas ao longo do período, nem as pagou ao final. A falta de compensação ou pagamento **não viola o prazo máximo de 12 meses**, pois o CCT prevê esse prazo como condição para a compensação, não como garantia de que a compensação será efetivada. No entanto, **a ausência de mecanismo de pagamento** no CCT (como previsto no art. 61 da CLT) **não exclui a obrigação legal de compensação**, mesmo que o CCT não a tenha regulado.  \n\n- **maximum_weekly_working_hours_44h**:  \n  O predicado estabelece que a jornada semanal máxima é de 44h. No cenário, **não há menção de que a jornada excedeu esse limite**. O banco de horas pode ser utilizado para compensar horas extras, mas **não há indícios de que a jornada foi ampliada além de 44h**. Portanto, **não há violação** desse predicado.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n- **O empregado tem direito à compensação das 400h acumuladas**, conforme previsto no art. 61 da CLT (compensação de horas extras em até 12 meses).  \n- **A empresa deve pagar as horas não compensadas**, pois o CCT **não previu mecanismo de pagamento** em caso de não-compensação, o que **não isenta a empresa da obrigação legal**.  \n- **A empresa deve indenizar o empregado** por não cumprir a obrigação de compensação ou pagamento, conforme jurisprudência do TST (Súmula 345/2002).  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **hour_bank_with_cct_max_1_year**: **Conformidade** (o CCT prevê o prazo de 12 meses para compensação, mas **não garante** que a compensação será efetivada).  \n- **maximum_weekly_working_hours_44h**: **Conformidade** (não há menção de que a jornada excedeu o limite legal).  \n- **Violação implícita**: **Obrigações legais de compensação ou pagamento** (não listadas nos predicados fornecidos, mas exigidas pela CLT e jurisprudência do TST).  \n\n---\n\n### Observação Final:  \nEmbora os predicados fornecidos não abranjam diretamente a **obrigação de compensação ou pagamento** em caso de não-compensação, a **CLT e jurisprudência do TST** exigem que a empresa cumpra a obrigação de compensação ou pagamento, mesmo que o CCT não a tenha regulado. Portanto, **a empresa viola a lei**, mesmo que o CCT não tenha previsto mecanismo de pagamento.",
+  "tokens_in": 349,
+  "tokens_out": 2349,
+  "latency_ms": 74546,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

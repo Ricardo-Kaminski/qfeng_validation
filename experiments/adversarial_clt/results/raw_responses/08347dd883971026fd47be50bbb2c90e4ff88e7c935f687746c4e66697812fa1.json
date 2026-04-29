@@ -1,0 +1,19 @@
+{
+  "sha256": "08347dd883971026fd47be50bbb2c90e4ff88e7c935f687746c4e66697812fa1",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T11:53:58Z",
+  "prompt_sha": "e0dac6366f336fe82237c38403a15b7a308e7e52230ad445438fe232cc5f2b76",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a trabalhadora firmou uma Convenção Coletiva de Trabalho (CCT) que estabeleceu um banco de horas com prazo semestral de 6 meses. Durante o período de licença maternidade, a empresa suspendeu o cômputo do banco de horas e reativou ao retorno da trabalhadora. A compensação total ocorreu em 8 meses, incluindo o tempo útil após o retorno.\n\nPara analisar se o prazo para a compensação das horas deveria incluir o período de licença maternidade, precisamos considerar as normas que regulam o banco de horas e os períodos de afastamento do trabalho por motivos legais como a licença-maternidade.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que o prazo para compensação das horas bancadas deve ser contado considerando apenas o período útil, excluindo-se os períodos de afastamento legal do trabalho, como a licença maternidade. Portanto, a empresa agiu corretamente ao suspender o cômputo durante a licença e reativar após o retorno.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Artigo 59 da CLT (Consolidação das Leis do Trabalho):** Este artigo permite que as partes negociem acordos coletivos ou individuais para a compensação de horas extras, desde que não excedam o limite de 10% da jornada semanal normal. No entanto, ele não especifica como tratar períodos de afastamento.\n\n- **Súmula nº 219 do TST (Tribunal Superior do Trabalho):** Esta súmula estabelece que \"o prazo para compensação das horas extras previstas no art. 59 da CLT é contado a partir do dia em que tiverem sido registradas na folha de pagamento\". Isso implica que o cômputo deve considerar apenas os dias efetivamente trabalhados.\n\n- **Súmula nº 219-A do TST:** Estabelece que \"a compensação das horas extras, prevista no art. 59 da CLT, pode ser feita mediante banco de horas, desde que o respectivo acordo ou convenção coletiva preveja expressamente a possibilidade e fixe prazo para sua compensação\". Novamente, não há menção explícita sobre períodos de afastamento.\n\n- **Artigo 392 da CLT:** Este artigo trata do período de licença-maternidade como um direito inerente ao contrato de trabalho, sem prejuízo dos salários e demais vantagens. Durante esse período, a trabalhadora está legalmente afastada do trabalho.\n\nCom base nessas normativas, o entendimento é que períodos legais de afastamento não devem ser contados no prazo para compensação das horas bancadas, já que durante esses períodos a trabalhadora não está efetivamente exercendo suas atividades laborais. Assim, a empresa agiu corretamente ao suspender o cômputo do banco de horas durante a licença maternidade e reativá-lo após o retorno da trabalhadora.\n\n**Limitação:** O contexto normativo fornecido não contém uma disposição específica que trate diretamente sobre a inclusão ou exclusão de períodos de afastamento legal no cômputo do prazo para compensação de horas bancadas. Portanto, a análise se baseia na interpretação das normas gerais aplicáveis ao banco de horas e aos direitos trabalhistas durante licenças legais.",
+  "tokens_in": 297,
+  "tokens_out": 827,
+  "latency_ms": 43171,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

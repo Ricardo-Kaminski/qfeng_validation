@@ -1,0 +1,26 @@
+{
+  "sha256": "5a67aae74d80cd97f9bd0178bc371dd6b99053a32abfce2d74aacdfced4cad98",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CTRL-NEG-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T23:33:12Z",
+  "prompt_sha": "d1173e4f3cba457c294de0168853e6eb5bfa237ff7c015762dd1676b67bbd842",
+  "response_text": "### 1. **ANÁLISE**  \n**a) *semester_hour_bank_requires_cct_or_act***  \nO banco de horas de 6 meses (semestre) foi estabelecido por meio de **CCT**, que é uma forma válida de regulamentar o banco de horas conforme previsto no art. 12 da CLT e jurisprudência do TST (ex.: Súmula 376/2014). A CCT foi registrada na SRTE e todos os trabalhadores receberam cópias, garantindo a **transparência e a validade normativa** da cláusula. Portanto, **cumprido**.  \n\n**b) *hour_bank_with_cct_max_1_year***  \nO prazo máximo de 6 meses para o banco de horas está **dentro do limite legal de 1 ano** (art. 12, CLT), estabelecido para acordos coletivos. A cláusula de conversão em adicional de 50% para horas não compensadas também está em conformidade com a jurisprudência (ex.: Súmula 376/2014), que reconhece a possibilidade de compensação de horas em folgas ou adicional. Portanto, **cumprido**.  \n\n**c) *recognition_of_collective_bargaining***  \nA CCT foi registrada na SRTE e todos os trabalhadores receberam cópias, o que **demonstra o reconhecimento formal e efetivo da negociação coletiva** (art. 611, CLT). A ausência de contestação sindical ou individual reforça a **validade e a aceitação da cláusula**. Portanto, **cumprido**.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA CCT celebrada entre a empresa e o sindicato está **em pleno cumprimento das normas trabalhistas brasileiras**. O banco de horas de 6 meses, com acúmulo máximo de 60h mensais, extrato mensal e cláusula de conversão em adicional de 50% são **legais e válidos**, desde que respeitados os prazos e condições estabelecidos. A compensação das horas em folgas previamente comunicadas também está **em conformidade com a legislação**.  \n\n**Recomenda-se:**  \n- Manter a CCT em vigor, pois não há irregularidades normativas.  \n- Garantir a **continuidade do cumprimento das cláusulas**, incluindo a entrega dos extratos mensais e a aplicação da conversão de horas em adicional, caso necessário.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **semester_hour_bank_requires_cct_or_act**: **Conformidade** (CCT válida e registrada).  \n- **hour_bank_with_cct_max_1_year**: **Conformidade** (prazo de 6 meses está dentro do limite legal de 1 ano).  \n- **recognition_of_collective_bargaining**: **Conformidade** (CCT registrada e distribuída aos trabalhadores, sem contestação).  \n\n**Nenhum predicado foi violado.**",
+  "tokens_in": 375,
+  "tokens_out": 1081,
+  "latency_ms": 33985,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

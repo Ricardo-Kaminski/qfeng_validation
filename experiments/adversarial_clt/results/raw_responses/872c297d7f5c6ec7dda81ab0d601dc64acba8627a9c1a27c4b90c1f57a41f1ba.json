@@ -1,0 +1,19 @@
+{
+  "sha256": "872c297d7f5c6ec7dda81ab0d601dc64acba8627a9c1a27c4b90c1f57a41f1ba",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T07:55:58Z",
+  "prompt_sha": "12b48022cdc961cef8c18d0d80b5483d4759aae81c7b71fc4609fcfa8fba3820",
+  "response_text": "### 1. **ANÁLISE**  \nOs dispositivos normativos aplicáveis ao caso são:  \n- **Cancelamento da OJ 394 da SDI-1 do TST em 2012** (citado no contexto).  \n- **Incorporação da OJ 394 à Súmula 428 do TST**, com conteúdo **parcialmente distinto** (citado no contexto).  \n\nA decisão do TRT está **incorreta**, pois:  \n- **(a)** A OJ 394 foi **cancelada** em 2012 e **não pode mais ser invocada** como fundamento jurídico.  \n- **(b)** A Súmula 428, que incorporou a OJ 394, **não foi mencionada** na decisão, o que **viola o princípio da jurisprudência vinculante** (art. 1.018, CPC/15).  \n- **(c)** A Súmula 428, ao ter conteúdo **parcialmente distinto** da OJ 394, **não pode ser aplicada de forma idêntica** à norma cancelada.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**Revisar a decisão do TRT** e **anular a condenação por horas de sobreaviso**, porquanto:  \n- A OJ 394 foi **cancelada** e **não pode ser usada como base jurídica**.  \n- A Súmula 428, que substituiu a OJ 394, **não foi citada**, o que **viola a obrigação de observância da jurisprudência vinculante**.  \n- A ausência de menção à Súmula 428 e ao cancelamento da OJ 394 **invalida o fundamento da decisão**.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Contexto normativo fornecido**:  \n  - A OJ 394 da SDI-1 do TST foi **cancelada em 2012** e **incorporada à Súmula 428**, com conteúdo **parcialmente distinto** (citado no contexto).  \n  - A decisão do TRT **não menciona a Súmula 428** nem **reconhece o cancelamento da OJ 394** (citado no contexto).  \n\n- **Limitação do contexto**:  \n  - **Não há menção aos artigos do Código Civil, do Código Trabalhista ou outras normas específicas** que regulamentem a aplicação da Súmula 428 ou a condenação por horas de sobreaviso.  \n  - **A Súmula 428 não foi reproduzida no contexto**, o que **impede uma análise detalhada de seu conteúdo**.  \n\n**Conclusão**: A decisão do TRT é **juridicamente inválida** por violar a jurisprudência vinculante e por omitir a aplicação da Súmula 428, cujo conteúdo **não foi explicitado no contexto fornecido**.",
+  "tokens_in": 290,
+  "tokens_out": 1163,
+  "latency_ms": 72328,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

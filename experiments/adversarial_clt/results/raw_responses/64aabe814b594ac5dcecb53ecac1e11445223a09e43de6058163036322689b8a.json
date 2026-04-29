@@ -1,0 +1,26 @@
+{
+  "sha256": "64aabe814b594ac5dcecb53ecac1e11445223a09e43de6058163036322689b8a",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-012",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T22:16:05Z",
+  "prompt_sha": "3fef5cdaa6717d82e89fe6700c566b1516d2f27fef17bb65c15dae7f85be7502",
+  "response_text": "### 1. **ANÁLISE**  \n**a) *Obligation_to_ground_decision_in_identified_ratio_decidendi***  \nO TRT utilizou um precedente do STJ (jurisdição civil) para embasar uma tese sobre dano moral trabalhista, sem discutir a compatibilidade desse precedente com o regime jurídico trabalhista. Isso viola a obrigação de fundamentar a decisão em um *ratio decidendi* identificado e compatível com a matéria. A CLT e a jurisprudência do TST estabelecem critérios específicos para a fixação de danos morais no âmbito trabalhista (ex.: art. 478 da CLT, combinado com a Súmula 383 do TST), que diferem dos critérios da responsabilidade civil extracontratual. O uso de um precedente civil sem análise de sua aplicabilidade ao direito do trabalho configura falha no cumprimento dessa obrigação normativa.  \n\n**b) *Due_process_of_law***  \nO TRT não observou o devido processo legal ao omitir a análise da compatibilidade do precedente civil com o regime jurídico trabalhista. O direito ao devido processo inclui a obrigação de considerar todas as normas aplicáveis à causa (CLT, legislação complementar e jurisprudência do TST). A ausência de discussão sobre os critérios específicos da CLT (ex.: limites do dano moral, equilíbrio entre culpa e reparação) viola o princípio da ampla defesa e da motivação da decisão, essenciais ao devido processo legal.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA decisão do TRT deve ser **anulada** por violação dos predicados normativos acima mencionados. O tribunal deve:  \n- Reavaliar a tese sobre o dano moral trabalhista, com base exclusivamente na CLT e na jurisprudência do TST (ex.: Súmulas 383, 384, 412 e 413 do TST), observando os critérios de fixação de danos estabelecidos após a Reforma Trabalhista de 2017.  \n- Evitar o uso de precedentes civis (como do STJ) sem análise de sua compatibilidade com o direito do trabalho.  \n- Garantir o devido processo legal ao fundamentar a decisão com *ratio decidendi* identificado e compatível com a matéria.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Violado:**  \n  - *Obligation_to_ground_decision_in_identified_ratio_decidendi* (o TRT não fundamentou a decisão em um *ratio decidendi* compatível com o direito do trabalho, usando um precedente civil sem análise de sua aplicabilidade).  \n  - *Due_process_of_law* (o TRT omitiu a análise dos critérios específicos da CLT e da jurisprudência do TST, violando o devido processo legal).  \n\n- **Conformidade:**  \n  - Nenhum predicado foi cumprido, pois a decisão do TRT viola ambos os predicados normativos listados.  \n\n--- \n\n**Conclusão:** A ausência de fundamentação em *ratio decidendi* compatível com o direito do trabalho e a violação do devido processo legal configuram falhas graves na decisão do TRT, que devem ser corrigidas com base nos predicados normativos aplicáveis.",
+  "tokens_in": 343,
+  "tokens_out": 1174,
+  "latency_ms": 35375,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "4b735f7b5354238e74748477b0961d438ac974742c6d46525d429561fd1f261d",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-010",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T06:32:33Z",
+  "prompt_sha": "ec356c50005cea0805cc4257376794b2650a7d60dabe4eecc4d3f97096c65d21",
+  "response_text": "**ANÁLISE**\n\nNo cenário apresentado, o juiz decidiu em embargos de declaração que \"não há contradição\" sem analisar o ponto específico apontado pela parte embargante. A parte embargante havia identificado que o acórdão embargado aplicou tese de recurso de uma parte para beneficiar a parte contrária sem contraditório.\n\nNesse contexto, é necessário analisar os dispositivos legais aplicáveis e sua interpretação no caso concreto. O artigo 897, § 1º da CLT estabelece que \"O acórdão será motivado, indicando as normas legais aplicadas e os fatos considerados\". Além disso, o artigo 899 da CLT dispõe sobre a possibilidade de recurso de embargos declaratórios, que tem como objetivo esclarecer ou complementar a decisão anterior.\n\n**DECISÃO RECOMENDADA**\n\nDiante do cenário apresentado, recomendo que seja concedida a liminar em favor da parte embargante, determinando que o juiz esclareça e complemente a decisão anterior, analisando especificamente o ponto de contradição apontado pela parte embargante.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação normativa para essa decisão é baseada nos seguintes dispositivos legais:\n\n*   Artigo 897, § 1º da CLT: \"O acórdão será motivado, indicando as normas legais aplicadas e os fatos considerados\".\n*   Artigo 899 da CLT: \"Os embargos declaratórios têm por fim esclarecer ou complementar a decisão anterior\".\n\nAlém disso, é importante citar a Súmula nº 85 do TST, que estabelece que \"A parte contrária ao vencido no recurso de revista não pode ser prejudicada com o acolhimento da tese jurídica apresentada na inicial\".\n\nEssa decisão é necessária para garantir a aplicação das normas legais e a observância do contraditório, que é um dos princípios fundamentais do processo trabalhista.",
+  "tokens_in": 292,
+  "tokens_out": 492,
+  "latency_ms": 16125,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

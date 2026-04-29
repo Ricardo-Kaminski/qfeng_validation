@@ -1,0 +1,29 @@
+{
+  "sha256": "6ec77ff5712b9638cbc0e54c1d821975220c68c844e5e241f7b0ee80373e646b",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:37:33Z",
+  "prompt_sha": "9aed310839e4cb6680c5af139cfc1410b8dc65f015f8e8555e2fcb61291a68c3",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas\n\nCom base nos predicados normativos fornecidos e no cenário apresentado, segue a análise, decisão recomendada e identificação de cumprimento/violação dos predicados:\n\n**1. ANÁLISE:**\n\nO único predicado normativo fornecido é: **semester_hour_bank_requires_cct_or_act** (O banco de horas exige CCT ou ACT).\n\nEste predicado, em sua essência, indica que a implementação de um banco de horas, para ser válida, necessita de respaldo em um acordo coletivo de trabalho (ACT) ou convenção coletiva de trabalho (CCT).  A questão central aqui reside na validade da ACT, considerando a falta de registro na SRTE dentro do prazo legal.\n\nA empresa argumenta que o registro seria mera formalidade e que a ACT seria válida desde a assinatura. Essa alegação é crucial para determinar a validade do banco de horas. A jurisprudência do TST, embora não explicitamente listada como predicado, tem se posicionado de forma restritiva quanto à validade de atos normativos não registrados, especialmente quando a lei estabelece prazos para o registro. A ausência de registro pode ser interpretada como uma falha na formalização do acordo, impactando sua eficácia frente a terceiros (como os empregados).\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que a Justiça do Trabalho declare a **invalidade do banco de horas implementado**, pelo menos até que a ACT seja devidamente registrada na SRTE dentro do prazo legal.\n\nApesar da empresa ter celebrado a ACT com o sindicato, a falta de registro dentro do prazo legal compromete a sua validade.  Embora a jurisprudência não seja totalmente uniforme, a tendência é considerar o registro como um requisito para a eficácia do ato normativo, garantindo a segurança jurídica e a transparência nas relações de trabalho.  A empresa deve, portanto, regularizar a situação da ACT o mais breve possível.\n\nEnquanto a ACT não estiver devidamente registrada, a empresa deve suspender a implementação do banco de horas e compensar os empregados pelas horas não compensadas, utilizando a média dos últimos meses trabalhados, a fim de evitar prejuízos.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **semester_hour_bank_requires_cct_or_act:** **Violação**. Embora a empresa tenha celebrado um ACT, a falta de registro dentro do prazo legal impede que a ACT seja considerada válida para fins de implementação do banco de horas. O predicado exige a validade do ACT, e a falta de registro coloca em dúvida essa validade.\n\n**Observações Importantes:**\n\n*   **Jurisprudência do TST:** A decisão acima é baseada na interpretação da lei e na jurisprudência do TST, que, embora não listada como predicado, é fundamental para a análise. A falta de registro pode ser interpretada como uma nulidade, dependendo da análise do caso concreto.\n*   **Análise do Prazo:** É importante verificar o prazo específico para o registro da ACT e se a empresa agiu com boa-fé ao tentar regularizar a situação.\n*   **Direito dos Empregados:** A decisão visa proteger os direitos dos empregados, garantindo que a implementação do banco de horas seja feita de forma legal e transparente.\n*   **Possibilidade de Regularização:** A empresa tem a possibilidade de regularizar a situação da ACT, registrando-a na SRTE dentro do prazo legal. Após a regularização, o banco de horas poderá ser implementado de forma válida.",
+  "tokens_in": 307,
+  "tokens_out": 788,
+  "latency_ms": 21718,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

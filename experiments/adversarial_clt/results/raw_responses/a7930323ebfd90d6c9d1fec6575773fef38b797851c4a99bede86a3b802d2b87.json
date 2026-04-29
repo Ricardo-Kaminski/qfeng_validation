@@ -1,0 +1,19 @@
+{
+  "sha256": "a7930323ebfd90d6c9d1fec6575773fef38b797851c4a99bede86a3b802d2b87",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-007",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T11:19:12Z",
+  "prompt_sha": "35be560b3d56480b261099a368fe4a0b566785771735d919158eb0a8a25e76e3",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a questão central é se um IRDR (Informativo de Recursos Repetitivos) do TRT da 15ª Região pode ser considerado como precedente vinculante nacional pelo Tribunal Superior do Trabalho (TST). O CPC/2015 regula o uso de precedentes no âmbito judicial, especificamente em seu artigo 489.\n\n- **CPC Art. 489, §1°, V:** Este dispositivo estabelece que são causas repetitivas aquelas em que se aplica tese firmada pelo TST ou por outros tribunais superiores em julgamento de recursos repetitivos. O IRDR do TRT-15ª Região não possui eficácia nacional, pois o TST não o afetou como repetitivo.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que a parte prejudicada tenha razão em sua alegação de violação ao CPC Art. 489, §1°, V. O IRDR do TRT-15ª Região não tem eficácia vinculante nacional e, portanto, não pode ser aplicado como precedente pelo TST.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **CPC Art. 489, §1°, V:** Este artigo estabelece que a decisão de causas repetitivas deve basear-se em teses firmadas por tribunais superiores, como o TST, e não por IRDRs regionais que não tenham sido afetados como repetitivos pelo próprio TST.\n\nA aplicação de um IRDR regional como se fosse precedente vinculante nacional sem a devida afetação pelo TST viola o disposto no CPC Art. 489, §1°, V, pois não confere àquele IRDR a eficácia necessária para ser considerado uma tese vinculante em âmbito nacional.\n\n**Limitação:** O contexto normativo fornecido não inclui súmulas do TST ou outras normas específicas que possam complementar a análise além do CPC Art. 489, §1°, V. Portanto, a fundamentação se baseia exclusivamente neste dispositivo do CPC/2015.",
+  "tokens_in": 312,
+  "tokens_out": 514,
+  "latency_ms": 30406,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

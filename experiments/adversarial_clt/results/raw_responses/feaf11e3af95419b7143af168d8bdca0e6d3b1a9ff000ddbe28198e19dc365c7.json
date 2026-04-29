@@ -1,0 +1,19 @@
+{
+  "sha256": "feaf11e3af95419b7143af168d8bdca0e6d3b1a9ff000ddbe28198e19dc365c7",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T20:26:04Z",
+  "prompt_sha": "f5275e170353578213712d821d1e842fb4a67591aa07b251afa99d260d607aad",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve uma empresa de manufatura com jornada de trabalho regular (8 horas diárias e 44 horas semanais) sem banco de horas, trabalho noturno ou horas extras. Além disso, os intervalos intrajornada são concedidos integralmente e todos os registros de ponto são eletrônicos e auditáveis. Nesse contexto, é importante identificar as normas aplicáveis ao caso.\n\n**DISPOSITIVOS DO CONTEXTO NORMATIVO APLICÁVEIS**\n\n1. **Jornada de Trabalho**: A jornada de trabalho regular é estabelecida pela Consolidação das Leis do Trabalho (CLT), artigo 59, que determina a duração da jornada de trabalho como sendo de oito horas diárias e quarenta e quatro horas semanais.\n2. **Intervalos Intrajornada**: O artigo 74 da CLT estabelece que os empregados têm direito a intervalo intrajornada de uma hora para cada oito horas trabalhadas, sendo essa regra aplicável ao cenário descrito.\n3. **Registros de Ponto**: A obrigatoriedade dos registros de ponto é prevista no artigo 74 da CLT, que também estabelece a necessidade de os mesmos serem eletrônicos e auditáveis.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando as normas aplicáveis ao cenário descrito, não há indícios de violação das regras trabalhistas. A empresa está cumprindo com as exigências legais em relação à jornada de trabalho regular, aos intervalos intrajornada e aos registros de ponto.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n- Artigo 59 da CLT: \"A duração normal do trabalho é de oito horas diárias e quarenta e quatro horas semanais.\"\n- Artigo 74 da CLT: \"O empregado tem direito a um intervalo intrajornada de uma hora para cada oito horas trabalhadas. Os registros de ponto devem ser eletrônicos e auditáveis.\"\n\n**LIMITAÇÃO**\n\nNão há limitação em relação à aplicabilidade das normas, pois todas as regras mencionadas são claras e diretas no contexto fornecido.",
+  "tokens_in": 292,
+  "tokens_out": 518,
+  "latency_ms": 8775,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "9c1cb64071e49c896dda29707faed21e31505c3b52ca605053539fbe4b89f112",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T11:33:51Z",
+  "prompt_sha": "5ea5a4ec4b7a213278e903919d216504e93002c7ed7cad9209cdd623ae666231",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a empresa adotou um banco de horas mediante acordo individual por escrito com cada empregado, prevendo compensação em até 5 meses. A questão central é se tal prática é válida sem negociação coletiva ou participação do sindicato patronal e dos trabalhadores.\n\nNo Direito do Trabalho brasileiro, o banco de horas é regulamentado pelo artigo 59 da Consolidação das Leis do Trabalho (CLT), que permite a compensação de horários em períodos semanais ou mensais, desde que haja acordo escrito entre empregador e empregados. No entanto, o artigo 62 da CLT estabelece que para bancos de horas com duração superior a dois meses, é necessária negociação coletiva.\n\nA ausência de negociação coletiva no caso apresentado torna-se um ponto crítico, já que a empresa implementou o banco de horas semestral (6 meses) apenas por meio de acordos individuais. A Súmula 331 do Tribunal Superior do Trabalho (TST) reforça que \"é nulo o acordo individual que institui banco de horas para período superior a dois meses, salvo se negociado coletivamente\".\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é considerar os acordos individuais inválidos em relação ao banco de horas semestral, pois não houve negociação coletiva conforme exigido pela legislação e jurisprudência vigentes.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Artigo 59 da CLT:** Permite a compensação de horários em períodos semanais ou mensais mediante acordo escrito entre empregador e empregados.\n  \n- **Artigo 62 da CLT:** Exige negociação coletiva para bancos de horas com duração superior a dois meses.\n\n- **Súmula 331 do TST:** Estabelece que \"é nulo o acordo individual que institui banco de horas para período superior a dois meses, salvo se negociado coletivamente\".\n\nPortanto, sem a negociação coletiva necessária, os acordos individuais não suprimem a exigência legal para bancos de horas com duração superior a dois meses.",
+  "tokens_in": 295,
+  "tokens_out": 534,
+  "latency_ms": 30483,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

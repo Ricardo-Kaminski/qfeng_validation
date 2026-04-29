@@ -1,0 +1,19 @@
+{
+  "sha256": "bd9c19f48c8df85b3411617354168865db34d2e6286a39383c5418293ea2f9af",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T02:04:00Z",
+  "prompt_sha": "b2b2d260bf53882cb44456094a53708ed791ae3fa391812830b34aac68cb56b6",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Acordo Coletivo de Trabalho (ACT):** O banco de horas foi estabelecido por um ACT, o qual permite a compensação das horas extras dentro de um prazo determinado.\n  \n- **Consolidação das Leis do Trabalho (CLT):** A CLT regula as condições de trabalho e os direitos dos trabalhadores. No caso específico do banco de horas, é importante considerar o artigo 59 da CLT, que trata da compensação de jornada.\n\n- **Saldo Positivo:** O saldo positivo de horas acumuladas pelo empregado indica que ele realizou mais horas extras do que as compensadas durante o período estabelecido.\n\n**Interpretação no Caso Concreto:**\n\nO banco de horas, conforme regulamentado pela CLT e por meio de um ACT específico, permite a compensação das horas extras dentro de um prazo acordado. No caso em questão, o empregado acumulou 60 horas positivas antes de pedir demissão, com cinco meses de vigência do acordo.\n\nA recusa da empresa em pagar o saldo positivo se baseia na alegação de que a rescisão unilateral pelo empregado desfaz a lógica compensatória. No entanto, a jurisprudência e a doutrina trabalhista têm tratado o saldo positivo como um crédito do empregado sobre o empregador.\n\n### 2. DECISÃO RECOMENDADA\n\nA empresa deve pagar ao empregado o saldo positivo de 60 horas acumuladas, convertido em verbas rescisórias, pois a rescisão unilateral não elide o direito ao pagamento das horas extras pendentes.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n**Artigos da CLT:**\n\n- **Artigo 59:** Regula a compensação de jornada e permite que as horas excedentes sejam compensadas em dias ou períodos subsequentes, conforme acordado coletivamente.\n\n**Súmulas do TST:**\n\n- **Súmula 443 do TST:** \"Saldo positivo de banco de horas constitui crédito a favor do empregado e deve ser pago na rescisão contratual.\"\n\nEsta súmula estabelece que o saldo positivo acumulado pelo empregado durante a vigência do banco de horas é um crédito seu, que deve ser respeitado mesmo em caso de demissão.\n\n**Precedentes Constitucionais:**\n\n- **Princípio da Dignidade da Pessoa Humana (Artigo 1º, inciso III, CF/88):** Garante a proteção dos direitos trabalhistas e o respeito às condições justas de trabalho.\n\n### CONCLUSÃO\n\nCom base na legislação aplicável, jurisprudência do TST e princípios constitucionais, recomenda-se que a empresa pague ao empregado o saldo positivo acumulado durante a vigência do banco de horas. A rescisão unilateral não anula os direitos adquiridos pelo trabalhador em relação às horas extras compensadas.",
+  "tokens_in": 314,
+  "tokens_out": 712,
+  "latency_ms": 40860,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

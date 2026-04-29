@@ -1,0 +1,19 @@
+{
+  "sha256": "d8977f37c485249c973278fa79f82b4978be1c0f3840ea204d7fa228146198c0",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T08:41:32Z",
+  "prompt_sha": "fe5ea1e90bce3809f6b9e66296de41abc23c26c20d8a019c18931364e6d77260",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \n- **Artigo 60 da CLT (Consolidação das Leis do Trabalho)**: Estabelece que o banco de horas pode ser compensado em até **1 ano**, salvo se houver previsão legal ou convênio coletivo que amplie esse prazo.  \n- **Súmula TST 85, V**: Afirma que o limite de **1 ano** para compensação de banco de horas é uma **norma de ordem pública**, não podendo ser alterado por convenções ou acordos coletivos, mesmo com base no princípio da adequação setorial.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**O limite de 1 ano previsto na legislação trabalhista deve prevalecer**, e a cláusula da CCT que estabelece prazo de 14 meses é **inválida**.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Artigo 60 da CLT**: Define o prazo máximo de **1 ano** para compensação de banco de horas, salvo previsão legal ou convênio coletivo. No entanto, a Súmula TST 85, V restringe essa possibilidade.  \n- **Súmula TST 85, V**: Esclarece que o prazo de **1 ano** para compensação de banco de horas é uma **norma de ordem pública**, não podendo ser modificado por convenções ou acordos coletivos, mesmo com base no princípio da adequação setorial negociada.  \n\n**Observação**: O contexto normativo não menciona dispositivos que autorizem a flexibilização do limite de 1 ano para compensação de banco de horas, mesmo em CCT. A Súmula TST 85, V é clara em afastar a possibilidade de alteração desse prazo por meio de negociação coletiva.",
+  "tokens_in": 302,
+  "tokens_out": 894,
+  "latency_ms": 55436,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

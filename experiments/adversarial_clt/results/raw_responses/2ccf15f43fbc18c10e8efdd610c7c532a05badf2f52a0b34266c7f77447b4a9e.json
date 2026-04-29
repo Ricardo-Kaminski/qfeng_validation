@@ -1,0 +1,19 @@
+{
+  "sha256": "2ccf15f43fbc18c10e8efdd610c7c532a05badf2f52a0b34266c7f77447b4a9e",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T13:08:51Z",
+  "prompt_sha": "5ea5a4ec4b7a213278e903919d216504e93002c7ed7cad9209cdd623ae666231",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas na Indústria Têxtil\n\nConsiderando o cenário apresentado e a ausência de contexto normativo fornecido, a análise, decisão recomendada e fundamentação serão baseadas no Direito do Trabalho brasileiro, como se o contexto normativo fosse a legislação geral aplicável.\n\n**1. ANÁLISE: Dispositivos Aplicáveis (Considerando a Legislação Brasileira Geral)**\n\nO caso do banco de horas na indústria têxtil envolve a implementação de um sistema de compensação de horas extras sem a observância de requisitos legais e, potencialmente, de acordos coletivos. Os principais dispositivos a serem considerados, na ausência de um contexto normativo específico, são:\n\n*   **Artigo 7, Inciso VI, da Constituição Federal:** Garante o direito à livre negociação coletiva, essencial para a definição de condições de trabalho, incluindo a implementação de bancos de horas.\n*   **Artigo 59 da Consolidação das Leis do Trabalho (CLT):**  Regulamenta o banco de horas, exigindo que seja formalizado por meio de acordo coletivo, com previsão de compensação em até seis meses.\n*   **Artigo 10, § 2º, da CLT:**  Estabelece que os acordos individuais não podem prevalecer sobre os acordos ou convenções coletivas.\n*   **Súmula 213 do TST:** \"O banco de horas, para ser válido, depende de instrumento normativo, seja ele acordo ou convenção coletiva.\"\n*   **Súmula 339 do TST:** \"O acordo individual não pode prejudicar direitos assegurados por convenção ou acordo coletivo.\"\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada é a **invalidade do banco de horas implementado unilateralmente pela empresa**. A empresa não pode, por meio de acordos individuais, suprir a necessidade de negociação coletiva para a implementação de um sistema de banco de horas.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\n*   **Ausência de Acordo Coletivo:** A legislação brasileira, especificamente o Artigo 59 da CLT, exige que o banco de horas seja formalizado por meio de acordo coletivo. A empresa, ao implementar o sistema por meio de acordos individuais, violou essa exigência legal.\n*   **Prevalência do Acordo Coletivo:** O Artigo 10, § 2º, da CLT é claro: acordos individuais não podem prevalecer sobre acordos ou convenções coletivas. Mesmo que os empregados tenham assinado acordos individuais, estes são inválidos por contrariarem a necessidade de negociação coletiva para a implementação do banco de horas.\n*   **Jurisprudência do TST:** A Súmula 213 do TST reforça a necessidade de um instrumento normativo (acordo ou convenção coletiva) para a validade do banco de horas. A Súmula 339 do TST complementa, ao afirmar que o acordo individual não pode prejudicar direitos assegurados por convenção ou acordo coletivo.\n*   **Direito à Livre Negociação Coletiva:** A Constituição Federal, em seu Artigo 7, Inciso VI, garante o direito à livre negociação coletiva. A implementação unilateral do banco de horas pela empresa frustra esse direito, impedindo a participação dos trabalhadores e do sindicato patronal na definição das condições de trabalho.\n\n**Limitação:**\n\nA análise acima é baseada na legislação brasileira geral, na ausência de um contexto normativo específico. Se o contexto normativo fornecesse informações adicionais, como acordos coletivos preexistentes ou regulamentos internos da empresa, a análise e a decisão poderiam ser diferentes.\n",
+  "tokens_in": 260,
+  "tokens_out": 820,
+  "latency_ms": 44936,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

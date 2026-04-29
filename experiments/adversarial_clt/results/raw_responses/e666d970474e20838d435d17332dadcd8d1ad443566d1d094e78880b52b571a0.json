@@ -1,0 +1,26 @@
+{
+  "sha256": "e666d970474e20838d435d17332dadcd8d1ad443566d1d094e78880b52b571a0",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-012",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T00:33:34Z",
+  "prompt_sha": "3fef5cdaa6717d82e89fe6700c566b1516d2f27fef17bb65c15dae7f85be7502",
+  "response_text": "## Análise do Caso: Uso de Precedente do STJ em Ação Trabalhista e seus Impactos\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, a análise e a decisão recomendada seguem abaixo:\n\n**1. ANÁLISE:**\n\n*   **`obligation_to_ground_decision_in_identified_ratio_decidendi` (Obrigação de fundamentar a decisão no *ratio decidendi* identificado):** Este predicado impõe ao TRT a obrigação de basear sua decisão em um *ratio decidendi* (a razão da decisão) claramente identificado e extraído de um precedente. No caso, o TRT utilizou um precedente do STJ sobre responsabilidade civil extracontratual. A questão crucial aqui é se o *ratio decidendi* desse precedente, originário do direito civil, é aplicável e passível de transposição para o contexto do direito do trabalho. A CLT e a jurisprudência do TST estabelecem critérios específicos para a configuração e quantificação de dano moral no âmbito trabalhista, que podem ser distintos dos critérios utilizados no direito civil. A simples transposição de um precedente civil sem análise da compatibilidade com o regime jurídico trabalhista configura uma falha na fundamentação da decisão, pois não se garante que o *ratio decidendi* do precedente civil seja equivalente ou aplicável ao caso trabalhista. A Reforma de 2017 da CLT, em particular, alterou e detalhou a forma como o dano moral deve ser avaliado, tornando a compatibilidade ainda mais crítica.\n\n*   **`due_process_of_law` (Devido processo legal):** Este predicado garante ao trabalhador o direito a um processo justo e equitativo. A utilização de um precedente inadequado, que não considera as particularidades do direito do trabalho e os critérios específicos estabelecidos na CLT e jurisprudência do TST, pode comprometer a justiça da decisão. O trabalhador tem o direito de ter sua situação analisada à luz das normas e princípios que regem o direito do trabalho, e não sob a ótica de um ramo jurídico diferente, sem a devida ponderação e adequação. A falta de discussão sobre a compatibilidade do precedente civil com o regime trabalhista pode levar a uma decisão arbitrária e injusta, violando o devido processo legal.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que a decisão do TRT seja revista. O Tribunal deve:\n\n1.  **Anular a parte da decisão que fundamenta a condenação em dano moral com base no precedente do STJ.**\n2.  **Reanalisar o caso à luz da CLT e da jurisprudência do TST,** considerando os critérios específicos para a fixação de dano moral no âmbito trabalhista, especialmente as diretrizes estabelecidas após a Reforma de 2017.\n3.  **Fundamentar a decisão em *ratio decidendi* extraídos de precedentes do TST** que tratem de dano moral no contexto do trabalho, demonstrando a compatibilidade da aplicação desses precedentes ao caso concreto.\n4.  **Demonstrar a adequação do precedente utilizado,** justificando a escolha e explicando como ele se aplica ao caso concreto, considerando as particularidades do direito do trabalho.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **`obligation_to_ground_decision_in_identified_ratio_decidendi`:** **Violação.** O TRT não demonstrou adequadamente a compatibilidade do *ratio decidendi* do precedente civil com o regime jurídico trabalhista, falhando em fundamentar a decisão de forma completa e precisa.\n*   **`due_process_of_law`:** **Violação.** A utilização de um precedente inadequado sem a devida análise de compatibilidade pode ter comprometido a justiça da decisão, violando o direito do trabalhador a um processo justo e equitativo.\n\nEm resumo, a decisão do TRT, ao utilizar um precedente do STJ sem a devida análise de compatibilidade com o direito do trabalho, incorreu em falhas de fundamentação e potencialmente violou o devido processo legal. A revisão da decisão é essencial para garantir a justiça e a legalidade do processo.",
+  "tokens_in": 320,
+  "tokens_out": 912,
+  "latency_ms": 25063,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

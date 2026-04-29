@@ -1,0 +1,19 @@
+{
+  "sha256": "fdd16c429422055ffcdbd5bef8e7686692cd9f502b9ca5baa354ff35d14c4da9",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T07:04:55Z",
+  "prompt_sha": "d8db250f652a0b2a86ce52ca33e3f146036705232aad1ad4a2023ee032d07112",
+  "response_text": "**ANÁLISE**\n\nNo cenário apresentado, o Acórdão de TRT aplicou a Súmula TST 85 para resolver um caso de banco de horas sem Convenção Coletiva de Trabalho (CCT) com período de 5 meses. A Súmula TST 85 é composta por vários itens, mas os mais relevantes para o caso são os seguintes:\n\n- **Item I:** \"O trabalho em horário suplementar, sem acordo escrito entre empregador e empregado, não pode exceder a 2 horas diárias ou 10 horas semanais.\"\n  \n- **Item II:** \"A prestação de serviço em período normal de trabalho, além do previsto na CLT, é considerada como trabalho em horário suplementar.\"\n\n- **Item V:** \"O pagamento das horas extras não pode ser feito apenas pelo adicional, sendo obrigatório o pagamento da hora extra.\"\n\n**Interpretação no Caso Concreto:**\n\nNo caso específico, a empresa não tem CCT/ACT (Convenção Coletiva de Trabalho ou Acordo Coletivo de Trabalho), e as horas trabalhadas foram realizadas sem acordo escrito entre empregador e empregado. Portanto, o item I da Súmula TST 85 é aplicável, limitando o trabalho em horário suplementar a 2 horas diárias ou 10 horas semanais.\n\nAlém disso, as horas trabalhadas além do período normal de trabalho devem ser consideradas como trabalho em horário suplementar, conforme estabelece o item II da Súmula TST 85. E, finalmente, o pagamento das horas extras deve incluir tanto o adicional quanto a hora extra propriamente dita, conforme determina o item V.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que todas as horas trabalhadas além do período normal de trabalho sejam consideradas como horas extras e pagas com um adicional de 50% sobre a hora extra, cumprindo-se os requisitos da Súmula TST 85. Além disso, não há fundamento para aplicação da teoria do \"acordo tácito\" no caso, pois acordo tácito não substitui CCT/ACT para banco de horas.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n- **CLT:** Artigo 59 (trabalho em horário suplementar), Artigo 237 (Convenção Coletiva de Trabalho).\n\n- **Súmula TST 85:**\n  \n  - Item I: \"O trabalho em horário suplementar, sem acordo escrito entre empregador e empregado, não pode exceder a 2 horas diárias ou 10 horas semanais.\"\n  \n  - Item II: \"A prestação de serviço em período normal de trabalho, além do previsto na CLT, é considerada como trabalho em horário suplementar.\"\n\n- **Precedentes Constitucionais:** Não há menção explícita a precedentes constitucionais específicos nesse cenário. No entanto, a decisão está baseada na interpretação da CLT e das Súmulas do TST.\n\n**Conclusão:**\n\nA decisão recomendada é que todas as horas trabalhadas além do período normal de trabalho sejam consideradas como horas extras e pagas com um adicional de 50% sobre a hora extra, cumprindo-se os requisitos da Súmula TST 85. Além disso, não há fundamento para aplicação da teoria do \"acordo tácito\" no caso, pois acordo tácito não substitui CCT/ACT para banco de horas.",
+  "tokens_in": 337,
+  "tokens_out": 816,
+  "latency_ms": 27264,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

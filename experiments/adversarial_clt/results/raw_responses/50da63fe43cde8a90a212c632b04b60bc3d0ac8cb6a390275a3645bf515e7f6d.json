@@ -1,0 +1,19 @@
+{
+  "sha256": "50da63fe43cde8a90a212c632b04b60bc3d0ac8cb6a390275a3645bf515e7f6d",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T12:14:29Z",
+  "prompt_sha": "b6e4c61ea8527c860962ba88d6b508c94439e853c9816adb4eb2e1c7272aacf0",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, o Tribunal Regional do Trabalho (TRT) utiliza a Súmula 85 do Tribunal Superior do Trabalho (TST) para decidir sobre um caso envolvendo banco de horas sem Convenção Coletiva de Trabalho (CCT) ou Acordo Coletivo de Trabalho (ACT). A decisão identifica os itens I, II e V da Súmula 85 como aplicáveis ao caso.\n\nA Súmula 85 do TST trata das condições para a validade do banco de horas. Os principais pontos relevantes são:\n\n- **Item I:** O banco de horas deve ser pactuado em convenção ou acordo coletivo.\n- **Item II:** A compensação das horas extras deve ocorrer no prazo máximo de seis meses, contados da data de ocorrência do excesso de jornada.\n- **Item V:** As horas excedentes devem ser registradas e compensadas dentro do período estabelecido.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada pelo TRT é que todas as horas extras não compensadas no prazo de cinco meses sejam consideradas como tal, com adicional de 50%, conforme previsto na Consolidação das Leis do Trabalho (CLT), artigo 7º, inciso XV. Isso ocorre porque o banco de horas não foi estabelecido por meio de CCT ou ACT, e a empresa não conseguiu demonstrar um \"acordo tácito\" que pudesse substituir esses instrumentos coletivos.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Súmula 85 do TST:**\n  - **Item I:** Estabelece a necessidade de pactuação em convenção ou acordo coletivo para o banco de horas.\n  - **Item II:** Define que a compensação das horas extras deve ocorrer no prazo máximo de seis meses.\n  - **Item V:** Exige que as horas excedentes sejam registradas e compensadas dentro do período estabelecido.\n\n- **CLT, artigo 7º, inciso XV:** Dispõe sobre o pagamento de horas extraordinárias com adicional de 50%.\n\nA decisão do TRT está fundamentada na ausência de CCT/ACT para regular o banco de horas e no não cumprimento dos prazos estabelecidos pela Súmula 85, resultando na caracterização das horas como extras. A tese da empresa sobre \"acordo tácito\" foi afastada porque a legislação trabalhista exige formalização por meio de instrumento coletivo para o banco de horas, conforme estabelecido no Item I da Súmula 85.",
+  "tokens_in": 331,
+  "tokens_out": 614,
+  "latency_ms": 35139,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

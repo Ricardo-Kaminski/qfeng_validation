@@ -1,0 +1,30 @@
+{
+  "sha256": "4943cbfad556ed4ef06e0516d511cc23760298677a72caba97fa8459b2265ded",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:07:45Z",
+  "prompt_sha": "10d9b2fbb4ee509c4f26baa324dc98f4f9ca6d963ab67e38165e303c94f53cd8",
+  "response_text": "### ANÁLISE:\n\n1. **Obligation to Ground Decision in Identified Ratio Decidendi**:\n   - A decisão do TRT cumpre este predicado ao identificar claramente cada item da Súmula TST 85 aplicável ao caso. Ao fazer isso, o acórdão demonstra que a fundamentação está baseada nos princípios estabelecidos pela jurisprudência, garantindo uma análise jurídica sólida e alinhada com os precedentes.\n\n2. **Sumula TST 85 (Hour Bank Without CCT Invalid)**:\n   - A Súmula TST 85 estabelece que o banco de horas é inválido sem a existência de uma Convenção Coletiva de Trabalho (CCT) ou Acordo Coletivo de Trabalho (ACT). No caso, o TRT identificou corretamente que não havia CCT/ACT para validar o banco de horas e aplicou a Súmula 85, concluindo que todas as horas devem ser consideradas como extras com adicional de 50%. Isso mostra conformidade com a norma estabelecida pela súmula.\n\n3. **Due Process of Law**:\n   - O TRT seguiu o devido processo legal ao analisar todos os aspectos do caso, incluindo a ausência de CCT/ACT e a inexistência de um \"acordo tácito\" que pudesse substituir esses documentos formais. Ao fundamentar sua decisão com base em normas jurídicas claras e precedentes estabelecidos, o TRT assegurou que o processo foi justo e transparente para ambas as partes envolvidas.\n\n### DECISÃO RECOMENDADA:\n\nA decisão do TRT deve ser mantida. Ela está de acordo com a Súmula TST 85 ao considerar inválido o banco de horas sem CCT/ACT, aplicando corretamente o adicional de 50% sobre as horas extras. Além disso, a fundamentação da decisão é robusta e baseada em princípios jurídicos estabelecidos, cumprindo com os requisitos do devido processo legal.\n\n### PREDICADOS VIOLADOS OU CUMPRIDOS:\n\n- **Obligation to Ground Decision in Identified Ratio Decidendi**: Cumprido. A decisão identificou e aplicou corretamente cada item da Súmula TST 85.\n  \n- **Sumula TST 85 (Hour Bank Without CCT Invalid)**: Cumprido. O TRT reconheceu a invalidade do banco de horas sem CCT/ACT, conforme estabelece a súmula.\n\n- **Due Process of Law**: Cumprido. A decisão foi tomada com base em uma análise justa e fundamentada, respeitando os princípios do devido processo legal.",
+  "tokens_in": 409,
+  "tokens_out": 637,
+  "latency_ms": 18625,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

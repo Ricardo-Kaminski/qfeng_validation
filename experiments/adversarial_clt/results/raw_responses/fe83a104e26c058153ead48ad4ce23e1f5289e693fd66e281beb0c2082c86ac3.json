@@ -1,0 +1,29 @@
+{
+  "sha256": "fe83a104e26c058153ead48ad4ce23e1f5289e693fd66e281beb0c2082c86ac3",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T02:24:47Z",
+  "prompt_sha": "e49d5e5d7663742fd00bd3c94033461e30c834afe32a9924772ec284ff0e579e",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a CCT do setor hoteleiro **viola normas de ordem pública trabalhista**, com base nos predicados soberanos ativos. A norma legal estabelece que **o limite máximo de 1 ano para compensação de banco de horas** (previsto na Súmula TST 85) é intransponível, mesmo com a autonomia das partes coletivas. O predicado **`sovereign(semester_hour_bank_requires_cct_or_act)`** impõe que qualquer banco de horas acima de 6 meses (semestral) **deve ser regulado por CCT ou ACT**, e não por negociação setorial. A CCT de 14 meses **excede o limite legal** e **não atende aos requisitos de escritura formal** (predicado `sovereign(weekly_hour_compensation_requires_written_agreement)`), além de **violar a proibição de reduzir a remuneração por horas extras** (predicado `sovereign(invalidity_of_clause_suppressing_overtime_payment)`). A flexibilidade setorial não pode anular normas de ordem pública, como a **proibição de negociação que reduza o adicional de horas extras** (predicado `sovereign(prohibition_negotiation_reducing_overtime_additional)`), nem o **limite de 44 horas semanais** (predicado `maximum_weekly_working_hours_44h`). A violação é confirmada pelo vetor ψ_S, que indica **desconformidade estrutural com a norma legal**.\n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **`sovereign(semester_hour_bank_requires_cct_or_act)`**:  \n  **Significado**: Qualquer banco de horas com duração superior a 6 meses **deve ser regulado por uma Convenção Coletiva de Trabalho (CCT) ou Acordo Coletivo de Trabalho (ACT)**, garantindo transparência e proteção aos trabalhadores. A CCT de 14 meses **não cumpre esse requisito**, pois não há previsão de compensação dentro do prazo legal.  \n\n- **`sovereign(invalidity_of_clause_suppressing_overtime_payment)`**:  \n  **Significado**: Cláusulas que **eliminem ou reduzam o adicional de horas extras** são **nulas por si só**, independentemente da negociação. A CCT não pode flexibilizar esse direito.  \n\n- **`sovereign(weekly_hour_compensation_requires_written_agreement)`**:  \n  **Significado**: A compensação de horas extras (como banco de horas) **só é válida se houver acordo escrito** entre empregador e empregado. A CCT de 14 meses **não garante esse requisito**, pois a compensação é feita por negociação setorial, não individual.  \n\n- **`sovereign(prohibition_negotiation_reducing_overtime_additional)`**:  \n  **Significado**: **Não é permitido negociação coletiva que reduza o adicional de horas extras** (50% no mínimo). A CCT de 14 meses **viola esse princípio**, ao estabelecer um prazo de compensação que pode implicar redução do adicional.  \n\n- **`sovereign(overtime_minimum_additional_50pct)`**:  \n  **Significado**: O adicional de horas extras **não pode ser inferior a 50%** da remuneração normal. A CCT de 14 meses **não garante esse mínimo**, ao permitir compensação em prazos longos.  \n\n- **`sovereign(maximum_weekly_working_hours_44h)`**:  \n  **Significado**: A **duração semanal do trabalho não pode exceder 44 horas**, salvo exceções previstas em lei. A CCT de 14 meses **não limita a jornada**, podendo gerar excesso de horas.  \n\n- **`elastic(hour_bank_without_cct_max_6_months)`**:  \n  **Significado**: Em casos de **ausência de CCT**, o banco de horas **não pode ultrapassar 6 meses**. A CCT de 14 meses **viola esse limite elástico**, mesmo com negociação setorial.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA CCT do setor hoteleiro **não pode estabelecer um banco de horas com prazo de 14 meses**, porque a lei brasileira diz que **esse prazo máximo é de 1 ano**, e **não pode ser alterado por negociação entre sindicatos e empresas**. O sistema Q-FENG concluiu que a CCT **viola a lei**, pois:  \n- **O banco de horas de 14 meses** é **maior que o limite legal de 1 ano**.  \n- **A compensação de horas extras** (como banco de horas) **só é válida se houver acordo escrito com cada trabalhador**, e não apenas por negociação setorial.  \n- **A lei proíbe que se reduza o adicional de horas extras** (50% no mínimo), algo que a CCT pode implicar.  \n- **A jornada de trabalho semanal não pode passar de 44 horas**, algo que a CCT não limita.  \n\nPortanto, **a CCT é inválida**, e os trabalhadores têm direito a **compensar horas extras dentro do prazo legal de 1 ano**, com acordo individual escrito.",
+  "tokens_in": 547,
+  "tokens_out": 1686,
+  "latency_ms": 53827,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

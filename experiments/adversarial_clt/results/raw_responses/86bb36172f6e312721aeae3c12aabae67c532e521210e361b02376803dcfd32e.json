@@ -1,0 +1,19 @@
+{
+  "sha256": "86bb36172f6e312721aeae3c12aabae67c532e521210e361b02376803dcfd32e",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-013",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T20:12:14Z",
+  "prompt_sha": "f5497ee6a7892e951be5a3f450a9283428336ff41f3cb0f338c8cc849b031335",
+  "response_text": "**ANÁLISE**\n\n1. Os dispositivos do contexto normativo aplicáveis ao caso são:\n * CF/88 Art. 7°, XIII e XIV;\n * TST-Ag-RR-868-65.2021.5.13.0030 (2ª Turma, DEJT 06/12/2023).\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que o recurso de revista seja negado, pois a fundamentação do acórdão do TST identificou claramente a inaplicabilidade da ratio decidendi do julgado ao caso concreto.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n2. A fundamentação normativa é baseada nos seguintes dispositivos:\n * CF/88 Art. 7°, XIII: \"o salário-soldo será pago mensalmente, em até dez parcelas\";\n * CF/88 Art. 7°, XIV: \"a lei regulará a liquidação das dívidas por salários e demais verbas trabalhistas\";\n * TST-Ag-RR-868-65.2021.5.13.0030 (2ª Turma, DEJT 06/12/2023): o acórdão do TST que analisou a validade de banco de horas em CCT do setor bancário à luz do Tema 1046/STF e concluiu que a ratio decidendi é inaplicável ao caso concreto.\n\nEsses dispositivos são aplicáveis porque o acórdão do TST fundamentou sua decisão com base na distinção fática entre os casos, identificando claramente a inaplicabilidade da ratio decidendi ao caso concreto.",
+  "tokens_in": 360,
+  "tokens_out": 377,
+  "latency_ms": 6318,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

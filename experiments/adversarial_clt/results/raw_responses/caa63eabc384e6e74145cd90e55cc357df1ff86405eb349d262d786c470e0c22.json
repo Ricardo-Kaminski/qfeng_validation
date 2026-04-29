@@ -1,0 +1,30 @@
+{
+  "sha256": "caa63eabc384e6e74145cd90e55cc357df1ff86405eb349d262d786c470e0c22",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T23:07:55Z",
+  "prompt_sha": "df1029f717a9057c55dcd4415f596b5b79c52eb9d0bc84855a640fd4defece65",
+  "response_text": "### 1. **ANÁLISE: Aplicação dos predicados normativos ao caso concreto**  \n- **obligation_to_ground_decision_in_identified_ratio_decidendi**:  \n  A decisão trabalhista cumpre esse predicado ao fundamentar sua conclusão com base em normas específicas (CLT Art. 489, §1°, V; Súmula TST 85, V) e ao distinguir o caso concreto de um precedente (TST-Ag-RR-868-65.2021) que envolvia um banco de horas com CCT. O método *distinguishing* foi aplicado de forma explícita, identificando a diferença essencial entre os casos (presença ou ausência de CCT), o que constitui um *ratio decidendi* claro e vinculado à norma.  \n\n- **sumula_tst_85_hour_bank_without_cct_invalid**:  \n  A decisão aplica diretamente essa sumula, ao concluir que o banco de horas sem CCT é inválido. A norma estabelece que a existência de CCT é condição *sine qua non* para a legalidade do banco de horas, e o caso concreto não atende a esse requisito, conforme explicitado na fundamentação.  \n\n- **due_process_of_law**:  \n  A decisão cumpre esse predicado ao seguir procedimentos jurídicos adequados: (i) remete à CLT e à jurisprudência do TST; (ii) distingue o caso concreto de um precedente com fundamento jurídico distinto; (iii) não omitiu elementos relevantes (como a ausência de CCT) e (iv) aplicou a norma de forma consistente com a jurisprudência.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA decisão trabalhista deve ser **confirmada**, pois:  \n- **Fundamentação jurídica adequada**: A aplicação da Súmula TST 85 e a distinção com o precedente (TST-Ag-RR-868-65.2021) foram realizadas com clareza e coerência com a norma.  \n- **Respeito aos direitos fundamentais**: A violação do banco de horas sem CCT configura uma ilegalidade que deve ser corrigida, conforme a sumula.  \n- **Conformidade com o devido processo**: A decisão seguiu os requisitos de fundamentação e distinção, garantindo transparência e justiça no julgamento.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: **Conformidade** (a decisão fundamentou-se em normas específicas e aplicou o método *distinguishing* de forma explícita).  \n- **sumula_tst_85_hour_bank_without_cct_invalid**: **Conformidade** (a decisão aplicou diretamente a sumula, reconhecendo a ilegalidade do banco de horas sem CCT).  \n- **due_process_of_law**: **Conformidade** (a decisão seguiu procedimentos jurídicos adequados, sem omissão ou distorção de fatos ou normas).  \n\n**Nenhum predicado foi violado** no cenário descrito. A decisão está alinhada com os requisitos normativos e jurisprudenciais estabelecidos.",
+  "tokens_in": 407,
+  "tokens_out": 1334,
+  "latency_ms": 40952,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

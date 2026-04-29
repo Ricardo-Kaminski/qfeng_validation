@@ -1,0 +1,19 @@
+{
+  "sha256": "14ef2c37af31c8a8e4939ce15e5ca364cf0b94586a890d34d73b8c2d545a5dff",
+  "braco": "B1",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CTRL-NEG-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T00:58:50Z",
+  "prompt_sha": "1e341e982e1a35ab11bab19385006224847929ef3611cc55df3a70399df78ec8",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos legais aplicáveis e sua interpretação no caso concreto**  \nO cenário apresentado envolve a **dissolução do contrato de trabalho por justa causa**, com o pagamento integral das verbas rescisórias dentro do prazo legal e a assinatura do recibo em presença do sindicato. A análise deve considerar os seguintes dispositivos legais:  \n\n- **Art. 482 da CLT**: Estabelece que, em caso de demissão sem justa causa, o empregador deve pagar o **aviso prévio indenizado proporcional ao tempo de serviço**. No caso, o trabalhador teve 3 anos de serviço, o que corresponde a **33 dias de aviso prévio indenizado** (art. 482, CLT).  \n- **Art. 137 da CLT**: Regulamenta o pagamento de **férias proporcionais com 1/3 de adicional**, que foi corretamente concedido.  \n- **Art. 135 da CLT**: Disponibiliza o **13º salário proporcional**, que também foi pago.  \n- **Art. 17 da Lei nº 8.036/1990 (FGTS)**: Determina o pagamento do **FGTS com multa de 40%** em caso de demissão sem justa causa, o que foi realizado.  \n- **Art. 15 da Lei nº 8.212/1991 (Seguro-Desemprego)**: Garante o **seguro-desemprego habilitado** para trabalhadores com mais de 12 meses de contribuição, o que foi cumprido.  \n- **Súmula 387 do TST**: Reconhece a **validade do recibo de quitação** assinado em presença do sindicato ou de um oficial público, o que foi realizado no caso.  \n\n**Interpretação**: A empresa cumpriu integralmente suas obrigações legais, incluindo o pagamento das verbas rescisórias no prazo de 10 dias (art. 482, CLT), a correta liquidação das verbas (aviso prévio, férias, 13º, FGTS e seguro-desemprego) e a formalização da quitação com a assinatura do trabalhador em presença do sindicato. Não há indícios de irregularidades, conforme explicitado no cenário.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**A empresa não está obrigada a pagar quaisquer outras verbas além das já liquidadas**, e o trabalhador não tem direito a indenização adicional. A demissão foi regular, com cumprimento total das obrigações legais, e a quitação foi válida.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 482 da CLT**: O aviso prévio indenizado proporcional foi corretamente calculado (33 dias para 3 anos de serviço).  \n- **Art. 137 da CLT**: O pagamento de férias proporcionais com 1/3 foi realizado conforme a lei.  \n- **Art. 135 da CLT**: O 13º salário proporcional foi pago conforme previsto.  \n- **Art. 17 da Lei nº 8.036/1990**: A multa de 40% sobre o FGTS foi aplicada corretamente.  \n- **Art. 15 da Lei nº 8.212/1991**: O seguro-desemprego foi habilitado, conforme os requisitos legais.  \n- **Súmula 387 do TST**: A quitação assinada em presença do sindicato é válida e impede ações futuras por parte do trabalhador.  \n- **Súmula 333 do TST**: \"A quitação do contrato de trabalho, assinada pelo empregado em presença de sindicato ou de oficial de justiça, não pode ser anulada por mera alegação de erro ou descontentamento do empregado.\"  \n\n**Conclusão**: A empresa agiu de forma legal e ética, cumprindo todas as obrigações trabalhistas. O trabalhador, ao assinar o recibo em presença do sindicato, reconheceu a quitação integral, o que impede ações judiciais posteriores. Não há fundamento para a cobrança de verbas adicionais ou a caracterização de irregularidades.",
+  "tokens_in": 318,
+  "tokens_out": 1504,
+  "latency_ms": 90828,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

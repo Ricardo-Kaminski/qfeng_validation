@@ -1,0 +1,19 @@
+{
+  "sha256": "1d84430b77f91e5f5534af54ce42982f560980016707470931d94536f9c0755f",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T06:38:31Z",
+  "prompt_sha": "ad4c06343c39e40beb5354b3121dc7db4493d512c68418d9b093860317c762b8",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a implementação de banco de horas em uma indústria têxtil por meio de acordo individual por escrito com cada empregado. A empresa sustenta que o acordo por escrito supre a ausência de negociação coletiva para banco de horas semestral, enquanto os empregados reclamam que o banco foi implementado sem participação do sindicato patronal ou dos trabalhadores em qualquer acordo coletivo.\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Art. 611-A da CLT**: Regula a negociação coletiva para a implantação de banco de horas, estabelecendo que o acordo deve ser firmado entre as partes interessadas (empregador e sindicato patronal) ou entre os sindicatos das categorias respectivas.\n- **Art. 611-B da CLT**: Aborda a compensação do banco de horas, permitindo a compensação em até 5 meses.\n\n**Interpretação no Caso Concreto:**\n\nA implementação do banco de horas por meio de acordo individual por escrito com cada empregado não atende aos requisitos estabelecidos pela legislação trabalhista. A CLT é clara ao exigir a negociação coletiva para a implantação de banco de horas, seja entre as partes interessadas (empregador e sindicato patronal) ou entre os sindicatos das categorias respectivas.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que o acordo individual por escrito não supre a ausência de negociação coletiva para banco de horas semestral, e portanto, o banco de horas implementado deve ser considerado inválido. Além disso, os empregados têm direito à participação na negociação coletiva ou ao sindicato patronal, conforme previsto na CLT.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n- **Art. 611-A da CLT**: \"O acordo coletivo de trabalho poderá estabelecer a realização de banco de horas, desde que observados os prazos e as condições previstas no artigo seguinte.\"\n- **Súmula 379 do TST**: \"A negociação coletiva é pressuposto para a implantação de banco de horas.\"\n- **Precedentes Constitucionais:** A participação dos sindicatos nas negociações coletivas é garantida pela Constituição Federal, que estabelece o direito à greve e ao sindicalismo (art. 9º da CF/88).\n\n**Conclusão**\n\nA implementação do banco de horas por meio de acordo individual por escrito não atende aos requisitos legais previstos na CLT. Portanto, a decisão recomendada é que o acordo seja considerado inválido e os empregados tenham direito à participação na negociação coletiva ou ao sindicato patronal.",
+  "tokens_in": 302,
+  "tokens_out": 659,
+  "latency_ms": 21655,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

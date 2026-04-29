@@ -1,0 +1,19 @@
+{
+  "sha256": "e0526b517c842bae474f68f760a56d7c5e24f8cbdc01ba7176d14e604c9fae78",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T06:24:32Z",
+  "prompt_sha": "1945afa8ee8746097d159824e442bc1c3d3a2b1a739515ba6bd5c3312239080a",
+  "response_text": "**ANÁLISE**\n\n1.  **Identificação dos dispositivos legais aplicáveis e sua interpretação no caso concreto:**\n    *   O dispositivo legal aplicável é o Artigo 41 da CLT, que estabelece a estabilidade provisória para os empregados em período de greve.\n    *   A Súmula 312 do TST não existe na base jurisprudencial oficial, o que significa que ela não tem fundamento legal ou jurisprudencial para ser aplicada no caso concreto.\n\n**DECISÃO RECOMENDADA**\n\n2.  **Qual deve ser a decisão e por quê:**\n    *   A decisão recomendada é a nulidade do acórdão prolatado pelo TST, pois viola o Artigo 489, §1°, V, do CPC, que exige identificação do precedente com base em julgamento real e verificável.\n    *   Além disso, a falta de fundamento legal para a aplicação da Súmula 312 do TST (que não existe) torna o acórdão inválido.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n3.  **Cite especificamente os artigos da CLT, Súmulas do TST e/ou precedentes constitucionais que embasam sua decisão:**\n    *   Artigo 41 da CLT: \"Durante a greve, não se admite a dispensa imotivada de empregados em funcionamento.\"\n    *   Artigo 489, §1°, V do CPC: \"V - a violação do direito ao contraditório e à ampla defesa, quando a decisão for proferida sem o contraditório prévio ou sem que se tenha dado oportunidade de defesa válida.\"\n    *   A falta de fundamento legal para a aplicação da Súmula 312 do TST (que não existe), tornando o acórdão inválido.",
+  "tokens_in": 348,
+  "tokens_out": 441,
+  "latency_ms": 768609,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

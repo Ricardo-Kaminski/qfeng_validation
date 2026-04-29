@@ -1,0 +1,29 @@
+{
+  "sha256": "820070dfe35262e6fc1237f2d530dc4118707366725757cec53282d140f530fa",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T02:18:32Z",
+  "prompt_sha": "86f5fd16f6d15b9e1997d1146961409a0ab7a50f3a8fbba670004d4b3d84cb71",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que houve **violação normativa** com base nos **predicados soberanos** da CLT (Consolidação das Leis do Trabalho). A decisão se fundamenta nos seguintes pontos jurídicos:  \n\n- **Predicado `sovereign(semester_hour_bank_requires_cct_or_act)`**: O banco de horas semestral **exige a existência de um acordo coletivo de trabalho (CCT)** ou uma lei específica. A ausência de negociação coletiva (com sindicato patronal ou trabalhador) invalida a implementação do banco de horas, mesmo que haja acordos individuais.  \n- **Predicado `sovereign(invalidity_of_clause_suppressing_overtime_payment)`**: Cláusulas que **suprimem o pagamento de horas extras** (como compensação de horas sem remuneração adicional) são ilegais. Se o banco de horas for usado para evitar o pagamento de horas extras, isso viola a CLT.  \n- **Predicado `sovereign(weekly_hour_compensation_requires_written_agreement)`**: A compensação de horas exige **acordo escrito individual**, o que foi cumprido. No entanto, isso **não substitui a necessidade de negociação coletiva**.  \n- **Predicado `sovereign(prohibition_negotiation_reducing_overtime_additional)`**: Acordos que **reduzam ou eliminem o adicional de horas extras** são proibidos.  \n- **Predicado `sovereign(overtime_minimum_additional_50pct)`**: O adicional de horas extras **não pode ser inferior a 50%** do valor da hora normal.  \n- **Predicado `sovereign(maximum_weekly_working_hours_44h)`**: A jornada semanal **não pode ultrapassar 44 horas**.  \n- **Predicado `sovereign(maximum_daily_working_hours_8h)`**: A jornada diária **não pode exceder 8 horas**.  \n\nA **incompatibilidade** entre o uso de acordos individuais (sem participação coletiva) e a exigência legal de negociação coletiva (CCT) é o **núcleo da violação**. O sistema conclui que a empresa **não cumpriu os requisitos legais mínimos** para implementar o banco de horas, mesmo que os acordos individuais estejam formalmente em vigor.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n**a) `sovereign(semester_hour_bank_requires_cct_or_act)`**  \n- **Significado**: O banco de horas semestral **só pode ser implementado se houver um acordo coletivo de trabalho (CCT)** ou uma lei específica. A ausência de negociação coletiva (com sindicato patronal ou trabalhador) torna o banco de horas **ilegal**.  \n\n**b) `sovereign(invalidity_of_clause_suppressing_overtime_payment)`**  \n- **Significado**: Cláusulas que **eliminem ou reduzam o pagamento de horas extras** (como compensação de horas sem remuneração adicional) são **nulas por ilegalidade**.  \n\n**c) `sovereign(weekly_hour_compensation_requires_written_agreement)`**  \n- **Significado**: A compensação de horas exige **acordo escrito individual**, o que foi cumprido. No entanto, **não substitui a necessidade de negociação coletiva**.  \n\n**d) `sovereign(prohibition_negotiation_reducing_overtime_additional)`**  \n- **Significado**: Acordos que **reduzam ou eliminem o adicional de horas extras** são **proibidos** pela CLT.  \n\n**e) `sovereign(overtime_minimum_additional_50pct)`**  \n- **Significado**: O adicional de horas extras **não pode ser inferior a 50%** do valor da hora normal.  \n\n**f) `sovereign(maximum_weekly_working_hours_44h)`**  \n- **Significado**: A jornada semanal **não pode ultrapassar 44 horas**.  \n\n**g) `sovereign(maximum_daily_working_hours_8h)`**  \n- **Significado**: A jornada diária **não pode exceder 8 horas**.  \n\n**h) `elastic(hour_bank_without_cct_max_6_months)`**  \n- **Significado**: O banco de horas **sem CCT pode ser aplicado por até 6 meses**, mas **não substitui a necessidade de negociação coletiva**.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa **não pode usar acordos individuais** para implementar o banco de horas sem que os **sindicatos ou trabalhadores** participem da negociação. Mesmo que os acordos individuais estejam escritos, a lei exige que **a negociação coletiva (CCT)** seja feita primeiro.  \n\nAlém disso, se o banco de horas for usado para **evitar o pagamento de horas extras** (como compensar horas trabalhadas sem remuneração adicional), isso **viola a lei**. A empresa também **não pode reduzir o adicional de horas extras** abaixo de 50% do valor normal.  \n\nA decisão do sistema Q-FENG diz que a empresa **não cumpriu as regras mínimas da CLT**, mesmo que os acordos individuais estejam formalmente em vigor. O **sindicato ou os trabalhadores** precisam ter participação na negociação, e a empresa **não pode usar o banco de horas como forma de evitar direitos trabalhistas**.",
+  "tokens_in": 533,
+  "tokens_out": 1792,
+  "latency_ms": 56469,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

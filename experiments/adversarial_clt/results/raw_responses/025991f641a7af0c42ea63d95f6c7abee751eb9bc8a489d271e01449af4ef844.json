@@ -1,0 +1,26 @@
+{
+  "sha256": "025991f641a7af0c42ea63d95f6c7abee751eb9bc8a489d271e01449af4ef844",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T22:03:13Z",
+  "prompt_sha": "489d4d0cb986d91530d7db7ba9d629c987a55e79987825665efedd8b88b39c59",
+  "response_text": "### 1. **ANÁLISE**  \nO predicado **obligation_to_ground_decision_in_identified_ratio_decidendi** impõe que a fundamentação jurídica de uma decisão judicial deve estar vinculada a **razões jurídicas identificáveis e específicas**, com referências claras a normas, jurisprudência ou doutrina. No cenário descrito, o acórdão trabalhista cita a doutrina de **Sergio Pinto Martins**, mas **não especifica obra, edição, ano ou página**, o que gera **ambiguidade** na identificação do **ratio decidendi** (razão da decisão).  \n\nA ausência de referências precisas viola o princípio da **transparência e previsibilidade jurídica**, pois:  \n- **(a)** A jurisprudência do TST exige que citações doutrinárias sejam **precisas e identificáveis**, para evitar **ambiguidade** e **possibilidade de contestação** (ex.: Súmula 382 do TST).  \n- **(b)** O **LINDB Art. 20**, que exige fundamentação jurídica **identificável**, é violado quando a citação não permite localizar a obra ou o trecho específico citado, especialmente em casos de **multiplicidade de obras** do mesmo autor.  \n\n### 2. **DECISÃO RECOMENDADA**  \nA decisão judicial deve ser **anulada ou reformada**, por **violação do LINDB Art. 20**, em razão da **ausência de fundamentação jurídica identificável**. A citação doutrinária incompleta **não atende ao requisito de transparência e fundamentação** exigida pela legislação processual trabalhista.  \n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Violação**:  \n  - **obligation_to_ground_decision_in_identified_ratio_decidendi** (não foi cumprida, pois a fundamentação jurídica não está vinculada a uma **razão identificável**).  \n- **Conformidade**:  \n  - Não há outros predicados normativos listados no cenário que sejam cumpridos ou violados, pois o único predicado aplicável (obrigação de fundamentação) foi **violado**.  \n\n---  \n**Observação**: A jurisprudência do TST reforça que a **precisão nas referências doutrinárias** é essencial para a validade da fundamentação (ex.: **Súmula 382 do TST**). A ausência de edição, ano ou página em casos de múltiplas obras de mesmo autor **não permite identificar o ratio decidendi**, configurando **violação do LINDB Art. 20**.",
+  "tokens_in": 338,
+  "tokens_out": 1053,
+  "latency_ms": 31625,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

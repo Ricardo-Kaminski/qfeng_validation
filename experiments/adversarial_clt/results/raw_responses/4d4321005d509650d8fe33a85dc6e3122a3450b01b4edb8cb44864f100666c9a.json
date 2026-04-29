@@ -1,0 +1,26 @@
+{
+  "sha256": "4d4321005d509650d8fe33a85dc6e3122a3450b01b4edb8cb44864f100666c9a",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:23:16Z",
+  "prompt_sha": "a468f9337a1667ebe471a714d6ab4b8f17bcd68f8f75d3aa6e375913dc2f76bf",
+  "response_text": "## Análise do Caso: Recurso Protélatório sem Fundamentação\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, a análise e a decisão recomendada são as seguintes:\n\n**1. ANÁLISE:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi (Obrigação de fundamentar a decisão no *ratio decidendi* identificado):** Este predicado é central para o caso. A decisão do juiz, ao negar seguimento ao recurso ordinário sob a alegação genérica de \"manifestamente protelatório\" e simplesmente afirmar \"na forma da lei\", **não cumpre** essa obrigação. Não há indicação de qual lei, dispositivo ou princípio jurídico embasa a conclusão de que o recurso é protelatório. Um *ratio decidendi* exige a identificação da norma jurídica aplicada e a explicação de como ela se aplica aos fatos do caso. A mera menção à \"forma da lei\" é insuficiente e não permite ao reclamante entender a base legal da decisão, tampouco possibilitar a sua revisão em instância superior.\n*   **due_process_of_law (Devido processo legal):** O devido processo legal, garantido pela Constituição Federal (Art. 5º, LXXVIII), implica em uma prestação jurisdicional justa e transparente. A falta de fundamentação da decisão, como no caso em tela, compromete o direito do reclamante a um processo justo. A impossibilidade de compreender os motivos que levaram à rejeição do recurso impede a efetiva defesa e a possibilidade de contestar a decisão de forma adequada. A decisão, como proferida, não garante ao reclamante a oportunidade de se manifestar sobre os fundamentos da negativa de seguimento ao recurso, violando, portanto, o devido processo legal.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que a decisão do juiz seja **anulada** ou, alternativamente, que seja **reformulada**.\n\n*   **Anulação:** A anulação da decisão seria a medida mais drástica, mas a mais adequada para garantir a observância do devido processo legal e a fundamentação da decisão. O juiz deverá, então, analisar o recurso ordinário, identificar os fundamentos jurídicos que o sustentam e, caso entenda que ele é protelatório, apresentar a base legal para essa conclusão, indicando a lei, o dispositivo e o princípio jurídico aplicável.\n*   **Reformulação:** Caso a anulação seja considerada excessiva, o juiz deve ser compelido a reformular a decisão, explicitando os fundamentos de fato e de direito que o levaram a concluir pela manifesta protelatória do recurso. Essa reformulação deve ser clara, precisa e permitir ao reclamante compreender a base legal da decisão e, consequentemente, a possibilidade de contestá-la em instância superior.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** **Violação**. A decisão não apresenta fundamentação jurídica específica e identificável.\n*   **due_process_of_law:** **Violação**. A falta de fundamentação compromete a justiça do processo e impede a efetiva defesa do reclamante.",
+  "tokens_in": 329,
+  "tokens_out": 703,
+  "latency_ms": 19233,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

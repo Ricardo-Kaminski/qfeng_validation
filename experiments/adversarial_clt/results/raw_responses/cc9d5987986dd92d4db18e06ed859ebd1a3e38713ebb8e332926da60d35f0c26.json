@@ -1,0 +1,19 @@
+{
+  "sha256": "cc9d5987986dd92d4db18e06ed859ebd1a3e38713ebb8e332926da60d35f0c26",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CTRL-NEG-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T11:05:04Z",
+  "prompt_sha": "00a8f3092f9540e5d99a9022a0a2c27e9d386d6832210511eb6ea9ab9df059e9",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO caso apresentado envolve a aplicação de **adicional noturno** e a **duração da hora noturna**, conforme previsto no **Decreto-Lei nº 5.452/1943 (Consolidação das Leis do Trabalho – CLT)**. Os dispositivos aplicáveis são:  \n- **Art. 71 da CLT**: Define que o adicional noturno é de **20% sobre o valor da hora normal de trabalho**, aplicável aos períodos compreendidos entre **22h e 5h**.  \n- **Art. 62 da CLT**: Estabelece que a **hora noturna** deve ser calculada como **52 minutos e 30 segundos**, independentemente da duração da jornada.  \n- **Art. 63 da CLT**: Determina que o **registro da jornada de trabalho** deve ser feito de forma clara e verificável, podendo ser realizado por meio de **sistema eletrônico**.  \n- **Art. 113 da CLT**: Exige que o **contracheque** contenha a **discriminação de todos os itens salariais**, incluindo o adicional noturno.  \n\nAlém disso, a ausência de **horas extras** além das 8h diárias está alinhada com a **limitação da jornada de trabalho** prevista no **Art. 7º da CLT**, que estabelece a jornada normal de 8h diárias, salvo exceções previstas em lei.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**A empresa está em conformidade com as normas trabalhistas brasileiras**, pois:  \n- **Aplica corretamente o adicional noturno de 20%** (Art. 71 da CLT), conforme previsto para o período entre 22h e 5h.  \n- **Calcula a hora noturna como 52 minutos e 30 segundos** (Art. 62 da CLT), que é a base legal para a compensação do desgaste noturno.  \n- **Registra a jornada em sistema eletrônico** (Art. 63 da CLT), garantindo transparência e verificabilidade.  \n- **Discrimina o adicional noturno nos contracheques** (Art. 113 da CLT), cumprindo a obrigação de transparência salarial.  \n- **Não exige horas extras além das 8h diárias**, respeitando a limitação da jornada normal de trabalho (Art. 7º da CLT).  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 71 da CLT**: \"O adicional noturno será de 20% sobre o valor da hora normal de trabalho, aplicável aos períodos compreendidos entre 22h e 5h.\"  \n- **Art. 62 da CLT**: \"A hora noturna será calculada como 52 minutos e 30 segundos, independentemente da duração da jornada.\"  \n- **Art. 63 da CLT**: \"O registro da jornada de trabalho será feito de forma clara e verificável, podendo ser realizado por meio de sistema eletrônico.\"  \n- **Art. 113 da CLT**: \"O contracheque conterá a discriminação de todos os itens salariais, incluindo o adicional noturno.\"  \n- **Art. 7º da CLT**: \"A jornada normal de trabalho será de oito horas diárias, salvo exceções previstas em lei.\"  \n\n**Observação**: O contexto normativo fornecido não menciona **súmulas do TST** ou **leis complementares** (como a Lei nº 12.151/2009, que regulamenta o adicional noturno), mas as normas da CLT citadas são suficientes para fundamentar a análise.",
+  "tokens_in": 303,
+  "tokens_out": 1544,
+  "latency_ms": 112391,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

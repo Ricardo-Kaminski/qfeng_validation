@@ -1,0 +1,26 @@
+{
+  "sha256": "e2a094508473adf443cd9e04b54f6d08d492aad10a1ba20b181f1242177f3e35",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T00:22:56Z",
+  "prompt_sha": "a01627cdbd8b1cd3b3f8d644f3236118fbd7445d66aaa97eead1388400a4615a",
+  "response_text": "## Análise do Caso: Acórdão do TRT-2ª Região e Fundamentação Jurídica\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, a análise e a decisão recomendada são as seguintes:\n\n**1. ANÁLISE:**\n\n*   **prohibition_of_generic_precedent_citation:** Este predicado proíbe a citação genérica de jurisprudência, exigindo que a fundamentação seja específica e identificável. No caso, o acórdão do TRT-2ª Região violou este predicado ao simplesmente afirmar que existe uma \"orientação jurisprudencial consolidada do TST\" sobre o uso indevido de comunicações eletrônicas, sem indicar qual(is) OJ, Súmula ou acórdão específico(s) que sustentam essa orientação. A mera menção a uma suposta \"orientação jurisprudencial consolidada\" não permite que o empregado, o advogado, ou mesmo outros julgadores, verifiquem a base da decisão e a validade da interpretação aplicada.\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** Este predicado impõe a obrigação de fundamentar a decisão no *ratio decidendi* (a razão da decisão) de precedentes identificados.  O *ratio decidendi* é a parte da decisão judicial que estabelece o princípio jurídico aplicável ao caso concreto. Ao não identificar o precedente específico, o TRT-2ª Região não cumpriu essa obrigação. A afirmação genérica impede a identificação do *ratio decidendi* que supostamente fundamenta a decisão, tornando a fundamentação vazia e incontrolável.  O Art. 489, §1°, VI do CPC, invocado pelo empregado, reforça essa exigência de fundamentação específica, pois exige que a decisão seja \"fundamentada em dados objetivos e provas constantes do processo\". Uma referência genérica a jurisprudência não atende a esse requisito.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se o **provimento do recurso do empregado**. O acórdão do TRT-2ª Região deve ser **anulado** ou, alternativamente, **remediado**.\n\n*   **Anulação:** A anulação seria a medida mais adequada, pois a falta de fundamentação específica vicia a decisão, tornando-a insustentável. A nova decisão, proferida em grau recursal, deverá observar rigorosamente a identificação do precedente jurisprudencial utilizado.\n*   **Remediação:** Se a anulação for considerada excessiva, o acórdão pode ser remediado, ou seja, o TRT-2ª Região deve ser intimado a complementar a fundamentação, indicando expressamente qual(is) OJ, Súmula ou acórdão(ões) do TST embasam a orientação jurisprudencial invocada.  A falta de identificação do precedente específico impede o controle da legalidade da decisão e a possibilidade de o empregado exercer seu direito de defesa de forma efetiva.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **prohibition_of_generic_precedent_citation:** **Violação** - O acórdão utilizou uma citação genérica de jurisprudência, sem identificar o precedente específico.\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** **Violação** - O acórdão não fundamentou a decisão em um *ratio decidendi* identificado e específico, tornando a fundamentação insustentável.\n",
+  "tokens_in": 353,
+  "tokens_out": 784,
+  "latency_ms": 21485,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

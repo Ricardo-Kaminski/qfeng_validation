@@ -1,0 +1,29 @@
+{
+  "sha256": "3fa06f4be65381c68f903dc5e48cfde4ab39296eee4e93d72f1a32787e4c1b40",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-007",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T00:43:21Z",
+  "prompt_sha": "172c513c4b099df7743ffb1d24431062fe2eeac1ce853003c4f9dc9cbe3de520",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas\n\nCom base nos predicados normativos fornecidos e no cenário apresentado, segue a análise, decisão recomendada e identificação de cumprimento/violação dos predicados.\n\n**1. ANÁLISE:**\n\n*   **hour_bank_with_cct_max_1_year (Banco de Horas com CCT com prazo máximo de 1 ano):** Este predicado estabelece que a utilização do banco de horas é permitida quando regulamentada por um acordo ou convenção coletiva de trabalho (CCT) e que o prazo máximo para a compensação das horas acumuladas é de 12 meses. No caso, a empresa estava agindo em conformidade com este predicado, pois a utilização do banco de horas era amparada por uma CCT válida e o prazo de 12 meses para compensação foi respeitado no tempo.\n\n*   **maximum_weekly_working_hours_44h (Jornada semanal máxima de 44h):** Este predicado limita a jornada de trabalho semanal a 44 horas. Embora o banco de horas permita a flutuação da jornada em torno desse limite, a finalidade é compensar as horas extras trabalhadas com folgas ou pagamento, garantindo que a jornada média não ultrapasse a semanal máxima. A empresa, ao não compensar as horas do banco de horas, permitiu que o empregado, de fato, ultrapassasse a jornada semanal máxima em diversos momentos, mesmo que a média possa ter se mantido dentro do limite. A ausência de folgas compensatórias ao longo do período, justificada pela \"necessidade operacional permanente\", não legitima a violação contínua da jornada máxima semanal.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se a decisão favorável ao empregado. A empresa deverá:\n\n*   **Pagar as horas acumuladas no banco de horas:** Considerando que a CCT não previu expressamente o pagamento em caso de não-compensação, a jurisprudência do TST tem entendido que, em casos como este, a ausência de compensação dentro do prazo estipulado implica na conversão do saldo de horas em pagamento, com acréscimo de, no mínimo, 50% (art. 46 da CLT).\n*   **Considerar o período como tempo à disposição:**  As horas não compensadas devem ser consideradas como tempo à disposição do empregador, com reflexos em verbas como horas extras, adicional noturno (se houver), e demais direitos trabalhistas.\n*   **Reavaliar a gestão do banco de horas:** A empresa deve revisar sua política de gestão do banco de horas, garantindo a efetiva compensação das horas trabalhadas, seja por meio de folgas ou pagamento, para evitar futuras reclamações e garantir o cumprimento da legislação. A alegação de \"necessidade operacional permanente\" não pode ser utilizada como justificativa para a sistemática violação da jornada de trabalho.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **hour_bank_with_cct_max_1_year:** Conformidade (Respeitado o prazo máximo de 12 meses e a regulamentação por CCT).\n*   **maximum_weekly_working_hours_44h:** Violação (A ausência de folgas compensatórias ao longo do período, mesmo com a existência do banco de horas, permitiu ultrapassagens da jornada semanal máxima).\n\n**Observações:**\n\n*   A ausência de previsão expressa na CCT sobre o pagamento em caso de não-compensação é um ponto crucial. A jurisprudência tem mitigado essa lacuna, garantindo o direito do empregado ao recebimento das horas não compensadas.\n*   A \"necessidade operacional permanente\" não é um argumento válido para justificar a sistemática violação da jornada de trabalho. A empresa deve buscar alternativas para garantir o cumprimento da legislação.\n*   É importante analisar a CCT específica para verificar se há outras disposições relevantes para o caso.\n*   A decisão final caberá ao Poder Judiciário, que avaliará as provas e argumentos apresentados pelas partes.",
+  "tokens_in": 325,
+  "tokens_out": 903,
+  "latency_ms": 24875,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

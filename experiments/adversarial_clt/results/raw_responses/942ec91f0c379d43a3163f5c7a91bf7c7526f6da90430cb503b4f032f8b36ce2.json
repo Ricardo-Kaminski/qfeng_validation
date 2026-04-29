@@ -1,0 +1,19 @@
+{
+  "sha256": "942ec91f0c379d43a3163f5c7a91bf7c7526f6da90430cb503b4f032f8b36ce2",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-007",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T01:32:27Z",
+  "prompt_sha": "21d48fb781a7c9910e31675833fd7359f1864a57a4a1b7bc5115a5563945f7ed",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Código de Processo Civil (CPC) - Art. 489, §1°, V:** Estabelece que é cabível o recurso extraordinário quando a decisão recorrida contrariar precedente do Supremo Tribunal Federal ou do Superior Tribunal de Justiça, ou ainda, em se tratando de matéria infraconstitucional, quando contrariar súmula vinculante do STJ ou tese firmada pelo próprio tribunal a quo no julgamento de recursos repetitivos.\n\n- **Lei nº 13.015/2014 (Reforma Trabalhista):** Introduziu o instituto dos Incidentes de Resolução de Demandas Repetitivas (IRDR) nos Tribunais Regionais do Trabalho, permitindo que estes fixem teses para orientar a solução uniforme de questões jurídicas idênticas ou semelhantes.\n\n- **Súmula nº 126 do TST:** Estabelece que as decisões proferidas em IRDR não têm efeito vinculante, mas apenas persuasivo, para os demais julgadores dos Tribunais Regionais do Trabalho.\n\n**Interpretação no Caso Concreto:**\n\nNo caso apresentado, o TST aplicou uma tese fixada por um IRDR do TRT da 15ª Região como se fosse precedente vinculante nacional. No entanto, conforme a Súmula nº 126 do TST, as decisões de IRDR não possuem efeito vinculante, mas apenas persuasivo. Portanto, o TST não deveria ter atribuído eficácia vinculante à tese regional sem que ela tenha sido afetada como repetitiva pelo próprio TST.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão do TST deve ser reconsiderada ou anulada, pois aplicou indevidamente uma tese de IRDR com eficácia vinculante nacional, contrariando a Súmula nº 126 do TST e o disposto no CPC Art. 489, §1°, V.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **CPC - Art. 489, §1°, V:** A decisão recorrida contrariou a normativa ao tratar uma tese de IRDR como precedente vinculante nacional, o que não é permitido, pois apenas teses afetadas pelo TST em regime de repetitivo possuem tal eficácia.\n\n- **Súmula nº 126 do TST:** Estabelece claramente que as decisões proferidas em IRDR têm efeito persuasivo, não vinculante. Portanto, o TST incorreu ao atribuir a uma tese regional de IRDR um caráter vinculante nacional.\n\n- **Precedentes Constitucionais:** O Supremo Tribunal Federal (STF) tem reiteradamente afirmado que decisões judiciais devem observar os limites da sua eficácia, conforme estabelecido em suas respectivas normas reguladoras. A aplicação indevida de uma tese regional como vinculante viola o princípio da segurança jurídica e do devido processo legal.\n\nPortanto, a decisão deve ser revista para corrigir essa interpretação equivocada sobre a eficácia das teses fixadas em IRDRs regionais.",
+  "tokens_in": 321,
+  "tokens_out": 796,
+  "latency_ms": 46750,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,29 @@
+{
+  "sha256": "ddf4d474df473b19b53c7b70a772e4c18bad0e182b8bd64dfab9bbc8694dbaeb",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-006",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T22:28:59Z",
+  "prompt_sha": "b5f3c80de151d181ed81c9553198da00fb088cfbddccc1f18b7d78267efcf67e",
+  "response_text": "### 1. **ANÁLISE: Aplicação dos predicados normativos ao caso**  \n- **Predicado: `semester_hour_bank_requires_cct_or_act`**  \n  O banco de horas (semestre ou mensal) é uma modalidade de trabalho que **exige a existência de um acordo coletivo de trabalho (ACT) ou convenção coletiva de trabalho (CCT)**, conforme disposto no **art. 59 da CLT**. A regulamentação interna aprovada por assembleia dos empregados, **sem a participação de sindicato**, **não substitui** a necessidade de um acordo coletivo formal. A ausência de um ACT/CCT inviabiliza a validade do banco de horas, independentemente da aprovação majoritária dos empregados.  \n\n- **Predicado: `recognition_of_collective_bargaining`**  \n  A **negociação coletiva** (art. 59 da CLT) deve envolver **representantes legais dos trabalhadores** (sindicato ou, na ausência de sindicato, a maioria dos empregados). No caso, a assembleia foi realizada **sem a presença do sindicato**, o que **não viola** o predicado, pois a CLT permite a negociação direta entre empregadores e empregados **quando não há sindicato representativo**. No entanto, **a ausência de sindicato** não elimina a necessidade de um ACT/CCT para o banco de horas, apenas **altera a forma de negociação**.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **regulamentação interna aprovada pela assembleia dos empregados** **não é suficiente** para instituir o banco de horas, pois **não se enquadra como um ACT/CCT**. A empresa **viola a obrigação de estabelecer o banco de horas por meio de acordo coletivo**, conforme disposto no art. 59 da CLT. Portanto, **a prática deve ser considerada inválida**, e a empresa deve:  \n- **Revogar o banco de horas** instituído por regulamento interno;  \n- **Negociar um ACT/CCT** com os empregados (ou sindicato, se houver) para formalizar o banco de horas.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Violação**:  \n  - `semester_hour_bank_requires_cct_or_act` (o banco de horas foi instituído por regulamento interno, **não por ACT/CCT**, violando a obrigação legal).  \n\n- **Conformidade**:  \n  - `recognition_of_collective_bargaining` (a assembleia dos empregados, **sem sindicato**, **cumpriria a exigência de negociação coletiva** se o banco de horas fosse instituído por meio de ACT/CCT, mas **não se aplica ao caso**, pois a regulamentação interna **não substitui o acordo coletivo**).  \n\n---\n\n### **Conclusão Normativa**  \nA **ausência de sindicato** não elimina a necessidade de um ACT/CCT para o banco de horas, apenas **altera a forma de negociação**. A regulamentação interna aprovada por assembleia **não substitui o acordo coletivo**, **viola o art. 59 da CLT** e **deve ser considerada inválida**.",
+  "tokens_in": 361,
+  "tokens_out": 1658,
+  "latency_ms": 51922,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

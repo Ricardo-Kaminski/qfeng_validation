@@ -1,0 +1,19 @@
+{
+  "sha256": "a5ae8627a90fa2c69775ef7450d6d7c1cff87e2740648c889742c17e8261e1d2",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-013",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T06:35:48Z",
+  "prompt_sha": "80281495f36721e3442a67c8e851e23aa42620978088ce92f2ee01e3661e0bd0",
+  "response_text": "**ANÁLISE**\n\n1. **Identificação dos dispositivos legais aplicáveis**: \n   - Artigo 59 da CLT: Regula a compensação de horas extras trabalhadas, determinando que o empregador pague ao empregado as horas extras realizadas, com acréscimo de 50% sobre o valor-hora da jornada normal.\n   - Artigo 59, parágrafo único da CLT: Permite a compensação de horas extras trabalhadas em dias úteis ou feriados, desde que não ultrapasse a jornada semanal normal.\n   - Precedentes do TST (como o mencionado Acórdão) e decisões judiciais que tratam da aplicabilidade das Convenções Coletivas de Trabalho (CCTs) no setor bancário, bem como a validade dessas convenções à luz do Tema 1046/STF.\n2. **Interpretação no caso concreto**:\n   - O cenário apresentado envolve um recurso de revista que questiona a aplicação da CCT em um setor específico (aéreo) com base na validade dessas convenções à luz do Tema 1046/STF, que foi julgado no setor bancário.\n   - A distinção fática é feita entre o setor bancário e aéreo, considerando as especificidades de cada atividade profissional.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada deve ser a de não aplicação da CCT em questão ao caso concreto do setor aéreo, com base na distinção fática entre os setores e nas razões legais que fundamentam essa distinção.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n- A fundamentação está embasada nos dispositivos legais da CLT (Artigos 59 e seu parágrafo único) e no princípio constitucional de proteção ao trabalho, bem como na jurisprudência do TST que trata sobre a aplicabilidade das CCTs.\n- O Acórdão em questão cita expressamente o precedente TST-Ag-RR-868-65.2021.5.13.0030 (2ª Turma, DEJT 06/12/2023), que é crucial para a fundamentação da decisão.\n- A distinção fática entre os setores e a aplicação do Tema 1046/STF são fundamentais para justificar a não aplicação da CCT em questão ao caso concreto.\n\n**Citações Legais**\n\n- Art. 59 da CLT: \"A remuneração das horas extras, calculada com base no salário-hora do empregado, será paga com acréscimo de 50% sobre o valor da hora normal.\"\n- Art. 59, parágrafo único da CLT: \"A compensação de horas extras trabalhadas em dias úteis ou feriados não excederá a jornada semanal normal.\"\n- Precedente TST-Ag-RR-868-65.2021.5.13.0030 (2ª Turma, DEJT 06/12/2023).\n- Tema 1046/STF: \"Validade de convenções coletivas de trabalho à luz do princípio da proteção ao trabalho.\"",
+  "tokens_in": 369,
+  "tokens_out": 739,
+  "latency_ms": 21686,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

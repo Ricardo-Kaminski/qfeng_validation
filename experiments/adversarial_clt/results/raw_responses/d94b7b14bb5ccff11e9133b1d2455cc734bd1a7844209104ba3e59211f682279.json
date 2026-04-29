@@ -1,0 +1,27 @@
+{
+  "sha256": "d94b7b14bb5ccff11e9133b1d2455cc734bd1a7844209104ba3e59211f682279",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T23:56:44Z",
+  "prompt_sha": "14b6f55520b996d23d5c895d459de69f73ca99dfa99a77933f3f5ac637db2f97",
+  "response_text": "1. **ANÁLISE:**\n\n   O predicado normativo aplicável ao caso é \"hour_bank_with_cct_max_1_year\". Este predicado estabelece que o banco de horas, quando previsto em uma Convenção Coletiva de Trabalho (CCT), deve respeitar um prazo máximo de 1 ano. No cenário apresentado, a CCT do setor farmacêutico prevê o banco de horas anual renovável automaticamente. Contudo, após o término do primeiro ano, a empresa solicitou uma extensão por mais três meses sem realizar nova negociação coletiva.\n\n   A empresa argumenta que a cláusula de renovação automática cobre o período adicional, mas isso entra em conflito com o limite máximo estabelecido pelo predicado normativo. O sindicato dos trabalhadores contesta essa prorrogação sem nova CCT, sustentando que tal prática violaria o prazo máximo de 1 ano para a acumulação de horas no banco.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base no predicado normativo \"hour_bank_with_cct_max_1_year\", recomenda-se que a extensão do banco de horas por mais três meses sem nova negociação coletiva seja considerada inválida. A empresa deve respeitar o limite máximo de 1 ano para o banco de horas conforme estabelecido na CLT e jurisprudência do TST. Qualquer prorrogação além desse período requer uma nova CCT ou acordo coletivo que formalize a extensão.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violado:** \"hour_bank_with_cct_max_1_year\" – A empresa violou o prazo máximo de 1 ano para o banco de horas ao solicitar uma extensão por mais três meses sem nova negociação coletiva.\n   \n   - **Cumpriu:** Não há predicados cumpridos no cenário, pois a tentativa da empresa de estender o período do banco de horas além do limite máximo não está em conformidade com as normas vigentes.",
+  "tokens_in": 370,
+  "tokens_out": 476,
+  "latency_ms": 13937,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

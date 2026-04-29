@@ -1,0 +1,19 @@
+{
+  "sha256": "dfb8ffaa737aad3a7a3157b87c791ef707fb3adeb34b2ff2c93cdddea57db3a4",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CTRL-NEG-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T10:55:34Z",
+  "prompt_sha": "c6c70b9d2292a4d84e6ab8d671e81e0bde2fa1ee5d8ff83f8b588274d9a8c177",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO contexto normativo apresentado refere-se exclusivamente ao **precedente jurisprudencial do TST (TST-Ag-RR-868-65.2021.5.13.0030)**, que trata da **compatibilidade fática entre o banco de horas em CCT bancária e a hipótese jurídica prevista no precedente**. Não há menção a dispositivos legais (como artigos da CLT, da Consolidação das Leis do Trabalho, ou outras normas) ou a outras súmulas do TST no contexto fornecido. A análise jurídica se baseia unicamente na **aplicação do ratio do precedente ao caso concreto**, conforme descrito no acórdão.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA: Qual deve ser a decisão e por quê**  \nA **decisão recomendada** é a **confirmação da aplicação do precedente TST-Ag-RR-868-65.2021.5.13.0030 ao caso concreto**, reconhecendo a **validade do banco de horas em CCT bancária** conforme o **ratio jurisprudencial** estabelecido no precedente. Isso se deve ao fato de que:  \n- O acórdão identificou **compatibilidade fática** entre o caso em julgamento e o precedente;  \n- A **análise jurisprudencial** demonstrou que o caso se enquadra na hipótese do precedente, sem contradição com as normas aplicáveis (embora estas não sejam explicitamente citadas no contexto).  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Dispositivo normativo central**: **TST-Ag-RR-868-65.2021.5.13.0030** (precedente jurisprudencial citado no acórdão).  \n- **Ementa do precedente**: Não fornecida no contexto, mas a **compatibilidade fática** e a **aplicação do ratio** ao caso concreto são explicitamente mencionadas no acórdão.  \n- **Limitação do contexto**: **Não há menção a dispositivos legais (artigos da CLT, leis trabalhistas, etc.) ou a outras súmulas do TST** no contexto fornecido. A fundamentação exclusiva se baseia no **precedente jurisprudencial** citado, sem referência a normas legais adicionais.  \n\n**Observação**: Se o contexto não contém dispositivos legais ou jurisprudenciais além do precedente citado, a fundamentação deve se limitar a esse precedente, conforme o princípio da **exaustividade da jurisprudência** (art. 1.015, CPC/1973).",
+  "tokens_in": 328,
+  "tokens_out": 1115,
+  "latency_ms": 82077,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

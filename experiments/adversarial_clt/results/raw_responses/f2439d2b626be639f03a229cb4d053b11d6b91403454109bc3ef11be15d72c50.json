@@ -1,0 +1,19 @@
+{
+  "sha256": "f2439d2b626be639f03a229cb4d053b11d6b91403454109bc3ef11be15d72c50",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-008",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T07:54:46Z",
+  "prompt_sha": "12b48022cdc961cef8c18d0d80b5483d4759aae81c7b71fc4609fcfa8fba3820",
+  "response_text": "### 1. **ANÁLISE**  \nOs dispositivos normativos aplicáveis ao caso são:  \n- **Cancelamento da OJ 394 da SDI-1 do TST em 2012**, conforme mencionado no contexto.  \n- **Incorporação da OJ 394 à Súmula 428 do TST**, com conteúdo **parcialmente distinto**.  \n\nA decisão do TRT está baseada em uma orientação jurisprudencial (**OJ 394**) que foi **cancelada** e substituída pela **Súmula 428**. A ausência de menção à Súmula 428 e ao cancelamento da OJ 394 no acórdão configura **omissão normativa**, já que a jurisprudência vigente deve ser considerada.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **decisão do TRT deve ser reformada**, pois:  \n- A **OJ 394 não está mais em vigor** desde 2012.  \n- A **Súmula 428**, que incorporou a OJ 394 com conteúdo **parcialmente distinto**, deve ser aplicada.  \n- A ausência de referência à Súmula 428 no acórdão configura **violação do princípio da legalidade** (art. 5º, XXXVI da CF/88) e **omissão de jurisprudência vigente**, o que pode levar à **nulidade da condenação por horas de sobreaviso**.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Cancelamento da OJ 394**: O contexto afirma explicitamente que a OJ 394 foi **cancelada pelo TST em 2012**.  \n- **Incorporação à Súmula 428**: O contexto menciona que a OJ 394 foi **incorporada à Súmula 428**, com conteúdo **parcialmente distinto**.  \n- **Omissão normativa**: A ausência de menção à Súmula 428 no acórdão do TRT viola o **princípio da jurisprudência vinculante** (art. 104, § 2º, da CF/88), que exige que os órgãos judiciais inferiores sigam a jurisprudência do TST.  \n\n**Limitação do contexto**: O texto normativo não fornece o **conteúdo completo da Súmula 428**, apenas sua existência e a incorporação da OJ 394. Portanto, não é possível identificar **detalhes específicos da Súmula 428** para fundamentar a aplicação de suas regras.  \n\n--- \n\n**Conclusão**: A decisão do TRT deve ser revisada, pois baseia-se em uma orientação jurisprudencial extinta e ignora a Súmula 428, que substituiu a OJ 394.",
+  "tokens_in": 290,
+  "tokens_out": 1183,
+  "latency_ms": 70453,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

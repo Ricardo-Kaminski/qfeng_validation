@@ -1,0 +1,27 @@
+{
+  "sha256": "30ecc8f85b8c54e74add8a25a8ccb5494a3409e28fbd5c4276e79948fe0df851",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T22:43:18Z",
+  "prompt_sha": "d850bd7abdcb7227665403051d94794859c730819b16d4aa28c926c6680567ee",
+  "response_text": "### 1. **ANÁLISE**  \n- **hour_bank_with_cct_max_1_year**:  \n  A CCT prevê o banco de horas anual, e o trabalhador utilizou o mecanismo dentro do prazo de 12 meses estabelecido. A compensação das horas acumuladas (em 11 meses) foi feita dentro do período máximo permitido (12 meses), conforme previsto no art. 61 da CLT (que permite o banco de horas com prazo máximo de 12 meses). A norma é cumprida.  \n\n- **recognition_of_collective_bargaining**:  \n  A CCT foi homologada pelo sindicato, o que demonstra que o acordo coletivo foi reconhecido e validado conforme exigido pela CLT (art. 611, § 1º). A prestação anual de contas do banco de horas também foi homologada, reforçando a validade do acordo coletivo. A norma é cumprida.  \n\n- **working_hours_negotiable_by_cct**:  \n  A CCT permite a negociação da jornada, incluindo o banco de horas, desde que respeitados os limites legais (ex.: jornada diária não superior a 10 horas, conforme art. 61, § 1º, CLT). No caso, a jornada diária nunca ultrapassou 10 horas, e as horas acumuladas foram compensadas com folgas dentro do prazo estabelecido. A norma é cumprida.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA empresa e o trabalhador cumprem integralmente as obrigações previstas na CLT e na CCT. Não há irregularidades no uso do banco de horas anual, na compensação das horas acumuladas ou na validação do acordo coletivo. A decisão recomendada é **confirmar a legalidade do banco de horas** e **reconhecer a conformidade com as normas trabalhistas**.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **hour_bank_with_cct_max_1_year**: **Conformidade** (o prazo de 12 meses foi respeitado).  \n- **recognition_of_collective_bargaining**: **Conformidade** (a CCT foi homologada pelo sindicato).  \n- **working_hours_negotiable_by_cct**: **Conformidade** (a jornada foi negociada dentro dos limites legais e compensada conforme a CCT).  \n\n**Nenhum predicado foi violado.**",
+  "tokens_in": 364,
+  "tokens_out": 906,
+  "latency_ms": 27625,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

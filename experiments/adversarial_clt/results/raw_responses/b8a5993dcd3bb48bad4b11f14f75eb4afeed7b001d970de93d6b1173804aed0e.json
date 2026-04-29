@@ -1,0 +1,26 @@
+{
+  "sha256": "b8a5993dcd3bb48bad4b11f14f75eb4afeed7b001d970de93d6b1173804aed0e",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-011",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T00:32:12Z",
+  "prompt_sha": "bc144ea0f3cb8c204e73a53f8ce3a51b3838ed6a04cd999b6329488180513107",
+  "response_text": "## Análise do Caso: Aplicação Indevida de Tema de Repercussão Geral em Ação Trabalhista\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, a análise e a decisão recomendada são as seguintes:\n\n**1. ANÁLISE:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi (Obrigação de fundamentar a decisão na ratio decidendi identificada):** Este predicado é central para a análise do caso. A ratio decidendi de um precedente é a razão de decidir, o princípio jurídico que fundamenta a decisão. Para que um precedente seja aplicado, é crucial que a ratio decidendi seja identificada e demonstrada sua aplicabilidade ao caso em questão. No cenário, o tribunal aplicou um Tema de Repercussão Geral (RG) sobre direito administrativo (servidores públicos) a um empregado celetista privado. A aplicação de um RG, por si só, não é ilegal, mas a ausência de explicação sobre a analogia e a demonstração de que a ratio do precedente (originalmente voltado para servidores públicos) seria aplicável ao regime trabalhista (celetista) configura uma **violação** deste predicado.  O tribunal não explicou *por que* a ratio do RG seria relevante e aplicável ao caso concreto do motorista celetista.  Simplesmente citar o RG não é suficiente para fundamentar a decisão.\n*   **due_process_of_law (Devido processo legal):** Embora a aplicação de um precedente possa parecer formalmente correta, a falta de fundamentação adequada e a ausência de explicação sobre a analogia utilizada podem comprometer o devido processo legal. O trabalhador tem o direito de entender a base jurídica da decisão que o afeta, e a aplicação de um precedente sem a devida explicação dificulta esse entendimento e pode gerar insegurança jurídica. A falta de clareza na aplicação do precedente impede que o trabalhador compreenda e, eventualmente, impugne a decisão de forma eficaz.  A aplicação de um precedente sem a devida explicação pode ser vista como uma forma de decisão arbitrária, o que é incompatível com o devido processo legal.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que a decisão do tribunal seja **anulada** ou, alternativamente, seja **revisada** para que o juiz apresente uma fundamentação clara e detalhada sobre a aplicabilidade da ratio decidendi do Tema de Repercussão Geral ao caso concreto do motorista celetista. A fundamentação deve demonstrar a analogia existente entre os dois casos, explicando por que os princípios jurídicos aplicáveis aos servidores públicos também seriam adequados para regular a jornada de trabalho do motorista celetista. A ausência dessa fundamentação compromete a validade da decisão e viola os princípios do devido processo legal e da fundamentação das decisões judiciais.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** **Violação**. A decisão não foi devidamente fundamentada na ratio decidendi do precedente utilizado.\n*   **due_process_of_law:** **Violação**. A falta de fundamentação adequada comprometeu a transparência e a compreensibilidade da decisão, impactando o direito do trabalhador de entender e questionar a decisão judicial.",
+  "tokens_in": 310,
+  "tokens_out": 734,
+  "latency_ms": 20203,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

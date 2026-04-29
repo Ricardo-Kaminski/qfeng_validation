@@ -1,0 +1,29 @@
+{
+  "sha256": "311a483d5b25eb8e7774233328a24be0132d9e594203ac2de1575fb78c2a0db0",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-011",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T00:48:21Z",
+  "prompt_sha": "6fac52d3c2ea75bbed1139d969eba52baa7f8af6a911387e6e7845d9583ea12b",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, segue a análise, decisão recomendada e identificação de cumprimento/violação dos predicados:\n\n**1. ANÁLISE:**\n\n*   **semester_hour_bank_requires_cct_or_act:** Este predicado estabelece que a implementação de um banco de horas semestral exige um acordo coletivo de trabalho (CCT) ou uma autorização administrativa (ato). No caso, a transportadora firmou um CCT com o sindicato dos trabalhadores, o que atende a este predicado. A existência do CCT é um ponto crucial para a análise da validade da cláusula questionada.\n\n*   **CLT Art. 611-B, IX:** Este artigo da CLT, em sua alínea IX, protege o direito dos trabalhadores ao adicional de horas extras, mesmo em situações de acordos ou convenções coletivas. A questão central do caso é se a cláusula que exige a renúncia ao adicional de horas extras, em caso de não compensação do banco de horas no prazo, é válida à luz deste artigo. A jurisprudência do TST tem sido consistente em proteger o direito ao adicional de horas extras, considerando-o irrenunciável. A validade da renúncia, mesmo em CCT, é vista com ressalvas, especialmente quando a compensação não ocorre no prazo estipulado.\n\n**Análise da Cláusula de Renúncia:**\n\nA cláusula que exige a renúncia ao adicional de horas extras em caso de não compensação do banco de horas no prazo é a parte mais problemática do CCT. Embora a lei permita a negociação coletiva para regular o banco de horas, ela não permite a renúncia a direitos mínimos assegurados pela legislação trabalhista, como o adicional de horas extras. A jurisprudência do TST tem limitado a possibilidade de renúncia a direitos mínimos, mesmo em acordos coletivos, especialmente quando a não compensação do banco de horas no prazo implica em uma situação de exploração do trabalhador. A exigência de abrir mão do adicional de horas extras, como condição para a utilização do banco de horas, pode ser interpretada como uma forma de pressão sobre o trabalhador, que pode se sentir compelido a concordar com a renúncia para poder usufruir do benefício do banco de horas.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que a cláusula que exige a renúncia ao adicional de horas extras em caso de não compensação do banco de horas no prazo seja considerada **nula e inválida**.\n\n*   **Fundamentação:** A cláusula viola o princípio da proteção ao trabalhador, consagrado na CLT, e a jurisprudência do TST tem reiteradamente entendido que a renúncia a direitos mínimos, como o adicional de horas extras, não pode ser objeto de negociação coletiva, especialmente quando a não compensação no prazo implica em uma situação de exploração.\n*   **Alternativa:** O CCT pode prever o banco de horas semestral, estabelecendo prazos para a compensação e as consequências do não cumprimento, mas sem permitir a renúncia ao adicional de horas extras. Caso a compensação não ocorra no prazo, o trabalhador deve ter direito ao adicional de horas extras, conforme previsto na legislação.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **semester_hour_bank_requires_cct_or_act:** **Conformidade**. A existência do CCT atende a este predicado.\n*   **CLT Art. 611-B, IX:** **Violação**. A cláusula de renúncia ao adicional de horas extras, em caso de não compensação no prazo, viola este artigo, que protege o direito ao adicional de horas extras.\n\n**Observações:**\n\n*   Esta análise é baseada unicamente nos predicados normativos fornecidos. Outros aspectos do caso, como a interpretação da CCT como um todo e a análise da boa-fé das partes, poderiam influenciar a decisão final.\n*   A decisão final caberá ao Poder Judiciário, que avaliará o caso concreto à luz da legislação e da jurisprudência aplicável.\n*   É importante ressaltar que a jurisprudência do TST é dinâmica e pode evoluir, portanto, esta análise reflete o entendimento atual sobre o tema.",
+  "tokens_in": 330,
+  "tokens_out": 952,
+  "latency_ms": 26218,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

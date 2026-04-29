@@ -1,0 +1,29 @@
+{
+  "sha256": "da58cb2302881d4a16c0274737ecdbbd424b46ea26062f4503c36b098d42668f",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-010",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T01:26:04Z",
+  "prompt_sha": "70c99fcc6dafa8ce31ce53bbe06b00e3241aab50f61531be099540706399dce4",
+  "response_text": "**ANÁLISE**\n\n1. **semester_hour_bank_requires_cct**: O banco de horas foi estabelecido por meio de um Acordo Coletivo de Trabalho (ACT), que é uma forma válida de criar um plano de compensação de horas extras, conforme previsto na CLT e jurisprudência do TST. Portanto, este predicado não se aplica ao caso concreto.\n2. **hour_bank_without_cct_max_6_months**: O banco de horas foi limitado a 40h mensais de acúmulo e prazo máximo de 5 meses, o que é menor do que o limite de 6 meses previsto no predicado. Portanto, este predicado não se aplica ao caso concreto.\n3. **maximum_daily_working_hours_8h**: O cenário descreve que não há horas extras acima de 2h/dia, o que está abaixo do limite máximo diário de trabalho de 8h previsto no predicado. Portanto, este predicado não se aplica ao caso concreto.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a empresa continue operando sob as condições estabelecidas no Acordo Coletivo de Trabalho (ACT), pois todas as obrigações e proibições previstas nos predicados normativos listados estão sendo cumpridas.\n\n**PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n* **semester_hour_bank_requires_cct**: Conformidade\n* **hour_bank_without_cct_max_6_months**: Conformidade (pois o prazo máximo de 5 meses é menor do que o limite previsto)\n* **maximum_daily_working_hours_8h**: Conformidade (pois não há horas extras acima de 2h/dia)\n\nObservação: Nenhum dos predicados normativos listados foi violado no cenário descrito.",
+  "tokens_in": 372,
+  "tokens_out": 413,
+  "latency_ms": 6921,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

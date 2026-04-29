@@ -1,0 +1,19 @@
+{
+  "sha256": "186d760f05184d02f46eb1553986806f0ed939ccf8853d9239106f5a1c4d4edf",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T11:38:13Z",
+  "prompt_sha": "fe5ea1e90bce3809f6b9e66296de41abc23c26c20d8a019c18931364e6d77260",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a questão central é se uma Convenção Coletiva de Trabalho (CCT) do setor hoteleiro pode estabelecer um prazo de compensação para banco de horas superior ao limite legal de 12 meses. A empresa argumenta que a CCT tem autonomia para flexibilizar esse limite, enquanto o sindicato contesta com base na Súmula TST 85, V.\n\nOs dispositivos normativos relevantes são:\n\n- **Súmula TST 85, V:** Esta súmula estabelece que é de ordem pública a limitação do prazo para compensação de horas extras em até um ano. Isso significa que qualquer acordo coletivo ou individual que contrarie essa norma seria considerado nulo.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é manter o limite de 12 meses para a compensação das horas extras, conforme estabelecido na Súmula TST 85, V. A CCT não pode estender esse prazo além do limite legal, pois a norma é considerada de ordem pública.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Súmula TST 85, V:** Esta súmula explicitamente determina que o prazo máximo para compensação de horas extras não pode exceder um ano, sendo uma norma de ordem pública. Portanto, qualquer acordo coletivo ou individual que contrarie essa limitação é considerado nulo.\n\nA autonomia das partes coletivas e o princípio da adequação setorial negociada são importantes no Direito do Trabalho brasileiro, mas não podem sobrepor-se a normas de ordem pública. A Súmula TST 85, V estabelece claramente que o limite de um ano para compensação de horas extras é uma dessas normas.\n\nPortanto, a CCT deve ser ajustada para cumprir com a limitação de 12 meses, conforme determinado pela Súmula TST 85, V.",
+  "tokens_in": 308,
+  "tokens_out": 465,
+  "latency_ms": 26546,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

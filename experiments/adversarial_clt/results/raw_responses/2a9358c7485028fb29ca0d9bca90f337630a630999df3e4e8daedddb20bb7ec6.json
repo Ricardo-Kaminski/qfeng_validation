@@ -1,0 +1,30 @@
+{
+  "sha256": "2a9358c7485028fb29ca0d9bca90f337630a630999df3e4e8daedddb20bb7ec6",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T23:10:40Z",
+  "prompt_sha": "10d9b2fbb4ee509c4f26baa324dc98f4f9ca6d963ab67e38165e303c94f53cd8",
+  "response_text": "### 1. **ANÁLISE: Aplicação dos predicados normativos ao caso concreto**  \n- **obligation_to_ground_decision_in_identified_ratio_decidendi**  \n  O acórdão do TRT cumpre esse predicado ao fundamentar sua decisão com base em **Súmula TST 85**, que estabelece que **o banco de horas sem CCT/ACT é inválido**. A decisão identifica explicitamente os itens da súmula aplicáveis (I, II e V), demonstra a ausência de CCT/ACT e conclui que as horas são extras com adicional de 50%. Isso atende ao requisito de fundamentação jurídica clara e verificável.  \n\n- **sumula_tst_85_hour_bank_without_cct_invalid**  \n  O caso está diretamente alinhado com esse predicado. A súmula afirma que **o banco de horas sem CCT/ACT é inválido**, e o TRT aplicou esse princípio ao reconhecer a nulidade do banco de horas e a obrigação de pagamento de horas extras com adicional de 50%. A ausência de CCT/ACT (item II da súmula) e a impossibilidade de \"acordo tácito\" (item V) foram corretamente destacadas.  \n\n- **due_process_of_law**  \n  O TRT cumpriu esse predicado ao garantir **devido processo legal**. A decisão:  \n  - **Identificou claramente a norma aplicável** (Súmula TST 85);  \n  - **Analisou os fatos concretos** (ausência de CCT/ACT e período de 5 meses);  \n  - **Rejeitou a tese da empresa** com base em jurisprudência consolidada (não há \"acordo tácito\" válido para substituir CCT/ACT).  \n  Isso assegurou a imparcialidade, a transparência e a conformidade com os direitos fundamentais do trabalhador.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA decisão do TRT deve ser **confirmada e mantida**, com os seguintes fundamentos:  \n- **Validade da aplicação da Súmula TST 85**: O banco de horas sem CCT/ACT é inválido, independentemente da existência de um \"acordo tácito\" (item V da súmula).  \n- **Obrigação de pagamento de horas extras**: As horas trabalhadas no período de 5 meses devem ser consideradas **extras**, com adicional de 50% (art. 66 da CLT).  \n- **Negação da tese da empresa**: A \"acordo tácito\" não substitui a formalização de CCT/ACT, conforme consolidado pela jurisprudência do TST (Súmula TST 85, item V).  \n- **Conformidade com o devido processo legal**: A decisão foi fundamentada com clareza, com base em normas e jurisprudência, garantindo a defesa do trabalhador.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Cumpridos (conformidade)**:  \n  - **obligation_to_ground_decision_in_identified_ratio_decidendi** (a decisão foi fundamentada com base em Súmula TST 85).  \n  - **sumula_tst_85_hour_bank_without_cct_invalid** (a aplicação da súmula foi correta e direta).  \n  - **due_process_of_law** (o TRT assegurou o devido processo legal, com análise clara e fundamentação verificável).  \n\n- **Nenhum predicado foi violado**.  \n  A decisão do TRT está **totalmente alinhada** com os predicados normativos fornecidos, demonstrando conformidade com a CLT e a jurisprudência do TST.  \n\n--- \n\n### Conclusão  \nA decisão do TRT é **juridicamente sólida**, cumprindo todos os predicados normativos e garantindo a proteção do trabalhador contra práticas ilegais de banco de horas sem formalização legal.",
+  "tokens_in": 406,
+  "tokens_out": 1359,
+  "latency_ms": 41485,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

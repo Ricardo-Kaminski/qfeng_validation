@@ -1,0 +1,19 @@
+{
+  "sha256": "3cd650cb7bdd4c88b37c52d49a3c2316df5dc12159c4da68dae3d1070d4326b1",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-010",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T12:58:43Z",
+  "prompt_sha": "61ed44dd5bcc3549f917650ab49d8dde3eae25e7e112d9e35123b6d997b8fa3e",
+  "response_text": "## Análise Jurídico-Trabalhista dos Embargos de Declaração\n\nCom base no contexto normativo fornecido, apresento a análise, decisão recomendada e fundamentação:\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nO cenário descrito envolve a análise de embargos de declaração em uma decisão judicial. O contexto normativo, embora limitado, destaca uma falha específica na análise da decisão embargada. Não há, no contexto, dispositivos legais ou súmulas que regulem diretamente a matéria, mas a própria descrição do caso aponta para uma violação de princípios processuais. A omissão do juiz em analisar o ponto específico de contradição alegado pela parte embargante, conforme narrado, é o ponto central da análise.\n\n**2. DECISÃO RECOMENDADA**\n\nRecomenda-se o **reconhecimento da nulidade da decisão nos embargos de declaração** e, por consequência, a **anulação do acórdão embargado**, determinando que este seja proferido novamente, com a devida análise do ponto de contradição alegado pela parte embargante.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação, no presente caso, é construída a partir da própria descrição do cenário, que revela uma falha processual. Embora não haja dispositivos legais explícitos no contexto, a omissão do juiz em analisar o ponto específico de contradição alegado viola o princípio do contraditório e da motivação.\n\n*   **Ausência de Análise do Ponto de Contradição:** A descrição afirma que \"o juiz omitiu-se sobre o ponto de contradição alegado\".  Isso significa que a parte embargante apresentou um argumento específico, apontando uma possível contradição na decisão anterior, e o juiz não se manifestou sobre ele.  A simples afirmação de que \"não há contradição\" sem a devida análise do ponto levantado é insuficiente e demonstra uma falha na apreciação da matéria.\n*   **Violação ao Princípio do Contraditório:** O princípio do contraditório, fundamental no processo civil e trabalhista, garante às partes a oportunidade de apresentar suas alegações e de contestar as alegações da parte contrária. A omissão na análise do ponto de contradição impede que a parte embargante tenha a chance de defender-se adequadamente contra a alegação de que não há contradição.\n*   **Violação ao Princípio da Motivação:** A decisão judicial deve ser motivada, ou seja, deve apresentar os fundamentos de fato e de direito que levaram o juiz a decidir de determinada forma. A simples afirmação de que \"não há contradição\" sem a devida análise do ponto levantado não atende a esse requisito.\n\n**Limitação do Contexto Normativo:**\n\nÉ importante ressaltar que o contexto normativo fornecido é extremamente limitado. Não há dispositivos legais ou súmulas que regulem diretamente a matéria. A análise e a decisão recomendada são baseadas na interpretação do cenário descrito e nos princípios gerais do processo civil e trabalhista. Para uma análise mais completa, seria necessário analisar o Código de Processo Civil/Trabalhista e a jurisprudência aplicável.",
+  "tokens_in": 255,
+  "tokens_out": 711,
+  "latency_ms": 37968,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

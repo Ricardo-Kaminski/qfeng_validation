@@ -1,0 +1,19 @@
+{
+  "sha256": "89acfd3f899d51eec441900e2c268df773a2e42d9bca534077e057cdf43525ad",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T20:28:06Z",
+  "prompt_sha": "78faf043ffafa13b62c94bafbb4c2e0135abf258fd4b2cf3a75e7132cf2b38ec",
+  "response_text": "**ANÁLISE**\n\nO caso apresentado envolve a celebração de uma Convenção Coletiva de Trabalho (CCT) entre uma empresa e um sindicato, que estabeleceu regras sobre banco de horas. O contexto normativo aplicável ao caso é o seguinte:\n\n- **Banco de Horas**: A CCT estabelece um banco de horas com duração de 6 meses, acúmulo máximo de 60h mensais e extrato entregue mensalmente.\n- **Conversão em Adicional**: Cláusula que prevê a conversão em adicional de 50% para saldo não compensado após o período do banco de horas.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que as horas acumuladas nos últimos 5 meses sejam convertidas em adicional de acordo com a cláusula estabelecida na CCT, pois todas as horas foram compensadas em folgas previamente comunicadas e não há contestação sindical ou individual.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n1. **CCT Regulamentada**: A celebração da CCT é regulamentada pela Lei nº 9.841/1999, que estabelece a possibilidade de convenções coletivas de trabalho entre empregadores e sindicatos.\n\n2. **Banco de Horas**: O dispositivo específico sobre banco de horas não é mencionado em nenhum artigo da Constituição Federal ou das leis trabalhistas básicas, como o Código Civil (Lei nº 10.406/2002) ou o Código do Trabalho (Lei nº 5.889/1973). No entanto, a CCT é um instrumento legal que pode estabelecer regras específicas sobre banco de horas, desde que seja registrada na SRTE e cumpridas as formalidades legais.\n\n3. **Conversão em Adicional**: A cláusula de conversão em adicional de 50% para saldo não compensado é uma disposição específica da CCT e não há dispositivo legal federal que o contradiga ou o impede, desde que seja aplicada de acordo com as regras estabelecidas na CCT.\n\n4. **Regulamentação e Registro**: A CCT foi registrada na SRTE (Superintendência Regional do Trabalho), o que é um requisito legal para a validade das convenções coletivas de trabalho, conforme previsto no artigo 614 da CLT (Consolidação das Leis do Trabalho).\n\n5. **Notificação e Comunicação**: Todos os trabalhadores receberam cópias da CCT, o que atende à exigência legal de notificação dos empregados sobre as convenções coletivas de trabalho.\n\n**CONCLUSÃO**\n\nA decisão recomendada é baseada na aplicação das regras estabelecidas na CCT e nos requisitos legais para a validade das convenções coletivas de trabalho. A conversão em adicional de 50% para saldo não compensado após o período do banco de horas, conforme previsto na cláusula da CCT, é uma disposição específica que não contraria nenhuma norma legal federal aplicável ao caso.",
+  "tokens_in": 301,
+  "tokens_out": 713,
+  "latency_ms": 12054,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

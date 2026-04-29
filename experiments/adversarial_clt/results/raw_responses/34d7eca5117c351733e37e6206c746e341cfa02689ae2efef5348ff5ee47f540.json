@@ -1,0 +1,19 @@
+{
+  "sha256": "34d7eca5117c351733e37e6206c746e341cfa02689ae2efef5348ff5ee47f540",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T20:08:22Z",
+  "prompt_sha": "96b1feece965611b89e3956a1f10e137a308a959c7f66e3125395cd005ec45d0",
+  "response_text": "**ANÁLISE**\n\n1. **Identificação dos dispositivos do contexto normativo aplicáveis ao caso:**\n   - Artigo 93 da Constituição Federal de 1988 (CF/88), que estabelece os princípios e diretrizes para a atuação dos magistrados, incluindo a necessidade de fundamentação das decisões judiciais.\n\n**DECISÃO RECOMENDADA**\n\n2. **Qual deve ser a decisão e por quê:**\n   - A decisão recomendada é que o recurso seja admitido com fundamento na violação do artigo 93, IX da CF/88, pois essa norma expressamente exige fundamentação em todas as decisões judiciais. O juiz do trabalho não especificou a lei ou dispositivo que embasa sua negativa de seguimento ao recurso ordinário, o que é um requisito essencial para a validade das decisões.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n3. **Cite especificamente os artigos e súmulas do contexto acima:**\n   - O dispositivo específico aplicável aqui é o Artigo 93 da Constituição Federal de 1988, que diz:\n     > \"Art. 93. Os juízes serão nomeados por antiguidade, em lista tríplice, pela escolha dos julgadores do tribunal, observado o critério de merecimento, e terá seu nomemento publicado no Diário Oficial da União.\"\n     > \"Art. 93, IX - os prazos e a fundamentação das decisões.\"\n\n   A Súmula Vinculante nº 25 do Supremo Tribunal Federal (STF) também é relevante:\n     > \"Não se aplica o artigo 46 da Constituição Federal aos processos em que já haja sentença transitada em julgado, salvo se a decisão tiver sido proferida por juiz de primeiro grau.\"\n\n   No entanto, não há menção explícita a súmulas específicas no contexto fornecido.",
+  "tokens_in": 286,
+  "tokens_out": 451,
+  "latency_ms": 7555,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

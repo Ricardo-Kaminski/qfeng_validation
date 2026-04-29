@@ -1,0 +1,27 @@
+{
+  "sha256": "b19e4185e325f752f1a2087db27c9c75ecc51f418b7ad803e6d8d713ebec9288",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:26:50Z",
+  "prompt_sha": "14b6f55520b996d23d5c895d459de69f73ca99dfa99a77933f3f5ac637db2f97",
+  "response_text": "**ANÁLISE**\n\n1. **hour_bank_with_cct_max_1_year**: Esse predicado normativo estabelece que o banco de horas, quando previsto em CCT, não pode exceder 1 ano sem uma nova negociação coletiva. Nesse caso, a empresa solicitou extensão por mais 3 meses após o término do prazo de 12 meses estabelecido na CCT, sem que houvesse uma nova negociação coletiva. Portanto, esse predicado é aplicável e indicaria violação.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada seria a condenação da empresa por violar o prazo máximo de 1 ano para o banco de horas estabelecido na CCT, sem uma nova negociação coletiva. A empresa não pode simplesmente renovar ou prorrogar o banco de horas sem que haja uma nova negociação coletiva.\n\n**PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **hour_bank_with_cct_max_1_year**: Violação (a empresa excedeu o prazo máximo de 1 ano para o banco de horas sem uma nova negociação coletiva).\n\nEsses predicados não indicam violação ou conformidade em relação ao cenário descrito.",
+  "tokens_in": 369,
+  "tokens_out": 287,
+  "latency_ms": 4938,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

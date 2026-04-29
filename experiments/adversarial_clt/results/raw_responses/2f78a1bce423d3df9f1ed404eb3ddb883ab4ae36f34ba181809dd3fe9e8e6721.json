@@ -1,0 +1,19 @@
+{
+  "sha256": "2f78a1bce423d3df9f1ed404eb3ddb883ab4ae36f34ba181809dd3fe9e8e6721",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T07:13:01Z",
+  "prompt_sha": "7b0cbc03ad98143352874ea0c76ba5a873641ee2e08420b887502c4876d7fb17",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve uma empresa de manufatura com jornada de trabalho de 8 horas diárias e 44 horas semanais para todos os empregados. Nesse contexto, é importante identificar as disposições legais aplicáveis.\n\nOs dispositivos legais mais relevantes nesse caso são:\n\n- Artigo 7º da Constituição Federal (CF), que estabelece o direito a jornada de trabalho razoável e à remuneração do tempo de trabalho efetivamente prestado.\n- Artigo 59 da Consolidação das Leis do Trabalho (CLT), que dispõe sobre as condições de trabalho, incluindo a duração da jornada de trabalho e os intervalos intrajornada.\n- Artigo 237 da CLT, que trata sobre o registro de ponto e sua importância para fins trabalhistas.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando que a empresa mantém uma jornada de trabalho de 8 horas diárias e 44 horas semanais, sem banco de horas, trabalho noturno ou horas extras, e que os intervalos intrajornada são concedidos integralmente (1 hora para jornada de 8h), não há evidências de violação das disposições legais trabalhistas. Além disso, a empresa utiliza registros de ponto eletrônicos e auditáveis, o que contribui para a transparência e a legalidade dos registros.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n1. **Artigo 7º da Constituição Federal (CF)**: O direito à jornada de trabalho razoável está garantido pela CF. A empresa, ao manter uma jornada de 8 horas diárias e 44 horas semanais, está respeitando essa norma.\n\n2. **Artigo 59 da Consolidação das Leis do Trabalho (CLT)**: Esse artigo estabelece as condições de trabalho, incluindo a duração da jornada de trabalho e os intervalos intrajornada. A empresa está cumprindo com essas exigências.\n\n3. **Artigo 237 da CLT**: O registro de ponto é fundamental para fins trabalhistas. A utilização de registros eletrônicos e auditáveis pela empresa contribui para a transparência e legalidade dos registros, conforme previsto nesse artigo.\n\n4. **Súmula do TST (Tribunal Superior do Trabalho)**: Embora não seja mencionada uma súmula específica, é importante lembrar que o TST tem jurisprudência consolidada sobre a necessidade de cumprimento das normas trabalhistas, incluindo jornadas de trabalho e registro de ponto.\n\n5. **Precedentes Constitucionais**: A decisão deve estar alinhada com os princípios constitucionais da razoabilidade e da transparência no ambiente de trabalho.\n\n**CONCLUSÃO**\n\nConsiderando a análise acima, não há fundamento para questionar a legalidade das práticas trabalhistas da empresa. Portanto, recomenda-se que a decisão seja favorável à empresa, reconhecendo sua conformidade com as disposições legais trabalhistas aplicáveis.",
+  "tokens_in": 301,
+  "tokens_out": 713,
+  "latency_ms": 23452,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

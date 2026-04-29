@@ -1,0 +1,19 @@
+{
+  "sha256": "e6932a5f18f01b1d9edf5da4d7160bb4af265f066ec94f92088b6d2a23938630",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T19:53:03Z",
+  "prompt_sha": "28e5ee2fe40269eaf7e270303edc3924e42a31538f7fe0bdd2f1ad02643e5cf1",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso: Banco de Horas sem CCT\n\nCom base no contexto normativo fornecido, apresento a análise, decisão recomendada e fundamentação para o caso de banco de horas sem negociação coletiva.\n\n**1. ANÁLISE: Dispositivos Normativos Aplicáveis**\n\nOs dispositivos normativos aplicáveis ao caso, conforme explicitado na decisão trabalhista, são:\n\n*   **CLT, Art. 489, §1°, V:** Este artigo, via remissão ao Código de Processo Civil/CLT, estabelece a possibilidade de a sentença ser revista em grau de recurso quando houver \"divergência jurisprudencial\". A menção a este dispositivo indica que a decisão se baseia em uma interpretação divergente de outros tribunais sobre a validade do banco de horas.\n*   **Súmula TST 85, V:** Esta súmula trata da necessidade de negociação coletiva para a implementação do banco de horas. Embora a decisão mencione a Súmula, o contexto não fornece o texto integral da mesma, limitando a análise à sua referência.\n*   **TST-Ag-RR-868-65.2021:** Este é um precedente do Tribunal Superior do Trabalho (TST) que, aparentemente, tratava de um caso de banco de horas com negociação coletiva bancária. A decisão em análise utiliza o método *distinguishing* para diferenciar o caso concreto do precedente, demonstrando que a existência de negociação coletiva no precedente não implica a validade do banco de horas na ausência de negociação coletiva no caso em análise.\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada, com base na fundamentação apresentada na decisão trabalhista, é de **declarar a invalidade do banco de horas implementado na ausência de negociação coletiva**.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação para a decisão se baseia nos seguintes pontos, extraídos do contexto normativo:\n\n*   **Violação da Súmula TST 85, V (interpretação):** Embora o texto integral da Súmula não esteja presente no contexto, a menção à Súmula 85, V, na decisão trabalhista, indica que ela é um elemento central na análise. A decisão entende que a implementação do banco de horas sem negociação coletiva viola o entendimento da Súmula, mesmo que a interpretação da Súmula não esteja explicitada no contexto.\n*   **Diferenciação do Precedente TST-Ag-RR-868-65.2021 (Distinguishing):** A decisão aplicou o método *distinguishing*, o que significa que, embora o precedente TST-Ag-RR-868-65.2021 trate de um banco de horas, a decisão o distingue porque o caso do precedente envolveu negociação coletiva bancária, enquanto o caso em análise não possui essa negociação. A ausência de negociação coletiva no caso concreto é, portanto, um fator determinante para a invalidade do banco de horas.\n*   **CLT, Art. 489, §1°, V (possibilidade de revisão):** A citação deste artigo reforça a possibilidade de a decisão ser revista em grau de recurso, caso haja divergência jurisprudencial sobre a validade do banco de horas sem negociação coletiva.\n\n**Limitações:**\n\nA análise é limitada pela ausência do texto integral da Súmula TST 85, V no contexto normativo fornecido. A interpretação da Súmula é inferida da menção na decisão trabalhista, o que pode gerar margem para diferentes interpretações. Além disso, a análise do precedente TST-Ag-RR-868-65.2021 é restrita à informação de que ele tratava de um caso com negociação coletiva bancária, sem acesso ao seu conteúdo.",
+  "tokens_in": 298,
+  "tokens_out": 871,
+  "latency_ms": 23843,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

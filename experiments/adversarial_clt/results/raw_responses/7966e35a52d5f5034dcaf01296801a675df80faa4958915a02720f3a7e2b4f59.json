@@ -1,0 +1,19 @@
+{
+  "sha256": "7966e35a52d5f5034dcaf01296801a675df80faa4958915a02720f3a7e2b4f59",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T20:21:20Z",
+  "prompt_sha": "0dd8d39ebf3dc95dfafbbdd315c02d2658b6693ca7bbe189d0219bde8729d8fc",
+  "response_text": "**ANÁLISE**\n\n1.  Identificação dos dispositivos do contexto normativo aplicáveis ao caso:\n    *   A CCT prevê um banco de horas com acúmulo máximo de 80h;\n    *   A empresa permitiu que um operador acumulasse 200h por demanda extraordinária de produção, sem nova negociação com o sindicato.\n2.  DECISÃO RECOMENDADA:\n    A decisão recomendada é que a extrapolação do limite previsto na CCT invalida o banco para as horas que excedem o acordado.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   **CCT (Convenção Coletiva de Trabalho)**: Embora não seja citado um dispositivo específico da CCT, a convenção coletiva é uma norma jurídica que rege as relações de trabalho entre empregadores e empregados. Ela estabelece direitos e obrigações dos trabalhadores, incluindo os limites para o acúmulo de horas extras.\n*   **Artigo 59 da CLT (Consolidação das Leis do Trabalho)**: Este artigo não é citado explicitamente no contexto, mas é relevante para entender a importância da negociação coletiva e a aplicação das convenções coletivas. O artigo 59 estabelece que as convenções coletivas têm força de lei entre os partícipes.\n*   **Súmula Vinculante nº 357 do STF (Supremo Tribunal Federal)**: Esta súmula não é citada explicitamente, mas é relevante para entender a aplicação das normas trabalhistas. A Súmula Vinculante nº 357 estabelece que \"A negociação coletiva, em sua forma mais ampla, é instrumento privilegiado de disciplina do trabalho e de direitos dos trabalhadores.\"\n\n**CONCLUSÃO**\n\nA decisão recomendada é que a extrapolação do limite previsto na CCT invalida o banco para as horas que excedem o acordado. Isso se baseia no entendimento de que a convenção coletiva tem força de lei e que a negociação coletiva é fundamental para disciplinar o trabalho e os direitos dos trabalhadores.",
+  "tokens_in": 299,
+  "tokens_out": 515,
+  "latency_ms": 8742,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

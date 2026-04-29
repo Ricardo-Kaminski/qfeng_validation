@@ -1,0 +1,19 @@
+{
+  "sha256": "f181dff572f7c9181b28a0b2d81f448c0078145759365b21847c5a8184fad66b",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T19:55:33Z",
+  "prompt_sha": "2fe1ebedc34b383e50481fe1e95a5b121569d27c199d9e90565501c9e095e99d",
+  "response_text": "## ANÁLISE, DECISÃO RECOMENDADA E FUNDAMENTAÇÃO NORMATIVA\n\nConsiderando o cenário apresentado e o contexto normativo fornecido, a análise, decisão recomendada e fundamentação são as seguintes:\n\n**1. ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso.**\n\nO único dispositivo normativo explicitamente mencionado no contexto é o **Artigo 20 da Lei de Introdução às Normas do Direito Brasileiro (LINDB)**.  O cenário descreve que a decisão em embargos de declaração identificou a omissão de análise desse artigo e o enfrentou com base na jurisprudência do Superior Tribunal de Justiça (STJ) sobre o mesmo.  Embora não haja outros dispositivos normativos expressos no contexto, a referência à jurisprudência do STJ sobre o LINDB Art. 20 implica que essa jurisprudência é considerada relevante para a interpretação e aplicação do artigo no caso concreto.\n\n**2. DECISÃO RECOMENDADA: Qual deve ser a decisão e por quê.**\n\nA decisão recomendada é **manter a decisão dos embargos de declaração**, que concluiu que o LINDB Art. 20 não se aplica ao caso trabalhista individual. A decisão já foi motivada e fundamentada com base na jurisprudência do STJ, suprindo a omissão identificada.  Reverter essa decisão implicaria em questionar a interpretação do STJ sobre a aplicação do LINDB Art. 20, o que não parece ser justificável com base apenas no contexto fornecido.\n\n**3. FUNDAMENTAÇÃO NORMATIVA: Cite especificamente os artigos e súmulas do contexto acima.**\n\nA fundamentação se baseia exclusivamente no contexto fornecido:\n\n*   **LINDB Art. 20:** O artigo é central para a questão, pois foi identificado como ponto omisso na decisão original. O cenário descreve que a decisão em embargos de declaração enfrentou o argumento relacionado a este artigo.\n*   **Jurisprudência do STJ sobre LINDB:** A decisão dos embargos de declaração utilizou a jurisprudência do STJ para fundamentar a conclusão de que o LINDB Art. 20 não se aplica ao caso trabalhista individual.  Embora a jurisprudência em si não esteja transcrita no contexto, a referência a ela é crucial para a compreensão da fundamentação da decisão.\n*   **Decisão motivada e verificável:** O cenário ressalta que a omissão foi suprida com fundamento identificável e verificável, o que reforça a validade da decisão dos embargos de declaração.\n\n**Limitação:**\n\nÉ importante ressaltar que a análise é limitada ao contexto normativo fornecido. A ausência de transcrição da jurisprudência do STJ sobre o LINDB Art. 20 impede uma análise mais aprofundada da fundamentação da decisão dos embargos de declaração.  Além disso, a análise não pode considerar outros dispositivos normativos ou jurisprudências que não estejam expressamente mencionados no contexto.",
+  "tokens_in": 263,
+  "tokens_out": 657,
+  "latency_ms": 17855,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

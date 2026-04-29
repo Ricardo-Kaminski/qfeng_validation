@@ -1,0 +1,19 @@
+{
+  "sha256": "05e65b42a57f87d0f22b8bb540c83b86c04c40deb29fbff715dc45ed5c16e445",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T12:43:45Z",
+  "prompt_sha": "96b1feece965611b89e3956a1f10e137a308a959c7f66e3125395cd005ec45d0",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso\n\nConsiderando o cenário apresentado e o contexto normativo fornecido, a análise, decisão recomendada e fundamentação normativa são as seguintes:\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nO único dispositivo normativo explicitamente mencionado no contexto é o **Artigo 93, IX, da Constituição Federal de 1988 (CF/88)**. Este artigo estabelece a obrigatoriedade de fundamentação das decisões judiciais.\n\nNão há outros dispositivos normativos presentes no contexto que possam ser diretamente aplicados à análise do caso. A referência genérica do juiz à \"lei\" e à afirmação de que \"nega seguimento na forma da lei\" não especifica qual lei ou dispositivo estaria embasando a decisão, tornando a análise mais complexa.\n\n**2. DECISÃO RECOMENDADA**\n\nRecomenda-se que o Tribunal do Trabalho, ao julgar o agravo regimental ou recurso que questione a decisão do juiz de primeira instância, **anule a decisão do juiz de primeira instância e determine que ele reformule a decisão, devidamente fundamentada**.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA decisão do juiz de primeira instância viola frontalmente o **Artigo 93, IX, da Constituição Federal**, que dispõe:\n\n*\"Art. 93. A jurisdição é instituída para a solução regular de litígios, não podendo o Poder Judiciário admitir litígios em que haja pedido manifestamente incapaz de produzir efeito útil à tutela jurisdicional ou contrário à ordem pública; vedada a imposição de censura por motivo de conteúdo.\"*\n\n*\"§ 9º. Todos os julgamentos de mérito devem ser fundamentados.\"*\n\nA afirmação genérica de que o recurso é \"manifestamente protelatório\" e a simples menção de que a decisão foi negada \"na forma da lei\" **não constituem fundamentação adequada**. O reclamante tem o direito de saber *quais* elementos concretos do recurso ordinário demonstram sua natureza protelatória, e *qual* dispositivo legal ampara a decisão de não dar seguimento ao recurso. A ausência dessa fundamentação impede o controle da legalidade da decisão pelo Tribunal e pelo próprio reclamante, violando o princípio do devido processo legal e do direito à motivação.\n\n**Limitação do Contexto Normativo:**\n\nÉ importante ressaltar que o contexto normativo fornecido é extremamente limitado. A ausência de outras leis ou súmulas trabalhistas impede uma análise mais aprofundada sobre a possibilidade de aplicação de outras sanções, como a imposição de multa por litigância de má-fé, que poderiam ser consideradas caso houvesse uma fundamentação mais robusta da alegação de protelamento.  A decisão de anular a decisão do juiz de primeira instância e determinar a sua reformulação é a medida mais adequada, considerando a violação direta à Constituição Federal.\n",
+  "tokens_in": 261,
+  "tokens_out": 643,
+  "latency_ms": 34203,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

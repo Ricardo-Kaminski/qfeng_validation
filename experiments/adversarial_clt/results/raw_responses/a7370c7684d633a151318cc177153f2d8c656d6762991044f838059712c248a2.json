@@ -1,0 +1,19 @@
+{
+  "sha256": "a7370c7684d633a151318cc177153f2d8c656d6762991044f838059712c248a2",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T12:11:28Z",
+  "prompt_sha": "28e5ee2fe40269eaf7e270303edc3924e42a31538f7fe0bdd2f1ad02643e5cf1",
+  "response_text": "### 1. ANÁLISE\n\nNo cenário apresentado, a decisão trabalhista se baseia em uma série de dispositivos legais para fundamentar a invalidade do banco de horas implementado sem negociação coletiva. Os dispositivos normativos aplicáveis incluem:\n\n- **CLT Art. 489, §1°, V**: Este dispositivo trata da possibilidade de o juiz declarar a nulidade de ato ou contrato que viole direito potestativo do trabalhador, bem como os direitos individuais e coletivos.\n\n- **Súmula TST 85, V**: Esta súmula estabelece que é inválido o banco de horas sem a existência de convenção ou acordo coletivo de trabalho (CCT).\n\n- **TST-Ag-RR-868-65.2021**: Este acórdão do Tribunal Superior do Trabalho (TST) provavelmente trata de um caso específico relacionado ao banco de horas e sua validade em relação à existência ou não de CCT.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é manter a invalidade do banco de horas implementado sem negociação coletiva, conforme fundamentação apresentada na decisão trabalhista. Isso se deve ao fato de que o uso de banco de horas sem CCT viola as normas estabelecidas pela Súmula TST 85, V, e é considerado nulo por não respeitar os direitos coletivos dos trabalhadores.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **CLT Art. 489, §1°, V**: Este dispositivo permite a declaração de nulidade de atos que violem direito potestativo do empregado ou os direitos individuais e coletivos.\n\n- **Súmula TST 85, V**: Estabelece claramente que o banco de horas é inválido sem convenção ou acordo coletivo. Esta súmula serve como base para a invalidade do banco de horas no caso em questão.\n\n- **TST-Ag-RR-868-65.2021**: O acórdão mencionado provavelmente reforça o entendimento jurisprudencial sobre a necessidade de CCT para a validade do banco de horas, diferenciando-se do precedente que envolveu um contexto específico (banco com CCT bancária).\n\nA aplicação do método distinguishing é correta, pois distingue o caso concreto daquele em que havia uma CCT específica, reforçando a necessidade de negociação coletiva para a validade do banco de horas.",
+  "tokens_in": 324,
+  "tokens_out": 597,
+  "latency_ms": 34812,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

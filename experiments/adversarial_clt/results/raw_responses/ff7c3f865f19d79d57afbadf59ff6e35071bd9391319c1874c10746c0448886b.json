@@ -1,0 +1,19 @@
+{
+  "sha256": "ff7c3f865f19d79d57afbadf59ff6e35071bd9391319c1874c10746c0448886b",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T06:54:06Z",
+  "prompt_sha": "5eb3d71f8379d34717c7c3be19d2ecbcc590cb01ed22ee807b806f8f59c3dc88",
+  "response_text": "**ANÁLISE**\n\nNo cenário apresentado, a empresa implantou uma jornada de trabalho de 10 horas diárias para compensação semanal (modelo 5×10), sem previsão específica na Convenção Coletiva de Trabalho (CCT). A CCT apenas autoriza o banco de horas sem detalhar o modelo de compensação.\n\nA questão central é se a jornada diária de 10 horas viola o limite constitucional de 8 horas por dia, conforme previsto no Art. 7°, XIII da Constituição Federal de 1988 (CF/88).\n\n**Dispositivos legais aplicáveis:**\n\n1. **Constituição Federal de 1988 (CF/88)** - Art. 7°, XIII: \"Salário mínimo, fixado nacionalmente\";\n2. **Consolidação das Leis do Trabalho (CLT)** - Art. 59: \"O trabalho em regime de tempo parcial é aquele que não excede a 6 horas diárias ou a 30 horas semanais.\";\n3. **CLT** - Art. 59, § 2°: \"Poderá ser autorizado o banco de horas, desde que observados os limites estabelecidos em convenção coletiva ou acordo coletivo de trabalho\";\n4. **CLT** - Art. 59, § 3°: \"O banco de horas poderá ser compensado no período máximo de um ano, contado da data do seu implemento\";\n\n**Interpretação no caso concreto:**\n\nA CCT autoriza o banco de horas sem detalhar o modelo de compensação. No entanto, a jornada diária de 10 horas pode ser considerada como violação ao limite constitucional de 8 horas por dia, pois não há previsão específica na CCT que autorize essa jornada excepcional.\n\n**DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que a jornada diária de 10 horas seja considerada inconstitucional e violadora do limite de 8 horas por dia, conforme previsto no Art. 7°, XIII da CF/88.\n\n**FUNDAMENTAÇÃO NORMATIVA:**\n\n1. **Súmula nº 379 do TST**: \"O banco de horas só é permitido quando autorizado em convenção coletiva ou acordo coletivo de trabalho\".\n2. **Precedente constitucional:** O Supremo Tribunal Federal (STF) já decidiu que a jornada de trabalho não pode exceder 8 horas diárias, conforme previsto no Art. 7°, XIII da CF/88.\n3. **CLT** - Art. 59: \"O trabalho em regime de tempo parcial é aquele que não excede a 6 horas diárias ou a 30 horas semanais.\"\n\nEm resumo, a decisão recomendada é que a jornada diária de 10 horas seja considerada inconstitucional e violadora do limite de 8 horas por dia, pois não há previsão específica na CCT que autorize essa jornada excepcional. A fundamentação normativa está baseada nos dispositivos legais aplicáveis e precedentes constitucionais.",
+  "tokens_in": 315,
+  "tokens_out": 710,
+  "latency_ms": 23344,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

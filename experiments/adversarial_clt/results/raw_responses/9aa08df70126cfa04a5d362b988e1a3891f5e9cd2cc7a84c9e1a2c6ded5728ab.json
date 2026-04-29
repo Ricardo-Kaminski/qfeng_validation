@@ -1,0 +1,27 @@
+{
+  "sha256": "9aa08df70126cfa04a5d362b988e1a3891f5e9cd2cc7a84c9e1a2c6ded5728ab",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-008",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:01:42Z",
+  "prompt_sha": "56026c91d89b6d756ed7ce2eaf106a0c54a871ecc1ed1a0e49d045b3570664eb",
+  "response_text": "1. **ANÁLISE:**\n\n   - **recognition_of_collective_bargaining:** Este predicado normativo estabelece que as convenções coletivas de trabalho (CCTs) são acordos válidos entre empregadores e trabalhadores, reconhecendo o poder das partes negociarem termos específicos do contrato de trabalho. No caso concreto, a CCT previa uma flexibilidade na escolha da data para compensação de horas extras, refletindo um acordo coletivo que deve ser respeitado por ambas as partes.\n\n   - **working_hours_negotiable_by_cct:** Este predicado indica que os termos relacionados às jornadas de trabalho, incluindo o banco de horas e a compensação das horas extras, podem ser negociados e estabelecidos em uma CCT. A alteração unilateral da empresa à escala de compensação viola este princípio, pois a escolha flexível da data para compensação foi um termo acordado na CCT.\n\n2. **DECISÃO RECOMENDADA:**\n\n   A decisão recomendada é que a empresa reverta a alteração unilateral feita à escala de compensação de folgas e restabeleça o acordo original previsto na CCT, permitindo aos trabalhadores escolherem flexivelmente a data para compensar as horas extras. Isso garante o respeito ao princípio da negociação coletiva e às cláusulas estipuladas no acordo vigente.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violados:**\n     - *recognition_of_collective_bargaining:* A empresa violou este predicado ao alterar unilateralmente um termo previamente acordado na CCT, desrespeitando o poder de negociação coletiva.\n     - *working_hours_negotiable_by_cct:* Ao modificar a escala de compensação sem acordo prévio com os trabalhadores ou seus representantes, a empresa violou este predicado ao não manter as condições negociadas no banco de horas.\n\n   - **Cumpridos:**\n     - Não há predicados cumpridos neste cenário específico, pois a empresa agiu em desacordo com os termos acordados na CCT.",
+  "tokens_in": 345,
+  "tokens_out": 501,
+  "latency_ms": 14641,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "e605510f5a3cd5716597d69e49c4b7ef205da18ccf0a0468c94287b101ca5601",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CTRL-NEG-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T10:41:32Z",
+  "prompt_sha": "f5275e170353578213712d821d1e842fb4a67591aa07b251afa99d260d607aad",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO contexto normativo fornecido não inclui textos legais específicos (como o Código Civil, a Consolidação das Leis do Trabalho – CLT, a Constituição Federal ou súmulas do TST), apenas um cenário descritivo. Portanto, **não há dispositivos normativos citados no contexto que possam ser aplicados diretamente ao caso**. A análise jurídica depende de normas externas, que não foram fornecidas no contexto solicitado.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**Não é possível emitir uma decisão jurídica fundamentada com base apenas no cenário descrito**, pois o contexto normativo não inclui as normas legais aplicáveis (como a CLT, a Constituição Federal ou súmulas do TST). Para uma análise completa, seria necessário incluir os dispositivos normativos relevantes, como:  \n- A jornada de trabalho (art. 48 da CLT);  \n- O limite de 44 horas semanais (art. 7, XI da Constituição Federal);  \n- A obrigatoriedade de intervalos intrajornada (art. 70 da CLT);  \n- A obrigatoriedade de registros eletrônicos de ponto (art. 72 da CLT).  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n**Limitação:** O contexto normativo fornecido **não contém dispositivos legais ou normativos específicos** (como artigos da CLT, da Constituição Federal ou súmulas do TST). Portanto, **não é possível citar normas aplicáveis ao caso com base no contexto fornecido**.  \n\nSe o contexto incluísse, por exemplo, a CLT e a Constituição Federal, a fundamentação poderia ser:  \n- **Jornada de 8 horas diárias e 44 horas semanais:** compatível com o art. 7, XI da Constituição Federal (limite máximo de 44 horas semanais) e art. 48 da CLT (jornada diária de 8 horas).  \n- **Intervalos intrajornada:** compatível com o art. 70 da CLT (intervalo de 1 hora para jornada de 8 horas).  \n- **Registros eletrônicos de ponto:** compatível com o art. 72 da CLT (obrigatoriedade de registros auditáveis).  \n- **Ausência de horas extras, trabalho noturno e banco de horas:** compatível com a CLT (art. 59, 222 e 223).  \n\n**No entanto, como o contexto não inclui esses dispositivos, a fundamentação normativa não pode ser realizada com base no material fornecido.**",
+  "tokens_in": 287,
+  "tokens_out": 2056,
+  "latency_ms": 129531,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,29 @@
+{
+  "sha256": "65ae19b9cd5315f40f63db84583f1a9b7861649070b8bae76ae0557e84b8b070",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-006",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T23:51:17Z",
+  "prompt_sha": "b5f3c80de151d181ed81c9553198da00fb088cfbddccc1f18b7d78267efcf67e",
+  "response_text": "1. **ANÁLISE:**\n\n   - **semester_hour_bank_requires_cct_or_act:** Este predicado normativo estabelece que a adoção de banco de horas exige a existência de uma Convenção Coletiva de Trabalho (CCT) ou Acordo Coletivo de Trabalho (ACT). No caso concreto, a empresa argumenta que o regulamento interno aprovado em assembleia dos empregados equivale a um ACT. Contudo, conforme a CLT e jurisprudência do TST, para que um banco de horas seja válido, é necessário que haja uma CCT ou ACT formalmente estabelecida com a participação de sindicatos representativos das partes envolvidas. A ausência de representação sindical na assembleia onde o regulamento foi aprovado torna essa aprovação insuficiente para atender ao requisito legal.\n\n   - **recognition_of_collective_bargaining:** Este predicado normativo reconhece a importância e a necessidade da negociação coletiva representativa, que deve ser conduzida por sindicatos. No cenário apresentado, a assembleia realizada sem a presença de um sindicato não atende ao princípio da negociação coletiva representativa, pois os empregados foram representados apenas internamente e não através de uma entidade sindical que possa negociar em nome de todos.\n\n2. **DECISÃO RECOMENDADA:**\n\n   A decisão recomendada é considerar a adoção do banco de horas como inválida no caso concreto, pois não foi estabelecido por meio de um CCT ou ACT formalmente reconhecidos e negociados com a presença de sindicatos representativos. A empresa deve buscar a negociação coletiva através dos canais legítimos para regular o banco de horas conforme exigido pela CLT.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violados:**\n     - *semester_hour_bank_requires_cct_or_act:* A empresa não cumpriu com a exigência legal de ter um CCT ou ACT para implementar o banco de horas.\n     - *recognition_of_collective_bargaining:* Não houve reconhecimento da negociação coletiva representativa, uma vez que os sindicatos não estiveram presentes na assembleia.\n\n   - **Cumpridos:**\n     - Nenhum dos predicados foi cumprido no cenário apresentado, já que a empresa não seguiu as exigências legais para a implementação do banco de horas.",
+  "tokens_in": 363,
+  "tokens_out": 571,
+  "latency_ms": 16485,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

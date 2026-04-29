@@ -1,0 +1,27 @@
+{
+  "sha256": "a55bf2c9b05f216e980d93da1f18a8c7b0dcfbfde37f71ad4240fc021eb0a315",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T23:58:38Z",
+  "prompt_sha": "9ddadcfbd5dbebfc988f0d0afbf51a1545713cd3a59a541f7d3ad04a951daf64",
+  "response_text": "1. **ANÁLISE:**\n\n   - **hour_bank_with_cct_max_1_year:** Este predicado normativo estabelece que o banco de horas, quando instituído por meio de uma Convenção Coletiva de Trabalho (CCT), deve ter um prazo máximo de 12 meses para a compensação das horas acumuladas. No caso em questão, a CCT prevê um banco de horas semestral de 6 meses, o que está dentro do limite permitido pela norma.\n\n   - **recognition_of_collective_bargaining:** Este predicado reconhece a validade e aplicabilidade das cláusulas estabelecidas em convenções coletivas. A empresa seguiu a CCT ao suspender o cômputo do banco de horas durante a licença maternidade, conforme acordado na convenção.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base nos predicados normativos aplicáveis, a decisão recomendada é que a empresa agiu corretamente ao suspender o cômputo do banco de horas durante a licença maternidade e reativá-lo após o retorno da trabalhadora. A compensação total ocorreu dentro do prazo acordado na CCT (8 meses úteis), respeitando o limite máximo de 12 meses estabelecido pela norma.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Cumpriu:** \n     - *hour_bank_with_cct_max_1_year:* O prazo para compensação das horas acumuladas foi respeitado, não ultrapassando o limite de 12 meses.\n     - *recognition_of_collective_bargaining:* A empresa seguiu as cláusulas da CCT ao suspender e reativar o banco de horas conforme acordado.\n\n   Não há violação dos predicados normativos listados no cenário apresentado.",
+  "tokens_in": 361,
+  "tokens_out": 426,
+  "latency_ms": 12312,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

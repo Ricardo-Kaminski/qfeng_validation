@@ -1,0 +1,29 @@
+{
+  "sha256": "bb473fa0c37cb207dfcd3db473cf9cb4629ea876e31be2defc713468db22e87d",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T22:23:09Z",
+  "prompt_sha": "9aed310839e4cb6680c5af139cfc1410b8dc65f015f8e8555e2fcb61291a68c3",
+  "response_text": "### 1. **ANÁLISE**  \nO predicado **semester_hour_bank_requires_cct_or_act** estabelece que o banco de horas semestral só pode ser implementado mediante **convenção coletiva de trabalho (CCT)** ou **acordo coletivo de trabalho (ACT)**, conforme previsto no art. 614 da CLT. No entanto, a **validade jurídica desses instrumentos depende de sua devida publicação e registro na Superintendência Regional do Trabalho (SRTE)**, conforme determina o art. 614, § 2º, da CLT.  \n\nNo cenário descrito, a **ACT não foi registrada na SRTE dentro do prazo legal**, o que **invalida a sua eficácia jurídica**. A empresa alega que o registro seria \"mera formalidade\", mas a jurisprudência do TST (ex.: **Súmula 364/2014**) reforça que a **ausência de registro na SRTE impede a validade do ACT**, independentemente da assinatura. Assim, **o banco de horas implementado com base em um ACT não registrado é ilegal**, pois não cumpre a exigência de formalização prevista na CLT.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA empresa deve:  \n- **Suspender imediatamente a aplicação do banco de horas** com base no ACT não registrado, pois a ausência de registro na SRTE torna o instrumento coletivo **nulo de pleno direito** (art. 614, § 2º, CLT).  \n- **Registrar o ACT na SRTE dentro do prazo legal** (15 dias úteis após a assinatura, conforme art. 614, § 2º, CLT) ou, caso isso não seja possível, **revisar o banco de horas** com base em outro instrumento válido (como uma CCT ou um acordo individual, se aplicável).  \n- **Indenizar os trabalhadores** por eventuais prejuízos decorrentes da aplicação do banco de horas ilegal, se comprovado.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Predicado violado**:  \n  - **semester_hour_bank_requires_cct_or_act** (violação): O banco de horas foi implementado com base em um ACT **não registrado na SRTE**, o que **viola a exigência legal de formalização** prevista no art. 614, § 2º, da CLT.  \n\n- **Predicados cumpridos**:  \n  - Nenhum outro predicado normativo foi cumprido no cenário, pois a **ausência de registro do ACT** invalida o instrumento coletivo e, consequentemente, o banco de horas.  \n\n--- \n\n**Conclusão**: A falta de registro do ACT na SRTE torna o banco de horas ilegal, independentemente da assinatura do instrumento. A empresa deve corrigir a situação jurídica imediatamente para evitar responsabilidades trabalhistas.",
+  "tokens_in": 333,
+  "tokens_out": 1073,
+  "latency_ms": 32703,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

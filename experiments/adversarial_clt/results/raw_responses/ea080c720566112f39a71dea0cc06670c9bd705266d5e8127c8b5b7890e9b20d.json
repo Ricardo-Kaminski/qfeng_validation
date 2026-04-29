@@ -1,0 +1,30 @@
+{
+  "sha256": "ea080c720566112f39a71dea0cc06670c9bd705266d5e8127c8b5b7890e9b20d",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-008",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T00:11:50Z",
+  "prompt_sha": "f386ffafe5e7ff919c71ccc539ca484bedeed55858f8c345ed209dd7bbbe0e31",
+  "response_text": "1. **ANÁLISE:**\n\n   - **Obligation to ground decision in identified ratio decidendi:** Este predicado normativo exige que a decisão judicial seja fundamentada em um \"ratio decidendi\" claramente identificado, ou seja, o motivo de direito que sustenta a decisão. No cenário apresentado, o acórdão sobre dano moral trabalhista cumpre essa obrigação ao citar explicitamente o CLT Art. 223-G (pós-reforma 2017), que trata do assédio moral no ambiente de trabalho. Além disso, identifica o grau da ofensa com base nos fatos provados e quantifica o valor do dano conforme o salário do trabalhador, referenciando o artigo mencionado. A explicação sobre a proporcionalidade do valor em relação a precedentes do TST também demonstra que a decisão está bem fundamentada no \"ratio decidendi\" aplicável.\n\n   - **Due process of law:** Este predicado normativo refere-se ao direito de um processo justo, garantindo que todas as partes tenham oportunidades adequadas para apresentar suas defesas e que a decisão seja baseada em uma análise justa dos fatos e das leis aplicáveis. No cenário descrito, o cumprimento do due process of law é evidente pelo fato de que o acórdão segue os parâmetros legais estabelecidos na CLT e jurisprudência do TST, aplicando-os de forma identificada e verificável. A decisão considera a legislação pertinente (CLT Art. 223-G) e utiliza precedentes relevantes para justificar o valor concedido ao trabalhador.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base nos predicados normativos aplicáveis, recomenda-se que a decisão seja mantida conforme está. O acórdão demonstra conformidade com os requisitos legais e jurisprudenciais necessários para uma decisão justa e fundamentada em matéria de dano moral trabalhista decorrente de assédio moral.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Obligation to ground decision in identified ratio decidendi:** Cumprido. A decisão está claramente fundamentada no CLT Art. 223-G e em precedentes do TST, com uma análise detalhada dos fatos provados e da proporcionalidade do valor estipulado.\n\n   - **Due process of law:** Cumprido. O processo seguiu os princípios de justiça ao aplicar corretamente a legislação vigente e considerar precedentes relevantes, garantindo que o direito à defesa e análise dos fatos fossem respeitados.\n\nAssim, ambos os predicados normativos foram cumpridos no cenário apresentado.",
+  "tokens_in": 384,
+  "tokens_out": 639,
+  "latency_ms": 18437,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,27 @@
+{
+  "sha256": "642cd34945670bce30b6fa4cc560bb0b1083c7d9e98514bbada2209903d03303",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:27:37Z",
+  "prompt_sha": "9ddadcfbd5dbebfc988f0d0afbf51a1545713cd3a59a541f7d3ad04a951daf64",
+  "response_text": "**1. ANÁLISE**\n\n* **hour_bank_with_cct_max_1_year**: Esse predicado normativo estabelece que o banco de horas pode ter um prazo máximo de 1 ano para compensação, conforme previsto na CLT (artigo 59). Nesse caso, a trabalhadora firmou CCT com banco de horas semestral de 6 meses. O período de licença maternidade não é computado no cômputo do prazo, pois o empregador suspendeu o cômputo durante esse período e reativou ao retorno da trabalhadora. A compensação total ocorreu em 8 meses (contando o período útil), dentro do prazo acordado na CCT. Portanto, não há violação desse predicado.\n* **recognition_of_collective_bargaining**: Esse predicado normativo estabelece a obrigação de reconhecer e cumprir as cláusulas coletivas negociadas entre empregador e sindicato ou representantes dos trabalhadores, conforme previsto na CLT (artigo 611-A). Nesse caso, a CCT foi firmada com o banco de horas semestral de 6 meses. A empresa suspendeu o cômputo do banco durante a licença maternidade e reativou ao retorno da trabalhadora. Isso pode ser considerado uma violação à cláusula coletiva, pois a suspensão do cômputo do banco durante a licença não está prevista na CCT.\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a empresa seja condenada a cumprir a CCT firmada com o banco de horas semestral de 6 meses, incluindo o período de licença maternidade no cômputo do prazo para compensação. Além disso, a empresa deve ser condenada a pagar indenização pelos danos causados à trabalhadora pela violação da cláusula coletiva.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n* **hour_bank_with_cct_max_1_year**: Conformidade\n* **recognition_of_collective_bargaining**: Violação",
+  "tokens_in": 360,
+  "tokens_out": 487,
+  "latency_ms": 8233,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

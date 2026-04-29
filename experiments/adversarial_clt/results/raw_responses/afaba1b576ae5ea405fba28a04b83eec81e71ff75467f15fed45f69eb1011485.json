@@ -1,0 +1,19 @@
+{
+  "sha256": "afaba1b576ae5ea405fba28a04b83eec81e71ff75467f15fed45f69eb1011485",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T06:40:37Z",
+  "prompt_sha": "b0e517f5c3de26d42993b73cacfec552caf0add056217d63ec5525a4332d8ed9",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a demissão de um empregado sem justa causa por uma empresa de vigilância, com saldo positivo de 80 horas no banco de horas estabelecido por Convenção Coletiva de Trabalho (CCT) com compensação semestral. A empresa pagou o saldo remanescente como hora normal, não como hora extra, e o empregado reivindica que as horas do banco não compensadas antes da rescisão devem ser pagas com adicional de 50%.\n\n**Dispositivos Legais Aplicáveis:**\n\n1. **Artigo 59 da CLT**: Regula a compensação de jornada, permitindo a compensação de horas extras dentro de um período determinado (no caso, semestral).\n2. **Artigo 59, parágrafo único da CLT**: Especifica que as horas excedentes à jornada normal só podem ser compensadas dentro do mesmo período de referência estabelecido na convenção coletiva ou acordo individual.\n3. **Convenção Coletiva de Trabalho (CCT)**: Estabelece regras específicas para a compensação das horas extras, incluindo o prazo semestral.\n\n**Interpretação no Caso Concreto:**\n\nA empresa demitiu o empregado sem justa causa, o que não afeta direitos trabalhistas adquiridos. O saldo positivo de 80 horas no banco de horas é um direito do empregado, conforme estabelecido na CCT. A compensação das horas extras deve ser feita dentro do prazo estabelecido (semestral), e o pagamento dessas horas deve ocorrer com adicional de 50% para as horas excedentes à jornada normal.\n\n**DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que a empresa pague o saldo remanescente das horas do banco de horas como hora extra, com adicional de 50%, e não apenas como hora normal. Isso se baseia na interpretação da CCT e nos artigos da CLT mencionados.\n\n**FUNDAMENTAÇÃO NORMATIVA:**\n\n*   **Artigo 59 da CLT**: \"As horas excedentes à jornada normal só podem ser compensadas dentro do mesmo período de referência estabelecido na convenção coletiva ou acordo individual.\"\n*   **Súmula 438 do TST:** \"A compensação de horas extras é facultativa, e o empregado pode optar por receber o adicional de hora extra em vez da compensação.\"\n*   **Precedente Constitucional:** O direito ao pagamento das horas extras com adicional é garantido pela Constituição Federal (artigo 7º, inciso XV).\n\n**Conclusão:**\n\nA decisão recomendada é que a empresa pague o saldo remanescente das horas do banco de horas como hora extra, com adicional de 50%, em respeito aos direitos trabalhistas adquiridos pelo empregado e às regras estabelecidas na CCT.",
+  "tokens_in": 297,
+  "tokens_out": 680,
+  "latency_ms": 22360,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

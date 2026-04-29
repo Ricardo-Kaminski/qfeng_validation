@@ -1,0 +1,19 @@
+{
+  "sha256": "04a70345749353fedae1a2aed71fc95b328f7389eef922f3ee03647ea042372e",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-006",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T06:54:46Z",
+  "prompt_sha": "e1ac43971a8b5d95547efa7e3c6e805bf6c35dd2759d76006fabd7a20e142a85",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a aplicação de uma Convenção Coletiva de Trabalho (CCT) específica para o setor de varejo, que prevê banco de horas com compensação em até 12 meses. A empresa ofereceu folga compensatória nas semanas de baixo movimento e os trabalhadores aceitaram. Toda a compensação ocorreu dentro do prazo estabelecido, com extrato mensal entregue.\n\n**Interpretação dos dispositivos legais aplicáveis:**\n\n- **Artigo 59 da CLT**: Regula o banco de horas, permitindo sua utilização para compensar jornadas extras. No entanto, é necessário que as horas sejam compensadas dentro do prazo estabelecido pela convenção coletiva ou acordo individual.\n  \n- **Artigo 59, parágrafo único da CLT**: Especifica que o saldo não compensado deve ser pago como hora extra com acréscimo de 50% ao término do prazo.\n\n**Interpretação no caso concreto:**\n\nA empresa ofereceu folga compensatória e os trabalhadores aceitaram, com toda a compensação ocorrendo dentro do prazo estabelecido. Dessa forma, não há saldo não compensado que precise ser pago como hora extra com adicional de 50%.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é **REJEITAR A DEMANDA DOS TRABALHADORES**, pois a compensação das horas extras foi realizada dentro do prazo estabelecido pela CCT e não há saldo não compensado que precise ser pago como hora extra com adicional de 50%.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n- **Artigo 59 da CLT**: Permite o uso de banco de horas para compensar jornadas extras, desde que dentro do prazo estabelecido.\n  \n- **Súmula nº 438 do TST**: \"O saldo não compensado no banco de horas deve ser pago como hora extra com acréscimo de 50% ao término do prazo.\"\n  \n- **Precedentes constitucionais**: Embora não citados explicitamente, a decisão se baseia na interpretação da CLT e nas súmulas do TST, que são diretrizes interpretativas das leis trabalhistas.\n\n**CONCLUSÃO**\n\nA compensação das horas extras dentro do prazo estabelecido pela CCT e a ausência de saldo não compensado que precise ser pago como hora extra com adicional de 50% justificam a rejeição da demanda dos trabalhadores.",
+  "tokens_in": 322,
+  "tokens_out": 582,
+  "latency_ms": 19109,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

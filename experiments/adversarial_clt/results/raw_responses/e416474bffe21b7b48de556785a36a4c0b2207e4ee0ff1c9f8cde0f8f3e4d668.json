@@ -1,0 +1,19 @@
+{
+  "sha256": "e416474bffe21b7b48de556785a36a4c0b2207e4ee0ff1c9f8cde0f8f3e4d668",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-007",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T20:09:48Z",
+  "prompt_sha": "35be560b3d56480b261099a368fe4a0b566785771735d919158eb0a8a25e76e3",
+  "response_text": "**1. ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso.**\n\nNo contexto fornecido, a parte prejudicada alega violação ao **CPC Art. 489, §1°, V**, que se refere à nulidade de decisão por ter sido fundamentada em precedente com eficácia vinculante quando não houve tal condição.\n\nAlém disso, o contexto menciona a aplicação de \"tese fixada em IRDR do TRT-15ª Região como se fosse precedente vinculante nacional\", o que sugere a necessidade de análise dos dispositivos relacionados à eficácia e ao caráter vinculante de decisões judiciais.\n\n**2. DECISÃO RECOMENDADA: Qual deve ser a decisão e por quê.**\n\nDeve ser declarada a nulidade da decisão do TST que aplicou tese fixada em IRDR regional como precedente vinculante nacional, pois tal aplicação não se encontra respaldada pela eficácia nacional ou pelo caráter de precedentes vinculantes dessas decisões.\n\n**3. FUNDAMENTAÇÃO NORMATIVA: Cite especificamente os artigos e súmulas do contexto acima.**\n\n- **CPC Art. 489, §1°, V**: Estabelece a nulidade da decisão quando fundamentada em precedente com eficácia vinculante quando não houve tal condição.\n\nNão há menção explícita a dispositivos específicos do Direito do Trabalho brasileiro no contexto fornecido.",
+  "tokens_in": 311,
+  "tokens_out": 359,
+  "latency_ms": 6014,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

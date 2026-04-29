@@ -1,0 +1,30 @@
+{
+  "sha256": "e3ad9309c62a0c4f7641018f993effa01d8bc6e4cec871f65a0df30519f1db48",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-009",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T23:20:36Z",
+  "prompt_sha": "6d91edef4f830b89da4360eaf0b135c5ffe380f3939107e2bba54ad7b7057f83",
+  "response_text": "### 1. **ANÁLISE:**  \nO **predicado normativo \"obligation_to_ground_decision_in_identified_ratio_decidendi\"** impõe que a decisão judicial deve ser fundamentada **exclusivamente** no **ratio decidendi** (fundamento jurídico) identificado e aplicável ao caso concreto. No cenário descrito:  \n- A decisão **citou corretamente a Súmula TST 85**, que estabelece que, **na ausência de CCT (convenção coletiva de trabalho)**, o **banco de horas** deve ser considerado **hora extra com adicional de 50%** (Súmula TST 85, V).  \n- No entanto, **a decisão aplicou equivocadamente a consequência jurídica**, determinando o pagamento das horas como **hora normal (sem adicional)**, **sem qualquer fundamentação** para afastar o adicional de 50% previsto na Súmula TST 85, V.  \n- Isso viola o **predicado normativo**, pois a decisão **não se baseou no ratio decidendi identificado** (a aplicação do adicional de 50% em casos de banco de horas sem CCT), **mas em uma interpretação divergente** que não foi justificada normativamente.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA:**  \nA decisão judicial deve ser **anulada** e substituída por outra que:  \n- **Reconheça o banco de horas** como **hora extra com adicional de 50%**, conforme a **Súmula TST 85, V**;  \n- **Fundamente a decisão** exclusivamente no **ratio decidendi** identificado (a ausência de CCT e a aplicação do adicional de 50%);  \n- **Evite a aplicação de consequências jurídicas divergentes** da norma citada, sob pena de violação do princípio da **dignidade da lei** e da **segurança jurídica**.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**  \n- **Violado:**  \n  - **obligation_to_ground_decision_in_identified_ratio_decidendi** (a decisão não se baseou no ratio decidendi identificado, mas em uma interpretação equivocada da norma).  \n\n- **Cumprido:**  \n  - **Nenhum outro predicado normativo** foi explicitamente mencionado no cenário, mas a **Súmula TST 85** foi **citada corretamente**, o que indica **conformidade parcial** com a obrigação de identificar o ratio decidendi.  \n\n---\n\n### Observação Final:  \nA aplicação correta da **Súmula TST 85, V** é fundamental para garantir a **proteção do trabalhador** em situações de banco de horas sem CCT, evitando a **subestimação do valor da hora extra** e a **violação do princípio da igualdade** entre trabalhadores com e sem convenções coletivas.",
+  "tokens_in": 356,
+  "tokens_out": 1169,
+  "latency_ms": 35452,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

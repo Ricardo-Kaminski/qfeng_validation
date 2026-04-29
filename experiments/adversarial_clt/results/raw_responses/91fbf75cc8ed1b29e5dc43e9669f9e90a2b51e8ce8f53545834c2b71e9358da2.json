@@ -1,0 +1,19 @@
+{
+  "sha256": "91fbf75cc8ed1b29e5dc43e9669f9e90a2b51e8ce8f53545834c2b71e9358da2",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T02:20:50Z",
+  "prompt_sha": "5eb3d71f8379d34717c7c3be19d2ecbcc590cb01ed22ee807b806f8f59c3dc88",
+  "response_text": "### ANÁLISE\n\n#### Dispositivos Legais Aplicáveis:\n\n1. **Constituição Federal de 1988 (CF/88):**\n   - Artigo 7°, XIII: Estabelece o limite máximo da jornada diária de trabalho em oito horas.\n\n2. **Consolidação das Leis do Trabalho (CLT):**\n   - Artigo 62: Permite a compensação de horários mediante acordo ou convenção coletiva.\n   - Artigo 59, §1º: Estabelece que a jornada semanal normal não pode exceder quarenta e oito horas.\n\n3. **Convenção Coletiva de Trabalho (CCT):**\n   - Autoriza banco de horas, mas não especifica modelo de compensação.\n\n4. **Jurisprudência do Tribunal Superior do Trabalho (TST):**\n   - Súmula 331: A jornada diária de trabalho normal é de oito horas.\n   - Súmula 243: É permitida a compensação de horários mediante acordo ou convenção coletiva, desde que não exceda a carga horária semanal legal.\n\n#### Interpretação no Caso Concreto:\n\n- A CCT autoriza banco de horas, mas não especifica o modelo de compensação. Isso implica que qualquer modelo adotado deve respeitar os limites legais e constitucionais.\n- O modelo 5×10 estabelece uma jornada diária de 10 horas por cinco dias, totalizando 50 horas semanais, excedendo o limite de 48 horas previsto no artigo 59 da CLT.\n- A Súmula 331 do TST reforça que a jornada diária normal é de oito horas, e qualquer exceção deve estar claramente autorizada por lei ou convenção coletiva.\n\n### DECISÃO RECOMENDADA\n\nA empresa deve ajustar sua prática para garantir conformidade com os limites legais. A jornada diária de 10 horas sem previsão específica na CCT e que resulta em exceder a carga horária semanal legal é inconstitucional e ilegal.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n1. **Constituição Federal, Artigo 7°, XIII:**\n   - Limita a jornada diária de trabalho a oito horas.\n\n2. **CLT, Artigo 59, §1º:**\n   - Estabelece que a jornada semanal não pode exceder quarenta e oito horas.\n\n3. **Súmula 331 do TST:**\n   - Confirma que a jornada diária normal é de oito horas.\n\n4. **Súmula 243 do TST:**\n   - Permite compensação de horários mediante acordo ou convenção coletiva, desde que respeite os limites legais.\n\n5. **Precedentes Constitucionais:**\n   - A jurisprudência constitucional reitera a proteção ao limite máximo da jornada diária e semanal de trabalho.\n\n### Conclusão\n\nA empresa deve revisar sua política de banco de horas para garantir que qualquer modelo adotado esteja em conformidade com os limites estabelecidos pela CLT e pela Constituição Federal. A adoção do modelo 5×10, sem previsão específica na CCT e que resulta em exceder a carga horária semanal legal, é inconstitucional e deve ser ajustada para respeitar o limite de 8 horas diárias e 48 horas semanais.",
+  "tokens_in": 316,
+  "tokens_out": 798,
+  "latency_ms": 47796,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

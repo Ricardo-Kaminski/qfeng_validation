@@ -1,0 +1,29 @@
+{
+  "sha256": "262259063897ba968d07485e4e4290daf06abda2991ac811211a5ce1c810837c",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-007",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:42:30Z",
+  "prompt_sha": "172c513c4b099df7743ffb1d24431062fe2eeac1ce853003c4f9dc9cbe3de520",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas\n\nCom base nos predicados normativos fornecidos e no cenário apresentado, segue a análise, decisão recomendada e identificação de cumprimento/violação dos predicados:\n\n**1. ANÁLISE:**\n\n*   **hour_bank_with_cct_max_1_year (Banco de Horas com CCT com prazo máximo de 1 ano):** Este predicado é **relevante** para o caso. A CCT que regulamenta o banco de horas estabelece um prazo máximo de 12 meses para a compensação das horas acumuladas. O empregado acumulou 400 horas dentro desse prazo, o que, em princípio, estaria em conformidade com a norma. No entanto, a conformidade inicial é relativizada pela ausência de compensação.\n*   **maximum_weekly_working_hours_44h (Jornada semanal máxima de 44h):** Este predicado é **indireto**, mas importante para contextualizar a situação. O banco de horas é, em geral, um instrumento para flexibilizar a jornada de trabalho, permitindo que o empregado trabalhe além das 44 horas semanais em determinados períodos, desde que haja a compensação posterior. A não compensação do banco de horas, como no caso, implica que o empregado, de fato, trabalhou além da jornada regular por um período prolongado sem a devida contraparta.\n\n**Análise Detalhada da Situação:**\n\nA empresa alega necessidade operacional permanente para justificar a não disponibilização de folgas compensatórias ao longo do período de 12 meses. Essa alegação, por si só, não é suficiente para eximir a empresa da obrigação de compensar o banco de horas. Embora a CCT não preveja expressamente o pagamento em caso de não-compensação, a jurisprudência do TST tem entendido que a não utilização do banco de horas dentro do prazo estipulado implica a conversão do saldo em valor pecuniário, a fim de evitar o enriquecimento sem causa da empresa. A necessidade operacional, embora relevante, não pode ser utilizada como justificativa para impedir a compensação ou pagamento do banco de horas, pois isso desvirtuaria a finalidade da flexibilização da jornada de trabalho e prejudicaria o empregado.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que a empresa seja notificada para, no prazo de 15 dias, efetuar o pagamento das 400 horas acumuladas no banco de horas, com os devidos recarregos legais (juros e correção monetária). Caso a empresa não cumpra a notificação, o empregado deve ser incentivado a ingressar com uma reclamação trabalhista para buscar a tutela jurisdicional.\n\n**Fundamentação da Decisão:**\n\n*   A jurisprudência do TST, embora a CCT não preveja expressamente o pagamento, entende que a não compensação do banco de horas dentro do prazo implica conversão em valor.\n*   A alegação de necessidade operacional permanente não é suficiente para justificar a não compensação, pois a finalidade do banco de horas é a flexibilização da jornada, e não a exploração do empregado sem contrapartida.\n*   O não pagamento do banco de horas configura enriquecimento sem causa da empresa, que se beneficia do trabalho adicional do empregado sem oferecer a devida compensação.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **hour_bank_with_cct_max_1_year:** **Violação**. Embora o prazo de 12 meses tenha sido cumprido, a obrigação de compensar o saldo do banco de horas não foi atendida, caracterizando uma violação do espírito da norma que regulamenta o banco de horas. A norma estabelece um prazo para a compensação, mas pressupõe que essa compensação ocorrerá.\n*   **maximum_weekly_working_hours_44h:** **Violação Indireta**. A jornada semanal máxima de 44 horas foi, de fato, excedida durante o período em que o empregado acumulou as horas no banco de horas. A não compensação do banco de horas significa que o empregado trabalhou além da jornada regular por um período prolongado sem a devida contraparta, violando, indiretamente, o limite máximo de horas semanais. A flexibilização da jornada, através do banco de horas, deve ser acompanhada da devida compensação para garantir o respeito à jornada máxima legal.\n",
+  "tokens_in": 325,
+  "tokens_out": 992,
+  "latency_ms": 27281,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

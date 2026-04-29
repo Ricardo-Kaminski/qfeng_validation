@@ -1,0 +1,27 @@
+{
+  "sha256": "2ae81dc9b4b3b6fd9ec609ef0cca7980508ee65cfd90838bc1f1b45e573b6ff8",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T22:45:31Z",
+  "prompt_sha": "14b6f55520b996d23d5c895d459de69f73ca99dfa99a77933f3f5ac637db2f97",
+  "response_text": "### 1. **ANÁLISE**  \nO predicado **hour_bank_with_cct_max_1_year** estabelece que o **prazo máximo para a vigência do banco de horas regulado por CCT é de 1 ano**, conforme previsto no art. 227 da CLT (que autoriza o banco de horas) e jurisprudência do TST (ex.: Súmula 425, que reconhece a limitação de 12 meses para a acumulação de horas).  \n\nNo cenário descrito:  \n- A CCT prevê **renovação automática do banco de horas**, mas **não há previsão legal ou normativa coletiva que permita a extensão automática além do prazo de 1 ano**.  \n- A **extensão por 3 meses sem nova negociação coletiva** viola o **limite de 1 ano** estabelecido pelo predicado, pois a renovação automática **não pode ultrapassar o prazo máximo legal**.  \n- A **empresa alega que a cláusula de renovação automática cobriria o período adicional**, mas essa interpretação é **incompatível com a CLT e jurisprudência**, que exigem **renovação expressa e negociação coletiva** para prorrogar o banco de horas além do prazo inicial.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **extensão do banco de horas por 3 meses sem nova CCT é ilegal** e deve ser **rejeitada**. A empresa deve:  \n- **Resetar o banco de horas** após o término do prazo de 1 ano, ou  \n- **Negociar uma nova CCT** para prorrogar o banco de horas, com **nova deliberação coletiva**.  \nA **renovação automática não pode ser usada como fundamento para ultrapassar o limite de 1 ano**, conforme determina o predicado normativo.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Violado**:  \n  - **hour_bank_with_cct_max_1_year** (o prazo máximo de 1 ano foi ultrapassado sem nova negociação coletiva).  \n\n- **Cumprido**:  \n  - **Nenhum outro predicado** está explicitamente mencionado no cenário, mas a **existência da CCT** e a **renovação automática** (se prevista na CCT original) **não são ilegais em si**, desde que **não ultrapassem o prazo de 1 ano**. No caso, a **violação ocorre apenas pela extensão além do prazo máximo**.  \n\n--- \n\n**Conclusão**: A empresa **viola o limite de 1 ano** estabelecido pelo predicado, e a **extensão automática sem nova CCT é inválida**.",
+  "tokens_in": 368,
+  "tokens_out": 1093,
+  "latency_ms": 33483,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

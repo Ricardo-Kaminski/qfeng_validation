@@ -1,0 +1,30 @@
+{
+  "sha256": "f989c71967ffc06991099aceea3630220dfa5b7a5af084b8c2dbabafd27152a5",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T00:07:10Z",
+  "prompt_sha": "df1029f717a9057c55dcd4415f596b5b79c52eb9d0bc84855a640fd4defece65",
+  "response_text": "### 1. ANÁLISE:\n\n**Obligation to Ground Decision in Identified Ratio Decidendi:**\n- A decisão trabalhista cumpriu este predicado ao identificar explicitamente a diferença entre o caso concreto e o precedente citado (TST-Ag-RR-868-65.2021). Ao distinguir que o banco de horas em questão não foi negociado coletivamente, a decisão fundamentou-se no ratio decidendi correto ao aplicar o método distinguishing.\n\n**Sumula TST 85 - Hour Bank Without CCT Invalid:**\n- A Súmula TST 85 estabelece que bancos de horas sem convenção ou acordo coletivo (CCT) são inválidos. O caso concreto envolve um banco de horas sem negociação coletiva, o que se enquadra diretamente na previsão da Súmula TST 85. Portanto, a decisão está em conformidade com esta norma ao declarar a invalidade do banco de horas.\n\n**Due Process of Law:**\n- O cumprimento deste predicado é evidenciado pela fundamentação detalhada e clara da decisão, que considerou as especificidades do caso concreto e aplicou corretamente o precedente pertinente. Ao distinguir a situação do banco de horas sem CCT do caso anterior com CCT, a decisão garantiu um processo justo ao respeitar os princípios legais aplicáveis.\n\n### 2. DECISÃO RECOMENDADA:\n\nA decisão deve ser mantida conforme recomendado pelos predicados normativos analisados. A fundamentação da sentença está alinhada com o entendimento jurídico estabelecido pela Súmula TST 85, que invalida bancos de horas sem CCT. Além disso, a decisão demonstrou um processo justo e adequado ao identificar corretamente a diferença entre os casos citados e aplicar o método distinguishing.\n\n### 3. PREDICADOS VIOLADOS OU CUMPRIDOS:\n\n- **Obligation to Ground Decision in Identified Ratio Decidendi:** Cumprido\n  - A decisão foi fundamentada com base no ratio decidendi correto, identificando claramente a diferença entre o caso concreto e o precedente citado.\n\n- **Sumula TST 85 - Hour Bank Without CCT Invalid:** Cumprido\n  - A decisão aplicou corretamente a Súmula TST 85 ao declarar a invalidade do banco de horas sem negociação coletiva.\n\n- **Due Process of Law:** Cumprido\n  - O processo foi conduzido com justiça, garantindo uma fundamentação clara e adequada que respeitou os princípios legais aplicáveis.",
+  "tokens_in": 402,
+  "tokens_out": 617,
+  "latency_ms": 17843,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "152bc8cdd84b51f4c9a00172c31c7b3ddcac82feecb7f3ac38537b26cd9cc0cf",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T20:28:45Z",
+  "prompt_sha": "00a8f3092f9540e5d99a9022a0a2c27e9d386d6832210511eb6ea9ab9df059e9",
+  "response_text": "**ANÁLISE**\n\nO caso apresentado envolve a recolha de adicionais noturnos por motoristas que trabalham entre 22h e 5h. Para identificar os dispositivos do contexto normativo aplicáveis ao caso, é necessário analisar as regras específicas sobre adicional noturno no Direito do Trabalho brasileiro.\n\n**1. Identificação dos dispositivos do contexto normativo aplicáveis ao caso:**\n\n*   O artigo 73 da Consolidação das Leis do Trabalho (CLT) estabelece que o trabalho noturno é aquele executado entre as 22 horas de um dia e as 5 horas do dia seguinte.\n*   O artigo 59 da CLT define a jornada de trabalho normal como de 8 horas diárias, podendo ser aumentada mediante acordo ou convenção coletiva.\n\n**2. Decisão Recomendada:**\n\nA decisão recomendada é que a empresa esteja corretamente calculando e recolhendo os adicionais noturnos para os motoristas que trabalham entre 22h e 5h, pois está de acordo com as regras estabelecidas pela CLT.\n\n**3. Fundamentação Normativa:**\n\nA fundamentação normativa é baseada nos artigos 73 e 59 da Consolidação das Leis do Trabalho (CLT), que definem o trabalho noturno e a jornada de trabalho normal, respectivamente.\n\n*   **Artigo 73 da CLT:** \"Considera-se trabalho noturno o executado entre as vinte e duas horas de um dia e as cinco horas do dia seguinte.\"\n*   **Artigo 59 da CLT:** \"A duração normal da jornada de trabalho é de oito horas diárias, podendo ser aumentada mediante acordo ou convenção coletiva.\"\n\n**Limitação:**\n\nNeste contexto não há limitações na aplicabilidade das normas.",
+  "tokens_in": 304,
+  "tokens_out": 432,
+  "latency_ms": 7305,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

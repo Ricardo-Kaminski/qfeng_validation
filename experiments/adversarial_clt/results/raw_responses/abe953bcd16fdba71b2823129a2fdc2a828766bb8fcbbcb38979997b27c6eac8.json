@@ -1,0 +1,27 @@
+{
+  "sha256": "abe953bcd16fdba71b2823129a2fdc2a828766bb8fcbbcb38979997b27c6eac8",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T01:27:29Z",
+  "prompt_sha": "f2d41009685e11d681b7fbf5f2cf8a68b4afa572246a1b611f1126f8318965ca",
+  "response_text": "**1. ANÁLISE**\n\n- **semester_hour_bank_requires_cct_or_act**: Este predicado normativo estabelece a necessidade de uma Convenção Coletiva de Trabalho (CCT) ou Acordo Coletivo de Trabalho (ACT) para regular o banco de horas. Nesse cenário, a empresa original tinha um CCT que incluía cláusulas sobre banco de horas e foi adquirida por outro grupo empresarial. A questão é se essa CCT continua em vigor após o prazo estabelecido.\n\n**Análise do Caso**: Apesar da não renovação da CCT pelo novo proprietário, a empresa continuou aplicando as cláusulas do banco de horas. Isso sugere que, no mínimo, a CCT original foi interpretada como sendo aplicável até o fim do período estabelecido (12 meses), mesmo após a mudança de propriedade.\n\n**2. DECISÃO RECOMENDADA**\n\nConsiderando os fatos e as regras trabalhistas brasileiras, recomenda-se que a decisão seja favorável à continuidade da aplicação das cláusulas do banco de horas até o fim do período estabelecido (12 meses). Isso se baseia na interpretação de que a CCT continua em vigor mesmo após a mudança de propriedade, desde que não haja renovação ou rescisão expressa.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **semester_hour_bank_requires_cct_or_act**: Este predicado foi cumprido, pois a empresa original tinha uma CCT que regulamentava o banco de horas e essa cláusula continuou sendo aplicada mesmo após a mudança de propriedade.\n\nObservação: Não há evidências de violação explícita dos outros predicados listados. A decisão se baseia principalmente na interpretação da continuidade das cláusulas do banco de horas após a mudança de propriedade, sem mencionar outras possíveis violações ou conformidades com os demais predicados normativos.",
+  "tokens_in": 335,
+  "tokens_out": 453,
+  "latency_ms": 7577,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "7f0ffab908a7f1bf6a235ad356870388884f32739f4e90b82d590c34c01a91e9",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T06:53:42Z",
+  "prompt_sha": "5eb3d71f8379d34717c7c3be19d2ecbcc590cb01ed22ee807b806f8f59c3dc88",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve uma empresa do setor químico que implantou uma jornada de trabalho de 10 horas diárias para compensação semanal, mediante um modelo de banco de horas anual. A CCT da empresa autoriza o uso de banco de horas, mas não especifica detalhadamente o modelo de compensação.\n\nA questão central é se a jornada diária de 10 horas viola o limite constitucional de 8 horas estabelecido no Artigo 7º, XIII da Constituição Federal de 1988 (CF/88), mesmo com a autorização expressa na CCT para banco de horas.\n\n**DISPOSITIVOS LEGAIS APLICÁVEIS**\n\n1. **Artigo 59 da CLT**: Regula o regime do trabalho por tempo determinado e estabelece que, se houver necessidade de trabalho em horários diferentes dos previstos no contrato, poderá ser autorizado banco de horas.\n2. **Artigo 7º, XIII da CF/88**: Estabelece a jornada máxima de trabalho como sendo de oito horas diárias e quarenta horas semanais para os trabalhadores urbanos.\n3. **Súmula 379 do TST**: Determina que \"O banco de horas só pode ser implantado por acordo ou convenção coletiva, respeitados os limites da legislação vigente.\"\n\n**INTERPRETAÇÃO NO CASO CONCRETO**\n\nA CCT autoriza o uso de banco de horas sem especificar detalhadamente o modelo de compensação. No entanto, a jornada diária de 10 horas pode ser considerada como uma violação ao limite constitucional de 8 horas estabelecido no Artigo 7º, XIII da CF/88.\n\nA autorização para banco de horas não dispensa a observância dos limites legais e constitucionais. A compensação semanal de 10 horas diárias pode ser interpretada como uma jornada de trabalho excedente àquela prevista na Constituição Federal.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando os dispositivos legais aplicáveis, a decisão recomendada é que a jornada diária de 10 horas seja considerada inconstitucional e violadora do limite de 8 horas estabelecido no Artigo 7º, XIII da CF/88.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   **Art. 59 da CLT**: Autoriza o uso de banco de horas, mas não dispensa a observância dos limites legais e constitucionais.\n*   **Súmula 379 do TST**: Determina que o banco de horas só pode ser implantado por acordo ou convenção coletiva, respeitados os limites da legislação vigente.\n*   **Art. 7º, XIII da CF/88**: Estabelece a jornada máxima de trabalho como sendo de oito horas diárias e quarenta horas semanais para os trabalhadores urbanos.\n\n**CONCLUSÃO**\n\nA decisão recomendada é que a jornada diária de 10 horas seja considerada inconstitucional e violadora do limite de 8 horas estabelecido no Artigo 7º, XIII da CF/88. A autorização para banco de horas não dispensa a observância dos limites legais e constitucionais.",
+  "tokens_in": 315,
+  "tokens_out": 745,
+  "latency_ms": 24500,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

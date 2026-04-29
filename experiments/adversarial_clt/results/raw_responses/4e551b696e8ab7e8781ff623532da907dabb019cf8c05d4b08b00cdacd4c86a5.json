@@ -1,0 +1,19 @@
+{
+  "sha256": "4e551b696e8ab7e8781ff623532da907dabb019cf8c05d4b08b00cdacd4c86a5",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-011",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T09:06:24Z",
+  "prompt_sha": "698446c093424052480aba5e941ff4b9c31d5df4e2fc44eccfe87ad07ed045e8",
+  "response_text": "### 1. **ANÁLISE**  \nO caso envolve a validade de uma cláusula de renúncia ao adicional de horas extras, prevista em uma Convenção Coletiva de Trabalho (CCT), que estabelece um banco de horas semestral. A cláusula em questão condiciona a existência do adicional de horas extras à compensação do banco de horas dentro de um prazo determinado. A questão central é a compatibilidade dessa cláusula com o **Art. 611-B, IX, da CLT**, que regula o banco de horas.  \n\n### 2. **DECISÃO RECOMENDADA**  \nA cláusula de renúncia ao adicional de horas extras, prevista na CCT, **é inválida**, pois viola o **Art. 611-B, IX, da CLT**. O trabalhador não pode ser privado do direito ao adicional de horas extras por meio de cláusula coletiva, independentemente da compensação do banco de horas. A norma da CLT garante que o adicional de horas extras é devido independentemente da existência de um banco de horas, sendo a compensação do banco de horas uma hipótese alternativa, não uma condição para o pagamento do adicional.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 611-B, IX, da CLT**:  \n  *“O banco de horas poderá ser compensado mediante acordos ou convenções coletivas, observado o disposto no art. 611-B, I, e respeitado o limite de 10 (dez) horas semanais, calculado com base no total de horas trabalhadas no período de 12 (doze) meses, sendo vedada a compensação de horas excedentes do limite estabelecido.”*  \n  Esse dispositivo **não condiciona o direito ao adicional de horas extras** à compensação do banco de horas. O adicional de horas extras é uma obrigação do empregador, independentemente da existência de um banco de horas. A cláusula da CCT que renuncia ao adicional viola o princípio da irrenunciabilidade de direitos fundamentais do trabalhador, previsto no **Art. 7º, XXII, da Constituição Federal** (não mencionado no contexto normativo, mas relevante para a análise geral).  \n\n- **Limitação do contexto normativo**:  \n  O contexto fornecido **não menciona outras normas ou súmulas do TST** que possam reforçar ou complementar a análise. No entanto, a análise se baseia exclusivamente no **Art. 611-B, IX, da CLT**, que é o único dispositivo citado.  \n\n### Conclusão:  \nA cláusula da CCT que renuncia ao adicional de horas extras é **inválida**, pois viola o **Art. 611-B, IX, da CLT**, que não permite a condicionalização do direito ao adicional de horas extras à compensação do banco de horas. O trabalhador deve ser indenizado pelo adicional de horas extras, independentemente da existência de um banco de horas.",
+  "tokens_in": 308,
+  "tokens_out": 1143,
+  "latency_ms": 70266,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

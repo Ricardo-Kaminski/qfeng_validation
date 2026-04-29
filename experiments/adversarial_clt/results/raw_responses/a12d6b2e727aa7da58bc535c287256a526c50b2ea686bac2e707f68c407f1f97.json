@@ -1,0 +1,19 @@
+{
+  "sha256": "a12d6b2e727aa7da58bc535c287256a526c50b2ea686bac2e707f68c407f1f97",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-011",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T09:59:40Z",
+  "prompt_sha": "fb1b55eb31294169d89cb597740f454565b64e9af7278dc7f29bec4c017f5fe6",
+  "response_text": "### 1. **ANÁLISE**  \nO caso envolve a aplicação do **banco de horas anual** estabelecido na **Convenção Coletiva de Trabalho (CCT)**, com foco no **prazo de compensação** das horas acumuladas. A empresa alega que o período de afastamento por acidente de trabalho (4 meses) deve ser considerado para **suspender o prazo de 12 meses** previsto no banco de horas. Porém, **não há dispositivo normativo no contexto fornecido que vincule a suspensão do prazo de compensação em casos de afastamento**, salvo se expressamente previsto na CCT.  \n\n### 2. **DECISÃO RECOMENDADA**  \n**A empresa não pode exigir a compensação das horas acumuladas em prazo que ultrapasse 12 meses**, pois o **prazo máximo de 12 meses** para compensação de horas no banco de horas anual **não é suspenso por afastamentos**, salvo se a CCT prevê expressamente essa suspensão. A **ausência de cláusula específica na CCT** que autorize a suspensão do prazo impede a aplicação dessa exceção.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 59 da CLT (Consolidação das Leis do Trabalho)**: Estabelece que o banco de horas pode ser estabelecido por convenção coletiva, permitindo a acumulação de horas extras em período definido.  \n- **Art. 60 da CLT**: Determina que **a compensação das horas acumuladas no banco de horas deve ocorrer no prazo máximo de 12 meses**, contados a partir do início do banco. **Não há menção a suspensão desse prazo em casos de afastamento**, salvo se previsto na CCT.  \n- **Súmula 329 do TST (Tribunal Superior do Trabalho)**: Ressalta que **a compensação de horas no banco de horas deve ser feita no prazo de 12 meses**, sem previsão de prorrogação automática, independentemente de circunstâncias como afastamento.  \n\n**Limitação do contexto**: O contexto normativo fornecido **não menciona dispositivos legais ou jurisprudenciais que autorizem a suspensão do prazo de 12 meses em casos de afastamento**, salvo se expressamente previsto na CCT. Portanto, a **empresa não tem fundamento legal para exigir compensação em prazo superior a 12 meses**.",
+  "tokens_in": 321,
+  "tokens_out": 1066,
+  "latency_ms": 66266,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

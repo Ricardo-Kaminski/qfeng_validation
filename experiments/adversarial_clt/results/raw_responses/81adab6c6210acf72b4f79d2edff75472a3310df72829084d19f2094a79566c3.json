@@ -1,0 +1,19 @@
+{
+  "sha256": "81adab6c6210acf72b4f79d2edff75472a3310df72829084d19f2094a79566c3",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-007",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T11:20:28Z",
+  "prompt_sha": "35be560b3d56480b261099a368fe4a0b566785771735d919158eb0a8a25e76e3",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, o Tribunal Superior do Trabalho (TST) aplicou uma tese fixada em Instrução de Direito Repetitivo Regional (IRDR) do TRT da 15ª Região como se fosse um precedente vinculante nacional. No entanto, a eficácia das teses fixadas em IRDRs regionais é limitada ao âmbito regional e não possui aplicação obrigatória em outras regiões ou no cenário nacional, exceto quando afetadas como repetitivas pelo TST.\n\nA parte prejudicada alega violação ao artigo 489, §1°, V do Código de Processo Civil (CPC), que trata da aplicação indevida de precedente. Este dispositivo prevê que é motivo para recurso especial a decisão que contraria súmula ou enunciado de súmula vinculante do Supremo Tribunal Federal (STF) ou do Superior Tribunal de Justiça (STJ), ou tese firmada pelo próprio tribunal, em julgamento de recursos repetitivos.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão deve ser reconsiderada pela parte prejudicada por meio de recurso adequado, como o Recurso Ordinário ao TST (RO), alegando especificamente que houve aplicação indevida de uma tese regional como se fosse um precedente nacional vinculante. A argumentação deve destacar que a tese do IRDR da 15ª Região não possui eficácia obrigatória fora do âmbito regional, pois não foi afetada pelo TST como repetitiva.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **CPC Art. 489, §1°, V:** Este dispositivo permite o recurso especial quando a decisão contraria súmula ou enunciado de súmula vinculante do STF ou STJ, ou tese firmada pelo próprio tribunal em julgamento de recursos repetitivos. No caso, embora não haja uma tese nacional vinculante aplicável diretamente, a aplicação indevida da tese regional pode ser contestada sob o argumento de que foi tratada como se tivesse eficácia nacional.\n\n- **Limitações do Contexto:** Não há norma específica no contexto que trate sobre a eficácia das teses fixadas em IRDRs regionais, mas é importante destacar que essas teses não têm efeito vinculante fora de sua região salvo se afetadas pelo TST como repetitivas.\n\nPortanto, o argumento deve ser fundamentado na aplicação indevida da tese regional como se fosse nacionalmente vinculante, contrariando a natureza limitada das IRDRs regionais.",
+  "tokens_in": 312,
+  "tokens_out": 627,
+  "latency_ms": 35843,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

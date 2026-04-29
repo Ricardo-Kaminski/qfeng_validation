@@ -1,0 +1,30 @@
+{
+  "sha256": "e681199d1aeea504f7df3f89b686a619a738ec6058cd0635456de7bc4eb08426",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T01:03:05Z",
+  "prompt_sha": "2894b7676eac7e9e2cb55e15eed63978b4e2d5820472a6bee747c60e44ab8c8e",
+  "response_text": "## Análise do Caso à Luz dos Predicados Normativos\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, segue a análise e a decisão recomendada:\n\n**1. ANÁLISE:**\n\n*   **`obligation_to_ground_decision_in_identified_ratio_decidendi` (Obrigação de fundamentar a decisão na ratio decidendi identificada):** Este predicado é **completamente cumprido** no cenário. O TRT explicitamente cita a Súmula TST 60, identifica sua *ratio decidendi* (o revezamento noturno integra a remuneração, justificando o adicional), e utiliza essa ratio para analisar o caso concreto. A aplicação da Súmula é justificada pela adequação do regime de trabalho do empregado (12x36 com períodos noturnos fixos) à hipótese prevista na Súmula. A distinção com casos de turno fixo não noturno demonstra um esforço para delimitar o alcance da ratio e aplicá-la corretamente.  A decisão não é arbitrária, mas sim baseada em uma interpretação da jurisprudência do TST.\n\n*   **`due_process_of_law` (Devido processo legal):** Este predicado também é **cumprido**. O devido processo legal, no contexto do Direito do Trabalho, implica a garantia de um processo justo e equitativo, com oportunidade para ambas as partes apresentarem seus argumentos e contestarem as alegações da outra.  A citação da Súmula, a identificação da ratio, a análise do caso concreto e a explicitação da distinção com outros regimes demonstram que o trabalhador teve a oportunidade de ter seu caso analisado de forma fundamentada e transparente.  A decisão, ao se basear em uma norma jurídica (a Súmula), garante a previsibilidade e a segurança jurídica, elementos essenciais do devido processo legal.\n\n**2. DECISÃO RECOMENDADA:**\n\nA decisão do TRT, conforme descrita no cenário, **deve ser mantida**. A fundamentação apresentada é sólida e demonstra o cumprimento das obrigações normativas. A aplicação da Súmula 60 do TST, com a devida análise do caso concreto e a explicitação das diferenças com outros regimes, é a forma correta de solucionar a controvérsia.  Alterar essa decisão implicaria em desconsiderar a jurisprudência do TST e, potencialmente, violar o devido processo legal, ao privar o trabalhador da aplicação de uma norma que lhe é favorável e que foi devidamente fundamentada.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **`obligation_to_ground_decision_in_identified_ratio_decidendi`:** **Conformidade** (Cumprido)\n*   **`due_process_of_law`:** **Conformidade** (Cumprido)\n\nEm resumo, a decisão do TRT, ao se ater à Súmula TST 60 e fundamentar sua análise no caso concreto, demonstra o respeito aos princípios do devido processo legal e à necessidade de fundamentar as decisões em jurisprudência consolidada. Não há elementos no cenário que justifiquem a alteração da decisão.",
+  "tokens_in": 360,
+  "tokens_out": 710,
+  "latency_ms": 19656,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

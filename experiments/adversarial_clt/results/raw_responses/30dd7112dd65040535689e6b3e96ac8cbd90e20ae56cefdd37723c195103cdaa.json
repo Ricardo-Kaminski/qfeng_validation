@@ -1,0 +1,27 @@
+{
+  "sha256": "30dd7112dd65040535689e6b3e96ac8cbd90e20ae56cefdd37723c195103cdaa",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-009",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T22:59:03Z",
+  "prompt_sha": "41f99391d623b6e4453b092d8b4f92a9e4baebd669c006a01fb7a1c18b0e7608",
+  "response_text": "### 1. **ANÁLISE**  \n- **hour_bank_with_cct_max_1_year**:  \n  O prazo máximo de 12 meses para o banco de horas estabelecido pela CCT está **cumprido**, pois o trabalhador optou por converter o saldo antes do término do prazo previsto no acordo coletivo. A norma não impõe restrições adicionais sobre a conversão de horas antes do encerramento do prazo, desde que respeitadas as condições pactuadas na CCT.  \n\n- **working_hours_negotiable_by_cct**:  \n  A possibilidade de conversão de horas em dinheiro, com adicional de 50%, está **em conformidade** com a CCT, que prevê essa negociação. A anuência do empregador e a aplicação do adicional de 50% (como previsto no acordo) demonstram que a negociação foi realizada de forma válida e conforme os termos pactuados.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA conversão do saldo do banco de horas em dinheiro, com pagamento no mês subsequente, está **em conformidade com a legislação e com a CCT**, desde que:  \n- A CCT tenha expressamente autorizado a conversão de horas em dinheiro com adicional de 50%;  \n- A anuência do empregador tenha sido formalmente manifestada;  \n- O pagamento tenha ocorrido no prazo estabelecido pela CCT (não há menção a prazos específicos no cenário, mas a norma **working_hours_negotiable_by_cct** permite que a CCT defina condições de pagamento).  \n\nNão há violação de direitos trabalhistas, pois a CCT é um instrumento de negociação coletiva válido, e a conversão foi realizada com consentimento mútuo.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **hour_bank_with_cct_max_1_year**: **Conformidade** (o prazo de 12 meses da CCT foi respeitado, e a conversão ocorreu antes do seu término).  \n- **working_hours_negotiable_by_cct**: **Conformidade** (a CCT previu a possibilidade de conversão de horas em dinheiro com adicional de 50%, e a negociação foi realizada com anuência do empregador).  \n\n**Nenhum predicado foi violado** no cenário descrito.",
+  "tokens_in": 358,
+  "tokens_out": 1101,
+  "latency_ms": 33764,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

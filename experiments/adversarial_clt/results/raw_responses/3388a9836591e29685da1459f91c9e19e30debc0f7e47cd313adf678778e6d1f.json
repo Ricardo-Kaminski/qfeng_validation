@@ -1,0 +1,29 @@
+{
+  "sha256": "3388a9836591e29685da1459f91c9e19e30debc0f7e47cd313adf678778e6d1f",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-006",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T02:35:45Z",
+  "prompt_sha": "ff70c7792d137b7de9402a61d1ce5256e93238b9419f5483de6bca067860f48c",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a adoção do banco de horas pela empresa **viola normas trabalhistas brasileiras**, com base nos seguintes predicados soberanos ativos:  \n- **`sovereign(semester_hour_bank_requires_cct_or_act)`**: O banco de horas por semestre **exige a existência de um acordo coletivo de trabalho (ACT) ou convenção coletiva de trabalho (CCT)**, que só pode ser celebrado com a participação de sindicatos representativos. A assembleia interna, sem sindicato, **não atende a essa exigência legal**.  \n- **`sovereign(weekly_hour_compensation_requires_written_agreement)`**: A compensação de horas semanais **exige um acordo escrito**, que não foi comprovado no caso.  \n- **`sovereign(prohibition_negotiation_reducing_overtime_additional)`**: A CLT proíbe negociações que reduzam a remuneração adicional por horas extras (50% mínimos).  \n- **`sovereign(overtime_minimum_additional_50pct)`**: A CLT estabelece que horas extras devem ter **adicionais mínimos de 50%**, o que não foi garantido.  \n- **`sovereign(maximum_weekly_working_hours_44h)`** e **`sovereign(maximum_daily_working_hours_8h)`**: A CLT limita a jornada semanal a 44h e diária a 8h, **exigindo compensação legal** para horas excedentes.  \n\nA ausência de sindicato na assembleia e a falta de documento escrito invalidam a regulamentação, gerando **violação normativa**.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **`sovereign(semester_hour_bank_requires_cct_or_act)`**:  \n  **Significado jurídico**: O banco de horas por semestre **só pode ser instituído com a assinatura de um ACT ou CCT**, que envolve sindicatos. A assembleia interna, sem sindicato, **não tem validade legal**.  \n\n- **`sovereign(invalidity_of_clause_suppressing_overtime_payment)`**:  \n  **Significado jurídico**: Cláusulas que **suprimem ou reduzam o pagamento de horas extras** são **nulas por ilegalidade**, conforme a CLT.  \n\n- **`sovereign(weekly_hour_compensation_requires_written_agreement)`**:  \n  **Significado jurídico**: A compensação de horas semanais **exige um acordo escrito**, que não foi apresentado.  \n\n- **`sovereign(prohibition_negotiation_reducing_overtime_additional)`**:  \n  **Significado jurídico**: A CLT **proíbe negociações que diminuam o adicional de 50%** sobre horas extras.  \n\n- **`sovereign(overtime_minimum_additional_50pct)`**:  \n  **Significado jurídico**: O adicional de 50% sobre horas extras é **obrigatório**, independentemente de acordos.  \n\n- **`sovereign(maximum_weekly_working_hours_44h)`** e **`sovereign(maximum_daily_working_hours_8h)`**:  \n  **Significado jurídico**: A CLT **limita a jornada semanal a 44h e diária a 8h**, exigindo compensação legal para horas excedentes.  \n\n- **`elastic(hour_bank_without_cct_max_6_months)`**:  \n  **Significado jurídico**: Sem CCT, o banco de horas **não pode ultrapassar 6 meses**, mas o caso não menciona o prazo, o que **não invalida diretamente** a regulamentação.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa criou uma regra de \"banco de horas\" (acumular horas trabalhadas para compensar depois) **sem a participação de um sindicato**, o que **não é permitido pela lei**. A CLT exige que esse tipo de regra seja aprovada por um **acordo coletivo** (que envolve sindicatos), e **não por uma assembleia interna**. Além disso, a empresa **não provou que há um documento escrito** regulando a compensação de horas, e **não garantiu que as horas extras sejam pagas com 50% de adicional**, como exige a lei. Por isso, a regra da empresa **é inválida** e **viola os direitos dos trabalhadores**.  \n\n**Resumo**: A empresa não seguiu a lei, e os empregados têm razão ao questionar a regra.",
+  "tokens_in": 541,
+  "tokens_out": 1605,
+  "latency_ms": 536515,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,26 @@
+{
+  "sha256": "6b098cd30d96aed2925d2874b94d8e05b697d2bf09e86a51b8b5c11e9e8e62a7",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-012",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T02:08:29Z",
+  "prompt_sha": "5a8f6c7e3f499c88bbaaf7f049ff195a1844aab8c62088076ae22a749461e3d3",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG identificou uma **violação normativa** na atuação do TRT, com base nos seguintes predicados soberanos ativos:  \n- **Obrigação de explicitar as consequências práticas da decisão** (sovereign(obligation_to_state_practical_consequences_of_decision)): O TRT não explicou como o uso do precedente civil (STJ) impacta a aplicação do regime jurídico trabalhista, especialmente os critérios de fixação de danos morais estabelecidos na CLT após a Reforma de 2017.  \n- **Proibição de citação genérica de precedentes** (sovereign(prohibition_of_generic_precedent_citation)): O TRT utilizou um precedente civil (STJ) sem analisar sua compatibilidade com a legislação trabalhista, violando o princípio da **especificidade jurídica**.  \n- **Obrigação de abordar todos os argumentos jurídicos** (sovereign(obligation_to_address_all_legal_arguments)): O TRT omitiu a discussão sobre a **diferença entre os critérios de danos morais no Direito Civil e no Direito do Trabalho**, especialmente após a Reforma de 2017.  \n- **Obrigação de fundamentar a decisão em ratio decidendi identificada** (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)): A decisão não vinculou o precedente civil a uma **razão jurídica específica** que justificasse sua aplicação no contexto trabalhista.  \n- **Obrigação constitucional de fundamentar decisões** (sovereign(constitutional_obligation_to_state_reasons_for_decisions)): O TRT não explicou **por que o precedente civil foi considerado relevante** para o caso trabalhista, violando o princípio da **transparência judicial**.  \n- **Direito de acesso à justiça e revisão judicial** (sovereign(right_of_access_to_justice_and_judicial_review)): A falta de fundamentação adequada prejudica o **direito do trabalhador a uma decisão fundamentada**, limitando sua possibilidade de revisão judicial.  \n\nA **violação** ocorre porque o TRT não respeitou os **princípios da coerência jurídica**, **especificidade do Direito do Trabalho** e **transparência na fundamentação judicial**.\n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O tribunal deve explicar **como a aplicação de um precedente afeta os direitos do trabalhador** (ex.: impacto no cálculo de danos morais).  \n- **sovereign(prohibition_of_generic_precedent_citation)**: Proíbe a **citação de precedentes fora do contexto jurídico adequado** (ex.: usar um precedente civil para resolver um caso trabalhista sem análise de compatibilidade).  \n- **sovereign(obligation_to_address_all_legal_arguments)**: O tribunal deve **abordar todas as questões jurídicas relevantes**, incluindo a **diferença entre critérios de danos morais no Direito Civil e no Direito do Trabalho**.  \n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão deve ser fundamentada em uma **razão jurídica específica** (ex.: uma norma da CLT ou um precedente do TST, não do STJ).  \n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: A Constituição exige que **toda decisão judicial seja fundamentada com clareza**, permitindo revisão por terceiros.  \n- **sovereign(right_of_access_to_justice_and_judicial_review)**: O trabalhador tem **direito a uma decisão transparente**, que possa ser revisada por outros órgãos judiciais.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO TRT **usou uma regra de outro tribunal (STJ)** para decidir um caso de **dano moral no trabalho**, mas **não explicou por que essa regra se aplica ao caso do trabalhador**. Isso é um problema porque:  \n- **As leis do trabalho** (CLT) têm regras **específicas** para danos morais, especialmente depois da Reforma de 2017.  \n- **Usar uma regra de outro tribunal** sem verificar se ela se encaixa no Direito do Trabalho é **injusto** para o trabalhador.  \n- **A decisão não explica** como essa regra afeta o direito do trabalhador a uma compensação justa.  \n\nO sistema Q-FENG diz que isso é uma **violação**, porque o tribunal **não respeitou a lei** e **não deu ao trabalhador uma decisão clara e justa**.",
+  "tokens_in": 510,
+  "tokens_out": 1644,
+  "latency_ms": 52922,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,29 @@
+{
+  "sha256": "a381a3b00bec06d946fa10dde53e38863a7fef146e2f017e528b9d0cf530d69c",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-010",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T23:54:34Z",
+  "prompt_sha": "70c99fcc6dafa8ce31ce53bbe06b00e3241aab50f61531be099540706399dce4",
+  "response_text": "1. **ANÁLISE:**\n\n   - **semester_hour_bank_requires_cct_or_act**: Este predicado estabelece que o banco de horas só pode ser implementado através de Convenção Coletiva de Trabalho (CCT) ou Acordo Coletivo de Trabalho (ACT). No cenário apresentado, a empresa firmou um ACT com o sindicato dos trabalhadores em informática, que estabeleceu o banco de horas. Portanto, esse predicado é cumprido.\n\n   - **hour_bank_without_cct_max_6_months**: Este predicado indica que, na ausência de uma CCT ou ACT, o prazo máximo para compensação das horas acumuladas no banco de horas não pode exceder 6 meses. No caso em questão, a ACT estabeleceu um prazo máximo de 5 meses para a compensação das horas, o qual está dentro do limite permitido de 6 meses. Assim, esse predicado também é cumprido.\n\n   - **maximum_daily_working_hours_8h**: Este predicado determina que o limite diário de trabalho não deve exceder 8 horas, exceto em casos excepcionais previstos na legislação ou em convenções coletivas. No cenário, não há menção a horas extras acima de 2 horas por dia, indicando que o limite máximo de 8 horas diárias é respeitado. Portanto, esse predicado também está cumprido.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base nos predicados normativos aplicáveis e na análise do cenário, a decisão recomendada é que a empresa continue operando conforme o ACT firmado com o sindicato dos trabalhadores em informática. O banco de horas está sendo gerido dentro dos limites estabelecidos pela legislação e pelo acordo coletivo, garantindo conformidade com as normas trabalhistas vigentes.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Cumpriu**:\n     - *semester_hour_bank_requires_cct_or_act*: O banco de horas foi implementado através de um ACT.\n     - *hour_bank_without_cct_max_6_months*: O prazo máximo para compensação das horas acumuladas é de 5 meses, dentro do limite permitido de 6 meses.\n     - *maximum_daily_working_hours_8h*: Não há registro de horas extras acima de 2h/dia, respeitando o limite diário de trabalho.\n\n   Nenhum dos predicados foi violado no cenário apresentado.",
+  "tokens_in": 373,
+  "tokens_out": 570,
+  "latency_ms": 16453,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

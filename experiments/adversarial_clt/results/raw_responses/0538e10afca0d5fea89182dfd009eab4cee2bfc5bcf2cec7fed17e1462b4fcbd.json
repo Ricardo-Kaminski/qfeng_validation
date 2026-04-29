@@ -1,0 +1,19 @@
+{
+  "sha256": "0538e10afca0d5fea89182dfd009eab4cee2bfc5bcf2cec7fed17e1462b4fcbd",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-010",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T07:11:54Z",
+  "prompt_sha": "4d48a62ffa2628de18a5603b3fc64f01cd710cb9c400026b5027fea3559fd413",
+  "response_text": "**ANÁLISE**\n\n1.  **Identificação dos dispositivos legais aplicáveis**: O caso envolve a redução do intervalo intrajornada, o que é regulado pela CLT (Consolidação das Leis do Trabalho). O dispositivo legal mais relevante nesse contexto é o Artigo 71 da CLT.\n2.  **Interpretação no caso concreto**: O Artigo 71 da CLT estabelece que os empregados têm direito a um intervalo intrajornada de, pelo menos, uma hora para repouso e alimentação, sem prejuízo do descanso semanal. Além disso, é mencionado o Tema 981/STF (validade de CCT que reduz intervalo intrajornada para 30 minutos), que pode ser relevante se houver uma Convenção Coletiva de Trabalho (CCT) válida que autorize a redução do intervalo.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é a condenação da empresa ao pagamento integral do período suprimido como hora extra, pois não há CCT válida que autorize a redução do intervalo intrajornada. Isso se baseia na interpretação do Artigo 71 da CLT e no entendimento de que a redução do intervalo sem uma convenção coletiva válida é ilegal.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   **CLT (Consolidação das Leis do Trabalho)**: O Artigo 71 da CLT estabelece o direito dos empregados a um intervalo intrajornada de, pelo menos, uma hora para repouso e alimentação.\n*   **Súmula TST (Superior Tribunal de Justiça) - Súmula 437**: Embora não seja mencionado explicitamente no cenário, é importante lembrar que a Súmula do TST pode ser aplicada em casos semelhantes. A Súmula 437 do TST trata sobre o intervalo intrajornada e pode ser relevante para casos de redução desse intervalo.\n*   **Tema 981/STF (Supremo Tribunal Federal)**: O Tema 981/STF discute a validade de Convenções Coletivas de Trabalho que reduzem o intervalo intrajornada para 30 minutos. Se houver uma CCT válida, ela pode autorizar a redução do intervalo.\n*   **Doutrina trabalhista**: A doutrina trabalhista é fundamental para entender as nuances da legislação trabalhista e como aplicá-la em casos concretos.\n\n**CONCLUSÃO**\n\nA decisão recomendada é baseada na interpretação do Artigo 71 da CLT, que estabelece o direito a um intervalo intrajornada de pelo menos uma hora. Além disso, a falta de uma CCT válida que autorize a redução do intervalo intrajornada torna ilegal essa redução. Portanto, a empresa deve ser condenada ao pagamento integral do período suprimido como hora extra.",
+  "tokens_in": 335,
+  "tokens_out": 700,
+  "latency_ms": 23031,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,26 @@
+{
+  "sha256": "049e76656bafa5f72dc04d150854b9f6592fb5f5c003827e6a284fe2031c3660",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-012",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T23:46:12Z",
+  "prompt_sha": "3fef5cdaa6717d82e89fe6700c566b1516d2f27fef17bb65c15dae7f85be7502",
+  "response_text": "1. **ANÁLISE:**\n\n   - **Obligation to ground decision in identified ratio decidendi:** Este predicado normativo exige que as decisões judiciais sejam fundamentadas em uma ratio decidendi claramente identificada e aplicável ao caso concreto. No cenário apresentado, o TRT utilizou um precedente do STJ sobre responsabilidade civil extracontratual para embasar uma tese sobre dano moral trabalhista. Contudo, não discutiu a compatibilidade desse precedente com o regime jurídico trabalhista, especialmente em relação aos critérios de fixação de danos morais estabelecidos na CLT após a Reforma de 2017. Isso indica uma falha em identificar e fundamentar a decisão no ratio decidendi adequado ao contexto do Direito do Trabalho, o que viola este predicado normativo.\n\n   - **Due process of law:** Este predicado exige um procedimento justo e equitativo na administração da justiça. Ao não discutir a compatibilidade do precedente civil com o regime jurídico trabalhista, o TRT pode ter comprometido a aplicação adequada das normas específicas do Direito do Trabalho, prejudicando assim a garantia de um processo justo para as partes envolvidas. A falha em considerar adequadamente os critérios estabelecidos na CLT após a Reforma de 2017 pode ser vista como uma violação desse princípio.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Recomenda-se que o TRT reavalie sua decisão, considerando adequadamente os critérios específicos do Direito do Trabalho para a fixação de danos morais conforme estabelecidos na CLT após a Reforma de 2017. É essencial que a decisão seja fundamentada em uma ratio decidendi aplicável ao regime jurídico trabalhista, garantindo assim o cumprimento dos princípios do due process of law.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violados:**\n     - Obligation to ground decision in identified ratio decidendi: O TRT não fundamentou sua decisão em uma ratio decidendi adequada ao contexto trabalhista.\n     - Due process of law: A falha em considerar os critérios específicos do Direito do Trabalho pode ter comprometido a justiça e equidade do processo.\n\n   - **Cumpridos:**\n     - Não há predicados cumpridos no cenário apresentado, dado que ambos foram violados.",
+  "tokens_in": 344,
+  "tokens_out": 582,
+  "latency_ms": 16780,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "fa993e173a4a5fe5fd874d15e193c76f230f18a5c9cfd382812d8c549f4ae01f",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-009",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T20:10:28Z",
+  "prompt_sha": "b09008be3db8993e87c56a00bc3805af6ee10f0702c17448ede0c29eef458272",
+  "response_text": "**ANÁLISE**\n\n1. **Identificação dos dispositivos do contexto normativo aplicáveis ao caso:**\n   - Artigo 132, parágrafo único, do Código de Processo Civil (CPC), que determina a necessidade de fundamentação das decisões judiciais.\n   - Precedentes jurisprudenciais do Tribunal Superior do Trabalho (TST) e da própria sentença de origem, embora não sejam dispositivos legais em si mesmos, influenciam a análise jurídica.\n\n**DECISÃO RECOMENDADA**\n\n2. **Qual deve ser a decisão e por quê:**\n   - A decisão recomendada seria a revisão da sentença do magistrado trabalhista para que ela se adeque às alterações jurisprudenciais posteriores ao precedente citado na sentença de origem.\n   - Isso porque a manutenção de uma sentença com base em um precedente posteriormente superado por jurisprudência mais recente do TST pode ser considerada como não observância da necessidade de fundamentação adequada, conforme o artigo 132, parágrafo único, do CPC.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n3. **Cite especificamente os artigos e súmulas do contexto acima:**\n   - O dispositivo legal mais diretamente aplicável é o Artigo 132, parágrafo único, do Código de Processo Civil (CPC), que estabelece a necessidade de fundamentação das decisões judiciais.\n   - A jurisprudência do TST e a sentença de origem são relevantes para entender as bases da decisão, mas não são dispositivos legais em si mesmos.",
+  "tokens_in": 285,
+  "tokens_out": 383,
+  "latency_ms": 6436,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

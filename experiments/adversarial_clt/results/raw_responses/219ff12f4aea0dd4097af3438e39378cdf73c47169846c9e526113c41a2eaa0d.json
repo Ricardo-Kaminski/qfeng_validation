@@ -1,0 +1,19 @@
+{
+  "sha256": "219ff12f4aea0dd4097af3438e39378cdf73c47169846c9e526113c41a2eaa0d",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-013",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T06:36:13Z",
+  "prompt_sha": "80281495f36721e3442a67c8e851e23aa42620978088ce92f2ee01e3661e0bd0",
+  "response_text": "**ANÁLISE**\n\n1. **Identificação dos dispositivos legais aplicáveis**: \n   - Artigo 59 da CLT: Regula a compensação de horas trabalhadas em excesso, estabelecendo o direito do empregado ao pagamento das horas extras não compensadas.\n   - Artigo 7º, XIII e XIV da CF/88: Protegem o direito dos trabalhadores à jornada de trabalho razoável (XIII) e à redução da jornada de trabalho para fins de proteção à saúde ou à segurança do trabalhador (XIV).\n   - Tema 1046/STF: Relacionado à validade de acordos coletivos que estabelecem banco de horas em setores específicos, como o bancário.\n\n2. **Interpretação no caso concreto**: \n   A análise do caso apresenta a aplicação da ratio decidendi do julgado TST-Ag-RR-868-65.2021.5.13.0030 (2ª Turma, DEJT 06/12/2023), que se refere à validade de acordos coletivos estabelecendo banco de horas em setores específicos, como o bancário. No entanto, a decisão do TST concluiu que essa ratio é inaplicável ao caso concreto do setor aéreo, fundamentando-se na distinção entre os setores e nos dispositivos legais da CF/88 (Artigo 7º, XIII e XIV), que protegem o direito dos trabalhadores à jornada de trabalho razoável e à redução da jornada para fins de proteção à saúde ou segurança.\n\n3. **Decisão Recomendada**:\n   Considerando a fundamentação completa, identificada e verificável do acórdão do TST, que concluiu pela inaplicabilidade da ratio decidendi ao caso concreto do setor aéreo, baseado na distinção entre os setores e nos dispositivos legais da CF/88 (Artigo 7º, XIII e XIV), recomenda-se manter a decisão do TST.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n- Art. 59 da CLT: \"O banco de horas será estabelecido por acordo ou convenção coletiva, vedado o seu cumprimento por determinação unilateral do empregador.\"\n- Súmula nº 379 do TST: \"É ilegal a cláusula que institui banco de horas sem prévia negociação com os sindicatos representativos da categoria profissional.\"\n- Precedentes constitucionais (CF/88, Art. 7º, XIII e XIV): Protegem o direito dos trabalhadores à jornada de trabalho razoável e à redução da jornada para fins de proteção à saúde ou segurança.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando a fundamentação completa, identificada e verificável do acórdão do TST, que concluiu pela inaplicabilidade da ratio decidendi ao caso concreto do setor aéreo, baseado na distinção entre os setores e nos dispositivos legais da CF/88 (Artigo 7º, XIII e XIV), recomenda-se manter a decisão do TST.",
+  "tokens_in": 369,
+  "tokens_out": 734,
+  "latency_ms": 24203,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

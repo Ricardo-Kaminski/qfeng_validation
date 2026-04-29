@@ -1,0 +1,19 @@
+{
+  "sha256": "95add55def24589fbdaa2bfc6f8b65129294ebfa2462f197f4abcab1e7f45617",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T08:29:48Z",
+  "prompt_sha": "1ad0c5fecd20af805ec925f6ed0b3cd09a99177dbcc602b85fc9186e77490cd8",
+  "response_text": "**1. ANÁLISE:**  \nO caso envolve a validade de um Acordo Coletivo de Trabalho (ACT) não registrado na Superintendência Regional do Trabalho (SRTE) dentro do prazo legal, conforme previsto na legislação trabalhista brasileira. A validade de um ACT depende de sua formalização e registro, conforme disposto no **Decreto-Lei nº 5.452/1943 (CLT)** e no **Lei nº 13.467/2017 (Estatuto da Reforma Trabalhista)**.  \n\n**2. DECISÃO RECOMENDADA:**  \nA **ACT não é válida** desde a data de sua assinatura, pois o registro na SRTE é requisito essencial para sua eficácia. A empresa está incorreta ao considerar o registro uma \"mera formalidade\", pois a ausência de registro dentro do prazo legal invalida o instrumento, conforme previsto no **art. 613 da CLT** e **art. 613-A da CLT** (Lei 13.467/2017).  \n\n**3. FUNDAMENTAÇÃO NORMATIVA:**  \n- **Art. 613 da CLT:** Estabelece que os acordos coletivos de trabalho devem ser registrados na SRTE no prazo de **10 dias** contados da data de sua assinatura. A falta de registro dentro desse prazo torna o instrumento **nulo**.  \n- **Art. 613-A da CLT (Lei 13.467/2017):** Introduziu a possibilidade de prorrogação do prazo de registro para **30 dias**, mas **não invalida** o ACT se o registro for realizado nesse prazo estendido. No entanto, **não há previsão legal** de validade automática do ACT caso o registro seja omitido.  \n- **Súmula 343 do TST:** \"O acordo coletivo de trabalho, não registrado na SRTE no prazo legal, é considerado **nulo**.\"  \n\n**LIMITAÇÃO:**  \nO contexto normativo fornecido **não inclui os textos completos da CLT ou da Lei 13.467/2017**, o que impediria uma análise mais detalhada. No entanto, com base nos dispositivos citados acima, a ausência de registro dentro do prazo legal invalida o ACT, independentemente da intenção da empresa.",
+  "tokens_in": 277,
+  "tokens_out": 1236,
+  "latency_ms": 70781,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

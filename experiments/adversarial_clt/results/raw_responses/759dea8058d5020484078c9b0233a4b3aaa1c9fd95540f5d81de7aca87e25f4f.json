@@ -1,0 +1,19 @@
+{
+  "sha256": "759dea8058d5020484078c9b0233a4b3aaa1c9fd95540f5d81de7aca87e25f4f",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-009",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T09:48:42Z",
+  "prompt_sha": "2722d03920b7e27b8bb0202ab5af9eebb5796cac03b26e86812fcd909b78f3bc",
+  "response_text": "### 1. **ANÁLISE**  \nOs dispositivos do contexto normativo aplicáveis ao caso são:  \n- A **CCT (Convenção Coletiva de Trabalho)**, que estabelece a possibilidade de **conversão do saldo de banco de horas em dinheiro**, com **adicional de 50%** sobre as horas convertidas.  \n- A **anuência do empregador** à conversão, conforme previsto na CCT.  \n- A **realização da conversão antes do término do prazo da CCT (12 meses)** e o **pagamento no mês seguinte à conversão**, conforme acordado.  \n\n### 2. **DECISÃO RECOMENDADA**  \nA **conversão do saldo de banco de horas em dinheiro**, com o **adicional de 50%**, deve ser **reconhecida como válida**, desde que:  \n- A **CCT** tenha previsto expressamente essa possibilidade (como ocorre no caso);  \n- A **conversão tenha sido realizada com anuência do empregador**;  \n- A **condição de pagamento** (no mês seguinte à conversão) esteja compatível com os termos da CCT.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Contexto normativo fornecido**:  \n  - A **CCT** prevê a **conversão de horas em dinheiro com adicional de 50%** (dispositivo descrito no contexto, mas sem citação de artigo específico da CLT ou outro texto normativo).  \n  - A **anuência do empregador** é exigida para a conversão (como mencionado no contexto).  \n  - A **realização da conversão antes do término do prazo da CCT** e o **pagamento no mês seguinte** são compatíveis com os termos da CCT (como descrito no contexto).  \n\n- **Limitação do contexto normativo**:  \n  - **Não há citação de artigos da CLT, súmulas do TST ou outras normas jurídicas específicas** no contexto fornecido. A análise baseia-se **exclusivamente nas disposições da CCT descritas no contexto**, sem referência a normas gerais do Direito do Trabalho.  \n\n**Observação**: Em casos reais, a análise também consideraria dispositivos da CLT (como art. 58, 60 e 61 da CLT, sobre banco de horas e convenções coletivas), mas, conforme solicitado, o presente texto limita-se aos dispositivos do contexto normativo fornecido.",
+  "tokens_in": 291,
+  "tokens_out": 1026,
+  "latency_ms": 63702,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

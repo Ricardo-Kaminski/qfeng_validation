@@ -1,0 +1,29 @@
+{
+  "sha256": "52882e2e44815ed6e38bc0b54b1bb4f8451790af2859b643b535b51d6c657a56",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:23:02Z",
+  "prompt_sha": "1bd0aef03e0b6d03d84ca202cf6b7a00e95994884a42849dc5597c5e0bcb70a2",
+  "response_text": "**1. ANÁLISE**\n\n- **semester_hour_bank_requires_cct_or_act**: Esse predicado normativo indica que a empresa precisa de um Acordo Coletivo de Trabalho (ACT) ou uma Convenção Coletiva de Trabalho (CCT) para estabelecer banco de horas. No cenário, o sindicato da categoria não celebrou qualquer ACT ou CCT autorizando o banco de horas. Portanto, essa norma é violada.\n\n- **prohibition_on_unilateral_hour_bank**: Esse predicado proíbe a empresa de estabelecer um banco de horas unilateralmente sem negociação sindical. No cenário, a empresa implantou o banco de horas mediante memorando interno assinado pelos empregados sem negociação sindical. Portanto, essa norma também é violada.\n\n**2. DECISÃO RECOMENDADA**\n\nCom base nos predicados normativos violados, recomenda-se que a decisão seja favorável aos empregados, determinando a invalidação do banco de horas implantado unilateralmente pela empresa e exigindo a negociação sindical para estabelecer um novo sistema de compensação de jornada.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **semester_hour_bank_requires_cct_or_act**: Violada\n- **prohibition_on_unilateral_hour_bank**: Violada\n\nEsses predicados foram violados, pois a empresa não observou as normas estabelecidas pela CLT e jurisprudência do TST.",
+  "tokens_in": 352,
+  "tokens_out": 336,
+  "latency_ms": 5656,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

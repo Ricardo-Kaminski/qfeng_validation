@@ -1,0 +1,19 @@
+{
+  "sha256": "fecfc5e2f183ff1a134176c6428be6a0b751cc77b601f60e1ec43d563daf74fc",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T11:50:36Z",
+  "prompt_sha": "a85f83168754656645aa505c738c3f455e5b43d35588252a7741b37fee254e0a",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a análise deve considerar as disposições sobre banco de horas e prazos máximos para sua vigência conforme o Direito do Trabalho brasileiro.\n\n- **Banco de Horas:** A Convenção Coletiva de Trabalho (CCT) estabelece um banco de horas anual renovável automaticamente. No entanto, a legislação trabalhista brasileira impõe limites ao prazo máximo do banco de horas.\n\n- **Prazo Máximo:** De acordo com o artigo 59 da CLT (Consolidação das Leis do Trabalho), o banco de horas não pode ultrapassar um ano. Após esse período, é necessária uma nova negociação coletiva para sua renovação.\n\n- **Renovação Automática:** A cláusula de renovação automática prevista na CCT deve respeitar os limites legais estabelecidos pela CLT. Portanto, a extensão por mais três meses sem nova negociação coletiva não seria permitida se ultrapassar o prazo máximo legal.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que a empresa deve cessar a aplicação do banco de horas após o término dos 12 meses iniciais, conforme previsto na legislação trabalhista. A extensão por mais três meses sem nova negociação coletiva viola o prazo máximo estabelecido pelo artigo 59 da CLT.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Artigo 59 da CLT:** Este dispositivo estabelece que \"o banco de horas não poderá exceder um ano, findo o qual será obrigatória a sua liquidação\". A renovação do banco de horas após esse prazo requer uma nova negociação coletiva.\n\n- **Limitação da Renovação Automática:** Embora a CCT possa prever a renovação automática, essa cláusula não pode contrariar o limite máximo legal de um ano estabelecido pela CLT. Portanto, qualquer prorrogação além desse período sem nova negociação coletiva é inválida.\n\nPortanto, a decisão deve ser em favor do sindicato dos trabalhadores, que contesta a extensão do banco de horas sem nova CCT, conforme o limite imposto pelo artigo 59 da CLT.",
+  "tokens_in": 315,
+  "tokens_out": 552,
+  "latency_ms": 33703,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

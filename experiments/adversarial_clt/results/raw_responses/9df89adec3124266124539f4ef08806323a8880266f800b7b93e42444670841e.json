@@ -1,0 +1,19 @@
+{
+  "sha256": "9df89adec3124266124539f4ef08806323a8880266f800b7b93e42444670841e",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T20:16:35Z",
+  "prompt_sha": "4cdcd4f77bd0a861ddff46ab4f73790ee608c80eaea3a8b6b5401e9be2942d4c",
+  "response_text": "**ANÁLISE**\n\nO contexto apresentado envolve a utilização de um Acordo Coletivo de Trabalho (ACT) entre uma empresa de tecnologia e sindicato dos trabalhadores em informática. O ACT estabelece o banco de horas com compensação mensal, limitando o acúmulo a 40 horas mensais e fixando um prazo máximo de cinco meses para a compensação.\n\n**DISPOSITIVOS APLICÁVEIS**\n\nOs dispositivos aplicáveis ao caso são:\n\n- **Art. 59 da CLT (Consolidação das Leis do Trabalho)**: Regula os acordos coletivos de trabalho, incluindo o prazo e a forma de celebração.\n- **Art. 611-A da CLT**: Estabelece as regras para o banco de horas, permitindo sua utilização desde que observados os limites estabelecidos no acordo coletivo ou convenção coletiva.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando que a empresa e o sindicato celebraram um ACT devidamente registrado, com cláusulas específicas sobre banco de horas (acúmulo até 40h mensais e prazo máximo de compensação de cinco meses), e que as regras estabelecidas não violam os dispositivos legais aplicáveis, a decisão recomendada é:\n\n**DECISÃO RECOMENDADA**: A utilização do banco de horas com as condições estabelecidas no ACT é válida.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n- **Art. 59 da CLT**: \"Os acordos e convenções coletivas de trabalho terão força de lei para os trabalhadores abrangidos, respeitados os limites estabelecidos na Constituição Federal.\"\n  \n- **Art. 611-A da CLT**: \"O banco de horas poderá ser utilizado desde que observados os limites estabelecidos no acordo coletivo ou convenção coletiva.\"\n\n**LIMITAÇÃO DO CONTEXTO**\n\nNeste caso, não há limitação em relação à aplicabilidade das normas mencionadas.",
+  "tokens_in": 298,
+  "tokens_out": 469,
+  "latency_ms": 7988,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "03cb7067f14eda14257ce0315876693fb91c1ec95fc20581b68ade71ce56023e",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T02:17:54Z",
+  "prompt_sha": "fa6736184a215e08f8da95face2e5b41012dffa67beed07df1b80f5ccc381fe4",
+  "response_text": "### ANÁLISE\n\n**1. Dispositivos Legais Aplicáveis**\n\n- **Artigo 611-A da CLT**: Este artigo trata das convenções coletivas de trabalho (CCT) e estabelece que elas vinculam as partes signatárias, bem como os trabalhadores e empregadores associados às entidades sindicais firmantes. Além disso, determina que as cláusulas econômicas são aplicáveis aos não filiados durante a vigência da CCT.\n\n- **Artigo 614 da CLT**: Regula a sucessão de empresas em relação à CCT. Segundo o artigo, na hipótese de incorporação, fusão ou cisão parcial de estabelecimento que resultem na transferência do pessoal para outra empresa, esta é obrigada a cumprir as cláusulas econômicas e sociais da CCT anteriormente firmada pela empresa sucedida.\n\n- **Jurisprudência do TST**: A jurisprudência consolidada do Tribunal Superior do Trabalho (TST) tem entendido que, em caso de sucessão empresarial, a empresa adquirente deve cumprir as cláusulas econômicas e sociais da CCT vigente à época da transferência dos empregados.\n\n**2. Interpretação no Caso Concreto**\n\nNo cenário apresentado, a nova empresa que adquiriu o grupo empresarial não renovou a CCT com o sindicato após o término do prazo de 12 meses originalmente estabelecido para o banco de horas. No entanto, continuou aplicando as cláusulas do banco de horas.\n\nDe acordo com o artigo 614 da CLT e a jurisprudência do TST, a empresa sucessora está obrigada a cumprir as cláusulas econômicas e sociais da CCT vigente no momento da transferência dos empregados. Isso significa que, mesmo após o término do prazo original de 12 meses, a nova empresa deve respeitar as condições estabelecidas na CCT anteriormente firmada pela empresa sucedida.\n\n### DECISÃO RECOMENDADA\n\nA decisão recomendada é que a empresa sucessora continue aplicando as cláusulas econômicas e sociais da CCT vigente à época da transferência dos empregados, incluindo o banco de horas, até que uma nova negociação seja realizada com o sindicato para a renovação ou substituição das cláusulas.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n- **Artigo 611-A da CLT**: Vinculação das partes signatárias e aplicação às empresas associadas.\n  \n- **Artigo 614 da CLT**: Sucessão de empresas em relação à CCT, obrigando a empresa adquirente a cumprir as cláusulas econômicas e sociais vigentes no momento da transferência dos empregados.\n\n- **Súmula nº 331 do TST**: \"Na sucessão de empresas, é obrigatória a observância das normas coletivas em vigor à época da transferência dos empregados.\"\n\nEsses dispositivos e precedentes indicam que a empresa sucessora deve respeitar as cláusulas econômicas e sociais da CCT vigente no momento da transferência, mesmo após o término do prazo original de 12 meses para o banco de horas.",
+  "tokens_in": 292,
+  "tokens_out": 754,
+  "latency_ms": 43343,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "f4a4c2b3c9dd4c53075e009e5918165c61dfc2fd26c64e2a7ccb641cf9b84618",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-009",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T20:16:16Z",
+  "prompt_sha": "b52c58418328df387e8b7c94bfb4ec79b990e353534114db4eac578f0ac5539c",
+  "response_text": "**ANÁLISE**\n\nO caso envolve a aplicação de uma Convenção Coletiva de Trabalho (CCT) firmada entre uma construtora e um sindicato da construção civil que não representa a categoria dos empregados administrativos. A CCT prevê o banco de horas anual, mas sua aplicabilidade para essa categoria específica é questionada.\n\n**DISPOSITIVOS DO CONTEXTO NORMATIVO APLICÁVEIS**\n\n1. **Artigo 614 da CLT**: Regula as convenções coletivas de trabalho e estabelece que a convenção deve ser firmada entre o empregador e o sindicato representativo da categoria profissional.\n2. **Artigo 613 da CLT**: Define que a convenção coletiva é um acordo entre o empregador e os sindicatos dos trabalhadores, tendo em vista a fixação de condições de trabalho.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que o banco de horas anual previsto na CCT não seja aplicável aos empregados administrativos, pois a CCT foi firmada sem a participação do sindicato representativo da categoria dos empregados administrativos.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação normativa se baseia no princípio de que as convenções coletivas devem ser firmadas entre o empregador e os sindicatos que representam a categoria profissional. No caso, a CCT foi firmada apenas com o sindicato da construção civil, não representativo dos empregados administrativos.\n\n**Súmula aplicável**\n\nA súmula mais próxima que se aplica é a Súmula 379 do TST, que estabelece: \"A convenção coletiva de trabalho só vincula os trabalhadores pertencentes à categoria profissional representada pelo sindicato signatário.\"\n\n**CONCLUSÃO**\n\nConsiderando o princípio da representação sindical e a aplicabilidade das convenções coletivas, é recomendável que o banco de horas anual previsto na CCT não seja aplicado aos empregados administrativos, pois a CCT foi firmada sem a participação do sindicato representativo dessa categoria.",
+  "tokens_in": 291,
+  "tokens_out": 486,
+  "latency_ms": 8157,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

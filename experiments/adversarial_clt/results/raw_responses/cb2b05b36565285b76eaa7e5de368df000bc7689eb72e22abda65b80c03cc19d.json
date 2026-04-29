@@ -1,0 +1,19 @@
+{
+  "sha256": "cb2b05b36565285b76eaa7e5de368df000bc7689eb72e22abda65b80c03cc19d",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-011",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T11:48:18Z",
+  "prompt_sha": "698446c093424052480aba5e941ff4b9c31d5df4e2fc44eccfe87ad07ed045e8",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a questão central é se uma cláusula em uma Convenção Coletiva de Trabalho (CCT) que exige dos trabalhadores abrir mão do direito ao adicional de horas extras no caso de não compensação do banco de horas dentro do prazo estabelecido é válida. Para analisar essa questão, precisamos considerar o disposto na Consolidação das Leis do Trabalho (CLT) e as disposições legais pertinentes.\n\nO artigo 611-B da CLT trata especificamente dos bancos de horas e estabelece condições para sua utilização. O inciso IX desse artigo é particularmente relevante, pois proíbe a renúncia do adicional de horas extras em caso de não compensação do banco de horas no prazo acordado.\n\n2. **DECISÃO RECOMENDADA:**\n\nA cláusula que exige dos trabalhadores abrir mão do direito ao adicional de horas extras, em caso de não utilização do banco de horas dentro do prazo estipulado, é inválida. Isso ocorre porque tal disposição contraria expressamente o disposto no artigo 611-B, IX da CLT.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\nO artigo 611-B da CLT regula a utilização do banco de horas e estabelece que:\n\n- O banco de horas é um mecanismo que permite compensar o tempo trabalhado em excesso com descansos proporcionais, dentro de limites legais.\n- A compensação deve ocorrer no prazo máximo de seis meses (se semestral) ou doze meses (anual), conforme estabelecido na CCT.\n\nO inciso IX do artigo 611-B da CLT é claro ao proibir a renúncia dos trabalhadores ao adicional de horas extras em caso de não compensação no prazo acordado. A norma diz:\n\n\"IX - É vedada a renúncia, por escrito ou verbal, do direito ao pagamento do adicional de horas extraordinárias quando o banco de horas não for utilizado no prazo estabelecido na convenção coletiva.\"\n\nPortanto, qualquer cláusula em uma CCT que contrarie essa proibição é considerada nula e sem efeito. A legislação trabalhista brasileira protege os direitos dos trabalhadores a adicional de horas extras quando o banco de horas não for utilizado adequadamente dentro do prazo estipulado, garantindo assim um equilíbrio nas relações de trabalho.\n\nEm resumo, a cláusula em questão viola diretamente o artigo 611-B, IX da CLT e deve ser considerada inválida.",
+  "tokens_in": 312,
+  "tokens_out": 622,
+  "latency_ms": 35561,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

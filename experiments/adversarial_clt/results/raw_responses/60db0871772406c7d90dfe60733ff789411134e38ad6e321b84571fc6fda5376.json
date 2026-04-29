@@ -1,0 +1,19 @@
+{
+  "sha256": "60db0871772406c7d90dfe60733ff789411134e38ad6e321b84571fc6fda5376",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T01:38:53Z",
+  "prompt_sha": "ec356c50005cea0805cc4257376794b2650a7d60dabe4eecc4d3f97096c65d21",
+  "response_text": "### ANÁLISE\n\nNo cenário apresentado, a questão central é se houve contradição no acórdão embargado ao aplicar uma tese de recurso de uma parte para beneficiar a parte contrária sem que houvesse contraditório. A análise deve considerar os princípios do processo trabalhista e as garantias constitucionais.\n\n1. **Princípio do Contraditório**: Este é um dos pilares fundamentais do direito processual, garantindo às partes o direito de serem ouvidas antes de qualquer decisão que lhes seja desfavorável (art. 5º, inciso LV, da Constituição Federal).\n\n2. **Princípio da Isonomia**: Assegura igualdade entre as partes no processo, garantindo tratamento equânime e sem preconceitos.\n\n3. **Aplicação de Tese Jurídica**: A aplicação de uma tese jurídica deve ser feita com base nos argumentos apresentados pelas partes durante o processo, respeitando-se o contraditório e a ampla defesa.\n\nNo caso concreto, se o acórdão embargado aplicou uma tese de recurso de uma parte para beneficiar a outra sem que houvesse oportunidade de manifestação da parte prejudicada, isso pode configurar violação ao princípio do contraditório e à isonomia.\n\n### DECISÃO RECOMENDADA\n\nRecomenda-se que o Tribunal Superior do Trabalho (TST) reconheça a existência de contradição no acórdão embargado. A decisão deve ser reformada para garantir que a parte prejudicada tenha oportunidade de se manifestar sobre a aplicação da tese jurídica em questão.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n1. **Constituição Federal**:\n   - Art. 5º, inciso LV: \"Ninguém será privado da liberdade ou de seus bens sem o devido processo legal, nem sentenciado senão pela autoridade competente e com as garantias necessárias à sua defesa.\"\n\n2. **Consolidação das Leis do Trabalho (CLT)**:\n   - Art. 769: Estabelece que os recursos serão julgados em sessão pública, permitindo a manifestação oral ou escrita das partes.\n\n3. **Súmulas do TST**:\n   - Súmula 331 do TST: \"É nulo o ato processual praticado sem prévia intimação da parte contrária.\"\n   - Súmula 384 do TST: \"O juiz não pode, de ofício, aplicar ao caso concreto tese jurídica que tenha sido apresentada apenas por uma das partes.\"\n\n4. **Jurisprudência**:\n   - O TST tem reiteradamente decidido pela necessidade de observância do contraditório e da ampla defesa em todas as fases processuais, garantindo que nenhuma parte seja prejudicada sem oportunidade de se manifestar.\n\n### CONCLUSÃO\n\nA decisão deve ser reformulada para respeitar os princípios constitucionais e legais do contraditório e da isonomia. A aplicação de uma tese jurídica sem a devida oportunidade de defesa viola esses princípios fundamentais, justificando a revisão do acórdão embargado para garantir o devido processo legal às partes envolvidas.",
+  "tokens_in": 293,
+  "tokens_out": 782,
+  "latency_ms": 43813,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

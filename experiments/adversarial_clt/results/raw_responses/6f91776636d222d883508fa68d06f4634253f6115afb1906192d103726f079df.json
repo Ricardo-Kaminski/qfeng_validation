@@ -1,0 +1,19 @@
+{
+  "sha256": "6f91776636d222d883508fa68d06f4634253f6115afb1906192d103726f079df",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T02:31:51Z",
+  "prompt_sha": "eb5f0ac3b82d09f6b9448daf89dd52929392374faf9aec4d83c193620aa9aa41",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Convenção Coletiva de Trabalho (CCT):** A CCT é um acordo coletivo entre sindicatos e empregadores que estabelece normas específicas para os trabalhadores de uma categoria. Ela tem força vinculante sobre as partes signatárias.\n\n- **Artigo 611-A da CLT:** Este artigo trata do banco de horas, permitindo a compensação de jornada mediante acordo ou convenção coletiva, desde que observadas determinadas condições, como o limite máximo de acúmulo de horas.\n\n**Interpretação no Caso Concreto:**\n\n- **Limites da CCT:** A CCT estabeleceu um limite máximo de 80h para o banco de horas. Este é um termo expressamente negociado e acordado entre as partes, tendo força normativa sobre os signatários.\n\n- **Interpretação do Limite:** A empresa alega que o limite de 80h era indicativo e não mandatório. No entanto, na ausência de uma cláusula expressa que permita flexibilização ou alteração unilateral desse limite, deve-se presumir que ele é obrigatório.\n\n- **Extrapolamento do Limite:** A extrapolação para 200h sem nova negociação com o sindicato representa uma violação ao acordo coletivo. Isso ocorre porque a CCT tem força normativa e qualquer alteração substancial deve ser negociada novamente entre as partes.\n\n### 2. DECISÃO RECOMENDADA\n\n**Decisão:**\n\nA decisão recomendada é que o banco de horas para o operador seja considerado válido apenas até o limite acordado de 80h. As 120h excedentes (200h - 80h) não podem ser compensadas sob o regime do banco de horas estabelecido pela CCT.\n\n**Justificativa:**\n\n- A CCT é um acordo vinculante que define normas específicas para a categoria, incluindo limites máximos para o acúmulo de horas no banco.\n  \n- Qualquer alteração substancial ao acordo coletivo deve ser negociada e aprovada pelas partes signatárias.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n**Artigos da CLT:**\n\n- **Artigo 611-A:** Estabelece as condições para o banco de horas, incluindo a necessidade de acordo ou convenção coletiva e observância dos limites acordados.\n\n**Súmulas do TST:**\n\n- **Súmula 331 do TST:** \"É nulo o contrato individual que estabelecer jornada superior à prevista em norma coletiva aplicável ao empregado.\"\n\n- **Súmula 434 do TST:** \"O banco de horas deve observar os limites máximos e as condições estabelecidas na convenção ou acordo coletivo.\"\n\n**Precedentes Constitucionais:**\n\n- A Constituição Federal, em seu artigo 7º, inciso XXVI, garante a negociação coletiva como meio de regular direitos e obrigações entre trabalhadores e empregadores.\n\nEsses dispositivos e precedentes reforçam que qualquer alteração ao acordo coletivo deve ser feita mediante nova negociação, respeitando os limites estabelecidos na CCT original.",
+  "tokens_in": 309,
+  "tokens_out": 768,
+  "latency_ms": 42094,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

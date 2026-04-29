@@ -1,0 +1,29 @@
+{
+  "sha256": "a865a3a6d032c454ba7b2d593255cbb967650909c2edeb607b036fa4fa2d6a71",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-011",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T23:55:43Z",
+  "prompt_sha": "6fac52d3c2ea75bbed1139d969eba52baa7f8af6a911387e6e7845d9583ea12b",
+  "response_text": "1. **ANÁLISE:**\n\n   - **semester_hour_bank_requires_cct_or_act:** Este predicado normativo estabelece que a instituição de um banco de horas semestral deve ser regulada por uma Convenção Coletiva de Trabalho (CCT) ou Acordo Coletivo de Trabalho (ACT). No cenário apresentado, a transportadora firmou uma CCT que inclui o banco de horas semestral. Portanto, esse predicado está cumprido, pois houve a regulamentação necessária por meio da CCT.\n\n   - **CLT Art. 611-B, IX:** Este artigo da CLT estabelece que as cláusulas de convenção ou acordo coletivo que prevejam renúncia ao adicional de horas extras são nulas. No caso em questão, a CCT inclui uma cláusula específica pela qual os trabalhadores abriram mão do direito ao adicional de horas extras se o banco não fosse compensado no prazo estipulado. Essa cláusula viola diretamente o CLT Art. 611-B, IX, pois proíbe a renúncia ao adicional de horas extras.\n\n2. **DECISÃO RECOMENDADA:**\n\n   A decisão recomendada é que a cláusula de renúncia ao adicional de horas extras seja considerada inválida e nula conforme o CLT Art. 611-B, IX. Os trabalhadores têm direito ao adicional de horas extras independentemente da compensação do banco de horas semestral, e qualquer acordo que contrarie isso é ilegal.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Cumprido:** \n     - *semester_hour_bank_requires_cct_or_act*: A transportadora cumpriu a exigência de regular o banco de horas semestral por meio de uma CCT.\n\n   - **Violado:**\n     - *CLT Art. 611-B, IX*: A cláusula que prevê renúncia ao adicional de horas extras viola este artigo da CLT, pois tal renúncia é expressamente proibida pela legislação trabalhista brasileira.\n\nPortanto, a análise indica que, embora o banco de horas semestral tenha sido adequadamente regulado por uma CCT, a cláusula específica que nega o direito ao adicional de horas extras é inválida e deve ser descartada.",
+  "tokens_in": 366,
+  "tokens_out": 549,
+  "latency_ms": 15843,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

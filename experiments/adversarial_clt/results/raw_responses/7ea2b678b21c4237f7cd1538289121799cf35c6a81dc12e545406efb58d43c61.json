@@ -1,0 +1,29 @@
+{
+  "sha256": "7ea2b678b21c4237f7cd1538289121799cf35c6a81dc12e545406efb58d43c61",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T23:49:58Z",
+  "prompt_sha": "b661f2255b5502b8f1d54e8173e364eaea6fcc82df6fd0fce186a62f26ced61c",
+  "response_text": "1. **ANÁLISE:**\n\n   - **Predicado normativo aplicável: `hour_bank_with_cct_max_1_year`**\n   \n     Este predicado estabelece que, conforme a Consolidação das Leis do Trabalho (CLT) e jurisprudência consolidada do Tribunal Superior do Trabalho (TST), o saldo de banco de horas estabelecido por Convenção Coletiva de Trabalho (CCT) deve ser respeitado até um limite máximo de 1 ano. Além desse período, as horas não compensadas devem ser pagas como hora extra.\n\n     No cenário apresentado, a empresa e o empregado tinham um acordo por meio de CCT que previa compensação semestral das horas acumuladas no banco de horas. Como o saldo positivo era de 80h e não foi compensado antes da rescisão do contrato de trabalho, as horas excedentes ao período permitido (1 ano) devem ser consideradas como hora extra.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base no predicado normativo aplicável (`hour_bank_with_cct_max_1_year`), a decisão recomendada é que o saldo de horas não compensado antes da rescisão do contrato, que excedeu o período máximo permitido pelo banco de horas (1 ano), deve ser pago ao empregado como hora extra. Isso inclui o pagamento com adicional de 50%, conforme previsto na legislação trabalhista brasileira para horas extras.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violados:**\n     - `hour_bank_with_cct_max_1_year`: A empresa não respeitou o limite máximo de 1 ano para a compensação das horas acumuladas no banco de horas, resultando na necessidade de pagamento dessas horas como hora extra.\n\n   - **Cumpriu:**\n     - Não há predicados listados que foram cumpridos neste cenário específico, já que o foco está na violação do limite máximo para compensação das horas acumuladas no banco de horas.",
+  "tokens_in": 344,
+  "tokens_out": 472,
+  "latency_ms": 13593,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

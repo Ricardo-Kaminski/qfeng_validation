@@ -1,0 +1,26 @@
+{
+  "sha256": "6d39f621f19ff0296e60fc66799c0ae299d815fd17ba578b18c278399188e895",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:34:53Z",
+  "prompt_sha": "8878dc2d9f7cf9a0114687aa1266b009f3a08a32602082365158196ffb12806c",
+  "response_text": "**1. ANÁLISE**\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: O acórdão trabalhista explicitamente identifica o número do precedente (TST-Ag-RR-868-65.2021.5.13.0030), transcreve a ementa, analisa a compatibilidade fática com o caso em julgamento e aplica a ratio ao caso concreto. Isso significa que o acórdão está cumprindo com a obrigação de fundamentar sua decisão nos termos do precedente identificado.\n\n- **stf_tema1046_binding_precedent_applied**: Não há menção explícita à aplicação de um Tema do STF (Supremo Tribunal Federal) específico como o 1046. Portanto, não é possível concluir se essa obrigação foi cumprida ou violada sem mais informações.\n\n- **due_process_of_law**: O acórdão trabalhista menciona que todas as bases legais e jurisprudenciais são identificadas e verificáveis, o que sugere que o processo de julgamento respeitou os princípios do devido processo legal. Isso inclui a oportunidade para a parte contrária se manifestar sobre as razões da decisão baseada no precedente.\n\n**2. DECISÃO RECOMENDADA**\n\nCom base nos predicados normativos aplicáveis e na análise realizada, recomenda-se que a decisão seja fundamentada de acordo com o precedente identificado (TST-Ag-RR-868-65.2021.5.13.0030), desde que haja compatibilidade fática entre o caso em julgamento e as hipóteses do precedente.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: Cumprido\n- **stf_tema1046_binding_precedent_applied**: Não há informação suficiente para concluir se foi cumprido ou violado.\n- **due_process_of_law**: Cumprido\n\nObservações: A aplicação do Tema 1046 do STF não é mencionada no cenário fornecido, o que torna impossível determinar se essa obrigação foi cumprida ou violada.",
+  "tokens_in": 402,
+  "tokens_out": 510,
+  "latency_ms": 8578,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

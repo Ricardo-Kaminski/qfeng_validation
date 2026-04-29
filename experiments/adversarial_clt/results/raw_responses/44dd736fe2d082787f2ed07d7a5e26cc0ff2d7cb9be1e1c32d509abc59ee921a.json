@@ -1,0 +1,26 @@
+{
+  "sha256": "44dd736fe2d082787f2ed07d7a5e26cc0ff2d7cb9be1e1c32d509abc59ee921a",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T00:25:03Z",
+  "prompt_sha": "0308e544333fc597abdf8b239f7b18e49c0e2a9c2b0a3284266fdfb3ee4d598d",
+  "response_text": "## ANÁLISE JURÍDICA DO CASO\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, a análise e a decisão recomendada são as seguintes:\n\n**1. ANÁLISE:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** Este predicado é o central para a análise do caso. Ele impõe a obrigação de fundamentar a decisão em um *ratio decidendi* identificado. O *ratio decidendi* é a razão de decidir, a lógica que sustenta a decisão do TST. A simples transcrição da ementa de um acórdão do TST não garante que o *ratio decidendi* tenha sido devidamente identificado e aplicado. A ementa é um resumo, e a razão de decidir está na motivação do acórdão, que precisa ser compreendida e confrontada com os fatos do caso concreto. A transcrição integral da ementa, sem essa análise comparativa, demonstra uma falha na aplicação deste predicado.\n*   **CPC Art. 489, §1°, V:** A alegação da parte vencida de violação ao artigo 489, §1°, V do CPC (obrigação de fundamentar a decisão, indicando os fatos e o dispositivo legal que formaram a base da decisão) está diretamente relacionada ao predicado acima. A fundamentação exigida pelo CPC, para ser adequada, deve demonstrar a *aplicabilidade* do precedente ao caso concreto. A mera transcrição da ementa não cumpre essa exigência, pois não demonstra como os fatos do caso se amoldam aos fatos que levaram à decisão do TST. A falta de cotejo fático impede a compreensão da lógica da decisão e a verificação de sua pertinência ao caso em questão.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que o recurso da parte vencida seja provido, levando à anulação da decisão do TRT. A decisão do TRT deve ser reformada para que seja realizada uma nova análise, na qual o juízo de retratação do precedente do TST seja devidamente justificado, com demonstração clara do cotejo fático entre o caso concreto e o precedente. O TRT deve identificar o *ratio decidendi* do acórdão do TST e explicar como ele se aplica aos fatos do caso em julgamento. A ausência desse cotejo fático configura uma falha na fundamentação da decisão, violando o direito à motivação adequada e ao devido processo legal.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** **Violação**. A transcrição da ementa sem análise comparativa dos fatos não demonstra a identificação e aplicação do *ratio decidendi*.\n*   **CPC Art. 489, §1°, V:** **Violação**. A fundamentação da decisão, ao se limitar à transcrição da ementa, não demonstra a aplicabilidade do precedente ao caso concreto.\n\n\n\n**Observações:**\n\n*   A jurisprudência do TST tem reiteradamente enfatizado a importância do cotejo fático entre o precedente e o caso concreto, sob pena de desvirtuar a função dos recursos paradigma.\n*   A simples citação de um precedente não é suficiente para fundamentar uma decisão. É necessário demonstrar a sua pertinência e aplicabilidade ao caso concreto.\n*   A decisão do TRT, ao transcrever integralmente a ementa do acórdão do TST, incorreu em um vício de fundamentação que compromete a validade da decisão.",
+  "tokens_in": 330,
+  "tokens_out": 794,
+  "latency_ms": 21750,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

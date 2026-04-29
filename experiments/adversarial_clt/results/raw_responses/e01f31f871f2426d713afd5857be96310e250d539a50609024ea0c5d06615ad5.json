@@ -1,0 +1,19 @@
+{
+  "sha256": "e01f31f871f2426d713afd5857be96310e250d539a50609024ea0c5d06615ad5",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T01:54:33Z",
+  "prompt_sha": "b0e517f5c3de26d42993b73cacfec552caf0add056217d63ec5525a4332d8ed9",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Convenção Coletiva de Trabalho (CCT):** A CCT estabeleceu um banco de horas com compensação semestral, que é uma prática permitida pela legislação trabalhista para flexibilizar a jornada de trabalho.\n  \n- **Artigo 59 da CLT:** Este artigo permite o acúmulo de horas extras em bancos de horas, desde que haja acordo ou convenção coletiva e sejam observadas as condições estabelecidas.\n\n- **Súmula 430 do TST:** Define que o saldo remanescente das horas acumuladas no banco de horas deve ser pago na rescisão contratual como hora normal, não como hora extra, desde que a compensação ocorra dentro do prazo estipulado pela CCT ou convenção coletiva.\n\n**Interpretação no Caso Concreto:**\n\nNo caso apresentado, o empregado tinha um saldo positivo de 80 horas no banco de horas. A empresa pagou essas horas como hora normal na rescisão do contrato. O trabalhador alega que deveria receber adicional de 50% por considerar essas horas como extras.\n\nDe acordo com a Súmula 430 do TST, o pagamento das horas remanescentes no banco de horas deve ser feito como hora normal, desde que a compensação ocorra dentro do prazo estabelecido pela CCT. Portanto, se a empresa pagou as horas após o término do período semestral previsto para a compensação, poderia haver uma divergência.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é que o saldo remanescente das horas no banco de horas seja pago como hora normal, conforme estabelecido pela Súmula 430 do TST, desde que a compensação tenha ocorrido dentro do prazo semestral previsto pela CCT. Se a compensação não foi realizada dentro desse período, o saldo remanescente deve ser considerado como horas extras e pago com adicional de 50%.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **Artigo 59 da CLT:** Permite o acúmulo de horas extras em bancos de horas mediante acordo ou convenção coletiva, desde que sejam observadas as condições estabelecidas.\n\n- **Súmula 430 do TST:** Estabelece que o saldo remanescente das horas acumuladas no banco de horas deve ser pago na rescisão contratual como hora normal, não como hora extra, desde que a compensação ocorra dentro do prazo estipulado pela CCT ou convenção coletiva.\n\n- **Doutrina Trabalhista:** Segundo o entendimento consolidado na jurisprudência do TST e na doutrina trabalhista, o banco de horas é uma forma legítima de flexibilização da jornada, desde que respeitados os limites estabelecidos pela legislação e acordos coletivos. O pagamento das horas remanescentes como hora normal está condicionado ao cumprimento do prazo para compensação.\n\nPortanto, a decisão deve considerar se o prazo semestral para compensação foi respeitado. Se sim, as horas devem ser pagas como normais; se não, com adicional de 50%.",
+  "tokens_in": 298,
+  "tokens_out": 759,
+  "latency_ms": 40469,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

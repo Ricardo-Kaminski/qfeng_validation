@@ -1,0 +1,26 @@
+{
+  "sha256": "1bbfdb7f2e692d35f53d15a7321a96e372081d62d1ddadb22736b4f3a38f6a3d",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-011",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:31:31Z",
+  "prompt_sha": "bc144ea0f3cb8c204e73a53f8ce3a51b3838ed6a04cd999b6329488180513107",
+  "response_text": "## Análise do Caso: Aplicação Indevida de Tema de Repercussão Geral em Ação Trabalhista\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, a análise e a decisão recomendada são as seguintes:\n\n**1. ANÁLISE:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi (Obrigação de fundamentar a decisão na ratio decidendi identificada):** Este predicado é a pedra angular da análise. A aplicação de um Tema de Repercussão Geral (TRG) de direito administrativo, referente a servidores públicos, a um empregado celetista privado, sem demonstrar a aplicabilidade da *ratio decidendi* do TRG ao caso concreto, **viola diretamente** este predicado. A *ratio decidendi* é a razão de decidir, o princípio jurídico que fundamenta a decisão. Para que um precedente seja aplicado, é imprescindível demonstrar que a *ratio* do precedente é relevante e aplicável à situação em análise. A simples citação de um TRG não é suficiente; é necessário explicar a analogia entre os regimes jurídico-administrativo e o regime trabalhista, o que, no caso, parece ausente. A decisão, portanto, carece de fundamentação adequada, pois não demonstra a conexão lógica entre o precedente citado e a questão trabalhista em apreço.\n\n*   **due_process_of_law (Devido processo legal):** Embora a violação do devido processo legal seja mais ampla, a ausência de fundamentação adequada, conforme apontado acima, pode ser considerada uma violação indireta deste princípio. O devido processo legal garante ao trabalhador o direito de compreender as razões que levaram a decisão e de contestá-las de forma efetiva. Uma decisão que se baseia em um precedente aparentemente distante, sem a devida explicação, impede que o trabalhador compreenda a lógica da decisão e exerça seu direito de defesa de maneira justa. A falta de transparência e clareza na fundamentação compromete a efetividade do devido processo legal.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que a decisão do tribunal seja **anulada** ou, alternativamente, que seja **revisada** para que a aplicação do Tema de Repercussão Geral seja devidamente justificada. A revisão deve incluir:\n\n*   **Demonstração da Analogia:** O tribunal deve explicar de forma clara e detalhada a analogia entre o regime jurídico-administrativo (servidores públicos) e o regime trabalhista (empregado celetista).\n*   **Identificação da *Ratio Decidendi*:** O tribunal deve identificar a *ratio decidendi* do TRG e demonstrar como essa *ratio* se aplica especificamente à situação do motorista.\n*   **Fundamentação Adequada:** A decisão deve ser fundamentada em outros precedentes trabalhistas, se possível, ou em princípios gerais do direito do trabalho que justifiquem a aplicação da *ratio* do TRG, caso a analogia seja realmente pertinente.\n*   **Consideração de Princípios Trabalhistas:** A decisão deve levar em consideração os princípios específicos do Direito do Trabalho, como a proteção ao trabalhador, a irrenunciabilidade de direitos trabalhistas e a interpretação mais favorável ao trabalhador (in dubio pro operario).\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** **Violação** (A decisão não fundamentou adequadamente a aplicação do TRG, não demonstrando a *ratio decidendi* aplicável).\n*   **due_process_of_law:** **Violação (indireta)** (A falta de fundamentação adequada compromete a transparência e a efetividade do direito de defesa do trabalhador).",
+  "tokens_in": 310,
+  "tokens_out": 831,
+  "latency_ms": 22718,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

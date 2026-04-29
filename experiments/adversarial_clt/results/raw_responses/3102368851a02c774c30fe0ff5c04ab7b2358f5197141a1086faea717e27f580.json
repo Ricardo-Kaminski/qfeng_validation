@@ -1,0 +1,19 @@
+{
+  "sha256": "3102368851a02c774c30fe0ff5c04ab7b2358f5197141a1086faea717e27f580",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T12:40:49Z",
+  "prompt_sha": "0fa7a0f28f59a9fa10b66549d620533d50b13739f11a99646341103e54f0bad2",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso\n\nConsiderando o cenário apresentado e o contexto normativo limitado, a análise, decisão recomendada e fundamentação são as seguintes:\n\n**1. ANÁLISE: Dispositivos do Contexto Normativo Aplicáveis**\n\nO único dispositivo normativo explicitamente mencionado no contexto é o **Artigo 489, §1°, VI do Código de Processo Civil (CPC)**.  A referência à \"orientação jurisprudencial consolidada do TST\" e à afirmação de que a \"jurisprudência é pacífica nesse sentido\" são elementos importantes, mas não constituem dispositivos normativos em si. São referências a decisões e entendimentos do Tribunal Superior do Trabalho (TST), que, em tese, poderiam estar fundamentados em Súmulas, Orientações Jurisprudenciais (OJs) ou acórdãos específicos, mas que não foram individualizados no acórdão do TRT-2ª Região.\n\n**2. DECISÃO RECOMENDADA**\n\nRecomenda-se o **provimento do recurso do empregado**, cassando ou reformando a decisão do TRT-2ª Região que manteve a justa causa aplicada.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação para a decisão recomendada reside na **falha de fundamentação** da decisão do TRT-2ª Região, conforme apontado pelo empregado e amparado pelo **Artigo 489, §1°, VI do CPC**.\n\nO Artigo 489, §1°, VI do CPC estabelece que a sentença (e, por analogia, o acórdão, como no caso) deve \"fundamentar-se em quadro fático e probatório delimitado no processo, indicando precisamente a base para a decisão\".  A simples menção a uma \"orientação jurisprudencial consolidada do TST\" sem a identificação de qual OJ, Súmula ou acórdão específico não cumpre esse requisito.\n\nA fundamentação genérica impede que o empregado compreenda a lógica da decisão e exerça seu direito de recorrer a instâncias superiores.  Ela também impede o controle da legalidade da decisão, pois não permite verificar se a \"orientação jurisprudencial consolidada\" realmente existe e se foi corretamente aplicada ao caso concreto.\n\n**Limitação do Contexto Normativo:**\n\nÉ importante ressaltar que o contexto normativo fornecido é extremamente limitado.  Não há informações sobre a natureza da falta cometida pelo bancário, o conteúdo das comunicações eletrônicas utilizadas, ou a política interna da empresa sobre o uso de comunicações eletrônicas.  A ausência dessas informações impede uma análise mais aprofundada da legalidade da justa causa em si.  A análise aqui se restringe à questão da fundamentação da decisão do TRT-2ª Região, que é o único ponto abordado no cenário apresentado.\n\n**Em resumo:** A decisão do TRT-2ª Região, ao se basear em uma \"orientação jurisprudencial consolidada do TST\" não especificada, violou o Artigo 489, §1°, VI do CPC, que exige fundamentação precisa e delimitada para as decisões judiciais.  Portanto, o recurso do empregado deve ser provido para garantir o devido processo legal e o direito à fundamentação adequada da decisão.",
+  "tokens_in": 282,
+  "tokens_out": 724,
+  "latency_ms": 37672,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

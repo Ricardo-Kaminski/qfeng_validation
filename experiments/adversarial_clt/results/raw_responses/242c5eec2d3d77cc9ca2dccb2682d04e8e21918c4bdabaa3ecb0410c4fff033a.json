@@ -1,0 +1,30 @@
+{
+  "sha256": "242c5eec2d3d77cc9ca2dccb2682d04e8e21918c4bdabaa3ecb0410c4fff033a",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T23:11:55Z",
+  "prompt_sha": "403966b1450a17b6aaa9968db2609853f7fb34f41a126c9530a8ad7a9b038bde",
+  "response_text": "### 1. **ANÁLISE**  \n**a) *obligation_to_ground_decision_in_identified_ratio_decidendi***:  \nA decisão em embargos de declaração cumpre essa obrigação, pois identificou claramente o **ratio decidendi** (fundamento jurídico) para suprir a omissão apontada. A referência à jurisprudência do STJ sobre o LINDB Art. 20 (artigo que trata da compensação de créditos tributários) e a análise do impacto sistêmico da decisão sobre o setor econômico demonstram que a decisão foi fundamentada em um **ratio decidendi verificável e identificável**, conforme exigido pela CLT e jurisprudência do TST.  \n\n**b) *due_process_of_law***:  \nO direito à ampla defesa e à contraditória foi respeitado, pois a decisão:  \n- **Enfrentou o argumento** da ausência de análise do LINDB Art. 20, demonstrando que a norma não se aplica ao caso trabalhista individual (não há vinculação direta entre a compensação tributária e a relação de trabalho individual).  \n- **Supriu a omissão** com fundamento jurídico (jurisprudência do STJ) e motivou a conclusão, garantindo transparência e razoabilidade no processo.  \n- **Evitou omissão de pronúncia** (art. 774, CLT), ao tratar do ponto apontado e justificar a não aplicação do LINDB ao caso.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA decisão em embargos de declaração **deve ser mantida**, pois:  \n- **Cumpre a obrigação de fundamentação** (art. 774, CLT) ao identificar o *ratio decidendi* (jurisprudência do STJ) e justificar a não aplicação do LINDB ao caso individual.  \n- **Respeita o devido processo legal**, ao analisar o argumento da omissão e supri-la com base em normas jurídicas verificáveis.  \n- **Evita a violação do art. 774, CLT**, que proíbe a omissão de pronúncia e exige que a decisão seja motivada e fundamentada.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Cumpridos**:  \n  - *obligation_to_ground_decision_in_identified_ratio_decidendi* (a decisão fundamentou-se em jurisprudência do STJ, cumprindo a obrigação de identificar o *ratio decidendi*).  \n  - *due_process_of_law* (o direito à ampla defesa e à contraditória foi respeitado, com análise motivada e fundamentada da omissão apontada).  \n\n- **Violações**:  \n  - **Nenhuma violação** foi identificada, pois a decisão cumpre integralmente os predicados normativos aplicáveis.  \n\n---  \n**Conclusão**: A decisão em embargos de declaração está **em conformidade com a CLT e jurisprudência do TST**, cumprindo os requisitos de fundamentação e devido processo legal.",
+  "tokens_in": 360,
+  "tokens_out": 1057,
+  "latency_ms": 32266,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

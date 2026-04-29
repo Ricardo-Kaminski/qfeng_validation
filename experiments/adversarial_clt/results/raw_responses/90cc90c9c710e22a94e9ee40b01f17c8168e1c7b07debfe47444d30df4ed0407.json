@@ -1,0 +1,19 @@
+{
+  "sha256": "90cc90c9c710e22a94e9ee40b01f17c8168e1c7b07debfe47444d30df4ed0407",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-009",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T20:20:59Z",
+  "prompt_sha": "2722d03920b7e27b8bb0202ab5af9eebb5796cac03b26e86812fcd909b78f3bc",
+  "response_text": "**ANÁLISE**\n\n1. Os dispositivos do contexto normativo aplicáveis ao caso são:\n * A CCT (Convenção Coletiva de Trabalho) que prevê a possibilidade de conversão das horas trabalhadas em folgas para pagamento em dinheiro, com adicional de 50% e estabelece um prazo de 12 meses.\n2. O dispositivo da CLT (Consolidação das Leis do Trabalho) que regula o banco de horas e a compensação de jornada.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a conversão das horas trabalhadas em folgas para pagamento em dinheiro seja considerada válida, desde que tenha sido feita com anuência do empregador e dentro dos parâmetros estabelecidos pela CCT.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n1. A CCT é o instrumento normativo específico que regula as condições de trabalho para os trabalhadores envolvidos, incluindo a possibilidade de conversão das horas trabalhadas em folgas para pagamento em dinheiro com adicional de 50% (artigo não especificado).\n2. O artigo 59 da CLT estabelece que \"O banco de horas poderá ser utilizado para compensação de jornada, desde que previamente acordado entre empregador e empregado\".\n3. O artigo 59 da CLT também estabelece que a compensação de jornada deve ocorrer dentro do prazo máximo de 12 meses (artigo não especificado).\n4. A conversão das horas trabalhadas em folgas para pagamento em dinheiro foi feita com anuência do empregador e antes do término do prazo estabelecido pela CCT, o que é permitido pelas regras da CLT.\n\n**LIMITAÇÃO**\n\nNão há limitação na aplicação dos dispositivos normativos mencionados acima.",
+  "tokens_in": 294,
+  "tokens_out": 422,
+  "latency_ms": 7063,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,26 @@
+{
+  "sha256": "123cfb7d7ea537cb013833b0d808fc82dcb81241a490c838f8808025edfae11e",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-011",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T00:31:52Z",
+  "prompt_sha": "bc144ea0f3cb8c204e73a53f8ce3a51b3838ed6a04cd999b6329488180513107",
+  "response_text": "## Análise do Caso: Aplicação Indevida de Tema de Repercussão Geral em Ação Trabalhista\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, a análise e a decisão recomendada são as seguintes:\n\n**1. ANÁLISE:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi (Obrigação de fundamentar a decisão na ratio decidendi identificada):** Este predicado é central para a análise do caso. A aplicação de um Tema de Repercussão Geral (TRG) de direito administrativo, originalmente voltado para servidores públicos, a um empregado celetista privado, sem uma explicação clara da analogia e da aplicabilidade da *ratio decidendi* do TRG ao regime trabalhista, **viola diretamente** este predicado. A *ratio decidendi* é a razão de ser da decisão, o princípio jurídico que a sustenta. Para que um precedente seja aplicado, é crucial demonstrar que a *ratio* que o motivou é relevante e aplicável ao caso em questão. A mera citação de um TRG não é suficiente; é necessário explicar como seus princípios se alinham com a situação específica do trabalhador, considerando as particularidades do Direito do Trabalho. A ausência dessa explicação demonstra uma falha na fundamentação da decisão, tornando-a arbitrária e imprevisível.\n\n*   **due_process_of_law (Devido processo legal):** Embora a violação do devido processo legal seja mais ampla, a falta de fundamentação adequada, conforme apontado acima, pode ser considerada uma violação indireta. O devido processo legal garante que as decisões sejam tomadas de forma justa e transparente, permitindo que as partes compreendam os fundamentos da decisão e contestem-na, se necessário. A aplicação de um TRG sem a devida explicação e demonstração de sua aplicabilidade ao caso concreto impede que o trabalhador compreenda a base da decisão e exerça seus direitos de defesa de forma efetiva. Isso compromete a garantia do devido processo legal, pois a decisão se torna opaca e carente de justificativa razoável.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que a decisão do tribunal seja **reconsiderada**. O tribunal deve:\n\n*   **Anular a parte da decisão que aplicou o Tema de Repercussão Geral**, ou, alternativamente,\n*   **Reanalisar o caso**, fundamentando a decisão com base em princípios e normas do Direito do Trabalho, demonstrando a aplicabilidade da *ratio decidendi* do TRG (se for o caso) de forma clara e detalhada, ou, em alternativa, utilizando outros precedentes do TST aplicáveis ao direito do trabalho.\n*   **Explicar de forma transparente** a analogia (se houver) entre o TRG e o caso concreto, justificando porque os princípios do TRG são aplicáveis ao regime trabalhista.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** **Violação**. A decisão não fundamentou adequadamente a aplicação do TRG, não demonstrando a aplicabilidade da *ratio decidendi*.\n*   **due_process_of_law:** **Violação (indireta)**. A falta de fundamentação adequada compromete a transparência e a possibilidade de contestação da decisão, afetando o direito ao devido processo legal.",
+  "tokens_in": 310,
+  "tokens_out": 749,
+  "latency_ms": 20578,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

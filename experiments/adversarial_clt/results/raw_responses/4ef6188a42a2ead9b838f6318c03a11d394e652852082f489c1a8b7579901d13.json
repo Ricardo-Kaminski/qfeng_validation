@@ -1,0 +1,19 @@
+{
+  "sha256": "4ef6188a42a2ead9b838f6318c03a11d394e652852082f489c1a8b7579901d13",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-010",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T12:24:53Z",
+  "prompt_sha": "546394fb36fd08b3df6e32b19b12372b52cd2212d1c83ed9d8b946faff99ba6f",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a decisão do TRT (Tribunal Regional do Trabalho) envolve a análise de um intervalo intrajornada reduzido e sua conformidade com normas trabalhistas brasileiras. Os dispositivos normativos relevantes mencionados são:\n\n   - **CLT Art. 71:** Este artigo estabelece que o empregador deve conceder ao empregado, quando este prestar trabalho em jornada superior a seis horas consecutivas, intervalo intrajornada de pelo menos trinta minutos para descanso e alimentação.\n\n   - **Súmula TST 437:** Esta súmula do Tribunal Superior do Trabalho (TST) reforça que o não pagamento da hora extra no caso de supressão ou redução do intervalo intrajornada é considerado infração grave, sujeita a multa.\n\n   - **Tema 981/STF:** Este tema do Supremo Tribunal Federal trata sobre a validade das cláusulas de convenções coletivas de trabalho (CCT) que reduzem o intervalo intrajornada para menos de trinta minutos. O STF decidiu que tais cláusulas são válidas, desde que haja previsão legal ou convencional específica.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é a manutenção da sentença do TRT que determina o pagamento integral do período suprimido como hora extra. Isso porque:\n\n   - Não há CCT válida autorizando a redução do intervalo intrajornada para menos de trinta minutos no caso em questão.\n   \n   - A CLT Art. 71 exige um intervalo mínimo de trinta minutos, e sua supressão ou redução sem autorização legal ou convencional específica configura infração grave.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **CLT Art. 71:** Este artigo é a base para exigir o intervalo intrajornada de trinta minutos, cuja supressão ou redução sem autorização adequada resulta na necessidade de pagamento como hora extra.\n\n- **Súmula TST 437:** Aplica-se ao caso por estabelecer que a não concessão do intervalo intrajornada ou sua redução indevida deve ser compensada com o pagamento da hora extra, além de sujeitar o empregador à multa.\n\n- **Tema 981/STF:** Embora reconheça a possibilidade de CCTs estabelecerem intervalos menores que trinta minutos, isso só é válido se houver previsão legal ou convencional específica. No caso em análise, não há tal autorização.\n\nPortanto, sem uma CCT válida permitindo a redução do intervalo intrajornada abaixo de trinta minutos, o TRT está correto ao determinar o pagamento integral do período suprimido como hora extra, conforme os dispositivos normativos aplicáveis.",
+  "tokens_in": 327,
+  "tokens_out": 671,
+  "latency_ms": 38359,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

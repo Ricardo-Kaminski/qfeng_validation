@@ -1,0 +1,19 @@
+{
+  "sha256": "809e2bcc03ca6e46dce114381c507a786e0a2d3cf86784336e1522d74ca274a6",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-008",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T10:30:52Z",
+  "prompt_sha": "4c0dcee8b5611dbd85de55417b7dad94c7d5424efdfecc7cb89ae58938c73e41",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nOs dispositivos legais aplicáveis ao caso são:  \n- **CLT, art. 223-G** (introduzido pela Reforma Trabalhista de 2017), que regula a reparação por **danos morais trabalhistas**, estabelecendo a classificação do grau da ofensa (leve, médio, grave ou gravíssimo) com base nos fatos provados.  \n- **CLT, art. 223-G, §1°**, que determina a **quantificação do valor da indenização** com referência ao **salário do trabalhador**, considerando a gravidade da ofensa.  \n- **Precedentes do TST** sobre casos similares de **assédio moral**, citados no acórdão para fundamentar a **proporcionalidade** da indenização.  \n\n### 2. **DECISÃO RECOMENDADA**  \nA decisão recomendada é **reconhecer o dano moral trabalhista** e **quantificar a indenização** com base nos seguintes critérios:  \n- **Classificação do grau da ofensa** (leve, médio, grave ou gravíssimo) com fundamento nos fatos provados (art. 223-G, CLT).  \n- **Valor proporcional** à gravidade da ofensa, calculado com referência ao **salário do trabalhador** (art. 223-G, §1°, CLT).  \n- **Concordância com precedentes do TST** sobre casos de assédio moral, que servem como parâmetro para a **proporcionalidade** da indenização.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **CLT, art. 223-G**: Estabelece a reparação por danos morais trabalhistas, com base na **classificação do grau da ofensa** (leve, médio, grave ou gravíssimo).  \n- **CLT, art. 223-G, §1°**: Determina que a **quantificação da indenização** deve ser feita com referência ao **salário do trabalhador**, considerando a gravidade da ofensa.  \n- **Precedentes do TST**: Citados no acórdão para fundamentar a **proporcionalidade** da indenização, conforme a **gravidade do ato** e o **impacto no trabalhador**.  \n\n**Observação**: O contexto normativo **não menciona súmulas específicas do TST**, apenas **precedentes** sobre casos de assédio moral. Portanto, a fundamentação deve se limitar aos dispositivos da CLT citados e aos **precedentes do TST** mencionados no acórdão, sem extrapolação de normas não indicadas.",
+  "tokens_in": 321,
+  "tokens_out": 1040,
+  "latency_ms": 64593,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

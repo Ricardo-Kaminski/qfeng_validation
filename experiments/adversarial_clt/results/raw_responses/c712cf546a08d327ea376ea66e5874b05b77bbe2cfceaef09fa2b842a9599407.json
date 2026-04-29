@@ -1,0 +1,26 @@
+{
+  "sha256": "c712cf546a08d327ea376ea66e5874b05b77bbe2cfceaef09fa2b842a9599407",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T01:53:04Z",
+  "prompt_sha": "ae3ccc45fd00998e54e39da4688a558e454f41be8d8b72c745f2b457cbbefe7d",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a decisão judicial viola normas constitucionais e processuais ao omitir informações essenciais para a fundamentação da decisão. Os predicados soberanos ativos reforçam que:  \n- **A obrigação de explicitar as consequências práticas da decisão** (obligation_to_state_practical_consequences_of_decision) foi ignorada, pois a ausência de citação completa dificulta a compreensão do impacto jurídico da decisão.  \n- **A proibição de citar precedentes de forma genérica** (prohibition_of_generic_precedent_citation) foi violada, já que a referência a \"Martins, Sergio Pinto\" sem identificação de obra, edição, ano ou página é considerada uma citação vaga e inútil para fins de revisão judicial.  \n- **A obrigação de fundamentar a decisão em um *ratio decidendi* identificado** (obligation_to_ground_decision_in_identified_ratio_decidendi) não foi cumprida, pois a citação doutrinária não permite vincular a decisão a uma teoria jurídica específica.  \n- **A obrigação constitucional de expor razões para as decisões** (constitutional_obligation_to_state_reasons_for_decisions) foi descumprida, o que viola o princípio da transparência e da previsibilidade do direito.  \n- **O direito de acesso à justiça e à revisão judicial** (right_of_access_to_justice_and_judicial_review) foi comprometido, pois a falta de fundamentação adequada impede o recorrente de contestar a decisão com base em argumentos concretos.  \n\n### 2. **PREDICADOS ATIVADOS**  \n- **obligation_to_state_practical_consequences_of_decision**: O tribunal deve explicar claramente como a decisão afeta os direitos e obrigações das partes envolvidas.  \n- **prohibition_of_generic_precedent_citation**: É proibido citar fontes jurídicas (como doutrina, jurisprudência ou leis) de forma genérica, sem identificar a obra, autoridade ou contexto.  \n- **obligation_to_address_all_legal_arguments**: O juiz deve analisar todos os argumentos apresentados pelas partes, incluindo os que podem contestar a decisão.  \n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: A decisão deve ser baseada em um *ratio decidendi* (motivo jurídico específico) identificado e comprovado, como uma lei, jurisprudência ou teoria doutrinária.  \n- **constitutional_obligation_to_state_reasons_for_decisions**: A Constituição Federal exige que as decisões judiciais sejam fundamentadas com clareza, para garantir a legitimidade e a revisão judicial.  \n- **right_of_access_to_justice_and_judicial_review**: O cidadão tem direito a contestar decisões judiciais com base em fundamentos concretos, garantindo a efetividade do direito.  \n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA decisão do tribunal foi considerada **inválida** porque o juiz não explicou adequadamente por que tomou a decisão. Ele citou um autor de direito do trabalho (\"Martins, Sergio Pinto\"), mas **não disse qual livro, edição, ano ou página** da obra que usou como base. Isso é um problema porque:  \n- **Sem informações completas**, ninguém pode saber se a teoria usada pelo juiz está correta ou se há outras opiniões sobre o tema.  \n- **A lei exige que as decisões sejam fundamentadas com clareza**, para que as partes possam contestar ou revisar a decisão.  \n- **A falta de fundamentação** pode prejudicar o trabalhador, pois a decisão não pode ser revisada com base em argumentos concretos.  \n\nPortanto, a decisão do tribunal **viola a lei** e pode ser anulada, garantindo que o direito do trabalhador seja respeitado.",
+  "tokens_in": 512,
+  "tokens_out": 1485,
+  "latency_ms": 46328,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

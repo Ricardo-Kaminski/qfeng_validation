@@ -1,0 +1,30 @@
+{
+  "sha256": "fb5b2f284dda35b96c342b9b03fe806d6f674b62ee2fe86c6b65ec22c88c9898",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:09:28Z",
+  "prompt_sha": "f386ffafe5e7ff919c71ccc539ca484bedeed55858f8c345ed209dd7bbbe0e31",
+  "response_text": "## Análise do Acórdão sobre Dano Moral Trabalhista à luz dos Predicados Normativos\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, a análise e a decisão recomendada são as seguintes:\n\n**1. ANÁLISE:**\n\n*   **`obligation_to_ground_decision_in_identified_ratio_decidendi` (Obrigação de fundamentar a decisão no *ratio decidendi* identificado):** Este predicado é **completamente cumprido** no cenário descrito. O acórdão demonstra explicitamente a aplicação da CLT Art. 223-G (pós-reforma 2017), a identificação do grau da ofensa com base nos fatos provados, a quantificação do valor referenciada ao salário do trabalhador (art. 223-G, §1°) e a explicação da proporcionalidade com base em precedentes do TST sobre casos similares de assédio moral. A fundamentação é clara, verificável e demonstra a aplicação do *ratio decidendi* dos dispositivos legais e jurisprudenciais invocados. A referência a fatos provados garante que a decisão não é arbitrária, mas sim baseada em evidências.\n*   **`due_process_of_law` (Devido processo legal):** Este predicado também é **cumprido** no cenário. A aplicação dos parâmetros legais (CLT Art. 223-G e jurisprudência do TST) e a fundamentação da decisão em fatos provados demonstram que o trabalhador teve a oportunidade de apresentar sua versão dos fatos e contestar as alegações da empresa. A identificação do grau da ofensa e a quantificação do dano moral com base em critérios objetivos (salário do trabalhador e precedentes) garantem que a decisão não foi tomada de forma arbitrária ou discriminatória. A referência a precedentes do TST demonstra a busca por uma decisão justa e equitativa, em consonância com a jurisprudência consolidada.\n\n**2. DECISÃO RECOMENDADA:**\n\nA decisão do acórdão, conforme descrito no cenário, **deve ser mantida**. A fundamentação apresentada demonstra o cumprimento rigoroso dos requisitos legais e jurisprudenciais para a condenação por dano moral, garantindo a observância do devido processo legal e a aplicação do *ratio decidendi* dos dispositivos invocados. Qualquer alteração na decisão exigiria uma nova análise dos fatos e do direito, com a devida fundamentação.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **`obligation_to_ground_decision_in_identified_ratio_decidendi`:** Conformidade (Cumprido)\n*   **`due_process_of_law`:** Conformidade (Cumprido)\n\n**Observações Adicionais:**\n\n*   A clareza e a verificabilidade da fundamentação são cruciais para a validade da decisão. O cenário apresentado demonstra que esses requisitos foram atendidos.\n*   A referência a precedentes do TST é importante para garantir a uniformidade da jurisprudência e a segurança jurídica.\n*   A aplicação do art. 223-G da CLT, com a devida consideração do salário do trabalhador, demonstra a busca por uma compensação justa e proporcional ao dano sofrido.\n*   A identificação do grau da ofensa é fundamental para determinar a adequação da indenização.\n",
+  "tokens_in": 359,
+  "tokens_out": 750,
+  "latency_ms": 20733,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

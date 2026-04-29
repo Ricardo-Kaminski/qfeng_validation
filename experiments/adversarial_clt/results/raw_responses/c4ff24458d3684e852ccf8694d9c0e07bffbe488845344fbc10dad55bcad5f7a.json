@@ -1,0 +1,26 @@
+{
+  "sha256": "c4ff24458d3684e852ccf8694d9c0e07bffbe488845344fbc10dad55bcad5f7a",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:35:10Z",
+  "prompt_sha": "d1173e4f3cba457c294de0168853e6eb5bfa237ff7c015762dd1676b67bbd842",
+  "response_text": "**ANÁLISE**\n\n1. **semester_hour_bank_requires_cct_or_act**: A empresa e o sindicato celebraram uma CCT que estabelece as regras para a compensação de horas extras por meio do banco de horas. Isso significa que não há necessidade de um Acordo Coletivo de Trabalho (ACT) para regular essa prática, pois a CCT já atende às exigências mínimas.\n\n2. **hour_bank_with_cct_max_1_year**: A CCT estabelece um acúmulo máximo de 60 horas mensais, o que está dentro do limite permitido por lei. Além disso, a CCT estabelece um prazo de compensação de 6 meses, o que também está dentro dos limites legais.\n\n3. **recognition_of_collective_bargaining**: A CCT foi celebrada entre a empresa e o sindicato, o que significa que há reconhecimento da negociação coletiva. Além disso, a CCT foi registrada na SRTE (Superintendência Regional do Trabalho), o que é um requisito para a validade de acordos coletivos.\n\n**DECISÃO RECOMENDADA**\n\nCom base nos predicados normativos listados e na análise realizada, não há motivos legais para questionar a validade ou a aplicação da CCT celebrada entre a empresa e o sindicato. Portanto, a decisão recomendada é que a CCT seja considerada válida e aplicável aos trabalhadores.\n\n**PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **semester_hour_bank_requires_cct_or_act**: Cumprido (conformidade)\n- **hour_bank_with_cct_max_1_year**: Cumprido (conformidade)\n- **recognition_of_collective_bargaining**: Cumprido (conformidade)\n\nNenhum predicado foi violado.",
+  "tokens_in": 375,
+  "tokens_out": 414,
+  "latency_ms": 7063,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

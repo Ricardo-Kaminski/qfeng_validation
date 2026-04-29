@@ -1,0 +1,19 @@
+{
+  "sha256": "37f3cbafce550a0cab1c38907653a767806ae73fea214652493f7ca80462282b",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CTRL-NEG-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T20:01:40Z",
+  "prompt_sha": "f5275e170353578213712d821d1e842fb4a67591aa07b251afa99d260d607aad",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso\n\nConsiderando o cenário apresentado e a ausência de textos normativos fornecidos, a análise, decisão recomendada e fundamentação serão baseadas nos princípios gerais do Direito do Trabalho brasileiro, presumindo a aplicação da Consolidação das Leis do Trabalho (CLT) e jurisprudência consolidada, visto que não há indicação de legislação específica que altere o quadro.\n\n**1. ANÁLISE: Dispositivos do Contexto Normativo Aplicáveis (Presumindo a CLT)**\n\nEmbora o contexto não forneça textos normativos, a descrição do cenário permite inferir a aplicação de diversos dispositivos da CLT, que seriam os aplicáveis caso houvesse um contexto normativo:\n\n*   **Jornada de Trabalho:** A jornada de 8 horas diárias e 44 horas semanais, conforme descrito, está em consonância com o que estabelece o Art. 7º, XIII, da Constituição Federal, que garante a duração máxima da jornada normal de trabalho de 8 horas por dia e 44 horas por semana.\n*   **Intervalo Intrajornada:** A concessão integral de 1 hora de intervalo para a jornada de 8 horas diárias está em conformidade com o Art. 71, § 1º, da CLT, que determina o intervalo de 1 hora para jornadas superiores a 6 horas.\n*   **Registro de Ponto:** A utilização de registros de ponto eletrônicos e auditáveis está em linha com o Art. 74, § 2º, da CLT, que regulamenta o uso da jornada eletrônica para controle da frequência e horas trabalhadas.\n*   **Ausência de Trabalho Noturno, Banco de Horas e Horas Extras:** A inexistência de trabalho noturno, banco de horas e horas extras implica que a empresa está operando dentro dos limites da jornada normal, sem a necessidade de pagamentos adicionais ou compensações.\n\n**2. DECISÃO RECOMENDADA**\n\nConsiderando a descrição do cenário, a decisão recomendada é **manter a situação atual**. A empresa parece estar cumprindo as obrigações trabalhistas de forma regular, com jornada de trabalho definida, intervalos concedidos integralmente e controle de frequência por meio de registro de ponto eletrônico. A ausência de reclamações trabalhistas pendentes reforça a conformidade com a legislação.\n\n**3. FUNDAMENTAÇÃO NORMATIVA (Presumindo a CLT)**\n\nComo o contexto não fornece textos normativos, a fundamentação é baseada na interpretação dos princípios gerais do Direito do Trabalho e na aplicação presumida da CLT:\n\n*   **Art. 7º, XIII, da Constituição Federal:** Garante a duração máxima da jornada normal de trabalho de 8 horas por dia e 44 horas por semana.\n*   **Art. 71, § 1º, da CLT:** Estabelece o intervalo de 1 hora para jornadas superiores a 6 horas.\n*   **Art. 74, § 2º, da CLT:** Regulamenta o uso da jornada eletrônica para controle da frequência e horas trabalhadas.\n*   **Ausência de Súmulas:** Não há súmulas específicas no contexto fornecido para fundamentar a decisão. No entanto, a jurisprudência consolidada do Tribunal Superior do Trabalho (TST) reforça a importância do cumprimento da jornada de trabalho, intervalos e controle de frequência para garantir a proteção do trabalhador.\n\n**Limitação:**\n\nÉ crucial ressaltar que esta análise é baseada em uma interpretação presumida da CLT, devido à ausência de textos normativos no contexto fornecido. Uma análise mais precisa e completa dependeria da apresentação dos dispositivos legais aplicáveis ao caso concreto. A ausência de um contexto normativo impede uma fundamentação jurídica completa e definitiva.",
+  "tokens_in": 266,
+  "tokens_out": 816,
+  "latency_ms": 22482,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

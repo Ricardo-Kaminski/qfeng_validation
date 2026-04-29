@@ -1,0 +1,26 @@
+{
+  "sha256": "dd4b49747219bb555ae36fe75ee818e91e179a35da22d0cc668b95511e79d631",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T00:17:16Z",
+  "prompt_sha": "57cf080c70ee6d5ee75af46a8cd79a5aba980ddfcf3914fb8da919567e87ba49",
+  "response_text": "1. **ANÁLISE:**\n\n   - **obligation_to_pay_nocturnal_premium_20pct:** Este predicado normativo estabelece a obrigação de pagar um adicional noturno de 20% para os trabalhadores que prestam serviços durante o período noturno, definido entre 22h e 5h. No cenário apresentado, a empresa cumpre essa obrigação ao recolher adicionais noturnos de 20% para todos os motoristas que trabalham nesse horário. Além disso, os contracheques discriminam o adicional noturno separadamente, o que demonstra transparência e conformidade com a normativa.\n\n   - **maximum_daily_working_hours_8h:** Este predicado estabelece que o limite máximo de horas diárias de trabalho é de 8 horas. No cenário descrito, não há registro de horas extras além das 8 horas diárias para os motoristas em turno noturno. Isso indica que a empresa está cumprindo com essa obrigação normativa ao respeitar o limite máximo de jornada diária.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base nos predicados normativos analisados, recomenda-se que a empresa continue seguindo as práticas atuais em relação ao pagamento do adicional noturno e à observância do limite de horas diárias de trabalho. A conformidade com ambos os predicados demonstra que a empresa está agindo dentro dos parâmetros legais estabelecidos pela CLT e jurisprudência do TST.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Cumprido:** \n     - *obligation_to_pay_nocturnal_premium_20pct:* A empresa está pagando o adicional noturno de 20% conforme exigido para os trabalhadores que atuam entre 22h e 5h.\n     - *maximum_daily_working_hours_8h:* A empresa não registra horas extras além das 8 horas diárias, respeitando o limite máximo estabelecido.\n\n   Não há violação dos predicados normativos listados no cenário apresentado.",
+  "tokens_in": 372,
+  "tokens_out": 486,
+  "latency_ms": 14016,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

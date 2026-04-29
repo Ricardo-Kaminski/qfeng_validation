@@ -1,0 +1,19 @@
+{
+  "sha256": "8a6bf3c4d6252a8b4efdbd8a1962213fa037cf7f0868edbf8a51d078bacac8d6",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-010",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T09:05:14Z",
+  "prompt_sha": "4cdcd4f77bd0a861ddff46ab4f73790ee608c80eaea3a8b6b5401e9be2942d4c",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO caso apresentado envolve a celebração de **Acordo Coletivo de Trabalho (ACT)** com estabelecimento de **banco de horas**, conforme previsto no **Direito do Trabalho brasileiro**. Os dispositivos normativos aplicáveis são:  \n- **Art. 593 da CLT**: Permite a celebração de acordo coletivo para estabelecer banco de horas, desde que respeitados os limites legais e a compensação dentro do prazo acordado.  \n- **Art. 594 da CLT**: Estabelece que o banco de horas pode ser utilizado para compensar horas trabalhadas, com limites de **200 horas em 5 meses** (equivalente a **40 horas mensais**), conforme previsto no caso.  \n- **Art. 7º, XIV, da Constituição Federal**: Garante o direito ao trabalho com **horário normal** e à **compensação de horas** em caso de acúmulo, desde que respeitados os limites legais.  \n\nAlém disso, o **registro da ACT** (previsto no **Art. 593, § 2º da CLT**) e a **fornecimento mensal do extrato do banco de horas** (exigência do **Art. 594, § 1º da CLT**) são cumpridos no caso. A ausência de horas extras acima de **2 horas/dia** (limite legal do **Art. 59, § 1º da CLT**) também é compatível com a norma.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**A ACT celebrada pela empresa de tecnologia com o sindicato dos trabalhadores em informática é válida e compatível com o Direito do Trabalho brasileiro.**  \n\n**Justificativa:**  \n- O **limite de 40 horas mensais de acúmulo** e o **prazo máximo de 5 meses** (totalizando 200 horas) está **dentro dos limites estabelecidos pela CLT** (Art. 594).  \n- A **compensação dentro do prazo acordado** (5 meses) e a **fornecimento mensal do extrato do banco de horas** cumprem as exigências legais (Art. 594, § 1º da CLT).  \n- A **ausência de horas extras acima de 2 horas/dia** respeita o limite legal (Art. 59, § 1º da CLT).  \n- O **registro da ACT** e a **participação do sindicato** garantem a **validade formal do acordo** (Art. 593, § 2º da CLT).  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 593 da CLT**: Permite a celebração de acordo coletivo para estabelecer banco de horas, desde que respeitados os limites legais e a compensação dentro do prazo acordado.  \n- **Art. 594 da CLT**: Estabelece que o banco de horas pode ser utilizado para compensar horas trabalhadas, com limites de **200 horas em 5 meses** (equivalente a **40 horas mensais**).  \n- **Art. 59, § 1º da CLT**: Limita a **hora extra a 2 horas por dia**, o que é respeitado no caso.  \n- **Art. 7º, XIV, da Constituição Federal**: Garante o direito ao trabalho com **horário normal** e à **compensação de horas** em caso de acúmulo, desde que respeitados os limites legais.  \n\n**Observação:**  \nO contexto normativo fornecido **não menciona dispositivos que proíbam ou limitem o banco de horas** além dos já citados. Portanto, **não há norma aplicável que invalide a ACT** celebrada, desde que os limites e condições legais sejam cumpridos.",
+  "tokens_in": 295,
+  "tokens_out": 1576,
+  "latency_ms": 98672,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

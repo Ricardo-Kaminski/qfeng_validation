@@ -1,0 +1,19 @@
+{
+  "sha256": "efdc33cd69b443fa2c14245a62c8f3a4b906822cf8393626e7506845b7ffad5b",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T07:41:28Z",
+  "prompt_sha": "8d4ac12f0cc6e5150af73dba91fd8c1fbec988bd7586fea25703d7eb141373ba",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO caso envolve a aplicação do **Código de Processo Civil (CPC)**, especificamente o **art. 489, §1°, V**, que estabelece a obrigação de **demonstrar a aplicabilidade de precedentes jurisprudenciais** ao caso concreto. A mera transcrição de uma ementa de acórdão do TST, sem análise de compatibilidade fática entre os fatos do precedente e os fatos do caso em julgamento, viola essa exigência legal.  \n\n### 2. **DECISÃO RECOMENDADA**  \nA decisão do TRT deve ser **anulada**, pois a simples transcrição da ementa do acórdão do TST, sem análise de compatibilidade fática, **viola o art. 489, §1°, V, do CPC**. A aplicação de precedentes jurisprudenciais exige que o juiz **avalie a correspondência entre os fatos do caso concreto e os fatos do precedente**, garantindo a **adequação da norma ao caso específico**. A ausência dessa análise compromete a **correta aplicação do direito** e a **segurança jurídica**.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Código de Processo Civil (CPC), art. 489, §1°, V**:  \n  *\"O juiz, ao aplicar precedente jurisprudencial, deverá demonstrar a compatibilidade entre os fatos do caso e os fatos do precedente.\"*  \n  A transcrição integral da ementa do acórdão do TST, sem análise de compatibilidade fática, **não atende a essa exigência**, configurando **omissão processual**.  \n\n- **Limitação do contexto normativo**:  \n  O contexto fornecido **não menciona normas específicas do Direito do Trabalho** (como súmulas do TST ou dispositivos do Código Civil do Trabalho) que possam reforçar ou complementar a análise. A fundamentação se limita ao **CPC**, que é o único dispositivo normativo explicitamente citado no cenário.  \n\n---  \n**Observação**: A ausência de análise de compatibilidade fática entre o precedente e o caso concreto pode ser considerada **vício de fundamentação**, conforme prevê o CPC, e deve ser corrigido para garantir a **adequação da decisão à realidade fática do processo**.",
+  "tokens_in": 301,
+  "tokens_out": 1351,
+  "latency_ms": 84828,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

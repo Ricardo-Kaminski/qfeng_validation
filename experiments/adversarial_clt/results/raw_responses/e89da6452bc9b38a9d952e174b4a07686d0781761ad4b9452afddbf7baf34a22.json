@@ -1,0 +1,19 @@
+{
+  "sha256": "e89da6452bc9b38a9d952e174b4a07686d0781761ad4b9452afddbf7baf34a22",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-009",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T02:54:48Z",
+  "prompt_sha": "5b12208f005282f197e73fcd2d470c2292b060bfe7a9e603c2a08af1ce3e4934",
+  "response_text": "### ANÁLISE\n\n1. **Dispositivos Legais Aplicáveis**:\n   - **Súmula 85 do TST**: Esta súmula estabelece que o banco de horas sem acordo coletivo deve ser compensado em até dois meses, e as horas excedentes devem ser remuneradas como hora extra com adicional de 50%.\n   - **Consolidação das Leis do Trabalho (CLT)**: O artigo 59 da CLT trata da compensação de jornada de trabalho, permitindo a compensação dentro do mês subsequente àquele em que ocorreram as horas extras. No entanto, sem acordo coletivo, o limite é de dois meses.\n\n2. **Interpretação no Caso Concreto**:\n   - O banco de horas foi utilizado por um período de 7 meses sem a existência de uma Convenção Coletiva de Trabalho (CCT) que regulasse essa prática.\n   - De acordo com a Súmula 85 do TST, as horas excedentes ao limite de dois meses devem ser pagas como hora extra com adicional de 50%.\n\n### DECISÃO RECOMENDADA\n\nA decisão correta deve determinar o pagamento das horas excedentes ao período de dois meses como hora extra com adicional de 50%. Isso porque a Súmula 85 do TST é clara em sua aplicação para bancos de horas sem CCT, e não há fundamentação legal ou jurisprudencial que justifique o pagamento dessas horas como horas normais.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n1. **Súmula 85 do TST**: \n   - Vincula a compensação de banco de horas ao prazo máximo de dois meses e estabelece que as horas excedentes devem ser pagas com adicional de 50%.\n   \n2. **Artigo 59 da CLT**:\n   - Permite a compensação de jornada, mas sem acordo coletivo, o limite é de dois meses para bancos de horas.\n\n3. **Jurisprudência do TST**:\n   - A jurisprudência reitera que, na ausência de CCT, as horas excedentes ao prazo máximo permitido pela Súmula 85 devem ser pagas como hora extra com adicional legal.\n\nPortanto, a decisão deve ser reformulada para garantir o pagamento das horas excedentes ao limite de dois meses como hora extra com adicional de 50%, conforme estabelecido na Súmula 85 do TST.",
+  "tokens_in": 308,
+  "tokens_out": 574,
+  "latency_ms": 36891,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

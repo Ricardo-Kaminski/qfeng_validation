@@ -1,0 +1,19 @@
+{
+  "sha256": "f55f9d3181fcdc9b5e5c2a258ed50df327ac81274ccc13a56d6da10a6a1eb59a",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-008",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T02:27:35Z",
+  "prompt_sha": "b2bf5ad536abfb09b7f28030507e1f5d0965dc4b53a43a29e254c01e58ba7038",
+  "response_text": "### ANÁLISE:\n\n1. **Dispositivos Legais Aplicáveis**:\n   - **Convenção Coletiva de Trabalho (CCT)**: A CCT é um instrumento normativo que estabelece direitos e obrigações entre empregadores e trabalhadores, com força vinculante sobre as partes signatárias. No caso concreto, a CCT prevê uma flexibilidade na escolha da data de compensação das horas extras.\n   - **Artigo 611-A da CLT**: Regula o banco de horas, permitindo que empregador e trabalhadores estabeleçam um sistema de compensação de jornada mediante acordo escrito. A CCT pode ser considerada como parte desse acordo coletivo.\n\n2. **Interpretação no Caso Concreto**:\n   - A alteração unilateral da cláusula que prevê a flexibilidade na escolha da data de compensação das horas extras viola o princípio do pacta sunt servanda, segundo o qual os acordos devem ser cumpridos conforme estabelecido.\n   - O banco de horas é um regime especial que depende de acordo escrito entre as partes. Qualquer alteração unilateral por parte da empresa pode invalidar o sistema, pois contraria a vontade expressa na CCT.\n\n### DECISÃO RECOMENDADA:\n\nA decisão recomendada é que a alteração unilateral feita pela empresa seja considerada inválida e que a flexibilidade prevista inicialmente na CCT seja mantida. Isso porque a mudança foi realizada sem o consentimento das partes trabalhadoras, violando os termos do acordo coletivo.\n\n### FUNDAMENTAÇÃO NORMATIVA:\n\n1. **Artigo 611-A da CLT**: Estabelece que o banco de horas deve ser regulado por meio de acordo escrito entre empregador e empregados ou suas representações, respeitando as condições estipuladas.\n\n2. **Súmula nº 331 do TST**: \"É inválida a alteração unilateral da convenção coletiva de trabalho.\"\n\n3. **Princípio do Pacta Sunt Servanda**: Este princípio, embora não expressamente mencionado na CLT, é reconhecido pela jurisprudência e doutrina como fundamental para a validade dos acordos coletivos.\n\n4. **Precedentes do TST**:\n   - O TST tem reiteradamente decidido que alterações unilaterais em cláusulas de CCTs são nulas, pois violam o princípio da autonomia coletiva e a boa-fé objetiva nas relações trabalhistas.\n\n5. **Doutrina Trabalhista**:\n   - A doutrina sustenta que as convenções coletivas têm força normativa e devem ser respeitadas em seus termos, salvo acordo mútuo para alteração ou renegociação das cláusulas.\n\nPortanto, a empresa deve restabelecer o regime de compensação conforme estipulado na CCT original, permitindo aos trabalhadores escolher flexivelmente as datas de compensação das horas extras.",
+  "tokens_in": 291,
+  "tokens_out": 697,
+  "latency_ms": 41125,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "8dd0a738e831d3cb382513a60cc5f01318f4ab152e00e5fe26597003d0406672",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-009",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T02:56:08Z",
+  "prompt_sha": "5b12208f005282f197e73fcd2d470c2292b060bfe7a9e603c2a08af1ce3e4934",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis**\n\n- **Súmula TST 85**: Esta súmula trata da validade do banco de horas sem a existência de Convenção Coletiva de Trabalho (CCT) ou Acordo Coletivo de Trabalho (ACT). A Súmula estabelece que, em caso de não haver CCT/ACT regulando o banco de horas, as horas excedentes devem ser compensadas dentro do prazo de 6 meses e pagas como hora-extra com adicional de 50%.\n\n- **Artigo 59 da CLT**: Este artigo estabelece que a jornada normal diária não pode ultrapassar oito horas, salvo exceções previstas em lei. As horas excedentes devem ser remuneradas com acréscimo de no mínimo 50% sobre o valor da hora normal.\n\n**Interpretação no Caso Concreto**\n\nNo caso apresentado, a decisão reconheceu corretamente que não havia CCT/ACT regulando o banco de horas e identificou um período de 7 meses. A Súmula TST 85 V é clara ao estabelecer que, na ausência de CCT/ACT, as horas excedentes devem ser pagas como hora-extra com adicional de 50%. No entanto, a decisão aplicou o pagamento das horas como hora normal, sem fundamentação para afastar o adicional previsto.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão deve ser reformada para determinar que as horas excedentes do banco de horas sejam pagas como hora-extra com adicional de 50%. Isso porque a Súmula TST 85 V é aplicável ao caso, e não há fundamentação legal ou fática apresentada na decisão original que justifique o afastamento do adicional previsto.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **Súmula TST 85 V**: Estabelece que, na ausência de CCT/ACT regulando o banco de horas, as horas excedentes devem ser pagas como hora-extra com adicional de 50%.\n\n- **Artigo 59 da CLT**: Define a remuneração das horas extraordinárias com acréscimo de no mínimo 50% sobre o valor da hora normal.\n\n**Precedentes e Doutrina**\n\nA jurisprudência do TST tem sido consistente em aplicar a Súmula TST 85 V quando não há CCT/ACT regulando o banco de horas, exigindo o pagamento das horas excedentes como hora-extra com adicional. A doutrina trabalhista também sustenta essa interpretação, destacando a proteção ao direito do trabalhador à remuneração adequada por jornadas extraordinárias.\n\nPortanto, a decisão deve ser ajustada para cumprir o que estabelece a Súmula TST 85 V e garantir o pagamento correto das horas excedentes como hora-extra com adicional de 50%.",
+  "tokens_in": 308,
+  "tokens_out": 685,
+  "latency_ms": 39296,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

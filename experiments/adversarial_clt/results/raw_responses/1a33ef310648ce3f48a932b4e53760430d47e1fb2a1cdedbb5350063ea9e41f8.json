@@ -1,0 +1,19 @@
+{
+  "sha256": "1a33ef310648ce3f48a932b4e53760430d47e1fb2a1cdedbb5350063ea9e41f8",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-006",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T13:18:26Z",
+  "prompt_sha": "52dd564a70359960dbb886b7a9e848f56a10af664fc6884feb3e2be6931f11b7",
+  "response_text": "## Análise Jurídico-Trabalhista: Banco de Horas e Assembleia de Empregados\n\nConsiderando o cenário apresentado e as informações fornecidas, a análise jurídica-trabalhista deve se concentrar na validade da implementação do banco de horas por meio de regulamento interno aprovado em assembleia de empregados, sem a presença do sindicato.\n\n**1. ANÁLISE: Dispositivos Normativos Aplicáveis**\n\nO único dispositivo normativo explicitamente mencionado no contexto é o **Art. 59, §2°, do CLT (Consolidação das Leis do Trabalho)**. Este artigo trata da necessidade de acordo coletivo para a instituição de banco de horas.\n\n*   **Art. 59, §2°, CLT:** \"O banco de horas, com compensação mensal, somente poderá ser instituído por meio de acordo coletivo.\"\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a implementação do banco de horas por meio do regulamento interno aprovado em assembleia de empregados **é inválida**. A aprovação em assembleia, mesmo que assinada pela maioria dos trabalhadores, **não substitui a necessidade de um acordo coletivo** para a instituição do banco de horas.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação para a decisão reside exclusivamente no **Art. 59, §2°, do CLT**. O texto é claro e direto: a instituição do banco de horas com compensação mensal exige um **acordo coletivo**.\n\nA argumentação da empresa de que a assembleia de empregados seria equivalente a um acordo coletivo para fins do Art. 59, §2°, do CLT **não encontra respaldo no texto legal**. O §2° do Art. 59 do CLT exige um acordo *coletivo*, o que implica a participação e a negociação entre empregadores (ou seus representantes) e empregados (ou seus representantes sindicais). Uma assembleia de empregados, mesmo que aprovada pela maioria, não configura um acordo coletivo, pois não há a participação do sindicato como representante da categoria.\n\n**Limitação do Contexto Normativo:**\n\nO contexto normativo fornecido é limitado ao Art. 59, §2°, do CLT. Não há outras normas, súmulas ou jurisprudência apresentadas que possam modificar ou atenuar a interpretação deste dispositivo. Portanto, a análise se restringe à leitura literal do artigo.\n",
+  "tokens_in": 267,
+  "tokens_out": 526,
+  "latency_ms": 28452,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,30 @@
+{
+  "sha256": "0bf0bcd4b5544491e65482868535f08924b3647e2e310e30a25bece5a5ec575b",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:30:41Z",
+  "prompt_sha": "2894b7676eac7e9e2cb55e15eed63978b4e2d5820472a6bee747c60e44ab8c8e",
+  "response_text": "**1. ANÁLISE**\n\na. **obligation_to_ground_decision_in_identified_ratio_decidendi**: O TRT decidiu a ação citando a Súmula TST 60 e identificou a ratio decidendi (o revezamento noturno integra o adicional à remuneração). Além disso, analisou o caso concreto e aplicou a Súmula de forma que se enquadrou na hipótese da Súmula. Portanto, esse predicado foi cumprido.\n\nb. **due_process_of_law**: O TRT seguiu os procedimentos legais ao decidir a ação sobre adicional noturno, citando a Súmula TST 60 e aplicando-a ao caso concreto de forma que se enquadrou na hipótese da Súmula. Além disso, explicitou a distinção com casos de turno fixo não noturno. Portanto, esse predicado também foi cumprido.\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada é que o TRT confirme sua decisão, pois aplicou corretamente a Súmula TST 60 ao caso concreto e seguiu os procedimentos legais.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi**: Cumprido\n*   **due_process_of_law**: Cumprido",
+  "tokens_in": 388,
+  "tokens_out": 335,
+  "latency_ms": 5625,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

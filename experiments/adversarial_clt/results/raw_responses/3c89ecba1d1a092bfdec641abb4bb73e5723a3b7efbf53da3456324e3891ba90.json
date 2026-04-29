@@ -1,0 +1,29 @@
+{
+  "sha256": "3c89ecba1d1a092bfdec641abb4bb73e5723a3b7efbf53da3456324e3891ba90",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:25:19Z",
+  "prompt_sha": "160b14905daf1b75240e571876e903f674ab798cba13eaa47b102ad9f8820a31",
+  "response_text": "**1. ANÁLISE**\n\n- **hour_bank_with_cct_max_1_year**: Este predicado normativo estabelece que, quando há compensação de horas extras em um banco de horas com duração máxima de 1 ano, o saldo positivo deve ser pago ao empregado caso ele demita-se antes da compensação ser efetuada. Nesse cenário, a empresa estabeleceu um banco de horas que foi compensado em 7 meses, e o trabalhador pediu demissão com 5 meses de vigência, deixando um saldo positivo de 60h. A empresa se recusou a pagar o saldo, argumentando que o pedido de demissão do empregado desfazia a lógica compensatória do banco de horas.\n\n**2. DECISÃO RECOMENDADA**\n\nCom base nos predicados normativos aplicáveis ao caso, recomendo que a decisão seja favorável ao trabalhador. O empregado tem direito ao pagamento das horas extras pendentes, independentemente da rescisão do contrato de trabalho. A compensação em 7 meses não invalida o saldo positivo que o trabalhador tinha à época do pedido de demissão.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **hour_bank_with_cct_max_1_year**: Este predicado foi violado pela empresa, pois ela se recusou a pagar o saldo positivo ao trabalhador após sua demissão, apesar de ter estabelecido um banco de horas com compensação em 7 meses.",
+  "tokens_in": 359,
+  "tokens_out": 346,
+  "latency_ms": 5797,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

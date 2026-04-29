@@ -1,0 +1,19 @@
+{
+  "sha256": "bff362fe7641c8228e76112403953ddb16936d2f7c7d099c1d515c6facfee5a2",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-008",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T11:20:59Z",
+  "prompt_sha": "12b48022cdc961cef8c18d0d80b5483d4759aae81c7b71fc4609fcfa8fba3820",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a decisão do TRT (Tribunal Regional do Trabalho) baseou-se na Orientação Jurisprudencial (OJ) 394 da SDI-1 do TST (Tribunal Superior do Trabalho), que foi cancelada em 2012. Após o cancelamento, parte do conteúdo dessa OJ foi incorporado à Súmula 428 do TST, mas com diferenças significativas.\n\nA questão central é a aplicação de uma norma (OJ 394) que já não está mais vigente e que foi substituída por outra norma (Súmula 428). A decisão do TRT não menciona a Súmula 428 nem reconhece o cancelamento da OJ 394, o que pode afetar a validade de sua fundamentação.\n\n2. **DECISÃO RECOMENDADA:**\n\nRecomenda-se que a decisão seja revisada para considerar a atual norma vigente, ou seja, a Súmula 428 do TST. A análise deve ser feita com base no conteúdo da Súmula 428, uma vez que ela substituiu parcialmente a OJ 394 após seu cancelamento.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Cancelamento da OJ 394:** A Orientação Jurisprudencial 394 foi cancelada pelo TST em 2012 e, portanto, não pode ser utilizada como base para decisões judiciais após essa data.\n\n- **Incorporação à Súmula 428:** Parte do conteúdo da OJ 394 foi incorporado à Súmula 428. A Súmula 428 deve ser a norma aplicável atualmente, e qualquer análise sobre horas de sobreaviso deve considerar seu teor.\n\n- **Revisão da Decisão:** Como a decisão do TRT não menciona a Súmula 428 nem reconhece o cancelamento da OJ 394, é recomendável que a decisão seja revisada para garantir conformidade com a norma vigente. A fundamentação deve ser ajustada conforme as disposições da Súmula 428.\n\nEssa análise garante que a decisão judicial esteja alinhada com o ordenamento jurídico atual, evitando a aplicação de normas desatualizadas ou canceladas.",
+  "tokens_in": 285,
+  "tokens_out": 543,
+  "latency_ms": 30843,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

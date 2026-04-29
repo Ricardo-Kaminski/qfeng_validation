@@ -1,0 +1,26 @@
+{
+  "sha256": "023922ae45227243cd113ee74142d0bd8265076632b279b72959a74347d1ca47",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:35:15Z",
+  "prompt_sha": "d1173e4f3cba457c294de0168853e6eb5bfa237ff7c015762dd1676b67bbd842",
+  "response_text": "**ANÁLISE**\n\n1.  **semester_hour_bank_requires_cct_or_act**: A empresa e o sindicato celebraram uma Convenção Coletiva de Trabalho (CCT), que é um acordo coletivo de trabalho, para estabelecer as condições de trabalho dos empregados do banco. Portanto, este predicado está cumprido.\n2.  **hour_bank_with_cct_max_1_year**: A CCT estabeleceu um prazo de 6 meses para a compensação das horas trabalhadas em banco de horas. Este prazo é inferior ao limite máximo de 1 ano previsto no predicado, então este predicado está cumprido.\n3.  **recognition_of_collective_bargaining**: A CCT foi registrada na SRTE (Superintendência Regional do Trabalho) e todos os trabalhadores receberam cópias da CCT. Além disso, não há contestação sindical ou individual sobre a CCT. Portanto, este predicado está cumprido.\n\n**DECISÃO RECOMENDADA**\n\nCom base nos predicados normativos acima, recomenda-se que a decisão seja favorável à empresa e ao sindicato, pois eles cumpriram com as obrigações estabelecidas na CCT.\n\n**PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n*   **semester_hour_bank_requires_cct_or_act**: Cumprido\n*   **hour_bank_with_cct_max_1_year**: Cumprido\n*   **recognition_of_collective_bargaining**: Cumprido",
+  "tokens_in": 375,
+  "tokens_out": 341,
+  "latency_ms": 5750,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

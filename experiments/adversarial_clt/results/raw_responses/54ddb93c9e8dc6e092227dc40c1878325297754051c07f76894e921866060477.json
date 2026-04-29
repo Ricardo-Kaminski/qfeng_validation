@@ -1,0 +1,19 @@
+{
+  "sha256": "54ddb93c9e8dc6e092227dc40c1878325297754051c07f76894e921866060477",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-013",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T11:31:19Z",
+  "prompt_sha": "f5497ee6a7892e951be5a3f450a9283428336ff41f3cb0f338c8cc849b031335",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a análise se concentra em um acórdão do Tribunal Superior do Trabalho (TST) que discute a aplicabilidade de uma ratio decidendi relacionada à validade de banco de horas em Convenção Coletiva de Trabalho (CCT) no setor bancário. A decisão mencionada é TST-Ag-RR-868-65.2021.5.13.0030, que analisa a questão sob o Tema 1046 do Supremo Tribunal Federal (STF). No entanto, o acórdão conclui que essa ratio decidendi não se aplica ao caso concreto de um piloto da aviação civil.\n\nOs dispositivos normativos relevantes mencionados são:\n\n- **CF/88 Art. 7°, XIII e XIV:** Estabelecem direitos dos trabalhadores em relação à jornada de trabalho e banco de horas.\n  \n  - **Art. 7º, XIII** estipula que a duração da jornada semanal normal de trabalho não poderá ultrapassar quarenta horas sem prejuízo do disposto nos acordos ou convenções coletivas.\n\n  - **Art. 7º, XIV** permite o banco de horas mediante acordo ou convenção coletiva, desde que a compensação ocorra no prazo máximo de seis meses e não exceda dez horas semanais.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é manter a inaplicabilidade da ratio decidendi do caso bancário ao setor aéreo, conforme concluiu o acórdão analisado. Isso se deve à distinção fática entre os dois setores e às peculiaridades normativas que regem cada um deles.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **CF/88 Art. 7°, XIII e XIV:** Esses artigos são fundamentais para a análise da validade do banco de horas em diferentes setores. Eles permitem flexibilidades na jornada de trabalho mediante acordos ou convenções coletivas, mas também estabelecem limitações que devem ser observadas.\n\n- **Tema 1046/STF:** Embora não seja citado explicitamente no contexto normativo fornecido, o Tema 1046 do STF trata da validade do banco de horas em CCTs e é uma referência importante para a análise das decisões judiciais sobre essa matéria.\n\nA distinção entre os setores bancário e aéreo justifica a inaplicabilidade direta da ratio decidida no caso bancário ao contexto aeronáutico. Cada setor possui características específicas que podem influenciar a aplicação das normas trabalhistas, especialmente em relação à jornada de trabalho e banco de horas.\n\nPortanto, a decisão deve ser fundamentada na análise cuidadosa dos dispositivos constitucionais mencionados e nas peculiaridades do setor aéreo, conforme destacado no acórdão.",
+  "tokens_in": 361,
+  "tokens_out": 682,
+  "latency_ms": 39046,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

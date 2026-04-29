@@ -1,0 +1,19 @@
+{
+  "sha256": "9cf836ad437dce33007f9ad36c629941256a1e275fec608959da25a88b835784",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-008",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T01:36:05Z",
+  "prompt_sha": "65ae71bdbd6a5957a903048be7849ac95f7c43a5d8cf96b88aa3d1dce5a8a617",
+  "response_text": "### 1. ANÁLISE\n\n**Contexto Normativo:**\n\n- **OJ 394 (cancelada em 2012):** Originalmente, a Orientação Jurisprudencial 394 da SDI-1 do TST estabelecia que as horas de sobreaviso não eram passíveis de indenização. A decisão do TRT utilizou essa OJ para fundamentar sua condenação.\n\n- **Súmula 428 (incorporada em 2012):** Após o cancelamento da OJ 394, a Súmula 428 foi editada com um conteúdo parcialmente distinto. A nova redação estabelece que as horas de sobreaviso são indenizáveis apenas quando não forem cumpridas dentro do mês subsequente àquele em que foram registradas.\n\n**Interpretação no Caso Concreto:**\n\n- O TRT, ao fundamentar sua decisão na OJ 394 sem mencionar o cancelamento e a substituição pela Súmula 428, incorreu em um erro normativo. A partir de 2012, a Súmula 428 passou a ser o referencial jurídico aplicável.\n\n- A análise do caso deve considerar se as horas de sobreaviso foram cumpridas dentro do mês subsequente ao registro. Caso contrário, conforme a Súmula 428, há direito à indenização.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão do TRT deve ser reformulada para considerar a aplicação correta da Súmula 428 do TST. A condenação por horas de sobreaviso deve ser mantida apenas se as condições estabelecidas pela Súmula forem atendidas, ou seja, se as horas não foram cumpridas dentro do mês subsequente ao registro.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n**Dispositivos Legais e Precedentes:**\n\n- **Súmula 428 do TST:** Estabelece que as horas de sobreaviso são indenizáveis apenas quando não forem cumpridas dentro do mês subsequente ao registro. Esta é a norma aplicável após o cancelamento da OJ 394.\n\n- **Artigo 59, § 1º, da CLT:** Regula a compensação das horas de sobreaviso, permitindo que sejam utilizadas para suprir faltas ou atrasos no trabalho, desde que dentro do mês subsequente ao registro.\n\n**Precedentes Constitucionais:**\n\n- **Princípio da Segurança Jurídica (CF/88, art. 5º, XXXVI):** A aplicação de normas jurídicas deve ser clara e previsível. O uso incorreto da OJ 394 após seu cancelamento viola este princípio.\n\n- **Princípio do Devido Processo Legal (CF/88, art. 5º, LIV):** Requer que as decisões judiciais sejam fundamentadas em normas vigentes e aplicáveis, o que não ocorreu no caso de uso da OJ 394 após sua substituição pela Súmula 428.\n\nA reformulação da decisão do TRT deve garantir a aplicação correta das normas vigentes, respeitando os princípios constitucionais mencionados.",
+  "tokens_in": 294,
+  "tokens_out": 749,
+  "latency_ms": 43000,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

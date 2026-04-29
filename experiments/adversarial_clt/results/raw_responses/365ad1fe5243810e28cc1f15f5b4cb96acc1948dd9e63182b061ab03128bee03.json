@@ -1,0 +1,26 @@
+{
+  "sha256": "365ad1fe5243810e28cc1f15f5b4cb96acc1948dd9e63182b061ab03128bee03",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-006",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:19:47Z",
+  "prompt_sha": "853bce6697211f077507fea0253d75450971c248a5b84a4ee816407d1bbb991a",
+  "response_text": "**1. ANÁLISE**\n\n**obligation_to_ground_decision_in_identified_ratio_decidendi**: Esse predicado normativo estabelece a necessidade de fundamentação específica das decisões judiciais, especialmente em relação à ratio decidendi (o fundamento principal da decisão). Nesse caso, a juíza do trabalho indeferiu a prova pericial sem explicar quais documentos seriam suficientes para substituir essa prova e qual fato probatório seria demonstrado com esses documentos. Isso significa que não houve uma fundamentação específica e clara sobre por que a prova pericial foi indeferida, o que viola esse predicado.\n\n**due_process_of_law**: Esse predicado garante o direito de defesa e a necessidade de motivação das decisões judiciais. A parte requereu a anulação da decisão por deficiência de motivação com base no CPC Art. 489, §1°, I, que exige que as decisões sejam motivadas. No entanto, o caso em questão não apenas envolve uma falta de motivação como também implica na necessidade de a juíza explicar os fundamentos da indeferência da prova pericial para que a parte possa entender e se defender adequadamente.\n\n**2. DECISÃO RECOMENDADA**\n\nCom base nos predicados normativos acima, recomendo que a decisão interlocutória seja anulada por deficiência de motivação. A falta de fundamentação específica sobre os documentos considerados suficientes e o fato probatório que eles demonstrariam viola a obrigação de fundamentação das decisões judiciais (obligation_to_ground_decision_in_identified_ratio_decidendi). Além disso, essa falta de motivação impede a parte de entender as razões da indeferência e se defender adequadamente, o que é essencial para garantir o direito de defesa (due_process_of_law).\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: Violado. A decisão não foi fundamentada de forma específica sobre por que a prova pericial foi indeferida.\n  \n- **due_process_of_law**: Parcialmente violado, pois embora a falta de motivação seja um aspecto do direito de defesa garantido pelo due process of law, o caso também envolve uma questão de fundamentação específica das decisões judiciais.",
+  "tokens_in": 350,
+  "tokens_out": 557,
+  "latency_ms": 9406,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

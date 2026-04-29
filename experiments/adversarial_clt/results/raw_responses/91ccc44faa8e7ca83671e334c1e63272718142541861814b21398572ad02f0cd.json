@@ -1,0 +1,19 @@
+{
+  "sha256": "91ccc44faa8e7ca83671e334c1e63272718142541861814b21398572ad02f0cd",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T02:37:16Z",
+  "prompt_sha": "6f04adbac1a2e32ad108805b991891a0bae030241b20bd361b5b3a03344d2d08",
+  "response_text": "### ANÁLISE\n\n1. **Dispositivos Legais Aplicáveis**:\n   - **Constituição Federal de 1988**: Artigo 7º, inciso XXVI, permite a negociação coletiva para estabelecer condições de trabalho que possam implicar vantagens ou supressões de direitos, desde que haja compensação adequada.\n   - **Tema 1046 do STF**: Estabelece que são constitucionais os acordos e convenções coletivas que preveem exclusivamente vantagens ou supressões de direitos, desde que baseados no princípio da adequação setorial negociada.\n   - **Convenção Coletiva de Trabalho (CCT)**: A CCT bancária em questão deve estabelecer cláusulas que preencham os requisitos do Tema 1046, ou seja, vantagens compensatórias para a supressão de direitos.\n   - **Lei nº 605/49**: Regula o banco de horas no setor bancário, permitindo a compensação de horas extras mediante acordo coletivo.\n\n2. **Interpretação no Caso Concreto**:\n   - A CCT bancária deve ser analisada para verificar se as cláusulas que preveem o banco de horas são acompanhadas de vantagens compensatórias, conforme exigido pelo Tema 1046.\n   - O princípio da adequação setorial negociada implica que a negociação coletiva deve levar em consideração as peculiaridades do setor bancário, garantindo que quaisquer supressões de direitos sejam compensadas adequadamente.\n\n### DECISÃO RECOMENDADA\n\nA decisão recomendada é **manter a validade do banco de horas**, desde que a CCT bancária preencha os requisitos estabelecidos pelo Tema 1046 do STF, ou seja, ofereça vantagens compensatórias adequadas para as supressões de direitos.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n1. **Constituição Federal de 1988**:\n   - Artigo 7º, XXVI: Permite a negociação coletiva que estabelece condições de trabalho com vantagens ou supressões de direitos, desde que haja compensação adequada.\n\n2. **Tema 1046 do STF**:\n   - Fixa a tese de que acordos e convenções coletivas são constitucionais se preveem exclusivamente vantagens ou supressões de direitos com base na adequação setorial negociada.\n\n3. **Lei nº 605/49**:\n   - Regula o banco de horas no setor bancário, permitindo a compensação de horas extras mediante acordo coletivo.\n\n4. **Súmulas do TST**:\n   - Súmula 331: \"É lícita a supressão de direito individual por convenção ou acordo coletivo, desde que haja contraprestação.\"\n   - Súmula 372: \"O banco de horas é válido quando instituído em convenção ou acordo coletivo.\"\n\n5. **Jurisprudência do TST**:\n   - O Tribunal Superior do Trabalho tem reconhecido a validade do banco de horas no setor bancário, desde que haja cláusulas compensatórias adequadas e observância dos princípios constitucionais.\n\n### CONCLUSÃO\n\nA decisão deve ser fundamentada na análise da CCT bancária para verificar se as cláusulas relativas ao banco de horas preenchem os requisitos do Tema 1046, garantindo vantagens compensatórias adequadas. Se isso for confirmado, a validade do banco de horas deve ser mantida em conformidade com a legislação e jurisprudência vigentes.",
+  "tokens_in": 349,
+  "tokens_out": 849,
+  "latency_ms": 48827,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,30 @@
+{
+  "sha256": "d07789647e575e0822daacd7e2b6f7b7e84a3eec4ec3e680a66d900ed7588743",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-010",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T00:13:20Z",
+  "prompt_sha": "bbd354def3962e7704377db628ebe8de6136e5b7bf76b2f7dfdbf1e221c99015",
+  "response_text": "### 1. ANÁLISE:\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: Este predicado normativo exige que a decisão judicial seja fundamentada em uma ratio decidendi claramente identificada, ou seja, o fundamento jurídico que justifica a decisão. No caso concreto, o acórdão do TRT analisou a validade da CCT (Convenção Coletiva de Trabalho) e constatou que não havia autorização para reduzir o intervalo intrajornada. A decisão foi fundamentada na CLT Art. 71, Súmula TST 437 e no Tema 981 do STF, explicitando a razão pela qual o período suprimido deve ser pago como hora extra. Portanto, este predicado foi cumprido.\n\n- **stf_tema981_interval_reduction_by_cct**: O Tema 981 do Supremo Tribunal Federal (STF) trata da validade de CCTs que reduzem o intervalo intrajornada para menos de 1/6 do período normal de trabalho. No caso, o TRT analisou a existência de uma CCT válida que autorizasse tal redução e concluiu que não havia tal convenção em vigor. Assim, aplicou corretamente o entendimento do Tema 981 ao decidir pela obrigatoriedade do pagamento integral do período suprimido como hora extra. Este predicado foi cumprido.\n\n- **due_process_of_law**: O devido processo legal exige que a decisão seja tomada após uma análise justa e completa das provas e argumentos apresentados, respeitando os direitos dos envolvidos. No caso em questão, o TRT analisou as normas aplicáveis (CLT Art. 71, Súmula TST 437 e Tema 981/STF) e verificou a inexistência de uma CCT autorizando a redução do intervalo intrajornada. A decisão foi baseada em fundamentos legais claros e coerentes com o caso, respeitando os direitos dos trabalhadores ao pagamento integral do período suprimido como hora extra. Portanto, este predicado também foi cumprido.\n\n### 2. DECISÃO RECOMENDADA:\n\nA decisão recomendada é manter a sentença proferida pelo TRT, que determinou o pagamento integral do período intrajornada reduzido como hora extra. A análise realizada pelo tribunal está de acordo com os predicados normativos aplicáveis, considerando a ausência de uma CCT válida autorizando a redução e as disposições legais pertinentes.\n\n### 3. PREDICADOS VIOLADOS OU CUMPRIDOS:\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: Cumprido.\n- **stf_tema981_interval_reduction_by_cct**: Cumprido.\n- **due_process_of_law**: Cumprido.\n\nEm resumo, todos os predicados normativos foram cumpridos no cenário apresentado. A decisão do TRT foi fundamentada adequadamente e seguiu o devido processo legal, aplicando corretamente as normas relevantes ao caso.",
+  "tokens_in": 403,
+  "tokens_out": 714,
+  "latency_ms": 20625,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

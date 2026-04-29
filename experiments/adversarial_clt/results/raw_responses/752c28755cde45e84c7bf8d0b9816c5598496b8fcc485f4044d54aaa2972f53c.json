@@ -1,0 +1,30 @@
+{
+  "sha256": "752c28755cde45e84c7bf8d0b9816c5598496b8fcc485f4044d54aaa2972f53c",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-010",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:33:56Z",
+  "prompt_sha": "bbd354def3962e7704377db628ebe8de6136e5b7bf76b2f7dfdbf1e221c99015",
+  "response_text": "**1. ANÁLISE**\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: O acórdão do TRT fornece uma análise detalhada sobre a validade da CCT e sua aplicação ao caso específico, incluindo a citação de precedentes (CLT Art. 71, Súmula TST 437, Tema 981/STF) e explicitando a razão pela qual o intervalo intrajornada não foi reduzido. Isso atende à obrigação de fundamentar a decisão com base em um precedente identificado e na sua aplicação ao caso concreto.\n\n- **stf_tema981_interval_reduction_by_cct**: O Tema 981/STF é citado como referência para a validade da CCT que reduz o intervalo intrajornada para 30 minutos. A decisão do TRT analisa se há uma CCT válida em vigor no local de trabalho e conclui que não há, aplicando assim a regra geral (CLT Art. 71). Isso mostra a aplicação correta do precedente.\n\n- **due_process_of_law**: O processo descrito segue os princípios básicos devido processo legal: o empregado apresentou sua demanda, foi julgada em primeiro grau e posteriormente revisada pelo TRT. A decisão do TRT se baseia em argumentos jurídicos relevantes e cita precedentes pertinentes, garantindo assim a aplicação da lei e respeito aos direitos das partes.\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada é que o acórdão do TRT seja mantido, pois ele segue os princípios de fundamentação da decisão (obligation_to_ground_decision_in_identified_ratio_decidendi), aplica corretamente a jurisprudência (stf_tema981_interval_reduction_by_cct) e respeita o direito ao devido processo legal (due_process_of_law).\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: Cumprido\n- **stf_tema981_interval_reduction_by_cct**: Cumprido\n- **due_process_of_law**: Cumprido\n\nNenhum dos predicados foi violado. A decisão do TRT atende às exigências de fundamentação, aplicação correta da jurisprudência e respeito ao direito processual.",
+  "tokens_in": 402,
+  "tokens_out": 547,
+  "latency_ms": 9343,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

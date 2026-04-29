@@ -1,0 +1,19 @@
+{
+  "sha256": "17e2c2e6de66c38eedb6990997f151fa1422208f1c01e4614b4e8e7222171143",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T20:15:51Z",
+  "prompt_sha": "e1659c5429e8d4021dbbfd8bec4539ebca49823acf42a3cc8afc510d0a89683d",
+  "response_text": "**ANÁLISE**\n\nO caso apresentado envolve a compensação de horas extras por meio de banco de horas estabelecido pela Lei 10.101/2000 (Lei do Trabalho), com a rescisão do contrato de trabalho após cinco meses da vigência do acordo. O empregado tem direito ao pagamento das horas extras pendentes, mesmo após o pedido de demissão.\n\n**DISPOSITIVOS APLICÁVEIS**\n\n- **Art. 59 da CLT (Consolidação das Leis do Trabalho)**: Regulamenta a compensação de horas extras por meio de banco de horas.\n- **Art. 59, § 2º da CLT**: Estabelece que o empregado tem direito ao pagamento das horas extras pendentes caso rescinda o contrato de trabalho.\n- **Súmula Vinculante nº 331 do Supremo Tribunal Federal (STF)**: Determina a obrigatoriedade do pagamento das horas extras pendentes após o término do contrato de trabalho.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a empresa pague ao empregado as horas extras pendentes, conforme estabelecido na legislação trabalhista. Isso se baseia no entendimento de que a rescisão do contrato de trabalho não elide o direito ao pagamento das horas extras pendentes.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação normativa é baseada nos dispositivos da CLT e na jurisprudência do STF. A Lei 10.101/2000, que instituiu a lei do trabalho, não foi mencionada explicitamente no contexto, mas sua influência está presente nas regras de compensação de horas extras.\n\n**CONCLUSÃO**\n\nO empregado tem direito ao pagamento das horas extras pendentes após o término do contrato de trabalho. A rescisão do contrato não elide esse direito, conforme estabelecido na legislação trabalhista e na jurisprudência do STF.",
+  "tokens_in": 304,
+  "tokens_out": 446,
+  "latency_ms": 7462,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

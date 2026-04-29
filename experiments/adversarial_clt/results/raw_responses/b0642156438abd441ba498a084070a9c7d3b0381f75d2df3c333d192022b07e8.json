@@ -1,0 +1,29 @@
+{
+  "sha256": "b0642156438abd441ba498a084070a9c7d3b0381f75d2df3c333d192022b07e8",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-008",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T01:25:25Z",
+  "prompt_sha": "160b14905daf1b75240e571876e903f674ab798cba13eaa47b102ad9f8820a31",
+  "response_text": "**ANÁLISE**\n\n1. **hour_bank_with_cct_max_1_year**: Esse predicado normativo se aplica ao caso, pois trata da compensação de horas extras em banco de horas estabelecido por acordo coletivo (ACT) com um prazo máximo de 1 ano.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a empresa pague o saldo positivo de 60h ao empregado, pois a rescisão do contrato de trabalho não elide o direito ao pagamento das horas extras pendentes.\n\n**PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n* **Violação**: O predicado \"hour_bank_with_cct_max_1_year\" foi violado pela empresa, pois ela se recusou a pagar o saldo positivo de 60h ao empregado.\n* **Conformidade**: O predicado \"hour_bank_with_cct_max_1_year\" não foi cumprido pelo empregado, pois ele pediu demissão com 5 meses de vigência do acordo coletivo, mas isso não é um fato que desfaça a lógica compensatória do banco.\n\n**Razões para a decisão**\n\nA rescisão do contrato de trabalho não elide o direito ao pagamento das horas extras pendentes, conforme estabelecido no art. 59 da CLT e na jurisprudência do TST (TST - Súmula nº 438). Além disso, a compensação em banco de horas é uma obrigação da empresa, que não pode ser desfeita pelo empregado com o pedido de demissão.",
+  "tokens_in": 359,
+  "tokens_out": 359,
+  "latency_ms": 6047,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

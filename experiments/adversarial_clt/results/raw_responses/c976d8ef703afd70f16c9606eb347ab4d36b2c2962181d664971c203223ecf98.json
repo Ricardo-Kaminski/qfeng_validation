@@ -1,0 +1,26 @@
+{
+  "sha256": "c976d8ef703afd70f16c9606eb347ab4d36b2c2962181d664971c203223ecf98",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-008",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:58:32Z",
+  "prompt_sha": "edebec9d75758a7769d5b8b57f9d98a0d77aec6e3dfbd734a37cbb83239e8736",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG identificou uma **violação normativa** na decisão do TRT, com base nos seguintes predicados soberanos ativos:  \n- **Obrigação de explicitar as consequências práticas da decisão** (obrigação de informar claramente como a aplicação da norma afeta os direitos do trabalhador e do empregador).  \n- **Proibição de citação genérica de precedentes** (uso de uma orientação jurisprudencial desatualizada, sem reconhecer sua revogação e incorporação à Súmula 428).  \n- **Obrigação de abordar todos os argumentos jurídicos** (omissão de mencionar a revogação da OJ 394 e a existência da Súmula 428, que alteram o fundamento da decisão).  \n- **Obrigação de fundamentar a decisão em ratio decidendi identificada** (falta de vinculação à Súmula 428, que é o fundamento atual e válido).  \n- **Obrigação constitucional de fundamentar a decisão** (não houve demonstração clara de como a aplicação da OJ 394 (desatualizada) se relaciona com os direitos fundamentais do trabalhador).  \n- **Direito de acesso à justiça e revisão judicial** (a ausência de fundamentação adequada prejudica a possibilidade de revisão da decisão por parte do trabalhador).  \n\nA violação ocorre porque a decisão do TRT **não atualizou o fundamento jurídico** após a revogação da OJ 394 e a incorporação da Súmula 428, violando princípios de **transparência**, **precisão** e **respeito aos direitos fundamentais**.\n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O tribunal deve explicar **como a aplicação da norma afeta concretamente os direitos do trabalhador** (ex.: se a condenação por sobreaviso impacta a remuneração ou a jornada).  \n- **sovereign(prohibition_of_generic_precedent_citation)**: Não é permitido citar precedentes **sem verificar sua atualidade** (a OJ 394 foi revogada, e sua substituição pela Súmula 428 deve ser mencionada).  \n- **sovereign(obligation_to_address_all_legal_arguments)**: O tribunal deve **abordar todos os argumentos jurídicos relevantes**, incluindo a revogação da OJ 394 e a existência da Súmula 428.  \n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão deve ser fundamentada em **um ratio decidendi específico e atual** (a Súmula 428, não a OJ 394).  \n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: A Constituição exige que a decisão **explicite claramente os motivos** que levaram à condenação, evitando ambiguidades.  \n- **sovereign(right_of_access_to_justice_and_judicial_review)**: O trabalhador tem direito a **revisar a decisão** com base em fundamentos jurídicos claros e atualizados.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO tribunal **usou uma regra antiga que já não vale mais** (a OJ 394) para condenar o empregador por horas de sobreaviso. No entanto, essa regra foi **cancelada em 2012** e substituída por outra (a Súmula 428), que define **condições diferentes** para a condenação. O tribunal **não mencionou essa mudança**, o que é um erro.  \n\nIsso significa que a decisão **não explica claramente por que o empregador foi condenado** e **não respeita o direito do trabalhador de saber se a regra usada está correta**. O sistema Q-FENG identificou isso como uma **violação**, pois a justiça deve ser **transparente** e **atualizada** para garantir que todos os envolvidos (trabalhador e empregador) entendam por que a decisão foi tomada.",
+  "tokens_in": 523,
+  "tokens_out": 1409,
+  "latency_ms": 45656,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

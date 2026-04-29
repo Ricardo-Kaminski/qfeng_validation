@@ -1,0 +1,19 @@
+{
+  "sha256": "c02d0199d85f1bff681bc56de217e5ec6fa8c5e5c5eed7b51b7211580ec0cf38",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T07:17:32Z",
+  "prompt_sha": "5938f87dc45c8e0bffa111cb18879fec5f7291c5d6efe210e98d3c86b828bada",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a recolha de adicionais noturnos por parte de uma empresa de transporte. Para analisar essa situação, é necessário identificar os dispositivos legais aplicáveis e interpretá-los no caso concreto.\n\nOs dispositivos legais aplicáveis nesse caso são:\n\n*   Artigo 73 da CLT: \"O trabalho noturno será remunerado com adicional de, pelo menos, vinte por cento (20%) sobre o valor da hora diurna.\"\n*   Artigo 59 da CLT: \"Consideram-se como trabalhadas as horas em que o empregado esteja à disposição do empregador, aguardando a realização de sua tarefa.\"\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a empresa está cumprindo corretamente com a legislação trabalhista ao recolher adicionais noturnos de 20% para os motoristas que trabalham entre 22h e 5h.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação normativa da decisão é baseada nos seguintes dispositivos legais:\n\n*   Artigo 73 da CLT: \"O trabalho noturno será remunerado com adicional de, pelo menos, vinte por cento (20%) sobre o valor da hora diurna.\"\n*   Súmula 437 do TST: \"A jornada noturna é aquela que se inicia às 22 horas e termina às 5 horas do dia seguinte.\"\n\nAlém disso, a empresa está também cumprindo com a exigência de registro das horas trabalhadas em sistema eletrônico, o que é previsto no Artigo 74 da CLT.\n\nPortanto, considerando os dispositivos legais aplicáveis e sua interpretação no caso concreto, a decisão recomendada é que a empresa está cumprindo corretamente com a legislação trabalhista ao recolher adicionais noturnos de 20% para os motoristas que trabalham entre 22h e 5h.",
+  "tokens_in": 313,
+  "tokens_out": 464,
+  "latency_ms": 15203,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,30 @@
+{
+  "sha256": "2ccb9edc10ef402b99015fc28b799789e3e16a63df4aa248b87815b9b4cf7fa1",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-009",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:09:49Z",
+  "prompt_sha": "6d91edef4f830b89da4360eaf0b135c5ffe380f3939107e2bba54ad7b7057f83",
+  "response_text": "## ANÁLISE DO CASO À LUZ DOS PREDICADOS NORMATIVOS\n\n**1. ANÁLISE:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** Este predicado é crucial. A decisão corretamente identificou e citou a Súmula TST 85, demonstrando compreensão do *ratio decidendi* da súmula. A Súmula 85 estabelece que o banco de horas, quando não regulamentado por CCT, deve ser interpretado para garantir o pagamento de horas extras com adicional de 50% quando extrapolado o limite máximo estabelecido. O problema reside na aplicação da consequência jurídica. A decisão, apesar de reconhecer o banco de horas sem CCT, aplicou um tratamento incorreto, pagando as horas como \"normais\" sem o adicional de 50%, o que **viola** este predicado por não fundamentar o afastamento do *ratio decidendi* da Súmula 85. A decisão não apresentou justificativa legal ou fática para desconsiderar a orientação da Súmula.\n\n**2. DECISÃO RECOMENDADA:**\n\nA decisão deve ser reformada. As horas que excederam o limite máximo estabelecido para o banco de horas (sem regulamentação por CCT) devem ser pagas como horas extras, com adicional de 50% sobre a hora normal, em consonância com a Súmula TST 85, V. A decisão original careceu de fundamentação para desviar-se da orientação da Súmula, e a reforma é necessária para garantir a correta aplicação da lei e a proteção dos direitos do trabalhador. É fundamental que a decisão reformada apresente uma fundamentação clara e concisa, reiterando a aplicação da Súmula 85 e explicando porque o pagamento em hora normal é inadequado.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** **Violação**. A decisão reconheceu a Súmula 85, mas aplicou a consequência jurídica de forma equivocada, sem fundamentação para afastar o *ratio decidendi* da súmula.\n*   **Outros predicados:** Não há outros predicados listados que se apliquem diretamente ao caso. O foco da análise é a correta aplicação do *ratio decidendi* da Súmula 85, que foi negligenciada na decisão original.\n",
+  "tokens_in": 331,
+  "tokens_out": 554,
+  "latency_ms": 20593,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

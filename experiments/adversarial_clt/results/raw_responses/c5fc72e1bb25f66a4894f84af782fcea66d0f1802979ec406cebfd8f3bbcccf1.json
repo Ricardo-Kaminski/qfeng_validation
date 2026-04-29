@@ -1,0 +1,19 @@
+{
+  "sha256": "c5fc72e1bb25f66a4894f84af782fcea66d0f1802979ec406cebfd8f3bbcccf1",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T03:03:46Z",
+  "prompt_sha": "52ceb6ebc2f3ef70b0de7fc8bc6a7c0023fe64a2bc4bdfa6866316bb31086218",
+  "response_text": "### ANÁLISE\n\n**1. Dispositivos Legais Aplicáveis**\n\n- **Banco de Horas**: O banco de horas é uma modalidade prevista no artigo 59 da CLT, permitindo a compensação entre jornadas excedentes e faltantes dentro de um período estabelecido em convenção ou acordo coletivo.\n\n- **Convenção Coletiva de Trabalho (CCT)**: A CCT bancária deve especificar as condições para o banco de horas, incluindo prazos máximos para compensação e limites diários e semanais de trabalho.\n\n**2. Interpretação no Caso Concreto**\n\n- **Compatibilidade Fática**: O caso em julgamento envolve a aplicação do banco de horas conforme estabelecido na CCT bancária, o que deve ser analisado para verificar se as condições previstas estão sendo cumpridas.\n\n- **Precedente Citado (TST-Ag-RR-868-65.2021.5.13.0030)**: Este precedente trata de uma situação semelhante onde a aplicação do banco de horas foi analisada em relação à CCT, estabelecendo que as condições devem ser claras e respeitar os limites legais.\n\n### DECISÃO RECOMENDADA\n\n**Decisão**: Confirmar a validade da aplicação do banco de horas conforme estabelecido na CCT bancária, desde que todas as condições previstas sejam cumpridas.\n\n**Motivação**: A decisão deve ser baseada na conformidade das práticas com os dispositivos legais e a jurisprudência consolidada pelo TST, garantindo que o banco de horas não ultrapasse os limites estabelecidos pela CLT e pela CCT específica.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n**1. Artigos da CLT**\n\n- **Artigo 59**: Regula a compensação de jornadas mediante banco de horas, permitindo que o excesso de horas trabalhadas em determinados dias seja compensado por faltas ou redução de jornada em outros dias.\n\n**2. Súmulas do TST**\n\n- **Súmula 443**: \"É lícita a compensação entre jornadas excedentes e faltantes, mediante banco de horas, desde que não ultrapasse o limite máximo de seis meses para a compensação.\"\n\n**3. Precedente Constitucional**\n\n- **Precedente TST-Ag-RR-868-65.2021.5.13.0030**: Este precedente confirma que a aplicação do banco de horas deve respeitar os limites e condições estabelecidos na CCT, garantindo que não haja violação aos direitos trabalhistas.\n\n### CONCLUSÃO\n\nA decisão deve ser fundamentada no cumprimento das normas legais e jurisprudenciais aplicáveis, assegurando que o banco de horas seja utilizado conforme permitido pela CLT e regulamentado pela CCT bancária. A análise do precedente citado reforça a necessidade de clareza e conformidade nas condições estabelecidas para a compensação de jornadas.",
+  "tokens_in": 334,
+  "tokens_out": 702,
+  "latency_ms": 45218,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

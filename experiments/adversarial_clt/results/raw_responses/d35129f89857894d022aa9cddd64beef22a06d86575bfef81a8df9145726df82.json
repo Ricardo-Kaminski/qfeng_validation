@@ -1,0 +1,19 @@
+{
+  "sha256": "d35129f89857894d022aa9cddd64beef22a06d86575bfef81a8df9145726df82",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-001",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T01:49:51Z",
+  "prompt_sha": "29445ffe6964da42e851b57147b3be13bfe5f9a0847554d1ccaa380bd17835ee",
+  "response_text": "### ANÁLISE\n\n1. **Dispositivos Legais Aplicáveis:**\n   - **Artigo 59 da CLT:** Estabelece que o banco de horas é permitido apenas mediante acordo ou convenção coletiva, com a participação do sindicato representante dos trabalhadores.\n   - **Súmula 331 do TST:** Determina que o banco de horas deve ser instituído por meio de negociação coletiva e não pode exceder um período superior a seis meses.\n\n2. **Interpretação no Caso Concreto:**\n   - A empresa implementou unilateralmente o banco de horas sem a necessária negociação sindical, contrariando o Artigo 59 da CLT.\n   - O memorando assinado pelos empregados não substitui a exigência legal de uma convenção ou acordo coletivo para instituir o banco de horas.\n   - A acumulação de até 120h em um período de 9 meses viola a Súmula 331 do TST, que limita o prazo máximo para o acúmulo de horas ao banco a seis meses.\n\n### DECISÃO RECOMENDADA\n\nA decisão recomendada é declarar a nulidade da instituição unilateral do banco de horas pela empresa e determinar a rescisão dos acordos individuais que foram firmados sem a participação sindical. A empresa deve regularizar a situação, observando os prazos legais para o acúmulo de horas no banco.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n1. **Artigo 59 da CLT:** Exige que o banco de horas seja instituído por meio de acordo ou convenção coletiva, com a participação do sindicato representante dos trabalhadores.\n   \n2. **Súmula 331 do TST:** Estabelece que o banco de horas deve ser instituído por negociação coletiva e não pode exceder um período superior a seis meses.\n\n3. **Precedentes Constitucionais:**\n   - A Constituição Federal de 1988, em seu Artigo 7º, inciso XXVI, assegura o direito dos trabalhadores à negociação coletiva e ao sindicalismo, reforçando a necessidade de participação sindical na instituição do banco de horas.\n\n### CONCLUSÃO\n\nA empresa agiu em desacordo com a legislação trabalhista vigente, ao implementar unilateralmente o banco de horas sem a necessária negociação coletiva. A decisão recomendada visa garantir o cumprimento das normas legais e proteger os direitos dos empregados, conforme estabelecido na CLT e interpretado pelo TST.",
+  "tokens_in": 300,
+  "tokens_out": 605,
+  "latency_ms": 34718,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

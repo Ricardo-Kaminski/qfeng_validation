@@ -1,0 +1,26 @@
+{
+  "sha256": "28f18a0b39eb23278e5d50732192064be6c0226def026bd47048c7178f971613",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:35:27Z",
+  "prompt_sha": "57cf080c70ee6d5ee75af46a8cd79a5aba980ddfcf3914fb8da919567e87ba49",
+  "response_text": "**ANÁLISE**\n\n1. **obligation_to_pay_nocturnal_premium_20pct**: A empresa recolhe adicionais noturnos de 20% para os motoristas que trabalham entre 22h e 5h, o que atende ao predicado normativo. O cálculo da hora noturna como 52 minutos e 30 segundos também está em conformidade com a legislação.\n\n2. **maximum_daily_working_hours_8h**: A empresa limitou as horas diárias de trabalho dos motoristas em turno noturno às 8 horas, o que cumprimenta o predicado normativo sobre máximo de horas diárias de trabalho.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a empresa está cumprindo com os requisitos legais referentes ao adicional noturno e ao limite de horas diárias de trabalho, portanto não há necessidade de alterações ou penalidades.\n\n**PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **obligation_to_pay_nocturnal_premium_20pct**: Conformidade\n- **maximum_daily_working_hours_8h**: Conformidade",
+  "tokens_in": 371,
+  "tokens_out": 258,
+  "latency_ms": 4531,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

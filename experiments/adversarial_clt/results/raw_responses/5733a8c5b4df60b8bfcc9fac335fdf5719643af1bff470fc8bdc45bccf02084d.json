@@ -1,0 +1,19 @@
+{
+  "sha256": "5733a8c5b4df60b8bfcc9fac335fdf5719643af1bff470fc8bdc45bccf02084d",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-009",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T20:20:52Z",
+  "prompt_sha": "2722d03920b7e27b8bb0202ab5af9eebb5796cac03b26e86812fcd909b78f3bc",
+  "response_text": "**ANÁLISE**\n\n1.  Identificação dos dispositivos do contexto normativo aplicáveis ao caso:\n    *   A CCT (Convenção Coletiva de Trabalho) é um acordo entre empregadores e sindicatos que estabelece condições de trabalho, incluindo a possibilidade de conversão de saldo de horas em dinheiro.\n    *   O dispositivo da CCT que prevê a possibilidade de conversão do saldo de horas em dinheiro com adicional de 50% é o artigo X (número do artigo não especificado).\n2.  DECISÃO RECOMENDADA:\n    *   A decisão recomendada é que o pagamento feito ao trabalhador seja considerado válido, pois foi realizado com anuência do empregador e dentro dos prazos estabelecidos pela CCT.\n3.  FUNDAMENTAÇÃO NORMATIVA:\n\n    *   Artigo X da CCT: \"As horas convertidas serão pagas com adicional de 50%.\" (não especificado)\n    *   A possibilidade de conversão do saldo de horas em dinheiro é prevista na CCT e foi realizada dentro dos prazos estabelecidos.\n    *   O pagamento foi realizado no mês seguinte à conversão, o que não viola qualquer norma específica.\n\n**LIMITAÇÃO**\n\n*   Não há dispositivos específicos da legislação trabalhista brasileira (CLT) mencionados no contexto. A análise se baseia exclusivamente na CCT e nos fatos apresentados.",
+  "tokens_in": 294,
+  "tokens_out": 332,
+  "latency_ms": 5707,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

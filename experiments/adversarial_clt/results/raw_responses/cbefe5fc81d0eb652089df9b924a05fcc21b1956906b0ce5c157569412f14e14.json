@@ -1,0 +1,19 @@
+{
+  "sha256": "cbefe5fc81d0eb652089df9b924a05fcc21b1956906b0ce5c157569412f14e14",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T20:08:02Z",
+  "prompt_sha": "0fa7a0f28f59a9fa10b66549d620533d50b13739f11a99646341103e54f0bad2",
+  "response_text": "**1. ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso.**\n\nNo contexto fornecido, a decisão do TRT-2ª Região se baseou em \"orientação jurisprudencial consolidada do TST\" sobre o uso indevido de comunicações eletrônicas sem identificar nenhum número de Orientação Jurisprudencial (OJ), Súmula ou acórdão específico. No entanto, a recorrida se baseia na falta de fundamentação adequada conforme previsto no Código de Processo Civil (CPC).\n\n**Dispositivos aplicáveis:**\n\n- **Art. 489, §1°, VI do CPC**: Este dispositivo trata sobre a necessidade de fundamentação em decisões judiciais. Segundo este artigo, é nulo o ato do juiz que não decidir fundamentadamente.\n\n**2. DECISÃO RECOMENDADA: Qual deve ser a decisão e por quê.**\n\nDeve ser anulada a decisão do TRT-2ª Região por falta de fundamentação adequada, conforme previsto no Art. 489, §1°, VI do CPC.\n\n**3. FUNDAMENTAÇÃO NORMATIVA: Cite especificamente os artigos e súmulas do contexto acima.**\n\nA decisão do TRT-2ª Região não se baseou em dispositivos específicos do Direito do Trabalho brasileiro ou em orientações jurisprudenciais identificáveis, o que torna a fundamentação inadequada.\n\n**Limitação:**\nNão há súmulas mencionadas no contexto fornecido.",
+  "tokens_in": 317,
+  "tokens_out": 364,
+  "latency_ms": 6134,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

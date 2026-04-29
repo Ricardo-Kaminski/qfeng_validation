@@ -1,0 +1,19 @@
+{
+  "sha256": "17c3c60cb3992457b4b58fdd4a4d6bd15a19a4cbb71ae289408e70fc4e628f15",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-006",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T07:07:14Z",
+  "prompt_sha": "f4920283beb1853668bb4251074fa4825bbe27b93c35dcf2e68fe50e755832b2",
+  "response_text": "**ANÁLISE**\n\nNo cenário apresentado, o tribunal aplicou a ratio do precedente de forma invertida, utilizando a tese de validade de CCT bancária para justificar a validade de banco de horas sem qualquer CCT. Isso significa que o tribunal não reconheceu a necessidade de existência de uma Convenção Coletiva de Trabalho (CCT) prévia como pressuposto para a aplicação da tese.\n\nPara analisar esse cenário, é necessário identificar os dispositivos legais aplicáveis e sua interpretação no caso concreto. A questão central envolve a aplicação das regras de banco de horas previstas na CLT (artigo 59), bem como a validade da tese de que a CCT bancária pode ser utilizada para justificar a adoção de banco de horas sem uma convenção coletiva específica.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que o tribunal reconheça a necessidade de existência de uma Convenção Coletiva de Trabalho (CCT) prévia para aplicar a tese de validade de CCT bancária. Isso significa que, antes de se utilizar a tese como justificativa para a adoção de banco de horas sem uma convenção coletiva específica, é necessário comprovar a existência de uma CCT anterior que tenha sido negociada e aceita pelas partes envolvidas.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\nPara embasar essa decisão, podemos citar os seguintes dispositivos legais:\n\n1. **Artigo 59 da CLT**: Regula as regras de banco de horas e estabelece que a sua adoção depende de convenção coletiva ou acordo individual.\n2. **Súmula 379 do TST**: Estabelece que a adoção de banco de horas pressupõe a existência de uma convenção coletiva ou acordo individual.\n3. **Tema 1046/STF**: Embora citado corretamente, o tribunal aplicou a ratio de forma invertida. No entanto, o Tema 1046/STF é relevante para discutir a autonomia negocial e a possibilidade de negociação coletiva.\n4. **Precedente TST-Ag-RR-868-65.2021**: Embora citado como precedente relevante, sua aplicação foi invertida no caso concreto.\n\nA decisão recomendada se baseia na necessidade de respeitar a estrutura normativa da CLT e as regras estabelecidas para a adoção de banco de horas. A existência de uma convenção coletiva prévia é um pressuposto essencial para aplicar a tese de validade de CCT bancária como justificativa para a adoção de banco de horas sem uma convenção coletiva específica.",
+  "tokens_in": 317,
+  "tokens_out": 635,
+  "latency_ms": 22563,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

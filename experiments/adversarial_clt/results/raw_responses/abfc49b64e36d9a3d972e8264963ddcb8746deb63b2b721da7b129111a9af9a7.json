@@ -1,0 +1,27 @@
+{
+  "sha256": "abfc49b64e36d9a3d972e8264963ddcb8746deb63b2b721da7b129111a9af9a7",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T00:51:52Z",
+  "prompt_sha": "f2d41009685e11d681b7fbf5f2cf8a68b4afa572246a1b611f1126f8318965ca",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso de Sucessão Empresarial e Banco de Horas\n\nConsiderando o cenário apresentado e o único predicado normativo fornecido, apresento a análise, decisão recomendada e identificação de cumprimento/violação:\n\n**1. ANÁLISE:**\n\nO predicado normativo **semester_hour_bank_requires_cct_or_act** (o banco de horas exige CCT ou Ato) é crucial para a análise deste caso. Ele estabelece que a implementação de um sistema de banco de horas, para ser válida, necessita de base legal, que pode ser uma Convenção Coletiva de Trabalho (CCT) ou um Ato (provavelmente referindo-se a um acordo individual ou regulamentação interna, embora este último seja menos comum e mais restrito).\n\nNo caso concreto, a empresa original possuía uma CCT que regulamentava o banco de horas. A empresa sucessora, ao não renovar a CCT, deixou de ter essa base legal formal para manter o sistema de banco de horas em vigor. A continuidade da aplicação das cláusulas do banco de horas pela empresa sucessora, sem uma nova CCT ou outro ato que as legitime, levanta a questão da validade jurídica dessa prática.\n\nA questão central é se a CCT da empresa sucedida vincula a empresa sucessora após o término de sua vigência. A jurisprudência do TST, em geral, entende que as CCTs têm força vinculante para as empresas signatárias durante sua vigência. No entanto, após o término da vigência, a vinculação é mais tênue e depende de fatores como a existência de continuidade da relação jurídica e a natureza das cláusulas.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se a seguinte decisão:\n\n*   **A empresa sucessora não pode legalmente manter o sistema de banco de horas com base exclusiva na CCT da empresa sucedida após o término da vigência desta.** A ausência de uma nova CCT ou outro ato que legitime o sistema de banco de horas torna a prática passível de questionamento judicial.\n*   **A empresa sucessora deve, urgentemente, regularizar a situação.** As opções incluem:\n    *   **Negociar uma nova CCT com o sindicato:** Essa é a forma mais segura e recomendada, pois garante a legalidade e a legitimidade do sistema de banco de horas.\n    *   **Implementar um regulamento interno:**  Embora possível, essa opção é mais complexa e pode ser questionada judicialmente se não atender aos requisitos legais e não for amplamente divulgada aos trabalhadores.  É crucial que o regulamento interno seja claro, transparente e não prejudique os direitos dos trabalhadores.\n    *   **Substituir o sistema de banco de horas por outro sistema de compensação de jornada:**  Se a negociação de uma nova CCT ou a implementação de um regulamento interno forem inviáveis, a empresa pode optar por substituir o sistema de banco de horas por outro sistema de compensação de jornada que esteja em conformidade com a legislação.\n\n*   **Considerar a possibilidade de retroatividade:**  Embora a CCT não vincule a sucessora após o término da vigência, a jurisprudência pode considerar a boa-fé da empresa sucessora ao manter o sistema por um período, especialmente se os trabalhadores já estavam acostumados com ele.  Nesse caso, a empresa pode ser obrigada a indenizar os trabalhadores por eventuais prejuízos causados pela mudança.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **semester_hour_bank_requires_cct_or_act:** **Violação.** A empresa sucessora está utilizando o sistema de banco de horas sem a base legal exigida (CCT ou Ato), uma vez que a CCT original expirou e não foi substituída. A continuidade da prática sem uma nova base legal configura uma violação direta deste predicado.\n\n**Observações Importantes:**\n\n*   Esta análise é baseada em um único predicado normativo. Uma análise mais completa exigiria a consideração de outros aspectos relevantes, como a natureza da sucessão empresarial (aquisição de ativos, fusão, etc.), a existência de acordos individuais, e a jurisprudência específica do caso.\n*   A jurisprudência do TST é dinâmica e pode evoluir. É importante acompanhar as decisões mais recentes para garantir a conformidade com a legislação.\n*   A decisão final sobre a validade do sistema de banco de horas caberá ao Poder Judiciário, que levará em consideração todas as circunstâncias do caso.\n*   A recomendação de regularização visa evitar litígios trabalhistas e garantir a segurança jurídica da empresa.",
+  "tokens_in": 316,
+  "tokens_out": 1021,
+  "latency_ms": 28092,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

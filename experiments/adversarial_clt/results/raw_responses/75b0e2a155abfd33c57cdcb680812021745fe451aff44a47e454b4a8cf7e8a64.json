@@ -1,0 +1,19 @@
+{
+  "sha256": "75b0e2a155abfd33c57cdcb680812021745fe451aff44a47e454b4a8cf7e8a64",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-012",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T01:44:24Z",
+  "prompt_sha": "6688cac2ef5765bbc62f211c0947d6bbb0a6ed631d1ef197288fd5bd77010a06",
+  "response_text": "### ANÁLISE\n\n1. **Dispositivos Legais Aplicáveis**:\n   - **CLT (Consolidação das Leis do Trabalho)**: A CLT, especialmente após a Reforma de 2017, estabelece critérios específicos para a fixação de indenização por danos morais no âmbito trabalhista. O artigo 223-G da CLT introduziu parâmetros objetivos e subjetivos para o cálculo dessas indenizações.\n   - **Precedentes do STJ**: Embora os precedentes do Superior Tribunal de Justiça (STJ) possam ser instrutivos, eles não são vinculantes no âmbito trabalhista. O STJ trata principalmente de questões civis e criminais, enquanto o TST é a instância especializada em matéria trabalhista.\n   - **Súmulas do TST**: As Súmulas do Tribunal Superior do Trabalho (TST) consolidam a jurisprudência específica sobre direito do trabalho e devem ser consideradas prioritariamente.\n\n2. **Interpretação no Caso Concreto**:\n   - A utilização de um precedente do STJ para embasar uma decisão em matéria trabalhista, sem discutir a compatibilidade com o regime jurídico trabalhista, pode levar a uma aplicação inadequada dos critérios estabelecidos na CLT.\n   - É essencial que os tribunais do trabalho considerem as peculiaridades do direito do trabalho, especialmente após reformas legislativas que introduziram novos parâmetros para a fixação de danos morais.\n\n### DECISÃO RECOMENDADA\n\nA decisão deve ser reconsiderada pelo TRT. A análise deve focar na aplicação dos critérios específicos estabelecidos pela CLT, especialmente após a Reforma de 2017, e não apenas em precedentes do STJ. É crucial garantir que os parâmetros objetivos e subjetivos previstos no artigo 223-G da CLT sejam adequadamente aplicados.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n1. **Artigos da CLT**:\n   - **Artigo 223-G**: Estabelece critérios para a fixação de indenização por danos morais no âmbito trabalhista, incluindo parâmetros objetivos (como o grau de abalo moral sofrido pelo empregado) e subjetivos (como a capacidade econômica da empresa).\n\n2. **Súmulas do TST**:\n   - **Súmula 443**: \"É devida indenização por dano moral ao trabalhador que comprovar, em juízo, o sofrimento decorrente de ato ilícito praticado pelo empregador.\"\n   - **Súmula 442**: \"O dano moral deve ser fixado levando-se em consideração a intensidade do sofrimento experimentado pela vítima e a capacidade econômica da empresa.\"\n\n3. **Precedentes Constitucionais**:\n   - A aplicação de critérios específicos para o direito do trabalho está alinhada com o princípio constitucional da especialidade, que reconhece a necessidade de tratamento diferenciado e de proteção ao trabalhador.\n\n### CONCLUSÃO\n\nA decisão deve ser revisada para garantir que os critérios específicos da CLT sejam aplicados corretamente. A utilização de precedentes do STJ deve ser feita com cautela, sempre considerando a compatibilidade com o regime jurídico trabalhista e as normas específicas estabelecidas pela legislação trabalhista brasileira.",
+  "tokens_in": 289,
+  "tokens_out": 834,
+  "latency_ms": 47985,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

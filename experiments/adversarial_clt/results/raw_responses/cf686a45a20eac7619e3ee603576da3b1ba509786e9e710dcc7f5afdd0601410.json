@@ -1,0 +1,26 @@
+{
+  "sha256": "cf686a45a20eac7619e3ee603576da3b1ba509786e9e710dcc7f5afdd0601410",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T23:39:28Z",
+  "prompt_sha": "0308e544333fc597abdf8b239f7b18e49c0e2a9c2b0a3284266fdfb3ee4d598d",
+  "response_text": "1. **ANÁLISE:**\n\n   O predicado normativo aplicável ao caso é \"obligation_to_ground_decision_in_identified_ratio_decidendi\". Este princípio estabelece que qualquer decisão judicial deve ser fundamentada com base na ratio decidendi (razão de decidir) do precedente utilizado, o que implica em uma análise e demonstração da aplicabilidade dos fatos do precedente aos fatos concretos do caso em julgamento.\n\n   No cenário apresentado, o TRT transcreveu integralmente a ementa de um acórdão do TST sem realizar qualquer análise sobre a compatibilidade entre os fatos do precedente e os fatos do caso específico que estava sendo julgado. Isso sugere uma falha na obrigação de fundamentar a decisão com base na ratio decidendi, conforme exigido pelo CPC Art. 489, §1°, V.\n\n2. **DECISÃO RECOMENDADA:**\n\n   A recomendação seria rever ou anular a decisão do TRT e solicitar que o tribunal realize uma análise adequada dos fatos do caso concreto em relação ao precedente citado. O TRT deve explicitar como os princípios estabelecidos no acórdão do TST são aplicáveis aos fatos específicos da causa, demonstrando a compatibilidade fática e jurídica entre o precedente e o caso em questão.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violado:** \"obligation_to_ground_decision_in_identified_ratio_decidendi\" – O TRT não cumpriu a obrigação de fundamentar sua decisão com base na ratio decidendi do precedente, pois não realizou o necessário cotejo fático entre os fatos do acórdão e os do caso concreto.\n\n   - **Cumprido:** Não há predicados cumpridos no cenário apresentado, uma vez que a transcrição da ementa sem análise de compatibilidade fática não atende à obrigação normativa estabelecida.",
+  "tokens_in": 361,
+  "tokens_out": 460,
+  "latency_ms": 13266,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

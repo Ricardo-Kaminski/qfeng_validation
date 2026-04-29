@@ -1,0 +1,19 @@
+{
+  "sha256": "be5eb989c53c5ce4190e30051196f835de88ecb4aecb850705a969db1c025a6c",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-006",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T20:09:19Z",
+  "prompt_sha": "dc42950883c6a42ff604343c714a557eba3212d5e1da5d935fdc051fdc1652eb",
+  "response_text": "**ANÁLISE**\n\n1. **Identificação dos dispositivos do contexto normativo aplicáveis ao caso:**\n   - O dispositivo mais relevante para a situação apresentada é o Artigo 489, §1°, I do Código de Processo Civil (CPC), que aborda a motivação das decisões judiciais.\n\n**DECISÃO RECOMENDADA**\n\n2. **Qual deve ser a decisão e por quê:**\n   - A decisão recomendada é que a decisão interlocutória seja anulada por deficiência de motivação, com fundamento no CPC Art. 489, §1°, I.\n   - Isso porque o artigo mencionado estabelece que \"A decisão deve conter a motivação exeqüenda\" e que \"é nulo o ato de jurisdição que omite a motivação\". A falta de explicação sobre quais documentos seriam suficientes para justificar a indeferimento da prova pericial viola essa exigência.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n3. **Cite especificamente os artigos e súmulas do contexto acima:**\n   - O dispositivo específico aplicável ao caso é o Artigo 489, §1°, I do Código de Processo Civil (CPC).\n   - Não há menção a súmulas no contexto fornecido. A fundamentação se baseia exclusivamente nos dispositivos legais citados.\n\n**Limitações:**\n- O contexto não contém norma específica sobre a anulação de decisões interlocutórias por deficiência de motivação, mas o CPC fornece as bases para essa análise.\n- A fundamentação é baseada exclusivamente nos dispositivos legais mencionados e não há necessidade de invocar súmulas ou outros instrumentos normativos.",
+  "tokens_in": 286,
+  "tokens_out": 410,
+  "latency_ms": 6997,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

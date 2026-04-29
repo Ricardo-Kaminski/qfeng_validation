@@ -1,0 +1,29 @@
+{
+  "sha256": "a4bc93a912910fef5f02b694c90daad4b2ba4b036e61c86574d0400fb8253869",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-009",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T01:25:46Z",
+  "prompt_sha": "80af890d500c9e214e8752f76bb2139a52a118a1a0ce063f734a5a13323783cf",
+  "response_text": "**ANÁLISE**\n\n1. **semester_hour_bank_requires_cct_or_act**: Esse predicado normativo estabelece que a aplicação de banco de horas depende da existência de uma Convenção Coletiva de Trabalho (CCT) ou Acordo Coletivo de Trabalho (ACT). Nesse caso, a empresa firmou uma CCT com o sindicato da construção civil, mas sem a participação do sindicato representativo dos empregados administrativos. A aplicação de banco de horas aos administrativos viola esse predicado, pois não há uma CCT ou ACT que os represente.\n2. **recognition_of_collective_bargaining**: Esse predicado estabelece o reconhecimento do direito coletivo de negociação entre empregadores e sindicatos. Nesse caso, a empresa firmou uma CCT com um sindicato que não representa os empregados administrativos, o que pode ser considerado como violação ao direito coletivo de negociação.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a aplicação do banco de horas aos empregados administrativos seja declarada inválida, pois não há uma CCT ou ACT que os represente. Além disso, pode ser necessário rever a convenção coletiva firmada para garantir que ela seja representativa da categoria dos empregados administrativos.\n\n**PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n* **semester_hour_bank_requires_cct_or_act**: Violado (violação)\n* **recognition_of_collective_bargaining**: Violado (violação)",
+  "tokens_in": 354,
+  "tokens_out": 358,
+  "latency_ms": 6015,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "cd9182260bd5e3f2d0603ccbbf7725ceecf7a09e75f727868262d64c13e4f4ad",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-010",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T10:37:58Z",
+  "prompt_sha": "546394fb36fd08b3df6e32b19b12372b52cd2212d1c83ed9d8b946faff99ba6f",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \n- **CLT Art. 71**: Estabelece que o intervalo intrajornada mínimo é de **15 minutos**, salvo se houver convenção ou acordo coletivo de trabalho (CCT) que reduza esse período para **30 minutos**, desde que observadas as condições previstas no artigo.  \n- **Súmula TST 437**: Define que a redução do intervalo intrajornada para 30 minutos só é válida se houver **convenção ou acordo coletivo de trabalho** (CCT) que autorize tal redução.  \n- **Tema 981/STF**: Confirmou a **validade de CCT que reduz o intervalo intrajornada para 30 minutos**, desde que cumpridas as formalidades legais (como a existência de CCT válida e a observância das condições de saúde e segurança do trabalhador).  \n\n### 2. **DECISÃO RECOMENDADA**  \nA decisão do TRT deve ser **mantida**, pois:  \n- **Não há CCT válida** no caso em análise que autorize a redução do intervalo intrajornada para 30 minutos (como constatado no acórdão).  \n- A ausência de CCT inválida a aplicação da redução prevista no **Tema 981/STF**, o que implica que o período suprimido deve ser **remunerado como hora extra**, conforme previsto na **CLT Art. 71** e **Súmula TST 437**.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **CLT Art. 71**: Estabelece o intervalo intrajornada mínimo de 15 minutos, com exceção para CCT que reduz o período para 30 minutos.  \n- **Súmula TST 437**: Determina que a redução do intervalo intrajornada para 30 minutos só é válida com a existência de **CCT**.  \n- **Tema 981/STF**: Valida a redução do intervalo intrajornada para 30 minutos **apenas com CCT válida**.  \n\n**Limitação normativa**: O contexto não menciona a existência de CCT válida no caso em análise, o que inviabiliza a aplicação da redução prevista no **Tema 981/STF**. A ausência de CCT leva à aplicação do **CLT Art. 71** e **Súmula TST 437**, exigindo o pagamento integral do período suprimido como hora extra.",
+  "tokens_in": 327,
+  "tokens_out": 942,
+  "latency_ms": 58437,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

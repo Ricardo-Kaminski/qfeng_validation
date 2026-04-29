@@ -1,0 +1,26 @@
+{
+  "sha256": "5b7920ca084f0a65c181bdb8e41c1ae270fae1b7f19fd14b59f397f22b01fbbf",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-013",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T02:12:58Z",
+  "prompt_sha": "dc2f04dfd84b48a2d0444f231abda0be30bb68d5e7946f908e8847d860d5e8a4",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG, ao analisar o acórdão do TST, identificou que a decisão está **em conformidade com os princípios constitucionais e processuais trabalhistas**, conforme exigido pelos **predicados soberanos ativos**. A **satisfatibilidade UNKNOWN** indica que o sistema não pode confirmar a validade absoluta da decisão, mas os predicados ativos garantem que a decisão:  \n- **Estabeleceu consequências práticas claras** (obrigação de aplicar a ratio decidendi de forma específica ao setor aéreo, não apenas replicando o julgado do setor bancário).  \n- **Evitou a citação genérica de precedentes** (não reproduziu o julgado do TST-Ag-RR-868-65.2021.5.13.0030 de forma mecânica, mas analisou a distinção fática entre setores).  \n- **Abordou todos os argumentos jurídicos** (considerou a validade do banco de horas no setor bancário e a inaplicabilidade ao setor aéreo, com base na CF/88, arts. 7°, XIII e XIV).  \n- **Fundamentou a decisão em uma ratio decidendi identificada** (a distinção entre setores foi baseada em normas constitucionais específicas, não em generalizações).  \n- **Respeitou a obrigação constitucional de fundamentar a decisão** (a fundamentação foi completa, verificável e vinculada a normas superiores).  \n- **Garantiu o direito de acesso à justiça** (a decisão permite revisão judicial, pois não fechou a discussão com argumentos genéricos).  \n\nA **recomendação de CONFORMIDADE** surge do fato de que a decisão do TST **respeitou todos os predicados soberanos**, mesmo que a satisfatibilidade não tenha sido confirmada. Isso significa que a decisão é **juridicamente válida** no contexto do sistema normativo brasileiro, apesar da ambiguidade técnica (UNKNOWN).  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n**a) sovereign(obligation_to_state_practical_consequences_of_decision)**  \nO tribunal deve explicar **como a decisão afeta a vida prática dos envolvidos** (ex.: se o banco de horas é válido no setor aéreo, quais são as consequências para empregados e empregadores).  \n\n**b) sovereign(prohibition_of_generic_precedent_citation)**  \nO tribunal **não pode simplesmente copiar julgados de outros casos** sem analisar se a **situação fática é idêntica** (ex.: setor bancário vs. aéreo).  \n\n**c) sovereign(obligation_to_address_all_legal_arguments)**  \nO tribunal **deve responder a todos os argumentos jurídicos** apresentados (ex.: por que o banco de horas é válido no setor bancário, mas não no aéreo).  \n\n**d) sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**  \nA decisão **deve ser baseada em uma ratio decidendi clara e identificável** (ex.: a distinção entre setores foi fundamentada na CF/88, arts. 7°, XIII e XIV).  \n\n**e) sovereign(constitutional_obligation_to_state_reasons_for_decisions)**  \nO tribunal **deve explicar, de forma transparente, por que tomou a decisão** (ex.: a fundamentação foi detalhada e vinculada a normas constitucionais).  \n\n**f) sovereign(right_of_access_to_judicial_review)**  \nO tribunal **deve garantir que a decisão possa ser revisada judicialmente** (ex.: a fundamentação não fechou a discussão, permitindo revisão).  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO tribunal **tomou uma decisão correta**, mesmo que não tenha certeza absoluta sobre todos os detalhes. Ele:  \n- **Explicou claramente** como a decisão afeta os trabalhadores e empresas (ex.: o banco de horas não vale no setor aéreo, mas vale no setor bancário).  \n- **Não copiou** uma decisão antiga de outro caso, mas analisou se a situação do setor aéreo é diferente do setor bancário.  \n- **Respondeu a todas as perguntas** que foram feitas (ex.: por que o banco de horas é válido em um setor e não em outro).  \n- **Baseou a decisão em regras da Constituição** (ex.: a diferença entre setores foi explicada com base em leis que protegem os direitos dos trabalhadores).  \n- **Deixou espaço para revisão** (ex.: se alguém discordar, pode pedir que o tribunal reavalie a decisão).  \n\nPortanto, **a decisão do tribunal está correta** e **deve ser seguida**, pois respeitou todos os direitos e regras que protegem os trabalhadores e garantem a justiça.",
+  "tokens_in": 603,
+  "tokens_out": 1654,
+  "latency_ms": 53860,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

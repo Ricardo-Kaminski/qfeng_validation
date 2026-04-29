@@ -1,0 +1,26 @@
+{
+  "sha256": "61cbe36e3a2863eee0040528812a26f94f91fb5f84dccd78dffc74e6674cea8e",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:18:51Z",
+  "prompt_sha": "a468f9337a1667ebe471a714d6ab4b8f17bcd68f8f75d3aa6e375913dc2f76bf",
+  "response_text": "**1. ANÁLISE**\n\n**obligation_to_ground_decision_in_identified_ratio_decidendi**: Esse predicado normativo estabelece a obrigação de o juiz fundamentar suas decisões com base em um dispositivo legal ou jurisprudência aplicável ao caso concreto. Nesse cenário, o juiz negou seguimento ao recurso sem especificar qual lei, dispositivo ou fundamento jurídico embasa sua decisão. Isso significa que o juiz não cumpriu com a obrigação de fundamentar sua decisão, violando esse predicado.\n\n**due_process_of_law**: Esse predicado garante o direito ao contraditório e à ampla defesa, exigindo que as partes sejam ouvidas e tenham oportunidade de apresentar suas argumentações antes da tomada de decisão. Embora não seja explícita a violação desse princípio no ato de negar seguimento sem fundamentação, o procedimento adotado pelo juiz pode ser interpretado como uma violação ao contraditório e à ampla defesa, pois as partes não foram ouvidas sobre a motivação específica da decisão.\n\n**2. DECISÃO RECOMENDADA**\n\nDevido às violações aos predicados normativos mencionados, recomenda-se que o juiz seja condenado a fundamentar sua decisão de negar seguimento ao recurso ordinário com base em um dispositivo legal ou jurisprudência aplicável, e que as partes sejam ouvidas sobre essa motivação específica. Além disso, é recomendável que o juiz seja orientado a cumprir com os princípios do contraditório e da ampla defesa.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: Violada\n- **due_process_of_law**: Interpretativamente violada, pois o procedimento adotado pelo juiz pode ser visto como uma falta de observância ao contraditório e à ampla defesa.\n\nLembre-se de que a fundamentação das decisões judiciais é fundamental para garantir a segurança jurídica e a confiança nas instituições. A ausência de fundamentação específica, especialmente em decisões que afetam direitos dos trabalhadores, deve ser corrigida para evitar violações aos princípios constitucionais e legais.",
+  "tokens_in": 350,
+  "tokens_out": 535,
+  "latency_ms": 8921,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

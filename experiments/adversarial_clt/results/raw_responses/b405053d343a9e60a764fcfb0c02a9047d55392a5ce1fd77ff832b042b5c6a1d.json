@@ -1,0 +1,19 @@
+{
+  "sha256": "b405053d343a9e60a764fcfb0c02a9047d55392a5ce1fd77ff832b042b5c6a1d",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-006",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T02:48:04Z",
+  "prompt_sha": "f4920283beb1853668bb4251074fa4825bbe27b93c35dcf2e68fe50e755832b2",
+  "response_text": "### ANÁLISE:\n\n1. **Dispositivos Legais Aplicáveis**:\n   - **Convenção Coletiva de Trabalho (CCT)**: A CCT é um acordo coletivo entre empregadores e trabalhadores que estabelece condições de trabalho específicas para uma categoria profissional ou empresa, conforme previsto no artigo 611-A da CLT.\n   - **Banco de Horas**: O banco de horas é regulado pelo artigo 59 da CLT, permitindo a compensação de horas extras mediante acordo escrito entre empregador e empregado, respeitando limites legais.\n\n2. **Interpretação no Caso Concreto**:\n   - O Tema 1046 do STF trata da validade das cláusulas de CCTs bancárias que permitem a compensação de horas extras por folgas ou abono pecuniário, sem necessidade de prévia autorização judicial. A decisão enfatiza a autonomia negocial e a possibilidade de flexibilização das regras gerais do trabalho mediante acordo coletivo.\n   - No entanto, o acórdão em questão aplicou erroneamente a ratio do Tema 1046 para justificar a validade de um banco de horas sem qualquer CCT. A decisão do STF pressupõe a existência de uma CCT válida que estabeleça as condições específicas para compensação, não se aplicando automaticamente a situações onde tal convenção não existe.\n\n### DECISÃO RECOMENDADA:\n\nA decisão deve ser reformada para reconhecer que a validade do banco de horas sem CCT depende da conformidade com os dispositivos legais gerais previstos na CLT, e não pode se basear diretamente no Tema 1046/STF. A ausência de uma CCT específica impede a aplicação direta das flexibilizações permitidas por tal convenção.\n\n### FUNDAMENTAÇÃO NORMATIVA:\n\n1. **Artigos da CLT**:\n   - **Artigo 59**: Estabelece que o banco de horas é possível mediante acordo escrito, mas não dispensa a observância de limites legais e condições específicas.\n   - **Artigo 611-A**: Define a CCT como um instrumento essencial para estipular condições específicas de trabalho, incluindo flexibilizações.\n\n2. **Súmulas do TST**:\n   - **Súmula 331 do TST**: Estabelece que o banco de horas deve respeitar os limites legais e ser objeto de acordo individual escrito.\n   - **Súmula 377 do TST**: Afirma que a compensação de horas extras por folgas ou abono pecuniário depende da existência de CCT específica.\n\n3. **Precedentes Constitucionais**:\n   - **Tema 1046/STF**: Reconhece a validade das cláusulas de CCTs bancárias que permitem compensação de horas extras, mas pressupõe a existência de uma convenção coletiva válida.\n\n### CONCLUSÃO:\n\nA aplicação incorreta da ratio do Tema 1046/STF ao caso sem a existência de uma CCT específica representa um erro na interpretação e aplicação das normas trabalhistas. A decisão deve ser reformada para garantir que o banco de horas seja estabelecido conforme os requisitos legais gerais, respeitando a necessidade de acordo individual escrito e observância dos limites previstos na CLT.",
+  "tokens_in": 318,
+  "tokens_out": 791,
+  "latency_ms": 44155,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "546a5b13b0a0418d4c924c62799f380c15bf24169b4666f03ea445458ff8e4ba",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-011",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T08:07:56Z",
+  "prompt_sha": "80cf4ccf88db1609d71368c41816c78e5a4e50fd2df67c996e9dc1cae0de53df",
+  "response_text": "### 1. **ANÁLISE**  \nO caso envolve a aplicação indevida de um **Tema de Repercussão Geral (RG)** do **Direito Administrativo** (relativo a servidores públicos) a um **empregado celetista privado**, sem que o tribunal demonstre **analogia jurídica** ou **ratio decidendi** compatível com o **Direito do Trabalho**. O contexto normativo não menciona dispositivos específicos do **Código Civil**, **Consolidação das Leis do Trabalho (CLT)** ou **Lei nº 8.112/1990** (que regula servidores públicos), o que limita a análise a elementos descritos no cenário.  \n\n### 2. **DECISÃO RECOMENDADA**  \nA **decisão deve ser de nulidade** da aplicação do **Tema de Repercussão Geral** ao caso do empregado celetista, por **inaplicabilidade** do precedente ao regime trabalhista. Isso ocorre porque:  \n- **Não há previsão legal** no contexto para analogia entre servidores públicos e empregados privados (CLT), salvo se houver dispositivo explícito (o que não ocorre no cenário).  \n- A **ratio do precedente** (relativa a servidores públicos) **não se transpõe automaticamente** ao setor privado, conforme regra geral do Direito do Trabalho (art. 1.001 da CLT, que rege a aplicação de normas gerais).  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Limitação do contexto normativo**: O cenário **não menciona dispositivos legais específicos** (como artigos da CLT, da Lei nº 8.112/1990 ou súmulas do TST) que justifiquem a aplicação do Tema de Repercussão Geral ao regime trabalhista.  \n- **Princípio da especialidade** (art. 1.001 da CLT): Normas do Direito do Trabalho são **específicas** e **não se subordinam** a dispositivos do Direito Administrativo, salvo em casos expressamente previstos.  \n- **Ausência de analogia** (art. 1.001, § 1º da CLT): A aplicação de normas de outro ramo do Direito (como a do Direito Administrativo) **exige fundamentação jurídica explícita**, o que não ocorreu no caso.  \n\n**Conclusão**: A aplicação do Tema de Repercussão Geral ao empregado celetista é **inadmissível** por falta de base normativa e de justificativa jurídica no contexto fornecido.",
+  "tokens_in": 270,
+  "tokens_out": 1130,
+  "latency_ms": 70796,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

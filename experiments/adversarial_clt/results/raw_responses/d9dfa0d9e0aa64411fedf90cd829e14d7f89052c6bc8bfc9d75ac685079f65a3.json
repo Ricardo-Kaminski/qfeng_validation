@@ -1,0 +1,19 @@
+{
+  "sha256": "d9dfa0d9e0aa64411fedf90cd829e14d7f89052c6bc8bfc9d75ac685079f65a3",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T13:12:11Z",
+  "prompt_sha": "1ad0c5fecd20af805ec925f6ed0b3cd09a99177dbcc602b85fc9186e77490cd8",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas com ACT Irregular\n\nConsiderando o cenário apresentado e a instrução de utilizar *exclusivamente* o contexto normativo fornecido, a análise, decisão recomendada e fundamentação normativa são as seguintes:\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nO cenário envolve a implementação de um banco de horas por uma rede de supermercados, regido por um Acordo Coletivo de Trabalho (ACT) celebrado com o sindicato dos comerciários. O ponto crucial é a ausência de registro da ACT na Superintendência Regional do Trabalho (SRTE) dentro do prazo legal.\n\nO contexto normativo fornecido é *extremamente limitado*. Ele apenas apresenta o cenário e a alegação da empresa. **Não há dispositivos legais, artigos de lei, ou súmulas incluídas no contexto.**  Portanto, a análise é restrita à identificação dos elementos do cenário e à sua implicação no contexto do Direito do Trabalho brasileiro.\n\n**2. DECISÃO RECOMENDADA**\n\nRecomenda-se que a ACT seja considerada **nula**, pelo menos em seus efeitos jurídicos para a empresa e para os empregados. A empresa não pode se beneficiar da validade da ACT, mesmo que alegue que o registro seria mera formalidade.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação é *limitada* pela ausência de contexto normativo. No entanto, a decisão recomendada se baseia em princípios gerais do Direito do Trabalho brasileiro, que *seriam* aplicados caso houvesse um contexto normativo completo.\n\n*   **Princípio da Legalidade e da Vinculação aos Acordos:** Em um cenário com contexto normativo completo, a validade de um ACT depende, em princípio, do seu registro na SRTE. A ausência de registro, em muitos casos, pode invalidar o acordo, especialmente se a lei expressamente exigir o registro para a produção de seus efeitos.\n*   **Formalismo e Efeitos Jurídicos:** A alegação da empresa de que o registro seria mera formalidade é, em geral, refutada pela jurisprudência, que considera o registro como um requisito para a oponibilidade do ACT a terceiros (como a fiscalização do trabalho) e para a segurança jurídica.\n*   **Boa-fé e Confiança:** A empresa, ao implementar o banco de horas com base em um ACT não registrado, pode estar agindo de má-fé, induzindo os empregados a erro e prejudicando seus direitos.\n\n**Limitação Crucial:**\n\nÉ *imperativo* ressaltar que a análise e a decisão recomendada são **extremamente limitadas** pela ausência de contexto normativo. Uma análise completa exigiria a consulta a:\n\n*   **Consolidação das Leis do Trabalho (CLT):** Artigos relacionados a acordos e convenções coletivas de trabalho, especialmente aqueles que tratam do registro e da validade.\n*   **Lei nº 8.203/91 (Lei de Dissídios Coletivos):**  Disposições sobre a validade e o registro de atos normativos sindicais.\n*   **Jurisprudência do Tribunal Superior do Trabalho (TST):** Súmulas e decisões que tratam da validade de ACTs não registrados.\n*   **Legislação Estadual:**  Pode haver leis estaduais que regulamentam o registro de ACTs.\n\n\n\nSem esses elementos, a análise permanece superficial e a decisão recomendada é apenas uma possibilidade baseada em princípios gerais. A ausência de contexto normativo impede uma análise jurídica completa e precisa.",
+  "tokens_in": 251,
+  "tokens_out": 783,
+  "latency_ms": 40077,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

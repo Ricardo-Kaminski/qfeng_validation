@@ -1,0 +1,29 @@
+{
+  "sha256": "32b7fc8b1185fa293eb137899cc477d5d228025bf6f88d3086b1231890e6f99d",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T22:28:07Z",
+  "prompt_sha": "e9b9a0f5b834d2f759bd4690a730595f761f0af48ca69ce693978c1f4c32a68d",
+  "response_text": "### 1. **ANÁLISE**  \nO predicado **hour_bank_with_cct_max_1_year** estabelece que, mesmo em acordo coletivo (CCT), o prazo máximo para compensação de horas extras por meio de banco de horas é de **1 ano**, conforme determinado pela legislação trabalhista (CLT, art. 229, § 2º) e reforçado pela jurisprudência do TST (Súmula 85, V).  \n\n- **Aplicação ao caso**:  \n  A CCT do setor hoteleiro estabeleceu um prazo de **14 meses**, que **excede o limite legal de 1 ano**. A empresa alega que a autonomia das partes coletivas permite flexibilizar a norma, mas a Súmula TST 85, V afirma que o limite de 1 ano é uma **norma de ordem pública**, impondo-se independentemente da vontade das partes. Isso significa que **não há espaço para negociação coletiva** sobre esse prazo, pois ele protege direitos fundamentais do trabalhador (como o descanso e a saúde).  \n\n- **Conflito normativo**:  \n  A tentativa de estender o prazo para 14 meses viola o **predicado hour_bank_with_cct_max_1_year**, pois o CCT não pode alterar o limite legal estabelecido pela CLT e pela jurisprudência do TST.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **CCT que estabelece um prazo de 14 meses para o banco de horas é ilegal** e deve ser **anulada** em relação a esse ponto. A empresa deve:  \n- Respeitar o **limite de 1 ano** para compensação de horas extras, conforme previsto na CLT e na Súmula TST 85, V.  \n- Revisar a CCT para adequá-la à norma legal, garantindo que o prazo máximo para o banco de horas não exceda 1 ano.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **hour_bank_with_cct_max_1_year**: **Violação**.  \n  O CCT estabeleceu um prazo de 14 meses, que **excede o limite legal de 1 ano** previsto no predicado. A norma de ordem pública (Súmula TST 85, V) impede a negociação coletiva sobre esse prazo.  \n\n- **Normas de ordem pública (Súmula TST 85, V)**: **Conformidade**.  \n  A jurisprudência do TST reforça que o limite de 1 ano é uma norma de ordem pública, que **não pode ser alterada por acordo coletivo**.  \n\n---\n\n### Observação Final  \nA autonomia das partes coletivas (negociação coletiva) **não se aplica a normas de ordem pública**, como o limite de 1 ano para o banco de horas. A Súmula TST 85, V deixa claro que esse prazo é **irrenunciável**, garantindo proteção ao trabalhador contra abusos de poder negocial.",
+  "tokens_in": 359,
+  "tokens_out": 1415,
+  "latency_ms": 44391,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

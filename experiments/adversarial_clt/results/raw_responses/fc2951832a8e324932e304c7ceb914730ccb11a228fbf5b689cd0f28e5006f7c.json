@@ -1,0 +1,26 @@
+{
+  "sha256": "fc2951832a8e324932e304c7ceb914730ccb11a228fbf5b689cd0f28e5006f7c",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:42:26Z",
+  "prompt_sha": "9d50b6baae5bf620474d057d075983b7fc2cc49c5178112cb76b3c707250c756",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG identificou uma **violação normativa** no acórdão prolatado pelo TST, com base nos seguintes predicados soberanos ativos:  \n- **Proibição de citação de precedentes genéricos** (prohibition_of_generic_precedent_citation): O TST citou a Súmula 312, que **não existe** na jurisprudência oficial, violando o princípio de que **precedentes jurídicos devem ser identificáveis, verificáveis e existentes**.  \n- **Obrigação de fundamentar a decisão em ratio decidendi identificável** (obligation_to_ground_decision_in_identified_ratio_decidendi): O acórdão não fundamentou a decisão em um **julgamento real e verificável**, como exige o CPC Art. 489, §1°, V.  \n- **Obrigação constitucional de expor razões** (constitutional_obligation_to_state_reasons_for_decisions): A ausência de uma fundamentação jurídica clara e vinculada a um precedente válido viola o direito à transparência e à razão jurídica.  \n- **Direito ao acesso à justiça e revisão judicial** (right_of_access_to_justice_and_judicial_review): A citação de um precedente falso ou inexistente **nega a possibilidade de revisão judicial** por parte da parte prejudicada, violando o direito à defesa.  \n\nA combinação desses predicados soberanos ativos leva à conclusão de que o acórdão **viola normas constitucionais e processuais**, justificando a **nulidade** por violação ao CPC Art. 489, §1°, V.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O tribunal deve explicar **quais são as consequências práticas da decisão**, como a aplicação da Súmula 312 (inexistente) teria efeitos jurídicos concretos.  \n- **sovereign(prohibition_of_generic_precedent_citation)**: **Proíbe a citação de precedentes genéricos, inexistentes ou não verificáveis**. O TST violou essa regra ao citar a Súmula 312, que não existe.  \n- **sovereign(obligation_to_address_all_legal_arguments)**: O tribunal deve **analisar todos os argumentos jurídicos** apresentados, incluindo a contestação da existência da Súmula 312.  \n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão deve ser fundamentada em **um julgamento real e identificável**, como uma súmula ou jurisprudência existente.  \n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: O tribunal deve **explicar claramente as razões da decisão**, evitando fundamentações vagas ou baseadas em precedentes inexistentes.  \n- **sovereign(right_of_access_to_justice_and_judicial_review)**: Garante que a parte prejudicada **pode revisar a decisão** com base em fundamentos jurídicos reais, não em citações fictícias.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO tribunal (TST) **usou uma regra que não existe** (Súmula 312) para decidir um caso de um trabalhador da aviação. Isso é **ilegal**, porque:  \n- **As regras jurídicas devem ser reais e verificáveis**. O TST não pode inventar regras ou citar súmulas que não existem.  \n- **A decisão deve explicar claramente por que foi tomada**, usando regras existentes. O TST não fez isso, o que **nega o direito do trabalhador de saber por que foi prejudicado**.  \n- **O trabalhador tem o direito de contestar a decisão**, mas isso só é possível se a fundamentação da decisão for clara e baseada em regras reais.  \n\nPor isso, o sistema Q-FENG concluiu que **a decisão do TST é inválida** e deve ser anulada, pois viola direitos básicos de justiça e transparência.",
+  "tokens_in": 574,
+  "tokens_out": 1553,
+  "latency_ms": 48906,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

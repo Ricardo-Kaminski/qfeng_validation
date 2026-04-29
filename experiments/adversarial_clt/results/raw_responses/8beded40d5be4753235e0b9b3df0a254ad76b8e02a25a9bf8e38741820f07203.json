@@ -1,0 +1,27 @@
+{
+  "sha256": "8beded40d5be4753235e0b9b3df0a254ad76b8e02a25a9bf8e38741820f07203",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-011",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:00:09Z",
+  "prompt_sha": "2c917ebff9639a22c39eb6a23c31205687007f48fb8e9394fc445acc35358322",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso: Banco de Horas e Afastamento por Acidente de Trabalho\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, apresento a análise, decisão recomendada e identificação de cumprimento/violação dos predicados.\n\n**1. ANÁLISE:**\n\nO único predicado normativo aplicável ao caso é: **hour_bank_with_cct_max_1_year** (Banco de horas com CCT com prazo máximo de 1 ano).\n\nEste predicado estabelece que a utilização do banco de horas, quando regulamentado por CCT, deve ser compensada em um prazo máximo de 12 meses a partir do início do seu registro.  A questão central do caso reside na interpretação da CCT e na validade da alegação da empresa de que o afastamento por acidente de trabalho deveria suspender a contagem desse prazo.\n\nA análise crucial aqui é a **ausência de previsão expressa na CCT** sobre a suspensão do prazo do banco de horas em caso de afastamento do trabalhador. A jurisprudência do TST, em geral, entende que a validade de um acordo coletivo (CCT) depende da sua literalidade e da sua interpretação restritiva, especialmente quando se trata de direitos dos trabalhadores.  A interpretação extensiva, que a empresa tenta realizar, não é aceitável na ausência de previsão legal ou contratual que a ampare.  A empresa não pode unilateralmente impor uma regra que não está expressa na CCT.\n\nO afastamento por acidente de trabalho é um evento que impacta a dinâmica do contrato de trabalho, mas a lei e a jurisprudência não estabelecem, de forma automática, a suspensão do prazo para compensação do banco de horas.  A ausência de previsão na CCT reforça a ilegalidade da conduta da empresa.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se a decisão favorável ao trabalhador. A empresa **não pode** exigir a compensação das horas em um prazo que ultrapasse o limite de 12 meses estabelecido na CCT, mesmo que o trabalhador tenha ficado afastado por 4 meses.  O prazo de 12 meses deve ser contado a partir do início do registro do banco de horas, independentemente de eventuais afastamentos.\n\nA empresa deverá permitir a compensação das horas acumuladas dentro do prazo de 12 meses, respeitando a legislação e a CCT.  Caso a empresa insista na exigência de compensação em prazo superior, o trabalhador poderá buscar seus direitos judicialmente, pleiteando a declaração de nulidade da exigência e a compensação por eventuais danos morais.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **hour_bank_with_cct_max_1_year:** **Violação**. A empresa, ao tentar estender o prazo para compensação do banco de horas além do limite de 12 meses previsto na CCT, violou este predicado. A conduta da empresa contraria a norma que estabelece o prazo máximo para compensação do banco de horas quando regulamentado por CCT.\n\n**Observações:**\n\n*   Esta análise é baseada unicamente no predicado normativo fornecido. Outros aspectos do caso (como a natureza do acidente de trabalho, a existência de outras cláusulas na CCT, etc.) poderiam influenciar a decisão em um processo judicial.\n*   A jurisprudência do TST é orientadora, mas cada caso deve ser analisado em suas particularidades.\n*   É fundamental que o trabalhador consulte um advogado para avaliar a situação e tomar as medidas cabíveis.",
+  "tokens_in": 347,
+  "tokens_out": 803,
+  "latency_ms": 22202,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "7725ac626c4937f81c5218cceaf27f2e5ba0787b093c4a1e2afb3bce3e87b44d",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-013",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T08:15:42Z",
+  "prompt_sha": "f5497ee6a7892e951be5a3f450a9283428336ff41f3cb0f338c8cc849b031335",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO caso em análise envolve a validade de um **banco de horas** em **Convenção Coletiva de Trabalho (CCT)** no setor aéreo, com base na **distinção fática** entre o setor bancário (já julgado no TST-Ag-RR-868-65.2021.5.13.0030) e o setor aéreo. Os dispositivos normativos aplicáveis são:  \n- **CF/88, Art. 7°, XIII**: Garante o direito à **descanso semanal remunerado** (artigo 7°, XIII).  \n- **CF/88, Art. 7°, XIV**: Estabelece o direito ao **férias anuais remuneradas**, com duração mínima de 30 dias (artigo 7°, XIV).  \n\nA **ratio decidendi** do julgado anterior (Tema 1046/STF) foi considerada **inaplicável** ao caso concreto (setor aéreo) por **diferenças fáticas** e **jurídicas**, conforme fundamentado no acórdão do TST. A **distinção** entre os setores (bancário vs. aéreo) foi baseada na **natureza das atividades** e nas **exigências constitucionais** de proteção aos direitos fundamentais do trabalhador.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**A decisão deve ser a de invalidar o banco de horas previsto na CCT do setor aéreo**, com base na **inaplicabilidade da ratio decidendi do caso bancário** (Tema 1046/STF) ao setor aéreo.  \n\n**Justificativa**:  \n- O **TST** já reconheceu, no acórdão citado, que a **natureza das atividades** no setor aéreo (exigência de **disponibilidade constante**, **turnos irregulares** e **riscos à segurança**) impõe **proteções constitucionais específicas** (CF/88, Art. 7°, XIII e XIV), que não podem ser subordinadas a flexibilizações como o banco de horas, salvo se **adequadamente equilibradas** com garantias de descanso e férias.  \n- A **ratio decidendi** do caso bancário (Tema 1046/STF) **não se aplica** ao setor aéreo, pois o **contexto fático** e **jurídico** é distinto, conforme explicitado no acórdão do TST.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **CF/88, Art. 7°, XIII**: Garante o direito ao **descanso semanal remunerado**, que não pode ser substituído por compensações em horas, salvo se **adequadamente regulamentado** (ex.: mediante acordo coletivo com garantias de descanso).  \n- **CF/88, Art. 7°, XIV**: Estabelece o direito a **férias anuais remuneradas**, com duração mínima de 30 dias, que **não podem ser substituídos por compensações em horas** sem respeito aos limites constitucionais.  \n- **TST-Ag-RR-868-65.2021.5.13.0030 (2ª Turma, DEJT 06/12/2023)**: O acórdão **identifica a ratio decidendi** do julgado anterior (Tema 1046/STF) e **rejeita sua aplicação** ao setor aéreo, com base na **distinção fática** e nas **exigências constitucionais** (CF/88, Art. 7°, XIII e XIV).  \n\n**Limitação normativa**:  \nO contexto **não menciona súmulas do TST** ou outras normas específicas aplicáveis ao setor aéreo. A fundamentação exclusiva baseia-se na **CF/88** e no **acórdão do TST** citado.  \n\n--- \n\n**Conclusão**: A **invalidação do banco de horas** no setor aéreo é recomendada, com base na **inaplicabilidade da ratio decidendi do caso bancário** e na **proteção constitucional** aos direitos de descanso e férias (CF/88, Art. 7°, XIII e XIV).",
+  "tokens_in": 371,
+  "tokens_out": 1803,
+  "latency_ms": 100125,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

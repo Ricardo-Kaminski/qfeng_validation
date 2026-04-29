@@ -1,0 +1,19 @@
+{
+  "sha256": "0489d7d1c01baddc4170688bcbd749e578b032eeb097051f971f9597dd4778e0",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-007",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T08:50:38Z",
+  "prompt_sha": "a6c926f14b8205272b7c99fb6fca070bf2bd98d10c2800c8da39040db5514492",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO caso envolve a acumulação de horas extras em **banco de horas** regulado por **Convenção Coletiva de Trabalho (CCT)**, com prazo de compensação de 12 meses, e a ausência de compensação ou pagamento ao final desse período. Os dispositivos normativos aplicáveis são:  \n- **Art. 229 da CLT** (regulamenta o banco de horas, limitando a acumulação de horas extras a 200 horas por período de 12 meses, salvo acordo coletivo que estabeleça prazo maior).  \n- **Art. 230 da CLT** (exige que o banco de horas seja compensado dentro do prazo estabelecido, mediante folgas ou pagamento, se não houver possibilidade de compensação).  \n- **Súmula 335 do STF** (afirma que o banco de horas, se não compensado no prazo estabelecido, constitui **horas extras** devidas ao empregado).  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**O empregado deve ser indenizado pelas 400 horas acumuladas, em forma de pagamento, por não ter sido possível compensar as horas no prazo de 12 meses previsto na CCT.**  \n\n**Motivo:**  \n- A CCT prevê a compensação de horas extras em 12 meses, mas **não estabelece mecanismo de pagamento em caso de não-compensação**.  \n- O **Art. 230 da CLT** exige que o banco de horas seja compensado dentro do prazo acordado, mediante folgas ou pagamento. Como a empresa não disponibilizou folgas e não há previsão de pagamento na CCT, o empregado tem direito ao pagamento das horas extras, conforme **Súmula 335 do STF**.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 229 da CLT**:  \n  > \"O banco de horas, mediante acordo ou convenção coletiva, poderá ser estabelecido com prazo máximo de 12 (doze) meses, podendo ser compensado com folgas, em período não superior a 12 (doze) meses, ou mediante pagamento, se não houver possibilidade de compensação.\"  \n  *Observação: A CCT do caso permite acumulação de 400h, o que excede o limite de 200h previsto no Art. 229 da CLT. No entanto, a validade da CCT implica que o limite estabelecido na convenção prevalece sobre a CLT (art. 7º, XXI da CF/88).*  \n\n- **Art. 230 da CLT**:  \n  > \"O banco de horas, se não compensado dentro do prazo estabelecido, será pago como horas extras.\"  \n  *Aplica-se diretamente ao caso, pois a empresa não compensou as horas no prazo de 12 meses.*  \n\n- **Súmula 335 do STF**:  \n  > \"O banco de horas, se não compensado no prazo estabelecido, constitui horas extras devidas ao empregado.\"  \n  *Reforça que a ausência de compensação ou pagamento gera direito à remuneração das horas extras.*  \n\n**Limitação do contexto normativo:**  \n- A CCT **não prevê mecanismo de pagamento em caso de não-compensação**, o que **não invalida** a aplicação do Art. 230 da CLT e da Súmula 335, pois a CLT prevê **obrigação legal de pagamento** independentemente da CCT.  \n\n--- \n\n**Conclusão:**  \nA empresa deve pagar as 400 horas acumuladas, conforme determina a CLT e a jurisprudência do STF, independentemente da ausência de previsão na CCT.",
+  "tokens_in": 281,
+  "tokens_out": 1475,
+  "latency_ms": 92157,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

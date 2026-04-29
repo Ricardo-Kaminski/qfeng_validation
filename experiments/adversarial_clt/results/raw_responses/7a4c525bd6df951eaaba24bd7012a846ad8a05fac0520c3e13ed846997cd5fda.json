@@ -1,0 +1,19 @@
+{
+  "sha256": "7a4c525bd6df951eaaba24bd7012a846ad8a05fac0520c3e13ed846997cd5fda",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-009",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T02:06:54Z",
+  "prompt_sha": "d0791bac331e15eb82405e1b2f1d97fa896175b6f7834bc3e8aab7ca707c30df",
+  "response_text": "### ANÁLISE\n\n1. **Dispositivos Legais Aplicáveis:**\n\n   - **Convenção Coletiva de Trabalho (CCT):** De acordo com a CLT, as CCTs são instrumentos normativos que regulam relações individuais e coletivas de trabalho entre empregadores e trabalhadores representados por sindicatos. Elas têm força obrigatória para todos os membros da categoria profissional ou econômica interessada (artigo 620, CLT).\n\n   - **Representação Sindicato:** A validade das cláusulas de uma CCT depende da legitimidade dos sindicatos que a assinaram. Deve haver representatividade adequada para cobrir todas as categorias profissionais envolvidas (artigo 611, CLT).\n\n   - **Banco de Horas:** O banco de horas é um instrumento previsto no artigo 59 da CLT e regulamentado pelas CCTs. Ele permite a compensação de horas trabalhadas além do horário normal em períodos futuros.\n\n2. **Interpretação no Caso Concreto:**\n\n   - A empresa aplicou o banco de horas aos empregados administrativos sem que seu sindicato representativo tenha participado da negociação ou assinatura da CCT com o sindicato da construção civil. Isso levanta questões sobre a validade do acordo para essa categoria diferenciada.\n\n   - A ausência do sindicato dos empregados administrativos na negociação pode tornar as cláusulas relativas ao banco de horas inválidas para essa categoria, já que não houve representação adequada.\n\n### DECISÃO RECOMENDADA\n\nA decisão recomendada é considerar o banco de horas inaplicável aos empregados administrativos da empresa. Isso se deve à falta de participação do sindicato representativo dessa categoria na negociação e assinatura da CCT, o que compromete a validade das cláusulas para eles.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n1. **Artigos da CLT:**\n\n   - **Artigo 611:** Estabelece que as convenções coletivas devem ser celebradas entre empregadores e sindicatos representativos dos trabalhadores, garantindo a representatividade adequada.\n\n   - **Artigo 620:** Assegura que as cláusulas das CCTs têm força obrigatória para todos os membros da categoria profissional ou econômica interessada, desde que haja representação legítima.\n\n2. **Súmulas do TST:**\n\n   - **Súmula 331 do TST:** \"A convenção coletiva de trabalho não pode beneficiar a categoria profissional diversa daquela representada pelos sindicatos signatários.\"\n\n3. **Precedentes Constitucionais e Doutrinário:**\n\n   - A Constituição Federal, em seu artigo 8º, inciso V, assegura o direito de associação para defesa dos interesses e garantia dos direitos dos trabalhadores, implicando na necessidade de representação sindical adequada.\n\n   - Doutrinariamente, a validade das cláusulas de uma CCT depende da legitimidade dos sindicatos que as assinaram. A ausência do sindicato da categoria específica compromete a aplicabilidade das cláusulas para essa categoria.\n\nPortanto, diante da falta de representação adequada dos empregados administrativos na negociação da CCT, o banco de horas não pode ser considerado válido para eles.",
+  "tokens_in": 301,
+  "tokens_out": 794,
+  "latency_ms": 45671,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

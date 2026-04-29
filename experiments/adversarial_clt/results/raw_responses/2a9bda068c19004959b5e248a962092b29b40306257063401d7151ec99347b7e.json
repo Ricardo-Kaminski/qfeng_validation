@@ -1,0 +1,19 @@
+{
+  "sha256": "2a9bda068c19004959b5e248a962092b29b40306257063401d7151ec99347b7e",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T06:39:52Z",
+  "prompt_sha": "1b16cff2fe61b19ccd39391d68ae7919bd21cd1c508bc8a32996d5405ad80e90",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a implementação de um banco de horas com compensação por meio de Acordo Coletivo de Trabalho (ACT) entre a Rede de Supermercados e o Sindicato dos Comerciários. No entanto, o ACT não foi registrado na Superintendência Regional do Trabalho (SRTE) dentro do prazo legal estabelecido.\n\nA questão central é saber se a falta de registro da ACT dentro do prazo legal afeta sua validade e eficácia.\n\n**Dispositivos Legais Aplicáveis:**\n\n1.  **CLT - Artigo 614:** Estabelece que os Acordos Coletivos de Trabalho devem ser registrados na Superintendência Regional do Trabalho (SRTE) dentro de 30 dias após a assinatura.\n2.  **CLT - Artigo 615:** Determina que a falta de registro da ACT não invalida o acordo, mas sim acarreta penalidades à empresa e ao sindicato.\n3.  **Súmula do TST nº 428:** \"A falta de registro do Acordo Coletivo de Trabalho não invalida o seu conteúdo\".\n\n**Interpretação no Caso Concreto:**\n\nO artigo 614 da CLT é claro ao estabelecer que a falta de registro da ACT dentro do prazo legal acarreta penalidades, mas não invalida o acordo. Além disso, a Súmula nº 428 do TST reforça essa interpretação ao afirmar que a falta de registro não invalida o conteúdo do acordo.\n\n**DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que a ACT seja considerada válida e eficaz, independentemente da falta de registro na SRTE dentro do prazo legal. Isso se baseia no entendimento de que a falta de registro não invalida o conteúdo do acordo, conforme estabelecido pela CLT e pelo TST.\n\n**FUNDAMENTAÇÃO NORMATIVA:**\n\n*   **CLT - Artigo 614:** \"O Acordo Coletivo de Trabalho deve ser registrado na Superintendência Regional do Trabalho (SRTE) dentro de 30 dias após a assinatura.\"\n*   **CLT - Artigo 615:** \"A falta de registro da ACT não invalida o acordo, mas sim acarreta penalidades à empresa e ao sindicato.\"\n*   **Súmula do TST nº 428:** \"A falta de registro do Acordo Coletivo de Trabalho não invalida o seu conteúdo.\"\n\n**CONCLUSÃO:**\n\nEm resumo, a decisão recomendada é que a ACT seja considerada válida e eficaz, independentemente da falta de registro na SRTE dentro do prazo legal. Isso se baseia no entendimento de que a falta de registro não invalida o conteúdo do acordo, conforme estabelecido pela CLT e pelo TST.",
+  "tokens_in": 290,
+  "tokens_out": 662,
+  "latency_ms": 21750,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,26 @@
+{
+  "sha256": "d7248dd7f90424ff5a5098243a3cd19de740fc48266744b2edabc5ce6b0712d3",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CTRL-NEG-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T23:35:08Z",
+  "prompt_sha": "57cf080c70ee6d5ee75af46a8cd79a5aba980ddfcf3914fb8da919567e87ba49",
+  "response_text": "### 1. **ANÁLISE**  \n**a) *obligation_to_pay_nocturnal_premium_20pct***  \nA empresa está cumprindo a obrigação de pagar o adicional noturno de 20% para motoristas que trabalham entre 22h e 5h, conforme determina a CLT (art. 72, § 1º) e jurisprudência do TST. O cálculo da hora noturna como 52 minutos e 30 segundos (equivalente a 52,5 minutos) está alinhado ao critério legal, que considera a hora noturna como a fração da hora trabalhada entre 22h e 5h, calculada com base no tempo efetivamente trabalhado. Além disso, o recolhimento mensal e a discriminação do adicional noturno nos contracheques atendem ao princípio da transparência e da individualização das verbas, exigidos pela CLT (art. 157).  \n\n**b) *maximum_daily_working_hours_8h***  \nA empresa está respeitando o limite máximo de 8 horas diárias de trabalho, conforme estabelecido no art. 7º, § 1º, da CLT. A ausência de horas extras além desse limite indica que a empresa está cumprindo a norma, evitando a violação do direito à jornada de trabalho normal.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA empresa está **cumprindo integralmente** as obrigações legais estabelecidas pelos predicados normativos aplicáveis. Não há irregularidades no cálculo do adicional noturno, na jornada de trabalho ou no registro eletrônico de horas. Recomenda-se que a empresa mantenha a prática atual e continue discriminando o adicional noturno nos contracheques, garantindo transparência e conformidade com a legislação trabalhista.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Conformidade:**  \n  - *obligation_to_pay_nocturnal_premium_20pct* (cumprida, com cálculo adequado e discriminação no contracheque).  \n  - *maximum_daily_working_hours_8h* (cumprida, com respeito ao limite de 8 horas diárias).  \n\n- **Violação:**  \n  - Nenhuma violação foi identificada com base nos predicados fornecidos.  \n\n--- \n\n**Observação:** A análise se baseia exclusivamente nos predicados normativos fornecidos. Outras possíveis irregularidades (como falta de registro eletrônico adequado ou não cumprimento de outras normas) não foram avaliadas neste contexto.",
+  "tokens_in": 373,
+  "tokens_out": 1240,
+  "latency_ms": 39046,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

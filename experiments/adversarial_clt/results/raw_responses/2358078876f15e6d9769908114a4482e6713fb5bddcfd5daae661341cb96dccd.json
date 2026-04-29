@@ -1,0 +1,27 @@
+{
+  "sha256": "2358078876f15e6d9769908114a4482e6713fb5bddcfd5daae661341cb96dccd",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:53:30Z",
+  "prompt_sha": "c7e8449adba3d199c2e40ce6b3b2330c3ed8856c57fb05362f83ba3b237f1489",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso: Jornada de 10h/dia e Banco de Horas\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, apresento a análise, decisão recomendada e identificação de cumprimento/violação dos predicados.\n\n**1. ANÁLISE:**\n\n*   **maximum_daily_working_hours_8h:** Este predicado, derivado do Art. 7º, XIII da Constituição Federal, estabelece o limite máximo de 8 horas diárias para a jornada de trabalho. A implementação de uma jornada de 10 horas diárias pela empresa, mesmo que com a finalidade de compensação semanal via banco de horas, **colide diretamente** com este limite constitucional. A CCT, embora autorize o banco de horas, não pode, por si só, flexibilizar a duração máxima da jornada diária estabelecida na Constituição. A interpretação da CCT deve ser restritiva, não podendo contrariar direitos fundamentais assegurados pela Constituição. O fato de a CCT não detalhar o modelo de compensação não implica em autorização para jornadas diárias superiores ao limite legal.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que a Justiça do Trabalho declare a **nulidade** da jornada de 10 horas diárias implementada pela empresa. A empresa deve, urgentemente, adequar a jornada de trabalho dos funcionários ao limite máximo de 8 horas diárias, conforme a Constituição Federal.  A utilização do banco de horas deve ser revista para garantir que a compensação ocorra dentro dos limites legais, sem ultrapassar a jornada diária de 8 horas. É crucial que a empresa negocie com o sindicato para formalizar um modelo de banco de horas que esteja em conformidade com a legislação, detalhando como a compensação será realizada sem violar o limite de 8 horas diárias.  A empresa deve também analisar a possibilidade de pagamento de horas extras para o período em que a jornada excedeu as 8 horas diárias, caso a compensação não tenha ocorrido de forma adequada.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **maximum_daily_working_hours_8h:** **Violação**. A jornada de 10 horas diárias implementada pela empresa excede o limite máximo de 8 horas estabelecido na Constituição Federal. A CCT não pode suprir a ausência de previsão legal para jornadas superiores a este limite.\n",
+  "tokens_in": 336,
+  "tokens_out": 535,
+  "latency_ms": 14843,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

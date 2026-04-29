@@ -1,0 +1,29 @@
+{
+  "sha256": "5b9b6dd2fb09a4c5d079186da5731913ec36a043b68266d850c63f31f974dfa0",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T23:48:02Z",
+  "prompt_sha": "8c96eb4d737be4ce8781d374931313b19e56c91b6fa2796bc527598d09d845e0",
+  "response_text": "1. **ANÁLISE:**\n\nO predicado normativo aplicável ao caso é \"semester_hour_bank_requires_cct_or_act\". Este predicado estabelece que a adoção de banco de horas semestralmente exige um acordo coletivo de trabalho (ACT) ou convenção coletiva de trabalho (CCT). No cenário apresentado, a indústria têxtil implementou o banco de horas com base em acordos individuais por escrito entre a empresa e cada empregado. A empresa argumenta que esses acordos individuais são suficientes para suprir a ausência de um acordo coletivo.\n\nNo entanto, conforme estabelecido pelo predicado normativo, o banco de horas semestral não pode ser implementado apenas por meio de acordos individuais. É necessário que haja uma negociação coletiva envolvendo o sindicato patronal e os trabalhadores para a elaboração de um ACT ou CCT. A ausência de participação do sindicato ou dos trabalhadores em qualquer acordo coletivo viola essa exigência normativa.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que a empresa deve suspender imediatamente o banco de horas semestral implementado por meio de acordos individuais, pois não cumpre com as exigências legais estabelecidas pelo predicado normativo. A empresa deverá negociar um acordo coletivo de trabalho (ACT) ou convenção coletiva de trabalho (CCT) que preveja o banco de horas semestral, envolvendo o sindicato patronal e os trabalhadores.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n- **Violado:** \"semester_hour_bank_requires_cct_or_act\" - A empresa violou este predicado ao implementar o banco de horas semestral apenas por meio de acordos individuais, sem a necessária negociação coletiva envolvendo um ACT ou CCT.\n\n- **Cumpriu:** Não há predicados listados que foram cumpridos no cenário apresentado. A empresa não cumpriu com o requisito normativo essencial para a implementação do banco de horas semestral.",
+  "tokens_in": 349,
+  "tokens_out": 497,
+  "latency_ms": 14516,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

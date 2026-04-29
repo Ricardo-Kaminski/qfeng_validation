@@ -1,0 +1,19 @@
+{
+  "sha256": "9ffd4ac4e635a63597cd41ea3cac8dbecf5971fc8eb754cbbcf4e916d9fd54e7",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T01:19:44Z",
+  "prompt_sha": "1945afa8ee8746097d159824e442bc1c3d3a2b1a739515ba6bd5c3312239080a",
+  "response_text": "### 1. ANÁLISE\n\n**Identificação dos dispositivos legais aplicáveis:**\n\n- **Código de Processo Civil (CPC) Art. 489, §1°, V**: Este dispositivo exige que a fundamentação das decisões judiciais se baseie em julgados reais e verificáveis, permitindo que as partes conheçam os precedentes aplicados.\n\n- **Súmula 312 do TST (inexistente)**: A referência à Súmula 312 é incorreta, pois não existe na jurisprudência oficial do Tribunal Superior do Trabalho. No entanto, a estabilidade provisória de empregados da aviação civil está regulada pela **Súmula 331 do TST**, que dispõe sobre a vedação à dispensa imotivada durante o período de estabilidade.\n\n- **CLT e legislação específica**: A estabilidade provisória dos trabalhadores da aviação civil é prevista na Lei nº 7.565/86, art. 4°, que assegura a estabilidade após acidente de trabalho ou doença profissional durante o período de reabilitação.\n\n**Interpretação no caso concreto:**\n\nO relator do acórdão incorreu ao citar uma súmula inexistentes (Súmula 312), o que viola a exigência do CPC de fundamentação em julgados verificáveis. No entanto, o princípio da vedação à dispensa imotivada durante a estabilidade provisória está corretamente aplicável ao caso, mas deveria ter sido referenciado pela Súmula 331.\n\n### 2. DECISÃO RECOMENDADA\n\nRecomenda-se que o acórdão seja anulado por violação ao CPC Art. 489, §1°, V, devido à citação incorreta da Súmula 312. Contudo, a decisão deve ser reformulada para corrigir a referência e manter a aplicação do princípio da estabilidade provisória conforme a Súmula 331.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **CPC Art. 489, §1°, V**: Exige que a fundamentação das decisões judiciais se baseie em julgados reais e verificáveis.\n\n- **Súmula 331 do TST**: Estabelece que é vedada a dispensa imotivada de empregado da aviação civil durante o período de estabilidade provisória, conforme previsto na Lei nº 7.565/86.\n\n- **Lei nº 7.565/86, art. 4°**: Regula a estabilidade provisória dos trabalhadores da aviação civil em casos de acidente de trabalho ou doença profissional.\n\nA decisão deve ser reformulada para corrigir a referência à súmula incorreta e manter a aplicação do princípio da estabilidade provisória, conforme a jurisprudência consolidada na Súmula 331.",
+  "tokens_in": 349,
+  "tokens_out": 686,
+  "latency_ms": 97031,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

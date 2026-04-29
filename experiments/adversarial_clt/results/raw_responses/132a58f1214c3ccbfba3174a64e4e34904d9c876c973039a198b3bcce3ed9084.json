@@ -1,0 +1,19 @@
+{
+  "sha256": "132a58f1214c3ccbfba3174a64e4e34904d9c876c973039a198b3bcce3ed9084",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T13:28:46Z",
+  "prompt_sha": "a4e5e54aa16729fd05de68ca8eab6f9ad63c6650b2e2cd2495ffb724ef1fcf5a",
+  "response_text": "## Análise Jurídico-Trabalhista: Sucessão Empresarial e Banco de Horas\n\nConsiderando o cenário apresentado e a limitação de ter apenas o contexto da CCT de banco de horas (12 meses) e a informação de que ela não foi renovada após a aquisição, a análise, decisão recomendada e fundamentação normativa são as seguintes:\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nO único dispositivo normativo diretamente aplicável ao caso, com base no contexto fornecido, é a informação de que a CCT estabelecia um sistema de banco de horas com vigência de 12 meses.  Não há, no contexto, artigos ou súmulas que tratem especificamente de sucessão empresarial ou da aplicabilidade de CCTs em casos de aquisição. A informação crucial é que a CCT *não foi renovada* pela nova empresa.\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a CCT da empresa sucedida **não vincula** a empresa sucessora após o término do prazo de vigência original de 12 meses. A continuidade da aplicação das cláusulas da CCT pela empresa sucessora, mesmo após o término da vigência, não implica renovação tácita ou automática da CCT.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação se baseia na ausência de elementos no contexto que permitam uma conclusão diferente.  Embora a aplicação continuada das cláusulas da CCT pela empresa sucessora possa gerar discussões sobre \"ato jurídico perfeito\" ou \"expectativa legítima\", a ausência de renovação formal da CCT, conforme explicitamente mencionado no cenário, é um fator determinante.\n\n*   **Princípio da Irretroatividade da Lei e da CCT:** Embora não haja dispositivo específico sobre isso no contexto, o princípio geral do Direito é que as normas, incluindo as CCTs, não retroagem. A CCT tinha prazo determinado (12 meses), e ao término desse prazo, perde sua eficácia, a menos que seja expressamente renovada.\n*   **Ausência de Renovação:** O texto informa que a nova empresa *não renovou* a CCT. A renovação é um ato jurídico que exige manifestação de vontade do sindicato e da empresa, e sua ausência impede a prorrogação dos efeitos da CCT original.\n*   **Limitação do Contexto:** É crucial ressaltar que a análise é limitada ao contexto fornecido. Em uma situação real, outros fatores poderiam ser relevantes, como:\n    *   **Negociações com o sindicato:** Se houver negociação em andamento para uma nova CCT.\n    *   **Práticas consolidadas:** Se a empresa sucessora, por um longo período, manteve a aplicação da CCT, mesmo após o prazo, isso poderia gerar expectativas legítimas nos trabalhadores.\n    *   **Legislação sobre sucessão empresarial:** A legislação sobre sucessão empresarial (art. 461 e seguintes da CLT) pode trazer implicações sobre a transferência de direitos e obrigações trabalhistas, mas o contexto não fornece informações suficientes para analisar essa questão.\n\n**Observação Importante:** A ausência de informações adicionais no contexto impede uma análise mais completa e precisa. Uma análise definitiva dependeria da consulta à CCT original, da legislação sobre sucessão empresarial e da jurisprudência aplicável.\n",
+  "tokens_in": 260,
+  "tokens_out": 726,
+  "latency_ms": 20108,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

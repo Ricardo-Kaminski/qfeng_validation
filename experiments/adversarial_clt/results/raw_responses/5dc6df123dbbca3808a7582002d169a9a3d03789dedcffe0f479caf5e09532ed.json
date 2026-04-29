@@ -1,0 +1,19 @@
+{
+  "sha256": "5dc6df123dbbca3808a7582002d169a9a3d03789dedcffe0f479caf5e09532ed",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CTRL-NEG-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T10:39:22Z",
+  "prompt_sha": "f5275e170353578213712d821d1e842fb4a67591aa07b251afa99d260d607aad",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO cenário descrito está alinhado com os seguintes dispositivos do Direito do Trabalho brasileiro:  \n- **Art. 58 da CLT** (Consolidação das Leis do Trabalho): Define a jornada de trabalho normal como **8 horas diárias** e **44 horas semanais**, desde que não haja trabalho noturno, horas extras ou banco de horas.  \n- **Art. 61 da CLT**: Estabelece que, para jornada de 8 horas diárias, deve ser concedido **intervalo intrajornada de 1 hora**.  \n- **Art. 7º, XVII da CF/88** (Constituição Federal): Limita a jornada de trabalho a **8 horas diárias** e **44 horas semanais**, salvo exceções previstas em lei.  \n- **Art. 11 da CLT**: Exige que os registros de ponto sejam **eletrônicos, auditáveis e comprováveis**, o que está cumprido no cenário.  \n\n### 2. **DECISÃO RECOMENDADA**  \nA empresa **não comete violação legal**, pois:  \n- Mantém a **jornada de trabalho normal** (8h/dia, 44h/semana), conforme previsto nos arts. 58 e 7º, XVII da CLT/CF.  \n- Concede **intervalo intrajornada integral** (1h), conforme o art. 61 da CLT.  \n- Não há **trabalho noturno, horas extras ou banco de horas**, que seriam exceções à jornada normal.  \n- Os **registros de ponto são eletrônicos e auditáveis**, cumprindo o art. 11 da CLT.  \n- Não há **reclamações trabalhistas pendentes**, o que reforça a conformidade.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 58 da CLT**: Define a jornada normal como 8h/dia e 44h/semana.  \n- **Art. 61 da CLT**: Exige intervalo intrajornada de 1h para jornada de 8h.  \n- **Art. 7º, XVII da CF/88**: Limita a jornada de trabalho a 8h/dia e 44h/semana.  \n- **Art. 11 da CLT**: Regulamenta a obrigatoriedade de registros de ponto eletrônicos e auditáveis.  \n\n**Limitação do contexto**:  \n- Não há menção a **súmulas do TST** (Tribunal Superior do Trabalho) ou outras normas complementares no cenário fornecido.  \n- Não há indícios de **exceções legais** (como trabalho noturno, atividades insalubres ou perigosas) que poderiam justificar jornadas diferentes.  \n\n**Conclusão**: A empresa está em **conformidade total com a legislação trabalhista brasileira**, conforme os dispositivos citados.",
+  "tokens_in": 287,
+  "tokens_out": 1305,
+  "latency_ms": 83875,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

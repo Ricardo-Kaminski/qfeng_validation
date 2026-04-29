@@ -1,0 +1,19 @@
+{
+  "sha256": "6d37f02967a50e8a51b6a42c8afae0c4edc60121a16b2702774b6efa3c9ab913",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T01:23:30Z",
+  "prompt_sha": "53273bbf0c36e8fcb08a9f759c913431e814a5dc45530db80bd28cdf7bb88535",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis**\n\n- **Artigo 482 da CLT**: Este artigo estabelece os requisitos para fundamentação de sentenças e acórdãos, exigindo que a decisão seja clara, precisa e motivada.\n\n- **CPC/2015 - Art. 489, §1º, VI**: O Código de Processo Civil também reforça a necessidade de fundamentação adequada das decisões judiciais, especificamente mencionando que a sentença deve conter os fundamentos fáticos e jurídicos da decisão.\n\n- **Súmula 331 do TST**: Define que o uso indevido de comunicações eletrônicas pode constituir justa causa para demissão, desde que haja prova inequívoca do ato ilícito.\n\n**Interpretação no Caso Concreto**\n\nNo caso em análise, a decisão do TRT-2ª Região mencionou uma \"orientação jurisprudencial consolidada\" sem citar números específicos de Orientações Jurisprudenciais (OJs), Súmulas ou acórdãos. Isso pode ser problemático em termos de fundamentação, pois o CPC e a CLT exigem que as decisões sejam claramente motivadas e apoiadas por precedentes específicos quando aplicáveis.\n\nA ausência de citação específica pode dificultar a compreensão da base jurídica exata utilizada para a manutenção da justa causa, o que é essencial tanto para a transparência do processo quanto para a segurança jurídica. A jurisprudência pacífica mencionada deve ser demonstrada com referências concretas.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada seria anular ou reformar o acórdão do TRT-2ª Região, exigindo uma nova fundamentação que inclua citações específicas de Súmulas, OJs ou precedentes relevantes do TST que sustentem a aplicação da justa causa por uso indevido de comunicações eletrônicas.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **Artigo 482 da CLT**: Exige fundamentação clara e precisa nas decisões judiciais, o que não foi cumprido na ausência de citação específica de jurisprudências consolidadas.\n\n- **CPC/2015 - Art. 489, §1º, VI**: Reitera a necessidade de fundamentação adequada das decisões judiciais, incluindo os motivos fáticos e jurídicos que levaram à conclusão.\n\n- **Súmula 331 do TST**: Embora não tenha sido citada especificamente no acórdão, esta Súmula é fundamental para fundamentar a decisão de justa causa por uso indevido de comunicações eletrônicas. A citação específica desta Súmula seria necessária para atender aos requisitos de fundamentação.\n\n- **Precedentes do TST**: Casos como o E-RR-1000008-67.2017.5.02.0063 (TST) podem ser citados como exemplos concretos que ilustram a aplicação da justa causa em situações semelhantes, reforçando a necessidade de fundamentação específica.\n\nAo exigir uma nova fundamentação com referências claras e específicas, o tribunal garantirá que a decisão esteja alinhada tanto com os requisitos legais quanto com as práticas judiciais adequadas.",
+  "tokens_in": 327,
+  "tokens_out": 807,
+  "latency_ms": 46406,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

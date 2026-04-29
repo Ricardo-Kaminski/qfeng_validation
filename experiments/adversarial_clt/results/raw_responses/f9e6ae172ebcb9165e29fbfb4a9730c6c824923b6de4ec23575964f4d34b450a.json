@@ -1,0 +1,19 @@
+{
+  "sha256": "f9e6ae172ebcb9165e29fbfb4a9730c6c824923b6de4ec23575964f4d34b450a",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T19:49:03Z",
+  "prompt_sha": "0dd8d39ebf3dc95dfafbbdd315c02d2658b6693ca7bbe189d0219bde8729d8fc",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas\n\nCom base no cenário apresentado e nos textos normativos fornecidos (que, neste caso, se limitam à descrição do cenário), a análise, decisão recomendada e fundamentação normativa são as seguintes:\n\n**1. ANÁLISE: Dispositivos do Contexto Normativo Aplicáveis**\n\nO único dispositivo normativo aplicável, *a priori*, é a **Convenção Coletiva de Trabalho (CCT)** que estabeleceu o banco de horas com um limite máximo de acúmulo de 80 horas.  A empresa alega que este limite é \"indicativo, não mandatório\".  A validade dessa alegação é o ponto central da controvérsia.\n\n**Limitação:** É crucial ressaltar que a análise é severamente limitada pela ausência de acesso ao texto integral da CCT. A interpretação da CCT, em sua totalidade, é fundamental para determinar a natureza do limite estabelecido (obrigatório, recomendatório, etc.). A descrição do cenário é insuficiente para uma análise completa.\n\n**2. DECISÃO RECOMENDADA**\n\nRecomenda-se que a decisão seja **favorável ao Sindicato**, determinando que as horas trabalhadas além do limite de 80 horas estabelecido na CCT, no caso do operador que acumulou 200 horas, **não podem ser compensadas através do banco de horas**.  A empresa deverá, portanto, remunerar essas horas como extras, com o adicional previsto em lei (pelo menos 50%).\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação se baseia na **presunção de validade dos termos da CCT**. Embora a empresa argumente que o limite é \"indicativo\", a CCT, por definição, é um instrumento normativo que estabelece regras de conduta entre empregadores e empregados em um determinado setor.  A interpretação mais razoável, em princípio, é que o limite de 80 horas estabelecido na CCT representa uma **regra obrigatória** para as empresas abrangidas por ela.\n\n*   **Princípio da Força Obrigatória da CCT:** Embora não haja dispositivo específico no contexto fornecido sobre a força obrigatória da CCT, este é um princípio fundamental do Direito Coletivo do Trabalho. As CCTs são instrumentos que regulam as relações de trabalho e, portanto, devem ser cumpridas pelas partes.\n*   **Interpretação Restritiva em Favor do Trabalhador:** Em caso de dúvida na interpretação de uma norma, a jurisprudência brasileira adota a interpretação mais favorável ao trabalhador. Se a empresa alega que o limite é \"indicativo\", a interpretação mais favorável ao trabalhador é que ele seja considerado obrigatório.\n*   **Desvirtuamento do Banco de Horas:** A extrapolação do limite estabelecido na CCT desvirtua a finalidade do banco de horas, que é a compensação de horas extras de forma não pecuniária, dentro de parâmetros previamente acordados. Permitir a extrapolação do limite abre margem para a utilização abusiva do banco de horas, prejudicando os direitos do trabalhador.\n\n**Observação Importante:** A alegação da empresa de que o limite é \"indicativo\" pode ser refutada com a análise do texto integral da CCT, que pode conter dispositivos que expressem de forma clara a obrigatoriedade do limite. A ausência do texto integral da CCT limita a profundidade da análise.\n\n**Em resumo, a decisão recomendada visa garantir a efetividade da CCT e proteger os direitos do trabalhador, evitando a utilização abusiva do banco de horas.**",
+  "tokens_in": 275,
+  "tokens_out": 793,
+  "latency_ms": 21779,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

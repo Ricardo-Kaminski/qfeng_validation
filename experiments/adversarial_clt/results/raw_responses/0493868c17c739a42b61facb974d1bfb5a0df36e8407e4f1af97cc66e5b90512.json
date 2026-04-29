@@ -1,0 +1,19 @@
+{
+  "sha256": "0493868c17c739a42b61facb974d1bfb5a0df36e8407e4f1af97cc66e5b90512",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T20:10:05Z",
+  "prompt_sha": "12b48022cdc961cef8c18d0d80b5483d4759aae81c7b71fc4609fcfa8fba3820",
+  "response_text": "**ANÁLISE**\n\n1. Os dispositivos do contexto normativo aplicáveis ao caso são:\n * O Acórdão de TRT que cita a Orientação Jurisprudencial (OJ) 394 da SDI-1 do TST;\n * A Súmula 428 do TST.\n\n**DECISÃO RECOMENDADA**\n\n2. A decisão recomendada é que o Acórdão seja anulado e reformado, pois ele se baseia em uma Orientação Jurisprudencial (OJ) cancelada pelo TST em 2012, que foi incorporada à Súmula 428 com conteúdo parcialmente distinto. Além disso, o Acórdão não menciona a Súmula 428 nem reconhece o cancelamento da OJ 394.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n3. A fundamentação normativa é baseada nos seguintes dispositivos:\n * Artigo não citado: não há menção explícita a um artigo específico, mas é necessário aplicar as regras de interpretação das leis trabalhistas;\n * Súmula 428 do TST: \"A prestação de serviços em sobreaviso, sem a correspondente remuneração, configura horas extras\" (art. não citado);\n * OJ 394 da SDI-1 do TST: cancelada pelo TST em 2012 e incorporada à Súmula 428 com conteúdo parcialmente distinto.\n\n**LIMITAÇÃO**\n\nNeste caso, há dispositivos normativos aplicáveis ao contexto.",
+  "tokens_in": 284,
+  "tokens_out": 349,
+  "latency_ms": 5884,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

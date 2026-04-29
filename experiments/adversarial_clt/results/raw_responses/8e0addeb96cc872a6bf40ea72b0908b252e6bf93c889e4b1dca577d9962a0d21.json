@@ -1,0 +1,30 @@
+{
+  "sha256": "8e0addeb96cc872a6bf40ea72b0908b252e6bf93c889e4b1dca577d9962a0d21",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T23:06:39Z",
+  "prompt_sha": "2894b7676eac7e9e2cb55e15eed63978b4e2d5820472a6bee747c60e44ab8c8e",
+  "response_text": "### 1. **ANÁLISE**  \n**a) obligation_to_ground_decision_in_identified_ratio_decidendi**  \nO TRT cumpriu essa obrigação ao:  \n- **Identificar claramente a *ratio decidendi*** da Súmula TST 60, que estabelece que o regime de revezamento noturno integra o adicional noturno à remuneração.  \n- **Analisar o caso concreto** (empregado em regime 12x36 com períodos noturnos fixos) para verificar se o regime do trabalhador se enquadra na hipótese da Súmula.  \n- **Aplicar a Súmula** de forma direta, demonstrando que o regime do trabalhador (revezamento noturno) está dentro do escopo da norma, diferenciando-o de casos de turno fixo não noturno.  \n\n**b) due_process_of_law**  \nO TRT respeitou o devido processo legal ao:  \n- **Realizar uma análise fundamentada** dos fatos e da legislação (Súmula TST 60), evitando decisões baseadas em pressupostos não comprovados.  \n- **Distinguir claramente** o caso do trabalhador (revezamento noturno) de situações de turno fixo não noturno, garantindo que a aplicação da Súmula não fosse estendida a hipóteses não cobertas pela norma.  \n- **Assegurar transparência** na fundamentação, permitindo que as partes compreendam a lógica jurídica e fática da decisão.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA decisão do TRT deve ser **confirmada e mantida**, pois:  \n- **Cumpriu integralmente a obrigação de fundamentar a decisão** com base em uma *ratio decidendi* clara (Súmula TST 60).  \n- **Respeitou o devido processo legal**, garantindo análise objetiva e distinção entre hipóteses jurídicas.  \n- **Aplicou a norma de forma correta**, reconhecendo o adicional noturno para o regime de revezamento, conforme previsto na Súmula TST 60.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Cumpridos (conformidade):**  \n  - **obligation_to_ground_decision_in_identified_ratio_decidendi** (a decisão foi fundamentada com base na *ratio* da Súmula TST 60).  \n  - **due_process_of_law** (o TRT seguiu procedimentos legais, analisou os fatos e distinguiu hipóteses jurídicas).  \n\n- **Violados (violação):**  \n  - **Nenhum predicado foi violado** no cenário descrito. A decisão do TRT está alinhada com os requisitos normativos estabelecidos.  \n\n--- \n\n**Conclusão:** A aplicação da Súmula TST 60 pelo TRT foi juridicamente correta e procedimentalmente adequada, respeitando os predicados normativos exigidos.",
+  "tokens_in": 389,
+  "tokens_out": 1122,
+  "latency_ms": 34125,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

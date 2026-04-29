@@ -1,0 +1,26 @@
+{
+  "sha256": "14dd88c5bb1fc1a82261260c71ed6f32adeeb5b1c7dd09f2b55747cf7855b335",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-012",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T02:09:18Z",
+  "prompt_sha": "5a8f6c7e3f499c88bbaaf7f049ff195a1844aab8c62088076ae22a749461e3d3",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG identificou uma **violação normativa** com base nos predicados soberanos ativos, que estabelecem obrigações constitucionais e processuais inerentes ao exercício da jurisdição trabalhista. A utilização do precedente do STJ (civil) para embasar uma tese sobre dano moral trabalhista **não atende aos requisitos de fundamentação jurídica específica** exigidos pelo regime jurídico trabalhista, especialmente após a Reforma da CLT de 2017.  \n\n- **Obrigação de expor as consequências práticas da decisão** (`obligation_to_state_practical_consequences_of_decision`) foi violada, pois o TRT não analisou como o critério civil de fixação de dano moral (ex.: \"proporcionalidade ao dano\") se compatibiliza com os critérios trabalhistas (ex.: \"equilíbrio entre culpa e reparação\").  \n- **Proibição de citação genérica de precedentes** (`prohibition_of_generic_precedent_citation`) foi transgredida, pois o TRT utilizou um precedente civil sem discutir sua aplicabilidade ao regime jurídico trabalhista.  \n- **Obrigação de abordar todos os argumentos jurídicos** (`obligation_to_address_all_legal_arguments`) foi descumprida, pois a decisão omitiu a análise da compatibilidade com a CLT reformada.  \n- **Obrigação de fundamentar a decisão em ratio decidendi identificada** (`obligation_to_ground_decision_in_identified_ratio_decidendi`) foi violada, pois a fundamentação não se baseou em critérios específicos da CLT, mas em uma analogia civil.  \n- **Obrigação constitucional de expor razões para decisões** (`constitutional_obligation_to_state_reasons_for_decisions`) e **direito ao acesso à justiça e revisão judicial** (`right_of_access_to_justice_and_judicial_review`) foram negligenciados, comprometendo a transparência e a revisibilidade da decisão.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **`obligation_to_state_practical_consequences_of_decision`**: O tribunal deve explicar **os efeitos concretos** de sua decisão (ex.: como o dano moral será calculado, quais direitos são afetados).  \n- **`prohibition_of_generic_precedent_citation`**: Proíbe o uso de **precedentes genéricos** (ex.: de áreas jurídicas distintas) sem análise de sua **compatibilidade com o regime jurídico específico** (trabalhista).  \n- **`obligation_to_address_all_legal_arguments`**: O tribunal deve **abordar todos os argumentos** apresentados (ex.: critérios da CLT, reforma de 2017, distinções entre direito civil e trabalhista).  \n- **`obligation_to_ground_decision_in_identified_ratio_decidendi`**: A decisão deve ser fundamentada em **razões jurídicas identificáveis** (ex.: artigos da CLT, súmulas do TST, não em analogias civis).  \n- **`constitutional_obligation_to_state_reasons_for_decisions`**: Exige que a decisão seja **transparente e fundamentada**, garantindo que qualquer parte possa compreender e revisar o raciocínio jurídico.  \n- **`right_of_access_to_justice_and_judicial_review`**: Garante que a decisão seja **revisível** por tribunais superiores, exigindo que a fundamentação seja clara e vinculada a normas específicas.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO tribunal usou uma regra de direito civil (do STJ) para decidir um caso de dano moral no trabalho, **sem explicar se essa regra serve para o direito do trabalho**. Isso é **ilegal**, pois:  \n- **A regra civil** (ex.: como calcular o dano moral) **não é a mesma** que a da CLT (ex.: critérios de equilíbrio entre culpa e reparação).  \n- **O tribunal não explicou** por que usou essa regra, nem como ela se aplica ao caso.  \n- **Isso viola a lei**, que exige que as decisões sejam claras, fundamentadas em normas específicas (não em analogias) e revisíveis.  \n\n**Conclusão**: A decisão foi **inválida**, pois o tribunal não seguiu as regras mínimas de transparência e compatibilidade com o direito do trabalho.",
+  "tokens_in": 510,
+  "tokens_out": 1537,
+  "latency_ms": 48750,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

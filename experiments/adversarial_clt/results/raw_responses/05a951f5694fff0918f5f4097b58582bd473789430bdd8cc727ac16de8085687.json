@@ -1,0 +1,26 @@
+{
+  "sha256": "05a951f5694fff0918f5f4097b58582bd473789430bdd8cc727ac16de8085687",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CTRL-NEG-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:13:54Z",
+  "prompt_sha": "8878dc2d9f7cf9a0114687aa1266b009f3a08a32602082365158196ffb12806c",
+  "response_text": "## Análise do Cenário à Luz dos Predicados Normativos\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, a análise segue abaixo:\n\n**1. ANÁLISE DA APLICAÇÃO DOS PREDICADOS:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi (Obrigação de fundamentar a decisão na ratio decidendi identificada):** Este predicado é *completamente* cumprido no cenário. O acórdão trabalhista demonstra explicitamente o cumprimento dessa obrigação. Ele não apenas cita o precedente (TST-Ag-RR-868-65.2021.5.13.0030) e transcreve sua ementa, mas também *analisa a compatibilidade fática* entre o caso do precedente e o caso em julgamento (o que é crucial para a aplicação da ratio).  A ratio do precedente é então *aplicada* ao caso concreto, e a fundamentação explica detalhadamente por que o caso se enquadra na hipótese do precedente. A identificação e aplicação da ratio decidendi são elementos centrais da decisão.\n\n*   **stf_tema1046_binding_precedent_applied (Aplicação do precedente vinculante do STF Tema 1046):** Embora o cenário não mencione explicitamente o Tema 1046 do STF, a aplicação de um precedente do TST (TST-Ag-RR-868-65.2021.5.13.0030) *pode* estar em conformidade com o Tema 1046, dependendo do conteúdo do precedente do TST. O Tema 1046 trata da prevalência da Convenção Coletiva de Trabalho (CCT) sobre a lei em matérias regulamentadas por ela. Se o precedente do TST estiver interpretando a aplicação do Tema 1046 em relação a um determinado assunto (como o banco de horas), então sua aplicação no acórdão trabalhista estaria em conformidade com este predicado.  É importante ressaltar que a *verificação* da conformidade com o Tema 1046 dependeria da análise do conteúdo do precedente do TST.\n\n*   **due_process_of_law (Devido processo legal):** Este predicado também é cumprido. A identificação clara do precedente, a transcrição da ementa, a análise da compatibilidade fática, a aplicação da ratio e a fundamentação detalhada demonstram que o processo de tomada de decisão foi justo e transparente. O trabalhador (ou empregador) teve a oportunidade de entender a base legal e jurisprudencial da decisão, garantindo o devido processo legal. A identificação e a verificação das bases legais e jurisprudenciais reforçam a observância do devido processo legal.\n\n**2. DECISÃO RECOMENDADA:**\n\nA decisão recomendada, com base nos predicados, é que o acórdão trabalhista *mantenha a decisão proferida*, desde que a análise da compatibilidade fática e a aplicação da ratio decidendi do precedente do TST estejam corretas e devidamente fundamentadas.  A decisão deve ser mantida porque o acórdão demonstra o cumprimento dos princípios do devido processo legal e da obrigação de fundamentar a decisão na ratio decidendi de um precedente identificado.  A conformidade com o Tema 1046 do STF deve ser verificada com base no conteúdo do precedente do TST.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** **Conformidade** (totalmente cumprido)\n*   **stf_tema1046_binding_precedent_applied:** **Potencialmente em conformidade** (depende do conteúdo do precedente do TST e sua relação com o Tema 1046).  Necessita de verificação adicional.\n*   **due_process_of_law:** **Conformidade** (totalmente cumprido)\n\n**Observação:** A análise acima é baseada nas informações fornecidas no cenário. Uma análise mais aprofundada exigiria a leitura do acórdão trabalhista e do precedente do TST para verificar a conformidade com o Tema 1046 do STF e a correta aplicação da ratio decidendi.\n",
+  "tokens_in": 381,
+  "tokens_out": 958,
+  "latency_ms": 26453,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

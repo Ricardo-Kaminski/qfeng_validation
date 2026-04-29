@@ -1,0 +1,26 @@
+{
+  "sha256": "b57f43e96c2063baae43a7bc265360a390def8dc513c7b995ae114eff2d1d24b",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:21:18Z",
+  "prompt_sha": "5f4e73ab753f8a08c92d9c93e9a38b2fa765bc9d63234ae058053a9bd2db5213",
+  "response_text": "## Análise do Caso à Luz dos Predicados Normativos\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, a análise e a decisão recomendada são as seguintes:\n\n**1. ANÁLISE:**\n\n*   **prohibition_of_generic_precedent_citation:** Este predicado proíbe a citação genérica de precedentes, exigindo que a fundamentação de uma decisão esteja ancorada em um raciocínio jurídico específico e identificável. A simples menção a uma \"Súmula 312 do TST\" que não existe na base jurisprudencial oficial configura uma clara violação deste predicado. A citação, por si só, não demonstra a existência de um precedente real que sustente a decisão. A fundamentação se torna, portanto, insustentável e carente de base jurídica sólida.\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** Este predicado impõe a obrigação de fundamentar a decisão no *ratio decidendi* (a razão da decisão) de um precedente judicial específico.  O *ratio decidendi* é a parte da decisão que estabelece o princípio jurídico aplicável ao caso concreto.  Ao citar uma Súmula inexistente, o relator não demonstra ter se baseado em um *ratio decidendi* real, mas sim em uma construção jurisprudencial apócrifa. Isso impede a verificação da correta aplicação do direito e a possibilidade de controle da decisão por instâncias superiores.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se a **anulação do acórdão** proferido pelo TST. A fundamentação baseada em uma Súmula inexistente viola frontalmente os princípios do devido processo legal, da transparência e da segurança jurídica. A falta de identificação de um precedente real e verificável impede o controle da legalidade da decisão e compromete a confiança na prestação jurisdicional. A anulação deve ser integral, pois a decisão carece de fundamento jurídico válido.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **prohibition_of_generic_precedent_citation:** **Violação** - A citação de uma Súmula inexistente é a personificação de uma citação genérica e não identificável.\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** **Violação** - A ausência de um precedente real impede a identificação do *ratio decidendi* e, consequentemente, a demonstração de que a decisão foi fundamentada em um princípio jurídico específico.\n\n\n\n**Observação:** A decisão de anulação do acórdão não impede que o TST, após a devida correção da fundamentação, julgue novamente o recurso de revista, desde que o faça com base em precedentes válidos e identificáveis.",
+  "tokens_in": 386,
+  "tokens_out": 622,
+  "latency_ms": 241250,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

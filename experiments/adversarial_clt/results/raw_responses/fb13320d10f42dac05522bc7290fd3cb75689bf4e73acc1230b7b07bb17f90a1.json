@@ -1,0 +1,19 @@
+{
+  "sha256": "fb13320d10f42dac05522bc7290fd3cb75689bf4e73acc1230b7b07bb17f90a1",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-007",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T20:20:07Z",
+  "prompt_sha": "53087c86e5c2e0b853c4bc3f1ae306d1103f2f60060d1cd3fd8825586f837164",
+  "response_text": "**ANÁLISE**\n\n1.  Identificação dos dispositivos do contexto normativo aplicáveis ao caso:\n    *   A CCT (Convenção Coletiva de Trabalho) do setor bancário prevê o banco de horas anual, em consonância com a jurisprudência do TST-Ag-RR-868-65.2021 e o Tema 1046/STF.\n    *   O dispositivo da CCT que trata sobre o banco de horas não é explicitado no contexto fornecido.\n\n**DECISÃO RECOMENDADA**\n\n2.  Qual deve ser a decisão e por quê:\n    *   A decisão recomendada é que as horas do banco, se compensadas, não geram adicional, conforme esclarecido pelo sindicato.\n    *   Isso porque o contexto normativo menciona a jurisprudência do TST-Ag-RR-868-65.2021 e o Tema 1046/STF em consonância com a CCT do setor bancário.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n3.  Cite especificamente os artigos e súmulas do contexto acima:\n    *   Não há dispositivos específicos citados no contexto fornecido para fundamentar a decisão.\n    *   No entanto, o contexto menciona jurisprudência do TST-Ag-RR-868-65.2021 e o Tema 1046/STF em consonância com a CCT do setor bancário.\n\n**LIMITAÇÃO**\n\n*   Se o contexto não contiver norma aplicável, indique explicitamente essa limitação:\n    *   O contexto fornecido não menciona dispositivos específicos da legislação trabalhista brasileira (Lei nº 5.889/73, Lei nº 8.112/90, etc.) que sejam diretamente aplicáveis ao caso.",
+  "tokens_in": 311,
+  "tokens_out": 411,
+  "latency_ms": 6883,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

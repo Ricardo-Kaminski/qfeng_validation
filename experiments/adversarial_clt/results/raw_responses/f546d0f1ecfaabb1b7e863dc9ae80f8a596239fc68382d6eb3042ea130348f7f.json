@@ -1,0 +1,27 @@
+{
+  "sha256": "f546d0f1ecfaabb1b7e863dc9ae80f8a596239fc68382d6eb3042ea130348f7f",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T00:54:11Z",
+  "prompt_sha": "c7e8449adba3d199c2e40ce6b3b2330c3ed8856c57fb05362f83ba3b237f1489",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, a análise, decisão recomendada e identificação de cumprimento/violação são as seguintes:\n\n**1. ANÁLISE:**\n\n*   **maximum_daily_working_hours_8h:** Este predicado estabelece o limite máximo de 8 horas diárias de trabalho, conforme a Constituição Federal (Art. 7°, XIII). A jornada de 10 horas diárias implementada pela empresa, mesmo que com a finalidade de compensação semanal e autorizada por CCT, **colide diretamente** com essa limitação constitucional. A questão central é se a autorização da CCT para banco de horas pode, por si só, desconsiderar o limite máximo diário de 8 horas.\n\n**2. DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que a jornada de 10 horas diárias implementada pela empresa é **ilegal** e deve ser revista para adequação ao limite máximo de 8 horas diárias.\n\n**Fundamentação:**\n\nEmbora a CCT possa regular condições de trabalho e estabelecer o sistema de banco de horas, ela **não pode** suplantar a Constituição Federal. O Art. 7°, XIII, da CF/88 estabelece a duração máxima da jornada de trabalho como 8 horas diárias. A permissão para banco de horas visa flexibilizar a jornada, permitindo a compensação de horas extras em dias de menor atividade, mas **não** autoriza a imposição de jornadas diárias superiores ao limite constitucional.\n\nA jurisprudência do TST tem sido consistente em afirmar que a autonomia da vontade coletiva, expressa em CCT, encontra limites na ordem jurídica constitucional. A possibilidade de compensação de horas por meio do banco de horas não pode ser utilizada para contornar a proteção constitucional à duração máxima da jornada de trabalho.\n\nPortanto, a empresa deve ajustar a jornada de trabalho para garantir que os empregados não ultrapassem as 8 horas diárias, mesmo que haja compensação semanal por meio do banco de horas. A CCT, embora válida em seus termos gerais, não pode ser interpretada de forma a permitir a violação de direitos constitucionais.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **maximum_daily_working_hours_8h:** **Violação**. A jornada de 10 horas diárias implementada pela empresa excede o limite máximo de 8 horas estabelecido na Constituição Federal.\n\n**Observações Adicionais:**\n\n*   É importante verificar a redação exata da CCT para analisar se há alguma disposição que possa mitigar a situação, mas, em geral, a autorização para banco de horas não é suficiente para justificar jornadas diárias superiores a 8 horas.\n*   A empresa deve buscar diálogo com os representantes dos trabalhadores para encontrar uma solução que atenda às necessidades da empresa e respeite os direitos dos empregados.\n*   A implementação de qualquer alteração na jornada de trabalho deve ser acompanhada de informações claras e transparentes aos empregados, garantindo o seu consentimento e evitando conflitos.\n*   A empresa pode buscar orientação jurídica especializada para garantir a conformidade com a legislação trabalhista e evitar riscos de ações judiciais.",
+  "tokens_in": 336,
+  "tokens_out": 706,
+  "latency_ms": 19500,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

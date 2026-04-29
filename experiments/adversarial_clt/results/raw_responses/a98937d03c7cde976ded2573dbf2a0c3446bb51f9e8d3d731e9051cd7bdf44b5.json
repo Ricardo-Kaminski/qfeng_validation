@@ -1,0 +1,19 @@
+{
+  "sha256": "a98937d03c7cde976ded2573dbf2a0c3446bb51f9e8d3d731e9051cd7bdf44b5",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-009",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T07:58:18Z",
+  "prompt_sha": "b09008be3db8993e87c56a00bc3805af6ee10f0702c17448ede0c29eef458272",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO caso apresenta duas questões jurídicas relevantes:  \n- **A falta de fundamentação da decisão do magistrado trabalhista**, que simplesmente reproduziu os fundamentos da sentença de primeiro grau sem qualquer análise ou motivação própria.  \n- **A não consideração do precedente superado pelo TST**, o que configura omissão de análise jurisprudencial necessária.  \n\nOs dispositivos normativos aplicáveis ao caso são:  \n- **Art. 128 do Código de Processo Civil (CPC)**: Estabelece que a sentença deve conter fundamentação jurídica e fática, explicando os motivos que levaram à decisão.  \n- **Súmula 7 do Supremo Tribunal Federal (STF)**: \"A sentença deve conter fundamentação jurídica e fática, com indicação dos fatos e das normas que serviram de base para a decisão.\"  \n- **Súmula 333 do Tribunal Superior do Trabalho (TST)**: \"O acórdão deve conter fundamentação jurídica e fática, com indicação dos fatos e das normas que serviram de base para a decisão.\"  \n\n### 2. **DECISÃO RECOMENDADA**  \nA decisão do TRT deve ser **anulada** por falta de fundamentação jurídica e por não ter considerado o precedente superado pelo TST.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 128 do CPC** e **Súmula 7 do STF**: A sentença do TRT, ao simplesmente reproduzir os fundamentos da sentença de primeiro grau sem motivação própria, viola o princípio da motivação das decisões, previsto no CPC e reforçado pela Súmula 7 do STF.  \n- **Súmula 333 do TST**: O acórdão do TRT não apenas omitiu a fundamentação jurídica, mas também ignorou o precedente superado pelo TST, o que configura violação da Súmula 333, que exige que o acórdão contenha fundamentação jurídica e fática adequadas.  \n\n**Limitação do contexto normativo**:  \nO contexto não menciona explicitamente dispositivos do TST relacionados à atualização de jurisprudência (como, por exemplo, a **Súmula 329 do TST**, que prevê a aplicação de jurisprudência consolidada), mas a ausência de análise do precedente superado pelo TST é uma violação direta do princípio da motivação e da aplicação da jurisprudência vigente, conforme previsto no CPC e na Súmula 333 do TST.",
+  "tokens_in": 280,
+  "tokens_out": 1067,
+  "latency_ms": 65921,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

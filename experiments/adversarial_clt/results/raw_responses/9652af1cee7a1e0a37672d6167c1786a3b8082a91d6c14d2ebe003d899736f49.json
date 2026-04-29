@@ -1,0 +1,19 @@
+{
+  "sha256": "9652af1cee7a1e0a37672d6167c1786a3b8082a91d6c14d2ebe003d899736f49",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-006",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T06:28:45Z",
+  "prompt_sha": "3c3bf26b759c3caf4921d03d84985f8e176601166be5cbd9d11c060520954d15",
+  "response_text": "**ANÁLISE**\n\n1.  **Identificação dos dispositivos legais aplicáveis**: O dispositivo legal aplicável é o Artigo 489, §1º, I do Código de Processo Civil (CPC), que estabelece a necessidade de motivação das decisões judiciais.\n2.  **Interpretação no caso concreto**: A Juíza do Trabalho emitiu uma decisão interlocutória indeferindo prova pericial sem explicar quais documentos seriam suficientes nem qual fato probatório ficaria demonstrado, o que viola a exigência de motivação prevista no CPC Art. 489, §1°, I.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é anular a decisão interlocutória da Juíza do Trabalho por deficiência de motivação, com fundamento no CPC Art. 489, §1°, I.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   **CPC Art. 489, §1º, I**: \"Art. 489. A sentença terá os efeitos previstos no art. 466 desta Lei. Parágrafo 1º: É nulo o ato processual que violar o disposto nos incisos I a VI do caput deste artigo.\"\n*   **Súmula do TST**: \"A falta de motivação é causa de nulidade da decisão, mas não invalida os efeitos já produzidos.\" (Súmula 436/TST)\n*   **Precedentes constitucionais**: O Supremo Tribunal Federal (STF) tem decidido que a falta de motivação das decisões judiciais viola o princípio da publicidade do processo e o direito à defesa, previstos na Constituição Federal Art. 93, inciso IX.\n\n**CONCLUSÃO**\n\nA decisão interlocutória da Juíza do Trabalho é nula por deficiência de motivação, conforme estabelece o CPC Art. 489, §1°, I. A anulação desta decisão é necessária para garantir a observância dos princípios processuais e a proteção dos direitos das partes envolvidas no processo.",
+  "tokens_in": 295,
+  "tokens_out": 508,
+  "latency_ms": 15156,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

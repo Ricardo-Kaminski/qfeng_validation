@@ -1,0 +1,26 @@
+{
+  "sha256": "34fa69f8df9ff3a8105668542bf74a281b353cca5f92e4721b8c6428952baefd",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-007",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:27:22Z",
+  "prompt_sha": "1d68b02e56a3be519b2c411e30a4e5202d217b01b44ee4ca2db84ac049f73210",
+  "response_text": "## Análise do Caso à Luz dos Predicados Normativos\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, a análise e a decisão recomendada seguem abaixo:\n\n**1. ANÁLISE:**\n\n*   **prohibition_of_generic_precedent_citation:** Este predicado proíbe a citação genérica de precedentes sem a devida fundamentação na *ratio decidendi* específica. No caso, o TST citou um IRDR do TRT-15ª Região como se fosse um precedente vinculante nacional. A simples menção ao IRDR, sem demonstrar como sua *ratio decidendi* se aplica precisamente ao caso em análise e sem considerar a ausência de efeito vinculante nacional, configura uma citação genérica. O TST não explicou adequadamente por que a decisão do TRT-15ª Região seria aplicável e vinculante ao caso concreto, violando a necessidade de fundamentação específica.\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** Este predicado impõe a obrigação de fundamentar a decisão na *ratio decidendi* identificada do precedente. O TST, ao tratar o IRDR regional como precedente vinculante, não cumpriu essa obrigação. Um IRDR, por definição, é uma decisão regional. Mesmo que contenha uma tese interessante, ela não se torna automaticamente vinculante em todo o país. Para que o TST pudesse aplicar a *ratio decidendi* do IRDR, seria necessário demonstrar que a questão era idêntica, que a *ratio* era aplicável e que havia justificativa para estender sua aplicação para além da região. A mera citação como precedente vinculante ignora a necessidade de análise e justificação da aplicabilidade da *ratio*.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que a decisão do TST seja revista. A parte prejudicada tem razão em alegar violação ao CPC Art. 489, §1°, V. O TST deve:\n\n*   **Reconhecer a incorreção da aplicação do IRDR do TRT-15ª Região como precedente vinculante nacional.** A decisão do TST deve ser explicitamente fundamentada na ausência de efeito vinculante nacional do IRDR e na necessidade de análise da *ratio decidendi* para sua aplicação.\n*   **Analisar o caso concreto com base em outros fundamentos jurídicos.** O TST deve reexaminar a questão, utilizando outros precedentes (se houver) ou princípios gerais do Direito do Trabalho para fundamentar a decisão, evitando a utilização de um precedente regional como se fosse vinculante nacional.\n*   **Garantir a devida fundamentação da decisão.** A decisão revisada deve apresentar uma análise clara e detalhada dos fatos e do direito aplicável, demonstrando a *ratio decidendi* utilizada e a sua aplicabilidade ao caso concreto.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **prohibition_of_generic_precedent_citation:** **Violação**. A citação do IRDR como precedente vinculante nacional, sem a devida fundamentação na *ratio decidendi* e sem considerar a ausência de efeito vinculante, configura uma citação genérica.\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** **Violação**. O TST não cumpriu a obrigação de fundamentar a decisão na *ratio decidendi* identificada do precedente, pois simplesmente aplicou o IRDR como se fosse vinculante, sem análise da sua aplicabilidade.\n",
+  "tokens_in": 347,
+  "tokens_out": 782,
+  "latency_ms": 21516,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "a8cab7d19da541cd6cef29dc857fd995dadd6f47bcaf1de8460d0a7c7fefc79d",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-011",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T07:00:31Z",
+  "prompt_sha": "78be57c65268b89421466a483625c1ddd0dc66ed94122f80bd1d79254ece4e75",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a aplicação de um banco de horas anual previsto em uma Convenção Coletiva de Trabalho (CCT) entre a empresa e o trabalhador. O dispositivo legal mais relevante para esse caso é a CLT, especificamente as disposições sobre banco de horas.\n\n**Dispositivos Legais Aplicáveis:**\n\n- **CLT, artigo 59:** Regula os acordos coletivos de trabalho, incluindo as convenções coletivas de trabalho.\n- **CLT, artigo 59, parágrafo único:** Determina que a duração do prazo para o cumprimento das obrigações decorrentes dos acordos e convenções coletivas não pode exceder um ano, salvo se expressamente estabelecido em contrário.\n- **CLT, artigo 59, § 2º:** Estabelece que a duração do prazo para o cumprimento das obrigações decorrentes dos acordos e convenções coletivas é contada da data de sua celebração.\n\n**Interpretação no Caso Concreto:**\n\nA empresa argumenta que o período de afastamento por acidente de trabalho deve ser considerado para suspender o prazo de compensação das horas do banco de horas. No entanto, a CCT não prevê expressamente tal suspensão.\n\n**DECISÃO RECOMENDADA:**\n\nConsiderando a falta de previsão na CCT e os dispositivos legais aplicáveis, recomenda-se que a decisão seja favorável ao trabalhador. O prazo para compensação das horas do banco de horas deve ser contado da data do início do período de afastamento, não sendo suspenso pelo tempo em que o trabalhador esteve afastado.\n\n**FUNDAMENTAÇÃO NORMATIVA:**\n\n- **CLT, artigo 59:** A duração do prazo para cumprir as obrigações decorrentes dos acordos e convenções coletivas não pode exceder um ano, salvo se expressamente estabelecido em contrário.\n- **Súmula 359 do TST:** \"A suspensão de contrato de trabalho por força maior suspende o prazo para a rescisão do contrato.\"\n- **Precedentes Constitucionais:** Não há precedente específico citado, mas é importante lembrar que a Constituição Federal protege os direitos dos trabalhadores e estabelece princípios como a irredutibilidade salarial (artigo 7º, inciso V) e o direito à justa causa (artigo 5º, inciso XXXII).\n\n**CONCLUSÃO:**\n\nA decisão deve ser favorável ao trabalhador, pois não há previsão na CCT para suspender o prazo de compensação das horas do banco de horas pelo período de afastamento. A interpretação dos dispositivos legais aplicáveis e a jurisprudência do TST apoiam essa conclusão.",
+  "tokens_in": 334,
+  "tokens_out": 672,
+  "latency_ms": 22156,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

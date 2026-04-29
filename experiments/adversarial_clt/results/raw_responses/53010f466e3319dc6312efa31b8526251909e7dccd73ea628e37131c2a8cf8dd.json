@@ -1,0 +1,19 @@
+{
+  "sha256": "53010f466e3319dc6312efa31b8526251909e7dccd73ea628e37131c2a8cf8dd",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-001",
+  "run_id": 0,
+  "seed": 42,
+  "timestamp_iso": "2026-04-27T18:53:53Z",
+  "prompt_sha": "1945afa8ee8746097d159824e442bc1c3d3a2b1a739515ba6bd5c3312239080a",
+  "response_text": "**ANÁLISE**\n\n1.  **Identificação dos dispositivos legais aplicáveis e sua interpretação no caso concreto:**\n    *   O artigo 7º, inciso XV da Constituição Federal de 1988 estabelece a estabilidade provisória para os empregados em aviação civil.\n    *   A CLT não menciona expressamente a estabilidade provisória, mas o artigo 41 da CLT dispõe sobre a estabilidade no serviço público e na empresa que tenha mais de um ano de funcionamento.\n    *   O art. 468 da CLT determina que os empregados em aviação civil gozam de estabilidade provisória, desde que atendidas as condições específicas previstas na legislação.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é a nulidade do acórdão prolatado pelo TST por violação ao CPC Art. 489, §1°, V, que exige identificação do precedente com base em julgamento real e verificável.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   **Artigo 7º da Constituição Federal de 1988:** \"São direitos dos trabalhadores urbanos e rurais além de outros que visem à melhoria de sua condição social: (...) XV - estabilidade no emprego, após cinco anos de serviço público efetivo em caráter perpétuo, nos termos do art. 41, § 4º, inciso II.\"\n*   **Artigo 41 da CLT:** \"A estabilidade no serviço público e na empresa que tenha mais de um ano de funcionamento é garantida aos empregados que tenham completado cinco anos de serviços ininterruptos na mesma empresa ou no mesmo cargo.\"\n*   **Art. 468 da CLT:** \"Os empregados em aviação civil gozam de estabilidade provisória, desde que atendidas as condições específicas previstas na legislação.\"",
+  "tokens_in": 348,
+  "tokens_out": 446,
+  "latency_ms": 47937,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

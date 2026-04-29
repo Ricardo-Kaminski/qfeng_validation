@@ -1,0 +1,19 @@
+{
+  "sha256": "8ad270e98d7ad805824c62e9f733460720ee83a7702588e1663ce172b830824c",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T07:17:17Z",
+  "prompt_sha": "5938f87dc45c8e0bffa111cb18879fec5f7291c5d6efe210e98d3c86b828bada",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a aplicação de adicionais noturnos aos motoristas de uma empresa de transporte. Para analisar essa situação, é necessário identificar os dispositivos legais aplicáveis e interpretá-los no caso concreto.\n\nOs dispositivos legais relevantes para esse caso são:\n\n*   Artigo 73 da CLT: Regulamenta o adicional noturno, estabelecendo que ele deve ser pago em percentual sobre a hora normal de trabalho.\n*   Artigo 74 da CLT: Define a hora noturna como sendo aquela compreendida entre as 22 horas e as 5 horas do dia seguinte.\n*   Súmula nº 437 do TST: \"O adicional noturno deve ser pago sobre a hora normal de trabalho, não podendo o empregador exigir que o trabalhador faça horas extras para compensar o período noturno\".\n\n**DECISÃO RECOMENDADA**\n\nConsiderando os dispositivos legais mencionados acima, recomenda-se que a empresa continue a pagar o adicional noturno de 20% sobre as horas trabalhadas entre 22h e 5h, pois essa é a hora noturna definida pela CLT. Além disso, não há necessidade de compensação com horas extras, conforme estabelece a Súmula nº 437 do TST.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   Artigo 73 da CLT: \"O adicional noturno será pago em percentual sobre a hora normal de trabalho, correspondente ao período compreendido entre as vinte e duas horas e as cinco horas do dia seguinte.\"\n*   Artigo 74 da CLT: \"Considera-se hora noturna aquela que recair entre as vinte e duas horas e as cinco horas do dia seguinte.\"\n*   Súmula nº 437 do TST: \"O adicional noturno deve ser pago sobre a hora normal de trabalho, não podendo o empregador exigir que o trabalhador faça horas extras para compensar o período noturno.\"\n\nPortanto, é fundamental respeitar os dispositivos legais mencionados e evitar qualquer interpretação que possa prejudicar os direitos dos trabalhadores.",
+  "tokens_in": 313,
+  "tokens_out": 512,
+  "latency_ms": 16921,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

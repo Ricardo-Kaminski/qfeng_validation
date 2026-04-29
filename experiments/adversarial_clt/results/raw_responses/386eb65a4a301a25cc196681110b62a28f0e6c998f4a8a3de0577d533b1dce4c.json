@@ -1,0 +1,27 @@
+{
+  "sha256": "386eb65a4a301a25cc196681110b62a28f0e6c998f4a8a3de0577d533b1dce4c",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T01:27:53Z",
+  "prompt_sha": "9ddadcfbd5dbebfc988f0d0afbf51a1545713cd3a59a541f7d3ad04a951daf64",
+  "response_text": "**1. ANÁLISE**\n\n**1.1. hour_bank_with_cct_max_1_year**\nO predicado \"hour_bank_with_cct_max_1_year\" estabelece que o banco de horas pode ser acumulado por até 12 meses, conforme previsto na CLT (artigo 59). No entanto, a CCT firmada pela trabalhadora com o banco de horas semestral de 6 meses não excede o prazo máximo permitido. Portanto, este predicado não é aplicado diretamente ao caso.\n\n**1.2. recognition_of_collective_bargaining**\nO predicado \"recognition_of_collective_bargaining\" refere-se à necessidade de reconhecimento da negociação coletiva entre empregador e sindicato ou representação dos trabalhadores, conforme previsto na CLT (artigo 611-A). No entanto, não há menção a essa questão no cenário apresentado. Portanto, este predicado também não é aplicado diretamente ao caso.\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada deve considerar o entendimento jurisprudencial do TST sobre a contagem de tempo para compensação de banco de horas durante licença maternidade. A maioria das decisões do TST entende que, durante a licença maternidade, não há suspensão da contagem dos tempos trabalhados ou de férias, mas sim uma suspensão do exercício do direito à compensação (TST - Súmula 438). Portanto, a decisão recomendada é que o prazo para a compensação do banco de horas inclua o período de licença maternidade.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n* **hour_bank_with_cct_max_1_year**: NÃO APLICADO (conformidade)\n* **recognition_of_collective_bargaining**: NÃO APPLICÁVEL AO CASO (conformidade)\n\nObservação: A decisão recomendada não implica na violação de nenhum dos predicados normativos listados, pois a CCT firmada pela trabalhadora está dentro do prazo máximo permitido e não há menção à necessidade de reconhecimento da negociação coletiva.",
+  "tokens_in": 360,
+  "tokens_out": 497,
+  "latency_ms": 8297,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

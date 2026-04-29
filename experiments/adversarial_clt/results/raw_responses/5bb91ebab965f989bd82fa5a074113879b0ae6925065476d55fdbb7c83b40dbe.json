@@ -1,0 +1,19 @@
+{
+  "sha256": "5bb91ebab965f989bd82fa5a074113879b0ae6925065476d55fdbb7c83b40dbe",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-006",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T10:21:54Z",
+  "prompt_sha": "caed60f8d7236d27119212e19182ccd57f46b0e0f27797e3747f1a33d35138bd",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO caso envolve a **aplicação incorreta do Tema 1046/STF** e do **TST-Ag-RR-868-65.2021**, com base no **contexto normativo fornecido**. Os dispositivos relevantes são:  \n- **Tema 1046/STF**: Estabelece que a **validade de convenções coletivas de trabalho (CCT) no setor bancário** depende da existência de uma CCT previamente celebrada, conforme o **espírito da negociação coletiva**.  \n- **TST-Ag-RR-868-65.2021**: Reafirma que a **validade de um banco de horas** está condicionada à existência de uma CCT que prevê tal regime, conforme a **ratio decidendi** do precedente.  \n\nO tribunal **inverteu a ratio decidendi** ao aplicar o **espírito da autonomia negocial** (presente no Tema 1046/STF) para justificar a validade de um banco de horas **sem CCT**, o que **contraria o pressuposto essencial** do precedente (a existência de CCT).  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**Rejeitar a aplicação do precedente** e **anular a decisão do tribunal**, pois:  \n- O **Tema 1046/STF** e o **TST-Ag-RR-868-65.2021** **pressupõem a existência de uma CCT** para a validade de regimes como o banco de horas.  \n- A **inversão da ratio decidendi** (usar a autonomia negocial para justificar a validade de banco de horas sem CCT) **viola o princípio da legalidade** e o **pressuposto da negociação coletiva**.  \n- A **ausência de CCT** configura **vício formal** na aplicação do precedente, tornando a decisão **inadmissível**.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Tema 1046/STF**: O **espírito do precedente** está em **valorizar a negociação coletiva**, mas **não dispensa a existência de CCT**. A **ratio decidendi** do Tema 1046/STF **pressupõe a existência de CCT** para a validade de regimes trabalhistas no setor bancário.  \n- **TST-Ag-RR-868-65.2021**: O **precedente do TST** reforça que a **validade de banco de horas** depende de **disposição expressa em CCT**, conforme **ratio decidendi**.  \n- **Limitação do contexto normativo**: O **contexto não fornece artigos ou súmulas específicas** do STF ou TST além dos mencionados (Tema 1046/STF e TST-Ag-RR-868-65.2021). Portanto, a análise **não pode extrapolar** esses dispositivos, mas **deve basear-se exclusivamente** na **interpretação correta de sua ratio decidendi**.  \n\n**Conclusão**: A **aplicação incorreta do precedente** pelo tribunal **viola o pressuposto essencial** (CCT) e **não pode ser mantida**.",
+  "tokens_in": 313,
+  "tokens_out": 1303,
+  "latency_ms": 77110,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

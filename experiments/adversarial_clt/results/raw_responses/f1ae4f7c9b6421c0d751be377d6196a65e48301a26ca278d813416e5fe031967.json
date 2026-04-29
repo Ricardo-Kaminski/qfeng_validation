@@ -1,0 +1,26 @@
+{
+  "sha256": "f1ae4f7c9b6421c0d751be377d6196a65e48301a26ca278d813416e5fe031967",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T23:36:52Z",
+  "prompt_sha": "5f4e73ab753f8a08c92d9c93e9a38b2fa765bc9d63234ae058053a9bd2db5213",
+  "response_text": "1. **ANÁLISE:**\n\n   - **prohibition_of_generic_precedent_citation:** Este predicado normativo proíbe a citação de precedentes que não existam na base jurisprudencial oficial, como é o caso da Súmula 312 mencionada pelo relator no acórdão. A menção a uma súmula inexistentes viola essa proibição, pois cria uma falsa aparência de autoridade normativa e pode levar à confusão ou erro na aplicação do direito.\n\n   - **obligation_to_ground_decision_in_identified_ratio_decidendi:** Este predicado exige que a decisão seja fundamentada em um precedente real e verificável, identificado claramente como o ratio decidendi. No caso concreto, ao citar uma súmula inexistentes, o relator não cumpriu essa obrigação de fundamentar sua decisão em um precedente válido e reconhecido oficialmente.\n\n2. **DECISÃO RECOMENDADA:**\n\n   A decisão recomendada é conceder a nulidade do acórdão por violação ao CPC Art. 489, §1°, V. Isso ocorre porque o acórdão foi fundamentado em uma súmula inexistentes, não cumprindo com a obrigação de identificar e utilizar um precedente real e verificável. A nulidade é justificada pela necessidade de garantir que as decisões judiciais sejam baseadas em autoridades normativas legítimas e reconhecidas.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violados:**\n     - *prohibition_of_generic_precedent_citation:* Violado, pois o acórdão citou uma súmula inexistentes.\n     - *obligation_to_ground_decision_in_identified_ratio_decidendi:* Violado, já que a decisão não foi fundamentada em um precedente real e verificável.\n\n   - **Cumpriu:**\n     - Nenhum dos predicados listados foi cumprido no cenário apresentado.",
+  "tokens_in": 407,
+  "tokens_out": 472,
+  "latency_ms": 70094,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

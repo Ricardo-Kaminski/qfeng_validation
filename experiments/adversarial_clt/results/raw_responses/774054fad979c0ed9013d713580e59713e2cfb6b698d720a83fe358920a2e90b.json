@@ -1,0 +1,19 @@
+{
+  "sha256": "774054fad979c0ed9013d713580e59713e2cfb6b698d720a83fe358920a2e90b",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-007",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T20:24:56Z",
+  "prompt_sha": "9bacaa349dbb6d2a773ce01b363f59c0f83a68a0e290a99d41219255cc9c8cc8",
+  "response_text": "**ANÁLISE**\n\n1. Os dispositivos do contexto normativo aplicáveis ao caso são:\n * CF/88 Art. 10, II, \"b\" (ADCT);\n * Súmula TST 244;\n * OJ 399 da SDI-1.\n\n**DECISÃO RECOMENDADA**\n\n2. A decisão recomendada é a nulidade da dispensa e reintegração do empregado gestante, pois a gravidez ocorreu antes da dispensa (fato provado), o que caracteriza a estabilidade provisória prevista na CF/88.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n3. A fundamentação normativa é baseada nos seguintes dispositivos:\n\n * CF/88 Art. 10, II, \"b\" (ADCT): não há menção explícita ao dispositivo em questão no contexto fornecido, mas pode estar relacionado à estabilidade provisória de gestantes.\n * Súmula TST 244: não é mencionada explicitamente no contexto fornecido. No entanto, a Súmula TST 244 trata sobre a estabilidade do empregado gestante e pode ser aplicável ao caso.\n * OJ 399 da SDI-1: afasta a exigência de comunicação prévia da gravidez ao empregador.\n\nA decisão menciona explicitamente a OJ 399 para afastar a exigência de comunicação prévia da gravidez ao empregador.",
+  "tokens_in": 323,
+  "tokens_out": 325,
+  "latency_ms": 5526,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

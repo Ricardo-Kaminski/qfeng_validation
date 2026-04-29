@@ -1,0 +1,19 @@
+{
+  "sha256": "f06551772807be099e8469f5b20987e8a27ea91373c88230fc47d127420bec5d",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T13:17:15Z",
+  "prompt_sha": "fe5ea1e90bce3809f6b9e66296de41abc23c26c20d8a019c18931364e6d77260",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas no Setor Hoteleiro\n\nCom base no contexto normativo fornecido, apresento a análise, decisão recomendada e fundamentação:\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nO caso envolve a validade de uma Cláusula Coletiva de Trabalho (CCT) que estabelece um prazo de compensação de banco de horas superior ao limite legal de um ano. Os dispositivos normativos relevantes para a análise são:\n\n*   **CCT do Setor Hoteleiro:** Estabelece o sistema de banco de horas com prazo de compensação de 14 meses. Este é o ponto central da controvérsia.\n*   **Autonomia das Partes Coletivas:** A empresa hoteleira invoca a autonomia das partes coletivas para justificar a validade da CCT, argumentando que ela pode flexibilizar a norma legal.\n*   **Princípio da Adequação Setorial Negociada:** A empresa também utiliza o princípio da adequação setorial negociada para sustentar que a CCT pode estabelecer regras específicas para o setor hoteleiro.\n*   **Súmula TST 85, V:** O sindicato dos hotéis se baseia nesta súmula para argumentar que o limite de 1 ano para compensação do banco de horas é norma de ordem pública.\n\n**2. DECISÃO RECOMENDADA**\n\nRecomenda-se que a decisão seja **favorável ao sindicato dos hotéis**, mantendo o limite de 1 ano para a compensação do banco de horas, conforme estabelecido pela Súmula TST 85, V. A CCT do setor hoteleiro, nesse ponto, não pode ultrapassar esse limite.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação da decisão reside na prevalência da Súmula TST 85, V, que estabelece um limite de 1 ano para a compensação do banco de horas como norma de ordem pública.\n\n*   **Súmula TST 85, V:** \"O art. 7º, § 2º, da Constituição Federal, garante aos sindicatos a livre negociação coletiva, mas essa liberdade tem limites, pois não podem as convenções e acordos coletivos dispor contrário às disposições de lei ou às normas de ordem pública.\"\n\nA Súmula TST 85, V, embora não defina explicitamente o que constitui \"norma de ordem pública\", a jurisprudência do Tribunal Superior do Trabalho (TST) tem reiteradamente aplicado essa expressão a dispositivos legais que visam proteger direitos mínimos do trabalhador, como o limite de tempo para compensação do banco de horas.  O limite de 1 ano visa evitar a preclusão do direito do trabalhador à compensação e garantir que o saldo positivo do banco de horas seja efetivamente utilizado em benefício do empregado.\n\nEmbora a autonomia das partes coletivas e o princípio da adequação setorial negociada sejam importantes para a flexibilização das relações de trabalho, eles não podem ser utilizados para suplantar normas de ordem pública que visam proteger os direitos fundamentais do trabalhador. A CCT pode, sim, negociar condições mais favoráveis ao trabalhador em relação ao que está previsto em lei, mas não pode estabelecer regras que o prejudiquem ou que violem direitos mínimos assegurados pela legislação.\n\n**Limitação do Contexto:**\n\nO contexto normativo fornecido é limitado. Não há a lei que estabelece o limite de 1 ano para compensação do banco de horas. A Súmula TST 85, V é a única referência que indica que esse limite é considerado norma de ordem pública. Para uma análise mais completa, seria necessário analisar a legislação pertinente (ex: CLT) e outras decisões do TST que tratem do tema.",
+  "tokens_in": 278,
+  "tokens_out": 836,
+  "latency_ms": 46469,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "31c065e492fae8647ef30af93498c53bbbd24454a6045f7e0525623159c686f3",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T10:16:43Z",
+  "prompt_sha": "b6e4c61ea8527c860962ba88d6b508c94439e853c9816adb4eb2e1c7272aacf0",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO caso em questão envolve a aplicação da **Súmula TST 85**, que trata da **validade de banco de horas sem CCT/ACT** e da **natureza das horas trabalhadas**. Os dispositivos aplicáveis são:  \n- **Item I da Súmula TST 85**: Estabelece que, **na ausência de CCT/ACT**, o banco de horas **não pode ser considerado como compensação de horas**, devendo as horas excedentes ser consideradas **extras**.  \n- **Item II da Súmula TST 85**: Afirma que **o acordo tácito não substitui a existência de CCT/ACT** para a validade do banco de horas.  \n- **Item V da Súmula TST 85**: Determina que, **sem CCT/ACT**, as horas trabalhadas em excesso são **extras**, com direito ao **adicional de 50%**.  \n\n### 2. **DECISÃO RECOMENDADA**  \nA decisão correta é **reconhecer todas as horas trabalhadas como extras**, com **adicional de 50%**, e **rejeitar a tese da empresa de \"acordo tácito\"**. Isso ocorre porque:  \n- **Ausência de CCT/ACT**: O banco de horas não pode ser validado sem a existência de acordo coletivo ou individual (item I da Súmula 85).  \n- **Invalidez do acordo tácito**: O acordo tácito **não substitui a formalização de CCT/ACT** (item II da Súmula 85), sendo inaplicável para regular o banco de horas.  \n- **Natureza das horas**: Sem CCT/ACT, as horas excedentes são **extras**, com direito ao adicional de 50% (item V da Súmula 85).  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Súmula TST 85, item I**: \"O banco de horas, sem CCT/ACT, não pode ser considerado como compensação de horas, devendo as horas excedentes ser consideradas extras.\"  \n- **Súmula TST 85, item II**: \"O acordo tácito não substitui a existência de CCT/ACT para a validade do banco de horas.\"  \n- **Súmula TST 85, item V**: \"Na ausência de CCT/ACT, as horas trabalhadas em excesso são extras, com direito ao adicional de 50%.\"  \n\n**Limitação do contexto**: O contexto normativo fornecido **não menciona outros dispositivos legais** (como artigos do Código Civil, da CLT ou da Consolidação das Leis do Trabalho), limitando-se exclusivamente à **Súmula TST 85**. Portanto, a análise se baseia **exclusivamente** nos itens citados da Súmula, sem extrapolação de normas não mencionadas.",
+  "tokens_in": 325,
+  "tokens_out": 1220,
+  "latency_ms": 75983,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

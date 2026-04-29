@@ -1,0 +1,26 @@
+{
+  "sha256": "57fc9914c29a8645fbfc8acb02273ea6a498d2520d3e513ad4841ae671e506c0",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CTRL-NEG-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:16:56Z",
+  "prompt_sha": "57cf080c70ee6d5ee75af46a8cd79a5aba980ddfcf3914fb8da919567e87ba49",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso\n\nCom base nos predicados normativos fornecidos, apresento a análise, decisão recomendada e identificação de cumprimento/violação:\n\n**1. ANÁLISE:**\n\n*   **obligation_to_pay_nocturnal_premium_20pct (Obrigação de pagar adicional noturno de 20%):** Este predicado é fundamental para o caso. A empresa está cumprindo a obrigação de pagar o adicional noturno de 20% aos motoristas que trabalham no período noturno (22h às 5h). A discriminação do adicional no contracheque também demonstra transparência e facilita a fiscalização.\n*   **maximum_daily_working_hours_8h (Limite máximo de 8 horas diárias):** A empresa afirma que não realiza horas extras, mesmo para motoristas em turno noturno, respeitando o limite máximo de 8 horas diárias.  Este ponto é crucial para determinar se a empresa está cumprindo a legislação, mas requer verificação da jornada de trabalho na prática. A simples afirmação da empresa não é suficiente; é necessário comprovar que a jornada de trabalho está, de fato, limitada a 8 horas diárias.\n\n**2. DECISÃO RECOMENDADA:**\n\nA decisão recomendada depende da verificação da jornada de trabalho na prática.\n\n*   **Se a jornada de trabalho dos motoristas estiver efetivamente limitada a 8 horas diárias:** A empresa está cumprindo a legislação e a decisão recomendada é manter a prática atual, garantindo a continuidade do pagamento do adicional noturno de 20% e a transparência na discriminação do valor no contracheque. É importante que a empresa mantenha registros precisos da jornada de trabalho para comprovar o cumprimento da lei em caso de fiscalização.\n*   **Se a jornada de trabalho dos motoristas ultrapassar 8 horas diárias, mesmo que não sejam consideradas horas extras:** A empresa está violando o limite máximo de 8 horas diárias estabelecido na CLT.  Nesse caso, a empresa deve:\n    *   Imediatamente ajustar a jornada de trabalho dos motoristas para que não ultrapasse 8 horas diárias.\n    *   Revisar os cálculos do pagamento do adicional noturno, considerando as horas extras que estavam sendo realizadas, se houver.\n    *   Corrigir eventuais diferenças salariais retroativas.\n    *   Implementar controles mais rigorosos para garantir o cumprimento da legislação.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **obligation_to_pay_nocturnal_premium_20pct:** **Conformidade** (A empresa está pagando o adicional noturno).\n*   **maximum_daily_working_hours_8h:** **Pendente de Verificação**.  A empresa afirma cumprir, mas é necessário confirmar se a jornada de trabalho dos motoristas está, de fato, limitada a 8 horas diárias.  Se a jornada ultrapassar esse limite, haverá **Violação**.\n\n**Observações Importantes:**\n\n*   A duração da jornada noturna deve ser considerada para fins de cálculo do adicional noturno, e a empresa deve garantir que a duração da jornada noturna não ultrapasse o limite legal.\n*   A forma como a empresa calcula a hora noturna (52 minutos e 30 segundos) deve ser verificada para garantir que esteja em conformidade com a legislação e a jurisprudência do TST.\n*   A análise acima é baseada unicamente nos predicados fornecidos. Outros aspectos do contrato de trabalho e da legislação podem ser relevantes para uma análise mais completa.\n*   É crucial que a empresa mantenha registros precisos da jornada de trabalho dos motoristas para comprovar o cumprimento da legislação em caso de fiscalização.\n*   A verificação da jornada de trabalho deve ser feita através de documentos como registros de ponto, controle de acesso, e entrevistas com os motoristas.\n",
+  "tokens_in": 345,
+  "tokens_out": 854,
+  "latency_ms": 23577,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

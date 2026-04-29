@@ -1,0 +1,29 @@
+{
+  "sha256": "0de756e90fb5364c8e5d7930e43edc103fed57993ac05002f56a907fb6f827c1",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-006",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T00:42:03Z",
+  "prompt_sha": "b5f3c80de151d181ed81c9553198da00fb088cfbddccc1f18b7d78267efcf67e",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas em Empresa de Limpeza Urbana\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, apresento a análise, decisão recomendada e identificação de cumprimento/violação dos predicados.\n\n**1. ANÁLISE DOS PREDICADOS NORMATIVOS:**\n\n*   **`semester_hour_bank_requires_cct_or_act` (Banco de horas requer CCT ou ACT):** Este predicado estabelece que a implementação de um banco de horas, como forma de compensação de jornada, exige a aprovação por meio de um Acordo Coletivo de Trabalho (ACT) ou uma Convenção Coletiva de Trabalho (CCT). A legislação brasileira, em especial o Art. 59, §2º da CLT, exige essa formalização para que a compensação de jornada seja válida e vinculante. A intenção da lei é garantir a participação e a negociação entre empregadores e empregados, por meio de seus representantes sindicais, sobre as condições de trabalho, incluindo a implementação de bancos de horas.\n\n*   **`recognition_of_collective_bargaining` (Reconhecimento da negociação coletiva):** Este predicado reforça a importância da negociação coletiva como instrumento para a definição das condições de trabalho. A validade de acordos e convenções coletivas depende do reconhecimento da sua legitimidade e representatividade, o que geralmente envolve a participação de sindicatos.\n\n**Aplicação ao Caso Concreto:**\n\nNo caso da empresa de limpeza urbana, a adoção do banco de horas por meio de um regulamento interno aprovado em assembleia dos empregados, sem a participação de um sindicato, **não atende ao requisito do `semester_hour_bank_requires_cct_or_act`**. A empresa argumenta que a aprovação em assembleia seria equivalente a um ACT, mas essa interpretação não encontra respaldo na legislação e na jurisprudência do TST. A assembleia, por si só, não substitui a negociação coletiva formalizada por meio de um ACT ou CCT. A ausência de representação sindical na aprovação do regulamento interno compromete a validade do banco de horas. A jurisprudência do TST tem sido consistente em exigir a participação sindical para a validade de instrumentos que alterem as condições de trabalho, como a implementação de bancos de horas.\n\nApesar da assinatura da maioria dos trabalhadores, essa assinatura não convalida a ausência de ACT ou CCT. A assinatura individual não substitui a representação coletiva. O requisito é a negociação e acordo entre sindicato e empregador.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que a Justiça do Trabalho declare a **invalidade** do regulamento interno que institui o banco de horas. A empresa deverá cessar a utilização do sistema de banco de horas até que um ACT ou CCT seja formalizado, com a participação do sindicato da categoria, que estabeleça as regras para a compensação de horas.  A empresa deve buscar a negociação com o sindicato para formalizar o banco de horas de forma legal e legítima.  A empresa também deve analisar a possibilidade de retroagir os efeitos da decisão, para evitar o pagamento de horas extras já trabalhadas sob o sistema inválido.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **`semester_hour_bank_requires_cct_or_act`:** **Violação**. O banco de horas foi implementado sem a formalização exigida por ACT ou CCT.\n*   **`recognition_of_collective_bargaining`:** **Violação**. A negociação coletiva não foi devidamente reconhecida, pois não houve a participação do sindicato na definição das regras do banco de horas.\n\n**Observações:**\n\n*   A decisão final caberá ao juiz do trabalho, que avaliará as provas e argumentos apresentados pelas partes.\n*   A jurisprudência do TST é orientadora, mas cada caso deve ser analisado em suas particularidades.\n*   A empresa deve buscar o diálogo com o sindicato para regularizar a situação e evitar futuros questionamentos judiciais.\n*   A validade da assembleia para outros assuntos (não relacionados a banco de horas) pode ser analisada separadamente, mas a ausência de representação sindical para a implementação do banco de horas é o ponto crucial neste caso.",
+  "tokens_in": 333,
+  "tokens_out": 957,
+  "latency_ms": 26343,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

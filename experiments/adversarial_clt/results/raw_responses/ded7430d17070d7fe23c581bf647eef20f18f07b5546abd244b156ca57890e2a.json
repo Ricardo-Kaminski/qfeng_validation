@@ -1,0 +1,26 @@
+{
+  "sha256": "ded7430d17070d7fe23c581bf647eef20f18f07b5546abd244b156ca57890e2a",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T22:02:42Z",
+  "prompt_sha": "489d4d0cb986d91530d7db7ba9d629c987a55e79987825665efedd8b88b39c59",
+  "response_text": "### 1. **ANÁLISE**  \nO predicado **\"obligation_to_ground_decision_in_identified_ratio_decidendi\"** estabelece que a fundamentação jurídica de uma decisão deve ser baseada em **normas ou doutrinas identificáveis com precisão**, incluindo elementos como autor, obra, edição, ano e página. No cenário descrito, o acórdão trabalhista **não identificou com clareza a obra específica** de **Sergio Pinto Martins** (não indicou edição, ano ou página), o que **impede a verificação da exatidão da referência doutrinária**.  \n\nA jurisprudência do TST e a CLT exigem que a fundamentação seja **objetiva e verificável**, especialmente em decisões que impactam direitos trabalhistas (como o cálculo de horas extras). A ausência de detalhes sobre a obra de Martins **viola o princípio da transparência e da segurança jurídica**, já que múltiplas obras do mesmo autor podem conter posições divergentes sobre o tema.  \n\nAlém disso, o **LINDB Art. 20** (Lei nº 13.105/2015) exige que a fundamentação das decisões judiciais seja **clara, precisa e vinculada a normas ou doutrinas identificáveis**, sob pena de nulidade. A citação incompleta da doutrina de Martins **não cumpre esse requisito**, pois não permite a localização exata da referência utilizada.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **decisão deve ser anulada** por falta de fundamentação adequada, conforme prevê o **LINDB Art. 20**, porquanto:  \n- A citação doutrinária **não atende ao requisito de identificação completa** (obra, edição, ano, página), o que **impede a verificação da exatidão da referência**;  \n- A ausência de detalhes **viola o princípio da transparência jurídica** e **não permite a aplicação correta da doutrina**;  \n- A jurisprudência do TST reforça que a fundamentação deve ser **objetiva e vinculável a fontes identificáveis**, sob pena de **nulidade da decisão**.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Violado**:  \n  - **obligation_to_ground_decision_in_identified_ratio_decidendi** (não foi cumprida, pois a fundamentação não identificou com precisão a obra doutrinária utilizada).  \n\n- **Conformidade**:  \n  - Nenhum outro predicado foi explicitamente mencionado no cenário, mas **a ausência de cumprimento do predicado acima** configura **violação normativa**.  \n\n---  \n**Conclusão**: A decisão deve ser anulada por falta de fundamentação adequada, conforme exigido pelo LINDB Art. 20 e pela CLT.",
+  "tokens_in": 338,
+  "tokens_out": 1083,
+  "latency_ms": 32718,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

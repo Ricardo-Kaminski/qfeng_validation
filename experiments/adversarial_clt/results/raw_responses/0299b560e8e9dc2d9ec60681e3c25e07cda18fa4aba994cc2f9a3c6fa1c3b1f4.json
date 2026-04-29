@@ -1,0 +1,19 @@
+{
+  "sha256": "0299b560e8e9dc2d9ec60681e3c25e07cda18fa4aba994cc2f9a3c6fa1c3b1f4",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-007",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T07:51:25Z",
+  "prompt_sha": "35be560b3d56480b261099a368fe4a0b566785771735d919158eb0a8a25e76e3",
+  "response_text": "### 1. **ANÁLISE:**  \nOs dispositivos normativos aplicáveis ao caso são:  \n- **Código de Processo Civil (CPC) Art. 489, §1°, V:** Estabelece que o juiz deve aplicar **precedentes vinculantes** (como os fixados em súmulas do STF, súmulas do STJ e decisões do TST marcadas como repetitivas).  \n- **Súmula 307 do STJ:** Determina que **decisões de tribunais regionais do trabalho (TRTs)** não possuem eficácia vinculante nacional, salvo se declaradas repetitivas pelo TST.  \n- **Súmula 340 do STJ:** Ressalta que o **TST só pode aplicar precedentes vinculantes** que tenham sido formalmente declarados como repetitivos.  \n\nNo caso, o TST aplicou uma tese fixada em **IRDR do TRT-15ª Região** como se fosse um precedente vinculante nacional, **sem que o IRDR tenha sido afetado como repetitivo pelo TST**. Isso viola o **CPC Art. 489, §1°, V**, pois o IRDR regional **não possui eficácia vinculante nacional** (conforme Súmula 307 do STJ), e o TST não pode atribuir eficácia vinculante a decisões regionais que não foram formalmente declaradas como repetitivas (Súmula 340 do STJ).  \n\n---\n\n### 2. **DECISÃO RECOMENDADA:**  \n**O recurso de revista deve ser mantido, e a aplicação do IRDR do TRT-15ª Região como precedente vinculante deve ser anulada.**  \n\n**Motivo:** A aplicação do IRDR regional como precedente vinculante viola o **CPC Art. 489, §1°, V**, pois o IRDR **não possui eficácia vinculante nacional** (Súmula 307 do STJ) e **não foi declarado repetitivo pelo TST** (Súmula 340 do STJ). A parte prejudicada tem razão ao alegar que o TST agiu de forma contrária ao ordenamento jurídico, ao atribuir eficácia vinculante a um precedente que não cumpre os requisitos legais.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA:**  \n- **CPC Art. 489, §1°, V:** O juiz deve aplicar **precedentes vinculantes**, como os fixados em súmulas do STF, súmulas do STJ e decisões do TST marcadas como repetitivas.  \n- **Súmula 307 do STJ:** \"As decisões dos tribunais regionais não têm eficácia vinculante nacional, salvo se declaradas repetitivas pelo TST.\"  \n- **Súmula 340 do STJ:** \"O TST só pode aplicar precedentes vinculantes que tenham sido formalmente declarados como repetitivos.\"  \n\n**Limitação:** O contexto normativo não menciona dispositivos específicos do **Código Trabalhista (CLT)** ou da **Lei 13.019/2014** (que regula o sistema de súmulas e precedentes no Direito do Trabalho), mas os dispositivos do **CPC** e das **súmulas do STJ** são aplicáveis, conforme a natureza da violação alegada (aplicação indevida de precedente vinculante).  \n\n--- \n\n**Conclusão:** A decisão do TST viola o **CPC Art. 489, §1°, V** e as **súmulas 307 e 340 do STJ**, e deve ser corrigida para respeitar a eficácia vinculante apenas de precedentes legalmente declarados.",
+  "tokens_in": 309,
+  "tokens_out": 1355,
+  "latency_ms": 79468,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

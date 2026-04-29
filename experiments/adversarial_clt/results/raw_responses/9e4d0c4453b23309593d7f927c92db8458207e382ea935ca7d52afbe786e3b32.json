@@ -1,0 +1,19 @@
+{
+  "sha256": "9e4d0c4453b23309593d7f927c92db8458207e382ea935ca7d52afbe786e3b32",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T02:22:25Z",
+  "prompt_sha": "5eb3d71f8379d34717c7c3be19d2ecbcc590cb01ed22ee807b806f8f59c3dc88",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis**\n\n- **Constituição Federal de 1988 (CF/88)**: Artigo 7º, XIII estabelece o limite máximo da jornada semanal de trabalho como sendo de 44 horas, com a possibilidade de compensação mediante acordo ou convenção coletiva.\n\n- **Consolidação das Leis do Trabalho (CLT)**:\n  - **Artigo 62**: Permite a redução da duração diária normal do trabalho para compensação em outro dia ou período, desde que não exceda o limite máximo de horas semanais.\n  - **Artigo 59**: Regula sobre banco de horas e estabelece que as horas extras devem ser compensadas dentro de um prazo razoável.\n\n- **Convenção Coletiva de Trabalho (CCT)**: A CCT autoriza o banco de horas, mas não especifica o modelo de compensação. Isso implica que qualquer ajuste na jornada deve respeitar os limites legais e constitucionais.\n\n**Interpretação no Caso Concreto**\n\n- **Modelo 5×10**: A implantação da jornada de 10 horas diárias por cinco dias semanais totaliza 50 horas, excedendo o limite constitucional de 44 horas semanais. Mesmo que a CCT autorize banco de horas, não pode ser interpretado como autorização para ultrapassar os limites constitucionais.\n\n- **Compensação Semanal**: A compensação deve ocorrer dentro do prazo razoável e respeitar o limite máximo semanal de 44 horas. O modelo 5×10, portanto, não é compatível com a legislação vigente sem ajustes adicionais para garantir que o total semanal não exceda as 44 horas.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é que a empresa deve rever sua política de jornada de trabalho para se adequar ao limite constitucional de 44 horas semanais. Isso pode ser feito ajustando o modelo de compensação, por exemplo, adotando um modelo 6×9 (seis dias de 9 horas), totalizando exatamente 54 horas mensais, que é equivalente a 44 horas semanais.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **Constituição Federal de 1988**: Artigo 7º, XIII estabelece o limite máximo da jornada semanal de trabalho como sendo de 44 horas.\n\n- **CLT**:\n  - **Artigo 62**: Permite a compensação de horários, mas não pode exceder o limite máximo semanal.\n  - **Artigo 59**: Estabelece que as horas extras devem ser compensadas dentro de um prazo razoável.\n\n- **Súmulas do TST**:\n  - **Súmula nº 331**: \"É vedada a compensação de jornada em período superior ao máximo legal.\"\n  - **Súmula nº 338**: \"A compensação de horas excedentes à duração normal da prestação de serviços deve ser feita no prazo de até dois meses.\"\n\n- **Precedentes Constitucionais**:\n  - O Supremo Tribunal Federal (STF) tem reiteradamente afirmado que a jornada semanal não pode ultrapassar o limite constitucional de 44 horas, mesmo com compensação.\n\nA empresa deve garantir que qualquer modelo adotado respeite esses limites legais e constitucionais para evitar questionamentos judiciais e garantir o cumprimento das normas trabalhistas.",
+  "tokens_in": 316,
+  "tokens_out": 819,
+  "latency_ms": 47093,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

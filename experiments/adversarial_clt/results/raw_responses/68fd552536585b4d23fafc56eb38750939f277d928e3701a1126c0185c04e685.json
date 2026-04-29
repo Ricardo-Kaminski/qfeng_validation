@@ -1,0 +1,19 @@
+{
+  "sha256": "68fd552536585b4d23fafc56eb38750939f277d928e3701a1126c0185c04e685",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-012",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T20:11:46Z",
+  "prompt_sha": "010a064866f5ea0c4b62f002bb79c2c7d6aba595a7194825470e549ee36b292d",
+  "response_text": "**ANÁLISE**\n\nO caso apresentado envolve a utilização de um precedente do STJ (não do TST) para embasar uma tese sobre dano moral trabalhista em um processo trabalhista. A questão central é se o precedente civil pode ser aplicado diretamente ao regime jurídico trabalhista, especialmente considerando as modificações na CLT após a Reforma de 2017.\n\n**DISPOSITIVOS DO CONTEXTO NORMATIVO APLICÁVEIS**\n\n1. **CLT (Consolidação das Leis do Trabalho)**: A CLT é a principal fonte de direito trabalhista no Brasil. Após a Reforma de 2017, houve alterações significativas nos critérios de fixação de dano moral.\n2. **STJ (Superior Tribunal de Justiça) e TST (Tribunal Superior do Trabalho)**: O STJ é uma corte superior que decide casos civis, enquanto o TST é a instância máxima para questões trabalhistas no Brasil.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada seria que o TRT não possa utilizar um precedente do STJ sobre responsabilidade civil extracontratual como base exclusiva para decidir sobre dano moral trabalhista sem discutir a compatibilidade com o regime jurídico trabalhista, especialmente considerando as alterações na CLT após 2017.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n- **CLT (artigos afetados pela Reforma de 2017)**: Embora não sejam mencionados específicos artigos da CLT no contexto fornecido, é crucial considerar as alterações na legislação trabalhista que afetam a fixação de dano moral.\n- **Princípio da especialidade**: O princípio da especialidade estabelece que as leis especiais prevalecem sobre as gerais quando há conflito entre elas. No contexto do Direito Trabalhista, a CLT é uma lei especial que regula direitos e deveres das partes em um contrato de trabalho.\n- **Competência dos Tribunais**: O TST tem competência exclusiva para julgar questões trabalhistas, enquanto o STJ decide casos civis. A utilização de precedentes do STJ sem considerar a compatibilidade com as leis trabalhistas pode ser questionável.\n\n**LIMITAÇÃO DO CONTEXTO**\n\nO contexto fornecido não inclui normas específicas que possam ser aplicadas diretamente ao caso, tornando necessário uma análise baseada em princípios gerais do Direito Trabalhista e da competência dos Tribunais.",
+  "tokens_in": 279,
+  "tokens_out": 594,
+  "latency_ms": 9931,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

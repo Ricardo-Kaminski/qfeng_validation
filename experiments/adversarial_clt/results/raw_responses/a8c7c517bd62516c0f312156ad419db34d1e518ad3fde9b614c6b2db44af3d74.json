@@ -1,0 +1,27 @@
+{
+  "sha256": "a8c7c517bd62516c0f312156ad419db34d1e518ad3fde9b614c6b2db44af3d74",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:52:20Z",
+  "prompt_sha": "9ddadcfbd5dbebfc988f0d0afbf51a1545713cd3a59a541f7d3ad04a951daf64",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas e Licença Maternidade\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, apresento a análise, decisão recomendada e identificação de cumprimento/violação dos predicados:\n\n**1. ANÁLISE:**\n\n*   **hour_bank_with_cct_max_1_year (Banco de Horas com CCT com prazo máximo de 1 ano):** Este predicado estabelece que a utilização do banco de horas deve estar prevista em acordo ou convenção coletiva e que o prazo máximo para compensação é de 1 ano. No caso, a trabalhadora firmou uma CCT que estabeleceu um banco de horas semestral, o que está em conformidade com este predicado. A questão central é se a licença maternidade interrompe ou não a contagem desse prazo semestral.\n*   **recognition_of_collective_bargaining (Reconhecimento do Acordo/Convenção Coletiva):** Este predicado reforça a obrigatoriedade de se dar força e validade aos acordos e convenções coletivas de trabalho.  A CCT, ao estabelecer o banco de horas semestral, criou um conjunto de regras que devem ser observadas. A empresa, ao suspender o cômputo do banco de horas durante a licença maternidade e reativá-lo ao retorno, agiu em consonância com a CCT, presumindo-se que essa suspensão seja uma prática aceitável dentro do acordo. A questão crucial é se a CCT previu expressamente a suspensão do prazo em caso de licença maternidade.\n\n**Análise Adicional (Importante):**\n\nEmbora os predicados fornecidos não abordem diretamente a licença maternidade, a jurisprudência do TST tem se posicionado no sentido de que a licença maternidade é um período de proteção especial à mulher trabalhadora, e a interpretação de normas deve ser favorável à trabalhadora (in dubio pro operario).  A suspensão do cômputo do banco de horas durante a licença maternidade, embora aparentemente em linha com a CCT, pode ser questionada se a CCT não for clara nesse sentido. A interpretação mais favorável à trabalhadora seria considerar que o prazo semestral é interrompido pela licença maternidade, reiniciando-se com o retorno.\n\n**2. DECISÃO RECOMENDADA:**\n\nConsiderando que a compensação total ocorreu em 8 meses (contando o período útil) dentro do prazo acordado na CCT, e que a empresa suspendeu o cômputo do banco de horas durante a licença maternidade e reativou ao retorno, a decisão recomendada é a seguinte:\n\n*   **Se a CCT for expressa sobre a suspensão do prazo do banco de horas durante a licença maternidade:** A conduta da empresa está em conformidade com a CCT e, portanto, legal. A trabalhadora não tem direito a indenização ou extensão do prazo.\n*   **Se a CCT for omissa sobre a suspensão do prazo do banco de horas durante a licença maternidade:**  Apesar da empresa ter agido em consonância com o que foi acordado, a decisão mais justa e em linha com a jurisprudência do TST seria considerar que o prazo do banco de horas foi interrompido durante a licença maternidade.  Nesse caso, a empresa deveria conceder à trabalhadora um tempo adicional para compensar as horas não trabalhadas, sem que isso ultrapasse o prazo máximo de 1 ano previsto na CCT.  A extensão desse prazo deve ser proporcional ao período de licença.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **hour_bank_with_cct_max_1_year:** **Conformidade** (se a CCT for expressa sobre a suspensão do prazo durante a licença maternidade). **Potencial Violação** (se a CCT for omissa e a interpretação for a de que o prazo foi interrompido).\n*   **recognition_of_collective_bargaining:** **Conformidade** (a empresa agiu em consonância com a CCT, ainda que a interpretação da CCT seja questionável).\n\n**Observação Importante:** A decisão final dependerá da análise detalhada da CCT e da jurisprudência aplicável ao caso concreto. É fundamental verificar se a CCT possui cláusulas específicas sobre a licença maternidade e a contagem do prazo do banco de horas. A ausência de clareza na CCT pode levar a interpretações divergentes e a necessidade de acionar o Poder Judiciário.\n",
+  "tokens_in": 339,
+  "tokens_out": 1023,
+  "latency_ms": 28203,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

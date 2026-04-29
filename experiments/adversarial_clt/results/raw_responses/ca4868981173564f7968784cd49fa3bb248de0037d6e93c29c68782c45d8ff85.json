@@ -1,0 +1,26 @@
+{
+  "sha256": "ca4868981173564f7968784cd49fa3bb248de0037d6e93c29c68782c45d8ff85",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:19:10Z",
+  "prompt_sha": "0308e544333fc597abdf8b239f7b18e49c0e2a9c2b0a3284266fdfb3ee4d598d",
+  "response_text": "**1. ANÁLISE**\n\nO predicado \"obligation_to_ground_decision_in_identified_ratio_decidendi\" se aplica ao caso concreto porque a decisão do TRT transcreveu integralmente a ementa de acórdão do TST sem realizar análise de compatibilidade entre os fatos do precedente e os fatos do caso concreto. Isso significa que o TRT não demonstrou como a decisão do TST se aplica ao caso específico, violando assim o princípio da aplicabilidade das decisões judiciais.\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada é que o TRT retifique sua decisão, realizando uma análise detalhada e transparente sobre a compatibilidade entre os fatos do precedente (acórdão do TST) e os fatos do caso concreto em julgamento. Isso inclui explicitar como as circunstâncias específicas da causa atual justificam ou não a aplicação das regras jurídicas estabelecidas no acórdão transcrito.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: Violado, pois o TRT não realizou a análise necessária para demonstrar como a decisão do TST se aplica ao caso concreto.\n- Sem outros predicados listados que possam ser aplicados ou violados no cenário descrito.",
+  "tokens_in": 360,
+  "tokens_out": 331,
+  "latency_ms": 5547,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

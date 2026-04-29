@@ -1,0 +1,26 @@
+{
+  "sha256": "d8101a9fa203e2cbb5e42644e9ac1a50703475c49b86fcc10e441d4a67865416",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T23:39:15Z",
+  "prompt_sha": "0308e544333fc597abdf8b239f7b18e49c0e2a9c2b0a3284266fdfb3ee4d598d",
+  "response_text": "1. **ANÁLISE:**\n\n   O predicado normativo aplicável ao caso é \"obligation_to_ground_decision_in_identified_ratio_decidendi\". Este princípio estabelece que, ao utilizar um precedente como fundamento para uma decisão judicial, deve haver uma análise adequada da compatibilidade entre os fatos do precedente e os fatos do caso concreto. A mera transcrição da ementa de um acórdão sem essa análise fática não atende ao requisito de demonstrar a aplicabilidade direta do precedente ao caso específico, conforme exigido pelo CPC Art. 489, §1°, V.\n\n   No cenário apresentado, o TRT transcreveu integralmente a ementa de um acórdão do TST sem realizar qualquer cotejo fático entre os fatos do precedente e os fatos do caso concreto em julgamento. Isso sugere uma possível violação ao princípio de fundamentar a decisão no ratio decidendi identificado, pois não houve demonstração de como o acórdão citado se aplica aos fatos específicos da causa.\n\n2. **DECISÃO RECOMENDADA:**\n\n   A recomendação seria que o TRT revise sua decisão para incluir uma análise detalhada dos fatos do caso concreto em comparação com os fatos do precedente utilizado. Essa análise deve demonstrar claramente a aplicabilidade do acórdão do TST ao caso específico, justificando como o ratio decidendi do precedente se aplica aos elementos fáticos da situação sub judice.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violado:** \n     - \"obligation_to_ground_decision_in_identified_ratio_decidendi\" – A decisão não demonstrou a aplicabilidade do precedente ao caso concreto, pois faltou o cotejo necessário entre os fatos do acórdão e os fatos da causa.\n\n   Não há predicados listados que tenham sido cumpridos no cenário descrito, uma vez que a obrigação de fundamentar a decisão no ratio decidendi identificado não foi atendida.",
+  "tokens_in": 361,
+  "tokens_out": 493,
+  "latency_ms": 14406,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

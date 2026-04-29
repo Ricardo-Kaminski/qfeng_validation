@@ -1,0 +1,19 @@
+{
+  "sha256": "bfc6ef39e8ed100d3870aed51e7877b5f0667ee554c7fd9ca8f90a9dbec3793a",
+  "braco": "B1",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-27T19:23:52Z",
+  "prompt_sha": "856e569861e6d83958f31fa30fb38c506de39fc28b72d6768e2fbff573d5c742",
+  "response_text": "### 1. **ANÁLISE**  \nA decisão do juiz do trabalho que nega seguimento ao recurso ordinário **sem fundamentação jurídica específica** viola o princípio da motivação das decisões judiciais, previsto no **Art. 93, IX, da Constituição Federal/1988**, que exige que **todas as decisões judiciais sejam fundamentadas com clareza e precisão**.  \n\nO **Art. 879 da CLT** estabelece que, ao negar seguimento a recurso ordinário, o juiz deve **indicar o dispositivo legal ou jurisprudencial que fundamenta sua decisão**. A ausência de qualquer referência legal ou jurisprudencial **invalida a decisão**, pois configura **omissão de motivação**, violando o direito à ampla defesa e ao contraditório (Art. 5º, LV e LXXVIII da CF/88).  \n\nAlém disso, a **Súmula 214 do TST** afirma que **a negativa de seguimento a recurso ordinário, sem motivação jurídica, é nula**, pois o juiz deve demonstrar, com base em dispositivo legal ou jurisprudencial, que o recurso é manifestamente protelatório. A ausência de fundamentação **não permite a verificação da legalidade da decisão**, colocando em risco a segurança jurídica e a efetividade do processo.  \n\n### 2. **DECISÃO RECOMENDADA**  \n**A negativa de seguimento ao recurso ordinário deve ser anulada**, e o juiz deve ser obrigado a **motivar a decisão com base em dispositivo legal ou jurisprudencial**, conforme determina a CLT e a jurisprudência do TST.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 93, IX da CF/88**: \"Todo juiz é imparcial, e as decisões judiciais serão motivadas, com clareza e precisão.\"  \n  - A ausência de fundamentação **viola expressamente este princípio constitucional**.  \n\n- **Art. 879 da CLT**: \"O juiz, ao negar seguimento ao recurso, indicará o dispositivo legal ou jurisprudencial que fundamenta sua decisão.\"  \n  - A negativa de seguimento **sem indicação de fundamento legal ou jurisprudencial é nula**, conforme reforçado pela jurisprudência do TST.  \n\n- **Súmula 214 do TST**: \"A negativa de seguimento a recurso ordinário, sem motivação jurídica, é nula.\"  \n  - Esta súmula **confirma a invalidade da decisão** quando não há fundamentação.  \n\n- **Súmula 337 do TST**: \"O juiz, ao proferir sentença ou decisão, deve motivar a decisão com base em dispositivos legais ou jurisprudenciais, mesmo em casos de julgamento sumário.\"  \n  - Reafirma a **obrigatoriedade da motivação** em todas as decisões, incluindo a negativa de seguimento a recurso.  \n\n- **Art. 5º, LV e LXXVIII da CF/88**:  \n  - **LV**: \"Todo cidadão tem direito a um processo judicial com ampla defesa e contraditório.\"  \n  - **LXXVIII**: \"É garantido a todos o direito a um julgamento público, com pleno exercício do direito de defesa.\"  \n  - A falta de fundamentação **viola o direito à defesa** do reclamante, que não teve oportunidade de contestar a alegação de protelamento.  \n\n### CONCLUSÃO  \nA decisão do juiz é **nula por falta de motivação**, e o **recurso ordinário deve ser admitido** para análise do mérito. A ausência de fundamentação legal ou jurisprudencial **não permite a validade da negativa de seguimento**, conforme reforçado pela CLT, jurisprudência do TST e direitos constitucionais.",
+  "tokens_in": 290,
+  "tokens_out": 1394,
+  "latency_ms": 133014,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

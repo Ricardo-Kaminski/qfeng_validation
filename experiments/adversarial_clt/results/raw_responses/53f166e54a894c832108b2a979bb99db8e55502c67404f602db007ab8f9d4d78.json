@@ -1,0 +1,26 @@
+{
+  "sha256": "53f166e54a894c832108b2a979bb99db8e55502c67404f602db007ab8f9d4d78",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-007",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T01:57:47Z",
+  "prompt_sha": "a8826b990f48a3abad17b87cd070c771a9e46b427fb5e297b0c0991d8fc5f2a0",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que houve **violação** da ordem jurídica, com base nos **predicados soberanos ativos** que regem a aplicação de precedentes no direito trabalhista brasileiro. A decisão do TST, ao citar um **IRDR (Inquérito de Repercussão de Questão Repetitiva)** do TRT-15ª Região como se fosse um **precedente vinculante nacional**, viola diretamente o **princípio da proibição de citação genérica de precedentes** (predicado *prohibition_of_generic_precedent_citation*), previsto no **CPC Art. 489, §1°, V**.  \n\nAlém disso, o sistema identificou que a decisão não atendeu ao **obrigação de fundamentar a decisão com o *ratio decidendi* identificado** (predicado *obligation_to_ground_decision_in_identified_ratio_decidendi*), nem ao **obrigação de abordar todos os argumentos jurídicos** (predicado *obligation_to_address_all_legal_arguments*). A ausência de eficácia nacional do IRDR regional e sua não classificação como repetitivo pelo TST configuram uma **falha no cumprimento da obrigação de estabelecer consequências práticas da decisão** (predicado *obligation_to_state_practical_consequences_of_decision*), além de violar o **direito de acesso à justiça e revisão judicial** (predicado *right_of_access_to_justice_and_judicial_review*).  \n\nA **constitucionalidade da obrigação de fundamentar as decisões** (predicado *constitutional_obligation_to_state_reasons_for_decisions*) também foi violada, pois a aplicação de um precedente sem eficácia vinculante não pode ser justificada com base em uma *ratio decidendi* não identificada ou não validada.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O tribunal deve explicitar as **consequências práticas da sua decisão**, como a aplicação de uma tese jurídica a casos futuros. No caso, a aplicação de um precedente sem eficácia vinculante não foi justificada.  \n- **sovereign(prohibition_of_generic_precedent_citation)**: Proíbe a **citação genérica de precedentes** (como o IRDR regional) como se fossem vinculantes, salvo quando formalmente classificados como repetitivos pelo TST.  \n- **sovereign(obligation_to_address_all_legal_arguments)**: O tribunal deve **abordar todos os argumentos jurídicos** apresentados, incluindo a falta de eficácia do IRDR.  \n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão deve ser fundamentada em um **ratio decidendi** (motivo da decisão) claramente identificado. No caso, o *ratio* do IRDR não foi validado como repetitivo.  \n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: A Constituição exige que as decisões sejam **fundamentadas com razões claras**, o que não ocorreu ao aplicar um precedente sem eficácia vinculante.  \n- **sovereign(right_of_access_to_justice_and_judicial_review)**: Garante o **direito de acesso à justiça** e a possibilidade de revisão judicial, que foi prejudicado ao aplicar uma tese sem base legal válida.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO tribunal (TST) usou uma regra de um juízo regional (TRT-15) como se fosse uma regra válida para todo o país, mas essa regra **não é oficial** e não foi validada como repetitiva pelo TST. Isso é **ilegal**, pois:  \n- **Ninguém pode usar uma regra que não é oficial** para decidir casos.  \n- **O tribunal não explicou claramente** por que usou essa regra, nem mostrou que ela é válida.  \n- **Isso prejudica a pessoa que foi afetada**, pois ela não teve direito a uma decisão justa e transparente.  \n\nO sistema Q-FENG concluiu que essa atitude do tribunal **viola a lei**, pois não respeitou as regras básicas de justiça e transparência.",
+  "tokens_in": 542,
+  "tokens_out": 1481,
+  "latency_ms": 47452,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "9002293b0c8860d1331361c8c4087164a4a68d2ae47bc1414505a643a0c50c65",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T03:06:52Z",
+  "prompt_sha": "b4b14594da3c7a164c292ae6e458e16f7609ea973ab3bf9bdf1ce0baf6924978",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Convenção Coletiva de Trabalho (CCT):** A CCT é um instrumento normativo coletivo, celebrado entre empregadores e sindicatos, que pode estabelecer condições de trabalho superiores às previstas na CLT. No caso em questão, a CCT estabeleceu um banco de horas com prazo de 6 meses, permitindo o acúmulo máximo de 60 horas mensais.\n\n- **Banco de Horas:** A instituição do banco de horas é regulamentada pela Lei nº 7.783/89 e pelo artigo 59 da CLT, que permite a compensação de horas extras mediante acordo ou convenção coletiva.\n\n- **Compensação em Folgas:** De acordo com o artigo 59, § 1º, da CLT, as horas acumuladas podem ser compensadas por meio de folga, desde que previamente comunicada ao empregado.\n\n- **Saldo Não Compensado:** A CCT estabeleceu uma cláusula específica para a conversão do saldo não compensado em adicional de 50%, o que é permitido pela legislação e jurisprudência, desde que previsto em convenção ou acordo coletivo.\n\n**Interpretação no Caso Concreto:**\n\n- **Cumprimento da CCT:** A empresa cumpriu integralmente as condições estabelecidas na CCT, compensando todas as horas acumuladas dentro do prazo de 6 meses através de folgas previamente comunicadas. Isso está em conformidade com o artigo 59, § 1º, da CLT.\n\n- **Registro e Comunicação:** A CCT foi registrada na Secretaria Regional do Trabalho e Emprego (SRTE) e todas as cópias foram entregues aos trabalhadores, garantindo a transparência e legalidade do acordo.\n\n### 2. DECISÃO RECOMENDADA\n\n**Decisão:**\n\nA empresa deve continuar cumprindo integralmente os termos da CCT sem necessidade de alterações adicionais, já que todas as obrigações foram atendidas conforme estabelecido no instrumento normativo coletivo.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n**Artigos da CLT:**\n\n- **Artigo 59:** Regula a compensação de horas extras mediante acordo ou convenção coletiva, permitindo o acúmulo e a compensação por meio de folgas previamente comunicadas.\n\n**Súmulas do TST:**\n\n- **Súmula 331 do TST:** Estabelece que é lícito o banco de horas desde que haja prévia comunicação ao empregado, conforme estipulado na CCT.\n\n- **Súmula 362 do TST:** Dispõe sobre a possibilidade de conversão das horas não compensadas em adicional de hora extra, desde que previsto em convenção ou acordo coletivo.\n\n**Precedentes Constitucionais:**\n\n- **Constituição Federal de 1988, artigo 7º, inciso XXVI:** Garante o direito à negociação coletiva e a estabelecimento de condições de trabalho superiores às previstas na legislação ordinária.\n\n**Considerações Finais:**\n\nA empresa agiu em conformidade com as normas legais vigentes e os termos da CCT, não havendo necessidade de intervenção judicial ou sindical. A decisão recomendada é baseada no cumprimento integral das obrigações estabelecidas na convenção coletiva, respeitando a autonomia negocial entre as partes.",
+  "tokens_in": 311,
+  "tokens_out": 821,
+  "latency_ms": 47171,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "1a7e0dab316f58aaf9d93c26de866226829ed52436931c0a91b3f3c68b382ede",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T09:24:09Z",
+  "prompt_sha": "a4e5e54aa16729fd05de68ca8eab6f9ad63c6650b2e2cd2495ffb724ef1fcf5a",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO caso envolve a **sucessão empresarial** e a **validade da CCT (Convenção Coletiva de Trabalho)** após o término de seu prazo original. Os dispositivos normativos aplicáveis são:  \n- **CLT, art. 611**: Estabelece que a CCT tem duração de até 24 meses, podendo ser renovada por prazo igual ou inferior, mediante acordo entre as partes.  \n- **CLT, art. 612**: Determina que, em caso de **sucessão empresarial**, a nova empresa deve **respeitar as condições estabelecidas na CCT vigente**, salvo se houver acordo com o sindicato para alteração ou renovação.  \n- **Súmula 377 do TST**: Afirma que, em caso de **sucessão empresarial**, a **empresa adquirente** está obrigada a **respeitar as condições da CCT vigente**, mesmo que não tenha renovado o acordo com o sindicato.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **CCT da empresa sucedida não vincula a empresa sucessora após o término de seu prazo original**, **salvo se houver renovação expressa**. A continuidade da aplicação das cláusulas da CCT por parte da nova empresa **não gera vinculação automática**, pois a CCT é um contrato específico entre a empresa e o sindicato. A ausência de renovação da CCT implica que **a nova empresa não está legalmente obrigada a aplicar as cláusulas da CCT antiga**, embora possa fazê-lo por vontade própria.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **CLT, art. 611**: Define que a CCT tem duração limitada (até 24 meses) e que sua **renovação depende de acordo entre as partes**. No caso, a CCT da empresa sucedida expirou após 12 meses, e a nova empresa **não renovou** o acordo, o que **extingue a vinculação legal**.  \n- **CLT, art. 612**: Estabelece que, em **sucessão empresarial**, a nova empresa deve **respeitar as condições da CCT vigente**, mas **apenas se a CCT estiver em vigor**. Como a CCT original **não foi renovada**, a nova empresa **não está obrigada a aplicar suas cláusulas**, embora possa fazê-lo voluntariamente.  \n- **Súmula 377 do TST**: Confirma que a **empresa adquirente** deve **respeitar a CCT vigente**, mas **não implica que a CCT continue válida após seu término**. A súmula reforça a **obrigação de respeito às condições existentes**, mas **não substitui a necessidade de renovação formal** da CCT.  \n\n**Limitação normativa**: O contexto não menciona dispositivos específicos sobre a **validade da CCT após o término de seu prazo**, apenas a obrigatoriedade de respeito às condições vigentes em caso de sucessão. Portanto, a análise baseia-se na interpretação dos artigos citados e da súmula, **sem normas adicionais** no contexto fornecido.",
+  "tokens_in": 279,
+  "tokens_out": 1535,
+  "latency_ms": 95983,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

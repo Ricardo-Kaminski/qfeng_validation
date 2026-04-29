@@ -1,0 +1,30 @@
+{
+  "sha256": "7d6a19042a7ccfe9e6f47830aa9583864fd01f66144c8ae9f48ad6f18db8ec66",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-007",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:10:21Z",
+  "prompt_sha": "87cfca1418f3f656618cfac13aa7f2dd97f0633ba491f0fa22ab0f1a80de9a98",
+  "response_text": "### 1. ANÁLISE:\n\n**Obligation to Ground Decision in Identified Ratio Decidendi**\n\nEste predicado normativo exige que a decisão judicial seja fundamentada na ratio decidendi, ou seja, o fundamento jurídico pelo qual a decisão é tomada. No caso apresentado, o TRT baseou sua decisão na estabilidade provisória prevista no artigo 10, II, \"b\" da CF/88 (ADCT), Súmula TST 244 e OJ 399 da SDI-1. A fundamentação menciona expressamente a OJ 399 para afastar a exigência de comunicação prévia da gravidez ao empregador, o que demonstra uma aplicação clara dos princípios jurídicos relevantes à situação fática. Portanto, este predicado foi cumprido, pois a decisão está bem fundamentada nos dispositivos legais e jurisprudenciais pertinentes.\n\n**Due Process of Law**\n\nO devido processo legal exige que as partes tenham uma oportunidade justa de serem ouvidas e que o julgamento seja realizado com base em um procedimento justo. No cenário descrito, não há indicação de violação ao devido processo legal. A decisão do TRT considerou os fatos provados (gravidez ocorrida antes da dispensa) e aplicou a legislação pertinente para chegar à conclusão sobre a nulidade da dispensa e reintegração da empregada gestante. Assim, o devido processo legal foi respeitado ao analisar os fatos e fundamentações legais corretamente.\n\n### 2. DECISÃO RECOMENDADA:\n\nCom base nos predicados normativos aplicáveis, a decisão do TRT deve ser mantida. A fundamentação está alinhada com o dever de se basear na ratio decidendi, conforme exigido pelo artigo 10, II, \"b\" da CF/88 (ADCT), Súmula TST 244 e OJ 399 da SDI-1. Além disso, não há indícios de violação ao devido processo legal, uma vez que a decisão foi tomada após análise adequada dos fatos e aplicação correta do direito.\n\n### 3. PREDICADOS VIOLADOS OU CUMPRIDOS:\n\n- **Obligation to Ground Decision in Identified Ratio Decidendi**: Cumprido\n  - A decisão está fundamentada nos dispositivos legais e jurisprudenciais pertinentes, com menção expressa à OJ 399.\n\n- **Due Process of Law**: Cumprido\n  - Não há indicações de violação ao devido processo legal na forma como o caso foi julgado. A decisão considerou os fatos provados e aplicou a legislação corretamente.",
+  "tokens_in": 388,
+  "tokens_out": 627,
+  "latency_ms": 18375,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

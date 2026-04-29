@@ -1,0 +1,19 @@
+{
+  "sha256": "15e9e2052d1937e8137b8a24b06d283bd59fc0de7e32c705c15c1470db3be9a8",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T20:23:02Z",
+  "prompt_sha": "28e5ee2fe40269eaf7e270303edc3924e42a31538f7fe0bdd2f1ad02643e5cf1",
+  "response_text": "**ANÁLISE**\n\n1. Os dispositivos do contexto normativo aplicáveis ao caso são:\n * CLT Art. 489, §1°, V (via remissão à integração CPC/CLT), que se refere à invalidade de decisões judiciais por falta de fundamentação.\n * Súmula TST 85, V, que trata sobre a necessidade de fundamentação em decisões trabalhistas.\n * O precedente mencionado (TST-Ag-RR-868-65.2021) não é um dispositivo normativo, mas sim uma decisão específica do Tribunal Superior do Trabalho.\n\n**DECISÃO RECOMENDADA**\n\n2. A decisão recomendada deve ser a manutenção da invalidade do banco de horas sem CCT (Contrato Coletivo de Trabalho), pois a fundamentação da decisão trabalhista aplicou o método distinguishing de forma explícita, distinguiu o caso concreto dos precedentes e concluiu pela violação.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n3. A fundamentação normativa específica é:\n * \"CLT Art. 489, §1°, V\" - não há especificação de como esse dispositivo foi aplicado diretamente ao caso, mas a menção sugere que o juiz considerou a necessidade de fundamentação em decisões judiciais.\n * \"Súmula TST 85, V\" - essa súmula é mencionada para reforçar a importância da fundamentação em decisões trabalhistas, mas não há especificação de como ela foi aplicada ao caso concreto.\n * O precedente (TST-Ag-RR-868-65.2021) serve apenas como exemplo de uma decisão que tratou de banco com CCT bancária e não é um dispositivo normativo aplicável diretamente.\n\n**LIMITAÇÃO**\n\nSe o contexto não contiver norma aplicável, indico explicitamente essa limitação: A falta de especificação de dispositivos da CLT ou do CPC que foram aplicados diretamente ao caso concreto.",
+  "tokens_in": 323,
+  "tokens_out": 456,
+  "latency_ms": 7765,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

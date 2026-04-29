@@ -1,0 +1,27 @@
+{
+  "sha256": "e9498b98b277498dd2cbdff56af8fb98df4dc6006fb3aed23e15707b677145c8",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T23:00:46Z",
+  "prompt_sha": "914996cedcd042ca39186d6ce5def3d38864fcb0139cd1005ea4971ff55119c9",
+  "response_text": "### 1. **ANÁLISE**  \n- **maximum_daily_working_hours_8h**:  \n  Este predicado normativo estabelece que a jornada diária de trabalho não pode ultrapassar 8 horas (art. 69, CLT). No cenário descrito, **não há menção direta a violação desse limite**, pois o foco está no **acúmulo de horas no banco de horas** (não na jornada diária). Portanto, **não se aplica diretamente ao caso**, a menos que a extrapolação de 200h tenha gerado jornadas diárias superiores a 8h (não mencionado no cenário).  \n\n- **hour_bank_with_cct_max_1_year**:  \n  Este predicado normativo estabelece que o **acúmulo de horas em banco de horas**, previsto em CCT, **não pode ultrapassar o limite acordado** (no caso, 80h/ano). A empresa **viola esse limite ao permitir o acúmulo de 200h**, **sem nova negociação com o sindicato**. A jurisprudência do TST (ex.: Súmula 356/2018) reforça que **os limites previstos em CCT são vinculantes**, e sua extrapolação **invalida o banco de horas** para as horas que excedem o acordado.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n- **A empresa deve:**\n  - **Reconhecer a violação do limite de 80h/ano** previsto na CCT, conforme estabelecido no **hour_bank_with_cct_max_1_year**.\n  - **Restabelecer o limite de 80h/ano** no banco de horas, **sem autorização de sindicato**.\n  - **Compensar as horas extras** acumuladas acima de 80h (200h – 80h = 120h), **conforme as regras de compensação previstas na CLT** (ex.: art. 66, CLT), **com pagamento de horas extras** (art. 59, CLT) se a compensação não for possível.  \n  - **Evitar a extrapolação de limites acordados em CCT** sem nova negociação sindical, sob pena de **nulidade do acordo** (Súmula 356/2018, TST).  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **hour_bank_with_cct_max_1_year**: **Violação**.  \n  A empresa **excedeu o limite de 80h/ano** previsto na CCT **sem nova negociação com o sindicato**, violando o princípio da **obrigatoriedade dos limites acordados em CCT** (Súmula 356/2018, TST).  \n\n- **maximum_daily_working_hours_8h**: **Conformidade** (não se aplica diretamente ao caso).  \n  Não há menção a jornadas diárias superiores a 8h, portanto **não há violação** desse predicado.  \n\n--- \n\n### **Conclusão Normativa**  \nA **extrapolação do limite de 80h/ano** previsto na CCT **invalida o banco de horas** para as horas que excedem o acordado, **sem necessidade de nova negociação sindical**. A empresa deve **regularizar a situação** com base no **hour_bank_with_cct_max_1_year**.",
+  "tokens_in": 364,
+  "tokens_out": 1317,
+  "latency_ms": 40468,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

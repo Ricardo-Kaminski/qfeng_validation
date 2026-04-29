@@ -1,0 +1,29 @@
+{
+  "sha256": "ca7dec9551094e4771532d7c16493a74f41324fe2fa652ec21609c877e0b8563",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T23:47:18Z",
+  "prompt_sha": "1bd0aef03e0b6d03d84ca202cf6b7a00e95994884a42849dc5597c5e0bcb70a2",
+  "response_text": "1. **ANÁLISE:**\n\n   - **semester_hour_bank_requires_cct_or_act:** Este predicado normativo estabelece que o banco de horas, especialmente quando ultrapassa um certo período (como 6 meses), requer a existência de uma Convenção Coletiva de Trabalho (CCT) ou Acordo Coletivo de Trabalho (ACT). No cenário apresentado, os empregados acumularam até 120 horas em um banco de horas sem que houvesse qualquer CCT ou ACT autorizando tal prática. Portanto, a empresa não cumpriu com essa obrigação normativa.\n\n   - **prohibition_on_unilateral_hour_bank:** Este predicado proíbe a implementação unilateral do banco de horas por parte da empregadora. No caso em questão, a empresa implantou o sistema de banco de horas através de um memorando interno assinado pelos empregados, sem negociação sindical ou acordo coletivo. Isso viola a norma que exige a participação do sindicato e a celebração de um acordo coletivo para a validade da prática.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base nos predicados normativos aplicáveis, recomenda-se que o banco de horas seja considerado inválido na sua forma atual. A empresa deve negociar com o sindicato da categoria para celebrar um ACT ou CCT que autorize a prática do banco de horas conforme as exigências legais e regulamentares. Até que tal acordo coletivo seja estabelecido, os empregados devem ser remunerados pelas horas trabalhadas além das normais semanais ou diárias, conforme previsto na CLT.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violado:** \n     - *semester_hour_bank_requires_cct_or_act* – A empresa não possuía um ACT ou CCT autorizando o banco de horas.\n     - *prohibition_on_unilateral_hour_bank* – A implementação do banco de horas foi feita unilateralmente pela empresa, sem negociação sindical.\n\n   - **Cumpriu:** \n     - Nenhum dos predicados normativos listados foi cumprido no cenário apresentado. \n\nA recomendação é que a empresa se alinhe às exigências legais para evitar futuras sanções e garantir o respeito aos direitos trabalhistas de seus empregados.",
+  "tokens_in": 353,
+  "tokens_out": 543,
+  "latency_ms": 15858,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

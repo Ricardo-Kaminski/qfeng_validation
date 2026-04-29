@@ -1,0 +1,30 @@
+{
+  "sha256": "5a7a974790bcc4aa2ae77d04a2cf286165b08c7f46e27cc5ab23fa1bb6159844",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-009",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:10:06Z",
+  "prompt_sha": "6d91edef4f830b89da4360eaf0b135c5ffe380f3939107e2bba54ad7b7057f83",
+  "response_text": "## ANÁLISE DO CASO À LUZ DOS PREDICADOS NORMATIVOS\n\n**1. ANÁLISE:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** Este predicado é crucial. A decisão reconhece a aplicação da Súmula TST 85, o que demonstra que a ratio decidendi da súmula foi identificada e considerada. No entanto, a aplicação da consequência jurídica (pagamento como hora normal) diverge da interpretação da Súmula 85, que exige o pagamento de hora extra com adicional de 50%. A decisão, portanto, *não* cumpre integralmente este predicado, pois a aplicação da consequência jurídica não está devidamente fundamentada na ratio decidendi da Súmula 85. A identificação da súmula é um passo, mas a aplicação correta é fundamental.\n\n**2. DECISÃO RECOMENDADA:**\n\nA decisão deve ser reformada para determinar o pagamento das horas excedentes do banco de horas como **hora extra com adicional de 50%**, conforme a interpretação da Súmula TST 85.  Não há espaço para interpretação que afaste o adicional de 50% sem fundamentação jurídica robusta. A decisão original, ao determinar o pagamento como hora normal, desvirtua a orientação da Súmula 85 e ignora a proteção ao trabalhador que a súmula visa garantir. A fundamentação para essa reforma deve reiterar a aplicação da Súmula 85 e explicar por que a interpretação original da decisão (pagamento como hora normal) é incorreta e contrária à jurisprudência do TST.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** **Violação**. Embora a decisão tenha identificado a Súmula 85, a aplicação da consequência jurídica não está devidamente fundamentada na ratio decidendi da súmula, demonstrando uma falha na aplicação do princípio da *ratio decidendi*. A decisão não explicou o porquê de afastar a aplicação do adicional de 50% previsto na súmula.\n\n\n\n**Justificativa Adicional:**\n\nA Súmula TST 85, ao tratar de bancos de horas sem CCT, estabelece que as horas excedentes devem ser pagas como hora extra com adicional de 50%. Essa súmula visa proteger o trabalhador, garantindo que o tempo de trabalho além do previsto não seja explorado sem a devida contrapartida financeira. A decisão de pagar como hora normal, sem qualquer justificativa, desvirtua essa proteção e contraria a jurisprudência do TST.  A aplicação da lei deve ser consistente e alinhada com a orientação dos tribunais superiores.\n",
+  "tokens_in": 331,
+  "tokens_out": 624,
+  "latency_ms": 17031,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

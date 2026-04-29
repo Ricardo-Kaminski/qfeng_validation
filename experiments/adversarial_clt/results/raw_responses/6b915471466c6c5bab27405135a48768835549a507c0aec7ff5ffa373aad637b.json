@@ -1,0 +1,26 @@
+{
+  "sha256": "6b915471466c6c5bab27405135a48768835549a507c0aec7ff5ffa373aad637b",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-006",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T22:04:52Z",
+  "prompt_sha": "853bce6697211f077507fea0253d75450971c248a5b84a4ee816407d1bbb991a",
+  "response_text": "### 1. **ANÁLISE**  \n**a) *obligation_to_ground_decision_in_identified_ratio_decidendi***  \nA decisão judicial deve fundamentar-se em **razões específicas e identificáveis**, conforme exigido pelo **CPC/2015, art. 489, §1°, I**, que determina que a motivação da decisão deve conter **\"a indicação clara e específica dos fatos e das normas jurídicas que fundamentam a decisão\"**. No caso, a juíza indeferiu a prova pericial apenas com a afirmação genérica de que \"os documentos já acostados aos autos são suficientes\", **sem identificar quais documentos** foram considerados relevantes, **sem explicar quais fatos probatórios** estariam demonstrados e **sem vincular a conclusão a normas jurídicas específicas**. Isso viola a **obrigação de fundamentação identificável**, pois a decisão não permite ao interessado compreender a lógica jurídica que sustenta a conclusão.  \n\n**b) *due_process_of_law***  \nO **devido processo legal** implica a **adequada motivação das decisões judiciais**, garantindo o contraditório e a ampla defesa. A ausência de fundamentação específica e a falta de indicação de documentos ou fatos probatórios **viola o direito da parte de contestar a decisão** e de ter acesso a um julgamento transparente e razoável. A jurisprudência do **TST** (ex.: **Súmula 337** – \"A decisão judicial que não motiva a sua fundamentação viola o devido processo legal\") reforça que a **falta de motivação específica** configura violação do direito à ampla defesa e ao contraditório, elementos centrais do devido processo legal.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **decisão interlocutória deve ser anulada** por **falta de motivação específica**, conforme determina o **CPC/2015, art. 489, §1°, I**, e pelo **violação do devido processo legal**. A juíza deve ser convidada a **reexaminar a questão**, com a **necessária fundamentação identificável** sobre:  \n- Quais documentos foram considerados suficientes para substituir a prova pericial;  \n- Quais fatos probatórios estariam demonstrados com base nesses documentos;  \n- Qual norma jurídica ou princípio legal foi aplicado para justificar o indeferimento da prova pericial.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Violado**:  \n  - *obligation_to_ground_decision_in_identified_ratio_decidendi* (a decisão não fundamentou-se em razões específicas e identificáveis, violando o CPC/2015, art. 489, §1°, I);  \n  - *due_process_of_law* (a falta de motivação específica violou o direito à ampla defesa e ao contraditório, conforme jurisprudência do TST).  \n\n- **Cumprido**:  \n  - Nenhum predicado normativo foi cumprido no cenário descrito, pois a decisão judicial **não atendeu aos requisitos mínimos de fundamentação** exigidos pela lei e pela jurisprudência.",
+  "tokens_in": 348,
+  "tokens_out": 1064,
+  "latency_ms": 32031,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

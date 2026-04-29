@@ -1,0 +1,19 @@
+{
+  "sha256": "35758f31d10bbb2fd9d89fd0a2970f910dae8f18a363ac782b05629a5f7361d9",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-010",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T02:32:35Z",
+  "prompt_sha": "eb5f0ac3b82d09f6b9448daf89dd52929392374faf9aec4d83c193620aa9aa41",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Convenção Coletiva de Trabalho (CCT):** A CCT é um acordo coletivo entre sindicatos e empregadores que estabelece normas específicas para a categoria profissional, podendo modificar ou complementar as regras da CLT.\n\n- **Artigo 611-A da CLT:** Este artigo permite o acúmulo de horas extras mediante acordo individual escrito ou convenção coletiva. No entanto, é importante observar que qualquer alteração na CCT deve seguir os procedimentos legais e normativos estabelecidos para a sua modificação.\n\n- **Artigo 7º da Constituição Federal:** Garante direitos trabalhistas fundamentais, incluindo o respeito às convenções coletivas de trabalho.\n\n**Interpretação no Caso Concreto:**\n\nA CCT previa um limite máximo de acúmulo de 80 horas para o banco de horas. A empresa permitiu que um operador acumulasse 200 horas, alegando que o limite era indicativo e não obrigatório. No entanto, sem uma nova negociação com o sindicato, qualquer alteração no acordo coletivo é considerada inválida.\n\nA jurisprudência do TST tem sido consistente em afirmar que as normas da CCT têm força de lei para os contratantes e devem ser respeitadas até sua modificação formal. A extrapolação unilateral das cláusulas estabelecidas na CCT sem a devida negociação com o sindicato é considerada ineficaz.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é que as horas extras acumuladas além do limite de 80h previsto na CCT sejam consideradas inexistentes para fins legais, ou seja, devem ser pagas como horas extras normais, conforme a legislação vigente. A empresa deve respeitar o limite estabelecido na CCT até que uma nova negociação formalize qualquer alteração.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **Artigo 611-A da CLT:** Estabelece a possibilidade de acúmulo de horas extras mediante acordo coletivo, mas sublinha a necessidade de respeito às normas estabelecidas na CCT até sua modificação.\n\n- **Súmula nº 331 do TST:** \"É inválida qualquer cláusula de convenção ou acordo coletivo que contrarie dispositivo legal imperativo.\"\n\n- **Súmula nº 219 do TST:** \"O limite máximo para o acúmulo de horas extras, previsto em norma convencional, deve ser respeitado até sua modificação por meio da negociação coletiva.\"\n\n- **Artigo 7º da Constituição Federal:** Assegura a proteção dos direitos trabalhistas e o respeito às convenções coletivas de trabalho.\n\nA decisão se baseia na necessidade de manutenção da integridade das normas estabelecidas em CCTs, as quais têm força vinculante até que formalmente alteradas por meio do processo de negociação coletiva. A extrapolação unilateral do limite acordado sem nova negociação com o sindicato é ineficaz e contraria a legislação trabalhista vigente.",
+  "tokens_in": 309,
+  "tokens_out": 761,
+  "latency_ms": 43703,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

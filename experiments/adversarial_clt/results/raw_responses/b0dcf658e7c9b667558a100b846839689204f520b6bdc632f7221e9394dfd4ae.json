@@ -1,0 +1,19 @@
+{
+  "sha256": "b0dcf658e7c9b667558a100b846839689204f520b6bdc632f7221e9394dfd4ae",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T12:45:11Z",
+  "prompt_sha": "8d4ac12f0cc6e5150af73dba91fd8c1fbec988bd7586fea25703d7eb141373ba",
+  "response_text": "## Análise Jurídico-Trabalhista: Transcrição de Ementa do TST e Violação ao Art. 489, §1º, V do CPC\n\nConsiderando o cenário apresentado, onde um Tribunal Regional do Trabalho (TRT) transcreveu integralmente a ementa de um acórdão do Tribunal Superior do Trabalho (TST) sem realizar o devido cotejo entre os fatos do precedente e os fatos do caso concreto, a alegação da parte vencida de violação ao artigo 489, §1º, V do Código de Processo Civil (CPC) merece análise cuidadosa.\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nO único dispositivo normativo explicitamente aplicável ao caso, dentro do contexto fornecido, é o artigo 489, §1º, V do CPC.  Este dispositivo estabelece a obrigatoriedade de fundamentação das decisões judiciais, incluindo a análise de aplicação de precedentes.\n\n**Art. 489, §1º, V do CPC:** \"A decisão de mérito somente pode ser desfavorável à parte que não tenha participado da instrução judicial, salvo se houver audiência em que tenha sido ouvida ou se sua incomparecimento injustificado houver sido admitido pelo juiz; e quando a decisão judicial tiver como fundamento fato constato, o juiz não pode contradi-lo, sob pena de violação ao princípio do contraditório e da motivação.\"\n\nEmbora o contexto mencione a transcrição de ementa de acórdão do TST, a análise se concentra na **fundamentação da decisão do TRT**, e não na validade do precedente do TST em si. A transcrição da ementa, por si só, não constitui fundamentação adequada, conforme o artigo 489, §1º, V do CPC.\n\n**2. DECISÃO RECOMENDADA**\n\nRecomenda-se o **provimento do recurso** da parte vencida, com o **anulação da decisão do TRT** para que esta seja reanalisada, com a devida observância do artigo 489, §1º, V do CPC.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA decisão de provimento do recurso se fundamenta exclusivamente no artigo 489, §1º, V do CPC. A transcrição integral da ementa do acórdão do TST, sem a devida análise comparativa entre os fatos do caso concreto e os fatos que fundamentaram a decisão do TST, **não atende à exigência de fundamentação** prevista no dispositivo.\n\nO artigo 489, §1º, V do CPC exige que, ao fundamentar uma decisão em um fato constatado, o juiz não possa contradi-lo.  Nesse contexto, a aplicação de um precedente do TST (representado pela ementa transcrita) implica em considerar que os fatos do caso concreto são equivalentes aos fatos que fundamentaram a decisão do TST.  A mera transcrição da ementa não demonstra essa equivalência, configurando uma **falha na fundamentação** da decisão do TRT.\n\nA parte vencida alega corretamente que a decisão do TRT não demonstrou a aplicabilidade do precedente do TST ao caso concreto, o que viola o disposto no artigo 489, §1º, V do CPC.  A ausência de cotejo fático impede a compreensão da lógica da decisão e a garantia do direito de contraditório e motivação.\n\n**Limitação do Contexto:**\n\nÉ importante ressaltar que o contexto normativo fornecido é limitado ao artigo 489, §1º, V do CPC. Não há, nesse contexto, dispositivos que tratem da validade ou força vinculante de acórdãos do TST, nem que estabeleçam regras específicas para a aplicação de precedentes. A análise se restringe à questão da fundamentação da decisão judicial, conforme exigido pelo CPC.\n",
+  "tokens_in": 271,
+  "tokens_out": 867,
+  "latency_ms": 42343,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

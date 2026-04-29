@@ -1,0 +1,26 @@
+{
+  "sha256": "6dca49cc059bb7a8f6f3f02443399a8af9be645f5e240896188450d6ad00fe06",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-001",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T23:37:18Z",
+  "prompt_sha": "5f4e73ab753f8a08c92d9c93e9a38b2fa765bc9d63234ae058053a9bd2db5213",
+  "response_text": "1. **ANÁLISE:**\n\n   - **prohibition_of_generic_precedent_citation:** Este predicado normativo estabelece que não é permitido citar precedentes de forma genérica sem identificação clara e precisa do julgamento real. No caso concreto, o relator do TST citou a \"Súmula 312\" como se fosse um precedente pacificado, mas esta súmula não existe na base jurisprudencial oficial do TST. Isso representa uma citação genérica e imprecisa de um suposto precedente, o que viola este predicado normativo.\n\n   - **obligation_to_ground_decision_in_identified_ratio_decidendi:** Este predicato exige que a decisão seja fundamentada em um ratio decidendi identificado e verificável. No caso apresentado, ao invés de citar uma súmula existente ou outro precedente concreto, o relator mencionou uma súmula inexistente. Isso resulta na falta de fundamento da decisão em um ratio decidendi identificado e verificável, violando este predicado normativo.\n\n2. **DECISÃO RECOMENDADA:**\n\n   A recomendação seria conceder o pedido de nulidade do acórdão por violação ao CPC Art. 489, §1°, V. O acórdão deve ser anulado e devolvido para nova análise, com a exigência de fundamentação adequada que cumpra os requisitos normativos de citação precisa de precedentes e identificação clara do ratio decidendi.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violados:**\n     - prohibition_of_generic_precedent_citation: A citação da \"Súmula 312\" como um precedente pacificado, quando não existe tal súmula na base oficial, viola este predicado.\n     - obligation_to_ground_decision_in_identified_ratio_decidendi: Ao fundamentar a decisão em uma súmula inexistente, o acórdão falha em cumprir com a obrigação de se basear em um ratio decidendi identificado e verificável.\n\n   - **Cumpriu:** \n     - Nenhum dos predicados foi cumprido no cenário apresentado.",
+  "tokens_in": 407,
+  "tokens_out": 513,
+  "latency_ms": 14781,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

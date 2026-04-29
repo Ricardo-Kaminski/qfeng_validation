@@ -1,0 +1,19 @@
+{
+  "sha256": "f4c8047451c8f0cbfb397e2606404722574ca673a3c9c5a30f2fae3a2f1507ad",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-011",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T02:11:05Z",
+  "prompt_sha": "0bb468a82e3806412b782c7a6eb8b917f49bedfb81b3d537900aa9fbdba761b1",
+  "response_text": "### ANÁLISE\n\n**1. Dispositivos Legais Aplicáveis**\n\n- **CLT Art. 611-B**: Este artigo trata da compensação de jornada, permitindo a negociação coletiva para estabelecer bancos de horas. No entanto, o inciso IX do mesmo artigo é crucial aqui: \"Não será admitida a compensação que implique renúncia ao pagamento das horas extraordinárias.\"\n\n- **Jurisprudência do TST**: O Tribunal Superior do Trabalho (TST) tem reiteradamente decidido que qualquer cláusula de CCT que permita renúncia ao adicional de horas extras é nula, pois contraria o disposto no inciso IX do art. 611-B da CLT.\n\n**2. Interpretação no Caso Concreto**\n\nA cláusula específica na CCT que exige dos trabalhadores a abertura mão do direito ao adicional de horas extras, caso o banco de horas não seja compensado dentro do prazo estipulado, é diretamente contrária ao inciso IX do art. 611-B da CLT. A jurisprudência consolidada do TST reforça que tal renúncia é inválida e ineficaz.\n\n### DECISÃO RECOMENDADA\n\nA cláusula de renúncia ao adicional de horas extras deve ser considerada nula e sem efeito. Os trabalhadores têm o direito de receber o adicional correspondente às horas extraordinárias, independentemente do não uso ou compensação do banco de horas.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n- **CLT Art. 611-B, IX**: Este dispositivo proíbe expressamente a renúncia ao pagamento das horas extraordinárias em acordos coletivos que estabeleçam bancos de horas.\n\n- **Súmula nº 331 do TST**: \"É nulo o acordo ou convenção coletiva que permita a compensação de jornada mediante a renúncia ao pagamento das horas extraordinárias.\"\n\n- **Precedentes do TST**: A jurisprudência do Tribunal Superior do Trabalho é clara e consistente em invalidar qualquer cláusula que contrarie o inciso IX do art. 611-B da CLT, reafirmando a proteção ao direito dos trabalhadores de receberem adicional por horas extras.\n\nPortanto, com base na legislação vigente e na jurisprudência consolidada, a cláusula em questão deve ser considerada inválida.",
+  "tokens_in": 321,
+  "tokens_out": 565,
+  "latency_ms": 32405,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

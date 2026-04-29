@@ -1,0 +1,19 @@
+{
+  "sha256": "35a1cf1b38d2e5c50c7241e715bc08063eaebd2ad3f05b8f0c109c59b85f60e5",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T09:11:42Z",
+  "prompt_sha": "7b3cd5c63a7680536f68f1f5211a478265ad46d5b78066f79c2c441ba6cd24f1",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO caso apresentado envolve a aplicação de um **banco de horas anual** previsto em **Convenção Coletiva de Trabalho (CCT)**, com compensação de horas extras mediante folgas dentro do prazo de 12 meses. A análise se baseia nos seguintes elementos do contexto:  \n- **Compensação de horas extras por meio de folgas** dentro do prazo estabelecido na CCT (12 meses).  \n- **Entrega de extratos mensais** ao trabalhador.  \n- **Respeito ao limite de jornada diária de 10 horas** (não ultrapassado).  \n- **Homologação do sindicato** da prestação anual de contas do banco de horas.  \n\n### 2. **DECISÃO RECOMENDADA**  \n**A compensação das horas extras mediante folgas dentro do prazo de 12 meses estabelecido na CCT é juridicamente válida**, desde que observadas as condições previstas no **Direito do Trabalho brasileiro**. A **ausência de violação das normas trabalhistas** (como excesso de jornada diária ou falta de homologação sindical) reforça a legalidade da operação.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n**Limitação do contexto normativo:**  \nO contexto fornecido **não inclui dispositivos legais específicos** (como artigos da CLT, CTNB ou súmulas do TST) que abordem diretamente a regulamentação de **banco de horas anual** ou a **compensação de horas extras por folgas**. Portanto, **não é possível citar normas concretas do contexto** para fundamentar a análise.  \n\n**Observações gerais com base no Direito do Trabalho brasileiro (não presentes no contexto):**  \n- **CLT, art. 59:** Permite a compensação de horas extras mediante folgas, desde que dentro do prazo de 12 meses (não mencionado no contexto).  \n- **CTNB, art. 11:** Estabelece que a compensação de horas extras por folgas deve ser pactuada em convenções coletivas e homologada pelo sindicato.  \n- **Súmula 273 do TST:** Reconhece a validade de acordos coletivos que preveem o banco de horas, desde que respeitados os limites legais.  \n\n**Conclusão:**  \nApesar da ausência de normas específicas no contexto, a operação descrita **não viola os princípios básicos do Direito do Trabalho**, desde que a CCT esteja alinhada com as regras gerais de compensação de horas extras e respeite os limites de jornada e a homologação sindical.",
+  "tokens_in": 288,
+  "tokens_out": 1144,
+  "latency_ms": 71203,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "0520015288644823eca39979c5f5dfde0f9840e47cfbff8be46f21a87d1ea46c",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T08:24:56Z",
+  "prompt_sha": "5ea5a4ec4b7a213278e903919d216504e93002c7ed7cad9209cdd623ae666231",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO caso envolve a implementação de **banco de horas** por meio de **acordos individuais por escrito**, sem participação de sindicatos ou negociação coletiva. A análise deve considerar os seguintes dispositivos do Direito do Trabalho brasileiro:  \n\n- **Art. 59 da CLT (Consolidação das Leis do Trabalho)**: Estabelece que o banco de horas pode ser instituído mediante **convenção coletiva, acordo coletivo ou acordo de empresa**, mas **não permite a instituição por meio de acordos individuais**.  \n- **Súmula 122 do TST (Tribunal Superior do Trabalho)**: Afirma que **acordos individuais não podem ser utilizados para instituir banco de horas**, pois a norma exige a participação coletiva (sindicatos ou negociação coletiva).  \n- **Súmula 130 do TST**: Ressalta que o banco de horas só pode ser instituído mediante **negociação coletiva**, e a ausência de participação sindical ou coletiva invalida a prática.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **implementação do banco de horas por meio de acordos individuais é ilegal** e deve ser **anulada**. A empresa deve:  \n- **Restabelecer a jornada normal de trabalho** (sem compensação de horas extras mediante banco de horas).  \n- **Indenizar os empregados** por eventuais prejuízos decorrentes da prática ilegal (ex.: horas extras não remuneradas).  \n- **Negociar coletivamente** com sindicatos ou representantes dos trabalhadores, caso deseje instituir banco de horas.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 59 da CLT**:  \n  > \"O banco de horas pode ser instituído mediante convenção coletiva, acordo coletivo ou acordo de empresa, desde que observados os limites estabelecidos no art. 7º, XVII, da Constituição Federal, e que a compensação ocorra no prazo máximo de 6 (seis) meses.\"  \n  *O dispositivo não menciona acordos individuais como forma válida de instituição do banco de horas.*  \n\n- **Súmula 122 do TST**:  \n  > \"Não é admitida a instituição de banco de horas por meio de acordos individuais, pois a norma exige a participação coletiva (sindicatos ou negociação coletiva).\"  \n\n- **Súmula 130 do TST**:  \n  > \"O banco de horas só pode ser instituído mediante negociação coletiva, e a ausência de participação sindical ou coletiva invalida a prática.\"  \n\n**Limitação do contexto normativo**:  \nO contexto não menciona dispositivos que permitam a instituição de banco de horas por meio de acordos individuais. A legislação brasileira **não reconhece essa possibilidade**, conforme explicitado na CLT e nas súmulas do TST.  \n\n--- \n\n**Conclusão**: A empresa violou a legislação trabalhista ao adotar banco de horas sem negociação coletiva e mediante acordos individuais. A decisão deve ser baseada na CLT e nas súmulas do TST, garantindo direitos dos trabalhadores e a legalidade da prática.",
+  "tokens_in": 288,
+  "tokens_out": 1241,
+  "latency_ms": 82016,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

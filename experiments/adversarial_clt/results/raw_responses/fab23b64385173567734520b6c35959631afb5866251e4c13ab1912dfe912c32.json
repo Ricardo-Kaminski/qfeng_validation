@@ -1,0 +1,19 @@
+{
+  "sha256": "fab23b64385173567734520b6c35959631afb5866251e4c13ab1912dfe912c32",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-009",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T11:22:40Z",
+  "prompt_sha": "b09008be3db8993e87c56a00bc3805af6ee10f0702c17448ede0c29eef458272",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, há duas questões principais a serem analisadas:\n\n- A sentença de primeiro grau foi mantida sem acréscimo de fundamentação pelo magistrado trabalhista, que simplesmente adotou os fundamentos da sentença como razões de decidir.\n- A sentença de origem citou um precedente que foi posteriormente superado por jurisprudência mais recente do Tribunal Superior do Trabalho (TST), mas o acórdão do Tribunal Regional do Trabalho (TRT) ignorou essa evolução.\n\nOs dispositivos normativos relevantes para este caso incluem:\n\n- **Art. 515, § 1º, da CLT**: Este dispositivo estabelece que a decisão deve ser fundamentada, mencionando os motivos de fato e de direito que a justificam.\n  \n- **Súmula nº 126 do TST**: Esta súmula afirma que \"A jurisprudência dominante do Tribunal Superior do Trabalho vincula o julgador em grau recursal.\"\n\n2. **DECISÃO RECOMENDADA:**\n\nDeve-se recomendar a reforma da decisão do TRT, com base nos seguintes motivos:\n\n- A falta de acréscimo de fundamentação na manutenção da sentença viola o princípio da motivação previsto no art. 515, § 1º, da CLT.\n  \n- O acórdão do TRT não considerou a jurisprudência mais recente do TST que superou o precedente utilizado na sentença de origem, contrariando a Súmula nº 126 do TST.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Art. 515, § 1º, da CLT**: Este dispositivo exige que as decisões sejam fundamentadas com os motivos de fato e de direito que a justifiquem. A simples adoção dos fundamentos da sentença sem acréscimo ou análise adequada não cumpre este requisito.\n\n- **Súmula nº 126 do TST**: Estabelece que o julgador em grau recursal está vinculado à jurisprudência dominante do TST. Portanto, ao ignorar a evolução da jurisprudência do TST, o acórdão do TRT violou este princípio.\n\nEm resumo, a decisão deve ser reformada para garantir que seja devidamente fundamentada e alinhada com a jurisprudência mais recente do TST.",
+  "tokens_in": 286,
+  "tokens_out": 584,
+  "latency_ms": 36828,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,27 @@
+{
+  "sha256": "26c90157c376863ca6511f1e550ac2f6e9728412f16a4c88af4d3876ad534c54",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T00:49:05Z",
+  "prompt_sha": "d850bd7abdcb7227665403051d94794859c730819b16d4aa28c926c6680567ee",
+  "response_text": "## Análise do Caso do Banco de Horas na Empresa Alimentícia\n\nCom base nos predicados normativos fornecidos e no cenário apresentado, segue a análise, decisão recomendada e identificação de cumprimento/violação dos predicados:\n\n**1. ANÁLISE:**\n\n*   **hour_bank_with_cct_max_1_year:** Este predicado estabelece que a utilização do banco de horas deve ocorrer dentro de um período máximo de 1 ano. No caso, a CCT previu o banco de horas anual e todas as horas acumuladas foram compensadas por folgas dentro desse prazo de 12 meses, demonstrando conformidade com este predicado.\n*   **recognition_of_collective_bargaining:** Este predicado indica a importância do reconhecimento e da validade dos acordos e convenções coletivas de trabalho. A existência de uma CCT que regulamenta o banco de horas, a homologação da prestação de contas pelo sindicato e a entrega de extratos mensais ao trabalhador reforçam a validade e o cumprimento deste predicado. A CCT é a lei para as partes.\n*   **working_hours_negotiable_by_cct:** Este predicado permite a negociação da jornada de trabalho por meio de CCT. A implementação do banco de horas, como forma de flexibilização da jornada, é um exemplo de como a CCT pode negociar e estabelecer regras diferentes das previstas na legislação geral, desde que respeitados os limites legais e a compensação das horas extras. A jornada diária nunca ultrapassou 10h, o que sugere que a flexibilização ocorreu dentro de limites razoáveis.\n\n**2. DECISÃO RECOMENDADA:**\n\nConsiderando que todas as horas acumuladas no banco de horas foram compensadas dentro do prazo estabelecido na CCT, que a prestação de contas foi homologada pelo sindicato e que a jornada diária não ultrapassou o limite de 10 horas, a decisão recomendada é **validar a aplicação do banco de horas conforme previsto na CCT**. Não há indícios de irregularidades que justifiquem a desconstituição do acordo ou a responsabilização da empresa. É importante manter a documentação organizada (extratos mensais, termos de compensação, homologação sindical) para eventual comprovação em caso de questionamentos.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **hour_bank_with_cct_max_1_year:** **Cumprido** - As horas foram compensadas dentro do prazo de 1 ano.\n*   **recognition_of_collective_bargaining:** **Cumprido** - A CCT foi reconhecida e seguida, com homologação sindical.\n*   **working_hours_negotiable_by_cct:** **Cumprido** - A jornada foi flexibilizada por meio da CCT, respeitando os limites legais.\n\n**Observações Importantes:**\n\n*   Esta análise é baseada unicamente nos predicados fornecidos e no cenário descrito. Outros aspectos legais ou contratuais poderiam influenciar a decisão em uma situação real.\n*   É fundamental que a empresa mantenha a documentação completa e organizada do banco de horas, incluindo os extratos mensais entregues ao trabalhador e a homologação sindical.\n*   A validade do banco de horas depende da observância de todos os requisitos legais e da CCT, incluindo a compensação integral das horas extras e a garantia de condições de trabalho adequadas.\n*   A homologação sindical não garante, por si só, a legalidade do banco de horas. É importante que o sindicato exerça seu papel de fiscalização e assegure o cumprimento da legislação trabalhista.\n",
+  "tokens_in": 343,
+  "tokens_out": 800,
+  "latency_ms": 22077,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

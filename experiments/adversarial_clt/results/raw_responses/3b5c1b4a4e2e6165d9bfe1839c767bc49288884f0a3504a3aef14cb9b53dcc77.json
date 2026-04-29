@@ -1,0 +1,19 @@
+{
+  "sha256": "3b5c1b4a4e2e6165d9bfe1839c767bc49288884f0a3504a3aef14cb9b53dcc77",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-007",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T02:51:04Z",
+  "prompt_sha": "ac22e0a24d52c3d6b73651712f81a45c5184899e24431668899f1b7d023da2a8",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Constituição Federal de 1988 (CF/88), Art. 10, II, \"b\" e ADCT:** Estabelecem a estabilidade provisória da gestante durante a gravidez e até cinco meses após o parto, garantindo proteção contra dispensa arbitrária.\n\n- **Súmula TST 244:** Dispõe que é nula a dispensa de empregada gestante sem justa causa ou nos casos previstos em lei. A estabilidade provisória é um direito constitucional assegurado às trabalhadoras gestantes, e qualquer violação desse direito resulta na nulidade da dispensa.\n\n- **OJ 399 da SDI-1 do TST:** Estabelece que a comunicação prévia ao empregador sobre a gravidez não é requisito para o gozo do direito à estabilidade provisória. A ausência de tal comunicação não impede o reconhecimento dos direitos decorrentes da gestação.\n\n**Interpretação no Caso Concreto:**\n\nNo caso em análise, a decisão do TRT identificou corretamente que a gravidez ocorreu antes da dispensa, conforme fato provado. A aplicação da OJ 399 é adequada para afastar a exigência de comunicação prévia, pois o direito à estabilidade não depende dessa formalidade.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão do TRT deve ser mantida: a dispensa da gestante deve ser considerada nula, e ela deve ser reintegrada ao emprego com todos os direitos trabalhistas correspondentes à estabilidade provisória.\n\n**Justificativa:**\n\n- A gravidez ocorreu antes da dispensa, conforme fato provado.\n- O direito à estabilidade provisória é garantido constitucionalmente e não depende de comunicação prévia ao empregador.\n- A nulidade da dispensa está respaldada pela Súmula TST 244.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n**Artigos da CLT:**\n\nEmbora a CLT não trate especificamente da estabilidade provisória das gestantes, ela deve ser interpretada em consonância com os direitos constitucionais assegurados às trabalhadoras.\n\n**Constituição Federal de 1988 (CF/88):**\n\n- **Art. 7º, XXI:** Assegura a proteção à maternidade.\n- **Art. 10, II, \"b\":** Estabelece a estabilidade provisória da gestante durante a gravidez e até cinco meses após o parto.\n\n**Súmulas do TST:**\n\n- **Súmula TST 244:** Dispensa de empregada gestante sem justa causa ou nos casos previstos em lei é nula.\n\n**OJ da SDI-1 do TST:**\n\n- **OJ 399:** A comunicação prévia ao empregador sobre a gravidez não é requisito para o gozo do direito à estabilidade provisória.\n\n**Precedentes Constitucionais:**\n\nA jurisprudência constitucional reforça que os direitos das trabalhadoras gestantes são fundamentais e devem ser protegidos, independentemente de formalidades administrativas como a comunicação prévia da gravidez ao empregador.",
+  "tokens_in": 333,
+  "tokens_out": 775,
+  "latency_ms": 44562,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

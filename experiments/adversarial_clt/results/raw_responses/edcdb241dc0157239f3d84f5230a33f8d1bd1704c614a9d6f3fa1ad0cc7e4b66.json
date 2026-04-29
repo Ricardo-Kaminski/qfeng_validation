@@ -1,0 +1,29 @@
+{
+  "sha256": "edcdb241dc0157239f3d84f5230a33f8d1bd1704c614a9d6f3fa1ad0cc7e4b66",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-011",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:26:18Z",
+  "prompt_sha": "6fac52d3c2ea75bbed1139d969eba52baa7f8af6a911387e6e7845d9583ea12b",
+  "response_text": "**1. ANÁLISE**\n\n- **semester_hour_bank_requires_cct_or_act**: Esse predicado normativo é aplicável ao caso, pois a Transportadora firmou um CCT com banco de horas semestral. O predicado indica que, em casos de banco de horas, é necessário que haja uma Convenção Coletiva de Trabalho (CCT) ou Acordo Coletivo de Trabalho (ACT) para regular as condições do trabalho.\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a cláusula de renúncia ao adicional de horas extras seja considerada inválida, pois viola o Art. 611-B, IX da CLT. Esse artigo estabelece que os acordos coletivos não podem prejudicar direitos dos trabalhadores previstos na legislação.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **semester_hour_bank_requires_cct_or_act**: Cumprido, pois a Transportadora firmou um CCT com banco de horas semestral.\n- O predicado não menciona especificamente o Art. 611-B, IX da CLT, mas como esse artigo é citado no cenário como base para questionar a validade da cláusula de renúncia ao adicional de horas extras, podemos inferir que:\n  - **Art. 611-B, IX da CLT**: Violado, pois a cláusula de renúncia ao adicional de horas extras, caso o banco não fosse compensado no prazo, viola esse artigo, que proíbe acordos coletivos que prejudiquem direitos dos trabalhadores previstos na legislação.",
+  "tokens_in": 364,
+  "tokens_out": 381,
+  "latency_ms": 6391,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,26 @@
+{
+  "sha256": "2540ca581cc4bc584e749b0d3587ee5eb08599a2c67a89c7adac3161d01caad2",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T00:15:40Z",
+  "prompt_sha": "8878dc2d9f7cf9a0114687aa1266b009f3a08a32602082365158196ffb12806c",
+  "response_text": "1. **ANÁLISE:**\n\n   - **obligation_to_ground_decision_in_identified_ratio_decidendi:** Este predicado normativo está sendo cumprido no cenário apresentado. O acórdão trabalhista identifica expressamente o número do precedente (TST-Ag-RR-868-65.2021.5.13.0030), transcreve a ementa e analisa a compatibilidade fática com o caso em julgamento, aplicando a ratio ao caso concreto. Isso demonstra que a decisão está devidamente fundamentada na ratio decidendi do precedente identificado.\n\n   - **stf_tema1046_binding_precedent_applied:** O cenário menciona a aplicação de um precedente específico, o que sugere que ele está em conformidade com o entendimento do STF sobre temas vinculantes. A aplicação correta e explícita do precedente (TST-Ag-RR-868-65.2021.5.13.0030) indica que a decisão se alinha ao entendimento jurisprudencial vigente, cumprindo assim este predicado normativo.\n\n   - **due_process_of_law:** Este predicado é cumprido no cenário descrito. A fundamentação detalhada e verificável das bases legais e jurisprudenciais, bem como a análise da compatibilidade fática com o caso em julgamento, demonstram que o processo foi conduzido de forma justa e transparente, respeitando os princípios do devido processo legal.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base nos predicados normativos aplicáveis ao caso, a decisão recomendada é manter a sentença proferida pelo acórdão trabalhista. A fundamentação está correta e alinhada com os precedentes vinculantes, além de respeitar o devido processo legal. Portanto, não há razões para alterar a decisão original.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Cumpridos:**\n     - obligation_to_ground_decision_in_identified_ratio_decidendi\n     - stf_tema1046_binding_precedent_applied\n     - due_process_of_law\n\n   Nenhum predicado foi violado no cenário descrito, já que todas as obrigações normativas foram cumpridas conforme a análise apresentada.",
+  "tokens_in": 403,
+  "tokens_out": 536,
+  "latency_ms": 15483,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

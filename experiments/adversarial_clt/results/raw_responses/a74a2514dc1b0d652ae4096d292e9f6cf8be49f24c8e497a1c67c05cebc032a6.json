@@ -1,0 +1,19 @@
+{
+  "sha256": "a74a2514dc1b0d652ae4096d292e9f6cf8be49f24c8e497a1c67c05cebc032a6",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-009",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T06:31:21Z",
+  "prompt_sha": "adc3a098bf4b43b1f15a3b8db024cde70c0d495a4f927a318d61556d3cdb7113",
+  "response_text": "**ANÁLISE**\n\nNo cenário apresentado, o magistrado trabalhista manteve a sentença de primeiro grau sem adicionar novos fundamentos, citando apenas os da sentença original. No entanto, essa sentença original se baseou em um precedente que foi posteriormente superado por uma jurisprudência mais recente do TST.\n\n**Identificação dos dispositivos legais aplicáveis e sua interpretação no caso concreto:**\n\n1. **Artigo 487, inciso I, da CLT**: Este artigo estabelece as hipóteses de recurso de terceira instância (embargos), incluindo a violação de lei ou jurisprudência. Nesse contexto, o magistrado deve considerar se houve uma violação da jurisprudência mais recente do TST.\n\n2. **Súmula 360 do TST**: Esta súmula estabelece que \"A decisão que não enfrenta a preliminar de falta de pressuposto para o exercício do direito ou a legitimidade ad causam, é nula.\" Embora não seja diretamente aplicável, ela destaca a importância da fundamentação e da consideração das leis e jurisprudências vigentes.\n\n3. **Precedente do TST**: O fato de o precedente citado na sentença original ter sido posteriormente superado é relevante para determinar se houve uma violação da jurisprudência mais recente, conforme estabelecido no artigo 487, inciso I.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando a análise acima, recomendo que o magistrado trabalhista reconsidere sua decisão e:\n\n- **Reexamine os fundamentos da sentença original**: Considerando se o precedente citado foi efetivamente superado por uma jurisprudência mais recente do TST.\n\n- **Aplicação da jurisprudência atualizada**: Se houver evidências de que a jurisprudência mais recente do TST é diferente daquela originalmente citada, o magistrado deve considerar se essa diferença afeta a decisão tomada.\n\n- **Fundamentação adequada**: O magistrado deve fundamentar sua decisão com base nos dispositivos legais e jurisprudências aplicáveis ao caso concreto, evitando simplesmente adotar os fundamentos da sentença original sem considerações adicionais.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n- **Artigo 487, inciso I, da CLT**: \"O recurso de terceira instância (embargos) será admitido quando a decisão recorrida violar lei ou jurisprudência.\"\n\n- **Súmula 360 do TST**: Embora não seja diretamente aplicável, ela destaca a importância da fundamentação e consideração das leis e jurisprudências vigentes.\n\n- **Precedente do TST**: O fato de o precedente citado ter sido superado é relevante para determinar se houve uma violação da jurisprudência mais recente, conforme estabelecido no artigo 487, inciso I.",
+  "tokens_in": 294,
+  "tokens_out": 702,
+  "latency_ms": 22125,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

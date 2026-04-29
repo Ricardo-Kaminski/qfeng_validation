@@ -1,0 +1,19 @@
+{
+  "sha256": "cf9bc77a748963383b29e297cf50f94938c3922896c097b7dcafa22171dcc2b8",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-007",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T06:43:35Z",
+  "prompt_sha": "dd6f2e003476c4afd5536719c324f62f60775ac34721283dda4b2bcc970f33b6",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a acumulação de horas trabalhadas em excesso (400h) pelo empregado, mediante o banco de horas previsto em uma Convenção Coletiva de Trabalho (CCT) válida. A CCT estabelece um prazo de compensação de 12 meses para a empresa pagar ou compensar essas horas extras acumuladas.\n\nA empresa não cumpriu com essa obrigação, alegando necessidade operacional permanente e não disponibilizando folgas compensatórias ao longo do período. Ao final do prazo estabelecido na CCT, o saldo de horas não foi pago nem compensado.\n\n**IDENTIFICAÇÃO DOS DISPOSITIVOS LEGAIS APLICÁVEIS**\n\n- **Artigo 59 da CLT**: Regula a compensação de jornada e permite que as empresas estabeleçam acordos para compensar horas trabalhadas em excesso, desde que previstos em convenção coletiva ou acordo coletivo.\n  \n- **Artigo 59, parágrafo único da CLT**: Estabelece a possibilidade de compensação de jornada por meio de banco de horas, desde que acordado entre as partes e previsto na CCT ou AC.\n\n- **Súmula 379 do TST**: Determina que o saldo remanescente de banco de horas após o prazo estabelecido deve ser pago ao empregado.\n\n**INTERPRETAÇÃO NO CASO CONCRETO**\n\nA empresa, ao não cumprir com a compensação das horas extras dentro do prazo previsto na CCT e sem mecanismo de pagamento em caso de não-compensação, violou as disposições legais que regem o banco de horas. A falta de disponibilização de folgas compensatórias ao longo do período e a manutenção do saldo após o prazo estabelecido configuram uma situação de inadimplência da empresa perante suas obrigações trabalhistas.\n\n**DECISÃO RECOMENDADA**\n\nDevido à violação das normas legais, especialmente considerando a Súmula 379 do TST, que determina o pagamento ao empregado em caso de saldo remanescente após o prazo estabelecido para compensação, recomenda-se:\n\n- **O Pagamento do Saldo**: A empresa deve pagar ao empregado o valor correspondente às horas extras acumuladas (400h) calculadas com base no salário do empregado e as condições previstas na CCT.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n- **Art. 59 da CLT**: Permite a compensação de jornada, desde que acordada entre as partes e prevista em convenção coletiva ou acordo coletivo.\n  \n- **Súmula 379 do TST**: Determina o pagamento ao empregado em caso de saldo remanescente após o prazo estabelecido para compensação.\n\nA decisão se baseia na interpretação das normas legais que regem a compensação de jornada e o banco de horas, bem como na jurisprudência do TST que determina o pagamento ao empregado em caso de não-compensação dentro do prazo estabelecido.",
+  "tokens_in": 291,
+  "tokens_out": 716,
+  "latency_ms": 22375,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

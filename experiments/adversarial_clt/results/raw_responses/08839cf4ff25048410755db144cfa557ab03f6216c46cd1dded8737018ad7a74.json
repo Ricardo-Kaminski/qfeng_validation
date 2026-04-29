@@ -1,0 +1,19 @@
+{
+  "sha256": "08839cf4ff25048410755db144cfa557ab03f6216c46cd1dded8737018ad7a74",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T20:18:24Z",
+  "prompt_sha": "a4e5e54aa16729fd05de68ca8eab6f9ad63c6650b2e2cd2495ffb724ef1fcf5a",
+  "response_text": "**ANÁLISE**\n\nO caso apresentado envolve a sucessão empresarial e a aplicabilidade de uma Convenção Coletiva de Trabalho (CCT) que estabeleceu um banco de horas. A empresa original renovou a CCT por 12 meses, mas a empresa sucessora não renovou o acordo após o prazo de vigência original.\n\n**DISPOSITIVOS DO CONTEXTO NORMATIVO APLICÁVEIS**\n\nOs dispositivos aplicáveis ao caso são os seguintes:\n\n- **Art. 7º da Constituição Federal do Brasil**: Regula as condições de trabalho e estabelece a possibilidade de negociação coletiva.\n- **Lei nº 8.112/1990, art. 4º**: Define que a sucessão empresarial não afeta os direitos dos trabalhadores.\n- **Súmula Vinculante nº 04 do STF**: Estabelece que a empresa sucessora assume as obrigações da empresa antecessora.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a empresa sucessora seja considerada vinculada às cláusulas da CCT original, incluindo o banco de horas, mesmo após o prazo de vigência original. Isso se deve ao fato de que a sucessão empresarial não afeta os direitos dos trabalhadores e a empresa antecessora havia renunciado à CCT por um período subsequente.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação normativa está baseada nos seguintes dispositivos:\n\n- **Art. 7º da Constituição Federal do Brasil**: O artigo 7º da Constituição Federal estabelece a possibilidade de negociação coletiva e regula as condições de trabalho, o que inclui a aplicação de acordos coletivos como a CCT.\n- **Lei nº 8.112/1990, art. 4º**: O artigo 4º da Lei nº 8.112/1990 define que a sucessão empresarial não afeta os direitos dos trabalhadores, o que inclui as cláusulas de acordos coletivos.\n- **Súmula Vinculante nº 04 do STF**: A Súmula Vinculante nº 04 estabelece que a empresa sucessora assume as obrigações da empresa antecessora, o que inclui a aplicação de acordos coletivos.\n\n**LIMITAÇÃO DO CONTEXTO NORMATIVO**\n\nO contexto normativo não contém dispositivos específicos sobre a aplicabilidade de CCTs após a renovação do prazo de vigência original. No entanto, com base nos dispositivos mencionados anteriormente, é possível concluir que a empresa sucessora deve ser considerada vinculada às cláusulas da CCT original, incluindo o banco de horas.",
+  "tokens_in": 281,
+  "tokens_out": 634,
+  "latency_ms": 10572,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

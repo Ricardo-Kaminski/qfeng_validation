@@ -1,0 +1,26 @@
+{
+  "sha256": "1a2aa41f0d945fefa660e348f45fca3022e0774ae3373921be6654b60de4437c",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-008",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T23:42:22Z",
+  "prompt_sha": "7660b2da54b47ec130cffef58432c2ae523cbf081d6549688005d26e1d75d53b",
+  "response_text": "1. **ANÁLISE:**\n\n   No cenário apresentado, o TRT utilizou a Orientação Jurisprudencial 394 da SDI-1 do TST para embasar sua decisão sobre condenação por horas de sobreaviso. Contudo, essa OJ foi cancelada pelo próprio TST em 2012 e suas disposições relevantes foram incorporadas à Súmula 428, com algumas alterações no conteúdo.\n\n   - **prohibition_of_generic_precedent_citation:** Este predicado normativo é diretamente aplicável ao caso. A decisão do TRT violou este princípio ao citar uma Orientação Jurisprudencial que já havia sido cancelada e substituída por outra normativa (Súmula 428). O uso de precedentes desatualizados ou revogados é proibido, pois compromete a segurança jurídica e o correto entendimento das normas vigentes.\n\n2. **DECISÃO RECOMENDADA:**\n\n   A decisão do TRT deve ser reconsiderada ou reformulada para corrigir a referência à Orientação Jurisprudencial 394. O acórdão deveria ter citado a Súmula 428, que é o precedente atual e válido sobre o tema das horas de sobreaviso. Além disso, deve-se analisar se as alterações introduzidas na Súmula 428 afetam o entendimento ou a aplicação do caso concreto.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violado:** \n     - prohibition_of_generic_precedent_citation: A decisão violou este predicado ao citar uma Orientação Jurisprudencial que já havia sido cancelada e substituída por outra normativa.\n\n   Não há indicativos de cumprimento dos predicados listados no cenário, dado que a única referência feita foi à OJ 394, sem consideração pela Súmula 428.",
+  "tokens_in": 339,
+  "tokens_out": 448,
+  "latency_ms": 13077,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

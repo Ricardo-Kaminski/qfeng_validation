@@ -1,0 +1,27 @@
+{
+  "sha256": "e7b26275fd5443320ec25f280e4e3ecb4cc2a950b9e50d4ee74bac606a32d5ea",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T00:53:15Z",
+  "prompt_sha": "9ddadcfbd5dbebfc988f0d0afbf51a1545713cd3a59a541f7d3ad04a951daf64",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso: Banco de Horas e Licença Maternidade\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, apresento a análise, decisão recomendada e identificação de cumprimento/violação dos predicados.\n\n**1. ANÁLISE:**\n\n*   **hour_bank_with_cct_max_1_year (Banco de Horas com CCT com prazo máximo de 1 ano):** Este predicado estabelece que a utilização do banco de horas deve estar prevista em acordo ou convenção coletiva, e que o prazo máximo para a compensação é de 1 ano. No caso, a trabalhadora firmou um CCT que estabeleceu um banco de horas semestral, o que está em conformidade com este predicado. A questão central aqui é como a licença maternidade impacta a contagem desse prazo semestral.\n*   **recognition_of_collective_bargaining (Reconhecimento do Acordo/Convenção Coletiva):** Este predicado reforça a obrigatoriedade de se dar força e validade aos acordos e convenções coletivas de trabalho. A empresa, ao suspender o cômputo do banco de horas durante a licença e reativá-lo ao retorno, agiu em consonância com o que foi acordado na CCT, demonstrando reconhecimento do acordo coletivo. A interpretação da CCT, portanto, é crucial para determinar a validade da conduta da empresa.\n\n**Interpretação da CCT e a Licença Maternidade:**\n\nA questão crucial é a interpretação da CCT. A redação do acordo não especifica se o prazo semestral é interrompido por eventos como a licença maternidade. A jurisprudência do TST, embora não trate especificamente de licença maternidade em relação ao banco de horas, estabelece princípios gerais de interpretação de normas coletivas que podem ser aplicados:\n\n*   **Princípio da Primazia da Realidade:** A interpretação deve se basear na realidade das relações de trabalho, buscando a aplicação mais justa e equitativa aos trabalhadores.\n*   **Princípio da Proteção ao Trabalhador:** Em caso de dúvida na interpretação, deve-se favorecer a interpretação mais benéfica ao trabalhador.\n*   **Interrupção de Prazos:** Em geral, prazos de compensação de horas extras ou utilização de banco de horas são interrompidos por eventos que afastam o trabalhador do trabalho, como licença médica, acidente de trabalho, etc. A licença maternidade, por ser um período de afastamento protegido por lei, pode ser interpretada como um evento que interrompe a contagem do prazo semestral.\n\n**2. DECISÃO RECOMENDADA:**\n\nConsiderando a ausência de previsão expressa na CCT sobre a licença maternidade e a aplicação dos princípios de interpretação da norma coletiva, **recomenda-se que a decisão seja favorável à trabalhadora.** O prazo semestral para a compensação do banco de horas deve ser recalculado, excluindo-se o período da licença maternidade. A empresa deve permitir que a trabalhadora compense as horas em um novo período semestral, a partir do seu retorno ao trabalho.\n\n**Justificativa:** A suspensão do cômputo do banco de horas durante a licença maternidade é a interpretação mais justa e equitativa, em consonância com o princípio da proteção ao trabalhador e a realidade das relações de trabalho.  A empresa não pode exigir a compensação de horas em um prazo que se estende por um período em que a trabalhadora esteve afastada e impossibilitada de trabalhar.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **hour_bank_with_cct_max_1_year:** **Conformidade** (inicialmente, a empresa cumpriu o prazo máximo de 1 ano, mas a decisão recomendada sugere uma reavaliação do prazo).\n*   **recognition_of_collective_bargaining:** **Conformidade** (a empresa reconheceu o acordo coletivo ao suspender o cômputo do banco de horas, mas a interpretação do acordo precisa ser revista à luz dos princípios de interpretação).\n\n**Observações:**\n\n*   Esta análise é baseada nas informações fornecidas e nos predicados normativos listados. Uma análise mais aprofundada exigiria a leitura integral da CCT e a consideração de outros fatores relevantes.\n*   A decisão final caberá ao juízo trabalhista, que poderá considerar outros elementos probatórios e argumentos das partes.\n*   É fundamental que a empresa busque orientação jurídica especializada para revisar a CCT e garantir a conformidade com a legislação trabalhista e a jurisprudência do TST.\n",
+  "tokens_in": 339,
+  "tokens_out": 1047,
+  "latency_ms": 28844,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

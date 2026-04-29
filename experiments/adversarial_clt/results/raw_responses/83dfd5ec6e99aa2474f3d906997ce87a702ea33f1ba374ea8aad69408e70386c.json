@@ -1,0 +1,26 @@
+{
+  "sha256": "83dfd5ec6e99aa2474f3d906997ce87a702ea33f1ba374ea8aad69408e70386c",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-006",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T23:41:07Z",
+  "prompt_sha": "853bce6697211f077507fea0253d75450971c248a5b84a4ee816407d1bbb991a",
+  "response_text": "1. **ANÁLISE:**\n\n   - **Obligation to Ground Decision in Identified Ratio Decidendi:** Este predicado normativo exige que qualquer decisão judicial seja fundamentada com base em uma ratio decidendi clara e identificável, ou seja, a razão pela qual o juiz decidiu de determinada maneira. No cenário apresentado, a juíza do trabalho indeferiu a prova pericial sem especificar quais documentos seriam suficientes para substituir essa prova e quais fatos probatórios esses documentos demonstrariam. Essa falta de fundamentação clara viola o princípio da obrigação de motivar as decisões, pois não há uma ratio decidendi identificável que justifique a decisão.\n\n   - **Due Process of Law:** O devido processo legal implica que todas as partes tenham oportunidade adequada de serem ouvidas e de apresentarem suas provas. A decisão da juíza sem explicar quais documentos são suficientes pode prejudicar o direito da parte de entender a fundamentação da decisão e, consequentemente, de exercer seu direito de defesa efetiva. Isso pode ser visto como uma violação ao princípio do devido processo legal, pois não garante transparência e clareza na motivação das decisões judiciais.\n\n2. **DECISÃO RECOMENDADA:**\n\n   A decisão interlocutória que indeferiu a prova pericial deve ser anulada ou reformada para cumprir com os requisitos de motivação adequada, conforme exigido pelo CPC Art. 489, §1°, I. A juíza deveria especificar quais documentos foram considerados suficientes e explicar como esses documentos atendem às necessidades probatórias da causa, permitindo que as partes compreendam a fundamentação da decisão.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violado:** \n     - Obligation to Ground Decision in Identified Ratio Decidendi: A decisão não foi fundamentada com base em uma ratio decidendi clara e identificável.\n     - Due Process of Law: A falta de motivação adequada pode prejudicar o direito da parte de compreender a decisão e exercer seu direito de defesa.\n\n   - **Não Cumprido:** \n     - Não há predicados cumpridos no cenário, uma vez que ambos os princípios normativos listados foram violados.",
+  "tokens_in": 351,
+  "tokens_out": 557,
+  "latency_ms": 16061,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

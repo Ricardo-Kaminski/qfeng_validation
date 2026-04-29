@@ -1,0 +1,19 @@
+{
+  "sha256": "0c3c5a35333c6926765a003ab59fa90f0be46ba01016d4e49184df4cd2a67dbb",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T02:21:38Z",
+  "prompt_sha": "5eb3d71f8379d34717c7c3be19d2ecbcc590cb01ed22ee807b806f8f59c3dc88",
+  "response_text": "### ANÁLISE\n\n#### Dispositivos Legais Aplicáveis:\n\n1. **Constituição Federal de 1988 (CF/88):**\n   - Artigo 7º, XIII: Estabelece o limite máximo da jornada diária de trabalho em oito horas.\n\n2. **Consolidação das Leis do Trabalho (CLT):**\n   - **Artigo 62:** Permite a compensação de horários mediante acordo ou convenção coletiva, desde que não exceda duas horas por dia e dez horas na semana.\n   - **Artigo 58:** Regula o banco de horas, permitindo acúmulo de até seis horas diárias para serem descontadas em outros dias da mesma semana.\n\n3. **Convenção Coletiva de Trabalho (CCT):**\n   - Autoriza o banco de horas sem especificar o modelo de compensação.\n\n#### Interpretação no Caso Concreto:\n\n- A CCT autoriza o banco de horas, mas não detalha o modelo de compensação. A empresa implementou uma jornada de 10h/dia em um sistema 5×10.\n- O limite constitucional de 8h diárias é claro e inquestionável, conforme o Artigo 7º, XIII da CF/88.\n- O Artigo 62 da CLT permite a compensação de horários, mas com limites específicos (2h/dia e 10h/semana).\n- A implementação de uma jornada diária de 10h sem previsão específica na CCT pode ser considerada violação do limite constitucional.\n\n### DECISÃO RECOMENDADA\n\nA decisão recomendada é que a empresa deve ajustar sua prática para garantir o cumprimento do limite constitucional de 8 horas diárias, a menos que haja previsão específica e clara na CCT que autorize exceções legais ao limite constitucional.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n1. **Constituição Federal de 1988 (CF/88):**\n   - Artigo 7º, XIII: Estabelece o limite máximo da jornada diária em oito horas, sendo inegociável sem previsão constitucional específica.\n\n2. **Consolidação das Leis do Trabalho (CLT):**\n   - **Artigo 62:** Permite compensação de horários mediante acordo ou convenção coletiva, mas com limites estritos.\n   - **Artigo 58:** Regula o banco de horas, permitindo acúmulo e desconto dentro da mesma semana.\n\n3. **Súmulas do TST:**\n   - **Súmula 331 do TST:** \"É inconstitucional a jornada superior ao limite máximo diário previsto no artigo 7º, XIII, da Constituição Federal.\"\n\n4. **Precedentes Jurisprudenciais:**\n   - O Tribunal Superior do Trabalho (TST) tem reiteradamente entendido que qualquer exceção ao limite de oito horas diárias deve estar claramente prevista na legislação ou em normas coletivas específicas, respeitando os limites estabelecidos pela CLT.\n\n### CONCLUSÃO\n\nA empresa deve rever sua política de jornada para garantir que não exceda o limite constitucional de 8 horas diárias, a menos que haja uma previsão clara e específica na CCT que autorize exceções legais ao limite constitucional. A ausência de tal previsão na CCT atual implica a necessidade de ajuste para cumprir com o disposto no Artigo 7º, XIII da CF/88.",
+  "tokens_in": 316,
+  "tokens_out": 819,
+  "latency_ms": 47108,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

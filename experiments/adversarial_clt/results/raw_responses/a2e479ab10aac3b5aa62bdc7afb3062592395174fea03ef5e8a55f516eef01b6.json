@@ -1,0 +1,26 @@
+{
+  "sha256": "a2e479ab10aac3b5aa62bdc7afb3062592395174fea03ef5e8a55f516eef01b6",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-009",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T23:43:07Z",
+  "prompt_sha": "d1fdc105e58bb56978ba05596e29a5c6877b1685ca6ea3d00eee6f782a96ee44",
+  "response_text": "1. **ANÁLISE:**\n\n   - **Obligation to Ground Decision in Identified Ratio Decidendi:** Este predicado normativo exige que qualquer decisão judicial, especialmente em instâncias superiores como o TRT, seja fundamentada com base nos motivos principais e atualizados da decisão. No cenário apresentado, o magistrado do TRT manteve a sentença de primeiro grau sem adicionar ou revisar a fundamentação, simplesmente adotando os fundamentos originais que se baseavam em um precedente superado pelo TST. Isso viola a obrigação de garantir que a decisão esteja ancorada na ratio decidendi mais atual e aplicável.\n\n   - **Due Process of Law:** Este predicado normativo implica que todos os processos judiciais devem ser conduzidos com justiça, incluindo o dever de considerar todas as evidências relevantes e a jurisprudência vigente. Ao ignorar um precedente mais recente do TST que superou o citado na sentença original, o acórdão do TRT falhou em cumprir com o devido processo legal, pois não revisou adequadamente os fundamentos da decisão à luz das mudanças jurisprudenciais.\n\n2. **DECISÃO RECOMENDADA:**\n\n   A decisão recomendada seria que o acórdão do TRT seja reformado para considerar a jurisprudência mais recente do TST. Isso envolveria uma revisão e, se necessário, uma nova fundamentação da sentença de primeiro grau, garantindo que ela esteja alinhada com os precedentes atuais e relevantes estabelecidos pelo TST.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violados:**\n     - *Obligation to Ground Decision in Identified Ratio Decidendi:* A decisão não foi fundamentada com base na ratio decidendi mais atual, uma vez que ignorou a jurisprudência mais recente do TST.\n     - *Due Process of Law:* O devido processo legal foi violado ao não considerar o precedente mais recente e aplicável do TST.\n\n   - **Cumpridos:**\n     - Não há predicados cumpridos no cenário descrito, dado que ambos os requisitos normativos foram violados.",
+  "tokens_in": 350,
+  "tokens_out": 520,
+  "latency_ms": 15187,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

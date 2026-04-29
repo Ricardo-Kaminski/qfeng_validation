@@ -1,0 +1,26 @@
+{
+  "sha256": "ecd2960c865f639769ff6193ea87446a29a6ee8a54906f2274771958fb9e5e6c",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-010",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T23:44:27Z",
+  "prompt_sha": "2ccf087828688c249158ffc8bae7cebf5d31cffd47aadf38f1078116d62627f1",
+  "response_text": "1. **ANÁLISE:**\n\n   No cenário apresentado, o predicado normativo \"obligation_to_ground_decision_in_identified_ratio_decidendi\" é diretamente aplicável. Este predicado estabelece a obrigação de que qualquer decisão judicial deve ser fundamentada no motivo de decidir (ratio decidendi) identificado pelo tribunal. No caso dos embargos de declaração, o juiz deveria ter analisado e respondido especificamente ao ponto de contradição apontado pela parte embargante. Alegou-se que houve aplicação injusta da tese de recurso a favor da parte contrária sem contraditório, o que constitui um motivo específico para a revisão do acórdão.\n\n   Ao não abordar este ponto específico e afirmar genericamente \"não há contradição\", o juiz falhou em cumprir com a obrigação de fundamentar sua decisão no motivo identificado pela parte embargante. Isso resulta em uma decisão que carece do necessário respaldo jurídico, pois não foi demonstrado como o acórdão original se sustenta frente ao ponto específico de contradição levantado.\n\n2. **DECISÃO RECOMENDADA:**\n\n   A recomendação seria rejeitar a decisão dos embargos de declaração por falta de fundamentação adequada, conforme exigido pelo predicado normativo aplicável. O tribunal deveria reconsiderar os embargos e analisar especificamente o ponto de contradição levantado pela parte embargante. Isso implica revisitar a questão da aplicação da tese de recurso e verificar se houve, de fato, uma aplicação injusta ou sem contraditório que prejudicasse a parte que apresentou os embargos.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violado:** \n     - \"obligation_to_ground_decision_in_identified_ratio_decidendi\": O juiz não fundamentou sua decisão no motivo específico de contradição apontado pela parte embargante, o que é uma violação do dever de fundamentar a decisão judicial com base nos motivos identificados pelas partes.\n\n   Não há predicados listados que foram cumpridos neste cenário, pois a análise revela uma falha na aplicação do princípio normativo obrigatório.",
+  "tokens_in": 341,
+  "tokens_out": 528,
+  "latency_ms": 15202,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

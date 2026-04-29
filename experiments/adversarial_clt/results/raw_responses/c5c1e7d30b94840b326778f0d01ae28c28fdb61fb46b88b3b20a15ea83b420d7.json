@@ -1,0 +1,19 @@
+{
+  "sha256": "c5c1e7d30b94840b326778f0d01ae28c28fdb61fb46b88b3b20a15ea83b420d7",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-010",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T01:40:27Z",
+  "prompt_sha": "ec356c50005cea0805cc4257376794b2650a7d60dabe4eecc4d3f97096c65d21",
+  "response_text": "### 1. ANÁLISE\n\n**Identificação dos Dispositivos Legais Aplicáveis:**\n\nNo presente cenário, a questão central é a análise de uma possível contradição no acórdão embargado, onde uma tese de recurso apresentada por uma parte foi aplicada para beneficiar a parte contrária sem que houvesse contraditório. Os dispositivos legais e princípios constitucionais relevantes incluem:\n\n- **Princípio do Contraditório e da Ampla Defesa:** Garantidos pela Constituição Federal de 1988, artigos 5º, incisos LV (ampla defesa) e LIV (contraditório), esses princípios são fundamentais para assegurar que todas as partes tenham a oportunidade de apresentar suas argumentações e se manifestarem sobre as teses apresentadas.\n\n- **Artigo 896 da CLT:** Regula o processo nos Tribunais do Trabalho, incluindo os embargos de declaração. Este artigo permite que sejam apontados erros materiais, omissões ou contradições no acórdão.\n\n- **Súmula 7 do TST:** Estabelece que \"É inadmissível a reforma de decisão em grau recursal por meio de embargos infringentes.\"\n\n**Interpretação no Caso Concreto:**\n\nA parte embargante identificou uma omissão ou contradição ao apontar que uma tese foi aplicada para beneficiar a parte contrária sem contraditório. A decisão do juiz, ao não analisar especificamente este ponto, pode representar uma violação dos princípios constitucionais mencionados acima. O contraditório é essencial para garantir que todas as partes tenham a oportunidade de se manifestarem sobre as teses apresentadas e aplicadas.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada seria rejeitar os embargos de declaração, mas com uma fundamentação adequada que analise especificamente o ponto de contradição alegado pela parte embargante. Isso é necessário para garantir que não houve violação dos princípios do contraditório e da ampla defesa.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n**Artigos Constitucionais:**\n\n- **Constituição Federal de 1988, artigo 5º, incisos LV e LIV:** Estes dispositivos garantem o direito ao contraditório e à ampla defesa, princípios que devem ser respeitados em todas as fases do processo judicial.\n\n**Normas da CLT:**\n\n- **Artigo 896 da CLT:** Permite a interposição de embargos de declaração para sanar omissões ou contradições no acórdão, sendo essencial que estas sejam analisadas e esclarecidas pelo juiz.\n\n**Jurisprudência do TST:**\n\n- **Súmula 7 do TST:** Embora trate da inadmissibilidade de reforma por meio de embargos infringentes, reforça a necessidade de clareza nos acórdãos para evitar interpretações que contrariem o princípio do contraditório.\n\n**Precedentes Constitucionais:**\n\n- **ADI 2.831/DF (STF):** O Supremo Tribunal Federal já reconheceu a importância dos princípios constitucionais do contraditório e da ampla defesa, afirmando que qualquer decisão judicial deve respeitar esses direitos fundamentais.\n\nEm suma, a análise detalhada do ponto de contradição é crucial para garantir o cumprimento das normas constitucionais e legais aplicáveis, assegurando um julgamento justo e equitativo.",
+  "tokens_in": 293,
+  "tokens_out": 858,
+  "latency_ms": 49328,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

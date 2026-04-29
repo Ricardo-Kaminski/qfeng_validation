@@ -1,0 +1,26 @@
+{
+  "sha256": "1a175a4cf7d533659e3570426559e4407f77a1f816e04ddbdebc4d303a49333f",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:18:26Z",
+  "prompt_sha": "a01627cdbd8b1cd3b3f8d644f3236118fbd7445d66aaa97eead1388400a4615a",
+  "response_text": "**1. ANÁLISE**\n\n- **prohibition_of_generic_precedent_citation**: Esse predicado normativo proíbe a citação de precedentes jurídicos genéricos sem identificação específica. No caso em questão, o acórdão do TRT-2ª Região citou \"orientação jurisprudencial consolidada do TST\" sobre uso indevido de comunicações eletrônicas sem especificar nenhum número de OJ (Orientação Jurisprudencial), Súmula ou acórdão específico. Isso viola o predicado, pois não há identificação clara da base normativa que sustenta a decisão.\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: Esse predicado exige que as decisões sejam fundamentadas em um razoável (ratio decidendi) e que este seja específico. A decisão do TRT-2ª Região afirma apenas que \"a jurisprudência é pacífica nesse sentido\" sem qualquer menção a uma base jurídica específica ou ao número de algum precedente relevante. Isso também viola o predicado, pois não há fundamentação adequada.\n\n**2. DECISÃO RECOMENDADA**\n\nDiante da análise acima, recomenda-se que a decisão do TRT-2ª Região seja anulada e remetida ao juízo de origem para uma nova análise com base em precedentes específicos e fundamentação adequada.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **prohibition_of_generic_precedent_citation**: Violado\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: Violado\n\nPortanto, os predicados normativos foram violados no cenário descrito.",
+  "tokens_in": 384,
+  "tokens_out": 401,
+  "latency_ms": 6735,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

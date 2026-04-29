@@ -1,0 +1,19 @@
+{
+  "sha256": "e401325ae9a2c5f9469819744e706aaf71ba5d221a3349e7dda7883a0630b460",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T02:20:02Z",
+  "prompt_sha": "ccb8d9ff5ecb68e6342252f2d9062b97997b2594352bf919ebcfbf76c5be0071",
+  "response_text": "### ANÁLISE\n\n**1. Dispositivos Legais Aplicáveis**\n\n- **Consolidação das Leis do Trabalho (CLT):**\n  - Artigo 59 da CLT: Estabelece que o banco de horas é um instrumento negociado coletivamente, permitindo a compensação de horários em períodos específicos.\n  - Artigo 392-A da CLT: Regula as licenças-maternidade e estipula que durante este período, os direitos e vantagens do emprego são mantidos.\n\n- **Jurisprudência do TST:**\n  - Súmula nº 367 do TST: Estabelece que o período de gestação é considerado tempo à disposição da empresa para todos os fins legais, exceto para a contagem do tempo de serviço e férias.\n  - Precedentes: O TST tem entendido que períodos como licença-maternidade não devem ser computados para prazos contratuais ou coletivos, salvo disposição expressa em norma legal.\n\n**2. Interpretação no Caso Concreto**\n\nNo caso apresentado, a trabalhadora firmou uma CCT que previa um banco de horas semestral de 6 meses. Durante o quarto mês, ela entrou em licença maternidade, período durante o qual a empresa suspendeu o cômputo do banco de horas e reativou ao seu retorno.\n\nA questão central é se o prazo para compensação total das horas deveria incluir ou excluir o período de licença maternidade. A CCT não estabeleceu expressamente que o período de licença deve ser considerado no cômputo do banco de horas, e a jurisprudência predominante do TST sugere que períodos como a licença-maternidade não devem ser computados para prazos contratuais ou coletivos.\n\n### DECISÃO RECOMENDADA\n\nA decisão recomendada é que o período de licença maternidade não deve ser incluído no cômputo do banco de horas. A compensação total ocorreu em 8 meses, contando apenas os períodos úteis, dentro do prazo acordado na CCT.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n- **Artigo 59 da CLT:** Permite a negociação coletiva para estabelecer o banco de horas, mas não especifica que períodos como licença-maternidade devem ser incluídos no cômputo.\n  \n- **Súmula nº 367 do TST:** Estabelece que o período de gestação é considerado tempo à disposição da empresa para todos os fins legais, exceto para a contagem do tempo de serviço e férias. Aplica-se analogicamente ao entendimento sobre prazos contratuais.\n\n- **Precedentes do TST:** O Tribunal Superior do Trabalho tem reiteradamente decidido que períodos como licença-maternidade não devem ser computados para prazos contratuais ou coletivos, a menos que haja uma norma expressa em contrário.\n\nPortanto, com base na legislação vigente e na jurisprudência do TST, o período de licença maternidade deve ser excluído do cômputo para fins de banco de horas. A empresa agiu corretamente ao suspender o cômputo durante a licença e reativá-lo após o retorno da trabalhadora.",
+  "tokens_in": 306,
+  "tokens_out": 773,
+  "latency_ms": 44453,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

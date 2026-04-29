@@ -1,0 +1,26 @@
+{
+  "sha256": "307271ad26ca32e91dd28edaf421c644aa4ecbb97eb244b53347529f823e8662",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T23:40:34Z",
+  "prompt_sha": "489d4d0cb986d91530d7db7ba9d629c987a55e79987825665efedd8b88b39c59",
+  "response_text": "1. **ANÁLISE:**\n\n   O predicado normativo aplicável ao caso é \"obligation_to_ground_decision_in_identified_ratio_decidendi\". Este predica que as decisões judiciais devem ser fundamentadas com base em um ratio decidendi identificado, ou seja, a razão de decidir deve estar claramente explicitada e fundamentada na lei, doutrina ou jurisprudência específica.\n\n   No cenário apresentado, o acórdão trabalhista cita a doutrina do autor \"Martins, Sergio Pinto\" para embasar seu entendimento sobre horas extras. No entanto, não fornece informações completas de identificação da obra citada (como título, edição, ano ou página). Isso cria um problema em relação à fundamentação adequada da decisão judicial.\n\n   A falta de identificação completa da doutrina pode dificultar a verificação e o controle jurisdicional da aplicabilidade do entendimento doutrinário utilizado. O recorrente argumenta que tal prática é equivalente à ausência de fundamentação, conforme previsto no Artigo 20 da Lei de Introdução às Normas do Direito Brasileiro (LINDB), que exige que as decisões judiciais sejam motivadas.\n\n2. **DECISÃO RECOMENDADA:**\n\n   A recomendação seria revogar ou reformar o acórdão em questão, exigindo uma nova fundamentação adequada da decisão judicial. O tribunal deveria ser instado a identificar e citar de forma completa a obra doutrinária utilizada como base para seu entendimento sobre horas extras, assegurando que a decisão esteja devidamente fundamentada conforme o Artigo 20 da LINDB.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violado:** \"obligation_to_ground_decision_in_identified_ratio_decidendi\" – A decisão não foi adequadamente fundamentada, pois a citação doutrinária utilizada não foi identificada de forma completa, o que compromete a verificação do ratio decidendi.\n\n   Não há predicados listados que foram cumpridos no cenário apresentado, dado que a obrigação de fundamentar a decisão com base em um ratio decidendi identificado não foi atendida.",
+  "tokens_in": 342,
+  "tokens_out": 509,
+  "latency_ms": 14672,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

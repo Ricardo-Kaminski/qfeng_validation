@@ -1,0 +1,30 @@
+{
+  "sha256": "54708cc8d382037dbeb66a6800d441d8216a295e11d8fb82cd3abb3de6de2200",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T00:06:19Z",
+  "prompt_sha": "2894b7676eac7e9e2cb55e15eed63978b4e2d5820472a6bee747c60e44ab8c8e",
+  "response_text": "1. **ANÁLISE:**\n\n   - **Obligation to Ground Decision in Identified Ratio Decidendi:** Este predicado normativo foi cumprido no caso concreto. O TRT identificou a ratio decidendi da Súmula TST 60, que estabelece que o regime de revezamento noturno integra o adicional à remuneração. A decisão do tribunal baseou-se nessa interpretação específica e aplicou-a ao caso concreto, analisando se o regime de trabalho do empregado (12x36 com períodos noturnos fixos) se enquadrava na hipótese da Súmula. A distinção clara entre casos de turno fixo não noturno e o regime em questão demonstra uma aplicação correta e fundamentada da ratio decidendi.\n\n   - **Due Process of Law:** Este predicado normativo também foi cumprido. O TRT seguiu um processo justo ao analisar a situação do empregado, considerando as particularidades do regime de trabalho e aplicando a jurisprudência pertinente (Súmula TST 60). A decisão foi tomada após uma análise detalhada dos fatos e das normas aplicáveis, garantindo que o direito à defesa e ao contraditório foram respeitados.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base nos predicados acima, a decisão recomendada é manter a sentença do TRT que reconheceu o adicional noturno para o empregado em regime de 12x36 com períodos noturnos fixos. A aplicação correta da Súmula TST 60 e a análise detalhada dos fatos demonstram conformidade com os princípios do direito processual e do Direito do Trabalho.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Obligation to Ground Decision in Identified Ratio Decidendi:** Cumprido. A decisão foi fundamentada na ratio decidendi da Súmula TST 60, com uma análise clara e aplicação ao caso concreto.\n   \n   - **Due Process of Law:** Cumprido. O processo seguiu os princípios do devido processo legal, garantindo uma análise justa e fundamentada dos fatos e das normas aplicáveis.\n\nEm resumo, ambos os predicados foram cumpridos no cenário apresentado, indicando que a decisão tomada pelo TRT foi juridicamente sólida e conforme aos princípios do Direito do Trabalho brasileiro.",
+  "tokens_in": 389,
+  "tokens_out": 587,
+  "latency_ms": 16968,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

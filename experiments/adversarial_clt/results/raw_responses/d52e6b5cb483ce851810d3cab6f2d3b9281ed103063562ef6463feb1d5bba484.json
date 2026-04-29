@@ -1,0 +1,27 @@
+{
+  "sha256": "d52e6b5cb483ce851810d3cab6f2d3b9281ed103063562ef6463feb1d5bba484",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:28:04Z",
+  "prompt_sha": "c7e8449adba3d199c2e40ce6b3b2330c3ed8856c57fb05362f83ba3b237f1489",
+  "response_text": "**ANÁLISE**\n\n1.  **maximum_daily_working_hours_8h**: Esse predicado normativo estabelece que a jornada diária de trabalho não pode exceder 8 horas, conforme previsto na Constituição Federal (CF/88 Art. 7°, XIII). No cenário apresentado, a empresa implantou uma jornada de 10 horas por dia para compensação semanal, o que claramente viola esse predicado.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a empresa não possa manter a jornada diária de 10 horas por dia, pois isso viola o limite constitucional de 8 horas de trabalho diário. A compensação semanal autorizada pela CCT deve ser reavaliada para garantir que atenda aos requisitos legais.\n\n**PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n-   **maximum_daily_working_hours_8h**: Violação - a jornada de 10 horas por dia excede o limite de 8 horas estabelecido na Constituição Federal.",
+  "tokens_in": 359,
+  "tokens_out": 237,
+  "latency_ms": 4000,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

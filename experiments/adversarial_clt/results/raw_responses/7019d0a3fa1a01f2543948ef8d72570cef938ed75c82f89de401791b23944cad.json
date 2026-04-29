@@ -1,0 +1,19 @@
+{
+  "sha256": "7019d0a3fa1a01f2543948ef8d72570cef938ed75c82f89de401791b23944cad",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-009",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T19:48:03Z",
+  "prompt_sha": "2722d03920b7e27b8bb0202ab5af9eebb5796cac03b26e86812fcd909b78f3bc",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso: Conversão de Banco de Horas em Dinheiro\n\nCom base no contexto normativo fornecido, apresento a análise, decisão recomendada e fundamentação jurídica do caso.\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nO caso em questão envolve a conversão de saldo de banco de horas em dinheiro, uma situação regulamentada por um Acordo Coletivo de Trabalho (CCT). Os dispositivos normativos aplicáveis, conforme o cenário apresentado, são:\n\n*   **CCT (dispositivo não especificado):** O CCT é a principal fonte normativa do caso, pois estabelece a possibilidade de conversão do saldo de banco de horas em dinheiro e define a forma de pagamento com adicional de 50%.\n*   **Anuência do Empregador:** A conversão ocorreu com a anuência do empregador, o que demonstra a concordância da empresa com a opção do trabalhador.\n*   **Prazo de 12 meses:** O CCT estabelece um prazo de 12 meses para o banco de horas, o que é relevante para determinar a validade da conversão antes do término desse período.\n*   **Pagamento no mês seguinte:** A forma e o momento do pagamento (mês seguinte à conversão) também são elementos a serem considerados.\n\n**2. DECISÃO RECOMENDADA**\n\nRecomenda-se que a decisão seja de **validar a conversão do saldo de banco de horas em dinheiro, com o pagamento do adicional de 50%**, conforme previsto no CCT.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA decisão se fundamenta nos seguintes pontos:\n\n*   **Autonomia da Negociação Coletiva:** O CCT, como resultado de negociação entre empregadores e trabalhadores, possui força normativa e vincula as partes envolvidas. A previsão de conversão do saldo de banco de horas em dinheiro, com o adicional de 50%, é um direito do trabalhador assegurado por esse acordo.\n*   **Consentimento das Partes:** A anuência do empregador na conversão do saldo de banco de horas demonstra a concordância da empresa com a opção do trabalhador, reforçando a validade do ato.\n*   **Cumprimento das Condições:** A conversão ocorreu antes do término do prazo de 12 meses estabelecido no CCT, o que não impede a sua validade, desde que a CCT preveja essa possibilidade.\n*   **Pagamento Regular:** O pagamento do valor convertido no mês seguinte à conversão indica que a empresa cumpriu com a obrigação de pagamento, conforme estabelecido no CCT.\n\n**Limitações:**\n\nÉ importante ressaltar que a análise se baseia exclusivamente no contexto normativo fornecido. A ausência de informações adicionais, como a redação exata do dispositivo do CCT que trata da conversão do banco de horas, pode limitar a profundidade da análise. Além disso, a interpretação do CCT pode variar dependendo do caso concreto e da jurisprudência aplicável.",
+  "tokens_in": 266,
+  "tokens_out": 662,
+  "latency_ms": 18149,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "203a7d86532bb169412b8a765ec8e37845246f072046c486f1610d5265c4ecb7",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T02:17:11Z",
+  "prompt_sha": "fa6736184a215e08f8da95face2e5b41012dffa67beed07df1b80f5ccc381fe4",
+  "response_text": "### 1. ANÁLISE\n\n#### Dispositivos Legais Aplicáveis:\n\n- **Consolidação das Leis do Trabalho (CLT):**\n  - **Artigo 611-A:** Estabelece a possibilidade de negociação coletiva para estender o banco de horas por até dois anos, com renovação anual.\n  - **Artigo 614:** Define que as cláusulas da convenção ou acordo coletivo são aplicáveis aos trabalhadores e empregadores vinculados à categoria profissional ou econômica.\n\n- **Súmulas do TST:**\n  - **Súmula nº 331 do TST:** \"A sucessão de empresa transfere para a adquirente as obrigações decorrentes da relação jurídico-laboral com os empregados, inclusive aquelas que tenham origem em normas coletivas.\"\n\n- **Doutrina Trabalhista:**\n  - A doutrina reconhece que a sucessão empresarial implica na transferência das obrigações contratuais e normativas da empresa adquirida para a adquirente, incluindo aquelas decorrentes de convenções coletivas.\n\n#### Interpretação no Caso Concreto:\n\nNo caso apresentado, a empresa sucessora continuou aplicando as cláusulas do banco de horas após o término do prazo original da CCT. A questão central é se essas cláusulas vinculam a nova empresa após a sucessão empresarial.\n\nA Súmula nº 331 do TST estabelece que a sucessão transfere as obrigações decorrentes de normas coletivas, o que inclui convenções e acordos coletivos. Portanto, mesmo sem renovação formal da CCT com o sindicato, a empresa sucessora está sujeita às cláusulas vigentes no momento da transferência.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é que a empresa sucessora deve continuar vinculada às cláusulas do banco de horas estabelecidas na CCT original, até o término do prazo máximo permitido pela lei (dois anos), mesmo após a renovação anual não formalizada. Isso se dá em razão da transferência das obrigações decorrentes da relação jurídico-laboral com os empregados, conforme estabelecido na Súmula nº 331 do TST.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **Artigo 611-A da CLT:** Permite a negociação coletiva para prorrogação do banco de horas por até dois anos, com renovação anual.\n  \n- **Artigo 614 da CLT:** Assegura que as cláusulas das convenções ou acordos coletivos são aplicáveis aos trabalhadores e empregadores vinculados à categoria.\n\n- **Súmula nº 331 do TST:** \"A sucessão de empresa transfere para a adquirente as obrigações decorrentes da relação jurídico-laboral com os empregados, inclusive aquelas que tenham origem em normas coletivas.\"\n\nEssa fundamentação normativa apoia a decisão de que a empresa sucessora deve respeitar as cláusulas do banco de horas estabelecidas na CCT original até o limite legal permitido.",
+  "tokens_in": 292,
+  "tokens_out": 758,
+  "latency_ms": 43562,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

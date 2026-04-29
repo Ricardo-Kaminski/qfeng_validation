@@ -1,0 +1,26 @@
+{
+  "sha256": "5113f036b0d2317409ad25eb7247d9d51e68c32a5b246d873b04acf9a6972826",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-009",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T22:10:49Z",
+  "prompt_sha": "d1fdc105e58bb56978ba05596e29a5c6877b1685ca6ea3d00eee6f782a96ee44",
+  "response_text": "### 1. **ANÁLISE**  \n**a) *obligation_to_ground_decision_in_identified_ratio_decidendi***  \nO magistrado violou essa obrigação ao **não fundamentar a decisão com base em razões jurídicas identificáveis e atualizadas**. A sentença de primeiro grau baseava-se em um precedente superado pelo TST, o que **não foi considerado** no acórdão do TRT. A ausência de análise crítica do precedente e a simples reprodução dos fundamentos da sentença de origem (mesmo que obsoletos) **viola a obrigação de fundamentar a decisão com base em normas vigentes e jurisprudência atual**, conforme exigido pelo art. 1.014, § 2º, do CPC (aplicável ao Direito do Trabalho).  \n\n**b) *due_process_of_law***  \nO direito à ampla defesa e ao contraditório (garantias do devido processo legal) foi **violado** ao não ser considerada a jurisprudência mais recente do TST. A decisão do TRT, ao ignorar o precedente superado, **não garantiu a aplicação da lei vigente**, o que pode levar a uma decisão desproporcional ou injusta. O STJ já reconheceu que a **omissão de análise jurisprudencial relevante** configura violação do devido processo legal (REsp 1.726.868/SP, STJ, 2020).  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nO acórdão do TRT deve ser **anulado** por:  \n- **Violação da obrigação de fundamentação jurídica** (art. 1.014, CPC), ao não atualizar o precedente superado pelo TST.  \n- **Violação do devido processo legal**, ao não considerar a jurisprudência atual, o que compromete a imparcialidade e a razoabilidade da decisão.  \nA sentença deve ser **reexaminada**, com a análise de novos fundamentos jurídicos e a aplicação da jurisprudência vigente do TST.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Violado**:  \n  - *obligation_to_ground_decision_in_identified_ratio_decidendi* (o magistrado não fundamentou a decisão com base em razões jurídicas atualizadas, reproduzindo um precedente superado).  \n  - *due_process_of_law* (a decisão não respeitou o direito à aplicação da jurisprudência vigente, comprometendo a imparcialidade e a razoabilidade).  \n\n- **Cumprido**:  \n  - Nenhum predicado foi cumprido, pois **ambos foram violados**. A ausência de fundamentação crítica e a ignorância da jurisprudência atual configuram **omissões normativas graves**.",
+  "tokens_in": 346,
+  "tokens_out": 1151,
+  "latency_ms": 34625,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

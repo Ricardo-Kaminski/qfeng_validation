@@ -1,0 +1,26 @@
+{
+  "sha256": "b425d2ac38768319db0a46f3415ef497d7f2f2cb5ef9c221a50bb8be18695dd8",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:21:19Z",
+  "prompt_sha": "2ccf087828688c249158ffc8bae7cebf5d31cffd47aadf38f1078116d62627f1",
+  "response_text": "**1. ANÁLISE**\n\nO predicado \"obligation_to_ground_decision_in_identified_ratio_decidendi\" estabelece a obrigação de o julgador fundamentar sua decisão nos pontos específicos identificados na parte embargante, especialmente quando se trata de questões relacionadas à aplicação de teses e ao contraditório.\n\nNesse caso, o juiz não analisou o ponto específico apontado pela parte embargante sobre a aplicação da tese do recurso para beneficiar a parte contrária sem contraditório. Isso significa que o juiz omitiu-se em relação à fundamentação necessária para julgar a questão.\n\n**2. DECISÃO RECOMENDADA**\n\nDiante disso, recomendo que seja concedida a embargos de declaração com fundamento no artigo 897, § 1º, da CLT (atualmente, art. 525 do Código de Processo Civil), pois o juiz não se manifestou sobre os pontos específicos identificados pela parte embargante.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi**: Violação, pois o juiz não fundamentou sua decisão nos pontos específicos identificados na parte embargante.\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi**: Conformidade, pois a decisão de conceder os embargos de declaração visa corrigir a falta de fundamentação necessária.",
+  "tokens_in": 340,
+  "tokens_out": 339,
+  "latency_ms": 5796,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

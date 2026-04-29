@@ -1,0 +1,19 @@
+{
+  "sha256": "d6860cc5e3100e0753d34661487144efc54855532371c7e1e5a9ee7c984818a2",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-010",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T06:59:17Z",
+  "prompt_sha": "eb5f0ac3b82d09f6b9448daf89dd52929392374faf9aec4d83c193620aa9aa41",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a aplicação de uma Convenção Coletiva de Trabalho (CCT) que prevê um banco de horas com acúmulo máximo de 80h. No entanto, em virtude de demanda extraordinária de produção, a empresa permitiu que um operador acumulasse 200h sem nova negociação com o sindicato para ampliar o limite.\n\nA questão central é saber se a empresa pode alterar unilateralmente os termos da CCT, especialmente quando se trata de direitos trabalhistas como o banco de horas. A análise deve considerar a natureza mandatória ou indicativa do limite estabelecido na CCT e as consequências legais de extrapolar esse limite.\n\n**DISPOSITIVOS LEGAIS APLICÁVEIS**\n\n- **CLT (Consolidação das Leis do Trabalho)**: Art. 7º, inciso XIII, que prevê a negociação coletiva como fonte dos direitos trabalhistas.\n- **CLT**: Art. 611-A, que trata sobre o banco de horas e estabelece regras para sua implementação e utilização.\n\n**INTERPRETAÇÃO NO CASO CONCRETO**\n\nA CCT é uma negociação coletiva entre as partes envolvidas (empregadores e empregados), e os acordos nela contidos têm força de lei para as partes signatárias. O Art. 611-A da CLT, ao tratar sobre o banco de horas, não permite a alteração unilateral dos termos estabelecidos na CCT sem uma negociação subsequente com o sindicato.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a extrapolação do limite previsto na CCT para o acúmulo de horas no banco de horas invalida o acordo para as horas que excedem o acordado. Isso porque a alteração dos termos da CCT sem uma negociação subsequente com o sindicato viola os princípios da negociação coletiva e da estabilidade dos direitos trabalhistas.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n- **Súmula do TST (Tribunal Superior do Trabalho)**: Súmula 277, que dispõe sobre a invalidade de acordos que excedem os limites estabelecidos em convenção coletiva.\n- **Precedentes Constitucionais**: O Art. 7º da Constituição Federal brasileira garante a negociação coletiva como fonte dos direitos trabalhistas, o que inclui a CCT e seus acordos.\n\n**CONCLUSÃO**\n\nA decisão deve ser fundamentada na proteção dos direitos trabalhistas e na observância aos termos das convenções coletivas. A alteração unilateral de um acordo estabelecido em uma CCT sem negociação subsequente com o sindicato é inadmissível, especialmente quando se trata de direitos como o banco de horas.",
+  "tokens_in": 308,
+  "tokens_out": 672,
+  "latency_ms": 22093,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

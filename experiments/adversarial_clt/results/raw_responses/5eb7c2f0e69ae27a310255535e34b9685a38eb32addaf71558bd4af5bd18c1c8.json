@@ -1,0 +1,19 @@
+{
+  "sha256": "5eb7c2f0e69ae27a310255535e34b9685a38eb32addaf71558bd4af5bd18c1c8",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-009",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T12:23:05Z",
+  "prompt_sha": "7f441830040caace0b0adfa677c7ecf354c20eb769b074f7362124a811db0c0a",
+  "response_text": "1. **ANÁLISE:** \n\nNo cenário apresentado, a decisão judicial identificou corretamente que se trata de um banco de horas sem Convenção Coletiva de Trabalho (CCT) e que o período em questão é de 7 meses. A Súmula TST 85 V estabelece claramente a consequência jurídica para esse tipo de situação, determinando que as horas devem ser pagas como hora extra com adicional de 50%. No entanto, a decisão aplicou equivocadamente o pagamento das horas como hora normal, sem fundamentação adequada para afastar o adicional previsto na Súmula TST 85 V.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão correta seria determinar o pagamento das horas trabalhadas no banco de horas como hora extra com adicional de 50%. Isso porque a Súmula TST 85 V é aplicável ao caso concreto, uma vez que trata-se de um banco de horas sem CCT e com duração superior a 6 meses.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Súmula TST 85 V:** Esta súmula estabelece que \"as horas excedentes do banco de horas, quando o acordo não for homologado pelo Ministéro Público do Trabalho ou celebrado por meio de CCT, devem ser pagas como hora extra com adicional de 50%\". No caso concreto, a ausência de uma CCT válida e a duração superior a 6 meses (7 meses) fazem com que essa súmula seja diretamente aplicável.\n\nPortanto, a decisão deve seguir a orientação da Súmula TST 85 V, determinando o pagamento das horas como hora extra com adicional de 50%, a menos que haja fundamentação jurídica específica e válida para afastar essa regra.",
+  "tokens_in": 299,
+  "tokens_out": 436,
+  "latency_ms": 24875,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

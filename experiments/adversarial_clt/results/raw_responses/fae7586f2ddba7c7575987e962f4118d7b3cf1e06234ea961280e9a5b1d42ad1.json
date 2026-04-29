@@ -1,0 +1,19 @@
+{
+  "sha256": "fae7586f2ddba7c7575987e962f4118d7b3cf1e06234ea961280e9a5b1d42ad1",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T06:57:00Z",
+  "prompt_sha": "b2bf5ad536abfb09b7f28030507e1f5d0965dc4b53a43a29e254c01e58ba7038",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve uma alteração unilateral na escala de compensação de folgas prevista em um Contrato Coletivo de Trabalho (CCT) da empresa. A CCT original permitia aos trabalhadores escolherem a data para compensar as horas extras, enquanto a alteração introduzida pela empresa limita essa escolha à sexta-feira.\n\nPara analisar a situação, é necessário identificar os dispositivos legais aplicáveis e interpretá-los no contexto do caso concreto. A principal norma que regula o banco de horas e as compensações de folgas é o artigo 59 da Consolidação das Leis do Trabalho (CLT), combinado com a Lei nº 10.101/2000, que instituiu o banco de horas.\n\n**Art. 59 da CLT**: \"O banco de horas poderá ser estabelecido em acordo ou convenção coletiva para compensar jornadas de trabalho de até 2 (dois) dias consecutivos.\"\n\nA Lei nº 10.101/2000, que instituiu o banco de horas, é uma norma específica que permite a compensação das horas extras trabalhadas em um período por outro dia da semana, dentro do mesmo mês ou até o final do ano civil, desde que não ultrapasse os limites estabelecidos pela CLT.\n\n**Interpretação**: A alteração unilateral feita pela empresa, ao limitar a escolha para compensação de folgas somente às sextas-feiras, viola as regras previstas na CCT e no artigo 59 da CLT. Isso porque a escolha flexível da data de compensação é um direito dos trabalhadores garantido pela convenção coletiva original.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a alteração unilateral feita pela empresa seja considerada inválida, pois viola as regras estabelecidas na CCT e no artigo 59 da CLT. Além disso, essa alteração pode ser considerada uma violação ao direito dos trabalhadores de escolherem a data para compensar suas horas extras.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   **Art. 59 da CLT**: \"O banco de horas poderá ser estabelecido em acordo ou convenção coletiva para compensar jornadas de trabalho de até 2 (dois) dias consecutivos.\"\n*   **Lei nº 10.101/2000**: Incluiu o artigo 59-A na CLT, permitindo a compensação das horas extras trabalhadas em um período por outro dia da semana, dentro do mesmo mês ou até o final do ano civil.\n*   **Súmula 379 do TST**: \"A alteração unilateral de cláusulas de convenção coletiva é ilegal.\"\n*   **Precedentes constitucionais**: A Constituição Federal brasileira garante a liberdade sindical e a negociação coletiva, prevendo que as partes podem estabelecer acordos e convenções coletivas para regular as relações de trabalho.\n\n**CONCLUSÃO**\n\nA alteração unilateral feita pela empresa viola as regras estabelecidas na CCT e no artigo 59 da CLT. Portanto, a decisão recomendada é que essa alteração seja considerada inválida e os trabalhadores tenham o direito de escolherem a data para compensar suas horas extras.",
+  "tokens_in": 289,
+  "tokens_out": 777,
+  "latency_ms": 25625,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

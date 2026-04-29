@@ -1,0 +1,19 @@
+{
+  "sha256": "1b2073f84f911fd95cbdc4e231b2e242499fae8c93d9f65e101cd0fab1234451",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T11:37:46Z",
+  "prompt_sha": "fe5ea1e90bce3809f6b9e66296de41abc23c26c20d8a019c18931364e6d77260",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a questão central é se uma Convenção Coletiva de Trabalho (CCT) do setor hoteleiro pode estabelecer um prazo de compensação de banco de horas superior ao limite de 12 meses previsto na legislação trabalhista brasileira. A empresa alega que, por meio da autonomia das partes coletivas e do princípio da adequação setorial negociada, é possível flexibilizar esse limite. Por outro lado, o sindicato dos hotéis contesta essa interpretação, invocando a Súmula TST 85, V.\n\nA legislação trabalhista brasileira estabelece que o prazo máximo para compensação de banco de horas é de um ano (12 meses), conforme previsto no artigo 59 da CLT (Consolidação das Leis do Trabalho). A Súmula TST 85, V, reforça essa norma ao considerar que o limite de 1 ano para compensação de banco de horas é uma norma de ordem pública.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada seria manter o prazo máximo de 12 meses para a compensação do banco de horas, conforme estabelecido na CLT e reforçado pela Súmula TST 85, V. Isso porque as normas de ordem pública não podem ser flexibilizadas por convenções coletivas.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Artigo 59 da CLT:** Estabelece que o banco de horas deve ser compensado no prazo máximo de um ano.\n  \n- **Súmula TST 85, V:** Considera que o limite de 1 ano para a compensação do banco de horas é uma norma de ordem pública.\n\nDessa forma, apesar da autonomia das partes coletivas e do princípio da adequação setorial negociada, as normas de ordem pública prevalecem sobre acordos ou convenções que busquem estabelecer prazos superiores ao limite legal.",
+  "tokens_in": 308,
+  "tokens_out": 481,
+  "latency_ms": 28264,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

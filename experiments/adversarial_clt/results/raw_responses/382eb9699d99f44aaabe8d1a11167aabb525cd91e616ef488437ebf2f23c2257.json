@@ -1,0 +1,27 @@
+{
+  "sha256": "382eb9699d99f44aaabe8d1a11167aabb525cd91e616ef488437ebf2f23c2257",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:28:00Z",
+  "prompt_sha": "c7e8449adba3d199c2e40ce6b3b2330c3ed8856c57fb05362f83ba3b237f1489",
+  "response_text": "**ANÁLISE**\n\n1.  **maximum_daily_working_hours_8h**: Esse predicado normativo estabelece que a jornada diária de trabalho não pode exceder 8 horas, conforme previsto na Constituição Federal de 1988 (CF/88), Art. 7°, XIII. No cenário apresentado, a empresa implantou uma jornada de 10h/dia para compensação semanal, o que claramente viola esse limite diário estabelecido pela norma.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que seja declarada a inconstitucionalidade da jornada de trabalho de 10 horas por dia implantada pela empresa, pois ela excede o limite máximo de 8 horas previsto na Constituição Federal. Além disso, deve-se considerar a falta de previsão específica para compensação semanal no acordo coletivo de trabalho (CCT), que autoriza apenas o banco de horas sem detalhar o modelo de compensação.\n\n**PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n-   **maximum_daily_working_hours_8h**: Violado. A jornada diária de 10h excede o limite estabelecido na Constituição Federal.\n-   **Conformidade com a CCT**: Não cumprido. A CCT autoriza apenas o banco de horas sem detalhar o modelo de compensação, e a empresa implantou uma jornada de trabalho que não está prevista no acordo coletivo.\n\n**Observações**\n\nA decisão deve levar em consideração a necessidade de a empresa rever sua política de compensação de jornada para atender às exigências legais. Além disso, é importante ressaltar que a ausência de previsão específica na CCT sobre o modelo de compensação pode ser objeto de revisão e atualização do acordo coletivo para evitar futuras disputas jurídicas.",
+  "tokens_in": 359,
+  "tokens_out": 418,
+  "latency_ms": 7093,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

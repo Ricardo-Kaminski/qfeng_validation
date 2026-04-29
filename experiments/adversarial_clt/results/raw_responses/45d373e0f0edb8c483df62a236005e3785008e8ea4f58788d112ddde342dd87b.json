@@ -1,0 +1,29 @@
+{
+  "sha256": "45d373e0f0edb8c483df62a236005e3785008e8ea4f58788d112ddde342dd87b",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-011",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:47:28Z",
+  "prompt_sha": "6fac52d3c2ea75bbed1139d969eba52baa7f8af6a911387e6e7845d9583ea12b",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso\n\nCom base nos predicados normativos fornecidos e no cenário apresentado, a análise, decisão recomendada e identificação de cumprimento/violação são as seguintes:\n\n**1. ANÁLISE:**\n\n*   **semester_hour_bank_requires_cct_or_act:** Este predicado indica que a implementação de um banco de horas semestral exige um acordo coletivo (CCT) ou Ato da Justiça do Trabalho. No caso, a transportadora firmou um CCT com o sindicato dos trabalhadores, o que atende a este predicado. A existência da CCT é um ponto crucial para a análise da validade da cláusula questionada.\n\n*   **CLT Art. 611-B, IX:** Este artigo da CLT, em sua redação atual, estabelece que a compensação de horas extras deve ser feita, preferencialmente, em dinheiro. A renúncia ao direito ao adicional de horas extras, como exigido na cláusula da CCT, entra em conflito direto com este dispositivo legal. A questão central é se a CCT, por força da autonomia coletiva, pode suprimir um direito assegurado por lei.\n\n**Análise da Cláusula de Renúncia:**\n\nA cláusula que exige a renúncia ao adicional de horas extras em caso de não compensação no prazo é a parte mais problemática do caso. Embora a autonomia coletiva seja um princípio fundamental, ela não é ilimitada. A jurisprudência do TST tem reiteradamente limitado a possibilidade de renúncia a direitos trabalhistas assegurados por lei, especialmente aqueles que visam proteger o trabalhador. A renúncia ao adicional de horas extras, que é um direito objetivo e pecuniário, é vista com ressalvas, pois o trabalhador, em tese, não tem poder de barganha igualitário com o empregador.\n\nA exigência de renúncia ao adicional como condição para a utilização do banco de horas semestral pode ser interpretada como uma forma de pressão sobre o trabalhador, que, caso não renuncie, não poderá usufruir do banco de horas. Isso pode configurar uma forma de coação que compromete a liberdade de consentimento do trabalhador.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que a cláusula da CCT que exige a renúncia ao adicional de horas extras seja considerada **nula e inválida**. Embora a CCT seja válida em si, a cláusula específica que desvirtua a proteção legal do adicional de horas extras não pode prevalecer.\n\nA decisão deve ser acompanhada de uma determinação para que a transportadora cumpra integralmente a legislação trabalhista, pagando o adicional de horas extras quando o banco de horas não for compensado no prazo estabelecido.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **semester_hour_bank_requires_cct_or_act:** **Conformidade**. A existência da CCT atende a este predicado.\n*   **CLT Art. 611-B, IX:** **Violação**. A cláusula de renúncia ao adicional de horas extras conflita diretamente com a obrigatoriedade de compensação preferencial em dinheiro.\n\n**Observações Adicionais:**\n\n*   A validade da CCT como um todo não é questionada, apenas a cláusula específica que impõe a renúncia ao adicional de horas extras.\n*   É importante analisar a interpretação da Justiça do Trabalho sobre a autonomia coletiva e seus limites, especialmente em relação a direitos trabalhistas.\n*   A decisão final caberá ao Poder Judiciário, que avaliará as provas e argumentos apresentados pelas partes.\n*   A jurisprudência do TST tem evoluído no sentido de proteger os direitos dos trabalhadores, limitando a possibilidade de renúncia a direitos assegurados por lei.\n*   A CCT deve prever mecanismos para garantir a efetiva compensação do banco de horas, evitando a imposição de penalidades financeiras aos empregadores que não cumprirem o prazo.",
+  "tokens_in": 330,
+  "tokens_out": 877,
+  "latency_ms": 24156,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

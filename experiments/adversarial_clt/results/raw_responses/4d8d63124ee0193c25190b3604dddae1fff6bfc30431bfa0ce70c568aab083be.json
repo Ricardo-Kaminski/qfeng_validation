@@ -1,0 +1,26 @@
+{
+  "sha256": "4d8d63124ee0193c25190b3604dddae1fff6bfc30431bfa0ce70c568aab083be",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-010",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T23:44:12Z",
+  "prompt_sha": "2ccf087828688c249158ffc8bae7cebf5d31cffd47aadf38f1078116d62627f1",
+  "response_text": "1. **ANÁLISE:**\n\n   O predicado normativo aplicável ao caso é \"obligation_to_ground_decision_in_identified_ratio_decidendi\". Este princípio exige que qualquer decisão judicial, especialmente em processos como embargos de declaração, seja fundamentada no ponto específico da questão levantada. No cenário apresentado, a parte embargante identificou uma suposta contradição no acórdão embargado, alegando que uma tese de recurso foi aplicada para beneficiar a parte contrária sem o devido contraditório.\n\n   A decisão do juiz em afirmar \"não há contradição\" sem analisar ou abordar especificamente o ponto levantado pela embargante viola este princípio. O juiz deve ter examinado e fundamentado sua decisão com base no argumento específico de contradição apresentado, garantindo que a análise seja clara e direta ao ponto em questão.\n\n2. **DECISÃO RECOMENDADA:**\n\n   A decisão recomendada seria reconsiderar ou reformular o julgamento dos embargos de declaração para cumprir com o princípio da fundamentação adequada. O juiz deve analisar e discutir explicitamente o ponto específico de contradição levantado pela parte embargante, explicando por que alega não haver contradição no acórdão embargado. Isso incluiria uma análise detalhada da aplicação das teses de recurso e do respeito ao contraditório.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violado:** \n     - \"obligation_to_ground_decision_in_identified_ratio_decidendi\": O juiz não fundamentou sua decisão em relação ao ponto específico de contradição levantado pela parte embargante, o que é uma violação do princípio de fundamentação adequada.\n\n   Não há predicados normativos listados que tenham sido cumpridos no cenário apresentado, pois a análise e fundamentação necessárias sobre o ponto específico de contradição não foram realizadas.",
+  "tokens_in": 341,
+  "tokens_out": 487,
+  "latency_ms": 14047,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

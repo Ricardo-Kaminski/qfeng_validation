@@ -1,0 +1,19 @@
+{
+  "sha256": "8b2a68547ac5a63d0263df891a30def6350511320455949ce6901a0483213984",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CTRL-NEG-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T11:08:21Z",
+  "prompt_sha": "00a8f3092f9540e5d99a9022a0a2c27e9d386d6832210511eb6ea9ab9df059e9",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO caso envolve a aplicação de **adicional noturno** e a **registrar horas trabalhadas** por motoristas em regime de turnos noturnos. Os dispositivos normativos relevantes são:  \n- **Art. 71 da CLT**: Define a **hora noturna** como **52 minutos e 30 segundos** (equivalente a 52,5 minutos), que é o tempo considerado para o cálculo do adicional noturno.  \n- **Art. 72 da CLT**: Estabelece que o **adicional noturno** deve ser de **20% sobre o valor da hora normal de trabalho**, para atividades realizadas entre **22h e 5h**.  \n- **Art. 76 da CLT**: Exige que o **registro de horas trabalhadas** seja feito de forma **clara e verificável**, o que é atendido pelo uso do sistema eletrônico.  \n- **Art. 112 da CLT**: Determina que os **contracheques** devem **discriminar todos os componentes da remuneração**, incluindo o adicional noturno, o que está sendo feito.  \n\n### 2. **DECISÃO RECOMENDADA**  \nA **empresa está em conformidade com a legislação trabalhista brasileira**, e **não há irregularidades** nas práticas descritas. A aplicação do adicional noturno de 20%, a definição da hora noturna como 52 minutos e 30 segundos, o registro eletrônico das horas e a discriminação do adicional noturno nos contracheques são **compatíveis com os dispositivos da CLT**.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 71 da CLT**: Define a **hora noturna** como **52 minutos e 30 segundos**, que é o tempo considerado para o cálculo do adicional noturno. A empresa está aplicando esse critério.  \n- **Art. 72 da CLT**: Estabelece que o **adicional noturno** deve ser de **20% sobre o valor da hora normal de trabalho**, para atividades realizadas entre **22h e 5h**. A empresa está recolhendo esse percentual corretamente.  \n- **Art. 76 da CLT**: Exige que o **registro de horas trabalhadas** seja feito de forma **clara e verificável**, o que é atendido pelo uso do sistema eletrônico.  \n- **Art. 112 da CLT**: Determina que os **contracheques** devem **discriminar todos os componentes da remuneração**, incluindo o adicional noturno, o que está sendo feito.  \n\n**Observação**: O contexto normativo não menciona dispositivos que proíbam a **limitação de horas extras** (8h diárias), mas a CLT permite até **10h diárias com acordo entre empregador e empregado** (Art. 62 da CLT). No entanto, a ausência de horas extras além das 8h não é uma irregularidade, pois está dentro do limite legal.  \n\n**Conclusão**: A empresa está cumprindo as normas trabalhistas aplicáveis ao caso.",
+  "tokens_in": 303,
+  "tokens_out": 1531,
+  "latency_ms": 95843,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "85fc5861ff53eae2c364fc6bfda4ac2a953c43417521c07d20cf8174af31d26f",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-011",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T02:35:40Z",
+  "prompt_sha": "78be57c65268b89421466a483625c1ddd0dc66ed94122f80bd1d79254ece4e75",
+  "response_text": "### ANÁLISE\n\n1. **Dispositivos Legais Aplicáveis**:\n    - **Consolidação das Leis do Trabalho (CLT)**: A CLT permite a instituição de banco de horas mediante convenção ou acordo coletivo, desde que observadas as condições estabelecidas na legislação.\n    - **Acidente de Trabalho**: De acordo com o artigo 118 da CLT, em caso de acidente de trabalho, o prazo para a compensação das horas trabalhadas além do normal será suspenso durante o período de afastamento.\n\n2. **Interpretação no Caso Concreto**:\n    - A empresa firmou uma CCT que instituiu um banco de horas anual sem prever expressamente a suspensão do prazo em caso de afastamento por acidente de trabalho.\n    - O trabalhador foi afastado por 4 meses, período durante o qual não pôde compensar as horas acumuladas anteriormente nem adquirir novas horas para compensação futura.\n    - Após o retorno, a empresa somou todas as horas e exigiu a compensação num prazo que ultrapassava os 12 meses originais do banco de horas.\n\n### DECISÃO RECOMENDADA\n\nA decisão recomendada é favorável ao trabalhador. O prazo para compensação das horas acumuladas no banco de horas deve ser suspenso durante o período de afastamento por acidente de trabalho, mesmo que a CCT não preveja expressamente essa suspensão.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n1. **Artigo 118 da CLT**: Este artigo estabelece que, em caso de acidente do trabalho ou doença profissional, o prazo para compensação das horas trabalhadas além do normal será suspenso durante o período de afastamento.\n\n2. **Súmula nº 191 do TST**: \"O prazo para compensação de banco de horas é suspenso em caso de afastamento por acidente de trabalho ou doença profissional.\"\n\n3. **Precedentes Jurisprudenciais**:\n    - O Tribunal Superior do Trabalho (TST) tem reiteradamente decidido que, em casos de afastamento decorrente de acidente de trabalho, o prazo para compensação das horas acumuladas no banco de horas deve ser suspenso. Isso se baseia na proteção ao trabalhador e na interpretação conforme a Constituição Federal, que garante direitos sociais e previdenciários.\n\n4. **Interpretação conforme a Constituição**:\n    - A Constituição Federal, em seu artigo 7º, inciso XXVIII, assegura ao trabalhador o direito à proteção integral de sua saúde física e mental para o trabalho, além do direito à remuneração no caso de acidente de trabalho.\n\n### CONCLUSÃO\n\nPortanto, a decisão recomendada é que o prazo para compensação das horas acumuladas no banco de horas deve ser suspenso durante o período em que o trabalhador esteve afastado por acidente de trabalho. Isso se alinha com os dispositivos legais da CLT, as súmulas do TST e a interpretação conforme a Constituição Federal, garantindo a proteção dos direitos do trabalhador.",
+  "tokens_in": 335,
+  "tokens_out": 743,
+  "latency_ms": 42703,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

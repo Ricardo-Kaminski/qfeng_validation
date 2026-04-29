@@ -1,0 +1,29 @@
+{
+  "sha256": "48c74c9d7c067c9584014d89664bcf30a28eb6f329dce571ab57d81f24f79cd3",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T00:38:26Z",
+  "prompt_sha": "9aed310839e4cb6680c5af139cfc1410b8dc65f015f8e8555e2fcb61291a68c3",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas\n\nCom base nos predicados normativos fornecidos e no cenário apresentado, segue a análise, decisão recomendada e identificação de cumprimento/violação dos predicados:\n\n**1. ANÁLISE:**\n\n*   **semester_hour_bank_requires_cct_or_act:** Este predicado estabelece que a implementação de um banco de horas exige um acordo coletivo de trabalho (CCT) ou uma acordo coletivo de trabalho (ACT). No caso, a rede de supermercados implementou o banco de horas com base em um ACT celebrado com o sindicato dos comerciários, o que, à primeira vista, parece cumprir o predicado. No entanto, a validade do ACT é questionada pela falta de registro na SRTE.\n\n    *   **Registro da ACT e sua importância:** A jurisprudência do TST, embora reconheça a validade de atos normativos sindicais, entende que o registro da ACT na SRTE é um requisito de validade para efeitos de oponibilidade erga omnes (a todos). A ausência de registro impede que a ACT produza efeitos frente a todos os empregados, mesmo aqueles não representados pelo sindicato signatário. A empresa argumenta que o registro seria mera formalidade, mas essa interpretação não prevalece na jurisprudência. O registro é um ato administrativo que atesta a existência do acordo e sua conformidade com a lei, conferindo publicidade e segurança jurídica.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que a Justiça do Trabalho declare a **invalidade do ACT para fins de oponibilidade erga omnes**, ou seja, que o acordo não produz efeitos para todos os empregados da rede de supermercados.  A empresa não pode se beneficiar de um acordo que não foi devidamente registrado, pois isso violaria o direito à segurança jurídica dos empregados e a ordem pública.\n\nA decisão não implica necessariamente na extinção do banco de horas em si. A empresa poderá implementar o sistema, mas deverá fazê-lo de forma individualizada, com a concordância expressa de cada empregado, ou buscar a regularização do ACT junto à SRTE, cumprindo todos os requisitos legais.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **semester_hour_bank_requires_cct_or_act:** **Violação**. Embora a existência do ACT inicialmente pareça indicar conformidade, a ausência de registro na SRTE dentro do prazo legal impede que o acordo produza efeitos para todos os empregados, tornando-o, para fins de oponibilidade, ineficaz. A lei exige o registro para que o acordo seja válido e oponível a todos.\n    *   **Observação:** A empresa pode tentar argumentar que a falta de registro não afeta a validade do acordo para os empregados que concordaram com ele individualmente. No entanto, a questão central é a oponibilidade erga omnes, que é o que permite a empresa impor o banco de horas a todos os empregados.\n\n**Considerações Adicionais:**\n\n*   É importante verificar o prazo para registro da ACT, conforme a legislação aplicável.\n*   A empresa deve ser notificada para regularizar a situação junto à SRTE.\n*   A decisão judicial deve considerar os impactos da invalidade do ACT sobre os empregados que já participaram do banco de horas, buscando garantir a justa compensação das horas extras não compensadas.\n*   A empresa pode buscar a ratificação do ACT pela categoria, o que poderia sanar a falta de registro, mas isso dependerá da análise do caso concreto e da legislação aplicável.\n\n**Disclaimer:** Esta análise é baseada unicamente nos predicados normativos fornecidos e no cenário descrito. Uma análise jurídica completa exigiria a consulta de todos os documentos relevantes (ACT, registro na SRTE, etc.) e a consideração de outros fatores específicos do caso.",
+  "tokens_in": 307,
+  "tokens_out": 853,
+  "latency_ms": 23484,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

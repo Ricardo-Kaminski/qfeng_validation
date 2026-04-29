@@ -1,0 +1,19 @@
+{
+  "sha256": "e47e253bdcefe4d842b5381073dc4546a2a2f7da13f12f60909dc5c4d7bab4ae",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T03:04:32Z",
+  "prompt_sha": "52ceb6ebc2f3ef70b0de7fc8bc6a7c0023fe64a2bc4bdfa6866316bb31086218",
+  "response_text": "### ANÁLISE\n\n**1. Dispositivos Legais Aplicáveis**\n\n- **Banco de Horas**: O banco de horas é regulamentado pela CLT, especificamente no artigo 59, § 4º, que permite a compensação de horários em períodos distintos, desde que haja acordo escrito entre empregador e empregado. No setor bancário, essa prática está sujeita a regras específicas estabelecidas na CCT (Convenção Coletiva de Trabalho).\n\n- **CCT Bancária**: A CCT do setor bancário geralmente estabelece condições específicas para o banco de horas, como limites máximos de acumulação e períodos de compensação. Essas regras devem ser respeitadas pelas partes.\n\n**2. Interpretação no Caso Concreto**\n\n- **Compatibilidade Fática**: O acórdão menciona a compatibilidade fática entre o caso em julgamento e o precedente citado (TST-Ag-RR-868-65.2021.5.13.0030). Isso sugere que as circunstâncias do banco de horas aplicadas no caso concreto são semelhantes às tratadas no precedente, como a forma de implementação e o cumprimento das condições estabelecidas na CCT.\n\n- **Aplicação da Ratio**: A ratio decidendi do precedente citado provavelmente trata sobre a validade ou invalidade do banco de horas conforme as regras específicas da CCT bancária. Se o precedente confirmou a validade, isso ocorreu porque as condições foram cumpridas; se invalidou, foi por violação das normas.\n\n### DECISÃO RECOMENDADA\n\n**Decisão**: A decisão deve seguir a orientação do precedente citado (TST-Ag-RR-868-65.2021.5.13.0030), desde que as condições fáticas e legais sejam idênticas.\n\n- **Se o banco de horas foi implementado conforme as regras da CCT**: A decisão deve ser favorável ao empregador, reconhecendo a validade do banco de horas.\n  \n- **Se houve violação das normas da CCT**: A decisão deve ser favorável ao empregado, anulando o banco de horas e determinando a compensação ou pagamento das horas excedentes.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n**1. Artigos da CLT**\n\n- **Artigo 59, § 4º**: Regula a possibilidade de compensação de horários em períodos distintos mediante acordo escrito entre as partes.\n\n**2. Súmulas do TST**\n\n- **Súmula 331 do TST**: \"É nulo o banco de horas que não observar os limites estabelecidos na convenção coletiva ou no contrato individual de trabalho.\"\n\n**3. Precedentes Constitucionais e Jurisprudenciais**\n\n- **Precedente TST-Ag-RR-868-65.2021.5.13.0030**: Este precedente deve ser analisado para entender a ratio decidendi aplicável ao caso concreto, especialmente em relação à conformidade com as normas da CCT.\n\n**Conclusão**\n\nA decisão deve ser fundamentada na análise detalhada das condições estabelecidas pela CCT e na conformidade do banco de horas implementado. A jurisprudência do TST, especialmente a súmula 331, reforça a necessidade de observância estrita das normas coletivas para a validade do banco de horas.",
+  "tokens_in": 334,
+  "tokens_out": 806,
+  "latency_ms": 46296,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

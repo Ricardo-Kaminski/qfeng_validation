@@ -1,0 +1,19 @@
+{
+  "sha256": "958698ee61525d12494940a054abc1601684f5ae0044864005aa85c0860f8426",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T11:12:52Z",
+  "prompt_sha": "96b1feece965611b89e3956a1f10e137a308a959c7f66e3125395cd005ec45d0",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, o juiz negou seguimento a um recurso ordinário de um metalúrgico sem especificar qual lei ou dispositivo justificava tal decisão. O reclamante argumenta que isso viola o princípio constitucional da fundamentação das decisões judiciais.\n\nOs dispositivos normativos relevantes para análise incluem:\n\n- **Constituição Federal de 1988 (CF/88), Artigo 93, IX**: Este dispositivo estabelece que as decisões judiciais devem ser fundamentadas. A falta de especificação do fundamento legal na decisão pode configurar uma violação a este princípio constitucional.\n\n- **Código de Processo Civil (CPC), Artigo 489, inciso V**: Este artigo permite que o juiz negue seguimento ao recurso se considerá-lo manifestamente protelatório. No entanto, mesmo neste caso, é necessário fundamentar a decisão para atender ao princípio da motivação.\n\n2. **DECISÃO RECOMENDADA:**\n\nA recomendação seria que o juiz reconsidere sua decisão e forneça uma fundamentação adequada para negar seguimento ao recurso ordinário. Isso é necessário para cumprir com os princípios constitucionais de motivação das decisões judiciais, conforme estabelecido no Artigo 93, IX da CF/88.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **CF/88, Artigo 93, IX**: Este artigo exige que todas as decisões judiciais sejam fundamentadas. A ausência de fundamentação na negativa de seguimento ao recurso pode ser considerada uma violação a este princípio constitucional.\n\n- **CPC, Artigo 489, inciso V**: Embora permita a negativa de seguimento por considerar o recurso manifestamente protelatório, também exige que tal decisão seja fundamentada. A falta de especificação do fundamento legal na decisão original não atende ao requisito de motivação.\n\nPortanto, é recomendado que o juiz forneça uma fundamentação clara e específica para a negativa de seguimento ao recurso, citando os dispositivos legais pertinentes. Isso garantirá conformidade com os princípios constitucionais e processuais vigentes.",
+  "tokens_in": 287,
+  "tokens_out": 530,
+  "latency_ms": 32875,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

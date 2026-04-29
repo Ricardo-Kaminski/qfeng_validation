@@ -1,0 +1,27 @@
+{
+  "sha256": "d72f5d87308dc0f0a3275a9c574b5c48d8372574145866b45988c6c79940b4c2",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-009",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T00:02:55Z",
+  "prompt_sha": "41f99391d623b6e4453b092d8b4f92a9e4baebd669c006a01fb7a1c18b0e7608",
+  "response_text": "1. **ANÁLISE:**\n\n   - **hour_bank_with_cct_max_1_year:** Este predicado estabelece que o banco de horas, quando instituído por CCT (Convenção Coletiva de Trabalho), deve ter um prazo máximo de 12 meses. No cenário apresentado, a CCT previa um prazo de 12 meses para o banco de horas, o que está dentro do limite permitido pela norma. Portanto, este predicado é cumprido.\n\n   - **working_hours_negotiable_by_cct:** Este predicado permite que as condições relativas às horas trabalhadas sejam negociadas por meio da CCT. No caso em questão, a possibilidade de converter o saldo do banco de horas em dinheiro com adicional foi estabelecida pela CCT, e tanto o trabalhador quanto o empregador concordaram com essa conversão antes do término do prazo máximo de 12 meses. Isso demonstra que as condições foram negociadas conforme permitido pelo predicado normativo.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base nos predicados aplicáveis, a decisão recomendada é que não há violação das normas trabalhistas no caso apresentado. A conversão do saldo de banco de horas em dinheiro com adicional foi realizada dentro dos limites estabelecidos pela CCT e antes do término do prazo máximo permitido para o banco de horas, conforme a legislação.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Cumpriu:** \n     - *hour_bank_with_cct_max_1_year*: O prazo de 12 meses estabelecido pela CCT está dentro do limite permitido.\n     - *working_hours_negotiable_by_cct*: A possibilidade de conversão das horas foi negociada e acordada por meio da CCT, respeitando a flexibilidade permitida.\n\n   Não há violação dos predicados normativos listados no cenário apresentado.",
+  "tokens_in": 360,
+  "tokens_out": 441,
+  "latency_ms": 12750,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

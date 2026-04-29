@@ -1,0 +1,19 @@
+{
+  "sha256": "faf796405ccce22ce98b153c79ac7dd646b62f3f3fd37d9f1bc729af180507ed",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T20:23:34Z",
+  "prompt_sha": "b6e4c61ea8527c860962ba88d6b508c94439e853c9816adb4eb2e1c7272aacf0",
+  "response_text": "**ANÁLISE**\n\n1.  **Identificação dos dispositivos do contexto normativo aplicáveis ao caso:**\n    *   A Súmula TST nº 85 é a norma aplicável ao caso em questão.\n    *   O item I da Súmula estabelece que \"São consideradas como trabalho extraordinário as horas trabalhadas no período de até 2 horas além do horário normal, se não houver acordo ou convenção coletiva em contrário.\"\n    *   O item II da Súmula afirma que \"Considera-se tempo à disposição quando o empregado esteja obrigado a permanecer nas dependências da empresa aguardando o início do trabalho, sem gozar de folga.\"\n    *   O item V da Súmula estabelece que \"O banco de horas só pode ser ajustado por convenção coletiva ou acordo coletivo.\"\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é a confirmação do acórdão do TRT, pois o caso atende aos critérios da Súmula TST nº 85.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   A decisão do TRT está de acordo com os itens I e V da Súmula TST nº 85, que estabelecem a consideração das horas trabalhadas além do horário normal como trabalho extraordinário e o ajuste do banco de horas por convenção coletiva ou acordo coletiva.\n*   Além disso, o item II da Súmula não é aplicável ao caso, pois não há menção à consideração de tempo à disposição no contexto do caso em questão.\n\n**Limitações**\n\nNeste caso, não há limitações na aplicação das normas.",
+  "tokens_in": 328,
+  "tokens_out": 395,
+  "latency_ms": 6653,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

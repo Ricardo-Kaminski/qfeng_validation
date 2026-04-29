@@ -1,0 +1,19 @@
+{
+  "sha256": "80709303b50769e502cb5f4c0529b8a9ab2f86d26ba5f610b26790eabab1ca92",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-008",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T11:42:19Z",
+  "prompt_sha": "e1659c5429e8d4021dbbfd8bec4539ebca49823acf42a3cc8afc510d0a89683d",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a questão central é se o saldo positivo de horas em banco de horas estabelecido por Acordo Coletivo de Trabalho (ACT) deve ser pago ao empregado que rescinde o contrato antes do prazo estipulado para compensação.\n\nOs dispositivos normativos relevantes incluem:\n\n- **Artigo 59 da CLT**: Este artigo trata das horas extras e sua compensação. Ele permite a compensação de horas extras mediante acordo ou convenção coletiva, desde que não exceda um limite máximo estabelecido (até duas vezes o número de horas normais semanais) e respeitando prazos máximos para tal compensação.\n\n- **Súmula 333 do TST**: Esta súmula afirma que \"o saldo positivo de banco de horas, decorrente da compensação de horas extras por folgas ou abono pecuniário, constitui crédito a favor do empregado, devendo ser pago ao trabalhador na rescisão contratual\".\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que o saldo positivo de 60 horas deve ser pago ao empregado no momento da rescisão contratual. Isso porque o saldo positivo em banco de horas, conforme entendimento do TST através da Súmula 333, constitui um crédito a favor do trabalhador.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Artigo 59 da CLT**: Permite a compensação de horas extras mediante acordo ou convenção coletiva, desde que respeitados os limites e prazos estabelecidos. O banco de horas foi estabelecido por ACT, o que é permitido pela norma.\n\n- **Súmula 333 do TST**: Estabelece claramente que o saldo positivo em banco de horas deve ser pago ao trabalhador na rescisão contratual. Isso significa que a rescisão unilateral não elide o direito ao pagamento das horas extras pendentes, pois o saldo já foi compensado e constitui um crédito.\n\nPortanto, com base nos dispositivos normativos aplicáveis, o empregado tem direito ao recebimento do saldo positivo de 60 horas na rescisão contratual.",
+  "tokens_in": 305,
+  "tokens_out": 518,
+  "latency_ms": 28500,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

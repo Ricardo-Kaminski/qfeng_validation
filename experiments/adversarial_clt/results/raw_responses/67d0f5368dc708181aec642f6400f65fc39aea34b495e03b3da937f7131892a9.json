@@ -1,0 +1,19 @@
+{
+  "sha256": "67d0f5368dc708181aec642f6400f65fc39aea34b495e03b3da937f7131892a9",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T06:41:44Z",
+  "prompt_sha": "3313428edbc166d56a9b43d90f3fa7bed30c9f2491d71915a7aa6bf86caa812b",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a aplicação de uma Convenção Coletiva de Trabalho (CCT) no setor hoteleiro, que estabelece um banco de horas com prazo de compensação de 14 meses. A empresa hoteleira argumenta que a CCT pode flexibilizar o limite de 1 ano previsto em lei, com base na autonomia das partes coletivas e no princípio da adequação setorial negociada.\n\nNo entanto, o sindicato dos hotéis contesta essa afirmação, sustentando que o limite de 1 ano é uma norma de ordem pública, conforme definido pela Súmula TST 85, V. Para entender a situação, é necessário analisar os dispositivos legais aplicáveis e sua interpretação no caso concreto.\n\n**Dispositivos Legais Aplicáveis**\n\n*   Artigo 59 da CLT: Regulamenta as convenções coletivas de trabalho.\n*   Súmula TST 85, V: Define que o limite de compensação do banco de horas é de um ano.\n*   Precedentes constitucionais (eventualmente): Embora não mencionados no cenário, podem ser relevantes para a interpretação da autonomia das partes coletivas e da adequação setorial negociada.\n\n**Interpretação**\n\nA CCT pode flexibilizar regras trabalhistas, desde que respeite as normas de ordem pública. O artigo 59 da CLT permite que as convenções coletivas regulamentem questões específicas do trabalho, incluindo a compensação de horas extras.\n\nNo entanto, o limite de 1 ano para compensação do banco de horas é uma norma de ordem pública, conforme definido pela Súmula TST 85, V. Isso significa que a CCT não pode flexibilizar esse limite sem violar a norma de ordem pública.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada seria:\n\n*   **Rejeição da flexibilização do prazo de compensação**: A CCT não pode flexibilizar o limite de 1 ano para compensação do banco de horas, pois é uma norma de ordem pública.\n*   **Manutenção do prazo de 1 ano estabelecido pela Súmula TST 85, V**: O prazo de compensação deve ser respeitado, conforme definido pela jurisprudência.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   Artigo 59 da CLT: \"As convenções coletivas de trabalho poderão regulamentar questões específicas do trabalho, desde que não contrariem as disposições legais.\"\n*   Súmula TST 85, V: \"O limite de compensação do banco de horas é de um ano.\"\n*   Precedentes constitucionais (eventualmente): Embora não mencionados no cenário, podem ser relevantes para a interpretação da autonomia das partes coletivas e da adequação setorial negociada.\n\nEm resumo, a decisão recomendada é manter o prazo de 1 ano estabelecido pela Súmula TST 85, V, pois é uma norma de ordem pública que não pode ser flexibilizada pelas convenções coletivas.",
+  "tokens_in": 316,
+  "tokens_out": 739,
+  "latency_ms": 24296,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

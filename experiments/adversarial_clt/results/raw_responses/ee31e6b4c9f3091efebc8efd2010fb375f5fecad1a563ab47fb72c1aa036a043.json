@@ -1,0 +1,19 @@
+{
+  "sha256": "ee31e6b4c9f3091efebc8efd2010fb375f5fecad1a563ab47fb72c1aa036a043",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T02:46:26Z",
+  "prompt_sha": "7f3aaeca10c854121c92a9d38d09f1d973fddc91bbd93ce9e173f573df7c3924",
+  "response_text": "### ANÁLISE\n\n**1. Dispositivos Legais Aplicáveis**\n\n- **Lei de Introdução às Normas do Direito Brasileiro (LINDB) - Artigo 20**: Este artigo estabelece que, em caso de conflito entre norma geral e norma especial, prevalecerá a norma especial. Além disso, quando houver dúvida sobre a aplicação de uma norma ao caso concreto, deve-se interpretar no sentido mais favorável à coletividade.\n\n- **Consolidação das Leis do Trabalho (CLT)**: A CLT é a legislação especial que regula as relações de trabalho individual e coletivo no Brasil. Ela prevalece sobre normas gerais em caso de conflito, conforme o princípio da especialidade.\n\n**2. Interpretação no Caso Concreto**\n\nNo cenário apresentado, a decisão inicial omite a análise do impacto sistêmico da decisão sobre o setor econômico ao não considerar o Artigo 20 da LINDB. No entanto, a decisão em embargos de declaração argumenta que tal análise não se aplica ao caso trabalhista individual, fundamentando-se na jurisprudência do Superior Tribunal de Justiça (STJ) sobre a aplicação da LINDB.\n\nA interpretação correta deve considerar que o Artigo 20 da LINDB é mais relevante em contextos onde normas gerais e especiais entram em conflito, ou quando há dúvida sobre a aplicabilidade de uma norma. No caso de um litígio trabalhista individual, a CLT já estabelece regras específicas que devem ser aplicadas diretamente ao caso.\n\n### DECISÃO RECOMENDADA\n\nA decisão em embargos de declaração deve ser mantida, concluindo-se que o Artigo 20 da LINDB não se aplica ao caso trabalhista individual. Isso porque a CLT já prevê normas especiais para reger as relações individuais de trabalho, e qualquer análise sobre impacto sistêmico é mais pertinente em contextos coletivos ou quando há conflito entre normas gerais e especiais.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n**1. CLT**\n\n- **Princípio da Especialidade**: A CLT prevalece sobre normas gerais, conforme o princípio da especialidade, que é reforçado pela própria LINDB (Artigo 7º).\n\n**2. Súmulas do TST**\n\n- **Súmula 331 do TST**: \"A aplicação de norma coletiva ao contrato individual de trabalho depende de sua homologação pelo Poder Público.\"\n\nEsta súmula reforça a ideia de que, em casos individuais, as normas da CLT são diretamente aplicáveis, sem necessidade de considerar o impacto sistêmico previsto no Artigo 20 da LINDB.\n\n**3. Precedentes Constitucionais**\n\n- **Princípio da Dignidade da Pessoa Humana (Artigo 1º, inciso III, CF/88)**: A aplicação direta das normas trabalhistas individuais é uma forma de garantir a proteção e dignidade do trabalhador, conforme preconizado pela Constituição Federal.\n\n### CONCLUSÃO\n\nA decisão em embargos de declaração está correta ao concluir que o Artigo 20 da LINDB não se aplica ao caso trabalhista individual. A CLT já fornece as normas especiais necessárias para a resolução do litígio, e qualquer consideração sobre impacto sistêmico é mais relevante em contextos coletivos ou de conflito entre normas gerais e especiais.",
+  "tokens_in": 309,
+  "tokens_out": 852,
+  "latency_ms": 48969,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

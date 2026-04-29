@@ -1,0 +1,19 @@
+{
+  "sha256": "ef1269b8304ac21f99218e7eec1dbe81f0db4abbf03a1c8a14ecceafbfbc010b",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-006",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T07:07:56Z",
+  "prompt_sha": "f4920283beb1853668bb4251074fa4825bbe27b93c35dcf2e68fe50e755832b2",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a aplicação de um Acórdão que cita corretamente o Tema 1046/STF e o TST-Ag-RR-868-65.2021, mas aplica a ratio do precedente de forma invertida. O tribunal utiliza a tese de validade de CCT bancária para justificar a validade de banco de horas sem qualquer CCT.\n\nPara analisar esse cenário, é necessário identificar os dispositivos legais aplicáveis e sua interpretação no caso concreto.\n\n**Dispositivos Legais Aplicáveis:**\n\n1. **Artigo 611 da CLT**: Regulamenta a possibilidade de banco de horas em estabelecimentos que tenham mais de vinte trabalhadores, desde que haja acordo escrito entre empregador e empregado.\n2. **Tema 1046/STF**: Trata sobre a validade das Convenções Coletivas de Trabalho (CCT) bancárias, considerando-as legais e aplicáveis às instituições financeiras.\n3. **TST-Ag-RR-868-65.2021**: Precedente que se refere à aplicação da tese do Tema 1046/STF.\n\n**Interpretação no Caso Concreto:**\n\nA ratio decidendi do precedente TST-Ag-RR-868-65.2021 pressupõe a existência de uma CCT bancária válida para justificar a aplicação da tese do Tema 1046/STF, que considera as CCT bancárias legais e aplicáveis. No entanto, o tribunal não reconheceu essa condição essencial para aplicar a ratio decidendi.\n\n**DECISÃO RECOMENDADA:**\n\nA decisão recomendada é **REJEITAR A ARGUMENTAÇÃO DO TRIBUNAL** e considerar que a aplicação da tese do Tema 1046/STF pressupõe a existência de uma CCT bancária válida. Sem essa condição, não há base legítima para justificar a validade de banco de horas sem qualquer CCT.\n\n**FUNDAMENTAÇÃO NORMATIVA:**\n\n1. **Artigo 611 da CLT**: O dispositivo legal específico que regulamenta a possibilidade de banco de horas em estabelecimentos com mais de vinte trabalhadores, desde que haja acordo escrito entre empregador e empregado.\n2. **Súmula 379 do TST**: Considera que as CCTs são legais e aplicáveis aos estabelecimentos que as adotaram, mas sem mencionar a possibilidade de banco de horas sem uma CCT válida.\n3. **Tema 1046/STF**: Embora considere as CCT bancárias legais e aplicáveis, não aborda diretamente a questão do banco de horas sem uma CCT existente.\n\n**CONCLUSÃO:**\n\nA decisão recomendada é baseada na interpretação correta dos dispositivos legais aplicáveis e da ratio decidendi do precedente TST-Ag-RR-868-65.2021, que pressupõe a existência de uma CCT bancária válida para justificar a aplicação da tese do Tema 1046/STF.",
+  "tokens_in": 317,
+  "tokens_out": 723,
+  "latency_ms": 23765,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,29 @@
+{
+  "sha256": "ac47be7ad35da509f33ec5b7da60fc03bf4d123b6cb60141bda8f8cdd347cd20",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:23:32Z",
+  "prompt_sha": "9aed310839e4cb6680c5af139cfc1410b8dc65f015f8e8555e2fcb61291a68c3",
+  "response_text": "**ANÁLISE**\n\n1. **semester_hour_bank_requires_cct_or_act**: Esse predicado normativo estabelece que, para a implementação de um banco de horas com compensação em prazo, é necessário o registro da ACT na Superintendência Regional do Trabalho (SRTE) dentro do prazo legal.\n\nNo cenário apresentado, a empresa implementou um banco de horas com compensação em prazo mediante ACT celebrada com o sindicato dos comerciários. No entanto, a ACT não estava registrada na SRTE dentro do prazo legal. Portanto, esse predicado é **VIOLADO**, pois a empresa não cumpriu com o requisito de registro da ACT.\n\n**DECISÃO RECOMENDADA**\n\nCom base nos predicados normativos listados e na análise acima, recomendo que a decisão seja favorável ao trabalhador, considerando que a empresa violou o predicado **semester_hour_bank_requires_cct_or_act**, o que torna a ACT inválida.\n\n**PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n*   **VIOLADO**: semester_hour_bank_requires_cct_or_act (não registro da ACT na SRTE dentro do prazo legal)\n*   **CUMPRIDO**: Nenhum outro predicado foi mencionado no cenário, portanto não há outros predicados a serem considerados.",
+  "tokens_in": 335,
+  "tokens_out": 304,
+  "latency_ms": 5110,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "f3f0fdc2942757fff391ba9a6ed49450c57734ef987370592da44fe4c0b1c9d9",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T06:51:05Z",
+  "prompt_sha": "fa6736184a215e08f8da95face2e5b41012dffa67beed07df1b80f5ccc381fe4",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a sucessão empresarial de uma empresa por um grupo empresarial. A questão central é se a CCT da empresa sucedida vincula a empresa sucessora após o prazo de vigência original da CCT.\n\nA análise deve considerar os seguintes dispositivos legais:\n\n1.  Artigo 7º, inciso XXVI, da Constituição Federal (CF), que estabelece a possibilidade de negociação coletiva entre empregadores e sindicatos;\n2.  Artigo 613 da CLT, que disciplina a negociação coletiva e a celebração dos contratos coletivos de trabalho;\n3.  Artigo 614 da CLT, que trata sobre a vigência do contrato coletivo de trabalho;\n4.  Súmula nº 379 do TST: \"O contrato coletivo de trabalho tem validade até o término do prazo estabelecido no seu artigo e não se renova tacitamente.\"\n\n**DECISÃO RECOMENDADA**\n\nConsiderando a análise acima, recomendo que a decisão seja:\n\n*   A empresa sucessora não está vinculada à CCT da empresa sucedida após o prazo de vigência original da CCT.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação normativa se baseia nos seguintes dispositivos legais e jurisprudenciais:\n\n1.  **Artigo 7º, inciso XXVI, da Constituição Federal (CF)**: Este dispositivo estabelece a possibilidade de negociação coletiva entre empregadores e sindicatos, mas não impõe a vinculação dos sucessores às cláusulas do contrato coletivo.\n2.  **Artigo 613 da CLT**: Este artigo disciplina a negociação coletiva e a celebração dos contratos coletivos de trabalho, mas não estabelece regras específicas para a sucessão empresarial.\n3.  **Artigo 614 da CLT**: Este artigo trata sobre a vigência do contrato coletivo de trabalho, determinando que ele tem validade até o término do prazo estabelecido no seu artigo e não se renova tacitamente.\n4.  **Súmula nº 379 do TST**: Esta súmula estabelece que o contrato coletivo de trabalho tem validade até o término do prazo estabelecido no seu artigo e não se renova tacitamente, o que significa que a empresa sucessora não está obrigada a manter as cláusulas do contrato coletivo após o seu prazo de vigência.\n\nEm resumo, a decisão recomendada é baseada na interpretação da CLT e jurisprudência do TST, que estabelecem que o contrato coletivo de trabalho não se renova tacitamente e que a empresa sucessora não está vinculada às cláusulas do contrato coletivo após o prazo de vigência original.",
+  "tokens_in": 290,
+  "tokens_out": 670,
+  "latency_ms": 25921,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

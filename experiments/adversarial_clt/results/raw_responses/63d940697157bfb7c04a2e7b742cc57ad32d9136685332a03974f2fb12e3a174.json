@@ -1,0 +1,27 @@
+{
+  "sha256": "63d940697157bfb7c04a2e7b742cc57ad32d9136685332a03974f2fb12e3a174",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:59:01Z",
+  "prompt_sha": "914996cedcd042ca39186d6ce5def3d38864fcb0139cd1005ea4971ff55119c9",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas\n\nCom base nos predicados normativos fornecidos e no cenário apresentado, apresento a análise, decisão recomendada e identificação de cumprimento/violação dos predicados.\n\n**1. ANÁLISE:**\n\n*   **`maximum_daily_working_hours_8h` (Limite máximo de 8 horas diárias):** Este predicado, embora não diretamente violado no cenário, é fundamental para entender o contexto do banco de horas. O banco de horas é um mecanismo para compensar, *dentro de um período determinado*, horas trabalhadas além da jornada regular (8 horas diárias) com horas não trabalhadas. A possibilidade de acumular horas no banco de horas pressupõe que, em alguns dias, o empregado tenha trabalhado além das 8 horas, e em outros, terá folgas ou redução de jornada para compensar. A extrapolação do limite da CCT, como no caso, pode indicar que a empresa está permitindo jornadas diárias excessivas, o que, em tese, poderia levar a questionamentos sobre a legalidade da própria jornada de trabalho.\n\n*   **`hour_bank_with_cct_max_1_year` (Banco de horas com CCT, máximo de 1 ano):** Este predicado é o mais diretamente relevante. Ele estabelece que a implementação do banco de horas depende de acordo coletivo (CCT) e que o período máximo para compensação das horas acumuladas é de 1 ano. A CCT, neste caso, estabeleceu um limite de 80 horas para o acúmulo. A empresa, ao permitir o acúmulo de 200 horas, extrapolou esse limite estabelecido na CCT, sem a devida negociação para alterá-lo. A alegação de que o limite é \"indicativo\" não é suficiente para desconsiderar a força normativa da CCT. A jurisprudência do TST é firme em reconhecer a obrigatoriedade de observância dos limites estabelecidos em acordos e convenções coletivas.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que a decisão seja favorável ao sindicato e, consequentemente, ao operador. A extrapolação do limite de 80 horas estabelecido na CCT para o banco de horas é ilegal. As horas que excederam esse limite (as 120 horas adicionais, de 80 até 200) devem ser consideradas como horas extras, devendo a empresa pagar a respectiva remuneração, acrescida dos devidos adicionais (geralmente 50% para horas extras habituais e 100% para horas extras não habituais).\n\nA empresa deve ser notificada para regularizar a situação, respeitando o limite de 80 horas estabelecido na CCT ou, caso deseje ultrapassar esse limite, deve negociar com o sindicato para obter a devida autorização e formalização.  A empresa não pode unilateralmente alterar os termos do acordo coletivo.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **`maximum_daily_working_hours_8h`:** Conformidade (indiretamente, a situação pode gerar questionamentos sobre a jornada diária).\n*   **`hour_bank_with_cct_max_1_year`:** Violação (extrapolação do limite estabelecido na CCT sem negociação).\n\n**Observações Adicionais:**\n\n*   A jurisprudência do TST tem sido rigorosa na interpretação de acordos e convenções coletivas, exigindo o cumprimento integral de seus termos.\n*   A alegação da empresa de que o limite era \"indicativo\" não tem amparo na lei ou na jurisprudência.\n*   É importante verificar se a CCT estabelece outras condições para a validade do banco de horas, como a necessidade de controle de frequência e a possibilidade de escolha do operador em participar do sistema.\n*   A empresa pode ser responsabilizada por danos morais aos empregados caso a prática de extrapolar os limites do banco de horas cause prejuízos à sua saúde ou bem-estar.",
+  "tokens_in": 343,
+  "tokens_out": 902,
+  "latency_ms": 24875,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

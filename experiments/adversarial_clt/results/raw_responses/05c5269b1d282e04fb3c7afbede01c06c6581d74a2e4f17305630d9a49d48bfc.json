@@ -1,0 +1,26 @@
+{
+  "sha256": "05c5269b1d282e04fb3c7afbede01c06c6581d74a2e4f17305630d9a49d48bfc",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T01:35:02Z",
+  "prompt_sha": "8878dc2d9f7cf9a0114687aa1266b009f3a08a32602082365158196ffb12806c",
+  "response_text": "**1. ANÁLISE**\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: Este predicado exige que a decisão seja fundamentada em uma razão de decidir específica, identificada e transcrita do precedente aplicado. No cenário apresentado, o acórdão trabalhista explicitamente menciona o número do precedente (TST-Ag-RR-868-65.2021.5.13.0030), transcreve a ementa e analisa a compatibilidade fática com o caso em julgamento, aplicando a ratio decidendi ao caso concreto. Portanto, este predicado foi **cumprido**.\n\n- **stf_tema1046_binding_precedent_applied**: Este predicado refere-se à aplicação de precedente vinculante do Supremo Tribunal Federal (STF) em um processo trabalhista. No cenário, não há menção explícita ao STF ou a algum tema específico relacionado ao Tema 1046. O precedente citado é do TST, não do STF. Portanto, este predicado foi **violado**, pois não se aplica à situação descrita.\n\n- **due_process_of_law**: Este predicado exige que o processo seja conduzido de acordo com as regras da lei e garantias processuais fundamentais. O cenário descreve um acórdão trabalhista que analisa a compatibilidade fática do caso em julgamento (banco de horas em CCT bancária) com o precedente aplicado, identificando todas as bases legais e jurisprudenciais. Além disso, não há menção a violações de garantias processuais fundamentais ou à falta de fundamentação da decisão. Portanto, este predicado foi **cumprido**.\n\n**2. DECISÃO RECOMENDADA**\n\nCom base nos predicados acima e considerando que o cenário descreve uma análise jurídica rigorosa com identificação explícita do precedente aplicado e sua compatibilidade fática com o caso em julgamento, a decisão recomendada seria **PROFERIR A DECISÃO BASEADA NA RATIO DECIDENDI DO PRECEDENTE**, desde que todas as garantias processuais fundamentais tenham sido respeitadas.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **Cumpridos:**\n  - obligation_to_ground_decision_in_identified_ratio_decidendi\n  - due_process_of_law\n\n- **Violados:**\n  - stf_tema1046_binding_precedent_applied",
+  "tokens_in": 402,
+  "tokens_out": 577,
+  "latency_ms": 9702,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

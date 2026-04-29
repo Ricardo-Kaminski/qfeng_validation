@@ -1,0 +1,30 @@
+{
+  "sha256": "396d09a68f6bff2a61a04599df8fd496489b773d693cc1b961a1907c5e3c8fc9",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-007",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T23:15:40Z",
+  "prompt_sha": "87cfca1418f3f656618cfac13aa7f2dd97f0633ba491f0fa22ab0f1a80de9a98",
+  "response_text": "### 1. **ANÁLISE: Aplicação dos predicados normativos ao caso concreto**  \n- **obligation_to_ground_decision_in_identified_ratio_decidendi**:  \n  A decisão do TRT cumpre esse predicado, pois fundamenta-se explicitamente em normas jurídicas identificadas:  \n  - **CF/88 Art. 10, II, \"b\" (ADCT)**: Estabelece a estabilidade provisória da gestante durante a gravidez e os 120 dias após o parto.  \n  - **Súmula TST 244**: Reconhece que a estabilidade provisória da gestante é independente da comunicação prévia da gravidez ao empregador.  \n  - **OJ 399 da SDI-1**: Afirma que a comunicação prévia da gravidez ao empregador não é obrigatória para a eficácia da estabilidade provisória.  \n  A decisão vincula-se a essas normas, demonstrando que a dispensa foi ilegal por violar a estabilidade provisória prevista no ADCT.  \n\n- **due_process_of_law**:  \n  O predicado é cumprido, pois a decisão:  \n  - **Analisa fato provado**: A gravidez ocorreu antes da dispensa, o que foi comprovado.  \n  - **Respeita a jurisprudência**: A aplicação da Súmula TST 244 e da OJ 399 demonstra que o TRT considerou o direito da gestante à proteção legal, sem prejuízo do direito do empregador de se defender (não há menção a falhas no processo de defesa do empregador).  \n  - **Não viola direitos do empregador**: A decisão não ignora a possibilidade de o empregador ter argumentado sobre a legalidade da dispensa, mas conclui com base na prova da gravidez prévia e na jurisprudência.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA decisão do TRT **deve ser mantida**, pois:  \n- **Cumprimento dos predicados normativos**: A fundamentação está alinhada com a **obligation_to_ground_decision_in_identified_ratio_decidendi** (uso de normas específicas) e com o **due_process_of_law** (análise baseada em fatos provados e jurisprudência).  \n- **Conformidade com a CLT e jurisprudência do TST**: A nulidade da dispensa e a reintegração são compatíveis com a proteção à gestante prevista no ADCT e com a Súmula TST 244.  \n- **Reconhecimento da OJ 399**: A decisão correta ao afastar a exigência de comunicação prévia da gravidez, conforme orientação da SDI-1.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: **Conformidade** (a decisão fundamenta-se em normas jurídicas específicas e jurisprudência).  \n- **due_process_of_law**: **Conformidade** (a análise baseia-se em fatos provados e não há indícios de violação do direito do empregador de se defender).  \n\n**Nenhum predicado foi violado** no cenário descrito. A decisão do TRT está alinhada com os requisitos normativos de fundamentação jurídica e respeito ao devido processo legal.",
+  "tokens_in": 392,
+  "tokens_out": 1296,
+  "latency_ms": 39718,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

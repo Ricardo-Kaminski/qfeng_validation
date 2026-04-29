@@ -1,0 +1,19 @@
+{
+  "sha256": "0f755812a2669ce6228cc838a9eed2d6d8ed4b0cffffc937db537e8de4474d08",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-008",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T20:25:02Z",
+  "prompt_sha": "4c0dcee8b5611dbd85de55417b7dad94c7d5424efdfecc7cb89ae58938c73e41",
+  "response_text": "**ANÁLISE**\n\nOs dispositivos do contexto normativo aplicáveis ao caso são:\n\n*   CLT Art. 223-G (pós-reforma de 2017);\n*   CLT §1° do artigo 223-G.\n\nEsses dispositivos tratam sobre a reparação por danos morais no âmbito trabalhista, especificamente sobre como calcular o valor da indenização e considerar a gravidade da ofensa.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que seja reconhecido o dano moral ao empregado e que seja fixado um valor de reparação com base na CLT Art. 223-G, §1°, considerando a gravidade da ofensa e precedentes do TST.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação normativa é baseada nos dispositivos citados:\n\n*   **CLT Art. 223-G (pós-reforma de 2017)**: Esse dispositivo estabelece as regras para a reparação por danos morais no âmbito trabalhista, incluindo a identificação do grau da ofensa e a quantificação do valor da indenização.\n*   **CLT §1° do artigo 223-G**: Esse dispositivo especifica que o valor da indenização deve ser calculado com referência ao salário do trabalhador.\n\nAlém disso, a decisão também pode se basear em precedentes do TST sobre casos similares de assédio moral.",
+  "tokens_in": 319,
+  "tokens_out": 331,
+  "latency_ms": 5696,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,29 @@
+{
+  "sha256": "69a7409e0b53d6c1d306d22c1ffaf890beb0b192fdf9193ad600a5d0f8de9689",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:23:51Z",
+  "prompt_sha": "b661f2255b5502b8f1d54e8173e364eaea6fcc82df6fd0fce186a62f26ced61c",
+  "response_text": "**ANÁLISE**\n\n1. **hour_bank_with_cct_max_1_year**: Esse predicado normativo estabelece que, em caso de rescisão do contrato de trabalho com compensação por tempo de serviço (CCT), o saldo remanescente no banco de horas deve ser pago como hora normal, desde que a CCT seja inferior ou igual a 1 ano. No cenário apresentado, a empresa demitiu o empregado sem justa causa e havia um saldo positivo de 80h no banco de horas estabelecido por CCT com compensação semestral (inferior a 1 ano). Portanto, esse predicado é aplicável ao caso.\n\n**DECISÃO RECOMENDADA**\n\nCom base nos predicados normativos listados e sua análise, recomendo que a decisão seja favorável ao empregado. O empregado tem direito de receber o saldo remanescente no banco de horas como hora normal, não como hora extra, pois a CCT é inferior a 1 ano.\n\n**PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n* **hour_bank_with_cct_max_1_year**: Cumprido. A empresa pagou o saldo remanescente como hora normal.\n* Não há outros predicados listados que sejam aplicáveis ao caso concreto, portanto não há violações ou cumprimentos de outros predicados.\n\n**Observação importante:** Embora a empresa tenha pago o saldo remanescente como hora normal, isso não significa que a decisão seja favorável à empresa. A decisão é favorável ao empregado porque ele tem direito a receber o saldo remanescente como hora normal, conforme estabelecido na CCT e no predicado normativo aplicável.",
+  "tokens_in": 343,
+  "tokens_out": 376,
+  "latency_ms": 6296,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

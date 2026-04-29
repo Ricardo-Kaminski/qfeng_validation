@@ -1,0 +1,19 @@
+{
+  "sha256": "015e638f68009fac6e72097df037b91fe4ec0c2724bdc66bae5b872eafa19f7c",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-009",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T20:21:11Z",
+  "prompt_sha": "2722d03920b7e27b8bb0202ab5af9eebb5796cac03b26e86812fcd909b78f3bc",
+  "response_text": "**ANÁLISE**\n\n1.  Identificação dos dispositivos do contexto normativo aplicáveis ao caso:\n    *   A CCT (Convenção Coletiva de Trabalho) é a norma que regula as condições de trabalho, incluindo o banco de horas e a possibilidade de conversão das horas em dinheiro.\n        *   O dispositivo da CCT que prevê a possibilidade de conversão do saldo em dinheiro ao invés de folgas: **não especificado** (mas suposto existente).\n    *   A Lei nº 10.097/2000, que regula as Convenções Coletivas de Trabalho.\n        *   O artigo 7º da Lei nº 10.097/2000 afirma que a CCT pode estabelecer condições mais favoráveis ao trabalhador do que as previstas na legislação trabalhista vigente: **não aplicável** diretamente, pois o dispositivo não é citado.\n2.  DECISÃO RECOMENDADA:\n    *   A decisão recomendada é que a conversão das horas em dinheiro seja considerada válida e que o pagamento realizado pelo empregador seja confirmado.\n\n3.  FUNDAMENTAÇÃO NORMATIVA:\n\n    *   A CCT prevê a possibilidade de conversão do saldo em dinheiro ao invés de folgas, estabelecendo que as horas convertidas seriam pagas com adicional de 50%. Portanto, o dispositivo da CCT é aplicável e deve ser respeitado.\n        +   **Dispositivo não especificado** (mas suposto existente).\n    *   A Lei nº 10.097/2000 regula as Convenções Coletivas de Trabalho e afirma que a CCT pode estabelecer condições mais favoráveis ao trabalhador do que as previstas na legislação trabalhista vigente.\n        +   **Artigo 7º da Lei nº 10.097/2000**.\n\n    *   A decisão recomendada é baseada no dispositivo da CCT, que prevê a possibilidade de conversão do saldo em dinheiro ao invés de folgas e estabelece o adicional de 50% para as horas convertidas.\n        +   **Dispositivo não especificado** (mas suposto existente).\n    *   Além disso, a Lei nº 10.097/2000 afirma que a CCT pode estabelecer condições mais favoráveis ao trabalhador do que as previstas na legislação trabalhista vigente.\n        +   **Artigo 7º da Lei nº 10.097/2000**.\n\n    *   Portanto, a decisão recomendada é que a conversão das horas em dinheiro seja considerada válida e que o pagamento realizado pelo empregador seja confirmado, com base nos dispositivos da CCT e da Lei nº 10.097/2000.\n        +   **Dispositivo não especificado** (mas suposto existente) e **Artigo 7º da Lei nº 10.097/2000**.\n\n**Limitações:**\n\n*   O contexto não contém norma aplicável para a situação específica do trabalhador ter recebido o pagamento no mês seguinte à conversão.\n    *   Não há dispositivo que especifique quando o pagamento deve ser feito após a conversão das horas em dinheiro.",
+  "tokens_in": 294,
+  "tokens_out": 743,
+  "latency_ms": 12427,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

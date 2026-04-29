@@ -1,0 +1,29 @@
+{
+  "sha256": "a217225d35644c611d4b3f8af48894eacc54f82ac955a7df1b0126c2f5e05840",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-011",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:26:12Z",
+  "prompt_sha": "6fac52d3c2ea75bbed1139d969eba52baa7f8af6a911387e6e7845d9583ea12b",
+  "response_text": "**1. ANÁLISE**\n\n- **semester_hour_bank_requires_cct_or_act**: Esse predicado normativo é aplicável ao caso, pois a Transportadora firmou um CCT com banco de horas semestral. O predicado estabelece que o empregador deve cumprir as exigências do regime de banco de horas, incluindo a compensação das horas extras dentro do prazo estabelecido.\n\n**Análise detalhada:**\n\n- A cláusula específica da CCT que exige os trabalhadores abrirem mão do direito ao adicional de horas extras caso o banco não seja compensado no prazo pode ser vista como uma tentativa de limitar a proteção dos trabalhadores prevista na CLT. No entanto, essa cláusula deve ser analisada sob a ótica da validade em relação à CLT.\n\n**2. DECISÃO RECOMENDADA**\n\nCom base nos predicados normativos aplicáveis e na análise detalhada, recomenda-se que a decisão seja favorável aos trabalhadores. A cláusula de renúncia ao adicional de horas extras, sob a condição de não compensação do banco de horas no prazo, viola o Art. 611-B, IX da CLT.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **semester_hour_bank_requires_cct_or_act**: Este predicado foi violado, pois a cláusula específica da CCT que exige os trabalhadores renunciarem ao adicional de horas extras caso o banco não seja compensado no prazo vai contra as proteções estabelecidas pelo regime de banco de horas.\n\n**Conclusão:**\n\nA decisão recomendada é favorável aos trabalhadores, considerando a violação do Art. 611-B, IX da CLT pela cláusula específica da CCT que exige a renúncia ao adicional de horas extras sob certas condições.",
+  "tokens_in": 364,
+  "tokens_out": 430,
+  "latency_ms": 7312,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

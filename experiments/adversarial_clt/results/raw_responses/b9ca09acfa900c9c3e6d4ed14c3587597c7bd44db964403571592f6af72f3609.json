@@ -1,0 +1,19 @@
+{
+  "sha256": "b9ca09acfa900c9c3e6d4ed14c3587597c7bd44db964403571592f6af72f3609",
+  "braco": "B1",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-011",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-27T22:29:44Z",
+  "prompt_sha": "0bb468a82e3806412b782c7a6eb8b917f49bedfb81b3d537900aa9fbdba761b1",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos legais aplicáveis e sua interpretação no caso concreto**  \nA cláusula que renuncia ao direito ao adicional de horas extras, caso o banco de horas não seja compensado no prazo, **viola o art. 611-B, IX, da CLT**, que estabelece limites e condições para a utilização do banco de horas. Adicionalmente, **viola o princípio da irrenunciabilidade dos direitos trabalhistas**, consagrado no art. 7º, XV, da Constituição Federal (CF/88) e no art. 59 da CLT, que prevê a obrigação de pagamento de horas extras.  \n\n- **Art. 611-B, IX, CLT**: Estabelece que o banco de horas só pode ser compensado dentro do prazo de 12 meses, sob pena de perda do direito à compensação. No entanto, **não permite a renúncia ao pagamento de horas extras** como compensação, pois o artigo limita a compensação ao prazo, mas **não exclui a obrigação de remuneração por horas trabalhadas**.  \n- **Art. 59, CLT**: Define que horas extras devem ser remuneradas com adicional de 50%, independentemente de compensação no banco de horas.  \n- **Art. 7º, XV, CF/88**: Garante o direito à remuneração justa e equitativa, que **não pode ser renunciado por convenção coletiva**.  \n- **Súmula 112 do TST**: \"É nula a cláusula de convenção coletiva que limita ou exclui o pagamento de horas extras, por violação ao art. 59 da CLT e ao art. 7º, XV, da CF/88.\"  \n\nNo caso concreto, a cláusula que exige a renúncia ao adicional de horas extras **viola diretamente o art. 59 da CLT**, pois **não pode haver compensação no banco de horas sem o pagamento do adicional**. O banco de horas é um mecanismo de flexibilização de jornada, mas **não substitui a obrigação de remuneração por horas extras**.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA cláusula da CCT que renuncia ao adicional de horas extras **é nula**, por violação ao art. 59 da CLT e ao art. 7º, XV, da CF/88. Os trabalhadores têm direito ao pagamento do adicional de horas extras, independentemente da compensação no banco de horas.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 59, CLT**: \"As horas extras devem ser remuneradas com adicional de 50% sobre a remuneração da hora normal, independentemente de compensação no banco de horas.\"  \n- **Art. 611-B, IX, CLT**: \"O banco de horas só pode ser compensado dentro do prazo de 12 meses, sob pena de perda do direito à compensação. **Não pode haver renúncia ao pagamento de horas extras** como compensação.\"  \n- **Art. 7º, XV, CF/88**: \"É vedado o trabalho em condições que prejudiquem a saúde ou a integridade física do trabalhador. **O direito à remuneração justa e equitativa é irrenunciável**.\"  \n- **Súmula 112 do TST**: \"É nula a cláusula de convenção coletiva que limita ou exclui o pagamento de horas extras, por violação ao art. 59 da CLT e ao art. 7º, XV, da CF/88.\"  \n- **Súmula 322 do TST**: \"É nula a cláusula de convenção coletiva que exige do trabalhador a renúncia a direitos previstos na CLT ou na CF/88.\"  \n\n**Conclusão**: A cláusula é **nula por violação ao direito à remuneração justa e equitativa**, e os trabalhadores têm direito ao pagamento do adicional de horas extras, independentemente da compensação no banco de horas.",
+  "tokens_in": 315,
+  "tokens_out": 1492,
+  "latency_ms": 137937,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

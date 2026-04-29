@@ -1,0 +1,19 @@
+{
+  "sha256": "322a1724ee7738501bca77d033545d582e6b506fc432947707afdad622046c69",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T07:01:27Z",
+  "prompt_sha": "6f04adbac1a2e32ad108805b991891a0bae030241b20bd361b5b3a03344d2d08",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve um recurso de revista sobre banco de horas bancário, onde o acórdão do TST analisou a aplicação da CCT (Convenção Coletiva de Trabalho) bancária e sua compatibilidade com o Tema 1046/STF. A análise realizada pelo TST identificou que a CCT em questão preenche os requisitos do mencionado tema, o que levou à conclusão pela validade do banco de horas.\n\n**DISPOSITIVOS LEGAIS APLICÁVIEIS E SUA INTERPRETAÇÃO NO CASO CONCRETO**\n\n- **Tema 1046/STF**: Este tema é fundamental para a análise. O Tema 1046/STF estabelece que acordos e convenções coletivas de trabalho que estipulem exclusivamente vantagens ou supressões de direitos, desde que tenham por premissa a compensação estabelecida pelo princípio da adequação setorial negociada, são constitucionais. Isso significa que, se um acordo ou convenção coletiva for negociado com base na realidade econômica específica do setor e não violar direitos fundamentais dos trabalhadores, é considerado válido.\n\n- **CLT (Consolidação das Leis do Trabalho)**: Embora o cenário não mencione especificamente dispositivos da CLT, a validade de acordos coletivos está prevista na Lei 5.811/1972, que regulamenta as convenções coletivas e os acordos coletivos de trabalho.\n\n- **Súmulas do TST**: Embora não mencionadas explicitamente no cenário, súmulas do TST podem ter sido aplicadas para interpretar a CLT e os princípios constitucionais aplicáveis ao caso. Súmulas como as que tratam da validade de acordos coletivos, da autonomia coletiva, etc., poderiam ser relevantes.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é a de **VALIDAR O BANCO DE HORAS** em conformidade com a CCT bancária analisada. Isso se baseia na interpretação do Tema 1046/STF, que considera válidos acordos coletivos que estipulem exclusivamente vantagens ou supressões de direitos desde que tenham por premissa a compensação estabelecida pelo princípio da adequação setorial negociada.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n- **Tema 1046/STF**: Este é o dispositivo central para a análise. O Tema 1046/STF (ARE 1.121.633) estabelece os critérios para a validade de acordos coletivos que estipulem vantagens ou supressões de direitos.\n\n- **CLT, artigo 611-A**: Este dispositivo da CLT trata sobre as convenções coletivas e acordos coletivos de trabalho, regulamentados pela Lei 5.811/1972.\n\n- **Súmulas do TST (não especificadas no cenário)**: Súmulas que tratam da validade dos acordos coletivos e da autonomia coletiva poderiam ser aplicadas para interpretar a CLT e os princípios constitucionais.\n\n**CONCLUSÃO**\n\nA decisão de validar o banco de horas, em conformidade com a CCT bancária analisada, está fundamentada no Tema 1046/STF. Isso significa que, desde que a CCT tenha sido negociada com base na realidade econômica específica do setor e não violar direitos fundamentais dos trabalhadores, é considerado válido.",
+  "tokens_in": 348,
+  "tokens_out": 844,
+  "latency_ms": 26436,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

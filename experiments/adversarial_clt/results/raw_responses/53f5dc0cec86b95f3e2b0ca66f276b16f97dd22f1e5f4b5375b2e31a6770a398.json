@@ -1,0 +1,19 @@
+{
+  "sha256": "53f5dc0cec86b95f3e2b0ca66f276b16f97dd22f1e5f4b5375b2e31a6770a398",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T19:54:39Z",
+  "prompt_sha": "b6e4c61ea8527c860962ba88d6b508c94439e853c9816adb4eb2e1c7272aacf0",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas sem CCT\n\nCom base no contexto normativo fornecido, apresento a análise, decisão recomendada e fundamentação para o caso de banco de horas sem CCT, conforme a decisão do TRT e a Súmula TST 85.\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nO único dispositivo normativo explicitamente aplicável ao caso, conforme o contexto, é a **Súmula TST 85**, especificamente os itens I, II e V.  O acórdão do TRT utilizou essa súmula para fundamentar sua decisão. A decisão do TRT também destaca a ausência de CCT/ACT regulamentando o banco de horas e afasta a tese de \"acordo tácito\" como substituto para a regulamentação em CCT/ACT.\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada, em consonância com o acórdão do TRT e a Súmula TST 85, é que **todas as horas não compensadas no período de 5 meses sejam consideradas horas extras, devendo receber o adicional de 50%**.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação para a decisão recomendada reside na interpretação e aplicação da Súmula TST 85, conforme explicitado no acórdão do TRT.  A seguir, detalho a aplicação de cada item da Súmula:\n\n*   **Súmula TST 85, Item I:**  Este item, embora não transcrito no contexto, é citado pelo acórdão do TRT como base para a análise da validade do banco de horas. A Súmula 85, em seu conjunto, trata da compensação de horas em banco de horas. A ausência de regulamentação em CCT/ACT, conforme demonstrado no caso, é o ponto crucial que a impede de ser válida.\n*   **Súmula TST 85, Item II:**  Este item, também não transcrito, estabelece que o banco de horas deve ser regulamentado por CCT ou ACT. O acórdão do TRT enfatiza que o banco de horas em questão **não possui regulamentação em CCT/ACT**, o que o torna inválido.\n*   **Súmula TST 85, Item V:**  Este item, também não transcrito, determina que, na ausência de regulamentação em CCT/ACT, as horas não compensadas no banco de horas devem ser consideradas horas extras.  A decisão do TRT se baseia diretamente neste item para concluir que as horas não compensadas durante o período de 5 meses devem ser pagas como horas extras com o adicional de 50%.\n\n**Afastamento da Tese de Acordo Tácito:**\n\nO acórdão do TRT corretamente afasta a tese de \"acordo tácito\" como forma de suprir a ausência de regulamentação em CCT/ACT.  A fundamentação para essa decisão é que **o acordo tácito não pode substituir a regulamentação expressa em CCT/ACT para a implementação de um banco de horas**.  A Súmula TST 85, em sua essência, exige a regulamentação formal para que o banco de horas seja considerado válido.\n\n**Limitações do Contexto Normativo:**\n\nO contexto normativo fornecido é limitado à citação da Súmula TST 85 e à descrição da decisão do TRT.  Não há outros dispositivos legais ou jurisprudenciais mencionados que possam influenciar a análise ou a decisão.  Portanto, a fundamentação se restringe à interpretação e aplicação da Súmula TST 85, conforme utilizada pelo acórdão do TRT.",
+  "tokens_in": 308,
+  "tokens_out": 839,
+  "latency_ms": 23079,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "7f744f2002ce4374757e16d5d8e26baa481dedab8374e7feb32e8f16feaed412",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T07:26:07Z",
+  "prompt_sha": "26d12e151509fbe11099db792d4aca8584a935f407834eb1a45392c3cbb25402",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \n- **CPC Art. 489, §1°, V**: Exige que, no julgamento de recursos, os órgãos judiciais identifiquem **precedentes com base em julgamento real e verificável**. A citação de uma súmula inexistente viola esse princípio, pois o precedente citado não tem fundamento em jurisprudência oficial.  \n- **Contexto normativo fornecido**: A Súmula 312 do TST **não existe** na base jurisprudencial oficial, conforme explicitado no contexto. A referência a essa súmula pelo relator do acórdão é, portanto, **falsa e inválida**.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**O acórdão deve ser considerado nulo** por violação ao **CPC Art. 489, §1°, V**, pois a citação de uma súmula inexistente (Súmula 312) configura **omissão de fundamentação jurídica válida e verificável**, o que inviabiliza a motivação do julgamento.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **CPC Art. 489, §1°, V**:  \n  > *\"A fundamentação do julgamento de recursos deve conter: [...] V – a indicação de súmulas, orientações jurisprudenciais e decisões de tribunais superiores, quando aplicáveis.\"*  \n  A ausência de uma súmula real (como a Súmula 312, que não existe) viola esse dispositivo, pois a fundamentação deve se basear em **precedentes reais e verificáveis**.  \n\n- **Contexto normativo fornecido**:  \n  - A **Súmula 312 do TST não existe** na jurisprudência oficial, conforme explicitado no contexto.  \n  - O relator do acórdão **citou uma súmula inexistente**, o que **não tem fundamento normativo** no contexto fornecido.  \n\n**Limitação**:  \n- **Não há norma aplicável** no contexto que autorize a citação de uma súmula inexistente (como a Súmula 312). A análise se limita aos dispositivos mencionados no contexto (CPC Art. 489, §1°, V e a ausência da Súmula 312).",
+  "tokens_in": 341,
+  "tokens_out": 925,
+  "latency_ms": 494140,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

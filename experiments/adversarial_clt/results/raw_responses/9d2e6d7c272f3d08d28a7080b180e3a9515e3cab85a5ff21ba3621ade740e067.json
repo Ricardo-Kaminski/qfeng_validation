@@ -1,0 +1,19 @@
+{
+  "sha256": "9d2e6d7c272f3d08d28a7080b180e3a9515e3cab85a5ff21ba3621ade740e067",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T02:40:19Z",
+  "prompt_sha": "c3729bae48ca01abd6c07208ac7dde170ba2d481ce181e1573f1aa588bdd7ad6",
+  "response_text": "### ANÁLISE\n\n**1. Dispositivos Legais Aplicáveis**\n\n- **CLT (Consolidação das Leis do Trabalho):**\n  - **Artigo 73, § 4º:** Define o adicional noturno como sendo devido ao empregado que prestar serviços durante as horas compreendidas entre vinte e duas e cinco da madrugada.\n  - **Artigo 74, § 1º:** Estabelece que os períodos de descanso semanal remunerados devem ser concedidos em dias consecutivos.\n\n- **Súmula TST 60:**\n  - A Súmula 60 do Tribunal Superior do Trabalho estabelece que o adicional noturno deve ser pago quando houver revezamento de turnos, mesmo que não haja previsão expressa em contrato ou normas internas.\n\n**2. Interpretação no Caso Concreto**\n\nNo caso concreto, um empregado está sob regime 12x36 com períodos noturnos fixos. O regime 12x36 implica que o trabalhador labora por doze horas consecutivas e descansa por trinta e seis horas seguidas. Neste contexto, a presença de turnos noturnos fixos significa que o empregado está regularmente sujeito ao trabalho durante as horas noturnas definidas na CLT.\n\nA Súmula 60 do TST é aplicável aqui porque estabelece que, em regimes de revezamento (mesmo que não haja troca diária de turnos), o adicional noturno deve ser pago. A ratio da súmula é a proteção ao trabalhador que labora durante as horas noturnas, independentemente do regime específico de trabalho.\n\n### DECISÃO RECOMENDADA\n\nA decisão recomendada é conceder o pagamento do adicional noturno ao empregado sob o regime 12x36 com períodos noturnos fixos. Isso se deve à aplicação da Súmula TST 60, que reconhece a necessidade de remuneração adicional para trabalhos realizados durante as horas noturnas em regimes de revezamento.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n**1. Artigo 73, § 4º da CLT:**\n   - Define o período noturno e estabelece a obrigatoriedade do adicional para quem trabalha nesse horário.\n\n**2. Súmula TST 60:**\n   - Estabelece que o adicional noturno deve ser pago em regimes de revezamento, mesmo sem previsão contratual específica.\n\n**3. Precedentes Constitucionais e Doutrinários:**\n   - A Constituição Federal de 1988 (Artigo 7º, inciso XXI) assegura o adicional noturno como direito do trabalhador.\n   - Doutrina trabalhista reforça a interpretação ampla da proteção ao trabalho noturno, visando garantir condições adequadas de saúde e bem-estar para os trabalhadores.\n\nA aplicação desses dispositivos legais e jurisprudenciais demonstra que o empregado em regime 12x36 com períodos noturnos fixos está efetivamente sujeito ao trabalho durante as horas protegidas pela legislação, justificando a concessão do adicional noturno.",
+  "tokens_in": 334,
+  "tokens_out": 766,
+  "latency_ms": 43984,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

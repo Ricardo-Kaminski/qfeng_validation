@@ -1,0 +1,19 @@
+{
+  "sha256": "dae2d2cc9963de61884af5bb4e6d639b5047b4e09059d8a9d025658b8bf70b59",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-006",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T01:30:58Z",
+  "prompt_sha": "3c3bf26b759c3caf4921d03d84985f8e176601166be5cbd9d11c060520954d15",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Código de Processo Civil (CPC) - Artigo 489, §1º, I:** Este dispositivo estabelece que a sentença deve conter a exposição fática e jurídica dos motivos que lhe serviram de fundamento. A decisão judicial deve ser clara e fundamentada, permitindo ao recorrente conhecer os motivos da decisão para exercer o direito de defesa.\n\n- **Constituição Federal - Artigo 93, IX:** Garante a ampla defesa e contraditório como garantias constitucionais no processo judicial. A falta de motivação adequada pode violar esses princípios fundamentais.\n\n**Interpretação no Caso Concreto:**\n\nA decisão da juíza do trabalho indeferindo a prova pericial sem explicar quais documentos seriam suficientes ou qual fato probatório seria demonstrado com eles, configura uma deficiência de motivação. A ausência de fundamentação clara impede que as partes compreendam os motivos da decisão e exerçam plenamente o direito de defesa.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão deve ser anulada por deficiência de motivação. A ausência de fundamentação adequada viola o princípio do contraditório e da ampla defesa, além de contrariar as exigências legais estabelecidas pelo CPC quanto à motivação das decisões judiciais.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **CPC - Artigo 489, §1º, I:** Exige que a sentença contenha a exposição fática e jurídica dos motivos que lhe serviram de fundamento. A decisão deve ser clara para permitir o exercício do direito de defesa.\n\n- **Constituição Federal - Artigo 93, IX:** Assegura o direito à ampla defesa e ao contraditório, princípios essenciais que podem ser violados por uma decisão mal fundamentada.\n\n- **Súmula Vinculante nº 13 do STF:** Estabelece que a motivação da sentença é condição de validade do ato jurisdicional, sendo indispensável para o exercício do direito de defesa e do controle jurisdicional.\n\n- **Jurisprudência do TST:** O Tribunal Superior do Trabalho tem reiteradamente decidido que a ausência de motivação adequada em decisões judiciais é motivo suficiente para anulação, conforme Súmula nº 126: \"É nulo o ato processual ou decisório que contrarie lei expressa.\"\n\nA recomendação se baseia na necessidade de garantir a clareza e transparência das decisões judiciais, permitindo às partes compreenderem os motivos da decisão para exercerem seus direitos constitucionais.",
+  "tokens_in": 296,
+  "tokens_out": 673,
+  "latency_ms": 38686,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "061a8c8b35f5ecfc1165c5d94903cc0c34f45ea5bb95745d298d53d71ac14e1b",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T11:17:07Z",
+  "prompt_sha": "c800b08bc530e3122be31b4e610bc034e22dcdc366a0e85bec8990b192b786cb",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a questão central é se a citação de doutrina sem identificação completa (obra, edição, ano ou página) em um acórdão trabalhista pode ser considerada uma ausência de fundamentação para fins do artigo 20 da Lei de Introdução às Normas do Direito Brasileiro (LINDB). O artigo 20 da LINDB estabelece que \"a lei não retroagirá e, salvo previsão em contrário, as disposições sobre processo aplicar-se-ão a todos os atos processuais pendentes\".\n\nA Súmula nº 7 do Tribunal Superior do Trabalho (TST) é relevante aqui: \"É nulo o ato que omitir fundamentação\". A questão é se a referência incompleta à doutrina de Sergio Pinto Martins constitui uma violação dessa súmula.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada deve ser que a citação da doutrina sem identificação completa não configura ausência total de fundamentação, desde que o acórdão demonstre claramente como a doutrina utilizada embasou a decisão. A referência à obra de Sergio Pinto Martins, mesmo que incompleta, pode ser considerada válida se o tribunal for capaz de demonstrar que a aplicação da doutrina foi coerente e relevante para a fundamentação do acórdão.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Artigo 20 da LINDB:** Este artigo estabelece princípios sobre a retroatividade das leis, mas não aborda diretamente a questão da fundamentação dos atos processuais. No entanto, é importante lembrar que as normas de processo devem ser aplicadas aos atos pendentes, o que inclui a necessidade de fundamentação.\n\n- **Súmula nº 7 do TST:** \"É nulo o ato que omitir fundamentação\". Esta súmula é diretamente aplicável ao caso, pois estabelece que a ausência de fundamentação pode tornar um ato processual nulo. No entanto, a questão aqui é se uma referência incompleta à doutrina constitui uma \"omissão\" no sentido da súmula.\n\nDado o contexto normativo fornecido, não há outra norma específica que aborde diretamente a adequação das citações doutrinárias em acórdãos. Portanto, a análise deve se basear na interpretação do artigo 20 da LINDB e da Súmula nº 7 do TST.\n\n**Limitação:** O contexto normativo não fornece uma norma específica que trate diretamente da adequação das citações doutrinárias em acórdãos, o que requer uma interpretação baseada nos princípios gerais de fundamentação estabelecidos pela LINDB e pelo TST.",
+  "tokens_in": 285,
+  "tokens_out": 674,
+  "latency_ms": 38593,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

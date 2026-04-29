@@ -1,0 +1,19 @@
+{
+  "sha256": "a71177ede20c1d71cc38a73c915d3b0d6268acc95cdc9e2c9bf5484b09ea00d0",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T20:28:19Z",
+  "prompt_sha": "78faf043ffafa13b62c94bafbb4c2e0135abf258fd4b2cf3a75e7132cf2b38ec",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a celebração de uma Convenção Coletiva de Trabalho (CCT) entre uma empresa e um sindicato que estabelece regras específicas sobre banco de horas, acúmulo máximo de horas por mês, entrega de extratos mensais e conversão de saldo não compensado em adicional. O caso se desenvolve após a implementação dessas regras e a compensação das horas trabalhadas.\n\n**DISPOSITIVOS APLICÁVEIS**\n\n1. **CCT**: A celebração da CCT é regida pelas leis trabalhistas brasileiras, que permitem a negociação coletiva entre empregadores e sindicatos. O artigo 611-A da CLT (Consolidação das Leis do Trabalho) estabelece o regime jurídico das convenções coletivas de trabalho.\n\n2. **Banco de Horas**: A CCT estabeleceu um banco de horas com acúmulo máximo de 60h mensais, que é uma cláusula específica da negociação coletiva. O artigo 59 da CLT permite a compensação de jornada de trabalho, mas as condições específicas são negociadas entre as partes.\n\n3. **Extrato Mensal**: A entrega de extratos mensais é uma obrigação estabelecida pela CCT e está relacionada à transparência na gestão do banco de horas. Não há dispositivo específico da CLT que exija a entrega de extratos mensais, mas isso pode ser considerado uma cláusula acessória da convenção coletiva.\n\n4. **Conversão em Adicional**: A conversão do saldo não compensado em adicional de 50% é outra cláusula específica da CCT e está relacionada à remuneração das horas trabalhadas que não puderam ser compensadas. O artigo 59 da CLT permite a compensação, mas as condições de conversão em adicional dependem da negociação coletiva.\n\n**DECISÃO RECOMENDADA**\n\nDado o cumprimento das cláusulas estabelecidas na CCT e a falta de contestações por parte dos trabalhadores ou do sindicato, recomenda-se que as horas trabalhadas sejam consideradas compensadas, desde que todas as condições da convenção coletiva tenham sido atendidas. A conversão em adicional também deve ser aplicada conforme estabelecido na CCT.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n- Artigo 611-A da CLT: Regime jurídico das convenções coletivas de trabalho.\n- Artigo 59 da CLT: Compensação de jornada de trabalho e possibilidade de conversão em adicional.\n- Não há súmulas específicas mencionadas no contexto, mas a interpretação dos dispositivos legais acima está fundamentada na aplicação das leis trabalhistas brasileiras.\n\n**LIMITAÇÃO**\n\nO contexto não contém norma aplicável para casos de contestações ou questionamentos sobre a validade da CCT após sua celebração e registro. Em tais situações, a análise deve considerar as possibilidades legais de revisão ou anulação das convenções coletivas, que geralmente dependem de motivos específicos como ilegalidade ou violação de direitos trabalhistas fundamentais.",
+  "tokens_in": 301,
+  "tokens_out": 751,
+  "latency_ms": 12567,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

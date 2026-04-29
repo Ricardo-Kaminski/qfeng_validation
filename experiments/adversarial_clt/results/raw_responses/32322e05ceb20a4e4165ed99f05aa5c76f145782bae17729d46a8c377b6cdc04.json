@@ -1,0 +1,26 @@
+{
+  "sha256": "32322e05ceb20a4e4165ed99f05aa5c76f145782bae17729d46a8c377b6cdc04",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:51:19Z",
+  "prompt_sha": "ae3ccc45fd00998e54e39da4688a558e454f41be8d8b72c745f2b457cbbefe7d",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nA decisão do sistema Q-FENG classifica a omissão de identificação completa da obra citada (autor, edição, ano e página) como **violação** aos princípios constitucionais e processuais do direito trabalhista brasileiro. Isso ocorre porque:  \n- **Obrigação de fundamentar a decisão com *ratio decidendi* identificada** (predicado `obligation_to_ground_decision_in_identified_ratio_decidendi`) exige que a jurisprudência ou doutrina citada seja **precisamente localizável** para garantir transparência e possibilidade de revisão judicial.  \n- **Proibição de citações genéricas** (predicado `prohibition_of_generic_precedent_citation`) impede que o acórdão se baseie em referências ambíguas, como \"Martins, Sergio Pinto\", sem especificar a obra, já que isso **nega ao recorrente o direito de contestar** a fundamentação com base em uma obra específica.  \n- **Obrigação de abordar todos os argumentos jurídicos** (predicado `obligation_to_address_all_legal_arguments`) exige que o juiz analise a alegação do recorrente sobre a falta de identificação completa, não a ignorando.  \n- **Obrigação constitucional de expor razões** (predicado `constitutional_obligation_to_state_reasons_for_decisions`) é violada ao omitir informações essenciais para a compreensão e revisão da decisão.  \n- **Direito de acesso à justiça** (predicado `right_of_access_to_judicial_review`) é comprometido, pois a ausência de citação específica **impede a efetividade do recurso** e a verificação da legalidade da decisão.  \n\nO vetor ψ_S ([3.1416]) sugere uma **incerteza matemática** na interpretação do art. 20 do LINDB, mas a lógica simbólica prioriza a **obrigação de transparência** como princípio soberano, levando à conclusão de violação.\n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **`obligation_to_state_practical_consequences_of_decision`**: O juiz deve explicar **quais são as consequências práticas da decisão**, como a aplicação de horas extras, para que as partes entendam o impacto jurídico.  \n- **`prohibition_of_generic_precedent_citation`**: Proíbe a citação de doutrina ou jurisprudência sem **identificação completa** (autor, obra, edição, ano, página), evitando ambiguidades que prejudiquem a revisão judicial.  \n- **`obligation_to_address_all_legal_arguments`**: O juiz deve **analisar todos os argumentos** apresentados, incluindo a alegação de que a citação genérica é ilegal.  \n- **`obligation_to_ground_decision_in_identified_ratio_decidendi`**: A decisão deve ser fundamentada em **razões específicas e identificáveis**, como uma obra específica de Martins, para garantir a legitimidade da jurisprudência.  \n- **`constitutional_obligation_to_state_reasons_for_decisions`**: A Constituição exige que as decisões sejam **explicadas com clareza**, permitindo que as partes compreendam e contestem os fundamentos.  \n- **`right_of_access_to_judicial_review`**: Garante que qualquer parte possa **revisar a decisão** em instâncias superiores, o que é impossível sem a identificação completa da obra citada.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO juiz **não explicou com clareza** por que decidiu como decidiu. Ele citou um autor (Sergio Pinto Martins) para justificar a aplicação de horas extras, mas **não disse qual livro, edição ou página** ele usou. Isso é um problema porque:  \n- **Você, como trabalhador**, não pode saber se o juiz usou uma obra correta ou errada.  \n- **Você não pode contestar** a decisão, pois não tem como encontrar o livro citado.  \n- A lei exige que **todo argumento seja explicado com detalhes**, para que a justiça seja justa e transparente.  \n\nPor isso, o sistema Q-FENG concluiu que houve **violação da lei**, e a decisão do juiz deve ser revisada.",
+  "tokens_in": 512,
+  "tokens_out": 1484,
+  "latency_ms": 47078,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

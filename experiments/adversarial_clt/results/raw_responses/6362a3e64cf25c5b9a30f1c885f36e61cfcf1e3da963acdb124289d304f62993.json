@@ -1,0 +1,19 @@
+{
+  "sha256": "6362a3e64cf25c5b9a30f1c885f36e61cfcf1e3da963acdb124289d304f62993",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T11:45:32Z",
+  "prompt_sha": "4cdcd4f77bd0a861ddff46ab4f73790ee608c80eaea3a8b6b5401e9be2942d4c",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a empresa de tecnologia firmou um Acordo Coletivo de Trabalho (ACT) com o sindicato dos trabalhadores em informática para estabelecer um banco de horas. Os principais aspectos do acordo incluem:\n\n- Compensação mensal limitada a 40 horas.\n- Prazo máximo de acúmulo de 5 meses.\n- Registro adequado da ACT e fornecimento mensal dos extratos do banco de horas aos trabalhadores.\n- Limitação de horas extras a até 2 horas por dia.\n\nOs dispositivos normativos aplicáveis ao caso incluem:\n\n- **Consolidação das Leis do Trabalho (CLT):** A CLT permite a compensação de jornada mediante acordo ou convenção coletiva, desde que observadas as limitações legais.\n  \n  - **Art. 59 da CLT:** Permite a compensação de horas extras em até duas horas diárias e estabelece que o saldo do banco de horas deve ser zerado no prazo máximo de seis meses.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é manter o acordo conforme está, pois ele está dentro das normas legais vigentes. O ACT foi registrado corretamente e observa as limitações estabelecidas pela CLT em relação ao banco de horas.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Art. 59 da CLT:** Este artigo permite a compensação das horas extras mediante acordo ou convenção coletiva, desde que o saldo do banco de horas seja zerado no prazo máximo de seis meses e as horas extras não excedam duas horas diárias.\n\nO acordo estabelece um prazo de 5 meses para compensação, que está dentro do limite legal de 6 meses. Além disso, a limitação de até 2 horas por dia de trabalho extraordinário também está em conformidade com o artigo citado.\n\nPortanto, o ACT é válido e deve ser mantido conforme estabelecido, pois cumpre integralmente as exigências legais previstas na CLT.",
+  "tokens_in": 299,
+  "tokens_out": 476,
+  "latency_ms": 28937,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

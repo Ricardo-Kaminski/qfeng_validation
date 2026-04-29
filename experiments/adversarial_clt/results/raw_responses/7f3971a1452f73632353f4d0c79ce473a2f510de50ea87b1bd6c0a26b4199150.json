@@ -1,0 +1,19 @@
+{
+  "sha256": "7f3971a1452f73632353f4d0c79ce473a2f510de50ea87b1bd6c0a26b4199150",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T12:13:54Z",
+  "prompt_sha": "b6e4c61ea8527c860962ba88d6b508c94439e853c9816adb4eb2e1c7272aacf0",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a decisão do Tribunal Regional do Trabalho (TRT) se baseia na Súmula 85 do Tribunal Superior do Trabalho (TST), que trata de questões relacionadas ao banco de horas em ausência de Convenção Coletiva de Trabalho (CCT) ou Acordo Coletivo de Trabalho (ACT). A Súmula 85 possui os seguintes itens relevantes:\n\n- **Item I:** O banco de horas só pode ser instituído por convenção coletiva ou acordo coletivo.\n- **Item II:** As horas excedentes do banco, não compensadas no período previsto na CCT/ACT, são consideradas como extraordinárias.\n- **Item V:** Não há possibilidade de estabelecer banco de horas sem a existência de CCT/ACT.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada pelo TRT é correta e deve ser mantida. O banco de horas não pode ser instituído sem uma CCT ou ACT, conforme estipulado pela Súmula 85, itens I e V do TST. Portanto, todas as horas excedentes que não foram compensadas dentro do prazo devem ser consideradas como horas extraordinárias, com o devido adicional de 50%, conforme previsto no item II da mesma súmula.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Súmula 85, I e V do TST:** Estabelecem que a instituição do banco de horas depende exclusivamente de uma CCT ou ACT. A ausência desses instrumentos coletivos torna qualquer tentativa de implementar um banco de horas inválida.\n\n- **Súmula 85, II do TST:** Determina que as horas excedentes não compensadas no prazo estabelecido pela CCT/ACT devem ser consideradas extraordinárias e remuneradas com adicional de 50%.\n\nA empresa alegou um \"acordo tácito\" como substituto da ausência de uma CCT ou ACT, mas tal argumento é rejeitado pelo entendimento consolidado na Súmula 85 do TST. Portanto, a decisão de considerar todas as horas não compensadas como extras com adicional de 50% está firmemente fundamentada nas normas citadas.\n\nSe o contexto contivesse outras normas aplicáveis, elas seriam analisadas aqui. No entanto, neste caso, a Súmula 85 do TST é suficiente para fundamentar a decisão tomada pelo TRT.",
+  "tokens_in": 331,
+  "tokens_out": 581,
+  "latency_ms": 33235,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

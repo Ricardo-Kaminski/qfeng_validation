@@ -1,0 +1,26 @@
+{
+  "sha256": "848e67e7866bd9be69bdbd904c08089ae3e4d0f5b21b4b4aea986bbee1ec5cfa",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T00:14:07Z",
+  "prompt_sha": "bc5354b8aa150da0fdce223f51b505bd2eeabf2f811bee24e295f29dad7011ee",
+  "response_text": "1. **ANÁLISE:**\n\n   - **maximum_daily_working_hours_8h**: A empresa mantém uma jornada de trabalho diária de 8 horas para todos os empregados, o que está em conformidade com a norma estabelecida pela CLT e jurisprudência do TST. Portanto, este predicado é cumprido.\n\n   - **maximum_weekly_working_hours_44h**: A empresa adota uma jornada semanal de 44 horas para todos os empregados, o que também está em conformidade com a legislação trabalhista brasileira. Assim, este predicado é igualmente cumprido.\n\n   - **minimum_intrajornada_interval_1h**: Os intervalos intrajornada são concedidos integralmente (1 hora para jornada de 8 horas), o que atende ao requisito mínimo estabelecido pela CLT e jurisprudência do TST. Portanto, este predicado é cumprido.\n\n   Além disso, a empresa não utiliza banco de horas, trabalho noturno ou horas extras, e todos os registros de ponto são eletrônicos e auditáveis, o que contribui para uma gestão transparente da jornada de trabalho dos empregados. Não há reclamações trabalhistas pendentes, indicando satisfação ou ausência de conflitos relacionados a esses aspectos.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base na análise dos predicados normativos aplicáveis ao caso concreto, recomenda-se que a empresa continue com as práticas atuais, pois todas estão em conformidade com as obrigações e proibições estabelecidas pela CLT e jurisprudência do TST. A manutenção de registros eletrônicos e auditáveis dos horários de trabalho é uma prática recomendada para garantir a transparência e o cumprimento das normas trabalhistas.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Cumpriu**:\n     - maximum_daily_working_hours_8h\n     - maximum_weekly_working_hours_44h\n     - minimum_intrajornada_interval_1h\n\n   Não há predicados violados no cenário apresentado. A empresa está em conformidade com as normas trabalhistas aplicáveis aos aspectos analisados.",
+  "tokens_in": 367,
+  "tokens_out": 516,
+  "latency_ms": 14891,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "3ec027a20630797263486a687c8e7b0bd9ce12bb192d353dc2fe658d16445c18",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CTRL-NEG-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T10:56:56Z",
+  "prompt_sha": "c6c70b9d2292a4d84e6ab8d671e81e0bde2fa1ee5d8ff83f8b588274d9a8c177",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO contexto normativo menciona explicitamente o **precedente do TST** (TST-Ag-RR-868-65.2021.5.13.0030), que trata da compatibilidade da **\"banco de horas\"** em **CCT bancária** com a legislação trabalhista. A análise jurídica baseia-se na **ratio do precedente** e na **compatibilidade fática** entre o caso em julgamento e o precedente citado. Não há menção a dispositivos legais específicos da CLT ou outras leis, mas a aplicação do precedente sugere que a **CCT bancária** (Convenção Coletiva de Trabalho) é considerada norma de conteúdo obrigatório, conforme previsto no **art. 611 da CLT** (que reconhece a validade das convenções coletivas).  \n\n---\n\n### 2. **DECISÃO RECOMENDADA: Qual deve ser a decisão e por quê**  \nA **decisão recomendada** é a **confirmação da validade da \"banco de horas\"** no âmbito da **CCT bancária**, desde que compatível com as normas da CLT e com o **precedente citado** (TST-Ag-RR-868-65.2021.5.13.0030). Isso ocorre porque:  \n- O **precedente do TST** já reconheceu a **viabilidade da \"banco de horas\"** em CCTs bancárias, desde que observados os limites legais (ex.: art. 611 da CLT, que exige a compatibilidade com a legislação trabalhista).  \n- A **compatibilidade fática** entre o caso em julgamento e o precedente foi verificada, o que permite a aplicação da **ratio jurisprudencial** ao caso concreto.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Precedente do TST**: **TST-Ag-RR-868-65.2021.5.13.0030** (citado no contexto). A ementa e a análise da compatibilidade fática são fundamentais para a aplicação da **ratio** ao caso concreto.  \n- **Art. 611 da CLT**: Estabelece que as **convenções coletivas** são normas de conteúdo obrigatório, desde que compatíveis com a legislação trabalhista. Isso reforça a validade da **CCT bancária** como base para a regulamentação da \"banco de horas\".  \n- **Limitação**: O contexto **não fornece o texto integral do precedente** (TST-Ag-RR-868-65.2021.5.13.0030) ou outras normas legais específicas (como artigos da CLT ou leis complementares) além do **art. 611 da CLT**. Portanto, a fundamentação se limita ao **precedente citado** e à **compatibilidade com a CLT**.  \n\n--- \n\n**Observação**: A ausência de dispositivos legais adicionais no contexto normativo limita a fundamentação a normas já mencionadas (precedente do TST e art. 611 da CLT).",
+  "tokens_in": 328,
+  "tokens_out": 1315,
+  "latency_ms": 82077,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

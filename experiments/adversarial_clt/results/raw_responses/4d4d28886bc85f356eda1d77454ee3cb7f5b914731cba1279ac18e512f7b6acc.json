@@ -1,0 +1,19 @@
+{
+  "sha256": "4d4d28886bc85f356eda1d77454ee3cb7f5b914731cba1279ac18e512f7b6acc",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-007",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T11:41:50Z",
+  "prompt_sha": "a6c926f14b8205272b7c99fb6fca070bf2bd98d10c2800c8da39040db5514492",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, temos um empregado que acumulou 400 horas em banco de horas conforme previsto na Convenção Coletiva de Trabalho (CCT) válida, com prazo de compensação de 12 meses. No entanto, a empresa não disponibilizou as folgas compensatórias ao longo do período e também não pagou o saldo remanescente após o término desse prazo. A CCT em questão não previa um mecanismo específico para pagamento do saldo não compensado.\n\nOs dispositivos normativos aplicáveis a este cenário incluem:\n\n- **Artigo 59 da CLT (Consolidação das Leis do Trabalho):** Este artigo trata sobre o banco de horas e estabelece que as horas extras realizadas podem ser compensadas com folgas, desde que previsto em convenção ou acordo coletivo. No entanto, se não houver compensação no prazo acordado, há a necessidade de pagamento das horas excedentes.\n\n- **Súmula 331 do TST (Tribunal Superior do Trabalho):** Esta súmula estabelece que o saldo remanescente de banco de horas deve ser pago ao final do prazo acordado, caso não tenha sido compensado com folgas.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que a empresa pague ao empregado o valor correspondente às 400 horas remanescentes no banco de horas. Isso se deve ao fato de que, conforme estabelecido pela legislação e jurisprudência do TST, quando não há compensação das horas extras acumuladas dentro do prazo acordado, estas devem ser pagas.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Artigo 59 da CLT:** Este artigo permite a compensação de horas extras por meio de banco de horas, desde que previsto em convenção ou acordo coletivo. No entanto, se não houver compensação no prazo estabelecido, o pagamento das horas excedentes é obrigatório.\n\n- **Súmula 331 do TST:** Esta súmula reforça a necessidade de pagamento do saldo remanescente de banco de horas ao final do prazo acordado, caso não tenha sido compensado com folgas.\n\nPortanto, mesmo que a CCT não preveja um mecanismo específico para o pagamento em caso de não-compensação, a legislação trabalhista e a jurisprudência do TST claramente estabelecem que o saldo deve ser pago.",
+  "tokens_in": 283,
+  "tokens_out": 591,
+  "latency_ms": 33812,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

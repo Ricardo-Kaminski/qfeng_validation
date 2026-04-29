@@ -1,0 +1,19 @@
+{
+  "sha256": "8aec889dc96d19be7ec2b1a14567563e19f21e9b65a0744c45b8ec6b3a4dcd90",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T07:16:12Z",
+  "prompt_sha": "b4b14594da3c7a164c292ae6e458e16f7609ea973ab3bf9bdf1ce0baf6924978",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a celebração de um Convenio Coletivo de Trabalho (CCT) entre uma empresa e o sindicato, com cláusulas específicas relacionadas ao banco de horas. Para analisar essa situação, é necessário identificar os dispositivos legais aplicáveis e interpretá-los no contexto do caso concreto.\n\n**Dispositivos Legais Aplicáveis**\n\n1. **CLT - Artigo 59**: Este artigo trata sobre a possibilidade de estabelecer bancos de horas, permitindo que as horas trabalhadas em excesso sejam compensadas em períodos futuros.\n2. **CLT - Artigo 59, § 2º**: Especifica que o banco de horas deve ser previamente comunicado ao empregador e ao sindicato, quando houver um acordo coletivo.\n3. **CLT - Artigo 59, § 4º**: Estabelece que as horas trabalhadas em excesso podem ser compensadas em folgas previamente comunicadas.\n4. **CLT - Artigo 611-A**: Regula a compensação de jornada e o banco de horas, incluindo a possibilidade de conversão do saldo não compensado em adicional de salário.\n\n**Interpretação no Caso Concreto**\n\nNo cenário apresentado, a empresa e o sindicato celebraram um CCT com cláusulas específicas sobre banco de horas. Após 5 meses, todas as horas trabalhadas foram compensadas em folgas previamente comunicadas. A análise deve considerar se essas cláusulas violam ou atendem aos requisitos legais estabelecidos pela CLT.\n\n**DECISÃO RECOMENDADA**\n\nConsiderando que o CCT foi celebrado e registrado na SRTE, todos os trabalhadores receberam cópias da convenção, e não há contestação sindical ou individual, a decisão recomendada é:\n\n- **Validade do Banco de Horas**: O banco de horas estabelecido no CCT atende aos requisitos legais da CLT (Artigo 59), desde que previamente comunicado ao empregador e ao sindicato.\n- **Compensação das Horas Trabalhadas**: A compensação das horas trabalhadas em excesso em folgas previamente comunicadas está de acordo com o § 4º do Artigo 59 da CLT.\n- **Conversão do Saldo Não Compensado**: O CCT estabelece a conversão do saldo não compensado em adicional de salário, o que é permitido pelo Artigo 611-A da CLT.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\nA decisão está fundamentada nos seguintes dispositivos legais e jurisprudência:\n\n- **CLT - Artigos 59 e 611-A**: Regulamentam a compensação de jornada, banco de horas e conversão do saldo não compensado em adicional.\n- **Súmula 379 do TST**: Estabelece que o acordo coletivo sobre banco de horas é válido desde que previamente comunicado ao empregador e ao sindicato.\n- **Precedentes Constitucionais**: A decisão também está respaldada por precedentes constitucionais que garantem a autonomia das partes para celebrar acordos coletivos, desde que observados os requisitos legais.\n\nEm resumo, considerando a celebração do CCT, sua registro na SRTE, e a ausência de contestação sindical ou individual, a decisão recomendada é a validade do banco de horas estabelecido no acordo coletivo, bem como a compensação das horas trabalhadas em excesso e a conversão do saldo não compensado em adicional de salário.",
+  "tokens_in": 310,
+  "tokens_out": 838,
+  "latency_ms": 23703,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

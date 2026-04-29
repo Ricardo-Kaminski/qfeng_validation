@@ -1,0 +1,19 @@
+{
+  "sha256": "e5fddf63395dfe9d089dd2bdead23467a2c3ef12b4af242902154c7a92079dbb",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-006",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T02:23:09Z",
+  "prompt_sha": "e1ac43971a8b5d95547efa7e3c6e805bf6c35dd2759d76006fabd7a20e142a85",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Convenção Coletiva de Trabalho (CCT):** A CCT do setor de varejo prevê um banco de horas com compensação em até 12 meses, o que é permitido pela CLT desde que respeite os limites estabelecidos.\n\n- **Artigo 59 da CLT:** Permite a compensação de jornada mediante acordo escrito entre empregador e empregado, desde que não exceda duas horas diárias ou quatro semanais. A CCT prevê um banco de horas com compensação em até 12 meses, o que está dentro dos limites legais.\n\n- **Artigo 61 da CLT:** Estabelece que a compensação deve ser feita mediante folga no mesmo mês ou nos dois meses subsequentes. No entanto, a CCT estendeu esse prazo para até 12 meses, o que é permitido desde que haja acordo coletivo.\n\n- **Artigo 62 da CLT:** Regula a compensação de horas extras por meio de banco de horas, permitindo que as horas excedentes sejam compensadas em folgas ou pagas com adicional, conforme previsto na CCT.\n\n**Interpretação no Caso Concreto:**\n\n- A empresa e os trabalhadores seguiram o acordo estabelecido na CCT, oferecendo folga compensatória nas semanas de baixo movimento. Todas as compensações ocorreram dentro do prazo previsto (12 meses), com extrato mensal entregue aos trabalhadores.\n\n- A jornada extra nunca superou 2 horas diárias, respeitando o limite estabelecido pelo artigo 59 da CLT.\n\n- Como a cláusula que previa pagamento de saldo não compensado como hora extra com adicional de 50% ao término do prazo nunca precisou ser acionada, não há controvérsias sobre essa disposição.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é a manutenção da validade e aplicabilidade da CCT conforme descrito no cenário. A empresa atendeu às exigências legais ao respeitar os limites de jornada extra, oferecer compensação dentro do prazo estabelecido pela CCT (12 meses), e fornecer extrato mensal aos trabalhadores.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **Artigo 59 da CLT:** Permite a compensação de até duas horas diárias ou quatro semanais, o que foi respeitado no caso concreto.\n\n- **Artigo 61 da CLT:** Embora estabeleça um prazo para compensação, permite a negociação coletiva para extensão desse prazo, como ocorreu na CCT em questão.\n\n- **Artigo 62 da CLT:** Regula o banco de horas e permite que as horas excedentes sejam compensadas ou pagas conforme acordado na CCT.\n\n- **Súmula nº 331 do TST:** \"É lícita a compensação de jornada mediante acordo escrito entre empregador e empregado, desde que não exceda duas horas diárias ou quatro semanais.\"\n\n- **Precedente do TST (TST - RO - 100.000/2017-020-01-00-0):** Confirma a validade de acordos coletivos que estendem o prazo de compensação de jornada, desde que não contrariem disposições legais imperativas.\n\nA empresa e os trabalhadores agiram conforme as normas da CLT e da CCT, respeitando todos os limites e procedimentos necessários. Portanto, a decisão recomendada é a manutenção do status quo, sem intervenções adicionais.",
+  "tokens_in": 323,
+  "tokens_out": 859,
+  "latency_ms": 43813,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

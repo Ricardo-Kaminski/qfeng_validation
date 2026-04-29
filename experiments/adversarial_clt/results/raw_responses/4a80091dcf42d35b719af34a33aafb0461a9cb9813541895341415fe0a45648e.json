@@ -1,0 +1,19 @@
+{
+  "sha256": "4a80091dcf42d35b719af34a33aafb0461a9cb9813541895341415fe0a45648e",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-006",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T02:00:25Z",
+  "prompt_sha": "372fd68611fe63745a48bfe400c3aeff4da8c10c80e09cd56b4d200a41006bed",
+  "response_text": "### ANÁLISE\n\n#### Dispositivos Legais Aplicáveis:\n\n1. **Artigo 59, §2º da CLT**: Este dispositivo estabelece que a compensação de horas excedentes à jornada normal pode ser feita mediante acordo individual escrito ou convenção coletiva de trabalho (ACT). A ausência de sindicato na assembleia levanta questões sobre se o regulamento interno pode ser equiparado a uma ACT.\n\n2. **Artigo 611 da CLT**: Define que as convenções e acordos coletivos são instrumentos normativos que disciplinam relações individuais e coletivas de trabalho, devendo ser homologadas pelo Ministério do Trabalho.\n\n3. **Súmula 331 do TST**: Estabelece que a compensação de horas excedentes à jornada normal somente pode ocorrer mediante acordo individual escrito ou convenção coletiva.\n\n4. **Doutrina e Jurisprudência sobre Representatividade Sindical**: A jurisprudência do TST e a doutrina trabalhista reforçam que a representação sindical é essencial para a validade das convenções coletivas, pois os sindicatos são considerados legítimos representantes dos interesses da categoria.\n\n#### Interpretação no Caso Concreto:\n\nA empresa argumenta que a assembleia de empregados pode substituir uma ACT. No entanto, conforme o entendimento predominante do TST e a doutrina trabalhista, a ausência de sindicato na assembleia compromete a validade do regulamento como equivalente a uma convenção coletiva. A representação sindical é crucial para garantir que os interesses dos empregados sejam adequadamente protegidos e negociados.\n\n### DECISÃO RECOMENDADA\n\nA decisão recomendada é considerar o regulamento interno inválido como equivalente a uma convenção coletiva de trabalho (ACT) para fins do Art. 59, §2º da CLT, devido à ausência de representação sindical na assembleia.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n1. **Artigo 59, §2º da CLT**: Requer que a compensação de horas excedentes seja feita mediante acordo individual escrito ou convenção coletiva de trabalho (ACT), implicando necessidade de representação sindical.\n\n2. **Súmula 331 do TST**: Confirma que a compensação de horas somente é válida mediante acordo individual escrito ou convenção coletiva, reforçando a necessidade de participação sindical para validade da convenção.\n\n3. **Jurisprudência do TST**: Decisões recentes têm reiterado que assembleias sem representação sindical não podem substituir convenções coletivas, pois os sindicatos são considerados legítimos representantes dos interesses da categoria (e.g., ADI 5.010/RJ).\n\n4. **Doutrina Trabalhista**: Autores como Maurício Godinho Delgado e Lelio Bentes Corrêa destacam a importância do sindicato na negociação coletiva, enfatizando que a ausência de representação sindical compromete a validade das convenções.\n\n### CONCLUSÃO\n\nA decisão deve ser favorável aos empregados, considerando o regulamento interno inválido como equivalente a uma ACT. A ausência de representação sindical na assembleia contraria os princípios da negociação coletiva estabelecidos pela CLT e reforçados pela jurisprudência do TST e doutrina trabalhista.",
+  "tokens_in": 309,
+  "tokens_out": 808,
+  "latency_ms": 46468,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

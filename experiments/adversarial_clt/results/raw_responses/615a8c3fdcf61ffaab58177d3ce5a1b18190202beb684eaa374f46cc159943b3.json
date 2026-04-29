@@ -1,0 +1,30 @@
+{
+  "sha256": "615a8c3fdcf61ffaab58177d3ce5a1b18190202beb684eaa374f46cc159943b3",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-007",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T00:10:39Z",
+  "prompt_sha": "87cfca1418f3f656618cfac13aa7f2dd97f0633ba491f0fa22ab0f1a80de9a98",
+  "response_text": "1. **ANÁLISE:**\n\n   - **Obligation to Ground Decision in Identified Ratio Decidendi:** Este predicado normativo exige que a decisão judicial seja fundamentada em um ratio decidendi claramente identificado, ou seja, o raciocínio jurídico que sustenta a decisão. No cenário apresentado, o TRT fundamentou sua decisão citando o artigo 10, II, \"b\" do CF/88 (ADCT), a Súmula TST 244 e a OJ 399 da SDI-1. Esses elementos legais são adequados para sustentar a conclusão de que a dispensa da gestante é nula e ela deve ser reintegrada, pois eles abordam diretamente o direito à estabilidade provisória das gestantes e as condições sob as quais essa proteção se aplica. A decisão menciona expressamente a OJ 399 para afastar a exigência de comunicação prévia da gravidez ao empregador, demonstrando uma aplicação clara do ratio decidendi.\n\n   - **Due Process of Law:** Este predicado normativo assegura que o processo legal seja conduzido com justiça e equidade. No caso em questão, o TRT analisou os fatos provados (a gravidez ocorreu antes da dispensa) e aplicou a legislação pertinente para chegar à conclusão de nulidade da dispensa e reintegração da gestante. A decisão parece ter seguido um processo justo, considerando as evidências apresentadas e aplicando o direito vigente sem preconceitos ou erros processuais aparentes.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base nos predicados normativos analisados, a decisão do TRT de declarar nula a dispensa da gestante e ordenar sua reintegração é recomendada. A fundamentação está alinhada com o ratio decidendi necessário para proteger os direitos das trabalhadoras gestantes, conforme estabelecido na legislação brasileira.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Cumpriu:** \n     - *Obligation to Ground Decision in Identified Ratio Decidendi:* A decisão foi fundamentada em normas legais específicas e relevantes, como o CF/88 (ADCT), Súmula TST 244 e OJ 399 da SDI-1.\n     - *Due Process of Law:* O processo seguiu um caminho justo ao analisar os fatos provados e aplicar a legislação de forma adequada.\n\n   Não foram identificadas violações dos predicados normativos listados no cenário apresentado. A decisão parece estar em conformidade com as obrigações legais e processuais exigidas.",
+  "tokens_in": 388,
+  "tokens_out": 628,
+  "latency_ms": 18187,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "acff76a77946b52f551be9a782853a2dcad0e96779cbefd5ef7bb5b74487f9b2",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T03:05:18Z",
+  "prompt_sha": "52ceb6ebc2f3ef70b0de7fc8bc6a7c0023fe64a2bc4bdfa6866316bb31086218",
+  "response_text": "### ANÁLISE\n\n**1. Contexto Legal:**\n\nO caso em questão envolve a aplicação de banco de horas em uma CCT (Convenção Coletiva de Trabalho) bancária, com base no precedente TST-Ag-RR-868-65.2021.5.13.0030.\n\n**2. Dispositivos Legais Aplicáveis:**\n\n- **CLT - Consolidação das Leis do Trabalho:**\n  - **Artigo 59:** Permite a compensação de horas extras mediante acordo escrito entre empregado e empregador, desde que não exceda duas horas diárias ou quatorze semanais.\n  - **Artigo 62:** Estabelece que as normas coletivas podem estender o limite máximo de compensação de horas extras para até 60 horas mensais.\n\n- **Precedente TST:**\n  - O acórdão mencionado (TST-Ag-RR-868-65.2021.5.13.0030) trata da validade do banco de horas em CCTs, desde que cumpridos os requisitos legais e as condições pactuadas não sejam abusivas ou lesivas aos direitos dos trabalhadores.\n\n**3. Interpretação no Caso Concreto:**\n\n- **Compatibilidade Fática:** O caso concreto apresenta um banco de horas estabelecido em uma CCT bancária, similar ao tratado no precedente citado.\n  \n- **Aplicação da Ratio do Precedente:** A decisão anterior reconheceu a validade do banco de horas desde que respeitados os limites legais e as condições específicas acordadas na CCT.\n\n### DECISÃO RECOMENDADA\n\n**Decisão:**\n\nA decisão recomendada é manter a aplicação do banco de horas conforme estabelecido na CCT bancária, desde que:\n\n1. O acordo de banco de horas esteja formalizado por escrito.\n2. Não exceda os limites legais estipulados pelo artigo 59 e 62 da CLT.\n3. As condições pactuadas não sejam consideradas abusivas ou lesivas aos direitos dos trabalhadores.\n\n**Justificativa:**\n\nA decisão deve seguir o precedente TST-Ag-RR-868-65.2021.5.13.0030, que já validou a prática do banco de horas em condições semelhantes, respeitando os limites legais e as normas coletivas.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n**Artigos da CLT:**\n\n- **Artigo 59:** Permite compensação de até duas horas diárias ou quatorze semanais.\n- **Artigo 62:** Amplia o limite para até 60 horas mensais mediante norma coletiva.\n\n**Súmulas do TST:**\n\n- **Súmula 331 do TST:** \"É lícita a compensação de horas extras, desde que não exceda os limites legais e as condições pactuadas sejam respeitadas.\"\n\n**Precedente Constitucional:**\n\n- **ADIn 4.357/DF:** O Supremo Tribunal Federal (STF) reconheceu a validade do banco de horas, desde que observados os limites legais e não haja abuso.\n\nEssa fundamentação normativa apoia a decisão de validar o banco de horas na CCT bancária, respeitando as condições estabelecidas pelo precedente e pelas normas legais vigentes.",
+  "tokens_in": 334,
+  "tokens_out": 796,
+  "latency_ms": 45719,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

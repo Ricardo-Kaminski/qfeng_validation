@@ -1,0 +1,30 @@
+{
+  "sha256": "3af9450c8c9d995c034dd95ad3ee0b872e61646185805e07bd29efa8db5948aa",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-007",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T01:32:51Z",
+  "prompt_sha": "87cfca1418f3f656618cfac13aa7f2dd97f0633ba491f0fa22ab0f1a80de9a98",
+  "response_text": "**1. ANÁLISE**\n\na) **obligation_to_ground_decision_in_identified_ratio_decidendi**: O Tribunal Regional do Trabalho (TRT) fundamentou sua decisão na Constituição Federal de 1988 (CF/88), artigo 10, inciso II, \"b\" (ADCT), Súmula TST 244 e Orientação Jurisprudencial (OJ) 399 da SDI-1. Isso significa que a decisão está baseada em normas legais específicas e jurisprudenciais reconhecidas, o que atende ao predicado de fundamentar a decisão nos princípios e regras jurídicas aplicáveis.\n\nb) **due_process_of_law**: A decisão do TRT menciona expressamente os fatos provados (gravidez ocorreu antes da dispensa) e aplica as normas pertinentes para concluir pela nulidade da dispensa e reintegração. Além disso, a menção específica à OJ 399 para afastar a exigência de comunicação prévia da gravidez ao empregador demonstra que o processo foi conduzido de acordo com as regras do contraditório e ampla defesa, garantindo assim o direito ao devido processo legal.\n\n**2. DECISÃO RECOMENDADA**\n\nCom base nos predicados normativos aplicáveis, a decisão recomendada é a mesma tomada pelo TRT: **NULIDADE DA DISPENSA E REINTEGRAÇÃO DO EMPREGADO**. Isso decorre diretamente da aplicação das normas legais e jurisprudenciais mencionadas, que garantem os direitos do empregado gestante.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: Cumprido. A decisão está fundamentada em normas legais e jurisprudenciais específicas.\n  \n- **due_process_of_law**: Cumprido. O processo foi conduzido com base nos fatos provados, aplicação das regras pertinentes e garantia do contraditório e ampla defesa.\n\nPortanto, a decisão do TRT está em conformidade com os predicados normativos listados, demonstrando uma análise jurídica rigorosa e fundamentada.",
+  "tokens_in": 387,
+  "tokens_out": 517,
+  "latency_ms": 8687,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

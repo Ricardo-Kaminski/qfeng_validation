@@ -1,0 +1,27 @@
+{
+  "sha256": "dd47e9252e3c0d9ddfabb23c2bf26d6c20911472bdcf0a4a3145760abfa5b8b5",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-010",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T00:03:46Z",
+  "prompt_sha": "914996cedcd042ca39186d6ce5def3d38864fcb0139cd1005ea4971ff55119c9",
+  "response_text": "1. **ANÁLISE:**\n\n   - **maximum_daily_working_hours_8h:** Este predicado estabelece que o limite máximo de horas diárias de trabalho é de 8 horas, conforme a CLT. No entanto, este predicado não se aplica diretamente ao caso em questão, pois ele trata especificamente do acúmulo de horas no banco de horas e não das horas trabalhadas diariamente.\n\n   - **hour_bank_with_cct_max_1_year:** Este predicado estabelece que o banco de horas pode ser negociado por meio de CCT (Convenção Coletiva de Trabalho) com um limite máximo de acúmulo de 1 ano. No cenário apresentado, a CCT previa um acúmulo máximo de 80h no banco de horas. A empresa permitiu que o operador acumulasse 200h, extrapolando o limite estabelecido na CCT sem nova negociação com o sindicato.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base nos predicados normativos aplicáveis e a jurisprudência do TST, a decisão recomendada é que as horas excedentes ao limite de 80h acordado na CCT não devem ser consideradas válidas no banco de horas. A empresa deve respeitar o limite estabelecido na convenção coletiva, e qualquer alteração desse limite requer uma nova negociação com o sindicato representante dos trabalhadores.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violado:** \n     - **hour_bank_with_cct_max_1_year**: A empresa violou este predicado ao permitir que o operador acumulasse 200h no banco de horas, extrapolando o limite de 80h estabelecido na CCT sem nova negociação com o sindicato.\n\n   - **Cumpriu:**\n     - Não há evidência de cumprimento específico dos predicados listados no cenário apresentado, uma vez que a questão central é a violação do limite acordado no banco de horas.",
+  "tokens_in": 364,
+  "tokens_out": 469,
+  "latency_ms": 13562,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

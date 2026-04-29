@@ -1,0 +1,19 @@
+{
+  "sha256": "c8d0ff64cd0fee2caba841084414ab3b137218855707d3a24d6e4b3ae8d9bf59",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-010",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T20:25:55Z",
+  "prompt_sha": "546394fb36fd08b3df6e32b19b12372b52cd2212d1c83ed9d8b946faff99ba6f",
+  "response_text": "**1. ANÁLISE**\n\nOs dispositivos do contexto normativo aplicáveis ao caso são:\n\n* CLT Art. 71: Regulamenta as condições de trabalho e intervalos intrajornada dos trabalhadores.\n* Súmula TST 437: Não foi especificado o conteúdo da súmula, mas é provável que ela se refira a diretrizes sobre os intervalos intrajornada.\n* Tema 981/STF: Discute a validade de Convenções Coletivas de Trabalho (CCT) que reduzem intervalo intrajornada para menos de 30 minutos.\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada é que o período suprimido seja pago como hora extra, pois não há CCT válida autorizando a redução do intervalo intrajornada.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação normativa para essa decisão está baseada nos seguintes dispositivos:\n\n* CLT Art. 71: Embora não seja citado explicitamente, é provável que o artigo estabeleça a obrigatoriedade de intervalos intrajornada mínimos, sem os quais o período suprimido seria considerado hora extra.\n* Súmula TST 437 (não especificada): Se a súmula for aplicável, ela poderia ter diretrizes específicas sobre como lidar com reduções de intervalo intrajornada em CCTs.\n* Tema 981/STF: O tema estabelece que CCTs que reduzem intervalos intrajornada para menos de 30 minutos são inválidas. Como não há CCT válida autorizando a redução, o período suprimido deve ser pago como hora extra.\n\n**Nota**: Não foi possível identificar dispositivos específicos da CLT ou do Tema STF que sejam citados explicitamente no contexto fornecido.",
+  "tokens_in": 326,
+  "tokens_out": 424,
+  "latency_ms": 7116,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

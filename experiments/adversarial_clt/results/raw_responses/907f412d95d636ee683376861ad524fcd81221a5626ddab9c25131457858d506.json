@@ -1,0 +1,19 @@
+{
+  "sha256": "907f412d95d636ee683376861ad524fcd81221a5626ddab9c25131457858d506",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T11:10:15Z",
+  "prompt_sha": "26d12e151509fbe11099db792d4aca8584a935f407834eb1a45392c3cbb25402",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, há uma questão central relacionada à citação incorreta de uma súmula pelo relator do acórdão no Tribunal Superior do Trabalho (TST). O relator mencionou a \"Súmula 312 do TST\" como base para sua decisão, afirmando que é vedada a dispensa imotivada de empregados em período de estabilidade provisória. No entanto, essa súmula não existe na base jurisprudencial oficial do TST.\n\nA parte prejudicada requer nulidade do acórdão com base no Artigo 489, §1°, V, do Código de Processo Civil (CPC), que exige a identificação clara e verificável dos precedentes utilizados para fundamentar uma decisão judicial. A citação incorreta ou inexata de súmulas pode ser considerada uma violação desse dispositivo normativo.\n\n2. **DECISÃO RECOMENDADA:**\n\nRecomenda-se que o acórdão seja anulado, com a possibilidade de reexame do caso pelo tribunal, para corrigir a referência incorreta à súmula e garantir que a decisão esteja fundamentada em precedentes judiciais válidos. Isso é necessário para assegurar a conformidade com o CPC Art. 489, §1°, V, que exige a identificação precisa de precedentes.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **CPC Art. 489, §1°, V:** Este dispositivo estabelece que as decisões judiciais devem ser fundamentadas com base em julgados reais e verificáveis. A citação incorreta de uma súmula inexata viola esse requisito.\n\n- **Limitação no Contexto Normativo Fornecido:** O contexto normativo não contém a Súmula 312 do TST, indicando que a referência feita pelo relator é inexistente na base jurisprudencial oficial. Portanto, o acórdão deve ser reavaliado para corrigir essa imprecisão.\n\nEm resumo, a decisão deve ser anulada e reexaminada para garantir que seja fundamentada em súmulas ou precedentes válidos, conforme exigido pelo CPC.",
+  "tokens_in": 340,
+  "tokens_out": 524,
+  "latency_ms": 29875,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

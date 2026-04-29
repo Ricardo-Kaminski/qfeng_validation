@@ -1,0 +1,30 @@
+{
+  "sha256": "c2002bd2366a6a0d95a958c182452e1eac21067c0ba01099fcb27761a9c12753",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T00:07:26Z",
+  "prompt_sha": "df1029f717a9057c55dcd4415f596b5b79c52eb9d0bc84855a640fd4defece65",
+  "response_text": "### ANÁLISE:\n\n1. **Obligation to Ground Decision in Identified Ratio Decidendi**:\n   - A decisão trabalhista cumpre este predicado ao identificar explicitamente a diferença entre o caso concreto e o precedente citado (TST-Ag-RR-868-65.2021). Ao distinguir que o banco de horas em questão não foi negociado coletivamente, a decisão fundamenta sua conclusão na ratio decidendi aplicável ao contexto específico do caso.\n\n2. **Súmula TST 85 (Hour Bank Without CCT Invalid)**:\n   - A Súmula TST 85 estabelece que o banco de horas sem convenção coletiva é inválido. O cenário apresentado confirma essa aplicação, pois a decisão identifica claramente a ausência de negociação coletiva e conclui pela invalidade do banco de horas com base nessa súmula.\n\n3. **Due Process of Law**:\n   - A decisão respeita o devido processo legal ao fundamentar sua conclusão em normas jurídicas específicas (CLT Art. 489, §1°, V e Súmula TST 85) e ao aplicar o método distinguishing para diferenciar o caso concreto do precedente citado. Isso demonstra uma análise cuidadosa e fundamentada das circunstâncias específicas do caso.\n\n### DECISÃO RECOMENDADA:\n\nA decisão deve ser mantida, pois está devidamente fundamentada na legislação aplicável (CLT e Súmula TST 85) e no método distinguishing. A ausência de negociação coletiva para o banco de horas é claramente identificada como a razão da sua invalidade, conforme estabelecido pela jurisprudência do TST.\n\n### PREDICADOS VIOLADOS OU CUMPRIDOS:\n\n- **Cumpriu**:\n  - Obligation to Ground Decision in Identified Ratio Decidendi: A decisão identifica e distingue a ratio decidendi aplicável ao caso.\n  - Súmula TST 85 (Hour Bank Without CCT Invalid): Aplicada corretamente para invalidar o banco de horas sem negociação coletiva.\n  - Due Process of Law: A fundamentação é clara, baseada em normas jurídicas e precedentes relevantes.\n\n- **Não Violou**:\n  - Nenhum dos predicados foi violado no cenário apresentado. A decisão está alinhada com as obrigações normativas estabelecidas.",
+  "tokens_in": 402,
+  "tokens_out": 574,
+  "latency_ms": 16577,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

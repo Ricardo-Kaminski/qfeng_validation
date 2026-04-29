@@ -1,0 +1,19 @@
+{
+  "sha256": "ecb25e09ae0c9e8fe09d2184fa9dd8a03e1a348f6916085f3be21ece25c60288",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T20:07:36Z",
+  "prompt_sha": "26d12e151509fbe11099db792d4aca8584a935f407834eb1a45392c3cbb25402",
+  "response_text": "**1. ANÁLISE**\n\nOs dispositivos do contexto normativo aplicáveis ao caso são:\n\n*   Artigo 489, §1°, V do Código de Processo Civil (CPC), que exige a identificação do precedente com base em julgamento real e verificável.\n*   A falta da Súmula 312 do TST na base jurisprudencial oficial.\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada é o reconhecimento da nulidade do acórdão por violação ao CPC Art. 489, §1°, V. Isso porque a fundamentação do relator se baseou em uma súmula que não existe na base oficial, o que não atende à exigência de identificação de precedentes com base em julgamento real e verificável.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação normativa é a seguinte:\n\n\"Conforme estabelece o Código de Processo Civil (CPC), Artigo 489, §1°, V, os precedentes devem ser identificados com base em julgamento real e verificável. No entanto, no caso em questão, o relator se baseou na Súmula 312 do TST, que não existe na base jurisprudencial oficial. Isso significa que a fundamentação do acórdão viola a exigência de identificação de precedentes com base em julgamento real e verificável, conforme estabelecido no CPC Art. 489, §1°, V.\n\nPortanto, é recomendado o reconhecimento da nulidade do acórdão por violação ao CPC Art. 489, §1°, V.\"",
+  "tokens_in": 339,
+  "tokens_out": 382,
+  "latency_ms": 44580,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

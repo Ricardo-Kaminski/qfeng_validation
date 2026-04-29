@@ -1,0 +1,19 @@
+{
+  "sha256": "8b356864bf6bb7ec8d6fe7b5f04e57506973134d12f4fd0225b51e1a9df01c19",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T20:00:32Z",
+  "prompt_sha": "546394fb36fd08b3df6e32b19b12372b52cd2212d1c83ed9d8b946faff99ba6f",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso de Intervalo Intrajornada Reduzido\n\nCom base no contexto normativo fornecido, apresento a análise, decisão recomendada e fundamentação:\n\n**1. ANÁLISE: Dispositivos Normativos Aplicáveis**\n\nOs dispositivos normativos aplicáveis ao caso, conforme o cenário apresentado, são os seguintes:\n\n*   **CLT, Art. 71:** Este artigo estabelece a duração mínima do intervalo intrajornada, fixando-o em uma hora para jornadas superiores a seis horas. É a norma primária que regula o tema.\n*   **Súmula TST 437:** Esta súmula trata da possibilidade de redução do intervalo intrajornada, mas condiciona essa possibilidade à existência de acordo ou convenção coletiva de trabalho.\n*   **Tema 981/STF:** Este tema, emitido pelo Supremo Tribunal Federal, aborda a validade de Convenção Coletiva de Trabalho (CCT) que reduz o intervalo intrajornada para 30 minutos. Embora o tema reconheça a possibilidade de redução, submete-a a critérios rigorosos de compensação e respeito aos limites constitucionais.\n*   **Acórdão do TRT (mencionado no cenário):** O acórdão em si, ao analisar o caso concreto, é um dispositivo normativo secundário, interpretando e aplicando as normas primárias. A constatação de que não há CCT autorizando a redução é um elemento crucial para a decisão.\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada, em consonância com o acórdão do TRT e os dispositivos normativos citados, é a de **manter o pagamento integral do período suprimido do intervalo intrajornada como hora extra**.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação para essa decisão reside nos seguintes pontos:\n\n*   **Ausência de Autorização em CCT:** O acórdão do TRT, de forma crucial, concluiu que **não existe CCT válida que autorize a redução do intervalo intrajornada** no caso em questão.  Essa constatação é o ponto de partida para a decisão.\n*   **Requisito da CCT (Súmula TST 437):** A Súmula TST 437 estabelece que a redução do intervalo intrajornada é possível apenas mediante acordo ou convenção coletiva de trabalho.  Como não há CCT autorizando a redução, a condição da súmula não é satisfeita.  A súmula dispõe: \"A redução do intervalo intrajornada, a qualquer título, depende de acordo ou convenção coletiva.\"\n*   **Interpretação do Tema 981/STF:** Embora o Tema 981/STF reconheça a possibilidade de redução do intervalo intrajornada por CCT, ele impõe requisitos rigorosos. A ausência de uma CCT válida, conforme constatado pelo TRT, elimina a possibilidade de aplicação desse entendimento.\n*   **CLT, Art. 71 (norma de subsunção):**  Na ausência de uma CCT válida que autorize a redução, a norma primária do Art. 71 da CLT, que fixa a duração mínima do intervalo intrajornada em uma hora, deve ser aplicada integralmente. A supressão do intervalo, sem a devida autorização, configura uma violação à norma legal.\n*   **Conclusão do Acórdão do TRT:** O acórdão do TRT, ao analisar o caso concreto e aplicar os dispositivos normativos, corretamente concluiu que o período suprimido do intervalo intrajornada deve ser pago como hora extra, em razão da inexistência de CCT autorizadora.\n\nEm suma, a decisão de pagamento do período suprimido como hora extra é a única que se coaduna com a legislação vigente e com a interpretação dos tribunais superiores, especialmente diante da ausência de uma CCT válida que autorize a redução do intervalo intrajornada.",
+  "tokens_in": 301,
+  "tokens_out": 889,
+  "latency_ms": 24444,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

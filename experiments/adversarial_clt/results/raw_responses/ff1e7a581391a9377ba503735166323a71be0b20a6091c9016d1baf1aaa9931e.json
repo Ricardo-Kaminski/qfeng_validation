@@ -1,0 +1,27 @@
+{
+  "sha256": "ff1e7a581391a9377ba503735166323a71be0b20a6091c9016d1baf1aaa9931e",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-010",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:29:41Z",
+  "prompt_sha": "914996cedcd042ca39186d6ce5def3d38864fcb0139cd1005ea4971ff55119c9",
+  "response_text": "**1. ANÁLISE**\n\n- **maximum_daily_working_hours_8h**: Este predicado não se aplica diretamente ao caso, pois trata da jornada diária de trabalho e não do acúmulo de horas extras em um banco de horas.\n\n- **hour_bank_with_cct_max_1_year**: Este predicado é aplicável, pois trata do limite máximo de horas que podem ser acumuladas no banco de horas. A CCT previa um limite de 80h, o que foi excedido pelo operador.\n\n**2. DECISÃO RECOMENDADA**\n\nCom base nos predicados normativos listados e a análise do cenário, recomendo que a decisão seja favorável ao sindicato. O acúmulo de 200h por demanda extraordinária de produção sem nova negociação com o sindicato para ampliar o limite previsto na CCT é considerado uma violação ao predicado **hour_bank_with_cct_max_1_year**, pois excede o limite estabelecido.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **Violação do predicado hour_bank_with_cct_max_1_year**: A empresa permitiu que o operador acumulasse mais de 80h, o que é o limite máximo previsto na CCT para acúmulo em um banco de horas.\n- **Conformidade com o predicado maximum_daily_working_hours_8h**: Não há evidências de violação desse predicado no cenário apresentado.",
+  "tokens_in": 363,
+  "tokens_out": 329,
+  "latency_ms": 5516,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

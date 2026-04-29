@@ -1,0 +1,19 @@
+{
+  "sha256": "469cef1314ebe3bdd5fd9c113e6db2673c1321b0bf40e74545e5315e0104fd07",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T20:25:08Z",
+  "prompt_sha": "4c0dcee8b5611dbd85de55417b7dad94c7d5424efdfecc7cb89ae58938c73e41",
+  "response_text": "**ANÁLISE**\n\nOs dispositivos do contexto normativo aplicáveis ao caso são:\n\n*   CLT Art. 223-G (pós-reforma de 2017), que estabelece a forma de cálculo do dano moral trabalhista;\n*   CLT Art. 223-G, §1°, que determina a base para o cálculo do valor do dano moral, considerando o salário do trabalhador.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que o juiz considere os fatos provados e aplique os parâmetros legais estabelecidos pela CLT Art. 223-G (pós-reforma de 2017) para calcular o valor do dano moral.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\nOs dispositivos legais aplicáveis são:\n\n*   CLT Art. 223-G: \"O juiz, ao fixar a indenização por danos morais, observará os critérios de proporcionalidade e razoabilidade, considerando as peculiaridades do caso concreto.\"\n*   CLT Art. 223-G, §1°: \"A base para o cálculo da indenização será o salário do trabalhador na data do fato.\"\n\nAlém disso, a decisão deve ser fundamentada em precedentes do TST sobre casos similares de assédio moral.\n\n**LIMITAÇÃO**\n\nNeste contexto, não há limitação quanto à aplicação das normas legais.",
+  "tokens_in": 319,
+  "tokens_out": 330,
+  "latency_ms": 5569,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

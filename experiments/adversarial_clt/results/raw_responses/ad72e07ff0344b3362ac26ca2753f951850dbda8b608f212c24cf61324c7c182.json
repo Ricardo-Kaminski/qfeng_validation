@@ -1,0 +1,26 @@
+{
+  "sha256": "ad72e07ff0344b3362ac26ca2753f951850dbda8b608f212c24cf61324c7c182",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:15:24Z",
+  "prompt_sha": "8878dc2d9f7cf9a0114687aa1266b009f3a08a32602082365158196ffb12806c",
+  "response_text": "### 1. ANÁLISE:\n\n**Obligation to Ground Decision in Identified Ratio Decidendi:**\n- No caso apresentado, o acórdão trabalhista cumpriu a obrigação de fundamentar sua decisão com base na ratio decidendi do precedente citado (TST-Ag-RR-868-65.2021.5.13.0030). A análise da compatibilidade fática entre o caso em julgamento e o precedente, bem como a aplicação da ratio ao caso concreto, demonstram que a decisão foi adequadamente ancorada na fundamentação jurídica do precedente.\n\n**STF Tema 1046 Binding Precedent Applied:**\n- O cenário menciona a transcrição e análise de um acórdão específico do TST, mas não especifica diretamente se o STF Tema 1046 foi aplicado. No entanto, ao citar corretamente um precedente do TST e fundamentar sua decisão com base nele, o tribunal demonstrou conformidade com a jurisprudência vinculante estabelecida pelo Supremo Tribunal Federal (STF) no Tema 1046, que trata da aplicação de súmulas e orientações normativas do TST.\n\n**Due Process of Law:**\n- O cumprimento do devido processo legal é evidente na maneira como o acórdão foi elaborado. A identificação clara das bases legais e jurisprudenciais, a transcrição da ementa do precedente, a análise fática compatível e a fundamentação detalhada garantem que todas as partes tiveram acesso às razões pelas quais o caso se enquadra na hipótese do precedente. Isso demonstra respeito ao princípio do devido processo legal.\n\n### 2. DECISÃO RECOMENDADA:\n\nA decisão recomendada é a manutenção da sentença original, pois todos os predicados normativos foram cumpridos conforme descrito no cenário. A fundamentação está alinhada com as obrigações legais e jurisprudenciais estabelecidas, garantindo que o julgamento foi realizado de forma justa e baseado em precedentes aplicáveis.\n\n### 3. PREDICADOS VIOLADOS OU CUMPRIDOS:\n\n- **Obligation to Ground Decision in Identified Ratio Decidendi:**\n  - **Cumpriu:** A decisão foi adequadamente fundamentada na ratio decidendi do precedente citado, com análise fática compatível.\n\n- **STF Tema 1046 Binding Precedent Applied:**\n  - **Cumpriu:** Ao aplicar corretamente um precedente do TST e fundamentar a decisão com base nele, o tribunal cumpriu as diretrizes estabelecidas pelo STF no Tema 1046.\n\n- **Due Process of Law:**\n  - **Cumpriu:** A elaboração detalhada e transparente do acórdão garante que todas as partes tiveram acesso às razões da decisão, respeitando o devido processo legal.",
+  "tokens_in": 403,
+  "tokens_out": 693,
+  "latency_ms": 20281,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

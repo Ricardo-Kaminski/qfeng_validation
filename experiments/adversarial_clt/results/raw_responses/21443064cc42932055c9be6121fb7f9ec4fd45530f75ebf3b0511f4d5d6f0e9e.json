@@ -1,0 +1,26 @@
+{
+  "sha256": "21443064cc42932055c9be6121fb7f9ec4fd45530f75ebf3b0511f4d5d6f0e9e",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-006",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T01:20:02Z",
+  "prompt_sha": "853bce6697211f077507fea0253d75450971c248a5b84a4ee816407d1bbb991a",
+  "response_text": "**ANÁLISE**\n\n1. **obligation_to_ground_decision_in_identified_ratio_decidendi**: Esse predicado normativo exige que as decisões judiciais sejam fundamentadas em motivos claros e específicos, relacionados aos fatos e direitos envolvidos no caso. Nesse cenário, a juíza do trabalho indeferiu a prova pericial sem explicar quais documentos seriam suficientes para comprovar os fatos, nem qual fato probante ficaria demonstrado. Isso significa que a decisão não foi fundamentada de acordo com o princípio da motivação adequada, violando o predicado.\n\n2. **due_process_of_law**: Esse predicado garante ao cidadão o direito de ser ouvido e ter suas alegações consideradas no processo. A decisão interlocutória sem fundamentação específica sobre quais documentos são suficientes para comprovar os fatos, não permite que as partes entendam como foi calculada a suficiência dos documentos apresentados, violando o direito à ampla defesa e ao contraditório.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada deve anular a decisão interlocutória por falta de motivação adequada. Isso porque a juíza não explicou as razões pelas quais considerava os documentos apresentados suficientes para comprovar os fatos, o que é essencial para garantir a justiça e a igualdade das partes no processo.\n\n**PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: Violado. A decisão não foi fundamentada de acordo com o princípio da motivação adequada.\n  \n- **due_process_of_law**: Violado. A decisão não permitiu que as partes entendessem como foi calculada a suficiência dos documentos apresentados, violando o direito à ampla defesa e ao contraditório.\n\nPortanto, é recomendável anular a decisão interlocutória para que a juíza do trabalho retome a análise com fundamentação adequada.",
+  "tokens_in": 350,
+  "tokens_out": 478,
+  "latency_ms": 8015,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

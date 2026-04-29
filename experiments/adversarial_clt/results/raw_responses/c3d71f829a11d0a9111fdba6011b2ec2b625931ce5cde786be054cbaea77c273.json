@@ -1,0 +1,26 @@
+{
+  "sha256": "c3d71f829a11d0a9111fdba6011b2ec2b625931ce5cde786be054cbaea77c273",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-001",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T20:45:01Z",
+  "prompt_sha": "5f4e73ab753f8a08c92d9c93e9a38b2fa765bc9d63234ae058053a9bd2db5213",
+  "response_text": "### 1. **ANÁLISE**  \n- **Proibição de citação de precedentes genéricos (prohibition_of_generic_precedent_citation):**  \n  O relator do acórdão citou a \"Súmula 312 do TST\", que **não existe** na jurisprudência oficial do TST. Essa citação é **genérica e inexistente**, violando a proibição de citar precedentes que não possuem fundamento real e verificável. A jurisprudência do TST exige que os precedentes citados sejam **identificáveis e existentes**, conforme orientação jurisprudencial e normativa.  \n\n- **Obrigação de fundamentar a decisão em ratio decidendi identificado (obligation_to_ground_decision_in_identified_ratio_decidendi):**  \n  A fundamentação do acórdão não se baseia em um **ratio decidendi** concreto e verificável (como uma súmula existente, acórdão do STF/STJ/TST ou jurisprudência consolidada), mas em uma **referência inexistente** (\"Súmula 312\"). Isso viola a obrigação de fundamentar a decisão com base em **julgamento real e verificável**, conforme exigido pelo CPC/2015, art. 489, §1°, V, e pela jurisprudência do TST.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nO acórdão prolatado pelo TST deve ser **declarado nulo** por violação:  \n- Da **proibição de citação de precedentes genéricos** (prohibition_of_generic_precedent_citation), ao citar uma súmula inexistente;  \n- Da **obrigação de fundamentar a decisão em ratio decidendi identificado** (obligation_to_ground_decision_in_identified_ratio_decidendi), ao não vincular a decisão a um julgamento real e verificável.  \n\nA nulidade deve ser reconhecida com base no CPC/2015, art. 489, §1°, V, que exige que o precedente citado seja **\"identificado com base em julgamento real e verificável\"**. A ausência de tal fundamento legal e jurisprudencial compromete a **validade da fundamentação** do acórdão.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Violados:**  \n  - **prohibition_of_generic_precedent_citation** (violação: citação de súmula inexistente, que é um precedente genérico e inverificável).  \n  - **obligation_to_ground_decision_in_identified_ratio_decidendi** (violação: ausência de vinculação à jurisprudência real e verificável, com base em súmula inexistente).  \n\n- **Cumpridos:**  \n  - Nenhum predicado normativo foi cumprido no cenário descrito, pois **ambos os predicados foram violados**.  \n\n--- \n\n**Conclusão:** A fundamentação do acórdão é **nula** por violação direta aos princípios da **precisão jurídica** e **verificabilidade da jurisprudência**, exigidos pelo CPC/2015 e pela jurisprudência do TST.",
+  "tokens_in": 410,
+  "tokens_out": 1056,
+  "latency_ms": 31593,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

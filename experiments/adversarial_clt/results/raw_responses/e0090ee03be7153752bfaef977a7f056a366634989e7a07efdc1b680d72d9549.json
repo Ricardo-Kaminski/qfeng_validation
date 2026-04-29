@@ -1,0 +1,19 @@
+{
+  "sha256": "e0090ee03be7153752bfaef977a7f056a366634989e7a07efdc1b680d72d9549",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-007",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T02:25:23Z",
+  "prompt_sha": "0203c17d7e6bb0ed382852b09435518873855b089f30e8393ac946d556a2d38d",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Convenção Coletiva de Trabalho (CCT):** A CCT do setor bancário prevê a possibilidade de banco de horas anual, que é uma modalidade de compensação de jornada permitida pela legislação trabalhista.\n\n- **Artigo 59 da CLT:** Permite a compensação de horários mediante acordo escrito entre empregador e empregado, desde que não prejudique o descanso semanal remunerado ou feriados. A compensação deve ocorrer no prazo máximo de seis meses, salvo disposição coletiva diversa.\n\n- **Tema 1046 do STF:** Trata da constitucionalidade das normas coletivas que preveem banco de horas, reconhecendo a possibilidade de compensação de jornada em até dois anos, desde que respeitados os limites legais e as garantias individuais dos trabalhadores.\n\n- **Jurisprudência do TST (Ag-RR-868-65.2021):** Confirma a validade das normas coletivas que preveem banco de horas, desde que cumpridas as condições estabelecidas na CLT e no Tema 1046.\n\n**Interpretação no Caso Concreto:**\n\nNo caso apresentado, o banco cumpriu com a CCT ao renová-la, entregar o extrato e realizar a compensação das horas dentro do prazo. A questão central é se as horas registradas no banco de horas geram direito ao adicional de horas extras.\n\nDe acordo com a jurisprudência consolidada do TST (Súmula 338), as horas registradas em banco de horas, desde que compensadas no prazo estabelecido pela CCT ou por lei, não configuram horas extraordinárias. Portanto, não geram direito ao adicional correspondente.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é confirmar que as horas registradas no banco de horas, desde que compensadas conforme previsto na CCT e dentro do prazo legal, não geram direito ao adicional de horas extras. Isso está em conformidade com a jurisprudência do TST e o entendimento consolidado sobre o tema.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **Artigo 59 da CLT:** Permite a compensação de horários mediante acordo escrito, respeitando os limites legais de compensação (até seis meses, salvo disposição coletiva diversa).\n\n- **Tema 1046 do STF:** Confirma a constitucionalidade das normas coletivas que preveem banco de horas, com prazo máximo de dois anos para compensação.\n\n- **Súmula 338 do TST:** Estabelece que as horas registradas em banco de horas não configuram horas extraordinárias se forem compensadas no prazo estipulado pela CCT ou por lei.\n\nEsses dispositivos e precedentes normativos sustentam a decisão de que, desde que cumpridas todas as condições legais e coletivas, as horas do banco de horas não geram adicional de horas extras.",
+  "tokens_in": 321,
+  "tokens_out": 719,
+  "latency_ms": 42125,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

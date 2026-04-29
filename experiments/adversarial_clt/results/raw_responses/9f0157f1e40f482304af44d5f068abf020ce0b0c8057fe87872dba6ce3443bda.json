@@ -1,0 +1,19 @@
+{
+  "sha256": "9f0157f1e40f482304af44d5f068abf020ce0b0c8057fe87872dba6ce3443bda",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-006",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T19:45:27Z",
+  "prompt_sha": "f3c84ccbea170369f112d30fe65e9798106cbf631f923ed7cbeb2573c0098f0a",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas no Setor de Varejo\n\nCom base no contexto normativo fornecido, apresento a análise, decisão recomendada e fundamentação:\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nO cenário descrito envolve a aplicação de um banco de horas regulamentado por uma Convenção Coletiva de Trabalho (CCT) do setor de varejo. Os dispositivos normativos aplicáveis, extraídos do contexto, são:\n\n*   **Previsão de Banco de Horas:** A CCT estabelece a existência de um sistema de banco de horas.\n*   **Prazo para Compensação:** A CCT define um prazo máximo de 12 meses para a compensação das horas em banco.\n*   **Forma de Compensação:** A CCT permite a compensação por meio de folga compensatória, que foi a forma utilizada pela empresa, oferecendo folgas em períodos de menor movimento e com a concordância dos trabalhadores.\n*   **Limitação da Jornada Extra:** A jornada extra diária foi limitada a 2 horas, o que indica um controle da empresa sobre a duração do trabalho suplementar.\n*   **Obrigação de Informação:** A empresa cumpriu a obrigação de fornecer um extrato mensal aos trabalhadores, detalhando o saldo do banco de horas.\n*   **Disposição sobre Saldo Não Compensado:** A CCT prevê que, caso o saldo do banco de horas não seja compensado dentro do prazo, ele deverá ser pago como hora extra com adicional de 50%. Esta cláusula, embora existente, não foi acionada no caso em tela.\n\n**2. DECISÃO RECOMENDADA**\n\nConsiderando o cenário apresentado, a decisão recomendada é de que a empresa **não incorre em irregularidade** no sistema de banco de horas implementado. A conduta da empresa se mostra em consonância com as disposições da CCT, tendo cumprido todos os requisitos estabelecidos.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA recomendação acima se baseia nos seguintes fundamentos normativos:\n\n*   **Conformidade com a CCT:** A empresa agiu em conformidade com a CCT do setor, que regulamenta o banco de horas, estabelecendo o prazo máximo de 12 meses para a compensação (CCT - prazo para compensação).\n*   **Aceitação dos Trabalhadores:** A aceitação dos trabalhadores à forma de compensação por meio de folgas demonstra a concordância com o sistema implementado (CCT - forma de compensação).\n*   **Cumprimento da Obrigação de Informação:** A entrega regular do extrato mensal atende à obrigação de transparência e informação aos trabalhadores sobre o saldo do banco de horas (CCT - obrigação de informação).\n*   **Limitação da Jornada Extra:** O respeito ao limite de 2 horas de jornada extra diária demonstra o controle da empresa sobre a duração do trabalho suplementar, evitando o desvirtuamento do sistema de banco de horas (CCT - limitação da jornada extra).\n*   **Não Ocorrência de Saldo Não Compensado:** Como o saldo do banco de horas foi integralmente compensado dentro do prazo, a cláusula que prevê o pagamento como hora extra não se aplica ao caso (CCT - disposição sobre saldo não compensado).\n\n**Observação:** É importante ressaltar que a análise se limita estritamente ao contexto normativo fornecido. A ausência de informações sobre outros aspectos relevantes (como a natureza do trabalho, condições de segurança e saúde, etc.) impede uma análise mais completa e abrangente.",
+  "tokens_in": 283,
+  "tokens_out": 783,
+  "latency_ms": 21456,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

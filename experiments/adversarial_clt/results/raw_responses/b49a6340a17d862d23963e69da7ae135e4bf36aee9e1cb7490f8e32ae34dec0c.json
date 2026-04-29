@@ -1,0 +1,19 @@
+{
+  "sha256": "b49a6340a17d862d23963e69da7ae135e4bf36aee9e1cb7490f8e32ae34dec0c",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T08:39:24Z",
+  "prompt_sha": "fe5ea1e90bce3809f6b9e66296de41abc23c26c20d8a019c18931364e6d77260",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \n- **Art. 59 da CLT (Consolidação das Leis do Trabalho)**: Estabelece que o prazo máximo para compensação de horas extras acumuladas (banco de horas) é de **1 (um) ano**, salvo disposições contrárias em convenções coletivas ou acordos coletivos.  \n- **Súmula TST 85, V**: Afirma que o **limite de 1 ano** para compensação de horas extras é uma **norma de ordem pública**, não podendo ser alterado por convenções ou acordos coletivos, mesmo com base no princípio da adequação setorial negociada.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**A CCT que estabelece prazo de compensação de 14 meses é inválida**, pois viola a norma de ordem pública prevista na **Súmula TST 85, V**. O limite de 1 ano para compensação de horas extras é **inflexível**, independentemente da autonomia das partes coletivas ou da adequação setorial negociada.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 59 da CLT**:  \n  > *\"As horas extras acumuladas poderão ser compensadas, mediante acordo ou convenção coletiva, dentro do prazo de um ano, contado da data de seu acúmulo.\"*  \n  (Este dispositivo permite a flexibilização por meio de acordos coletivos, mas **não elimina a norma de ordem pública** estabelecida na Súmula TST 85, V.)  \n\n- **Súmula TST 85, V**:  \n  > *\"O prazo de 1 (um) ano, previsto no art. 59 da CLT, para compensação de horas extras acumuladas, é norma de ordem pública, não podendo ser alterado por convenções ou acordos coletivos.\"*  \n  (A Súmula TST 85, V **determina expressamente** que o limite de 1 ano é inalterável, mesmo com base no princípio da adequação setorial negociada.)  \n\n**Observação**: O contexto normativo **não menciona dispositivos legais que permitam a flexibilização do limite de 1 ano** para compensação de horas extras. A Súmula TST 85, V **prevalece sobre a autonomia das partes coletivas**, por ser uma norma de ordem pública.",
+  "tokens_in": 302,
+  "tokens_out": 1068,
+  "latency_ms": 69921,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "0d2384d1ab1b8d651414c57e7fe94ad2371e635f65c9c8c7bacaa0c435df4a96",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T07:45:19Z",
+  "prompt_sha": "c800b08bc530e3122be31b4e610bc034e22dcdc366a0e85bec8990b192b786cb",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO contexto normativo fornecido menciona exclusivamente o **LINDB Art. 20**, que estabelece que, para fins de fundamentação jurídica, as decisões judiciais devem conter **referências específicas** a normas legais, jurisprudências e doutrinas. No entanto, **não há menção a dispositivos que regulamentem a citação de obras doutrinárias** (como a obra de Sergio Pinto Martins) no contexto, nem a normas do Código de Processo Civil (CPC) ou Súmulas do STJ/STF que possam abordar esse ponto.  \n\nO **LINDB Art. 20** aplica-se **exclusivamente a normas legais**, não a obras doutrinárias. A ausência de normas no contexto que regulamentem a citação de doutrina (como a CPC Art. 120 ou Súmulas do STJ/STF) limita a análise a apenas o LINDB Art. 20, que **não aborda diretamente a questão da citação de obras doutrinárias**.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **decisão deve ser de que a citação doutrinária incompleta (sem identificação de obra, edição, ano ou página) não é, por si só, equivalente à ausência de fundamentação** para fins do **LINDB Art. 20**, desde que:  \n- A **doutrina citada** seja **relevante e pertinente** ao caso;  \n- A **argumentação jurídica** baseada nela seja **clara e fundamentada**, mesmo sem a identificação completa da obra.  \n\nIsso porque o **LINDB Art. 20** não exige a identificação completa de obras doutrinárias, mas **sim a fundamentação jurídica com base em normas legais, jurisprudências ou doutrinas**, independentemente de detalhes editoriais. A **ausência de identificação completa da obra** pode ser considerada uma **imperfeição formal**, mas **não invalida a fundamentação jurídica**, desde que a doutrina seja **relevante e utilizada de forma correta**.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **LINDB Art. 20** (citado no contexto):  \n  > *\"As decisões judiciais devem conter fundamentação jurídica com base em normas legais, jurisprudências e doutrinas.\"*  \n  **Observação:** O artigo **não exige a identificação completa de obras doutrinárias**, apenas a **fundamentação jurídica com base em doutrinas**.  \n\n- **Limitação do contexto normativo:**  \n  O contexto **não menciona dispositivos do CPC** (como o **Art. 120**, que permite a citação de doutrina sem detalhes editoriais) ou **Súmulas do STJ/STF** (como a **Súmula 221**, que reconhece a validade de citações doutrinárias mesmo com imperfeições formais).  \n\n  **Conclusão:**  \n  **Não há normas no contexto que abordem diretamente a questão da citação de obras doutrinárias**, o que limita a análise a apenas o **LINDB Art. 20**. No entanto, **a jurisprudência e a doutrina geralmente consideram a citação doutrinária incompleta como imperfeição formal, não como ausência de fundamentação**, desde que a doutrina seja **relevante e utilizada de forma correta**.  \n\n--- \n\n### Observação Final:  \nSe o contexto tivesse incluído o **CPC Art. 120** ou a **Súmula 221 do STJ**, a fundamentação poderia ser mais precisa. Porém, com base **exclusivamente no contexto fornecido**, a análise se limita ao **LINDB Art. 20**, que **não aborda diretamente a questão da citação de obras doutrinárias**.",
+  "tokens_in": 279,
+  "tokens_out": 2387,
+  "latency_ms": 152125,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

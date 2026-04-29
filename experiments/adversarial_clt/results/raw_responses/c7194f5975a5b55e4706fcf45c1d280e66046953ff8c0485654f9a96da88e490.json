@@ -1,0 +1,19 @@
+{
+  "sha256": "c7194f5975a5b55e4706fcf45c1d280e66046953ff8c0485654f9a96da88e490",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-011",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T13:25:32Z",
+  "prompt_sha": "698446c093424052480aba5e941ff4b9c31d5df4e2fc44eccfe87ad07ed045e8",
+  "response_text": "## Análise Jurídico-Trabalhista: Validade da Cláusula de Renúncia ao Adicional de Horas Extras em Acordo de Banco de Horas\n\nCom base no contexto normativo fornecido, apresento a seguinte análise, decisão recomendada e fundamentação:\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nO único dispositivo normativo explicitamente mencionado no contexto é o **Artigo 611-B, IX da Consolidação das Leis do Trabalho (CLT)**. Este artigo trata da possibilidade de compensação de horas extras por meio de banco de horas, dentro de um período máximo de seis meses. A questão central gira em torno da validade de uma cláusula em um Acordo Coletivo de Trabalho (CCT) que exige a renúncia ao adicional de horas extras caso o banco de horas não seja compensado dentro do prazo estabelecido.\n\n**2. DECISÃO RECOMENDADA**\n\nRecomenda-se que a cláusula de renúncia ao adicional de horas extras seja considerada **inválida**.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação para essa recomendação reside na análise do Artigo 611-B, IX da CLT e nos princípios gerais do Direito do Trabalho.\n\n*   **Art. 611-B, IX da CLT:** Este artigo permite a compensação de horas extras por meio de banco de horas, mas **não estabelece que a compensação seja condição para a manutenção do direito ao adicional de horas extras**. A lei, ao permitir o banco de horas, visa flexibilizar a gestão do tempo de trabalho, mas não autoriza a supressão de direitos já assegurados aos trabalhadores. A exigência de renúncia ao adicional como condição para a não compensação do banco de horas configura uma alteração prejudicial aos direitos do trabalhador, que não pode ser imposta unilateralmente, mesmo por meio de acordo ou convenção coletiva.\n\n*   **Princípios Gerais do Direito do Trabalho:** O Direito do Trabalho é regido por princípios que visam proteger o trabalhador, que é considerado a parte mais vulnerável na relação de emprego. A renúncia a direitos trabalhistas, especialmente aqueles previstos em lei, é vista com ressalvas e, em muitos casos, é considerada inválida, a menos que haja uma negociação livre e informada, com plena consciência das consequências da renúncia. A imposição de uma renúncia ao adicional de horas extras como condição para a utilização do banco de horas, mesmo com a assinatura do sindicato, pode ser interpretada como uma forma de pressão que compromete a liberdade de consentimento do trabalhador.\n\n**Limitação do Contexto Normativo:**\n\nÉ importante ressaltar que o contexto normativo fornecido é limitado ao Artigo 611-B, IX da CLT. Para uma análise mais completa, seria necessário considerar outras normas, como:\n\n*   **Art. 7º, XXVI da Constituição Federal:** Garante o direito à redução da jornada de trabalho, compensação de horas extras e proteção contra despedida arbitrária.\n*   **Art. 59 da CLT:**  Trata da função normativa dos acordos e convenções coletivas, mas estabelece limites para essa função, como a impossibilidade de contrariar leis e a Constituição.\n*   **Súmulas do TST:** Poderiam fornecer interpretações jurisprudenciais sobre a validade de cláusulas de renúncia a direitos trabalhistas em acordos e convenções coletivas.\n\nA ausência dessas normas no contexto limita a profundidade da análise, mas a conclusão de que a cláusula de renúncia ao adicional de horas extras é inválida permanece válida com base no Art. 611-B, IX da CLT.",
+  "tokens_in": 274,
+  "tokens_out": 798,
+  "latency_ms": 22297,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

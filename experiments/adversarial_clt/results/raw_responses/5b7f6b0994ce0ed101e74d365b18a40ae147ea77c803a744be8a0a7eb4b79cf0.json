@@ -1,0 +1,19 @@
+{
+  "sha256": "5b7f6b0994ce0ed101e74d365b18a40ae147ea77c803a744be8a0a7eb4b79cf0",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T11:34:46Z",
+  "prompt_sha": "1ad0c5fecd20af805ec925f6ed0b3cd09a99177dbcc602b85fc9186e77490cd8",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a Rede de supermercados implementou um banco de horas com compensação em prazo de 4 meses por meio de uma Convenção Coletiva de Trabalho (ACT) celebrada com o sindicato dos comerciários. No entanto, a ACT não foi registrada na Superintendência Regional do Trabalho e Emprego (SRTE) dentro do prazo legal.\n\nOs dispositivos normativos aplicáveis ao caso incluem:\n\n- **Lei nº 7.783/89**: Esta lei estabelece que as convenções coletivas de trabalho devem ser registradas na Superintendência Regional do Trabalho e Emprego (SRTE) no prazo máximo de dez dias a partir da data de sua assinatura.\n\n- **Artigo 620, §2º, da CLT**: Este dispositivo determina que as convenções coletivas só produzirão efeitos após o registro na SRTE. O não cumprimento deste requisito impede que a convenção entre em vigor.\n\n- **Súmula nº 331 do TST (Tribunal Superior do Trabalho)**: Esta súmula reafirma que as convenções coletivas só produzem efeitos após o registro na SRTE, conforme estabelecido no artigo 620 da CLT.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que a ACT não seja considerada válida até que seja devidamente registrada na SRTE. A empresa deve proceder ao registro imediato da convenção para que ela entre em vigor e produza os seus efeitos legais.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Lei nº 7.783/89**: Estabelece o prazo de dez dias para o registro das convenções coletivas na SRTE após a assinatura.\n  \n- **Artigo 620, §2º, da CLT**: Determina que as convenções coletivas só produzem efeitos após o registro na SRTE.\n\n- **Súmula nº 331 do TST**: Confirma que as convenções coletivas só são válidas após o seu registro na SRTE.\n\nPortanto, a ausência de registro da ACT dentro do prazo legal impede que ela produza efeitos jurídicos até que seja cumprido esse requisito. A empresa deve realizar o registro para validar a implementação das cláusulas estabelecidas na convenção coletiva.",
+  "tokens_in": 282,
+  "tokens_out": 564,
+  "latency_ms": 30171,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

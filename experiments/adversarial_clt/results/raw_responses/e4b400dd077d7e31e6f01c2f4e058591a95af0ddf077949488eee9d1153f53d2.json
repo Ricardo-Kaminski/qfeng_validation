@@ -1,0 +1,26 @@
+{
+  "sha256": "e4b400dd077d7e31e6f01c2f4e058591a95af0ddf077949488eee9d1153f53d2",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-009",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T23:43:27Z",
+  "prompt_sha": "d1fdc105e58bb56978ba05596e29a5c6877b1685ca6ea3d00eee6f782a96ee44",
+  "response_text": "1. **ANÁLISE:**\n\n   - **Obligation to Ground Decision in Identified Ratio Decidendi:** Este predicado normativo exige que a decisão judicial seja fundamentada com base em um raciocínio jurídico claro e identificável, o qual deve ser expressamente articulado na sentença. No caso concreto, o magistrado manteve a sentença de primeiro grau sem adicionar qualquer fundamentação nova ou específica, simplesmente adotando os fundamentos da sentença original como razões para decidir. Além disso, a sentença de origem havia se baseado em um precedente que foi superado por uma jurisprudência mais recente do TST, o que não foi considerado pelo acórdão do TRT. Isso indica uma falha na identificação e aplicação da ratio decidendi atualizada, comprometendo a qualidade jurídica da decisão.\n\n   - **Due Process of Law:** O devido processo legal implica garantir que todas as partes tenham um julgamento justo e equitativo, com base em fundamentos legais atuais e relevantes. Ao ignorar o precedente superado pelo TST, a sentença não reflete a evolução da jurisprudência aplicável ao caso, potencialmente prejudicando uma das partes que poderia se beneficiar de uma interpretação mais atualizada dos direitos trabalhistas. Isso pode ser visto como uma violação do princípio de justiça processual.\n\n2. **DECISÃO RECOMENDADA:**\n\n   A decisão recomendada seria a revisão ou anulação da sentença mantida pelo magistrado, com instruções para que o caso seja reexaminado considerando a jurisprudência mais recente do TST. O tribunal deveria ser orientado a fornecer uma fundamentação detalhada e atualizada, explicitando claramente a ratio decidendi aplicável ao caso em questão.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violados:**\n     - *Obligation to Ground Decision in Identified Ratio Decidendi:* A decisão não foi fundamentada com base na ratio decidendi atualizada, pois ignorou a jurisprudência mais recente do TST.\n     - *Due Process of Law:* Ao não considerar o precedente superado, houve uma falha em garantir que o julgamento fosse realizado com base nos princípios legais mais atuais e relevantes.\n\n   - **Cumpridos:**\n     - Não há evidências de cumprimento dos predicados normativos listados no cenário apresentado. A decisão não demonstrou aderência aos requisitos de fundamentação adequada ou consideração da jurisprudência atualizada, violando ambos os predicados mencionados.\n\nEssa análise sugere que a sentença deve ser revista para assegurar conformidade com os princípios do direito processual e garantir uma decisão justa e bem fundamentada.",
+  "tokens_in": 350,
+  "tokens_out": 664,
+  "latency_ms": 19141,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

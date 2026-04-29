@@ -1,0 +1,30 @@
+{
+  "sha256": "4cbf2a784931bc239fe037678faef52805ad8ff6d69d6750e7ccebfd5023a5cb",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-006",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:32:18Z",
+  "prompt_sha": "0350325c96e624064d77ae2514493ddca97cca71d270755c3466ec1954baa800",
+  "response_text": "**1. ANÁLISE**\n\n* **obligation_to_ground_decision_in_identified_ratio_decidendi**: Esse predicado normativo exige que a decisão seja fundamentada na razão de decidir do precedente citado, ou seja, que a aplicação da ratio decidendi seja feita de forma correta e não invertida. No cenário apresentado, o tribunal aplicou a ratio do precedente de forma invertida, usando a tese de validade de CCT bancária para justificar a validade de banco de horas sem qualquer CCT, contrariando a razão de decidir do precedente.\n* **obligation_to_ground_decision_in_identified_ratio_decidendi** é violado no cenário.\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada seria anular o acórdão que aplicou a ratio do precedente de forma invertida e determinar a reapreciação da questão com base na razão de decidir correta do precedente citado (Tema 1046/STF e TST-Ag-RR-868-65.2021).\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n* **obligation_to_ground_decision_in_identified_ratio_decidendi**: Violado no cenário, pois o tribunal aplicou a ratio do precedente de forma invertida.\n* Nenhum outro predicado foi mencionado como violado ou cumprido.",
+  "tokens_in": 365,
+  "tokens_out": 314,
+  "latency_ms": 5312,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

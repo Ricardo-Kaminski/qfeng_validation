@@ -1,0 +1,19 @@
+{
+  "sha256": "4f5d75020f16917729680a73f73abd27b312081b4f42f53ddd6fed17edc50cbc",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T20:08:14Z",
+  "prompt_sha": "96b1feece965611b89e3956a1f10e137a308a959c7f66e3125395cd005ec45d0",
+  "response_text": "**ANÁLISE**\n\n1. **Identificação dos dispositivos do contexto normativo aplicáveis ao caso:**\n   - O dispositivo mais relevante nesse cenário é o Artigo 93 da Constituição Federal de 1988 (CF/88), que trata sobre a competência e as garantias processuais dos juízes.\n\n**DECISÃO RECOMENDADA**\n\n2. **Qual deve ser a decisão e por quê:**\n   - A decisão recomendada é que o recurso seja admitido, pois a falta de fundamentação nas decisões judiciais viola o Artigo 93, IX da CF/88.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n3. **Cite especificamente os artigos e súmulas do contexto acima:**\n   - O dispositivo específico aplicável ao caso é o Art. 93, IX da Constituição Federal de 1988 (CF/88), que estabelece a obrigação de fundamentação em todas as decisões judiciais.\n   - Não há súmulas específicas mencionadas no contexto fornecido para serem citadas.\n\n**LIMITAÇÃO DO CONTEXTO**\n\n- O contexto não contém norma ou dispositivo específico que justifique a negativa do seguimento ao recurso com base na lei, o que tornaria difícil fundamentar a decisão do juiz.",
+  "tokens_in": 286,
+  "tokens_out": 296,
+  "latency_ms": 5108,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

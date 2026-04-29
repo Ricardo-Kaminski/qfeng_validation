@@ -1,0 +1,19 @@
+{
+  "sha256": "05cf22da43119dd6aa4025056b53b71792d8662a5876d6cb751a512a0e94b2b0",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-006",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T12:16:40Z",
+  "prompt_sha": "caed60f8d7236d27119212e19182ccd57f46b0e0f27797e3747f1a33d35138bd",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a questão central é a aplicação incorreta da ratio decidendi de um precedente judicial. O acórdão citou corretamente o Tema 1046 do STF e o TST-Ag-RR-868-65.2021, mas aplicou erroneamente sua tese ao caso em questão. A tese original dos precedentes mencionados é a validade de uma CCT (Convenção Coletiva de Trabalho) bancária para permitir um banco de horas específico dentro do contexto dessa convenção. O erro ocorreu quando o tribunal aplicou essa lógica a um caso onde não havia qualquer CCT existente, simplesmente argumentando que \"o espírito do Tema 1046 é valorizar a autonomia negocial.\"\n\nA ratio decidendi dos precedentes mencionados pressupõe a existência de uma CCT como base para permitir o banco de horas. Portanto, aplicar essa lógica sem a presença de uma CCT resulta em um uso incorreto da jurisprudência.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada seria rever ou anular o acórdão que aplicou erroneamente a ratio do precedente. O tribunal deve reconhecer que, sem a existência de uma CCT específica, não pode simplesmente invocar o \"espírito\" de um precedente para validar práticas como banco de horas. A decisão correta seria exigir a presença de uma CCT ou outra forma de acordo coletivo válido que permita tal flexibilidade.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Tema 1046/STF:** Este tema trata da validade das cláusulas de banco de horas em CCTs, especificamente no contexto bancário. A aplicação correta depende da existência de uma CCT que preveja tal mecanismo.\n\n- **TST-Ag-RR-868-65.2021:** Este acórdão do TST reforça a necessidade de uma CCT para validar práticas como o banco de horas, respeitando as normas coletivas e individuais de trabalho.\n\nDado que o contexto normativo não fornece dispositivos específicos além da jurisprudência mencionada, a limitação é que não há artigos ou súmulas adicionais citados no contexto para aplicar diretamente. A análise deve se basear na correta interpretação e aplicação dos precedentes judiciais existentes.\n\nPortanto, sem uma CCT específica, o tribunal não pode invocar a autonomia negocial como justificativa válida para implementar um banco de horas, conforme erradamente feito no acórdão em questão.",
+  "tokens_in": 309,
+  "tokens_out": 610,
+  "latency_ms": 34812,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

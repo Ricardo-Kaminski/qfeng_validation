@@ -1,0 +1,19 @@
+{
+  "sha256": "c30cff678c1208e241a1382d7a9c2ad41cf35531c6a31df3c0b63cadcb20c17f",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-007",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T02:02:43Z",
+  "prompt_sha": "dd6f2e003476c4afd5536719c324f62f60775ac34721283dda4b2bcc970f33b6",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis**\n\n- **Convenção Coletiva de Trabalho (CCT):** A CCT estabeleceu um banco de horas com prazo de compensação de 12 meses, mas não previu mecanismo de pagamento em caso de não-compensação.\n\n- **Consolidação das Leis do Trabalho (CLT):**\n  - **Art. 59:** Estabelece que as convenções e acordos coletivos podem estipular a compensação de jornada, desde que respeitados os limites legais.\n  - **Art. 62:** Dispõe sobre o pagamento em dobro das horas excedentes à jornada normal semanais ou diárias, quando não houver acordo coletivo.\n\n- **Súmula nº 331 do TST:** Estabelece que a compensação de horas extras por folga futura depende da existência de previsão em convenção ou acordo coletivo e deve ser concedida no prazo estipulado, sob pena de pagamento das horas.\n\n**Interpretação no Caso Concreto**\n\nNo caso apresentado, o empregado acumulou 400h em banco de horas conforme previsto na CCT válida. Contudo, a empresa não cumpriu com a obrigação de compensar as horas dentro do prazo estabelecido (12 meses), alegando necessidade operacional permanente.\n\nA ausência de previsão para pagamento das horas não compensadas no final do prazo na CCT cria uma lacuna legal. No entanto, o TST tem jurisprudência consolidada que prevê o pagamento em dobro das horas extras quando não há acordo ou convenção específica que determine outra forma de compensação.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é que a empresa pague ao empregado as 400h acumuladas no banco de horas, com acréscimo de 50% sobre o valor das horas normais, conforme previsto no Art. 62 da CLT, por não ter compensado as horas dentro do prazo estipulado.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **Art. 59 e Art. 62 da CLT:** Estabelecem que a compensação de jornada pode ser feita mediante convenção ou acordo coletivo, mas em sua ausência ou quando não cumprida, as horas extras devem ser pagas em dobro.\n\n- **Súmula nº 331 do TST:** Determina que o banco de horas deve ser compensado no prazo estipulado na CCT. Se não for possível a compensação por razões operacionais, sem previsão contratual para pagamento, as horas devem ser pagas em dobro.\n\n- **Jurisprudência do TST:** O Tribunal Superior do Trabalho tem decidido que, quando o banco de horas é utilizado e não há compensação no prazo estipulado pela CCT, e a convenção ou acordo coletivo não prevê pagamento das horas excedentes, estas devem ser pagas em dobro.\n\nEssa fundamentação normativa e jurisprudencial assegura que o empregado seja devidamente indenizado pelas horas trabalhadas além da jornada normal sem a compensação adequada no prazo estipulado.",
+  "tokens_in": 292,
+  "tokens_out": 747,
+  "latency_ms": 42875,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,29 @@
+{
+  "sha256": "3be197a09f58059a9d1a9739330aa1f7defb40b86c2cb6e309acd64bba5fe943",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T02:14:58Z",
+  "prompt_sha": "a8d1c788e3de99920a389b72bb625722e4a5ecc3f4de5f08a57e80dccc55da81",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a implantação do banco de horas pela empresa configura **violação normativa**, com base nos seguintes predicados soberanos ativos:  \n- **`sovereign(semester_hour_bank_requires_cct_or_act)`**: A CLT exige que o banco de horas por período semestral só seja válido se autorizado por **Acordo Coletivo de Trabalho (ACT)** ou **Convenção Coletiva de Trabalho (CCT)**. A ausência de qualquer desses instrumentos coletivos invalida a prática.  \n- **`sovereign(invalidity_of_clause_suppressing_overtime_payment)`**: Cláusulas que suprimem o pagamento de horas extras são **nulas de pleno direito**, independentemente de acordos individuais.  \n- **`sovereign(weekly_hour_compensation_requires_written_agreement)`**: A compensação de horas semanais exige **contrato escrito**, o que não foi comprovado.  \n- **`sovereign(prohibition_negotiation_reducing_overtime_additional)`**: A CLT proíbe negociações que reduzam a **adicional de horas extras (50%)**, exigindo seu pagamento integral.  \n- **`sovereign(overtime_minimum_additional_50pct)`**: A CLT estabelece que horas extras devem ter **adicional mínimo de 50%**, o que pode estar sendo violado.  \n- **`sovereign(maximum_weekly_working_hours_44h)`** e **`sovereign(maximum_daily_working_hours_8h)`**: A CLT limita a jornada semanal a **44h** e diária a **8h**, o que pode estar sendo ultrapassado.  \n- **`elastic(hour_bank_without_cct_max_6_months)`**: O banco de horas sem CCT só é válido por **6 meses**, mas a empresa acumulou **120h em 9 meses**, ultrapassando o limite.  \n\nA combinação desses fatores (falta de CCT/ACT, violação de direitos de horas extras, excesso de jornada e ausência de contratos escritos) leva à conclusão de **violação normativa**.\n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **`sovereign(semester_hour_bank_requires_cct_or_act)`**:  \n  *Significado*: O banco de horas por período semestral só é legal se autorizado por **ACT ou CCT**. A empresa não celebrou nenhum, tornando a prática ilegal.  \n\n- **`sovereign(invalidity_of_clause_suppressing_overtime_payment)`**:  \n  *Significado*: Cláusulas que eliminam o pagamento de horas extras são **nulas** (não têm validade legal). A empresa pode estar tentando evitar esse pagamento.  \n\n- **`sovereign(weekly_hour_compensation_requires_written_agreement)`**:  \n  *Significado*: Compensar horas semanais exige **contrato escrito**. A ausência de documento formal invalida a prática.  \n\n- **`sovereign(prohibition_negotiation_reducing_overtime_additional)`**:  \n  *Significado*: A CLT proíbe negociações que reduzam o **adicional de 50%** sobre horas extras. A empresa pode estar tentando negociar valores inferiores.  \n\n- **`sovereign(overtime_minimum_additional_50pct)`**:  \n  *Significado*: A CLT exige **50% de adicional** sobre horas extras. A empresa pode estar violando esse limite.  \n\n- **`sovereign(maximum_weekly_working_hours_44h)`** e **`sovereign(maximum_daily_working_hours_8h)`**:  \n  *Significado*: A CLT limita a jornada semanal a **44h** e diária a **8h**. A empresa pode estar ultrapassando esses limites.  \n\n- **`elastic(hour_bank_without_cct_max_6_months)`**:  \n  *Significado*: O banco de horas sem CCT só é válido por **6 meses**, mas a empresa acumulou **120h em 9 meses**, violando o prazo.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa **não seguiu as regras da lei** ao implantar o banco de horas. Ela:  \n1. **Não pediu permissão ao sindicato** (não há ACT ou CCT autorizando o banco de horas).  \n2. **Não pagou horas extras corretamente** (tentou evitar o pagamento de 50% extra).  \n3. **Não fez contrato escrito** para compensar horas semanais.  \n4. **Acumulou 120h de banco em 9 meses**, mas a lei permite **máximo 6 meses** sem CCT.  \n5. **Pode estar fazendo jornadas acima de 44h por semana ou 8h por dia**, o que é proibido.  \n\nIsso significa que a empresa **viola os direitos dos trabalhadores**, e o sindicato pode exigir que ela corrija a situação.",
+  "tokens_in": 533,
+  "tokens_out": 1733,
+  "latency_ms": 56921,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

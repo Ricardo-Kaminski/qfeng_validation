@@ -1,0 +1,19 @@
+{
+  "sha256": "aad90f998d70f3c9686523c1ebc3c0d90749b8c6c62020576468e3521106d9e0",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T20:22:54Z",
+  "prompt_sha": "92aecfbcd48b18b24b7145bd3115c2c41dd569d979ba575e89a78b84c16595e4",
+  "response_text": "**ANÁLISE**\n\nO caso apresentado envolve a interpretação da Súmula TST 60 sobre adicional noturno em relação ao regime de revezamento. A análise do TRT identificou que o empregado trabalha em um regime de 12x36 com períodos noturnos fixos, o que é relevante para a aplicação da Súmula.\n\n**DISPOSITIVOS DO CONTEXTO NORMATIVO APPLICÁVEIS**\n\n1. **Súmula TST 60**: \"Adicional noturno - regime de revezamento\". Essa súmula é fundamental para entender como o adicional noturno deve ser calculado em regimes de revezamento, não apenas em turnos fixos.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada deve ser a aprovação da ação trabalhista com base na aplicação da Súmula TST 60. Isso porque o regime do empregado se enquadra na hipótese da súmula, considerando que ele trabalha em um regime de revezamento noturno.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação normativa está baseada na Súmula TST 60. Não há menção explícita a dispositivos legais específicos do Código Civil ou da Consolidação das Leis do Trabalho (CLT) que sejam aplicáveis ao caso, mas a súmula em si é uma interpretação consolidada dos princípios trabalhistas.\n\n**CITAÇÃO ESPECÍFICA**\n\nA decisão deve ser fundamentada na Súmula TST 60, como segue:\n\n\"...considerando a Súmula TST 60, que estabelece que o adicional noturno é devido em regimes de revezamento, e considerando que o empregado trabalha em um regime de 12x36 com períodos noturnos fixos, caracterizando-se como regime de revezamento noturno, é aplicável a Súmula TST 60 ao caso concreto.\"\n\nEssa fundamentação se baseia na interpretação da súmula e não em dispositivos legais específicos.",
+  "tokens_in": 324,
+  "tokens_out": 493,
+  "latency_ms": 8256,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

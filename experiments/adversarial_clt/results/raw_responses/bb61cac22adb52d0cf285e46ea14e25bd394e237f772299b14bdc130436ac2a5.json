@@ -1,0 +1,19 @@
+{
+  "sha256": "bb61cac22adb52d0cf285e46ea14e25bd394e237f772299b14bdc130436ac2a5",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T07:04:28Z",
+  "prompt_sha": "5b8f75ba208096eb458c3fc1f2bdca9675e25a232157ca9f9ce6515cdd7f9fb4",
+  "response_text": "**ANÁLISE**\n\n1.  **Identificação dos dispositivos legais aplicáveis:** O caso concreto envolve a invalidade de banco de horas sem Contrato Coletivo de Trabalho (CCT). A fundamentação da decisão trabalhista remete à CLT, específicamente ao Art. 489, §1°, V, que trata sobre a violação do direito adquirido ou da coisa julgada por meio de lei ou ato normativo posterior.\n2.  **Interpretação no caso concreto:** A decisão trabalhista aplica o método distinguishing para distinguir o caso concreto do precedente (TST-Ag-RR-868-65.2021), que trata de banco com CCT bancária. O caso em questão envolve banco sem negociação coletiva, o que leva à conclusão pela violação da norma.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é a **declaração da invalidade do banco de horas sem Contrato Coletivo de Trabalho (CCT)**. Isso se deve ao fato de que o caso concreto envolve uma situação em que não há negociação coletiva, distinta do precedente citado pelo TST.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n1.  **CLT Art. 489, §1°, V**: Este dispositivo da CLT trata sobre a violação do direito adquirido ou da coisa julgada por meio de lei ou ato normativo posterior.\n2.  **Súmula TST 85, V**: A Súmula do TST 85, V, refere-se à invalidade do banco de horas sem CCT, reforçando a necessidade de negociação coletiva para a implementação desse sistema de trabalho.\n3.  **TST-Ag-RR-868-65.2021**: Este precedente constitucional é citado como referência para o caso concreto, mas com o método distinguishing aplicado, distingue-se do caso em questão.\n\n**CONCLUSÃO**\n\nA decisão trabalhista fundamentada na CLT, jurisprudência do TST e doutrina trabalhista, recomenda a declaração da invalidade do banco de horas sem Contrato Coletivo de Trabalho (CCT), considerando o caso concreto envolve uma situação distinta do precedente citado.",
+  "tokens_in": 332,
+  "tokens_out": 538,
+  "latency_ms": 17625,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

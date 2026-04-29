@@ -1,0 +1,19 @@
+{
+  "sha256": "d9776746eaf3e837e057d1cdde7c3d3d7ae4b87f371e2d05ef30fbaeb0ce53f8",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T12:41:30Z",
+  "prompt_sha": "0fa7a0f28f59a9fa10b66549d620533d50b13739f11a99646341103e54f0bad2",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso\n\nConsiderando o cenário apresentado e o contexto normativo fornecido, a análise, decisão recomendada e fundamentação são as seguintes:\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nO único dispositivo normativo explicitamente mencionado no contexto é o **Artigo 489, §1°, VI, do Código de Processo Civil (CPC)**.  Este dispositivo é relevante porque o empregado alega a ausência de fundamentação adequada na decisão do TRT-2ª Região, o que o leva a buscar a reforma da decisão.\n\nO restante do contexto, a saber, a menção à \"orientação jurisprudencial consolidada do TST\" e a afirmação de que a \"jurisprudência é pacífica nesse sentido\" sobre o uso indevido de comunicações eletrônicas, **não se traduz em um dispositivo normativo específico**.  Não há citação de número de Orientação Jurisprudencial (OJ), Súmula ou acórdão do TST.  Portanto, essa referência, por si só, não constitui base normativa para a análise do caso.\n\n**2. DECISÃO RECOMENDADA**\n\nRecomenda-se o **provimento do recurso do empregado**, levando à reforma da decisão do TRT-2ª Região.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação para a decisão recomendada reside exclusivamente no **Artigo 489, §1°, VI, do CPC**. Este dispositivo estabelece:\n\n*\"Art. 489. A sentença e o acórdão deverão ser fundamentados, ainda que sucintamente, sempre que se tratar de:\"*\n\n*   *\"§ 1º  A falta da fundamentação, quando essencial à controvérsia, judicializa o processo, atraindo a decretação de nulidade.\"*\n*   *\"VI – for a decisão contrária a entender que o recurso não seria cabível.\"*\n\nNo caso em tela, o TRT-2ª Região fundamentou sua decisão na existência de uma suposta \"orientação jurisprudencial consolidada do TST\" sobre o uso indevido de comunicações eletrônicas. No entanto, **não individualizou essa orientação**.  Não trouxe à tona o número da OJ, Súmula ou acórdão específico que embasaria a decisão.  A simples afirmação de que a \"jurisprudência é pacífica nesse sentido\" não atende à exigência de fundamentação prevista no Art. 489, §1°, VI, do CPC.\n\nA fundamentação deficiente impede que o empregado compreenda a base da decisão e exerça seu direito de contra-argumentação de forma efetiva.  A falta de individualização da jurisprudência invocada torna a decisão arbitrária e impede o controle da legalidade da decisão.\n\n**Limitação:**\n\nÉ importante ressaltar que a análise se baseia exclusivamente no contexto normativo fornecido. A ausência de informações sobre a conduta específica do bancário, a natureza do uso indevido das comunicações eletrônicas e a legislação trabalhista aplicável ao caso (como a CLT, que trata de faltas e justa causa) limita a profundidade da análise.  A validade da justa causa em si dependeria da análise da conduta do empregado à luz da legislação e da jurisprudência específicas sobre o tema, o que não é possível com as informações disponíveis. A presente análise foca apenas na questão da fundamentação da decisão judicial.",
+  "tokens_in": 282,
+  "tokens_out": 761,
+  "latency_ms": 41547,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

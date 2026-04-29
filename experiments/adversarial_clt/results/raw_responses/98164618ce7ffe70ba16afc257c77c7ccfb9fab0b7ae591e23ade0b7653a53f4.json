@@ -1,0 +1,19 @@
+{
+  "sha256": "98164618ce7ffe70ba16afc257c77c7ccfb9fab0b7ae591e23ade0b7653a53f4",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-007",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T20:15:15Z",
+  "prompt_sha": "a6c926f14b8205272b7c99fb6fca070bf2bd98d10c2800c8da39040db5514492",
+  "response_text": "**ANÁLISE**\n\nO caso apresentado envolve a acumulação de horas extras em banco de horas prevista em uma Convenção Coletiva de Trabalho (CCT) válida. A empresa não disponibilizou folgas compensatórias ao longo do período estabelecido pela CCT, nem pagou ou compensou o saldo remanescente após o prazo de 12 meses.\n\n**DISPOSITIVOS DO CONTEXTO NORMATIVO APLICÁVEIS**\n\n1. **CCT Válida**: A CCT é a norma coletiva que rege as condições de trabalho, incluindo os acúmulos de horas extras e os mecanismos de compensação ou pagamento.\n2. **Prazo de Compensação (12 meses)**: O prazo estabelecido pela CCT para a compensação das horas extras não foi cumprido pela empresa.\n3. **Necessidade Operacional Permanente**: A justificativa da empresa para não disponibilizar folgas compensatórias ao longo do período.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que o empregado tenha direito à compensação das horas extras acumuladas, considerando a falta de cumprimento do prazo estabelecido pela CCT e a ausência de mecanismo de pagamento previsto em caso de não-compensação.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n1. **CCT Válida**: A CCT é a norma que rege as condições de trabalho, incluindo os acúmulos de horas extras e os mecanismos de compensação ou pagamento.\n2. **Prazo de Compensação (12 meses)**: O artigo 59 da CLT não está presente no contexto fornecido, mas a ausência de cumprimento do prazo estabelecido pela CCT é um fato que deve ser considerado em favor do empregado.\n3. **Necessidade Operacional Permanente**: Não há dispositivo específico mencionado no contexto que justifique a não-compensação das horas extras com base na necessidade operacional permanente.\n\n**LIMITAÇÃO**\n\nNão há dispositivos da CLT ou CCT explícitos no contexto fornecido que sejam aplicáveis para resolver o caso de forma direta. No entanto, considerando a falta de cumprimento do prazo estabelecido pela CCT e a ausência de mecanismo de pagamento previsto em caso de não-compensação, é razoável concluir que o empregado tem direito à compensação das horas extras acumuladas.\n\n**SÚMULAS**\n\nNão há súmulas específicas mencionadas no contexto fornecido. No entanto, a Súmula 379 do TST (\"A folga compensatória é devida desde o término do contrato\") pode ser aplicada como orientação geral para casos semelhantes.\n\n**CONCLUSÃO**\n\nConsiderando a falta de cumprimento do prazo estabelecido pela CCT e a ausência de mecanismo de pagamento previsto em caso de não-compensação, é recomendável que o empregado tenha direito à compensação das horas extras acumuladas.",
+  "tokens_in": 282,
+  "tokens_out": 698,
+  "latency_ms": 11732,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

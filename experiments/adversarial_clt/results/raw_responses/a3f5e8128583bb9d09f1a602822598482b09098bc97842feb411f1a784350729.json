@@ -1,0 +1,27 @@
+{
+  "sha256": "a3f5e8128583bb9d09f1a602822598482b09098bc97842feb411f1a784350729",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T23:57:01Z",
+  "prompt_sha": "14b6f55520b996d23d5c895d459de69f73ca99dfa99a77933f3f5ac637db2f97",
+  "response_text": "1. **ANÁLISE:**\n\n   O predicado normativo aplicável ao caso é \"hour_bank_with_cct_max_1_year\". Este predica estabelece que o banco de horas, conforme previsto em uma Convenção Coletiva de Trabalho (CCT), deve ser limitado a um prazo máximo de 1 ano. No cenário apresentado, a CCT do setor farmacêutico prevê um banco de horas anual renovável automaticamente. Após o término dos 12 meses iniciais, a empresa solicitou uma extensão por mais três meses sem realizar nova negociação coletiva.\n\n   A empresa argumenta que a cláusula de renovação automática cobriria esse período adicional. No entanto, o sindicato contesta essa interpretação, sustentando que qualquer prorrogação além do prazo máximo de 1 ano sem uma nova CCT violaria as normas estabelecidas.\n\n   A análise deve considerar se a renovação automática prevista na CCT pode efetivamente estender o banco de horas além do limite de um ano sem nova negociação coletiva. O TST e a CLT, por meio deste predicado, reforçam que qualquer extensão do banco de horas deve respeitar o prazo máximo de 1 ano, exigindo uma renovação ou nova negociação para períodos adicionais.\n\n2. **DECISÃO RECOMENDADA:**\n\n   A decisão recomendada é que a empresa não pode estender o banco de horas além do período de um ano sem realizar uma nova negociação coletiva e formalizar essa extensão em uma CCT atualizada ou complementar. Portanto, a prorrogação solicitada por mais três meses sem nova negociação viola o limite estabelecido pelo predicado normativo \"hour_bank_with_cct_max_1_year\". A empresa deve cessar imediatamente a aplicação do banco de horas após os 12 meses iniciais e negociar uma nova CCT para qualquer extensão desejada.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violado:** \"hour_bank_with_cct_max_1_year\" – A empresa violou este predicado ao tentar estender o banco de horas além do prazo máximo de 1 ano sem realizar nova negociação coletiva.\n   \n   - **Cumpriu:** Não há evidência no cenário de que a empresa tenha cumprido com o limite de um ano antes da tentativa de extensão, pois a renovação automática não é suficiente para ultrapassar o prazo máximo sem nova negociação.",
+  "tokens_in": 370,
+  "tokens_out": 595,
+  "latency_ms": 17172,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

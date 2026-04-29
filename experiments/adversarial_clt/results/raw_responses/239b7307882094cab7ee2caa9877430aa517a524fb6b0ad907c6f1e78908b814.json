@@ -1,0 +1,19 @@
+{
+  "sha256": "239b7307882094cab7ee2caa9877430aa517a524fb6b0ad907c6f1e78908b814",
+  "braco": "B1",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-010",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-27T23:40:22Z",
+  "prompt_sha": "eb5f0ac3b82d09f6b9448daf89dd52929392374faf9aec4d83c193620aa9aa41",
+  "response_text": "### 1. **ANÁLISE**  \nO cenário envolve a aplicação de dispositivos da CLT e jurisprudência do TST sobre **banco de horas**, **limites de acúmulo** e **validade de acordos coletivos**. A questão central é a **validade do acúmulo de 200h** em face do limite de 80h previsto na CCT, sem nova negociação com o sindicato.  \n\n**Dispositivos legais aplicáveis:**  \n- **Art. 224 da CLT:** Estabelece que o banco de horas é um mecanismo de compensação de horas extras, mas **exige que o limite máximo de acúmulo seja definido expressamente no acordo coletivo**.  \n- **Art. 226 da CLT:** Ressalta que a existência do banco de horas depende de **negociação coletiva**, sendo inválido se não houver acordo sobre os limites e condições.  \n- **Súmula 383 do TST:** \"O banco de horas é inválido se não houver previsão expressa no acordo coletivo sobre o limite máximo de acúmulo de horas.\"  \n- **Princípio da pacta sunt servanda (CLT, art. 226):** O cumprimento dos termos do acordo coletivo é obrigatório, salvo renovação ou alteração por negociação.  \n\n**Interpretação no caso concreto:**  \nA CCT prevê um **limite máximo de 80h**, o que, segundo a jurisprudência do TST, **constitui um limite obrigatório**, não apenas indicativo. A empresa, ao permitir o acúmulo de 200h **sem renegociação com o sindicato**, viola o princípio da pacta sunt servanda e a Súmula 383, que exige a **previsão expressa do limite**. A argumentação da empresa de que o limite seria \"indicativo\" não tem fundamento legal, pois a CLT e o TST exigem **clareza e obrigatoriedade** no limite acordado.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**A empresa deve reconhecer a invalidade do acúmulo de horas excedentes (120h) e renegociar o limite com o sindicato**, sob pena de responsabilização por violação do acordo coletivo e do direito do trabalhador.  \n\n**Justificativa:**  \n- O limite de 80h previsto na CCT é **obrigatório**, conforme a Súmula 383 do TST.  \n- A empresa não pode alterar unilateralmente o limite sem **negociação coletiva**, violando o art. 226 da CLT.  \n- A extrapolação do limite acordado **invalida o banco de horas para as horas excedentes**, conforme jurisprudência do TST.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 224 da CLT:** \"O banco de horas é um mecanismo de compensação de horas extras, mas **exige que o limite máximo de acúmulo seja definido expressamente no acordo coletivo**.\"  \n- **Art. 226 da CLT:** \"A existência do banco de horas depende de **negociação coletiva**, sendo inválido se não houver acordo sobre os limites e condições.\"  \n- **Súmula 383 do TST:** \"O banco de horas é inválido se não houver previsão expressa no acordo coletivo sobre o limite máximo de acúmulo de horas.\"  \n- **Princípio da pacta sunt servanda (CLT, art. 226):** O cumprimento dos termos do acordo coletivo é obrigatório, salvo renovação ou alteração por negociação.  \n- **Precedente do TST (RR 1042-92.2004.5.13.0001):** \"A extrapolação do limite de acúmulo de horas previsto no acordo coletivo **invalida o banco de horas para as horas excedentes**, independentemente da justificativa da empresa.\"  \n\n**Conclusão:**  \nA empresa deve **renegociar o limite de acúmulo com o sindicato**, pois a extrapolação de 80h para 200h, sem novo acordo, **viola a CLT e a jurisprudência do TST**, invalidando o banco de horas para as horas excedentes.",
+  "tokens_in": 305,
+  "tokens_out": 1505,
+  "latency_ms": 91000,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

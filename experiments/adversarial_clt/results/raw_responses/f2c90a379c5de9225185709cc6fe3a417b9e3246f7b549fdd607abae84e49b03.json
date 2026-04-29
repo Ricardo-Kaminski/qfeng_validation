@@ -1,0 +1,19 @@
+{
+  "sha256": "f2c90a379c5de9225185709cc6fe3a417b9e3246f7b549fdd607abae84e49b03",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-006",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T09:37:09Z",
+  "prompt_sha": "f3c84ccbea170369f112d30fe65e9798106cbf631f923ed7cbeb2573c0098f0a",
+  "response_text": "### 1. **ANÁLISE**  \nO caso envolve a aplicação de um **banco de horas** previsto em **CCT (Convenção Coletiva de Trabalho)** do setor de varejo, com compensação de horas extras em até 12 meses. A empresa ofereceu **folga compensatória** durante períodos de baixo movimento, aceita pelos trabalhadores, e todas as compensações ocorreram dentro do prazo estipulado, com **extrato mensal entregue**. A jornada extra nunca ultrapassou **2 horas/dia**, e a CCT previa que o **saldo não compensado** seria pago como **hora extra com adicional de 50%** ao término do prazo — cláusula que **nunca foi acionada**.  \n\n**Dispositivos aplicáveis no contexto:**  \n- **Compensação de horas extras:** A CCT prevê a compensação de horas extras em até 12 meses (como descrito no cenário).  \n- **Folga compensatória:** A empresa ofereceu folga compensatória durante semanas de baixo movimento, aceita pelos trabalhadores.  \n- **Extrato mensal:** A empresa entregou extrato mensal com a compensação, conforme mencionado no cenário.  \n- **Limite de 2h/dia de jornada extra:** A jornada extra nunca ultrapassou 2h/dia, conforme descrito.  \n- **Cláusula de pagamento de saldo não compensado:** A CCT previa que o saldo não compensado seria pago como hora extra com adicional de 50%, mas essa cláusula **não foi acionada**.  \n\n### 2. **DECISÃO RECOMENDADA**  \n**A empresa e os trabalhadores cumprem as condições estabelecidas na CCT**, e **não há irregularidades** no caso descrito. A compensação de horas extras por meio de folga compensatória, dentro do prazo de 12 meses, com extrato mensal entregue, está **em conformidade com a CCT**. A ausência de uso da cláusula de pagamento de saldo não compensado (50% adicional) não gera ônus para a empresa, pois o saldo foi integralmente compensado.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n**Limitação:** O contexto normativo fornecido **não inclui dispositivos legais específicos** (como artigos da CLT, súmulas do TST ou cláusulas da CCT) que possam ser citados para fundamentar a análise. O cenário descrito é **hipotético** e **não contém normas reais** aplicáveis ao caso.  \n\n**Observação:** Em uma análise real, seria necessário consultar:  \n- **Art. 58 da CLT** (compensação de horas extras por folga compensatória).  \n- **Súmula 40 do TST** (compensação de horas extras em até 12 meses).  \n- **Art. 192 da CLT** (limites de jornada extra).  \n- **Súmula 334 do TST** (compensação de horas extras mediante folga).  \n\nNo entanto, **não há referência a esses dispositivos no contexto fornecido**, limitando a fundamentação a apenas a descrição do cenário.",
+  "tokens_in": 310,
+  "tokens_out": 1341,
+  "latency_ms": 83687,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,30 @@
+{
+  "sha256": "02133e090f0ddc480e65ca18606530b1a78937d2d956208562157eed760e4309",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T23:09:59Z",
+  "prompt_sha": "10d9b2fbb4ee509c4f26baa324dc98f4f9ca6d963ab67e38165e303c94f53cd8",
+  "response_text": "### 1. **ANÁLISE**  \n**a) *obligation_to_ground_decision_in_identified_ratio_decidendi***  \nO acórdão do TRT cumpre essa obrigação ao fundamentar a decisão com base nos **itens I, II e V da Súmula TST 85**, que estabelecem que:  \n- **Item I**: O banco de horas sem CCT/ACT é inválido.  \n- **Item II**: A ausência de CCT/ACT implica que as horas trabalhadas são consideradas extraordinárias.  \n- **Item V**: O acordo tácito não substitui a existência de CCT/ACT para a validade do banco de horas.  \nA decisão identifica claramente o *ratio decidendi* (a Súmula TST 85) e aplica-o ao caso concreto, demonstrando que a ausência de CCT/ACT torna o banco de horas inválido e as horas trabalhadas extras.  \n\n**b) *sumula_tst_85_hour_bank_without_cct_invalid***  \nA Súmula TST 85 é diretamente aplicável ao caso, pois:  \n- O banco de horas foi estabelecido **sem CCT/ACT** (item II), o que inviabiliza sua validade (item I).  \n- A empresa tentou invocar o \"acordo tácito\" como justificativa, mas a Súmula TST 85 (item V) **explicitamente afasta essa tese**, afirmando que o acordo tácito **não substitui a existência de CCT/ACT** para a validade do banco de horas.  \n- A ausência de CCT/ACT leva à conclusão de que **todas as horas trabalhadas são extraordinárias**, com direito ao adicional de 50% (item II).  \n\n**c) *due_process_of_law***  \nO acórdão do TRT cumpre o princípio do devido processo legal ao:  \n- **Analisar todos os elementos probatórios** (como a ausência de CCT/ACT e a natureza das horas trabalhadas).  \n- **Rejeitar a tese da empresa** com base em jurisprudência consolidada (Súmula TST 85), evitando decisões arbitrárias.  \n- **Aplicar a lei de forma uniforme**, garantindo que o empregado não tenha sua posição jurídica prejudicada por falhas no processo.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA decisão do TRT está **totalmente alinhada com a legislação e jurisprudência do TST**, e deve ser mantida:  \n- **Invalidar o banco de horas** por ausência de CCT/ACT (Súmula TST 85, item I).  \n- **Reconhecer as horas trabalhadas como extraordinárias**, com pagamento do adicional de 50% (Súmula TST 85, item II).  \n- **Rejeitar a tese da empresa** de \"acordo tácito\", pois a Súmula TST 85 (item V) **não admite essa justificativa** para a validade do banco de horas.  \n- **Condenar a empresa** ao pagamento das horas extras e eventuais multas por violação da CLT (art. 7º, XIII, e art. 58 da CLT).  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Cumpridos**:  \n  - *obligation_to_ground_decision_in_identified_ratio_decidendi* (a decisão fundamenta-se claramente na Súmula TST 85).  \n  - *sumula_tst_85_hour_bank_without_cct_invalid* (a aplicação da Súmula TST 85 está correta e completa).  \n  - *due_process_of_law* (o TRT seguiu os trâmites legais e jurisprudenciais).  \n\n- **Violados**:  \n  - **Nenhum**. Todos os predicados normativos foram **cumpridos** no cenário descrito. A empresa, ao estabelecer banco de horas sem CCT/ACT, violou a CLT e a jurisprudência do TST, mas **os predicados normativos aplicáveis ao acórdão foram respeitados**.  \n\n--- \n\n**Conclusão**: A decisão do TRT está **totalmente conforme com a legislação e jurisprudência**, e não há violação dos predicados normativos listados. A empresa deve ser condenada por violar a CLT e a Súmula TST 85.",
+  "tokens_in": 406,
+  "tokens_out": 1491,
+  "latency_ms": 45842,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

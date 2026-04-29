@@ -1,0 +1,26 @@
+{
+  "sha256": "282163183adc6a63456ffd2a2b89595002bd4ff6121ea19f7e1f1d8b8902db38",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CTRL-NEG-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T23:31:59Z",
+  "prompt_sha": "8878dc2d9f7cf9a0114687aa1266b009f3a08a32602082365158196ffb12806c",
+  "response_text": "### 1. **ANÁLISE: Aplicação dos predicados normativos ao caso concreto**  \n- **obligation_to_ground_decision_in_identified_ratio_decidendi**:  \n  O acórdão cumpre integralmente essa obrigação, pois:  \n  - Identifica **explicitamente** o número do precedente (TST-Ag-RR-868-65.2021.5.13.0030);  \n  - Transcreve a **ementa** do precedente;  \n  - Analisa a **compatibilidade fática** entre o caso em julgamento (banco de horas em CCT bancária) e o precedente;  \n  - Aplica a **ratio decidendi** do precedente ao caso concreto, explicando por que o caso se enquadra na hipótese do precedente.  \n  Isso demonstra que a decisão está fundamentada em uma **base jurídica verificável e identificada**, conforme exigido pela CLT e jurisprudência do TST.  \n\n- **stf_tema1046_binding_precedent_applied**:  \n  O acórdão está alinhado ao **Tema 1046 do STF**, que estabelece a **obrigatoriedade do uso de precedentes vinculantes do TST** em casos semelhantes.  \n  - A aplicação do precedente (TST-Ag-RR-868-65.2021.5.13.0030) ao caso concreto é **compatível com a jurisprudência consolidada**, garantindo **uniformidade e segurança jurídica**.  \n  - Não há menção a precedentes inexistentes ou incompatíveis, o que evita a **violação do princípio da vinculação**.  \n\n- **due_process_of_law**:  \n  O acórdão respeita o **devido processo legal**, pois:  \n  - A análise do caso foi **minuciosa**, com transcrição do precedente e verificação de sua aplicabilidade;  \n  - Não há **omissão de fundamentação** ou **decisão arbitrária**;  \n  - A aplicação do precedente foi **justificada com base em critérios objetivos** (compatibilidade fática e jurídica), garantindo **transparência e imparcialidade**.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA decisão **deve ser mantida**, pois:  \n- Cumpre **todos os requisitos legais e jurisprudenciais** estabelecidos pela CLT e pelo TST;  \n- Aplica corretamente o **precedente vinculante** (TST-Ag-RR-868-65.2021.5.13.0030) ao caso concreto, observando a **ratio decidendi** e a **compatibilidade fática**;  \n- Garante **devido processo legal**, com fundamentação clara e verificável.  \nA ausência de **violações normativas** e a **adequação ao direito material e processual do trabalho** justificam a manutenção da decisão.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Cumpridos (conformidade)**:  \n  - **obligation_to_ground_decision_in_identified_ratio_decidendi** (a decisão está fundamentada em precedente identificado e verificável);  \n  - **stf_tema1046_binding_precedent_applied** (o precedente vinculante foi aplicado corretamente ao caso);  \n  - **due_process_of_law** (o devido processo legal foi respeitado com análise detalhada e fundamentação objetiva).  \n\n- **Violações**:  \n  - **Nenhuma violação** foi identificada. Todos os predicados normativos listados foram **cumpridos** no cenário descrito.",
+  "tokens_in": 410,
+  "tokens_out": 1304,
+  "latency_ms": 41187,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

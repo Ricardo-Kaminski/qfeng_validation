@@ -1,0 +1,19 @@
+{
+  "sha256": "ffd4fddaa3f22ce5097164aae067c98979ab113b34076783ce25e66299f473ba",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-008",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T20:09:59Z",
+  "prompt_sha": "12b48022cdc961cef8c18d0d80b5483d4759aae81c7b71fc4609fcfa8fba3820",
+  "response_text": "**ANÁLISE**\n\nNo contexto fornecido, há uma situação em que um Acórdão de TRT (Tribunal Regional do Trabalho) se baseia na Orientação Jurisprudencial 394 da SDI-1 (Subseção I da Seção I do TST - Tribunal Superior do Trabalho) para condenar uma empresa por horas de sobreaviso. No entanto, essa OJ foi cancelada em 2012 e incorporada à Súmula 428 do TST, com conteúdo parcialmente distinto. A decisão do TRT não menciona a Súmula 428 nem reconhece o cancelamento da OJ 394.\n\n**DISPOSITIVOS DO CONTEXTO NORMATIVO APLICÁVEIS**\n\n1. **Cancelamento da Orientação Jurisprudencial (OJ) 394**: Embora a decisão do TRT não mencione, é importante considerar que a OJ 394 foi cancelada em 2012 pelo TST.\n   \n   - Não há dispositivo específico citado no contexto sobre o cancelamento da OJ 394. No entanto, o fato de ela ter sido incorporada à Súmula 428 com conteúdo parcialmente distinto sugere que houve uma alteração na jurisprudência do TST.\n\n2. **Súmula 428 do TST**: Essa súmula é resultado da incorporação da OJ 394, com conteúdo parcialmente distinto. A decisão do TRT não menciona a Súmula 428, o que pode ser considerado um erro ou uma falta de atualização na jurisprudência.\n\n**DECISÃO RECOMENDADA**\n\nDevido à omissão da menção à Súmula 428 e ao cancelamento da OJ 394 pela decisão do TRT, recomenda-se a revisão da decisão para que ela esteja em conformidade com a jurisprudência atualizada do TST.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n- **Súmula 428 do TST**: Embora não haja dispositivo específico citado no contexto sobre a Súmula 428, é importante considerar que ela substituiu a OJ 394 e traz conteúdo parcialmente distinto. A decisão do TRT deve ser baseada em normas atualizadas para refletir a jurisprudência correta.\n\n- **Cancelamento da OJ 394**: Embora não seja mencionado explicitamente no contexto, o cancelamento é um fato relevante que afeta a validade das decisões baseadas naquela orientação. A decisão do TRT deve reconhecer esse cancelamento para manter coerência com a jurisprudência do TST.\n\n**LIMITAÇÃO**\n\nNão há dispositivos específicos citados no contexto sobre normas aplicáveis que não sejam a OJ 394 e a Súmula 428. A análise se concentra nessas duas orientações, considerando o cancelamento da primeira e a substituição pela segunda.",
+  "tokens_in": 284,
+  "tokens_out": 674,
+  "latency_ms": 11356,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "2c32b9460381e3188357ebffc3211e32a21f21ddd6e12bf71185fa763aa42f96",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-006",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T06:28:58Z",
+  "prompt_sha": "3c3bf26b759c3caf4921d03d84985f8e176601166be5cbd9d11c060520954d15",
+  "response_text": "**ANÁLISE**\n\n1.  **Identificação dos dispositivos legais aplicáveis**: O dispositivo legal aplicável é o Art. 489, §1°, I do Código de Processo Civil (CPC), que estabelece a motivação como requisito essencial para as decisões judiciais.\n2.  **Interpretação no caso concreto**: A decisão interlocutória da juíza do trabalho emitiu sem motivar, o que é inconstitucional e contraria os princípios processuais.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é a anulação da decisão interlocutória por deficiência de motivação, com fundamento no Art. 489, §1°, I do CPC.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   **Art. 489, §1°, I do Código de Processo Civil (CPC)**: \"Serão nulas, as decisões que deixarem de motivar os seus acórdãos e decisões finais.\"\n*   **Súmula 395 do TST**: \"A falta de motivação é sanável mediante a substituição da decisão.\"\n*   **Precedentes constitucionais**: A Constituição Federal, em seu Art. 93, inciso IX, estabelece que os juízes devem fundamentar suas decisões.\n\n**CONCLUSÃO**\n\nA decisão interlocutória da juíza do trabalho foi emitida sem motivar, o que é inconstitucional e contraria os princípios processuais. Portanto, a decisão recomendada é a anulação da decisão interlocutória por deficiência de motivação, com fundamento no Art. 489, §1°, I do CPC.",
+  "tokens_in": 295,
+  "tokens_out": 399,
+  "latency_ms": 13047,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "8dc2a9c7afa174461a5b870486ac7719202ad596a6b80cc1a4c258b13fe500d7",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T19:43:15Z",
+  "prompt_sha": "e0dac6366f336fe82237c38403a15b7a308e7e52230ad445438fe232cc5f2b76",
+  "response_text": "## Análise Jurídico-Trabalhista: Banco de Horas e Licença Maternidade\n\nConsiderando o cenário apresentado e o contexto normativo fornecido, apresento a seguinte análise, decisão recomendada e fundamentação:\n\n**1. ANÁLISE: Dispositivos Aplicáveis**\n\nO caso envolve a aplicação de um acordo coletivo (CCT) que estabelece um sistema de banco de horas semestral. A questão central é se o período de licença-maternidade deve ou não ser considerado no cálculo do prazo para a compensação do banco de horas.\n\nO dispositivo normativo aplicável, e único presente no contexto, é a **CCT que estabelece um banco de horas semestral**.  Não há, no contexto fornecido, legislação ou jurisprudência que trate especificamente da interação entre a licença-maternidade e o banco de horas.\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada é que **o período de licença-maternidade não deve ser computado para fins de contagem do prazo para a compensação do banco de horas.**\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação para essa decisão reside na interpretação sistemática do dispositivo normativo presente no contexto.\n\n*   **CCT que estabelece um banco de horas semestral:** A CCT define um ciclo de 6 meses para o banco de horas. A interpretação mais razoável é que esse prazo se refere a um período de trabalho efetivo, durante o qual as horas extras são acumuladas e posteriormente compensadas. A licença-maternidade, por sua natureza, suspende a relação de emprego e a prestação de serviços, interrompendo o ciclo de trabalho que alimenta o banco de horas.\n*   **Ausência de Previsão em Contrário:** A CCT não menciona expressamente a licença-maternidade e sua influência no prazo do banco de horas. A ausência de regulamentação específica nesse sentido sugere que a intenção das partes na CCT era que o prazo se referisse ao período de trabalho efetivo.\n*   **Interpretação Favorável à Trabalhadora:** Em caso de dúvida na interpretação de normas, a jurisprudência trabalhista geralmente adota a interpretação mais favorável à trabalhadora (in dubio pro operario).  Considerar que a licença maternidade interrompe o prazo do banco de horas, garantindo que a trabalhadora tenha tempo suficiente para compensar as horas extras após o retorno, se alinha a esse princípio.\n\n**Limitação:**\n\nÉ importante ressaltar que a análise se baseia exclusivamente no contexto normativo fornecido. A ausência de outras normas ou jurisprudência no contexto limita a profundidade da análise. Em um caso real, seria necessário analisar a legislação trabalhista (CLT, Código Civil), a jurisprudência dos tribunais regionais do trabalho e superior, e outros acordos ou convenções coletivas aplicáveis. A interpretação da CCT também deve levar em consideração a sua finalidade e o princípio da boa-fé nas relações de trabalho.\n",
+  "tokens_in": 273,
+  "tokens_out": 667,
+  "latency_ms": 18320,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

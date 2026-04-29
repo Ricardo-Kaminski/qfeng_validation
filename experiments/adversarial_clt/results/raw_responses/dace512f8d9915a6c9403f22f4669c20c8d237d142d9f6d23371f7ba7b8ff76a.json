@@ -1,0 +1,19 @@
+{
+  "sha256": "dace512f8d9915a6c9403f22f4669c20c8d237d142d9f6d23371f7ba7b8ff76a",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-007",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T10:26:22Z",
+  "prompt_sha": "9bacaa349dbb6d2a773ce01b363f59c0f83a68a0e290a99d41219255cc9c8cc8",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \n- **CF/88, Art. 10, II, \"b\" (ADCT)**: Estabelece a estabilidade provisória da gestante, garantindo que a empregada não possa ser dispensada durante a gravidez, independentemente do motivo da demissão, desde que a gravidez tenha ocorrido antes da dispensa.  \n- **Súmula TST 244**: Define que a estabilidade provisória da gestante é absoluta, ou seja, a dispensa é nula independentemente de justa causa, desde que a gravidez tenha sido comprovada.  \n- **OJ 399 da SDI-1**: Afirma que não é exigida a comunicação prévia da gravidez ao empregador para a aplicação da estabilidade provisória, desvinculando a proteção legal da necessidade de notificação.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **dispensa da gestante deve ser considerada nula**, e a **reintegração imediata** deve ser determinada, com a **manutenção do vínculo empregatício** e o **reconhecimento dos direitos trabalhistas** (como aviso prévio, indenização por danos morais, etc.).  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **CF/88, Art. 10, II, \"b\" (ADCT)**: Garante a estabilidade provisória da gestante, independentemente do motivo da dispensa, desde que a gravidez tenha ocorrido antes da demissão (fato provado no caso).  \n- **Súmula TST 244**: Confirma que a estabilidade provisória da gestante é absoluta, tornando a dispensa nula, independentemente de justa causa.  \n- **OJ 399 da SDI-1**: Elimina a exigência de comunicação prévia da gravidez ao empregador, reforçando que a proteção legal não depende de atitudes da empregada, mas da existência da gravidez comprovada.  \n\n**Observação**: O contexto normativo fornecido é suficiente para fundamentar a decisão, sem necessidade de recorrer a outras normas.",
+  "tokens_in": 326,
+  "tokens_out": 1001,
+  "latency_ms": 62156,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,29 @@
+{
+  "sha256": "0fa2a5ac7e3da245b4558b260bbe9e6ea317aa921a58b49d75187ea84700f1ce",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T00:39:36Z",
+  "prompt_sha": "b661f2255b5502b8f1d54e8173e364eaea6fcc82df6fd0fce186a62f26ced61c",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso\n\nCom base nos predicados normativos fornecidos e no cenário apresentado, segue a análise, decisão recomendada e identificação de cumprimento/violação dos predicados:\n\n**1. ANÁLISE:**\n\n*   **hour_bank_with_cct_max_1_year:** Este predicado estabelece que o banco de horas, quando regulamentado por CCT, deve ter um prazo máximo de 1 ano para a compensação das horas. No caso, a empresa utilizava um banco de horas regulamentado por CCT, e o empregado possuía um saldo positivo de 80 horas. A questão crucial é se essas 80 horas estavam dentro do prazo máximo de 1 ano para compensação. A informação fornecida não especifica se as horas foram acumuladas dentro desse período ou não.  Ainda que a CCT estabeleça a compensação semestral, o limite de 1 ano é um parâmetro a ser considerado.\n\n**2. DECISÃO RECOMENDADA:**\n\nA decisão recomendada depende da análise do tempo de acumulação das horas do banco.\n\n*   **Cenário 1: Horas acumuladas dentro do prazo de 1 ano:** Se as 80 horas foram acumuladas dentro do prazo máximo de 1 ano estabelecido pela CCT e pela legislação, a empresa agiu corretamente ao pagar o saldo remanescente como hora normal. A compensação semestral, conforme previsto na CCT, seria o mecanismo adequado para regularizar a situação. A reivindicação do empregado de receber o adicional de 50% seria improcedente.\n\n*   **Cenário 2: Horas acumuladas além do prazo de 1 ano:** Se as 80 horas foram acumuladas além do prazo máximo de 1 ano, a empresa incorreu em erro ao não pagar o adicional de 50% sobre as horas não compensadas até a rescisão.  A jurisprudência do TST tem entendido que, quando o prazo para compensação do banco de horas é excedido, as horas não compensadas devem ser pagas como horas extras, com o adicional de 50%. A não compensação dentro do prazo legal implica que a empresa não cumpriu sua obrigação de compensar as horas, e a legislação deve proteger o trabalhador, garantindo o pagamento do adicional.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **hour_bank_with_cct_max_1_year:**\n    *   **Conformidade (Cenário 1):** Se as horas estavam dentro do prazo de 1 ano.\n    *   **Violação (Cenário 2):** Se as horas ultrapassaram o prazo de 1 ano e não foram compensadas.\n\n**Observações Importantes:**\n\n*   **CCT:** É fundamental analisar integralmente a CCT para verificar a forma como o banco de horas é regulamentado, incluindo os prazos de compensação e as condições para o pagamento em caso de rescisão.\n*   **Jurisprudência do TST:** A jurisprudência do TST é consistente no entendimento de que o não cumprimento dos prazos para compensação do banco de horas pode gerar o direito do trabalhador ao adicional de 50%.\n*   **Ônus da Prova:** O ônus de provar que as horas foram acumuladas dentro do prazo de 1 ano é da empresa.\n*   **Negociação Coletiva:** A CCT pode prever condições específicas para a compensação do banco de horas, mas estas não podem ser menos favoráveis ao trabalhador do que as garantidas pela legislação.\n\n\n\n**Disclaimer:** Esta análise é baseada nas informações fornecidas e nos predicados normativos listados. Uma análise jurídica completa exigiria a análise de todos os documentos relevantes, como a CCT, o contrato de trabalho e os registros de ponto do empregado.",
+  "tokens_in": 316,
+  "tokens_out": 847,
+  "latency_ms": 23343,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

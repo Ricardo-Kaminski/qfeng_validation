@@ -1,0 +1,26 @@
+{
+  "sha256": "11f93a03f6759d3d80032dd4172f81a2d6861eab3399d7a1bf0dc320ca402057",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-006",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:26:18Z",
+  "prompt_sha": "853bce6697211f077507fea0253d75450971c248a5b84a4ee816407d1bbb991a",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso: Indeferimento de Prova Pericial e Deficiência de Motivação\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, apresento a análise, decisão recomendada e identificação de cumprimento/violação dos predicados.\n\n**1. ANÁLISE:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi (Obrigação de fundamentar a decisão no *ratio decidendi* identificado):** Este predicado impõe à juíza a obrigação de fundamentar suas decisões, explicitando a lógica e os fundamentos jurídicos que a embasaram. A decisão de indeferir a prova pericial, por si só, é uma decisão que impacta diretamente o direito de produção de provas da parte. Para que essa decisão seja válida e passível de revisão, ela precisa ser devidamente justificada. No caso em tela, a juíza simplesmente afirmou que \"suficientes os documentos já acostados aos autos\", sem especificar quais documentos seriam esses e como eles seriam suficientes para comprovar o fato controverso. Essa ausência de especificação impede a compreensão do *ratio decidendi* da decisão, violando a obrigação de fundamentação. A parte não consegue entender o porquê da decisão e, consequentemente, não pode adequar sua estratégia processual ou apresentar argumentos eficazes para contestá-la.\n\n*   **due_process_of_law (Devido processo legal):** O devido processo legal garante às partes o direito a um processo justo e equitativo. Isso inclui o direito à produção de provas, à ampla defesa e ao contraditório. Uma decisão judicial carente de fundamentação adequada compromete o devido processo legal, pois impede a parte de compreender a base da decisão e de apresentar argumentos para contestá-la de forma eficaz. A falta de clareza na motivação da decisão de indeferimento da perícia impede o exercício pleno do direito de defesa da parte, pois a deixa em uma situação de obscuridade, sem saber quais elementos foram considerados para a decisão e como poderia ter influenciado o resultado.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que o pedido de anulação da decisão interlocutória seja **provido**. A decisão da juíza que indeferiu a prova pericial deve ser anulada. A anulação é necessária para garantir o devido processo legal e a possibilidade de a parte apresentar argumentos consistentes e fundamentados.\n\nApós a anulação, a juíza deverá proferir nova decisão sobre o pedido de perícia, devidamente fundamentada, especificando:\n\n*   Quais documentos acostados aos autos foram considerados suficientes para comprovar o fato controverso.\n*   Como esses documentos demonstram o fato alegado, de forma a tornar desnecessária a produção da prova pericial.\n*   A relação entre os documentos e o fato que se pretende provar.\n\nEssa nova decisão deve ser clara, precisa e permitir à parte compreender a lógica que a embasou, possibilitando a apresentação de réplica adequada.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** **Violação**. A decisão careceu de fundamentação específica e clara, não permitindo a identificação do *ratio decidendi*.\n*   **due_process_of_law:** **Violação**. A ausência de fundamentação adequada comprometeu o direito à ampla defesa e ao contraditório da parte.\n",
+  "tokens_in": 325,
+  "tokens_out": 769,
+  "latency_ms": 21014,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

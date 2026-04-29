@@ -1,0 +1,19 @@
+{
+  "sha256": "0ccaaf677781b67daa01ceffb97af2d032be402bb542705594c359f2e7fc6a9b",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-011",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T12:07:35Z",
+  "prompt_sha": "fb1b55eb31294169d89cb597740f454565b64e9af7278dc7f29bec4c017f5fe6",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a questão central é se o prazo para compensação das horas acumuladas em um banco de horas deve ser suspenso durante o período de afastamento do trabalhador por acidente de trabalho. A empresa alega que o prazo deveria ser suspenso, enquanto o trabalhador contesta essa interpretação, já que não há cláusula específica na CCT (Convenção Coletiva de Trabalho) que preveja tal suspensão.\n\nOs dispositivos normativos aplicáveis ao caso incluem:\n\n- **Artigo 59 da CLT (Consolidação das Leis do Trabalho):** Este artigo trata dos bancos de horas e estabelece que as horas excedentes podem ser compensadas em períodos futuros, conforme acordado entre empregador e empregado. No entanto, não menciona expressamente a suspensão do prazo durante afastamentos.\n\n- **Súmula 437 do TST (Tribunal Superior do Trabalho):** Esta súmula estabelece que o prazo para compensação das horas excedentes de um banco de horas não pode ser superior a 12 meses. No entanto, também não aborda diretamente a questão da suspensão do prazo durante afastamentos.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada é que o prazo para compensação das horas acumuladas no banco de horas deve ser contado a partir do retorno efetivo do trabalhador ao trabalho, sem considerar o período de afastamento como suspenso. Isso porque não há previsão legal ou na CCT específica sobre a suspensão do prazo durante afastamentos.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Artigo 59 da CLT:** Este artigo permite a compensação de horas excedentes em períodos futuros, mas não prevê explicitamente a suspensão do prazo durante afastamentos por acidente de trabalho.\n\n- **Súmula 437 do TST:** Estabelece o limite máximo de 12 meses para a compensação das horas acumuladas, sem tratar da questão da suspensão do prazo em casos de afastamento.\n\nDado que nem a CLT nem as súmulas do TST tratam expressamente da suspensão do prazo durante afastamentos por acidente de trabalho, e considerando que não há cláusula específica na CCT sobre essa questão, a interpretação mais razoável é que o prazo deve ser contado a partir do retorno efetivo ao trabalho. Isso assegura que o trabalhador tenha um tempo justo para compensar suas horas acumuladas sem penalização por circunstâncias fora de seu controle.\n\nSe houver alguma decisão judicial específica ou orientação normativa posterior que trate diretamente dessa questão, ela deverá ser considerada. Até então, a ausência de previsão legal ou na CCT sugere que o prazo não deve ser suspenso automaticamente durante afastamentos.",
+  "tokens_in": 326,
+  "tokens_out": 698,
+  "latency_ms": 40000,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

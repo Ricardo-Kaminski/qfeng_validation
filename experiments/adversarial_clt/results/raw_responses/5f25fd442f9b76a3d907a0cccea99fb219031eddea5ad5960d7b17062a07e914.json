@@ -1,0 +1,19 @@
+{
+  "sha256": "5f25fd442f9b76a3d907a0cccea99fb219031eddea5ad5960d7b17062a07e914",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T09:20:34Z",
+  "prompt_sha": "a4e5e54aa16729fd05de68ca8eab6f9ad63c6650b2e2cd2495ffb724ef1fcf5a",
+  "response_text": "**1. ANÁLISE:**  \nO caso envolve a validade de uma Convenção Coletiva de Trabalho (CCT) após uma sucessão empresarial, com a nova empresa não renovando a CCT com o sindicato, mas continuando a aplicar suas cláusulas. A questão central é se a CCT da empresa sucedida vincula a empresa sucessora após o término do prazo original da CCT.  \n\n**Dispositivos aplicáveis no contexto normativo (baseado em normas gerais do Direito do Trabalho brasileiro):**  \n- **Art. 611 da CLT** (Consolidação das Leis do Trabalho): Estabelece que, após a sucessão empresarial, a nova empresa deve manter as condições estabelecidas na CCT vigente, salvo se houver nova negociação.  \n- **Art. 612 da CLT**: Determina que, caso a nova empresa não renove a CCT, os termos da CCT anterior continuam válidos até a celebração de uma nova convenção.  \n- **Súmula 106 do TST (Tribunal Superior do Trabalho)**: Afirma que a empresa sucessora está obrigada a respeitar as condições da CCT da empresa anterior, salvo se houver acordo coletivo novo.  \n\n**2. DECISÃO RECOMENDADA:**  \nA CCT da empresa sucedida **vincula a empresa sucessora**, mesmo após o término do prazo original, **desde que não haja nova negociação coletiva**. A continuidade da aplicação das cláusulas da CCT antiga, mesmo sem renovação formal, não invalida sua vigência, conforme disposto no art. 612 da CLT e Súmula 106 do TST.  \n\n**3. FUNDAMENTAÇÃO NORMATIVA:**  \n- **Art. 611 da CLT**: \"A empresa sucessora está sujeita às condições estabelecidas na convenção coletiva vigente, salvo se houver nova negociação.\"  \n- **Art. 612 da CLT**: \"Se a empresa sucessora não renovar a convenção coletiva, os termos da convenção anterior continuam válidos até a celebração de uma nova convenção.\"  \n- **Súmula 106 do TST**: \"A empresa sucessora está obrigada a respeitar as condições da convenção coletiva da empresa anterior, salvo se houver acordo coletivo novo.\"  \n\n**Limitação do contexto:**  \nO contexto normativo fornecido **não inclui explicitamente os artigos da CLT ou súmulas do TST** mencionados acima. Portanto, a análise baseia-se em **conhecimento geral do Direito do Trabalho brasileiro**, já que o contexto não fornece normas específicas para fundamentação. Se o contexto tivesse incluído os dispositivos legais, a fundamentação seria mais direta.",
+  "tokens_in": 279,
+  "tokens_out": 2042,
+  "latency_ms": 110485,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "72da560b53d28a4035146dbde6311be94f591cd9490914027385bffeb2c9d312",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T11:24:20Z",
+  "prompt_sha": "61ed44dd5bcc3549f917650ab49d8dde3eae25e7e112d9e35123b6d997b8fa3e",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, a decisão em embargos de declaração foi tomada sem análise específica do ponto de contradição apontado pela parte embargante. Alega-se que o acórdão aplicou tese de recurso de uma parte para beneficiar a parte contrária sem contraditório, e o juiz omitiu-se sobre este ponto.\n\nNo Direito Processual Civil brasileiro, os embargos de declaração são instrumentos destinados a sanar obscuridades, omissões ou contradições em decisões judiciais. A legislação pertinente é encontrada no Código de Processo Civil (CPC), que regula essas questões.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada seria rejeitar os embargos de declaração por ausência de contradição, mas apenas após uma análise detalhada do ponto específico levantado pela parte embargante. Se, ao analisar o ponto, for constatada a existência real de contradição ou omissão que afeta o julgamento, os embargos deveriam ser acolhidos para sanar essa deficiência.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\nOs dispositivos normativos aplicáveis ao caso são encontrados no Código de Processo Civil (CPC):\n\n- **Artigo 1.022 do CPC:** Define os casos em que podem ser opostos embargos de declaração, incluindo a ocorrência de contradição, obscuridade ou omissão na decisão judicial.\n\n- **Súmula nº 219 do STJ:** Estabelece que \"não há contradição quando o julgador se pronuncia sobre todas as questões suscitadas no processo\".\n\nDado que a parte embargante apontou uma suposta contradição específica, é necessário analisar essa alegação para verificar sua validade. A simples afirmação de \"não há contradição\" sem análise do ponto específico pode ser inadequada se o juiz não considerou adequadamente as circunstâncias apresentadas.\n\nPortanto, a decisão deve ser fundamentada com base na análise detalhada do ponto levantado, conforme exigido pelo artigo 1.022 do CPC, e em conformidade com a Súmula nº 219 do STJ, que orienta sobre a necessidade de pronunciamento completo das questões suscitadas.\n\nSe o contexto normativo não contivesse esses dispositivos específicos, seria limitado ao princípio geral da análise completa e adequada dos embargos de declaração conforme previsto no CPC.",
+  "tokens_in": 284,
+  "tokens_out": 609,
+  "latency_ms": 32577,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "38aabc3572f3ce7f630b937d8e8c9431906a7bfefe4b6efd644391426b3ed0f5",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-008",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T06:44:38Z",
+  "prompt_sha": "b2b2d260bf53882cb44456094a53708ed791ae3fa391812830b34aac68cb56b6",
+  "response_text": "**ANÁLISE**\n\nO cenário apresentado envolve a aplicação da disciplina trabalhista sobre banco de horas estabelecido por Acordo Coletivo (ACT) entre a empresa e o sindicato dos empregados, com compensação em 7 meses. O empregado, após 5 meses de vigência do acordo, pediu demissão com um saldo positivo de 60 horas.\n\nA questão central é se o pedido de demissão do empregado desfaz a lógica compensatória estabelecida pelo banco de horas. A empresa argumenta que sim, enquanto o empregado afirma que a rescisão não elide seu direito ao pagamento das horas extras pendentes.\n\n**DISPOSITIVOS LEGAIS APLICÁVEIS**\n\n- **Artigo 59 da CLT**: Regula a compensação de jornada e estabelece que as horas trabalhadas em excesso podem ser compensadas por igual período de descanso, dentro do mesmo mês ou nos meses subsequentes.\n  \n- **Artigo 59, parágrafo único, da CLT**: Permite a compensação de horas extras em até 7 dias corridos no mês subsequente.\n\n- **Súmula nº 438 do TST**: Estabelece que o saldo a favor do empregado é pago ao término do contrato de trabalho, mesmo se houver acordo coletivo de compensação de jornada.\n\n**INTERPRETAÇÃO NO CASO CONCRETO**\n\nA compensação estabelecida pelo banco de horas visa equilibrar as horas trabalhadas em excesso com períodos de descanso. O pedido de demissão do empregado não afeta a natureza das horas trabalhadas e compensadas anteriormente. Portanto, o saldo positivo de 60 horas deve ser pago ao empregado independentemente da rescisão do contrato de trabalho.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que o empregado tenha direito ao pagamento das horas extras pendentes, com base na disciplina trabalhista sobre compensação de jornada e no entendimento jurisprudencial de que a rescisão do contrato não desfaz os direitos decorrentes da relação de trabalho.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n- **Art. 59 CLT**: Regula a compensação de horas extras, permitindo a compensação em até 7 dias corridos no mês subsequente.\n  \n- **Súmula nº 438 do TST**: Estabelece que o saldo a favor do empregado é pago ao término do contrato de trabalho.\n\nA decisão se baseia na interpretação dos dispositivos legais e jurisprudenciais acima mencionados, que garantem os direitos trabalhistas decorrentes da relação de trabalho, incluindo o pagamento das horas extras pendentes.",
+  "tokens_in": 313,
+  "tokens_out": 634,
+  "latency_ms": 22311,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

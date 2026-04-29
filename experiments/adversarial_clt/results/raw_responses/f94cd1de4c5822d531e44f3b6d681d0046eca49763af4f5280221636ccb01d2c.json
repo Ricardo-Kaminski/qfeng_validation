@@ -1,0 +1,19 @@
+{
+  "sha256": "f94cd1de4c5822d531e44f3b6d681d0046eca49763af4f5280221636ccb01d2c",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-012",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T20:11:59Z",
+  "prompt_sha": "010a064866f5ea0c4b62f002bb79c2c7d6aba595a7194825470e549ee36b292d",
+  "response_text": "**ANÁLISE**\n\nO caso apresentado envolve a utilização de precedente do STJ em uma ação trabalhista para embasar tese sobre dano moral, sem considerar a compatibilidade com o regime jurídico trabalhista. A questão central é a aplicabilidade da responsabilidade civil extracontratual no contexto das leis trabalhistas específicas.\n\n**DISPOSITIVOS DO CONTEXTO NORMATIVO APLICÁVEIS**\n\n1. **Lei nº 13.467/2017 (Reforma Trabalhista)**: Esta lei é crucial para a análise, pois trouxe alterações significativas no regime jurídico trabalhista, incluindo critérios de fixação de dano moral.\n   \n   - **Artigo 1º da Lei nº 13.467/2017**: Este artigo estabelece que a lei processual do trabalho tem aplicação imediata, mas não se aplica às demandas já ajuizadas à data de sua publicação, o que pode afetar a aplicabilidade das novas regras de dano moral.\n\n2. **CLT (Consolidação das Leis do Trabalho)**: A CLT é a principal fonte normativa do Direito Trabalhista brasileiro. Após a Reforma de 2017, ela foi alterada para incluir novos critérios sobre dano moral.\n\n   - **Artigo 186 da CLT**: Este artigo estabelece a responsabilidade civil por danos causados a terceiros, incluindo dano moral.\n   \n   - **Artigo 927 da CLT**: Este artigo trata das obrigações contratuais e pode ser relevante para a fixação de dano moral.\n\n3. **Precedentes do STJ (Superior Tribunal de Justiça)**: Embora o precedente civil seja citado, é importante verificar se há compatibilidade com as leis trabalhistas específicas.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada seria a de não aplicar o precedente civil do STJ sem discutir a compatibilidade com o regime jurídico trabalhista, especialmente considerando os critérios de fixação de dano moral estabelecidos na CLT após a Reforma de 2017. Isso porque as leis trabalhistas têm regras específicas sobre dano moral que podem não ser coincidentes com as regras civis.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n- A aplicação do precedente civil sem considerar a compatibilidade com o regime jurídico trabalhista pode levar a decisões contrárias às normas específicas da CLT, como estabelecido no **Artigo 1º da Lei nº 13.467/2017**.\n- A fixação de dano moral deve seguir os critérios estabelecidos na **CLT**, especialmente após a Reforma de 2017, o que pode não ser coincidente com as regras civis.\n- O **Artigo 186 da CLT** e o **Artigo 927 da CLT** são relevantes para a responsabilidade civil por danos causados a terceiros, incluindo dano moral.\n\n**LIMITAÇÃO**\n\nO contexto não contém norma específica sobre a aplicação de precedentes civis em ações trabalhistas. No entanto, a análise deve considerar as leis trabalhistas específicas e os critérios de fixação de dano moral estabelecidos após a Reforma de 2017.",
+  "tokens_in": 279,
+  "tokens_out": 781,
+  "latency_ms": 13023,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "cfc3f8d8bb772ee748a4b597bc36e81550a664a672910d11281a9670e8ec092c",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-009",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T10:34:27Z",
+  "prompt_sha": "7f441830040caace0b0adfa677c7ecf354c20eb769b074f7362124a811db0c0a",
+  "response_text": "### 1. **ANÁLISE**  \nO caso envolve a aplicação equivocada da **Súmula TST 85 (V)**, que estabelece que, **em caso de banco de horas sem Convenção Coletiva de Trabalho (CCT)**, as horas acumuladas devem ser consideradas **horas extras**, com o **adicional de 50%**, conforme previsto no art. 66 da CLT. A decisão judicial citou corretamente a Súmula TST 85, mas **não aplicou a consequência jurídica prevista no inciso V** da súmula, que exige o pagamento das horas com adicional de 50%, **não como hora normal**.  \n\n### 2. **DECISÃO RECOMENDADA**  \nA decisão deve **reconhecer o caráter de horas extras** das horas acumuladas no banco de 7 meses, **obrigando o pagamento com adicional de 50%**, conforme disposto na **Súmula TST 85 (V)**. A aplicação do adicional é **obrigatória** em casos de banco de horas sem CCT, **independentemente de qualquer fundamentação adicional**.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Súmula TST 85 (V):**  \n  *\"O banco de horas sem Convenção Coletiva de Trabalho (CCT) constitui horas extras, com o respectivo adicional de 50%.\"*  \n  (Dispositivo citado no contexto, que determina a aplicação do adicional de 50% para horas acumuladas em banco sem CCT.)  \n\n- **Art. 66 da CLT:**  \n  *\"As horas extras são aquelas trabalhadas além do limite legal da jornada, com adicional de 50% sobre o valor da hora normal.\"*  \n  (Base legal para a exigência do adicional de 50% em casos de horas extras, incluindo os previstos na Súmula TST 85 (V)).  \n\n**Limitação do contexto:**  \nO contexto normativo fornecido **não inclui o texto completo da Súmula TST 85 (V)**, apenas sua menção. No entanto, a aplicação do adicional de 50% é **obrigatória** conforme a súmula citada, independentemente de outras interpretações. A ausência de fundamentação para afastar o adicional na decisão judicial configura **violação direta da norma**.",
+  "tokens_in": 297,
+  "tokens_out": 1153,
+  "latency_ms": 71687,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

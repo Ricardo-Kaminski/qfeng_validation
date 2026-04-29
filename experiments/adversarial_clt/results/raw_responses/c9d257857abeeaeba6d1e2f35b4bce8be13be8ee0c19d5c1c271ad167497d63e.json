@@ -1,0 +1,19 @@
+{
+  "sha256": "c9d257857abeeaeba6d1e2f35b4bce8be13be8ee0c19d5c1c271ad167497d63e",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-011",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T09:09:08Z",
+  "prompt_sha": "698446c093424052480aba5e941ff4b9c31d5df4e2fc44eccfe87ad07ed045e8",
+  "response_text": "### 1. **ANÁLISE**  \nO caso envolve a validade de uma cláusula de renúncia ao adicional de horas extras, inserida em um Acordo Coletivo de Trabalho (CCT), que prevê a compensação de horas em banco semestral. A questão central é a aplicabilidade do **CLT Art. 611-B, IX**, que trata da validade de cláusulas coletivas.  \n\n- **Dispositivo normativo aplicável**:  \n  - **CLT Art. 611-B, IX**: Estabelece que cláusulas coletivas são nulas se violarem direitos fundamentais dos trabalhadores, como os previstos no art. 7º da Constituição Federal (ex.: direito à remuneração justa e à proteção contra exploração).  \n  - **Princípio da irrenunciabilidade de direitos**: Embora não citado explicitamente no contexto, é um princípio constitucional e jurisprudencial que impede a renúncia a direitos trabalhistas, como o adicional de horas extras (previsto no CLT Art. 59, § 2º).  \n\n- **Conflito normativo**:  \n  A cláusula de renúncia ao adicional de horas extras viola o **CLT Art. 59, § 2º**, que garante o direito ao adicional de horas extras independentemente de compensação de horas em banco. A CCT, ao prever a perda desse direito, contraria a norma legal, tornando a cláusula **nula**.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**A cláusula de renúncia ao adicional de horas extras é inválida**, por violar o **CLT Art. 611-B, IX** e o **CLT Art. 59, § 2º**. O sindicato e os trabalhadores devem ser orientados a:  \n- **Reivindicar judicialmente** o cumprimento do adicional de horas extras, independentemente da compensação do banco de horas.  \n- **Revisar a CCT** para eliminar a cláusula inválida, garantindo a conformidade com a legislação trabalhista.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **CLT Art. 611-B, IX**:  \n  *\"As cláusulas coletivas são nulas se violarem direitos fundamentais dos trabalhadores, tais como os previstos no art. 7º da Constituição Federal.\"*  \n  A renúncia ao adicional de horas extras viola o **direito à remuneração justa** (art. 7º, I da CF), garantido pelo CLT Art. 59, § 2º.  \n\n- **CLT Art. 59, § 2º**:  \n  *\"O adicional de horas extras é devido independentemente da compensação das horas trabalhadas em banco.\"*  \n  A cláusula da CCT contraria esse dispositivo, tornando-a **nula de pleno direito**.  \n\n- **Limitação do contexto**:  \n  O contexto não menciona **súmulas do TST** ou **princípio da irrenunciabilidade de direitos** (embora seja jurisprudencialmente consolidado). No entanto, a análise se baseia exclusivamente nos dispositivos citados (CLT Art. 611-B, IX e CLT Art. 59, § 2º).  \n\n--- \n\n**Conclusão**: A cláusula é inválida por violar normas trabalhistas fundamentais, e os trabalhadores têm direito ao adicional de horas extras, independentemente da compensação do banco de horas.",
+  "tokens_in": 308,
+  "tokens_out": 1488,
+  "latency_ms": 93031,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

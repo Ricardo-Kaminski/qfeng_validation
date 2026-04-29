@@ -1,0 +1,19 @@
+{
+  "sha256": "236ae5af36467a3f81092cc73e6547f33d403dd4276969273acbbbfcb273b93e",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-007",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T19:57:28Z",
+  "prompt_sha": "9bacaa349dbb6d2a773ce01b363f59c0f83a68a0e290a99d41219255cc9c8cc8",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso de Rescisão de Gestante\n\nCom base no contexto normativo fornecido, apresento a análise, decisão recomendada e fundamentação para o caso de rescisão de gestante.\n\n**1. ANÁLISE: Dispositivos Normativos Aplicáveis**\n\nO caso em questão envolve a rescisão do contrato de trabalho de uma gestante, o que aciona a proteção especial prevista na legislação brasileira. Os dispositivos normativos aplicáveis, conforme identificados na decisão do TRT, são:\n\n*   **Constituição Federal de 1988 (CF/88), Art. 10, II, \"b\" (ADCT):** Este artigo garante a estabilidade provisória à gestante, protegendo-a de demissão arbitrária durante o período de gravidez e até 5 meses após o parto.\n*   **Súmula TST 244:** Esta súmula estabelece que a gravidez é causa de dispensa arbitrária e, portanto, a demissão é nula, sendo devida a reintegração da trabalhadora.\n*   **Orientação Jurisprudencial (OJ) 399 da SDI-1:** Esta OJ afasta a necessidade de comunicação prévia da gravidez ao empregador para que a proteção seja garantida. A gravidez, uma vez comprovada, já é suficiente para gerar o direito à estabilidade provisória.\n\n**2. DECISÃO RECOMENDADA**\n\nConsiderando a análise dos dispositivos normativos aplicáveis e o fato de que a gravidez ocorreu antes da dispensa (conforme provado), a decisão recomendada é a **nulidade da dispensa e a reintegração da gestante ao emprego**.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA decisão de nulidade da dispensa e reintegração da gestante encontra respaldo direto nos seguintes dispositivos:\n\n*   **CF/88, Art. 10, II, \"b\" (ADCT):** A estabilidade provisória da gestante é um direito constitucionalmente assegurado. A dispensa durante o período de gravidez viola este direito, tornando-a nula.\n*   **Súmula TST 244:** A súmula corrobora a proteção da gestante, consolidando o entendimento de que a gravidez é causa de dispensa arbitrária, com consequente direito à reintegração.\n*   **OJ 399 da SDI-1:** A Orientação Jurisprudencial é crucial para afastar a exigência de comunicação prévia da gravidez ao empregador. A comprovação da gravidez é suficiente para a configuração do direito à estabilidade provisória, eliminando a necessidade de um ato positivo da trabalhadora.\n\n**Limitações do Contexto Normativo**\n\nO contexto normativo fornecido é limitado aos dispositivos mencionados. Não há informações sobre outros aspectos relevantes do caso, como a possibilidade de pagamento de indenizações adicionais, o período de reintegração ou a aplicação de outras normas trabalhistas. A análise aqui apresentada se restringe estritamente aos dispositivos expressamente citados no cenário.",
+  "tokens_in": 302,
+  "tokens_out": 687,
+  "latency_ms": 18927,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

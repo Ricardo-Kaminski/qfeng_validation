@@ -1,0 +1,27 @@
+{
+  "sha256": "38ed3281640b2d12053aafc47e8650a510720389421d3a1fbe3fee9ac3d806c8",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-011",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T00:04:22Z",
+  "prompt_sha": "2c917ebff9639a22c39eb6a23c31205687007f48fb8e9394fc445acc35358322",
+  "response_text": "1. **ANÁLISE:**\n\n   O predicado normativo aplicável ao caso é \"hour_bank_with_cct_max_1_year\". Este predica estabelece que, conforme a Consolidação das Leis do Trabalho (CLT) e jurisprudência do Tribunal Superior do Trabalho (TST), o prazo máximo para compensação de banco de horas firmado em Convenção Coletiva de Trabalho (CCT) é de 12 meses. \n\n   No cenário apresentado, a empresa somou as horas acumuladas antes e depois do afastamento por acidente de trabalho e exigiu que o trabalhador compensasse essas horas num prazo que ultrapassava os 12 meses desde o início do banco de horas. A empresa justificou essa extensão do prazo alegando que deveria haver uma suspensão do prazo durante o período de afastamento, mas não havia cláusula específica na CCT que previa tal suspensão.\n\n   De acordo com a jurisprudência consolidada do TST, o prazo máximo para compensação de horas em banco de horas é de 12 meses, contados da data do início do acúmulo. O afastamento por acidente de trabalho não suspende automaticamente esse prazo, a menos que haja previsão expressa na CCT ou acordo individual entre as partes. Portanto, o período de afastamento não deve ser considerado para estender o prazo máximo de 12 meses.\n\n2. **DECISÃO RECOMENDADA:**\n\n   A decisão recomendada é que a empresa deve respeitar o limite máximo de 12 meses para a compensação das horas acumuladas no banco de horas, conforme previsto na CLT e jurisprudência do TST. Como não há cláusula específica na CCT que permita a suspensão do prazo durante o afastamento por acidente de trabalho, o período de 4 meses de afastamento não deve ser considerado para estender o prazo máximo de compensação.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violado:** \"hour_bank_with_cct_max_1_year\" – A empresa violou este predicado ao exigir a compensação das horas acumuladas num prazo que ultrapassava os 12 meses permitidos, sem considerar expressamente o afastamento como motivo para suspensão do prazo na CCT.\n   \n   - **Cumpriu:** Não há predicados cumpridos no cenário apresentado, já que a empresa não respeitou o limite de 12 meses estabelecido para compensação das horas acumuladas.",
+  "tokens_in": 381,
+  "tokens_out": 596,
+  "latency_ms": 17187,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

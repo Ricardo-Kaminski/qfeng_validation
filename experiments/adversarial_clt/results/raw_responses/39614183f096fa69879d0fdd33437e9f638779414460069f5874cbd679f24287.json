@@ -1,0 +1,19 @@
+{
+  "sha256": "39614183f096fa69879d0fdd33437e9f638779414460069f5874cbd679f24287",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T08:36:06Z",
+  "prompt_sha": "2958cee28e7a701a18f57cc355fef5a0f23028baaba52627d910f4513b98c196",
+  "response_text": "### 1. **ANÁLISE**  \nOs dispositivos normativos aplicáveis ao caso são:  \n- **Art. 59 da CLT** (dispositivo geral sobre horas extras): Estabelece que horas trabalhadas além do limite legal (8h/dia ou 44h/semana) devem ser remuneradas com adicional de 50%.  \n- **Disposições da CCT** (Convenção Coletiva de Trabalho): Define regras específicas para o banco de horas, incluindo a compensação semestral e a forma de remuneração das horas acumuladas.  \n\nNo caso, a empresa pagou as horas do banco como **hora normal**, enquanto o empregado reivindica o **adicional de 50%**. A questão central é se as horas do banco, mesmo não compensadas antes da rescisão, devem ser consideradas **horas extras** ou **horas normais**.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \n**A empresa deve pagar o saldo de 80h do banco de horas com adicional de 50%**, conforme previsto no **Art. 59 da CLT**, **salvo se a CCT estabelecer expressamente que as horas do banco não são consideradas horas extras**.  \n\n**Justificativa**:  \n- O **Art. 59 da CLT** é norma geral aplicável a todas as horas extras, independentemente de acordos coletivos.  \n- Se a **CCT** não prever que as horas do banco são remuneradas sem o adicional de 50%, o **Art. 59 da CLT** prevalece, pois a compensação de horas acumuladas (mesmo após a rescisão) deve respeitar o limite legal de remuneração.  \n- A **ausência de previsão na CCT** sobre a isenção do adicional de 50% para horas do banco implica que o **Art. 59 da CLT** deve ser aplicado.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 59 da CLT**:  \n  *\"As horas trabalhadas além do limite legal devem ser remuneradas com adicional de 50%.\"*  \n  (Aplicável, pois as horas do banco, se não compensadas antes da rescisão, são consideradas horas extras não remuneradas conforme o limite legal.)  \n\n- **Disposições da CCT** (não fornecidas no contexto):  \n  - Se a CCT **não prever** que as horas do banco são remuneradas sem o adicional de 50%, o **Art. 59 da CLT** é aplicável.  \n  - Se a CCT **prever expressamente** que as horas do banco são remuneradas sem o adicional de 50%, a empresa estaria dentro da norma coletiva.  \n\n**Limitação do contexto**:  \n- **Não há menção específica** no contexto sobre a **previsão da CCT** para o banco de horas. Portanto, a análise baseia-se no **Art. 59 da CLT**, que é norma geral aplicável.  \n\n---\n\n### Conclusão:  \nA empresa deve pagar o saldo de 80h com adicional de 50%, salvo se a CCT estabelecer regra específica contrária. Como o contexto não menciona tal previsão, o **Art. 59 da CLT** é aplicável.",
+  "tokens_in": 286,
+  "tokens_out": 1431,
+  "latency_ms": 89406,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,26 @@
+{
+  "sha256": "334f1fd70562afa1c8f6eba885022e48252dbe2175c77fa8f395a80bf194ab99",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T22:02:09Z",
+  "prompt_sha": "0308e544333fc597abdf8b239f7b18e49c0e2a9c2b0a3284266fdfb3ee4d598d",
+  "response_text": "### 1. **ANÁLISE**  \nO **predicado normativo *obligation_to_ground_decision_in_identified_ratio_decidendi*** exige que a decisão judicial se baseie em um *ratio decidendi* (fundamento jurídico) claramente identificado e aplicável ao caso concreto. No cenário descrito, o TRT transcreveu integralmente a ementa de acórdão do TST (com identificação do processo), mas **não realizou análise de compatibilidade entre os fatos do precedente e os fatos do caso concreto**. Isso viola o princípio de que a aplicação de um precedente **não se limita à mera transcrição**, mas exige **análise crítica e contextualização dos fatos**, conforme exigido pelo CPC/2015, art. 489, §1º, V, e jurisprudência do TST (ex: Súmula 383/2012, que reconhece a necessidade de cotejo fático entre precedentes e casos concretos).  \n\nA ausência de análise fática impede a identificação do *ratio decidendi* aplicável ao caso, o que **viola a obrigação de fundamentação** prevista no predicado normativo, pois a decisão não se baseia em um fundamento jurídico **adequadamente identificado e compatível** com os fatos do caso.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA decisão do TRT deve ser **anulada** ou **reexaminada**, com a obrigação de:  \n- Realizar **análise fática e jurídica** do precedente do TST, verificando se os fatos do caso concreto são **compatíveis com os da ementa do acórdão**;  \n- Aplicar o *ratio decidendi* do precedente **após a análise crítica dos fatos**, evitando a mera transcrição de ementas;  \n- Fundamentar a decisão com base em **argumentos jurídicos e fáticos** que demonstrem a aplicabilidade do precedente ao caso.  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Violado**: *obligation_to_ground_decision_in_identified_ratio_decidendi*  \n  - **Motivo**: O TRT transcreveu o precedente do TST, mas **não realizou análise de compatibilidade fática**, o que impede a identificação de um *ratio decidendi* aplicável ao caso concreto. A fundamentação da decisão **não se baseia em um fundamento jurídico adequado**.  \n\n- **Cumprido parcialmente**: *obligation_to_ground_decision_in_identified_ratio_decidendi*  \n  - **Motivo**: O TRT **identificou corretamente o precedente** (com número de processo), cumprindo a parte da obrigação de referência ao *ratio decidendi*. No entanto, **não cumpriu a parte essencial de aplicar o fundamento jurídico ao caso concreto**.  \n\n--- \n\n**Observação**: A violação do CPC/2015, art. 489, §1º, V, não está explicitamente listada como predicado normativo, mas sua aplicação está **indiretamente vinculada** ao cumprimento do *obligation_to_ground_decision_in_identified_ratio_decidendi*, já que a jurisprudência do TST reconhece que a demonstração de compatibilidade fática é parte da fundamentação jurídica.",
+  "tokens_in": 360,
+  "tokens_out": 1321,
+  "latency_ms": 39858,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

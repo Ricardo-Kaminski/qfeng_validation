@@ -1,0 +1,19 @@
+{
+  "sha256": "2e646bf309cc5101b9f4188a05c39074668cc4bf9c11400701e34c79a261303b",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-011",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T08:06:45Z",
+  "prompt_sha": "80cf4ccf88db1609d71368c41816c78e5a4e50fd2df67c996e9dc1cae0de53df",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO caso envolve a aplicação de um **Tema de Repercussão Geral (RG)** relacionado ao **Direito Administrativo** (servidores públicos) a um **empregado celetista privado**, sem demonstração de **analogia** ou **ratio** do precedente aplicável ao regime trabalhista. O contexto normativo fornecido não menciona dispositivos específicos de leis ou súmulas que abordem a aplicação de temas de RG ao setor privado, nem normas que autorizem a extensão automática de dispositivos do Direito Administrativo ao Direito do Trabalho.  \n\n### 2. **DECISÃO RECOMENDADA**  \nA **decisão deve ser de revogação da aplicação do Tema de Repercussão Geral** ao caso do empregado celetista, por **inaplicabilidade direta** e **falta de fundamentação jurídica** para a analogia. A aplicação de normas do Direito Administrativo ao regime trabalhista exige **analogia estrita** e **similaridade de razões** (ratio legis), o que não foi demonstrado no caso.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 1º da Consolidação das Leis do Trabalho (CLT)**: Estabelece que a CLT aplica-se **exclusivamente aos trabalhadores do setor privado**, diferenciando-se do Direito Administrativo, que regula servidores públicos.  \n- **Art. 11 da CLT**: Permite a **extensão por analogia** de normas do Direito Administrativo ao regime trabalhista **somente se houver similaridade de razões** (ratio legis) e **necessidade de equidade**. No entanto, **não há menção a essa similaridade** no caso em questão.  \n- **Contexto normativo fornecido**: Não contém **artigos, súmulas ou dispositivos legais** que autorizem a aplicação direta de temas de RG do Direito Administrativo ao regime trabalhista, nem que demonstrem a **analogia** exigida pelo art. 11 da CLT.  \n\n**Limitação do contexto normativo**:  \nO contexto não fornece **normas específicas** (como súmulas do TST, dispositivos da CLT ou leis complementares) que justifiquem a aplicação do Tema de Repercussão Geral ao setor privado. A análise deve basear-se **exclusivamente** nos dispositivos mencionados (CLT, art. 1º e 11) e na **falta de fundamentação jurídica** para a analogia.",
+  "tokens_in": 270,
+  "tokens_out": 1204,
+  "latency_ms": 81953,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

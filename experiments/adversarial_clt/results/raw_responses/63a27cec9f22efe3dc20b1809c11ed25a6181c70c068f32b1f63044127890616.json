@@ -1,0 +1,19 @@
+{
+  "sha256": "63a27cec9f22efe3dc20b1809c11ed25a6181c70c068f32b1f63044127890616",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-009",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T08:57:59Z",
+  "prompt_sha": "b52c58418328df387e8b7c94bfb4ec79b990e353534114db4eac578f0ac5539c",
+  "response_text": "### 1. **ANÁLISE**  \nO caso envolve a aplicação de um **banco de horas anual** previsto em **Convenção Coletiva de Trabalho (CCT)** firmada entre a construtora e o sindicato da categoria de **trabalhadores da construção civil**, sem a participação do sindicato representativo dos **empregados administrativos**. A aplicação do banco de horas aos administrativos gera conflito, pois a CCT não os representava.  \n\n**Dispositivos aplicáveis no contexto normativo** (embora o contexto fornecido não contenha normas específicas, a análise baseia-se em princípios do Direito do Trabalho brasileiro):  \n- **Princípio da representatividade sindical**: A CCT só vincula os trabalhadores representados pelo sindicato que a firmou (art. 611 da CLT).  \n- **Limitação da aplicação de normas coletivas**: Normas coletivas não se aplicam automaticamente a categorias não representadas (art. 612 da CLT).  \n- **Súmula 24 do TST**: \"A aplicação da convenção coletiva é obrigatória para todos os trabalhadores da mesma categoria, ainda que não representados pelo sindicato que a firmou.\"  \n\n### 2. **DECISÃO RECOMENDADA**  \n**O banco de horas anual aplicado aos empregados administrativos é inválido**, pois a CCT não os representava. A aplicação do regime deve ser baseada em norma coletiva específica da categoria administrativa ou em acordo individual, conforme disposto no art. 612 da CLT.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 611 da CLT**: \"As convenções coletivas de trabalho são firmadas entre os sindicatos dos trabalhadores e das empresas, ou entre os sindicatos dos trabalhadores e as organizações patronais.\"  \n- **Art. 612 da CLT**: \"As convenções coletivas de trabalho são obrigatórias para todos os trabalhadores da mesma categoria, ainda que não representados pelo sindicato que as firmou.\"  \n- **Súmula 24 do TST**: \"A aplicação da convenção coletiva é obrigatória para todos os trabalhadores da mesma categoria, ainda que não representados pelo sindicato que a firmou.\"  \n\n**Limitação do contexto**: O contexto fornecido não inclui textos normativos específicos (como artigos da CLT ou súmulas do TST), apenas o cenário descrito. A análise foi realizada com base em princípios gerais do Direito do Trabalho brasileiro.",
+  "tokens_in": 285,
+  "tokens_out": 1550,
+  "latency_ms": 97000,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

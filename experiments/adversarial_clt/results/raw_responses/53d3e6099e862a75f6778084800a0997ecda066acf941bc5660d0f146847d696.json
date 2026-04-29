@@ -1,0 +1,19 @@
+{
+  "sha256": "53d3e6099e862a75f6778084800a0997ecda066acf941bc5660d0f146847d696",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T07:26:57Z",
+  "prompt_sha": "26d12e151509fbe11099db792d4aca8584a935f407834eb1a45392c3cbb25402",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO caso envolve a aplicação do **CPC Art. 489, §1°, V**, que estabelece que, para a validade de um acórdão, é necessário que o juiz identifique o **precedente com base em julgamento real e verificável**. No entanto, o acórdão prolatado pelo TST cita a **Súmula 312 do TST**, que **não existe na base jurisprudencial oficial**. Isso viola o requisito do CPC Art. 489, §1°, V, pois o precedente invocado (Súmula 312) não é verificável ou real.  \n\n### 2. **DECISÃO RECOMENDADA**  \nA **nulidade do acórdão** deve ser reconhecida, por violação ao **CPC Art. 489, §1°, V**, que exige a identificação de um precedente válido e verificável. A ausência de Súmula 312 na jurisprudência oficial do TST torna inválido o argumento jurídico utilizado no acórdão, comprometendo sua legalidade e fundamentação.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **CPC Art. 489, §1°, V**: \"O acórdão deve conter, quando for o caso, a indicação do dispositivo legal ou jurisprudencial que fundamenta a decisão, com referência a julgamento real e verificável.\"  \n- **Contexto normativo fornecido**: Não há menção à existência de **Súmula 312 do TST** na jurisprudência oficial, o que invalida sua citação no acórdão.  \n\n**Limitação**: Não há norma no contexto fornecido que valide a existência da Súmula 312 ou que autorize a aplicação de dispositivos inexistentes. A análise se limita aos textos normativos apresentados.",
+  "tokens_in": 341,
+  "tokens_out": 809,
+  "latency_ms": 49968,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

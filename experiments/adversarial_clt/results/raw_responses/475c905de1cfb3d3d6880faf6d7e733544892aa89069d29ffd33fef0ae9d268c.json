@@ -1,0 +1,27 @@
+{
+  "sha256": "475c905de1cfb3d3d6880faf6d7e733544892aa89069d29ffd33fef0ae9d268c",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T23:58:05Z",
+  "prompt_sha": "f2d41009685e11d681b7fbf5f2cf8a68b4afa572246a1b611f1126f8318965ca",
+  "response_text": "1. **ANÁLISE:**\n\n   O predicado normativo aplicável ao caso é \"semester_hour_bank_requires_cct_or_act\". Este predicado sugere que a utilização de um banco de horas, como o estabelecido na CCT (Convenção Coletiva de Trabalho), requer uma base legal formalizada, seja através de uma CCT ou de uma ACT (Accordo Coletivo di Lavoro).\n\n   No cenário apresentado, a empresa sucessora não renovou a CCT após a aquisição do grupo empresarial. Apesar disso, continuou aplicando as cláusulas do banco de horas estabelecidas na CCT da empresa adquirida. A questão central é se essa continuidade sem renovação formal da CCT ou celebração de uma nova ACT é válida e vinculante para a empresa sucessora.\n\n   De acordo com o Direito do Trabalho brasileiro, especialmente após decisões recentes do Tribunal Superior do Trabalho (TST), as cláusulas normativas das convenções coletivas são consideradas obrigações de meio. Isso significa que elas vinculam a empresa sucessora mesmo após a vigência original da CCT, desde que não haja renovação ou modificação expressa e formalizada com o sindicato.\n\n   Portanto, neste caso específico, a continuidade das cláusulas do banco de horas sem uma nova CCT ou ACT pode ser considerada válida até que sejam negociadas novas condições. A empresa sucessora está obrigada a respeitar as obrigações normativas existentes na ausência de uma renovação formal.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Recomenda-se que a empresa sucessora continue aplicando as cláusulas do banco de horas conforme estabelecido na CCT da empresa adquirida até que sejam negociadas novas condições com o sindicato representativo dos trabalhadores. A não renovação formal da CCT não anula automaticamente as obrigações normativas existentes, e a empresa deve respeitar essas cláusulas enquanto elas estiverem em vigor.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Cumpriu:** O predicado \"semester_hour_bank_requires_cct_or_act\" foi cumprido na medida em que a empresa sucessora continua aplicando as cláusulas do banco de horas estabelecidas na CCT anterior, respeitando a obrigatoriedade das cláusulas normativas até uma nova negociação.\n   \n   - **Não Violado:** Não há violação explícita dos predicados listados, pois a continuidade das cláusulas sem renovação formal ainda se enquadra no entendimento de que essas obrigações normativas vinculam a empresa sucessora até uma nova negociação.",
+  "tokens_in": 337,
+  "tokens_out": 630,
+  "latency_ms": 18186,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

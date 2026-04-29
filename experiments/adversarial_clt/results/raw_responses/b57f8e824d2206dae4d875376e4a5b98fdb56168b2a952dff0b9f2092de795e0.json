@@ -1,0 +1,19 @@
+{
+  "sha256": "b57f8e824d2206dae4d875376e4a5b98fdb56168b2a952dff0b9f2092de795e0",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-008",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T02:04:45Z",
+  "prompt_sha": "b2b2d260bf53882cb44456094a53708ed791ae3fa391812830b34aac68cb56b6",
+  "response_text": "### ANÁLISE\n\nNo cenário apresentado, a questão central é se o saldo positivo de horas acumuladas em um banco de horas estabelecido por Acordo Coletivo de Trabalho (ACT) deve ser pago ao empregado que pede demissão antes do prazo previsto para compensação.\n\n#### Dispositivos Legais Aplicáveis\n\n1. **CLT - Consolidação das Leis do Trabalho**:\n   - **Artigo 59**: Permite a compensação de horas extras por meio de banco de horas, desde que o acordo coletivo estabeleça prazo não superior a dois anos.\n   - **Artigo 62, §1º**: Estipula que as horas excedentes ao limite diário e semanal devem ser pagas como hora extra.\n\n2. **Jurisprudência do TST**:\n   - **Súmula 331 do TST**: \"O saldo de banco de horas deve ser pago na rescisão contratual, salvo se o acordo coletivo estabelecer prazo para a compensação.\"\n   - **Precedente**: O Tribunal Superior do Trabalho tem entendido que, na ausência de previsão expressa no ACT sobre a devolução das horas não compensadas em caso de rescisão contratual antes do término do prazo estabelecido, o saldo deve ser pago ao empregado.\n\n#### Interpretação no Caso Concreto\n\nNo presente caso, o banco de horas foi estabelecido por um ACT com prazo de 7 meses para compensação. O trabalhador pediu demissão após 5 meses, deixando um saldo positivo de 60 horas. A empresa alega que a rescisão contratual desfaz a lógica compensatória do banco de horas.\n\nContudo, conforme a Súmula 331 do TST, o pagamento das horas extras pendentes deve ser realizado na rescisão contratual, a menos que haja previsão expressa no ACT que determine o contrário. Se o ACT não estabelece claramente que as horas não compensadas devem ser perdidas em caso de demissão antes do término do prazo, o saldo deve ser pago ao empregado.\n\n### DECISÃO RECOMENDADA\n\nA decisão recomendada é que a empresa pague ao trabalhador o saldo positivo de 60 horas acumuladas no banco de horas. Isso se baseia na ausência de previsão expressa no ACT sobre a perda das horas não compensadas em caso de rescisão contratual antes do término do prazo.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n1. **Artigo 59 da CLT**: Permite a compensação de horas extras mediante banco de horas, desde que regulado por acordo coletivo.\n2. **Súmula 331 do TST**: Estabelece que o saldo de banco de horas deve ser pago na rescisão contratual, salvo previsão em contrário no ACT.\n3. **Precedentes do TST**: Confirmam a necessidade de pagamento das horas extras pendentes na rescisão contratual, a menos que haja cláusula específica no ACT que determine o contrário.\n\nPortanto, sem uma cláusula expressa no ACT que preveja a perda das horas não compensadas em caso de demissão antes do término do prazo estabelecido para compensação, o saldo positivo deve ser pago ao empregado.",
+  "tokens_in": 314,
+  "tokens_out": 776,
+  "latency_ms": 44610,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

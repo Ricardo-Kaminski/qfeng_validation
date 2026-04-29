@@ -1,0 +1,27 @@
+{
+  "sha256": "4e8f6406510f9654518600f477afa0bbb8da2d2afb779616f00caf53e82ce1b6",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-006",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:00:06Z",
+  "prompt_sha": "3e437b832fa4f6d03b11808230dc954645683f832bd9e255f99b486a83e0744e",
+  "response_text": "1. **ANÁLISE:**\n\n   - **Predicado: hour_bank_with_cct_max_1_year**\n     - Este predicado estabelece que o banco de horas, quando previsto em uma CCT (Convenção Coletiva de Trabalho), deve ter um prazo máximo de compensação de até 12 meses. No cenário apresentado, a CCT do setor de varejo permite o banco de horas com compensação em até 12 meses, o que está alinhado com este predicado normativo. Portanto, esse aspecto da CCT cumpre a exigência legal.\n\n   - **Predicado: working_hours_negotiable_by_cct**\n     - Este predicado indica que as condições de jornada e banco de horas podem ser negociadas por meio de uma CCT. No caso em questão, a empresa e os trabalhadores negociaram e concordaram com o uso do banco de horas, incluindo a compensação dentro das semanas de baixo movimento. A negociação foi realizada conforme permitido pela norma, evidenciando que as condições foram ajustadas por meio da CCT.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base nos predicados aplicáveis e na análise do cenário, recomenda-se que a prática atual seja mantida, pois está em conformidade com os requisitos legais estabelecidos pela CLT e jurisprudência do TST. A empresa deve continuar observando o prazo máximo de 12 meses para compensação das horas bancadas e assegurar que todas as negociações e acordos sejam transparentes e respeitem os direitos dos trabalhadores.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Cumpriu:**\n     - *hour_bank_with_cct_max_1_year*: A CCT prevê um prazo máximo de 12 meses para compensação, o que está em conformidade com a norma.\n     - *working_hours_negotiable_by_cct*: As condições foram negociadas e acordadas por meio da CCT, cumprindo a flexibilidade permitida pela legislação.\n\n   Não há violações identificadas neste cenário, pois as práticas adotadas estão em conformidade com os predicados normativos aplicáveis.",
+  "tokens_in": 379,
+  "tokens_out": 505,
+  "latency_ms": 14797,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

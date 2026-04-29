@@ -1,0 +1,19 @@
+{
+  "sha256": "5aa8ddd2755eaedf001fdefc872717971a671db9cdb1e53122c339d6b63b2639",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T13:22:21Z",
+  "prompt_sha": "e1659c5429e8d4021dbbfd8bec4539ebca49823acf42a3cc8afc510d0a89683d",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas e Demissão\n\nConsiderando o cenário apresentado e a premissa de que o contexto normativo fornecido é a única base para a análise, apresento a seguir a análise, decisão recomendada e fundamentação normativa.\n\n**1. ANÁLISE: Dispositivos Normativos Aplicáveis**\n\nO caso em questão gira em torno da aplicação de um Acordo Coletivo de Trabalho (ACT) que instituiu o banco de horas com compensação em 7 meses, e da discussão sobre a natureza do direito do trabalhador ao saldo positivo de horas quando ocorre a rescisão contratual por demissão.\n\nA análise se restringe ao que foi explicitado no cenário, que é a existência de um ACT.  Não há outros dispositivos normativos mencionados, portanto, a análise se limita a interpretar a lógica do ACT em si.\n\n**2. DECISÃO RECOMENDADA**\n\nRecomenda-se a decisão favorável ao trabalhador, determinando o pagamento do saldo positivo de 60 horas. A recusa da empresa em pagar o saldo, sob a alegação de que a demissão desfaz a lógica compensatória do banco de horas, não se sustenta, considerando a ausência de previsão expressa nesse sentido no ACT.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação se baseia na interpretação do ACT, que estabelece o sistema de banco de horas com compensação em 7 meses.  A ausência de qualquer cláusula que preveja a perda do direito ao saldo positivo em caso de demissão do empregado é crucial.\n\n*   **Princípio da Boa-Fé:** A aplicação de um ACT deve ser interpretada à luz da boa-fé, que exige que as partes ajam com lealdade e confiança. A empresa, ao implementar o sistema de banco de horas, criou uma expectativa no trabalhador de que as horas extras realizadas seriam compensadas, mesmo que em um período posterior. A recusa em pagar o saldo positivo no momento da demissão, sem previsão legal ou contratual, pode ser interpretada como uma violação da boa-fé.\n\n*   **Interpretação Restritiva em Favor do Empregado:** Em caso de dúvida na interpretação de cláusulas contratuais ou de ACTs, a jurisprudência, em geral, adota a interpretação mais favorável ao trabalhador, especialmente quando se trata de direitos já adquiridos.  O saldo positivo de horas, mesmo que a compensação fosse prevista para um período de 7 meses, configura um direito já adquirido pelo trabalhador.\n\n*   **Limitação do Contexto:** É importante ressaltar que a decisão se baseia *exclusivamente* no contexto fornecido. Se houvesse outras cláusulas no ACT que tratassem especificamente da rescisão contratual e seus efeitos sobre o saldo do banco de horas, a decisão poderia ser diferente. A ausência dessas cláusulas é que fundamenta a recomendação de pagamento do saldo.\n\n**Observação:** A ausência de dispositivos normativos adicionais (como a CLT ou Súmulas do TST) impede uma análise mais aprofundada e completa do caso. A análise se restringe estritamente ao que foi apresentado no contexto.",
+  "tokens_in": 270,
+  "tokens_out": 698,
+  "latency_ms": 19594,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

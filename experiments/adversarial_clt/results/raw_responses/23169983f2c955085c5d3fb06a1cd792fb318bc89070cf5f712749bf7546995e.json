@@ -1,0 +1,29 @@
+{
+  "sha256": "23169983f2c955085c5d3fb06a1cd792fb318bc89070cf5f712749bf7546995e",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-007",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T01:24:52Z",
+  "prompt_sha": "172c513c4b099df7743ffb1d24431062fe2eeac1ce853003c4f9dc9cbe3de520",
+  "response_text": "**ANÁLISE**\n\n1. **hour_bank_with_cct_max_1_year**: Esse predicado normativo estabelece que o empregador não pode acumular mais de 400 horas em banco de horas com prazo de compensação de até um ano, conforme previsto na CCT válida. Nesse caso, o empregado acumulou 400h em banco de horas dentro do prazo de 12 meses estabelecido pela CCT, portanto, esse predicado foi cumprido.\n2. **maximum_weekly_working_hours_44h**: Esse predicado normativo estabelece a limitação máxima semanal de trabalho de 44 horas. Nesse cenário não há menção à superação desse limite, então consideramos que o empregador cumpriu com esse predicado.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a empresa pague ao empregado o saldo das horas acumuladas no banco de horas, pois não foi possível compensá-las dentro do prazo estabelecido pela CCT. A falta de pagamento ou compensação dessas horas configura uma violação à norma trabalhista.\n\n**PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **hour_bank_with_cct_max_1_year**: Conformidade (cumprimento)\n- **maximum_weekly_working_hours_44h**: Conformidade (cumprimento)\n\nObservação: A decisão recomendada não se baseia na falta de pagamento ou compensação das horas, mas sim no fato de que a empresa não cumpriu com o prazo estabelecido pela CCT para compensar as horas.",
+  "tokens_in": 347,
+  "tokens_out": 362,
+  "latency_ms": 6171,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

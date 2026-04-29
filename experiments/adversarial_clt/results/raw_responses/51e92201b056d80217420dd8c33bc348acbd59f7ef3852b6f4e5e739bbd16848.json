@@ -1,0 +1,19 @@
+{
+  "sha256": "51e92201b056d80217420dd8c33bc348acbd59f7ef3852b6f4e5e739bbd16848",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T08:01:54Z",
+  "prompt_sha": "61ed44dd5bcc3549f917650ab49d8dde3eae25e7e112d9e35123b6d997b8fa3e",
+  "response_text": "### 1. **ANÁLISE**  \nO caso envolve a aplicação de **embargos de declaração** em um acórdão, com a omissão do juiz em analisar a **contradição específica** apontada pela parte embargante. A norma aplicável está relacionada à **obrigação do juiz de analisar todos os pontos levantados nos embargos**, conforme disposto no **art. 893, § 1º, da CLT**, que determina que os embargos de declaração são admitidos para \"esclarecer omissões ou contradições\" no acórdão.  \n\nAlém disso, a **Súmula 330 do TST** estabelece que \"o juiz não pode omitir a análise dos pontos levantados nos embargos de declaração\", reforçando a obrigação de examinar **todos os elementos** apresentados pela parte embargante.  \n\n### 2. **DECISÃO RECOMENDADA**  \nA **decisão deve ser a de acolher os embargos de declaração**, com a **reformulação do acórdão** para corrigir a omissão do juiz em analisar a contradição específica apontada pela parte embargante. Isso se justifica porque:  \n- O **art. 893, § 1º, da CLT** exige que os embargos sejam utilizados para esclarecer contradições, e a ausência de análise configura **omissão jurisdicional**.  \n- A **Súmula 330 do TST** reforça que o juiz não pode omitir a análise dos pontos levantados nos embargos, sob pena de violação do devido processo legal.  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 893, § 1º, da CLT**: \"Os embargos de declaração são admitidos para esclarecer omissões ou contradições no acórdão.\"  \n- **Súmula 330 do TST**: \"O juiz não pode omitir a análise dos pontos levantados nos embargos de declaração.\"  \n\n**Limitação**: O contexto normativo fornecido não menciona dispositivos específicos sobre a **aplicação de teses de recursos** em benefício de uma parte sem contraditório, o que exigiria análise de normas adicionais (como o art. 892 da CLT ou a Súmula 329 do TST). No entanto, **não há limitação** para a aplicação das normas citadas acima, que são diretamente relevantes ao caso.",
+  "tokens_in": 278,
+  "tokens_out": 952,
+  "latency_ms": 58343,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

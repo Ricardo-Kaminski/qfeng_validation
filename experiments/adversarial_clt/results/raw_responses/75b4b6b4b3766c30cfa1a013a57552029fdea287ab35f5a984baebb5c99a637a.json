@@ -1,0 +1,29 @@
+{
+  "sha256": "75b4b6b4b3766c30cfa1a013a57552029fdea287ab35f5a984baebb5c99a637a",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-009",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T00:45:57Z",
+  "prompt_sha": "80af890d500c9e214e8752f76bb2139a52a118a1a0ce063f734a5a13323783cf",
+  "response_text": "## Análise do Caso: Banco de Horas e CCT em Empresa de Construção Civil\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, apresento a análise, decisão recomendada e identificação de cumprimento/violação dos predicados.\n\n**1. ANÁLISE:**\n\n*   **`semester_hour_bank_requires_cct_or_act` (Banco de horas requer CCT ou Ato):** Este predicado indica que a implementação de um banco de horas, como instrumento de compensação de jornada, geralmente exige uma base legal, que pode ser uma Convenção Coletiva de Trabalho (CCT) ou um Ato (ato da empresa com participação dos sindicatos). No caso, a construtora firmou uma CCT que previu o banco de horas.  A questão crucial aqui é a validade dessa CCT para abranger todos os empregados da empresa.\n\n*   **`recognition_of_collective_bargaining` (Reconhecimento do acordo coletivo):** Este predicado ressalta a importância do reconhecimento da representatividade do sindicato que firmou a CCT. Para que a CCT seja válida e vinculante para os empregados, é necessário que o sindicato que a firmou seja o representante legal da categoria profissional.  No cenário, o sindicato da construção civil firmou a CCT, mas não representava a categoria dos empregados administrativos, que pertencem a uma categoria diferenciada. A ausência de participação do sindicato representativo dos administrativos na negociação da CCT é um ponto crítico.\n\n**Análise Combinada:** A aplicação do banco de horas aos empregados administrativos, sem a participação do sindicato que os representa, levanta sérias dúvidas sobre a validade da CCT para essa categoria. Embora a construtora tenha se baseado em uma CCT existente, a falta de representatividade da categoria administrativa na negociação da CCT pode invalidar a aplicação do banco de horas a esses empregados.  A CCT, para ser válida, deve refletir a vontade da maioria dos trabalhadores da categoria que ela pretende representar.\n\n**2. DECISÃO RECOMENDADA:**\n\nRecomenda-se que a decisão judicial seja de **improcedência do pedido dos empregados administrativos para anular o banco de horas**. No entanto, a decisão deve ser acompanhada de uma **determinação à construtora para negociar, em conjunto com o sindicato representativo dos empregados administrativos, a implementação de um banco de horas específico para essa categoria**, garantindo a sua participação e adequando as condições às suas necessidades.  A empresa não pode unilateralmente estender os benefícios de uma CCT que não a representa.\n\n**Justificativa:** A jurisprudência do TST tem sido firme em relação à necessidade de representatividade sindical para a validade das CCTs. A aplicação de um instrumento como o banco de horas, que afeta diretamente a jornada de trabalho e os direitos dos empregados, exige um processo de negociação que contemple todos os envolvidos. A ausência do sindicato representativo dos administrativos na negociação da CCT original compromete a validade da CCT para essa categoria, mas não impede a implementação de um banco de horas específico, negociado de forma legítima.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **`semester_hour_bank_requires_cct_or_act`:** **Conformidade**. A empresa utilizou uma CCT para implementar o banco de horas, cumprindo o requisito de ter uma base legal. No entanto, a validade da CCT para a categoria administrativa é questionável.\n*   **`recognition_of_collective_bargaining`:** **Violação**. A CCT que previu o banco de horas não foi firmada com a participação do sindicato representativo da categoria dos empregados administrativos, violando o princípio do reconhecimento do acordo coletivo. A falta de representatividade da categoria administrativa na negociação da CCT é o ponto central da controvérsia.\n\n**Observação:** Esta análise é baseada exclusivamente nos predicados normativos fornecidos e no cenário descrito. Uma análise jurídica completa exigiria a consideração de outros fatores, como a interpretação da CCT, a legislação trabalhista aplicável e a jurisprudência relevante.",
+  "tokens_in": 331,
+  "tokens_out": 914,
+  "latency_ms": 25156,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

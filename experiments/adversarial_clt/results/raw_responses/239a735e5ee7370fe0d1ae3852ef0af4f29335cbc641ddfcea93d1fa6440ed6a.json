@@ -1,0 +1,30 @@
+{
+  "sha256": "239a735e5ee7370fe0d1ae3852ef0af4f29335cbc641ddfcea93d1fa6440ed6a",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:03:52Z",
+  "prompt_sha": "df1029f717a9057c55dcd4415f596b5b79c52eb9d0bc84855a640fd4defece65",
+  "response_text": "## ANÁLISE DO CASO À LUZ DOS PREDICADOS NORMATIVOS\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, a análise segue abaixo:\n\n**1. ANÁLISE DA APLICAÇÃO DOS PREDICADOS:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi (Obrigação de fundamentar a decisão no *ratio decidendi* identificado):** Este predicado é **central** para a análise. A decisão trabalhista demonstra, de forma explícita, o esforço de fundamentar-se em precedentes (Súmula TST 85 e TST-Ag-RR-868-65.2021) e na legislação (CLT Art. 489, §1°, V). A aplicação do método *distinguishing* demonstra a tentativa de identificar o *ratio decidendi* dos precedentes e diferenciá-lo do caso concreto, justificando a conclusão de invalidade do banco de horas. A decisão não se limita a citar os dispositivos, mas busca explicar como eles se aplicam (ou não) à situação específica.\n*   **sumula_tst_85_hour_bank_without_cct_invalid (Banco de horas sem CCT é inválido):** Este predicado é a **âncora normativa** principal. A Súmula TST 85 estabelece que o banco de horas é válido apenas quando regulamentado por acordo ou convenção coletiva de trabalho. A decisão trabalhista invoca essa súmula para sustentar a ilegalidade do banco de horas implementado na ausência de negociação coletiva.\n*   **due_process_of_law (Devido processo legal):** Este predicado, embora mais amplo, se relaciona com a garantia de que o trabalhador tenha a oportunidade de se defender e que a decisão seja fundamentada e transparente. A decisão trabalhista, ao aplicar o método *distinguishing* e explicitar a fundamentação, demonstra o respeito ao devido processo legal, permitindo que as partes compreendam a base da decisão e, se necessário, a contestem. A distinção do precedente com CCT demonstra a análise individualizada do caso.\n\n**2. DECISÃO RECOMENDADA:**\n\nA decisão **deve ser mantida**. A fundamentação apresentada na decisão trabalhista é consistente com os predicados normativos. A aplicação do método *distinguishing* demonstra a compreensão de que a Súmula TST 85 e o precedente TST-Ag-RR-868-65.2021 se aplicam a situações com negociação coletiva, e que a ausência dessa negociação no caso concreto invalida o banco de horas. A decisão demonstra o respeito ao devido processo legal ao explicitar a fundamentação e permitir a contestação.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi:** **Conformidade**. A decisão demonstra o cumprimento rigoroso deste predicado, utilizando o método *distinguishing* para fundamentar a decisão.\n*   **sumula_tst_85_hour_bank_without_cct_invalid:** **Conformidade**. A decisão aplica corretamente a Súmula TST 85, que é a base legal para a invalidade do banco de horas sem CCT.\n*   **due_process_of_law:** **Conformidade**. A decisão demonstra respeito ao devido processo legal ao explicitar a fundamentação e permitir a contestação. A distinção do precedente com CCT demonstra a análise individualizada do caso.\n\nEm resumo, a decisão trabalhista está alinhada com a legislação e jurisprudência aplicáveis, e a fundamentação apresentada é robusta e transparente. A manutenção da decisão é a medida recomendada.",
+  "tokens_in": 387,
+  "tokens_out": 839,
+  "latency_ms": 23264,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

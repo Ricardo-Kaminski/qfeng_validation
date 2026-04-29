@@ -1,0 +1,19 @@
+{
+  "sha256": "46c9a08d4829526d214ab01b09d130b4ed1511c21d3fd6e303003405df2f8791",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T06:26:48Z",
+  "prompt_sha": "a268ca90753e6ca56e19e9e03c7e848b36ec890dfbbc79d622676f1ed88241f1",
+  "response_text": "**ANÁLISE**\n\n1.  Identificação dos dispositivos legais aplicáveis:\n    *   O dispositivo legal aplicável é o artigo 489, §1°, V do CPC, que exige a demonstração de aplicabilidade da decisão ao caso concreto.\n2.  Interpretação no caso concreto:\n    A transcrição integral da ementa de acórdão do TST sem análise de compatibilidade entre os fatos do precedente e os fatos do caso concreto viola o artigo 489, §1°, V do CPC. É necessário que a decisão seja fundamentada na aplicabilidade ao caso concreto.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é a anulação da decisão do TRT e remessa dos autos ao órgão julgador para que sejam realizadas as análises necessárias e fundamentações específicas sobre a aplicação da decisão ao caso concreto.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   O artigo 489, §1°, V do CPC estabelece que \"a decisão judicial omite o necessário esclarecimento das razões do seu decidido\".\n*   A Súmula nº 439 do TST dispõe que \"A decisão de recurso não pode ser fundamentada apenas com a transcrição da ementa do acórdão recorrido, sem análise dos fatos e das questões jurídicas apresentadas no processo\".\n*   A Lei nº 5.869/1973 (CLT), artigo 9º, estabelece que \"A sentença é o ato do juiz que impõe ou declara o cumprimento de obrigação\".\n\n**CONCLUSÃO**\n\nEm resumo, a decisão do TRT viola o artigo 489, §1°, V do CPC, pois não há análise de compatibilidade entre os fatos do precedente e os fatos do caso concreto. É necessário que sejam realizadas as análises necessárias e fundamentações específicas sobre a aplicação da decisão ao caso concreto.",
+  "tokens_in": 312,
+  "tokens_out": 471,
+  "latency_ms": 15500,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

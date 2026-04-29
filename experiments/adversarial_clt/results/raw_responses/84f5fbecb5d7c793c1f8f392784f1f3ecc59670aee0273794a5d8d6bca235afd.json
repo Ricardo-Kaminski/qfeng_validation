@@ -1,0 +1,26 @@
+{
+  "sha256": "84f5fbecb5d7c793c1f8f392784f1f3ecc59670aee0273794a5d8d6bca235afd",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-012",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T01:22:09Z",
+  "prompt_sha": "3fef5cdaa6717d82e89fe6700c566b1516d2f27fef17bb65c15dae7f85be7502",
+  "response_text": "**1. ANÁLISE**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi**: O TRT utilizou um precedente do STJ para embasar sua tese sobre dano moral trabalhista, mas não discutiu a compatibilidade desse precedente civil com o regime jurídico trabalhista. Isso significa que a decisão do TRT não está fundamentada em uma razão decidendi claramente identificada e aplicável ao caso específico da relação de trabalho. Portanto, esse predicado foi violado.\n*   **due_process_of_law**: O uso de um precedente civil sem considerar as especificidades do regime jurídico trabalhista pode ser visto como uma violação do direito devido processo legal, pois não há uma análise adequada das normas aplicáveis à relação de trabalho. Além disso, a Reforma de 2017 trouxe alterações nos critérios de fixação de dano moral estabelecidos na CLT, o que também deve ser considerado. Portanto, esse predicado foi violado.\n\n**2. DECISÃO RECOMENDADA**\n\nA decisão recomendada seria a anulação da decisão do TRT e a remessa do caso ao TRT para que seja reavaliado com base em uma análise adequada das normas aplicáveis à relação de trabalho, incluindo as alterações introduzidas pela Reforma de 2017.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi**: violado\n*   **due_process_of_law**: violado",
+  "tokens_in": 343,
+  "tokens_out": 362,
+  "latency_ms": 6062,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

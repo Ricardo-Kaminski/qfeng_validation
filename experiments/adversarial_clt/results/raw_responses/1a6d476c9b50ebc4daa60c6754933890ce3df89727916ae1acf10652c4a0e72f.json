@@ -1,0 +1,19 @@
+{
+  "sha256": "1a6d476c9b50ebc4daa60c6754933890ce3df89727916ae1acf10652c4a0e72f",
+  "braco": "B2",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T20:23:53Z",
+  "prompt_sha": "2fe1ebedc34b383e50481fe1e95a5b121569d27c199d9e90565501c9e095e99d",
+  "response_text": "**ANÁLISE**\n\n1. **Identificação dos dispositivos do contexto normativo aplicáveis ao caso:**\n   - O dispositivo mais relevante para esse cenário é o Artigo 20 da Lei nº 5.869/1973 (Código de Processo Civil), que versa sobre a decisão em embargos de declaração, especificamente quando se trata da supressão de omissões e a necessidade de fundamentação identificável e verificável.\n   - Além disso, é importante considerar as disposições do Artigo 462 do Código de Processo Civil, que aborda os embargos declaratórios em geral.\n\n**DECISÃO RECOMENDADA**\n\n2. **Qual deve ser a decisão e por quê:**\n   - A decisão recomendada é que se mantenha a decisão original que identificou o ponto omisso (ausência de análise do LINDB Art. 20) e concluiu motivadamente que não se aplica ao caso trabalhista individual, suprida com fundamento identificável e verificável.\n   - A justificativa para essa decisão é a necessidade de cumprimento das exigências legais estabelecidas pelo Artigo 20 da Lei nº 5.869/1973 (Código de Processo Civil), que exige a fundamentação identificável e verificável, mesmo em casos de omissões apontadas.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n3. **Cite especificamente os artigos e súmulas do contexto acima:**\n   - Artigo 20 da Lei nº 5.869/1973 (Código de Processo Civil), que trata sobre a decisão em embargos de declaração, incluindo a supressão de omissões.\n   - Artigo 462 do Código de Processo Civil, que aborda os embargos declaratórios em geral.\n   - **Observação:** Não há menção específica à jurisprudência do STJ sobre LINDB no contexto fornecido. Portanto, não é possível citar súmulas específicas relacionadas a esse tema.\n\n**Limitações**\n\n- O contexto não contém norma aplicável que permita uma análise detalhada da jurisprudência do STJ sobre o LINDB e sua relação com casos trabalhistas individuais.",
+  "tokens_in": 299,
+  "tokens_out": 520,
+  "latency_ms": 8824,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

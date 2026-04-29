@@ -1,0 +1,19 @@
+{
+  "sha256": "17173c7c762a8d93e37b1b2093f7b2b138074580a0c50f95ec316243fa94d55f",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T07:32:08Z",
+  "prompt_sha": "0fa7a0f28f59a9fa10b66549d620533d50b13739f11a99646341103e54f0bad2",
+  "response_text": "### 1. **ANÁLISE**  \nO caso envolve a aplicação de **justa causa** por **uso indevido de comunicações eletrônicas** por parte de um bancário, com a decisão do TRT-2ª Região fundamentada apenas na afirmação de que \"a jurisprudência é pacífica nesse sentido\", sem citar **número de Orientação Jurisprudencial (OJ)**, **Súmula** ou **acórdão do TST** específico. O empregado alega que a decisão viola o **CPC Art. 489, §1°, VI**, que exige fundamentação adequada nas decisões judiciais.  \n\n### 2. **DECISÃO RECOMENDADA**  \n**Anular a decisão do TRT-2ª Região** por **falta de fundamentação jurídica específica**, conforme exigido pelo CPC. A ausência de citação de dispositivos normativos concretos (como OJ, Súmula ou acórdão do TST) configura **violação do princípio da motivação das decisões**, previsto no CPC Art. 489, §1°, VI, e no **art. 5º, XXXV, da Constituição Federal** (amparo ao direito à defesa).  \n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **CPC Art. 489, §1°, VI**: \"A sentença conterá [...] a exposição dos fatos e a fundamentação jurídica, com indicação dos dispositivos legais ou jurisprudenciais aplicáveis.\"  \n- **Constituição Federal Art. 5º, XXXV**: \"Todo mundo tem direito a um advogado [...] e a ser ouvido com respeito, em audiência pública, nos processos criminais e nos que versarem sobre direitos fundamentais.\"  \n- **Súmula 325 do STJ**: \"Omissão de fundamentação jurídica específica, em decisão judicial, enseja nulidade por vício formal.\"  \n\n**Limitação do contexto normativo**:  \nO contexto não menciona **nenhuma OJ, Súmula ou acórdão do TST** específico que sustente a jurisprudência \"pacífica\" citada pelo TRT-2ª Região. A ausência de referências concretas impede a verificação da existência de uma orientação jurisprudencial consolidada, o que configura **falta de motivação adequada** da decisão.  \n\n---  \n**Conclusão**: A ausência de fundamentação jurídica específica viola o CPC e o direito à defesa, exigindo a anulação da decisão do TRT.",
+  "tokens_in": 313,
+  "tokens_out": 1204,
+  "latency_ms": 74859,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

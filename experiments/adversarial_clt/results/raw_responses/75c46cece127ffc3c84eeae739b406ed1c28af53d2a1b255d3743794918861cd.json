@@ -1,0 +1,26 @@
+{
+  "sha256": "75c46cece127ffc3c84eeae739b406ed1c28af53d2a1b255d3743794918861cd",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-007",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T22:06:38Z",
+  "prompt_sha": "1d68b02e56a3be519b2c411e30a4e5202d217b01b44ee4ca2db84ac049f73210",
+  "response_text": "### 1. **ANÁLISE**  \n**a) Proibição de citação genérica de precedentes (prohibition_of_generic_precedent_citation):**  \nO TST utilizou um **IRDR (Instrução Normativa de Direito Resumido)** do TRT-15ª Região como se fosse um **precedente vinculante nacional**, apesar de não ter sido **afetado como repetitivo** pelo TST e de **não possuir eficácia nacional**. Isso viola a **proibição de citar precedentes genéricos ou não identificados**, pois o IRDR regional **não tem eficácia vinculante nacional** (art. 533, § 3º, da CLT e Súmula 331 do TST). A aplicação de um precedente sem eficácia vinculante como se tivesse essa natureza configura **citação genérica**, proibida pela jurisprudência do TST.  \n\n**b) Obrigação de fundamentar a decisão em ratio decidendi identificado (obligation_to_ground_decision_in_identified_ratio_decidendi):**  \nA decisão do TST **não fundamentou a aplicação do IRDR regional** com base em **ratio decidendi específico e identificado**, como exigido pelo CPC/2015, art. 489, § 1º, V, que determina que **precedentes vinculantes devem ser citados com clareza e identificação de sua eficácia**. O uso do IRDR como se fosse um precedente vinculante **não se baseia em uma fundamentação jurídica clara**, violando essa obrigação.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **decisão do TST deve ser anulada**, pois:  \n- **Viola a proibição de citação genérica de precedentes** (prohibition_of_generic_precedent_citation), ao aplicar um IRDR regional como se tivesse eficácia vinculante nacional.  \n- **Não cumpre a obrigação de fundamentar a decisão em ratio decidendi identificado** (obligation_to_ground_decision_in_identified_ratio_decidendi), ao não demonstrar claramente a eficácia vinculante do IRDR regional.  \n- A **parte prejudicada tem direito à revisão da decisão**, com base no CPC/2015, art. 489, § 1º, V, e na jurisprudência do TST (Súmula 331 e Súmula 398).  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Violado:**  \n  - **prohibition_of_generic_precedent_citation** (o TST citou um precedente genérico, sem eficácia vinculante, como se fosse vinculante nacional).  \n  - **obligation_to_ground_decision_in_identified_ratio_decidendi** (a decisão não fundamentou a aplicação do IRDR com base em ratio decidendi identificado).  \n\n- **Cumprido:**  \n  - Nenhum predicado foi cumprido, pois **ambos foram violados**.  \n\n--- \n\n**Observação:** A violação dos predicados normativos configura **nulidade da decisão**, conforme previsto no CPC/2015, art. 489, § 1º, V, e na jurisprudência do TST (Súmula 331).",
+  "tokens_in": 378,
+  "tokens_out": 1137,
+  "latency_ms": 34297,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,19 @@
+{
+  "sha256": "5653b9368eadc90a48f3cbf7a5516328f5629e6b89ce7832683928743760b3ec",
+  "braco": "B2",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-011",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T11:26:50Z",
+  "prompt_sha": "80cf4ccf88db1609d71368c41816c78e5a4e50fd2df67c996e9dc1cae0de53df",
+  "response_text": "1. **ANÁLISE:**\n\nNo cenário apresentado, um tribunal aplicou um Tema de Repercussão Geral (TRG) relacionado ao direito administrativo a um caso envolvendo um empregado celetista privado, sem explicar como o precedente seria análogo ou aplicável ao regime trabalhista. A principal questão é que o TRG citado não mencionava explicitamente o setor privado.\n\nNo Direito do Trabalho brasileiro, a aplicação de TRGs deve ser feita com cautela, especialmente quando se trata de analogias entre direitos administrativos (servidores públicos) e trabalhistas (empregados celetistas). A Constituição Federal estabelece princípios distintos para servidores públicos e empregados privados. Por exemplo:\n\n- **Artigo 37, X da CF/1988**: Estabelece que a administração pública direta e indireta de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios obedecerá aos princípios da legalidade, impessoalidade, moralidade, publicidade e eficiência.\n\n- **Artigo 7º da CF/1988**: Enumera direitos dos trabalhadores, como o direito à jornada de trabalho de oito horas diárias e quarenta e oito semanais, salário mínimo, férias anuais remuneradas com acréscimo de um terço, entre outros.\n\nA aplicação de TRGs do STF (Supremo Tribunal Federal) deve considerar a compatibilidade dos princípios envolvidos. A jurisprudência do TST (Tribunal Superior do Trabalho) também é relevante para casos trabalhistas, pois o TST é especializado em Direito do Trabalho.\n\n2. **DECISÃO RECOMENDADA:**\n\nA decisão recomendada seria que o tribunal revise a aplicação do TRG ao caso específico do empregado celetista privado. A analogia deve ser claramente justificada, demonstrando como os princípios do direito administrativo são aplicáveis ao regime trabalhista, ou então, se tal aplicação não for viável, o tribunal deve buscar precedentes mais adequados no âmbito do Direito do Trabalho.\n\n3. **FUNDAMENTAÇÃO NORMATIVA:**\n\n- **Artigo 37, X da CF/1988**: Estabelece princípios específicos para a administração pública que não são diretamente aplicáveis ao setor privado sem uma justificativa clara de analogia.\n\n- **Artigo 7º da CF/1988**: Define direitos e garantias fundamentais dos trabalhadores, diferenciando o regime jurídico dos empregados celetistas do dos servidores públicos.\n\n- **Súmula Vinculante n. 13 do STF**: Estabelece que a Constituição Federal de 1988 não admite interpretação extensiva das garantias individuais, o que implica que princípios específicos para servidores públicos não podem ser automaticamente estendidos aos empregados privados sem uma fundamentação adequada.\n\nDado que o contexto normativo não contém dispositivos específicos sobre a aplicabilidade de TRGs do STF ao Direito do Trabalho, a limitação é evidente. A análise deve se basear na compatibilidade dos princípios constitucionais e na jurisprudência especializada em matéria trabalhista.",
+  "tokens_in": 275,
+  "tokens_out": 783,
+  "latency_ms": 44812,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

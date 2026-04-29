@@ -1,0 +1,19 @@
+{
+  "sha256": "aaa7f3e4335fb1b8cdbc5cfaabb8de4fb776c1a9a80bd3b83c862774ec7c45cd",
+  "braco": "B1",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-011",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T06:47:36Z",
+  "prompt_sha": "0bb468a82e3806412b782c7a6eb8b917f49bedfb81b3d537900aa9fbdba761b1",
+  "response_text": "**ANÁLISE**\n\n1.  **Identificação dos dispositivos legais aplicáveis**: O caso em questão envolve a cláusula de renúncia ao adicional de horas extras prevista no Acordo Coletivo de Trabalho (CCT) firmado entre a Transportadora e o Sindicato dos Trabalhadores. A cláusula específica em questão é questionada pela existência da violação ao Artigo 611-B, IX da Consolidação das Leis do Trabalho (CLT).\n2.  **Interpretação no caso concreto**: O dispositivo legal citado (Art. 611-B, IX) trata sobre a compensação de horas extras e estabelece que a compensação deve ocorrer dentro do prazo máximo de 30 dias após o período de trabalho excedente. A cláusula em questão da CCT, que obriga os trabalhadores a abrir mão do direito ao adicional de horas extras caso o banco não seja compensado no prazo, pode ser considerada inconstitucional ou ilegal se violar essa regra.\n\n**DECISÃO RECOMENDADA**\n\nA decisão recomendada é que a cláusula da CCT que obriga os trabalhadores a abrir mão do direito ao adicional de horas extras caso o banco não seja compensado no prazo é nula e sem efeito, por violar o Artigo 611-B, IX da CLT.\n\n**FUNDAMENTAÇÃO NORMATIVA**\n\n*   **CLT**: O Art. 611-B, IX estabelece que a compensação de horas extras deve ocorrer dentro do prazo máximo de 30 dias após o período de trabalho excedente.\n*   **Súmula do TST**: A Súmula nº 438 do TST estabelece que \"É ilegal o acordo que autoriza a compensação de jornada em outro dia, sem prévia negociação coletiva\".\n*   **Precedentes Constitucionais**: O precedente constitucional mais relevante é a Constituição Federal Brasileira de 1988, Art. 7º, inciso XV, que estabelece o direito dos trabalhadores à remuneração do trabalho excessivo.\n\n**CONCLUSÃO**\n\nA decisão recomendada é baseada na interpretação da CLT e no entendimento jurisprudencial do TST. A cláusula da CCT em questão viola a regra de compensação de horas extras prevista no Artigo 611-B, IX da CLT, o que torna sua validade questionável.",
+  "tokens_in": 319,
+  "tokens_out": 575,
+  "latency_ms": 19172,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

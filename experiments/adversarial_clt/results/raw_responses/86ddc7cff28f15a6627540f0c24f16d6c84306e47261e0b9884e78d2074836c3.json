@@ -1,0 +1,27 @@
+{
+  "sha256": "86ddc7cff28f15a6627540f0c24f16d6c84306e47261e0b9884e78d2074836c3",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-009",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T00:02:30Z",
+  "prompt_sha": "41f99391d623b6e4453b092d8b4f92a9e4baebd669c006a01fb7a1c18b0e7608",
+  "response_text": "1. **ANÁLISE:**\n\n   - **hour_bank_with_cct_max_1_year:** Este predicado normativo estabelece que o banco de horas, quando instituído por CCT (Convenção Coletiva de Trabalho), tem um prazo máximo de 12 meses. No cenário apresentado, a CCT previa um prazo de 12 meses para o banco de horas e a conversão ocorreu antes do término desse período. Portanto, este predicado foi cumprido, pois a conversão das horas foi realizada dentro do limite temporal estabelecido pela norma.\n\n   - **working_hours_negotiable_by_cct:** Este predicado indica que as condições relativas às horas de trabalho podem ser negociadas e definidas por meio da CCT. No caso em questão, a possibilidade de conversão das horas acumuladas em dinheiro com adicional de 50% foi estabelecida pela CCT, o que demonstra que essa negociação ocorreu conforme permitido pela normativa. Assim, este predicado também foi cumprido.\n\n2. **DECISÃO RECOMENDADA:**\n\n   Com base nos predicados aplicáveis ao caso, a decisão recomendada é de conformidade com as normas estabelecidas na CCT e na CLT. A conversão das horas acumuladas em dinheiro antes do término do prazo máximo de 12 meses, conforme previsto pela CCT, foi realizada dentro dos limites legais. Além disso, a anuência do empregador e o pagamento no mês subsequente à conversão estão alinhados com as condições negociadas na convenção coletiva.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Cumpriu:** \n     - hour_bank_with_cct_max_1_year: A conversão ocorreu dentro do prazo máximo de 12 meses estabelecido pela CCT.\n     - working_hours_negotiable_by_cct: As condições da conversão das horas foram negociadas e definidas por meio da CCT, incluindo o adicional de 50% sobre as horas convertidas.\n\n   Nenhum dos predicados listados foi violado no cenário apresentado.",
+  "tokens_in": 360,
+  "tokens_out": 487,
+  "latency_ms": 14250,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

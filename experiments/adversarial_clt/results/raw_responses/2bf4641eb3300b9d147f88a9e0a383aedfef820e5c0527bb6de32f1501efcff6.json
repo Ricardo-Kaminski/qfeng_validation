@@ -1,0 +1,19 @@
+{
+  "sha256": "2bf4641eb3300b9d147f88a9e0a383aedfef820e5c0527bb6de32f1501efcff6",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T01:51:52Z",
+  "prompt_sha": "ad4c06343c39e40beb5354b3121dc7db4493d512c68418d9b093860317c762b8",
+  "response_text": "### ANÁLISE\n\n**1. Dispositivos Legais Aplicáveis**\n\n- **Artigo 59 da CLT**: Este artigo estabelece que o banco de horas pode ser instituído mediante acordo ou convenção coletiva, com a participação do sindicato representativo das categorias profissionais envolvidas. O acordo individual não é suficiente para estabelecer um regime de banco de horas semestral.\n\n- **Artigo 62 da CLT**: Reforça que o banco de horas deve ser instituído por meio de convenção ou acordo coletivo, e não por acordo individual. Isso visa garantir a proteção dos trabalhadores através do controle sindical sobre as condições de trabalho.\n\n- **Súmula 244 do TST**: Estabelece que o banco de horas deve ser instituído mediante convenção ou acordo coletivo, vedada a sua implementação por meio de acordo individual.\n\n**2. Interpretação no Caso Concreto**\n\nA empresa adotou o banco de horas com base em acordos individuais escritos, sem a participação do sindicato patronal ou dos trabalhadores em qualquer acordo coletivo. Isso contraria expressamente os dispositivos legais mencionados, que exigem uma negociação coletiva para a instituição de um banco de horas.\n\n### DECISÃO RECOMENDADA\n\nA decisão recomendada é que o banco de horas adotado pela empresa seja considerado inválido. A implementação deve ser feita por meio de convenção ou acordo coletivo, conforme exigido pelo artigo 59 e 62 da CLT e Súmula 244 do TST.\n\n### FUNDAMENTAÇÃO NORMATIVA\n\n- **Artigo 59 da CLT**: Estabelece a necessidade de negociação coletiva para instituição de banco de horas, excluindo acordos individuais como meio válido para essa finalidade.\n\n- **Artigo 62 da CLT**: Reforça que o banco de horas deve ser estabelecido por convenção ou acordo coletivo, não permitindo a implementação individual.\n\n- **Súmula 244 do TST**: Confirma que o banco de horas só pode ser instituído mediante convenção ou acordo coletivo, vedando acordos individuais para esse fim.\n\n**Precedentes Constitucionais**\n\n- **Artigo 8º da CF/88**: Garante a negociação coletiva como meio de defesa dos direitos dos trabalhadores, reforçando a necessidade de participação sindical na instituição de regimes como o banco de horas.\n\nA decisão deve ser fundamentada no princípio da proteção do trabalho e na garantia de que as condições laborais sejam negociadas coletivamente, visando evitar abusos e garantir equilíbrio nas relações trabalhistas.",
+  "tokens_in": 304,
+  "tokens_out": 639,
+  "latency_ms": 36688,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

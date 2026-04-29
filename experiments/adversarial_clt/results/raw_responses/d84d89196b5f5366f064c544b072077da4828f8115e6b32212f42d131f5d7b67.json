@@ -1,0 +1,19 @@
+{
+  "sha256": "d84d89196b5f5366f064c544b072077da4828f8115e6b32212f42d131f5d7b67",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CTRL-NEG-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T20:04:36Z",
+  "prompt_sha": "c6c70b9d2292a4d84e6ab8d671e81e0bde2fa1ee5d8ff83f8b588274d9a8c177",
+  "response_text": "Considerando que o contexto normativo fornecido é *exclusivamente* um cenário de um Acórdão trabalhista que utiliza um precedente (TST-Ag-RR-868-65.2021.5.13.0030) para fundamentar sua decisão, e não um conjunto de leis, artigos ou súmulas em si, a análise, decisão recomendada e fundamentação normativa devem ser construídas a partir da *descrição* desse cenário.\n\n**1. ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso.**\n\nO \"dispositivo\" central a ser analisado aqui não é uma lei, mas a *existência e aplicação do precedente* TST-Ag-RR-868-65.2021.5.13.0030.  A análise revela que o Acórdão considera este precedente como a base legal para a decisão.  A compatibilidade fática entre o caso em julgamento (banco de horas em CCT bancária) e a situação tratada no precedente é crucial para a aplicação da *ratio* (o princípio ou razão de decidir) do TST-Ag-RR-868-65.2021.5.13.0030.  A análise implica, portanto, que a validade da decisão depende da demonstração de que o caso concreto se enquadra na hipótese do precedente.\n\n**2. DECISÃO RECOMENDADA: Qual deve ser a decisão e por quê.**\n\nA decisão recomendada, *com base no contexto fornecido*, é que o caso seja julgado de acordo com a *ratio* do precedente TST-Ag-RR-868-65.2021.5.13.0030.  A razão para essa recomendação é que o Acórdão trabalhista já estabeleceu que a aplicação do precedente é justificada pela compatibilidade fática entre os casos.  Seguir essa linha de raciocínio garante a coerência e a segurança jurídica, evitando decisões contraditórias e permitindo que as partes prevejam os resultados do processo.\n\n**3. FUNDAMENTAÇÃO NORMATIVA: Cite especificamente os artigos e súmulas do contexto acima.**\n\nA fundamentação normativa é *diretamente derivada da descrição do cenário* do Acórdão.  Não há artigos ou súmulas a citar no sentido tradicional, mas sim a identificação e a aplicação do precedente:\n\n*   **Precedente:** TST-Ag-RR-868-65.2021.5.13.0030 (a ementa transcrita no Acórdão, que define a *ratio* a ser aplicada).\n*   **Análise de Compatibilidade Fática:** A decisão deve ser fundamentada na análise detalhada da compatibilidade fática entre o caso concreto (banco de horas em CCT bancária) e a situação tratada no TST-Ag-RR-868-65.2021.5.13.0030.  A ausência de compatibilidade fática invalidaria a aplicação do precedente.\n*   **Fundamentação do Enquadramento:** O Acórdão deve explicitamente indicar por que o caso se enquadra na hipótese do precedente, demonstrando a aplicação da *ratio*.\n\n**Limitação:**\n\nÉ importante ressaltar que a análise é limitada ao contexto fornecido. Não há como determinar a validade ou o conteúdo do precedente TST-Ag-RR-868-65.2021.5.13.0030 sem acesso ao seu texto integral. A análise aqui apresentada assume que o Acórdão trabalhista fez a análise correta da compatibilidade fática e da aplicabilidade do precedente.\n",
+  "tokens_in": 296,
+  "tokens_out": 828,
+  "latency_ms": 22818,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

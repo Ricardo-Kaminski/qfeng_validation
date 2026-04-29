@@ -1,0 +1,27 @@
+{
+  "sha256": "54e746042e87aea12fafc5611509578fcc3e7c890175f3040e3cbc179acb36af",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T22:46:57Z",
+  "prompt_sha": "f2d41009685e11d681b7fbf5f2cf8a68b4afa572246a1b611f1126f8318965ca",
+  "response_text": "### 1. **ANÁLISE: Aplicação dos Predicados Normativos ao Caso Concreto**  \nO predicado **\"semester_hour_bank_requires_cct_or_act\"** estabelece que a implementação de um **banco de horas** (ou \"banco de semestralidade\", conforme o contexto) **exige a existência de uma Convenção Coletiva de Trabalho (CCT) ou um Acordo Coletivo de Trabalho (ACT)**, que regulamentem as condições específicas do regime.  \n\nNo cenário descrito:  \n- A **empresa adquirida** possuía uma **CCT vigente por 12 meses** que regulamentava o banco de horas.  \n- Após a **sucessão empresarial**, a **nova empresa não renovou a CCT com o sindicato**, mas **continuou aplicando as cláusulas do banco de horas**.  \n- Os trabalhadores questionam se a **CCT da empresa sucedida** ainda vincula a **empresa sucessora** após o término do prazo original da CCT.  \n\n**Aplicação do predicado:**  \n- A **CCT original** **perdeu sua validade** após o término do prazo de 12 meses, conforme previsto no **art. 613 da CLT** (que estabelece a vigência das CCTs por prazo determinado).  \n- A **continuação da aplicação das cláusulas do banco de horas** **sem a existência de uma CCT ou ACT vigente** **viola o predicado normativo**, pois o regime de banco de horas só pode ser implementado com base em instrumentos coletivos válidos.  \n- A **sucessão empresarial** **não transfere automaticamente a validade da CCT expirada**, conforme jurisprudência do **TST** (ex.: **Súmula 368** do TST, que afirma que a **sucessão empresarial não mantém a vigência de normas coletivas expiradas**).  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **empresa sucessora** **não pode continuar aplicando as cláusulas do banco de horas** após o término da CCT original, **sem a existência de uma nova CCT ou ACT** que regulamente o regime.  \n\n**Recomendações:**  \n- A **empresa sucessora** deve:  \n  - **Renovar a CCT com o sindicato**, incluindo as cláusulas do banco de horas, ou  \n  - **Negociar um novo ACT** com os representantes dos trabalhadores, para manter o regime.  \n- Caso a **empresa não renove ou negocie um novo instrumento coletivo**, a **aplicação do banco de horas** **será ilegal**, e os trabalhadores poderão pleitear a **reintegração de horas extras** ou outras compensações, conforme previsto no **art. 60 da CLT** (sobre horas extras).  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Predicado violado:**  \n  - **semester_hour_bank_requires_cct_or_act** (violação): A **empresa sucessora** **não possui CCT ou ACT vigente** que regulamente o banco de horas, **viando o requisito legal** para a implementação do regime.  \n\n- **Predicados cumpridos:**  \n  - Não há outros predicados listados no cenário que sejam cumpridos, pois o único predicado aplicável (relativo ao banco de horas) foi **violado**.  \n\n---\n\n### **Conclusão Normativa**  \nA **sucessão empresarial não mantém a vigência de uma CCT expirada**, e a **empresa sucessora** **deve renegociar ou renovar o instrumento coletivo** para manter o regime de banco de horas. A **continuação da aplicação das cláusulas sem CCT/ACT vigente** **viola a norma trabalhista**.",
+  "tokens_in": 335,
+  "tokens_out": 1498,
+  "latency_ms": 45906,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

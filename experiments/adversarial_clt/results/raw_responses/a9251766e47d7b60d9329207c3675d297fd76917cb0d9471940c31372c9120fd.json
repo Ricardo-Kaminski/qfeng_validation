@@ -1,0 +1,26 @@
+{
+  "sha256": "a9251766e47d7b60d9329207c3675d297fd76917cb0d9471940c31372c9120fd",
+  "braco": "B3",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T23:39:00Z",
+  "prompt_sha": "a468f9337a1667ebe471a714d6ab4b8f17bcd68f8f75d3aa6e375913dc2f76bf",
+  "response_text": "1. **ANÁLISE:**\n\n   - **Obligation to ground decision in identified ratio decidendi:** Este predicado normativo estabelece a obrigação de fundamentar decisões judiciais com base em um raciocínio jurídico claro e identificável, conhecido como \"ratio decidendi\". No caso concreto, o juiz do trabalho negou seguimento ao recurso ordinário sem especificar qual lei ou dispositivo embasava a decisão. A ausência de fundamentação específica viola essa obrigação, pois não é possível identificar o raciocínio jurídico que levou à decisão.\n\n   - **Due process of law:** Este predicado normativo está relacionado ao princípio do devido processo legal, que inclui a garantia de uma decisão justa e fundamentada. A Constituição Federal de 1988 (CF/88), em seu Artigo 93, IX, exige que todas as decisões judiciais sejam fundamentadas. No cenário apresentado, ao não especificar o fundamento legal para a negativa de seguimento ao recurso, o juiz violou o princípio do devido processo legal, pois não proporcionou uma decisão justa e transparente.\n\n2. **DECISÃO RECOMENDADA:**\n\n   A recomendação seria que a decisão seja reconsiderada ou anulada pelo tribunal competente. O juiz deve ser instruído a fundamentar sua decisão com base em um dispositivo legal específico, explicando claramente o raciocínio jurídico que justifica a negativa de seguimento ao recurso ordinário. Isso garantiria conformidade tanto com a obrigação de fundamentação quanto com o princípio do devido processo legal.\n\n3. **PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n   - **Violados:**\n     - Obligation to ground decision in identified ratio decidendi: A decisão não foi fundamentada com base em um raciocínio jurídico identificável.\n     - Due process of law: A falta de fundamentação específica viola o princípio do devido processo legal, conforme exigido pela CF/88 Art. 93, IX.\n\n   - **Cumpridos:** \n     - Nenhum dos predicados foi cumprido no cenário apresentado, pois a decisão não atendeu às obrigações normativas estabelecidas.",
+  "tokens_in": 351,
+  "tokens_out": 529,
+  "latency_ms": 15235,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

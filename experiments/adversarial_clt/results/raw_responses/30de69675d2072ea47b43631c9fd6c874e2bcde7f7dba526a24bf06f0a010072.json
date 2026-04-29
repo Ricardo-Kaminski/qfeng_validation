@@ -1,0 +1,27 @@
+{
+  "sha256": "30de69675d2072ea47b43631c9fd6c874e2bcde7f7dba526a24bf06f0a010072",
+  "braco": "B3",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-009",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T00:58:36Z",
+  "prompt_sha": "41f99391d623b6e4453b092d8b4f92a9e4baebd669c006a01fb7a1c18b0e7608",
+  "response_text": "## Análise do Caso: Conversão de Banco de Horas em Dinheiro\n\nConsiderando o cenário apresentado e os predicados normativos fornecidos, segue a análise, decisão recomendada e identificação de cumprimento/violação:\n\n**1. ANÁLISE:**\n\n*   **hour_bank_with_cct_max_1_year:** Este predicado estabelece a existência de um banco de horas regulamentado por CCT, com um prazo máximo de 12 meses. No caso, o cenário confirma a existência de um banco de horas, a sua regulamentação por CCT e o prazo de 12 meses. A conversão em dinheiro, embora ocorrendo antes do término do prazo, não necessariamente invalida a validade do banco de horas em si, desde que a CCT preveja essa possibilidade.\n*   **working_hours_negotiable_by_cct:** Este predicado indica que a negociação da jornada de trabalho, incluindo a forma de compensação das horas extras (como a conversão em folgas ou pagamento em dinheiro), pode ser estabelecida por CCT. O cenário demonstra que a CCT permitiu a conversão do saldo do banco de horas em dinheiro, o que configura uma negociação da forma de compensação da jornada. A anuência do empregador, nesse contexto, reforça a validade da negociação.\n\n**2. DECISÃO RECOMENDADA:**\n\nA decisão recomendada é de **validar a conversão do banco de horas em dinheiro**, desde que a CCT realmente preveja essa possibilidade e o adicional de 50% tenha sido pago conforme o estabelecido. É crucial verificar a redação exata da CCT para confirmar a permissão para a conversão antes do término do prazo de 12 meses. Caso a CCT não preveja expressamente a conversão antes do prazo, a decisão pode ser diferente, mas a anuência do empregador e o pagamento do adicional de 50% são fatores atenuantes.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS:**\n\n*   **hour_bank_with_cct_max_1_year:** **Conformidade** (com ressalva). O banco de horas existe e está regulamentado por CCT, com prazo de 12 meses. A conversão antes do prazo pode gerar questionamentos dependendo da redação da CCT.\n*   **working_hours_negotiable_by_cct:** **Conformidade**. A forma de compensação das horas extras (conversão em dinheiro) foi negociada por meio da CCT.\n\n**Observações Importantes:**\n\n*   **Análise da CCT:** A decisão final depende da análise minuciosa da CCT para verificar se a conversão antes do prazo de 12 meses é permitida.\n*   **Boa-fé:** A anuência do empregador e o pagamento do adicional de 50% demonstram a boa-fé das partes e podem influenciar a decisão judicial, caso haja litígio.\n*   **Jurisprudência:** Embora não haja um predicado específico sobre o tema, a jurisprudência do TST geralmente valoriza a autonomia da vontade das partes quando há negociação coletiva, desde que respeitados os direitos mínimos assegurados pela legislação.\n*   **Formalidades:** É importante verificar se a conversão foi devidamente documentada, com assinatura do trabalhador, para comprovar a sua anuência.\n",
+  "tokens_in": 335,
+  "tokens_out": 742,
+  "latency_ms": 20233,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

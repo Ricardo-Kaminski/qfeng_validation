@@ -1,0 +1,29 @@
+{
+  "sha256": "5bbc02ee2e96d3d4c53299e7a8b3d88f2654b9fb958a0de2236b180908023ae1",
+  "braco": "B3",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T01:23:38Z",
+  "prompt_sha": "9aed310839e4cb6680c5af139cfc1410b8dc65f015f8e8555e2fcb61291a68c3",
+  "response_text": "**1. ANÁLISE**\n\n- **semester_hour_bank_requires_cct_or_act**: Este predicado normativo está relacionado à obrigatoriedade de registro da ACT na Superintendência Regional do Trabalho (SRTE). A empresa alega que o registro seria mera formalidade e que a ACT seria válida desde a assinatura. No entanto, a CLT estabelece que a ACT deve ser registrada no prazo de 10 dias úteis após sua celebração para ser considerada válida. A falta de registro da ACT dentro do prazo legal viola este predicado normativo.\n\n**2. DECISÃO RECOMENDADA**\n\nDiante da análise, recomenda-se que a decisão seja favorável ao trabalhador, anulando a ACT por falta de registro no prazo estabelecido pela CLT. Isso significa que a empresa não pode invocar a validade da ACT sem o registro dentro do prazo legal.\n\n**3. PREDICADOS VIOLADOS OU CUMPRIDOS**\n\n- **semester_hour_bank_requires_cct_or_act**: Violação - A empresa não registrou a ACT no prazo de 10 dias úteis após sua celebração, como estabelecido pela CLT.\n \nObservação: Não há outros predicados normativos listados que sejam aplicáveis ao cenário apresentado.",
+  "tokens_in": 335,
+  "tokens_out": 300,
+  "latency_ms": 5062,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

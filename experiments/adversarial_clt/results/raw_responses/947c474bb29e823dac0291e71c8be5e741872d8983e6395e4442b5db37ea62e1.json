@@ -1,0 +1,19 @@
+{
+  "sha256": "947c474bb29e823dac0291e71c8be5e741872d8983e6395e4442b5db37ea62e1",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T01:56:36Z",
+  "prompt_sha": "3313428edbc166d56a9b43d90f3fa7bed30c9f2491d71915a7aa6bf86caa812b",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Artigo 59 da CLT:** Este artigo estabelece a possibilidade de compensação das horas extras mediante acordo escrito, com prazo máximo de um ano para a compensação.\n\n- **Súmula TST 85, V:** Esta súmula do Tribunal Superior do Trabalho (TST) reforça que o limite de um ano para a compensação de horas extras é uma norma de ordem pública. Isso significa que não pode ser alterado por convenção coletiva ou acordo individual.\n\n**Interpretação no Caso Concreto:**\n\n- A empresa hoteleira argumenta que, com base na autonomia das partes coletivas e no princípio da adequação setorial negociada, a CCT (Convenção Coletiva de Trabalho) pode estabelecer um prazo de compensação superior ao limite legal de 1 ano.\n\n- O sindicato dos hotéis contesta essa interpretação, sustentando que o limite de 1 ano é uma norma de ordem pública e, portanto, inderrogável por convenções coletivas.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é que a CCT não pode estabelecer um prazo de compensação superior a 1 ano para o banco de horas, conforme previsto na Súmula TST 85, V. Portanto, o prazo de 14 meses estipulado pela CCT do setor hoteleiro deve ser considerado inválido.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **Artigo 59 da CLT:** Estabelece que a compensação das horas extras pode ocorrer mediante acordo escrito, com prazo máximo de um ano para tal compensação. Este dispositivo legal é claro ao fixar o limite temporal.\n\n- **Súmula TST 85, V:** Confirma que o prazo máximo de um ano para a compensação de horas extras é uma norma de ordem pública, não podendo ser alterado por convenção coletiva ou acordo individual. A natureza de ordem pública implica que tais limites são inderrogáveis e destinados a proteger os direitos fundamentais dos trabalhadores.\n\n- **Princípio da Adequação Setorial:** Embora as partes coletivas tenham autonomia para negociar condições específicas do setor, essa autonomia não pode contrariar normas de ordem pública. A adequação setorial deve respeitar os limites impostos por legislação e jurisprudência.\n\n- **Precedentes Constitucionais:** O artigo 7º da Constituição Federal assegura direitos trabalhistas mínimos, que não podem ser reduzidos ou alterados em desfavor do empregado. A fixação de prazos para compensação de horas extras está alinhada com a proteção dos direitos fundamentais dos trabalhadores.\n\nPortanto, a decisão deve respeitar o limite máximo de 1 ano estabelecido pela CLT e reforçado pela Súmula TST 85, V, garantindo que os direitos dos trabalhadores sejam preservados conforme as normas de ordem pública.",
+  "tokens_in": 317,
+  "tokens_out": 729,
+  "latency_ms": 40610,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

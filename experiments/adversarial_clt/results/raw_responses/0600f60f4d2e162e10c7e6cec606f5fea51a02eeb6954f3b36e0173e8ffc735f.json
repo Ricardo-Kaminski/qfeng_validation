@@ -1,0 +1,19 @@
+{
+  "sha256": "0600f60f4d2e162e10c7e6cec606f5fea51a02eeb6954f3b36e0173e8ffc735f",
+  "braco": "B2",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-011",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T19:50:54Z",
+  "prompt_sha": "fb1b55eb31294169d89cb597740f454565b64e9af7278dc7f29bec4c017f5fe6",
+  "response_text": "## Análise Jurídico-Trabalhista do Caso Banco de Horas e Afastamento por Acidente de Trabalho\n\nCom base no cenário apresentado e considerando a inexistência de texto normativo no contexto fornecido, a análise, decisão recomendada e fundamentação serão construídas com as devidas ressalvas sobre essa limitação.\n\n**1. ANÁLISE: Dispositivos do Contexto Normativo Aplicáveis**\n\nO cenário informa que a empresa firmou uma **Convenção Coletiva de Trabalho (CCT)** que institui um sistema de **banco de horas anual**.  A questão central gira em torno da validade da exigência de compensação das horas acumuladas, considerando o afastamento do trabalhador por acidente de trabalho.\n\nO ponto crucial é a ausência de qualquer menção na CCT sobre a suspensão do prazo de compensação do banco de horas em caso de afastamento do empregado. A empresa alega, unilateralmente, a suspensão do prazo, o que é contestado pelo trabalhador.\n\n**Limitação:** A análise é severamente limitada pela ausência do texto da CCT. Sem acesso ao conteúdo da convenção, não é possível determinar se existem outras cláusulas que poderiam influenciar a interpretação da regra do banco de horas.\n\n**2. DECISÃO RECOMENDADA**\n\nRecomenda-se que a exigência da empresa seja considerada **ilegal**. O trabalhador **não** deve ser obrigado a compensar as horas acumuladas em um prazo que ultrapasse 12 meses a partir do início do banco de horas, mesmo considerando o período de afastamento.\n\n**3. FUNDAMENTAÇÃO NORMATIVA**\n\nA fundamentação é construída com base no princípio da **interpretação restritiva das cláusulas contratuais** e na **ausência de previsão legal ou convencional** para a suspensão do prazo do banco de horas em caso de afastamento.\n\n*   **Princípio da Interpretação Restritiva:** Em contratos, especialmente aqueles de adesão como as CCTs, a interpretação deve ser restritiva, ou seja, as cláusulas devem ser interpretadas em favor do trabalhador, especialmente quando a exigência é da empresa. A empresa não pode impor condições não previstas na CCT.\n*   **Ausência de Previsão na CCT:** O cenário afirma expressamente que a CCT **não** prevê a suspensão do prazo de compensação do banco de horas em caso de afastamento.  A interpretação da CCT deve ser estritamente literal, e a ausência de previsão impede a empresa de unilateralmente estender o prazo de compensação.\n*   **Direito à Segurança Jurídica:** O trabalhador tem o direito à segurança jurídica, que é a expectativa de que as regras do banco de horas sejam claras e previsíveis. A empresa, ao estender o prazo sem base legal ou convencional, viola esse direito.\n\n**Observação Importante:**\n\nA decisão acima é baseada **exclusivamente** nas informações fornecidas no contexto. A análise poderia ser diferente se a CCT contivesse cláusulas específicas sobre a suspensão do prazo do banco de horas em caso de afastamento, licença, ou outros eventos. A ausência do texto da CCT é a principal limitação desta análise.\n",
+  "tokens_in": 291,
+  "tokens_out": 701,
+  "latency_ms": 19364,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

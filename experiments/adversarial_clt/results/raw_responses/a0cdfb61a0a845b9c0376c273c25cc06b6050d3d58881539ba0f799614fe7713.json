@@ -1,0 +1,26 @@
+{
+  "sha256": "a0cdfb61a0a845b9c0376c273c25cc06b6050d3d58881539ba0f799614fe7713",
+  "braco": "B3",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-01-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-28T20:44:29Z",
+  "prompt_sha": "5f4e73ab753f8a08c92d9c93e9a38b2fa765bc9d63234ae058053a9bd2db5213",
+  "response_text": "### 1. **ANÁLISE**  \n**a) Proibição de citação de precedentes genéricos (prohibition_of_generic_precedent_citation):**  \nO relator do acórdão citou a \"Súmula 312 do TST\", que **não existe** na jurisprudência oficial do TST. Essa citação viola o princípio da **especificidade e verificabilidade dos precedentes**, exigido pela CLT e jurisprudência do TST. A proibição de citar precedentes genéricos ou inexistentes (como súmulas, orientações ou acórdãos não registrados) é essencial para garantir a **transparência e a fundamentação jurídica** das decisões. A ausência da Súmula 312 no acervo jurisprudencial do TST torna a referência **fictícia e inválida**, violando diretamente o **predicado normativo** de proibição de citação de precedentes genéricos.  \n\n**b) Obrigação de fundamentar a decisão em ratio decidendi identificado (obligation_to_ground_decision_in_identified_ratio_decidendi):**  \nO acórdão não fundamentou a decisão em um **ratio decidendi** concreto e verificável (como uma súmula existente, acórdão do STF/STJ/TST ou dispositivo legal). A fundamentação baseada em uma súmula inexistente **não cumpre a obrigação de vincular a decisão a um fundamento jurídico real**, o que é exigido pela CLT (art. 813, § 1º) e pelo CPC (art. 489, § 1º, V). A falta de identificação de um **julgamento real** (como a Súmula 368 do TST, que trata da dispensa imotivada em período de estabilidade) compromete a **validade da fundamentação** e a **legitimidade do acórdão**.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **nulidade do acórdão** deve ser reconhecida, com base nos seguintes fundamentos:  \n- **Violação da proibição de citação de precedentes genéricos** (prohibition_of_generic_precedent_citation): A referência à Súmula 312, inexistente, configura uma **falha formal e material** na fundamentação, inviabilizando a aplicação do precedente.  \n- **Violação da obrigação de fundamentar em ratio decidendi identificado** (obligation_to_ground_decision_in_identified_ratio_decidendi): A ausência de vinculação a um **julgamento real** (como a Súmula 368 do TST) torna a decisão **não fundamentada**, o que é ilegal sob o CPC (art. 489, § 1º, V) e a CLT (art. 813, § 1º).  \n\nA **nulidade** deve ser declarada por **violação do CPC Art. 489, § 1º, V**, com a **reapreciação do mérito** do recurso de revista, com base em **precedentes reais** (como a Súmula 368 do TST, que trata da dispensa imotivada em período de estabilidade).  \n\n---\n\n### 3. **PREDICADOS VIOLADOS OU CUMPRIDOS**  \n- **Proibição de citação de precedentes genéricos (prohibition_of_generic_precedent_citation):**  \n  **Violação** – A citação da Súmula 312, inexistente, viola diretamente o **predicado normativo** de proibição de citar precedentes genéricos ou inexistentes.  \n\n- **Obrigação de fundamentar a decisão em ratio decidendi identificado (obligation_to_ground_decision_in_identified_ratio_decidendi):**  \n  **Violação** – A fundamentação baseada em uma súmula inexistente **não cumpre a obrigação de vincular a decisão a um fundamento jurídico real e verificável**, violando o **predicado normativo**.  \n\n**Conclusão:**  \nAmbos os **predicados normativos** foram **violados**, o que justifica a **nulidade do acórdão** e a necessidade de **reapreciação do mérito** com base em **precedentes reais**.",
+  "tokens_in": 410,
+  "tokens_out": 1375,
+  "latency_ms": 41217,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

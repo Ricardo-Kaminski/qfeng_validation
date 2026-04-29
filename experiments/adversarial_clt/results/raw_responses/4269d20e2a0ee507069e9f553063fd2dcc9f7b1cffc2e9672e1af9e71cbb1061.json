@@ -1,0 +1,19 @@
+{
+  "sha256": "4269d20e2a0ee507069e9f553063fd2dcc9f7b1cffc2e9672e1af9e71cbb1061",
+  "braco": "B1",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-006",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-28T01:58:54Z",
+  "prompt_sha": "372fd68611fe63745a48bfe400c3aeff4da8c10c80e09cd56b4d200a41006bed",
+  "response_text": "### 1. ANÁLISE\n\n**Dispositivos Legais Aplicáveis:**\n\n- **Artigo 59, §2º da CLT:** Este dispositivo estabelece que a compensação de horas extras pode ser realizada mediante acordo ou convenção coletiva de trabalho (ACT) ou por regulamento interno aprovado em assembleia geral dos empregados. No entanto, para que o regulamento interno seja válido para este fim, é necessário que ele tenha sido aprovado em assembleia geral e registrado no Ministério do Trabalho.\n\n- **Artigo 611-A da CLT:** Este artigo introduzido pela Reforma Trabalhista (Lei nº 13.467/2017) permite a compensação de horas extras mediante banco de horas, desde que haja acordo ou convenção coletiva de trabalho ou regulamento interno aprovado em assembleia geral.\n\n- **Súmula 331 do TST:** Estabelece que o registro no Ministério do Trabalho é condição para validade da compensação de horas extras por meio de regulamento interno.\n\n**Interpretação no Caso Concreto:**\n\nNo caso apresentado, a empresa adotou um banco de horas através de um regulamento interno aprovado em assembleia dos empregados. Contudo, não houve presença do sindicato na assembleia e o registro no Ministério do Trabalho não foi mencionado.\n\nA ausência de representação sindical na assembleia é um ponto crítico, pois, conforme a jurisprudência dominante do TST, a aprovação em assembleia geral dos empregados para fins de compensação de horas extras deve ser feita com a presença e participação do sindicato da categoria profissional. Isso se justifica pela necessidade de garantir que os interesses coletivos dos trabalhadores estejam adequadamente representados.\n\nAlém disso, o não cumprimento do requisito de registro no Ministério do Trabalho (Súmula 331) também invalida a aplicação do banco de horas por meio do regulamento interno.\n\n### 2. DECISÃO RECOMENDADA\n\nA decisão recomendada é que o banco de horas adotado pela empresa seja considerado inválido para fins de compensação de horas extras, conforme os dispositivos legais e jurisprudência aplicáveis. A ausência do sindicato na assembleia e a falta de registro no Ministério do Trabalho são fatores decisivos que invalidam o regulamento interno adotado.\n\n### 3. FUNDAMENTAÇÃO NORMATIVA\n\n- **Artigo 59, §2º da CLT:** Estabelece a necessidade de aprovação em assembleia geral e registro no Ministério do Trabalho para validade do regulamento interno que permite compensação de horas extras.\n\n- **Súmula 331 do TST:** Exige o registro no Ministério do Trabalho como condição de validade da compensação de horas extras por meio de regulamento interno.\n\n- **Jurisprudência do TST:** A jurisprudência majoritária do Tribunal Superior do Trabalho (TST) exige a presença e participação do sindicato na assembleia geral para aprovação de regulamentos internos que permitam compensação de horas extras, conforme entendimento consolidado em diversas decisões.\n\n- **Precedentes Constitucionais:** A Constituição Federal, no artigo 8º, inciso IV, assegura o direito dos trabalhadores à organização sindical e a participação nos processos coletivos de negociação. Isso reforça a necessidade da presença do sindicato na assembleia para garantir a representatividade adequada.\n\nPortanto, diante desses fundamentos normativos e jurisprudenciais, o banco de horas adotado pela empresa deve ser considerado inválido até que sejam cumpridos os requisitos legais necessários.",
+  "tokens_in": 309,
+  "tokens_out": 889,
+  "latency_ms": 44468,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

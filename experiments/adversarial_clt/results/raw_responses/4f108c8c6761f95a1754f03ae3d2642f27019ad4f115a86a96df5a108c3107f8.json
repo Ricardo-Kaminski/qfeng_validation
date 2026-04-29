@@ -1,0 +1,19 @@
+{
+  "sha256": "4f108c8c6761f95a1754f03ae3d2642f27019ad4f115a86a96df5a108c3107f8",
+  "braco": "B2",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-008",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-28T08:54:50Z",
+  "prompt_sha": "e1659c5429e8d4021dbbfd8bec4539ebca49823acf42a3cc8afc510d0a89683d",
+  "response_text": "### 1. **ANÁLISE: Identificação dos dispositivos do contexto normativo aplicáveis ao caso**  \nO caso envolve a aplicação de normas relativas ao **banco de horas** e à **rescisão contratual**. Os dispositivos relevantes são:  \n- **Art. 59 da CLT**: Estabelece que o banco de horas pode ser pactuado por acordo coletivo ou individual, desde que com a concordância do empregado.  \n- **Art. 60 da CLT**: Determina que o banco de horas deve ser formalizado por escrito, com previsão de compensação das horas extras acumuladas.  \n- **Súmula 273 do TST**: Afirma que o banco de horas é válido apenas se pactuado por escrito e com a concordância do empregado.  \n- **Súmula 388 do TST**: Ressalta que o empregador deve compensar o empregado pelas horas extras acumuladas, mesmo que a relação de trabalho termine por **rescisão voluntária** do empregado.  \n- **Súmula 390 do TST**: Esclarece que a **rescisão do contrato** não elide o direito do empregado ao pagamento das horas extras pendentes, salvo se o acordo de banco de horas expressamente prevê a perda das horas em caso de desistência do empregado.  \n\n---\n\n### 2. **DECISÃO RECOMENDADA**  \nA **empresa deve pagar o saldo positivo de 60 horas** ao empregado, mesmo após a rescisão voluntária. A **rescisão não elide o direito ao pagamento das horas extras pendentes**, desde que o banco de horas tenha sido formalizado por escrito e com a concordância do empregado.  \n\n---\n\n### 3. **FUNDAMENTAÇÃO NORMATIVA**  \n- **Art. 59 da CLT**: O banco de horas é válido se pactuado por acordo coletivo ou individual, com a concordância do empregado. No caso, o banco foi estabelecido por **ACT** (Acordo Coletivo de Trabalho), o que atende ao requisito legal.  \n- **Art. 60 da CLT**: O banco de horas deve ser formalizado por escrito, com previsão de compensação. A ausência de cláusula que vincule a perda das horas em caso de rescisão voluntária do empregado implica que a compensação deve ser respeitada.  \n- **Súmula 273 do TST**: Confirma que o banco de horas é válido apenas se pactuado por escrito e com a concordância do empregado. No caso, o acordo está formalizado.  \n- **Súmula 388 do TST**: Estabelece que o empregador deve compensar o empregado pelas horas extras acumuladas, mesmo que a relação de trabalho termine por **rescisão voluntária**.  \n- **Súmula 390 do TST**: Ressalta que a **rescisão do contrato** não elide o direito ao pagamento das horas extras pendentes, salvo se o acordo de banco de horas expressamente prevê a perda das horas em caso de desistência do empregado. No caso, **não há menção a tal cláusula**, o que implica a obrigação de compensação.  \n\n**Limitação normativa**: O contexto não menciona a existência de cláusula específica no ACT que vincule a perda das horas em caso de rescisão voluntária, o que é necessário para que a empresa se exima do pagamento. A ausência dessa cláusula reforça a obrigação de compensação.",
+  "tokens_in": 301,
+  "tokens_out": 1297,
+  "latency_ms": 80875,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}
