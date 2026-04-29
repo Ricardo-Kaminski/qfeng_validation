@@ -1,14 +1,23 @@
-"""Cache idempotente para fatos extraídos por cenário.
+"""Cache idempotente para fatos extraídos por scenario_id.
 
 Política: um arquivo por scenario_id em corpora_clingo/extracted_facts/.
 Sem TTL — fatos extraídos são estáveis (o cenário não muda).
-Cache-hit retorna o .lp existente sem chamar a API.
+Cache-hit retorna o .lp existente sem re-extrair.
+
+Operacionalização: extração executada por Claude Opus 4.7 em sessão
+supervisionada (P_FASE2.0), persistência via Desktop Commander.
+
+Path do cache: a partir de src/qfeng/extractor/cache.py:
+    parents[0] = src/qfeng/extractor
+    parents[1] = src/qfeng
+    parents[2] = src
+    parents[3] = <workspace root>  (qfeng_validacao)
 """
 from __future__ import annotations
 import json
 from pathlib import Path
 
-CACHE_DIR = Path(__file__).resolve().parents[4] / "corpora_clingo" / "extracted_facts"
+CACHE_DIR = Path(__file__).resolve().parents[3] / "corpora_clingo" / "extracted_facts"
 CACHE_DIR.mkdir(parents=True, exist_ok=True)
 
 
@@ -43,5 +52,5 @@ def cache_status() -> dict:
     return {
         "cache_dir": str(CACHE_DIR),
         "n_cached": len(lp_files),
-        "scenario_ids": [f.stem for f in lp_files],
+        "scenario_ids": sorted([f.stem for f in lp_files]),
     }
