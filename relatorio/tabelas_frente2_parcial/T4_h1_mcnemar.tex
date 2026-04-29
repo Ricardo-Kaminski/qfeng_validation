@@ -1,0 +1,30 @@
+\begin{table}[htbp]
+\centering
+\caption{H1 — Resultado global McNemar (B3 vs B1) para taxa de alucinação. $\alpha_\text{Bonferroni}$ = 0{,}00625. * = significativo.}
+\label{tab:t4_h1_global}
+\small
+\begin{tabular}{lrrrrrrr}
+\toprule
+Escopo & N pares & Taxa B1 & Taxa B3 & Redução (pp) & OR discordância & Estatística McNemar & p (unicaudal) & Sig.? \\
+\midrule
+Global & 600 & 19.8% & 3.8% & 16.0 pp & 9.727 & 11.0 & 3.202e-21 * & Sim * \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{H1 — Breakdown McNemar por modelo (B3 vs B1).}
+\label{tab:t4_h1_modelo}
+\small
+\begin{tabular}{lrrrrrr}
+\toprule
+Modelo & N pares & Taxa B1 & Taxa B3 & OR discordância & p (unicaudal) & Sig.? \\
+\midrule
+gemma3:12b & 150 & 11.3% & 0.0% & ∞ & 7.629e-06 * & Sim * \\
+llama3.1:8b & 150 & 29.3% & 10.7% & 5.000 & 7.549e-06 * & Sim * \\
+phi4:14b & 150 & 32.0% & 4.7% & 11.250 & 4.113e-10 * & Sim * \\
+qwen3:14b & 150 & 6.7% & 0.0% & ∞ & 9.766e-04 * & Sim * \\
+\bottomrule
+\end{tabular}
+\end{table}

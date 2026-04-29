@@ -1,0 +1,29 @@
+\begin{table}[htbp]
+\centering
+\caption{H5a — Teste de Levene para homogeneidade de variâncias intra-(modelo, cenário). $\alpha_\text{Bonferroni}$ = 0{,}00625. * = significativo.}
+\label{tab:t7_h5a_levene}
+\small
+\begin{tabular}{lrrrrrr}
+\toprule
+Comparação & Var. média B3 & Var. média outro braço & Estatística Levene & p-value & Sig.? & B3 menor variância? \\
+\midrule
+B3 vs B1 & 0.028 & 0.080 & 18.376 & 2.277e-05 * & Sim * & Sim \\
+B3 vs B2 & 0.028 & 0.062 & 8.707 & 3.357e-03 * & Sim * & Sim \\
+B3 vs B4 & 0.028 & 0.005 & 10.536 & 1.270e-03 * & Sim * & Não \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{H5b — Sobreposição de IC95\% por bootstrap entre B3 e B1.}
+\label{tab:t7_h5b_bootstrap}
+\small
+\begin{tabular}{rrlp{6cm}}
+\toprule
+N pares (modelo, cenário) & Sem sobreposição IC95% & Fração sem sobreposição & Interpretação \\
+\midrule
+200 & 11 & 5.5% & IC95%(B3) e IC95%(B1) sem sobreposição em 5.5% dos 200 pares (modelo, cenário). \\
+\bottomrule
+\end{tabular}
+\end{table}
