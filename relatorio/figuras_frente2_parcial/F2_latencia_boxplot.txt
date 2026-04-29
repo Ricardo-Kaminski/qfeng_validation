@@ -1,0 +1,1 @@
+F2 — Boxplot de latência de inferência (em segundos) por braço experimental (B1-B4) e modelo LLM (gemma3:12b, llama3.1:8b, phi4:14b, qwen3:14b). Caixas: IQR; linha central: mediana; whiskers: 1,5×IQR; pontos: outliers. Linha pontilhada cinza: mediana global do experimento. N = 2400 observações (4 braços × 4 modelos × 50 cenários × 3 runs).
