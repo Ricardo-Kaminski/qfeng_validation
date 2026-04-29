@@ -1,15 +1,17 @@
-"""Orquestrador da análise confirmatória completa (H1–H6 + H5b).
+"""Orquestrador da análise confirmatória completa (H1–H8).
 
-Etapas (7 hipóteses — pós-emenda 27/abr/2026):
+Etapas (9 hipóteses — pós-emenda §12, 28/abr/2026, Bonferroni m=8):
   1. Avalia D1, D2, D3 sobre results.parquet → salva parquets por métrica
-  2. H1 McNemar (D1 binária, B4 vs B1 por modelo, Bonferroni m=6, α=0.0083)
+  2. H1 McNemar (D1 binária, B4 vs B1 por modelo, Bonferroni m=8, α=0.00625)
   3. H2 Wilcoxon (D2 contínua, B3/B4 vs B1 por modelo)
-  4. H3 ANOVA two-way (cross-arch invariance: p > 0.0083 = H3 sustentada)
+  4. H3 ANOVA two-way (cross-arch invariance: p > 0.00625 = H3 sustentada)
   5. H4 Wilcoxon (D3 contínua — especificidade, B4 vs B1)
   6. H5 Levene (variância cross-model, complementar)
   7. H5b Bootstrap overlap (effect-size invariance, primário — emenda §11.2)
   8. H6 ANOVA one-way (Δ_D1 por friccao_categoria)
-  9. Consolida em summary_confirmatory.json
+  9. H7 Sidecar viability (overhead Q-FENG < 5% de latency_ms — emenda §12)
+ 10. H8 Motor θ vs. ancoragem simbólica B4 (Wilcoxon D1/D3 B5 vs B4 — emenda §12)
+ 11. Consolida em summary_confirmatory.json
 
 Uso:
   python -m experiments.adversarial_clt.analysis.run_confirmatory_analysis
@@ -91,7 +93,7 @@ def run_full_analysis(results_parquet: Path = RESULTS_PARQUET) -> dict:
 
     print(f"\n{'='*60}")
     print("ANÁLISE CONFIRMATÓRIA FRENTE 2 — Q-FENG vs CLT")
-    print("Hipóteses: H1, H2, H3, H4, H5, H5b, H6  (emenda 27/abr/2026)")
+    print("Hipóteses: H1-H6, H5b, H7, H8  (emenda §12, 28/abr/2026, Bonferroni m=8)")
     print(f"{'='*60}\n")
 
     # ── Etapa 1: Métricas D1/D2/D3 ──────────────────────────────────
@@ -105,6 +107,8 @@ def run_full_analysis(results_parquet: Path = RESULTS_PARQUET) -> dict:
     from experiments.adversarial_clt.analysis.test_h5_levene_variance import run_h5_levene
     from experiments.adversarial_clt.analysis.test_h5_bootstrap_overlap import run_h5b_bootstrap_overlap
     from experiments.adversarial_clt.analysis.test_subgroup_friccao import run_h6_friccao
+    from experiments.adversarial_clt.analysis.test_h7_sidecar_viability import run_h7_sidecar_viability
+    from experiments.adversarial_clt.analysis.test_h8_motor_vs_anchoring import run_h8_motor_vs_anchoring
 
     summary: dict = {}
 
@@ -159,6 +163,20 @@ def run_full_analysis(results_parquet: Path = RESULTS_PARQUET) -> dict:
             output_path=_ANALYSIS_DIR / "h6_friccao.json",
         )
 
+    print("\n[ H7 ] Sidecar viability — overhead Q-FENG < 5% de latency_ms (emenda §12)...")
+    summary["h7"] = run_h7_sidecar_viability(
+        results_parquet=results_parquet,
+        output_path=_ANALYSIS_DIR / "h7_sidecar_viability.json",
+    )
+
+    print("\n[ H8 ] Motor θ (B5) vs. ancoragem simbólica (B4) — D1 e D3 (emenda §12)...")
+    if "d1" in metric_paths and "d3" in metric_paths:
+        summary["h8"] = run_h8_motor_vs_anchoring(
+            d1_path=metric_paths["d1"],
+            d3_path=metric_paths["d3"],
+            output_path=_ANALYSIS_DIR / "h8_motor_vs_anchoring.json",
+        )
+
     # ── Sumário consolidado ──────────────────────────────────────────
     conclusions = {
         hyp: data.get("conclusion", data.get(f"conclusion_{hyp}", {}))
@@ -183,7 +201,7 @@ def run_full_analysis(results_parquet: Path = RESULTS_PARQUET) -> dict:
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Análise confirmatória completa H1-H6 + H5b (emenda 27/abr/2026)")
+    parser = argparse.ArgumentParser(description="Análise confirmatória completa H1-H8 (emenda §12, 28/abr/2026, Bonferroni m=8)")
     parser.add_argument(
         "--results-parquet",
         default=str(RESULTS_PARQUET),

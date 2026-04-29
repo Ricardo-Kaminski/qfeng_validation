@@ -279,7 +279,7 @@ Esta emenda é registrada **antes** do início da execução das 2.400 chamadas 
 **Data da emenda:** 28 de abril de 2026
 **SHA do pré-registro original:** `4c24e14`
 **SHA da emenda §11:** `6d2f8ae`
-**SHA desta emenda §12:** [a ser preenchido após commit desta operação]
+**SHA desta emenda §12:** `0eff60e`
 **Justificativa:** alinhamento entre o desenho experimental Frente 2 e a especificação do canônico §3 (motor de interferência θ via ψ_N e ψ_S no espaço de Hilbert) e §7.4 nova (governance sidecar com runtime computation de θ sobre LLMs cross-arquitetura).
 
 **Status quanto à execução LLM:**
