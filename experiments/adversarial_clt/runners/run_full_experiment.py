@@ -88,6 +88,19 @@ def _append_to_parquet(record: dict[str, Any]) -> None:
         "n_sovereign_active": len(record.get("clingo_active_sovereign", [])),
         "n_elastic_active": len(record.get("clingo_active_elastic", [])),
         "friccao_categoria": record.get("friccao_categoria", ""),
+        # Campos de tempo granular (populados para B4+B5; None para B1-B3)
+        "t_clingo_ms": record.get("t_clingo_ms"),
+        "t_llm_ms": record.get("t_llm_ms"),
+        # Campos Q-FENG motor (populados apenas para B5; None para B1-B4)
+        "t_psi_build_ms": record.get("t_psi_build_ms"),
+        "t_theta_compute_ms": record.get("t_theta_compute_ms"),
+        "qfeng_theta_deg": record.get("qfeng_theta_deg"),
+        "qfeng_theta_eff_deg": record.get("qfeng_theta_eff_deg"),
+        "qfeng_regime": record.get("qfeng_regime"),
+        "qfeng_p_action": record.get("qfeng_p_action"),
+        "qfeng_cos_theta": record.get("qfeng_cos_theta"),
+        "qfeng_psi_n_dim": record.get("qfeng_psi_n_dim"),
+        "qfeng_psi_s_dim": record.get("qfeng_psi_s_dim"),
     }])
 
     if RESULTS_PARQUET.exists():

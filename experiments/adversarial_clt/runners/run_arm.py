@@ -8,8 +8,21 @@ import time
 from pathlib import Path
 from typing import Any
 
+import numpy as np
 import ollama
 import yaml
+
+# Q-FENG motor imports para braço B5
+import sys as _sys
+_sys.path.insert(0, str(Path(__file__).resolve().parents[4] / "src"))
+from qfeng.core.interference import (  # noqa: E402
+    CircuitBreakerConfig,
+    compute_interference,
+)
+from qfeng.e5_symbolic.psi_builder import build_psi_n, build_psi_s  # noqa: E402
+
+# Métricas runtime do motor Q-FENG (populadas em _build_prompt para B5, lidas em run_arm)
+_qfeng_b5_metrics: dict = {}
 
 EXPERIMENT_ROOT = Path(__file__).resolve().parents[1]
 RAW_DIR = EXPERIMENT_ROOT / "results" / "raw_responses"
@@ -17,7 +30,7 @@ PROMPTS_DIR = EXPERIMENT_ROOT / "prompts"
 SCENARIOS_FILE = EXPERIMENT_ROOT / "scenarios" / "scenarios.yaml"
 GROUND_TRUTH_FILE = EXPERIMENT_ROOT / "scenarios" / "ground_truth_predicates.json"
 
-VALID_BRACOS = ("B1", "B2", "B3", "B4")
+VALID_BRACOS = ("B1", "B2", "B3", "B4", "B5")
 VALID_MODELOS = ("qwen3:14b", "phi4:14b", "gemma3:12b", "llama3.1:8b")
 
 
@@ -53,7 +66,9 @@ def _run_clingo_for_scenario(scenario_id: str) -> dict[str, Any]:
     import sys
     sys.path.insert(0, str(Path(__file__).resolve().parents[4] / "src"))
     from qfeng.e5_symbolic.scenario_loader import run_scenario
-    return run_scenario(scenario_id)
+    scenario = _load_scenario(scenario_id)
+    clingo_id = scenario.get("clingo_anchor", scenario_id)
+    return run_scenario(clingo_id)
 
 
 def _load_normative_corpus(scenario_id: str) -> str:
@@ -112,6 +127,69 @@ def _build_prompt(braco: str, scenario: dict, gt: dict, clingo_result: dict | No
             qfeng_action=qfeng_action,
         )
 
+    if braco == "B5":
+        assert clingo_result is not None, "B5 requer execução Clingo"
+
+        global _qfeng_b5_metrics
+        _qfeng_b5_metrics = {}
+
+        # Mapear scenario_id → chave do psi_builder via clingo_anchor
+        # (T-CLT-01-001 → clingo_anchor="T-CLT-01"; T-CTRL-NEG-001 → clingo_anchor="T-CLT-01")
+        psi_base_id = scenario.get("clingo_anchor", scenario["scenario_id"])
+
+        t0 = time.monotonic()
+        psi_n = build_psi_n(psi_base_id)
+        active_sovereign = clingo_result.get("active_sovereign", [])
+        active_elastic = clingo_result.get("active_elastic", [])
+        psi_s = build_psi_s(psi_base_id, active_sovereign=active_sovereign, active_elastic=active_elastic)
+        t_psi_build_ms = int((time.monotonic() - t0) * 1000)
+
+        t1 = time.monotonic()
+        cb_config = CircuitBreakerConfig()  # canônico: theta_stac=π/3=60°, theta_block=2π/3=120°
+        motor = compute_interference(
+            psi_n=psi_n,
+            psi_s=psi_s,
+            alpha_sq=0.5,
+            beta_sq=0.5,
+            cb_config=cb_config,
+            theta_history=None,  # stateless por cenário em adversarial CLT
+            gamma=0.0,
+        )
+        t_theta_compute_ms = int((time.monotonic() - t1) * 1000)
+
+        regime_str = str(motor.decision).upper()  # "STAC" | "HITL" | "BLOCK"
+        theta_eff_val = motor.theta_eff if motor.theta_eff is not None else motor.theta
+
+        _qfeng_b5_metrics.update({
+            "psi_n_dim": int(len(psi_n)),
+            "psi_s_dim": int(len(psi_s)),
+            "theta_rad": float(motor.theta),
+            "theta_deg": float(motor.theta_degrees),
+            "theta_eff_rad": float(theta_eff_val),
+            "theta_eff_deg": float(np.degrees(theta_eff_val)),
+            "regime": regime_str,
+            "p_action": float(motor.p_action),
+            "cos_theta": float(motor.cos_theta),
+            "cb_threshold_deg": float(np.degrees(cb_config.theta_block)),
+            "t_psi_build_ms": t_psi_build_ms,
+            "t_theta_compute_ms": t_theta_compute_ms,
+        })
+
+        satisfiability = clingo_result.get("satisfiability", "UNKNOWN")
+        qfeng_action = gt.get("correct_decision", "see_clingo_output")
+
+        return user_tpl.format(
+            scenario_text=scenario_text,
+            satisfiability=satisfiability,
+            active_sovereign=", ".join(active_sovereign) or "nenhum",
+            active_elastic=", ".join(active_elastic) or "nenhum",
+            theta_deg=f"{motor.theta_degrees:.2f}",
+            regime=regime_str,
+            p_action=f"{motor.p_action:.4f}",
+            cos_theta=f"{motor.cos_theta:.4f}",
+            qfeng_action=qfeng_action,
+        )
+
     raise ValueError(f"Braço inválido: {braco}")
 
 
@@ -140,9 +218,19 @@ def run_arm(
     gt = _load_ground_truth(scenario_id)
     template = _load_prompt_template(braco)
 
+    global _qfeng_b5_metrics
+    _qfeng_b5_metrics = {}
+
+    t_start = time.monotonic()
+    t_clingo_ms: int | None = None
+    t_llm_ms: int | None = None
+
     clingo_result: dict | None = None
-    if braco in ("B3", "B4"):
+    if braco in ("B3", "B4", "B5"):
+        t0 = time.monotonic()
         clingo_result = _run_clingo_for_scenario(scenario_id)
+        if braco in ("B4", "B5"):
+            t_clingo_ms = int((time.monotonic() - t0) * 1000)
 
     system_prompt: str = template["system"]
     user_prompt = _build_prompt(braco, scenario, gt, clingo_result, template)
@@ -167,14 +255,16 @@ def run_arm(
             ],
             options={"temperature": temperature, "seed": seed},
         )
-        latency_ms = int((time.monotonic() - t0) * 1000)
+        t_llm_ms = int((time.monotonic() - t0) * 1000)
+        latency_ms = int((time.monotonic() - t_start) * 1000)
         response_text = response["message"]["content"]
         tokens_in = response.get("prompt_eval_count", 0)
         tokens_out = response.get("eval_count", 0)
         status = "ok"
         error_msg = None
     except Exception as exc:
-        latency_ms = int((time.monotonic() - t0) * 1000)
+        t_llm_ms = int((time.monotonic() - t0) * 1000)
+        latency_ms = int((time.monotonic() - t_start) * 1000)
         response_text = ""
         tokens_in = 0
         tokens_out = 0
@@ -199,6 +289,22 @@ def run_arm(
         "clingo_active_sovereign": clingo_result.get("active_sovereign", []) if clingo_result else [],
         "clingo_active_elastic": clingo_result.get("active_elastic", []) if clingo_result else [],
         "clingo_satisfiability": clingo_result.get("satisfiability", "") if clingo_result else "",
+        # Campos de tempo granular: t_clingo_ms para B4+B5; t_llm_ms para todos
+        "t_clingo_ms": t_clingo_ms,
+        "t_llm_ms": t_llm_ms,
+        # Campos exclusivos B5 — None para B1-B4
+        "t_psi_build_ms": _qfeng_b5_metrics.get("t_psi_build_ms"),
+        "t_theta_compute_ms": _qfeng_b5_metrics.get("t_theta_compute_ms"),
+        "qfeng_psi_n_dim": _qfeng_b5_metrics.get("psi_n_dim"),
+        "qfeng_psi_s_dim": _qfeng_b5_metrics.get("psi_s_dim"),
+        "qfeng_theta_rad": _qfeng_b5_metrics.get("theta_rad"),
+        "qfeng_theta_deg": _qfeng_b5_metrics.get("theta_deg"),
+        "qfeng_theta_eff_rad": _qfeng_b5_metrics.get("theta_eff_rad"),
+        "qfeng_theta_eff_deg": _qfeng_b5_metrics.get("theta_eff_deg"),
+        "qfeng_regime": _qfeng_b5_metrics.get("regime"),
+        "qfeng_p_action": _qfeng_b5_metrics.get("p_action"),
+        "qfeng_cos_theta": _qfeng_b5_metrics.get("cos_theta"),
+        "qfeng_cb_threshold_deg": _qfeng_b5_metrics.get("cb_threshold_deg"),
     }
 
     with open(out_path, "w", encoding="utf-8") as f:
