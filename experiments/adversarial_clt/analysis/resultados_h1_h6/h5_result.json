@@ -1,0 +1,35 @@
+{
+  "hipotese": "H5",
+  "comparacao": "Variabilidade intra-(modelo, cenário): B3 vs B1/B2/B4",
+  "h5a_levene": {
+    "var_b1_mean": 0.08,
+    "var_b2_mean": 0.06166666666666667,
+    "var_b3_mean": 0.02833333333333334,
+    "var_b4_mean": 0.005,
+    "b3_vs_b1": {
+      "statistic": 18.37599692514653,
+      "p_value": 2.2774780165836318e-05,
+      "significant": true,
+      "b3_menor_var": true
+    },
+    "b3_vs_b2": {
+      "statistic": 8.707066287464446,
+      "p_value": 0.003357209921527454,
+      "significant": true,
+      "b3_menor_var": true
+    },
+    "b3_vs_b4": {
+      "statistic": 10.535926526202053,
+      "p_value": 0.0012698416093437728,
+      "significant": true
+    }
+  },
+  "h5b_bootstrap_overlap": {
+    "n_pares_modelo_cenario": 200,
+    "n_no_overlap": 11,
+    "frac_no_overlap_b3_b1": 0.055,
+    "interpretation": "IC95%(B3) e IC95%(B1) sem sobreposição em 5.5% dos 200 pares (modelo, cenário)."
+  },
+  "alpha_bonferroni_m8": 0.00625,
+  "interpretation": "Var intra média: B1=0.0800, B2=0.0617, B3=0.0283, B4=0.0050. Levene B3 vs B1: p=2.277e-05 (sig.). Bootstrap overlap: B3/B1 sem sobreposição em 5.5% dos pares."
+}

@@ -1,0 +1,333 @@
+{
+  "hipotese": "H6",
+  "comparacao": "Interação friccao_categoria × braco para hallucination_flag",
+  "n_total": 2399,
+  "anova_two_way": {
+    "F_friccao": 44.234915122921116,
+    "p_friccao": 8.18284108605292e-28,
+    "F_braco": 112.49832652059365,
+    "p_braco": 4.0053913040774545e-68,
+    "F_interacao": 12.340571287109523,
+    "p_interacao": 2.689409656608712e-19,
+    "eta_sq_partial": {
+      "C(friccao_categoria)": 0.05279249506659757,
+      "C(braco)": 0.12414772957064091,
+      "C(friccao_categoria):C(braco)": 0.044567511390730105
+    }
+  },
+  "rate_by_friccao_braco": {
+    "B1": {
+      "controle_negativo": 0.0,
+      "controle_positivo": 0.197,
+      "derivacional": 0.149,
+      "procedural": 0.386
+    },
+    "B2": {
+      "controle_negativo": 0.0,
+      "controle_positivo": 0.265,
+      "derivacional": 0.232,
+      "procedural": 0.545
+    },
+    "B3": {
+      "controle_negativo": 0.0,
+      "controle_positivo": 0.038,
+      "derivacional": 0.033,
+      "procedural": 0.068
+    },
+    "B4": {
+      "controle_negativo": 0.0,
+      "controle_positivo": 0.008,
+      "derivacional": 0.011,
+      "procedural": 0.0
+    }
+  },
+  "alpha_bonferroni_m8": 0.00625,
+  "interacao_significativa": true,
+  "tukey_por_categoria": {
+    "controle_negativo": {
+      "n": 239,
+      "n_by_braco": {
+        "B1": 60,
+        "B2": 60,
+        "B4": 60,
+        "B3": 59
+      },
+      "mean_by_braco": {
+        "B1": 0.0,
+        "B2": 0.0,
+        "B3": 0.0,
+        "B4": 0.0
+      },
+      "comparisons": [
+        {
+          "group1": "B1",
+          "group2": "B2",
+          "meandiff": 0.0,
+          "p_adj": NaN,
+          "lower": 0.0,
+          "upper": 0.0,
+          "reject": false
+        },
+        {
+          "group1": "B1",
+          "group2": "B3",
+          "meandiff": 0.0,
+          "p_adj": NaN,
+          "lower": 0.0,
+          "upper": 0.0,
+          "reject": false
+        },
+        {
+          "group1": "B1",
+          "group2": "B4",
+          "meandiff": 0.0,
+          "p_adj": NaN,
+          "lower": 0.0,
+          "upper": 0.0,
+          "reject": false
+        },
+        {
+          "group1": "B2",
+          "group2": "B3",
+          "meandiff": 0.0,
+          "p_adj": NaN,
+          "lower": 0.0,
+          "upper": 0.0,
+          "reject": false
+        },
+        {
+          "group1": "B2",
+          "group2": "B4",
+          "meandiff": 0.0,
+          "p_adj": NaN,
+          "lower": 0.0,
+          "upper": 0.0,
+          "reject": false
+        },
+        {
+          "group1": "B3",
+          "group2": "B4",
+          "meandiff": 0.0,
+          "p_adj": NaN,
+          "lower": 0.0,
+          "upper": 0.0,
+          "reject": false
+        }
+      ]
+    },
+    "controle_positivo": {
+      "n": 528,
+      "n_by_braco": {
+        "B1": 132,
+        "B2": 132,
+        "B3": 132,
+        "B4": 132
+      },
+      "mean_by_braco": {
+        "B1": 0.197,
+        "B2": 0.2652,
+        "B3": 0.0379,
+        "B4": 0.0076
+      },
+      "comparisons": [
+        {
+          "group1": "B1",
+          "group2": "B2",
+          "meandiff": 0.0682,
+          "p_adj": 0.2982,
+          "lower": -0.0321,
+          "upper": 0.1685,
+          "reject": false
+        },
+        {
+          "group1": "B1",
+          "group2": "B3",
+          "meandiff": -0.1591,
+          "p_adj": 0.0003,
+          "lower": -0.2594,
+          "upper": -0.0588,
+          "reject": true
+        },
+        {
+          "group1": "B1",
+          "group2": "B4",
+          "meandiff": -0.1894,
+          "p_adj": 0.0,
+          "lower": -0.2897,
+          "upper": -0.0891,
+          "reject": true
+        },
+        {
+          "group1": "B2",
+          "group2": "B3",
+          "meandiff": -0.2273,
+          "p_adj": 0.0,
+          "lower": -0.3276,
+          "upper": -0.127,
+          "reject": true
+        },
+        {
+          "group1": "B2",
+          "group2": "B4",
+          "meandiff": -0.2576,
+          "p_adj": 0.0,
+          "lower": -0.3579,
+          "upper": -0.1573,
+          "reject": true
+        },
+        {
+          "group1": "B3",
+          "group2": "B4",
+          "meandiff": -0.0303,
+          "p_adj": 0.8642,
+          "lower": -0.1306,
+          "upper": 0.07,
+          "reject": false
+        }
+      ]
+    },
+    "derivacional": {
+      "n": 1102,
+      "n_by_braco": {
+        "B2": 276,
+        "B4": 276,
+        "B1": 275,
+        "B3": 275
+      },
+      "mean_by_braco": {
+        "B1": 0.1491,
+        "B2": 0.2319,
+        "B3": 0.0327,
+        "B4": 0.0109
+      },
+      "comparisons": [
+        {
+          "group1": "B1",
+          "group2": "B2",
+          "meandiff": 0.0828,
+          "p_adj": 0.0057,
+          "lower": 0.0181,
+          "upper": 0.1475,
+          "reject": true
+        },
+        {
+          "group1": "B1",
+          "group2": "B3",
+          "meandiff": -0.1164,
+          "p_adj": 0.0,
+          "lower": -0.1811,
+          "upper": -0.0516,
+          "reject": true
+        },
+        {
+          "group1": "B1",
+          "group2": "B4",
+          "meandiff": -0.1382,
+          "p_adj": 0.0,
+          "lower": -0.2029,
+          "upper": -0.0735,
+          "reject": true
+        },
+        {
+          "group1": "B2",
+          "group2": "B3",
+          "meandiff": -0.1992,
+          "p_adj": 0.0,
+          "lower": -0.2639,
+          "upper": -0.1344,
+          "reject": true
+        },
+        {
+          "group1": "B2",
+          "group2": "B4",
+          "meandiff": -0.221,
+          "p_adj": 0.0,
+          "lower": -0.2857,
+          "upper": -0.1563,
+          "reject": true
+        },
+        {
+          "group1": "B3",
+          "group2": "B4",
+          "meandiff": -0.0219,
+          "p_adj": 0.821,
+          "lower": -0.0866,
+          "upper": 0.0429,
+          "reject": false
+        }
+      ]
+    },
+    "procedural": {
+      "n": 528,
+      "n_by_braco": {
+        "B1": 132,
+        "B2": 132,
+        "B3": 132,
+        "B4": 132
+      },
+      "mean_by_braco": {
+        "B1": 0.3864,
+        "B2": 0.5455,
+        "B3": 0.0682,
+        "B4": 0.0
+      },
+      "comparisons": [
+        {
+          "group1": "B1",
+          "group2": "B2",
+          "meandiff": 0.1591,
+          "p_adj": 0.0031,
+          "lower": 0.0412,
+          "upper": 0.277,
+          "reject": true
+        },
+        {
+          "group1": "B1",
+          "group2": "B3",
+          "meandiff": -0.3182,
+          "p_adj": 0.0,
+          "lower": -0.4361,
+          "upper": -0.2003,
+          "reject": true
+        },
+        {
+          "group1": "B1",
+          "group2": "B4",
+          "meandiff": -0.3864,
+          "p_adj": 0.0,
+          "lower": -0.5043,
+          "upper": -0.2684,
+          "reject": true
+        },
+        {
+          "group1": "B2",
+          "group2": "B3",
+          "meandiff": -0.4773,
+          "p_adj": 0.0,
+          "lower": -0.5952,
+          "upper": -0.3593,
+          "reject": true
+        },
+        {
+          "group1": "B2",
+          "group2": "B4",
+          "meandiff": -0.5455,
+          "p_adj": 0.0,
+          "lower": -0.6634,
+          "upper": -0.4275,
+          "reject": true
+        },
+        {
+          "group1": "B3",
+          "group2": "B4",
+          "meandiff": -0.0682,
+          "p_adj": 0.4442,
+          "lower": -0.1861,
+          "upper": 0.0497,
+          "reject": false
+        }
+      ]
+    }
+  },
+  "interpretation": "ANOVA two-way: F_interação=12.34, p=2.689e-19 (significativo a α=0.00625). F_braço=112.50, p_braço=4.005e-68. Efeito principal braço η²=0.124."
+}

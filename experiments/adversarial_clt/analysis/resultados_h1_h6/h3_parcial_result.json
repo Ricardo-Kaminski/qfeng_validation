@@ -1,0 +1,137 @@
+{
+  "hipotese": "H3",
+  "status": "parcial_b1_b4_apenas",
+  "nota": "Análise final com B5 incluído será executada em B5.10 após B5=600/600.",
+  "comparacao": "ANOVA two-way braço × modelo — taxa de alucinação (B1-B4)",
+  "n_total": 2400,
+  "anova_two_way": {
+    "F_braco": 108.12253413898388,
+    "p_braco": 1.238244414189148e-65,
+    "F_modelo": 30.480046642959962,
+    "p_modelo": 2.4802655595489756e-19,
+    "F_interacao": 4.959152074680144,
+    "p_interacao": 1.2508503730404944e-06,
+    "eta_sq_partial": {
+      "C(braco)": 0.11976498394364393,
+      "C(modelo)": 0.03693894207092682,
+      "C(braco):C(modelo)": 0.018377573010988274
+    }
+  },
+  "rate_by_braco_modelo": {
+    "gemma3:12b": {
+      "B1": 0.113,
+      "B2": 0.233,
+      "B3": 0.0,
+      "B4": 0.0
+    },
+    "llama3.1:8b": {
+      "B1": 0.293,
+      "B2": 0.373,
+      "B3": 0.107,
+      "B4": 0.027
+    },
+    "phi4:14b": {
+      "B1": 0.32,
+      "B2": 0.367,
+      "B3": 0.047,
+      "B4": 0.0
+    },
+    "qwen3:14b": {
+      "B1": 0.067,
+      "B2": 0.167,
+      "B3": 0.0,
+      "B4": 0.0
+    }
+  },
+  "tukey_braco": [
+    {
+      "group1": "B1",
+      "group2": "B2",
+      "meandiff": 0.0867,
+      "p_adj": 0.0,
+      "reject": true
+    },
+    {
+      "group1": "B1",
+      "group2": "B3",
+      "meandiff": -0.16,
+      "p_adj": 0.0,
+      "reject": true
+    },
+    {
+      "group1": "B1",
+      "group2": "B4",
+      "meandiff": -0.1917,
+      "p_adj": 0.0,
+      "reject": true
+    },
+    {
+      "group1": "B2",
+      "group2": "B3",
+      "meandiff": -0.2467,
+      "p_adj": 0.0,
+      "reject": true
+    },
+    {
+      "group1": "B2",
+      "group2": "B4",
+      "meandiff": -0.2783,
+      "p_adj": 0.0,
+      "reject": true
+    },
+    {
+      "group1": "B3",
+      "group2": "B4",
+      "meandiff": -0.0317,
+      "p_adj": 0.3136,
+      "reject": false
+    }
+  ],
+  "tukey_modelo": [
+    {
+      "group1": "gemma3:12b",
+      "group2": "llama3.1:8b",
+      "meandiff": 0.1133,
+      "p_adj": 0.0,
+      "reject": true
+    },
+    {
+      "group1": "gemma3:12b",
+      "group2": "phi4:14b",
+      "meandiff": 0.0967,
+      "p_adj": 0.0,
+      "reject": true
+    },
+    {
+      "group1": "gemma3:12b",
+      "group2": "qwen3:14b",
+      "meandiff": -0.0283,
+      "p_adj": 0.4546,
+      "reject": false
+    },
+    {
+      "group1": "llama3.1:8b",
+      "group2": "phi4:14b",
+      "meandiff": -0.0167,
+      "p_adj": 0.8224,
+      "reject": false
+    },
+    {
+      "group1": "llama3.1:8b",
+      "group2": "qwen3:14b",
+      "meandiff": -0.1417,
+      "p_adj": 0.0,
+      "reject": true
+    },
+    {
+      "group1": "phi4:14b",
+      "group2": "qwen3:14b",
+      "meandiff": -0.125,
+      "p_adj": 0.0,
+      "reject": true
+    }
+  ],
+  "alpha_bonferroni_m8": 0.00625,
+  "interacao_braco_modelo_significativa": true,
+  "interpretation": "ANOVA two-way (B1-B4): F_braço=108.12 (p=1.238e-65), F_modelo=30.48 (p=2.48e-19), F_interação=4.96 (p=1.251e-06, sig. a α=0.00625). η²_braço=0.120. PARCIAL: requer B5 para análise final."
+}

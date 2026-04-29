@@ -1,0 +1,22 @@
+{
+  "hipotese": "H1",
+  "comparacao": "B3 vs B1 — taxa de alucinação (McNemar pareado)",
+  "n_pares": 600,
+  "tabela_2x2": {
+    "n_00": 470,
+    "n_01": 107,
+    "n_10": 11,
+    "n_11": 12
+  },
+  "b1_hall_rate": 0.19833333333333333,
+  "b3_hall_rate": 0.03833333333333333,
+  "reducao_absoluta_pp": 16.0,
+  "odds_ratio_discordancia": 9.727272727272727,
+  "mcnemar_statistic": 11.0,
+  "p_value_two_sided": 6.4038043612370234e-21,
+  "p_value_one_sided": 3.2019021806185117e-21,
+  "direction_correct": true,
+  "alpha_bonferroni_m8": 0.00625,
+  "significant_at_alpha_corrected": true,
+  "interpretation": "B3 reduz alucinação em 16.0 pp (de 19.8% para 3.8%). McNemar exato: p_unicaudal = 3.202e-21 (significativo a α corrigido = 0,00625). OR discordância = 9.73."
+}

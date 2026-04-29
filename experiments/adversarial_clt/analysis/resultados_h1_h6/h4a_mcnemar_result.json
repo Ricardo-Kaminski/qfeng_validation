@@ -1,0 +1,22 @@
+{
+  "hipotese": "H4a",
+  "comparacao": "B2 vs B1 — taxa de alucinação (McNemar)",
+  "n_pares": 600,
+  "tabela_2x2": {
+    "n_00": 406,
+    "n_01": 23,
+    "n_10": 75,
+    "n_11": 96
+  },
+  "b1_hall_rate": 0.19833333333333333,
+  "b2_hall_rate": 0.285,
+  "b3_hall_rate_context": 0.03833333333333333,
+  "reducao_absoluta_pp": -8.666666666666664,
+  "odds_ratio_discordancia": 0.30666666666666664,
+  "p_value_two_sided": 1.3172242120654855e-07,
+  "p_value_one_sided": 0.9999999341387894,
+  "direction_b2_reduces": false,
+  "alpha_bonferroni_m8": 0.00625,
+  "significant_at_alpha_corrected": false,
+  "interpretation": "B2 hall_rate=28.5% vs B1=19.8%. B2 aumentou alucinação. p_unicaudal=1 (NÃO significativo a α=0.00625). Comparação: B3=3.8% — ancoragem simbólica supera RAG isolado."
+}

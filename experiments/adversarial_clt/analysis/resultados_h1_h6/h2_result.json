@@ -1,0 +1,21 @@
+{
+  "hipotese": "H2",
+  "comparacao": "B3 vs B1 — cobertura jurídica (não-inferioridade Wilcoxon)",
+  "n_pares": 600,
+  "b1_coverage_mean": 1.9583333333333333,
+  "b3_coverage_mean": 1.295,
+  "b1_coverage_median": 2.0,
+  "b3_coverage_median": 1.0,
+  "mean_diff_b3_minus_b1": -0.6633333333333333,
+  "median_diff_b3_minus_b1": -1.0,
+  "ci95_median_diff_bootstrap": [
+    -1.0,
+    0.0
+  ],
+  "margem_nao_inferioridade": -0.05,
+  "wilcoxon_statistic": 55344.0,
+  "p_value_one_sided_nao_inferioridade": 0.9999999999999999,
+  "alpha_bonferroni_m8": 0.00625,
+  "nao_inferioridade_demonstrada": false,
+  "interpretation": "B3 cobertura média = 1.295 vs B1 = 1.958. Diferença mediana B3−B1 = -1.000 (IC95% bootstrap [-1.000, 0.000]). Wilcoxon (H: diff > −0.05): p = 1. Não-inferioridade NÃO demonstrada a α corrigido = 0,00625."
+}
