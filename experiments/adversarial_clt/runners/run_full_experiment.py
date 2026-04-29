@@ -69,7 +69,11 @@ def _job_key(braco: str, modelo: str, scenario_id: str, run_id: int) -> str:
 # ---------------------------------------------------------------------------
 
 def _append_to_parquet(record: dict[str, Any]) -> None:
-    """Adiciona uma linha ao parquet de resultados (lê→append→salva)."""
+    """Upsert por sha256: substitui linha existente ou insere nova (idempotente).
+
+    Chamadas repetidas com o mesmo record["sha256"] resultam em uma única linha
+    — a última escrita. Tolera re-execuções sem inflar cardinalidade do parquet.
+    """
     row = pd.DataFrame([{
         "sha256": record["sha256"],
         "braco": record["braco"],
@@ -105,6 +109,8 @@ def _append_to_parquet(record: dict[str, Any]) -> None:
 
     if RESULTS_PARQUET.exists():
         existing = pd.read_parquet(RESULTS_PARQUET)
+        # Upsert: remove linha pré-existente com mesmo sha256 antes de concatenar
+        existing = existing[existing["sha256"] != record["sha256"]]
         combined = pd.concat([existing, row], ignore_index=True)
     else:
         combined = row
