@@ -270,3 +270,121 @@ Para evitar descalibração entre os scripts de análise (`analysis/test_h*.py`)
 ### 11.4 Status de execução
 
 Esta emenda é registrada **antes** do início da execução das 2.400 chamadas LLM. Nenhum dado LLM foi coletado entre `4c24e14` (pré-registro original) e o commit desta emenda. A integridade pré-registral é portanto preservada: emenda pré-observacional, não emenda post-hoc.
+
+---
+
+## 12. Emenda Formal — Adição do Braço B5 (Motor Q-FENG θ Completo) (28/abr/2026)
+
+**Tipo:** Emenda aditiva pré-execução B5 (B1, B2, B3, B4 inalterados; B4 em curso no momento da emenda)
+**Data da emenda:** 28 de abril de 2026
+**SHA do pré-registro original:** `4c24e14`
+**SHA da emenda §11:** `6d2f8ae`
+**SHA desta emenda §12:** [a ser preenchido após commit desta operação]
+**Justificativa:** alinhamento entre o desenho experimental Frente 2 e a especificação do canônico §3 (motor de interferência θ via ψ_N e ψ_S no espaço de Hilbert) e §7.4 nova (governance sidecar com runtime computation de θ sobre LLMs cross-arquitetura).
+
+**Status quanto à execução LLM:**
+- B1, B2, B3: 1.800 chamadas íntegras (não afetadas).
+- B4: em execução no momento da emenda. Não afetado por esta emenda.
+- B5: novo braço, 600 chamadas planejadas após conclusão de B4.
+
+A integridade pré-registral é preservada: esta emenda é estritamente **aditiva** — adiciona um braço novo (B5), duas hipóteses confirmatórias novas (H7, H8) e novos campos no JSON de saída para B5. Os braços e hipóteses pré-registrados em §11 permanecem inalterados.
+
+### 12.1 Diagnóstico forense que motivou a adição
+
+Auditoria pré-B4 conduzida em sessão de chat (28/abr/2026) identificou que o caminho B4 implementa **ancoragem simbólica via Clingo SAT/UNSAT + narrativa LLM**, mas **não invoca o motor de inferência θ canônico** definido em `src/qfeng/core/interference.py`. B4 calcula `psi_s` como escalar simplificado (`n_sovereign / (n_sovereign + n_elastic) × π`) e injeta o escalar como string no template do prompt.
+
+A consequência editorial é que B4, embora válido como instância de "RAG simbólico estruturado por Clingo", não sustenta empiricamente a reivindicação editorial central do canônico §7.4 nova: **governance sidecar runtime sobre LLMs cross-arquitetura**. O motor de interferência θ — que é o que distingue Q-FENG de NeSy 1.0, Constitutional AI e expert systems na Tabela 7.4.1 do canônico — não roda em runtime no caminho B4.
+
+Três opções foram consideradas para correção:
+
+- **Opção A:** retrofit do B4 com descarte de chamadas pré-retrofit. Rejeitada por enfraquecer o pré-registro §11.
+- **Opção B:** computação de θ post-hoc sobre os JSONs gravados. Rejeitada por enfraquecer o argumento de runtime governance (computação offline ≠ runtime).
+- **Opção C (adotada):** adição de novo braço B5 com motor θ completo, preservando integralmente B4 como ancoragem simbólica. Editorial mais forte; custo +600 chamadas LLM.
+
+### 12.2 Especificação do braço B5
+
+B5 instancia o motor de inferência Q-FENG canônico em runtime, conforme §3 do canônico:
+
+1. **`build_psi_n(clingo_anchor)`** — Neural Evidence Vector (vetor np.float64 calibrado por cenário, L2-normalizado). O `clingo_anchor` do cenário (e.g. `T-CLT-01` para `T-CLT-01-001` e para `T-CTRL-NEG-001`) é a chave de lookup no psi_builder.
+2. **`build_psi_s(clingo_anchor, active_sovereign, active_elastic)`** — Symbolic Norm Vector aditivo derivado dos predicados Clingo ativos, L2-normalizado.
+3. **`compute_interference(psi_n, psi_s, alpha_sq=0.5, beta_sq=0.5, cb_config=default)`** — cálculo conjunto de θ (Eq. A5), Born Rule (P_action), termo de interferência, e classificação Circuit Breaker.
+4. **`CircuitBreakerConfig` canônico:** `theta_stac = π/3 = 60°`, `theta_block = 2π/3 = 120°`. Regimes: STAC (θ < 60°), HITL (60° ≤ θ < 120°), BLOCK (θ ≥ 120°).
+5. **Stateless por cenário:** `theta_history=None`, `gamma=0.0`. Justificativa metodológica: ambiente adversarial CLT é trial-independente, sem série temporal estruturada entre cenários. A Frente 1 (Manaus 70 SEs) opera em modo stateful com Markov memory β=3.0; ambos são instâncias válidas do mesmo motor canônico, diferindo apenas pela presença ou ausência de série temporal no domínio.
+
+**Validação pré-disparo (smoke test):** Motor testado sobre 3 cenários canários:
+- T-CLT-01 (phantom citation, UNSAT): θ = 133.51° → BLOCK ✓
+- T-CLT-03 (hour bank com CCT, SAT): θ = 5.65° → STAC ✓
+- T-CLT-04 (positive control, SAT): θ = 7.05° → STAC ✓
+
+### 12.3 Instrumentação granular de tempo (apenas para B5)
+
+Adicionam-se ao JSON de saída de cada chamada B5 (campos `None` para B1-B4, exceto `t_clingo_ms` que é populado para B4 e B5):
+
+| Campo | Descrição |
+|---|---|
+| `t_clingo_ms` | Tempo de execução do solver Clingo SAT/UNSAT (B4 e B5) |
+| `t_psi_build_ms` | Tempo de construção de ψ_N e ψ_S — apenas B5 |
+| `t_theta_compute_ms` | Tempo de cálculo de θ + Born Rule + Circuit Breaker — apenas B5 |
+| `t_llm_ms` | Tempo isolado da chamada `ollama.chat()` — todos os braços |
+| `qfeng_psi_n_dim`, `qfeng_psi_s_dim` | Dimensões dos vetores de Hilbert — apenas B5 |
+| `qfeng_theta_rad`, `qfeng_theta_deg` | Ângulo θ em radianos e graus — apenas B5 |
+| `qfeng_theta_eff_rad`, `qfeng_theta_eff_deg` | θ_eff (singleton = θ em adversarial CLT) — apenas B5 |
+| `qfeng_regime` | Classificação STAC / HITL / BLOCK — apenas B5 |
+| `qfeng_p_action` | P(Action) via Born Rule com termo de interferência — apenas B5 |
+| `qfeng_cos_theta` | cos(θ) — apenas B5 |
+| `qfeng_cb_threshold_deg` | Threshold de Circuit Breaker usado (canônico = 120°) — apenas B5 |
+
+O **overhead operacional do motor Q-FENG** em runtime sidecar é definido como:
+
+```
+overhead_qfeng_ms = t_clingo_ms + t_psi_build_ms + t_theta_compute_ms
+```
+
+Esta é a métrica primária de H7 (governance sidecar viability).
+
+### 12.4 Hipóteses adicionadas
+
+Adicionam-se duas hipóteses confirmatórias ao conjunto pré-registrado, ambas testadas sobre o braço B5:
+
+> **H7 (governance sidecar viability) [confirmatória, adicionada]:** O overhead operacional do motor Q-FENG (`overhead_qfeng_ms = t_clingo_ms + t_psi_build_ms + t_theta_compute_ms`) é menor que 5% do tempo total `latency_ms` em mediana, em todos os 4 modelos LLM testados.
+
+> **H8 (motor θ vs. ancoragem simbólica) [confirmatória, adicionada]:** O motor de interferência θ completo (B5) produz métricas D1 e D3 estatisticamente distintas da ancoragem simbólica via Clingo + narrativa LLM (B4):
+>   - **H8a:** D1(B5) ≠ D1(B4), Wilcoxon signed-rank pareado por cenário, p < 0.05/8 (Bonferroni m=8).
+>   - **H8b:** D3(B5) > D3(B4), Wilcoxon signed-rank pareado por cenário, p < 0.05/8.
+
+H8 isola empiricamente o **valor do motor de interferência runtime** face à ancoragem simbólica pura.
+
+### 12.5 Atualização da correção de Bonferroni
+
+Adição de H7 e H8 eleva o número total de hipóteses confirmatórias de 7 para 9 (H7 + H8a + H8b). Adoto **m = 8** como compromisso editorial: H8 é tratada como família agregada com α familiar = 0.05/8 = 0.00625.
+
+| Hipótese | Teste | α corrigido (Bonferroni m=8) |
+|---|---|---|
+| H1 | McNemar D1 (B4 vs B1) | 0.00625 |
+| H2 | Wilcoxon D2 (B3, B4 vs B1) | 0.00625 |
+| H3 | ANOVA two-way arm × model (D1, D2) | 0.00625 |
+| H4 | Wilcoxon D3 (B4 vs B1) | 0.00625 |
+| H5 | Levene variance | 0.00625 (complementar) |
+| H5b | Bootstrap effect-size overlap | threshold ≥5/6 pares |
+| H6 | ANOVA Δ_D1 × friccao_categoria | 0.00625 |
+| **H7** | **mediana(overhead_qfeng) / mediana(latency_ms) < 0.05 por modelo** | **threshold absoluto** |
+| **H8a** | **Wilcoxon D1(B5) vs D1(B4)** | **0.00625** |
+| **H8b** | **Wilcoxon D3(B5) vs D3(B4)** | **0.00625** |
+
+### 12.6 Mapeamento canônico estendido
+
+| Hipótese (script `analysis/`) | Pré-registro pós-emendas §11 + §12 | Reivindicação editorial |
+|---|---|---|
+| `test_h1_mcnemar.py` | H1 (B4 vs B1) | Efeito principal de ancoragem |
+| `test_h2_h4_wilcoxon.py` testando D2 | H2 | Cobertura predicativa |
+| `test_h3_anova_interaction.py` | H3 | Agnosticismo de stack — invariância de direção |
+| `test_h2_h4_wilcoxon.py` testando D3 | H4 | Especificidade |
+| `test_h5_levene_variance.py` | H5 (complementar) | Convergência |
+| `test_h5_bootstrap_overlap.py` | H5b | Agnosticismo de stack — invariância de magnitude |
+| `test_subgroup_friccao.py` | H6 | Costura editorial Frente 1 + Frente 2 |
+| **`test_h7_sidecar_viability.py` (novo)** | **H7** | **Viabilidade do governance sidecar runtime** |
+| **`test_h8_motor_vs_anchoring.py` (novo)** | **H8a, H8b** | **Valor do motor θ face a ancoragem simbólica** |
+
+### 12.7 Status quanto à reprodutibilidade Zenodo
+
+A presença de B4 e B5 como braços paralelos representa contribuição editorial: o paper documenta duas instâncias arquiteturalmente distintas de Q-FENG operando sobre o mesmo corpus de cenários e o mesmo conjunto de modelos LLM. Para reprodutibilidade Zenodo, o repositório completo (1.800 B1-B3 + 600 B4 + 600 B5 = 3.000 chamadas) é depositado com o pré-registro original (§11) e ambas as emendas (§11 e §12) commitadas como rastro auditável.
