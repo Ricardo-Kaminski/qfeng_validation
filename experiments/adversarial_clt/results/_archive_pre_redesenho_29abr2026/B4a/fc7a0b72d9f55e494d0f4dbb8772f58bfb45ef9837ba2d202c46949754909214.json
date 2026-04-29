@@ -1,0 +1,26 @@
+{
+  "sha256": "fc7a0b72d9f55e494d0f4dbb8772f58bfb45ef9837ba2d202c46949754909214",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:40:15Z",
+  "prompt_sha": "42f64b17e4b016fd75d72c1e016a4fe922b18599855e398c8efb7427026ee45a",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após analisar o caso e considerar os predicados soberanos ativos, chegou à conclusão de que a decisão do juiz do trabalho viola direitos fundamentais dos cidadãos brasileiros. A narrativa da decisão é a seguinte:\n\n\"A decisão do juiz do trabalho, ao negar seguimento ao recurso ordinário sem fundamentação específica, viola o princípio constitucional de fundamentação das decisões judiciais (CF/88, Art. 93, IX). Além disso, essa conduta contraria a obrigação de estabelecer as consequências práticas da decisão (obligation_to_state_practical_consequences_of_decision), bem como o dever de abordar todos os argumentos legais apresentados pelas partes (obligation_to_address_all_legal_arguments). A falta de fundamentação específica também viola a obrigação de basear a decisão em uma razão jurídica identificável (obligation_to_ground_decision_in_identified_ratio_decidendi) e o dever constitucional de justificar as decisões tomadas (constitutional_obligation_to_state_reasons_for_decisions). Além disso, essa conduta impede a garantia do acesso à justiça e ao recurso judicial (right_of_access_to_justice_and_judicial_review), direito fundamental previsto na Constituição Federal. Por esses motivos, o sistema Q-FENG recomenda que haja uma violação da decisão do juiz do trabalho.\"\n\n**2. PREDICADOS ATIVADOS**\n\nOs predicados soberanos ativos são os seguintes:\n\n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: Este predicado significa que o juiz tem a obrigação de estabelecer as consequências práticas da decisão tomada. Em outras palavras, o juiz deve explicar como a decisão afetará as partes envolvidas e quais são as medidas necessárias para implementá-la.\n\n- **sovereign(prohibition_of_generic_precedent_citation)**: Este predicado proíbe que o juiz cite precedentes genéricos sem fundamentação específica. Em outras palavras, o juiz não pode simplesmente afirmar que uma decisão anterior é aplicável ao caso atual sem explicar por quê.\n\n- **sovereign(obligation_to_address_all_legal_arguments)**: Este predicado significa que o juiz tem a obrigação de abordar todos os argumentos legais apresentados pelas partes. Em outras palavras, o juiz deve considerar e responder a todas as questões jurídicas levantadas pelas partes.\n\n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: Este predicado significa que o juiz tem a obrigação de basear sua decisão em uma razão jurídica identificável. Em outras palavras, o juiz deve fundamentar sua decisão em uma regra ou princípio específico da lei.\n\n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: Este predicado significa que o juiz tem a obrigação constitucional de justificar as decisões tomadas. Em outras palavras, o juiz deve explicar por quê chegou àquela decisão específica.\n\n- **sovereign(right_of_access_to_justice_and_judicial_review)**: Este predicado significa que o juiz tem a obrigação de garantir o acesso à justiça e ao recurso judicial. Em outras palavras, o juiz deve assegurar que as partes tenham a oportunidade de recorrer da decisão tomada.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\n\"A decisão do juiz do trabalho foi considerada injusta porque não explicou por quê negou o recurso ordinário. Isso significa que as partes envolvidas não sabem como a decisão afetará suas vidas ou quais são as medidas necessárias para implementá-la. Além disso, o juiz não considerou todos os argumentos legais apresentados pelas partes e não fundamentou sua decisão em uma regra específica da lei. Isso é um problema porque a Constituição Federal garante que as decisões judiciais sejam justificadas e que as partes tenham acesso à justiça e ao recurso judicial. Por esses motivos, o sistema Q-FENG recomenda que haja uma violação da decisão do juiz do trabalho.\"",
+  "tokens_in": 518,
+  "tokens_out": 1004,
+  "latency_ms": 16953,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

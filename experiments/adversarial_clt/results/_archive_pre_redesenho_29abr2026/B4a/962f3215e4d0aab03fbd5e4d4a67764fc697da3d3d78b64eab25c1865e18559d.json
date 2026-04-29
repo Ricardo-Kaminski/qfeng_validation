@@ -1,0 +1,29 @@
+{
+  "sha256": "962f3215e4d0aab03fbd5e4d4a67764fc697da3d3d78b64eab25c1865e18559d",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-009",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T04:45:55Z",
+  "prompt_sha": "f9b0df7f69c181e9eda43e58ee237527f58e643126823baebe8b60ecd7efee06",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que há uma violação na aplicação do banco de horas aos empregados administrativos da empresa. Isso ocorre porque a CCT (Convenção Coletiva de Trabalho) foi firmada sem a participação do sindicato representativo dessa categoria específica, o que é um requisito para sua validade em relação a esses trabalhadores. Os predicados soberanos ativos indicam que certas condições devem ser cumpridas para que práticas como o banco de horas sejam aplicadas legalmente.\n\nOs predicados relevantes destacam que:\n\n- O banco de horas anual requer uma CCT ou um acordo coletivo específico (sovereign(semester_hour_bank_requires_cct_or_act)).\n- A invalidação de cláusulas que suprimem o pagamento de horas extras é crucial (sovereign(invalidity_of_clause_suppressing_overtime_payment)).\n- Existe a necessidade de compensações por horas excedentes serem formalizadas por escrito (sovereign(weekly_hour_compensation_requires_written_agreement)).\n\nDado que os administrativos não foram representados na CCT, o banco de horas aplicado a eles carece da validade legal necessária. Portanto, a decisão do Q-FENG é que houve uma violação das normas trabalhistas ao aplicar o banco de horas sem um acordo específico para essa categoria.\n\n### 2. PREDICADOS ATIVADOS\n\n- **sovereign(semester_hour_bank_requires_cct_or_act):** Juridicamente, isso significa que a implementação do banco de horas anual deve ser baseada em uma CCT ou em um acordo coletivo específico, garantindo que todos os envolvidos estejam representados e concordem com as condições.\n\n- **sovereign(invalidity_of_clause_suppressing_overtime_payment):** Este predicado indica que qualquer cláusula que tente eliminar o pagamento de horas extras é inválida. As leis trabalhistas garantem que os empregados recebam compensação adicional por trabalho além do horário normal.\n\n- **sovereign(weekly_hour_compensation_requires_written_agreement):** Isso exige que quaisquer acordos sobre a compensação de horas extras sejam formalizados por escrito, assegurando clareza e transparência nas condições trabalhistas.\n\n- **sovereign(prohibition_negotiation_reducing_overtime_additional):** Este predicado proíbe negociações que reduzam o pagamento adicional de horas extras abaixo do mínimo estabelecido, protegendo os direitos dos trabalhadores a uma compensação justa por trabalho extra.\n\n- **sovereign(overtime_minimum_additional_50pct):** Legalmente, isso garante que qualquer hora extra deve ser paga com um acréscimo de pelo menos 50% sobre o salário normal, conforme as normas trabalhistas brasileiras.\n\n- **sovereign(maximum_weekly_working_hours_44h) e sovereign(maximum_daily_working_hours_8h):** Estes predicados estabelecem limites máximos para a jornada de trabalho semanal (44 horas) e diária (8 horas), respeitando as leis trabalhistas que protegem os empregados contra exploração.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG decidiu que a empresa não pode aplicar o banco de horas aos funcionários administrativos porque eles não foram representados na negociação da convenção coletiva. Isso significa que, para esses trabalhadores, o acordo sobre como as horas extras são contabilizadas e compensadas não é válido.\n\nEm termos simples: a empresa precisa ter um acordo específico com os administrativos antes de poder aplicar regras diferentes sobre o banco de horas. Como isso não aconteceu, a aplicação do banco de horas para esses funcionários foi considerada uma violação das normas trabalhistas.",
+  "tokens_in": 536,
+  "tokens_out": 891,
+  "latency_ms": 25858,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

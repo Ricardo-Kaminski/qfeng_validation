@@ -1,0 +1,26 @@
+{
+  "sha256": "63aaf8d877c47c8ef789a742c177c3a89e447a851402a1e3b4bed4a675246391",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T05:34:48Z",
+  "prompt_sha": "b5e3f649b9c3587da9c94d6c599ffd204326d48b2428d997b185065a331a8353",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, ao analisar o cenário apresentado, concluiu que houve **violação** de princípios e obrigações processuais. A decisão do Tribunal Regional do Trabalho (TRT) de transcrever integralmente a ementa de um acórdão do Tribunal Superior do Trabalho (TST) sem realizar um cotejo fático entre os casos, configura uma falha na aplicação do artigo 489, §1°, V, do Código de Processo Civil.\n\nA decisão foi fundamentada na premissa de que a mera citação de precedentes, sem a devida análise de sua aplicabilidade ao caso concreto, não cumpre a obrigação do juiz de fundamentar adequadamente a decisão. A transcrição integral da ementa, por si só, não demonstra que os fatos do caso em julgamento são semelhantes aos fatos que levaram à decisão do TST, tornando a aplicação do precedente inadequada e, potencialmente, injusta.\n\nO sistema considerou a incerteza quanto à satisfatibilidade da decisão, indicando que a situação é complexa e depende da interpretação e aplicação dos princípios envolvidos. No entanto, a ativação dos predicados soberanos, especialmente a \"proibição de citação genérica de precedentes\" e a \"obrigação de fundamentar a decisão em uma ratio decidendi identificada\", reforça a conclusão de que a conduta do TRT foi inadequada.\n\n## 2. PREDICADOS ATIVADOS:\n\nOs predicados soberanos ativos, no contexto trabalhista brasileiro, significam:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):** O juiz tem a obrigação de explicar as consequências práticas da decisão para as partes envolvidas, garantindo a compreensão do resultado e seus impactos.\n*   **sovereign(prohibition_of_generic_precedent_citation):** É proibido citar precedentes de forma genérica, sem demonstrar a sua pertinência e aplicabilidade ao caso concreto. A mera menção a um precedente não é suficiente para justificar uma decisão.\n*   **sovereign(obligation_to_address_all_legal_arguments):** O juiz deve analisar e responder a todos os argumentos jurídicos apresentados pelas partes, demonstrando o raciocínio que o levou à decisão.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** A decisão deve ser fundamentada na *ratio decidendi* (o princípio jurídico que fundamentou a decisão) de um precedente, e essa *ratio* deve ser explicitamente identificada e aplicada ao caso concreto.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):** A Constituição Federal garante o direito ao contraditório e à motivação das decisões judiciais, exigindo que os juízes expliquem os fundamentos de suas decisões de forma clara e objetiva.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):** As partes têm o direito de acesso à justiça e de questionar as decisões judiciais, o que só é possível quando as decisões são devidamente fundamentadas e transparentes.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\nImagine que você está em um processo trabalhista e o juiz simplesmente copia e cola um trecho de outra decisão, sem explicar por que essa decisão se aplica ao seu caso. Isso é o que aconteceu aqui.\n\nA lei diz que o juiz precisa explicar o porquê da decisão, mostrando como ela se encaixa na sua situação específica. Não basta apenas dizer que \"o TST decidiu isso, então eu decido o mesmo\". O juiz precisa comparar os fatos do seu caso com os fatos da decisão do TST e mostrar que são parecidos o suficiente para que a mesma lei se aplique.\n\nNesse caso, o juiz não fez essa comparação, e isso é um problema. Ele não explicou como a decisão do TST se aplica ao seu caso, o que impede você de entender a decisão e de saber se ela está correta. Além disso, dificulta que você possa recorrer da decisão, pois não ficou claro o raciocínio do juiz.\n\nEm resumo, o sistema Q-FENG entendeu que o juiz não cumpriu com a obrigação de explicar a decisão de forma clara e justa, violando seus direitos.",
+  "tokens_in": 520,
+  "tokens_out": 971,
+  "latency_ms": 26953,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

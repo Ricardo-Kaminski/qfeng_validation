@@ -1,0 +1,26 @@
+{
+  "sha256": "cdb44bcf60192457c865e8e3374d9a6dca6889cedcd31955ed7b8265608e817d",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CTRL-NEG-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T06:37:55Z",
+  "prompt_sha": "7626dd764a44642383e3257de8b8d621757b737e7600f11382bfed2c802dacd7",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, após análise do cenário apresentado sobre a política de adicionais noturnos da empresa de transporte, concluiu pela **conformidade** com a legislação vigente. Essa conclusão não significa que a prática seja automaticamente isenta de questionamentos, mas indica que, com base nos dados fornecidos e na interpretação do solver Clingo, não há elementos que apontem para uma clara ilegalidade.\n\nA decisão foi tomada sob a égide de princípios fundamentais do direito, expressos nos predicados soberanos ativos, que garantem a transparência e a fundamentação da análise. O sistema, ao determinar a conformidade, não ignora a possibilidade de outros argumentos ou elementos que poderiam levar a uma conclusão diferente, mas considera que, com as informações disponíveis, a prática se alinha aos requisitos legais. A decisão é, portanto, cautelosa e sujeita a revisão caso novos dados surjam.\n\n## PREDICADOS ATIVADOS E SEU SIGNIFICADO JURÍDICO\n\nOs predicados soberanos ativos refletem a necessidade de uma análise jurídica completa e transparente, garantindo o direito de acesso à justiça e a possibilidade de revisão da decisão. Vejamos cada um deles:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  O sistema tem a obrigação de explicitar as consequências práticas da decisão. No caso, a conformidade significa que a empresa pode continuar aplicando a política de adicionais noturnos, mas a decisão está sujeita a escrutínio e pode ser revista se novas informações forem apresentadas.\n*   **sovereign(prohibition_of_generic_precedent_citation):**  O sistema não pode se basear em precedentes genéricos. A decisão foi tomada com base nos fatos específicos do cenário apresentado, e não em decisões anteriores que poderiam não ser aplicáveis ao caso concreto.\n*   **sovereign(obligation_to_address_all_legal_arguments):**  O sistema deve considerar todos os argumentos legais relevantes. Embora a decisão seja de conformidade, isso não significa que todos os possíveis questionamentos foram ignorados. A análise considerou os elementos apresentados no cenário.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** A decisão deve estar fundamentada em um princípio jurídico específico (o *ratio decidendi*).  Neste caso, a conformidade se baseia na interpretação de que a política, conforme descrita, não viola diretamente a legislação trabalhista, considerando a possibilidade de horas noturnas diferenciadas e o recolhimento mensal.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):**  O sistema tem a obrigação constitucional de justificar a decisão. A narrativa apresentada busca explicar o raciocínio que levou à conclusão de conformidade, garantindo a transparência do processo.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):**  A decisão não impede que o trabalhador busque seus direitos na justiça. A conclusão de conformidade não é definitiva e pode ser contestada em uma ação judicial, onde um juiz poderá analisar o caso com mais profundidade e considerar outros elementos que não foram apresentados ao sistema Q-FENG.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"Analisamos a forma como a empresa de transporte está pagando o adicional noturno para os motoristas. Com base nas informações que recebemos, a gente concluiu que a empresa está agindo de acordo com as leis trabalhistas. Isso significa que a empresa pode continuar pagando o adicional da forma como está, mas isso não impede que você, como trabalhador, procure seus direitos na justiça se não concordar com a situação.\n\nÉ importante lembrar que essa análise é baseada apenas nas informações que recebemos. Se houver outros detalhes que não foram considerados, a decisão pode ser diferente. Além disso, a empresa precisa estar preparada para explicar como chegou a essa conclusão, caso você decida entrar com uma ação judicial.\"\n",
+  "tokens_in": 525,
+  "tokens_out": 883,
+  "latency_ms": 24640,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,30 @@
+{
+  "sha256": "b9f5ebdd0656f24e9768b9a27fcd3048a7548ac1749c732dba1e20dc66599224",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T03:38:37Z",
+  "prompt_sha": "1a431bd2539a105bc27830e043de65433739a538537c1d00dbf3cc5df9c24aaf",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a decisão do TRT está **em conformidade com os princípios jurídicos trabalhistas**, com base nos predicados soberanos ativos. A **Súmula TST 60** foi corretamente aplicada, pois o regime de revezamento noturno (12x36 com períodos fixos noturnos) integra o adicional noturno à remuneração, conforme a **ratio decidendi** identificada. O TRT:  \n- **Cumpriu a obrigação de fundamentar a decisão** (predicado `obligation_to_ground_decision_in_identified_ratio_decidendi`), vinculando a aplicação da Súmula ao regime de revezamento.  \n- **Evitou a citação genérica de precedentes** (predicado `prohibition_of_generic_precedent_citation`), analisando o caso concreto e distinguindo-o de situações de turno fixo não noturno.  \n- **Respeitou a obrigação de expor as consequências práticas da decisão** (predicado `obligation_to_state_practical_consequences_of_decision`), garantindo que o empregado tenha direito ao adicional noturno.  \n- **Reconheceu a importância do acesso à justiça** (predicado `right_of_access_to_judicial_review`), assegurando que a decisão seja transparente e fundamentada.  \n\nA **incerteza de satisfatibilidade (UNKNOWN)** indica que o sistema não pôde confirmar se todas as condições legais foram plenamente atendidas, mas os predicados ativos garantem que a decisão está alinhada com os direitos constitucionais e coletivos (como a negociação coletiva via CCT, em `elastic(working_hours_negotiable_by_cct)`).\n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n**Predicados soberanos ativos:**  \n- **`obligation_to_state_practical_consequences_of_decision`**: O TRT deve explicar claramente como a decisão afeta o empregado (ex.: o adicional noturno será pago).  \n- **`prohibition_of_generic_precedent_citation`**: A Súmula TST 60 não pode ser aplicada de forma genérica; deve ser contextualizada ao caso concreto (regime 12x36 com revezamento noturno).  \n- **`obligation_to_address_all_legal_arguments`**: O TRT deve analisar todos os argumentos legais, incluindo a distinção entre revezamento noturno e turno fixo não noturno.  \n- **`obligation_to_ground_decision_in_identified_ratio_decidendi`**: A decisão deve ser fundamentada na **ratio** da Súmula (o revezamento noturno integra o adicional à remuneração).  \n- **`constitutional_obligation_to_state_reasons_for_decisions`**: A decisão deve ser transparente, com explicações que respeitem a Constituição (ex.: direito à remuneração justa).  \n- **`recognition_of_collective_bargaining`**: O regime de revezamento pode ser negociado coletivamente (via CCT), como previsto no art. 611 da CLT.  \n- **`right_of_access_to_judicial_review`**: O empregado tem direito a revisão judicial, garantindo que a decisão seja justa e fundamentada.  \n\n**Predicados elásticos ativos:**  \n- **`elastic(working_hours_negotiable_by_cct)`**: O regime de revezamento pode ser ajustado por meio de acordos coletivos (CCT), como previsto no art. 611 da CLT.  \n- **`elastic(hour_bank_with_cct_max_1_year)`**: Horas extras podem ser acumuladas em um banco de horas, desde que regulamentado por CCT (art. 611, § 1º da CLT).  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO TRT decidiu corretamente que o empregado tem direito ao adicional noturno, porque ele trabalha em um regime de revezamento (12x36) com horários fixos noturnos. A decisão foi feita com base em uma regra da Justiça do Trabalho (Súmula TST 60), que diz que, nesse tipo de regime, o adicional noturno deve ser pago.  \n\nO sistema Q-FENG confirma que a decisão está **em conformidade com a lei**, pois:  \n- O TRT explicou claramente como a decisão afeta o empregado (ele vai receber o adicional).  \n- Não usou regras gerais sem analisar o caso específico (o regime 12x36 com revezamento noturno).  \n- Garantiu que a decisão respeite os direitos do trabalhador, como o acesso à justiça e a negociação coletiva (ex.: acordos entre sindicatos e empresas).  \n\nA **incerteza** (UNKNOWN) significa que o sistema não pôde confirmar se **todos** os detalhes legais foram perfeitamente cumpridos, mas a decisão está alinhada com a lei e com os direitos do trabalhador.",
+  "tokens_in": 584,
+  "tokens_out": 1802,
+  "latency_ms": 57217,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

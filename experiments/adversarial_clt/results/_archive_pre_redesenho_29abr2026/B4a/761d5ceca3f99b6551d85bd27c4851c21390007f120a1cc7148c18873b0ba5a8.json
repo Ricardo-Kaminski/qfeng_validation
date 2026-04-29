@@ -1,0 +1,30 @@
+{
+  "sha256": "761d5ceca3f99b6551d85bd27c4851c21390007f120a1cc7148c18873b0ba5a8",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-007",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T07:09:51Z",
+  "prompt_sha": "db7b7f8d2770500cb0104fdeeec443628af6b6ec1fc50f5b30f49d02934b8843",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após analisar os fatos do caso e as leis aplicáveis, chegou à decisão de nulidade da dispensa e reintegração do empregado gestante. Isso ocorreu porque a gravidez do trabalhador ocorreu antes da dispensa, o que é um requisito essencial para a estabilidade provisória prevista na Constituição Federal de 1988 (CF/88), Art. 10, II, \"b\" (ADCT).\n\nAlém disso, o sistema considerou as orientações judiciárias (OJ) da SDI-1, específicamente a OJ 399, que estabelece que a comunicação prévia da gravidez ao empregador não é necessária. Essa orientação foi fundamental para afastar a exigência de comunicação prévia e garantir o direito do trabalhador à estabilidade.\n\nA decisão também se baseou na Súmula TST 244, que reforça a importância da estabilidade provisória durante a gestação. O sistema Q-FENG, ao atender aos predicados soberanos de obrigação de fundamentar as decisões em razões legais identificadas e de reconhecimento do direito de negociação coletiva, concluiu que a dispensa foi nula por violar esses direitos.\n\n**2. PREDICADOS SOBERANOS ATIVOS**\n\n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O sistema tem a obrigação de explicitar as consequências práticas da decisão tomada, garantindo que os envolvidos entendam o impacto real do resultado.\n\n- **sovereign(prohibition_of_generic_precedent_citation)**: Isso significa que o sistema não pode fundamentar suas decisões apenas em precedentes genéricos ou semelhantes. Cada caso deve ser analisado com base nas leis específicas aplicáveis e nos fatos apresentados.\n\n- **sovereign(obligation_to_address_all_legal_arguments)**: O sistema tem a obrigação de considerar e responder a todos os argumentos legais apresentados pelas partes envolvidas, garantindo que todas as questões jurídicas relevantes sejam abordadas.\n\n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: Aqui, o sistema deve fundamentar sua decisão em uma razão legal específica ou precedente identificado, não apenas em princípios gerais. Isso garante que as decisões sejam baseadas em leis claras e aplicáveis.\n\n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: O sistema tem a obrigação constitucional de explicar os motivos pelas quais tomou uma determinada decisão, garantindo que as razões sejam legítimas e baseadas em leis.\n\n- **sovereign(recognition_of_collective_bargaining)**: Isso significa que o sistema reconhece e valoriza a negociação coletiva como um direito fundamental dos trabalhadores. Decisões devem respeitar e proteger esses direitos.\n\n- **sovereign(right_of_access_to_justice_and_judicial_review)**: O sistema tem a obrigação de garantir que todos tenham acesso à justiça e ao recurso judicial, seja para apresentar suas demandas ou para contestar decisões tomadas.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nEm linguagem simples:\n\nO sistema Q-FENG decidiu que a dispensa do empregado gestante foi nula porque ele estava grávido antes de ser demitido. Isso é um direito garantido pela Constituição Federal, que protege os trabalhadores durante a gravidez.\n\nAlém disso, o sistema considerou uma orientação judicial que diz que não é necessário comunicar à empresa sobre a gravidez antes da dispensa. Isso significa que o empregado não precisa informar a empresa sobre sua gestação para ter direito à estabilidade.\n\nA decisão também se baseia em leis e precedentes que protegem os direitos dos trabalhadores, como a negociação coletiva e o acesso à justiça. O sistema concluiu que a dispensa foi nula porque violou esses direitos, garantindo assim a reintegração do empregado no trabalho.\n\nEssa narrativa visa transmitir a decisão de forma clara e acessível para um público não especializado em direito trabalhista.",
+  "tokens_in": 583,
+  "tokens_out": 1014,
+  "latency_ms": 17000,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

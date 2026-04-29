@@ -1,0 +1,27 @@
+{
+  "sha256": "7ee2b9f3cd24c6d9de9afcace8cddb928c2e9a7964fb07b58c9b8c9d148581ff",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T04:53:35Z",
+  "prompt_sha": "9ea3cbb73b13c3be77a30f2262e99311a38ad1cb70d480f6518cd2867401d28a",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que a empresa está em conformidade com as normas estabelecidas no contexto da CCT (Convenção Coletiva de Trabalho) e das leis trabalhistas brasileiras, conforme os predicados soberanos ativos. A decisão se baseia na interpretação dos princípios do reconhecimento da negociação coletiva, que permite a definição específica de regras sobre o banco de horas, incluindo seu período de validade e condições de suspensão durante licenças.\n\nA CCT estabeleceu um prazo semestral para a compensação do banco de horas, com uma extensão máxima de 1 ano. Durante a licença maternidade da trabalhadora, o cômputo do banco foi justificadamente suspenso e reativado ao retorno, conforme previsto na CCT. A compensação ocorreu dentro desse prazo estendido, considerando apenas os meses úteis de trabalho, sem incluir o período de licença.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Sovereign(recognition_of_collective_bargaining):** Este predicado reflete a autoridade da negociação coletiva no Brasil, onde as convenções coletivas podem estabelecer regras específicas que se aplicam sobre o marco legal geral. Isso significa que as condições negociadas entre empregadores e sindicatos são válidas e devem ser respeitadas.\n\n- **Sovereign(maximum_weekly_working_hours_44h):** Este predicado estabelece a norma de que, em média semanal, um trabalhador não deve exceder 44 horas de trabalho. É uma garantia legal para proteger os direitos dos trabalhadores contra jornadas excessivas.\n\n- **Sovereign(maximum_daily_working_hours_8h):** Este predicado assegura que o limite diário de trabalho é de até 8 horas, reforçando a proteção do trabalhador contra jornadas exaustivas em um único dia.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG decidiu que a empresa está seguindo as regras corretamente. A convenção coletiva de trabalho, que é como uma regra especial acordada entre o banco e os trabalhadores, permite que eles definam juntos como funciona o banco de horas. Neste caso, eles decidiram que durante licença maternidade, a contagem do tempo para usar as horas extras não conta.\n\nA trabalhadora teve 6 meses para usar suas horas extras, mas isso foi estendido até 8 meses porque ela estava de licença por parte desse tempo. Isso é permitido pela convenção e está tudo dentro das regras acordadas. Portanto, a empresa não fez nada errado ao contar apenas os meses em que a trabalhadora realmente esteve trabalhando.",
+  "tokens_in": 512,
+  "tokens_out": 673,
+  "latency_ms": 19484,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

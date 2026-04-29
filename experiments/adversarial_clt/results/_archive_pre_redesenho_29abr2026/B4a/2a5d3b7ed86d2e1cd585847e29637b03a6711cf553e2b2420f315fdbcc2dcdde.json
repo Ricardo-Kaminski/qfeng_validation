@@ -1,0 +1,26 @@
+{
+  "sha256": "2a5d3b7ed86d2e1cd585847e29637b03a6711cf553e2b2420f315fdbcc2dcdde",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-006",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T06:43:02Z",
+  "prompt_sha": "324f58b06ace5123feff726f55259a913c5f926bf4c3eff790b1b83195a3e292",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG analisou o cenário e identificou que a juíza do trabalho emitiu uma decisão interlocutória indeferindo prova pericial com base no fundamento de que \"suficientes os documentos já acostados aos autos.\" No entanto, não foi esclarecido quais documentos seriam suficientes nem qual fato probatório ficaria demonstrado.\n\nDiante disso, o sistema Q-FENG ativou os predicados soberanos ativos para avaliar a situação. Com base nesses predicados, o sistema concluiu que a decisão da juíza do trabalho viola as normas constitucionais e legais que regem o processo trabalhista.\n\n**2. PREDICADOS SOBERANOS ATIVADOS**\n\nOs predicados soberanos ativos são:\n\n- `sovereign(obligation_to_state_practical_consequences_of_decision)`: A juíza do trabalho tem a obrigação de esclarecer as consequências práticas da decisão tomada, ou seja, quais serão os efeitos da indeferência da prova pericial.\n\n- `sovereign(prohibition_of_generic_precedent_citation)`: A juíza não pode fundamentar sua decisão apenas com referências genéricas a precedentes sem esclarecer como esses precedentes se aplicam ao caso específico em análise.\n\n- `sovereign(obligation_to_address_all_legal_arguments)`: A decisão da juíza deve abordar todas as argumentações jurídicas apresentadas pelas partes, não apenas aquelas que forem favoráveis à sua posição.\n\n- `sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)`: A juíza tem a obrigação de fundamentar sua decisão com base em uma ratio decidendi clara e identificada, ou seja, um fundamento específico que justifique a indeferência da prova pericial.\n\n- `sovereign(constitutional_obligation_to_state_reasons_for_decisions)`: A juíza tem a obrigação constitucional de esclarecer as razões pelas quais tomou uma decisão, garantindo transparência e justiça no processo.\n\n- `sovereign(right_of_access_to_justice_and_judicial_review)`: O sistema reconhece o direito das partes ao acesso à justiça e à revisão judicial, sendo essencial que as decisões sejam fundamentadas de forma clara para garantir essa revisão.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nEm linguagem simples, a decisão do sistema Q-FENG significa que a juíza do trabalho não explicou bem o motivo pelo qual indeferiu a prova pericial. Ela disse que os documentos já acostados eram suficientes, mas não disse quais documentos esses são ou como eles provam algo importante.\n\nO sistema Q-FENG concluiu que essa decisão é errada porque a juíza não explicou bem o motivo e também não considerou todas as argumentações das partes. Além disso, a Constituição e leis trabalhistas exigem que as decisões sejam fundamentadas de forma clara para garantir justiça.\n\nEssa decisão significa que a parte que requereu a anulação da decisão tem razão em pedir isso, pois a juíza não seguiu as regras necessárias para tomar uma decisão justa.",
+  "tokens_in": 518,
+  "tokens_out": 766,
+  "latency_ms": 12812,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

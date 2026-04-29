@@ -1,0 +1,26 @@
+{
+  "sha256": "65299f02de47dfa6d2eeaaf04f40185baf1e90fa1eebb3b86a8d121fd1df9d8a",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-006",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:42:36Z",
+  "prompt_sha": "324f58b06ace5123feff726f55259a913c5f926bf4c3eff790b1b83195a3e292",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\n\"O sistema Q-FENG analisou o caso e determinou que houve violação da decisão interlocutória emitida pela Juíza do Trabalho. A decisão foi baseada no fato de que a magistrada não explicou quais documentos seriam suficientes para indeferir a prova pericial, nem qual fato probatório seria demonstrado com esses documentos.\n\nOs predicados soberanos ativos indicam que o sistema considerou as seguintes obrigações e direitos fundamentais:\n\n* A obrigação de estabelecer as consequências práticas da decisão (obligation_to_state_practical_consequences_of_decision);\n* A proibição de citação de precedentes genéricos (prohibition_of_generic_precedent_citation);\n* A obrigação de abordar todos os argumentos legais apresentados (obligation_to_address_all_legal_arguments);\n* A obrigação de fundamentar a decisão em uma razão específica e identificável (obligation_to_ground_decision_in_identified_ratio_decidendi);\n* A obrigação constitucional de estabelecer as razões para as decisões (constitutional_obligation_to_state_reasons_for_decisions);\n* O direito de acesso à justiça e revisão judicial (right_of_access_to_justice_and_judicial_review).\n\nCom base nessas considerações, o sistema Q-FENG determinou que houve violação da decisão interlocutória.\"\n\n**2. PREDICADOS ATIVADOS**\n\n* **obligation_to_state_practical_consequences_of_decision**: A obrigação de estabelecer as consequências práticas da decisão é um princípio fundamental do direito processual civil, que exige que os juízes expliquem como a decisão afetará as partes e o processo em geral.\n* **prohibition_of_generic_precedent_citation**: A proibição de citação de precedentes genéricos é uma regra que visa evitar a citação de decisões semelhantes, mas não diretamente aplicáveis ao caso concreto. Isso evita a criação de jurisprudência confusa e incoerente.\n* **obligation_to_address_all_legal_arguments**: A obrigação de abordar todos os argumentos legais apresentados é um princípio que exige que os juízes examinem e respondam a todos os argumentos apresentados pelas partes, sem omissões ou evasivas.\n* **obligation_to_ground_decision_in_identified_ratio_decidendi**: A obrigação de fundamentar a decisão em uma razão específica e identificável é um princípio que exige que os juízes expliquem a razão pela qual decidiram da forma como decidiram, evitando decisões arbitrárias ou baseadas em motivos não expressamente mencionados.\n* **constitutional_obligation_to_state_reasons_for_decisions**: A obrigação constitucional de estabelecer as razões para as decisões é um princípio fundamental do direito processual civil, que exige que os juízes expliquem as razões pelas quais decidiram da forma como decidiram.\n* **right_of_access_to_justice_and_judicial_review**: O direito de acesso à justiça e revisão judicial é um princípio fundamental do direito processual civil, que exige que os juízes garantam o acesso às instâncias superiores para a revisão de decisões.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\n\"A decisão da Juíza do Trabalho foi anulada porque ela não explicou por quê. Ela disse que os documentos já acostados aos autos eram suficientes, mas não disse quais documentos seriam esses ou qual fato probatório seria demonstrado com eles.\n\nIsso é um problema porque a lei exige que as decisões sejam fundamentadas e explicadas de forma clara. A magistrada não cumpriu essa obrigação e, por isso, o sistema Q-FENG determinou que houve violação da decisão interlocutória.\"\n\nNota: É importante ressaltar que a narrativa da decisão Q-FENG deve ser sempre coerente com os predicados soberanos ativos e o resultado da execução do solver Clingo ASP.",
+  "tokens_in": 518,
+  "tokens_out": 957,
+  "latency_ms": 16171,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

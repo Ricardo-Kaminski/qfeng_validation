@@ -1,0 +1,43 @@
+{
+  "sha256": "74691edd3d95bef2b27481ef4f504b411bbc8aa4baa5fe43607ca0adf399ad4b",
+  "braco": "B5",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-008",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T14:08:50Z",
+  "prompt_sha": "0e0adb60805bc48f79d4bda30000ec399529a7c28474da7c11e5b7698243d77b",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO motor de inferência Q-FENG identificou uma **fricção ontológica θ de 127,81°**, que ultrapassa o limiar de 120°, classificando o caso no regime **CIRCUIT_BREAKER**. Esse valor elevado indica uma **conflito significativo** entre a **evidência neural** (baseada nas ações e argumentos do empregador e empregado) e a **norma simbólica** (princípios jurídicos fixos no Direito do Trabalho brasileiro).  \n\nOs **predicados soberanos ativos** (como *sovereign(invalidity_of_clause_suppressing_overtime_payment)* e *sovereign(overtime_minimum_additional_50pct)*) reforçam que:  \n- A **não pagamento de horas extras pendentes** (mesmo após a demissão) é **ilegal**, pois a lei proíbe cláusulas que anulem direitos trabalhistas (predicado *invalidity_of_clause_suppressing_overtime_payment*).  \n- A **compensação de horas extras** exige **escrituração formal** (predicado *weekly_hour_compensation_requires_written_agreement*), o que não ocorreu no caso.  \n- A **fricção ontológica** reflete que a **empresa está violando normas fundamentais** (como o direito à remuneração por horas extras e o limite de 44h semanais), o que justifica a **supressão de ação** (regime CIRCUIT_BREAKER) e a **recomendação de violação** (VIOLACAO) contra a empresa.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n**Predicados soberanos ativos e seu significado jurídico:**  \n- **sovereign(semester_hour_bank_requires_cct_or_act)**: A compensação de horas extras (banco de horas) **só é válida se formalizada em um contrato coletivo (CCT) ou individual (ACT)**. A ausência de escrituração formal invalida o acordo.  \n- **sovereign(invalidity_of_clause_suppressing_overtime_payment)**: **Nenhuma cláusula pode anular o direito ao pagamento de horas extras**, mesmo após a demissão. A empresa está tentando aplicar uma regra que viola a lei.  \n- **sovereign(weekly_hour_compensation_requires_written_agreement)**: A compensação de horas extras **exige um acordo escrito**, o que não foi feito no caso.  \n- **sovereign(prohibition_negotiation_reducing_overtime_additional)**: **É proibido acordar reduções de horas extras** (ex.: não pagar 50% de horas extras).  \n- **sovereign(overtime_minimum_additional_50pct)**: As horas extras devem ter **adicionais mínimos de 50%**, independentemente de acordos.  \n- **sovereign(maximum_weekly_working_hours_44h)**: O trabalhador **não pode trabalhar mais de 44h por semana**, o que limita a compensação de horas extras.  \n- **sovereign(maximum_daily_working_hours_8h)**: O limite de **8h diárias** também reforça a proteção do trabalhador.  \n\n**Predicado elástico ativo:**  \n- **elastic(hour_bank_without_cct_max_6_months)**: O banco de horas **sem CCT/ACT só pode durar até 6 meses**, mas no caso, o acordo durou 7 meses, o que já é uma violação.  \n\n---\n\n### 3. **INTERPRETAÇÃO DO REGIME**  \nO regime **CIRCUIT_BREAKER** (θ ≥ 120°) significa que:  \n- **Ação é bloqueada** devido a uma **colisão grave entre a prática da empresa e a norma jurídica**.  \n- O **motor de inferência identificou uma violação clara** (não pagamento de horas extras) que **não pode ser mitigada por argumentos de negociação** (como a demissão do empregado).  \n- **Operacionalmente**, isso implica que:  \n  - A empresa **não pode se recusar a pagar as 60h pendentes** (mesmo após a demissão).  \n  - O sistema **recomenda ações de correção imediata** (como multas ou compensação judicial) para alinhar a prática da empresa às normas.  \n\n---\n\n### 4. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \n**Resumo simples:**  \n- O trabalhador **tem direito a ser pago pelas 60h extras** que acumulou, mesmo após pedir demissão.  \n- A empresa **não pode se recusar a pagar** porque:  \n  - A lei **proíbe acordos que anulem direitos trabalhistas** (como o pagamento de horas extras).  \n  - O banco de horas **não foi formalizado corretamente** (falta de CCT/ACT ou escrituração).  \n- O sistema **não permite que a empresa ignore essa regra**, então **a empresa deve pagar as horas extras**.  \n- Se a empresa não pagar, isso é uma **violação da lei**, e o trabalhador pode buscar ajuda de um advogado ou do Ministério Público do Trabalho.  \n\n---  \n**Nota:** A decisão do Q-FENG não substitui a jurisprudência, mas **reforça a necessidade de alinhamento entre práticas e normas jurídicas**.",
+  "tokens_in": 806,
+  "tokens_out": 1765,
+  "latency_ms": 56078,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": "",
+  "t_clingo_ms": 46,
+  "t_llm_ms": 56031,
+  "t_psi_build_ms": 0,
+  "t_theta_compute_ms": 0,
+  "qfeng_psi_n_dim": 2,
+  "qfeng_psi_s_dim": 2,
+  "qfeng_theta_rad": 2.2307694050963036,
+  "qfeng_theta_deg": 127.81367197892763,
+  "qfeng_theta_eff_rad": 2.2307694050963036,
+  "qfeng_theta_eff_deg": 127.81367197892763,
+  "qfeng_regime": "BLOCK",
+  "qfeng_p_action": 0.3869044161814975,
+  "qfeng_cos_theta": -0.6130955838185024,
+  "qfeng_cb_threshold_deg": 119.99999999999999
+}

@@ -1,0 +1,27 @@
+{
+  "sha256": "bc9616eb0ddd03ea8eae95c0c9e9edac81ed57de7776b7fcdca3f34ff58f3ba2",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-011",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T05:00:30Z",
+  "prompt_sha": "1ba5dabfcaa2bdcb6e6f3d2a77f11a19a64ac5023093b1ae0eb6de908514e992",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação na aplicação das normas coletivas de trabalho (CCT) em relação ao banco de horas anual estabelecido entre a empresa e seus trabalhadores. A decisão foi baseada nos predicados soberanos ativos, que incluem o reconhecimento da CCT, bem como as limitações máximas de horas semanais e diárias de trabalho. O sistema considerou que, apesar da flexibilidade permitida pela CCT em relação ao banco de horas (predicado elástico), a exigência de compensação das horas acumuladas após um período de afastamento por acidente de trabalho ultrapassando 12 meses não está alinhada com as normas soberanas vigentes. Isso ocorre porque, sem uma cláusula específica na CCT que autorize a suspensão do prazo durante o afastamento, a aplicação da regra pelo empregador resulta em uma violação das condições de trabalho estabelecidas coletivamente e dos direitos trabalhistas fundamentais.\n\n### 2. PREDICADOS ATIVADOS\n\n- **sovereign(recognition_of_collective_bargaining)**: Este predicado reconhece a validade e aplicabilidade da CCT como um acordo legalmente vinculante entre empregadores e empregados, que estabelece condições de trabalho específicas acordadas coletivamente.\n\n- **sovereign(maximum_weekly_working_hours_44h)**: Juridicamente, este predicado estipula que a jornada semanal máxima de trabalho não deve exceder 44 horas, conforme determina a legislação trabalhista brasileira, garantindo um limite para o tempo de trabalho dos empregados.\n\n- **sovereign(maximum_daily_working_hours_8h)**: Este predicado estabelece que a jornada diária máxima de trabalho não deve ultrapassar 8 horas, protegendo os trabalhadores contra excessos no dia a dia e garantindo um equilíbrio entre vida profissional e pessoal.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG decidiu que a empresa fez algo errado ao pedir para você compensar as horas extras acumuladas após voltar do afastamento por acidente de trabalho, especialmente porque isso foi pedido depois de mais de um ano. Isso acontece porque, mesmo que a sua empresa tenha um acordo especial sobre como lidar com essas horas (chamado CCT), esse acordo não diz nada sobre adiar o prazo para compensar as horas extras quando você está afastado por acidente. Portanto, pedir para você compensar essas horas após tanto tempo é contra as regras que protegem os trabalhadores e garantem condições justas de trabalho.",
+  "tokens_in": 542,
+  "tokens_out": 640,
+  "latency_ms": 18907,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

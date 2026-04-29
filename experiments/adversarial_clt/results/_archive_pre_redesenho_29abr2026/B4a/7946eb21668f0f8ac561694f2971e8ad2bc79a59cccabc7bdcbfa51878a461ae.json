@@ -1,0 +1,27 @@
+{
+  "sha256": "7946eb21668f0f8ac561694f2971e8ad2bc79a59cccabc7bdcbfa51878a461ae",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-009",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T07:02:53Z",
+  "prompt_sha": "18a223af3fb227c2a5e0257347aa4e5c729224e92b72d7d1c3e676c4eb13b5d5",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG determinou que a decisão seja considerada como CONFORMIDADE, o que significa que a ação do empregador em pagar ao trabalhador o saldo de horas convertidas com adicional de 50% está em conformidade com as normas vigentes. Isso ocorreu porque os predicados soberanos ativos, que representam direitos fundamentais e princípios básicos da legislação trabalhista brasileira, não foram violados.\n\nEssa decisão é influenciada pela existência de predicados como o \"recognition_of_collective_bargaining\", que garante a validade das negociações coletivas entre empregadores e sindicatos. Além disso, o \"maximum_weekly_working_hours_44h\" e o \"maximum_daily_working_hours_8h\" são fundamentais para proteger os direitos dos trabalhadores em relação ao tempo de trabalho.\n\nA presença desses predicados ativos indica que a decisão do Q-FENG foi influenciada pela necessidade de respeitar essas normas básicas da legislação trabalhista. A conversão das horas de banco em dinheiro, com adicional de 50%, dentro do prazo estabelecido na CCT e com anuência do empregador, não viola esses direitos fundamentais.\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\n- **sovereign(recognition_of_collective_bargaining)**: Este predicado representa a importância da negociação coletiva entre os sindicatos e os empregadores, que é fundamental para estabelecer direitos e condições de trabalho. Ele garante que as negociações realizadas em conformidade com a legislação sejam válidas.\n\n- **sovereign(maximum_weekly_working_hours_44h)**: Este predicado refere-se ao limite máximo semanal de horas trabalhadas, estabelecido em 44 horas. Ele protege os direitos dos trabalhadores garantindo que não seja exigido um tempo de trabalho excedente.\n\n- **sovereign(maximum_daily_working_hours_8h)**: Este predicado refere-se ao limite máximo diário de horas trabalhadas, estabelecido em 8 horas. Ele também protege os direitos dos trabalhadores garantindo que não seja exigido um tempo de trabalho excedente.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nA decisão do Q-FENG significa que o empregador fez tudo certo ao pagar ao trabalhador o valor das horas convertidas, mais 50% a mais. Isso porque as regras da CCT (Convenção Coletiva de Trabalho) foram seguidas e o prazo para converter as horas foi cumprido. Além disso, os direitos dos trabalhadores como limite máximo de horas semanais e diárias foram respeitados.\n\nEssa decisão é importante porque garante que os empregadores sigam as regras estabelecidas para proteger os direitos dos trabalhadores. Nesse caso específico, a conversão das horas em dinheiro foi feita de acordo com o que estava previsto na CCT e não houve violação aos direitos fundamentais dos trabalhadores.",
+  "tokens_in": 507,
+  "tokens_out": 729,
+  "latency_ms": 12203,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

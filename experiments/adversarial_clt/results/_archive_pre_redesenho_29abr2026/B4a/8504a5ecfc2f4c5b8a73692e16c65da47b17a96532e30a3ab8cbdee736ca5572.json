@@ -1,0 +1,26 @@
+{
+  "sha256": "8504a5ecfc2f4c5b8a73692e16c65da47b17a96532e30a3ab8cbdee736ca5572",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T04:19:48Z",
+  "prompt_sha": "ae3ccc45fd00998e54e39da4688a558e454f41be8d8b72c745f2b457cbbefe7d",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação na fundamentação do acórdão trabalhista em questão devido à forma inadequada como foi feita a citação doutrinária. A decisão normativa, apoiada nos predicados soberanos ativos, destaca que o acórdão não cumpriu com as obrigações constitucionais e legais de fundamentação adequada. Especificamente:\n\n- **Obrigação de Estabelecer Consequências Práticas da Decisão**: O tribunal deve explicitar como a decisão impacta os direitos dos envolvidos, o que não foi feito de forma clara ao se referir à doutrina sem identificação completa.\n  \n- **Proibição de Citação Genérica de Precedentes ou Doutrinas**: A citação deve ser específica e detalhada para permitir a verificação e compreensão do raciocínio adotado, o que não ocorreu ao mencionar \"Martins, Sergio Pinto\" sem referência precisa.\n\n- **Obrigação de Abordar Todos os Argumentos Legais**: O tribunal deve considerar todos os argumentos apresentados pelas partes, incluindo a crítica do recorrente sobre a falta de identificação completa da doutrina citada.\n\n- **Obrigação de Fundamentar a Decisão no Ratio Decidendi Identificado**: A fundamentação deve estar baseada em uma análise clara e precisa dos princípios jurídicos aplicáveis, o que foi comprometido pela citação genérica.\n\n- **Obrigação Constitucional de Explicar as Razões das Decisões**: O tribunal deve fornecer razões claras e compreensíveis para sua decisão, garantindo transparência e justiça no processo.\n\n- **Direito ao Acesso à Justiça e Revisão Judicial**: Garantir que os cidadãos possam entender as bases das decisões judiciais é essencial para a efetivação do direito de acesso à justiça.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obrigação de Estabelecer Consequências Práticas da Decisão**: No contexto trabalhista, isso significa que o tribunal deve explicar como sua decisão afeta os direitos e obrigações das partes envolvidas.\n\n- **Proibição de Citação Genérica de Precedentes ou Doutrinas**: No Brasil, é necessário citar doutrina e precedente com detalhes suficientes para que a fundamentação possa ser verificada e compreendida por todos os interessados.\n\n- **Obrigação de Abordar Todos os Argumentos Legais**: O tribunal deve considerar todas as questões legais levantadas pelas partes, garantindo uma análise completa e justa do caso.\n\n- **Obrigação de Fundamentar a Decisão no Ratio Decidendi Identificado**: A decisão deve ser baseada em princípios jurídicos claros e identificados, permitindo que as partes entendam o raciocínio adotado pelo tribunal.\n\n- **Obrigação Constitucional de Explicar as Razões das Decisões**: As decisões judiciais devem ser acompanhadas de uma explicação clara e detalhada para garantir a transparência do processo judicial.\n\n- **Direito ao Acesso à Justiça e Revisão Judicial**: Os cidadãos têm o direito de entender as bases das decisões judiciais, permitindo que possam buscar revisão ou apelação se necessário.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO tribunal fez um erro ao usar uma referência a um livro sem dizer qual é exatamente o livro, quem escreveu e de onde tirou essa informação. Isso é importante porque as pessoas precisam saber por que o juiz decidiu daquela maneira para entender se foi justo ou não. O tribunal tem que explicar claramente suas razões e considerar todos os argumentos apresentados, garantindo que todos possam ver como a decisão afeta seus direitos. Isso é essencial para que as pessoas tenham confiança no sistema de justiça e saibam que podem recorrer se acharem necessário.",
+  "tokens_in": 519,
+  "tokens_out": 966,
+  "latency_ms": 28328,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

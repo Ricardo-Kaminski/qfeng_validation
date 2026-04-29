@@ -1,0 +1,30 @@
+{
+  "sha256": "42027ae8a9d022c3a42bb3de683a682238d0bfc72f9a6872899247feda7f160d",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-007",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T05:12:20Z",
+  "prompt_sha": "db7b7f8d2770500cb0104fdeeec443628af6b6ec1fc50f5b30f49d02934b8843",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, ao analisar o caso de rescisão envolvendo uma gestante, determinou conformidade com a decisão do TRT (Tribunal Regional do Trabalho) que reconheceu a nulidade da dispensa e ordenou a reintegração da trabalhadora. Essa conclusão se baseia nos predicados soberanos ativos que orientam a interpretação e aplicação das normas jurídicas no contexto brasileiro.\n\n- **Obrigação de Estabelecer as Consequências Práticas da Decisão**: O Q-FENG reconhece a necessidade de explicitar o impacto prático da decisão, ou seja, que a reintegração da trabalhadora deve ocorrer imediatamente após a declaração de nulidade do ato de dispensa.\n\n- **Proibição de Citação Genérica de Precedentes**: A análise foi feita sem depender exclusivamente de precedentes genéricos, mas sim considerando as especificidades do caso em questão e suas circunstâncias únicas.\n\n- **Obrigação de Abordar Todos os Argumentos Legais**: O Q-FENG confirmou que a decisão aborda todos os argumentos relevantes apresentados no processo, incluindo o fato provado da gravidez ocorrendo antes da dispensa e as normas legais aplicáveis.\n\n- **Obrigação de Fundamentar a Decisão na Ratio Decidendi Identificada**: A decisão está fundamentada nos princípios jurídicos específicos, como os previstos no Art. 10, II, \"b\" do CF/88 (ADCT), Súmula TST 244 e OJ 399 da SDI-1.\n\n- **Obrigação Constitucional de Explicar as Razões das Decisões**: A decisão foi fundamentada com clareza nas razões que levaram à conclusão, incluindo a análise do requisito de estabilidade provisória e o afastamento da exigência de comunicação prévia da gravidez ao empregador.\n\n- **Reconhecimento da Negociação Coletiva**: Embora não diretamente aplicável neste caso específico, este predicado garante que a decisão respeita os princípios gerais de negociação coletiva no ambiente trabalhista.\n\n- **Direito de Acesso à Justiça e Revisão Judicial**: O Q-FENG reconhece o direito da trabalhadora de buscar justiça e revisão judicial, assegurando que a decisão do TRT está alinhada com esses princípios fundamentais.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obrigação de Estabelecer as Consequências Práticas da Decisão**: No contexto trabalhista brasileiro, isso significa que qualquer decisão judicial deve ser acompanhada por uma explicação clara sobre como ela será implementada na prática.\n\n- **Proibição de Citação Genérica de Precedentes**: Isso implica que cada caso deve ser analisado com base em seus próprios méritos e circunstâncias, sem depender apenas de decisões anteriores que possam não se aplicar diretamente.\n\n- **Obrigação de Abordar Todos os Argumentos Legais**: Garante que todas as questões legais relevantes apresentadas no processo são consideradas na decisão final.\n\n- **Obrigação de Fundamentar a Decisão na Ratio Decidendi Identificada**: Refere-se à necessidade de basear a decisão em princípios jurídicos específicos e claros, que justifiquem o resultado alcançado.\n\n- **Obrigação Constitucional de Explicar as Razões das Decisões**: Assegura que todas as decisões judiciais sejam acompanhadas por uma fundamentação clara e detalhada, permitindo a compreensão do raciocínio adotado.\n\n- **Reconhecimento da Negociação Coletiva**: Embora não diretamente aplicável neste caso, este princípio destaca a importância das convenções coletivas de trabalho na regulação das relações trabalhistas.\n\n- **Direito de Acesso à Justiça e Revisão Judicial**: Assegura que qualquer parte envolvida em um processo judicial tenha o direito de buscar uma decisão justa e, se necessário, solicitar revisões posteriores.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG concorda com a decisão do tribunal que considerou errada a dispensa da trabalhadora grávida e determinou que ela deve ser reintegrada ao seu emprego. Isso porque, de acordo com as leis brasileiras, uma gestante tem direito a estabilidade no trabalho durante a gravidez e até cinco meses após o parto. O tribunal também decidiu que não era necessário que a trabalhadora tivesse comunicado previamente ao empregador sobre sua gravidez para ter esse direito.\n\nEssa decisão foi tomada considerando todas as informações do caso, sem depender apenas de exemplos anteriores, e explicando claramente por que essa é a conclusão correta. Além disso, o sistema reconhece que a trabalhadora tem o direito de buscar justiça e garantir que suas reivindicações sejam ouvidas e respeitadas.",
+  "tokens_in": 586,
+  "tokens_out": 1220,
+  "latency_ms": 35485,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

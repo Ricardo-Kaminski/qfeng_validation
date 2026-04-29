@@ -1,0 +1,26 @@
+{
+  "sha256": "fe6510cea546fe7d03777973a39a934e626aa845b5e4ff7dad7c5e2c1234eafb",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CTRL-NEG-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T04:00:51Z",
+  "prompt_sha": "10b999c1978cb6ff2256926b41518f7e0ab9d2b1c6d6aeefb718ef2123bf70b9",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a empresa está **em conformidade com as normas trabalhistas brasileiras**, com base nos seguintes fundamentos jurídicos:  \n- **Obrigação de explicitar consequências práticas da decisão** (sovereign(obligation_to_state_practical_consequences_of_decision)): A ausência de irregularidades (como horas extras, trabalho noturno ou falta de registros eletrônicos) demonstra que a empresa cumpre as regras de forma clara e mensurável.  \n- **Proibição de citação de precedentes genéricos** (sovereign(prohibition_of_generic_precedent_citation)): A análise não depende de interpretações abstratas, mas de fatos concretos (ex.: jornada de 8h/dia, 44h/semana, intervalos integrais).  \n- **Obrigação de abordar todos os argumentos jurídicos** (sovereign(obligation_to_address_all_legal_arguments)): Nenhum aspecto da legislação trabalhista (ex.: CLT, Constituição Federal, Lei 13.467/2017) foi violado.  \n- **Fundamentação da decisão no *ratio decidendi* identificado** (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)): A conformidade está baseada no cumprimento explícito de dispositivos legais (ex.: art. 61 da CLT, art. 7º, XIII da Constituição).  \n- **Obrigação constitucional de fundamentar decisões** (sovereign(constitutional_obligation_to_state_reasons_for_decisions)): A empresa cumpre os direitos fundamentais (ex.: art. 5º, LXXVIII da Constituição) ao garantir acesso à justiça e revisão judicial.  \n- **Direito de acesso à justiça e revisão judicial** (sovereign(right_of_access_to_justice_and_judicial_review)): A ausência de reclamações pendentes e a transparência dos registros eletrônicos asseguram a possibilidade de contestação judicial, se necessário.  \n\nA **satisfatibilidade UNKNOWN** indica que o sistema não encontrou contradições entre os fatos apresentados e a legislação, mas não afirma que a conformidade é absoluta — apenas que não há elementos para condenar a empresa.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O sistema deve explicar como a decisão afeta a realidade (ex.: se a empresa estiver em conformidade, não há multas ou ações judiciais).  \n- **sovereign(prohibition_of_generic_precedent_citation)**: Não se pode usar precedentes genéricos (ex.: \"empresas devem seguir a lei\") para justificar decisões; é necessário apontar dispositivos legais específicos.  \n- **sovereign(obligation_to_address_all_legal_arguments)**: O sistema deve considerar todos os aspectos da legislação (ex.: jornada, intervalos, registros eletrônicos) para evitar omissões.  \n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão deve ser fundamentada em regras legais identificáveis (ex.: art. 61 da CLT para jornada de 8h/dia).  \n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: A decisão deve explicitar os motivos constitucionais (ex.: art. 5º, LXXVIII da Constituição, que garante o direito à justiça).  \n- **sovereign(right_of_access_to_justice_and_judicial_review)**: O sistema deve assegurar que a empresa tenha meios para contestar decisões (ex.: registros eletrônicos auditáveis).  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa está **cumprindo todas as regras do trabalho no Brasil**. Ela não tem horas extras, não trabalha à noite, dá pausas completas, e todos os registros de ponto são feitos por computador (não há enganos). Não há reclamações de funcionários pendentes. O sistema Q-FENG analisou as leis e concluiu que **não há problemas legais** — a empresa está dentro da lei. Se houvesse algo errado, o sistema teria dito, mas como não há, a recomendação é que **nada precisa ser feito**. A empresa está \"no lugar certo\".",
+  "tokens_in": 519,
+  "tokens_out": 1437,
+  "latency_ms": 45657,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

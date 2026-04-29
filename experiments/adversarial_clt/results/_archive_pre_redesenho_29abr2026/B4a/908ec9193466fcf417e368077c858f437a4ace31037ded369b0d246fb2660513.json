@@ -1,0 +1,26 @@
+{
+  "sha256": "908ec9193466fcf417e368077c858f437a4ace31037ded369b0d246fb2660513",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-009",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T05:41:18Z",
+  "prompt_sha": "bcff85d452bf2f58ac15e7495135889c6ad856a88318d21e3e0178db0d0f040c",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação dos princípios fundamentais do devido processo legal e do direito de acesso à justiça no caso em questão. A decisão do magistrado trabalhista, ao adotar integralmente os fundamentos da sentença de primeira instância sem apresentar nova análise e ignorando a superação do precedente citado na sentença original, demonstra uma falha na observância de obrigações essenciais inerentes ao poder judiciário.\n\nA decisão do Q-FENG se baseia na constatação de que a simples reprodução de fundamentos de uma decisão anterior não atende à necessidade de individualização da análise e de adequação à legislação e jurisprudência atualizadas. A manutenção da sentença sem a devida ponderação e contextualização, especialmente diante da superação do precedente invocado, compromete a transparência e a legitimidade do ato decisório.\n\nA avaliação do Q-FENG considera que a decisão do magistrado, ao não abordar a superação do precedente, impede efetivamente a possibilidade de o interessado compreender as razões que fundamentam a decisão e, consequentemente, exercer o direito de recurso e controle judicial. A falta de fundamentação adequada também dificulta a fiscalização da decisão por instâncias superiores.\n\n## PREDICADOS ATIVADOS E SEU SIGNIFICADO JURÍDICO\n\nOs predicados soberanos ativos, identificados pelo Q-FENG, refletem as obrigações e direitos envolvidos na situação:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  O magistrado tem a obrigação de demonstrar as consequências práticas da decisão, ou seja, explicar como a decisão impacta a vida do trabalhador e a relação de trabalho. A mera adoção de fundamentos pré-existentes não cumpre essa obrigação.\n*   **sovereign(prohibition_of_generic_precedent_citation):** A citação de precedentes deve ser específica e justificada, não genérica. A jurisprudência evolui, e a utilização de precedentes superados demonstra desatualização e pode comprometer a validade da decisão.\n*   **sovereign(obligation_to_address_all_legal_arguments):** O magistrado deve analisar e responder a todos os argumentos jurídicos apresentados pelas partes, inclusive aqueles relacionados à superação do precedente. Ignorar a superação do precedente configura uma omissão na análise dos argumentos.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** A decisão deve estar fundamentada em um *ratio decidendi* (a razão de decidir) identificado e explicado. A simples cópia de fundamentos não demonstra a identificação e aplicação do *ratio*.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):** A Constituição Federal garante o direito ao contraditório e à motivação das decisões judiciais (art. 93, IX). A falta de fundamentação individualizada viola esse direito fundamental.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):** O trabalhador tem o direito de ter seu caso analisado de forma justa e transparente, com a possibilidade de compreender as razões da decisão e de questioná-la em instâncias superiores. A falta de fundamentação adequada dificulta o exercício desse direito.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"Imagine que você está numa disputa no trabalho e o juiz toma uma decisão. Para que você entenda por que ele decidiu assim, ele precisa explicar o que pensou e como chegou a essa conclusão. Não basta ele simplesmente copiar o que outro juiz escreveu antes.\n\nNo seu caso, o juiz não fez isso. Ele apenas disse que concordava com o que o juiz anterior escreveu, mas o que ele escreveu antes já não é mais a lei. Isso é como se ele usasse um mapa antigo para te mostrar o caminho, quando a cidade já mudou.\n\nIsso não é justo, porque você não sabe o porquê da decisão e não pode verificar se ela está correta. Você tem o direito de entender o que aconteceu e de poder recorrer da decisão se não concordar. A decisão do sistema Q-FENG mostra que o juiz não cumpriu essa obrigação, o que é uma violação do seu direito de ter justiça.\"\n",
+  "tokens_in": 499,
+  "tokens_out": 944,
+  "latency_ms": 26250,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

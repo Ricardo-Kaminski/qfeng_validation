@@ -1,0 +1,26 @@
+{
+  "sha256": "ea047286efa40a7360b431c6bbf54877bf2d24352e3c0ba5af35a12a30978dc9",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-008",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T04:25:11Z",
+  "prompt_sha": "edebec9d75758a7769d5b8b57f9d98a0d77aec6e3dfbd734a37cbb83239e8736",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação na decisão do Tribunal Regional do Trabalho (TRT) ao condenar com base em uma Orientação Jurisprudencial (OJ 394 da SDI-1 do TST) que já havia sido cancelada e substituída pela Súmula 428. A análise foi conduzida sob a luz dos predicados soberanos ativos, os quais são princípios jurídicos fundamentais que orientam a correção das decisões judiciais no contexto trabalhista brasileiro.\n\nPrimeiramente, o predicado \"obligation_to_state_practical_consequences_of_decision\" enfatiza a necessidade de explicitar as implicações práticas da decisão tomada. No caso em questão, ao não reconhecer o cancelamento da OJ 394 e sua substituição pela Súmula 428, o TRT falhou em considerar as consequências práticas dessa mudança normativa.\n\nAlém disso, o \"prohibition_of_generic_precedent_citation\" proíbe a citação de precedentes que não estejam mais vigentes. O TRT incorreu ao fundamentar sua decisão em uma orientação jurisprudencial desatualizada, sem reconhecer seu cancelamento e substituição.\n\nO predicado \"obligation_to_address_all_legal_arguments\" exige que todas as questões legais relevantes sejam consideradas na decisão. A falha do TRT em mencionar a Súmula 428, que agora governa o caso da OJ 394 cancelada, demonstra uma negligência neste aspecto.\n\nO \"obligation_to_ground_decision_in_identified_ratio_decidendi\" requer que as decisões sejam baseadas no fundamento jurídico correto. Ao ignorar a Súmula 428 e continuar a aplicar a OJ 394 cancelada, o TRT não atendeu a este princípio.\n\nA \"constitutional_obligation_to_state_reasons_for_decisions\" impõe que as decisões sejam fundamentadas com razões claras. A ausência de menção à Súmula 428 e ao cancelamento da OJ 394 compromete essa obrigação constitucional.\n\nPor fim, o \"right_of_access_to_justice_and_judicial_review\" garante que os cidadãos tenham acesso a um julgamento justo e revisável. A decisão do TRT, baseada em uma norma desatualizada, compromete este direito fundamental ao potencialmente levar a resultados injustos.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obligation to state practical consequences of decision**: Exige que o tribunal explique como sua decisão afeta as partes envolvidas, considerando mudanças normativas relevantes.\n  \n- **Prohibition of generic precedent citation**: Proíbe a utilização de precedentes que não estão mais em vigor sem reconhecer suas substituições ou atualizações.\n\n- **Obligation to address all legal arguments**: Requer que o tribunal considere e responda a todos os argumentos legais pertinentes apresentados no caso.\n\n- **Obligation to ground decision in identified ratio decidendi**: Exige que as decisões sejam fundamentadas em princípios jurídicos corretos e atualizados, refletindo a razão de decidir do tribunal.\n\n- **Constitutional obligation to state reasons for decisions**: Impõe a necessidade de justificar claramente as razões pelas quais uma decisão foi tomada, garantindo transparência e compreensão.\n\n- **Right of access to justice and judicial review**: Assegura que os cidadãos tenham acesso a um julgamento justo e possam buscar revisão de decisões injustas ou incorretas.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO tribunal fez uma escolha errada ao basear sua decisão em regras antigas que já não são mais válidas. Eles usaram uma orientação do passado, a OJ 394, que foi substituída por novas regras, a Súmula 428, e isso não foi mencionado na decisão. Isso é importante porque as regras mudam para garantir justiça e precisão nas decisões judiciais.\n\nO tribunal tem a obrigação de explicar claramente por que tomou uma determinada decisão e como ela afeta você, considerando todas as regras atuais. Eles também devem responder a todos os argumentos legais apresentados no caso. Ao não fazer isso, o tribunal pode ter cometido um erro que poderia levar a resultados injustos.\n\nEm resumo, é importante que as decisões judiciais sejam baseadas nas regras corretas e atualizadas para garantir que todos tenham acesso à justiça de forma justa e clara.",
+  "tokens_in": 519,
+  "tokens_out": 1100,
+  "latency_ms": 31953,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

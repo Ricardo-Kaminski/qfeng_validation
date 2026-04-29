@@ -1,0 +1,26 @@
+{
+  "sha256": "b01d983b2b877d400f28a775a67876559e432ce5285e17b2f6e5b76dad690d25",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T06:39:58Z",
+  "prompt_sha": "ef87895aa2073a8dab104ed3b64c35ebfd6ccfac066ee3d352b7e193e48dee36",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG analisou o caso e chegou à conclusão de que houve uma violação (VIOLACAO) dos direitos do empregado. Isso ocorreu porque a decisão do TRT-2ª Região não apresentou fundamentação adequada, conforme estabelece o Código de Processo Civil (CPC), Art. 489, §1°, VI.\n\nA justificativa para essa conclusão está nos predicados soberanos ativos do sistema Q-FENG. Em particular, a obrigação de o julgador fundamentar suas decisões é fundamental no processo jurídico brasileiro. A falta de identificação de jurisprudência específica (como número de OJ, Súmula ou acórdão) e a afirmação genérica de que \"a jurisprudência é pacífica nesse sentido\" violam essas obrigações.\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: Essa obrigação refere-se à necessidade de o julgador explicar as consequências práticas da decisão tomada, afetando diretamente os direitos dos envolvidos. Nesse caso, a falta de fundamentação adequada impede que sejam identificadas essas consequências.\n\n- **sovereign(prohibition_of_generic_precedent_citation)**: Esse predicado proíbe o julgador de citar precedentes jurídicos de forma genérica sem especificar os detalhes relevantes. A decisão do TRT-2ª Região viola essa regra ao afirmar a existência de jurisprudência consolidada sem fornecer nenhuma referência específica.\n\n- **sovereign(obligation_to_address_all_legal_arguments)**: A obrigação de o julgador abordar todos os argumentos legais é fundamental para garantir que as decisões sejam justas e imparciais. Nesse caso, a decisão não considerou adequadamente a falta de fundamentação.\n\n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A necessidade de o julgador basear sua decisão em um ratio decidendi específico (razão da decisão) é crucial para garantir que as decisões sejam coerentes e justas. A decisão do TRT-2ª Região não identificou nenhum precedente específico.\n\n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: Essa obrigação está relacionada à necessidade de o julgador fornecer razões para suas decisões, em conformidade com a Constituição. A falta de fundamentação adequada viola essa obrigação.\n\n- **sovereign(right_of_access_to_justice_and_judicial_review)**: O direito ao acesso à justiça e à revisão judicial é fundamental no sistema jurídico brasileiro. A decisão do TRT-2ª Região, ao não fornecer fundamentação adequada, limita esse direito.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nA decisão do tribunal sobre o caso de um bancário foi que ele manteve a justiça da causa, mas isso foi feito sem explicar bem por quê. O sistema Q-FENG decidiu que houve uma violação porque a decisão não explica as razões para ter mantido a justiça da causa. Isso é importante porque as pessoas têm o direito de saber por que as decisões são tomadas e como elas afetam seus direitos.\n\nEm resumo, a decisão do tribunal foi considerada injusta porque não explicou bem por quê, o que viola os direitos das pessoas em ter acesso à justiça e ter suas decisões fundamentadas.",
+  "tokens_in": 549,
+  "tokens_out": 857,
+  "latency_ms": 14327,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

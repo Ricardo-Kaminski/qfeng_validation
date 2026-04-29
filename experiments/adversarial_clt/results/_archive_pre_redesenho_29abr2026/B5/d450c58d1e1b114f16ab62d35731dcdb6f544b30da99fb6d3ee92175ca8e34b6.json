@@ -1,0 +1,43 @@
+{
+  "sha256": "d450c58d1e1b114f16ab62d35731dcdb6f544b30da99fb6d3ee92175ca8e34b6",
+  "braco": "B5",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-009",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T14:10:51Z",
+  "prompt_sha": "ea9dbad799eaa67c2819716716a19634d7994619b3f06f88dbfbab9f1006bb52",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO motor de inferência Q-FENG classificou o caso como **BLOCK** (CIRCUIT_BREAKER) devido a uma **fricção ontológica θ de 127,81°**, que excede o limiar de 120° para a supressão de ação. Essa fricção reflete uma **colisão direta entre os predicados soberanos ativos** (que representam normas jurídicas inquestionáveis) e a **ação da empresa** (aplicar o banco de horas aos administrativos sem a devida legitimação sindical).  \n\nOs predicados **sovereign(semester_hour_bank_requires_cct_or_act)** e **sovereign(invalidity_of_clause_suppressing_overtime_payment)** indicam que o banco de horas só é válido se formalizado em CCT ou ACT (Acordo Coletivo de Trabalho), e que cláusulas que suprimem direitos de horas extras são inválidas. A empresa, ao aplicar o banco de horas aos administrativos **sem a participação do sindicato representativo dessa categoria**, viola essas normas.  \n\nAlém disso, os predicados **sovereign(maximum_weekly_working_hours_44h)** e **sovereign(overtime_minimum_additional_50pct)** reforçam que a legislação trabalhista brasileira exige limites claros para jornada e remuneração de horas extras, que não podem ser alterados por acordos que não respeitem a representatividade sindical. A fricção θ reflete a **incompatibilidade entre a ação da empresa e esses direitos fundamentais**, levando ao regime de supressão de ação (BLOCK).  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(semester_hour_bank_requires_cct_or_act)**: O banco de horas só é válido se formalizado em um **CCT (Convenção Coletiva de Trabalho)** ou **ACT (Acordo Coletivo de Trabalho)**, que devem ser firmados com a **representação sindical legítima** da categoria.  \n- **sovereign(invalidity_of_clause_suppressing_overtime_payment)**: Cláusulas que **suprimem ou reduzam a remuneração de horas extras** são **inválidas** por violar a **Lei 605/1949** e a **Consolidação das Leis do Trabalho (CLT)**.  \n- **sovereign(weekly_hour_compensation_requires_written_agreement)**: A compensação de horas extras por banco de horas exige **acordo escrito** entre empregador e empregado, conforme **art. 227 da CLT**.  \n- **sovereign(prohibition_negotiation_reducing_overtime_additional)**: É **proibido** negociar reduções na remuneração de horas extras, conforme **art. 7º, XVII da Constituição Federal**.  \n- **sovereign(overtime_minimum_additional_50pct)**: A remuneração de horas extras deve ser de **pelo menos 50% a mais** que a hora normal, conforme **art. 59 da CLT**.  \n- **sovereign(maximum_weekly_working_hours_44h)**: A jornada semanal máxima é de **44 horas**, conforme **art. 58 da CLT**.  \n- **sovereign(maximum_daily_working_hours_8h)**: A jornada diária máxima é de **8 horas**, conforme **art. 58 da CLT**.  \n- **elastic(hour_bank_without_cct_max_6_months)**: Se o banco de horas for aplicado sem CCT/ACT, **válida por no máximo 6 meses**, conforme **art. 227, § 3º da CLT**.  \n\n---\n\n### 3. **INTERPRETAÇÃO DO REGIME**  \nO regime **CIRCUIT_BREAKER** (supressão de ação) significa que **não há margem para negociação ou escalonamento humano** (HITL), pois a fricção ontológica θ (127,81°) indica uma **colisão direta entre a ação da empresa e normas jurídicas inquestionáveis**. O sistema Q-FENG **recomenda a supressão imediata da ação** (VIOLACAO) porque:  \n- A empresa **viola a representatividade sindical** ao aplicar o banco de horas aos administrativos sem o CCT/ACT da categoria.  \n- A **ausência de acordo escrito** (predicado **sovereign(weekly_hour_compensation_requires_written_agreement)**) e a **supressão de direitos de horas extras** (predicado **sovereign(invalidity_of_clause_suppressing_overtime_payment)**) são **ilegais**.  \n- A probabilidade de ação (Born Rule: 0,3869) é **baixa**, indicando que a **violação é clara e não pode ser mitigada** por negociação ou mediação.  \n\n---\n\n### 4. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa **não pode aplicar o banco de horas aos funcionários administrativos** porque:  \n1. **O sindicato dos administrativos não assinou o CCT** (acordo coletivo), então o banco de horas **não é válido** para eles.  \n2. A legislação brasileira **proíbe** que empresas usem acordos que **reduzam direitos de horas extras** ou **excedam a jornada de 44 horas por semana**.  \n3. O sistema Q-FENG **identificou uma violação grave**, então **recomenda que a empresa pare de aplicar o banco de horas** aos administrativos e **negocie novamente com o sindicato correto**.  \n\nEm resumo: **a empresa está errada**, e a lei **não permite que ela continue com essa prática**.",
+  "tokens_in": 790,
+  "tokens_out": 1933,
+  "latency_ms": 61265,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": "",
+  "t_clingo_ms": 46,
+  "t_llm_ms": 61218,
+  "t_psi_build_ms": 0,
+  "t_theta_compute_ms": 0,
+  "qfeng_psi_n_dim": 2,
+  "qfeng_psi_s_dim": 2,
+  "qfeng_theta_rad": 2.2307694050963036,
+  "qfeng_theta_deg": 127.81367197892763,
+  "qfeng_theta_eff_rad": 2.2307694050963036,
+  "qfeng_theta_eff_deg": 127.81367197892763,
+  "qfeng_regime": "BLOCK",
+  "qfeng_p_action": 0.3869044161814975,
+  "qfeng_cos_theta": -0.6130955838185024,
+  "qfeng_cb_threshold_deg": 119.99999999999999
+}

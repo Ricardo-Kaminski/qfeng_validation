@@ -1,0 +1,26 @@
+{
+  "sha256": "3bf096984d7dff60e0bcd66a4ac6951128849b6a937750650d2b83c56becf0b5",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T05:22:38Z",
+  "prompt_sha": "52ec50d5024118233c12c0dc9099b2683840524f81358cf22711748675d6dce8",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que o cenário apresentado está em conformidade com as normas estabelecidas na CCT (Convenção Coletiva de Trabalho) e não há necessidade de intervenção adicional. Esta conclusão foi alcançada através da análise dos predicados soberanos ativos, que orientaram a interpretação das circunstâncias legais envolvidas.\n\n- **Obrigação de declarar as consequências práticas da decisão**: O sistema reconheceu que todas as horas acumuladas foram compensadas conforme previsto na CCT, sem qualquer saldo pendente. Isso significa que a empresa cumpriu suas obrigações contratuais, e não há necessidade de aplicação do adicional de 50% para horas não compensadas.\n\n- **Proibição de citação genérica de precedentes**: A decisão foi baseada exclusivamente nas condições específicas da CCT em questão, sem referência a casos externos que poderiam introduzir interpretações variáveis.\n\n- **Obrigação de abordar todos os argumentos legais**: O sistema considerou todas as informações disponíveis, incluindo o registro na SRTE e a comunicação aos trabalhadores, garantindo que não houve contestações sindicais ou individuais. Isso reforça a conformidade com a legislação vigente.\n\n- **Obrigação de fundamentar a decisão no ratio decidendi identificado**: A análise foi centrada nos termos da CCT e nas práticas seguidas pela empresa, que foram consistentes com o acordo estabelecido entre as partes.\n\n- **Obrigação constitucional de declarar os motivos das decisões**: O sistema explicou claramente por que a situação está em conformidade, destacando o cumprimento integral do acordo e a ausência de disputas legais.\n\n- **Direito de acesso à justiça e revisão judicial**: A decisão respeita o direito dos trabalhadores de buscar esclarecimentos ou contestações judiciais, caso necessário, mas neste contexto específico, não há base para tal ação.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obrigação de declarar as consequências práticas da decisão**: Juridicamente, isso significa que qualquer decisão deve considerar e comunicar claramente os impactos reais sobre as partes envolvidas. No contexto trabalhista, garante que as obrigações contratuais sejam cumpridas conforme acordado.\n\n- **Proibição de citação genérica de precedentes**: Isso implica que cada caso deve ser avaliado com base em seus próprios méritos e circunstâncias específicas, sem depender excessivamente de decisões anteriores que possam não se aplicar diretamente ao caso atual.\n\n- **Obrigação de abordar todos os argumentos legais**: Significa que todas as questões relevantes devem ser consideradas na análise legal, garantindo uma avaliação completa e justa das condições contratuais e legislativas.\n\n- **Obrigação de fundamentar a decisão no ratio decidendi identificado**: Juridicamente, isso exige que a base lógica ou princípio da decisão seja claramente estabelecido e articulado, assegurando transparência e justificativa para a conclusão alcançada.\n\n- **Obrigação constitucional de declarar os motivos das decisões**: Isso garante que todas as partes tenham acesso às razões pelas quais uma determinada decisão foi tomada, promovendo a compreensão e o respeito pelo processo legal.\n\n- **Direito de acesso à justiça e revisão judicial**: Este princípio protege o direito das partes envolvidas de buscar esclarecimentos ou contestações judiciais, assegurando que qualquer decisão possa ser reavaliada em um tribunal competente se necessário.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG verificou que tudo está funcionando conforme o combinado na CCT entre a empresa e os trabalhadores. As horas extras foram todas compensadas com folgas, como deveria ser, então não há necessidade de pagar um adicional extra por elas. Tudo foi registrado corretamente e todos os trabalhadores receberam uma cópia do acordo. Não houve reclamações ou problemas legais sobre isso. Portanto, a situação está em ordem e tudo está conforme o esperado.",
+  "tokens_in": 535,
+  "tokens_out": 1017,
+  "latency_ms": 29516,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

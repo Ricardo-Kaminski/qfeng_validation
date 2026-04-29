@@ -1,0 +1,26 @@
+{
+  "sha256": "0e4db388381af6f611def58272d65ceb0571bb1e203264caa39c39f1e24b7247",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-009",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:44:57Z",
+  "prompt_sha": "bcff85d452bf2f58ac15e7495135889c6ad856a88318d21e3e0178db0d0f040c",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG chegou à decisão de violação por meio da análise dos predicados soberanos ativos. A sentença de primeiro grau foi mantida sem acréscimo de fundamentação, o que é incompatível com a obrigação do magistrado de fundamentar suas decisões (obligation_to_state_practical_consequences_of_decision). Além disso, a sentença original citou um precedente que foi posteriormente superado pelo TST, mas o acórdão do TRT ignorou essa questão (prohibition_of_generic_precedent_citation).\n\nO sistema também considerou que a decisão não abordou todos os argumentos legais relevantes (obligation_to_address_all_legal_arguments) e não fundamentou sua decisão nos critérios específicos da sentença de origem (obligation_to_ground_decision_in_identified_ratio_decidendi). A Constituição brasileira estabelece a obrigação do Estado em fornecer razões para suas decisões (constitutional_obligation_to_state_reasons_for_decisions), o que não foi cumprido nesse caso. Finalmente, a sentença violou o direito de acesso à justiça e revisão judicial (right_of_access_to_justice_and_judicial_review) ao não fornecer fundamentação adequada.\n\n**2. PREDICADOS ATIVADOS**\n\n- **obligation_to_state_practical_consequences_of_decision**: O magistrado tem a obrigação de explicar as consequências práticas da sua decisão, o que inclui como essa decisão afetará os direitos e deveres das partes envolvidas.\n\n- **prohibition_of_generic_precedent_citation**: É proibido citar precedentes jurídicos genéricos sem fundamentação específica. A citação de precedentes deve ser feita com base em uma análise da relação entre o caso concreto e a jurisprudência existente.\n\n- **obligation_to_address_all_legal_arguments**: O magistrado tem a obrigação de abordar todos os argumentos legais relevantes apresentados pelas partes, não apenas aqueles que forem favoráveis à sua decisão.\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: A decisão deve ser fundamentada nos critérios específicos da sentença de origem ou em outros precedentes diretamente aplicáveis ao caso concreto.\n\n- **constitutional_obligation_to_state_reasons_for_decisions**: A Constituição brasileira estabelece a obrigação do Estado em fornecer razões para suas decisões, garantindo a transparência e a justificativa das escolhas feitas pelos órgãos judiciários.\n\n- **right_of_access_to_justice_and_judicial_review**: O direito de acesso à justiça e revisão judicial é fundamental. A sentença deve fornecer fundamentação suficiente para que as partes possam entender a decisão e, se necessário, recorrer.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nO sistema Q-FENG decidiu que a sentença do magistrado foi errada porque ele não explicou como sua decisão afetaria as partes envolvidas (consequências práticas). Além disso, o magistrado citou um precedente jurídico sem dizer por quê, o que é proibido. Ele também não discutiu todos os pontos legais importantes e não explicou como sua decisão foi baseada nos critérios certos. A Constituição diz que as decisões devem ter razões claras para serem justas e transparentes. E, finalmente, a sentença violou o direito das partes de entender por quê ela tomou aquela decisão e se recorrer se necessário.\n\nEssa decisão é como um aviso dizendo que a sentença do magistrado não foi feita corretamente e precisa ser revisada.",
+  "tokens_in": 517,
+  "tokens_out": 869,
+  "latency_ms": 14719,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

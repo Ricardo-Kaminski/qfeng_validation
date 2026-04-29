@@ -1,0 +1,26 @@
+{
+  "sha256": "509ca334f99c9908f362973e349307d173d7ff4f39bf1bbeffae319d9d6172d9",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CTRL-NEG-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T04:03:58Z",
+  "prompt_sha": "dd5d898abce8ca32e525829e1af5dc971f03368ce118747a7507c27bd4ef1684",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a **empresa agiu em conformidade com as normas trabalhistas brasileiras**, com base nos predicados soberanos ativos. A análise jurídica revelou que:  \n- **Todas as verbas rescisórias foram pagas no prazo legal** (10 dias), incluindo o saldo de salário, aviso prévio indenizado proporcional (33 dias), férias proporcionais com 1/3, 13º proporcional, FGTS com multa de 40% e seguro-desemprego habilitado.  \n- **Não há irregularidades identificáveis**, e o trabalhador assinou o recibo na presença do sindicato, cumprindo o requisito de formalização da rescisão.  \n- **A decisão está fundamentada nos princípios constitucionais de transparência e razão jurídica**, garantindo ao trabalhador o direito de acesso à justiça e revisão judicial, mesmo que não haja ações pendentes.  \n- **Não há necessidade de citar precedentes genéricos**, pois a conformidade está claramente estabelecida pelos fatos e pela legislação aplicável.  \n\n### 2. **PREDICADOS ATIVADOS**  \n**a) *sovereign(obligation_to_state_practical_consequences_of_decision)*:**  \nO sistema deve explicitar as consequências práticas da decisão (ex.: pagamento das verbas, formalização da rescisão), garantindo que todas as partes compreendam os efeitos jurídicos.  \n\n**b) *sovereign(prohibition_of_generic_precedent_citation)*:**  \nNão é permitido citar precedentes genéricos (ex.: \"como em outros casos\") para fundamentar a decisão. A conformidade deve ser baseada em fatos específicos e normas aplicáveis.  \n\n**c) *sovereign(obligation_to_address_all_legal_arguments)*:**  \nO sistema deve considerar todos os argumentos jurídicos relevantes (ex.: direito à rescisão sem justa causa, pagamento das verbas, formalização do recibo), mesmo que não haja contestação.  \n\n**d) *sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)*:**  \nA decisão deve ser fundamentada em **ratio decidendi** (motivo da decisão), como a cumprimento das obrigações trabalhistas e a ausência de irregularidades.  \n\n**e) *sovereign(constitutional_obligation_to_state_reasons_for_decisions)*:**  \nA Constituição exige que a decisão seja claramente justificada (ex.: \"a empresa cumpriu todas as obrigações legais, e o trabalhador não tem direito a indenização adicional\").  \n\n**f) *sovereign(right_of_access_to_justice_and_judicial_review)*:**  \nO trabalhador tem direito a contestar a decisão judicialmente, mesmo que a empresa esteja em conformidade, garantindo a revisão de eventuais equívocos.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa **fez tudo certo** ao demitir o trabalhador:  \n- Pagou **tudo que deveria** (salário, férias, 13º, FGTS com multa, seguro-desemprego) dentro do prazo.  \n- O trabalhador **assinou o recibo** com o sindicato, o que é obrigatório para comprovar que recebeu o dinheiro.  \n- **Não há problemas** para a empresa ou para o trabalhador, porque a lei foi respeitada.  \n- Se o trabalhador quiser, pode **contestar judicialmente** a decisão, mas, por enquanto, não há motivos para isso.  \n- A empresa **não precisa pagar mais nada**, pois cumpriu todas as regras.  \n\n**Resumo:** A empresa agiu corretamente, e o trabalhador não tem direito a reivindicar nada adicional.",
+  "tokens_in": 543,
+  "tokens_out": 1303,
+  "latency_ms": 41077,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

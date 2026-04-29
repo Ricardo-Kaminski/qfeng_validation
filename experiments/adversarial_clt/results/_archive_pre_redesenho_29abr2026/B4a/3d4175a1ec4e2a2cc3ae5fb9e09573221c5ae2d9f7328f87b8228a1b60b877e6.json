@@ -1,0 +1,27 @@
+{
+  "sha256": "3d4175a1ec4e2a2cc3ae5fb9e09573221c5ae2d9f7328f87b8228a1b60b877e6",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T07:03:03Z",
+  "prompt_sha": "b97050e315c231d6b6e5297c054469bac0a4b1a90193f416b899771d6bf0a3de",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG determinou que houve uma violação das regras trabalhistas. Isso ocorreu porque a empresa permitiu que o operário acumulasse 200 horas de banco de horas, ultrapassando o limite de 80 horas previsto na Convenção Coletiva de Trabalho (CCT). A decisão do Q-FENG está fundamentada nos predicados soberanos ativos, que estabelecem princípios básicos da legislação trabalhista.\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\n- **sovereign(recognition_of_collective_bargaining)**: Este predicado reconhece a importância do direito de negociação coletiva entre empregadores e sindicatos, como previsto na Constituição Federal brasileira. A decisão do Q-FENG está alinhada com este princípio ao considerar que o acordo sobre banco de horas deve ser negociado e acordado entre as partes envolvidas, respeitando os limites estabelecidos pela CCT.\n\n- **sovereign(maximum_weekly_working_hours_44h)**: Este predicado estabelece a jornada máxima semanal de trabalho como 44 horas. Embora não seja diretamente aplicável ao caso do banco de horas, ele reforça a importância da regulamentação das condições de trabalho para evitar excessos.\n\n- **sovereign(maximum_daily_working_hours_8h)**: Este predicado estabelece a jornada máxima diária de trabalho como 8 horas. Similar ao anterior, não é diretamente aplicável mas reforça a importância da regulamentação das condições de trabalho.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nA decisão do Q-FENG significa que a empresa fez algo errado. Ela permitiu que o operário trabalhasse mais horas do que previsto, sem acordo com o sindicato. Isso é contra as regras de trabalho e pode prejudicar os direitos dos trabalhadores.\n\nImagine se você estivesse trabalhando em um lugar onde as regras fossem feitas apenas para satisfazer a empresa, sem respeitar os acordos entre empregados e sindicato. Isso não é justo e pode levar a problemas mais graves no futuro.\n\nA decisão do Q-FENG está preocupada com a proteção dos direitos trabalhistas e o respeito às regras estabelecidas para garantir condições de trabalho seguras e justas para todos os empregados.",
+  "tokens_in": 513,
+  "tokens_out": 580,
+  "latency_ms": 9905,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

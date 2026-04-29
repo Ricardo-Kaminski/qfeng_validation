@@ -1,0 +1,26 @@
+{
+  "sha256": "8e215ba8e9074b14256aadea6d8d2fd8ff575a06d16e8f4252fa443d310bf79f",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-013",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:48:21Z",
+  "prompt_sha": "dc2f04dfd84b48a2d0444f231abda0be30bb68d5e7946f908e8847d860d5e8a4",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após analisar o acórdão do TST e os predicados ativos, chegou à decisão de CONFORMIDADE. Isso significa que o sistema considera que a decisão tomada pelo motor simbólico Q-FENG deve ser mantida.\n\nA narrativa da decisão é baseada nos seguintes predicados soberanos ativos:\n\n* `obligation_to_state_practical_consequences_of_decision`: O sistema tem a obrigação de informar as consequências práticas da decisão.\n* `prohibition_of_generic_precedent_citation`: O sistema não pode citar precedentes genéricos, mas sim deve fundamentar a decisão em uma ratio decidendi específica.\n* `obligation_to_address_all_legal_arguments`: O sistema tem a obrigação de abordar todos os argumentos legais relevantes.\n* `obligation_to_ground_decision_in_identified_ratio_decidendi`: O sistema deve fundamentar a decisão na ratio decidendi identificada no acórdão do TST.\n* `constitutional_obligation_to_state_reasons_for_decisions`: O sistema tem a obrigação constitucional de informar as razões pelas quais tomou a decisão.\n* `right_of_access_to_justice_and_judicial_review`: O sistema deve respeitar o direito de acesso à justiça e ao recurso judicial.\n\nEsses predicados ativos indicam que o sistema Q-FENG considera que a decisão tomada é fundamentada em uma ratio decidendi específica, que é inaplicável ao caso concreto, e que os argumentos legais relevantes foram abordados.\n\n**2. PREDICADOS ATIVADOS**\n\nAqui estão as explicações dos predicados soberanos ativos:\n\n* `obligation_to_state_practical_consequences_of_decision`: O sistema tem a obrigação de informar as consequências práticas da decisão, ou seja, como a decisão afetará os trabalhadores e o empregador.\n* `prohibition_of_generic_precedent_citation`: O sistema não pode citar precedentes genéricos, mas sim deve fundamentar a decisão em uma ratio decidendi específica. Isso significa que o sistema não pode simplesmente aplicar um precedente sem considerar as diferenças entre os casos.\n* `obligation_to_address_all_legal_arguments`: O sistema tem a obrigação de abordar todos os argumentos legais relevantes, ou seja, deve considerar todas as leis e regulamentações que sejam aplicáveis ao caso.\n* `obligation_to_ground_decision_in_identified_ratio_decidendi`: O sistema deve fundamentar a decisão na ratio decidendi identificada no acórdão do TST. Isso significa que o sistema deve explicar por que a ratio decidendi é inaplicável ao caso concreto.\n* `constitutional_obligation_to_state_reasons_for_decisions`: O sistema tem a obrigação constitucional de informar as razões pelas quais tomou a decisão. Isso significa que o sistema deve explicar por que a decisão foi tomada e como ela se relaciona com os princípios constitucionais.\n* `right_of_access_to_justice_and_judicial_review`: O sistema deve respeitar o direito de acesso à justiça e ao recurso judicial. Isso significa que o sistema deve garantir que a decisão seja fundamentada em uma ratio decidendi específica e que os trabalhadores tenham o direito de recorrer da decisão.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nA decisão do sistema Q-FENG significa que a decisão tomada pelo motor simbólico não pode ser aplicada ao caso concreto porque a ratio decidendi identificada no acórdão do TST é inaplicável. Isso significa que os trabalhadores não podem ter seus direitos violados por causa de uma decisão que não se aplica à situação específica.\n\nEm linguagem simples, a decisão pode ser explicada da seguinte forma:\n\n\"O sistema Q-FENG decidiu que a decisão tomada pelo motor simbólico não pode ser aplicada ao caso concreto porque a ratio decidendi identificada no acórdão do TST é inaplicável. Isso significa que os trabalhadores têm o direito de ter seus direitos respeitados e que a decisão tomada pelo motor simbólico não pode ser aplicada à situação específica.\"",
+  "tokens_in": 591,
+  "tokens_out": 1001,
+  "latency_ms": 16780,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,26 @@
+{
+  "sha256": "e08acd97cc168ec53d15f3a2bca2189c95cf340b6d1a03992a41907c7fcf6cd2",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T04:16:36Z",
+  "prompt_sha": "ef87895aa2073a8dab104ed3b64c35ebfd6ccfac066ee3d352b7e193e48dee36",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação na forma como o acórdão do TRT-2ª Região foi fundamentado. A decisão manteve a justa causa aplicada ao bancário com base em \"orientação jurisprudencial consolidada\" sobre uso indevido de comunicações eletrônicas, sem especificar qualquer número de OJ (Orientações Jurisprudenciais), Súmula ou acórdão. Isso levou à ativação dos predicados soberanos que exigem uma fundamentação adequada e detalhada nas decisões judiciais.\n\nOs predicados soberanos ativos indicam que a decisão viola princípios essenciais do direito processual, como a obrigação de explicitar as consequências práticas da decisão (obligation_to_state_practical_consequences_of_decision), evitar referências genéricas a precedentes sem identificação específica (prohibition_of_generic_precedent_citation), abordar todos os argumentos legais apresentados pelas partes (obligation_to_address_all_legal_arguments), fundamentar decisões em um ratio decidendi identificado e claro (obligation_to_ground_decision_in_identified_ratio_decidendi), além de cumprir a obrigação constitucional de explicitar as razões das decisões (constitutional_obligation_to_state_reasons_for_decisions). Além disso, respeita-se o direito do trabalhador ao acesso à justiça e à revisão judicial (right_of_access_to_justice_and_judicial_review).\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obligation to State Practical Consequences of Decision**: Juridicamente, significa que a decisão deve explicar claramente quais são as consequências práticas para o empregado, garantindo transparência e compreensão sobre como a decisão afeta diretamente sua situação.\n\n- **Prohibition of Generic Precedent Citation**: Este predicado exige que qualquer referência a precedentes judiciais seja específica e identificável. Citá-los de forma genérica, sem indicar números ou documentos específicos, não é suficiente para fundamentar uma decisão judicial.\n\n- **Obligation to Address All Legal Arguments**: Significa que o tribunal deve considerar e responder a todos os argumentos legais apresentados pelas partes envolvidas no processo. Ignorar qualquer argumento pode ser visto como uma falha na análise completa do caso.\n\n- **Obligation to Ground Decision in Identified Ratio Decidendi**: Requer que a decisão seja baseada em um motivo de julgamento claro e identificado, permitindo que as partes compreendam o raciocínio jurídico que levou à conclusão final.\n\n- **Constitutional Obligation to State Reasons for Decisions**: Este princípio estabelece que é necessário explicitar as razões pelas quais uma decisão foi tomada, garantindo que ela seja compreensível e justificável perante a sociedade.\n\n- **Right of Access to Justice and Judicial Review**: Garante que o empregado tenha acesso à justiça de forma efetiva e possa buscar revisão judicial se considerar que sua causa não foi adequadamente julgada.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG identificou um problema na maneira como o tribunal decidiu manter a punição ao bancário. O tribunal disse que seguiu uma regra já estabelecida sobre o uso indevido de e-mails, mas não explicou qual era essa regra específica nem mostrou por que ela se aplica exatamente ao caso do bancário.\n\nIsso é importante porque as decisões judiciais precisam ser claras e justificadas. O tribunal deve dizer claramente quais são as consequências da sua decisão, responder a todos os argumentos apresentados pelo empregado e explicar por que escolheu decidir dessa maneira. Além disso, se o tribunal menciona regras ou casos anteriores, precisa indicar exatamente qual é essa regra ou caso.\n\nO sistema Q-FENG concluiu que a decisão do tribunal não seguiu esses princípios, o que pode ser um problema para garantir que o empregado tenha acesso à justiça e possa entender por que foi punido dessa forma.",
+  "tokens_in": 552,
+  "tokens_out": 985,
+  "latency_ms": 28546,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,26 @@
+{
+  "sha256": "3c1494c8243aef4a31bdbb19740bdd5e94c456d4f922f00221e06c14df7a61e3",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:41:02Z",
+  "prompt_sha": "b5e3f649b9c3587da9c94d6c599ffd204326d48b2428d997b185065a331a8353",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após analisar o caso e os predicados ativos, decidiu que houve violação no processo de julgamento. Isso ocorreu porque a decisão do TRT transcreveu integralmente a ementa do acórdão do TST sem fazer qualquer análise de compatibilidade entre os fatos do precedente e os fatos do caso concreto em julgamento.\n\nEssa decisão está fundamentada nos predicados soberanos ativos, que estabelecem as obrigações e direitos dos órgãos judiciários. Em especial, a obrigação de demonstrar a aplicabilidade da decisão ao caso concreto (obligation_to_state_practical_consequences_of_decision), a proibição de citação de precedentes genéricos (prohibition_of_generic_precedent_citation) e a necessidade de abordar todos os argumentos legais apresentados (obligation_to_address_all_legal_arguments).\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O sistema judiciário tem a obrigação de explicar as consequências práticas da decisão tomada, ou seja, como essa decisão afetará os fatos do caso concreto. Nesse contexto, o TRT não cumpriu com essa obrigação ao simplesmente transcrever a ementa do acórdão sem análise.\n  \n- **sovereign(prohibition_of_generic_precedent_citation)**: Há uma proibição de citar precedentes genéricos sem demonstrar sua aplicabilidade específica ao caso concreto. A decisão do TRT, ao transcrever a ementa sem cotejo fático, viola essa regra.\n\n- **sovereign(obligation_to_address_all_legal_arguments)**: O sistema judiciário tem a obrigação de abordar todos os argumentos legais apresentados pelas partes. Nesse caso, o TRT não demonstrou ter considerado todos os aspectos legais relevantes ao caso.\n\n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão deve estar fundamentada em uma razão de decidir específica (ratio decidendi), que é a parte do acórdão que estabelece o precedente. Aqui, a transcrição sem análise não permite identificar claramente qual é essa razão.\n\n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: Há uma obrigação constitucional de explicitar as razões pelas quais as decisões são tomadas. A transcrição sem cotejo fático viola essa exigência.\n\n- **sovereign(right_of_access_to_justice_and_judicial_review)**: O sistema judiciário tem o dever de garantir que os processos sejam conduzidos de forma a respeitar o direito das partes ao acesso à justiça e ao recurso judicial. A decisão do TRT, ao não realizar análise fática, pode ser vista como uma violação desse direito.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nO sistema Q-FENG decidiu que houve um problema no processo de julgamento. Isso aconteceu porque a decisão do Tribunal Regional do Trabalho (TRT) simplesmente copiou a ementa de outro caso sem verificar se as situações eram iguais. A lei exige que os juízes mostrem como a decisão vai afetar o caso específico e que não apenas citem precedentes genéricos.\n\nEssa falta de análise pode ser considerada uma violação da lei, pois ela não permite às partes entender por que a decisão foi tomada. Além disso, isso pode prejudicar o acesso à justiça, pois as pessoas precisam saber como os processos são conduzidos para ter confiança no sistema.\n\nEssa decisão é baseada em regras legais que estabelecem as responsabilidades dos órgãos judiciários. Elas incluem a necessidade de explicar as consequências da decisão, evitar citar precedentes genéricos e abordar todos os argumentos legais apresentados.",
+  "tokens_in": 535,
+  "tokens_out": 955,
+  "latency_ms": 16172,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

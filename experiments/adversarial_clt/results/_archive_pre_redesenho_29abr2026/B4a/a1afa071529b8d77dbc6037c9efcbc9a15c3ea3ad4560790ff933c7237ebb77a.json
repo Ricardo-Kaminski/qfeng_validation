@@ -1,0 +1,29 @@
+{
+  "sha256": "a1afa071529b8d77dbc6037c9efcbc9a15c3ea3ad4560790ff933c7237ebb77a",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T04:40:10Z",
+  "prompt_sha": "e49d5e5d7663742fd00bd3c94033461e30c834afe32a9924772ec284ff0e579e",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que há uma violação das normas trabalhistas no cenário apresentado. A decisão foi baseada na análise dos predicados soberanos ativos, que representam princípios e regras de ordem pública inegociáveis no direito do trabalho brasileiro.\n\nO principal argumento para a determinação de violação é o limite imposto pela Súmula TST 85, V, que estabelece que o prazo máximo para compensação de banco de horas não pode exceder um ano. Este limite é considerado uma norma de ordem pública e, portanto, inegociável pelas partes coletivas (empresas e sindicatos). A CCT do setor hoteleiro estabeleceu um prazo de 14 meses para a compensação das horas acumuladas no banco de horas, o que contraria essa norma.\n\nOs outros predicados soberanos ativos reforçam princípios fundamentais da legislação trabalhista, como a necessidade de acordo escrito para compensação semanal de horas (sovereign(weekly_hour_compensation_requires_written_agreement)), a proibição de negociação que reduza o pagamento de horas extras adicionais (sovereign(prohibition_negotiation_reducing_overtime_additional)), e as garantias mínimas de remuneração para horas extras (sovereign(overtime_minimum_additional_50pct)). Além disso, são estabelecidos limites máximos para a jornada semanal (44h) e diária (8h), que devem ser respeitados.\n\nO predicado elástico ativo sugere uma flexibilidade permitida pela legislação para bancos de horas sem CCT, mas apenas até 6 meses, o que não se aplica ao caso em questão, já que há uma CCT específica no setor hoteleiro.\n\n### 2. PREDICADOS ATIVADOS\n\n- **sovereign(semester_hour_bank_requires_cct_or_act)**: Exige que a instituição de um banco de horas seja formalizada por meio de Convenção Coletiva de Trabalho (CCT) ou Acordo Coletivo de Trabalho (ACT).\n\n- **invalidity_of_clause_suppressing_overtime_payment**: Qualquer cláusula em CCTs ou ACTs que suprima o pagamento de horas extras é considerada inválida, pois viola normas de ordem pública.\n\n- **sovereign(weekly_hour_compensation_requires_written_agreement)**: A compensação semanal de horas deve ser formalizada por meio de um acordo escrito entre empregador e empregado.\n\n- **prohibition_negotiation_reducing_overtime_additional**: Proíbe a negociação coletiva que resulte na redução do pagamento adicional previsto para horas extras, assegurando o mínimo de 50% sobre o salário normal.\n\n- **overtime_minimum_additional_50pct**: Estabelece que o pagamento por horas extras deve ser no mínimo 50% superior ao valor da hora normal de trabalho.\n\n- **maximum_weekly_working_hours_44h**: Define o limite máximo de 44 horas semanais para a jornada de trabalho, conforme a legislação trabalhista brasileira.\n\n- **maximum_daily_working_hours_8h**: Estabelece que a jornada diária máxima não pode exceder 8 horas, salvo exceções previstas em lei.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG decidiu que houve uma violação das regras trabalhistas porque a empresa e o sindicato do setor hoteleiro tentaram estender o tempo para compensar horas extras acumuladas além de um ano, algo que não é permitido por lei. A legislação brasileira diz claramente que esse prazo máximo é de 12 meses (1 ano) e isso não pode ser mudado mesmo se as partes concordarem.\n\nAlém disso, a lei exige que qualquer acordo sobre compensação de horas extras seja feito por escrito e respeite certas regras básicas, como pagar pelo menos 50% a mais pelas horas trabalhadas além do normal. Também há limites para o número de horas que você pode trabalhar em uma semana (44 horas) ou em um dia (8 horas), e esses limites devem ser respeitados.\n\nPortanto, mesmo que haja um acordo entre a empresa e os funcionários, ele não pode violar essas regras fundamentais. No caso do setor hoteleiro, o prazo de 14 meses para compensação das horas extras é considerado ilegal porque excede o limite máximo permitido pela lei.",
+  "tokens_in": 552,
+  "tokens_out": 1058,
+  "latency_ms": 30719,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,26 @@
+{
+  "sha256": "e78622134c8eb2a8f1fc77e9479e4f803c371f4358e37f9dc51fa6f3e309c0b3",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T07:14:44Z",
+  "prompt_sha": "f2939f0e6492edddd924d6caf369ebeb9d70b95b1796bba0e04e7028b5864a9f",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\n\"O sistema Q-FENG analisou o caso e determinou que a decisão seja de CONFORMIDADE com os precedentes estabelecidos pela jurisprudência. Isso significa que as regras e princípios estabelecidos em outros casos semelhantes devem ser aplicados ao caso em julgamento. A decisão é baseada na obrigação do Estado de fazer cumprir as consequências práticas da decisão (obligation_to_state_practical_consequences_of_decision), que é um princípio fundamental do direito trabalhista.\n\nAlém disso, o sistema também considerou a proibição de citação de precedentes genéricos (prohibition_of_generic_precedent_citation), ou seja, não é permitido citar precedentes semelhantes sem demonstrar sua aplicabilidade ao caso concreto. O sistema também verificou se todas as bases legais e jurisprudenciais foram identificadas e verificáveis, o que foi confirmado.\n\nPor fim, o sistema determinou que a decisão seja fundamentada nos princípios constitucionais de acesso à justiça e revisão judicial (right_of_access_to_justice_and_judicial_review), garantindo que a decisão seja justa e equânime.\"\n\n**2. PREDICADOS ATIVADOS**\n\n* **obligation_to_state_practical_consequences_of_decision**: O Estado tem a obrigação de fazer cumprir as consequências práticas da decisão, ou seja, o governo deve garantir que a decisão seja executada e que os direitos dos trabalhadores sejam protegidos.\n* **prohibition_of_generic_precedent_citation**: Não é permitido citar precedentes semelhantes sem demonstrar sua aplicabilidade ao caso concreto. Isso significa que o juiz não pode simplesmente citar um precedente semelhante sem explicar por que ele se aplica ao caso em julgamento.\n* **obligation_to_address_all_legal_arguments**: O Estado tem a obrigação de abordar todos os argumentos legais apresentados no caso, ou seja, o juiz deve considerar todas as razões apresentadas pelas partes e decidir com base nas leis aplicáveis.\n* **obligation_to_ground_decision_in_identified_ratio_decidendi**: A decisão deve ser fundamentada nos princípios constitucionais de acesso à justiça e revisão judicial, garantindo que a decisão seja justa e equânime.\n* **constitutional_obligation_to_state_reasons_for_decisions**: O Estado tem a obrigação de informar as razões pelas quais uma decisão foi tomada, ou seja, o juiz deve explicar por que chegou àquela decisão.\n* **right_of_access_to_justice_and_judicial_review**: O direito ao acesso à justiça e revisão judicial é garantido pela Constituição, o que significa que a decisão deve ser justa e equânime.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\n\"O sistema Q-FENG decidiu que a decisão seja de acordo com as regras estabelecidas em outros casos semelhantes. Isso significa que as leis e princípios aplicados nesses casos devem ser usados para resolver o caso em julgamento.\n\nA decisão é baseada na ideia de que o governo deve garantir que as consequências da decisão sejam cumpridas, ou seja, o governo deve fazer com que a decisão seja executada e os direitos dos trabalhadores sejam protegidos.\n\nAlém disso, o sistema também considerou a importância de abordar todos os argumentos legais apresentados no caso e fundamentar a decisão nos princípios constitucionais de acesso à justiça e revisão judicial.\n\nEm resumo, a decisão é baseada na ideia de que as leis e princípios aplicados em outros casos semelhantes devem ser usados para resolver o caso em julgamento, garantindo que a decisão seja justa e equânime.\"",
+  "tokens_in": 555,
+  "tokens_out": 908,
+  "latency_ms": 15203,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

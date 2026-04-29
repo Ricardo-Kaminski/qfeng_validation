@@ -1,0 +1,27 @@
+{
+  "sha256": "10d3acfe8de9b5e01f53f451f48c4321915ea03dd0e7270f5581d433dad5c06b",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T07:00:04Z",
+  "prompt_sha": "b3a1b193561e82c62b707b08467d6ec5ca8842b372e04bc8dd0182e3993c8b0e",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG chegou à decisão de \"VIOLACAO\" porque identificou que a jornada diária de 10 horas estabelecida pela empresa do setor químico viola o limite constitucional de 8 horas por dia, conforme previsto no Art. 7°, XIII da Constituição Federal de 1988 (CF/88).\n\nEssa decisão foi influenciada pelos predicados soberanos \"maximum_daily_working_hours_8h\" e \"recognition_of_collective_bargaining\", que indicam a existência de um limite diário de trabalho de 8 horas e o reconhecimento da negociação coletiva, respectivamente.\n\nAlém disso, o sistema também considerou os predicados elásticos ativos, mas eles não influenciaram diretamente na decisão final, pois a violação do limite diário de trabalho é um fato claro e independente das negociações coletivas ou da existência de banco de horas.\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\nOs predicados soberanos ativos são:\n\n*   `sovereign(recognition_of_collective_bargaining)`: Esse predicado indica que a empresa reconhece e respeita as negociações coletivas, o que é um direito fundamental dos trabalhadores previsto na Constituição Federal. No entanto, essa condição não afeta diretamente a decisão de violação do limite diário de trabalho.\n*   `sovereign(maximum_weekly_working_hours_44h)`: Esse predicado indica que a empresa tem uma jornada semanal máxima de 44 horas, o que é um direito dos trabalhadores previsto na CLT. No entanto, essa condição não afeta diretamente a decisão de violação do limite diário de trabalho.\n*   `sovereign(maximum_daily_working_hours_8h)`: Esse predicado indica que a empresa tem uma jornada diária máxima de 8 horas, o que é um direito fundamental dos trabalhadores previsto na Constituição Federal. A decisão do sistema Q-FENG foi influenciada por essa condição.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nA empresa estabeleceu uma jornada de trabalho de 10 horas por dia, mas a lei diz que não é permitido trabalhar mais de 8 horas por dia. Isso significa que a empresa está violando a lei e os direitos dos trabalhadores.\n\nA decisão do sistema Q-FENG é simples: a empresa deve respeitar a jornada diária máxima de 8 horas, como previsto na Constituição Federal. Se não for feita nenhuma mudança, a empresa estará violando a lei e os direitos dos trabalhadores.\n\nEspero que isso tenha ajudado!",
+  "tokens_in": 520,
+  "tokens_out": 637,
+  "latency_ms": 10828,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

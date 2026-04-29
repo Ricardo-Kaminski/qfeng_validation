@@ -1,0 +1,29 @@
+{
+  "sha256": "8e8fc6d0e34ecbf4e6ed48f53c9bbd113c4e21d142bb1335d411310b22856b1a",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-008",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T04:44:03Z",
+  "prompt_sha": "85be4e9fc6b0e8305c982455c7b1416641f688c9050ea4b7fedf4fae6b54fd4b",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que há uma violação dos direitos do empregado com base nos predicados soberanos ativos. A decisão reflete a análise de que, mesmo após o pedido de demissão pelo trabalhador, os saldos positivos acumulados no banco de horas estabelecido por Acordo Coletivo de Trabalho (ACT) devem ser compensados ou pagos ao empregado. Isso se deve à presença do predicado `sovereign(semester_hour_bank_requires_cct_or_act)`, que estipula a necessidade de um acordo formal para o banco de horas, garantindo sua validade e aplicabilidade.\n\nAlém disso, o predicado `sovereign(invalidity_of_clause_suppressing_overtime_payment)` reforça que qualquer cláusula que busque suprimir o pagamento das horas extras pendentes é inválida. Portanto, a recusa da empresa em pagar o saldo de 60h acumuladas pelo trabalhador contraria essa norma.\n\nOutros predicados soberanos como `sovereign(weekly_hour_compensation_requires_written_agreement)`, `sovereign(prohibition_negotiation_reducing_overtime_additional)`, e `sovereign(overtime_minimum_additional_50pct)` asseguram que a compensação das horas extras deve seguir regras claras, com acordos escritos e não pode ser reduzida por negociações informais. A presença desses predicados indica que o direito ao pagamento das horas extras pendentes é ineludível mesmo após a rescisão do contrato de trabalho.\n\n### 2. PREDICADOS ATIVADOS\n\n- **sovereign(semester_hour_bank_requires_cct_or_act):** Este predicado estabelece que qualquer banco de horas deve ser regulamentado por um Acordo Coletivo de Trabalho (ACT) ou Convenção Coletiva de Trabalho (CCT), garantindo a sua validade legal e aplicabilidade.\n\n- **sovereign(invalidity_of_clause_suppressing_overtime_payment):** Este predicado declara que qualquer cláusula que tente suprimir o pagamento das horas extras é inválida. Isso significa que os direitos ao pagamento de horas extras não podem ser anulados por acordos ou práticas informais.\n\n- **sovereign(weekly_hour_compensation_requires_written_agreement):** Este predicado exige que a compensação das horas extras seja formalizada em um acordo escrito, garantindo transparência e legalidade no processo de compensação.\n\n- **sovereign(prohibition_negotiation_reducing_overtime_additional):** Este predicado proíbe negociações informais que tentem reduzir o adicional pago pelas horas extras, assegurando que os trabalhadores recebam a remuneração justa por seu tempo extra de trabalho.\n\n- **sovereign(overtime_minimum_additional_50pct):** Este predicado estabelece que o pagamento das horas extras deve ser no mínimo 50% adicional sobre a hora normal, garantindo uma compensação adequada pelo trabalho extra realizado.\n\n- **sovereign(maximum_weekly_working_hours_44h) e sovereign(maximum_daily_working_hours_8h):** Estes predicados definem os limites máximos de horas trabalhadas semanalmente (44 horas) e diariamente (8 horas), respeitando as normas de saúde e segurança do trabalho.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG decidiu que a empresa está errada em não pagar o saldo das horas extras acumuladas pelo trabalhador, mesmo após ele pedir demissão. Isso porque as regras do trabalho no Brasil garantem que qualquer hora extra que você trabalhou e não foi paga deve ser compensada ou pagas, mesmo se você deixar a empresa antes de usar essas horas.\n\nA empresa tentou dizer que, como o empregado pediu para sair, ele perdeu o direito às horas extras. No entanto, as leis trabalhistas são claras: não importa se você sai da empresa ou não, qualquer hora extra que foi feita e não paga deve ser resolvida.\n\nPortanto, a decisão é de que a empresa precisa pagar essas 60 horas extras ao empregado.",
+  "tokens_in": 549,
+  "tokens_out": 979,
+  "latency_ms": 28765,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

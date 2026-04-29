@@ -1,0 +1,30 @@
+{
+  "sha256": "1474c8e748f3b1f67dfd46352a87c826b2be8206f0c89e1f19965a2a8f9221a9",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-009",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:28:58Z",
+  "prompt_sha": "ff8fda303630134604d2d7ffdb2585495e891ee0ed0eaebbd81c40f3a8fb664e",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma **violação** da ordem jurídica no caso analisado. A decisão original, ao reconhecer a validade do banco de horas sem acordo coletivo (CCT), conforme a Súmula TST 85, mas ao mesmo tempo determinar o pagamento das horas excedentes como horas normais (sem adicional de 50%), incorreu em uma contradição e falha de fundamentação.\n\nA análise do sistema, baseada na execução do solver Clingo ASP e nos predicados da CLT, demonstra que a decisão original não cumpriu com as obrigações inerentes ao processo judicial. Especificamente, a decisão violou a **obrigação de fundamentar a decisão no *ratio decidendi* identificado** (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)). A Súmula 85, ao permitir o banco de horas sem CCT, estabelece implicitamente que as horas excedentes devem ser remuneradas como hora extra, a menos que haja uma justificativa legal específica para afastá-la, o que não foi apresentada no caso. A decisão original, ao ignorar essa consequência lógica da Súmula, demonstra uma falha na aplicação do direito.\n\nAlém disso, a decisão original violou a **obrigação de abordar todos os argumentos legais apresentados** (sovereign(obligation_to_address_all_legal_arguments)). A Súmula 85 é um argumento legal central no caso e não pode ser simplesmente citada sem a devida consideração de suas implicações. A decisão também violou a **obrigação de fornecer uma justificativa para a decisão** (sovereign(constitutional_obligation_to_state_reasons_for_decisions)), um direito fundamental do trabalhador.\n\nO sistema reconhece a importância do **direito de acesso à justiça e revisão judicial** (sovereign(right_of_access_to_justice_and_judicial_review)), o que implica que as decisões devem ser claras, transparentes e fundamentadas, permitindo que as partes compreendam e contestem as razões por trás da decisão. A decisão original, ao não fundamentar a aplicação do pagamento como hora normal, impede o exercício pleno desse direito.\n\nApesar do reconhecimento da **soberania da negociação coletiva** (sovereign(recognition_of_collective_bargaining)), a ausência de um acordo coletivo no caso implica a aplicação da jurisprudência consolidada, que é a Súmula TST 85.\n\nO valor ψ_S de [2.4435] indica um alto grau de inconformidade com a decisão original, reforçando a necessidade de correção.\n\n## PREDICADOS SOVEREIGN ATIVOS:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  O sistema deve garantir que a decisão judicial tenha consequências práticas claras e compreensíveis para as partes envolvidas.\n*   **sovereign(prohibition_of_generic_precedent_citation):** A citação de precedentes (como a Súmula TST 85) não pode ser genérica; é necessário analisar e aplicar o precedente ao caso concreto, justificando a decisão.\n*   **sovereign(obligation_to_address_all_legal_arguments):** O juiz deve considerar e responder a todos os argumentos legais relevantes apresentados pelas partes.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** A decisão deve ser fundamentada na razão de decidir (o princípio jurídico essencial) que embasa o precedente legal.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):** A Constituição Federal garante o direito ao contraditório e à motivação das decisões judiciais.\n*   **sovereign(recognition_of_collective_bargaining):** O sistema reconhece a importância da negociação coletiva como forma de regular as relações de trabalho.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):** Garante o direito das partes de terem acesso à justiça e de questionar as decisões judiciais.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"A decisão que você recebeu está errada. O juiz reconheceu que o seu banco de horas é válido, como diz a lei (Súmula 85 do Tribunal Superior do Trabalho). Mas, ao decidir que você receberia pelas horas extras como se fossem horas normais, ele não seguiu a lei corretamente. A lei diz que, quando não existe um acordo escrito entre você e a empresa sobre como o banco de horas funciona, as horas extras devem ser pagas com um adicional de 50%. O juiz não explicou por que ele decidiu ignorar essa regra, e isso não é justo. Você tem o direito de saber por que a decisão foi tomada e de poder questioná-la. O sistema Q-FENG identificou esse erro e está recomendando que a decisão seja revista para que você receba as horas extras com o adicional de 50%, como a lei determina.\"",
+  "tokens_in": 562,
+  "tokens_out": 1136,
+  "latency_ms": 31625,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,27 @@
+{
+  "sha256": "53d82dff3305abdc2ef25b6bf0a2143699cdc6d1bc5519e7781f21a66be08e3d",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-007",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:10:33Z",
+  "prompt_sha": "cba540c99550234d4dda7bdefc59d2298c6b9b1ac9747edfc810996124e975ca",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, após análise do cenário apresentado e considerando a legislação trabalhista brasileira, chegou à conclusão de **CONFORMIDADE**. Essa decisão é fundamentada na existência de um Acordo Coletivo de Trabalho (CCT) válido e renovado, que prevê a possibilidade de banco de horas anual, em consonância com a jurisprudência do Tribunal Superior do Trabalho (TST) e do Supremo Tribunal Federal (STF).\n\nA decisão do Q-FENG reconhece que a negociação coletiva, expressa no CCT, possui força normativa e estabelece as condições de trabalho, incluindo a possibilidade de banco de horas. A análise do sistema considerou que, uma vez que as horas do banco de horas foram devidamente compensadas dentro do prazo estabelecido, a exigência de pagamento de adicional de horas extras não se aplica, conforme o entendimento do sindicato e a jurisprudência dominante. A satisfatibilidade \"UNKNOWN\" reflete a complexidade da aplicação da lei em casos concretos, mas a conformidade é a interpretação mais provável dada a validade do CCT e a sua observância.\n\n## 2. PREDICADOS ATIVADOS:\n\nOs predicados soberanos ativos, que sustentam a decisão do Q-FENG, possuem os seguintes significados jurídicos no contexto trabalhista brasileiro:\n\n*   **sovereign(recognition_of_collective_bargaining):** Este predicado afirma a validade e a força jurídica do Acordo Coletivo de Trabalho (CCT). No direito brasileiro, os CCTs são instrumentos de negociação coletiva que estabelecem condições de trabalho para uma determinada categoria profissional, possuindo força de lei entre as partes e, em certos aspectos, podendo até mesmo prevalecer sobre a legislação ordinária.\n*   **sovereign(maximum_weekly_working_hours_44h):** Este predicado estabelece o limite máximo legal de jornada de trabalho semanal, que é de 44 horas. Embora o CCT possa prever regimes de compensação de horas, como o banco de horas, ele não pode ultrapassar esse limite máximo legal.\n*   **sovereign(maximum_daily_working_hours_8h):** Este predicado define o limite máximo legal de jornada de trabalho diária, que é de 8 horas. Da mesma forma que o limite semanal, o CCT não pode ultrapassar esse limite diário.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"A gente analisou a sua situação e, de acordo com o que foi combinado entre o seu sindicato e o banco em um acordo de trabalho (o CCT), o banco de horas é permitido. Esse acordo é válido e está de acordo com as leis trabalhistas.\n\nComo as suas horas de banco foram compensadas dentro do prazo, a lei diz que você não tem direito a receber um adicional por essas horas. Isso significa que, como o seu banco de horas foi devidamente pago, você não vai receber um valor extra por causa delas.\n\nÉ importante lembrar que esse acordo de trabalho (CCT) é como uma regra que vale para todos os trabalhadores da mesma área, e ele foi feito para organizar o trabalho e garantir os direitos de todos.\"",
+  "tokens_in": 519,
+  "tokens_out": 697,
+  "latency_ms": 19546,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

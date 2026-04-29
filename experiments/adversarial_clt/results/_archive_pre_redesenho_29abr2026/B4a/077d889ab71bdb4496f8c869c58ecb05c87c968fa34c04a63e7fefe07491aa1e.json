@@ -1,0 +1,30 @@
+{
+  "sha256": "077d889ab71bdb4496f8c869c58ecb05c87c968fa34c04a63e7fefe07491aa1e",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-010",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T07:12:31Z",
+  "prompt_sha": "489f6f91379c7ea7947895493240b48edcdba6ecc1f5f6f729f5d5d0c3140186",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após analisar os fatos e as leis aplicáveis ao caso, chegou à decisão de que o empregado tem direito a receber o pagamento integral do período suprimido como hora extra. Isso ocorreu porque não foi encontrada uma Convenção Coletiva de Trabalho (CCT) válida que autorizasse a redução do intervalo intrajornada.\n\nA decisão é baseada na aplicação correta da Lei nº 5.811/1972, artigo 71, e na Súmula TST 437, bem como no Tema 981/STF, que estabelece a validade de CCTs que reduzem o intervalo intrajornada para 30 minutos.\n\nAlém disso, o sistema Q-FENG também considerou os predicados soberanos ativos, que garantem a aplicação correta das leis e a proteção dos direitos do trabalhador. Especificamente:\n\n*   A obrigação de estabelecer as consequências práticas da decisão (obligation_to_state_practical_consequences_of_decision);\n*   A proibição de citação de precedentes genéricos (prohibition_of_generic_precedent_citation);\n*   A obrigação de abordar todos os argumentos legais relevantes (obligation_to_address_all_legal_arguments);\n*   A obrigação de fundamentar a decisão no ratio decidendi identificado (obligation_to_ground_decision_in_identified_ratio_decidendi);\n*   A obrigação constitucional de justificar as razões das decisões (constitutional_obligation_to_state_reasons_for_decisions);\n*   O reconhecimento do direito à negociação coletiva (recognition_of_collective_bargaining);\n*   O direito ao acesso à justiça e à revisão judicial (right_of_access_to_justice_and_judicial_review).\n\nEsses predicados garantem que a decisão seja baseada em uma análise rigorosa dos fatos e das leis aplicáveis, protegendo os direitos do trabalhador.\n\n**2. PREDICADOS ATIVADOS**\n\nAqui está uma explicação detalhada de cada um dos predicados soberanos ativos:\n\n*   **obligation_to_state_practical_consequences_of_decision**: Essa obrigação garante que a decisão seja fundamentada em consequências práticas e claras para as partes envolvidas. No caso, isso significa que o sistema Q-FENG deve estabelecer como o empregado receberá o pagamento integral do período suprimido.\n*   **prohibition_of_generic_precedent_citation**: Essa proibição impede a citação de precedentes genéricos sem fundamentação específica. No caso, isso significa que o sistema Q-FENG não pode simplesmente citar um precedente sem explicar por quê ele é aplicável ao caso em questão.\n*   **obligation_to_address_all_legal_arguments**: Essa obrigação garante que a decisão seja baseada em uma análise completa e abrangente dos argumentos legais relevantes. No caso, isso significa que o sistema Q-FENG deve considerar todos os aspectos legais aplicáveis ao caso.\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi**: Essa obrigação garante que a decisão seja fundamentada em um ratio decidendi identificado e específico. No caso, isso significa que o sistema Q-FENG deve estabelecer claramente o fundamento legal para a decisão.\n*   **constitutional_obligation_to_state_reasons_for_decisions**: Essa obrigação constitucional garante que as razões das decisões sejam justificadas e transparentes. No caso, isso significa que o sistema Q-FENG deve explicar claramente por quê chegou àquela decisão.\n*   **recognition_of_collective_bargaining**: Essa obrigação reconhece o direito à negociação coletiva e à celebração de CCTs. No caso, isso significa que o sistema Q-FENG deve considerar a validade da CCT em questão.\n*   **right_of_access_to_justice_and_judicial_review**: Essa obrigação garante o direito ao acesso à justiça e à revisão judicial. No caso, isso significa que o empregado tem o direito de recorrer da decisão se ele acreditar que ela foi injusta.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nEm linguagem simples, a decisão do sistema Q-FENG é a seguinte:\n\nO empregado tem direito a receber o pagamento integral do período suprimido como hora extra porque não há uma Convenção Coletiva de Trabalho (CCT) válida que autorize a redução do intervalo intrajornada. A decisão é baseada na aplicação correta da Lei nº 5.811/1972, artigo 71, e na Súmula TST 437, bem como no Tema 981/STF.\n\nIsso significa que o empregado não pode ter seu intervalo intrajornada reduzido sem uma CCT válida que autorize isso. E se isso acontecer, ele tem direito a receber o pagamento integral do período suprimido como hora extra.\n\nEssa decisão é baseada em uma análise rigorosa dos fatos e das leis aplicáveis, garantindo que os direitos do trabalhador sejam protegidos.",
+  "tokens_in": 586,
+  "tokens_out": 1216,
+  "latency_ms": 20405,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

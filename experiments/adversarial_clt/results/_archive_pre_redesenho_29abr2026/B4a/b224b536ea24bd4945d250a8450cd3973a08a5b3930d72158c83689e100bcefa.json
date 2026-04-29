@@ -1,0 +1,30 @@
+{
+  "sha256": "b224b536ea24bd4945d250a8450cd3973a08a5b3930d72158c83689e100bcefa",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T06:23:21Z",
+  "prompt_sha": "2c346e302232f51cd44617f62ac2e4fd89f0a43134d5baae82a0990651685d27",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG analisou a decisão judicial em embargos de declaração, que tratava da omissão na análise do artigo 20 do LINDB (Lei no 5.040/68) em relação ao impacto sistêmico da decisão sobre o setor econômico. A decisão judicial, ao enfrentar o argumento da omissão, fundamentou-se na jurisprudência do Superior Tribunal de Justiça (STJ) sobre a aplicação do LINDB, concluindo que este não se aplica aos processos trabalhistas individuais. O sistema Q-FENG, após analisar a fundamentação da decisão, considerou que a omissão apontada foi devidamente suprida, com base em argumentos identificáveis e verificáveis.\n\nA avaliação do Q-FENG resultou em um veredito de \"CONFORMIDADE\", indicando que a decisão judicial está em consonância com os princípios e normas que regem o sistema jurídico brasileiro. Essa conclusão foi alcançada com base na ativação de diversos predicados soberanos, que refletem a necessidade de fundamentação robusta e respeito aos direitos dos envolvidos. A ativação do vetor ψ_S com valor [2.4435] indica um grau elevado de confiança na conformidade da decisão, embora a satisfatibilidade geral do caso permaneça classificada como \"UNKNOWN\", refletindo a complexidade inerente à interpretação jurídica.\n\n## 2. PREDICADOS ATIVADOS:\n\nOs predicados soberanos ativos no caso ilustram os princípios que guiaram a análise do Q-FENG:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  O sistema reconhece a obrigação do julgador de considerar as consequências práticas da decisão, mesmo que a análise do impacto sistêmico não seja diretamente exigida em processos individuais. Embora a decisão tenha limitado a análise a um plano individual, a consciência das possíveis repercussões é um elemento a ser considerado.\n*   **sovereign(prohibition_of_generic_precedent_citation):**  O sistema reforça a proibição de citar jurisprudência de forma genérica, exigindo que cada caso seja analisado em suas particularidades. A referência à jurisprudência do STJ sobre o LINDB foi considerada adequada, pois serviu para fundamentar a análise específica do caso.\n*   **sovereign(obligation_to_address_all_legal_arguments):**  O sistema enfatiza a necessidade de o julgador abordar todos os argumentos jurídicos relevantes apresentados pelas partes. A decisão judicial demonstrou ter enfrentado o argumento da omissão, mesmo que tenha concluído pela sua irrelevância no caso concreto.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):**  O sistema exige que a decisão seja fundamentada em um princípio jurídico identificável (ratio decidendi). A decisão judicial justificou sua conclusão com base na jurisprudência do STJ, demonstrando a existência de um fundamento jurídico claro.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):**  O sistema reconhece a obrigação constitucional de o julgador motivar suas decisões. A decisão judicial apresentou uma fundamentação detalhada, explicando os motivos que levaram à conclusão sobre a inaplicabilidade do LINDB.\n*   **sovereign(recognition_of_collective_bargaining):**  Embora o caso seja individual, o sistema reconhece a importância do direito à negociação coletiva e sua influência no contexto trabalhista.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):**  O sistema garante o direito de acesso à justiça e à revisão judicial, permitindo que as partes contestem a decisão por meio dos embargos de declaração.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"Imagine que você está numa disputa trabalhista. O juiz não analisou um ponto específico da lei que poderia ter um impacto maior para o seu setor de trabalho. Você argumentou que ele deveria ter analisado esse ponto, mas o juiz respondeu que, como a sua disputa é individual, essa lei não se aplica diretamente ao seu caso.\n\nO sistema Q-FENG analisou essa situação e concordou que a decisão do juiz está correta. Ele verificou que o juiz explicou bem o porquê de não aplicar essa lei, mostrando que ele considerou o assunto e tomou uma decisão justificada.\n\nEm outras palavras, o juiz não precisou analisar o impacto da sua decisão para todo o setor, porque o seu caso é sobre você e o seu trabalho. O sistema Q-FENG confirmou que a decisão está de acordo com as leis e que você tem o direito de questionar a decisão, se não concordar.\"",
+  "tokens_in": 553,
+  "tokens_out": 1054,
+  "latency_ms": 29375,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,27 @@
+{
+  "sha256": "a30d0d3827c9387595a4412ce4a88767cfe1e2ea383ea22ee6e57476dc746040",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-009",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:12:37Z",
+  "prompt_sha": "18a223af3fb227c2a5e0257347aa4e5c729224e92b72d7d1c3e676c4eb13b5d5",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, após análise do cenário apresentado e da legislação trabalhista brasileira, concluiu pela **conformidade** da situação. A decisão se baseia na validade da negociação estabelecida entre empregado e empregador para a conversão do saldo de horas do banco de horas em dinheiro, conforme previsto na Convenção Coletiva de Trabalho (CCT).\n\nA CCT, ao permitir a conversão do saldo de horas em dinheiro com adicional de 50%, estabeleceu uma forma legítima de compensação para o trabalhador. A anuência do empregador, somada à previsão legal na CCT, reforça a validade da transação. O fato de a conversão ter ocorrido antes do término do prazo da CCT não invalida a negociação, desde que a CCT permitisse essa possibilidade. O pagamento realizado no mês seguinte à conversão também demonstra a intenção de cumprimento da obrigação.\n\nA decisão de conformidade é sustentada pela prevalência da autonomia da vontade das partes, expressa por meio da negociação coletiva, e pela observância dos limites estabelecidos pela legislação trabalhista. O sistema considera que a situação se enquadra nas possibilidades previstas na CCT e que não há elementos que indiquem desrespeito aos direitos do trabalhador.\n\n## PREDICADOS ATIVADOS:\n\nOs predicados soberanos ativos refletem os princípios fundamentais que guiaram a decisão do Q-FENG:\n\n*   **sovereign(recognition_of_collective_bargaining):** Este predicado significa que o sistema reconhece a validade e a força obrigatória da Convenção Coletiva de Trabalho (CCT). As CCTs são instrumentos de negociação coletiva que estabelecem condições de trabalho, salários e benefícios para determinadas categorias profissionais, e são vinculantes para empregadores e empregados abrangidos pelo acordo.\n*   **sovereign(maximum_weekly_working_hours_44h):** Este predicado reafirma a limitação legal da jornada de trabalho semanal a 44 horas. Embora a situação envolva o banco de horas, a regra geral da jornada de trabalho é um ponto de referência importante para garantir que a compensação não viole os limites máximos de trabalho.\n*   **sovereign(maximum_daily_working_hours_8h):** Similarmente, este predicado estabelece o limite máximo diário de trabalho em 8 horas. Ele serve como um parâmetro para avaliar se a utilização do banco de horas e a sua conversão em dinheiro não excederam os limites diários estabelecidos.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"Analisamos a sua situação e entendemos que está tudo certo. A empresa e você combinaram de transformar as suas horas extras acumuladas no banco de horas em dinheiro, e essa combinação foi permitida pelo acordo coletivo da sua categoria profissional. O acordo diz que, quando você faz essa troca, a empresa tem que pagar um valor extra de 50% por essas horas. O fato de você ter recebido esse pagamento no mês seguinte mostra que a empresa cumpriu o combinado.\n\nA lei diz que as empresas e os trabalhadores podem fazer acordos sobre como trabalhar e como receber pelas horas extras, desde que esses acordos não violem os direitos do trabalhador. No seu caso, o acordo foi feito dentro das regras e a empresa pagou o que era devido, então não há problema.\"",
+  "tokens_in": 493,
+  "tokens_out": 740,
+  "latency_ms": 20656,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

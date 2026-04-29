@@ -1,0 +1,30 @@
+{
+  "sha256": "77669255efb36d317da59f2eb715f2b7f57615a2f455e715704b8accf6559f63",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T03:34:57Z",
+  "prompt_sha": "f5b03aa37cbaba903b62ce936948a2f9431d0cc4d9bc02bb8ff84f0799aa516e",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a decisão do TST está **em conformidade com os princípios constitucionais e normativos** do Direito Trabalhista Brasileiro, com base nos seguintes predicados soberanos ativos:  \n- **Obrigação de explicitar as consequências práticas da decisão** (sovereign(obligation_to_state_practical_consequences_of_decision)): O TST analisou de forma clara e específica como a CCT bancária afeta os direitos dos trabalhadores, garantindo transparência.  \n- **Proibição de citação de precedentes genéricos** (sovereign(prohibition_of_generic_precedent_citation)): A decisão não se baseou em interpretações vagas ou amplas do Tema 1046/STF, mas em sua aplicação concreta à CCT em questão.  \n- **Obrigação de abordar todos os argumentos jurídicos** (sovereign(obligation_to_address_all_legal_arguments)): O TST considerou todas as objeções e argumentos apresentados, demonstrando rigor no processo.  \n- **Obrigação de fundamentar a decisão no *ratio decidendi* identificado** (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)): A fundamentação da decisão está diretamente ligada ao princípio da \"adequação setorial negociada\" (Tema 1046/STF), que permite acordos coletivos com compensações de direitos.  \n- **Obrigação constitucional de expor razões para decisões** (sovereign(constitutional_obligation_to_state_reasons_for_decisions)): O TST justificou detalhadamente sua conclusão, vinculando-a à jurisprudência do STF.  \n- **Reconhecimento do direito à negociação coletiva** (sovereign(recognition_of_collective_bargaining)): A CCT bancária foi validada como expressão legítima da autonomia negocial entre sindicatos e empregadores.  \n- **Direito de acesso à justiça e revisão judicial** (sovereign(right_of_access_to_justice_and_judicial_review)): A decisão respeitou o direito dos trabalhadores de contestar acordos coletivos em instâncias superiores, como o TST.  \n\nOs predicados elásticos ativos (elastic(working_hours_negotiable_by_cct) e elastic(hour_bank_with_cct_max_1_year)) reforçam que o banco de horas, quando regulado por CCTs com prazo máximo de 1 ano, é compatível com a legislação trabalhista.  \n\n---\n\n### 2. **PREDICADOS ATIVOS (JURÍDICO)**  \n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O tribunal deve explicar, de forma clara, como a decisão afeta os direitos dos trabalhadores (ex.: impacto no banco de horas).  \n- **sovereign(prohibition_of_generic_precedent_citation)**: A decisão não pode basear-se em interpretações genéricas de jurisprudência, mas em sua aplicação específica ao caso.  \n- **sovereign(obligation_to_address_all_legal_arguments)**: O tribunal deve analisar todos os argumentos jurídicos apresentados, mesmo os contrários à validade da CCT.  \n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A fundamentação da decisão deve estar diretamente vinculada ao *ratio decidendi* (motivo da decisão) identificado (ex.: Tema 1046/STF).  \n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: O tribunal deve expor razões objetivas e fundamentadas para sua conclusão, conforme exigido pela Constituição.  \n- **sovereign(recognition_of_collective_bargaining)**: A CCT é reconhecida como instrumento legal de negociação coletiva, desde que respeite direitos mínimos.  \n- **sovereign(right_of_access_to_justice_and_judicial_review)**: O trabalhador tem direito a contestar acordos coletivos em instâncias superiores, garantindo revisão judicial.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO Tribunal Superior do Trabalho (TST) decidiu que o **banco de horas** (acordo de compensação de horas extras e horas normais) estabelecido por uma convenção coletiva (CCT) no setor bancário é **válido**. Isso porque:  \n- A CCT foi feita com o sindicato dos trabalhadores e o banco, e **não viola direitos mínimos** (como salário, férias, etc.).  \n- O TST explicou **claramente** como esse acordo afeta os direitos dos trabalhadores (ex.: limites de horas extras, prazos para compensação).  \n- A decisão **não se baseou em regras vagas**, mas em uma interpretação específica do STF (Tema 1046), que permite acordos coletivos com compensações de direitos.  \n- O TST **analisou todos os argumentos** apresentados, incluindo os que questionavam a validade do banco de horas.  \n- A CCT foi validada como **negociação legítima** entre sindicatos e empregadores, desde que respeite a lei.  \n\nPortanto, o banco de horas é **legal** nesse caso, desde que siga as regras da CCT e os limites estabelecidos (ex.: prazo máximo de 1 ano para compensação).",
+  "tokens_in": 600,
+  "tokens_out": 1689,
+  "latency_ms": 53562,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

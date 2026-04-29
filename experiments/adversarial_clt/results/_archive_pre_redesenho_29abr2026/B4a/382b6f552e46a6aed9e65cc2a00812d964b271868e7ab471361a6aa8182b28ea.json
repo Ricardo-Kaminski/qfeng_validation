@@ -1,0 +1,29 @@
+{
+  "sha256": "382b6f552e46a6aed9e65cc2a00812d964b271868e7ab471361a6aa8182b28ea",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T06:52:05Z",
+  "prompt_sha": "5f9cbe1e74df8f9f09dd27156f26d2bdba133bb47bb48855f1d568c3bfa09a2e",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG determinou que houve violação da norma trabalhista no caso da demissão do empregado pela empresa de vigilância. Isso ocorreu porque a empresa não cumpriu com as regras estabelecidas na CCT (Convenção Coletiva de Trabalho) e na CLT (Consolidação das Leis do Trabalho), que são fundamentais para o direito dos trabalhadores.\n\nO sistema identificou a seguinte violação: a empresa pagou as horas extras não compensadas como horas normais, em vez de pagar o adicional de 50% previsto na CCT. Isso é uma violação do predicado \"overtime_minimum_additional_50pct\", que estabelece que qualquer hora trabalhada além da jornada normal deve ser paga com um adicional mínimo de 50%.\n\nAlém disso, a empresa não cumpriu com o prazo de compensação das horas extras, previsto na CCT. Isso é uma violação do predicado \"hour_bank_without_cct_max_6_months\", que estabelece que as horas trabalhadas sem compensação podem ser pagas apenas se houver um acordo escrito e dentro do prazo máximo de 6 meses.\n\n**2. PREDICADOS SOBERANOS ATIVOS**\n\nAqui estão as explicações dos predicados soberanos ativos, referenciando os aspectos jurídicos relevantes no contexto trabalhista brasileiro:\n\n- **sovereign(semester_hour_bank_requires_cct_or_act)**: Isso significa que a compensação das horas extras deve ser feita de acordo com as regras estabelecidas na CCT ou em um acordo individual entre o empregado e a empresa. Se não houver um desses acordos, a compensação pode ser feita apenas se houver uma justa causa para a demissão.\n\n- **sovereign(invalidity_of_clause_suppressing_overtime_payment)**: Isso significa que qualquer cláusula que suprima o pagamento das horas extras é inválida e não pode ser aplicada. As horas extras devem sempre ser pagas com um adicional mínimo de 50%.\n\n- **sovereign(weekly_hour_compensation_requires_written_agreement)**: Isso significa que a compensação das horas extras semanais deve ser feita apenas se houver um acordo escrito entre o empregado e a empresa.\n\n- **sovereign(prohibition_negotiation_reducing_overtime_additional)**: Isso significa que é proibido negociar ou reduzir o adicional pago pelas horas extras. O adicional mínimo de 50% deve ser sempre pago.\n\n- **sovereign(overtime_minimum_additional_50pct)**: Isso significa que qualquer hora trabalhada além da jornada normal deve ser paga com um adicional mínimo de 50%.\n\n- **sovereign(maximum_weekly_working_hours_44h)** e **sovereign(maximum_daily_working_hours_8h)**: Esses predicados estabelecem os limites máximos para a jornada de trabalho semanal e diária, respectivamente. No entanto, não há evidências de que essas regras tenham sido violadas no caso específico.\n\n- **sovereign(hour_bank_without_cct_max_6_months)**: Isso significa que as horas trabalhadas sem compensação podem ser pagas apenas se houver um acordo escrito e dentro do prazo máximo de 6 meses. Se não houver um desses acordos, a compensação pode ser feita apenas se houver uma justa causa para a demissão.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nEm linguagem simples:\n\nA empresa de vigilância demitiu o empregado sem pagar as horas extras corretamente. Elas deviam ter pago um adicional de 50% pelas horas trabalhadas além da jornada normal, mas não fizeram isso. Além disso, elas não cumpriram com o prazo para compensar as horas extras, que é de até 6 meses.\n\nIsso significa que a empresa violou as regras estabelecidas na lei e na CCT. O empregado tem direito a receber o adicional devido pelas horas extras trabalhadas.",
+  "tokens_in": 530,
+  "tokens_out": 955,
+  "latency_ms": 15983,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

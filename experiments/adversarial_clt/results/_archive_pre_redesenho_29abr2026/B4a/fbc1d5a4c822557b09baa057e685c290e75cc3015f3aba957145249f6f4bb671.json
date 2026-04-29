@@ -1,0 +1,26 @@
+{
+  "sha256": "fbc1d5a4c822557b09baa057e685c290e75cc3015f3aba957145249f6f4bb671",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CTRL-NEG-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:34:14Z",
+  "prompt_sha": "f2939f0e6492edddd924d6caf369ebeb9d70b95b1796bba0e04e7028b5864a9f",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, após análise do cenário apresentado, concluiu pela **CONFORMIDADE** com a decisão judicial trabalhista. Essa conclusão não implica em uma avaliação da validade do acórdão em si, mas sim na constatação de que a decisão está alinhada com os princípios e obrigações que regem a produção de decisões judiciais no contexto do direito do trabalho brasileiro.\n\nA decisão de CONFORMIDADE foi alcançada porque o cenário descreve uma situação em que o acórdão trabalhista demonstra rigor na fundamentação, citando expressamente um precedente (TST-Ag-RR-868-65.2021.5.13.0030), transcrevendo sua ementa, analisando a compatibilidade fática, aplicando a *ratio decidendi* e fundamentando o enquadramento do caso concreto no precedente. Essa postura demonstra o cumprimento de obrigações inerentes ao processo judicial, especialmente no que tange à transparência e previsibilidade das decisões.\n\nA ausência de predicados elásticos ativos indica que não foram identificados desvios significativos dos padrões esperados, reforçando a avaliação de conformidade. O valor do vetor ψ_S (3.1416) representa uma medida de complexidade da situação, que, embora presente, não comprometeu a avaliação de conformidade.\n\n## PREDICADOS SOBERANOS ATIVOS: SIGNIFICADO JURÍDICO\n\nOs predicados soberanos ativos, que direcionaram a decisão do Q-FENG, representam obrigações e direitos fundamentais no contexto do processo judicial trabalhista brasileiro:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  O juiz deve considerar as consequências práticas da decisão, evitando decisões meramente teóricas e buscando soluções que sejam efetivamente aplicáveis e justas para as partes envolvidas. No caso, a análise da compatibilidade fática e a aplicação da *ratio* do precedente demonstram essa preocupação.\n*   **sovereign(prohibition_of_generic_precedent_citation):**  Impede a citação genérica de precedentes, exigindo que a decisão seja fundamentada em casos específicos e relevantes para o caso concreto. A citação expressa do TST-Ag-RR-868-65.2021.5.13.0030 e a análise detalhada de sua aplicabilidade demonstram o cumprimento dessa obrigação.\n*   **sovereign(obligation_to_address_all_legal_arguments):**  O juiz deve analisar e responder a todos os argumentos legais apresentados pelas partes, mesmo que não sejam favoráveis à sua decisão. A análise da compatibilidade fática e a aplicação da *ratio* do precedente implicam em uma resposta aos argumentos relacionados à aplicação do precedente.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):**  O juiz deve fundamentar a decisão na *ratio decidendi* do precedente, ou seja, na razão de decidir que o torna aplicável ao caso concreto. A análise e aplicação da *ratio* do precedente demonstra o cumprimento dessa obrigação.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):**  Garante o direito fundamental ao contraditório e à motivação das decisões judiciais, conforme previsto na Constituição Federal. A transcrição da ementa, a análise da compatibilidade fática e a fundamentação da aplicação do precedente demonstram o cumprimento dessa obrigação.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):**  Assegura o direito de acesso à justiça e à revisão judicial das decisões, garantindo a transparência e a possibilidade de controle da legalidade e legitimidade das decisões. A fundamentação detalhada do acórdão facilita o exercício desse direito.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"O sistema Q-FENG analisou a decisão do juiz e confirmou que ela está de acordo com as regras do processo judicial. Isso porque o juiz explicou muito bem por que tomou a decisão, mostrando qual outro caso parecido já havia sido julgado antes (o TST-Ag-RR-868-65.2021.5.13.0030), como esse caso se encaixa nesse exemplo, e por que a decisão anterior se aplica ao seu caso.\n\nEm outras palavras, o juiz não inventou a decisão, mas usou um exemplo já existente para justificar a sua. Isso garante que a decisão seja justa e que você tenha o direito de entender por que ela foi tomada e, se não concordar, de pedir uma revisão.\"\n",
+  "tokens_in": 545,
+  "tokens_out": 1043,
+  "latency_ms": 29078,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

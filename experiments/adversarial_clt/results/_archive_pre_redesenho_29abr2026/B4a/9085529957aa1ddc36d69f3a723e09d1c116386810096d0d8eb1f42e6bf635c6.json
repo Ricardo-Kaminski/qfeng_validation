@@ -1,0 +1,30 @@
+{
+  "sha256": "9085529957aa1ddc36d69f3a723e09d1c116386810096d0d8eb1f42e6bf635c6",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T03:42:47Z",
+  "prompt_sha": "ae558655ffa0f1123903cf70da28171aff110a52218cb4360d65fad0dbdb72bf",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nA decisão do TRT, embora fundamentada na Súmula TST 85, não cumpre plenamente os requisitos estabelecidos pelos predicados soberanos ativos do Q-FENG. O sistema identificou que:  \n- **Obrigação de explicitar as consequências práticas da decisão** (sovereign(obligation_to_state_practical_consequences_of_decision)): A decisão não detalhou como a aplicação da Súmula 85 afeta concretamente os direitos do trabalhador (ex.: cálculo exato do adicional de 50% ou impactos na remuneração).  \n- **Proibição de citação genérica de precedentes** (sovereign(prohibition_of_generic_precedent_citation)): A referência à Súmula 85 foi feita de forma ampla, sem vincular os itens I, II e V à realidade específica do caso (ex.: ausência de CCT/ACT e duração de 5 meses).  \n- **Obrigação de abordar todos os argumentos jurídicos** (sovereign(obligation_to_address_all_legal_arguments)): A tese da empresa (\"acordo tácito\") não foi analisada com profundidade, apesar de ser relevante para a interpretação da Súmula 85.  \n- **Obrigação de fundamentar a decisão no *ratio decidendi* identificado** (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)): A decisão não vinculou claramente a aplicação da Súmula 85 aos critérios específicos do caso (ex.: ausência de CCT/ACT e período de 5 meses).  \n- **Obrigação constitucional de fundamentar a decisão** (sovereign(constitutional_obligation_to_state_reasons_for_decisions)): A fundamentação não demonstrou como a ausência de CCT/ACT e a duração do banco de horas levaram à conclusão de que todas as horas são extras.  \n- **Reconhecimento da negociação coletiva** (sovereign(recognition_of_collective_bargaining)): A decisão não destacou que a ausência de CCT/ACT inviabiliza a negociação tácita, conforme previsto no art. 611 da CLT.  \n- **Direito de acesso à justiça e revisão judicial** (sovereign(right_of_access_to_judicial_review)): A decisão não garantiu que a interpretação da Súmula 85 fosse compatível com a possibilidade de revisão judicial por parte da empresa.  \n\nO **vetor ψ_S** ([2.4435]) sugere que a decisão está **em conformidade** com os princípios constitucionais e legais, mas **não atende plenamente aos requisitos de transparência e fundamentação** exigidos pelos predicados soberanos.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O tribunal deve explicar, de forma clara, como a decisão afeta os direitos do trabalhador (ex.: como o adicional de 50% será calculado).  \n- **sovereign(prohibition_of_generic_precedent_citation)**: A citação de súmulas ou precedentes deve ser específica ao caso, evitando generalizações.  \n- **sovereign(obligation_to_address_all_legal_arguments)**: Todos os argumentos jurídicos (ex.: \"acordo tácito\") devem ser analisados, mesmo que sejam rejeitados.  \n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão deve vincular-se diretamente aos critérios da Súmula 85 (ex.: ausência de CCT/ACT e período de 5 meses).  \n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: A fundamentação deve ser transparente e compatível com a Constituição Federal (ex.: direito à informação e à justiça).  \n- **sovereign(recognition_of_collective_bargaining)**: A negociação coletiva (CCT/ACT) é essencial para a validade de acordos tácitos, conforme a CLT.  \n- **sovereign(right_of_access_to_judicial_review)**: A decisão deve permitir que a empresa conteste a interpretação da Súmula 85 em instâncias superiores.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA decisão do tribunal está **em conformidade com a lei**, mas **não explicou claramente** como a aplicação da Súmula 85 afeta o trabalhador. Por exemplo, não detalhou como o adicional de 50% será calculado ou por que o \"acordo tácito\" da empresa não vale. Além disso, a decisão citou a Súmula 85 de forma genérica, sem vincular os itens da súmula ao caso específico (ex.: banco de horas sem CCT/ACT e período de 5 meses).  \n\nO tribunal **não analisou todos os argumentos** da empresa, mesmo que tenha rejeitado a tese de \"acordo tácito\". Isso pode dificultar a compreensão da decisão por parte de quem não entende a lei.  \n\nEm resumo: a decisão **está correta**, mas **não foi explicada com clareza** para o trabalhador ou a empresa, e **não vinculou os critérios da Súmula 85 ao caso** de forma específica.",
+  "tokens_in": 586,
+  "tokens_out": 1763,
+  "latency_ms": 55967,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

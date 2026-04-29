@@ -1,0 +1,27 @@
+{
+  "sha256": "4b5f849f03c56fd6400be3ea1a0a693027dd5ba76e1d95ae844f935a2f6eaad1",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T04:49:42Z",
+  "prompt_sha": "c6c0c1122710df482c2abdde5c502834d7fd2f7dca2ec9ae3f5901b25dbff6df",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que a situação descrita está em conformidade com as normas aplicáveis ao contexto trabalhista brasileiro. Isso ocorre porque os predicados soberanos ativos — reconhecimento da negociação coletiva, limite máximo de 44 horas semanais e limite máximo de 8 horas diárias — não foram violados. A empresa respeitou o acordo coletivo de trabalho (CCT) ao permitir a compensação das horas acumuladas dentro do prazo estabelecido de um ano, conforme negociado. Além disso, a jornada diária nunca excedeu 10 horas, o que está em conformidade com as normas trabalhistas quando consideramos os limites máximos permitidos sob condições específicas e acordadas coletivamente.\n\n### 2. PREDICADOS ATIVADOS\n\n- **sovereign(recognition_of_collective_bargaining):** Este predicado reflete o princípio de que as negociações coletivas são válidas e devem ser respeitadas pelas partes envolvidas, desde que não contrariem normas legais fundamentais. No contexto trabalhista brasileiro, isso significa que os acordos feitos entre sindicatos e empregadores têm força de lei para as condições específicas negociadas.\n\n- **sovereign(maximum_weekly_working_hours_44h):** Este predicado estabelece o limite máximo de 44 horas semanais como a jornada padrão, conforme a Consolidação das Leis do Trabalho (CLT). Qualquer acordo que exceda esse limite deve ser feito por meio de negociação coletiva e com o consentimento dos trabalhadores.\n\n- **sovereign(maximum_daily_working_hours_8h):** Este predicado estabelece um limite máximo de 8 horas diárias para a jornada de trabalho. Acordos que permitam jornadas maiores devem ser negociados coletivamente e respeitar as condições específicas acordadas.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema verificou que tudo está correto com a forma como a empresa gerencia o banco de horas dos trabalhadores, conforme o acordo feito entre os sindicatos e a empresa. Os acordos permitiram que as horas extras fossem compensadas dentro do ano seguinte, e isso foi feito corretamente. Além disso, ninguém trabalhou mais do que 10 horas por dia, o que está de acordo com o que foi negociado entre todos os envolvidos. Portanto, a empresa está cumprindo as regras estabelecidas no acordo coletivo e as leis trabalhistas.",
+  "tokens_in": 505,
+  "tokens_out": 629,
+  "latency_ms": 18203,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

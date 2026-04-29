@@ -1,0 +1,26 @@
+{
+  "sha256": "f141481892bf8fb81314e301a55bc773f3d02fe8d36522de998b948426537372",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-007",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T04:23:19Z",
+  "prompt_sha": "a8826b990f48a3abad17b87cd070c771a9e46b427fb5e297b0c0991d8fc5f2a0",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação na aplicação de precedentes no caso apresentado. A decisão do TST (Tribunal Superior do Trabalho) foi baseada em um IRDR (Indicação de Repetitividade de Demandas Repetitivas) do TRT-15ª Região, tratando-o como se fosse um precedente vinculante nacional, o que não é correto. O IRDR regional não possui eficácia nacional e não foi afetado como repetitivo pelo TST, portanto, não pode ser aplicado dessa forma.\n\nOs predicados soberanos ativos indicam várias obrigações legais que foram consideradas na análise:\n\n- **Obrigação de declarar as consequências práticas da decisão**: O tribunal deve explicar como a decisão afetará os envolvidos.\n  \n- **Proibição de citação genérica de precedentes**: A aplicação de um IRDR regional como se fosse um precedente nacional é uma violação dessa proibição, pois o IRDR não tem eficácia vinculante além da sua região.\n\n- **Obrigação de abordar todos os argumentos legais apresentados**: O tribunal deve considerar todas as alegações feitas pelas partes, incluindo a questão sobre a aplicabilidade do IRDR como precedente nacional.\n\n- **Obrigação de fundamentar a decisão no ratio decidendi identificado**: A decisão deve ser baseada nos motivos legais corretos e relevantes para o caso.\n\n- **Obrigação constitucional de declarar os motivos das decisões**: É necessário explicar claramente as razões pelas quais uma determinada decisão foi tomada.\n\n- **Direito de acesso à justiça e revisão judicial**: As partes têm direito a um processo justo, incluindo a possibilidade de revisão de decisões que não respeitem os precedentes corretos.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obrigação de declarar as consequências práticas da decisão**: Juridicamente, isso significa que o tribunal deve explicar como sua decisão impactará diretamente as partes envolvidas no processo.\n\n- **Proibição de citação genérica de precedentes**: No contexto trabalhista brasileiro, isso implica que apenas precedentes com eficácia vinculante nacional podem ser aplicados como tal. Um IRDR regional não tem essa eficácia e, portanto, não pode ser usado dessa forma.\n\n- **Obrigação de abordar todos os argumentos legais apresentados**: Isso significa que o tribunal deve considerar todas as alegações feitas pelas partes, garantindo que nenhuma questão relevante seja ignorada.\n\n- **Obrigação de fundamentar a decisão no ratio decidendi identificado**: O tribunal deve basear sua decisão nos motivos legais corretos e relevantes para o caso específico, não em precedentes inaplicáveis.\n\n- **Obrigação constitucional de declarar os motivos das decisões**: Isso é uma exigência legal para que as partes entendam por que a decisão foi tomada, garantindo transparência e justiça no processo judicial.\n\n- **Direito de acesso à justiça e revisão judicial**: Assegura que todas as partes tenham o direito de serem ouvidas e de contestar decisões que não respeitem os princípios legais corretos, incluindo a aplicação inadequada de precedentes.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO tribunal superior fez um erro ao usar uma regra regional como se fosse uma regra nacional para todo o país. Isso não é permitido porque essa regra só vale na região onde foi criada e não tem força em outras partes do Brasil. A pessoa que perdeu com essa decisão tem razão em dizer que isso não deveria ter acontecido, pois a lei exige que apenas regras nacionais sejam usadas dessa forma.\n\nO tribunal também precisa explicar claramente por que tomou essa decisão e como ela afeta as pessoas envolvidas. Além disso, deve considerar todos os argumentos apresentados pelas partes no processo. As pessoas têm o direito de entender as razões das decisões judiciais e de contestá-las se acharem que não foram tratadas corretamente.",
+  "tokens_in": 546,
+  "tokens_out": 999,
+  "latency_ms": 29046,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,26 @@
+{
+  "sha256": "630a8032c3644e0aac86438c074de4e1b9285a14f0cb6aa3efb368b5e00eb492",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-001",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T04:15:06Z",
+  "prompt_sha": "9d50b6baae5bf620474d057d075983b7fc2cc49c5178112cb76b3c707250c756",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação na fundamentação do acórdão prolatado pelo Tribunal Superior do Trabalho (TST) em relação ao recurso de revista apresentado por um trabalhador da aviação civil. A decisão foi considerada problemática devido à citação incorreta de uma súmula inexistentente, a Súmula 312 do TST, que o relator utilizou como base para fundamentar sua argumentação sobre a vedação à dispensa imotivada durante período de estabilidade provisória. \n\nOs predicados soberanos ativos indicam obrigações específicas que devem ser observadas na decisão judicial:\n\n- **Obrigação de declarar as consequências práticas da decisão**: O tribunal deve explicar como sua decisão afeta os direitos e deveres das partes envolvidas.\n  \n- **Proibição de citação genérica de precedente**: A fundamentação não pode se basear em referências a súmulas ou precedentes que não existem na jurisprudência oficial, o que é o caso da Súmula 312 citada.\n\n- **Obrigação de tratar todos os argumentos legais apresentados**: O tribunal deve considerar e responder a todos os argumentos levantados pelas partes no processo.\n\n- **Obrigação de fundamentar a decisão em um ratio decidendi identificado**: A decisão deve ser baseada em princípios jurídicos claros e reconhecidos, não em referências incorretas ou inexistentes.\n\n- **Obrigação constitucional de declarar as razões das decisões**: O tribunal deve fornecer uma explicação clara e fundamentada para sua decisão, permitindo que a parte prejudicada compreenda os motivos pelos quais foi decidido daquela maneira.\n\n- **Direito de acesso à justiça e revisão judicial**: Assegura-se que as partes tenham o direito de recorrer de uma decisão se ela for considerada injusta ou mal fundamentada, como é o caso aqui com a citação incorreta.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obrigação de declarar as consequências práticas da decisão**: No contexto trabalhista brasileiro, isso significa que o tribunal deve explicar claramente como sua decisão afeta os direitos e obrigações do empregado e do empregador.\n\n- **Proibição de citação genérica de precedente**: Juridicamente, isso implica que qualquer referência a súmulas ou julgados utilizada para fundamentar uma decisão deve ser verificável e existir na base jurisprudencial oficial. Citar uma súmula inexistente viola essa obrigação.\n\n- **Obrigação de tratar todos os argumentos legais apresentados**: Isso significa que o tribunal deve considerar todas as alegações feitas pelas partes no processo, garantindo que nenhuma seja ignorada ou deixada sem resposta.\n\n- **Obrigação de fundamentar a decisão em um ratio decidendi identificado**: A decisão deve ser baseada em princípios jurídicos claros e reconhecidos, não em referências incorretas ou inexistentes. Isso assegura que a decisão seja justa e bem fundamentada.\n\n- **Obrigação constitucional de declarar as razões das decisões**: O tribunal deve fornecer uma explicação clara e fundamentada para sua decisão, permitindo que as partes compreendam os motivos pelos quais foi decidido daquela maneira.\n\n- **Direito de acesso à justiça e revisão judicial**: Assegura-se que as partes tenham o direito de recorrer de uma decisão se ela for considerada injusta ou mal fundamentada, garantindo a proteção dos direitos das partes envolvidas no processo.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO tribunal cometeu um erro ao citar uma regra que não existe para justificar sua decisão sobre o seu caso de trabalho. Isso é importante porque as decisões judiciais precisam ser baseadas em leis e precedentes reais, não em coisas inventadas ou erradas. Por causa disso, a decisão pode ser contestada, pois não foi bem explicada nem fundamentada corretamente. Você tem o direito de pedir que essa decisão seja revisada para garantir que ela esteja baseada nas leis e regras certas.",
+  "tokens_in": 574,
+  "tokens_out": 1013,
+  "latency_ms": 29437,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

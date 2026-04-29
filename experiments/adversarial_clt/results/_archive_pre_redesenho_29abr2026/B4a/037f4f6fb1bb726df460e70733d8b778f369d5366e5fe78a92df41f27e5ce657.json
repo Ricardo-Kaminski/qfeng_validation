@@ -1,0 +1,30 @@
+{
+  "sha256": "037f4f6fb1bb726df460e70733d8b778f369d5366e5fe78a92df41f27e5ce657",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-006",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T05:10:34Z",
+  "prompt_sha": "e6375c11e406eda3f0926b4a955ab06c3b4f824045cb7d8586f69f27e435c47d",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação na aplicação do precedente no acórdão em questão. A decisão judicial citou corretamente o Tema 1046/STF e o TST-Ag-RR-868-65.2021, mas aplicou a ratio decidendi de forma equivocada. O tribunal utilizou a validade de uma CCT (Convenção Coletiva de Trabalho) bancária para justificar a validade do banco de horas em um contexto onde não havia CCT existente. Isso contraria o princípio soberano da necessidade de fundamentar decisões na ratio decidendi identificada, que pressupõe a existência de uma CCT. Além disso, houve violação ao dever de explicar as consequências práticas da decisão e ao reconhecimento do papel da negociação coletiva, já que o precedente citado depende de tal contexto para sua aplicabilidade.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obrigação de declarar as consequências práticas da decisão**: Juridicamente, significa que o tribunal deve explicar como a decisão afetará os envolvidos e o futuro das relações trabalhistas, garantindo clareza sobre seus impactos.\n\n- **Proibição de citação genérica de precedentes**: Isso implica que a referência a precedentes deve ser específica e aplicável ao caso concreto. Citar um precedente sem considerar suas condições particulares é inadequado.\n\n- **Obrigação de abordar todos os argumentos legais apresentados**: O tribunal deve considerar todas as questões levantadas pelas partes, garantindo que nenhuma seja negligenciada na análise e decisão do caso.\n\n- **Obrigação de fundamentar a decisão na ratio decidendi identificada**: A decisão deve ser baseada no raciocínio jurídico central do precedente aplicado, assegurando que ele é relevante e aplicável ao caso em questão.\n\n- **Obrigação constitucional de declarar os motivos das decisões**: O tribunal deve explicitar os fundamentos legais e fáticos que levaram à sua conclusão, promovendo transparência e justiça no processo judicial.\n\n- **Reconhecimento da negociação coletiva**: Este princípio destaca a importância do acordo entre trabalhadores e empregadores na definição de condições de trabalho, respeitando o papel das CCTs.\n\n- **Direito de acesso à justiça e revisão judicial**: Garante que as partes possam buscar reparação legal e que suas decisões sejam submetidas a controle jurisdicional para garantir sua conformidade com a lei.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO tribunal tomou uma decisão usando um exemplo de outra situação, mas não aplicou corretamente esse exemplo ao seu caso. Ele usou uma regra que só funciona quando há um acordo específico entre trabalhadores e empregadores (chamado CCT) para justificar algo sem esse acordo existente. Isso é importante porque a decisão precisa seguir as regras certas, e o tribunal não explicou claramente como isso afetaria você ou outros trabalhadores no futuro. Além disso, ele deveria ter considerado todos os argumentos que foram apresentados e dado uma razão clara para sua decisão.",
+  "tokens_in": 572,
+  "tokens_out": 782,
+  "latency_ms": 22672,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

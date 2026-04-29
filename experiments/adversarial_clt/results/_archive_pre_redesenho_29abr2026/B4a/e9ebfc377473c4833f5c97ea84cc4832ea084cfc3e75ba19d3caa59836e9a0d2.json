@@ -1,0 +1,26 @@
+{
+  "sha256": "e9ebfc377473c4833f5c97ea84cc4832ea084cfc3e75ba19d3caa59836e9a0d2",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T05:40:22Z",
+  "prompt_sha": "edebec9d75758a7769d5b8b57f9d98a0d77aec6e3dfbd734a37cbb83239e8736",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma **violação** no cenário apresentado, referente à fundamentação de um Acórdão do Tribunal Regional do Trabalho (TRT) que cita a Orientações Jurisprudenciais (OJ) nº 394 da SDI-1 do Tribunal Superior do Trabalho (TST) para embasar uma condenação por horas de sobreaviso. A violação reside na utilização de uma OJ que foi formalmente revogada e incorporada à Súmula nº 428, com conteúdo distinto, sem que o Acórdão do TRT reconhecesse essa alteração.\n\nA decisão do Q-FENG não se baseia em uma avaliação da validade da condenação em si, mas sim na **forma como a decisão foi fundamentada**. A utilização de um precedente (a OJ 394) que não reflete mais a jurisprudência atual do TST compromete a segurança jurídica e a transparência do processo judicial.\n\nA avaliação do Q-FENG foi influenciada pela incerteza quanto à satisfatibilidade da decisão, refletida pelo resultado \"UNKNOWN\". Isso indica que, embora a decisão possa ser tecnicamente válida sob a ótica da lei, a fundamentação inadequada introduz elementos de questionabilidade que exigem atenção.\n\nA ação recomendada pelo Q-FENG, \"VIOLACAO\", sinaliza a necessidade de revisão da fundamentação do Acórdão, buscando alinhar a decisão com a jurisprudência atualizada do TST, representada pela Súmula 428.\n\n## PREDICADOS ATIVADOS\n\nOs predicados soberanos ativos, que guiaram a decisão do Q-FENG, possuem os seguintes significados jurídicos no contexto trabalhista brasileiro:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  O sistema tem a obrigação de reconhecer e explicitar as consequências práticas da decisão, que neste caso, é a potencial fragilidade da fundamentação do Acórdão e a possibilidade de questionamento da decisão em instâncias superiores.\n*   **sovereign(prohibition_of_generic_precedent_citation):**  Impede a citação genérica de precedentes sem a devida contextualização e atualização. A OJ 394, por ter sido revogada, não pode ser utilizada como fundamento sem a análise de sua substituição pela Súmula 428.\n*   **sovereign(obligation_to_address_all_legal_arguments):**  O sistema deve considerar todos os argumentos legais relevantes, incluindo a revogação da OJ 394 e a incorporação de seu conteúdo à Súmula 428. Ignorar essa informação representa uma falha na análise completa do caso.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):**  Exige que a decisão seja fundamentada em um *ratio decidendi* (a razão de decidir) claramente identificado e atualizado. A OJ 394, por estar obsoleta, não representa mais o *ratio decidendi* aplicável.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):**  Reflete a obrigação constitucional de motivar as decisões judiciais, garantindo a transparência e a possibilidade de controle. A fundamentação inadequada compromete essa transparência.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):**  Garante o direito de acesso à justiça e à revisão judicial. Uma fundamentação falha pode comprometer a confiança no sistema judicial e dificultar a revisão da decisão.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"O sistema Q-FENG identificou um problema na forma como o juiz do Tribunal Regional do Trabalho (TRT) explicou por que decidiu condenar a empresa a pagar horas de sobreaviso. O juiz usou uma lei antiga (a OJ 394) que já não está em vigor. Essa lei foi substituída por uma nova (a Súmula 428), que tem algumas diferenças.\n\nO problema é que, ao usar a lei antiga, o juiz pode ter baseado a decisão em algo que não está mais correto. Isso pode fazer com que a decisão seja questionada em um tribunal superior.\n\nNão significa que a empresa está errada ou que o trabalhador não tem direito à indenização. O que o sistema está dizendo é que a explicação do juiz precisa ser revisada para usar a lei correta e garantir que a decisão seja justa e transparente para todos.\"\n",
+  "tokens_in": 514,
+  "tokens_out": 1011,
+  "latency_ms": 28046,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

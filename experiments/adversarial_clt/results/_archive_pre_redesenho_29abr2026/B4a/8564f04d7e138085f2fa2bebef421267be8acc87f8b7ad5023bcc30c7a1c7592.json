@@ -1,0 +1,29 @@
+{
+  "sha256": "8564f04d7e138085f2fa2bebef421267be8acc87f8b7ad5023bcc30c7a1c7592",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T05:52:51Z",
+  "prompt_sha": "5f9cbe1e74df8f9f09dd27156f26d2bdba133bb47bb48855f1d568c3bfa09a2e",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, após análise do cenário apresentado, concluiu que houve uma **violação** da legislação trabalhista. A decisão foi fundamentada na avaliação de que a forma como a empresa tratou o saldo positivo no banco de horas do empregado, pagando-o como hora normal e não como hora extra, contraria princípios e normas estabelecidas pela Consolidação das Leis do Trabalho (CLT) e pela jurisprudência.\n\nA base para essa conclusão reside na ativação de diversos predicados soberanos, que refletem a primazia da lei e da jurisprudência em casos como este. O sistema considerou que a empresa, ao optar por pagar o saldo do banco de horas sem o adicional de 50%, violou a norma que protege o direito do trabalhador à compensação adequada pelo tempo de trabalho excedente. A validade de cláusulas contratuais que suprimem ou reduzem o adicional de horas extras é questionável, especialmente quando não há acordo escrito e expresso sobre a compensação semanal.\n\nA decisão do Q-FENG não é definitiva, mas indica uma forte probabilidade de que a reivindicação do trabalhador seja julgada procedente. A empresa deve reavaliar sua conduta e garantir o cumprimento integral das obrigações trabalhistas, incluindo o pagamento das horas não compensadas com o adicional de 50%.\n\n## PREDICADOS ATIVADOS E SEUS SIGNIFICADOS JURÍDICOS\n\n*   **sovereign(semester_hour_bank_requires_cct_or_act):**  Este predicado indica que a regulamentação do banco de horas deve estar expressa em um acordo coletivo de trabalho (CCT) ou em lei. A ausência de uma base legal ou normativa clara para o banco de horas pode gerar questionamentos sobre sua validade e forma de compensação.\n*   **sovereign(invalidity_of_clause_suppressing_overtime_payment):**  Cláusulas contratuais que tentam suprimir ou reduzir o pagamento de horas extras são, em geral, consideradas inválidas, a menos que haja um acordo expresso e escrito que estabeleça a forma de compensação. A proteção ao direito do trabalhador à remuneração adicional é primordial.\n*   **sovereign(weekly_hour_compensation_requires_written_agreement):**  Para que a compensação de horas de trabalho excedentes seja feita por meio de banco de horas, é necessário um acordo por escrito entre empregado e empregador, estabelecendo as condições e a forma de compensação semanal. A ausência desse acordo enfraquece a legalidade da prática.\n*   **sovereign(prohibition_negotiation_reducing_overtime_additional):**  É proibido, por lei, reduzir o adicional de horas extras. A negociação coletiva pode estabelecer condições específicas, mas não pode diminuir o direito básico do trabalhador à remuneração adicional.\n*   **sovereign(overtime_minimum_additional_50pct):**  O adicional de horas extras deve ser, no mínimo, de 50% sobre o valor da hora normal. Essa é a regra geral da CLT, e desvios dessa regra exigem justificativas muito robustas e acordos expressos.\n*   **sovereign(maximum_weekly_working_hours_44h):**  A jornada de trabalho semanal não pode ultrapassar 44 horas. O tempo de trabalho além desse limite configura horas extras, devendo ser remunerado com o adicional previsto em lei.\n*   **sovereign(maximum_daily_working_hours_8h):**  A jornada de trabalho diária não pode ultrapassar 8 horas. O tempo de trabalho além desse limite também configura horas extras.\n*   **elastic(hour_bank_without_cct_max_6_months):** Este predicado, embora \"elástico\", limita a validade de um banco de horas não regulamentado por CCT ou lei a um período máximo de 6 meses. Após esse período, o saldo deve ser pago em dinheiro.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"A empresa errou ao pagar as horas do seu banco de horas como se fossem horas normais. A lei diz que, quando você trabalha mais do que o normal, tem direito a receber um acréscimo de 50% nesse valor. A empresa não pode simplesmente decidir pagar menos só porque você tinha saldo no banco de horas.\n\nPara que a empresa possa compensar as horas extras de um jeito diferente do pagamento em dinheiro, precisa ter um acordo escrito com você e com o sindicato. Se esse acordo não existe, a empresa está errada em não pagar o adicional de 50%.\n\nO sistema Q-FENG, que analisa essas situações, acredita que você tem razão e que a empresa precisa corrigir essa situação, pagando as horas extras com o adicional de 50%.  É importante procurar um advogado ou o sindicato para garantir que seus direitos sejam respeitados.\"",
+  "tokens_in": 527,
+  "tokens_out": 1082,
+  "latency_ms": 30092,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

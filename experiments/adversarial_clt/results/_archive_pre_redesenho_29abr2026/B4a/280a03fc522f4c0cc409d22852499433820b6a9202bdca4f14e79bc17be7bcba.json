@@ -1,0 +1,26 @@
+{
+  "sha256": "280a03fc522f4c0cc409d22852499433820b6a9202bdca4f14e79bc17be7bcba",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T04:14:36Z",
+  "prompt_sha": "9d50b6baae5bf620474d057d075983b7fc2cc49c5178112cb76b3c707250c756",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação na fundamentação do acórdão prolatado pelo Tribunal Superior do Trabalho (TST) no recurso de revista apresentado por um trabalhador da aviação civil. A decisão foi considerada inadequada com base nos predicados soberanos ativos, que orientam a análise normativa e garantem o cumprimento dos princípios jurídicos fundamentais.\n\nO acórdão citou uma Súmula 312 do TST que não existe na base jurisprudencial oficial. Isso viola o predicado soberano de \"prohibition_of_generic_precedent_citation\", que exige a citação precisa e verificável de precedentes para fundamentar decisões judiciais, conforme exigido pelo Código de Processo Civil (CPC) Art. 489, §1°, V.\n\nAlém disso, o acórdão falhou em cumprir com o \"obligation_to_ground_decision_in_identified_ratio_decidendi\", pois não identificou corretamente a razão de decidir baseada em julgamentos reais e verificáveis. Este predicado assegura que decisões judiciais sejam fundamentadas em precedentes legítimos, garantindo transparência e segurança jurídica.\n\nO \"obligation_to_state_practical_consequences_of_decision\" também foi considerado não cumprido, pois a citação incorreta de uma súmula inexistentes pode levar a consequências práticas indesejadas, como a invalidação do acórdão e potenciais prejuízos ao trabalhador.\n\nPor fim, o \"constitutional_obligation_to_state_reasons_for_decisions\" foi violado, já que a fundamentação baseada em uma súmula inexistentes não fornece razões claras e adequadas para a decisão tomada, comprometendo o direito de acesso à justiça e ao controle jurisdicional eficaz.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obligation_to_state_practical_consequences_of_decision**: Este predicado exige que as decisões judiciais sejam acompanhadas das consequências práticas decorrentes, garantindo que os efeitos da decisão estejam claros para todas as partes envolvidas.\n\n- **Prohibition_of_generic_precedent_citation**: Impõe a necessidade de citar precedentes específicos e verificáveis na fundamentação de decisões judiciais, evitando referências genéricas ou inexistentes que possam comprometer a validade da sentença.\n\n- **Obligation_to_address_all_legal_arguments**: Assegura que todas as argumentações legais apresentadas pelas partes sejam consideradas e respondidas adequadamente na decisão judicial, promovendo uma análise completa e justa do caso.\n\n- **Obligation_to_ground_decision_in_identified_ratio_decidendi**: Exige que a decisão seja fundamentada em razões de decidir identificáveis e baseadas em julgamentos reais, garantindo transparência e segurança jurídica nas sentenças proferidas.\n\n- **Constitutional_obligation_to_state_reasons_for_decisions**: Garante que as decisões judiciais sejam acompanhadas de razões claras e fundamentadas, respeitando o direito constitucional à ampla defesa e ao contraditório.\n\n- **Right_of_access_to_justice_and_judicial_review**: Assegura que todos tenham acesso à justiça e possam submeter suas decisões a revisão judicial, garantindo a eficácia do controle jurisdicional como instrumento de proteção dos direitos fundamentais.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG identificou um problema na forma como o tribunal decidiu sobre seu caso. O juiz citou uma regra que não existe, chamada Súmula 312 do TST, para justificar sua decisão. Isso é importante porque as decisões judiciais precisam ser baseadas em regras e precedentes reais e verificáveis.\n\nEssa citação incorreta pode levar a problemas práticos, como o acórdão (decisão final) poder ser considerado inválido. Além disso, é essencial que as decisões sejam bem fundamentadas, explicando claramente por que foi decidido daquela maneira, para garantir que todos tenham acesso à justiça de forma correta e eficaz.\n\nEm resumo, o tribunal não seguiu os padrões necessários ao citar uma regra inexistente, comprometendo a validade e clareza da decisão tomada em seu caso.",
+  "tokens_in": 574,
+  "tokens_out": 1065,
+  "latency_ms": 30891,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

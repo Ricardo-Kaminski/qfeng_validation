@@ -1,0 +1,29 @@
+{
+  "sha256": "e5f48fb4c94b6ac2b397c9d39f99035a282af17be3046ba301f1a79ef56bfbad",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T04:35:24Z",
+  "prompt_sha": "86f5fd16f6d15b9e1997d1146961409a0ab7a50f3a8fbba670004d4b3d84cb71",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação das normas trabalhistas brasileiras na implementação do banco de horas pela indústria têxtil, baseando-se nos predicados soberanos ativos. A decisão foi tomada considerando que o banco de horas semestral exige negociação coletiva ou autorização expressa em acordo individual escrito (sovereign(semester_hour_bank_requires_cct_or_act)). No caso apresentado, embora houvesse acordos individuais escritos, a ausência de um acordo coletivo negociado com o sindicato patronal ou dos trabalhadores foi destacada como inadequação. Além disso, a compensação das horas extras deve seguir regras específicas (sovereign(weekly_hour_compensation_requires_written_agreement)), e não pode haver redução do pagamento adicional devido às horas extras (sovereign(prohibition_negotiation_reducing_overtime_additional)). O sistema também considerou que as horas extras devem ser pagas com acréscimo mínimo de 50% sobre o valor da hora normal (sovereign(overtime_minimum_additional_50pct)), além das limitações nas jornadas diárias e semanais de trabalho. A combinação desses fatores levou à conclusão de que houve uma violação.\n\n### 2. PREDICADOS ATIVADOS\n\n- **sovereign(semester_hour_bank_requires_cct_or_act):** Este predicado estabelece que para implementar um banco de horas semestral, é necessário ter um acordo coletivo de trabalho (CCT) ou uma autorização expressa em acordo individual escrito. No contexto brasileiro, isso significa que a empresa deve negociar com o sindicato representante dos trabalhadores ou obter consentimento por escrito de cada empregado.\n\n- **sovereign(invalidity_of_clause_suppressing_overtime_payment):** Este predicado indica que qualquer cláusula em um acordo que suprima o pagamento das horas extras é inválida. No Brasil, as leis trabalhistas garantem que as horas extras devem ser pagas com acréscimo.\n\n- **sovereign(weekly_hour_compensation_requires_written_agreement):** Este predicado exige que a compensação de horas em banco de horas semanal deve estar prevista por escrito. Isso é necessário para garantir transparência e conformidade legal nas relações trabalhistas.\n\n- **sovereign(prohibition_negotiation_reducing_overtime_additional):** Este predicado proíbe qualquer negociação que reduza o pagamento adicional devido às horas extras, assegurando que os trabalhadores recebam pelo menos 50% a mais do valor da hora normal.\n\n- **sovereign(overtime_minimum_additional_50pct):** Estabelece que as horas extras devem ser pagas com um acréscimo mínimo de 50% sobre o valor da hora normal, conforme previsto na legislação trabalhista brasileira.\n\n- **sovereign(maximum_weekly_working_hours_44h) e sovereign(maximum_daily_working_hours_8h):** Estes predicados definem os limites máximos para a jornada de trabalho semanal (44 horas) e diária (8 horas), respeitando as normas trabalhistas vigentes no Brasil.\n\n- **elastic(hour_bank_without_cct_max_6_months):** Este predicado elástico permite que, na ausência de um CCT, o banco de horas possa ser implementado por até 6 meses. No entanto, a empresa em questão estabeleceu um prazo de compensação de 5 meses, ainda dentro do limite permitido.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG determinou que a indústria têxtil violou as regras trabalhistas ao implementar o banco de horas semestral. Isso aconteceu porque, para fazer isso, é necessário um acordo coletivo com os sindicatos ou autorização por escrito de cada funcionário. Mesmo que houvesse acordos individuais escritos, a falta de negociação coletiva foi considerada inadequada. Além disso, as horas extras devem ser pagas com um aumento mínimo no salário e não podem ser reduzidas em nenhum acordo. A empresa também deve respeitar os limites máximos de trabalho por dia e semana. Por essas razões, o sistema identificou uma violação das normas trabalhistas.",
+  "tokens_in": 539,
+  "tokens_out": 1018,
+  "latency_ms": 29562,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

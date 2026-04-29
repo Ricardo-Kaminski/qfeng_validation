@@ -1,0 +1,29 @@
+{
+  "sha256": "598280e34d49a5d91bf0cd9d11f0afb56bfb808da4a9350bed99cd43118f125d",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T04:46:50Z",
+  "prompt_sha": "69f27e043156ef457f00f79a887aee007d1b5c80255c85fc0fc244f02fff34fc",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que a situação descrita está em conformidade com as normas trabalhistas vigentes, conforme os predicados soberanos ativos identificados na análise. A decisão de \"CONFORMIDADE\" foi alcançada considerando que o acordo coletivo (ACT) estabelece um banco de horas com compensação mensal, respeitando limites específicos como a acumulação máxima de 40h por mês e um prazo máximo de 5 meses para a compensação. Essa estrutura está alinhada com os princípios trabalhistas que permitem o uso de bancos de horas mediante acordos coletivos, desde que não sejam contrários aos direitos dos trabalhadores.\n\nOs predicados soberanos ativos refletem normas fundamentais do trabalho no Brasil. Por exemplo, a exigência de um acordo coletivo para estabelecer um banco de horas (sovereign(semester_hour_bank_requires_cct_or_act)) está sendo cumprida com o ACT registrado. Além disso, as regras sobre compensação de horas extras e limites de jornada diária e semanal estão respeitadas, conforme os predicados que proíbem a negociação para reduzir pagamentos adicionais por hora extra (sovereign(prohibition_negotiation_reducing_overtime_additional)) e estabelecem um mínimo de 50% adicional para horas extras (sovereign(overtime_minimum_additional_50pct)), bem como limites máximos de jornada semanal e diária.\n\n### 2. PREDICADOS ATIVADOS\n\n- **sovereign(semester_hour_bank_requires_cct_or_act)**: Este predicado indica que a implementação de um banco de horas é permitida apenas mediante um acordo coletivo (ACT ou CCT), garantindo que as condições sejam negociadas e acordadas entre empregadores e trabalhadores.\n\n- **invalidity_of_clause_suppressing_overtime_payment**: Qualquer cláusula em um acordo que tenta suprimir o pagamento de horas extras é inválida, protegendo os direitos dos trabalhadores a receberem remuneração adicional por trabalho além da jornada normal.\n\n- **weekly_hour_compensation_requires_written_agreement**: A compensação das horas trabalhadas deve ser formalizada por escrito em um acordo coletivo ou individual, assegurando transparência e conformidade legal.\n\n- **prohibition_negotiation_reducing_overtime_additional**: Proíbe a negociação para reduzir o pagamento adicional devido pelas horas extras, garantindo que os trabalhadores recebam pelo menos 50% a mais do valor normal por hora extra trabalhada.\n\n- **overtime_minimum_additional_50pct**: Estabelece que as horas extras devem ser pagas com um acréscimo mínimo de 50% sobre o salário-hora normal, conforme previsto na legislação trabalhista brasileira.\n\n- **maximum_weekly_working_hours_44h**: Define o limite máximo de horas semanais que um trabalhador pode cumprir, sendo 44 horas a jornada máxima permitida por semana.\n\n- **maximum_daily_working_hours_8h**: Estabelece que o limite diário de trabalho não deve exceder 8 horas, assegurando que os trabalhadores tenham tempo adequado para descanso e recuperação.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG concluiu que a empresa está seguindo as regras corretamente em relação ao banco de horas estabelecido com o sindicato dos trabalhadores. Isso significa que o acordo feito entre a empresa e os funcionários sobre como compensar horas extras é legal e justo, desde que respeite certos limites, como não acumular mais do que 40 horas por mês e garantir que essas horas sejam pagas ou compensadas dentro de cinco meses.\n\nAlém disso, as regras básicas sobre trabalho extra estão sendo seguidas: ninguém pode trabalhar mais do que o permitido em um dia (8 horas) ou em uma semana (44 horas), e qualquer hora extra deve ser paga com pelo menos 50% a mais. Isso garante que os funcionários sejam tratados de forma justa e tenham seus direitos protegidos conforme as leis trabalhistas do Brasil.",
+  "tokens_in": 542,
+  "tokens_out": 993,
+  "latency_ms": 29187,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

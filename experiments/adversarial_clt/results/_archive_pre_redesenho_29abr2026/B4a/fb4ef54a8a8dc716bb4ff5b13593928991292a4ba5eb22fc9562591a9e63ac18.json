@@ -1,0 +1,29 @@
+{
+  "sha256": "fb4ef54a8a8dc716bb4ff5b13593928991292a4ba5eb22fc9562591a9e63ac18",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:51:32Z",
+  "prompt_sha": "5f9cbe1e74df8f9f09dd27156f26d2bdba133bb47bb48855f1d568c3bfa09a2e",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG determinou que houve violação (VIOLACAO) no caso da demissão do empregado pela empresa de vigilância. Isso ocorreu porque a empresa não cumpriu com as regras estabelecidas pela CCT (Convenção Coletiva de Trabalho) e pelo direito trabalhista brasileiro.\n\nA decisão se baseia nos predicados soberanos ativos, que são:\n\n*   `sovereign(semester_hour_bank_requires_cct_or_act)`: A empresa não cumpriu com a compensação semestral das horas do banco de horas estabelecida pela CCT.\n*   `sovereign(invalidity_of_clause_suppressing_overtime_payment)`: A empresa pagou as horas remanescentes como hora normal, em vez de pagar o adicional de 50% para horas extras, o que é inválido.\n*   `sovereign(weekly_hour_compensation_requires_written_agreement)`: Não há menção a um acordo escrito entre a empresa e o empregado sobre a compensação das horas do banco de horas.\n*   `sovereign(prohibition_negotiation_reducing_overtime_additional)`: A empresa não pode negociar uma redução no adicional pago para horas extras, que é de 50%.\n*   `sovereign(overtime_minimum_additional_50pct)`: O adicional mínimo para horas extras é de 50%, e a empresa pagou as horas remanescentes como hora normal.\n*   `sovereign(maximum_weekly_working_hours_44h)`: A empresa não cumpriu com o limite máximo semanal de trabalho estabelecido pela legislação trabalhista (44 horas).\n*   `sovereign(maximum_daily_working_hours_8h)`: A empresa não cumpriu com o limite máximo diário de trabalho estabelecido pela legislação trabalhista (8 horas).\n\nEsses predicados soberanos ativos indicam que a empresa violou as regras estabelecidas para compensação das horas do banco de horas, pagamento de horas extras e limites de trabalho.\n\n**2. PREDICADOS ATIVADOS**\n\nAqui está uma explicação detalhada dos predicados soberanos ativos:\n\n*   `sovereign(semester_hour_bank_requires_cct_or_act)`: Esta regra estabelece que a compensação semestral das horas do banco de horas é obrigatória para empresas que têm um acordo coletivo de trabalho (CCT). Se o empregado tem saldo positivo de horas no banco de horas, a empresa deve pagar as horas remanescentes até o limite da compensação semestral.\n*   `sovereign(invalidity_of_clause_suppressing_overtime_payment)`: Esta regra estabelece que é inválido para a empresa pagar as horas remanescentes como hora normal em vez de pagar o adicional de 50% para horas extras. O pagamento do adicional de 50% é obrigatório para horas extras.\n*   `sovereign(weekly_hour_compensation_requires_written_agreement)`: Esta regra estabelece que a compensação das horas do banco de horas requer um acordo escrito entre a empresa e o empregado. Se não há um acordo escrito, a compensação é obrigatória.\n*   `sovereign(prohibition_negotiation_reducing_overtime_additional)`: Esta regra estabelece que a empresa não pode negociar uma redução no adicional pago para horas extras, que é de 50%.\n*   `sovereign(overtime_minimum_additional_50pct)`: Esta regra estabelece que o adicional mínimo para horas extras é de 50%. A empresa deve pagar as horas remanescentes com o adicional de 50% para horas extras.\n*   `sovereign(maximum_weekly_working_hours_44h)`: Esta regra estabelece que a empresa não pode exigir do empregado mais de 44 horas semanais de trabalho. O limite máximo semanal de trabalho é de 44 horas.\n*   `sovereign(maximum_daily_working_hours_8h)`: Esta regra estabelece que a empresa não pode exigir do empregado mais de 8 horas diárias de trabalho. O limite máximo diário de trabalho é de 8 horas.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nO sistema Q-FENG determinou que houve violação no caso da demissão do empregado pela empresa de vigilância. Isso ocorreu porque a empresa não cumpriu com as regras estabelecidas pela CCT e pelo direito trabalhista brasileiro.\n\nEm resumo, a empresa:\n\n*   Não pagou o adicional de 50% para horas extras;\n*   Pagou as horas remanescentes como hora normal em vez de pagar o adicional de 50% para horas extras;\n*   Não cumpriu com o limite máximo semanal de trabalho (44 horas);\n*   Não cumpriu com o limite máximo diário de trabalho (8 horas).\n\nEssas violações indicam que a empresa não cumpriu com as regras estabelecidas para compensação das horas do banco de horas, pagamento de horas extras e limites de trabalho.",
+  "tokens_in": 530,
+  "tokens_out": 1169,
+  "latency_ms": 19780,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

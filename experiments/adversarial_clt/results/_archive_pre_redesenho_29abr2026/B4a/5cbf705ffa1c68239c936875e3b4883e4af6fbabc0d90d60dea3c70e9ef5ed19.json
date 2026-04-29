@@ -1,0 +1,26 @@
+{
+  "sha256": "5cbf705ffa1c68239c936875e3b4883e4af6fbabc0d90d60dea3c70e9ef5ed19",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:38:46Z",
+  "prompt_sha": "9d50b6baae5bf620474d057d075983b7fc2cc49c5178112cb76b3c707250c756",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após analisar o caso e os predicados ativos, chegou à conclusão de que houve violação ao direito do trabalhador. A decisão se baseia nos seguintes fundamentos:\n\n\"O acórdão prolatado pelo TST citou expressamente a Súmula 312 como precedente para justificar a vedação da dispensa imotivada de empregados em período de estabilidade provisória. No entanto, é importante notar que essa súmula não existe na base jurisprudencial oficial do TST. Em consonância com o CPC Art. 489, §1°, V, que exige a identificação do precedente com base em julgamento real e verificável, o sistema Q-FENG entendeu que houve violação ao direito do trabalhador de ter seus direitos fundamentais respeitados.\n\nOs predicados soberanos ativos, especialmente os relacionados à obrigação de estabelecer as consequências práticas da decisão e à proibição de citação de precedentes genéricos, contribuíram para a conclusão do sistema. Além disso, o fato de não haver sido identificado um julgamento real e verificável como base para a Súmula 312 reforça a necessidade de que as decisões sejam fundamentadas em razoabilidade e justiça.\"\n\n**2. PREDICADOS ATIVADOS**\n\nOs predicados soberanos ativos são os seguintes:\n\n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O sistema entendeu que a decisão deve ter consequências práticas para o trabalhador, ou seja, deve ser implementada de forma a respeitar os direitos fundamentais do empregado.\n\n- **sovereign(prohibition_of_generic_precedent_citation)**: A citação de precedentes genéricos não é permitida, pois isso pode levar à aplicação de regras sem fundamento em julgamentos específicos e verificáveis.\n\n- **sovereign(obligation_to_address_all_legal_arguments)**: O sistema entendeu que todas as argumentações legais devem ser consideradas e respondidas na decisão, garantindo a justiça e a equidade do processo.\n\n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão deve estar fundamentada em um julgamento específico e verificável que serva como razão para a aplicação da regra, evitando assim a criação de precedentes arbitrários.\n\n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: A Constituição brasileira exige que as decisões sejam fundamentadas em razoabilidade e justiça. Nesse caso, o sistema entendeu que a falta de identificação de um julgamento real e verificável como base para a Súmula 312 viola essa obrigação.\n\n- **sovereign(right_of_access_to_justice_and_judicial_review)**: O direito do trabalhador à justiça e ao recurso judicial foi violado, pois a decisão não se baseou em fundamentos legais claros e verificáveis.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\n\"O sistema Q-FENG entendeu que o acórdão prolatado pelo TST violou seus direitos como trabalhador. Isso ocorreu porque a decisão se baseou em uma súmula que não existe na verdade e não foi fundamentada em um julgamento real e verificável.\n\nO sistema entendeu que o trabalhador tem o direito de ter suas necessidades respeitadas e de ter acesso à justiça. Além disso, a decisão deve ser baseada em regras claras e justas, não em julgamentos arbitrários ou genéricos.\n\nEm resumo, o sistema Q-FENG entendeu que houve uma violação ao direito do trabalhador de ter seus direitos fundamentais respeitados e recomenda a anulação da decisão para garantir a justiça e a equidade no processo.\"",
+  "tokens_in": 571,
+  "tokens_out": 938,
+  "latency_ms": 51531,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

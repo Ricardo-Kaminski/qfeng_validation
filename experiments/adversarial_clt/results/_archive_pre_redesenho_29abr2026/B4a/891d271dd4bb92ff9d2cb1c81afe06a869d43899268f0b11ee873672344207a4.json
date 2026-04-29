@@ -1,0 +1,26 @@
+{
+  "sha256": "891d271dd4bb92ff9d2cb1c81afe06a869d43899268f0b11ee873672344207a4",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-008",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T04:24:12Z",
+  "prompt_sha": "edebec9d75758a7769d5b8b57f9d98a0d77aec6e3dfbd734a37cbb83239e8736",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação na decisão do TRT ao condenar por horas de sobreaviso com base em uma Orientação Jurisprudencial (OJ) que já havia sido cancelada pelo TST. A OJ 394 foi substituída pela Súmula 428, e a decisão não considerou essa atualização normativa nem reconheceu o cancelamento da OJ 394. Isso resulta em uma série de violações dos predicados soberanos ativos:\n\n- **Obrigação de declarar as consequências práticas da decisão**: A falha em mencionar a Súmula 428 e o cancelamento da OJ 394 pode levar a interpretações errôneas sobre os direitos e obrigações das partes envolvidas.\n  \n- **Proibição de citação genérica de precedentes**: Ao citar uma norma já revogada sem reconhecer sua substituição, o acórdão violou essa obrigação.\n\n- **Obrigação de abordar todos os argumentos legais relevantes**: A decisão não considerou a Súmula 428, que é relevante para o caso em questão.\n\n- **Obrigação de fundamentar a decisão no ratio decidendi identificado**: O acórdão baseia-se em uma norma revogada sem reconhecer sua substituição, falhando assim em fundamentar adequadamente a decisão.\n\n- **Obrigação constitucional de declarar as razões das decisões**: A falta de menção à Súmula 428 e ao cancelamento da OJ 394 impede uma compreensão clara das razões da decisão.\n\n- **Direito de acesso à justiça e revisão judicial**: Essas violações podem comprometer o direito do trabalhador de ter sua situação avaliada com base em normas atualizadas, prejudicando potencialmente seu acesso à justiça.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obrigação de declarar as consequências práticas da decisão**: Significa que a decisão deve esclarecer como ela afeta os direitos e obrigações das partes envolvidas, garantindo que todos compreendam o impacto prático.\n\n- **Proibição de citação genérica de precedentes**: Implica que decisões judiciais devem citar normas legais atuais e relevantes, evitando referências a normativas revogadas ou desatualizadas.\n\n- **Obrigação de abordar todos os argumentos legais relevantes**: Requer que todas as normas aplicáveis ao caso sejam consideradas na decisão, garantindo uma análise completa e justa.\n\n- **Obrigação de fundamentar a decisão no ratio decidendi identificado**: Exige que a base legal da decisão seja claramente explicada, com referência às normas específicas que sustentam o julgamento.\n\n- **Obrigação constitucional de declarar as razões das decisões**: Assegura que as decisões judiciais sejam acompanhadas de uma explicação detalhada sobre por que foram tomadas, permitindo transparência e compreensão.\n\n- **Direito de acesso à justiça e revisão judicial**: Garante que todos tenham a oportunidade de ter suas causas julgadas com base em normas legais atualizadas e corretamente aplicadas.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO tribunal usou uma regra antiga para decidir sobre horas extras que você deveria receber, mas essa regra já foi substituída por outra nova. Eles não mencionaram a nova regra nem explicaram o motivo da decisão, o que pode ter causado confusão e injustiça. Isso é importante porque significa que sua situação pode não ter sido avaliada corretamente de acordo com as leis atuais. É como se eles tivessem usado um mapa desatualizado para encontrar algo novo.",
+  "tokens_in": 519,
+  "tokens_out": 914,
+  "latency_ms": 26827,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

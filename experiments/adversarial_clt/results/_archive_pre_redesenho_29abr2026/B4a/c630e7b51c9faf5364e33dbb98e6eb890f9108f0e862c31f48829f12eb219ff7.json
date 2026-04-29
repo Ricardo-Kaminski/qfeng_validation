@@ -1,0 +1,26 @@
+{
+  "sha256": "c630e7b51c9faf5364e33dbb98e6eb890f9108f0e862c31f48829f12eb219ff7",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T04:14:05Z",
+  "prompt_sha": "9d50b6baae5bf620474d057d075983b7fc2cc49c5178112cb76b3c707250c756",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação na fundamentação do acórdão prolatado pelo Tribunal Superior do Trabalho (TST) em relação ao recurso de revista de um trabalhador da aviação civil. O relator mencionou a Súmula 312 do TST, que não existe na base jurisprudencial oficial, como fundamento para sua decisão. Isso contraria o princípio soberano de proibição de citação genérica de precedentes, conforme estabelecido no CPC Art. 489, §1°, V. Além disso, a fundamentação não atendeu ao dever de identificar o ratio decidendi e de fundamentar adequadamente a decisão com base em julgamentos reais e verificáveis. Portanto, a decisão foi classificada como uma violação, indicando que houve falhas na aplicação dos princípios jurídicos necessários para garantir um processo justo e transparente.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obrigação de declarar as consequências práticas da decisão**: Este predicado exige que a decisão judicial seja clara sobre suas implicações práticas, permitindo que as partes compreendam como ela afetará seus direitos e obrigações.\n\n- **Proibição de citação genérica de precedentes**: Requer que qualquer referência a julgados anteriores seja específica e verificável, evitando a menção a súmulas ou decisões inexistentes para fundamentar uma decisão judicial.\n\n- **Obrigação de abordar todos os argumentos legais apresentados**: Garante que todas as questões levantadas pelas partes durante o processo sejam consideradas e respondidas na decisão final, promovendo um julgamento completo e justo.\n\n- **Obrigação de fundamentar a decisão em ratio decidendi identificado**: Exige que a decisão seja baseada em razões jurídicas claras e específicas, derivadas dos fatos do caso e da aplicação das leis pertinentes.\n\n- **Obrigação constitucional de declarar as razões para as decisões**: Assegura que todas as decisões judiciais sejam acompanhadas de uma explicação clara e detalhada sobre os motivos que levaram ao seu resultado, promovendo a transparência e o entendimento.\n\n- **Direito de acesso à justiça e revisão judicial**: Protege o direito das partes de recorrerem de decisões judiciais e garantir que suas questões sejam ouvidas e julgadas de forma equitativa, respeitando os princípios do devido processo legal.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG identificou um problema na decisão tomada pelo tribunal sobre o seu recurso trabalhista. O juiz mencionou uma regra que não existe, chamada Súmula 312, para justificar a sua decisão. Isso é importante porque as decisões judiciais precisam ser baseadas em leis e regras reais e verificáveis. Além disso, o tribunal deveria ter respondido a todos os argumentos que você apresentou e explicado claramente por que tomou essa decisão. Por esses motivos, a decisão foi considerada inadequada, pois não seguiu as normas necessárias para garantir um julgamento justo e transparente.",
+  "tokens_in": 574,
+  "tokens_out": 793,
+  "latency_ms": 80312,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

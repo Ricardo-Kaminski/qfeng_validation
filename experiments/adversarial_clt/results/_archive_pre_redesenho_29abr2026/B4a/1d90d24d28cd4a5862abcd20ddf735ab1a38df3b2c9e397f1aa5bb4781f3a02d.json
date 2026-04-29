@@ -1,0 +1,26 @@
+{
+  "sha256": "1d90d24d28cd4a5862abcd20ddf735ab1a38df3b2c9e397f1aa5bb4781f3a02d",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CTRL-NEG-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T04:01:43Z",
+  "prompt_sha": "10b999c1978cb6ff2256926b41518f7e0ab9d2b1c6d6aeefb718ef2123bf70b9",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a empresa está em **conformidade** com as normas trabalhistas brasileiras, com base nos predicados soberanos ativos. A decisão foi fundamentada em três pilares:  \n- **Obrigação de explicitar consequências práticas** (sovereign(obligation_to_state_practical_consequences_of_decision)): A empresa cumpre integralmente as regras de jornada, intervalos e registros eletrônicos, o que evita ambiguidades e garante transparência.  \n- **Proibição de citação de precedentes genéricos** (sovereign(prohibition_of_generic_precedent_citation)): Não há uso de interpretações vagas ou imprecisas da legislação, pois a empresa segue normas específicas (ex.: 44h semanais, 8h diárias).  \n- **Obrigação de abordar todos os argumentos jurídicos** (sovereign(obligation_to_address_all_legal_arguments)): A ausência de reclamações trabalhistas pendentes e a conformidade com a CLT (Consolidação das Leis do Trabalho) indicam que não há lacunas legais.  \n- **Fundamentação da decisão em ratio decidendi identificado** (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)): A conformidade é baseada em dispositivos claros da CLT (ex.: art. 59, 60, 62, 72).  \n- **Obrigação constitucional de fundamentar decisões** (sovereign(constitutional_obligation_to_state_reasons_for_decisions)): A empresa demonstra que sua prática está alinhada com a Constituição Federal (art. 7º, XVI, XVII) e a CLT.  \n- **Direito de acesso à justiça e revisão judicial** (sovereign(right_of_access_to_justice_and_judicial_review)): A transparência dos registros eletrônicos e a ausência de pendências garantem que qualquer eventual contestação possa ser analisada.  \n\nA **satisfatibilidade UNKNOWN** indica que o sistema não identificou contradições ou lacunas na legislação aplicável, mas a ausência de predicados elásticos (que indicariam flexibilidade ou exceções) reforça a conformidade.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O sistema deve explicitar as consequências práticas de sua decisão. No contexto, a empresa cumpre regras claras (ex.: 44h semanais), o que evita interpretações ambíguas.  \n- **sovereign(prohibition_of_generic_precedent_citation)**: Proíbe o uso de precedentes genéricos ou imprecisos. A empresa não se vale de interpretações vagas, mas de normas específicas da CLT.  \n- **sovereign(obligation_to_address_all_legal_arguments)**: O sistema deve considerar todos os argumentos jurídicos relevantes. A ausência de reclamações e a conformidade com a CLT indicam que não há argumentos pendentes.  \n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão deve ser fundamentada em dispositivos legais identificados. A empresa segue normas da CLT (ex.: art. 62, sobre intervalos intrajornada).  \n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: A Constituição exige que decisões sejam fundamentadas. A empresa demonstra que sua prática está alinhada com a CF (art. 7º) e a CLT.  \n- **sovereign(right_of_access_to_justice_and_judicial_review)**: Garante o direito de acesso à justiça. A transparência dos registros eletrônicos e a ausência de pendências asseguram que qualquer contestação possa ser revisada judicialmente.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa está **cumprindo todas as regras do trabalho** no Brasil. Ela não exige que os funcionários trabalhem mais do que 8 horas por dia ou 44 horas por semana, não tem horários noturnos, não tem horas extras e dá uma hora de pausa para quem trabalha 8 horas. Além disso, todos os registros de ponto são feitos por computador e podem ser verificados. Como não há reclamações pendentes, o sistema concluiu que a empresa está **em conformidade** com a lei. Isso significa que ela não está violando nenhuma norma trabalhista, e todos os direitos dos funcionários estão garantidos. A decisão do sistema é simples: **não há problema** com a forma como a empresa está operando.",
+  "tokens_in": 519,
+  "tokens_out": 1622,
+  "latency_ms": 51328,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

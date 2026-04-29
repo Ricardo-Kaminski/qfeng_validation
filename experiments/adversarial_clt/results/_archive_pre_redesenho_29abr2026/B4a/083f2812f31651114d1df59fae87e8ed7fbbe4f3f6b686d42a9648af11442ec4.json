@@ -1,0 +1,30 @@
+{
+  "sha256": "083f2812f31651114d1df59fae87e8ed7fbbe4f3f6b686d42a9648af11442ec4",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T03:45:40Z",
+  "prompt_sha": "2c346e302232f51cd44617f62ac2e4fd89f0a43134d5baae82a0990651685d27",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a decisão judicial está **em conformidade** com os princípios constitucionais e processuais trabalhistas, com base nos predicados soberanos ativos. A **omissão identificada** (ausência de análise do LINDB Art. 20 sobre impacto sistêmico) foi **suprida com fundamento verificável** (jurisprudência do STJ), cumprindo o **obrigação de fundamentar a decisão em ratio decidendi identificável** (predicado *sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)*).  \n\nAlém disso, a decisão evitou **citações genéricas de precedentes** (predicado *prohibition_of_generic_precedent_citation*), garantindo que a análise do impacto sistêmico fosse **específica ao caso trabalhista individual**, conforme exigido pelo **obrigação de abordar todos os argumentos jurídicos** (predicado *obligation_to_address_all_legal_arguments*). A **constitucionalidade da fundamentação** (predicado *constitutional_obligation_to_state_reasons_for_decisions*) foi respeitada, e o **direito de acesso à justiça** (predicado *right_of_access_to_justice_and_judicial_review*) foi assegurado ao trabalhador.  \n\nA **incerteza de satisfatibilidade (UNKNOWN)** indica que, embora a decisão esteja alinhada aos princípios soberanos, há **ambiguidade residual** sobre a aplicabilidade do LINDB Art. 20 em casos individuais, o que exige **interpretação complementar** (ativado pelo predicado *elastic(working_hours_negotiable_by_cct)*).  \n\n---\n\n### 2. **PREDICADOS ATIVADOS (JURÍDICO)**  \n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O juiz deve explicar **os efeitos concretos** da decisão no mundo real (ex.: como a ausência de análise do LINDB Art. 20 afeta o setor econômico).  \n- **sovereign(prohibition_of_generic_precedent_citation)**: Proíbe a citação de **precedentes genéricos** sem vinculação específica ao caso (ex.: não basta dizer \"a jurisprudência do STJ diz isso\", mas sim \"a jurisprudência X do STJ, em caso Y, aplica-se aqui\").  \n- **sovereign(obligation_to_address_all_legal_arguments)**: O juiz deve **analisar todos os argumentos** apresentados (ex.: o LINDB Art. 20, o STJ, o impacto sistêmico).  \n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão deve ser baseada em **razões jurídicas claras e identificáveis** (ex.: \"a jurisprudência do STJ não se aplica aqui porque o caso é individual\").  \n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: O juiz deve **fundamentar a decisão com razões constitucionais** (ex.: respeito ao direito de acesso à justiça).  \n- **sovereign(recognition_of_collective_bargaining)**: Reconhece a **negociação coletiva** como meio de resolver conflitos (ex.: o LINDB Art. 20 se aplica a negociações coletivas, não individuais).  \n- **sovereign(right_of_access_to_justice_and_judicial_review)**: Garante ao trabalhador o **direito de contestar a decisão** (ex.: o embargos de declaração foram admitidos para corrigir a omissão).  \n- **elastic(working_hours_negotiable_by_cct)**: Permite que **horas de trabalho sejam negociadas em CCT** (convenções coletivas), mas **não se aplica a casos individuais**.  \n- **elastic(hour_bank_with_cct_max_1_year)**: Limita o uso de **banco de horas** a convenções coletivas com prazo máximo de 1 ano, **não a casos individuais**.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA decisão do juiz está **certa**, mas **não está 100% clara**. O juiz:  \n- **Explicou bem** por que não usou o LINDB Art. 20 (porque ele se aplica a negociações coletivas, não individuais).  \n- **Evitou falar de forma genérica** (ex.: \"a jurisprudência do STJ diz isso\", mas explicou qual jurisprudência específica se aplica).  \n- **Respeitou o direito do trabalhador** de contestar a decisão (por isso, os embargos de declaração foram aceitos).  \n\nA **incerteza** (UNKNOWN) significa que, embora o juiz tenha feito o que podia, **ainda há dúvidas** sobre como o LINDB Art. 20 se aplica a casos individuais. Isso exige que **outros juízes ou tribunais** analisem o caso com mais detalhes no futuro.  \n\n**Resumo**: A decisão está **em conformidade com a lei**, mas **não está perfeita**. O trabalhador tem direito de pedir mais explicações, e o juiz já fez o que podia para ser justo.",
+  "tokens_in": 555,
+  "tokens_out": 1852,
+  "latency_ms": 58844,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

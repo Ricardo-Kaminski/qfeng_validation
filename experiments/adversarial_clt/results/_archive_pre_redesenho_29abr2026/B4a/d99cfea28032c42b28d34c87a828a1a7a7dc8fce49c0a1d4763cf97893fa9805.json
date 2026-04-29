@@ -1,0 +1,26 @@
+{
+  "sha256": "d99cfea28032c42b28d34c87a828a1a7a7dc8fce49c0a1d4763cf97893fa9805",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T05:22:08Z",
+  "prompt_sha": "52ec50d5024118233c12c0dc9099b2683840524f81358cf22711748675d6dce8",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que a situação descrita está em conformidade com as normas aplicáveis, baseando-se nos predicados soberanos ativos. A decisão de conformidade reflete o cumprimento das obrigações estabelecidas na CCT (Convenção Coletiva de Trabalho) e nas leis trabalhistas vigentes. O sistema considerou que todas as horas acumuladas foram compensadas conforme previsto, sem qualquer contestação por parte do sindicato ou dos trabalhadores, o que indica que a empresa cumpriu suas obrigações contratuais e legais.\n\nOs predicados soberanos ativos garantem que a decisão está fundamentada em princípios jurídicos sólidos. A obrigação de declarar as consequências práticas da decisão (sovereign(obligation_to_state_practical_consequences_of_decision)) foi cumprida ao confirmar que não há desvio do acordo estabelecido na CCT. A proibição de citação genérica de precedentes (sovereign(prohibition_of_generic_precedent_citation)) assegura que a decisão é baseada no caso específico em questão, sem referências inadequadas a outros casos. A obrigação de abordar todos os argumentos legais (sovereign(obligation_to_address_all_legal_arguments)) foi atendida ao considerar todas as cláusulas relevantes da CCT e suas implicações práticas.\n\nAlém disso, a decisão está fundamentada no ratio decidendi identificado (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)), ou seja, o fundamento legal que sustenta a conformidade observada. A obrigação constitucional de declarar os motivos das decisões (sovereign(constitutional_obligation_to_state_reasons_for_decisions)) foi cumprida ao explicar claramente por que a situação está em conformidade. Por fim, o direito de acesso à justiça e revisão judicial (sovereign(right_of_access_to_justice_and_judicial_review)) é respeitado, pois qualquer parte interessada poderia buscar esclarecimentos ou contestações através dos canais legais apropriados.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Sovereign(obligation_to_state_practical_consequences_of_decision):** Juridicamente, isso significa que é necessário explicar claramente o impacto prático da decisão tomada, garantindo que todas as partes entendam como a decisão afeta suas situações.\n\n- **Sovereign(prohibition_of_generic_precedent_citation):** Isso implica que a decisão deve ser baseada no caso específico em questão, sem recorrer a precedentes genéricos ou irrelevantes que não se aplicam diretamente ao contexto atual.\n\n- **Sovereign(obligation_to_address_all_legal_arguments):** Significa que todas as considerações legais relevantes devem ser analisadas e abordadas na decisão, garantindo uma avaliação completa das normas e cláusulas aplicáveis.\n\n- **Sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** Este predicado exige que a decisão seja baseada em um fundamento legal claro e identificado, ou seja, o motivo jurídico central que justifica a conclusão alcançada.\n\n- **Sovereign(constitutional_obligation_to_state_reasons_for_decisions):** Isso significa que é necessário declarar os motivos pelas quais uma decisão foi tomada, assegurando transparência e compreensão sobre o raciocínio jurídico adotado.\n\n- **Sovereign(right_of_access_to_justice_and_judicial_review):** Garante que todas as partes têm o direito de buscar esclarecimentos ou contestar a decisão através dos meios legais disponíveis, respeitando o princípio do acesso à justiça.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG decidiu que tudo está correto com o acordo entre a empresa e os trabalhadores sobre as horas extras. Isso significa que a empresa seguiu todas as regras do contrato de trabalho, compensando as horas extras em folgas conforme combinado, sem nenhuma reclamação dos trabalhadores ou do sindicato.\n\nEm outras palavras, todos estão cumprindo o acordo feito, e não há problemas legais. Se alguém quiser discutir mais sobre isso, eles têm direito de ir ao tribunal para esclarecer qualquer dúvida. Mas, por enquanto, tudo está em ordem conforme as regras estabelecidas no contrato.",
+  "tokens_in": 535,
+  "tokens_out": 1054,
+  "latency_ms": 30625,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

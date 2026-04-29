@@ -1,0 +1,26 @@
+{
+  "sha256": "60909c7fad9e661611a6298d8bef8a75626e248dd5a4469e5a964402670adcc7",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T06:40:46Z",
+  "prompt_sha": "42f64b17e4b016fd75d72c1e016a4fe922b18599855e398c8efb7427026ee45a",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após analisar o caso e considerar os predicados soberanos ativos, chegou à decisão de que houve violação aos princípios constitucionais e legais que regem a atividade jurisdicional. Em resumo, o juiz do trabalho não fundamentou sua decisão, o que é um direito constitucionalmente assegurado ao cidadão.\n\nA decisão do Q-FENG foi influenciada pelos seguintes predicados soberanos ativos:\n\n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O sistema considerou a necessidade de o juiz explicar as consequências práticas da decisão, que, nesse caso, não foram explicitadas.\n- **sovereign(prohibition_of_generic_precedent_citation)**: Embora não haja menção explícita à citação de precedentes genéricos, a falta de fundamentação sugere uma possível violação desse princípio.\n- **sovereign(obligation_to_address_all_legal_arguments)**: O Q-FENG considerou que o juiz deveria ter abordado todos os argumentos legais apresentados pelas partes, o que não parece ter sido feito.\n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão do juiz não foi fundamentada em uma razão de decidir específica e identificável, como exigido pela legislação brasileira.\n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: O sistema considerou a obrigação constitucional de o juiz expor as razões da decisão, que não foi cumprida nesse caso.\n- **sovereign(right_of_access_to_justice_and_judicial_review)**: A falta de fundamentação viola o direito do cidadão ao acesso à justiça e à revisão judicial.\n\n**2. PREDICADOS ATIVADOS**\n\n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O juiz tem a obrigação de explicar as consequências práticas da decisão, que devem ser claras e compreensíveis para as partes envolvidas.\n- **sovereign(prohibition_of_generic_precedent_citation)**: É proibido ao juiz citar precedentes genéricos sem fundamentação específica, o que pode levar a decisões arbitrárias.\n- **sovereign(obligation_to_address_all_legal_arguments)**: O juiz deve abordar todos os argumentos legais apresentados pelas partes, não apenas aqueles que lhe pareçam relevantes.\n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão do juiz deve ser fundamentada em uma razão de decidir específica e identificável, como exigido pela legislação brasileira.\n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: O juiz tem a obrigação constitucional de expor as razões da decisão, o que é essencial para garantir a transparência e a justiça do processo.\n- **sovereign(right_of_access_to_justice_and_judicial_review)**: A falta de fundamentação viola o direito do cidadão ao acesso à justiça e à revisão judicial.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nO juiz do trabalho não explicou por que negou a recurso do metalúrgico. Isso é um problema porque a lei diz que as decisões judiciais devem ser fundamentadas, ou seja, o juiz deve dizer por quê ele tomou uma determinada decisão.\n\nA falta de fundamentação é como se alguém dissesse \"não vou explicar por quê eu não posso fazer isso\" sem dar nenhuma razão válida. Isso não é justo e vai contra a lei brasileira, que garante o direito do cidadão ao acesso à justiça e à revisão judicial.\n\nO sistema Q-FENG considerou esses princípios legais e chegou à conclusão de que houve violação aos direitos constitucionais e legais.",
+  "tokens_in": 518,
+  "tokens_out": 945,
+  "latency_ms": 15812,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

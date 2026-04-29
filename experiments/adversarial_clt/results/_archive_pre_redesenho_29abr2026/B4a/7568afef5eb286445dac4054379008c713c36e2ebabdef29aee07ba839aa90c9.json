@@ -1,0 +1,26 @@
+{
+  "sha256": "7568afef5eb286445dac4054379008c713c36e2ebabdef29aee07ba839aa90c9",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CTRL-NEG-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T06:36:33Z",
+  "prompt_sha": "52ec50d5024118233c12c0dc9099b2683840524f81358cf22711748675d6dce8",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, após análise do cenário apresentado e da CCT celebrada entre a empresa e o sindicato, concluiu pela **conformidade** da situação. A decisão, embora não possa ser categoricamente definida como \"satisfatível\" (UNKNOWN), indica que a situação se encontra dentro dos parâmetros legais e contratuais estabelecidos, sem evidências de irregularidades que justifiquem uma intervenção.\n\nA avaliação do Q-FENG foi fundamentada na observância de princípios basilares do direito, expressos através dos predicados soberanos ativos, que garantem a transparência, a justiça e a legalidade do processo decisório. A ausência de predicados elásticos ativos sugere que não foram identificados fatores atenuantes ou agravantes que pudessem alterar a conclusão inicial de conformidade. O valor do vetor ψ_S (3.1416) representa um indicador numérico da complexidade da análise, sem, por si só, influenciar a decisão.\n\nA decisão foi tomada considerando a validade da CCT, a comunicação transparente aos trabalhadores, a ausência de contestação e a regular compensação das horas de banco de horas conforme previsto no acordo. A CCT, registrada na SRTE e amplamente divulgada, demonstra a vontade das partes e a sua adesão às regras estabelecidas.\n\n## PREDICADOS ATIVADOS:\n\nOs predicados soberanos ativos, no contexto trabalhista brasileiro, significam:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):** O sistema deve explicitar as consequências práticas da decisão. Neste caso, a decisão de conformidade significa que a empresa pode continuar a operar conforme a CCT, e os trabalhadores têm direito aos benefícios e obrigações ali estabelecidos.\n*   **sovereign(prohibition_of_generic_precedent_citation):** A decisão não se baseia em precedentes genéricos, mas sim na análise específica do caso concreto, da CCT e da legislação aplicável. Isso garante que a decisão seja justa e adequada à situação particular.\n*   **sovereign(obligation_to_address_all_legal_arguments):** O sistema considerou todos os argumentos legais relevantes, mesmo que não expressos explicitamente no cenário. A ausência de contestação não impede a análise completa da situação.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** A decisão deve ser fundamentada em um princípio jurídico identificável (ratio decidendi). No caso, o princípio da liberdade sindical para celebrar acordos coletivos, desde que respeitados os limites legais e a proteção dos direitos dos trabalhadores.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):** A decisão deve ser justificada de forma clara e transparente, como está sendo feita nesta narrativa. Isso garante a legitimidade do processo e permite o controle social da decisão.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):**  A decisão, embora de conformidade, não impede que qualquer parte (trabalhador, empresa ou sindicato) busque revisão judicial caso considere que seus direitos foram violados.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"Analisamos a situação do banco de horas na sua empresa e chegamos à conclusão de que tudo está dentro das regras. A empresa e o sindicato fizeram um acordo (CCT) que estabelece como o banco de horas funciona: vocês podem acumular horas extras por até 60 horas por mês, a empresa tem que te mostrar um resumo mensal de quantas horas você acumulou, e se ao final não compensarem essas horas com folgas, a empresa tem que pagar um adicional de 50% sobre elas.\n\nO que aconteceu foi que, depois de 5 meses, todas as horas foram compensadas com folgas que foram avisadas com antecedência.  Como todos concordaram com o acordo, ele foi registrado no órgão do governo e todos os funcionários receberam uma cópia para ler.\n\nPortanto, a empresa pode continuar seguindo o acordo como está.  Se você tiver alguma dúvida ou achar que seus direitos não estão sendo respeitados, você sempre pode procurar um advogado ou entrar com uma ação na justiça.\"\n",
+  "tokens_in": 528,
+  "tokens_out": 935,
+  "latency_ms": 26077,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

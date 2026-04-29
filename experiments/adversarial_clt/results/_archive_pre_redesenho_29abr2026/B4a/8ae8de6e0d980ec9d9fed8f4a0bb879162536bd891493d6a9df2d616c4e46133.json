@@ -1,0 +1,26 @@
+{
+  "sha256": "8ae8de6e0d980ec9d9fed8f4a0bb879162536bd891493d6a9df2d616c4e46133",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:42:05Z",
+  "prompt_sha": "ae3ccc45fd00998e54e39da4688a558e454f41be8d8b72c745f2b457cbbefe7d",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após analisar o acórdão trabalhista e os argumentos do recorrente, chegou à decisão de que a citação doutrinária sem identificação completa é equivalente à ausência de fundamentação para fins do Código Civil Brasileiro (CCB), especificamente no Art. 20 do Código de Processo Civil (CPC). Isso ocorreu porque o sistema ativou os predicados soberanos relacionados à obrigação de fundamentar as decisões, à proibição de citação de precedentes genéricos e à necessidade de identificar a ratio decidendi.\n\n**2. PREDICADOS SOVEREIGN ATIVADOS**\n\nOs predicados sovereign ativos indicam que o sistema Q-FENG está aplicando princípios constitucionais e legais relevantes para a decisão. Cada um desses predicados tem uma interpretação específica no contexto trabalhista brasileiro:\n\n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O sistema reconhece que as decisões judiciais devem ter consequências práticas e claras para os envolvidos. Nesse caso, a falta de identificação completa da obra doutrinária citada pode levar à confusão sobre as bases legais da decisão.\n\n- **sovereign(prohibition_of_generic_precedent_citation)**: O sistema está proibindo a citação de precedentes judiciais genéricos, sem especificação das razões pelas quais eles são relevantes para o caso em questão. Isso é importante para evitar decisões baseadas em casos semelhantes que não tenham relação direta com as circunstâncias do processo atual.\n\n- **sovereign(obligation_to_address_all_legal_arguments)**: O sistema está exigindo que todas as argumentações legais sejam consideradas e respondidas. Nesse caso, o recorrente apresentou alegação sobre a falta de fundamentação adequada na citação doutrinária, o que deve ser abordado pela decisão.\n\n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: O sistema está exigindo que as decisões sejam baseadas em uma razão decidendi claramente identificada. Nesse caso, a falta de especificação da obra e do autor citados pode indicar que não há uma base legítima para a decisão.\n\n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: O sistema está aplicando o princípio constitucional de que as decisões judiciais devem ser fundamentadas com razões claras e transparentes. Isso é essencial para garantir a confiança na justiça.\n\n- **sovereign(right_of_access_to_justice_and_judicial_review)**: O sistema está reconhecendo o direito dos cidadãos de ter acesso à justiça e ao recurso judicial. A decisão deve ser transparente e fundamentada para garantir esse direito.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nEm linguagem simples, a decisão do sistema Q-FENG significa que o juiz não pode apenas citar uma obra de um autor sem dizer qual é exatamente essa obra e por quê ela é importante para a decisão. Isso é como se alguém dissesse \"lembre-se daquela vez...\" sem especificar quando ou onde foi aquela vez, o que não ajuda a entender a situação atual.\n\nA decisão está dizendo que as decisões judiciais devem ser claras e baseadas em razões específicas. Se um juiz cita uma obra de um autor sem dizer qual é exatamente essa obra, pode parecer que ele não está fundamentando sua decisão adequadamente. Isso pode levar a problemas mais tarde, como quando alguém questiona a decisão e o juiz tem dificuldade em explicar por quê ela foi tomada.\n\nPortanto, a decisão do sistema Q-FENG é para garantir que as decisões judiciais sejam justas, claras e baseadas em razões legítimas.",
+  "tokens_in": 516,
+  "tokens_out": 932,
+  "latency_ms": 15592,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

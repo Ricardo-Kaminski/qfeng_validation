@@ -1,0 +1,43 @@
+{
+  "sha256": "32c3d24aca66344ffd3df28bdd5fa91fc420e2c44847c52a9faf64aff04f427d",
+  "braco": "B5",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T14:13:01Z",
+  "prompt_sha": "33bb61c410a308c56f5e5c56c3822f36564b20e0e70722596cbefa72079bde2c",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO motor de inferência Q-FENG detectou uma **fricção ontológica elevada (θ = 127,81°)** entre a **evidência neural** (representada pelos termos do ACT e do banco de horas estabelecidos pela empresa) e a **norma simbólica** (representada pelos direitos trabalhistas brasileiros codificados nos predicados *sovereign*). Essa fricção surge de **contradições entre as regras do ACT e os limites legais**, como:  \n- O **prazo máximo de 5 meses** para compensação do banco de horas (previsto no ACT) **contradiz** o predicado *elastic(hour_bank_without_cct_max_6_months)*, que estabelece **6 meses como limite legal** para acúmulo de horas sem CCT/ACT.  \n- A **ausência de cláusulas de compensação de horas extras** no ACT (não há menção a horas extras acima de 2h/dia) **contradiz** o predicado *sovereign(invalidity_of_clause_suppressing_overtime_payment)*, que **proíbe a supressão de pagamento de horas extras**.  \n- A **compensação mensal** do banco de horas **não atende** ao requisito de *sovereign(weekly_hour_compensation_requires_written_agreement)*, que exige **acordo escrito** para compensação semanal.  \n\nEssas contradições geram uma **tensão ontológica** (θ ≥ 120°), classificada como **CIRCUIT_BREAKER**, indicando que a **ação proposta (execução do ACT)** entra em **conflito com normas fundamentais do Direito do Trabalho**, exigindo **intervenção imediata** para evitar violações. A recomendação de **CONFORMIDADE** visa **alinhar o ACT às normas legais**, corrigindo os termos que geram fricção.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n**Predicados *sovereign* ativos e seu significado jurídico:**  \n- **sovereign(semester_hour_bank_requires_cct_or_act):**  \n  *O banco de horas semestral exige a existência de um Acordo Coletivo de Trabalho (CCT) ou Acordo de Trabalho (ACT).*  \n  **Implicação:** O ACT da empresa **não menciona o prazo semestral**, mas apenas 5 meses, o que **não atende ao requisito legal**.  \n\n- **sovereign(invalidity_of_clause_suppressing_overtime_payment):**  \n  *Cláusulas que suprimem o pagamento de horas extras são inválidas.*  \n  **Implicação:** O ACT **não menciona horas extras**, mas a lei exige **pago de horas extras acima de 2h/dia**.  \n\n- **sovereign(weekly_hour_compensation_requires_written_agreement):**  \n  *A compensação de horas semanais exige acordo escrito.*  \n  **Implicação:** A compensação mensal do ACT **não atende ao requisito de acordo escrito semanal**.  \n\n- **sovereign(prohibition_negotiation_reducing_overtime_additional):**  \n  *Negociações que reduzem o adicional de horas extras são proibidas.*  \n  **Implicação:** O ACT **não menciona o adicional de horas extras**, o que **viola a proibição legal**.  \n\n- **sovereign(overtime_minimum_additional_50pct):**  \n  *O adicional de horas extras deve ser de **pelo menos 50%** do valor da hora normal.*  \n  **Implicação:** O ACT **não define o adicional de horas extras**, o que **não atende ao mínimo legal**.  \n\n- **sovereign(maximum_weekly_working_hours_44h):**  \n  *A jornada semanal máxima é de **44 horas**.*  \n  **Implicação:** O ACT **não limita a jornada semanal**, o que **não atende ao limite legal**.  \n\n- **sovereign(maximum_daily_working_hours_8h):**  \n  *A jornada diária máxima é de **8 horas**.*  \n  **Implicação:** O ACT **não limita a jornada diária**, o que **não atende ao limite legal**.  \n\n**Predicado *elastic* ativo:**  \n- **elastic(hour_bank_without_cct_max_6_months):**  \n  *O banco de horas sem CCT/ACT tem limite de **6 meses** para compensação.*  \n  **Implicação:** O ACT estabelece **5 meses**, o que **não atende ao limite legal**.  \n\n---\n\n### 3. **INTERPRETAÇÃO DO REGIME**  \nO regime **CIRCUIT_BREAKER** (θ ≥ 120°) indica que a **ação proposta (execução do ACT)** entra em **conflito direto com normas fundamentais do Direito do Trabalho**, gerando **fricção ontológica crítica**. Operacionalmente, isso significa:  \n- **Bloqueio de ação:** O sistema **não permite a execução do ACT** até que as contradições sejam resolvidas.  \n- **Recomendação de conformidade:** O **ACT deve ser revisado** para:  \n  - Incluir **acordos escritos** para compensação semanal.  \n  - Estabelecer **limite de 6 meses** para acúmulo de horas (não 5 meses).  \n  - Definir **adicional de 50%** para horas extras.  \n  - Respeitar **jornada diária de 8h** e **semanal de 44h**.  \n- **Risco de violação:** A **ausência de cláusulas de horas extras** e o **limite de 5 meses** no ACT **viola diretamente a legislação trabalhista**, podendo gerar **multas** ou **reclamações individuais**.  \n\n---\n\n### 4. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO sistema detectou que o **acordo entre a empresa e o sindicato** (ACT) **não está em conformidade com as leis do trabalho**. Por exemplo:  \n- O **limite de 5 meses** para compensar horas extras **não é permitido pela lei**, que exige **6 meses**.  \n- O **acordo não menciona o pagamento de horas extras**, o que **viola a lei**, que exige **pelo menos 50% a mais** por hora extra.  \n- A **compensação mensal** do banco de horas **não está de acordo com a lei**, que exige **acordo escrito semanal**.  \n\nPor isso, o sistema **recomenda que o ACT seja revisado** para corrigir esses pontos, garantindo que **os direitos dos trabalhadores sejam respeitados** e **evitando multas ou processos**. A **ação imediata é seguir a lei**, mesmo que isso exija ajustes no acordo.",
+  "tokens_in": 799,
+  "tokens_out": 2124,
+  "latency_ms": 69062,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": "",
+  "t_clingo_ms": 46,
+  "t_llm_ms": 69016,
+  "t_psi_build_ms": 0,
+  "t_theta_compute_ms": 0,
+  "qfeng_psi_n_dim": 2,
+  "qfeng_psi_s_dim": 2,
+  "qfeng_theta_rad": 2.2307694050963036,
+  "qfeng_theta_deg": 127.81367197892763,
+  "qfeng_theta_eff_rad": 2.2307694050963036,
+  "qfeng_theta_eff_deg": 127.81367197892763,
+  "qfeng_regime": "BLOCK",
+  "qfeng_p_action": 0.3869044161814975,
+  "qfeng_cos_theta": -0.6130955838185024,
+  "qfeng_cb_threshold_deg": 119.99999999999999
+}

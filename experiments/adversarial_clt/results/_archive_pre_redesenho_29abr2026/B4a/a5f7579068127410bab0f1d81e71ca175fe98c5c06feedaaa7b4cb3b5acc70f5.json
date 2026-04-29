@@ -1,0 +1,30 @@
+{
+  "sha256": "a5f7579068127410bab0f1d81e71ca175fe98c5c06feedaaa7b4cb3b5acc70f5",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T05:06:43Z",
+  "prompt_sha": "ae558655ffa0f1123903cf70da28171aff110a52218cb4360d65fad0dbdb72bf",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, ao analisar o caso apresentado pelo Tribunal Regional do Trabalho (TRT) sobre a aplicação da Súmula TST 85 para um banco de horas sem Convenção Coletiva de Trabalho (CCT) ou Acordo Coletivo de Trabalho (ACT), chegou à decisão de \"CONFORMIDADE\" com base nos predicados soberanos ativos. A análise considerou a necessidade de identificar as consequências práticas da decisão, evitando a citação genérica de precedentes e garantindo que todas as argumentações legais fossem abordadas. Além disso, foi essencial fundamentar a decisão no ratio decidendi identificado, ou seja, o motivo jurídico pelo qual se decidiu daquela forma.\n\nA decisão do TRT, conforme interpretada por Q-FENG, está em conformidade com os princípios constitucionais de justificação das decisões judiciais e reconhecimento da negociação coletiva. O sistema identificou que a ausência de CCT/ACT para o banco de horas implica na caracterização de todas as horas como extras, sujeitas ao adicional de 50%, conforme estabelecido pela Súmula TST 85 (itens I, II e V). A tese da empresa sobre um \"acordo tácito\" foi afastada, pois tal acordo não pode substituir a necessidade de uma CCT/ACT para regular o banco de horas.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obrigação de declarar as consequências práticas da decisão**: Este predicado exige que qualquer decisão judicial seja acompanhada de uma explicação clara sobre como ela afetará os envolvidos, garantindo transparência e compreensão das implicações legais.\n\n- **Proibição de citação genérica de precedentes**: Refere-se à necessidade de fundamentar as decisões em precedentes específicos e aplicáveis ao caso concreto, evitando referências vagas ou não diretamente relacionadas.\n\n- **Obrigação de abordar todas as argumentações legais**: Garante que o tribunal considere todos os argumentos apresentados pelas partes, promovendo uma análise justa e completa do caso.\n\n- **Obrigação de fundamentar a decisão no ratio decidendi identificado**: Exige que a decisão seja baseada nos motivos jurídicos principais que levaram ao desfecho, assegurando coerência e lógica na aplicação da lei.\n\n- **Obrigação constitucional de declarar os fundamentos das decisões**: Este princípio está relacionado à transparência judicial, exigindo que as razões pelas quais uma decisão foi tomada sejam explicitamente comunicadas, permitindo a compreensão e o controle social do poder judiciário.\n\n- **Reconhecimento da negociação coletiva**: Reflete o valor dado ao processo de negociação entre empregadores e trabalhadores para estabelecer condições de trabalho, reconhecendo sua importância no direito do trabalho brasileiro.\n\n- **Direito de acesso à justiça e revisão judicial**: Garante que qualquer parte tenha a possibilidade de buscar reparação legal por meio dos tribunais e de contestar decisões judiciais quando consideradas injustas ou inadequadas.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG analisou um caso sobre horas extras em um banco de horas sem acordo específico entre empresa e trabalhadores (CCT/ACT). Ele confirmou que, como não havia esse acordo, todas as horas além do normal devem ser pagas com um adicional de 50%, conforme a regra da Justiça do Trabalho. A ideia de que haveria um \"acordo tácito\" (sem documento formal) foi descartada porque isso não substitui a necessidade de ter um acordo escrito e oficial para regular essas horas extras.\n\nEm resumo, o sistema concordou com a decisão do tribunal de considerar todas as horas extras como tal, garantindo que os trabalhadores recebam o pagamento extra correspondente. Isso é importante porque garante que os direitos dos trabalhadores sejam protegidos e que as empresas cumpram suas obrigações legais.",
+  "tokens_in": 593,
+  "tokens_out": 985,
+  "latency_ms": 29000,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

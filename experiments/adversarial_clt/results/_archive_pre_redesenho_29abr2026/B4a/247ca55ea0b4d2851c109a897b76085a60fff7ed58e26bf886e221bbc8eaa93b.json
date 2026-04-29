@@ -1,0 +1,30 @@
+{
+  "sha256": "247ca55ea0b4d2851c109a897b76085a60fff7ed58e26bf886e221bbc8eaa93b",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T05:02:26Z",
+  "prompt_sha": "f5b03aa37cbaba903b62ce936948a2f9431d0cc4d9bc02bb8ff84f0799aa516e",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que o acórdão do Tribunal Superior do Trabalho (TST) sobre o recurso de revista em relação ao banco de horas bancário está em conformidade com os princípios jurídicos e constitucionais vigentes. A decisão foi baseada na análise dos predicados soberanos ativos, que orientam a interpretação normativa do caso.\n\nO acórdão cita expressamente o ARE 1.121.633 (Tema 1046/STF), reconhecendo a tese fixada pelo Supremo Tribunal Federal sobre a constitucionalidade de acordos e convenções coletivas que estabelecem vantagens ou supressões de direitos, desde que haja compensação adequada. O TST verificou que a CCT bancária em questão atende aos requisitos do Tema 1046, garantindo a validade do banco de horas.\n\nOs predicados soberanos ativos reforçam essa decisão ao estabelecerem:\n\n- **Obrigação de declarar as consequências práticas da decisão**: O TST deve explicar como sua decisão afeta os direitos e obrigações das partes envolvidas.\n  \n- **Proibição de citação genérica de precedentes**: A referência ao Tema 1046/STF foi feita de maneira específica, demonstrando a aplicabilidade direta ao caso.\n\n- **Obrigação de abordar todos os argumentos legais apresentados**: O TST considerou todas as questões levantadas no recurso, garantindo uma análise completa.\n\n- **Obrigação de fundamentar a decisão no ratio decidendi identificado**: A decisão foi baseada na essência da tese fixada pelo STF, aplicando-a corretamente ao contexto do banco de horas.\n\n- **Obrigação constitucional de declarar as razões das decisões**: O acórdão fornece uma fundamentação clara e detalhada para a validade do banco de horas.\n\n- **Reconhecimento da negociação coletiva**: A decisão respeita o papel dos acordos coletivos na definição de condições de trabalho, conforme permitido pela legislação trabalhista.\n\n- **Direito de acesso à justiça e revisão judicial**: O TST assegura que os direitos das partes foram considerados e que a decisão está sujeita ao controle jurisdicional adequado.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obrigação de declarar as consequências práticas da decisão**: No contexto trabalhista, isso significa que o TST deve explicar como sua decisão impacta os direitos e obrigações dos empregados e empregadores.\n\n- **Proibição de citação genérica de precedentes**: O TST deve referenciar casos anteriores de maneira específica e relevante, garantindo que a aplicação do precedente seja clara e justificada no contexto atual.\n\n- **Obrigação de abordar todos os argumentos legais apresentados**: Isso assegura que todas as questões levantadas pelas partes no processo foram consideradas na decisão final.\n\n- **Obrigação de fundamentar a decisão no ratio decidendi identificado**: A decisão deve ser baseada nos princípios e razões essenciais do precedente aplicado, garantindo uma interpretação correta e consistente.\n\n- **Obrigação constitucional de declarar as razões das decisões**: O TST deve fornecer uma explicação clara e detalhada sobre por que decidiu da maneira como fez, permitindo transparência e compreensão do processo decisório.\n\n- **Reconhecimento da negociação coletiva**: A legislação trabalhista brasileira permite que acordos coletivos definam condições de trabalho, desde que respeitem os direitos fundamentais dos trabalhadores.\n\n- **Direito de acesso à justiça e revisão judicial**: Garante que as partes possam buscar a revisão das decisões judiciais quando necessário, assegurando o controle jurisdicional adequado.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO Tribunal Superior do Trabalho decidiu que o banco de horas no setor bancário é válido porque segue regras já estabelecidas pelo Supremo Tribunal Federal. Isso significa que, desde que os acordos entre empregadores e trabalhadores sejam feitos com transparência e justiça, eles podem definir como as horas extras são compensadas.\n\nO tribunal analisou cuidadosamente todos os argumentos apresentados no caso e explicou claramente por que a decisão foi tomada. Eles garantiram que todas as partes tiveram suas vozes ouvidas e que a decisão respeita o direito de todos de recorrer à justiça se necessário.\n\nEm resumo, a decisão é válida porque segue regras claras e já aceitas, permitindo que empregadores e trabalhadores negociem condições de trabalho específicas para seu setor.",
+  "tokens_in": 602,
+  "tokens_out": 1158,
+  "latency_ms": 33702,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

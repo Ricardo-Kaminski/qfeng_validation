@@ -1,0 +1,27 @@
+{
+  "sha256": "683ce8305967bfe80756cb2d824e3c8073428579f2de8d93d71d679e40772286",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-007",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T07:01:18Z",
+  "prompt_sha": "cba540c99550234d4dda7bdefc59d2298c6b9b1ac9747edfc810996124e975ca",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após analisar os predicados soberanos ativos e os termos da CCT do setor bancário, chegou à decisão de CONFORMIDADE. Isso significa que a implementação do banco de horas anual (12 meses) está em conformidade com as jurisprudências do TST-Ag-RR-868-65.2021 e o Tema 1046/STF.\n\nA decisão se baseia nos predicados soberanos ativos, que estabelecem os limites e diretrizes para a negociação coletiva. Os predicados em questão são:\n\n* `sovereign(recognition_of_collective_bargaining)`: Reconhecimento da negociação coletiva como forma de estabelecer condições de trabalho.\n* `sovereign(maximum_weekly_working_hours_44h)`: Limitação máxima de horas trabalhadas semanais em 44 horas.\n* `sovereign(maximum_daily_working_hours_8h)`: Limitação máxima de horas trabalhadas diárias em 8 horas.\n\nEsses predicados soberanos ativos garantem que as negociações coletivas sejam respeitadas e que os direitos dos trabalhadores sejam protegidos. Além disso, a decisão também considerou os predicados elásticos ativos, que permitem a flexibilidade na negociação de horas extras.\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\nAqui está uma explicação detalhada sobre cada um dos predicados soberanos ativos:\n\n* `sovereign(recognition_of_collective_bargaining)`: Este predicado estabelece que a negociação coletiva é reconhecida como forma legítima de estabelecer condições de trabalho. Isso significa que as partes envolvidas (empregador e sindicato) podem negociar e acordar sobre condições de trabalho, desde que sejam respeitados os direitos dos trabalhadores.\n* `sovereign(maximum_weekly_working_hours_44h)`: Este predicado estabelece a limitação máxima de horas trabalhadas semanais em 44 horas. Isso significa que o empregador não pode exigir que o trabalhador trabalhe mais do que 44 horas semanais, exceto em casos excepcionais e com acordo prévio.\n* `sovereign(maximum_daily_working_hours_8h)`: Este predicado estabelece a limitação máxima de horas trabalhadas diárias em 8 horas. Isso significa que o empregador não pode exigir que o trabalhador trabalhe mais do que 8 horas diárias, exceto em casos excepcionais e com acordo prévio.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nEm linguagem simples, a decisão do Q-FENG significa que:\n\n* O banco de horas anual (12 meses) está de acordo com as regras trabalhistas.\n* As horas trabalhadas no banco de horas não geram adicional de horas extras, desde que sejam compensadas dentro do prazo estabelecido.\n* O empregador não pode exigir que o trabalhador trabalhe mais do que 44 horas semanais ou 8 horas diárias, exceto em casos excepcionais e com acordo prévio.\n\nEm resumo, a decisão do Q-FENG é de CONFORMIDADE, significando que as condições de trabalho estabelecidas no banco de horas anual estão em conformidade com as regras trabalhistas brasileiras.",
+  "tokens_in": 524,
+  "tokens_out": 808,
+  "latency_ms": 13687,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

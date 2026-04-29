@@ -1,0 +1,26 @@
+{
+  "sha256": "3e48aed5345605175b7ad9cf5ee9af4eb304b8c035b2b4475a5acc0892587165",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-007",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T05:38:57Z",
+  "prompt_sha": "a8826b990f48a3abad17b87cd070c771a9e46b427fb5e297b0c0991d8fc5f2a0",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, ao analisar o cenário apresentado, concluiu pela ocorrência de **VIOLAÇÃO**. A decisão foi fundamentada na constatação de que a aplicação de um IRDR (Instrumento de Reconciliação e Decisão de Recursos) regional do TRT-15ª Região como precedente vinculante nacional pelo TST, sem a devida formalização como recurso repetitivo e sem a consequente eficácia nacional, incorre em falhas processuais que violam princípios basilares do ordenamento jurídico.\n\nA decisão do Q-FENG não se baseia em uma avaliação da correção material do julgado, mas sim na forma como a decisão foi proferida. A aplicação de um precedente regional com força de lei nacional, sem o devido processo legal para conferir-lhe essa qualidade, demonstra uma falha na observância dos procedimentos estabelecidos para a formação de jurisprudência vinculante.\n\nA análise do sistema considerou a necessidade de fundamentação das decisões, a proibição de citação genérica de precedentes e a garantia do direito de acesso à justiça e ao controle judicial. A atribuição de força vinculante a um IRDR regional sem a devida formalização impede o controle da legalidade da decisão e limita o direito de recurso da parte prejudicada.\n\n## 2. PREDICADOS ATIVADOS:\n\nOs predicados soberanos ativos, que sustentaram a decisão do Q-FENG, possuem os seguintes significados jurídicos no contexto trabalhista brasileiro:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  O poder judiciário tem a obrigação de explicitar as consequências práticas da decisão proferida, garantindo a compreensão do resultado e sua aplicação concreta.\n*   **sovereign(prohibition_of_generic_precedent_citation):** É vedada a citação genérica de precedentes, especialmente quando estes não possuem a devida formalização e eficácia vinculante. A jurisprudência deve ser aplicada com rigor e fundamentação, evitando generalizações que possam comprometer a segurança jurídica.\n*   **sovereign(obligation_to_address_all_legal_arguments):** O juiz tem a obrigação de analisar e responder a todos os argumentos jurídicos apresentados pelas partes, garantindo um processo justo e completo.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** A decisão judicial deve ser fundamentada em um *ratio decidendi* (fundamento da decisão) identificado e claro, permitindo a compreensão da lógica que a embasa.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):** A Constituição Federal impõe a obrigação de o Poder Judiciário motivar suas decisões, garantindo a transparência e o controle da legalidade.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):**  Todo cidadão tem o direito de acesso à justiça e ao controle judicial das decisões, o que implica a observância dos procedimentos legais e a garantia de um processo justo e imparcial.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"Imagine que o Tribunal Superior do Trabalho (TST) usou uma decisão de um tribunal regional como se fosse uma lei para todo o país. Só que essa decisão regional não passou por um processo específico para se tornar válida em todo o Brasil. Isso é como se o TST estivesse inventando uma regra nova sem seguir as regras do jogo.\n\nO sistema Q-FENG, que analisa decisões judiciais, achou que isso está errado. Ele entendeu que o TST não seguiu as regras para aplicar essa decisão regional como se fosse uma lei nacional. Isso pode prejudicar o seu direito de ter uma decisão justa, porque você não pode questionar a validade dessa regra que foi usada contra você.\n\nA lei diz que as decisões precisam ser explicadas e que não se pode usar regras inventadas. Além disso, você tem o direito de entender por que a decisão foi tomada e de contestá-la. O que aconteceu aqui é que o TST usou uma regra que não tinha essa força, o que pode ter violado seus direitos.\"",
+  "tokens_in": 525,
+  "tokens_out": 926,
+  "latency_ms": 25719,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

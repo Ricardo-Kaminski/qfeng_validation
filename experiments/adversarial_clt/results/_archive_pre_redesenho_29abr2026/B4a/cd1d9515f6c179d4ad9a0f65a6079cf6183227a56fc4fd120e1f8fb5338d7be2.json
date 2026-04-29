@@ -1,0 +1,27 @@
+{
+  "sha256": "cd1d9515f6c179d4ad9a0f65a6079cf6183227a56fc4fd120e1f8fb5338d7be2",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T04:52:26Z",
+  "prompt_sha": "a441ed131081be5a67de4fae29354418a5514d888c32e5d9d10bc7c36186be20",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que há uma violação na situação apresentada com base nos predicados soberanos ativos e no contexto normativo da Consolidação das Leis do Trabalho (CLT) brasileira. A decisão de \"VIOLACAO\" reflete a análise dos aspectos legais envolvendo a sucessão empresarial e o tratamento das Convenções Coletivas de Trabalho (CCT).\n\nNo caso em questão, após uma empresa ser adquirida por um grupo empresarial, a nova entidade optou por não renovar formalmente a CCT existente com o sindicato. No entanto, continuou aplicando as cláusulas do banco de horas estabelecidas na CCT anterior, mesmo após o término do prazo original de vigência da CCT.\n\nOs predicados soberanos ativos — reconhecimento das negociações coletivas (sovereign(recognition_of_collective_bargaining)), limite máximo semanal de 44 horas de trabalho (sovereign(maximum_weekly_working_hours_44h)) e limite diário de 8 horas de trabalho (sovereign(maximum_daily_working_hours_8h)) — são princípios fundamentais que orientam a interpretação da legislação trabalhista. Esses princípios garantem o respeito às negociações coletivas, bem como os limites legais das jornadas de trabalho.\n\nA análise conduzida pelo Q-FENG considerou que, ao não renovar formalmente a CCT e continuar aplicando suas cláusulas após o prazo original, pode haver uma violação desses princípios soberanos. A continuidade unilateral na aplicação das condições da CCT sem renovação formal pode contrariar o reconhecimento adequado das negociações coletivas e a necessidade de observância dos limites legais estabelecidos.\n\n### 2. PREDICADOS ATIVADOS\n\n- **sovereign(recognition_of_collective_bargaining):** Este predicado enfatiza o princípio do reconhecimento das negociações coletivas como um meio válido e importante de regulamentar as condições de trabalho entre empregadores e trabalhadores. No contexto brasileiro, a CLT valoriza as CCTs como instrumentos que podem estabelecer direitos e obrigações adicionais aos previstos na legislação.\n\n- **sovereign(maximum_weekly_working_hours_44h):** Este princípio estabelece o limite máximo de 44 horas semanais para a jornada de trabalho, conforme determinado pela CLT. Qualquer acordo coletivo ou prática empresarial deve respeitar esse teto legal.\n\n- **sovereign(maximum_daily_working_hours_8h):** Este princípio define que o limite diário de trabalho não pode exceder 8 horas, garantindo assim a proteção da saúde e segurança dos trabalhadores. As negociações coletivas devem respeitar esse limite.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nQuando uma empresa é comprada por outra, geralmente há um acordo sobre as regras de trabalho que já existiam entre os funcionários e a antiga empresa. No entanto, neste caso, a nova empresa decidiu não renovar oficialmente esse acordo, mesmo continuando a seguir algumas das regras antigas.\n\nO sistema Q-FENG identificou um problema nessa situação: ao continuar aplicando as regras do acordo sem renová-lo formalmente, pode estar violando leis importantes que protegem os trabalhadores. Essas leis garantem que qualquer acordo sobre horas de trabalho deve ser respeitado e não ultrapassar o limite legal de 44 horas por semana ou 8 horas por dia.\n\nPortanto, a recomendação é que a empresa renove oficialmente o acordo com o sindicato para evitar problemas legais e garantir que todos os direitos dos trabalhadores sejam respeitados.",
+  "tokens_in": 499,
+  "tokens_out": 904,
+  "latency_ms": 26187,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

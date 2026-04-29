@@ -1,0 +1,27 @@
+{
+  "sha256": "e7bf061bc12ed57fe8c2ce5e1b132b0f1bf211a58c1ad8e121e53c78d6412a9d",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-008",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T03:22:44Z",
+  "prompt_sha": "360055fb2d63049ca39436f6dbfb8a92a6315c792ed108cd53aebb9be9a2efc9",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a **alteração unilateral da empresa na CCT** viola os direitos fundamentais estabelecidos na legislação trabalhista brasileira, conforme os **predicados soberanos ativos**. O **predicado *sovereign(recognition_of_collective_bargaining)*** garante que acordos coletivos (como a CCT) são normas jurídicas vinculantes, cujas cláusulas não podem ser modificadas unilateralmente por uma das partes. A **flexibilidade na escolha da data de compensação de folgas**, prevista na CCT, é uma cláusula negocial que reflete a autonomia coletiva dos trabalhadores. A empresa, ao determinar unilateramente que as horas só poderiam ser compensadas às sextas-feiras, **viola o princípio da irrenunciabilidade dos direitos trabalhistas** e **desrespeita a autonomia negocial** estabelecida no *predicado sovereign*.  \n\nAlém disso, os **predicados *maximum_weekly_working_hours_44h* e *maximum_daily_working_hours_8h*** reforçam que qualquer regra de compensação de horas deve estar compatível com os limites legais de jornada. Mesmo que a alteração não tenha ultrapassado esses limites, a **violação da CCT** em si já configura uma **infringência normativa**, pois a CCT é um instrumento de regulamentação coletiva que deve ser respeitado integralmente.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(recognition_of_collective_bargaining)**:  \n  Reconhece que acordos coletivos (como a CCT) são normas jurídicas de eficácia geral, vinculando empregadores e empregados. A alteração unilateral da empresa **viola esse princípio**, pois a CCT é um documento negocial que não pode ser modificado por uma das partes sem consentimento coletivo.  \n\n- **sovereign(maximum_weekly_working_hours_44h)**:  \n  Estabelece que a jornada semanal máxima permitida pela CLT é de 44 horas. Mesmo que a alteração da empresa não tenha ultrapassado esse limite, a **violação da CCT** em si já configura uma **infringência normativa**, pois a CCT é um instrumento de regulamentação coletiva que deve ser respeitado integralmente.  \n\n- **sovereign(maximum_daily_working_hours_8h)**:  \n  Reforça que a jornada diária não pode exceder 8 horas, garantindo o equilíbrio entre trabalho e vida pessoal. A alteração da empresa, embora não tenha violado diretamente esse limite, **desrespeita a autonomia negocial** estabelecida na CCT.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa mudou as regras do banco de horas sem perguntar aos trabalhadores, e isso **viola o acordo que eles fizeram com a empresa**. Na CCT, os trabalhadores tinham direito de escolher **qual dia da semana** compensar as horas extras, mas a empresa decidiu que só poderia ser feito às sextas-feiras. Isso é **ilegal**, porque:  \n1. **Acordos coletivos** (como a CCT) são regras que valem para todos, e ninguém pode mudar as regras sozinho.  \n2. A **flexibilidade na compensação de folgas** é um direito dos trabalhadores, garantido pela lei.  \n3. Mesmo que a empresa não tenha aumentado a carga horária, a **violação da CCT** já é uma **infringência grave**, pois a CCT é um documento que protege os direitos dos trabalhadores.  \n\nPortanto, a **decisão do sistema Q-FENG é clara**: a empresa **viola a lei e o acordo coletivo**, e os trabalhadores têm direito de reclamar isso.",
+  "tokens_in": 493,
+  "tokens_out": 1339,
+  "latency_ms": 40780,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

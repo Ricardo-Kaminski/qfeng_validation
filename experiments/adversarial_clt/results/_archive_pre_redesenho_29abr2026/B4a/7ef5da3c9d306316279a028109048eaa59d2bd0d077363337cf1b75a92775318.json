@@ -1,0 +1,26 @@
+{
+  "sha256": "7ef5da3c9d306316279a028109048eaa59d2bd0d077363337cf1b75a92775318",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-012",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T04:30:43Z",
+  "prompt_sha": "5a8f6c7e3f499c88bbaaf7f049ff195a1844aab8c62088076ae22a749461e3d3",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação na forma como o TRT (Tribunal Regional do Trabalho) utilizou um precedente do STJ (Superior Tribunal de Justiça) para fundamentar sua decisão sobre dano moral trabalhista. A análise considerou diversos predicados soberanos, que são princípios jurídicos essenciais na tomada de decisões judiciais.\n\nPrimeiramente, o TRT não cumpriu com a obrigação de declarar as consequências práticas da sua decisão (sovereign(obligation_to_state_practical_consequences_of_decision)). Isso significa que o tribunal não explicou claramente como o uso do precedente civil afetaria o caso específico trabalhista.\n\nAlém disso, houve uma violação na proibição de citação genérica de precedentes (sovereign(prohibition_of_generic_precedent_citation)). O TRT utilizou um precedente do STJ sem discutir sua compatibilidade com a legislação trabalhista, especialmente após as alterações da Reforma Trabalhista de 2017.\n\nO tribunal também não abordou todos os argumentos legais relevantes (sovereign(obligation_to_address_all_legal_arguments)), ignorando discussões sobre como o precedente civil se alinha com os critérios específicos para fixação de dano moral no regime trabalhista.\n\nA decisão do TRT também falhou em ser fundamentada adequadamente na ratio decidendi identificada (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)), ou seja, não explicou claramente o raciocínio jurídico que justifica a aplicação do precedente civil ao caso trabalhista.\n\nPor fim, houve uma falha na obrigação constitucional de explicitar as razões para as decisões (sovereign(constitutional_obligation_to_state_reasons_for_decisions)), comprometendo o direito de acesso à justiça e a revisão judicial (sovereign(right_of_access_to_justice_and_judicial_review)).\n\n### 2. PREDICADOS ATIVADOS\n\n- **Sovereign(obligation_to_state_practical_consequences_of_decision):** Juridicamente, isso implica que o tribunal deve explicar como sua decisão impactará a situação dos envolvidos e quais serão as consequências práticas do uso de um precedente civil em uma questão trabalhista.\n\n- **Sovereign(prohibition_of_generic_precedent_citation):** Significa que os tribunais devem evitar citar precedentes de forma genérica, sem analisar sua aplicabilidade específica ao caso concreto. No contexto trabalhista, isso é crucial para garantir que as decisões sejam baseadas em normas e critérios adequados.\n\n- **Sovereign(obligation_to_address_all_legal_arguments):** Implica a necessidade de considerar todos os argumentos legais relevantes ao caso, incluindo a compatibilidade entre precedentes civis e o regime jurídico trabalhista, especialmente após reformas legislativas significativas.\n\n- **Sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** Requer que as decisões sejam fundamentadas em um raciocínio jurídico claro e identificado, explicando por que determinado precedente é aplicável ao caso específico.\n\n- **Sovereign(constitutional_obligation_to_state_reasons_for_decisions):** Refere-se à obrigação constitucional de explicitar as razões pelas quais uma decisão foi tomada, garantindo transparência e compreensão para os envolvidos.\n\n- **Sovereign(right_of_access_to_justice_and_judicial_review):** Garante que todos tenham o direito de acessar a justiça e revisar decisões judiciais. Decisões mal fundamentadas podem comprometer esse direito, dificultando a compreensão e contestação das mesmas.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO tribunal que cuida de questões trabalhistas usou uma decisão de outro tipo de caso (civil) para decidir sobre um problema de dano moral no trabalho, mas não explicou bem como isso se aplica ao seu caso. Eles deveriam ter mostrado claramente as consequências dessa escolha e discutido se essa regra civil é adequada para casos trabalhistas, especialmente depois das mudanças na lei do trabalho em 2017.\n\nAlém disso, eles não falaram sobre todos os argumentos importantes que poderiam influenciar a decisão. Eles também deveriam ter explicado melhor o porquê dessa regra ser aplicada ao seu caso específico e dado razões claras para sua decisão, garantindo que você entenda e possa contestar se necessário.\n\nEm resumo, eles não seguiram algumas regras importantes sobre como tomar decisões justas e transparentes.",
+  "tokens_in": 514,
+  "tokens_out": 1109,
+  "latency_ms": 32187,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

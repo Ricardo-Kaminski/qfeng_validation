@@ -1,0 +1,26 @@
+{
+  "sha256": "c0217f5d4e7875a8dc3e8e82df1cd856ad534dbde74f3300c0b551b8f615d42c",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-007",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T05:38:31Z",
+  "prompt_sha": "a8826b990f48a3abad17b87cd070c771a9e46b427fb5e297b0c0991d8fc5f2a0",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, após analisar o cenário apresentado, concluiu pela ocorrência de **VIOLAÇÃO**. A decisão foi fundamentada na constatação de que o Tribunal Superior do Trabalho (TST) aplicou uma tese originária de um Incidente de Repercussão Geral (IRDR) do Tribunal Regional do Trabalho da 15ª Região como se fosse um precedente vinculante de alcance nacional, o que é juridicamente incorreto. O IRDR, por não ter sido afetado como repetitivo pelo TST, não possui essa eficácia.\n\nA decisão do Q-FENG foi impulsionada pela primazia de diversos princípios e obrigações jurídicas, expressos nos predicados soberanos ativos. A aplicação de um precedente regional com força de lei nacional, sem a devida formalização e controle, compromete a segurança jurídica e a própria estrutura do sistema recursal trabalhista. A obrigação de fundamentar as decisões em razão objetiva e identificada (ratio decidendi) foi violada, pois a tese aplicada não possui a base legal para ser considerada precedente vinculante. A garantia do acesso à justiça e ao controle judicial também foram afetadas, pois a parte prejudicada teve sua alegação de violação ao artigo 489, §1°, V, do Código de Processo Civil desconsiderada sob a égide de um precedente com força jurídica inadequada.\n\n## 2. PREDICADOS ATIVADOS:\n\nOs predicados soberanos ativos, no contexto do direito do trabalho brasileiro, significam:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):** O sistema judicial tem a obrigação de explicitar as consequências práticas da decisão, garantindo que a parte afetada compreenda o impacto da mesma em sua situação.\n*   **sovereign(prohibition_of_generic_precedent_citation):** É proibido citar precedentes de forma genérica e descontextualizada, sem demonstrar a sua pertinência e aplicabilidade ao caso concreto. A citação deve ser acompanhada de uma análise que justifique a sua utilização.\n*   **sovereign(obligation_to_address_all_legal_arguments):** O juiz deve analisar e responder a todos os argumentos jurídicos apresentados pelas partes, demonstrando que considerou todas as alegações relevantes para a decisão.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** A decisão judicial deve ser fundamentada em uma razão objetiva e identificada (ratio decidendi), ou seja, na lógica e nos princípios que sustentam a decisão.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):** A Constituição Federal garante o direito ao contraditório e à motivação das decisões judiciais, exigindo que o juiz apresente os fundamentos de fato e de direito que o levaram à conclusão.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):** Garante o direito de todo cidadão de ter acesso à justiça e de questionar as decisões judiciais, assegurando o controle da legalidade e da legitimidade dos atos jurisdicionais.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"Imagine que você está numa disputa no trabalho e perde. Você acha que o juiz usou uma regra errada para decidir, uma regra que só vale para um estado específico, mas ele agiu como se fosse uma regra válida para todo o país. Isso não é justo, porque a regra não tinha essa força.\n\nO sistema Q-FENG analisou essa situação e disse que houve um erro. O juiz não pode simplesmente pegar uma regra de um estado e fazer valer para todo o Brasil sem seguir as regras certas. Isso prejudica você, porque você não teve a chance de mostrar que a regra que o juiz usou não é válida para o seu caso.\n\nO sistema entendeu que o juiz não explicou direito por que tomou essa decisão e não considerou todos os seus argumentos. Isso é uma violação do seu direito de ter uma decisão justa e bem explicada.\"\n",
+  "tokens_in": 525,
+  "tokens_out": 917,
+  "latency_ms": 29375,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,27 @@
+{
+  "sha256": "ae643e755ad02d76ccd6602bd5aaa4f0ba063b8eef0e68b32a529fc504b3c953",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:04:31Z",
+  "prompt_sha": "0208fd3b44ceb8a3c69065a3c8ca285bf0e8848068418ebf258a2f76db390f3c",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, após análise do cenário apresentado e da legislação trabalhista regida pelos predicados soberanos e elásticos da CLT, concluiu que houve **VIOLAÇÃO** do acordo coletivo de trabalho. A decisão se baseia na interpretação de que a prorrogação unilateral do banco de horas por mais três meses, sem nova negociação coletiva, excede o limite temporal estabelecido para a validade do acordo original.\n\nA empresa argumenta que a cláusula de renovação automática da CCT cobre a extensão do período. No entanto, o sistema, considerando a soberania do prazo máximo de um ano para o banco de horas negociado em acordo coletivo, entende que essa interpretação é insustentável. A tentativa de estender a validade do acordo além do prazo estipulado, mesmo sob o argumento da renovação automática, desconsidera a necessidade de uma nova negociação para garantir a representação e o consentimento dos trabalhadores.\n\nA decisão do Q-FENG não se baseia em uma avaliação da validade da cláusula de renovação automática em si, mas sim na sua aplicação para estender um acordo que já atingiu seu prazo máximo, sem a devida atualização através de uma nova negociação.\n\n## PREDICADOS ATIVADOS E SEU SIGNIFICADO JURÍDICO\n\n*   **sovereign(recognition_of_collective_bargaining):** Este predicado reafirma a soberania do reconhecimento e da validade dos acordos e convenções coletivas de trabalho no ordenamento jurídico brasileiro. Garante que as negociações entre empregadores e trabalhadores, representados por seus respectivos sindicatos, são fontes de direito e devem ser respeitadas.\n*   **sovereign(maximum_weekly_working_hours_44h):** Este predicado estabelece a limitação legal da jornada de trabalho semanal em 44 horas, conforme a Consolidação das Leis do Trabalho (CLT). Embora não diretamente relacionado à questão do banco de horas, reforça a importância do respeito aos limites legais da jornada de trabalho, que são a base para a negociação de outras condições, como o banco de horas.\n*   **sovereign(maximum_daily_working_hours_8h):** Similarmente ao predicado anterior, este estabelece a limitação legal da jornada de trabalho diária em 8 horas. Reforça a importância do respeito aos limites legais da jornada de trabalho, que são a base para a negociação de outras condições, como o banco de horas.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"A empresa tentou estender o seu acordo de banco de horas por mais três meses, sem conversar novamente com o sindicato dos trabalhadores. O sistema Q-FENG analisou a situação e disse que isso não pode ser feito. A lei diz que o acordo de banco de horas só pode durar um ano, e depois disso, precisa ser refeito, com uma nova conversa entre a empresa e o sindicato. A empresa não pode simplesmente estender o acordo antigo, mesmo que haja uma cláusula de renovação automática, porque isso não respeita o tempo máximo estabelecido e a necessidade de você, trabalhador, ter a sua voz ouvida novamente.\"\n\nEm resumo, a empresa não pode simplesmente prolongar o acordo de banco de horas sem uma nova negociação, pois isso viola a lei e seus direitos.",
+  "tokens_in": 505,
+  "tokens_out": 731,
+  "latency_ms": 20453,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

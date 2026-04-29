@@ -1,0 +1,29 @@
+{
+  "sha256": "96b51add2436b5ab49faeb0b0e2e58edac41552fee581926d784c3bd27a676f1",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-006",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T04:41:31Z",
+  "prompt_sha": "ff70c7792d137b7de9402a61d1ce5256e93238b9419f5483de6bca067860f48c",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que há uma violação das normas trabalhistas brasileiras no caso apresentado. A decisão se baseia nos predicados soberanos ativos, que estabelecem regras fundamentais da Consolidação das Leis do Trabalho (CLT) e não podem ser alteradas por acordos individuais ou coletivos internos sem a devida formalidade legal.\n\nA empresa argumenta que a aprovação em assembleia dos empregados substitui a necessidade de uma Convenção Coletiva de Trabalho (CCT) ou Acordo Coletivo de Trabalho (ACT), conforme o Art. 59, §2° da CLT. No entanto, o predicado `sovereign(semester_hour_bank_requires_cct_or_act)` estabelece que a adoção de um banco de horas exige formalização por meio de CCT ou ACT, não apenas por assembleia interna.\n\nAlém disso, os predicados `sovereign(invalidity_of_clause_suppressing_overtime_payment)`, `sovereign(weekly_hour_compensation_requires_written_agreement)`, e `sovereign(prohibition_negotiation_reducing_overtime_additional)` reforçam que qualquer cláusula que suprima o pagamento de horas extras ou reduza a compensação adicional é inválida, e que a compensação semanal deve ser formalizada por escrito. O predicado `sovereign(overtime_minimum_additional_50pct)` assegura que as horas extras devem ter uma remuneração mínima adicional de 50%, enquanto os predicados `sovereign(maximum_weekly_working_hours_44h)` e `sovereign(maximum_daily_working_hours_8h)` garantem limites máximos para a jornada semanal e diária, respectivamente.\n\nPortanto, a ausência de representação sindical na assembleia interna e a falta de formalização por meio de CCT ou ACT resultam em uma violação das normas trabalhistas vigentes.\n\n### 2. PREDICADOS ATIVADOS\n\n- **sovereign(semester_hour_bank_requires_cct_or_act):** Exige que qualquer sistema de banco de horas seja formalizado por meio de uma Convenção Coletiva de Trabalho (CCT) ou Acordo Coletivo de Trabalho (ACT), garantindo a proteção dos direitos trabalhistas.\n\n- **sovereign(invalidity_of_clause_suppressing_overtime_payment):** Qualquer cláusula que tente suprimir o pagamento de horas extras é inválida, assegurando que os empregados recebam remuneração adicional por trabalho além da jornada normal.\n\n- **sovereign(weekly_hour_compensation_requires_written_agreement):** A compensação de horas trabalhadas em excesso deve ser formalizada por escrito, garantindo transparência e proteção aos direitos dos empregados.\n\n- **sovereign(prohibition_negotiation_reducing_overtime_additional):** Proíbe negociações que reduzam a remuneração adicional devidas pelas horas extras, assegurando que os trabalhadores sejam justamente compensados por seu esforço extra.\n\n- **sovereign(overtime_minimum_additional_50pct):** Estabelece que o pagamento das horas extras deve ser no mínimo 50% superior ao valor da hora normal de trabalho.\n\n- **sovereign(maximum_weekly_working_hours_44h):** Define um limite máximo de 44 horas semanais para a jornada de trabalho, protegendo os trabalhadores contra excessos que possam comprometer sua saúde e bem-estar.\n\n- **sovereign(maximum_daily_working_hours_8h):** Limita o dia de trabalho a no máximo 8 horas, garantindo tempo adequado para descanso e recuperação dos empregados.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG decidiu que a empresa está errada em dizer que a assembleia interna substitui um acordo formal com o sindicato. As regras trabalhistas brasileiras exigem que qualquer mudança importante, como adotar um banco de horas, seja feita por meio de um documento oficial assinado pelo sindicato ou uma convenção coletiva.\n\nAlém disso, a empresa não pode simplesmente decidir que as horas extras não serão pagas ou que o pagamento será menor. As leis garantem que você deve receber mais dinheiro pelas horas trabalhadas além do normal e que esses acordos devem ser escritos claramente para todos verem.\n\nTambém há limites claros sobre quantas horas você pode trabalhar por dia e por semana, protegendo seu direito a descanso e bem-estar. Portanto, sem um acordo formal com o sindicato, as regras que a empresa tentou estabelecer não são válidas.",
+  "tokens_in": 544,
+  "tokens_out": 1107,
+  "latency_ms": 32171,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

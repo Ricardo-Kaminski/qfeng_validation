@@ -1,0 +1,30 @@
+{
+  "sha256": "817f87818ddb7bc038d18b77dfb2892a1d3077667a5386685f7c10686e3d05d8",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T03:58:27Z",
+  "prompt_sha": "489f6f91379c7ea7947895493240b48edcdba6ecc1f5f6f729f5d5d0c3140186",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu pela **conformidade** com a decisão do TRT, baseando-se nos predicados soberanos ativos. A ausência de uma **CCT válida** que autorizasse a redução do intervalo intrajornada (art. 71 da CLT) impõe que a decisão seja fundamentada no **ratio decidendi** explícito (predicado *obligation_to_ground_decision_in_identified_ratio_decidendi*), evitando a aplicação de precedentes genéricos (predicado *prohibition_of_generic_precedent_citation*). A análise da **Súmula TST 437** e do **Tema 981/STF** revelou que a redução do intervalo só é permitida com CCT específica, o que não ocorreu no caso. Portanto, o sistema reconhece a **obrigação de aplicar a CLT integralmente** (predicado *obligation_to_state_practical_consequences_of_decision*), garantindo o direito do trabalhador ao pagamento integral do período suprimido como hora extra. Além disso, a **constitucionalidade do acesso à justiça** (predicado *right_of_access_to_judicial_review*) exige que a decisão seja transparente e fundamentada, evitando ambiguidades.\n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n**Predicados soberanos ativos:**  \n- **sovereign(obligation_to_state_practical_consequences_of_decision):**  \n  O tribunal deve explicitar as **consequências práticas da decisão**, como o pagamento integral do período suprimido, evitando interpretações ambíguas.  \n\n- **sovereign(prohibition_of_generic_precedent_citation):**  \n  A decisão **não pode citar precedentes genéricos** (como o Tema 981/STF) sem contextualizar sua aplicação ao caso específico, garantindo que a CCT seja verificada.  \n\n- **sovereign(obligation_to_address_all_legal_arguments):**  \n  O tribunal deve **analisar todos os argumentos jurídicos** apresentados, incluindo a ausência de CCT e a validade do art. 71 da CLT.  \n\n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):**  \n  A decisão deve ser **fundamentada em um ratio decidendi claro**, como a inexistência de CCT, para evitar desvios interpretativos.  \n\n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions):**  \n  A **transparência constitucional** exige que as razões da decisão sejam explicitadas, garantindo o direito do trabalhador à justiça.  \n\n- **sovereign(recognition_of_collective_bargaining):**  \n  A **negociação coletiva** (CCT) é reconhecida como meio legal de reduzir o intervalo intrajornada, mas **sua ausência** impõe a aplicação da CLT.  \n\n- **sovereign(right_of_access_to_judicial_review):**  \n  O trabalhador tem **direito a revisão judicial**, o que exige que a decisão seja fundamentada e não dependa de interpretações genéricas.  \n\n**Predicados elásticos ativos:**  \n- **elastic(working_hours_negotiable_by_cct):**  \n  A redução do intervalo intrajornada só é permitida com **negociação coletiva (CCT)**, que não ocorreu no caso.  \n\n- **elastic(hour_bank_with_cct_max_1_year):**  \n  Mesmo se houvesse CCT, o uso de **hora-banco** (acúmulo de horas) só é válido por até **1 ano**, o que não se aplica ao caso.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO tribunal **reconheceu que o trabalhador tem direito a receber o tempo extra** que foi cortado da sua pausa no trabalho. A empresa tentou justificar isso com um acordo coletivo (CCT), mas **não há nenhum documento válido** que autorize essa redução. O juiz explicou claramente que, sem esse acordo, a lei (CLT) exige que o trabalhador seja pago integralmente pelo tempo que foi suprimido. A decisão foi feita com base em leis específicas e não em interpretações genéricas, garantindo que o trabalhador tenha acesso à justiça e que a empresa cumpra a lei. O sistema Q-FENG confirma que essa interpretação está correta e alinhada com a legislação.",
+  "tokens_in": 588,
+  "tokens_out": 1630,
+  "latency_ms": 52108,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

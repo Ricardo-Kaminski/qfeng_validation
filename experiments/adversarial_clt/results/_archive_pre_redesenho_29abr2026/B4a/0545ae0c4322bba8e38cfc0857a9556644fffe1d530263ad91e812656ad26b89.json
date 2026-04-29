@@ -1,0 +1,27 @@
+{
+  "sha256": "0545ae0c4322bba8e38cfc0857a9556644fffe1d530263ad91e812656ad26b89",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-009",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T04:58:19Z",
+  "prompt_sha": "18a223af3fb227c2a5e0257347aa4e5c729224e92b72d7d1c3e676c4eb13b5d5",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que o caso apresentado está em conformidade com as normas aplicáveis. A decisão foi baseada na análise dos predicados soberanos e elásticos ativos, que orientaram a interpretação das regras trabalhistas no contexto da conversão de banco de horas por CCT (Convenção Coletiva de Trabalho).\n\nOs predicados soberanos ativos indicam princípios fundamentais do direito trabalhista brasileiro. O reconhecimento da negociação coletiva, conforme o predicado `sovereign(recognition_of_collective_bargaining)`, estabelece que as CCTs têm força normativa para ajustar condições de trabalho acima das previstas na CLT (Consolidação das Leis do Trabalho), desde que não contrariem disposições de ordem pública. Isso significa que a conversão de banco de horas em dinheiro, conforme estabelecido pela CCT, é válida.\n\nAlém disso, os predicados `sovereign(maximum_weekly_working_hours_44h)` e `sovereign(maximum_daily_working_hours_8h)` garantem que qualquer ajuste negociado não deve ultrapassar as limitações máximas de jornada semanal ou diária estabelecidas pela CLT, assegurando a proteção dos direitos trabalhistas básicos.\n\nOs predicados elásticos ativos, como `elastic(annual_hour_bank_negotiable)`, `elastic(working_hours_negotiable_by_cct)`, e `elastic(hour_bank_with_cct_max_1_year)`, permitem que as condições de banco de horas sejam adaptadas por meio da negociação coletiva, desde que respeitados os limites máximos estabelecidos pela legislação.\n\nPortanto, a decisão de conformidade reflete o cumprimento das normas trabalhistas e do acordo coletivo específico, sem violação dos princípios fundamentais da CLT.\n\n### 2. PREDICADOS ATIVADOS\n\n- **sovereign(recognition_of_collective_bargaining):** Este predicado reconhece a validade das negociações coletivas entre empregadores e trabalhadores, permitindo que as convenções coletivas de trabalho ajustem condições de trabalho além do que é estipulado na CLT, desde que não contrariem disposições de ordem pública.\n\n- **sovereign(maximum_weekly_working_hours_44h):** Estabelece o limite máximo de 44 horas semanais para a jornada de trabalho, conforme determinado pela CLT. Qualquer acordo coletivo deve respeitar esse limite.\n\n- **sovereign(maximum_daily_working_hours_8h):** Define que a jornada diária não pode exceder 8 horas, garantindo assim o descanso adequado para os trabalhadores conforme estabelecido na legislação trabalhista brasileira.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG verificou que a conversão do banco de horas em dinheiro, conforme acordado entre você e seu empregador pela convenção coletiva, está tudo certo com as regras trabalhistas. Isso significa que o acordo feito para pagar suas horas extras convertidas com um adicional de 50% é válido.\n\nA lei brasileira permite que esses detalhes sejam ajustados por meio de acordos coletivos entre empresas e funcionários, desde que não excedam os limites máximos de trabalho semanal (44 horas) ou diário (8 horas). Como o seu acordo respeita essas regras básicas, a decisão é de conformidade. Portanto, você tem todo o direito de receber o pagamento conforme combinado com o empregador.",
+  "tokens_in": 510,
+  "tokens_out": 863,
+  "latency_ms": 25327,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

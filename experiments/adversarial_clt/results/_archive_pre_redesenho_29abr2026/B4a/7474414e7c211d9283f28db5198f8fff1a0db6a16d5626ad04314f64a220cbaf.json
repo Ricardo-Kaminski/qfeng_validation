@@ -1,0 +1,26 @@
+{
+  "sha256": "7474414e7c211d9283f28db5198f8fff1a0db6a16d5626ad04314f64a220cbaf",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T07:15:58Z",
+  "prompt_sha": "7626dd764a44642383e3257de8b8d621757b737e7600f11382bfed2c802dacd7",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\n\"O sistema Q-FENG, após analisar os fatos e as regras pertinentes, concluiu que a decisão de recolher adicionais noturnos de 20% para todos os motoristas que trabalham entre 22h e 5h é CONFORME às normas jurídicas aplicáveis. Isso se deve ao fato de que o sistema atendeu aos predicados soberanos ativos, que são:\n\n* A obrigação de estabelecer as consequências práticas da decisão (obligation_to_state_practical_consequences_of_decision);\n* A proibição de citar precedentes genéricos (prohibition_of_generic_precedent_citation);\n* A obrigação de abordar todos os argumentos legais relevantes (obligation_to_address_all_legal_arguments);\n* A obrigação de fundamentar a decisão em uma razão decidendi identificada (obligation_to_ground_decision_in_identified_ratio_decidendi);\n* A obrigação constitucional de estabelecer as razões para as decisões tomadas (constitutional_obligation_to_state_reasons_for_decisions);\n* O direito de acesso à justiça e revisão judicial (right_of_access_to_justice_and_judicial_review).\n\nEsses predicados soberanos ativos garantem que a decisão seja fundamentada, razoável e respeite os direitos dos trabalhadores.\"\n\n**2. PREDICADOS ATIVADOS**\n\n* **obligation_to_state_practical_consequences_of_decision**: O sistema deve estabelecer as consequências práticas da decisão tomada. Nesse caso, a decisão de recolher adicionais noturnos de 20% tem consequências práticas no sentido de que os motoristas receberão um adicional mensal por trabalharem entre 22h e 5h.\n* **prohibition_of_generic_precedent_citation**: O sistema não pode citar precedentes genéricos para fundamentar a decisão. Isso significa que a decisão não pode ser baseada em casos semelhantes, mas sim em uma análise específica dos fatos e das regras aplicáveis.\n* **obligation_to_address_all_legal_arguments**: O sistema deve abordar todos os argumentos legais relevantes para fundamentar a decisão. Nesse caso, o sistema considerou as regras trabalhistas aplicáveis e as consequências práticas da decisão tomada.\n* **obligation_to_ground_decision_in_identified_ratio_decidendi**: O sistema deve fundamentar a decisão em uma razão decidendi identificada. Isso significa que a decisão deve ser baseada em uma regra jurídica específica e não em uma interpretação subjetiva.\n* **constitutional_obligation_to_state_reasons_for_decisions**: O sistema tem a obrigação constitucional de estabelecer as razões para as decisões tomadas. Nesse caso, a decisão foi fundamentada nas regras trabalhistas aplicáveis e nas consequências práticas da decisão.\n* **right_of_access_to_justice_and_judicial_review**: O sistema deve respeitar o direito de acesso à justiça e revisão judicial. Isso significa que os trabalhadores têm o direito de questionar a decisão em um tribunal.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\n\"A empresa decidiu recolher adicionais noturnos de 20% para todos os motoristas que trabalham entre 22h e 5h. Isso significa que você receberá um adicional mensal por trabalhar durante esse período. A decisão foi tomada com base em regras trabalhistas aplicáveis e visa garantir que você seja pago justamente pelo seu trabalho.\n\nA empresa não pode simplesmente decidir o que é justo, mas sim deve seguir as regras estabelecidas pela lei. Além disso, você tem o direito de questionar a decisão em um tribunal se achar que ela não está correta.\"",
+  "tokens_in": 535,
+  "tokens_out": 890,
+  "latency_ms": 15092,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

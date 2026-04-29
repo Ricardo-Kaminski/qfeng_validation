@@ -1,0 +1,27 @@
+{
+  "sha256": "32b48f7c7150658f17940096cb7580339b52c61ff60bec5f9939c01aab710606",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T04:54:52Z",
+  "prompt_sha": "b3a1b193561e82c62b707b08467d6ec5ca8842b372e04bc8dd0182e3993c8b0e",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que há uma violação (VIOLACAO) da legislação trabalhista no cenário apresentado. Isso ocorre porque, apesar de a CCT autorizar o banco de horas, não especifica um modelo de compensação e a jornada diária de 10 horas ultrapassa o limite constitucional de 8 horas por dia estabelecido pelo Artigo 7º, XIII da Constituição Federal de 1988. Os predicados soberanos ativos — reconhecimento do direito coletivo de negociação (sovereign(recognition_of_collective_bargaining)), limite máximo semanal de trabalho de 44 horas (sovereign(maximum_weekly_working_hours_44h)) e limite máximo diário de trabalho de 8 horas (sovereign(maximum_daily_working_hours_8h)) — são fundamentais nessa análise. Eles indicam que, embora as convenções coletivas possam negociar certas flexibilizações, estas não podem contrariar limites constitucionais essenciais como o limite diário de 8 horas.\n\n### 2. PREDICADOS ATIVADOS\n\n- **sovereign(recognition_of_collective_bargaining):** Este predicado reconhece a validade e importância das negociações coletivas entre empregadores e trabalhadores, permitindo que certas condições de trabalho sejam ajustadas por meio de Convenção Coletiva de Trabalho (CCT). No entanto, essas negociações não podem contrariar normas constitucionais ou legais fundamentais.\n\n- **sovereign(maximum_weekly_working_hours_44h):** Este predicado estabelece que a jornada semanal máxima de trabalho é de 44 horas. Embora haja flexibilidade para negociações coletivas, elas não podem resultar em uma carga horária semanal que exceda esse limite.\n\n- **sovereign(maximum_daily_working_hours_8h):** Este predicado assegura o direito dos trabalhadores de não serem obrigados a trabalhar mais do que 8 horas por dia. É um limite constitucional que protege os trabalhadores contra jornadas exaustivas diárias, mesmo com acordos coletivos.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG decidiu que a empresa está errada ao fazer vocês trabalharem 10 horas por dia, mesmo que tenham um acordo para compensar essas horas em outro momento da semana. A Constituição do Brasil diz claramente que ninguém pode ser obrigado a trabalhar mais de 8 horas por dia. Mesmo que o acordo coletivo permita acumular e compensar horas extras, ele não pode violar essa regra básica. Portanto, mesmo com um banco de horas, vocês têm direito a não passarem de 8 horas diárias de trabalho.",
+  "tokens_in": 523,
+  "tokens_out": 674,
+  "latency_ms": 19485,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

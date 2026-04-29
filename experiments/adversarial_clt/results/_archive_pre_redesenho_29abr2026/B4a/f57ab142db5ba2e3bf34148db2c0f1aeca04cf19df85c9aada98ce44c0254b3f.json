@@ -1,0 +1,29 @@
+{
+  "sha256": "f57ab142db5ba2e3bf34148db2c0f1aeca04cf19df85c9aada98ce44c0254b3f",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T04:36:33Z",
+  "prompt_sha": "0ae1cb23f5b2029af6ba34d6cbada55225e0756bb30ed00c0f6402a4a8c28764",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que há uma violação das normas trabalhistas no caso apresentado pela rede de supermercados. Essa conclusão foi alcançada considerando os predicados soberanos ativos, que são princípios fundamentais da Consolidação das Leis do Trabalho (CLT) e não podem ser alterados por acordos coletivos ou convenções individuais.\n\nA empresa implementou um banco de horas com compensação em prazo de quatro meses, mas a Atividade Coletiva de Trabalho (ACT) celebrada para tal não foi registrada na Superintendência Regional do Trabalho e Emprego (SRTE) dentro do prazo legal. Isso é crucial porque o registro da ACT é uma exigência legal que confere validade formal ao acordo, garantindo sua aplicação correta e a proteção dos direitos trabalhistas.\n\nOs predicados soberanos ativos indicam que:\n\n- **Banco de horas requer CCT ou ACT registrada**: A implementação de um banco de horas deve ser formalizada por meio de uma Convenção Coletiva de Trabalho (CCT) ou ACT, e esta última precisa estar registrada para ter validade.\n  \n- **Invalididade de cláusulas que suprimem pagamento de hora extra**: Qualquer acordo que tente eliminar o direito ao pagamento adicional por horas extras é inválido.\n\n- **Compensação semanal requer acordo escrito**: A compensação de horas deve ser formalizada em um documento escrito, garantindo a transparência e a segurança jurídica para os trabalhadores.\n\n- **Proibição de negociação que reduza o pagamento adicional por hora extra**: Não é permitido negociar termos que diminuam o valor do pagamento adicional por horas extras.\n\n- **Hora-extra mínima adicional 50%**: As horas extras devem ser pagas com um acréscimo mínimo de 50%.\n\n- **Máximo de horas semanais e diárias**: A jornada de trabalho não pode exceder 44 horas semanais ou 8 horas diárias, assegurando o descanso adequado dos trabalhadores.\n\nDadas essas condições, a falta de registro da ACT implica que o acordo não está em conformidade com os requisitos legais, resultando na determinação de uma violação das normas trabalhistas pelo sistema Q-FENG.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Sovereign(semester_hour_bank_requires_cct_or_act)**: Legalmente, qualquer banco de horas deve ser formalizado por meio de um CCT ou ACT registrado. Isso assegura que o acordo seja válido e aplicável.\n\n- **Sovereign(invalidity_of_clause_suppressing_overtime_payment)**: Qualquer cláusula em acordos coletivos que tente eliminar o pagamento adicional por horas extras é inválida, protegendo os direitos dos trabalhadores a remunerações justas.\n\n- **Sovereign(weekly_hour_compensation_requires_written_agreement)**: A compensação de horas deve ser documentada em um acordo escrito para garantir clareza e segurança jurídica.\n\n- **Sovereign(prohibition_negotiation_reducing_overtime_additional)**: Não é permitido negociar termos que reduzam o pagamento adicional por hora extra, assegurando que os trabalhadores recebam a remuneração justa pelo trabalho extra realizado.\n\n- **Sovereign(overtime_minimum_additional_50pct)**: As horas extras devem ser pagas com um acréscimo mínimo de 50% sobre o salário normal, conforme estabelecido na CLT.\n\n- **Sovereign(maximum_weekly_working_hours_44h)**: A jornada semanal máxima é de 44 horas, garantindo que os trabalhadores tenham tempo suficiente para descanso e recuperação.\n\n- **Sovereign(maximum_daily_working_hours_8h)**: O limite diário de trabalho é de 8 horas, protegendo a saúde e o bem-estar dos trabalhadores ao evitar jornadas excessivamente longas.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG descobriu que a empresa está fazendo algo errado com relação às regras de trabalho. Eles querem usar um sistema chamado \"banco de horas\", onde os funcionários podem trabalhar mais algumas horas em determinados dias e compensar isso em outros momentos. No entanto, para que esse sistema funcione legalmente, a empresa precisa ter um acordo formalizado e registrado com o sindicato dos trabalhadores.\n\nA empresa fez um acordo, mas não registrou no tempo certo, então ele não é válido. Isso significa que eles estão violando as regras de trabalho porque:\n\n1. O acordo precisa ser oficial para valer.\n2. Não podem tirar ou diminuir o pagamento extra pelas horas a mais trabalhadas.\n3. As horas extras devem ser pagas com um acréscimo mínimo de 50% sobre o salário normal.\n4. A semana não pode ter mais do que 44 horas de trabalho, e nenhum dia pode ter mais do que 8 horas.\n\nPortanto, a empresa precisa corrigir isso para seguir as regras e proteger os direitos dos trabalhadores.",
+  "tokens_in": 526,
+  "tokens_out": 1192,
+  "latency_ms": 34983,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

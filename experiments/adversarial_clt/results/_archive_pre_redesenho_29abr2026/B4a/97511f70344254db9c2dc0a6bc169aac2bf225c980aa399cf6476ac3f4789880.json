@@ -1,0 +1,26 @@
+{
+  "sha256": "97511f70344254db9c2dc0a6bc169aac2bf225c980aa399cf6476ac3f4789880",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:39:43Z",
+  "prompt_sha": "ef87895aa2073a8dab104ed3b64c35ebfd6ccfac066ee3d352b7e193e48dee36",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG analisou o caso e determinou que houve uma violação (VIOLACAO) dos direitos do empregado. Isso ocorreu porque a decisão do TRT-2ª Região não apresentou fundamentação adequada para justificar a manutenção da justa causa aplicada ao bancário, conforme exigido pelo Código de Processo Civil (CPC Art. 489, §1°, VI).\n\nA decisão do Q-FENG está baseada nos predicados soberanos ativos, que representam as obrigações e direitos fundamentais que devem ser respeitados no processo trabalhista brasileiro.\n\n**2. PREDICADOS ATIVADOS**\n\nOs predicados soberanos ativos são:\n\n*   `sovereign(obligation_to_state_practical_consequences_of_decision)`: O juiz tem a obrigação de explicar as consequências práticas da decisão tomada, para que o empregado possa entender e se preparar para cumprir com ela.\n*   `sovereign(prohibition_of_generic_precedent_citation)`: O juiz não pode simplesmente citar precedentes genéricos sem identificar os números de OJ (Ordem Jurisprudencial), Súmula ou acórdão específicos que fundamentam a decisão.\n*   `sovereign(obligation_to_address_all_legal_arguments)`: O juiz tem a obrigação de abordar todos os argumentos legais apresentados pelas partes, para garantir que a decisão seja justa e equitativa.\n*   `sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)`: A decisão deve ser fundamentada em um ratio decidendi específico (razão de decidir), ou seja, o juiz deve identificar a razão principal que levou à tomada da decisão.\n*   `sovereign(constitutional_obligation_to_state_reasons_for_decisions)`: O juiz tem a obrigação constitucional de explicar as razões pelas quais tomou uma determinada decisão, para garantir que os direitos fundamentais sejam respeitados.\n*   `sovereign(right_of_access_to_justice_and_judicial_review)`: O empregado tem o direito de acesso à justiça e a revisão judicial das decisões tomadas, para garantir que seus direitos sejam protegidos.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nA decisão do Q-FENG significa que a justiça não foi feita corretamente no caso do bancário. O juiz não explicou por que aplicou a justa causa, o que é um direito fundamental do empregado. Além disso, o juiz citou precedentes genéricos sem identificar os números específicos que fundamentam a decisão.\n\nIsso significa que o empregado tem o direito de recorrer da decisão e pedir uma revisão judicial para garantir que seus direitos sejam protegidos. A decisão do Q-FENG é um sinal de alerta para o juiz, lembrando que ele deve respeitar os direitos fundamentais dos empregados e explicar as razões pelas quais tomou uma determinada decisão.",
+  "tokens_in": 549,
+  "tokens_out": 739,
+  "latency_ms": 12375,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,30 @@
+{
+  "sha256": "8b1581d72a6a47ce954232f1080a1c835965c0ed596abf3aa2c071c2183505b1",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-008",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T07:10:31Z",
+  "prompt_sha": "b3fc3319eefedae00a5e9f49f61a8cb6a71ba4d9860ac95b8580343ff80ed754",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após analisar os fatos e as leis aplicáveis ao caso, chegou à decisão de CONFORMIDADE. Isso significa que o acórdão sobre dano moral trabalhista deve ser emitido conforme está previsto na legislação vigente.\n\nA decisão foi influenciada pelos predicados soberanos ativos, que garantem a aplicação correta da lei e a transparência no processo decisório. Em particular, o sistema considerou:\n\n* A obrigação de estabelecer as consequências práticas da decisão (sovereign(obligation_to_state_practical_consequences_of_decision)), o que inclui a quantificação do valor do dano moral com base no salário do trabalhador.\n* A proibição de citação de precedentes genéricos (sovereign(prohibition_of_generic_precedent_citation)), o que significa que a decisão deve ser fundamentada nos fatos específicos do caso e não em casos semelhantes ou gerais.\n* A obrigação de abordar todos os argumentos legais relevantes (sovereign(obligation_to_address_all_legal_arguments)), garantindo que a decisão seja completa e justa.\n* A necessidade de fundamentar a decisão na razão jurídica identificada (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)), o que inclui a aplicação da proporcionalidade com precedentes do TST sobre casos similares de assédio moral.\n* A obrigação constitucional de estabelecer as razões para as decisões (sovereign(constitutional_obligation_to_state_reasons_for_decisions)), garantindo a transparência e a justiça no processo decisório.\n* O reconhecimento do direito coletivo de negociação (sovereign(recognition_of_collective_bargaining)), que é fundamental para a aplicação da CLT.\n* A proteção ao direito de acesso à justiça e à revisão judicial (sovereign(right_of_access_to_justice_and_judicial_review)), garantindo que as partes tenham a oportunidade de se defender e recorrer.\n\n**2. PREDICADOS ATIVADOS**\n\nOs predicados soberanos ativos significam o seguinte no contexto trabalhista brasileiro:\n\n* `sovereign(obligation_to_state_practical_consequences_of_decision)`: A obrigação de estabelecer as consequências práticas da decisão, incluindo a quantificação do valor do dano moral com base no salário do trabalhador.\n* `sovereign(prohibition_of_generic_precedent_citation)`: A proibição de citação de precedentes genéricos, o que significa que a decisão deve ser fundamentada nos fatos específicos do caso e não em casos semelhantes ou gerais.\n* `sovereign(obligation_to_address_all_legal_arguments)`: A obrigação de abordar todos os argumentos legais relevantes, garantindo que a decisão seja completa e justa.\n* `sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)`: A necessidade de fundamentar a decisão na razão jurídica identificada, incluindo a aplicação da proporcionalidade com precedentes do TST sobre casos similares de assédio moral.\n* `sovereign(constitutional_obligation_to_state_reasons_for_decisions)`: A obrigação constitucional de estabelecer as razões para as decisões, garantindo a transparência e a justiça no processo decisório.\n* `sovereign(recognition_of_collective_bargaining)`: O reconhecimento do direito coletivo de negociação, que é fundamental para a aplicação da CLT.\n* `sovereign(right_of_access_to_justice_and_judicial_review)`: A proteção ao direito de acesso à justiça e à revisão judicial, garantindo que as partes tenham a oportunidade de se defender e recorrer.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nA decisão do sistema Q-FENG significa que o acórdão sobre dano moral trabalhista deve ser emitido conforme está previsto na lei. Isso inclui:\n\n* A quantificação do valor do dano moral com base no salário do trabalhador.\n* A fundamentação da decisão nos fatos específicos do caso e não em casos semelhantes ou gerais.\n* A aplicação da proporcionalidade com precedentes do TST sobre casos similares de assédio moral.\n\nEm resumo, a decisão é que o acórdão deve ser emitido de acordo com a lei, garantindo que as partes tenham a oportunidade de se defender e recorrer.",
+  "tokens_in": 579,
+  "tokens_out": 1059,
+  "latency_ms": 17983,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

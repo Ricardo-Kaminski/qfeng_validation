@@ -1,0 +1,27 @@
+{
+  "sha256": "9d3a814eec3473fc31eec4cc8c639ab573b5d1f043851a523e07a6a084df6086",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-008",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T04:57:54Z",
+  "prompt_sha": "360055fb2d63049ca39436f6dbfb8a92a6315c792ed108cd53aebb9be9a2efc9",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação nas práticas da empresa relativas ao banco de horas estabelecido na Convenção Coletiva de Trabalho (CCT). A decisão unilateral da empresa em alterar a escala de compensação das folgas, restringindo-a às sextas-feiras, contraria os termos flexíveis previstos na CCT. Isso ocorre porque os predicados soberanos ativos enfatizam a importância do reconhecimento e cumprimento dos acordos coletivos (sovereign(recognition_of_collective_bargaining)), bem como as limitações nas horas de trabalho semanais e diárias (sovereign(maximum_weekly_working_hours_44h) e sovereign(maximum_daily_working_hours_8h)). Esses princípios garantem que qualquer alteração nos termos do banco de horas deve respeitar os acordos coletivos, assegurando a proteção dos direitos trabalhistas estabelecidos.\n\n### 2. PREDICADOS ATIVADOS\n\n- **sovereign(recognition_of_collective_bargaining)**: Este predicado sublinha o princípio de que os acordos coletivos negociados entre empregadores e sindicatos devem ser respeitados e implementados integralmente. No contexto trabalhista brasileiro, isso significa que qualquer alteração unilateral nas condições previstas na CCT é inaceitável sem negociação prévia com o sindicato representativo.\n\n- **sovereign(maximum_weekly_working_hours_44h)**: Este predicado estabelece a norma de que a jornada máxima de trabalho semanal não deve exceder 44 horas, conforme regulamentação trabalhista. Qualquer ajuste nas condições do banco de horas deve respeitar essa limitação para garantir o cumprimento das leis trabalhistas.\n\n- **sovereign(maximum_daily_working_hours_8h)**: Este predicado assegura que a jornada diária máxima não ultrapasse 8 horas. Alterações no banco de horas devem ser feitas dentro desse limite, protegendo os direitos dos trabalhadores em relação à duração do trabalho diário.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG determinou que a empresa cometeu uma violação ao mudar as regras sobre como compensar horas extras sem conversar primeiro com os trabalhadores ou o sindicato. A Convenção Coletiva de Trabalho, que é um acordo entre vocês e a empresa, permitia escolher quando compensar essas horas. Ao decidir sozinha que as horas só poderiam ser compensadas às sextas-feiras, a empresa não respeitou esse acordo. Isso significa que ela agiu de forma errada ao alterar unilateralmente o banco de horas, e isso pode invalidar essa prática conforme estabelecido na CCT.",
+  "tokens_in": 498,
+  "tokens_out": 670,
+  "latency_ms": 19421,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

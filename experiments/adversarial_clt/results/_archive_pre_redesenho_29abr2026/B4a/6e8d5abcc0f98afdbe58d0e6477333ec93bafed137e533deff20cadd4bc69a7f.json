@@ -1,0 +1,30 @@
+{
+  "sha256": "6e8d5abcc0f98afdbe58d0e6477333ec93bafed137e533deff20cadd4bc69a7f",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-007",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T05:11:44Z",
+  "prompt_sha": "db7b7f8d2770500cb0104fdeeec443628af6b6ec1fc50f5b30f49d02934b8843",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, ao analisar o caso de rescisão envolvendo uma gestante, determinou a conformidade com a decisão do Tribunal Regional do Trabalho (TRT). A análise foi guiada por predicados soberanos que estabelecem os princípios fundamentais para a tomada de decisões jurídicas. O TRT citou o Artigo 10, II, \"b\" da Constituição Federal de 1988 e outras normas relevantes como a Súmula TST 244 e a Orientação Jurisprudencial (OJ) 399 da SDI-1 para fundamentar sua decisão.\n\nA análise do caso considerou que a gestante estava em período de estabilidade provisória, conforme exigido pela legislação trabalhista brasileira. O fato de a gravidez ter ocorrido antes da dispensa foi comprovado e levou à conclusão de que a rescisão era nula, resultando na reintegração da empregada ao seu posto de trabalho.\n\nOs predicados soberanos ativos desempenharam um papel crucial na análise:\n\n- **Obrigação de declarar os fundamentos práticos da decisão**: O TRT explicitou as razões pelas quais a rescisão foi considerada nula, incluindo a aplicabilidade da estabilidade provisória e a irrelevância da comunicação prévia da gravidez ao empregador.\n  \n- **Proibição de citação genérica de precedentes**: A decisão foi fundamentada em normas específicas e relevantes, sem depender de referências genéricas.\n\n- **Obrigação de abordar todos os argumentos legais apresentados**: O TRT considerou todas as questões levantadas no processo, garantindo uma análise completa.\n\n- **Obrigação de fundamentar a decisão no ratio decidendi identificado**: A decisão foi baseada nos princípios e normas aplicáveis ao caso, como a estabilidade provisória da gestante.\n\n- **Obrigação constitucional de declarar os motivos das decisões**: O TRT explicou claramente as razões para sua decisão, incluindo a aplicação da OJ 399 para afastar a exigência de comunicação prévia da gravidez.\n\n- **Reconhecimento do poder negocial coletivo**: A decisão respeitou os direitos decorrentes das convenções e acordos coletivos, se aplicáveis.\n\n- **Direito de acesso à justiça e revisão judicial**: O TRT assegurou o direito da empregada de buscar reparação jurídica para a violação de seus direitos trabalhistas.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obrigação de declarar os fundamentos práticos da decisão**: Implica que qualquer decisão judicial deve ser claramente justificada, explicando como as normas legais aplicáveis levam à conclusão alcançada.\n\n- **Proibição de citação genérica de precedentes**: Significa que a decisão deve basear-se em precedentes específicos e diretamente relevantes ao caso, evitando referências vagas ou não pertinentes.\n\n- **Obrigação de abordar todos os argumentos legais apresentados**: Garante que todas as questões levantadas no processo sejam consideradas, promovendo uma análise justa e completa.\n\n- **Obrigação de fundamentar a decisão no ratio decidendi identificado**: Exige que a decisão seja baseada nos princípios jurídicos específicos aplicáveis ao caso, assegurando coerência e legalidade.\n\n- **Obrigação constitucional de declarar os motivos das decisões**: Requer que o tribunal explique claramente as razões pelas quais chegou à sua conclusão, promovendo transparência e compreensão.\n\n- **Reconhecimento do poder negocial coletivo**: Refere-se ao respeito pelos acordos coletivos de trabalho, que podem modificar ou complementar a legislação trabalhista vigente.\n\n- **Direito de acesso à justiça e revisão judicial**: Assegura o direito das partes envolvidas em um processo de buscar reparação legal e de ter suas decisões revisadas por instâncias superiores, se necessário.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO Tribunal decidiu que a dispensa da empregada grávida foi errada porque ela tinha direito a ficar no trabalho até o final do seu período de gestação. Isso é chamado de \"estabilidade provisória\". A lei brasileira protege as trabalhadoras grávidas, permitindo-lhes permanecer em seus empregos durante esse tempo.\n\nO Tribunal também explicou que não era necessário a empregada ter avisado o empregador sobre sua gravidez antes da dispensa. Isso significa que mesmo sem esse aviso prévio, ela ainda tinha direito à proteção legal.\n\nPortanto, a decisão foi de reintegrar a trabalhadora ao seu cargo, reconhecendo que sua demissão não deveria ter acontecido enquanto estava grávida. Essa decisão segue as regras e princípios legais que garantem os direitos das trabalhadoras em situações como essa.",
+  "tokens_in": 586,
+  "tokens_out": 1203,
+  "latency_ms": 34983,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,30 @@
+{
+  "sha256": "5e1163d2e9a29f359448eb8616ed8b10c2f5d802447e72de64aaa99a4cd6592a",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-010",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:30:31Z",
+  "prompt_sha": "489f6f91379c7ea7947895493240b48edcdba6ecc1f5f6f729f5d5d0c3140186",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, ao analisar o cenário apresentado – um acórdão do Tribunal Regional do Trabalho (TRT) que revisa uma sentença sobre intervalo intrajornada reduzido – concluiu que a decisão está em **conformidade** com a lei e a jurisprudência, mesmo com a complexidade dos argumentos e referências legais envolvidas.\n\nA avaliação do Q-FENG se baseou na constatação de que o TRT, ao reconhecer a ausência de um CCT (Convenção Coletiva de Trabalho) válida que autorizasse a redução do intervalo intrajornada e, consequentemente, condenar o pagamento das horas suprimidas como extras, agiu em consonância com a legislação e a jurisprudência aplicáveis.  A decisão do TRT demonstra uma análise cuidadosa dos argumentos das partes e uma fundamentação clara na aplicação do direito.\n\nA satisfatibilidade desconhecida (UNKNOWN) reflete a complexidade do caso e a necessidade de considerar múltiplos fatores para a tomada de decisão, sem, contudo, indicar qualquer desvio do caminho legal. O Q-FENG não se pronuncia sobre a validade do mérito da decisão do TRT, apenas sobre sua conformidade com o arcabouço legal.\n\n## 2. PREDICADOS SOVEREIGN ATIVADOS:\n\nOs predicados soberanos ativos indicam as obrigações e princípios fundamentais que guiaram a avaliação do Q-FENG:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  O sistema deve considerar as consequências práticas da decisão. No caso, a decisão do TRT impacta diretamente o pagamento de horas extras ao trabalhador, e essa consequência foi devidamente considerada na avaliação.\n*   **sovereign(prohibition_of_generic_precedent_citation):**  O sistema deve evitar a citação genérica de precedentes. A decisão do TRT, ao analisar o caso concreto e fundamentar-se em leis e súmulas específicas, demonstra o cumprimento desse princípio.\n*   **sovereign(obligation_to_address_all_legal_arguments):**  O sistema deve garantir que todos os argumentos legais relevantes foram considerados. O TRT analisou a validade do CCT, a aplicação da CLT, a Súmula 437 do TST e o Tema 981 do STF, demonstrando o cumprimento dessa obrigação.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** A decisão deve estar fundamentada na *ratio decidendi* (o princípio jurídico que fundamenta a decisão) de precedentes identificados. O TRT explicitou a razão de sua decisão, ancorando-a na ausência de CCT válida.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):**  A Constituição exige que as decisões judiciais sejam motivadas. O acórdão do TRT cumpriu essa exigência, detalhando os fundamentos que o levaram à conclusão.\n*   **sovereign(recognition_of_collective_bargaining):** O sistema reconhece a importância da negociação coletiva. A análise da validade do CCT demonstra essa consideração.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):**  O sistema reconhece o direito do trabalhador de ter acesso à justiça e à revisão judicial de suas alegações. A própria existência do processo e a decisão do TRT garantem esse direito.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"Imagine que você tem direito a um intervalo para o almoço no trabalho, mas a empresa quer reduzir esse tempo. Para isso, precisa de um acordo escrito com os sindicatos, chamado Convenção Coletiva de Trabalho (CCT).\n\nNesse caso, o Tribunal do Trabalho (TRT) analisou se existia um acordo desse tipo que permitisse a empresa reduzir seu intervalo. O TRT concluiu que não havia esse acordo válido.\n\nIsso significa que a empresa não pode simplesmente diminuir seu tempo de almoço. Como ela fez isso, o TRT decidiu que você tem direito a receber como se tivesse trabalhado aquelas horas extras que não foram pagas.\n\nO sistema Q-FENG analisou essa decisão e confirmou que ela está correta, seguindo as leis e as decisões de tribunais superiores. A empresa precisa pagar as horas extras porque não tinha o direito de reduzir seu intervalo de almoço sem um acordo válido.\"",
+  "tokens_in": 591,
+  "tokens_out": 1003,
+  "latency_ms": 28031,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

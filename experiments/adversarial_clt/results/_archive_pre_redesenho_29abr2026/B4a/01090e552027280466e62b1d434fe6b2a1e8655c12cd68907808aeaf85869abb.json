@@ -1,0 +1,26 @@
+{
+  "sha256": "01090e552027280466e62b1d434fe6b2a1e8655c12cd68907808aeaf85869abb",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T07:15:43Z",
+  "prompt_sha": "52ec50d5024118233c12c0dc9099b2683840524f81358cf22711748675d6dce8",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\n\"O sistema Q-FENG, após análise dos fatos apresentados e da CCT celebrada entre a empresa e o sindicato, concluiu que deve ser mantida a Conformidade com as regras estabelecidas no contrato. Isso se deve ao fato de que todas as horas trabalhadas foram compensadas em folgas previamente comunicadas, o que atende aos requisitos da CCT.\n\nOs predicados soberanos ativos indicam a necessidade de que a decisão seja fundamentada e transparente. Em particular:\n\n* A obrigação de estabelecer as consequências práticas da decisão (obligation_to_state_practical_consequences_of_decision) é satisfeita pela análise das regras do contrato.\n* A proibição de citação de precedentes genéricos (prohibition_of_generic_precedent_citation) não se aplica, pois a decisão é baseada na interpretação específica da CCT.\n* A obrigação de abordar todos os argumentos legais relevantes (obligation_to_address_all_legal_arguments) foi cumprida pela análise das regras do contrato e das consequências da compensação das horas trabalhadas.\n* A obrigação de fundamentar a decisão em uma relação decidendi identificada (obligation_to_ground_decision_in_identified_ratio_decidendi) é satisfeita pela referência às regras da CCT.\n* A obrigação constitucional de estabelecer as razões para as decisões (constitutional_obligation_to_state_reasons_for_decisions) é cumprida pela narrativa da decisão.\n* O direito de acesso à justiça e revisão judicial (right_of_access_to_justice_and_judicial_review) não se aplica, pois a decisão é baseada na interpretação do contrato e não há contestação sindical ou individual.\n\nPortanto, o sistema Q-FENG concluiu que a Conformidade com as regras da CCT é a decisão mais adequada.\"\n\n**2. PREDICADOS SOVERANOS ATIVOS**\n\n* **obligation_to_state_practical_consequences_of_decision**: Obrigação de estabelecer as consequências práticas da decisão, ou seja, explicar como a decisão afetará os trabalhadores e a empresa.\n* **prohibition_of_generic_precedent_citation**: Proibição de citação de precedentes genéricos, ou seja, não é permitido citar casos semelhantes para fundamentar a decisão.\n* **obligation_to_address_all_legal_arguments**: Obrigação de abordar todos os argumentos legais relevantes, ou seja, considerar todas as regras e leis aplicáveis ao caso.\n* **obligation_to_ground_decision_in_identified_ratio_decidendi**: Obrigação de fundamentar a decisão em uma relação decidendi identificada, ou seja, basear a decisão em uma regra específica do contrato.\n* **constitutional_obligation_to_state_reasons_for_decisions**: Obrigação constitucional de estabelecer as razões para as decisões, ou seja, explicar por que foi tomada aquela decisão.\n* **right_of_access_to_justice_and_judicial_review**: Direito de acesso à justiça e revisão judicial, ou seja, o direito dos trabalhadores de contestar a decisão em um tribunal.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\n\"O sistema Q-FENG analisou as regras do contrato e concluiu que vocês devem continuar a seguir as regras estabelecidas na CCT. Isso porque todas as horas trabalhadas foram compensadas em folgas previamente comunicadas.\n\nNós não podemos mudar as regras do contrato, pois isso seria uma decisão arbitrária e não fundamentada. Além disso, todos os trabalhadores receberam cópias da CCT e não há contestação sindical ou individual.\n\nPortanto, é importante continuar a seguir as regras estabelecidas na CCT para evitar problemas futuros.\"",
+  "tokens_in": 532,
+  "tokens_out": 910,
+  "latency_ms": 15235,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

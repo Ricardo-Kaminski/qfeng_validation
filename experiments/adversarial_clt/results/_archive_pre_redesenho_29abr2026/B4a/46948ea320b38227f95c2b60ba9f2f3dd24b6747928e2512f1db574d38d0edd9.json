@@ -1,0 +1,29 @@
+{
+  "sha256": "46948ea320b38227f95c2b60ba9f2f3dd24b6747928e2512f1db574d38d0edd9",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T05:48:43Z",
+  "prompt_sha": "a8d1c788e3de99920a389b72bb625722e4a5ecc3f4de5f08a57e80dccc55da81",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, após análise do cenário apresentado, concluiu que houve uma **violação** da legislação trabalhista. A decisão se baseia na ausência de negociação coletiva ou acordo coletivo de trabalho (ACT/CCT) que autorize a implementação do banco de horas unilateralmente pela empresa, especialmente considerando a acumulação de um saldo significativo (até 120 horas em 9 meses).\n\nA empresa tentou justificar a validade dos acordos individuais, limitando o período do banco de horas a 6 meses. No entanto, a soberania da lei e a necessidade de proteção aos direitos dos trabalhadores, especialmente no que tange à compensação de horas extras e à limitação da jornada de trabalho, prevalecem. A unilateralidade na imposição do banco de horas, sem a participação do sindicato da categoria, é considerada irregular, pois desconsidera a importância da negociação para garantir condições de trabalho justas e equilibradas.\n\nO sistema considerou a elasticidade do período máximo de 6 meses para o banco de horas, mas a ausência de um ACT/CCT que legitime a prática, combinada com a acumulação de um saldo elevado, reforça a conclusão de que a implementação do banco de horas, nas condições apresentadas, é passível de questionamento judicial.\n\n## PREDICADOS SOVERAINOS ATIVOS: SIGNIFICADO JURÍDICO\n\n1. **sovereign(semester_hour_bank_requires_cct_or_act):**  Este predicado estabelece que a instituição de um banco de horas, especialmente quando envolve a possibilidade de acumulação de horas, necessita ser formalizada por meio de um Acordo Coletivo de Trabalho (ACT) ou um Contrato Coletivo de Trabalho (CCT) celebrado entre o sindicato da categoria e a empresa. A lei exige essa formalização para garantir a transparência e a negociação das condições de trabalho.\n2. **sovereign(invalidity_of_clause_suppressing_overtime_payment):**  Este predicado indica que cláusulas contratuais que buscam suprimir o pagamento de horas extras são consideradas inválidas. A lei garante o direito à compensação pelas horas trabalhadas além da jornada regular, e tentativas de restringir esse direito são nulas.\n3. **sovereign(weekly_hour_compensation_requires_written_agreement):**  Este predicado reforça que a compensação de horas extras deve ser formalizada por escrito, garantindo a comprovação do trabalho realizado e a segurança jurídica tanto para o empregado quanto para o empregador.\n4. **sovereign(prohibition_negotiation_reducing_overtime_additional):**  Este predicado proíbe a negociação que vise reduzir o adicional de horas extras. A lei estabelece um percentual mínimo para o adicional de horas extras, e esse valor não pode ser diminuído por meio de negociação individual ou coletiva.\n5. **sovereign(overtime_minimum_additional_50pct):**  Este predicado define que o adicional de horas extras deve ser, no mínimo, de 50% sobre o valor da hora normal.\n6. **sovereign(maximum_weekly_working_hours_44h):**  Este predicado estabelece o limite máximo da jornada de trabalho semanal em 44 horas.\n7. **sovereign(maximum_daily_working_hours_8h):**  Este predicado estabelece o limite máximo da jornada de trabalho diária em 8 horas.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"A empresa fez um acordo de banco de horas sem conversar com o seu sindicato. Isso é um problema porque a lei diz que, quando se trata de banco de horas, especialmente quando você pode acumular muitas horas, é preciso ter um acordo entre a empresa e o sindicato para garantir que tudo seja feito de forma justa.\n\nA empresa diz que o acordo que você assinou é válido só para um período de até 6 meses, mas mesmo assim, a forma como o banco de horas foi implementado está errada, porque não houve negociação com o sindicato.\n\nIsso significa que você tem o direito de questionar essa situação e pedir que a empresa pague as horas extras que você trabalhou além da sua jornada normal. A lei protege você para que a empresa não te explore e para que você receba o que é devido por seu trabalho.\"\n",
+  "tokens_in": 532,
+  "tokens_out": 961,
+  "latency_ms": 26765,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

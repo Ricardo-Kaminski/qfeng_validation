@@ -1,0 +1,29 @@
+{
+  "sha256": "ac4e8cf3b48e301c0e798f6d5610e26f6996afa571de93aa7cfaf279b30b424c",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-007",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T04:43:34Z",
+  "prompt_sha": "1970504ab2b4a3698fb4bb32d084c198f45cfb327a995ae3f86ed94249f3c1d4",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação das normas trabalhistas no cenário apresentado. A decisão de \"VIOLACAO\" foi baseada na análise dos predicados soberanos ativos, que são princípios fundamentais do Direito do Trabalho brasileiro. O empregado acumulou 400 horas em banco de horas dentro do prazo permitido pela CCT (Convenção Coletiva de Trabalho), mas a empresa não cumpriu com o dever de compensação dessas horas, nem pagá-las ao término do período estipulado. A ausência de um mecanismo de pagamento em caso de não-compensação na CCT não exime a empresa da obrigação legal de respeitar os direitos trabalhistas básicos.\n\nOs predicados soberanos ativos indicam que, independentemente das cláusulas contratuais específicas, certos princípios devem ser observados. Por exemplo, o princípio de que as horas extras devem ser pagas com acréscimo mínimo de 50% (sovereign(overtime_minimum_additional_50pct)) e a proibição de negociações que reduzam direitos trabalhistas adicionais (sovereign(prohibition_negotiation_reducing_overtime_additional)). Além disso, o princípio de que a compensação das horas extras deve respeitar limites legais de jornada semanal e diária (sovereign(maximum_weekly_working_hours_44h) e sovereign(maximum_daily_working_hours_8h)) também está em vigor. A empresa não cumpriu com essas obrigações, resultando na constatação de violação.\n\n### 2. PREDICADOS ATIVADOS\n\n- **sovereign(semester_hour_bank_requires_cct_or_act)**: Este princípio estabelece que o banco de horas deve ser previsto em uma CCT ou lei específica, garantindo que a prática seja regulamentada e não arbitrária.\n\n- **invalidity_of_clause_suppressing_overtime_payment**: Qualquer cláusula que tente suprimir o pagamento das horas extras é inválida. Isso significa que, mesmo que a CCT não preveja um mecanismo de pagamento em caso de não-compensação, o empregado tem direito ao pagamento dessas horas.\n\n- **weekly_hour_compensation_requires_written_agreement**: A compensação de horas deve ser formalizada por escrito, garantindo transparência e segurança jurídica para ambas as partes.\n\n- **prohibition_negotiation_reducing_overtime_additional**: Não é permitido negociar a redução dos direitos adicionais associados às horas extras. Isso protege o empregado de perder benefícios legais por meio de acordos individuais ou coletivos.\n\n- **overtime_minimum_additional_50pct**: As horas extras devem ser pagas com um acréscimo mínimo de 50% sobre a hora normal, conforme estabelecido na CLT (Consolidação das Leis do Trabalho).\n\n- **maximum_weekly_working_hours_44h**: A jornada semanal máxima é limitada a 44 horas, garantindo que o empregado não trabalhe além desse limite regularmente.\n\n- **maximum_daily_working_hours_8h**: A jornada diária máxima é de 8 horas, protegendo o empregado de dias excessivamente longos de trabalho.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nNo caso apresentado, a empresa não cumpriu com sua obrigação de compensar ou pagar as horas extras que você acumulou durante um ano, mesmo que tenha sido acordado isso em um contrato coletivo. Isso é considerado uma violação das regras trabalhistas porque, independentemente do que está escrito no contrato, a lei brasileira garante certos direitos básicos aos trabalhadores.\n\nPor exemplo, as horas extras devem ser pagas com um acréscimo de pelo menos 50% sobre o valor normal da hora. Além disso, não é permitido reduzir esses direitos por meio de qualquer acordo que seja menos favorável ao empregado. A empresa também deve respeitar limites legais de trabalho semanal e diário.\n\nPortanto, mesmo que a convenção coletiva não tenha um plano específico para o pagamento dessas horas extras caso não sejam compensadas, você ainda tem direito a ser pago por elas ou a receber folgas equivalentes. A empresa falhou em cumprir essas obrigações, resultando na constatação de uma violação dos seus direitos trabalhistas.",
+  "tokens_in": 527,
+  "tokens_out": 1047,
+  "latency_ms": 30390,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

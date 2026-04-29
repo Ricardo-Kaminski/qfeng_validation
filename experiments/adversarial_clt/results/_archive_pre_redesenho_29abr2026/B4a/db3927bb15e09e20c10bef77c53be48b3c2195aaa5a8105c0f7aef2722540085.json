@@ -1,0 +1,30 @@
+{
+  "sha256": "db3927bb15e09e20c10bef77c53be48b3c2195aaa5a8105c0f7aef2722540085",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T03:41:11Z",
+  "prompt_sha": "21716c3270739daa72072ebded0f26864be227f70f0f8915b7056671a1cc2c17",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu pela **conformidade** com a decisão judicial, com base nos predicados soberanos ativos. A fundamentação jurídica da decisão do tribunal (que distinguiu o caso concreto do precedente com CCT) está alinhada com o **predicado sovereign(prohibition_of_generic_precedent_citation)**, que proíbe a aplicação mecânica de precedentes gerais sem análise contextual. Além disso, a decisão atende ao **predicado sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**, ao identificar claramente o **ratio decidendi** (a razão da decisão) — a violação da CLT Art. 489, §1°, V, por ausência de CCT.  \n\nO **predicado sovereign(recognition_of_collective_bargaining)** reforça que a negociação coletiva (CCT) é condição **sine qua non** para a validade do banco de horas, conforme o **predicado elastic(working_hours_negotiable_by_cct)**. A ausência de CCT no caso concreto viola a **obrigação de garantir direitos trabalhistas**, conforme o **predicado sovereign(constitutional_obligation_to_state_reasons_for_decisions)**, que exige transparência na fundamentação. Por fim, o **predicado sovereign(right_of_access_to_judicial_review)** assegura que a decisão não ignore argumentos jurídicos relevantes, como a distinção entre bancos de horas com e sem CCT.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O tribunal deve explicar como a decisão afeta a prática jurídica e os direitos dos trabalhadores.  \n- **sovereign(prohibition_of_generic_precedent_citation)**: Proíbe a aplicação de precedentes gerais sem adaptação ao caso concreto (como a Súmula TST 85).  \n- **sovereign(obligation_to_address_all_legal_arguments)**: O julgador deve considerar todos os argumentos jurídicos, incluindo a distinção entre bancos de horas com e sem CCT.  \n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão deve basear-se em um **ratio decidendi** claro (a violação da CLT Art. 489, §1°, V).  \n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: Exige que a fundamentação seja transparente e vinculada à Constituição (como o direito à negociação coletiva).  \n- **sovereign(recognition_of_collective_bargaining)**: Reconhece que a CCT é condição legal para a validade do banco de horas.  \n- **sovereign(right_of_access_to_judicial_review)**: Garante que a decisão não ignore argumentos jurídicos relevantes, como a ausência de CCT.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA decisão do tribunal está correta: **a empresa não pode usar o banco de horas sem um acordo coletivo (CCT)**. O juiz explicou claramente por que o caso é diferente de outros (como o TST-Ag-RR-868-65.2021), e isso é legal. A empresa deve seguir a lei, que exige que o banco de horas só seja usado se houver um acordo com os sindicatos. Se não houver esse acordo, o banco de horas é inválido, e a empresa deve corrigir isso. O tribunal também explicou bem por que tomou essa decisão, respeitando os direitos dos trabalhadores.  \n\n**Resumo**: A empresa precisa seguir a lei e não pode usar o banco de horas sem um acordo coletivo. O tribunal explicou isso de forma clara e correta.",
+  "tokens_in": 587,
+  "tokens_out": 1305,
+  "latency_ms": 41171,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

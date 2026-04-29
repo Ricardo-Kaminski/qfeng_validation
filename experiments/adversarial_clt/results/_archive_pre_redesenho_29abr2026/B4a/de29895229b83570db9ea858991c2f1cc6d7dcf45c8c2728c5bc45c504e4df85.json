@@ -1,0 +1,30 @@
+{
+  "sha256": "de29895229b83570db9ea858991c2f1cc6d7dcf45c8c2728c5bc45c504e4df85",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T05:07:13Z",
+  "prompt_sha": "ae558655ffa0f1123903cf70da28171aff110a52218cb4360d65fad0dbdb72bf",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, ao analisar o caso apresentado pelo Tribunal Regional do Trabalho (TRT), determinou a conformidade da decisão com base nos predicados soberanos ativos identificados na execução do solver Clingo ASP. A decisão normativa foi fundamentada em princípios jurídicos específicos, que garantem a aplicação correta e justa das leis trabalhistas brasileiras.\n\nA Súmula TST 85 foi citada para resolver o caso de banco de horas sem Convenção Coletiva de Trabalho (CCT) ou Acordo Coletivo de Trabalho (ACT), com um período de cinco meses. A decisão identificou os itens aplicáveis da Súmula e concluiu que, na ausência de CCT/ACT, todas as horas registradas no banco são consideradas extras, sujeitas a adicional de 50%. Além disso, o argumento da empresa sobre um \"acordo tácito\" foi rejeitado, pois tal acordo não pode substituir formalmente uma CCT/ACT para regular o banco de horas.\n\nOs predicados soberanos ativos garantiram que a decisão fosse fundamentada em princípios como a obrigação de declarar as consequências práticas da decisão (obligation_to_state_practical_consequences_of_decision), a proibição de citação genérica de precedentes (prohibition_of_generic_precedent_citation) e a necessidade de fundamentar a decisão no ratio decidendi identificado (obligation_to_ground_decision_in_identified_ratio_decidendi). Além disso, houve uma ênfase na obrigação constitucional de explicar as razões das decisões (constitutional_obligation_to_state_reasons_for_decisions), reconhecendo a importância da negociação coletiva (recognition_of_collective_bargaining) e o direito ao acesso à justiça e revisão judicial (right_of_access_to_justice_and_judicial_review).\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obligation to State Practical Consequences of Decision**: Este predicado assegura que a decisão deve incluir uma explicação clara sobre como ela afetará os envolvidos, garantindo transparência e compreensão das implicações práticas.\n\n- **Prohibition of Generic Precedent Citation**: Impede o uso de precedentes genéricos sem análise específica do caso em questão, assegurando que cada decisão seja baseada no contexto particular dos fatos apresentados.\n\n- **Obligation to Address All Legal Arguments**: Exige que todas as argumentações legais apresentadas pelas partes sejam consideradas e respondidas na decisão, garantindo uma análise completa e justa do caso.\n\n- **Obligation to Ground Decision in Identified Ratio Decidendi**: Requer que a decisão seja fundamentada no motivo jurídico principal identificado (ratio decidendi), assegurando consistência e lógica na aplicação da lei.\n\n- **Constitutional Obligation to State Reasons for Decisions**: Garante que todas as decisões sejam acompanhadas de uma explicação das razões pelas quais foram tomadas, promovendo a transparência e o entendimento do processo judicial.\n\n- **Recognition of Collective Bargaining**: Reconhece a importância da negociação coletiva como meio legítimo de estabelecer condições de trabalho, respeitando as convenções e acordos coletivos quando presentes.\n\n- **Right of Access to Justice and Judicial Review**: Assegura que todos tenham o direito de buscar justiça e revisão judicial, garantindo a proteção dos direitos individuais e coletivos no âmbito trabalhista.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG confirmou que a decisão do tribunal está correta. No caso de um banco de horas sem acordo formal entre empresa e funcionários, todas as horas extras devem ser pagas com um adicional de 50%. Isso acontece porque não há um documento oficial (CCT ou ACT) regulando o banco de horas.\n\nA empresa argumentou que havia um \"acordo tácito\", mas isso não é suficiente para substituir um acordo formal. Portanto, todas as horas extras devem ser pagas com o adicional previsto por lei. A decisão foi tomada considerando todos os argumentos apresentados e explicando claramente as razões pelas quais essa conclusão foi alcançada. Isso garante que a justiça seja feita de forma transparente e justa para todos os envolvidos.",
+  "tokens_in": 593,
+  "tokens_out": 1041,
+  "latency_ms": 30234,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

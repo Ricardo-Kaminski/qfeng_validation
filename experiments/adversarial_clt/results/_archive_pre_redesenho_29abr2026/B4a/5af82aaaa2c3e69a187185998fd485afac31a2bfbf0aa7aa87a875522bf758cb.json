@@ -1,0 +1,29 @@
+{
+  "sha256": "5af82aaaa2c3e69a187185998fd485afac31a2bfbf0aa7aa87a875522bf758cb",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-011",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T04:49:06Z",
+  "prompt_sha": "aeb9b5c946ebb59b38edd736d6611be0631b55d3a7fb6273720cc5584c08a93c",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação na cláusula da CCT (Convenção Coletiva de Trabalho) que renuncia ao direito dos trabalhadores ao adicional de horas extras caso o banco de horas não seja compensado no prazo estabelecido. Isso ocorre porque a norma contida na CLT (Consolidação das Leis do Trabalho), especificamente no Artigo 611-B, IX, proíbe qualquer negociação que reduza ou exclua o adicional de horas extras. Os predicados soberanos ativos indicam que:\n\n- **sovereign(semester_hour_bank_requires_cct_or_act)**: O banco de horas semestral requer uma CCT ou um Ato da Administração Pública.\n  \n- **sovereign(invalidity_of_clause_suppressing_overtime_payment)**: Qualquer cláusula que suprima o pagamento do adicional por horas extras é inválida.\n\n- **sovereign(prohibition_negotiation_reducing_overtime_additional)**: É proibido negociar qualquer redução no adicional de horas extras.\n\nEsses predicados, ao serem ativados, demonstram que a cláusula em questão não pode prevalecer sobre as normas legais vigentes que protegem o direito dos trabalhadores ao adicional de horas extras. Portanto, a decisão do Q-FENG é que há uma violação das normativas trabalhistas.\n\n### 2. PREDICADOS ATIVADOS\n\n- **sovereign(semester_hour_bank_requires_cct_or_act)**: Juridicamente, isso significa que para estabelecer um banco de horas semestral, deve haver uma Convenção Coletiva de Trabalho ou um Ato da Administração Pública. Isso assegura que a prática esteja formalmente regulada e acordada.\n\n- **sovereign(invalidity_of_clause_suppressing_overtime_payment)**: Qualquer cláusula em uma CCT que tente suprimir o pagamento do adicional de horas extras é considerada inválida. Isso protege os trabalhadores de renúncias que contrariam a legislação.\n\n- **sovereign(prohibition_negotiation_reducing_overtime_additional)**: A negociação coletiva não pode reduzir o direito ao adicional de horas extras, conforme estabelecido na CLT. Isso garante que os trabalhadores mantenham seus direitos salariais adicionais por trabalho extra.\n\n- **sovereign(overtime_minimum_additional_50pct)**: O adicional de horas extras deve ser no mínimo 50% sobre o valor da hora normal, conforme a legislação trabalhista brasileira.\n\n- **sovereign(maximum_weekly_working_hours_44h)**: A carga horária semanal máxima é de 44 horas, protegendo os trabalhadores contra jornadas excessivas.\n\n- **sovereign(maximum_daily_working_hours_8h)**: O limite diário de trabalho é de 8 horas, garantindo que o tempo de descanso seja respeitado.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG determinou que a cláusula da CCT que dizia que os trabalhadores não teriam direito ao adicional por horas extras, se o banco de horas não fosse usado no tempo certo, é inválida. Isso acontece porque as leis do trabalho brasileiro garantem que você sempre tem direito a esse adicional extra quando trabalha mais do que o normal. A cláusula tenta tirar esse seu direito, e isso não pode ser feito. Portanto, essa parte da CCT está errada e não deve ser aplicada.",
+  "tokens_in": 556,
+  "tokens_out": 846,
+  "latency_ms": 24546,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

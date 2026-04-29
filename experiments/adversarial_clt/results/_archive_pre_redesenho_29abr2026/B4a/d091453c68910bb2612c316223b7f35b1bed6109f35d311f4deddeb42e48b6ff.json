@@ -1,0 +1,26 @@
+{
+  "sha256": "d091453c68910bb2612c316223b7f35b1bed6109f35d311f4deddeb42e48b6ff",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T04:18:26Z",
+  "prompt_sha": "b5e3f649b9c3587da9c94d6c599ffd204326d48b2428d997b185065a331a8353",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que houve uma violação na decisão do TRT ao transcrever integralmente a ementa de acórdão do TST sem realizar um cotejo fático entre o precedente e os fatos específicos do caso concreto. Essa conclusão é baseada nos predicados soberanos ativos, que estabelecem obrigações fundamentais no processo judicial:\n\n- **Obrigação de declarar as consequências práticas da decisão**: O tribunal deve explicar como a decisão afeta os envolvidos.\n  \n- **Proibição de citação genérica de precedentes**: É necessário que o tribunal não apenas cite precedentes, mas também demonstre sua aplicabilidade ao caso específico.\n\n- **Obrigação de enfrentar todos os argumentos legais apresentados**: O tribunal deve considerar e responder a todas as questões levantadas pelas partes.\n\n- **Obrigação de fundamentar a decisão no ratio decidendi identificado**: A decisão deve ser baseada nos motivos principais do precedente aplicado, não apenas na ementa genérica.\n\n- **Obrigação constitucional de declarar as razões das decisões**: O tribunal deve fornecer uma explicação clara e detalhada sobre por que decidiu como fez.\n\n- **Direito de acesso à justiça e revisão judicial**: As partes têm o direito de entender a fundamentação da decisão para exercerem seu direito de recurso, se necessário.\n\nEsses predicados indicam que a simples transcrição do acórdão sem análise específica viola princípios processuais essenciais, conforme exigido pelo CPC Art. 489, §1°, V.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obrigação de declarar as consequências práticas da decisão**: Juridicamente, isso significa que o tribunal deve explicar como a sua decisão impactará os direitos e deveres das partes envolvidas no processo.\n\n- **Proibição de citação genérica de precedentes**: No contexto trabalhista brasileiro, isso implica que não basta citar um acórdão do TST; é necessário demonstrar como o caso em questão se assemelha aos fatos e circunstâncias do precedente.\n\n- **Obrigação de enfrentar todos os argumentos legais apresentados**: Isso significa que o tribunal deve considerar todas as alegações feitas pelas partes durante o processo, garantindo que nenhuma questão relevante seja ignorada na decisão final.\n\n- **Obrigação de fundamentar a decisão no ratio decidendi identificado**: O tribunal deve basear sua decisão nos motivos principais do precedente aplicado, não apenas na ementa genérica, assegurando que a aplicação é justificável e relevante ao caso concreto.\n\n- **Obrigação constitucional de declarar as razões das decisões**: Isso exige que o tribunal forneça uma explicação clara sobre por que decidiu como fez, permitindo que as partes compreendam a lógica e os fundamentos da decisão.\n\n- **Direito de acesso à justiça e revisão judicial**: Assegura que as partes possam entender a decisão para exercerem seu direito de recorrer, se necessário, garantindo transparência e justiça no processo.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO tribunal não fez o trabalho completo ao decidir o caso. Eles apenas copiaram uma decisão anterior sem mostrar como ela realmente se aplica ao seu caso específico. Isso é importante porque, para que a decisão seja justa e clara, eles precisam explicar por que essa regra antiga se encaixa no seu problema atual. Além disso, o tribunal deve responder a todas as preocupações que você levantou durante o processo. Isso ajuda a garantir que todos entendem por que foi decidido daquela maneira e permite que você possa contestar a decisão, se necessário.",
+  "tokens_in": 538,
+  "tokens_out": 920,
+  "latency_ms": 27015,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

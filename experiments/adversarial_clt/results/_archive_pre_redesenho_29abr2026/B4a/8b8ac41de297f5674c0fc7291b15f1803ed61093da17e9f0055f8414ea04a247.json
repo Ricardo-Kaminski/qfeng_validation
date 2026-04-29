@@ -1,0 +1,30 @@
+{
+  "sha256": "8b8ac41de297f5674c0fc7291b15f1803ed61093da17e9f0055f8414ea04a247",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T05:04:01Z",
+  "prompt_sha": "1a431bd2539a105bc27830e043de65433739a538537c1d00dbf3cc5df9c24aaf",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, ao analisar o caso apresentado, determinou que a decisão deve ser de conformidade com a Súmula TST 60, que trata do adicional noturno em regime de revezamento. A análise foi conduzida considerando os predicados soberanos ativos, que orientam a fundamentação e aplicação da decisão:\n\n- **Obrigação de declarar as consequências práticas da decisão**: O sistema garante que o impacto da decisão seja claramente comunicado ao empregado, esclarecendo como o adicional noturno será calculado e pago.\n  \n- **Proibição de citação genérica de precedentes**: A análise foi específica para o caso concreto, evitando a aplicação indiscriminada da Súmula TST 60 sem considerar as particularidades do regime de trabalho do empregado.\n\n- **Obrigação de abordar todos os argumentos legais apresentados**: O sistema considerou todas as nuances do caso, como o regime 12x36 e a fixação dos períodos noturnos, para garantir uma decisão justa e completa.\n\n- **Obrigação de fundamentar a decisão na ratio decidendi identificada**: A decisão foi baseada no entendimento de que o revezamento noturno integra o adicional à remuneração, conforme estabelecido pela Súmula TST 60.\n\n- **Obrigação constitucional de declarar as razões das decisões**: O sistema assegura que a decisão seja acompanhada de uma explicação clara e fundamentada, permitindo ao empregado compreender o raciocínio adotado.\n\n- **Reconhecimento da negociação coletiva**: A análise considerou se houve acordos específicos na convenção ou acordo coletivo que pudessem influenciar a aplicação do adicional noturno, respeitando o princípio da autonomia coletiva.\n\n- **Direito de acesso à justiça e revisão judicial**: A decisão foi tomada com a garantia de que o empregado pode buscar revisão ou esclarecimentos adicionais se necessário.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obrigação de declarar as consequências práticas da decisão**: Juridicamente, isso significa que a decisão deve ser clara sobre como afetará o empregado, especificando detalhes como o cálculo e pagamento do adicional noturno.\n\n- **Proibição de citação genérica de precedentes**: Isso implica que cada caso deve ser analisado em suas particularidades, sem aplicar automaticamente decisões anteriores que não sejam diretamente relevantes.\n\n- **Obrigação de abordar todos os argumentos legais apresentados**: Significa que todas as questões levantadas no processo devem ser consideradas e respondidas na decisão final.\n\n- **Obrigação de fundamentar a decisão na ratio decidendi identificada**: Juridicamente, isso exige que a base lógica da decisão seja claramente explicada, com referência ao entendimento legal aplicável.\n\n- **Obrigação constitucional de declarar as razões das decisões**: Isso garante transparência e justiça no processo decisório, permitindo que os envolvidos compreendam o raciocínio adotado.\n\n- **Reconhecimento da negociação coletiva**: No contexto trabalhista brasileiro, isso respeita a autonomia das partes para negociar condições específicas de trabalho através de convenções e acordos coletivos.\n\n- **Direito de acesso à justiça e revisão judicial**: Isso assegura que o empregado pode recorrer da decisão se considerar necessário, garantindo um sistema de proteção aos direitos trabalhistas.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema decidiu que você tem direito ao adicional noturno porque seu trabalho inclui turnos à noite em um regime de revezamento, conforme a regra da Súmula TST 60. Isso significa que o tempo que você trabalha à noite é considerado parte do seu salário extra.\n\nA decisão foi tomada levando em conta todas as informações do seu caso específico, como os turnos fixos de trabalho noturno. Além disso, se houver algum acordo coletivo entre sua empresa e o sindicato que diga algo diferente sobre esse adicional, isso também será considerado.\n\nVocê receberá uma explicação clara sobre como essa decisão afetará seu pagamento e pode buscar mais esclarecimentos ou contestar a decisão se necessário.",
+  "tokens_in": 587,
+  "tokens_out": 1072,
+  "latency_ms": 31141,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

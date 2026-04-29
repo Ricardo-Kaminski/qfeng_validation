@@ -1,0 +1,27 @@
+{
+  "sha256": "d758407bce102581a9ca534c0e3d492696b66e00eae9ba7f744fe0128beab8b4",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T03:10:53Z",
+  "prompt_sha": "a441ed131081be5a67de4fae29354418a5514d888c32e5d9d10bc7c36186be20",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nA decisão de **VIOLACAO** resulta da análise dos predicados soberanos e elásticos da CLT (Consolidação das Leis do Trabalho) aplicados ao cenário. O sistema Q-FENG concluiu que a **empresa sucessora não pode continuar aplicando as cláusulas da CCT (Convenção Coletiva de Trabalho) da empresa sucedida após o término de seu prazo original**, mesmo que tenha mantido as práticas do banco de horas.  \n\n**Predicados soberanos ativos** como `sovereign(recognition_of_collective_bargaining)` e `sovereign(maximum_weekly_working_hours_44h)` reforçam que:  \n- A **negociação coletiva** (CCT) é um direito fundamental, mas **não pode ser automaticamente transferida** a uma empresa sucessora após o término de seu prazo (12 meses).  \n- As **limitações legais de horas de trabalho** (máximo de 8h/dia e 44h/semana) são **obrigatórias**, independentemente de acordos coletivos.  \n\nA **não renovação da CCT** pela empresa sucessora, combinada com a **continuação das cláusulas do banco de horas**, viola o princípio da **autonomia negocial** e a **necessidade de renovação explícita** de acordos coletivos após a sucessão empresarial. O sistema identificou que a empresa sucessora **não tem legitimidade legal** para aplicar as cláusulas da CCT antiga após o término de seu prazo, mesmo que tenha mantido práticas semelhantes.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n**Predicados soberanos (obrigatórios pela CLT):**  \n- **`sovereign(recognition_of_collective_bargaining)`**:  \n  Reconhece que a **negociação coletiva** (CCT) é um direito fundamental, mas **não pode ser automaticamente transferida** a uma empresa sucessora. A renovação da CCT deve ser **renegociada** com o sindicato após a sucessão.  \n\n- **`sovereign(maximum_weekly_working_hours_44h)`**:  \n  Estabelece que **a jornada semanal máxima é de 44 horas**, independentemente de acordos coletivos. Mesmo se a CCT antiga permitisse um banco de horas, **essa limitação legal é intransponível**.  \n\n- **`sovereign(maximum_daily_working_hours_8h)`**:  \n  Fixa que **a jornada diária não pode ultrapassar 8 horas**, mesmo com flexibilizações via CCT.  \n\n**Predicados elásticos (negociáveis, mas limitados pela CLT):**  \n- **`elastic(annual_hour_bank_negotiable)`**:  \n  Permite que a CCT defina um **banco de horas anual**, mas **sua validade é limitada ao prazo da CCT** (12 meses no caso). Após o término, **não pode ser automaticamente renovado**.  \n\n- **`elastic(working_hours_negotiable_by_cct)`**:  \n  Reconhece que a CCT pode definir **flexibilizações de horas**, mas **sua aplicação é temporária e vinculada ao prazo da convenção**.  \n\n- **`elastic(hour_bank_with_cct_max_1_year)`**:  \n  Limita o **banco de horas** a **1 ano**, conforme definido na CCT. Após esse prazo, **não há base legal para sua continuação**.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa que comprou a antiga empresa **não pode continuar usando as regras da CCT antiga** após o término de seu prazo (12 meses). Mesmo que tenham mantido o banco de horas, **isso é ilegal**, porque:  \n- A CCT **venceu** e precisa ser **renegociada** com o sindicato.  \n- As leis do trabalho (como o limite de 8h/dia e 44h/semana) **sempre valem**, independentemente de acordos.  \n- A empresa nova **não tem direito** de aplicar regras antigas sem um novo acordo.  \n\nPortanto, **os trabalhadores têm razão** em questionar a continuidade das cláusulas da CCT antiga. A empresa está **viando a lei**, e os trabalhadores podem buscar orientação jurídica para corrigir essa situação.",
+  "tokens_in": 495,
+  "tokens_out": 1728,
+  "latency_ms": 55655,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

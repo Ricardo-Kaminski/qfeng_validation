@@ -1,0 +1,29 @@
+{
+  "sha256": "781944d8608601f7672883ff02b78f31df2c9444b07822be83e28ca1df4604d0",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-010",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:56:29Z",
+  "prompt_sha": "69f27e043156ef457f00f79a887aee007d1b5c80255c85fc0fc244f02fff34fc",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG analisou o contrato coletivo de trabalho (ACT) firmado entre a empresa de tecnologia e o sindicato dos trabalhadores em informática, bem como as práticas adotadas pela empresa no que diz respeito ao banco de horas. Considerando os predicados soberanos ativos, podemos concluir que:\n\n* O sistema considerou que o ACT é válido e não há necessidade de complementação com um contrato coletivo de trabalho (CCT) para regular as relações trabalhistas.\n* A cláusula que suprime o pagamento de horas extras foi considerada inválida, sugerindo que a empresa deve pagar os trabalhadores por qualquer hora extra trabalhada acima das 40 horas semanais.\n* O sistema também considerou que a compensação de horas extras deve ser feita por escrito e não pode ser negociada entre a empresa e o trabalhador.\n* Além disso, o sistema identificou que a empresa não pode reduzir os adicionais pagos aos trabalhadores por horas extras abaixo do mínimo de 50% estabelecido pela legislação.\n* O limite máximo de 44 horas semanais de trabalho e 8 horas diárias também foi considerado válido, o que significa que a empresa não pode exigir dos trabalhadores mais horas de trabalho do que esses limites.\n* Por fim, o sistema observou que o banco de horas sem CCT tem um limite máximo de 6 meses, o que sugere que a empresa deve compensar os saldos do banco de horas dentro desse prazo.\n\nConsiderando todos esses fatores, o sistema Q-FENG recomendou a CONFORMIDADE com as normas trabalhistas vigentes.\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\nAqui estão as explicações dos predicados soberanos ativos:\n\n* `sovereign(semester_hour_bank_requires_cct_or_act)`: O ACT é válido e não há necessidade de complementação com um CCT para regular as relações trabalhistas.\n* `sovereign(invalidity_of_clause_suppressing_overtime_payment)`: A cláusula que suprime o pagamento de horas extras é inválida, sugerindo que a empresa deve pagar os trabalhadores por qualquer hora extra trabalhada acima das 40 horas semanais.\n* `sovereign(weekly_hour_compensation_requires_written_agreement)`: A compensação de horas extras deve ser feita por escrito e não pode ser negociada entre a empresa e o trabalhador.\n* `sovereign(prohibition_negotiation_reducing_overtime_additional)`: A empresa não pode reduzir os adicionais pagos aos trabalhadores por horas extras abaixo do mínimo de 50% estabelecido pela legislação.\n* `sovereign(overtime_minimum_additional_50pct)`: O limite mínimo de 50% para adicionais pagos por horas extras é válido e deve ser respeitado pela empresa.\n* `sovereign(maximum_weekly_working_hours_44h)`: O limite máximo de 44 horas semanais de trabalho é válido e deve ser respeitado pela empresa.\n* `sovereign(maximum_daily_working_hours_8h)`: O limite máximo de 8 horas diárias de trabalho é válido e deve ser respeitado pela empresa.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nEm linguagem simples, a decisão do sistema Q-FENG significa que:\n\n* A empresa tem um contrato coletivo de trabalho (ACT) válido com o sindicato dos trabalhadores em informática.\n* A empresa deve pagar os trabalhadores por qualquer hora extra trabalhada acima das 40 horas semanais, e não pode reduzir os adicionais pagos abaixo do mínimo estabelecido pela lei.\n* A compensação de horas extras deve ser feita por escrito e não pode ser negociada entre a empresa e o trabalhador.\n* O limite máximo de 44 horas semanais de trabalho e 8 horas diárias é válido e deve ser respeitado pela empresa.\n* O banco de horas sem CCT tem um limite máximo de 6 meses, e a empresa deve compensar os saldos dentro desse prazo.\n\nEm resumo, o sistema Q-FENG recomendou que a empresa siga as normas trabalhistas vigentes para evitar qualquer tipo de irregularidade ou violação dos direitos dos trabalhadores.",
+  "tokens_in": 539,
+  "tokens_out": 985,
+  "latency_ms": 16468,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

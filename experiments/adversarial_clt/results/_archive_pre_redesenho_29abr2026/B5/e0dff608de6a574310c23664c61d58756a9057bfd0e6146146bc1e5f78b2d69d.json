@@ -1,0 +1,43 @@
+{
+  "sha256": "e0dff608de6a574310c23664c61d58756a9057bfd0e6146146bc1e5f78b2d69d",
+  "braco": "B5",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T13:52:34Z",
+  "prompt_sha": "4cdb4494f20fb8cebd88ffeadcb92ecf0ea28886eefa69f21821bfe27f3dea4f",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO motor de inferência Q-FENG classificou o caso como **BLOCK** (CIRCUIT_BREAKER) devido a uma **fricção ontológica θ de 127,81°**, que excede o limiar de 120°, indicando **interferência destrutiva** entre o **vetor de Evidência Neural (ψ_N)** — que representa a ação da empresa (implementação do banco de horas sem registro legal) — e o **vetor de Norma Simbólica (ψ_S)** — que codifica os direitos trabalhistas fundamentais no Brasil.  \n\nOs **predicados soberanos ativos** revelam uma **colisão direta** entre a conduta da empresa e normas jurídicas inquestionáveis:  \n- **sovereign(semester_hour_bank_requires_cct_or_act)**: O banco de horas deve ser formalizado em **Acordo Coletivo de Trabalho (ACT)** ou **Convenção Coletiva de Trabalho (CCT)**, **registrado na SRTE**. A ausência de registro invalida o instrumento.  \n- **sovereign(invalidity_of_clause_suppressing_overtime_payment)**: Cláusulas que **reduzem ou suprimem a remuneração por horas extras** são **nulas de pleno direito**.  \n- **sovereign(weekly_hour_compensation_requires_written_agreement)**: Compensação de horas deve ser **escrita e formalizada**, não apenas verbal.  \n- **sovereign(prohibition_negotiation_reducing_overtime_additional)**: A **lei proíbe acordos que reduzam a adicional de horas extras (50% no mínimo)**.  \n- **sovereign(overtime_minimum_additional_50pct)**: A **lei estabelece um piso de 50% sobre o salário-hora** para horas extras.  \n- **sovereign(maximum_weekly_working_hours_44h)** e **sovereign(maximum_daily_working_hours_8h)**: Limites legais de **44h semanais e 8h diárias** são **inquestionáveis**.  \n\nA **fricção ontológica θ** reflete que a **empresa viola normas fundamentais** (predicados soberanos) e **não se conforma com a legalidade** (predicado elastic). O **ângulo negativo (cos(θ) = -0,6131)** indica **desalinhamento direcional** entre a ação da empresa e a norma, exigindo **supressão de ação** (BLOCK) para evitar consequências jurídicas.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(semester_hour_bank_requires_cct_or_act)**:  \n  O **banco de horas** (compensação de horas trabalhadas em períodos diferentes) **só é válido se formalizado em ACT ou CCT**, **registrado na SRTE**. A ausência de registro **invalida o acordo**, conforme a **Lei 13.467/2017** (Reforma Trabalhista).  \n\n- **sovereign(invalidity_of_clause_suppressing_overtime_payment)**:  \n  Cláusulas que **reduzem ou eliminam o adicional de horas extras** são **nulas de pleno direito**, conforme **art. 66 da CLT**.  \n\n- **sovereign(weekly_hour_compensation_requires_written_agreement)**:  \n  Compensação de horas deve ser **escrita e formalizada**, não apenas verbal, para **garantir a transparência** e **evitar abusos**.  \n\n- **sovereign(prohibition_negotiation_reducing_overtime_additional)**:  \n  A **lei proíbe acordos que reduzam o adicional de horas extras (50% no mínimo)**, conforme **art. 59 da CLT**.  \n\n- **sovereign(overtime_minimum_additional_50pct)**:  \n  **O adicional de horas extras não pode ser inferior a 50%** do salário-hora, conforme **art. 59 da CLT**.  \n\n- **sovereign(maximum_weekly_working_hours_44h)** e **sovereign(maximum_daily_working_hours_8h)**:  \n  Limites de **44h semanais e 8h diárias** são **inquestionáveis**, conforme **art. 58 da CLT**.  \n\n---\n\n### 3. **INTERPRETAÇÃO DO REGIME**  \nO **regime CIRCUIT_BREAKER** (θ ≥ 120°) significa que o **motor de inferência Q-FENG** detectou uma **colisão irredutível** entre a ação da empresa e as normas jurídicas. Nesse regime:  \n- **Ação é bloqueada**: Não há espaço para negociação ou escalonamento humano (HITL), pois a **violação é clara e incompatível com a legalidade**.  \n- **Supressão de ação**: O sistema **recomenda a caracterização de violação**, pois a empresa **não cumpre normas básicas** (registro de ACT, limites de horas, adicional de horas extras).  \n- **Consequências operacionais**: A empresa deve **revisar imediatamente** o acordo, **regularizar o registro na SRTE**, e **garantir que os direitos trabalhistas sejam respeitados**.  \n\n---\n\n### 4. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa **não seguiu a lei** ao implementar um banco de horas sem **registar o acordo com a SRTE**. A lei exige que acordos coletivos como esse sejam **formalizados e registrados** para valer. Além disso, a empresa **não pode reduzir ou suprimir o pagamento por horas extras** (que devem ser pelo menos 50% do salário-hora) e **não pode exigir mais de 44h por semana ou 8h por dia**.  \n\nO sistema **detectou que a empresa violou regras básicas** e **não há como resolver isso com negociação**. A **ação da empresa foi bloqueada**, e a **violação deve ser formalizada**. A empresa precisa **regularizar o registro do acordo** e **respeitar os direitos dos trabalhadores**.",
+  "tokens_in": 782,
+  "tokens_out": 1863,
+  "latency_ms": 62000,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": "",
+  "t_clingo_ms": 46,
+  "t_llm_ms": 61953,
+  "t_psi_build_ms": 0,
+  "t_theta_compute_ms": 0,
+  "qfeng_psi_n_dim": 2,
+  "qfeng_psi_s_dim": 2,
+  "qfeng_theta_rad": 2.2307694050963036,
+  "qfeng_theta_deg": 127.81367197892763,
+  "qfeng_theta_eff_rad": 2.2307694050963036,
+  "qfeng_theta_eff_deg": 127.81367197892763,
+  "qfeng_regime": "BLOCK",
+  "qfeng_p_action": 0.3869044161814975,
+  "qfeng_cos_theta": -0.6130955838185024,
+  "qfeng_cb_threshold_deg": 119.99999999999999
+}

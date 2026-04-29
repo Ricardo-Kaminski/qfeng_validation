@@ -1,0 +1,30 @@
+{
+  "sha256": "28dab32ee1668f31edca8a229a39523e200dae89bcc15097b8ab1ba0e7f7d0dd",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-001",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T07:05:02Z",
+  "prompt_sha": "f5b03aa37cbaba903b62ce936948a2f9431d0cc4d9bc02bb8ff84f0799aa516e",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após analisar o recurso de revista e os fundamentos do acórdão do TST, chegou à decisão de que a CCT bancária em questão é válida e o banco de horas é constitucional. Isso ocorreu porque a CCT preenche os requisitos do Tema 1046/STF, que estabelece que acordos e convenções coletivas que estipulam exclusivamente vantagens ou supressões de direitos devem ter por premissa a compensação estabelecida pelo princípio da adequação setorial negociada.\n\nA decisão do Q-FENG está fundamentada na análise dos predicados soberanos ativos, que são:\n\n*   `sovereign(obligation_to_state_practical_consequences_of_decision)`: O sistema tem a obrigação de informar as consequências práticas da decisão.\n*   `sovereign(prohibition_of_generic_precedent_citation)`: O sistema não pode citar precedentes genéricos ou não relevantes para o caso em questão.\n*   `sovereign(obligation_to_address_all_legal_arguments)`: O sistema tem a obrigação de abordar todos os argumentos legais apresentados pelas partes.\n*   `sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)`: A decisão deve estar fundamentada na ratio decidendi, ou seja, nos motivos e razões que levaram à decisão.\n*   `sovereign(constitutional_obligation_to_state_reasons_for_decisions)`: O sistema tem a obrigação de informar as razões constitucionais que embasam a decisão.\n*   `sovereign(recognition_of_collective_bargaining)`: O sistema reconhece e respeita o direito coletivo de negociação entre os trabalhadores e os empregadores.\n*   `sovereign(right_of_access_to_justice_and_judicial_review)`: O sistema garante o acesso à justiça e ao recurso judicial para as partes envolvidas.\n\nEsses predicados soberanos ativos garantem que a decisão do Q-FENG seja fundamentada em princípios jurídicos sólidos e respeite os direitos das partes envolvidas.\n\n**2. PREDICADOS ATIVADOS**\n\nAqui está uma explicação detalhada de cada predicado soberano ativo:\n\n*   `sovereign(obligation_to_state_practical_consequences_of_decision)`: Isso significa que o sistema tem a obrigação de informar as consequências práticas da decisão, ou seja, como a decisão afetará os trabalhadores e os empregadores.\n*   `sovereign(prohibition_of_generic_precedent_citation)`: Isso significa que o sistema não pode citar precedentes genéricos ou não relevantes para o caso em questão. O sistema deve apenas considerar precedentes relevantes e específicos para a situação.\n*   `sovereign(obligation_to_address_all_legal_arguments)`: Isso significa que o sistema tem a obrigação de abordar todos os argumentos legais apresentados pelas partes, incluindo as teses e os fundamentos jurídicos.\n*   `sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)`: Isso significa que a decisão deve estar fundamentada na ratio decidendi, ou seja, nos motivos e razões que levaram à decisão. O sistema não pode simplesmente afirmar que uma decisão é correta sem explicar por quê.\n*   `sovereign(constitutional_obligation_to_state_reasons_for_decisions)`: Isso significa que o sistema tem a obrigação de informar as razões constitucionais que embasam a decisão. O sistema deve considerar e aplicar os princípios constitucionais relevantes para a situação.\n*   `sovereign(recognition_of_collective_bargaining)`: Isso significa que o sistema reconhece e respeita o direito coletivo de negociação entre os trabalhadores e os empregadores. O sistema deve considerar as convenções coletivas e os acordos como fontes legais relevantes.\n*   `sovereign(right_of_access_to_justice_and_judicial_review)`: Isso significa que o sistema garante o acesso à justiça e ao recurso judicial para as partes envolvidas. O sistema deve garantir que as partes tenham a oportunidade de recorrer da decisão caso não concordem com ela.\n\nEsses predicados soberanos ativos garantem que a decisão do Q-FENG seja fundamentada em princípios jurídicos sólidos e respeite os direitos das partes envolvidas.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nAqui está uma explicação simples da decisão:\n\nO sistema Q-FENG decidiu que a CCT bancária em questão é válida e o banco de horas é constitucional. Isso significa que os trabalhadores podem ter seus horários de trabalho negociados com os empregadores, desde que isso seja feito por meio de uma convenção coletiva ou acordo. A decisão também garante que as partes envolvidas tenham acesso à justiça e ao recurso judicial caso não concordem com a decisão.\n\nA decisão do Q-FENG está fundamentada na análise dos predicados soberanos ativos, que garantem que a decisão seja fundamentada em princípios jurídicos sólidos e respeite os direitos das partes envolvidas.",
+  "tokens_in": 599,
+  "tokens_out": 1248,
+  "latency_ms": 20968,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

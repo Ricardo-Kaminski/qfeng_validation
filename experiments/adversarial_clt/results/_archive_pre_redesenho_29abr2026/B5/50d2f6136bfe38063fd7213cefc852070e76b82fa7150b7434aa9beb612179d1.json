@@ -1,0 +1,43 @@
+{
+  "sha256": "50d2f6136bfe38063fd7213cefc852070e76b82fa7150b7434aa9beb612179d1",
+  "braco": "B5",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T13:54:33Z",
+  "prompt_sha": "48c6b1ac933bfb94a7893fcb271b22815af90b74494caabc69dd1c5012a3d19e",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO motor de inferência Q-FENG classificou a situação como **VIOLACAO** devido à **fricção ontológica elevada (θ = 127,81°)**, que indica uma **conflito direto entre a prática da empresa e os princípios normativos da legislação trabalhista brasileira**. Os predicados soberanos ativos (como `sovereign(overtime_minimum_additional_50pct)` e `sovereign(invalidity_of_clause_suppressing_overtime_payment)`) reforçam que:  \n- **O banco de horas** estabelecido pela CCT (Convenção Coletiva de Trabalho) **exige compensação semestral com adicional de 50%** (predicado `overtime_minimum_additional_50pct`), o que **não foi respeitado** pela empresa ao pagar o saldo remanescente como hora normal.  \n- **Cláusulas que suprimem o pagamento de horas extras são inválidas** (predicado `invalidity_of_clause_suppressing_overtime_payment`), o que **invalida a conduta da empresa** ao não aplicar o adicional de 50%.  \n- A **fricção ontológica** (θ ≥ 120°) reflete que a **ação da empresa está em desalento com a norma simbólica**, gerando **interferência destrutiva** (regime *CIRCUIT_BREAKER*), que **bloqueia a continuidade da ação** (como a negociação de um acordo) devido à **alta probabilidade de violação legal** (Born Rule = 38,69%).  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n**Predicados soberanos ativos e seu significado jurídico:**  \n- **`sovereign(semester_hour_bank_requires_cct_or_act)`**: O banco de horas semestral **deve ser estabelecido por convenção coletiva (CCT) ou acordo individual (ACT)**. A ausência de um desses instrumentos **invalida a compensação**.  \n- **`sovereign(invalidity_of_clause_suppressing_overtime_payment)`**: Cláusulas que **eliminam o adicional de 50% sobre horas extras são nulas** por violar a **Lei nº 6.029/1974** (art. 61).  \n- **`sovereign(weekly_hour_compensation_requires_written_agreement)`**: A compensação de horas extras **exige acordo escrito**, o que **não foi cumprido** ao pagar o saldo como hora normal.  \n- **`sovereign(prohibition_negotiation_reducing_overtime_additional)`**: **Não é permitido reduzir o adicional de 50%** sobre horas extras, mesmo por acordo.  \n- **`sovereign(overtime_minimum_additional_50pct)`**: **O adicional de 50% é obrigatório** para horas extras, independentemente de compensação.  \n- **`sovereign(maximum_weekly_working_hours_44h)`**: **O limite semanal de 44h** (art. 59 da CLT) **não foi respeitado** se o banco de horas ultrapassou esse limite.  \n- **`sovereign(maximum_daily_working_hours_8h)`**: **O limite diário de 8h** (art. 59 da CLT) **não foi respeitado** se o banco de horas incluiu horas extras sem compensação.  \n\n**Predicado elástico ativo:**  \n- **`elastic(hour_bank_without_cct_max_6_months)`**: O banco de horas **sem CCT só pode durar 6 meses**, o que **não foi respeitado** se o saldo remanescente foi acumulado por mais de 6 meses.  \n\n---\n\n### 3. **INTERPRETAÇÃO DO REGIME**  \nO regime **CIRCUIT_BREAKER** (θ ≥ 120°) significa que:  \n- **A ação da empresa viola diretamente a norma simbólica** (legislação trabalhista), gerando **interferência destrutiva**.  \n- **O sistema bloqueia a continuidade da ação** (como a negociação de um acordo) devido à **alta probabilidade de violação legal** (38,69%).  \n- **A fricção ontológica elevada** indica que **não há compatibilidade entre a prática da empresa e os princípios normativos**, exigindo **intervenção humana** (como ações judiciais ou sindicais) para corrigir a violação.  \n\n---\n\n### 4. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa **não pagou corretamente as horas extras** que o trabalhador tinha no banco de horas. Pelo direito, **quando um funcionário tem horas extras acumuladas, a empresa deve pagar 50% a mais** sobre essas horas. No entanto, a empresa **pagou essas horas como se fossem normais**, sem o adicional de 50%.  \n\nO sistema Q-FENG detectou que **essa prática é ilegal**, pois **viola a lei que exige o pagamento de horas extras com 50% de adicional**. Por isso, **a empresa está em erro**, e o trabalhador **tem direito a esse adicional**.  \n\nO sistema **não recomenda ações automáticas** (como negociação), mas **indica que há uma violação clara**, exigindo **intervenção de um advogado ou sindicato** para corrigir a situação.",
+  "tokens_in": 791,
+  "tokens_out": 1797,
+  "latency_ms": 60750,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": "",
+  "t_clingo_ms": 46,
+  "t_llm_ms": 60703,
+  "t_psi_build_ms": 0,
+  "t_theta_compute_ms": 0,
+  "qfeng_psi_n_dim": 2,
+  "qfeng_psi_s_dim": 2,
+  "qfeng_theta_rad": 2.2307694050963036,
+  "qfeng_theta_deg": 127.81367197892763,
+  "qfeng_theta_eff_rad": 2.2307694050963036,
+  "qfeng_theta_eff_deg": 127.81367197892763,
+  "qfeng_regime": "BLOCK",
+  "qfeng_p_action": 0.3869044161814975,
+  "qfeng_cos_theta": -0.6130955838185024,
+  "qfeng_cb_threshold_deg": 119.99999999999999
+}

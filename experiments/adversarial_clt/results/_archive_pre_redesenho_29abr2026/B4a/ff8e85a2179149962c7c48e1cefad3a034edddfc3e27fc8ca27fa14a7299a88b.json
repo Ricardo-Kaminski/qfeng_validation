@@ -1,0 +1,29 @@
+{
+  "sha256": "ff8e85a2179149962c7c48e1cefad3a034edddfc3e27fc8ca27fa14a7299a88b",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T04:37:42Z",
+  "prompt_sha": "0ae1cb23f5b2029af6ba34d6cbada55225e0756bb30ed00c0f6402a4a8c28764",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação na prática da rede de supermercados em relação à implementação do banco de horas com compensação. A decisão foi baseada nos predicados soberanos ativos, que estabelecem normas fundamentais e inegociáveis no contexto trabalhista brasileiro.\n\nPrimeiramente, o predicado `sovereign(semester_hour_bank_requires_cct_or_act)` indica que qualquer acordo de banco de horas deve ser formalizado através de um Acordo Coletivo de Trabalho (ACT) ou Convenção Coletiva de Trabalho (CCT), e este deve estar registrado na Superintendência Regional do Trabalho. A falta de registro dentro do prazo legal compromete a validade do acordo, apesar da assinatura entre as partes.\n\nAlém disso, o predicado `sovereign(invalidity_of_clause_suppressing_overtime_payment)` reforça que qualquer cláusula que suprima ou reduza direitos trabalhistas essenciais, como o pagamento de horas extras, é inválida. Isso significa que mesmo com um ACT assinado, se ele não estiver registrado conforme exigido, a empresa não pode aplicar suas condições.\n\nOutros predicados ativos, como `sovereign(weekly_hour_compensation_requires_written_agreement)`, `sovereign(prohibition_negotiation_reducing_overtime_additional)`, e `sovereign(overtime_minimum_additional_50pct)`, estabelecem que a compensação por horas extras deve ser claramente definida em um acordo escrito, não pode ser reduzida através de negociação individual, e deve incluir uma remuneração adicional mínima de 50% sobre o valor da hora normal.\n\nPortanto, a decisão de VIOLACAO reflete que a empresa não cumpriu com os requisitos legais para a validade do ACT, comprometendo a proteção dos direitos trabalhistas dos empregados.\n\n### 2. PREDICADOS ATIVADOS\n\n- **sovereign(semester_hour_bank_requires_cct_or_act):** Este predicado estabelece que qualquer acordo de banco de horas deve ser formalizado através de um Acordo Coletivo de Trabalho (ACT) ou Convenção Coletiva de Trabalho (CCT), e este deve estar registrado na Superintendência Regional do Trabalho. Isso garante a transparência e a legalidade das condições trabalhistas.\n\n- **sovereign(invalidity_of_clause_suppressing_overtime_payment):** Este predicado indica que qualquer cláusula em um acordo que suprima ou reduza o pagamento de horas extras é inválida. Isso protege os direitos dos trabalhadores a receberem remuneração adicional por trabalho além da jornada normal.\n\n- **sovereign(weekly_hour_compensation_requires_written_agreement):** Este predicado exige que a compensação por horas extras seja estabelecida em um acordo escrito, garantindo que os termos sejam claros e acordados entre empregador e empregado.\n\n- **sovereign(prohibition_negotiation_reducing_overtime_additional):** Este predicado proíbe negociações individuais que reduzam o pagamento adicional por horas extras, assegurando que os direitos trabalhistas mínimos sejam respeitados.\n\n- **sovereign(overtime_minimum_additional_50pct):** Este predicado estabelece que o pagamento por horas extras deve incluir uma remuneração adicional mínima de 50% sobre o valor da hora normal, garantindo uma compensação justa pelo trabalho extra.\n\n- **sovereign(maximum_weekly_working_hours_44h) e sovereign(maximum_daily_working_hours_8h):** Estes predicados definem os limites máximos de horas trabalhadas por semana (44 horas) e por dia (8 horas), protegendo a saúde e o bem-estar dos trabalhadores.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG determinou que a empresa violou as regras ao implementar um banco de horas sem seguir todos os passos legais necessários. A empresa assinou um acordo com o sindicato, mas não registrou esse acordo no tempo correto na Superintendência do Trabalho. Isso é importante porque garante que todas as condições trabalhistas sejam claras e protegidas.\n\nAlém disso, a lei exige que qualquer acordo sobre banco de horas seja escrito e registrado para ser válido. Sem isso, a empresa não pode aplicar o acordo como planejado. A lei também protege os direitos dos trabalhadores a receberem pagamento extra por horas extras, garantindo que eles sejam compensados adequadamente pelo trabalho adicional.\n\nPortanto, mesmo que a empresa e o sindicato tenham assinado um acordo, ele não é válido sem o registro correto, e isso significa que os direitos dos trabalhadores podem estar em risco.",
+  "tokens_in": 526,
+  "tokens_out": 1129,
+  "latency_ms": 32812,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

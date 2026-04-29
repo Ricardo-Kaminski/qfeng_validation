@@ -1,0 +1,43 @@
+{
+  "sha256": "553d1344a5755957bc83e28cb9c0ddc2312f457427524146af73a8d973e66ff1",
+  "braco": "B5",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T13:44:15Z",
+  "prompt_sha": "b0a6d3502f2b1c38f00deeb2c39903d6ba7484bb73ac72a50a16a06ee34926cc",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO motor de inferência Q-FENG classificou o caso como **VIOLACAO** devido à **fricção ontológica θ = 127,81°**, que ultrapassa o limiar de **120°** para o regime **CIRCUIT_BREAKER**. Esse ângulo reflete uma **conflito grave entre a evidência neural (práticas da empresa) e a norma simbólica (lei trabalhista)**, conforme os predicados soberanos ativos.  \n\nOs predicados **sovereign(semester_hour_bank_requires_cct_or_act)** e **sovereign(maximum_weekly_working_hours_44h)**, por exemplo, indicam que a empresa **viola a obrigatoriedade de acordos coletivos (ACT/CCT)** para bancos de horas e **excede o limite de 44h semanais**. Além disso, **sovereign(invalidity_of_clause_suppressing_overtime_payment)** e **sovereign(overtime_minimum_additional_50pct)** reforçam que a empresa **não pode suprimir o pagamento de horas extras** (que exigem **50% de adicional**).  \n\nA fricção ontológica alta (θ ≥ 120°) indica que a **ação da empresa é incompatível com a norma jurídica**, gerando **interferência destrutiva** que **bloqueia a execução** (regime **BLOCK**), conforme a probabilidade de ação (Born Rule) de **38,69%** — um valor baixo que reforça a **necessidade de correção imediata**.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(semester_hour_bank_requires_cct_or_act)**:  \n  *Bancos de horas acima de 6 meses exigem autorização de acordos coletivos (ACT/CCT). A empresa não celebrou nenhum, violando a lei.*  \n\n- **sovereign(invalidity_of_clause_suppressing_overtime_payment)**:  \n  *Cláusulas que suprimem o pagamento de horas extras são nulas. A empresa acumulou 120h sem garantir o adicional de 50%.*  \n\n- **sovereign(weekly_hour_compensation_requires_written_agreement)**:  \n  *Compensação de horas semanais exige acordo escrito. A empresa usou um memorando interno, que não atende ao requisito legal.*  \n\n- **sovereign(prohibition_negotiation_reducing_overtime_additional)**:  \n  *Negociações que reduzem o adicional de horas extras são proibidas. A empresa não pode justificar a ausência do pagamento.*  \n\n- **sovereign(overtime_minimum_additional_50pct)**:  \n  *Horas extras devem ter adicional de **pelo menos 50%**. A empresa não garantiu esse valor.*  \n\n- **sovereign(maximum_weekly_working_hours_44h)**:  \n  *A semana não pode ultrapassar **44h**. O banco de 120h em 9 meses (equivalente a 13,3h semanais) viola esse limite.*  \n\n- **sovereign(maximum_daily_working_hours_8h)**:  \n  *O dia não pode exceder **8h**. A acumulação de horas pode implicar jornadas diárias irregulares.*  \n\n- **elastic(hour_bank_without_cct_max_6_months)**:  \n  *Bancos de horas sem CCT podem ter duração máxima de **6 meses**. A empresa ultrapassou esse prazo.*  \n\n---\n\n### 3. **INTERPRETAÇÃO DO REGIME**  \nO regime **CIRCUIT_BREAKER** (θ ≥ 120°) significa que o **sistema bloqueia a ação da empresa** por **violação grave** das normas trabalhistas. Operacionalmente, isso implica:  \n- **Supressão imediata da prática** de banco de horas unilateral, pois ela **não tem validade jurídica**.  \n- **Obrigatoriedade de negociação coletiva** (ACT/CCT) para qualquer banco de horas acima de 6 meses.  \n- **Requerimento de compensação de horas extras** com adicional de 50%, mesmo que acumuladas.  \n- **Limitação de jornada** a 44h semanais e 8h diárias, independentemente do banco de horas.  \n\nO regime **BLOCK** indica que **não há margem para interpretação ou flexibilização** — a empresa deve **revisar integralmente** suas práticas para conformidade.  \n\n---\n\n### 4. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa **não pode** fazer um banco de horas sem o **acordo dos sindicatos** e **sem garantir o pagamento de horas extras**. Ela fez um memorando interno, mas isso **não é suficiente** para legalizar a prática. Além disso, **acumulou 120h de horas extras** em 9 meses, o que **viola a lei** (que exige **50% de adicional** e **limites de jornada**).  \n\nO sistema deu a **nota máxima de violação** porque a empresa **não respeitou nenhuma regra básica**. A solução é:  \n- **Parar imediatamente** o banco de horas.  \n- **Negociar com o sindicato** para criar um acordo coletivo.  \n- **Pagar o adicional de 50%** nas horas extras acumuladas.  \n- **Respeitar os limites de 44h por semana e 8h por dia**.  \n\nO sistema está **protegendo os direitos dos trabalhadores**, que não podem ser prejudicados por práticas ilegais.",
+  "tokens_in": 793,
+  "tokens_out": 1835,
+  "latency_ms": 61750,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": "",
+  "t_clingo_ms": 32,
+  "t_llm_ms": 61717,
+  "t_psi_build_ms": 0,
+  "t_theta_compute_ms": 0,
+  "qfeng_psi_n_dim": 2,
+  "qfeng_psi_s_dim": 2,
+  "qfeng_theta_rad": 2.2307694050963036,
+  "qfeng_theta_deg": 127.81367197892763,
+  "qfeng_theta_eff_rad": 2.2307694050963036,
+  "qfeng_theta_eff_deg": 127.81367197892763,
+  "qfeng_regime": "BLOCK",
+  "qfeng_p_action": 0.3869044161814975,
+  "qfeng_cos_theta": -0.6130955838185024,
+  "qfeng_cb_threshold_deg": 119.99999999999999
+}

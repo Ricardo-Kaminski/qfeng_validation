@@ -1,0 +1,26 @@
+{
+  "sha256": "b2591fb6124c494b0c3bbd0c2b5e7305d54566811e358dfe89359234b1488134",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T07:16:13Z",
+  "prompt_sha": "7626dd764a44642383e3257de8b8d621757b737e7600f11382bfed2c802dacd7",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nA decisão do sistema Q-FENG é de CONFORMIDADE com as práticas atuais da empresa de transporte em relação ao recolhimento de adicionais noturnos para os motoristas que trabalham entre 22h e 5h. Isso se deve à ativação dos predicados soberanos \"obligation_to_state_practical_consequences_of_decision\" e \"prohibition_of_generic_precedent_citation\", que exigem que a decisão seja fundamentada em razões concretas e específicas, sem apelar para precedentes genéricos.\n\nAlém disso, o predicado \"obligation_to_address_all_legal_arguments\" impõe que a decisão considere todos os argumentos legais relevantes, incluindo as disposições da CLT. Nesse caso, a empresa está cumprindo com essa obrigação ao calcular o adicional noturno de 20% e registrar os períodos em sistema eletrônico.\n\nA ativação do predicado \"obligation_to_ground_decision_in_identified_ratio_decidendi\" significa que a decisão deve estar fundamentada em uma razão específica, que é a necessidade de compensar o trabalho noturno com um adicional. Além disso, a empresa está cumprindo com a obrigação constitucional de \"constitucional_obligation_to_state_reasons_for_decisions\", pois explica as razões pelas quais foi tomada essa decisão.\n\nPor fim, o predicado \"right_of_access_to_justice_and_judicial_review\" garante que os trabalhadores tenham acesso à justiça e possam rever judicialmente a decisão da empresa, se considerarem que ela é injusta ou ilegal.\n\n**2. PREDICADOS SOVERANOS ATIVADOS**\n\n*   **obligation_to_state_practical_consequences_of_decision**: A empresa deve explicar as consequências práticas da decisão tomada, ou seja, como a decisão afetará os trabalhadores e a empresa.\n*   **prohibition_of_generic_precedent_citation**: A empresa não pode apelar para precedentes genéricos sem fundamentá-los em razões concretas e específicas.\n*   **obligation_to_address_all_legal_arguments**: A empresa deve considerar todos os argumentos legais relevantes, incluindo as disposições da CLT, ao tomar uma decisão.\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi**: A decisão deve estar fundamentada em uma razão específica, que é a necessidade de compensar o trabalho noturno com um adicional.\n*   **constitucional_obligation_to_state_reasons_for_decisions**: A empresa tem a obrigação constitucional de explicar as razões pelas quais foi tomada uma decisão.\n*   **right_of_access_to_justice_and_judicial_review**: Os trabalhadores têm o direito de acesso à justiça e podem rever judicialmente a decisão da empresa, se considerarem que ela é injusta ou ilegal.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nA decisão do sistema Q-FENG significa que a empresa está fazendo as coisas corretas ao calcular o adicional noturno de 20% e registrar os períodos em sistema eletrônico. Isso é feito para compensar o trabalho noturno, que pode ser mais difícil e perigoso do que trabalhar durante o dia.\n\nA empresa está cumprindo com as leis trabalhistas ao fazer isso e também está explicando por quê. Além disso, os trabalhadores têm o direito de questionar essa decisão se acreditarem que ela é injusta ou ilegal.\n\nEssa decisão não significa que a empresa está fazendo algo errado, mas sim que está seguindo as leis e regulamentos para tratar bem seus funcionários.",
+  "tokens_in": 535,
+  "tokens_out": 864,
+  "latency_ms": 14437,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

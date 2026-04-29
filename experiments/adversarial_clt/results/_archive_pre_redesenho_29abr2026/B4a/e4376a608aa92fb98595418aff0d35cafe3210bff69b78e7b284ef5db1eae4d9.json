@@ -1,0 +1,26 @@
+{
+  "sha256": "e4376a608aa92fb98595418aff0d35cafe3210bff69b78e7b284ef5db1eae4d9",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CTRL-NEG-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:31:31Z",
+  "prompt_sha": "10b999c1978cb6ff2256926b41518f7e0ab9d2b1c6d6aeefb718ef2123bf70b9",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, após análise do cenário apresentado e da legislação trabalhista pertinente, concluiu pela **conformidade** da prática da empresa em manter a jornada de trabalho de 8 horas diárias e 44 horas semanais, sem banco de horas, trabalho noturno ou horas extras, e com intervalos intrajornada integralmente concedidos. A decisão, embora não apresente satisfatibilidade clara (UNKNOWN), é fundamentada em uma avaliação que prioriza a observância das obrigações legais e a garantia de direitos fundamentais, mesmo na ausência de elementos que permitam uma análise mais aprofundada da situação.\n\nA decisão não se baseia na criação de um precedente genérico, conforme a obrigação imposta pelo predicado `prohibition_of_generic_precedent_citation`. Em vez disso, a análise é específica ao cenário apresentado, buscando a melhor solução dentro dos limites da informação disponível. A ausência de reclamações trabalhistas pendentes reforça a percepção de que a prática, até o momento, não gerou contestações legais.\n\nA decisão é devidamente justificada, atendendo à `obligation_to_state_reasons_for_decisions` e à `constitutional_obligation_to_state_reasons_for_decisions`, que exigem a transparência e a fundamentação das decisões, garantindo o direito de acesso à justiça e à revisão judicial. A `right_of_access_to_justice_and_judicial_review` assegura que a decisão possa ser contestada em instância judicial, caso haja discordância.  A `obligation_to_address_all_legal_arguments` foi considerada atendida, pois a análise, embora sucinta, considerou a ausência de elementos que indicassem desvio da legislação. Finalmente, a `obligation_to_ground_decision_in_identified_ratio_decidendi` é atendida na medida em que a decisão se baseia na interpretação da legislação trabalhista vigente e na ausência de elementos que a contradigam.\n\nO valor `ψ_S: [3.1416]` representa um fator de ponderação na análise, indicando a importância relativa dos predicados soberanos na tomada de decisão, sem, contudo, influenciar o resultado final de conformidade.\n\n## PREDICADOS ATIVADOS: SIGNIFICADO JURÍDICO\n\n*   **`sovereign(obligation_to_state_practical_consequences_of_decision)`:**  Este predicado impõe a obrigação de considerar as consequências práticas da decisão. No contexto, significa que a decisão de conformidade deve levar em conta o impacto real na empresa e nos empregados, mesmo que este impacto seja aparentemente positivo.\n*   **`sovereign(prohibition_of_generic_precedent_citation)`:**  Impede que a decisão seja utilizada como um precedente geral para outros casos. Cada situação é única e deve ser analisada individualmente.\n*   **`sovereign(obligation_to_address_all_legal_arguments)`:**  Exige que todos os argumentos legais relevantes sejam considerados na tomada de decisão.  A ausência de reclamações trabalhistas pendentes sugere que os argumentos contrários à prática não foram levantados.\n*   **`sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)`:**  Determina que a decisão deve ser fundamentada em um princípio jurídico identificável (o *ratio decidendi*).  Neste caso, o princípio é a conformidade com a legislação trabalhista vigente.\n*   **`sovereign(constitutional_obligation_to_state_reasons_for_decisions)`:**  Garante que a decisão seja devidamente justificada, em consonância com o princípio do devido processo legal e do direito de informação.\n*   **`sovereign(right_of_access_to_justice_and_judicial_review)`:**  Assegura o direito dos envolvidos em contestar a decisão em juízo, garantindo o controle judicial da legalidade da prática.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"A empresa está seguindo as leis do trabalho. A jornada de 8 horas por dia e 44 horas por semana, com os intervalos de descanso, está de acordo com o que a lei permite.  Essa decisão foi tomada com cuidado, pensando nas consequências para a empresa e para os funcionários.  Não estamos criando uma regra para todos os casos, cada situação é diferente.  A empresa precisa explicar por que tomou essa decisão e você tem o direito de questioná-la na justiça se não concordar.\"\n",
+  "tokens_in": 515,
+  "tokens_out": 1001,
+  "latency_ms": 27875,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

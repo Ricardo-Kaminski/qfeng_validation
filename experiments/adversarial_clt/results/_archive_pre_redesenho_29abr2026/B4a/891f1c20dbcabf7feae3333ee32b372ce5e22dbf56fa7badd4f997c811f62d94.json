@@ -1,0 +1,26 @@
+{
+  "sha256": "891f1c20dbcabf7feae3333ee32b372ce5e22dbf56fa7badd4f997c811f62d94",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CTRL-NEG-001",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T06:32:24Z",
+  "prompt_sha": "10b999c1978cb6ff2256926b41518f7e0ab9d2b1c6d6aeefb718ef2123bf70b9",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, após análise do cenário apresentado – empresa de manufatura com jornada de trabalho fixa de 8 horas diárias e 44 horas semanais, sem banco de horas, trabalho noturno ou horas extras, com intervalos integralmente concedidos e registros de ponto eletrônicos, e ausência de reclamações trabalhistas – concluiu pela **CONFORMIDADE** com a legislação trabalhista vigente.\n\nA decisão, embora classificada como \"UNKNOWN\" em relação à satisfatibilidade (o que indica a complexidade e a necessidade de mais dados para uma avaliação completa), foi fundamentada na observância de princípios e obrigações legais, conforme expressado pelos predicados soberanos ativos. A ausência de elementos que indicassem desvio da legalidade, como horas extras não pagas, trabalho noturno não remunerado ou desrespeito aos intervalos, contribuiu para a conclusão de que a prática da empresa está em conformidade com a legislação.\n\nÉ importante ressaltar que a decisão não estabelece um precedente genérico, conforme a obrigação de evitar precedentes genéricos (sovereign(prohibition_of_generic_precedent_citation)) impõe. Cada caso deve ser analisado individualmente, considerando suas particularidades. A decisão é baseada nos fatos apresentados e não implica em uma avaliação exaustiva de todos os aspectos da relação de trabalho.\n\nO valor do vetor ψ_S (3.1416) representa uma métrica interna do sistema, indicando a complexidade da análise e a necessidade de cautela na interpretação da decisão.\n\n## PREDICADOS ATIVADOS E SEU SIGNIFICADO JURÍDICO\n\n1. **sovereign(obligation_to_state_practical_consequences_of_decision):**  O sistema tem a obrigação de considerar e explicitar as consequências práticas da decisão. Neste caso, a conformidade significa que a empresa pode continuar operando com a jornada de trabalho estabelecida, sem risco imediato de ações judiciais por descumprimento da CLT.\n2. **sovereign(prohibition_of_generic_precedent_citation):**  A decisão não pode ser utilizada como um precedente automático para outros casos. Cada situação deve ser analisada individualmente, considerando suas particularidades.\n3. **sovereign(obligation_to_address_all_legal_arguments):** O sistema deve considerar todos os argumentos legais relevantes para a tomada de decisão. No cenário apresentado, a ausência de elementos que indicassem irregularidades foi um fator determinante para a conclusão de conformidade.\n4. **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** A decisão deve ser fundamentada em princípios e interpretações jurídicas já estabelecidas (o \"ratio decidendi\").  Neste caso, a conformidade se baseia na interpretação da CLT que permite a definição de jornada de trabalho fixa, desde que respeitados os limites legais e os intervalos.\n5. **sovereign(constitutional_obligation_to_state_reasons_for_decisions):**  O sistema tem a obrigação constitucional de justificar a decisão, explicando os motivos que a levaram a essa conclusão. A narrativa acima cumpre essa obrigação, detalhando os fatores considerados.\n6. **sovereign(right_of_access_to_justice_and_judicial_review):**  A decisão é passível de revisão judicial.  Qualquer parte insatisfeita com a decisão pode buscar a revisão da mesma através do sistema judicial.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"Analisamos a situação da empresa e, com base nas informações que recebemos, concluímos que a forma como a empresa está organizando o trabalho dos funcionários – 8 horas por dia, 44 horas por semana, com pausas para descanso e registros de ponto – está de acordo com as leis trabalhistas.\n\nIsso significa que, pelo menos por enquanto, a empresa não está cometendo nenhuma irregularidade em relação à jornada de trabalho.\n\nÉ importante lembrar que essa conclusão é baseada apenas nas informações que temos. Se houver alguma mudança na situação ou se alguém se sentir prejudicado, a decisão pode ser revista. Além disso, essa análise não cria um modelo para todas as empresas, cada caso é único e precisa ser avaliado separadamente. Se você tiver alguma dúvida ou discordar dessa análise, você tem o direito de procurar um advogado e levar o caso para a justiça.\"\n",
+  "tokens_in": 515,
+  "tokens_out": 963,
+  "latency_ms": 26859,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,27 @@
+{
+  "sha256": "bf64f169ff10a03ee743d02ca220a046fdd00ce03f0e19392bdde4cb30ff6395",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-006",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T04:55:12Z",
+  "prompt_sha": "f639dd1bd0487253b77ed4f47aa1283095e0b4595ae43a9a643ff66481153314",
+  "response_text": "1. **NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG determinou que a situação descrita está em conformidade com as normas aplicáveis. A decisão foi baseada na análise dos predicados soberanos e elásticos ativos, conforme o contexto da Consolidação das Leis do Trabalho (CLT) e a Convenção Coletiva de Trabalho (CCT). Os predicados soberanos ativos — reconhecimento da negociação coletiva, limite máximo semanal de 44 horas e limite diário de 8 horas — garantem que as práticas adotadas pela empresa estão alinhadas com os direitos trabalhistas fundamentais. A CCT estabeleceu um banco de horas negociável anualmente, permitindo flexibilidade dentro dos limites legais. Como todas as compensações ocorreram dentro do prazo e a jornada extra não excedeu 2 horas diárias, sem necessidade de acionar a cláusula de pagamento adicional após o término do prazo, a empresa cumpriu com os termos negociados. Portanto, a decisão de conformidade reflete que as práticas seguem tanto a legislação quanto os acordos coletivos.\n\n2. **PREDICADOS ATIVADOS**\n\n- **sovereign(recognition_of_collective_bargaining):** Este predicado reconhece o direito dos trabalhadores e empregadores negociarem condições de trabalho específicas através da CCT, que pode estabelecer regras diferentes das previstas na CLT, desde que não sejam menos favoráveis aos trabalhadores.\n\n- **sovereign(maximum_weekly_working_hours_44h):** Este predicado assegura que a jornada semanal de trabalho não exceda 44 horas, conforme estabelecido pela CLT. Qualquer acordo coletivo deve respeitar esse limite máximo, salvo em casos excepcionais e bem justificados.\n\n- **sovereign(maximum_daily_working_hours_8h):** Este predicado garante que a jornada diária de trabalho não ultrapasse 8 horas, conforme previsto na CLT. A CCT pode negociar variações dentro deste limite, desde que respeite os direitos trabalhistas fundamentais.\n\n3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nO sistema Q-FENG verificou se a empresa está seguindo as regras de trabalho corretamente e decidiu que sim! Isso significa que tudo o que foi acordado entre os trabalhadores e a empresa, como folgas em semanas menos movimentadas e compensação de horas extras dentro do ano, está sendo feito conforme planejado. As leis garantem que ninguém trabalhe mais do que 44 horas por semana ou 8 horas por dia, mas a convenção coletiva pode ajustar isso um pouco, desde que todos estejam de acordo e as condições não sejam piores para os funcionários. Como todas essas regras foram seguidas, tudo está em ordem!",
+  "tokens_in": 529,
+  "tokens_out": 682,
+  "latency_ms": 20108,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

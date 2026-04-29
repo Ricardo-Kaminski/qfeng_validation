@@ -1,0 +1,30 @@
+{
+  "sha256": "16f8d46db24a71f5c672a6bad3edbe9f6f4d146e90a9f732c5cc27b56e4ec433",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:19:11Z",
+  "prompt_sha": "21716c3270739daa72072ebded0f26864be227f70f0f8915b7056671a1cc2c17",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nA decisão do sistema Q-FENG, embora indicando um estado de satisfatibilidade desconhecido (UNKNOWN), recomenda a **conformidade** com a decisão judicial trabalhista que invalidou o banco de horas. Essa recomendação é fundamentada na análise da decisão judicial e na aplicação de princípios jurídicos soberanos que regem a interpretação e aplicação do direito do trabalho.\n\nO sistema reconhece que a decisão judicial, ao invocar a CLT Art. 489, §1°, V, a Súmula TST 85, V e o TST-Ag-RR-868-65.2021, e ao aplicar o método *distinguishing* para diferenciar o caso concreto (banco de horas sem negociação coletiva) de um precedente (banco de horas com CCT bancária), estabeleceu um *ratio decidendi* específico.  O Q-FENG, em sua análise, não contesta essa interpretação, mas a incorpora como válida dentro do contexto legal apresentado. A recomendação de conformidade significa que o sistema entende que a decisão judicial está alinhada com os princípios jurídicos aplicáveis e, portanto, deve ser seguida.\n\nA análise do sistema foi influenciada pela ativação de diversos predicados soberanos, que garantem a validade e a justificativa da decisão. A ausência de uma satisfatibilidade definida (UNKNOWN) sugere que a complexidade do caso, a necessidade de distinguir precedentes e a interpretação da lei em um contexto específico geram incerteza, mas não invalidam a decisão judicial.\n\n## 2. PREDICADOS SOVERAIN ATIVOS:\n\nOs predicados soberanos ativos, no contexto trabalhista brasileiro, significam:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):** O sistema tem a obrigação de considerar e narrar as consequências práticas da decisão judicial, que neste caso, é a invalidade do banco de horas sem negociação coletiva.\n*   **sovereign(prohibition_of_generic_precedent_citation):**  Impede a citação genérica de precedentes. A decisão judicial, ao usar o método *distinguishing*, demonstra o cumprimento deste princípio, analisando as particularidades do caso concreto em relação a outros precedentes.\n*   **sovereign(obligation_to_address_all_legal_arguments):**  O sistema deve considerar e abordar todos os argumentos legais apresentados na decisão judicial, incluindo a referência à CLT, Súmula TST e o TST-Ag-RR-868-65.2021.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):**  O sistema deve fundamentar a decisão na *ratio decidendi* identificada na decisão judicial, ou seja, a razão de decidir que sustenta a invalidade do banco de horas sem negociação coletiva.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):**  Reflete a obrigação constitucional de motivar as decisões judiciais, garantindo a transparência e o controle da legalidade.\n*   **sovereign(recognition_of_collective_bargaining):**  Reconhece a importância da negociação coletiva como forma de regular as condições de trabalho, incluindo a possibilidade de bancos de horas. A decisão judicial, ao invalidar o banco de horas sem CCT, demonstra a importância deste princípio.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):** Garante o direito de acesso à justiça e à revisão judicial das decisões, permitindo que os trabalhadores contestem a validade de práticas como o banco de horas.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"O sistema analisou a decisão do juiz que disse que o banco de horas da empresa não pode funcionar da forma como está, porque a lei exige que ele seja feito através de um acordo entre os trabalhadores e a empresa, ou com a participação de um sindicato. O juiz explicou que, como não houve esse acordo, o banco de horas é inválido.\n\nO sistema concorda com essa decisão, porque a lei diz que as regras do trabalho precisam ser negociadas, e não podem ser impostas de forma genérica.  A decisão do juiz está certa em dizer que cada caso é diferente e precisa ser analisado com atenção.\n\nIsso significa que, se a sua empresa tem um banco de horas, é importante verificar se ele foi feito de acordo com a lei, com a participação dos trabalhadores ou do sindicato. Se não foi, ele pode ser considerado inválido e você pode ter o direito de reclamar na justiça.\"\n",
+  "tokens_in": 588,
+  "tokens_out": 1041,
+  "latency_ms": 29062,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

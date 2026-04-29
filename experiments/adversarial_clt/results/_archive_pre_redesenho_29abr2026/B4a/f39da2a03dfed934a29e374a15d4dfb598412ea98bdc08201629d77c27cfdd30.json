@@ -1,0 +1,27 @@
+{
+  "sha256": "f39da2a03dfed934a29e374a15d4dfb598412ea98bdc08201629d77c27cfdd30",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T03:12:39Z",
+  "prompt_sha": "a441ed131081be5a67de4fae29354418a5514d888c32e5d9d10bc7c36186be20",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nA decisão do sistema Q-FENG conclui que **há violação normativa** no cenário descrito. O raciocínio jurídico baseia-se nos seguintes pontos:  \n\n- **Predicado soberano `recognition_of_collective_bargaining`**: A CCT (Convenção Coletiva de Trabalho) é um instrumento jurídico que, mesmo após sua vigência, **não pode ser automaticamente renegociado** por uma empresa sucessora. A nova empresa, ao não renovar a CCT com o sindicato, **deixa de ter legitimidade para aplicar suas cláusulas**, incluindo o banco de horas. Isso viola o princípio da **negociação coletiva**, que exige a participação do sindicato e a formalização de novos termos.  \n\n- **Predicados soberanos `maximum_weekly_working_hours_44h` e `maximum_daily_working_hours_8h`**: Mesmo que a CCT tenha sido suspensa, **os limites legais de horas de trabalho (8h/dia e 44h/semana)** são **inflexíveis e obrigatórios**, independentemente de acordos coletivos. Se a empresa sucessora aplicou cláusulas da CCT que **viola esses limites** (ex.: acumulação de horas excedentes), isso configura **violação direta da legislação trabalhista**.  \n\n- **Predicado elástico `hour_bank_with_cct_max_1_year`**: A CCT original previa um banco de horas com prazo máximo de 12 meses. Ao não renovar a CCT, a empresa **perdeu a base jurídica para manter o banco de horas**, o que torna sua aplicação subsequente **ilegal**.  \n\nA combinação desses fatores leva à conclusão de que a empresa sucessora **viola a legislação trabalhista ao continuar aplicando cláusulas de uma CCT expirada**, especialmente se essas cláusulas violam os limites de horas de trabalho.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **`sovereign(recognition_of_collective_bargaining)`**:  \n  **Significado jurídico**: A negociação coletiva (CCT) é um direito fundamental dos trabalhadores e das empresas. A **renovação da CCT** deve ser feita **por meio de acordo entre sindicato e empresa**, sob pena de **nulidade** das cláusulas aplicadas. A ausência de renovação impede que a empresa sucessora continue usando as cláusulas da CCT antiga.  \n\n- **`sovereign(maximum_weekly_working_hours_44h)` e `sovereign(maximum_daily_working_hours_8h)`**:  \n  **Significado jurídico**: São **limites absolutos de horas de trabalho**, estabelecidos pela CLT (Consolidação das Leis do Trabalho) e **não podem ser ultrapassados**, mesmo com acordos coletivos. Se a CCT expirada previa condições que violam esses limites (ex.: horas extras não compensadas), a empresa sucessora **deve seguir a legislação**, não a cláusula da CCT.  \n\n- **`elastic(hour_bank_with_cct_max_1_year)`**:  \n  **Significado jurídico**: O banco de horas é uma **negociação flexível** entre sindicato e empresa, mas **sua validade depende da vigência da CCT**. Após o prazo de 12 meses, a cláusula perde eficácia, e a empresa **não pode aplicá-la sem um novo acordo**.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA situação é assim:  \n\n- A empresa antiga tinha um acordo com o sindicato (CCT) que permitia um \"banco de horas\" por 12 meses.  \n- Quando a empresa foi comprada por outro grupo, **não renovou esse acordo** com o sindicato.  \n- Mesmo assim, a nova empresa **continuou usando as regras do banco de horas** como se o acordo ainda estivesse válido.  \n\n**Por que isso é ilegal?**  \n- O banco de horas só pode existir **enquanto o acordo com o sindicato estiver vigente**. Como a CCT expirou e não foi renovada, a nova empresa **não tem direito de aplicar suas regras**.  \n- Além disso, se o banco de horas permitia horas extras sem compensação (ex.: mais de 8h por dia ou 44h por semana), isso **viola a lei**, que **obriga limites mínimos de descanso**.  \n\n**Conclusão**: A empresa **viola a lei ao continuar usando regras de um acordo expirado**, especialmente se essas regras prejudicam os direitos dos trabalhadores (ex.: horas extras excessivas). O sindicato deve exigir a renovação do acordo ou a aplicação das leis mínimas de proteção ao trabalhador.",
+  "tokens_in": 495,
+  "tokens_out": 1820,
+  "latency_ms": 58671,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

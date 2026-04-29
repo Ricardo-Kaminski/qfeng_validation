@@ -1,0 +1,30 @@
+{
+  "sha256": "749d7a73f68fb983fe0782aca7ba2ffd6e4f9f535c09631a945d4307469631cb",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-010",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T05:16:02Z",
+  "prompt_sha": "489f6f91379c7ea7947895493240b48edcdba6ecc1f5f6f729f5d5d0c3140186",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que a decisão do Tribunal Regional do Trabalho (TRT) está em conformidade com os princípios jurídicos aplicáveis, conforme evidenciado pelos predicados soberanos ativos. A análise considerou o contexto normativo e jurisprudencial relevante, incluindo a Constituição Federal, a Consolidação das Leis do Trabalho (CLT), a Súmula do Tribunal Superior do Trabalho (TST) e o entendimento do Supremo Tribunal Federal (STF). \n\nO TRT revisou uma sentença de primeiro grau sobre a redução do intervalo intrajornada, considerando os artigos da CLT e as súmulas pertinentes. A decisão destacou que não havia Convenção Coletiva de Trabalho (CCT) válida autorizando tal redução, conforme o Tema 981/STF, que trata sobre a validade das cláusulas CCTs que alteram direitos trabalhistas essenciais. Assim, concluiu-se pelo pagamento integral do período suprimido como hora extra.\n\nOs predicados soberanos ativos garantiram que a decisão fosse fundamentada em uma análise completa dos argumentos legais apresentados (obligation_to_address_all_legal_arguments) e que as razões para tal conclusão fossem explicitamente declaradas (constitutional_obligation_to_state_reasons_for_decisions). Além disso, foi reconhecida a validade da negociação coletiva (recognition_of_collective_bargaining), mas dentro dos limites constitucionais e legais. A decisão também respeitou o direito de acesso à justiça e à revisão judicial (right_of_access_to_justice_and_judicial_review).\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obligation to state practical consequences of decision**: Este predicado exige que a decisão explique claramente as consequências práticas do seu resultado, garantindo transparência e compreensão sobre o impacto da decisão.\n\n- **Prohibition of generic precedent citation**: Impede a citação genérica de precedentes sem análise específica, assegurando que cada caso seja avaliado com base em suas particularidades e no contexto legal atual.\n\n- **Obligation to address all legal arguments**: Exige que todos os argumentos legais apresentados sejam considerados na decisão, garantindo uma análise abrangente e justa do caso.\n\n- **Obligation to ground decision in identified ratio decidendi**: Requer que a decisão seja fundamentada no \"ratio decidendi\" (razão de decidir) identificado, ou seja, o princípio jurídico central que sustenta a decisão.\n\n- **Constitutional obligation to state reasons for decisions**: Impõe a obrigação constitucional de explicitar as razões pelas quais uma determinada decisão foi tomada, promovendo transparência e justiça processual.\n\n- **Recognition of collective bargaining**: Reconhece a validade da negociação coletiva como meio de regulamentação das condições de trabalho, desde que respeite os limites constitucionais e legais.\n\n- **Right of access to justice and judicial review**: Garante o direito dos trabalhadores de acessar a justiça e buscar revisão judicial de decisões que possam afetar seus direitos.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO tribunal decidiu corretamente sobre o caso, garantindo que todos os argumentos legais foram considerados e que a decisão foi clara e justa. Eles analisaram as leis trabalhistas e as regras de negociação coletiva para chegar à conclusão de que não havia permissão legal para reduzir o intervalo intrajornada, então determinaram que o tempo suprimido deve ser pago como hora extra.\n\nIsso significa que, mesmo que a empresa tenha tentado mudar as regras do intervalo para 30 minutos através de um acordo coletivo, isso não é permitido se não estiver dentro das leis trabalhistas. Portanto, o tempo que você perdeu deve ser compensado como horas extras, garantindo seus direitos conforme a lei.",
+  "tokens_in": 589,
+  "tokens_out": 964,
+  "latency_ms": 27983,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

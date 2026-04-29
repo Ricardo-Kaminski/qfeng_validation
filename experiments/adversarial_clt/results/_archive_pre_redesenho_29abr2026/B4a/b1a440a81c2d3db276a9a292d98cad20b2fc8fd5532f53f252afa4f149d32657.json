@@ -1,0 +1,30 @@
+{
+  "sha256": "b1a440a81c2d3db276a9a292d98cad20b2fc8fd5532f53f252afa4f149d32657",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T05:05:00Z",
+  "prompt_sha": "21716c3270739daa72072ebded0f26864be227f70f0f8915b7056671a1cc2c17",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG analisou o caso de banco de horas implementado sem negociação coletiva e chegou à conclusão de conformidade com a decisão trabalhista, baseando-se nos predicados soberanos ativos. A análise foi conduzida sob a luz dos artigos da CLT e do CPC/CLT, bem como das súmulas e precedentes relevantes.\n\nA decisão destacou que o banco de horas sem negociação coletiva viola as normas trabalhistas vigentes, conforme fundamentado pelo Art. 489, §1°, V (via remissão à integração CPC/CLT), Súmula TST 85, V e o TST-Ag-RR-868-65.2021. A distinção explícita entre bancos de horas com e sem CCT foi crucial para a fundamentação da decisão.\n\nOs predicados soberanos ativos garantiram que a decisão fosse bem fundamentada e coerente:\n\n- **Obrigação de declarar as consequências práticas da decisão**: A decisão deve esclarecer como afeta os envolvidos.\n- **Proibição de citação genérica de precedentes**: Citações devem ser específicas e relevantes ao caso concreto.\n- **Obrigação de abordar todos os argumentos legais apresentados**: Todos os pontos levantados foram considerados na análise.\n- **Obrigação de fundamentar a decisão no ratio decidendi identificado**: A decisão foi baseada nos fundamentos jurídicos relevantes do caso.\n- **Obrigação constitucional de declarar as razões das decisões**: As razões para a decisão foram explicitamente declaradas.\n- **Reconhecimento da negociação coletiva**: A importância da CCT na regulamentação do banco de horas foi reconhecida.\n- **Direito de acesso à justiça e revisão judicial**: Garantia de que os direitos dos trabalhadores são protegidos.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obrigação de declarar as consequências práticas da decisão**: No contexto trabalhista, isso significa que a decisão deve ser clara sobre como afeta o empregado e o empregador, especificando quais são os impactos diretos do banco de horas sem CCT.\n\n- **Proibição de citação genérica de precedentes**: Juridicamente, isso implica que qualquer referência a casos anteriores deve ser diretamente aplicável ao caso atual, evitando generalizações que não se encaixam no contexto específico.\n\n- **Obrigação de abordar todos os argumentos legais apresentados**: Isso assegura que todas as questões levantadas pelas partes envolvidas foram consideradas na decisão, garantindo uma análise completa e justa.\n\n- **Obrigação de fundamentar a decisão no ratio decidendi identificado**: A decisão deve ser baseada nos princípios legais específicos que se aplicam ao caso, assegurando que a lógica jurídica subjacente seja clara e relevante.\n\n- **Obrigação constitucional de declarar as razões das decisões**: Isso significa que a decisão deve explicar por que foi tomada, fornecendo uma justificativa clara para o resultado alcançado.\n\n- **Reconhecimento da negociação coletiva**: No contexto trabalhista brasileiro, isso destaca a importância da CCT como meio de regulamentação das condições de trabalho, incluindo o banco de horas.\n\n- **Direito de acesso à justiça e revisão judicial**: Garante que os trabalhadores possam buscar reparação legal e que as decisões judiciais possam ser revisadas se necessário, protegendo seus direitos fundamentais.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG analisou um caso sobre o uso de banco de horas sem acordo coletivo e decidiu que isso não está permitido pela lei trabalhista brasileira. Isso significa que, para usar o banco de horas, a empresa precisa negociar com os funcionários através de um contrato coletivo.\n\nA decisão foi tomada considerando as leis específicas sobre trabalho e como elas foram interpretadas em casos anteriores. A análise mostrou que, sem esse acordo coletivo, o uso do banco de horas é ilegal.\n\nPara garantir que a decisão seja justa e clara, todos os argumentos apresentados foram considerados, e as razões para essa conclusão foram explicadas detalhadamente. Além disso, foi reconhecido que os trabalhadores têm o direito de buscar justiça se sentirem prejudicados.\n\nEm resumo, a decisão protege os direitos dos trabalhadores ao exigir que qualquer uso do banco de horas seja feito com um acordo coletivo prévio.",
+  "tokens_in": 586,
+  "tokens_out": 1110,
+  "latency_ms": 32641,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

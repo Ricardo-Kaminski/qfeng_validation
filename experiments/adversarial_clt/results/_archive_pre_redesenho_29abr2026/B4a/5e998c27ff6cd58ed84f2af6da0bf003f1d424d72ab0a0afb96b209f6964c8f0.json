@@ -1,0 +1,27 @@
+{
+  "sha256": "5e998c27ff6cd58ed84f2af6da0bf003f1d424d72ab0a0afb96b209f6964c8f0",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-011",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T03:33:04Z",
+  "prompt_sha": "1ba5dabfcaa2bdcb6e6f3d2a77f11a19a64ac5023093b1ae0eb6de908514e992",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a **empresa violou a legislação trabalhista brasileira**, com base nos **predicados soberanos ativos** da CLT (Consolidação das Leis do Trabalho). A análise se baseia nos seguintes pontos:  \n- **Predicado soberano `sovereign(maximum_hour_bank_with_cct_max_1_year)`** estabelece que **o banco de horas anual, negociado em CCT, não pode ultrapassar 12 meses**. Mesmo que o trabalhador tenha ficado afastado por 4 meses, a CLT **não permite a suspensão automática do prazo do banco de horas** se a CCT não prevê essa possibilidade.  \n- A **ausência de cláusula específica na CCT** que autorizasse a suspensão do prazo do banco de horas anual **invalida a tentativa da empresa de estender o prazo** para além de 12 meses.  \n- O **predicado soberano `sovereign(recognition_of_collective_bargaining)`** reforça que a CCT é um acordo vinculante, mas **não pode alterar normas legais básicas da CLT**, como o limite máximo de 12 meses para o banco de horas.  \n\nPortanto, a **empresa violou o artigo 224 da CLT**, que limita o banco de horas anual a 12 meses, independentemente de afastamentos, **porque a CCT não previu a suspensão do prazo**.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **`sovereign(recognition_of_collective_bargaining)`**:  \n  Reconhece que **acordos coletivos (CCTs)** têm força normativa, mas **não podem substituir ou anular dispositivos da CLT**. A CLT prevalece em caso de conflito.  \n\n- **`sovereign(maximum_weekly_working_hours_44h)`**:  \n  Estabelece que **a jornada semanal máxima permitida é de 44 horas**, independentemente de negociações.  \n\n- **`sovereign(maximum_daily_working_hours_8h)`**:  \n  Limita a **jornada diária a 8 horas**, mesmo com acordos coletivos.  \n\n- **`elastic(annual_hour_bank_negotiable)`**:  \n  Permite que **empresas e sindicatos negociem o banco de horas anual**, mas **não pode ultrapassar o limite de 12 meses** (definido pelo predicado soberano acima).  \n\n- **`elastic(working_hours_negotiable_by_cct)`**:  \n  Permite que **CCTs definam regras específicas de jornada**, mas **não podem violar limites legais básicos da CLT**.  \n\n- **`elastic(hour_bank_with_cct_max_1_year)`**:  \n  Define que **o banco de horas anual, se negociado em CCT, não pode exceder 12 meses**, mesmo com afastamentos.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa **não pode estender o prazo do banco de horas** para além de 12 meses, mesmo que o trabalhador tenha ficado afastado por 4 meses. Isso porque:  \n- A **CLT (lei do trabalho)** diz que **o banco de horas anual só pode durar até 12 meses**, **independentemente de afastamentos**.  \n- A **CCT (acordo coletivo)** não mencionou que o prazo do banco de horas poderia ser suspenso durante o afastamento.  \n- A empresa **tentou aplicar uma regra que não existe na lei**, o que é **ilegal**.  \n\n**O trabalhador está certo**: a empresa **viola a lei ao exigir compensação após 12 meses**, mesmo com o afastamento. A **CLT prevalece sobre acordos coletivos** nesse caso.",
+  "tokens_in": 537,
+  "tokens_out": 1330,
+  "latency_ms": 41907,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

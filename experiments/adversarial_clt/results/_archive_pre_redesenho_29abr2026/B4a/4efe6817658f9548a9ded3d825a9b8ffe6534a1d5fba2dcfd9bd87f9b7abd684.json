@@ -1,0 +1,27 @@
+{
+  "sha256": "4efe6817658f9548a9ded3d825a9b8ffe6534a1d5fba2dcfd9bd87f9b7abd684",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-006",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:09:05Z",
+  "prompt_sha": "f639dd1bd0487253b77ed4f47aa1283095e0b4595ae43a9a643ff66481153314",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, após analisar o cenário apresentado e executar o solver Clingo ASP com base nos predicados soberanos e elásticos da Consolidação das Leis do Trabalho (CLT), concluiu que a prática do CCT do setor de varejo, que prevê banco de horas com compensação em até 12 meses, folga compensatória em períodos de baixa movimentação e pagamento pontual dos extratos mensais, está em **conformidade** com a legislação trabalhista.\n\nA decisão de conformidade foi alcançada porque a análise considerou a existência de um Acordo Coletivo de Trabalho (CCT) válido, que estabeleceu as regras para o banco de horas e a compensação, e que foi aceito pelos trabalhadores. A ausência de acionamento da cláusula de pagamento de horas extras, prevista para o caso de saldo não compensado, reforça a adequação da prática. O sistema considerou a flexibilidade permitida pela negociação coletiva, dentro dos limites estabelecidos pela lei.\n\nA incerteza na satisfatibilidade (UNKNOWN) reflete a complexidade inerente à análise de cenários que envolvem negociação coletiva, onde a interpretação e aplicação das cláusulas podem variar. No entanto, a ativação dos predicados soberanos e elásticos, conforme detalhado abaixo, indica que a prática se alinha aos princípios e limites legais.\n\n## PREDICADOS ATIVADOS: SIGNIFICADO JURÍDICO\n\nOs predicados soberanos e elásticos ativos fornecem o embasamento jurídico para a decisão do Q-FENG:\n\n*   **sovereign(recognition_of_collective_bargaining):** Este predicado reconhece a validade e a força do Acordo Coletivo de Trabalho (CCT). No direito brasileiro, o CCT é um instrumento de negociação coletiva que estabelece condições de trabalho para uma categoria profissional, suprassumindo a lei em seus termos, desde que respeite os limites mínimos estabelecidos pela legislação e pela Constituição Federal. A existência de um CCT válido é fundamental para a legalidade das práticas nele previstas.\n*   **sovereign(maximum_weekly_working_hours_44h):** Este predicado reafirma o limite máximo de 44 horas semanais para a jornada de trabalho, conforme estabelecido pela CLT (Art. 7º, XIII). Embora o banco de horas possa permitir a realização de horas extras, a média da jornada de trabalho deve permanecer dentro desse limite ao longo do período de compensação.\n*   **sovereign(maximum_daily_working_hours_8h):** Este predicado estabelece o limite máximo de 8 horas diárias para a jornada de trabalho, também previsto na CLT (Art. 7º, XIII). A jornada extra diária, conforme o cenário, não ultrapassou esse limite, contribuindo para a conformidade.\n\nOs predicados elásticos, por sua vez, refletem a flexibilidade permitida pela negociação coletiva:\n\n*   **elastic(annual_hour_bank_negotiable):** Reconhece que a instituição de um banco de horas anual é passível de negociação coletiva, desde que respeitados os limites legais.\n*   **elastic(working_hours_negotiable_by_cct):** Confirma que a organização da jornada de trabalho pode ser ajustada por meio de CCT, permitindo a implementação de regimes de compensação de horas.\n*   **elastic(hour_bank_with_cct_max_1_year):** Estabelece que o prazo máximo para a compensação do banco de horas, definido no CCT, pode ser de até 1 ano.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"A empresa está agindo corretamente, de acordo com o que foi combinado com os trabalhadores em um acordo formal (CCT). Esse acordo permite que a empresa ofereça folgas para compensar as horas extras trabalhadas, e que essas horas sejam pagas em até 12 meses. Como as folgas foram oferecidas e pagas dentro do prazo, e as horas extras não foram muito grandes, o sistema Q-FENG considera que a empresa está seguindo as regras.\n\nÉ importante lembrar que a lei diz que a semana de trabalho não pode passar de 44 horas e o dia de trabalho não pode passar de 8 horas. O acordo entre a empresa e os trabalhadores pode mudar um pouco como essas horas são organizadas, mas sempre dentro desses limites. Se, por algum motivo, as horas extras não fossem compensadas dentro de um ano, a lei diz que elas teriam que ser pagas como horas extras com um adicional de 50%, mas isso não aconteceu neste caso.\"",
+  "tokens_in": 510,
+  "tokens_out": 1014,
+  "latency_ms": 28203,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,30 @@
+{
+  "sha256": "c777ba1b1e45138b825f0c200f9172b5961f6d95b3f6b52da9f030fc9ba8011a",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T03:43:41Z",
+  "prompt_sha": "ae558655ffa0f1123903cf70da28171aff110a52218cb4360d65fad0dbdb72bf",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a decisão do TRT está **em conformidade com os princípios jurídicos fundamentais** da CLT e da legislação trabalhista brasileira, com base nos predicados soberanos ativos. A análise do caso revela que:  \n- **Obrigação de expor consequências práticas da decisão** (sovereign(obligation_to_state_practical_consequences_of_decision)): A decisão do TRT corretamente identificou que o banco de horas, ao não possuir CCT/ACT, gera **obrigação de pagamento de horas extras com adicional de 50%**, conforme previsto na Súmula TST 85.  \n- **Proibição de citação genérica de precedentes** (sovereign(prohibition_of_generic_precedent_citation)): A decisão não utilizou precedentes vagos ou genéricos, mas **aplicou a Súmula TST 85 de forma específica**, vinculando-a aos fatos do caso (ausência de CCT/ACT e período de 5 meses).  \n- **Obrigação de abordar todos os argumentos jurídicos** (sovereign(obligation_to_address_all_legal_arguments)): A decisão do TRT considerou **todos os argumentos da empresa** (tese do \"acordo tácito\") e **rejeitou-os com base na CLT**, que exige CCT/ACT para validade de banco de horas.  \n- **Fundamentação na ratio decidendi identificada** (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)): A decisão baseou-se no **princípio de que o acordo tácito não substitui a CCT/ACT**, conforme estabelecido na jurisprudência do TST.  \n- **Obrigação constitucional de expor razões** (sovereign(constitutional_obligation_to_state_reasons_for_decisions)): A decisão do TRT **explicou claramente** por que o acordo tácito é inválido e por que as horas são extras, cumprindo o dever de transparência.  \n- **Reconhecimento da negociação coletiva** (sovereign(recognition_of_collective_bargaining)): A ausência de CCT/ACT evidencia que **a negociação coletiva não ocorreu**, o que inviabiliza a validade do banco de horas.  \n- **Direito de acesso à justiça** (sovereign(right_of_access_to_judicial_review)): A decisão assegurou que o trabalhador **pode revisar a decisão judicialmente**, caso haja discordância.  \n\nA **elasticidade** (elastic(working_hours_negotiable_by_cct), elastic(hour_bank_with_cct_max_1_year)) reforça que, **sem CCT/ACT**, o banco de horas é inválido, e as horas excedentes devem ser remuneradas com adicional de 50%.  \n\n---\n\n### 2. **PREDICADOS ATIVOS: SIGNIFICADO JURÍDICO**  \n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O tribunal deve **explicar as consequências reais da decisão**, como o pagamento de horas extras e a invalidade do banco de horas.  \n- **sovereign(prohibition_of_generic_precedent_citation)**: O tribunal **não pode usar precedentes genéricos**; deve aplicar a Súmula TST 85 de forma específica ao caso.  \n- **sovereign(obligation_to_address_all_legal_arguments)**: O tribunal **deve responder a todos os argumentos da parte**, incluindo a tese da empresa sobre \"acordo tácito\".  \n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão **deve basear-se em um fundamento jurídico claro**, como a inviabilidade do acordo tácito sem CCT/ACT.  \n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: O tribunal **deve expor razões objetivas** para a decisão, como a ausência de CCT/ACT e a CLT.  \n- **sovereign(recognition_of_collective_bargaining)**: A CLT **reconhece a negociação coletiva** como pré-requisito para validade de banco de horas.  \n- **sovereign(right_of_access_to_judicial_review)**: O trabalhador **tem direito a revisão judicial** da decisão, garantindo a justiça.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA decisão do tribunal está **certa**. O banco de horas só pode existir se houver um acordo coletivo (CCT/ACT) entre a empresa e os trabalhadores. Como **não há esse acordo**, as horas extras trabalhadas devem ser **pagas com 50% a mais**. A empresa não pode dizer que houve um \"acordo tácito\" (acordo feito sem documento), porque **a lei exige um acordo escrito**. O tribunal explicou tudo claramente, e a decisão respeita os direitos do trabalhador. Se a empresa discordar, pode pedir revisão, mas a decisão do tribunal está **em conformidade com a lei**.",
+  "tokens_in": 586,
+  "tokens_out": 1677,
+  "latency_ms": 53203,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

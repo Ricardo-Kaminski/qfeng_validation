@@ -1,0 +1,30 @@
+{
+  "sha256": "7889a7220e19740a4f559478f932ef7aeaabee1bd0940b28c93e1ef25e307878",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-001",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T06:17:10Z",
+  "prompt_sha": "f5b03aa37cbaba903b62ce936948a2f9431d0cc4d9bc02bb8ff84f0799aa516e",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, após análise do cenário apresentado – que envolve um acórdão do Tribunal Superior do Trabalho (TST) validando um banco de horas bancário com base no ARE 1.121.633 (Tema 1046/STF) – concluiu pela **CONFORMIDADE**. Essa conclusão não significa que o sistema tenha tomado uma decisão de mérito sobre a validade do banco de horas em si, mas sim que a decisão do TST, conforme narrada, está em consonância com os princípios e normas que regem a interpretação e aplicação do direito do trabalho no Brasil, considerando a importância da negociação coletiva e a jurisprudência do Supremo Tribunal Federal.\n\nA avaliação do Q-FENG foi baseada na identificação de predicados soberanos e elásticos que, ao serem ativados, indicam a presença de elementos que justificam a validade da decisão do TST. A referência explícita ao ARE 1.121.633, a análise de que a Convenção Coletiva de Trabalho (CCT) bancária preenche os requisitos estabelecidos pelo Tema 1046 do STF, e a consequente validação do banco de horas, demonstram que a decisão do TST respeitou a autonomia da negociação coletiva e a necessidade de adequação setorial, conforme o entendimento do STF.  A satisfatibilidade desconhecida (UNKNOWN) reflete a complexidade do cenário e a impossibilidade de uma avaliação completa sem acesso a todos os detalhes do caso concreto, mas não invalida a conformidade da decisão do TST com os princípios gerais.\n\n## 2. PREDICADOS ATIVADOS:\n\nOs predicados soberanos ativos e seus significados no contexto trabalhista brasileiro são:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  O sistema tem a obrigação de explicitar as consequências práticas da decisão, mesmo que essa explicação seja indireta, como a validação de um modelo de banco de horas. Isso visa garantir a transparência e a previsibilidade do direito.\n*   **sovereign(prohibition_of_generic_precedent_citation):**  Impede a citação genérica de precedentes. A decisão do TST, ao citar especificamente o ARE 1.121.633 (Tema 1046/STF), demonstra o respeito a este princípio, fundamentando a decisão em um caso concreto e específico.\n*   **sovereign(obligation_to_address_all_legal_arguments):**  O sistema deve garantir que todos os argumentos legais relevantes sejam considerados na análise. O acórdão do TST, ao analisar os requisitos do Tema 1046, demonstra o cumprimento dessa obrigação.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):**  A decisão deve ser fundamentada na *ratio decidendi* (o princípio jurídico que fundamenta a decisão) de casos anteriores. A referência ao ARE 1.121.633 e a análise da CCT bancária demonstram essa fundamentação.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):**  O sistema tem a obrigação constitucional de motivar as decisões, explicando os fundamentos de fato e de direito. O acórdão do TST, com sua extensa fundamentação, cumpre essa obrigação.\n*   **sovereign(recognition_of_collective_bargaining):**  Reconhece a importância da negociação coletiva como forma de regular as relações de trabalho. A validade do banco de horas, estabelecido em uma CCT, demonstra o respeito a esse princípio.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):**  Garante o direito de acesso à justiça e à revisão judicial das decisões. A possibilidade de questionar a validade do banco de horas em recurso de revista é uma manifestação desse direito.\n\nOs predicados elásticos ativos, *working_hours_negotiable_by_cct* e *hour_bank_with_cct_max_1_year*, indicam que a negociação coletiva pode definir a jornada de trabalho e a duração máxima do banco de horas, dentro de certos limites.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"O Tribunal Superior do Trabalho (TST) analisou um caso sobre um banco de horas em um banco e decidiu que ele é válido. Essa decisão está de acordo com o que o Supremo Tribunal Federal (STF) já decidiu em outro caso importante. O STF disse que é permitido que os sindicatos e empresas negociem regras de trabalho, como o banco de horas, desde que isso seja feito de forma justa e não tire direitos dos trabalhadores.\n\nO TST entendeu que a negociação entre o sindicato dos bancários e os bancos seguiu essas regras. Isso significa que, se você trabalha em um banco e tem um banco de horas, ele pode ser válido, desde que a negociação tenha sido feita corretamente e respeitado seus direitos.  É importante lembrar que essa decisão se baseia em um caso específico e que cada situação pode ser diferente.\"\n",
+  "tokens_in": 604,
+  "tokens_out": 1155,
+  "latency_ms": 32203,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

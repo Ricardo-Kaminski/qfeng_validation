@@ -1,0 +1,43 @@
+{
+  "sha256": "9162e4b0458926651bd7604240b05b45bb33abbf953db6ef499f28d69e80fbab",
+  "braco": "B5",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-010",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T14:14:59Z",
+  "prompt_sha": "33bb61c410a308c56f5e5c56c3822f36564b20e0e70722596cbefa72079bde2c",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO motor de inferência Q-FENG identificou uma **fricção ontológica elevada (θ = 127,81°)** entre os termos da ACT (Acordo Coletivo de Trabalho) celebrada pela empresa e os **predicados soberanos ativos** derivados da legislação trabalhista brasileira. Essa fricção reflete uma **incompatibilidade estrutural** entre as regras da ACT e normas jurídicas fundamentais, como:  \n- **Proibição de cláusulas que suprimam o pagamento de horas extras** (predicado `sovereign(invalidity_of_clause_suppressing_overtime_payment)`),  \n- **Requisito de acordo escrito para compensação de horas** (predicado `sovereign(weekly_hour_compensation_requires_written_agreement)`),  \n- **Limites legais para horas trabalhadas** (predicados `maximum_weekly_working_hours_44h` e `maximum_daily_working_hours_8h`).  \n\nO θ elevado (>120°) indica que a ACT **viola diretamente normas fundamentais**, gerando uma **fricção destrutiva** que impede a execução da ação (regime **BLOCK**). O motor recomenda **CONFORMIDADE** para alinhar a ACT às normas legais, evitando riscos jurídicos e garantindo direitos trabalhistas.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n**a. `sovereign(semester_hour_bank_requires_cct_or_act)`**  \nA compensação de horas por meio de banco de horas (como o estabelecido na ACT) **só é válida se prevista em Acordo Coletivo de Trabalho (CCT) ou em Acordo Individual de Trabalho (ACT)**. A ausência de um desses instrumentos torna o banco de horas **juridicamente inválido**.  \n\n**b. `sovereign(invalidity_of_clause_suppressing_overtime_payment)`**  \nQualquer cláusula que **suprima o pagamento de horas extras** (mesmo que indiretamente, como compensação via banco de horas) é **nula de pleno direito**, conforme a CLT (Consolidação das Leis do Trabalho).  \n\n**c. `sovereign(weekly_hour_compensation_requires_written_agreement)`**  \nA compensação de horas trabalhadas (como o banco de horas) **exige um acordo escrito** entre empregador e empregado. A ausência de um documento formal invalida a compensação.  \n\n**d. `sovereign(prohibition_negotiation_reducing_overtime_additional)`**  \nA legislação proíbe acordos que **reduzam a remuneração adicional por horas extras** (que, por lei, deve ser de **50%** do valor da hora normal).  \n\n**e. `sovereign(overtime_minimum_additional_50pct)`**  \nA **remuneração adicional por horas extras deve ser de, no mínimo, 50%** do valor da hora normal. Qualquer cláusula que reduza esse percentual é ilegal.  \n\n**f. `sovereign(maximum_weekly_working_hours_44h)`**  \nA **duração semanal máxima do trabalho é de 44 horas**, conforme a CLT.  \n\n**g. `sovereign(maximum_daily_working_hours_8h)`**  \nA **duração diária máxima do trabalho é de 8 horas**, salvo exceções previstas em lei.  \n\n**h. `elastic(hour_bank_without_cct_max_6_months)`**  \nO banco de horas **sem CCT deve ter prazo máximo de 6 meses**, mas a ACT estabelece 5 meses (limite compatível).  \n\n---\n\n### 3. **INTERPRETAÇÃO DO REGIME**  \nO regime **CIRCUIT_BREAKER** (θ ≥ 120°) indica que **há uma incompatibilidade direta e grave** entre a ACT e as normas jurídicas ativas. Isso significa:  \n- **Bloqueio de ação**: O sistema não permite a execução da ACT até que as **violações legais sejam corrigidas**.  \n- **Risco de ilegalidade**: A ACT, como está, **viola normas fundamentais** (como a proibição de cláusulas que suprimam horas extras e a ausência de acordo escrito para compensação).  \n- **Necessidade de conformidade**: O empregador deve **revisar a ACT** para alinhar os termos ao direito trabalhista, garantindo:  \n  - Compensação de horas com **acordo escrito**;  \n  - **Pagamento de horas extras** (50% adicional);  \n  - Respeito aos **limites de horas trabalhadas** (44h/semana e 8h/dia).  \n\n---\n\n### 4. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO sistema Q-FENG analisou o acordo entre a empresa e o sindicato e concluiu que **há problemas legais graves**. Por exemplo:  \n- O banco de horas **não pode existir sem um acordo escrito** entre empresa e trabalhador.  \n- **Horas extras não podem ser \"poupadas\"** como compensação futura; elas devem ser **pagas imediatamente** com um adicional de 50%.  \n- A empresa **não pode estabelecer regras que violam a lei**, como limites de horas ou compensações que não respeitem os direitos dos trabalhadores.  \n\nPor isso, o sistema **recomenda que a empresa revise o acordo** para garantir que ele **não viole a lei** e que **os direitos dos trabalhadores sejam respeitados**. Até que isso aconteça, **não é possível seguir com o acordo atual**.",
+  "tokens_in": 799,
+  "tokens_out": 1825,
+  "latency_ms": 57109,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": "",
+  "t_clingo_ms": 31,
+  "t_llm_ms": 57062,
+  "t_psi_build_ms": 0,
+  "t_theta_compute_ms": 16,
+  "qfeng_psi_n_dim": 2,
+  "qfeng_psi_s_dim": 2,
+  "qfeng_theta_rad": 2.2307694050963036,
+  "qfeng_theta_deg": 127.81367197892763,
+  "qfeng_theta_eff_rad": 2.2307694050963036,
+  "qfeng_theta_eff_deg": 127.81367197892763,
+  "qfeng_regime": "BLOCK",
+  "qfeng_p_action": 0.3869044161814975,
+  "qfeng_cos_theta": -0.6130955838185024,
+  "qfeng_cb_threshold_deg": 119.99999999999999
+}

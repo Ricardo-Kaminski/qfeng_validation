@@ -1,0 +1,27 @@
+{
+  "sha256": "6736d346f4a6ab24dc97712c0e35cf32209a26d4cc2aed350a1ad1cedaf35c70",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-009",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T07:02:40Z",
+  "prompt_sha": "18a223af3fb227c2a5e0257347aa4e5c729224e92b72d7d1c3e676c4eb13b5d5",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\n\"O sistema Q-FENG analisou o caso de um trabalhador que optou por converter seu saldo de horas em dinheiro, com anuência do empregador, antes do término do prazo estabelecido pela CCT (12 meses). A decisão foi tomada considerando os predicados soberanos ativos, que garantem a proteção dos direitos trabalhistas fundamentais.\n\nA satisfação da satisfatibilidade como UNKNOWN indica que o sistema não encontrou nenhuma violação explícita das regras trabalhistas. No entanto, é importante destacar que a decisão de conversão do saldo em dinheiro foi feita dentro dos limites estabelecidos pela CCT e com anuência do empregador.\n\nA conformidade recomendada pelo Q-FENG indica que a decisão tomada está em consonância com as regras trabalhistas aplicáveis ao caso. Nesse sentido, o sistema considerou os predicados soberanos ativos, que garantem a proteção dos direitos fundamentais do trabalhador.\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\n- **sovereign(recognition_of_collective_bargaining)**: Este predicado garante a validade das negociações coletivas entre empregadores e sindicatos, assegurando que os acordos firmados sejam respeitados. Nesse caso, a CCT previu a possibilidade de conversão do saldo em dinheiro, o que foi aceito pelo empregador.\n\n- **sovereign(maximum_weekly_working_hours_44h)**: Este predicado estabelece a limitação das horas trabalhadas semanalmente, garantindo que os trabalhadores não sejam submetidos a jornadas excessivas. Nesse caso, o trabalhador não excedeu as 44 horas semanais.\n\n- **sovereign(maximum_daily_working_hours_8h)**: Este predicado estabelece a limitação das horas trabalhadas diariamente, garantindo que os trabalhadores não sejam submetidos a jornadas excessivas. Nesse caso, o trabalhador não excedeu as 8 horas diárias.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\n\"O sistema Q-FENG analisou seu caso e decidiu que você fez tudo certo ao converter seu saldo de horas em dinheiro com anuência do empregador. Isso porque a CCT previu essa possibilidade e o empregador concordou.\n\nNinguém foi prejudicado, e as regras trabalhistas foram respeitadas. Portanto, o sistema recomendou que você continue como está, pois tudo está em conformidade com as leis trabalhistas.\"",
+  "tokens_in": 507,
+  "tokens_out": 614,
+  "latency_ms": 10296,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

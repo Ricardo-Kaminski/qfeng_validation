@@ -1,0 +1,27 @@
+{
+  "sha256": "cffe66fd7da7c9aa57ebec509ed046d5f90def295ea231b885d49e0e426558a3",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-007",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T06:10:58Z",
+  "prompt_sha": "cba540c99550234d4dda7bdefc59d2298c6b9b1ac9747edfc810996124e975ca",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, após análise do cenário apresentado e da legislação pertinente, concluiu pela **CONFORMIDADE** da situação. A decisão foi fundamentada na premissa de que a existência de um banco de horas anual, negociado e estabelecido em um CCT (Convenção Coletiva de Trabalho) válido, não implica necessariamente na obrigatoriedade do pagamento de adicional de horas extras, desde que as horas do banco sejam devidamente compensadas dentro do prazo estipulado.\n\nA avaliação do Q-FENG considerou a validade do CCT, a sua renovação, a entrega do extrato e a realização da compensação no prazo, elementos que indicam a observância das formalidades legais. A decisão é consistente com a jurisprudência do TST (Tribunal Superior do Trabalho) e do STF (Supremo Tribunal Federal), que permitem a negociação de bancos de horas como forma de flexibilização da jornada de trabalho, desde que respeitados os limites estabelecidos pela legislação. A satisfatibilidade desconhecida (UNKNOWN) reflete a complexidade da análise, que envolve a ponderação de diversos fatores, mas a ativação dos predicados soberanos e elásticos, conforme detalhado abaixo, direcionou a conclusão para a conformidade.\n\n## 2. PREDICADOS ATIVADOS:\n\nOs predicados soberanos ativos, que influenciaram diretamente a decisão do Q-FENG, são:\n\n*   **sovereign(recognition_of_collective_bargaining):** Este predicado significa que o sistema reconhece a validade e a força normativa da Convenção Coletiva de Trabalho (CCT). No contexto trabalhista brasileiro, as CCTs são instrumentos que estabelecem condições de trabalho específicas para determinadas categorias profissionais, e possuem força de lei entre as partes (empregadores e empregados). A sua existência e cumprimento são elementos cruciais para a análise da conformidade.\n*   **sovereign(maximum_weekly_working_hours_44h):** Este predicado estabelece o limite máximo legal da jornada de trabalho semanal, que é de 44 horas. Embora o banco de horas possa permitir a realização de horas extras, a soma da jornada normal com as horas do banco não pode ultrapassar esse limite máximo.\n*   **sovereign(maximum_daily_working_hours_8h):** Este predicado define o limite máximo diário da jornada de trabalho, que é de 8 horas. Da mesma forma que o limite semanal, a soma da jornada normal com as horas do banco não pode exceder esse limite diário.\n\nOs predicados elásticos, embora não tão rígidos quanto os soberanos, também contribuíram para a decisão:\n\n*   **elastic(annual_hour_bank_negotiable):** Indica que a instituição de um banco de horas anual é passível de negociação entre empregadores e empregados, através da CCT.\n*   **elastic(working_hours_negotiable_by_cct):** Reforça a possibilidade de a CCT estabelecer regras específicas sobre a jornada de trabalho, incluindo a implementação de bancos de horas.\n*   **elastic(hour_bank_with_cct_max_1_year):** Define que a duração máxima do banco de horas, quando estabelecida em CCT, é de 1 ano.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"A empresa está seguindo as regras. O sistema analisou a situação e concluiu que está tudo certo. Isso porque a empresa tem um acordo de trabalho (CCT) que permite a criação de um banco de horas anual, que é uma forma de compensar o tempo extra que você pode trabalhar em alguns momentos.\n\nO importante é que esse acordo foi feito com o seu sindicato, é válido e está sendo cumprido: a empresa está controlando as horas extras e você está recebendo a compensação devida.\n\nDe acordo com a lei e decisões importantes dos tribunais, quando existe esse banco de horas e as horas são compensadas dentro do prazo, você não tem direito a receber um valor extra por causa delas. Ou seja, o banco de horas já é a forma de compensação pelo tempo extra trabalhado.\"\n",
+  "tokens_in": 519,
+  "tokens_out": 911,
+  "latency_ms": 25469,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

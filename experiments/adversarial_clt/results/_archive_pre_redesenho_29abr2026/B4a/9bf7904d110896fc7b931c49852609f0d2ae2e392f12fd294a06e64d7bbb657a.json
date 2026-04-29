@@ -1,0 +1,27 @@
+{
+  "sha256": "9bf7904d110896fc7b931c49852609f0d2ae2e392f12fd294a06e64d7bbb657a",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-008",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T04:57:16Z",
+  "prompt_sha": "360055fb2d63049ca39436f6dbfb8a92a6315c792ed108cd53aebb9be9a2efc9",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que houve uma violação (VIOLACAO) na alteração unilateral da escala de compensação das horas extras por parte da empresa, em desacordo com a Convenção Coletiva de Trabalho (CCT). A decisão foi fundamentada nos predicados soberanos ativos, que estabelecem princípios jurídicos inegociáveis no contexto trabalhista brasileiro. O reconhecimento do poder normativo das convenções coletivas (sovereign(recognition_of_collective_bargaining)) implica que qualquer alteração unilateral que contrarie o acordo vigente entre as partes é considerada uma violação. Além disso, os limites de horas máximas semanais e diárias estabelecidos (sovereign(maximum_weekly_working_hours_44h) e sovereign(maximum_daily_working_hours_8h)) reforçam a proteção dos trabalhadores contra abusos que possam surgir de tal alteração unilateral. Portanto, ao modificar o acordo sem negociação prévia com os trabalhadores, a empresa violou esses princípios fundamentais.\n\n### 2. PREDICADOS ATIVADOS\n\n- **sovereign(recognition_of_collective_bargaining)**: Este predicado reflete o reconhecimento legal das convenções coletivas de trabalho como normas vinculantes entre empregadores e trabalhadores. No contexto brasileiro, as CCTs têm força de lei para os signatários, estabelecendo direitos e obrigações que não podem ser alterados unilateralmente por uma das partes sem violar o acordo.\n\n- **sovereign(maximum_weekly_working_hours_44h)**: Este predicado representa a norma legal que limita a jornada de trabalho semanal máxima para 44 horas. Qualquer prática ou política empresarial que exceda esse limite, direta ou indiretamente, pode ser considerada ilegal e violadora dos direitos trabalhistas.\n\n- **sovereign(maximum_daily_working_hours_8h)**: Similar ao anterior, este predicado estabelece o limite de 8 horas diárias como a jornada máxima permitida. Alterações que resultem em jornadas excedentes sem justificativa legal e acordada podem ser vistas como infrações aos direitos dos trabalhadores.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG decidiu que a empresa cometeu uma violação ao mudar sozinha as regras sobre quando você pode compensar suas horas extras, sem discutir isso com os trabalhadores primeiro. As regras da sua convenção coletiva de trabalho (CCT) são como um contrato que ambas as partes devem seguir. Quando a empresa decidiu sozinha que as horas extras só poderiam ser compensadas às sextas-feiras, ignorou o acordo anterior que permitia escolher a data flexível. Isso é considerado uma violação porque as regras da CCT são importantes e não podem ser alteradas sem conversar com os trabalhadores primeiro. Além disso, existem leis que garantem que você não pode trabalhar mais de 44 horas por semana ou 8 horas por dia, e qualquer mudança deve respeitar esses limites. Portanto, a empresa agiu errado ao fazer essa alteração sem negociar com os funcionários.",
+  "tokens_in": 498,
+  "tokens_out": 771,
+  "latency_ms": 22608,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

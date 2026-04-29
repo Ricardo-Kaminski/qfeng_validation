@@ -1,0 +1,27 @@
+{
+  "sha256": "1899f4efb721af07e64daeab70b70a485ec57089a21b7d749316513a00599d05",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:06:04Z",
+  "prompt_sha": "a441ed131081be5a67de4fae29354418a5514d888c32e5d9d10bc7c36186be20",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, após análise do cenário apresentado, concluiu que houve uma **violação** da ordem jurídica trabalhista. A decisão se baseia na manutenção da aplicação de cláusulas de um acordo coletivo de trabalho (CCT) expirado, em uma situação de sucessão empresarial, sem a devida renovação do acordo.\n\nA empresa sucessora, ao continuar aplicando o banco de horas conforme as regras da CCT da empresa adquirida, mesmo após o término da vigência original da CCT, incorreu em uma situação que o sistema identificou como problemática. A manutenção de regras negociadas em um acordo que não está mais em vigor, especialmente em um contexto de sucessão empresarial, gera insegurança jurídica e potencialmente afeta os direitos dos trabalhadores.\n\nA decisão do Q-FENG não se baseia em uma análise aprofundada das particularidades do caso (como a existência de outros fatores atenuantes ou agravantes), mas sim na identificação da incompatibilidade entre a prática da empresa e os princípios que regem a aplicação de acordos coletivos de trabalho. A falta de renovação da CCT, seguida da continuidade da aplicação de suas cláusulas, é o ponto central da violação identificada.\n\n## PREDICADOS ATIVADOS: SIGNIFICADO JURÍDICO\n\nOs predicados soberanos ativos, que sustentam a decisão do Q-FENG, possuem os seguintes significados jurídicos no contexto trabalhista brasileiro:\n\n*   **sovereign(recognition_of_collective_bargaining):** Este predicado representa o reconhecimento da importância fundamental dos acordos e convenções coletivas de trabalho como fontes do Direito do Trabalho. A validade e a aplicação de CCTs são pilares do sistema de relações sindicais, e sua observância é essencial para a manutenção da ordem jurídica.\n*   **sovereign(maximum_weekly_working_hours_44h):** Este predicado estabelece a limitação legal da jornada de trabalho semanal a 44 horas, conforme a Consolidação das Leis do Trabalho (CLT). A aplicação de bancos de horas deve estar em conformidade com essa limitação, e a manutenção de regras de um CCT expirado pode comprometer essa proteção.\n*   **sovereign(maximum_daily_working_hours_8h):** Este predicado estabelece a limitação legal da jornada de trabalho diária a 8 horas. Similarmente ao predicado anterior, a aplicação de bancos de horas deve respeitar essa limitação, e a manutenção de regras de um CCT expirado pode comprometer essa proteção.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"A empresa continuou usando as regras do antigo acordo (CCT) sobre o banco de horas, mesmo depois que esse acordo terminou. Isso é um problema porque, no Brasil, as regras do trabalho são definidas em acordos entre empresas e sindicatos. Quando um acordo termina, ele não pode ser usado para obrigar os funcionários a seguir as mesmas regras, a menos que um novo acordo seja feito. A empresa não fez um novo acordo, então está usando regras que não são mais válidas. Isso pode afetar seus direitos, como a quantidade máxima de horas que você pode trabalhar por semana ou por dia.\"\n\n**Em resumo:** A empresa não pode simplesmente continuar usando as regras antigas do acordo de trabalho, mesmo que ela tenha comprado a empresa anterior. É preciso fazer um novo acordo com o sindicato para que essas regras continuem valendo.",
+  "tokens_in": 487,
+  "tokens_out": 748,
+  "latency_ms": 20875,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

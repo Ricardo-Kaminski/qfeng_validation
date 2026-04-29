@@ -1,0 +1,26 @@
+{
+  "sha256": "b5aee334302ac97ef2ea90fe2a9fc4a759256cf2b73568fe97db48b390ef1189",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-011",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T04:29:07Z",
+  "prompt_sha": "303f6d25275850db752b15d9c7d3d948ca264d609c3666e67b0493fb3b36ada5",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação na aplicação do Tema de Repercussão Geral (TRG) pelo tribunal no contexto da ação sobre jornada de trabalho de um motorista celetista privado. A decisão foi considerada inadequada por não atender aos requisitos normativos estabelecidos pelos predicados soberanos ativos. Especificamente, o tribunal falhou em:\n\n- **Obrigar-se a declarar as consequências práticas da decisão**: O tribunal não explicou como a aplicação do TRG sobre direito administrativo se traduziria na situação específica de um empregado privado.\n  \n- **Proibir citação genérica de precedentes**: A aplicação do TRG foi feita sem uma análise adequada da sua pertinência ao caso, ignorando a diferença entre o setor público e privado.\n\n- **Obrigar-se a tratar todos os argumentos legais apresentados**: O tribunal não abordou adequadamente as distinções entre regimes jurídicos (administrativo versus trabalhista).\n\n- **Obrigar-se a fundamentar a decisão na ratio decidendi identificada**: Não houve demonstração de que a razão central do TRG aplicado ao setor público seria válida para o contexto privado.\n\n- **Cumprir a obrigação constitucional de declarar as razões das decisões**: A falta de explicação sobre a analogia utilizada entre os regimes administrativo e trabalhista violou essa exigência.\n\n- **Respeitar o direito de acesso à justiça e ao controle jurisdicional**: Ao não fundamentar adequadamente a aplicação do TRG, o tribunal comprometeu o princípio da segurança jurídica e o direito do empregado de obter uma decisão bem fundamentada.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obrigação de declarar as consequências práticas da decisão**: Juridicamente, significa que o tribunal deve explicar como a aplicação de um precedente afeta diretamente os envolvidos no caso específico, garantindo clareza sobre o impacto da decisão.\n\n- **Proibição de citação genérica de precedentes**: Isso implica que cada precedente citado deve ser relevante e diretamente aplicável ao caso em questão. A mera menção a um TRG sem análise específica é inadequada.\n\n- **Obrigação de tratar todos os argumentos legais apresentados**: O tribunal deve considerar todas as nuances legais levantadas pelas partes, especialmente quando há diferenças significativas entre os regimes jurídicos envolvidos (por exemplo, público e privado).\n\n- **Obrigação de fundamentar a decisão na ratio decidendi identificada**: A decisão deve ser baseada nos princípios centrais do precedente aplicado, demonstrando claramente como esses princípios se relacionam com o caso atual.\n\n- **Obrigação constitucional de declarar as razões das decisões**: O tribunal é obrigado a fornecer uma explicação detalhada e compreensível sobre por que decidiu da maneira que fez, garantindo transparência e justiça no processo.\n\n- **Direito de acesso à justiça e ao controle jurisdicional**: Garante que as partes tenham a oportunidade de ter suas questões julgadas com base em fundamentos legais sólidos e bem explicados, permitindo revisão judicial se necessário.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO tribunal fez uma escolha que não foi clara ou justificada corretamente ao aplicar uma regra geral de direito público a um caso seu, que envolve trabalho privado. Eles usaram uma decisão anterior que se aplica a funcionários do governo sem explicar por que isso deveria valer para você, que trabalha em um setor diferente. Isso é importante porque as regras podem ser diferentes entre o serviço público e o privado.\n\nO tribunal não mostrou claramente como essa decisão afetaria seu caso específico nem explicou por que achava que a mesma regra deveria se aplicar. Além disso, eles não discutiram todos os pontos legais importantes que você levantou. Isso é importante porque significa que sua situação pode ter sido julgada sem considerar todas as suas preocupações.\n\nEm resumo, o tribunal não explicou bem por que decidiu daquela maneira, e isso pode ser um problema porque todos têm direito a uma decisão justa e bem fundamentada.",
+  "tokens_in": 509,
+  "tokens_out": 1038,
+  "latency_ms": 30108,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

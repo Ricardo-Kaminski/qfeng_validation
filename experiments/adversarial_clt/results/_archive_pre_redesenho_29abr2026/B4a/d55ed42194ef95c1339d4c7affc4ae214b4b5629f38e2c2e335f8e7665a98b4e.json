@@ -1,0 +1,27 @@
+{
+  "sha256": "d55ed42194ef95c1339d4c7affc4ae214b4b5629f38e2c2e335f8e7665a98b4e",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-006",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T07:01:05Z",
+  "prompt_sha": "f639dd1bd0487253b77ed4f47aa1283095e0b4595ae43a9a643ff66481153314",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG analisou o caso e determinou que há conformidade com as regras estabelecidas pela CCT (Convenção Coletiva de Trabalho) do setor de varejo. Isso ocorreu porque a empresa ofereceu folga compensatória nas semanas de baixo movimento, conforme previsto na CCT, e os trabalhadores aceitaram. Além disso, toda compensação foi realizada dentro do prazo estabelecido (até 12 meses), com extrato mensal entregue e jornada extra não ultrapassando 2 horas por dia.\n\nA decisão de conformidade é baseada nos seguintes predicados soberanos ativos:\n\n* `sovereign(recognition_of_collective_bargaining)`: Reconhecimento da negociação coletiva, que é fundamental para a aplicação das regras estabelecidas pela CCT.\n* `sovereign(maximum_weekly_working_hours_44h)`: Limites máximos de horas trabalhadas por semana (44 horas), que não foram ultrapassados nesse caso.\n* `sovereign(maximum_daily_working_hours_8h)`: Limites máximos de horas trabalhadas por dia (8 horas), que também não foram ultrapassados.\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\nAqui estão as explicações dos predicados soberanos ativos:\n\n* `sovereign(recognition_of_collective_bargaining)`: Esse predicado garante que a negociação coletiva seja reconhecida e respeitada. Isso significa que as regras estabelecidas pela CCT têm força de lei para os trabalhadores do setor de varejo.\n* `sovereign(maximum_weekly_working_hours_44h)`: Esse predicado limita o número máximo de horas trabalhadas por semana (44 horas). Isso é importante para evitar a exploração dos trabalhadores e garantir que eles tenham tempo para descansar e se recuperar.\n* `sovereign(maximum_daily_working_hours_8h)`: Esse predicado limita o número máximo de horas trabalhadas por dia (8 horas). Isso é fundamental para evitar a sobrecarga dos trabalhadores e garantir que eles tenham tempo para descansar e se recuperar.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nEm linguagem simples, a decisão do Q-FENG significa que:\n\n\"A empresa fez tudo certo ao oferecer folga compensatória nas semanas de baixo movimento e aos trabalhadores aceitaram. Além disso, toda compensação foi realizada dentro do prazo estabelecido e não houve excesso de horas trabalhadas. Isso significa que a empresa está cumprindo com as regras estabelecidas pela CCT e os trabalhadores estão sendo tratados de forma justa.\"",
+  "tokens_in": 526,
+  "tokens_out": 657,
+  "latency_ms": 11000,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

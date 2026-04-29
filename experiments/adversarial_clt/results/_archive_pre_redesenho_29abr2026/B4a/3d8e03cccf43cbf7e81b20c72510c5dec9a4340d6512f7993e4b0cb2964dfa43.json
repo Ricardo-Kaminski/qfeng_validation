@@ -1,0 +1,26 @@
+{
+  "sha256": "3d8e03cccf43cbf7e81b20c72510c5dec9a4340d6512f7993e4b0cb2964dfa43",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T04:27:20Z",
+  "prompt_sha": "616931cfd10c80d27ea65ea3d9f17fc5d70b1e90674a0e5470d9bf3f655e12d8",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação na decisão judicial analisada, baseando-se nos predicados soberanos ativos. A decisão em questão foi considerada inadequada porque não abordou de forma específica o ponto levantado pela parte embargante sobre a contradição no acórdão embargado. Especificamente, houve uma aplicação da tese de recurso de uma parte para beneficiar a outra sem que houvesse um contraditório adequado. \n\nOs predicados soberanos ativos revelam várias obrigações não cumpridas:\n\n- **Obrigação de declarar as consequências práticas da decisão**: O juiz deveria ter explicado como sua decisão afeta os envolvidos, especialmente em relação ao ponto de contradição alegado.\n  \n- **Proibição de citação genérica de precedentes**: A aplicação da tese sem um contraditório adequado sugere uma possível utilização inadequada de precedentes.\n\n- **Obrigação de tratar todos os argumentos legais apresentados**: O juiz não abordou o ponto específico de contradição levantado pela parte embargante, violando essa obrigação.\n\n- **Obrigação de fundamentar a decisão no ratio decidendi identificado**: A falta de análise sobre a contradição sugere que a decisão pode não estar adequadamente fundamentada nos motivos legais relevantes.\n\n- **Obrigação constitucional de explicitar os motivos das decisões**: O juiz omitiu-se em explicar por que o ponto de contradição foi considerado irrelevante ou já tratado, violando essa obrigação.\n\n- **Direito ao acesso à justiça e revisão judicial**: Ao não abordar o ponto específico da contradição, a decisão pode ter prejudicado o direito das partes de uma análise completa e justa, impactando seu acesso efetivo à justiça.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obrigação de declarar as consequências práticas da decisão**: No contexto trabalhista brasileiro, isso significa que o juiz deve explicar claramente como sua decisão afeta os direitos e obrigações das partes envolvidas no processo.\n\n- **Proibição de citação genérica de precedentes**: Isso implica que qualquer referência a decisões anteriores deve ser específica e relevante para o caso em questão, garantindo que não haja aplicação indevida ou injusta de tese jurídica.\n\n- **Obrigação de tratar todos os argumentos legais apresentados**: O juiz deve considerar e responder a cada ponto legal levantado pelas partes, assegurando uma análise completa e justa do caso.\n\n- **Obrigação de fundamentar a decisão no ratio decidendi identificado**: A decisão judicial deve estar baseada nos motivos legais específicos que justificam o resultado, garantindo clareza e transparência na aplicação da lei.\n\n- **Obrigação constitucional de explicitar os motivos das decisões**: O juiz é obrigado a explicar as razões pelas quais decidiu como fez, permitindo que as partes compreendam o raciocínio jurídico por trás da decisão.\n\n- **Direito ao acesso à justiça e revisão judicial**: Assegura que todas as partes tenham a oportunidade de ter suas reivindicações ouvidas e analisadas adequadamente, permitindo revisões quando necessário para garantir uma justa resolução do conflito.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG encontrou problemas na decisão judicial porque o juiz não explicou bem como a sua decisão afeta as partes envolvidas, especialmente em relação a um ponto importante que uma das partes levantou sobre algo inconsistente no julgamento. O juiz deveria ter respondido a esse ponto específico e mostrado por que ele não foi considerado relevante ou já tratado.\n\nAlém disso, o juiz não explicou claramente os motivos da sua decisão, o que é importante para que todos entendam como chegou àquela conclusão. Isso pode ter prejudicado a capacidade das partes de entenderem e contestarem a decisão se necessário. Em resumo, o sistema indica que houve uma falha em garantir um julgamento justo e claro, algo essencial para que todos tenham acesso à justiça.",
+  "tokens_in": 518,
+  "tokens_out": 1027,
+  "latency_ms": 30140,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,29 @@
+{
+  "sha256": "7af478e66ba622f45d9756bdcf062763f2ddbb2b31a72e3a398f5834c0150c7f",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-007",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T04:43:03Z",
+  "prompt_sha": "1970504ab2b4a3698fb4bb32d084c198f45cfb327a995ae3f86ed94249f3c1d4",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação das normas trabalhistas no cenário apresentado, baseando-se nos predicados soberanos ativos e nas condições do contrato de trabalho coletivo (CCT). A decisão foi tomada considerando que o empregador não cumpriu com a obrigação de compensar ou pagar as horas acumuladas em banco de horas após o prazo estipulado pela CCT. Apesar da CCT permitir um prazo de 12 meses para compensação, a empresa não disponibilizou folgas compensatórias ao longo desse período e também não pagou o saldo remanescente ao final do prazo.\n\nOs predicados soberanos ativos indicam que:\n\n- O banco de horas deve ser regulado por uma CCT ou lei específica (sovereign(semester_hour_bank_requires_cct_or_act)).\n- A invalidação de cláusulas que suprimem o pagamento de horas extras é proibida (sovereign(invalidity_of_clause_suppressing_overtime_payment)).\n- As compensações semanais devem ser formalizadas por escrito, o que não foi feito neste caso (sovereign(weekly_hour_compensation_requires_written_agreement)).\n\nAlém disso, a CCT não previa um mecanismo de pagamento em caso de não-compensação, o que coloca a empresa em desacordo com as normas trabalhistas que garantem ao empregado o direito à compensação ou remuneração das horas extras acumuladas.\n\n### 2. PREDICADOS ATIVADOS\n\n- **sovereign(semester_hour_bank_requires_cct_or_act)**: Juridicamente, isso significa que qualquer banco de horas deve ser estabelecido por uma convenção coletiva de trabalho (CCT) ou lei específica. No contexto brasileiro, as CCTs são acordos entre sindicatos e empregadores que regulam condições de trabalho além das previstas na CLT.\n\n- **sovereign(invalidity_of_clause_suppressing_overtime_payment)**: Este predicado indica que qualquer cláusula em um contrato ou CCT que tente suprimir o pagamento de horas extras é considerada inválida. Isso protege os direitos dos trabalhadores ao garantir que eles sejam remunerados adequadamente por trabalho além do horário normal.\n\n- **sovereign(weekly_hour_compensation_requires_written_agreement)**: Significa que qualquer acordo para compensar horas extras deve ser formalizado por escrito. Isso assegura transparência e evita disputas sobre acordos verbais ou informais entre empregador e empregado.\n\n- **sovereign(prohibition_negotiation_reducing_overtime_additional)**: Proíbe negociações que reduzam os adicionais pagos por horas extras. Isso garante que o trabalhador receba uma remuneração justa pelo trabalho extra realizado.\n\n- **sovereign(overtime_minimum_additional_50pct)**: Estabelece que as horas extras devem ser pagas com um adicional mínimo de 50% sobre a hora normal, conforme previsto na CLT.\n\n- **sovereign(maximum_weekly_working_hours_44h)**: Define o limite máximo de horas semanais que um trabalhador pode laborar, que é de 44 horas por semana, incluindo as horas extras.\n\n- **sovereign(maximum_daily_working_hours_8h)**: Estabelece o limite diário de trabalho normal para 8 horas, conforme a legislação trabalhista brasileira.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG determinou que houve uma violação das regras trabalhistas no seu caso. Isso acontece porque você acumulou muitas horas extras, mas a empresa não te deu folgas para compensar essas horas nem pagou o valor correspondente ao final do período permitido pela convenção coletiva (um acordo entre sindicatos e empresas). As regras dizem que as horas extras devem ser pagas ou compensadas adequadamente, e qualquer tentativa de evitar isso é ilegal. Além disso, a empresa não fez um acordo escrito para compensar suas horas extras, o que também é necessário. Portanto, você tem direito à compensação ou ao pagamento dessas horas acumuladas.",
+  "tokens_in": 527,
+  "tokens_out": 974,
+  "latency_ms": 28250,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

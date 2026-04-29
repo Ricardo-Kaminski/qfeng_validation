@@ -1,0 +1,29 @@
+{
+  "sha256": "3df995e168977080ff7fb19f754c00633503b8aa6efc2d3726f8c97b55f6c1f4",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:48:57Z",
+  "prompt_sha": "a8d1c788e3de99920a389b72bb625722e4a5ecc3f4de5f08a57e80dccc55da81",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG determinou que houve violação das normas trabalhistas brasileiras. A empresa de call center implantou banco de horas sem negociação sindical, o que é considerado uma prática irregular. Além disso, os empregados acumularam até 120h de banco em apenas 9 meses, ultrapassando o limite estabelecido pela própria empresa (6 meses).\n\nOs predicados soberanos ativos indicam que a decisão foi influenciada por várias normas trabalhistas. Em particular:\n\n*   `sovereign(semester_hour_bank_requires_cct_or_act)`: A empresa deveria ter negociado um Acordo Coletivo de Trabalho (ACT) ou Contrato Coletivo de Trabalho (CCT) para implementar o banco de horas.\n*   `sovereign(invalidity_of_clause_suppressing_overtime_payment)`: O acordo individual dos empregados não pode suprimir o pagamento das horas extras.\n*   `sovereign(weekly_hour_compensation_requires_written_agreement)`: A compensação por horas trabalhadas semanalmente requer um acordo escrito entre a empresa e os empregados.\n*   `sovereign(prohibition_negotiation_reducing_overtime_additional)`: Não é permitida a negociação de redução do pagamento adicional por horas extras.\n*   `sovereign(overtime_minimum_additional_50pct)`: O pagamento adicional por horas extras deve ser pelo menos 50% do salário normal.\n*   `sovereign(maximum_weekly_working_hours_44h)`: A empresa não pode exigir mais de 44 horas semanais de trabalho dos empregados.\n*   `sovereign(maximum_daily_working_hours_8h)`: A empresa não pode exigir mais de 8 horas diárias de trabalho dos empregados.\n\nEsses predicados indicam que a decisão do Q-FENG foi influenciada por uma análise rigorosa das normas trabalhistas brasileiras, destacando a importância da negociação sindical e da proteção aos direitos dos trabalhadores.\n\n**2. PREDICADOS ATIVADOS**\n\nAqui está uma explicação detalhada de cada predicado soberano ativo:\n\n*   `sovereign(semester_hour_bank_requires_cct_or_act)`: Esta regra indica que, para implementar o banco de horas, a empresa deveria ter negociado um Acordo Coletivo de Trabalho (ACT) ou Contrato Coletivo de Trabalho (CCT). Isso é uma exigência legal no Brasil, pois os acordos coletivos têm força de lei e estabelecem as condições de trabalho para todos os empregados da categoria.\n*   `sovereign(invalidity_of_clause_suppressing_overtime_payment)`: Esta regra destaca que o acordo individual dos empregados não pode suprimir o pagamento das horas extras. Isso significa que, mesmo que os empregados tenham assinado um acordo individual sobre banco de horas, eles ainda têm direito ao pagamento das horas extras trabalhadas.\n*   `sovereign(weekly_hour_compensation_requires_written_agreement)`: Esta regra indica que a compensação por horas trabalhadas semanalmente requer um acordo escrito entre a empresa e os empregados. Isso significa que, para alterar as condições de trabalho relacionadas ao banco de horas, é necessário um acordo formal.\n*   `sovereign(prohibition_negotiation_reducing_overtime_additional)`: Esta regra destaca que não é permitida a negociação de redução do pagamento adicional por horas extras. Isso significa que os empregados não podem concordar em receber menos do que o mínimo legal para as horas extras trabalhadas.\n*   `sovereign(overtime_minimum_additional_50pct)`: Esta regra indica que o pagamento adicional por horas extras deve ser pelo menos 50% do salário normal. Isso é uma proteção aos direitos dos trabalhadores, garantindo que eles recebam um valor justo por suas horas extras.\n*   `sovereign(maximum_weekly_working_hours_44h)`: Esta regra destaca que a empresa não pode exigir mais de 44 horas semanais de trabalho dos empregados. Isso é uma proteção à saúde e ao bem-estar dos trabalhadores, limitando o tempo de trabalho para evitar exaustão.\n*   `sovereign(maximum_daily_working_hours_8h)`: Esta regra indica que a empresa não pode exigir mais de 8 horas diárias de trabalho dos empregados. Isso é uma proteção à saúde e ao bem-estar dos trabalhadores, limitando o tempo de trabalho para evitar exaustão.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nEm linguagem simples:\n\nA empresa de call center fez algo errado. Ela implantou banco de horas sem conversar com os sindicatos e os empregados. Isso é contra as regras trabalhistas no Brasil.\n\nOs empregados acumularam muito tempo de banco em apenas 9 meses, o que é demais. A empresa disse que isso era válido por até 6 meses, mas não é assim que funciona.\n\nAs regras trabalhistas dizem que a empresa precisa conversar com os sindicatos antes de fazer mudanças importantes como essa. Eles também precisam pagar as horas extras corretamente e não podem exigir muito trabalho dos empregados.\n\nA decisão do Q-FENG é que a empresa fez algo errado e violou as regras trabalhistas. Isso significa que a empresa precisa fazer as coisas certas agora.",
+  "tokens_in": 532,
+  "tokens_out": 1263,
+  "latency_ms": 21344,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

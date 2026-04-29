@@ -1,0 +1,30 @@
+{
+  "sha256": "06017efc077623af560138af68f79fc2c610f59984fc73e07a272fa3b6198a7e",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T05:01:52Z",
+  "prompt_sha": "f5b03aa37cbaba903b62ce936948a2f9431d0cc4d9bc02bb8ff84f0799aa516e",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, ao analisar o cenário apresentado, determinou a conformidade com a decisão do Tribunal Superior do Trabalho (TST) sobre o recurso de revista em questão. Essa análise foi conduzida sob os predicados soberanos ativos que orientam a interpretação e aplicação da normativa trabalhista no Brasil.\n\nA decisão do TST, ao citar expressamente o ARE 1.121.633 (Tema 1046/STF), estabelece uma conexão direta com os princípios constitucionais que permitem acordos e convenções coletivas de trabalho (CCTs) negociarem vantagens ou supressões de direitos, desde que haja compensação adequada. O Q-FENG reconheceu a validade do banco de horas bancário conforme estipulado na CCT em questão, pois atende aos requisitos previstos no Tema 1046.\n\nOs predicados soberanos ativos garantem que a decisão seja fundamentada e alinhada com os princípios constitucionais. A obrigação de declarar as consequências práticas da decisão (sovereign(obligation_to_state_practical_consequences_of_decision)) garante clareza sobre o impacto do banco de horas na relação trabalhista. O reconhecimento da negociação coletiva (sovereign(recognition_of_collective_bargaining)) confirma a legitimidade das CCTs em estabelecer condições específicas para os trabalhadores, desde que respeitadas as compensações adequadas.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Sovereign(obligation_to_state_practical_consequences_of_decision):** Este predicado exige que a decisão explique claramente como ela afetará a prática cotidiana dos trabalhadores e empregadores, garantindo transparência sobre os impactos do banco de horas.\n\n- **Sovereign(prohibition_of_generic_precedent_citation):** Proíbe o uso de precedentes genéricos que não sejam diretamente aplicáveis ao caso em questão. Isso assegura que a decisão seja baseada em fundamentos específicos e relevantes para o contexto do banco de horas.\n\n- **Sovereign(obligation_to_address_all_legal_arguments):** Exige que todas as argumentações legais apresentadas sejam consideradas na análise, garantindo uma avaliação completa das questões levantadas no recurso.\n\n- **Sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** Requer que a decisão seja fundamentada em um raciocínio jurídico claro e identificado, baseado nos princípios legais aplicáveis ao caso.\n\n- **Sovereign(constitutional_obligation_to_state_reasons_for_decisions):** Impõe a obrigação de explicitar as razões pelas quais uma decisão foi tomada, garantindo que ela esteja alinhada com os direitos constitucionais dos trabalhadores.\n\n- **Sovereign(recognition_of_collective_bargaining):** Reconhece o papel da negociação coletiva na definição de condições de trabalho, respeitando a autonomia das partes para estabelecer acordos que beneficiem os trabalhadores e empregadores.\n\n- **Sovereign(right_of_access_to_justice_and_judicial_review):** Garante o direito dos trabalhadores de acessar a justiça e buscar revisão judicial, assegurando que suas reivindicações sejam ouvidas e avaliadas conforme a lei.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG confirmou que o banco de horas estabelecido pelo acordo entre bancários está em conformidade com as leis trabalhistas do Brasil. Isso significa que, desde que os acordos negociados entre empregadores e sindicatos ofereçam compensações adequadas, como folgas ou outros benefícios, o banco de horas é válido.\n\nEm termos simples, isso significa que se você trabalha em um banco e seu acordo coletivo permite acumular horas extras para serem usadas mais tarde (chamado de banco de horas), essa prática está permitida. Contanto que os acordos garantam que você não perca direitos ou benefícios, como folgas compensatórias, o banco de horas é considerado legal e justo.\n\nEssa decisão garante que as regras negociadas entre sindicatos e empresas sejam respeitadas, desde que protejam os direitos dos trabalhadores. Isso significa que você tem a garantia de que qualquer acordo feito em seu nome será analisado para assegurar que seja justo e legal.",
+  "tokens_in": 602,
+  "tokens_out": 1069,
+  "latency_ms": 31531,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

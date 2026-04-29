@@ -1,0 +1,27 @@
+{
+  "sha256": "5299a93c3983cb6dbc655da6c7dff94c5dd7b120e532f892cab3616dc78e8b1f",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T03:14:07Z",
+  "prompt_sha": "9ea3cbb73b13c3be77a30f2262e99311a38ad1cb70d480f6518cd2867401d28a",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nA decisão de **CONFORMIDADE** foi baseada na interpretação dos predicados soberanos e elásticos da CLT (Consolidação das Leis do Trabalho), que regem a validade e a aplicação da CCT (Convenção Coletiva de Trabalho) com banco de horas.  \n\n- **Predicado soberano ativo `sovereign(recognition_of_collective_bargaining)`** assegura que a CCT é legalmente reconhecida e vinculante, desde que respeite os limites mínimos e máximos estabelecidos pela legislação trabalhista.  \n- **Predicados `sovereign(maximum_weekly_working_hours_44h)` e `sovereign(maximum_daily_working_hours_8h)`** garantem que, mesmo com a flexibilidade da CCT, o tempo de trabalho não ultrapasse os limites legais de 44 horas semanais e 8 horas diárias.  \n- **Predicados elásticos `elastic(annual_hour_bank_negotiable)` e `elastic(hour_bank_with_cct_max_1_year)`** permitem que a CCT defina um banco de horas com prazo máximo de 1 ano, desde que respeitado o equilíbrio entre horas trabalhadas e compensadas.  \n\nA **compensação total em 8 meses**, incluindo o período útil da licença maternidade, está dentro do prazo acordado na CCT, desde que a suspensão do banco durante a licença tenha sido **legalmente justificada** (ex.: ausência de atividade remunerada). A CLT não exige que o período de licença seja contado para o prazo de compensação, desde que a CCT tenha previsto essa suspensão.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **`sovereign(recognition_of_collective_bargaining)`**:  \n  A CCT é válida e vinculante, desde que respeite os direitos mínimos da CLT (ex.: limites de horas, segurança do trabalho).  \n\n- **`sovereign(maximum_weekly_working_hours_44h)`**:  \n  O trabalhador não pode ser submetido a mais de 44 horas semanais, mesmo com a flexibilidade da CCT.  \n\n- **`sovereign(maximum_daily_working_hours_8h)`**:  \n  O limite de 8 horas diárias é intransponível, garantindo o descanso e a saúde do trabalhador.  \n\n- **`elastic(annual_hour_bank_negotiable)`**:  \n  A CCT pode definir um banco de horas anual, desde que respeite o prazo máximo de 1 ano (previsto em `elastic(hour_bank_with_cct_max_1_year)`).  \n\n- **`elastic(working_hours_negotiable_by_cct)`**:  \n  A CCT pode estabelecer regras específicas para compensação de horas, como a suspensão do banco durante licenças.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa **não cometeu erro** ao suspender o banco de horas durante a licença maternidade e ao compensar as horas em 8 meses (incluindo o período útil). A lei permite que a CCT defina regras como essa, desde que:  \n1. **O prazo máximo de 1 ano** para compensar o banco de horas seja respeitado (o que aconteceu, pois a compensação ocorreu em 8 meses).  \n2. **Os limites de horas** (44 horas por semana e 8 por dia) não sejam ultrapassados.  \n\nA licença maternidade **não precisa ser contada** para o prazo de compensação, desde que a CCT tenha previsto essa suspensão. Portanto, a empresa agiu de acordo com a lei.",
+  "tokens_in": 506,
+  "tokens_out": 1305,
+  "latency_ms": 41625,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

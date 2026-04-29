@@ -1,0 +1,27 @@
+{
+  "sha256": "c8a62a22eb569d9e8679cb5af04236d710fc89f28e8907339822d2a7dcbabf62",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-006",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T04:55:53Z",
+  "prompt_sha": "f639dd1bd0487253b77ed4f47aa1283095e0b4595ae43a9a643ff66481153314",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que a situação apresentada está em conformidade com as normas vigentes, baseando-se nos predicados soberanos ativos identificados na execução do Clingo ASP. A decisão de conformidade foi influenciada pelo reconhecimento da negociação coletiva (sovereign(recognition_of_collective_bargaining)), que permite a flexibilização das normas gerais de trabalho mediante acordos específicos entre empregadores e trabalhadores, respeitando os limites estabelecidos por lei. Além disso, foram considerados os limites máximos de jornada semanal (44 horas) e diária (8 horas), que não foram ultrapassados na prática descrita.\n\nA flexibilidade negociada através da CCT do setor de varejo, permitindo um banco de horas com compensação em até 12 meses, encontra respaldo nos predicados elásticos ativos, como a negociação anual do banco de horas e sua duração máxima conforme acordado na CCT. A implementação prática da cláusula, com compensações realizadas dentro do prazo estabelecido e sem necessidade de pagamento adicional por saldo não compensado, demonstra o cumprimento das condições negociadas e a observância dos limites legais.\n\n### 2. PREDICADOS ATIVOS\n\n- **sovereign(recognition_of_collective_bargaining)**: Este predicado reconhece a validade e eficácia das negociações coletivas, permitindo que acordos específicos entre empregadores e trabalhadores modifiquem ou complementem as normas gerais de trabalho, desde que não contrariem disposições legais imperativas.\n\n- **sovereign(maximum_weekly_working_hours_44h)**: Estabelece o limite máximo legal para a jornada semanal de trabalho no Brasil, sendo 44 horas como o teto permitido. Qualquer acordo coletivo que resulte em uma carga horária superior deve respeitar as condições legais e normativas aplicáveis.\n\n- **sovereign(maximum_daily_working_hours_8h)**: Define o limite máximo de horas diárias de trabalho, sendo 8 horas o teto estabelecido pela legislação trabalhista brasileira. Acordos coletivos podem prever jornadas maiores, mas devem respeitar as condições legais e normativas.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG verificou que tudo está certo com a forma como a empresa e os trabalhadores estão lidando com o banco de horas. Isso significa que, mesmo que haja dias em que vocês trabalhem mais ou menos do que o normal, desde que isso seja compensado dentro de um ano, conforme acordado na convenção coletiva (um tipo de acordo especial entre a empresa e os funcionários), está tudo bem.\n\nA lei brasileira diz que, no geral, ninguém pode trabalhar mais de 44 horas por semana ou 8 horas por dia. Mas, como vocês têm um acordo especial, isso pode ser ajustado desde que todos concordem e as regras básicas sejam respeitadas.\n\nNesse caso específico, a empresa ofereceu folgas nos dias menos movimentados para compensar o tempo extra trabalhado em outros momentos, tudo dentro do prazo acordado. E como ninguém teve que receber horas extras por saldo não compensado (porque tudo foi ajustado no tempo), está tudo conforme as regras e o acordo feito entre vocês.",
+  "tokens_in": 529,
+  "tokens_out": 817,
+  "latency_ms": 23655,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

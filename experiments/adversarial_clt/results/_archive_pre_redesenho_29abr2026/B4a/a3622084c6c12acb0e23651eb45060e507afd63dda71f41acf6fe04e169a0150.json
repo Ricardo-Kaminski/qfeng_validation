@@ -1,0 +1,26 @@
+{
+  "sha256": "a3622084c6c12acb0e23651eb45060e507afd63dda71f41acf6fe04e169a0150",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T07:15:13Z",
+  "prompt_sha": "52ec50d5024118233c12c0dc9099b2683840524f81358cf22711748675d6dce8",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\n\"O sistema Q-FENG analisou o caso e determinou que a empresa deve cumprir com as regras estabelecidas na CCT (Convenção Coletiva de Trabalho). A decisão é baseada no fato de que todas as horas trabalhadas foram compensadas em folgas previamente comunicadas, o que significa que não há mais saldo a ser compensado. Além disso, a CCT foi registrada na SRTE (Superintendência Regional do Trabalho) e todos os trabalhadores receberam cópias da CCT, sem contestação sindical ou individual.\n\nA decisão é também influenciada pelos predicados soberanos ativos, que estabelecem a obrigação de o sistema considerar as consequências práticas da decisão (obligation_to_state_practical_consequences_of_decision), proibir a citação de precedentes genéricos (prohibition_of_generic_precedent_citation) e garantir que todas as argumentações legais sejam abordadas (obligation_to_address_all_legal_arguments).\n\nPortanto, diante da análise completa das regras estabelecidas na CCT e dos predicados soberanos ativos, o sistema Q-FENG determinou a CONFORMIDADE como ação recomendada.\"\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\n*   **obligation_to_state_practical_consequences_of_decision**: O sistema deve considerar as consequências práticas da decisão tomada, garantindo que ela seja implementável e eficaz.\n*   **prohibition_of_generic_precedent_citation**: O sistema não pode citar precedentes genéricos ou abstratos para justificar a decisão. A decisão deve ser fundamentada em fatos específicos do caso.\n*   **obligation_to_address_all_legal_arguments**: O sistema deve considerar e responder a todas as argumentações legais apresentadas, garantindo que a decisão seja justa e equitativa.\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi**: A decisão deve ser fundamentada em uma razão jurídica específica e identificável (ratio decidendi), que é o fundamento lógico da decisão.\n*   **constitutional_obligation_to_state_reasons_for_decisions**: O sistema tem a obrigação constitucional de justificar as razões pelas quais tomou uma decisão, garantindo transparência e responsabilidade.\n*   **right_of_access_to_justice_and_judicial_review**: O sistema deve respeitar o direito dos trabalhadores à justiça e ao recurso judicial, garantindo que eles possam questionar a decisão em caso de desacordo.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\n\"O sistema Q-FENG analisou seu caso e decidiu que você deve cumprir com as regras estabelecidas na CCT. Isso significa que você não tem mais horas a serem compensadas, pois todas elas já foram convertidas em folgas previamente comunicadas.\n\nA decisão é baseada no fato de que a CCT foi registrada e todos os trabalhadores receberam cópias da mesma sem contestação. Além disso, o sistema considerou as consequências práticas da decisão e garantiram que todas as argumentações legais sejam abordadas.\n\nPortanto, você deve seguir as regras estabelecidas na CCT para manter a conformidade.\"",
+  "tokens_in": 532,
+  "tokens_out": 771,
+  "latency_ms": 13110,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

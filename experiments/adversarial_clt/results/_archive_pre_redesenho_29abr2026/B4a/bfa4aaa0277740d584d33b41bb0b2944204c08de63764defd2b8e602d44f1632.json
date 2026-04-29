@@ -1,0 +1,26 @@
+{
+  "sha256": "bfa4aaa0277740d584d33b41bb0b2944204c08de63764defd2b8e602d44f1632",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-008",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T05:39:54Z",
+  "prompt_sha": "edebec9d75758a7769d5b8b57f9d98a0d77aec6e3dfbd734a37cbb83239e8736",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma **violação** no caso submetido, decorrente da utilização de jurisprudência obsoleta como fundamento para a decisão judicial. A decisão do Tribunal Regional do Trabalho (TRT) baseou-se na Orientações Jurisprudenciais (OJ) nº 394 da SDI-1 do Tribunal Superior do Trabalho (TST), a qual foi posteriormente revogada e incorporada à Súmula nº 428, com alterações significativas em seu conteúdo. A decisão do TRT não considerou a revogação da OJ 394 nem a existência da Súmula 428, o que compromete a correção e a fundamentação da decisão.\n\nA avaliação do Q-FENG foi fundamentada na aplicação de princípios jurídicos soberanos, que impõem obrigações ao Poder Judiciário para garantir a justiça e a legalidade das decisões. A incerteza na satisfatibilidade do caso reflete a complexidade de mitigar os efeitos de uma decisão judicial que se baseia em fundamentos desatualizados, sem invalidá-la por completo. A ação recomendada, \"VIOLACAO\", indica a necessidade de revisão e correção da decisão judicial para adequá-la à legislação e jurisprudência vigentes.\n\n## PREDICADOS ATIVADOS E SEUS SIGNIFICADOS JURÍDICOS\n\nOs predicados soberanos ativos, que guiaram a avaliação do Q-FENG, são:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  Impõe ao juiz a obrigação de explicitar as consequências práticas da decisão proferida, garantindo que as partes compreendam o impacto da mesma em suas vidas e direitos. No caso em tela, a utilização de jurisprudência obsoleta pode gerar consequências práticas equivocadas para o trabalhador e a empresa.\n*   **sovereign(prohibition_of_generic_precedent_citation):**  Impede a citação genérica de jurisprudência sem a devida análise e contextualização. A simples referência à OJ 394, sem considerar sua revogação e incorporação à Súmula 428, configura uma citação genérica e inadequada.\n*   **sovereign(obligation_to_address_all_legal_arguments):**  Obriga o juiz a considerar e responder a todos os argumentos jurídicos apresentados pelas partes, incluindo a discussão sobre a validade e a aplicabilidade da jurisprudência utilizada. A ausência de menção à Súmula 428 e à revogação da OJ 394 demonstra uma falha em atender a essa obrigação.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):**  Exige que a decisão seja fundamentada em um *ratio decidendi* (a razão de decidir) claramente identificado e aplicado ao caso concreto. A utilização de jurisprudência revogada compromete a identificação de um *ratio decidendi* válido e aplicável.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):**  Derivado do princípio do devido processo legal e da motivação das decisões, impõe a obrigação constitucional de o juiz apresentar os fundamentos de fato e de direito que o levaram à conclusão. A utilização de jurisprudência obsoleta enfraquece a motivação da decisão.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):** Garante o direito fundamental de acesso à justiça e à revisão judicial, que se concretiza através de decisões fundamentadas e em consonância com a legislação vigente. A utilização de jurisprudência obsoleta pode comprometer a efetividade desse direito.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"Prezado(a) trabalhador(a), a decisão que você recebeu do Tribunal Regional do Trabalho (TRT) usou uma lei antiga (a OJ 394) para calcular as horas de sobreaviso. O problema é que essa lei não é mais válida. Ela foi substituída por uma lei nova (a Súmula 428), que mudou algumas coisas. O TRT não considerou essa mudança, o que pode ter feito um cálculo errado no seu caso. Isso não é justo, porque você tem o direito de ter uma decisão baseada na lei correta. O sistema Q-FENG identificou esse erro e sinalizou que a decisão precisa ser revista para garantir que você receba o que a lei determina, de acordo com as regras atuais.\"\n",
+  "tokens_in": 514,
+  "tokens_out": 1011,
+  "latency_ms": 28030,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

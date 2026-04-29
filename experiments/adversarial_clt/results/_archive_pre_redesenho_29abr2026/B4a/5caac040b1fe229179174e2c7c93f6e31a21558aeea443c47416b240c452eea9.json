@@ -1,0 +1,29 @@
+{
+  "sha256": "5caac040b1fe229179174e2c7c93f6e31a21558aeea443c47416b240c452eea9",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T04:37:09Z",
+  "prompt_sha": "0ae1cb23f5b2029af6ba34d6cbada55225e0756bb30ed00c0f6402a4a8c28764",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que há uma violação das normas trabalhistas no caso apresentado pela rede de supermercados. A decisão baseia-se na análise dos predicados soberanos ativos, que são princípios fundamentais da Consolidação das Leis do Trabalho (CLT) e não podem ser alterados por acordos individuais ou coletivos.\n\nA empresa implementou um banco de horas com compensação em prazo de quatro meses, mas a convenção coletiva de trabalho (ACT) que autorizava essa prática não foi registrada na Superintendência Regional do Trabalho e Emprego (SRTE) no prazo legal. Isso é crucial porque o registro formaliza a validade da ACT perante as autoridades trabalhistas, garantindo sua aplicação correta.\n\nOs predicados soberanos ativos indicam que:\n\n- **Banco de horas requer CCT ou ACT registrada**: A implementação do banco de horas depende de uma convenção coletiva de trabalho ou acordos coletivos homologados e registrados. Sem o registro, a validade da ACT é questionável.\n  \n- **Invalidade de cláusulas que suprimem pagamento de horas extras**: Qualquer acordo que tente eliminar ou reduzir o pagamento das horas extras além do limite legal não é válido.\n\n- **Compensação semanal exige acordo escrito**: A compensação de horas deve ser formalizada por um acordo escrito, o que inclui o registro da ACT.\n\n- **Proibição de negociação para redução de horas extras adicionais**: Não pode haver negociações que diminuam os direitos trabalhistas relacionados ao pagamento adicional das horas extras.\n\n- **Horas extras mínimas com acréscimo de 50%**: As horas extras devem ser pagas com um acréscimo mínimo de 50%, conforme a legislação trabalhista.\n\n- **Limite máximo de horas semanais e diárias**: A jornada máxima é de 44 horas semanais e 8 horas diárias, respeitando os limites legais.\n\nO predicado elástico ativo permite um banco de horas sem CCT por até seis meses, mas isso não se aplica aqui, pois a empresa depende da ACT para estender esse prazo. Portanto, o sistema conclui que há uma violação das normas trabalhistas devido ao registro inadequado da ACT e à potencial ineficácia dos acordos sobre banco de horas.\n\n### 2. PREDICADOS ATIVADOS\n\n- **sovereign(semester_hour_bank_requires_cct_or_act)**: Legalmente, a implementação do banco de horas exige uma convenção coletiva de trabalho (CCT) ou um acordo coletivo de trabalho (ACT) que esteja registrado e homologado. Sem isso, o banco de horas não pode ser aplicado.\n\n- **sovereign(invalidity_of_clause_suppressing_overtime_payment)**: Qualquer cláusula em acordos que tente eliminar ou reduzir o pagamento das horas extras além do estabelecido por lei é inválida. As horas extras devem ser pagas com um acréscimo mínimo de 50%.\n\n- **sovereign(weekly_hour_compensation_requires_written_agreement)**: A compensação de horas, como no caso do banco de horas, deve estar formalizada em um acordo escrito e registrado para garantir sua validade legal.\n\n- **sovereign(prohibition_negotiation_reducing_overtime_additional)**: Não é permitido negociar acordos que reduzam os direitos trabalhistas relacionados ao pagamento adicional das horas extras, assegurando que o empregado receba pelo menos 50% a mais por essas horas.\n\n- **sovereign(overtime_minimum_additional_50pct)**: As horas extras devem ser pagas com um acréscimo mínimo de 50%, conforme estabelecido pela legislação trabalhista brasileira.\n\n- **sovereign(maximum_weekly_working_hours_44h)**: A jornada máxima semanal é de 44 horas, não podendo exceder esse limite sob pena de violação das normas trabalhistas.\n\n- **sovereign(maximum_daily_working_hours_8h)**: O limite diário de trabalho é de 8 horas, garantindo que o empregado tenha direito a descanso adequado.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG identificou um problema na forma como a empresa está lidando com as horas extras dos funcionários. A empresa queria que os trabalhadores pudessem acumular horas extra para compensar em outro momento, mas isso só pode ser feito se houver um acordo oficial registrado corretamente.\n\nO problema é que o acordo não foi registrado no tempo certo na autoridade de trabalho responsável. Isso significa que, mesmo que a empresa e os trabalhadores tenham assinado algo, sem esse registro formal, o acordo não vale legalmente. Além disso, as leis garantem que qualquer hora extra deve ser paga com um acréscimo mínimo de 50%, e isso não pode ser mudado por nenhum acordo.\n\nPortanto, a empresa está violando as regras trabalhistas porque não seguiu o procedimento correto para registrar o acordo. Isso afeta os direitos dos trabalhadores em relação ao pagamento das horas extras e à forma como podem compensá-las no futuro.",
+  "tokens_in": 526,
+  "tokens_out": 1231,
+  "latency_ms": 35766,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

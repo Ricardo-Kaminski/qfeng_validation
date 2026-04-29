@@ -1,0 +1,29 @@
+{
+  "sha256": "8218ec2f2f9979acc7ddf888c4670d1ac387814f6a0e483b14380c8cace6d234",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-011",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T06:03:02Z",
+  "prompt_sha": "aeb9b5c946ebb59b38edd736d6611be0631b55d3a7fb6273720cc5584c08a93c",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, após análise do cenário apresentado e da legislação trabalhista brasileira, concluiu que a cláusula da CCT que exige a renúncia ao adicional de horas extras em caso de não compensação do banco de horas no prazo **é passível de ser considerada inválida**. A decisão, embora com satisfatibilidade indeterminada (UNKNOWN), inclina-se para a **violação** da legislação, com base na análise dos predicados soberanos e elásticos ativos.\n\nA exigência de renúncia ao adicional de horas extras, mesmo em um acordo coletivo, colide com a proteção fundamental aos direitos trabalhistas, especialmente no que tange à remuneração pelas horas extras. A CCT, embora represente um acordo entre empregadores e sindicato, não pode suprimir direitos assegurados pela legislação, como o adicional de horas extras, que visa compensar o trabalhador pelo esforço adicional. A renúncia a esse direito, condicionada à não compensação do banco de horas, cria uma situação de vulnerabilidade para o trabalhador, que pode ser penalizado pela demora ou falha do empregador em cumprir suas obrigações.\n\nA análise do sistema considerou a importância da compensação das horas extras dentro de um prazo razoável, a proibição de negociação que reduza o adicional de horas extras e a proteção ao direito do trabalhador à remuneração mínima por horas extras. A cláusula em questão, ao condicionar a manutenção desse direito à compensação imediata, pode ser interpretada como uma forma de pressão sobre o trabalhador e uma tentativa de contornar a legislação.\n\n## PREDICADOS ATIVADOS (Significado Jurídico)\n\n*   **sovereign(semester_hour_bank_requires_cct_or_act):**  Indica que a utilização de um banco de horas semestral exige um acordo coletivo (CCT) ou uma lei específica para ser legalmente válida. A ausência de um desses elementos pode gerar questionamentos sobre a sua validade.\n*   **sovereign(invalidity_of_clause_suppressing_overtime_payment):**  Afirma que cláusulas em acordos ou convenções coletivas que suprimem o direito ao pagamento do adicional de horas extras são potencialmente inválidas, por violarem a legislação trabalhista.\n*   **sovereign(weekly_hour_compensation_requires_written_agreement):**  Reforça a necessidade de um acordo escrito para a compensação de horas extras, garantindo a transparência e a segurança jurídica para o trabalhador.\n*   **sovereign(prohibition_negotiation_reducing_overtime_additional):**  Estabelece a proibição de negociação que diminua o valor do adicional de horas extras, protegendo um direito fundamental do trabalhador.\n*   **sovereign(overtime_minimum_additional_50pct):**  Define que o adicional de horas extras deve ser, no mínimo, de 50% sobre a hora normal, garantindo uma compensação justa pelo trabalho extraordinário.\n*   **sovereign(maximum_weekly_working_hours_44h):**  Limita a jornada de trabalho semanal máxima a 44 horas, buscando proteger a saúde e a segurança do trabalhador.\n*   **sovereign(maximum_daily_working_hours_8h):**  Limita a jornada de trabalho diária máxima a 8 horas, buscando proteger a saúde e a segurança do trabalhador.\n*   **elastic(hour_bank_without_cct_max_6_months):**  Define um limite de 6 meses para a utilização do banco de horas quando não há um acordo coletivo formal que o regule.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"A situação que você descreveu, em que a empresa exige que você renuncie ao direito de receber o adicional de horas extras se o banco de horas não for compensado a tempo, é algo que pode ser questionado na justiça do trabalho. A lei protege o seu direito de receber mais por trabalhar além da sua jornada normal. Mesmo que o sindicato tenha concordado com essa regra em um acordo, a lei não permite que esse direito seu seja tirado dessa forma.\n\nA empresa precisa compensar as horas extras que você trabalhou, e essa compensação deve ser feita em um prazo razoável. Se a empresa não cumprir, você tem o direito de receber o adicional, mesmo que a cláusula do acordo diga o contrário. O sistema Q-FENG analisou a situação e acredita que essa cláusula pode ser considerada inválida, pois ela tenta tirar um direito seu que a lei garante. É importante procurar um advogado trabalhista para analisar o seu caso e tomar as medidas cabíveis.\"\n",
+  "tokens_in": 541,
+  "tokens_out": 1027,
+  "latency_ms": 28593,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

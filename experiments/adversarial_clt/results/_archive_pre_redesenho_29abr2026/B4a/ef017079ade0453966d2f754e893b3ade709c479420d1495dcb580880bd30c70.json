@@ -1,0 +1,27 @@
+{
+  "sha256": "ef017079ade0453966d2f754e893b3ade709c479420d1495dcb580880bd30c70",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-001",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T03:07:43Z",
+  "prompt_sha": "c6c0c1122710df482c2abdde5c502834d7fd2f7dca2ec9ae3f5901b25dbff6df",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nA decisão de **CONFORMIDADE** foi emitida com base na análise dos predicados soberanos e elásticos da CLT (Consolidação das Leis do Trabalho) e na interpretação do sistema Q-FENG.  \n\n- **Predicado soberano ativo `sovereign(recognition_of_collective_bargaining)`** garante que a CCT (Convenção Coletiva de Trabalho) é legalmente válida e respeitada, o que está confirmado pela homologação sindical e pela compensação das horas em tempo útil.  \n- **Predicado soberano `sovereign(maximum_weekly_working_hours_44h)`** e **`sovereign(maximum_daily_working_hours_8h)`** estabelecem limites legais de jornada, mas **não são violados** neste caso:  \n  - A jornada diária de **10h** foi negociada via CCT (prevista no predicado elástico `elastic(working_hours_negotiable_by_cct)`), o que é permitido sob a CLT desde que não exceda 12h/dia e que haja compensação adequada.  \n  - A compensação das horas em **12 meses** (prevista em `elastic(hour_bank_with_cct_max_1_year)`) está dentro do prazo estabelecido, garantindo a legalidade do banco de horas.  \n  - A **homologação sindical** e a entrega dos extratos mensais atendem aos requisitos de transparência e fiscalização previstos na CLT.  \n\nO vetor ψ_S ([1.5708]) indica uma **conformidade parcial**, mas a ausência de violações aos predicados soberanos fundamentais (como limites de jornada e validade da CCT) justifica a recomendação de **CONFORMIDADE**.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **`sovereign(recognition_of_collective_bargaining)`**:  \n  Reconhece a validade da CCT como instrumento legal para definir condições de trabalho, incluindo a negociação de jornada e banco de horas.  \n\n- **`sovereign(maximum_weekly_working_hours_44h)`**:  \n  Estabelece que a jornada semanal não pode ultrapassar 44h, mas **não se aplica diretamente** neste caso, pois a CCT permite ajustes via negociação (previsto no predicado elástico).  \n\n- **`sovereign(maximum_daily_working_hours_8h)`**:  \n  Define o limite de 8h/dia, mas **não é violado** porque a CCT permite jornadas maiores (até 12h/dia) desde que haja compensação (como ocorreu aqui).  \n\n- **`elastic(annual_hour_bank_negotiable)`**:  \n  Permite a negociação de banco de horas anual, desde que respeitados os prazos e limites legais.  \n\n- **`elastic(working_hours_negotiable_by_cct)`**:  \n  Permite que a CCT defina jornadas acima de 8h/dia, desde que haja compensação e não exceda 12h/dia.  \n\n- **`elastic(hour_bank_with_cct_max_1_year)`**:  \n  Limita o prazo de compensação do banco de horas a 12 meses, o que foi cumprido.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa e o trabalhador seguiram as regras da CLT:  \n- **A CCT** (acordo entre empresa e sindicato) foi validada pelo sindicato e respeitou os prazos para compensar as horas.  \n- **A jornada de 10h/dia** foi negociada e está dentro do limite permitido (até 12h/dia) pela CLT, desde que haja compensação (como ocorreu com as folgas).  \n- **O banco de horas** foi usado corretamente: as horas acumuladas foram compensadas em até 12 meses, e os extratos foram entregues.  \n\nO sistema Q-FENG concluiu que **não houve violação das regras básicas da CLT**, por isso a decisão é de **CONFORMIDADE**. Mesmo com a ambiguidade (\"UNKNOWN\"), os pontos essenciais (CCT válida, jornada compensada, prazos respeitados) foram atendidos.",
+  "tokens_in": 503,
+  "tokens_out": 1519,
+  "latency_ms": 48265,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

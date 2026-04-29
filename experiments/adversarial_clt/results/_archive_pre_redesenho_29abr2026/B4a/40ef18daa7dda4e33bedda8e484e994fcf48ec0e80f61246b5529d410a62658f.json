@@ -1,0 +1,30 @@
+{
+  "sha256": "40ef18daa7dda4e33bedda8e484e994fcf48ec0e80f61246b5529d410a62658f",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T05:08:46Z",
+  "prompt_sha": "2c346e302232f51cd44617f62ac2e4fd89f0a43134d5baae82a0990651685d27",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, ao analisar o cenário apresentado, identificou que a decisão judicial em questão enfrentou uma omissão relacionada à ausência de análise do impacto sistêmico da decisão sobre um setor econômico, conforme previsto no Art. 20 da Lei de Introdução às Normas do Direito Brasileiro (LINDB). A decisão judicial foi confrontada com a jurisprudência do Superior Tribunal de Justiça (STJ) sobre o tema, e concluiu que não se aplicava ao caso trabalhista individual em análise. \n\nA omissão foi suprida através de fundamentação identificável e verificável, atendendo à obrigação soberana de explicar as razões práticas da decisão (sovereign(obligation_to_state_practical_consequences_of_decision)) e a necessidade de abordar todos os argumentos legais apresentados (sovereign(obligation_to_address_all_legal_arguments)). Além disso, foi garantido que a decisão estivesse fundamentada em um ratio decidendi identificado (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)), e que as razões para a decisão fossem explicitadas de forma constitucionalmente obrigatória (sovereign(constitutional_obligation_to_state_reasons_for_decisions)). \n\nA análise também considerou o reconhecimento da negociação coletiva (sovereign(recognition_of_collective_bargaining)) e o direito ao acesso à justiça e revisão judicial (sovereign(right_of_access_to_justice_and_judicial_review)), sem recorrer a citações de precedentes genéricos (prohibition_of_generic_precedent_citation). Diante disso, o sistema Q-FENG recomendou conformidade com a decisão, considerando que as obrigações soberanas foram atendidas.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Sovereign(obligation_to_state_practical_consequences_of_decision):** Este predicado exige que qualquer decisão judicial explique claramente quais são os impactos práticos dessa decisão, garantindo transparência e compreensão sobre suas consequências.\n\n- **Prohibition_of_generic_precedent_citation:** Proíbe o uso de precedentes genéricos sem uma análise específica do caso em questão, assegurando que cada decisão seja baseada no contexto particular do caso.\n\n- **Sovereign(obligation_to_address_all_legal_arguments):** Exige que todos os argumentos legais apresentados pelas partes sejam considerados e respondidos na decisão judicial.\n\n- **Sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** Requer que a decisão seja fundamentada em um motivo jurídico específico, identificado claramente no julgamento.\n\n- **Sovereign(constitutional_obligation_to_state_reasons_for_decisions):** Impõe a obrigação constitucional de explicitar as razões pelas quais uma determinada decisão foi tomada, promovendo transparência e justiça.\n\n- **Sovereign(recognition_of_collective_bargaining):** Reconhece o papel da negociação coletiva no contexto trabalhista, respeitando acordos realizados entre sindicatos e empregadores.\n\n- **Sovereign(right_of_access_to_justice_and_judicial_review):** Garante que todos tenham acesso à justiça e a possibilidade de revisão judicial das decisões, assegurando direitos fundamentais.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG analisou uma decisão sobre um caso trabalhista e percebeu que faltava explicar como essa decisão poderia afetar o setor econômico em geral, conforme a lei exige. No entanto, ao revisar a situação, foi decidido que isso não se aplicava ao caso específico de uma pessoa trabalhadora individual.\n\nPara corrigir essa falta, os juízes explicaram claramente por que tomaram a decisão e responderam a todos os argumentos apresentados. Eles também garantiram que suas razões fossem bem fundamentadas e claras para todos entenderem. Além disso, eles respeitaram acordos feitos entre sindicatos e empregadores e asseguraram o direito de qualquer pessoa contestar a decisão se necessário.\n\nPortanto, o sistema Q-FENG considerou que tudo foi feito corretamente e recomendou seguir com essa decisão.",
+  "tokens_in": 562,
+  "tokens_out": 1035,
+  "latency_ms": 30062,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

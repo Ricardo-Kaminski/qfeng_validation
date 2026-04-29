@@ -1,0 +1,30 @@
+{
+  "sha256": "cfe5458d18ecb4f34cac24d71e2f27bb17b6d033dcc14e3f63cf2bccc255f41c",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-007",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T07:09:33Z",
+  "prompt_sha": "db7b7f8d2770500cb0104fdeeec443628af6b6ec1fc50f5b30f49d02934b8843",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após analisar os fatos do caso e as leis aplicáveis, chegou à decisão de nulidade da dispensa e reintegração do empregado gestante. Isso ocorreu porque a gravidez do empregado ocorreu antes da dispensa, o que configura um requisito de estabilidade provisória previsto na Constituição Federal de 1988 (CF/88), Art. 10, II, \"b\" (ADCT).\n\nAlém disso, a decisão menciona expressamente a Orientação Jurídica (OJ) 399 da SDI-1 para afastar a exigência de comunicação prévia da gravidez ao empregador. Isso significa que o empregado não tinha a obrigação de comunicar sua gravidez ao empregador antes da dispensa.\n\nA decisão foi fundamentada nos seguintes aspectos:\n\n*   A estabilidade provisória é um direito garantido pela Constituição Federal, previsto no Art. 10, II, \"b\" (ADCT), que protege os trabalhadores gestantes contra a dispensa arbitrária.\n*   A gravidez do empregado ocorreu antes da dispensa, o que configura um requisito de estabilidade provisória.\n*   A Orientação Jurídica (OJ) 399 da SDI-1 afasta a exigência de comunicação prévia da gravidez ao empregador.\n\nEsses aspectos foram considerados pelo sistema Q-FENG, que atuou sob os predicados soberanos ativos, especialmente o **sovereign(obligation_to_state_practical_consequences_of_decision)**, que exige que a decisão seja fundamentada e explique as consequências práticas da mesma.\n\n**2. PREDICADOS ATIVADOS**\n\nOs predicados soberanos ativos são os seguintes:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision)**: Exige que a decisão seja fundamentada e explique as consequências práticas da mesma.\n*   **sovereign(prohibition_of_generic_precedent_citation)**: Proíbe a citação de precedentes genéricos, exigindo que a decisão seja baseada em argumentos específicos e relevantes para o caso concreto.\n*   **sovereign(obligation_to_address_all_legal_arguments)**: Exige que a decisão considere todos os argumentos legais apresentados pelas partes envolvidas.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: Exige que a decisão seja fundamentada em um ou mais precedentes específicos e relevantes para o caso concreto, conhecidos como ratio decidendi.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: Exige que a decisão seja fundamentada nas razões constitucionais que a sustentam.\n*   **sovereign(recognition_of_collective_bargaining)**: Reconhece o direito de negociação coletiva entre os empregados e os empregadores, previsto na CLT.\n*   **sovereign(right_of_access_to_justice_and_judicial_review)**: Garante o acesso à justiça e a revisão judicial das decisões proferidas.\n\nEsses predicados soberanos ativos garantem que a decisão seja fundamentada, justa e respeite os direitos dos trabalhadores.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nA decisão do sistema Q-FENG é simplesmente:\n\n\"O empregado tem o direito de não ser demitido por motivo de gravidez, pois isso é protegido pela Constituição Federal. Além disso, a lei não exige que o empregado comunique sua gravidez ao empregador antes da dispensa. Por isso, a decisão é que a dispensa do empregado foi nula e ele tem direito à reintegração no emprego.\"\n\nEssa tradução para audiência leiga busca explicar a decisão de forma clara e acessível, sem jargão técnico, para um trabalhador não especializado.",
+  "tokens_in": 583,
+  "tokens_out": 934,
+  "latency_ms": 15827,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

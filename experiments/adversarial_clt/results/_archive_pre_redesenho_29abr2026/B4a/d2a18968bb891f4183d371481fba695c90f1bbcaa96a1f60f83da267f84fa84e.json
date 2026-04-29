@@ -1,0 +1,30 @@
+{
+  "sha256": "d2a18968bb891f4183d371481fba695c90f1bbcaa96a1f60f83da267f84fa84e",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-006",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T03:48:21Z",
+  "prompt_sha": "e6375c11e406eda3f0926b4a955ab06c3b4f824045cb7d8586f69f27e435c47d",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG identificou uma **violação normativa** na aplicação do precedente jurisprudencial pelo tribunal. A decisão do acórdão **não respeitou os predicados soberanos** que regem a aplicação de precedentes no direito trabalhista brasileiro. Especificamente:  \n- **Obrigação de fundamentar a decisão com a *ratio decidendi* identificada** (`sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)`): o tribunal ignorou que o **Tema 1046/STF** pressupõe a existência de um **CCT (Convenção Coletiva de Trabalho)** para validar o banco de horas, aplicando incorretamente a tese de validade de CCT bancária em um caso sem CCT.  \n- **Proibição de citação genérica de precedentes** (`sovereign(prohibition_of_generic_precedent_citation)`): o tribunal utilizou o precedente de forma **descontextualizada**, sem vincular a *ratio* ao pressuposto de existência de CCT, violando a obrigação de **especificidade** na aplicação de jurisprudência.  \n- **Obrigação de abordar todos os argumentos jurídicos** (`sovereign(obligation_to_address_all_legal_arguments)`): o tribunal não reconheceu que a ausência de CCT invalida a aplicação do precedente, omitindo um argumento central.  \n- **Obrigação de reconhecer a negociação coletiva** (`sovereign(recognition_of_collective_bargaining)`): o tribunal desrespeitou o princípio de que a **negociação coletiva** (CCT) é **pressuposto necessário** para a validade de ajustes como o banco de horas.  \n\nA **violação** ocorre porque a decisão **não respeitou a estrutura lógica** do precedente, invertendo a *ratio* e ignorando os predicados soberanos que garantem a **coerência normativa** e a **proteção dos direitos fundamentais** (como o acesso à justiça, `sovereign(right_of_access_to_judicial_review)`).\n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n**a) `sovereign(obligation_to_state_practical_consequences_of_decision)`**  \nO tribunal deve **explicar as consequências práticas** da sua decisão (ex.: como o banco de horas sem CCT afeta direitos trabalhistas). A ausência dessa explicação viola a obrigação de transparência.  \n\n**b) `sovereign(prohibition_of_generic_precedent_citation)`**  \nO tribunal **não pode citar precedentes de forma genérica** (ex.: \"o espírito do Tema 1046 é valorizar a autonomia negocial\"). A aplicação do precedente deve ser **vinculada ao contexto** (ex.: CCT existente).  \n\n**c) `sovereign(obligation_to_address_all_legal_arguments)`**  \nO tribunal **deve analisar todos os argumentos** apresentados (ex.: a ausência de CCT como obstáculo à validade do banco de horas). Ignorar argumentos jurídicos é uma violação da **imparcialidade**.  \n\n**d) `sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)`**  \nA decisão deve **fundamentar-se na *ratio* identificada no precedente** (ex.: CCT existente como pressuposto). Aplicar a *ratio* de forma invertida (CCT inexistente como base) viola a **coerência lógica**.  \n\n**e) `sovereign(constitutional_obligation_to_state_reasons_for_decisions)`**  \nO tribunal **deve justificar suas razões** com clareza (ex.: por que o banco de horas sem CCT é válido). A falta de fundamentação viola o **princípio da motivação**.  \n\n**f) `sovereign(recognition_of_collective_bargaining)`**  \nO tribunal **deve reconhecer a negociação coletiva** como pressuposto para ajustes como o banco de horas. Ignorar isso viola o **princípio da autonomia negocial**.  \n\n**g) `sovereign(right_of_access_to_judicial_review)`**  \nO tribunal **deve garantir o acesso à justiça** (ex.: o trabalhador deve ter direito a revisão judicial). A aplicação incorreta do precedente limita esse direito.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO tribunal **errou ao aplicar uma regra de forma invertida**. Ele citou uma decisão judicial (Tema 1046/STF) que diz que, **quando há um acordo coletivo** (CCT), o banco de horas pode ser válido. Mas, no caso analisado, **não há nenhum CCT**. O tribunal, porém, **usou a regra de forma errada**, dizendo que o banco de horas é válido mesmo sem CCT, apenas por \"valorizar a autonomia negocial\".  \n\nIsso é **errado**, porque a regra só vale **quando há um acordo coletivo**. O tribunal **não explicou por que a regra foi aplicada assim**, ignorou argumentos importantes (como a ausência de CCT) e **não respeitou a lei** que exige que decisões sejam fundamentadas com clareza.  \n\nA conclusão do sistema Q-FENG é que **a decisão do tribunal viola a lei**, porque **não seguiu a regra correta** e **não explicou adequadamente sua aplicação**. Isso pode prejudicar direitos dos trabalhadores, que precisam de decisões justas e transparentes.",
+  "tokens_in": 575,
+  "tokens_out": 1716,
+  "latency_ms": 54452,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,26 @@
+{
+  "sha256": "c2df0e8d7affce4e64c6695aecd96b76ac178afd8f5470810971f68b8d38e3eb",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T05:30:36Z",
+  "prompt_sha": "9d50b6baae5bf620474d057d075983b7fc2cc49c5178112cb76b3c707250c756",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, ao analisar o cenário apresentado, concluiu pela ocorrência de violação, indicando que a decisão do TST deve ser revista sob o prisma da legalidade e da garantia do devido processo legal. A decisão foi fundamentada na citação, pelo relator, de uma Súmula 312 do TST que, conforme consta, não existe na base jurisprudencial oficial.\n\nA análise do Q-FENG considerou a obrigatoriedade de que decisões judiciais sejam fundamentadas em precedentes identificáveis e verificáveis, conforme exigido pelo artigo 489, §1°, V, do Código de Processo Civil. A citação de uma súmula inexistente compromete a transparência e a possibilidade de controle da decisão, ferindo princípios basilares do sistema de justiça.\n\nA decisão do Q-FENG foi impulsionada pela ativação de diversos predicados soberanos, que reforçam a necessidade de fundamentação robusta e transparente das decisões judiciais, bem como a garantia do direito de acesso à justiça e à revisão judicial. A satisfatibilidade desconhecida (UNKNOWN) reflete a incerteza sobre a validade da decisão do TST, dada a inconsistência na fundamentação.\n\n## 2. PREDICADOS ATIVADOS:\n\nOs predicados soberanos ativos, no contexto trabalhista brasileiro, significam:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  O sistema judicial tem a obrigação de explicar as consequências práticas da decisão proferida, para que as partes envolvidas compreendam o impacto da mesma em suas vidas e direitos.\n*   **sovereign(prohibition_of_generic_precedent_citation):** É vedada a citação genérica de precedentes, sem a identificação precisa do julgado que fundamenta a decisão. A fundamentação deve ser específica e permitir a verificação da base legal da decisão.\n*   **sovereign(obligation_to_address_all_legal_arguments):** O juiz deve analisar e responder a todos os argumentos jurídicos apresentados pelas partes, demonstrando o raciocínio que o levou à conclusão.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** A decisão deve ser fundamentada em um *ratio decidendi* (a razão da decisão) identificado e específico de um caso concreto, permitindo a rastreabilidade da base legal.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):** A Constituição Federal garante o direito ao contraditório e à motivação das decisões judiciais, assegurando a transparência e a possibilidade de controle da legalidade.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):** Garante o direito de todo cidadão de ter acesso à justiça e de questionar as decisões judiciais, assegurando a revisão judicial e a correção de eventuais erros.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"Imagine que você está em uma discussão e a pessoa que está decidindo a sua situação diz que está seguindo uma regra, mas essa regra não existe de verdade. Isso é o que aconteceu aqui. O TST, ao decidir o seu caso, citou uma regra (uma Súmula) que não existe nos documentos oficiais da Justiça do Trabalho.\n\nIsso é um problema porque você tem o direito de saber qual a base legal da decisão que te afeta. Você precisa saber qual regra o juiz usou para decidir o seu caso, para poder entender se a decisão está correta e, se não estiver, poder questioná-la.\n\nO sistema Q-FENG, que analisa as decisões judiciais, identificou que essa falta de uma base legal clara é uma violação do seu direito de ter uma decisão justa e transparente. Por isso, ele recomenda que a decisão do TST seja revista e que o juiz explique de forma correta e verificável qual a regra que usou para decidir o seu caso.\"\n",
+  "tokens_in": 564,
+  "tokens_out": 898,
+  "latency_ms": 24875,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

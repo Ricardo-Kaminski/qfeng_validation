@@ -1,0 +1,27 @@
+{
+  "sha256": "e6b5f6cf7eb0b166ed1c1d50b4e22996dfd9f1fa7bddc1dfac1f4353fe781de6",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-001",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T06:04:10Z",
+  "prompt_sha": "c6c0c1122710df482c2abdde5c502834d7fd2f7dca2ec9ae3f5901b25dbff6df",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, após análise do cenário apresentado e da legislação correlacionada, concluiu pela **CONFORMIDADE** da situação. A decisão foi fundamentada na validade da Convenção Coletiva de Trabalho (CCT) firmada entre a empresa e o sindicato, que estabeleceu a possibilidade de banco de horas anual, e na comprovação de que as horas acumuladas pelo trabalhador foram integralmente compensadas por meio de folgas dentro do prazo de 12 meses, conforme previsto na CCT.\n\nA avaliação do sistema considerou a existência de um acordo válido (CCT) que regulamenta a questão do banco de horas, a entrega regular de extratos mensais ao trabalhador, o respeito aos limites diários de jornada (não ultrapassando 10 horas) e a homologação sindical da prestação de contas anual do banco de horas. A homologação sindical é um fator crucial, pois demonstra a aceitação da gestão do banco de horas pela entidade sindical que representa os trabalhadores.\n\nA incerteza na satisfatibilidade (UNKNOWN) reflete a complexidade inerente à análise de casos concretos, que podem envolver nuances não expressas no cenário fornecido, mas não invalidam a conclusão de conformidade baseada nos fatos apresentados e na validade da CCT.\n\n## PREDICADOS ATIVADOS:\n\nOs predicados soberanos ativos, que influenciaram a decisão do Q-FENG, são:\n\n*   **sovereign(recognition_of_collective_bargaining):** Este predicado reconhece a soberania da negociação coletiva como fonte de direitos e obrigações nas relações de trabalho. Em termos jurídicos, significa que acordos e convenções coletivas de trabalho têm força de lei entre as partes (empresa e sindicato) e seus respectivos representados, prevalecendo sobre a lei ordinária em caso de conflito (art. 8º, IV, da Constituição Federal). A validade da CCT é, portanto, um pressuposto fundamental para a análise.\n*   **sovereign(maximum_weekly_working_hours_44h):** Este predicado estabelece o limite máximo de 44 horas semanais como regra geral para a jornada de trabalho. Embora o cenário não trate diretamente da jornada semanal, a observância desse limite é um parâmetro importante para garantir a legalidade da organização do trabalho e a proteção da saúde do trabalhador.\n*   **sovereign(maximum_daily_working_hours_8h):** Este predicado define um limite máximo de 8 horas diárias para a jornada de trabalho. O fato de a jornada diária nunca ter ultrapassado 10 horas, embora não seja um desrespeito direto a este predicado, indica um cuidado da empresa em não exceder os limites legais, o que reforça a conformidade.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"A empresa seguiu as regras estabelecidas em um acordo feito com o sindicato que te representa. Esse acordo permite que você acumule horas extras ao longo do ano e depois tire folgas para compensar esse tempo. A empresa te entregou seus comprovantes mensais, e você tirou todas as folgas que tinha direito dentro do prazo de um ano. O sindicato também verificou e aprovou essa forma de compensação.\n\nPortanto, a empresa está agindo de acordo com o que foi combinado e respeitando as leis trabalhistas. Não há nada de errado com a forma como o banco de horas foi organizado e compensado.\"\n",
+  "tokens_in": 491,
+  "tokens_out": 769,
+  "latency_ms": 21453,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

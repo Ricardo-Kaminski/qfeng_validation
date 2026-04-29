@@ -1,0 +1,29 @@
+{
+  "sha256": "f3d31365da5c643902bd33c09ee3b6bb6d139c5b8e3e2859a76c997be47d3092",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-007",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T05:57:32Z",
+  "prompt_sha": "1970504ab2b4a3698fb4bb32d084c198f45cfb327a995ae3f86ed94249f3c1d4",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, após análise do cenário apresentado e da legislação correlacionada, concluiu que houve uma **violação** dos direitos trabalhistas do empregado. A decisão se baseia na constatação de que a empresa não cumpriu as obrigações decorrentes do banco de horas, acumulado pelo empregado ao longo de um período superior ao permitido pela legislação e convenção coletiva, e sem a devida compensação.\n\nA ausência de folgas compensatórias, justificada pela empresa como necessidade operacional, não é suficiente para eximir a empresa da obrigação de compensar ou pagar o saldo do banco de horas. A CCT, embora não preveja expressamente o pagamento em caso de não-compensação, a ausência de regulamentação não pode ser interpretada como permissão para a empresa ignorar a obrigação de compensar as horas extras.\n\nO sistema considerou a soberania de princípios que protegem o trabalhador, como a necessidade de compensação de horas extras, a proibição de cláusulas que suprimam o pagamento de horas extras e a limitação da jornada de trabalho. A elasticidade do prazo máximo de 6 meses para o banco de horas sem CCT também foi considerada, indicando que a empresa extrapolou o limite legal.\n\n## PREDICADOS SOVERAINOS ATIVOS: SIGNIFICADO JURÍDICO\n\n1. **sovereign(semester_hour_bank_requires_cct_or_act):**  Este predicado afirma que a utilização de um banco de horas é legalmente válida apenas se houver regulamentação específica em um acordo ou convenção coletiva de trabalho (CCT) ou em um ato normativo. A ausência de regulamentação adequada torna a utilização do banco de horas questionável.\n2. **sovereign(invalidity_of_clause_suppressing_overtime_payment):** Cláusulas contratuais ou em acordos coletivos que tentam suprimir o direito ao pagamento de horas extras são consideradas inválidas e não têm efeito legal. A justificativa da empresa (\"necessidade operacional\") não pode servir para evitar o pagamento.\n3. **sovereign(weekly_hour_compensation_requires_written_agreement):** A compensação de horas extras, quando ultrapassa a jornada normal, deve ser formalizada por escrito, seja em um acordo individual ou coletivo. A falta de documentação adequada pode ser interpretada como irregularidade.\n4. **sovereign(prohibition_negotiation_reducing_overtime_additional):** É proibido negociar a redução do adicional de horas extras, que é um direito irrenunciável do trabalhador.\n5. **sovereign(overtime_minimum_additional_50pct):** O adicional de horas extras deve ser, no mínimo, de 50% sobre a hora normal de trabalho.\n6. **sovereign(maximum_weekly_working_hours_44h):** A jornada de trabalho semanal não pode ultrapassar 44 horas. O acúmulo de horas no banco de horas, sem a devida compensação, pode indicar que essa limitação foi violada.\n7. **sovereign(maximum_daily_working_hours_8h):** A jornada de trabalho diária não pode ultrapassar 8 horas.  A necessidade operacional contínua alegada pela empresa não justifica a constante ultrapassagem desse limite.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"A empresa errou ao não te dar folgas ou pagar pelas horas extras que você fez e colocou no banco de horas. A lei diz que, para usar o banco de horas, precisa ter uma regra clara, de acordo com o seu sindicato. Mesmo que a empresa diga que precisa de você o tempo todo, ela não pode simplesmente ignorar o seu direito de receber ou folgar pelas horas extras.\n\nA empresa não pode inventar regras para não pagar o que você tem direito. O adicional de 50% sobre as horas extras é seu por lei, e você não pode abrir mão dele. Além disso, a empresa não pode te fazer trabalhar mais de 44 horas por semana ou 8 horas por dia sem te compensar.\n\nO sistema Q-FENG entendeu que a empresa violou seus direitos e você tem o direito de receber o pagamento dessas horas extras acumuladas.\"\n",
+  "tokens_in": 523,
+  "tokens_out": 940,
+  "latency_ms": 26187,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

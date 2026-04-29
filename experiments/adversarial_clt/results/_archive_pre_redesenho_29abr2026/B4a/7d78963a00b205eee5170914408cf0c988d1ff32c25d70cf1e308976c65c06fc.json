@@ -1,0 +1,30 @@
+{
+  "sha256": "7d78963a00b205eee5170914408cf0c988d1ff32c25d70cf1e308976c65c06fc",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-008",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T07:11:04Z",
+  "prompt_sha": "b3fc3319eefedae00a5e9f49f61a8cb6a71ba4d9860ac95b8580343ff80ed754",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após analisar os fatos e as leis aplicáveis ao caso, chegou à decisão de CONFORMIDADE em relação ao acórdão sobre dano moral trabalhista. Isso ocorreu porque o sistema identificou que todos os parâmetros legais foram aplicados corretamente e de forma verificável.\n\nA decisão se baseia nos predicados soberanos ativos, que representam as obrigações fundamentais do Estado e da Justiça em relação ao processo jurídico. Além disso, o sistema considerou os predicados elásticos ativos, que permitem flexibilidade nas negociações de horas trabalhadas e no uso de banco de horas.\n\nO valor ψ_S (2,4435) não é relevante para a interpretação da decisão, pois ele é um parâmetro interno do sistema Q-FENG e não influencia diretamente na decisão tomada.\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\nOs predicados soberanos ativos são as seguintes:\n\n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O Estado tem a obrigação de informar às partes os efeitos práticos da decisão tomada.\n- **sovereign(prohibition_of_generic_precedent_citation)**: Não é permitido citar precedentes genéricos ou não relevantes para o caso em julgamento.\n- **sovereign(obligation_to_address_all_legal_arguments)**: O Estado tem a obrigação de considerar e responder a todos os argumentos legais apresentados pelas partes.\n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão deve ser fundamentada em um precedente específico e relevante para o caso, conhecido como ratio decidendi.\n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: O Estado tem a obrigação constitucional de informar as razões pelas quais tomou uma decisão.\n- **sovereign(recognition_of_collective_bargaining)**: A Justiça reconhece e respeita os acordos coletivos negociados entre empregadores e sindicatos.\n- **sovereign(right_of_access_to_justice_and_judicial_review)**: O Estado garante o direito de acesso à justiça e a possibilidade de revisão judicial das decisões.\n\nEsses predicados refletem as obrigações fundamentais do Estado e da Justiça em relação ao processo jurídico, garantindo que as decisões sejam tomadas com base na lei e respeitando os direitos das partes envolvidas.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nEm linguagem simples, a decisão do sistema Q-FENG significa que o acórdão sobre dano moral trabalhista foi julgado de acordo com as leis aplicáveis e os fatos apresentados no caso. O sistema verificou se todos os parâmetros legais foram considerados corretamente e se a decisão foi fundamentada em precedentes relevantes.\n\nIsso significa que o trabalhador tem direito ao valor determinado pelo acórdão, de acordo com as leis trabalhistas brasileiras. A decisão é baseada na obrigação do Estado de cumprir as leis e garantir a justiça para todas as partes envolvidas no processo.\n\nEm resumo, a decisão do sistema Q-FENG é uma confirmação da legalidade e da justiça da decisão tomada pelo acórdão sobre dano moral trabalhista.",
+  "tokens_in": 579,
+  "tokens_out": 813,
+  "latency_ms": 13625,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

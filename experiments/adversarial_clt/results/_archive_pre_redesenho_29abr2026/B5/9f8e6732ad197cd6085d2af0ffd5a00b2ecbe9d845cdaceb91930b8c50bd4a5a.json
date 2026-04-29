@@ -1,0 +1,43 @@
+{
+  "sha256": "9f8e6732ad197cd6085d2af0ffd5a00b2ecbe9d845cdaceb91930b8c50bd4a5a",
+  "braco": "B5",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T13:56:56Z",
+  "prompt_sha": "6a4163b5450f71a1697f28be73bca3a04cfbe0f444ecb1daac12d6b431fdbf3d",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO motor de inferência Q-FENG identificou uma **fricção ontológica θ de 127,81°**, que ultrapassa o limiar de 120°, classificando o regime como **CIRCUIT_BREAKER** (supressão de ação). Esse resultado reflete uma **colisão direta entre os predicados soberanos ativos (normas jurídicas imperativas)** e a proposta de flexibilização do CCT.  \n\nOs predicados soberanos ativos, como **sovereign(maximum_weekly_working_hours_44h)**, **sovereign(prohibition_negotiation_reducing_overtime_additional)** e **sovereign(overtime_minimum_additional_50pct)**, estabelecem limites mínimos e máximos de direitos trabalhistas que **não podem ser negociados ou flexibilizados**, mesmo por meio de acordos coletivos. A tentativa de estender o prazo de compensação de horas para 14 meses viola explicitamente **sovereign(weekly_hour_compensation_requires_written_agreement)** e **sovereign(semester_hour_bank_requires_cct_or_act)**, que exigem **escrita e conformidade com normas legais**.  \n\nA fricção ontológica θ mede a **incompatibilidade entre a proposta de CCT (que busca flexibilizar a lei) e os predicados soberanos (que são normas de ordem pública)**. Como θ ≥ 120°, o sistema determina que a proposta **não pode ser executada**, pois viola normas jurídicas fundamentais (como a Súmula TST 85, V, que considera o limite de 1 ano como norma de ordem pública). A probabilidade de ação (Born Rule) de 38,69% indica que, mesmo com a fricção, há **algum grau de ambiguidade** (por exemplo, se o CCT se enquadra em exceções legais), mas a recomendação é **VIOLACAO** devido à incompatibilidade direta.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n**a) sovereign(semester_hour_bank_requires_cct_or_act)**  \n- **Significado**: A compensação de horas em banco (acúmulo de horas extras para compensação futura) **só pode ser feita mediante acordo coletivo (CCT) ou ato normativo (ACT)**. A proposta de 14 meses **não está alinhada com a legislação**, pois a Súmula TST 85, V limita o prazo a 1 ano.  \n\n**b) sovereign(invalidity_of_clause_suppressing_overtime_payment)**  \n- **Significado**: Cláusulas que **suprimem ou reduzem o pagamento de horas extras são nulas**. A extensão do prazo de compensação pode ser interpretada como uma **tentativa de reduzir o pagamento de horas extras**, violando essa norma.  \n\n**c) sovereign(weekly_hour_compensation_requires_written_agreement)**  \n- **Significado**: A compensação de horas extras **deve ser feita por escrito**. A proposta de 14 meses **não está documentada de forma adequada**, gerando risco de invalidade.  \n\n**d) sovereign(prohibition_negotiation_reducing_overtime_additional)**  \n- **Significado**: **Não é permitido negociar a redução do adicional de horas extras** (que é de 50% conforme **sovereign(overtime_minimum_additional_50pct)**). A proposta de 14 meses pode ser vista como uma **tentativa de reduzir esse adicional**, violando a norma.  \n\n**e) sovereign(maximum_weekly_working_hours_44h)**  \n- **Significado**: A **jornada semanal máxima é de 44 horas**, independentemente de acordos coletivos. A proposta de 14 meses **não altera esse limite**, mas sua existência pode ser usada para justificar jornadas exorbitantes.  \n\n**f) sovereign(maximum_daily_working_hours_8h)**  \n- **Significado**: A **jornada diária máxima é de 8 horas**, mesmo com acordos coletivos. A proposta de 14 meses **não altera esse limite**, mas sua aplicação pode ser contestada.  \n\n**g) elastic(hour_bank_without_cct_max_6_months)**  \n- **Significado**: Em ausência de CCT, o banco de horas **não pode ultrapassar 6 meses**. A proposta de 14 meses **viola esse limite**, mesmo sem CCT.  \n\n---\n\n### 3. **INTERPRETAÇÃO DO REGIME**  \nO regime **CIRCUIT_BREAKER** (supressão de ação) significa que **a proposta de CCT não pode ser executada**, pois **viola normas de ordem pública** (como a Súmula TST 85, V). O motor Q-FENG determina que:  \n- **A fricção ontológica θ ≥ 120°** indica uma **colisão direta entre a proposta de CCT e os predicados soberanos**, que são normas jurídicas imperativas.  \n- **A probabilidade de ação (38,69%)** sugere que, mesmo com ambiguidade (por exemplo, se o CCT se enquadra em exceções), a **violação é clara**.  \n- **A recomendação de VIOLACAO** implica que a **proposta de CCT é inválida**, pois **não respeita limites legais** (como o prazo de 1 ano).  \n\nOperacionalmente, isso significa que **a empresa hoteleira não pode implementar o banco de horas de 14 meses**, pois isso **viola a lei trabalhista brasileira**. O sindicato dos hotéis está correto ao contestar a proposta, pois a norma de ordem pública (Súmula TST 85, V) **não pode ser negociada**.  \n\n---\n\n### 4. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO sistema Q-FENG analisou a proposta da empresa hoteleira de estender o prazo de compensação de horas extras para 14 meses. Concluiu que **essa proposta é inválida**, pois **viola a lei trabalhista brasileira**.  \n\nA lei diz que **não pode haver acordos coletivos (CCT) que aumentem o prazo de compensação de horas extras além de 1 ano**. A Súmula TST 85, V, que é uma regra importante, reforça isso. O sistema Q-FENG detectou que a proposta de 14 meses **não respeita essa regra**, então **recomenda que ela seja considerada inválida**.  \n\nPara o trabalhador, isso significa que **a empresa não pode usar o CCT para estender o prazo de compensação de horas extras**, pois isso **viola a lei**. O sindicato dos hotéis está certo ao dizer que a regra de 1 ano é inquestionável.",
+  "tokens_in": 807,
+  "tokens_out": 2232,
+  "latency_ms": 80108,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": "",
+  "t_clingo_ms": 31,
+  "t_llm_ms": 80077,
+  "t_psi_build_ms": 0,
+  "t_theta_compute_ms": 0,
+  "qfeng_psi_n_dim": 2,
+  "qfeng_psi_s_dim": 2,
+  "qfeng_theta_rad": 2.2307694050963036,
+  "qfeng_theta_deg": 127.81367197892763,
+  "qfeng_theta_eff_rad": 2.2307694050963036,
+  "qfeng_theta_eff_deg": 127.81367197892763,
+  "qfeng_regime": "BLOCK",
+  "qfeng_p_action": 0.3869044161814975,
+  "qfeng_cos_theta": -0.6130955838185024,
+  "qfeng_cb_threshold_deg": 119.99999999999999
+}

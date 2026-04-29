@@ -1,0 +1,27 @@
+{
+  "sha256": "6f3088fc99d12ec94805269539fac0a59f5228f0c5c3a54b27f7d69ffbcc7905",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-009",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T04:58:59Z",
+  "prompt_sha": "18a223af3fb227c2a5e0257347aa4e5c729224e92b72d7d1c3e676c4eb13b5d5",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que o caso está em conformidade com as normas aplicáveis, considerando os predicados soberanos e elásticos ativos. A decisão se baseia na validade da Convenção Coletiva de Trabalho (CCT) para regular a conversão do banco de horas em dinheiro, conforme permitido pelo acordo entre empregado e empregador. Os predicados soberanos garantem que as normas coletivas estão reconhecidas e que os limites máximos de jornada semanal e diária são respeitados. A CCT negociou flexibilidade nos termos do banco de horas, permitindo a conversão dentro do prazo estabelecido, o que foi feito com anuência das partes envolvidas.\n\n### 2. PREDICADOS ATIVOS\n\n- **sovereign(recognition_of_collective_bargaining):** Juridicamente, este predicado reconhece a validade e aplicabilidade das convenções coletivas de trabalho no Brasil. Isso significa que as regras estabelecidas na CCT são consideradas legais e devem ser seguidas tanto pelo empregador quanto pelos trabalhadores.\n\n- **sovereign(maximum_weekly_working_hours_44h):** Este predicado reflete a norma legal que limita a jornada de trabalho semanal máxima em 44 horas, conforme estabelecido na Consolidação das Leis do Trabalho (CLT). Qualquer acordo coletivo deve respeitar esse limite.\n\n- **sovereign(maximum_daily_working_hours_8h):** Este predicado assegura que a jornada diária de trabalho não exceda 8 horas, conforme previsto na CLT. As convenções coletivas devem operar dentro deste parâmetro legal.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema confirmou que tudo foi feito corretamente neste caso. A regra é que as convenções de trabalho entre empregados e empresas são válidas, desde que não excedam os limites legais de horas trabalhadas por dia e semana. Aqui, o acordo permitiu ao trabalhador converter suas horas extras em dinheiro antes do prazo final, com a aprovação da empresa. Isso está tudo dentro das regras, então não há problema!",
+  "tokens_in": 510,
+  "tokens_out": 535,
+  "latency_ms": 15484,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

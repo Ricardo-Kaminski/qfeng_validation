@@ -1,0 +1,43 @@
+{
+  "sha256": "4ff57a2dc35a67b9e3c0f1708897052515d6e65ee31829cf89363d54315a9967",
+  "braco": "B5",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-007",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T14:05:55Z",
+  "prompt_sha": "358538f0098d790e352796a2b96ee9e5d57d436134cd99db9ec92878287ef352",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO motor de inferência Q-FENG classificou o caso como **VIOLACAO** devido à **fricção ontológica θ = 127.81°**, que ultrapassa o limiar de **120°** para o regime **CIRCUIT_BREAKER**. Essa fricção reflete uma **colisão incompatível entre normas jurídicas simbólicas (predicados *sovereign*) e a conduta da empresa**, que viola diretamente princípios fundamentais do direito do trabalho.  \n\nOs predicados *sovereign* ativos (como *sovereign(overtime_minimum_additional_50pct)* e *sovereign(prohibition_negotiation_reducing_overtime_additional)*) estabelecem que:  \n- **A remuneração por horas extras deve ser de, no mínimo, 50% acima do salário normal** (art. 61 da CLT).  \n- **Cláusulas que reduzam a remuneração de horas extras são nulas** (art. 61, § 2º da CLT).  \n- **O banco de horas só pode existir se regulado por CCT ou ACT** (*sovereign(semester_hour_bank_requires_cct_or_act)*), o que não ocorreu.  \n- **A empresa não compensou as horas extras nem pagou o valor devido**, violando a **proibição de cláusulas que suprimam o pagamento de horas extras** (*sovereign(invalidity_of_clause_suppressing_overtime_payment)*).  \n\nA fricção θ é calculada como o **ângulo entre o vetor de evidência neural (ψ_N)** — que reflete a conduta da empresa (não pagamento, não compensação) — e o **vetor de norma simbólica (ψ_S)** — que codifica os direitos legais do trabalhador. A proximidade de θ a **180°** (oposição total) indica que a conduta da empresa **nega de forma sistemática os direitos básicos do trabalhador**, gerando uma **fricção ontológica crítica** que exige intervenção imediata.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n**a. *sovereign(semester_hour_bank_requires_cct_or_act)*:**  \nO banco de horas só pode ser estabelecido se regulado por **Convenção Coletiva de Trabalho (CCT)** ou **Acordo Coletivo de Trabalho (ACT)**. A ausência de regulamentação nesse caso viola a **Lei 6.029/1974** e a **CLT**.  \n\n**b. *sovereign(invalidity_of_clause_suppressing_overtime_payment)*:**  \nCláusulas que **suprimam o pagamento de horas extras são nulas** (art. 61, § 2º da CLT). A empresa não pagou nem compensou as horas, o que é ilegal.  \n\n**c. *sovereign(weekly_hour_compensation_requires_written_agreement)*:**  \nA compensação de horas extras por folgas deve ser feita por **escrita** (art. 61, § 1º da CLT). A ausência de acordo escrito invalida a compensação.  \n\n**d. *sovereign(prohibition_negotiation_reducing_overtime_additional)*:**  \n**Não é permitido negociar a redução da remuneração de horas extras** (art. 61, § 2º da CLT). A empresa alegou \"necessidade operacional\", mas isso não justifica a violação.  \n\n**e. *sovereign(overtime_minimum_additional_50pct)*:**  \nAs horas extras devem ser remuneradas com **50% de acréscimo** (art. 61 da CLT). A empresa não respeitou esse limite.  \n\n**f. *sovereign(maximum_weekly_working_hours_44h)* e *sovereign(maximum_daily_working_hours_8h)*:**  \nA CLT estabelece **44h semanais** e **8h diárias** como limites máximos. Se o empregado ultrapassou esses limites, a empresa viola a **Lei 6.029/1974**.  \n\n**g. *elastic(hour_bank_without_cct_max_6_months)*:**  \nO banco de horas sem CCT só pode ter **duração máxima de 6 meses** (art. 61, § 3º da CLT). A CCT do caso previa 12 meses, o que é ilegal.  \n\n---\n\n### 3. **INTERPRETAÇÃO DO REGIME**  \nO regime **CIRCUIT_BREAKER** (θ ≥ 120°) indica que **a conduta da empresa é incompatível com a norma jurídica simbólica**, gerando uma **fricção ontológica crítica**. Isso significa que:  \n- **A empresa está violando direitos fundamentais do trabalhador** (remuneração de horas extras, limites de jornada, compensação por escrito).  \n- **O sistema Q-FENG bloqueia ações automatizadas** (como negociação ou compensação) e **recomenda intervenção humana imediata** (como ação judicial ou sindical).  \n- **A probabilidade de ação (Born Rule = 0.3869)** sugere que, mesmo com a fricção alta, há **algum grau de ambiguidade** (por exemplo, se a CCT foi corretamente interpretada). No entanto, a recomendação de **VIOLACAO** indica que a violação é **suficientemente clara** para exigir medidas legais.  \n\n---\n\n### 4. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \n**O que aconteceu:**  \nO empregado trabalhou 400 horas extras, mas a empresa não pagou nem deu folgas para compensar. A CCT (contrato coletivo) do caso dizia que as horas podiam ser compensadas em 12 meses, mas **não previa pagamento se não fossem compensadas**.  \n\n**Por que é ilegal:**  \n- A lei exige que **horas extras sejam pagas com 50% de acréscimo** (não pode ser apenas folgas).  \n- **Bancos de horas só podem existir se regulados por CCT ou ACT**. A CCT do caso não previa pagamento, o que é ilegal.  \n- A empresa **não respeitou os limites de jornada** (44h semanais e 8h diárias).  \n\n**O que o sistema Q-FENG diz:**  \nA empresa **viola a lei de forma grave**, e o sistema **bloqueia ações automáticas** (como negociação). O empregado deve **buscar ajuda de um advogado ou sindicato** para **reclamar o pagamento das horas extras e ações de indenização**.  \n\n**Resumo:**  \nA empresa **não pagou o que deve**, e a lei está do lado do trabalhador. O empregado precisa **levar o caso a um juiz ou sindicato** para obter justiça.",
+  "tokens_in": 786,
+  "tokens_out": 2138,
+  "latency_ms": 67312,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": "",
+  "t_clingo_ms": 46,
+  "t_llm_ms": 67266,
+  "t_psi_build_ms": 0,
+  "t_theta_compute_ms": 0,
+  "qfeng_psi_n_dim": 2,
+  "qfeng_psi_s_dim": 2,
+  "qfeng_theta_rad": 2.2307694050963036,
+  "qfeng_theta_deg": 127.81367197892763,
+  "qfeng_theta_eff_rad": 2.2307694050963036,
+  "qfeng_theta_eff_deg": 127.81367197892763,
+  "qfeng_regime": "BLOCK",
+  "qfeng_p_action": 0.3869044161814975,
+  "qfeng_cos_theta": -0.6130955838185024,
+  "qfeng_cb_threshold_deg": 119.99999999999999
+}

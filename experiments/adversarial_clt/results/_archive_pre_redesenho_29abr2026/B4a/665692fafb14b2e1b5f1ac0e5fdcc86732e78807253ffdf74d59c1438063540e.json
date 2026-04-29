@@ -1,0 +1,29 @@
+{
+  "sha256": "665692fafb14b2e1b5f1ac0e5fdcc86732e78807253ffdf74d59c1438063540e",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:50:09Z",
+  "prompt_sha": "86f5fd16f6d15b9e1997d1146961409a0ab7a50f3a8fbba670004d4b3d84cb71",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG decidiu que houve violação das normas trabalhistas brasileiras. Isso ocorreu porque a empresa implementou o banco de horas sem participação do sindicato patronal ou dos trabalhadores em qualquer acordo coletivo, contrariando os princípios da negociação coletiva. Além disso, a compensação por horas extras foi prevista apenas em até 5 meses, o que não atende à necessidade de compensação em até 6 meses estabelecida pelo predicado elastic \"hour_bank_without_cct_max_6_months\".\n\nA decisão do Q-FENG é baseada nos seguintes predicados soberanos ativos:\n\n*   `sovereign(semester_hour_bank_requires_cct_or_act)`: O banco de horas semestral exige a existência de um acordo coletivo ou uma lei específica.\n*   `sovereign(invalidity_of_clause_suppressing_overtime_payment)`: A cláusula que suprime o pagamento de horas extras é inválida.\n*   `sovereign(weekly_hour_compensation_requires_written_agreement)`: A compensação por horas extras semanais requer um acordo por escrito.\n*   `sovereign(prohibition_negotiation_reducing_overtime_additional)`: É proibido negociar a redução do pagamento de horas extras adicionais.\n*   `sovereign(overtime_minimum_additional_50pct)`: O pagamento de horas extras deve ser pelo menos 50% superior ao salário normal.\n*   `sovereign(maximum_weekly_working_hours_44h)`: O máximo de horas trabalhadas semanais é de 44 horas.\n*   `sovereign(maximum_daily_working_hours_8h)`: O máximo de horas trabalhadas diárias é de 8 horas.\n\nEsses predicados soberanos ativos indicam que a empresa não cumpriu com as normas trabalhistas brasileiras, levando o sistema Q-FENG a concluir que houve violação.\n\n**2. PREDICADOS ATIVADOS**\n\nAqui está uma explicação detalhada de cada predicado soberano ativo:\n\n*   `sovereign(semester_hour_bank_requires_cct_or_act)`: Este predicado indica que o banco de horas semestral deve ser implementado por meio de um acordo coletivo (CCT - Convenção Coletiva de Trabalho) ou uma lei específica. A empresa não cumpriu com essa exigência, pois não houve participação do sindicato patronal ou dos trabalhadores em qualquer acordo coletivo.\n*   `sovereign(invalidity_of_clause_suppressing_overtime_payment)`: Este predicado afirma que a cláusula que suprime o pagamento de horas extras é inválida. Isso significa que a empresa não pode simplesmente excluir o pagamento de horas extras semestrais, como foi feito.\n*   `sovereign(weekly_hour_compensation_requires_written_agreement)`: Este predicado estabelece que a compensação por horas extras semanais requer um acordo por escrito. A empresa previu a compensação em até 5 meses, o que não atende à necessidade de compensação em até 6 meses estabelecida pelo predicado elastic \"hour_bank_without_cct_max_6_months\".\n*   `sovereign(prohibition_negotiation_reducing_overtime_additional)`: Este predicado proíbe a negociação da redução do pagamento de horas extras adicionais. A empresa não pode negociar uma redução no pagamento de horas extras.\n*   `sovereign(overtime_minimum_additional_50pct)`: Este predicado estabelece que o pagamento de horas extras deve ser pelo menos 50% superior ao salário normal. A empresa não cumpriu com essa exigência, pois não pagou as horas extras adicionais.\n*   `sovereign(maximum_weekly_working_hours_44h)`: Este predicado estabelece que o máximo de horas trabalhadas semanais é de 44 horas. A empresa não cumpriu com essa exigência, pois permitiu que os empregados trabalhassem mais de 44 horas semanais.\n*   `sovereign(maximum_daily_working_hours_8h)`: Este predicado estabelece que o máximo de horas trabalhadas diárias é de 8 horas. A empresa não cumpriu com essa exigência, pois permitiu que os empregados trabalhassem mais de 8 horas diárias.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nEm linguagem simples, a decisão do Q-FENG significa que a empresa violou as regras trabalhistas brasileiras ao implementar o banco de horas sem participação dos sindicatos patronal ou dos trabalhadores em qualquer acordo coletivo. Além disso, a compensação por horas extras foi prevista apenas em até 5 meses, o que não atende à necessidade de compensação em até 6 meses.\n\nA empresa não cumpriu com as regras de pagamento de horas extras adicionais e permitiu que os empregados trabalhassem mais do que o permitido. Isso significa que a empresa deve ser responsabilizada por essas violações e tomar medidas para corrigi-las.\n\nEm resumo, a decisão do Q-FENG é baseada na análise de predicados soberanos ativos que indicam que a empresa não cumpriu com as normas trabalhistas brasileiras.",
+  "tokens_in": 535,
+  "tokens_out": 1222,
+  "latency_ms": 20485,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

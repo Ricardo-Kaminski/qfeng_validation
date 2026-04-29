@@ -1,0 +1,30 @@
+{
+  "sha256": "5a0b343155aa50e427ed8404a7d0fbdaa873dadcafa68ab8866b6c0ebe4e3ffb",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T05:04:27Z",
+  "prompt_sha": "1a431bd2539a105bc27830e043de65433739a538537c1d00dbf3cc5df9c24aaf",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, ao analisar o cenário apresentado, concluiu que a decisão deve ser de conformidade com a Súmula TST 60. Esta súmula estabelece que o adicional noturno é devido quando há revezamento nas atividades noturnas. O TRT identificou corretamente a ratio decidendi, ou seja, o fundamento lógico da decisão, ao reconhecer que o regime de trabalho 12x36 do empregado, com períodos noturnos fixos, se enquadra na hipótese prevista pela Súmula. \n\nOs predicados soberanos ativos garantem que a decisão foi fundamentada adequadamente e que todas as considerações legais foram abordadas. O sistema verificou que houve uma obrigação de declarar os efeitos práticos da decisão, evitando citações genéricas de precedentes e assegurando que a decisão esteja ancorada na ratio identificada. Além disso, foi cumprida a obrigação constitucional de explicitar as razões para a decisão, reconhecendo o papel da negociação coletiva e o direito ao acesso à justiça.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obrigação de declarar os efeitos práticos da decisão**: Juridicamente, significa que a decisão deve explicar claramente como ela impactará as partes envolvidas, garantindo transparência sobre suas consequências.\n\n- **Proibição de citação genérica de precedentes**: Isso implica que qualquer referência a decisões anteriores deve ser específica e relevante para o caso em questão, evitando generalizações que não se aplicam diretamente ao contexto atual.\n\n- **Obrigação de abordar todos os argumentos legais**: Assegura que todas as considerações jurídicas pertinentes foram examinadas e discutidas na decisão, garantindo uma análise completa do caso.\n\n- **Obrigação de fundamentar a decisão na ratio decidendi identificada**: Requer que a base lógica da decisão seja claramente estabelecida e justificada com base nos fatos e no direito aplicável ao caso.\n\n- **Obrigação constitucional de declarar as razões para as decisões**: Exige que a decisão explique por que foi tomada, fornecendo uma justificação clara e compreensível das razões legais e fáticas que levaram à conclusão.\n\n- **Reconhecimento da negociação coletiva**: Reconhece o papel das convenções coletivas de trabalho na definição de condições específicas de trabalho, permitindo flexibilidade dentro dos limites legais.\n\n- **Direito ao acesso à justiça e revisão judicial**: Garante que as partes tenham a possibilidade de buscar reparação legal e contestar decisões judiciais se considerarem necessário.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO tribunal decidiu que o seu adicional noturno deve ser pago porque você trabalha em turnos que incluem noites, mesmo que não seja todos os dias. Isso é importante porque a lei diz que se você tem que trabalhar à noite de vez em quando (não todo dia), ainda assim, você tem direito ao adicional noturno.\n\nEles olharam bem o seu caso e entenderam que ele se encaixa na regra da Súmula 60. Isso significa que eles seguiram as regras corretamente e explicaram por que decidiram dessa forma. Eles também garantiram que todas as razões legais foram consideradas, para que você saiba exatamente por que a decisão foi tomada.\n\nAlém disso, se houver alguma negociação entre o seu sindicato e a empresa sobre como os turnos são feitos, isso é levado em conta. E você sempre pode buscar ajuda legal se precisar contestar essa decisão no futuro.",
+  "tokens_in": 587,
+  "tokens_out": 922,
+  "latency_ms": 26766,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

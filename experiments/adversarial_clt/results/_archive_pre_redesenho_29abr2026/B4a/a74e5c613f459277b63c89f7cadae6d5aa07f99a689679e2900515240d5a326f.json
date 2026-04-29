@@ -1,0 +1,29 @@
+{
+  "sha256": "a74e5c613f459277b63c89f7cadae6d5aa07f99a689679e2900515240d5a326f",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T05:54:38Z",
+  "prompt_sha": "e49d5e5d7663742fd00bd3c94033461e30c834afe32a9924772ec284ff0e579e",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, após análise do cenário apresentado e da legislação trabalhista brasileira, concluiu que a tentativa da empresa hoteleira de estender o prazo de compensação do banco de horas para 14 meses, sem a devida autorização da Convenção Coletiva de Trabalho (CCT), configura uma **violação** da legislação.\n\nA decisão foi fundamentada na primazia da proteção ao trabalhador e na limitação da autonomia da vontade das partes em relação a direitos mínimos estabelecidos em lei e jurisprudência. Embora a CCT possua autonomia para negociar condições de trabalho, essa autonomia não pode sobrepor-se a normas de ordem pública que visam proteger o trabalhador.\n\nO sistema considerou a força dos predicados soberanos ativos, que estabelecem limites e obrigações inegociáveis, em contraposição ao predicado elástico que, embora limite o prazo do banco de horas, não o faz de forma absoluta, sendo superado pela força dos predicados soberanos. O vetor ψ_S, indicando um valor de 2.7489, reflete a força relativa da violação identificada em relação a outros possíveis cenários.\n\nEm resumo, a autonomia da vontade das partes, ainda que expressa em uma CCT, não pode ser utilizada para flexibilizar normas de ordem pública que protegem o trabalhador, especialmente quando se trata de prazos para compensação de horas extras.\n\n## PREDICADOS ATIVADOS (Significado Jurídico)\n\n*   **sovereign(semester_hour_bank_requires_cct_or_act):**  Este predicado estabelece que a criação de um banco de horas que ultrapasse os limites legais (geralmente um semestre) exige a expressa autorização da Convenção Coletiva de Trabalho (CCT) ou de um ato normativo específico.  A ausência dessa autorização torna o banco de horas irregular.\n*   **sovereign(invalidity_of_clause_suppressing_overtime_payment):**  Qualquer cláusula em contrato ou acordo que tente suprimir ou reduzir o direito ao pagamento de horas extras é considerada inválida e não produz efeito.\n*   **sovereign(weekly_hour_compensation_requires_written_agreement):**  A compensação de horas extras deve ser formalizada por escrito, garantindo a transparência e a comprovação do acordo entre empregado e empregador.\n*   **sovereign(prohibition_negotiation_reducing_overtime_additional):**  É proibido, por lei, reduzir o adicional de horas extras, que é um direito irrenunciável do trabalhador.\n*   **sovereign(overtime_minimum_additional_50pct):**  O adicional de horas extras deve ser, no mínimo, de 50% sobre o valor da hora normal de trabalho.\n*   **sovereign(maximum_weekly_working_hours_44h):**  A jornada de trabalho semanal não pode ultrapassar 44 horas.\n*   **sovereign(maximum_daily_working_hours_8h):**  A jornada de trabalho diária não pode ultrapassar 8 horas.\n*   **elastic(hour_bank_without_cct_max_6_months):**  Este predicado indica que, na ausência de autorização da CCT, o prazo máximo para compensação de horas no banco de horas é de 6 meses.  É um limite flexível, mas que pode ser superado por normas mais rígidas (como as expressas nos predicados soberanos).\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"A empresa queria estender o prazo para você compensar as horas extras que fez, para um período maior do que o normal. O sistema Q-FENG analisou a situação e disse que isso não pode ser feito. A lei protege você, e essa proteção é mais importante do que o que a empresa e o sindicato dos hotéis combinaram.\n\nIsso significa que a empresa não pode simplesmente decidir aumentar o tempo que você tem para compensar as horas extras.  Se a empresa quiser que você tenha mais tempo, precisa ter uma autorização específica do sindicato dos hotéis, que é a Convenção Coletiva de Trabalho.\n\nAlém disso, a lei diz que você tem direito a receber um valor extra (adicional) por cada hora extra que trabalhar, e esse valor não pode ser diminuído.  E, claro, a empresa não pode te fazer trabalhar mais do que o limite de horas por semana e por dia estabelecido pela lei.\"\n",
+  "tokens_in": 545,
+  "tokens_out": 995,
+  "latency_ms": 27719,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

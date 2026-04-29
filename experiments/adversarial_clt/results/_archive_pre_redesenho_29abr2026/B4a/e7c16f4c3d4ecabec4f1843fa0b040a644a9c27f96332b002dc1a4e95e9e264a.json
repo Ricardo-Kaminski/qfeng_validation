@@ -1,0 +1,26 @@
+{
+  "sha256": "e7c16f4c3d4ecabec4f1843fa0b040a644a9c27f96332b002dc1a4e95e9e264a",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T05:17:00Z",
+  "prompt_sha": "10b999c1978cb6ff2256926b41518f7e0ab9d2b1c6d6aeefb718ef2123bf70b9",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, ao analisar o cenário apresentado, determinou que a empresa está em conformidade com as normativas trabalhistas vigentes no Brasil. Esta conclusão é baseada na aplicação dos predicados soberanos ativos, que orientam a decisão dentro de um quadro jurídico robusto e fundamentado.\n\n- **Obrigação de Estabelecer Consequências Práticas da Decisão**: O sistema garante que qualquer decisão tomada deve ter implicações claras e práticas para as partes envolvidas, garantindo que a conformidade seja tangível e aplicável no ambiente de trabalho.\n\n- **Proibição de Citação de Precedentes Genéricos**: A análise é feita sem depender de precedentes genéricos, focando exclusivamente nas normativas específicas aplicáveis ao caso em questão. Isso assegura que a decisão seja baseada na legislação atual e diretamente relevante.\n\n- **Obrigação de Abordar Todos os Argumentos Legais**: O sistema considerou todos os aspectos legais pertinentes, garantindo uma análise abrangente das normas trabalhistas aplicáveis à situação descrita.\n\n- **Obrigação de Fundamentar a Decisão no Ratio Decidendi Identificado**: A decisão é baseada nos fundamentos legais específicos que foram identificados como relevantes para o caso, assegurando uma justificativa sólida e direta.\n\n- **Obrigação Constitucional de Estabelecer Razões para as Decisões**: O sistema fornece razões claras e explícitas para a decisão de conformidade, garantindo transparência e compreensão sobre o porquê da conclusão alcançada.\n\n- **Direito de Acesso à Justiça e Revisão Judicial**: Embora não haja reclamações pendentes, este predicado assegura que os direitos dos empregados a um processo justo e revisões judiciais sejam respeitados em qualquer eventualidade futura.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obrigação de Estabelecer Consequências Práticas da Decisão**: Juridicamente, isso significa que qualquer decisão deve ter impacto direto e aplicável no ambiente de trabalho, garantindo que as normas sejam implementadas efetivamente.\n\n- **Proibição de Citação de Precedentes Genéricos**: No contexto trabalhista brasileiro, isso implica que a análise deve ser feita com base nas leis específicas e atualizadas, sem depender de casos anteriores que possam não se aplicar diretamente.\n\n- **Obrigação de Abordar Todos os Argumentos Legais**: Isso assegura uma revisão completa das normas trabalhistas relevantes, garantindo que todas as considerações legais pertinentes foram avaliadas.\n\n- **Obrigação de Fundamentar a Decisão no Ratio Decidendi Identificado**: Juridicamente, isso significa que a decisão deve ser baseada nos fundamentos legais específicos e aplicáveis ao caso, proporcionando uma justificativa clara e direta.\n\n- **Obrigação Constitucional de Estabelecer Razões para as Decisões**: Isso garante que haja transparência na explicação das razões pelas quais a decisão foi tomada, permitindo compreensão e aceitação por parte dos envolvidos.\n\n- **Direito de Acesso à Justiça e Revisão Judicial**: No contexto trabalhista, isso assegura que os empregados têm o direito de buscar justiça e revisar decisões judiciais se necessário, garantindo proteção legal contínua.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG analisou a situação da sua empresa e concluiu que tudo está sendo feito conforme as regras trabalhistas do Brasil. Isso significa que o horário de trabalho, os intervalos e os registros estão todos corretos e dentro das leis.\n\n- A empresa segue todas as normas sobre jornada de trabalho (8 horas por dia), sem exigir horas extras ou trabalho noturno.\n- Os intervalos para almoço são dados na hora certa e completos, conforme a lei exige.\n- Todos os registros de ponto são feitos eletronicamente e podem ser verificados, garantindo que tudo está sendo registrado corretamente.\n\nPortanto, não há problemas com o que a empresa está fazendo em relação ao horário de trabalho. Se surgir alguma dúvida ou problema no futuro, você tem o direito de buscar ajuda na justiça para resolver qualquer questão.",
+  "tokens_in": 526,
+  "tokens_out": 1061,
+  "latency_ms": 31156,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

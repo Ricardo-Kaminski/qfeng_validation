@@ -1,0 +1,30 @@
+{
+  "sha256": "42cfecb96060c93d9ff21e030b85c9d02d0423342a2ffb031f4c9e913f043aba",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-006",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T05:10:11Z",
+  "prompt_sha": "e6375c11e406eda3f0926b4a955ab06c3b4f824045cb7d8586f69f27e435c47d",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação na aplicação do acórdão analisado devido à inversão da ratio decidendi dos precedentes citados. O tribunal, ao invocar o Tema 1046/STF e o TST-Ag-RR-868-65.2021, incorretamente aplicou a tese de validade de uma CCT (Convenção Coletiva de Trabalho) bancária para justificar a validade do banco de horas sem a existência de qualquer CCT. Este erro se manifesta na interpretação equivocada da autonomia negocial prevista no Tema 1046, que pressupõe a existência de uma CCT como base legal para tais negociações.\n\nOs predicados soberanos ativos destacam várias obrigações e princípios jurídicos fundamentais. Entre eles, está o dever de explicar as consequências práticas da decisão (obligation_to_state_practical_consequences_of_decision) e a proibição de citar precedentes de forma genérica sem uma análise adequada do caso concreto (prohibition_of_generic_precedent_citation). Além disso, o tribunal deve abordar todos os argumentos legais apresentados (obligation_to_address_all_legal_arguments) e fundamentar sua decisão na ratio decidendi corretamente identificada (obligation_to_ground_decision_in_identified_ratio_decidendi).\n\nA violação ocorre porque o tribunal não reconheceu que a aplicabilidade do banco de horas depende da existência de uma CCT, conforme pressuposto pelo Tema 1046. A decisão deve ter sido fundamentada na necessidade de tal instrumento coletivo para validar tais práticas, respeitando a autonomia negocial apenas dentro dos limites estabelecidos pela lei e pelos precedentes corretamente interpretados.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obligation_to_state_practical_consequences_of_decision**: O tribunal deve explicar claramente como sua decisão afeta a situação prática das partes envolvidas, garantindo que as consequências legais e práticas sejam compreendidas.\n\n- **Prohibition_of_generic_precedent_citation**: É proibido citar precedentes de forma genérica sem uma análise detalhada do caso específico. Cada decisão deve ser avaliada em seu contexto particular, garantindo que a aplicação dos precedentes seja adequada e justificada.\n\n- **Obligation_to_address_all_legal_arguments**: O tribunal tem o dever de considerar todos os argumentos legais apresentados pelas partes, assegurando uma análise completa e equitativa do caso.\n\n- **Obligation_to_ground_decision_in_identified_ratio_decidendi**: A decisão deve ser fundamentada na ratio decidendi corretamente identificada dos precedentes citados. Isso significa que a lógica subjacente ao julgamento anterior deve ser aplicada de forma precisa e relevante ao caso em questão.\n\n- **Constitutional_obligation_to_state_reasons_for_decisions**: O tribunal está constitucionalmente obrigado a explicitar as razões pelas quais tomou uma determinada decisão, garantindo transparência e compreensão do raciocínio judicial.\n\n- **Recognition_of_collective_bargaining**: Reconhece-se o papel da negociação coletiva como um mecanismo legítimo para estabelecer condições de trabalho, respeitando a autonomia das partes envolvidas na elaboração de CCTs.\n\n- **Right_of_access_to_justice_and_judicial_review**: Garante o direito de acesso à justiça e ao controle judicial sobre as decisões tomadas, permitindo que as partes busquem revisão ou correção de julgamentos injustos.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO tribunal cometeu um erro ao decidir o caso usando uma regra errada. Ele tentou usar uma decisão anterior sobre acordos entre empresas e trabalhadores para justificar algo que não deveria ser permitido sem esse acordo específico. Basicamente, eles disseram que poderiam aplicar uma regra de banco de horas (tempo extra guardado) mesmo quando não havia um acordo formal sobre isso.\n\nIsso é importante porque a lei exige que certas coisas só sejam feitas com o consentimento mútuo dos trabalhadores e da empresa, geralmente por meio de um documento chamado CCT. O tribunal deveria ter explicado melhor como sua decisão afeta as pessoas envolvidas e não poderia simplesmente usar uma regra antiga sem entender bem o caso atual.\n\nEm resumo, a decisão foi considerada errada porque ignorou a necessidade de um acordo formal para aplicar certas práticas de trabalho.",
+  "tokens_in": 572,
+  "tokens_out": 1081,
+  "latency_ms": 31389,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

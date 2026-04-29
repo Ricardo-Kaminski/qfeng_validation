@@ -1,0 +1,29 @@
+{
+  "sha256": "5f11570d9b7e777b0c41f4a77b54d19af6dc4ed302fde1a05b39b78f53dac10d",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-007",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T02:51:50Z",
+  "prompt_sha": "1970504ab2b4a3698fb4bb32d084c198f45cfb327a995ae3f86ed94249f3c1d4",
+  "response_text": "---\n\n### **1. NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG identificou uma **violação normativa** com base nos **predicados soberanos ativos** da CLT, que estabelecem direitos inalienáveis para o trabalhador, independentemente de cláusulas contratuais. A análise revela que:  \n\n- **O banco de horas** (acúmulo de 400h) foi estabelecido em uma **CCT (Convenção Coletiva de Trabalho)** válida, mas **não previa mecanismo de pagamento** em caso de não-compensação. Isso viola o **predicado `sovereign(invalidity_of_clause_suppressing_overtime_payment)`**, que **proíbe cláusulas que anulem o pagamento de horas extras**, mesmo que previstas em CCT.  \n- A **ausência de compensação** (folgas ou pagamento) ao final do prazo de 12 meses viola o **predicado `sovereign(weekly_hour_compensation_requires_written_agreement)`**, que exige **acordo escrito** para compensação de horas extras, e o **predicado `sovereign(overtime_minimum_additional_50pct)`**, que garante **50% de adicional sobre horas extras**, independentemente de acordos.  \n- O **prazo de 12 meses** para compensação, previsto na CCT, **não é compatível com a CLT**, pois o **predicado `elastic(hour_bank_without_cct_max_6_months)`** limita o banco de horas **sem CCT** a 6 meses. No entanto, **com CCT**, a CLT permite prazos maiores, mas **não permite a ausência total de compensação ou pagamento**, como ocorreu.  \n- A **necessidade operacional** alegada pela empresa não justifica a violação de direitos fundamentais, como o **predicado `sovereign(prohibition_negotiation_reducing_overtime_additional)`**, que **proíbe negociações que reduzam o adicional de horas extras**.  \n\nPortanto, a **violação** ocorre porque a empresa **não respeitou direitos mínimos da CLT**, mesmo com a CCT, e **não compensou ou pagou as horas acumuladas**, violando cláusulas soberanas.  \n\n---\n\n### **2. PREDICADOS ATIVADOS**  \n**Predicados soberanos ativos (direitos inalienáveis):**  \n- **`sovereign(semester_hour_bank_requires_cct_or_act)`**: O banco de horas por semestre **exige CCT ou ACT (Acordo Coletivo de Trabalho)**.  \n- **`sovereign(invalidity_of_clause_suppressing_overtime_payment)`**: Cláusulas que **anulem pagamento de horas extras** são **inválidas**.  \n- **`sovereign(weekly_hour_compensation_requires_written_agreement)`**: Compensação de horas extras **exige acordo escrito**.  \n- **`sovereign(prohibition_negotiation_reducing_overtime_additional)`**: **Proíbe negociações que reduzam o adicional de horas extras** (mínimo 50%).  \n- **`sovereign(overtime_minimum_additional_50pct)`**: **O adicional de horas extras não pode ser inferior a 50%**, independentemente de acordos.  \n- **`sovereign(maximum_weekly_working_hours_44h)`**: **Limite máximo de 44h por semana**.  \n- **`sovereign(maximum_daily_working_hours_8h)`**: **Limite máximo de 8h por dia**.  \n\n**Predicado elástico ativo (regra com margem de flexibilidade):**  \n- **`elastic(hour_bank_without_cct_max_6_months)`**: **Banco de horas sem CCT** tem **prazo máximo de 6 meses**.  \n\n---\n\n### **3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \n**O que aconteceu?**  \nO trabalhador acumulou 400 horas extras em um \"banco de horas\" definido em um acordo coletivo (CCT) válido. A empresa não ofereceu folgas ou pagou essas horas ao final do prazo de 12 meses, alegando que precisava de mais pessoas no trabalho.  \n\n**Por que isso é ilegal?**  \n- **Mesmo com o CCT**, a empresa **não pode simplesmente ignorar** as horas extras. A lei exige que **elas sejam compensadas ou pagas**, mesmo que o CCT não mencione isso.  \n- A **CCT não pode dizer que \"não vamos pagar horas extras\"**, porque isso **viola a lei**.  \n- O **prazo de 12 meses** para compensar horas extras **não é permitido** se a empresa não pagar ou compensar ao final. A lei exige que **as horas sejam resgatadas ou pagas**, independentemente de acordos.  \n\n**O que o trabalhador pode fazer?**  \nEle tem direito a **receber o valor das 400 horas extras** (com adicional de 50%) ou a **folgas compensatórias**. A empresa **não pode se livrar disso** apenas por \"necessidade operacional\".  \n\n--- \n\n**Resumo:** A empresa violou a lei ao não pagar ou compensar horas extras, mesmo com um CCT. O trabalhador tem direito a ser ressarcido.",
+  "tokens_in": 526,
+  "tokens_out": 1868,
+  "latency_ms": 60266,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

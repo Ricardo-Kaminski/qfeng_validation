@@ -1,0 +1,26 @@
+{
+  "sha256": "7ffd82dfa49ceab7c525a256b995e8f20c9d016c6263a0445a08e084bf994873",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T05:18:58Z",
+  "prompt_sha": "dd5d898abce8ca32e525829e1af5dc971f03368ce118747a7507c27bd4ef1684",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que a situação descrita está em conformidade com as obrigações legais e procedimentais estabelecidas no contexto trabalhista brasileiro, conforme os predicados soberanos ativos identificados na execução do Clingo ASP. A decisão de \"CONFORMIDADE\" reflete o cumprimento adequado das verbas rescisórias pelo empregador dentro dos prazos legais e com a presença do sindicato durante a assinatura do recibo, garantindo transparência e segurança jurídica ao trabalhador. Os predicados soberanos ativos reforçam a necessidade de fundamentar essa decisão em razões claras e específicas, sem se basear em precedentes genéricos ou argumentos legais não abordados.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obligation to state practical consequences of decision**: Este predicado exige que a decisão seja acompanhada de uma explicação clara sobre as consequências práticas para todas as partes envolvidas, garantindo que o trabalhador e a empresa compreendam os impactos da decisão.\n\n- **Prohibition of generic precedent citation**: Proíbe a utilização de precedentes genéricos como base única para a decisão. Cada caso deve ser avaliado com base em suas particularidades, sem depender exclusivamente de julgamentos anteriores que não considerem as nuances específicas do caso.\n\n- **Obligation to address all legal arguments**: Requer que todos os argumentos legais relevantes apresentados sejam considerados e respondidos na decisão. Isso garante uma análise completa das questões levantadas, proporcionando justiça ao processo.\n\n- **Obligation to ground decision in identified ratio decidendi**: Exige que a decisão seja fundamentada no \"ratio decidendi\", ou razão da decisão, identificada durante o julgamento. Isso significa que a base legal e os motivos específicos para a decisão devem ser claramente articulados.\n\n- **Constitutional obligation to state reasons for decisions**: Este predicado impõe uma obrigação constitucional de explicitar as razões pelas quais foi tomada determinada decisão, garantindo transparência e legitimidade no processo judicial ou administrativo.\n\n- **Right of access to justice and judicial review**: Assegura o direito do trabalhador de acessar a justiça e buscar revisão judicial da decisão, se necessário. Isso protege os interesses do trabalhador ao garantir que ele possa contestar a decisão em um tribunal competente.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG verificou que tudo foi feito corretamente na demissão do trabalhador, conforme as regras trabalhistas brasileiras. A empresa pagou todas as verbas devidas no prazo certo e o sindicato esteve presente quando o trabalhador assinou o recibo. Isso significa que não há problemas legais ou irregularidades na forma como a demissão foi feita. Além disso, se o trabalhador quiser contestar essa decisão, ele tem o direito de ir ao tribunal para buscar uma revisão. A decisão está baseada em razões claras e específicas do caso, sem depender apenas de exemplos anteriores que não se aplicam diretamente a esta situação.",
+  "tokens_in": 545,
+  "tokens_out": 778,
+  "latency_ms": 22562,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

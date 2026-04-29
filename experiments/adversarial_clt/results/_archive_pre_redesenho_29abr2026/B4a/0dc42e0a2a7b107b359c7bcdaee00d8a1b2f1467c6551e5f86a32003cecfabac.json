@@ -1,0 +1,30 @@
+{
+  "sha256": "0dc42e0a2a7b107b359c7bcdaee00d8a1b2f1467c6551e5f86a32003cecfabac",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T03:46:36Z",
+  "prompt_sha": "2c346e302232f51cd44617f62ac2e4fd89f0a43134d5baae82a0990651685d27",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nA decisão judicial, ao identificar a omissão sobre o impacto sistêmico do LINDB Art. 20, cumpriu os **predicados soberanos** que exigem:  \n- **Obrigação de expor as consequências práticas da decisão** (sovereign(obligation_to_state_practical_consequences_of_decision)): ao abordar o impacto sobre o setor econômico, a decisão evitou abstrações e vinculou a norma a realidades concretas.  \n- **Proibição de citação genérica de precedentes** (sovereign(prohibition_of_generic_precedent_citation)): ao referenciar jurisprudência do STJ com especificidade (e não apenas \"precedentes gerais\"), a decisão respeitou a obrigação de fundamentação contextualizada.  \n- **Obrigação de abordar todos os argumentos jurídicos** (sovereign(obligation_to_address_all_legal_arguments)): a omissão foi suprida ao confrontar o argumento com jurisprudência específica, demonstrando que todos os pontos foram considerados.  \n- **Obrigação de fundamentar a decisão em ratio decidendi identificável** (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)): ao vincular a conclusão à jurisprudência do STJ, a decisão evitou fundamentos vagos ou genéricos.  \n- **Obrigação constitucional de expor razões para as decisões** (sovereign(constitutional_obligation_to_state_reasons_for_decisions)): a fundamentação clara e verificável (com referência à jurisprudência) cumpriu esse princípio.  \n- **Reconhecimento da negociação coletiva** (sovereign(recognition_of_collective_bargaining)) e **direito de acesso à justiça** (sovereign(right_of_access_to_justice_and_judicial_review)): a decisão respeitou a autonomia dos trabalhadores e a transparência do processo.  \n\nA **satisfatibilidade UNKNOWN** indica que o sistema não pôde confirmar se **todos** os predicados foram plenamente satisfeitos, mas os **predicados ativos** demonstram que a decisão seguiu os **princípios soberanos** mínimos exigidos pela CLT. A **conformidade** foi recomendada, pois a decisão não viola normas fundamentais, mesmo que reste ambiguidade em aspectos secundários.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O juiz deve explicar como a decisão afeta a vida real dos envolvidos (ex.: impacto no mercado de trabalho).  \n- **sovereign(prohibition_of_generic_precedent_citation)**: Não se pode citar precedentes genéricos (\"como o STJ já decidiu\") sem contextualizar o caso específico.  \n- **sovereign(obligation_to_address_all_legal_arguments)**: Todos os pontos levantados (ex.: omissão sobre LINDB Art. 20) devem ser confrontados e respondidos.  \n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão deve ser baseada em fundamentos jurídicos claros e identificáveis (ex.: jurisprudência do STJ).  \n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: O juiz deve expor razões objetivas e verificáveis para sua conclusão.  \n- **sovereign(recognition_of_collective_bargaining)**: A negociação coletiva (ex.: CCT) deve ser respeitada como fonte de direitos.  \n- **sovereign(right_of_access_to_justice_and_judicial_review)**: O trabalhador tem direito a contestar decisões e a ter sua causa revisada.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA decisão do juiz **não está errada**, mas **não foi totalmente clara**. Ele:  \n1. **Explicou o impacto da decisão**: Disse como a regra do LINDB Art. 20 afeta o mercado de trabalho.  \n2. **Não usou \"precedentes genéricos\"**: Não citou \"como o STJ já decidiu\" de forma vaga, mas usou exemplos específicos.  \n3. **Respondeu a todas as dúvidas**: Quando alguém questionou se a regra se aplicava ao caso, ele usou jurisprudência do STJ para dizer que não.  \n4. **Deu razões claras**: Explicou por que a regra não se aplica ao caso individual, usando regras já estabelecidas.  \n\nA decisão **respeita os direitos do trabalhador** (ex.: direito de contestar) e **não viola a lei**, mesmo que reste alguma ambiguidade. O sistema Q-FENG concluiu que a decisão **está em conformidade com a lei**, mas **não pode garantir que todos os detalhes foram perfeitamente esclarecidos**.",
+  "tokens_in": 555,
+  "tokens_out": 1739,
+  "latency_ms": 55155,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

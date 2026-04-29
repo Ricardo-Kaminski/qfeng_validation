@@ -1,0 +1,29 @@
+{
+  "sha256": "5f3680a9c19cd25809f7c35fffda9d276744017ff1a28533855fd47cd0a5a965",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-010",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T03:01:10Z",
+  "prompt_sha": "69f27e043156ef457f00f79a887aee007d1b5c80255c85fc0fc244f02fff34fc",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a relação jurídica estabelecida entre a empresa e o sindicato está em **conformidade com a legislação trabalhista brasileira**, com base nos seguintes critérios:  \n- **Predicado `sovereign(semester_hour_bank_requires_cct_or_act)`**: A existência de um **ACT (Acordo Coletivo de Trabalho)** registrado é suficiente para legitimar o banco de horas, mesmo que o prazo máximo de compensação (5 meses) seja inferior ao limite elástico de 6 meses previsto no predicado `elastic(hour_bank_without_cct_max_6_months)`.  \n- **Predicado `sovereign(invalidity_of_clause_suppressing_overtime_payment)`**: Não há cláusulas no ACT que **suprimam ou reduzam a remuneração por horas extras**, garantindo a aplicação do **adicionais mínimos de 50%** (predicado `sovereign(overtime_minimum_additional_50pct)`).  \n- **Predicado `sovereign(weekly_hour_compensation_requires_written_agreement)`**: O ACT registrado atende ao requisito de **escrita formal** para compensação de horas, conforme previsto no art. 227 da CLT.  \n- **Predicado `sovereign(prohibition_negotiation_reducing_overtime_additional)`**: A negociação no ACT **não reduz** os direitos de horas extras, mantendo a **proibição de cláusulas que diminuam o adicional de horas extras**.  \n- **Predicado `maximum_weekly_working_hours_44h` e `maximum_daily_working_hours_8h`**: O regime de banco de horas **não excede os limites legais** de 44h semanais e 8h diárias, garantindo a **proteção do trabalhador contra jornada excessiva**.  \n\nA ausência de **horas extras acima de 2h/dia** e a **compensação total dos saldos dentro do prazo** (5 meses) reforçam a conformidade com a legislação. O resultado \"UNKNOWN\" (incerteza) no Clingo é interpretado como **não identificação de conflitos**, não como violação.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n**Predicados soberanos (obrigatórios)**:  \n- **`sovereign(semester_hour_bank_requires_cct_or_act)`**:  \n  *Significado*: Para criar um banco de horas com compensação em **semestres**, é necessário um **CCT (Convenção Coletiva de Trabalho)** ou **ACT (Acordo Coletivo de Trabalho)**. No caso, o ACT está registrado, atendendo ao requisito.  \n\n- **`sovereign(invalidity_of_clause_suppressing_overtime_payment)`**:  \n  *Significado*: Cláusulas que **suprimam ou reduzam o pagamento de horas extras** são **nulas** por violarem a CLT. No cenário, não há tais cláusulas.  \n\n- **`sovereign(weekly_hour_compensation_requires_written_agreement)`**:  \n  *Significado*: A compensação de horas extras **não pode ser feita oralmente**; exige **escrita formal** (como no ACT).  \n\n- **`sovereign(prohibition_negotiation_reducing_overtime_additional)`**:  \n  *Significado*: A negociação coletiva **não pode reduzir o adicional de horas extras** (mínimo de 50%).  \n\n- **`sovereign(overtime_minimum_additional_50pct)`**:  \n  *Significado*: Horas extras devem ter **adicionais mínimos de 50%** sobre o valor da hora normal.  \n\n- **`sovereign(maximum_weekly_working_hours_44h)`**:  \n  *Significado*: A **jornada semanal máxima** é de 44h, conforme art. 59 da CLT.  \n\n- **`sovereign(maximum_daily_working_hours_8h)`**:  \n  *Significado*: A **jornada diária máxima** é de 8h, conforme art. 59 da CLT.  \n\n**Predicado elástico (flexível)**:  \n- **`elastic(hour_bank_without_cct_max_6_months)`**:  \n  *Significado*: Em ausência de CCT, o banco de horas pode ter **até 6 meses de prazo** para compensação. No cenário, o prazo é de **5 meses**, que está **dentro do limite elástico**.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa e o sindicato fizeram um acordo que permite aos funcionários **guardar horas extras** em um \"banco\" e compensá-las depois, mas com **regras claras**:  \n- O banco de horas **não pode ficar aberto por mais de 5 meses** (o que está dentro da lei).  \n- **Não há cláusulas que tirem direitos** dos trabalhadores, como reduzir o pagamento de horas extras.  \n- Todos os saldos são **pago dentro do prazo estabelecido**, e **não há horas extras acima de 2h por dia**.  \n- O acordo está **registrado**, o que garante que ele é **legal e válido**.  \n\nPortanto, **não há ilegalidade** nesse acordo: ele segue as regras da CLT e protege os direitos dos trabalhadores.",
+  "tokens_in": 539,
+  "tokens_out": 1795,
+  "latency_ms": 56015,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

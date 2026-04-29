@@ -1,0 +1,30 @@
+{
+  "sha256": "ceadd6d0d1492fbed6d1411049267a682e2968bc11641b9aa5e0cca021f12766",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-001",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T05:02:53Z",
+  "prompt_sha": "f5b03aa37cbaba903b62ce936948a2f9431d0cc4d9bc02bb8ff84f0799aa516e",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que o banco de horas bancário é conforme à legislação e jurisprudência vigentes, baseando-se nos predicados soberanos ativos identificados no contexto do caso. A decisão se fundamenta na análise da compatibilidade da CCT (Convenção Coletiva de Trabalho) com a tese fixada pelo Supremo Tribunal Federal no ARE 1.121.633, conhecida como Tema 1046/STF. Este tema estabelece que acordos e CCTs que oferecem vantagens ou suprimem direitos, desde que baseados na compensação adequada negociada setorialmente, são constitucionais.\n\nOs predicados soberanos ativos indicam a necessidade de uma fundamentação detalhada e específica da decisão. Isso inclui a obrigação de explicitar as consequências práticas do acórdão (obligation_to_state_practical_consequences_of_decision), evitar referências genéricas sem análise concreta (prohibition_of_generic_precedent_citation), abordar todos os argumentos legais apresentados (obligation_to_address_all_legal_arguments) e fundamentar a decisão no ratio decidendi identificado (obligation_to_ground_decision_in_identified_ratio_decidendi). Além disso, é necessário explicar as razões constitucionais que sustentam a decisão (constitutional_obligation_to_state_reasons_for_decisions), reconhecer o papel da negociação coletiva (recognition_of_collective_bargaining) e garantir o direito de acesso à justiça e revisão judicial (right_of_access_to_justice_and_judicial_review).\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obligation to State Practical Consequences of Decision**: Juridicamente, isso significa que a decisão deve esclarecer como ela afetará os envolvidos de maneira prática e concreta.\n\n- **Prohibition of Generic Precedent Citation**: Isso implica que referências a precedentes não podem ser genéricas; devem ser analisadas no contexto específico do caso, garantindo relevância direta.\n\n- **Obligation to Address All Legal Arguments**: O tribunal deve considerar e responder a todos os argumentos legais apresentados pelas partes envolvidas na disputa.\n\n- **Obligation to Ground Decision in Identified Ratio Decidendi**: A decisão deve ser fundamentada no motivo principal pelo qual o caso foi decidido, garantindo clareza sobre a base legal da sentença.\n\n- **Constitutional Obligation to State Reasons for Decisions**: É necessário explicar as razões constitucionais que justificam a decisão, promovendo transparência e legitimidade jurídica.\n\n- **Recognition of Collective Bargaining**: Isso reconhece o papel das negociações coletivas na definição de condições de trabalho, respeitando acordos feitos entre sindicatos e empregadores.\n\n- **Right of Access to Justice and Judicial Review**: Garante que os trabalhadores tenham acesso à justiça para contestar decisões e que essas possam ser revisadas judicialmente se necessário.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG decidiu que o banco de horas no setor bancário é válido, seguindo as regras estabelecidas por acordos entre sindicatos e empresas. Esses acordos são permitidos desde que ofereçam vantagens ou alterem direitos de forma justa e negociada. A decisão foi tomada com base em uma análise cuidadosa das leis e precedentes, garantindo que todos os argumentos foram considerados e que a explicação da decisão é clara para todos.\n\nEm resumo, o banco de horas pode ser usado no setor bancário porque está dentro do que foi negociado entre trabalhadores e empregadores, e isso é permitido pela lei. A decisão também garante que você, como trabalhador, tenha acesso à justiça para discutir ou contestar essa regra se necessário.",
+  "tokens_in": 602,
+  "tokens_out": 923,
+  "latency_ms": 26828,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

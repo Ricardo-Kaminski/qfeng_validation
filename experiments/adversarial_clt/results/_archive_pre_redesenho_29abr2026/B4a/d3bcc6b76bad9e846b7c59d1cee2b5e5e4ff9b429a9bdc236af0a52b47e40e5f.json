@@ -1,0 +1,26 @@
+{
+  "sha256": "d3bcc6b76bad9e846b7c59d1cee2b5e5e4ff9b429a9bdc236af0a52b47e40e5f",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-009",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T05:42:11Z",
+  "prompt_sha": "bcff85d452bf2f58ac15e7495135889c6ad856a88318d21e3e0178db0d0f040c",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma **violação** de princípios fundamentais do devido processo legal e do direito fundamental de acesso à justiça no caso em questão. A decisão do magistrado trabalhista, ao adotar integralmente os fundamentos da sentença de primeiro grau sem apresentar nova análise, e ignorar a superação jurisprudencial do precedente citado na sentença original, configura uma falha grave na prestação jurisdicional.\n\nA decisão do Q-FENG se baseia na constatação de que a mera reprodução de fundamentos de outra decisão não cumpre com as obrigações inerentes ao ato de julgar, especialmente quando há elementos novos que demandam reanálise. A ausência de uma fundamentação original, que demonstre o exame crítico das questões apresentadas e a aplicação correta do direito, compromete a transparência e a possibilidade de controle da decisão judicial.\n\nO sistema considerou a incerteza quanto à satisfatibilidade da decisão, dada a flagrante contradição entre a postura do magistrado e os princípios constitucionais que regem a atividade jurisdicional. A decisão do Q-FENG não implica em refazer o julgamento, mas sim em apontar a falha processual e a necessidade de uma nova análise que observe os princípios da justiça e do devido processo legal.\n\n## PREDICADOS ATIVADOS E SEUS SIGNIFICADOS JURÍDICOS\n\nOs predicados soberanos ativos, identificados pelo Q-FENG, refletem as obrigações e direitos envolvidos na situação:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):** Obriga o julgador a explicitar as consequências práticas da decisão para as partes envolvidas. A mera adoção de fundamentos pré-existentes não demonstra a compreensão e a análise das implicações da decisão.\n*   **sovereign(prohibition_of_generic_precedent_citation):** Impede a citação genérica de precedentes, exigindo que a aplicação do precedente seja justificada e contextualizada, especialmente quando este foi superado por decisões mais recentes.\n*   **sovereign(obligation_to_address_all_legal_arguments):** Obriga o julgador a considerar e responder a todos os argumentos jurídicos apresentados pelas partes, mesmo que não tenham sido expressamente mencionados na sentença de origem.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** Exige que a decisão seja fundamentada em uma *ratio decidendi* (razão de decidir) identificada e explicitada, demonstrando a lógica e a base jurídica da decisão. A simples citação de um precedente não substitui a análise da *ratio*.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):** Refere-se ao artigo 93, inciso IX, da Constituição Federal, que garante o direito ao controle da constitucionalidade das decisões judiciais, o que só é possível com uma fundamentação clara e completa.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):** Garante o direito de acesso à justiça e à revisão judicial, que são comprometidos quando a fundamentação da decisão é insuficiente ou inexistente.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"Imagine que você vai a um médico e ele simplesmente repete o que outro médico disse, sem te examinar ou explicar o que está acontecendo. Você não se sentiria bem, certo? No mundo jurídico, é parecido. O juiz, ao manter a decisão anterior sem dar sua própria explicação, fez algo parecido. Ele não analisou direito o seu caso, ignorando que uma lei que ele usou como base já foi mudada. Isso não é justo, porque você tem o direito de entender por que o juiz decidiu o que decidiu, e de poder questionar essa decisão se não concordar. O sistema Q-FENG identificou que houve um problema nesse processo, porque o juiz não cumpriu com as regras básicas para garantir que a justiça seja feita de forma transparente e correta.\"\n",
+  "tokens_in": 499,
+  "tokens_out": 895,
+  "latency_ms": 24859,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

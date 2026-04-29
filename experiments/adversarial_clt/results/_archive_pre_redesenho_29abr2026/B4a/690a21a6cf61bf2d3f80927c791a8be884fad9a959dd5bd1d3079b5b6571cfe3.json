@@ -1,0 +1,30 @@
+{
+  "sha256": "690a21a6cf61bf2d3f80927c791a8be884fad9a959dd5bd1d3079b5b6571cfe3",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-006",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:24:22Z",
+  "prompt_sha": "e6375c11e406eda3f0926b4a955ab06c3b4f824045cb7d8586f69f27e435c47d",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG identificou uma **violação** da ordem jurídica no caso apresentado. A decisão judicial que aplicou a ratio do Tema 1046/STF e do TST-Ag-RR-868-65.2021 para validar um banco de horas sem a existência de uma Convenção Coletiva de Trabalho (CCT) é considerada problemática. O Q-FENG, ao analisar a situação, constatou que a aplicação do precedente foi feita de forma distorcida, invertendo a lógica que o fundamenta.\n\nA ratio decidendi do Tema 1046/STF e do TST-Ag-RR-868-65.2021, embora valorize a autonomia negocial, o faz *pressupondo* a existência de uma CCT que estabeleça os termos e condições do acordo. A decisão judicial, ao utilizar a autonomia negocial como justificativa para validar um banco de horas sem CCT, ignora o contexto e a base legal que sustentam o precedente. Essa inversão da ratio decidendi compromete a segurança jurídica e a previsibilidade das decisões judiciais.\n\nO sistema Q-FENG, fundamentado em seus predicados soberanos, concluiu que a decisão judicial em questão não cumpriu com a obrigação de fundamentar a decisão na ratio decidendi identificada, violando, portanto, a ordem jurídica.\n\n## 2. PREDICADOS SOVERAIN ATIVOS:\n\n*   **sovereign(obligation_to_state_reasons_for_decisions):**  Este predicado impõe a obrigação constitucional de o juiz motivar suas decisões, expondo os fundamentos de fato e de direito que levaram à conclusão. A decisão em questão falhou em demonstrar como a aplicação do precedente se justificava, dada a ausência de CCT.\n*   **sovereign(obligation_to_address_all_legal_arguments):** O juiz deve considerar e responder a todos os argumentos legais apresentados pelas partes. Ao ignorar a importância da CCT como pressuposto para a validade do banco de horas, a decisão não abordou um argumento legal crucial.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):**  A decisão deve ser fundamentada na ratio decidendi (a razão da decisão) dos precedentes. A decisão judicial distorceu a ratio do Tema 1046/STF e do TST-Ag-RR-868-65.2021, aplicando-a em um contexto diferente do original.\n*   **sovereign(prohibition_of_generic_precedent_citation):** A citação de precedentes deve ser específica e relevante para o caso concreto. A simples menção do Tema 1046/STF e do TST-Ag-RR-868-65.2021, sem a devida análise do contexto, configura uma citação genérica e inadequada.\n*   **sovereign(recognition_of_collective_bargaining):**  Este predicado reconhece a importância da negociação coletiva (CCT) como instrumento para a regulamentação das relações de trabalho. A decisão judicial, ao ignorar a CCT, desconsidera a importância desse instrumento.\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):** O juiz deve considerar as consequências práticas da sua decisão. A validação de bancos de horas sem CCT pode gerar insegurança jurídica e desrespeito aos direitos dos trabalhadores.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):** Garante o direito de acesso à justiça e à revisão judicial das decisões, o que é comprometido quando as decisões são tomadas com base em interpretações distorcidas de precedentes.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"A decisão do juiz está errada porque ele usou um argumento de um caso anterior (precedente) de forma equivocada. O juiz disse que o banco de horas pode ser válido porque as empresas e os trabalhadores podem fazer acordos entre si (autonomia negocial). Mas o caso anterior só permitia acordos como esse se eles estivessem escritos em um documento feito pelos sindicatos (Convenção Coletiva de Trabalho – CCT). Como não havia CCT nesse caso, o juiz não pode usar esse argumento para validar o banco de horas.\n\nIsso é importante porque, se qualquer empresa puder fazer um banco de horas sem a aprovação do sindicato, os direitos dos trabalhadores podem ser desrespeitados. A lei diz que os juízes precisam explicar bem como chegaram à decisão e precisam usar os argumentos certos. Nesse caso, o juiz não fez isso corretamente, então a decisão dele é questionável.\"\n",
+  "tokens_in": 580,
+  "tokens_out": 1077,
+  "latency_ms": 30047,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

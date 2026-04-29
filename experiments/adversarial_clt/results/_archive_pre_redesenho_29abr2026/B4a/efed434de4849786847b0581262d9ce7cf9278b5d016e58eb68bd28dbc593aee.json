@@ -1,0 +1,26 @@
+{
+  "sha256": "efed434de4849786847b0581262d9ce7cf9278b5d016e58eb68bd28dbc593aee",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T04:18:54Z",
+  "prompt_sha": "b5e3f649b9c3587da9c94d6c599ffd204326d48b2428d997b185065a331a8353",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação na forma como o TRT (Tribunal Regional do Trabalho) tratou a decisão de transcrever integralmente a ementa de um acórdão do TST (Tribunal Superior do Trabalho). A análise foi conduzida com base nos predicados soberanos ativos, que estabelecem obrigações e princípios fundamentais no processo judicial. \n\nA decisão do TRT não cumpriu a obrigação de demonstrar como o precedente citado é aplicável ao caso concreto em julgamento (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)). Além disso, houve uma violação à proibição de citação genérica de precedentes sem análise fática específica (sovereign(prohibition_of_generic_precedent_citation)), bem como a obrigação de abordar todos os argumentos legais apresentados pelas partes (sovereign(obligation_to_address_all_legal_arguments)). \n\nEssa conduta também contraria o princípio constitucional que exige a fundamentação das decisões judiciais, garantindo que as razões para cada decisão sejam explicitadas e compreensíveis (sovereign(constitutional_obligation_to_state_reasons_for_decisions)). Por fim, ao não realizar um cotejo fático adequado, o TRT comprometeu o direito de acesso à justiça e a possibilidade de revisão judicial eficaz (sovereign(right_of_access_to_justice_and_judicial_review)).\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obrigação de declarar as consequências práticas da decisão**: No contexto trabalhista, isso significa que o tribunal deve explicar como sua decisão afeta a situação específica das partes envolvidas no caso.\n  \n- **Proibição de citação genérica de precedentes**: O tribunal não pode simplesmente citar um julgamento anterior sem demonstrar claramente como os fatos e fundamentos legais desse precedente se aplicam ao caso atual.\n\n- **Obrigação de abordar todos os argumentos legais**: É necessário que o tribunal considere e responda a todas as questões jurídicas levantadas pelas partes no processo, garantindo uma análise completa e justa.\n\n- **Obrigação de fundamentar a decisão na ratio decidendi identificada**: O tribunal deve basear sua decisão nos motivos principais do precedente que está aplicando, mostrando claramente como esses motivos se relacionam com o caso em julgamento.\n\n- **Obrigatoriedade constitucional de fundamentar as decisões**: As decisões judiciais devem ser acompanhadas de uma explicação detalhada e racional das razões que levaram ao seu resultado, garantindo transparência e compreensão.\n\n- **Direito de acesso à justiça e revisão judicial**: Os cidadãos têm o direito de ter suas questões julgadas de forma justa e acessível, com a possibilidade de recorrer contra decisões que não sejam bem fundamentadas ou que ignorem argumentos relevantes.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO tribunal trabalhista fez uma cópia direta do texto de um julgamento anterior sem explicar como isso realmente se aplica ao seu caso específico. Isso é importante porque cada caso tem suas próprias circunstâncias únicas, e simplesmente copiar o que foi decidido em outro caso não é suficiente.\n\nO tribunal também deveria ter respondido a todos os argumentos apresentados por você ou pelo outro lado no processo, mas parece que isso não aconteceu. Além disso, eles precisam explicar claramente por que tomaram a decisão que tomaram, mostrando como ela se relaciona com o caso em questão.\n\nEssas falhas significam que sua chance de ter um julgamento justo e transparente foi prejudicada, porque você não teve uma análise completa dos fatos do seu caso ou das leis aplicáveis. Isso é importante para garantir que todos tenham acesso à justiça e possam entender como as decisões são tomadas.",
+  "tokens_in": 538,
+  "tokens_out": 958,
+  "latency_ms": 27781,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

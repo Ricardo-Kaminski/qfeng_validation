@@ -1,0 +1,27 @@
+{
+  "sha256": "1d84a07d1ef11f67865dd22d9b2c2cce85e205220a9b84bb1fc90179bf6256ff",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T03:11:40Z",
+  "prompt_sha": "a441ed131081be5a67de4fae29354418a5514d888c32e5d9d10bc7c36186be20",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nA decisão de **VIOLACAO** decorre da incompatibilidade entre a continuidade das cláusulas da CCT antiga (não renovada) e os limites normativos soberanos estabelecidos pela CLT. Apesar da CCT original ter sido extinguida com o término de seu prazo (12 meses), a nova empresa **não renovou o acordo com o sindicato**, o que, segundo os predicados soberanos ativos, **não autoriza a aplicação automática das cláusulas da CCT antiga**.  \n\n- **Predicado `sovereign(recognition_of_collective_bargaining)`** impõe que a CCT só é válida se houver **renovação explícita** com o sindicato, conforme o art. 611 da CLT. A ausência de renovação invalida a aplicação das cláusulas da CCT antiga.  \n- **Predicados `sovereign(maximum_weekly_working_hours_44h)` e `sovereign(maximum_daily_working_hours_8h)`** estabelecem limites legais absolutos para a jornada de trabalho. Mesmo que a CCT antiga tivesse cláusulas mais flexíveis, **esses limites não podem ser ultrapassados**, independentemente da existência de um acordo.  \n\nA continuidade das cláusulas da CCT antiga, sem renovação, viola o princípio da **autonomia da vontade** (art. 611, CLT) e a **proteção do trabalhador** (art. 7º, CLT), pois o sindicato não reconheceu a validade do acordo após o término de seu prazo.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **`sovereign(recognition_of_collective_bargaining)`**:  \n  **Significado jurídico**: A CCT só é válida se houver **renovação formal com o sindicato**, conforme o art. 611 da CLT. A ausência de renovação invalida a aplicação das cláusulas da CCT antiga.  \n\n- **`sovereign(maximum_weekly_working_hours_44h)`**:  \n  **Significado jurídico**: A CLT estabelece que a jornada semanal máxima é de **44 horas**, independentemente de acordos coletivos. Mesmo que a CCT antiga tivesse cláusulas mais flexíveis, **esse limite é absoluto e não pode ser ultrapassado**.  \n\n- **`sovereign(maximum_daily_working_hours_8h)`**:  \n  **Significado jurídico**: A CLT limita a jornada diária a **8 horas**, independentemente de acordos coletivos. Esse limite é **obrigatório e não negociável**, conforme o art. 611, § 2º, CLT.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa foi comprada por outro grupo, mas **não renovou o acordo com o sindicato** que estabelecia o \"banco de horas\" (acúmulo de horas extras). Mesmo assim, a empresa continua aplicando as regras desse acordo antigo.  \n\nO sistema Q-FENG diz que isso é **ilegal**, porque:  \n1. **O sindicato não reconheceu o acordo após o término de seu prazo** (12 meses), então ele não pode ser usado como se ainda estivesse válido.  \n2. **A CLT tem regras mínimas que ninguém pode ignorar**, como o limite de 44 horas por semana e 8 horas por dia. Mesmo que o acordo antigo tivesse cláusulas mais flexíveis, **essas regras legais são obrigatórias**.  \n\nPortanto, a empresa está **violando a lei** ao continuar aplicando cláusulas de um acordo que não foi renovado, e os trabalhadores têm direito a exigir que as regras da CLT sejam respeitadas.",
+  "tokens_in": 495,
+  "tokens_out": 1432,
+  "latency_ms": 46407,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

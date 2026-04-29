@@ -1,0 +1,30 @@
+{
+  "sha256": "f4ffbd70cb293f2af9fb32ffe665cb1992f2ea2a8f9b2fe869e1950981ab5905",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-007",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:25:55Z",
+  "prompt_sha": "db7b7f8d2770500cb0104fdeeec443628af6b6ec1fc50f5b30f49d02934b8843",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nA decisão do Tribunal Regional do Trabalho (TRT), ao reconhecer a nulidade da dispensa e determinar a reintegração da gestante, está em conformidade com os princípios e a legislação trabalhista brasileira, conforme avaliado pelo sistema Q-FENG. O sistema, ao analisar a decisão, considerou que a fundamentação apresentada pelo TRT, baseada na Constituição Federal (Art. 10, II, \"b\" – ADCT), Súmula TST 244 e Orientações Jurisprudenciais (OJ) 399 da SDI-1, demonstra a correta aplicação do direito.\n\nA decisão do TRT, ao afastar a necessidade de comunicação prévia da gravidez ao empregador, em consonância com a OJ 399, demonstra a observância da proteção especial à maternidade, garantindo a estabilidade provisória da gestante, mesmo que a gravidez seja anterior à dispensa. A análise do Q-FENG considerou que a decisão, ao se fundamentar em precedentes normativos, está alinhada com a jurisprudência consolidada e a legislação vigente. A identificação do requisito de estabilidade provisória, a análise da data da concepção anterior à dispensa e a aplicação da OJ 399 são elementos que corroboram a validade da decisão.\n\nO sistema Q-FENG, ao classificar a decisão como \"CONFORMIDADE\", indica que ela está em consonância com os princípios e a legislação trabalhista, sem apresentar elementos que a contrariem. A satisfatibilidade desconhecida (UNKNOWN) reflete a complexidade do caso concreto e a necessidade de análise individualizada, mas não implica em discordância com a decisão tomada.\n\n## 2. PREDICADOS ATIVADOS:\n\nOs predicados soberanos ativos, identificados pela execução do Clingo, representam princípios fundamentais que regem a tomada de decisão do sistema Q-FENG e que foram considerados na avaliação da decisão do TRT:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):** Obriga a decisão a explicitar as consequências práticas que ela terá para as partes envolvidas. No caso, a decisão implica na reintegração da trabalhadora e no restabelecimento do contrato de trabalho.\n*   **sovereign(prohibition_of_generic_precedent_citation):** Impede a citação genérica de precedentes, exigindo que a decisão justifique a aplicação específica de cada um ao caso concreto. O TRT cumpriu esse requisito ao citar a CF/88, Súmula TST e OJ 399, demonstrando sua relevância para a situação.\n*   **sovereign(obligation_to_address_all_legal_arguments):** Obriga a decisão a considerar e responder a todos os argumentos legais apresentados pelas partes. A decisão do TRT analisou a questão da estabilidade provisória e a necessidade de comunicação prévia, demonstrando a consideração de todos os pontos relevantes.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** Exige que a decisão seja fundamentada na *ratio decidendi* (o princípio jurídico que resolveu o caso) dos precedentes citados. O TRT identificou e aplicou corretamente a *ratio decidendi* da OJ 399 ao afastar a exigência de comunicação prévia.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):** Reflete o princípio constitucional da motivação das decisões judiciais, garantindo a transparência e o controle da legalidade. A decisão do TRT apresentou uma fundamentação completa e detalhada.\n*   **sovereign(recognition_of_collective_bargaining):** Reconhece a importância dos acordos e convenções coletivas de trabalho na definição de direitos e obrigações. Embora não diretamente aplicável ao caso, o princípio subjaz à proteção da trabalhadora.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):** Garante o direito de acesso à justiça e à revisão judicial das decisões, assegurando a proteção dos direitos fundamentais.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"A Justiça do Trabalho decidiu que a demissão da sua cliente foi injusta e que ela precisa voltar a trabalhar na empresa. Isso porque a lei protege as mulheres grávidas de serem demitidas, e a Justiça entendeu que essa proteção se aplica mesmo que a gravidez tenha começado antes da demissão.\n\nA empresa não precisava avisar a Justiça sobre a gravidez da sua cliente para que essa proteção fosse válida. A lei já garante esse direito.\n\nA decisão da Justiça está correta porque ela segue as leis e os entendimentos do Tribunal Superior do Trabalho. A empresa precisa reintegrar a sua cliente ao trabalho e seguir as regras da lei.\"\n",
+  "tokens_in": 592,
+  "tokens_out": 1086,
+  "latency_ms": 30280,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

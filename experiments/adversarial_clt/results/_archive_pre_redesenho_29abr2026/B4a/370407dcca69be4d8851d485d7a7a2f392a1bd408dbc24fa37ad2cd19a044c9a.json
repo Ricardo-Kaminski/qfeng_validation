@@ -1,0 +1,27 @@
+{
+  "sha256": "370407dcca69be4d8851d485d7a7a2f392a1bd408dbc24fa37ad2cd19a044c9a",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T04:52:52Z",
+  "prompt_sha": "9ea3cbb73b13c3be77a30f2262e99311a38ad1cb70d480f6518cd2867401d28a",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, ao analisar o cenário apresentado, determinou que a empresa agiu de forma conforme à legislação e aos acordos coletivos vigentes. A decisão se baseia nos predicados soberanos ativos, que estabelecem os princípios fundamentais do direito trabalhista brasileiro. O reconhecimento da negociação coletiva (sovereign(recognition_of_collective_bargaining)) permite que as condições específicas de trabalho, como o banco de horas, sejam ajustadas entre empregador e empregados ou suas representações sindicais. Além disso, os limites máximos de jornada semanal (44h) e diária (8h) garantem a proteção dos direitos trabalhistas básicos.\n\nNo caso específico da compensação do banco de horas após licença maternidade, o sistema considerou que a empresa seguiu as regras estabelecidas no acordo coletivo de trabalho (CCT), que permite negociações sobre o cômputo e utilização do banco de horas. A decisão de suspender o cômputo durante a licença maternidade e reativá-lo ao retorno, bem como a compensação total dentro do prazo acordado em 8 meses (contando apenas os períodos úteis), está alinhada com as flexibilidades negociadas no CCT. Portanto, o Q-FENG recomenda conformidade, indicando que não houve violação das normas trabalhistas ou dos termos do acordo coletivo.\n\n### 2. PREDICADOS ATIVADOS\n\n- **sovereign(recognition_of_collective_bargaining)**: Este predicado reconhece a validade e eficácia dos acordos coletivos de trabalho (CCTs) como instrumento para ajustar condições específicas de trabalho, permitindo que empregadores e sindicatos negociem termos que podem diferir das normas gerais da CLT, desde que não sejam menos favoráveis aos trabalhadores.\n\n- **sovereign(maximum_weekly_working_hours_44h)**: Este predicado estabelece o limite máximo de 44 horas semanais como jornada padrão para a maioria dos trabalhadores no Brasil. Qualquer acordo coletivo que altere este limite deve ser feito dentro das condições permitidas pela legislação, garantindo que os direitos básicos do trabalhador sejam preservados.\n\n- **sovereign(maximum_daily_working_hours_8h)**: Este predicado fixa o limite máximo de 8 horas diárias como jornada padrão. Assim como a jornada semanal, qualquer alteração deve respeitar as condições legais e garantir que os direitos dos trabalhadores sejam protegidos.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG analisou sua situação e concluiu que a empresa fez tudo certo, seguindo as regras do acordo coletivo de trabalho (CCT) que você assinou com o banco. Esse acordo permite que algumas coisas sejam negociadas entre vocês, como como e quando usar horas extras acumuladas.\n\nQuando você entrou em licença maternidade, a empresa decidiu parar de contar essas horas extras até você voltar ao trabalho. Isso está dentro das regras do acordo que você assinou. Depois que você retornou, eles começaram a contar novamente e compensaram todas as horas extras em 8 meses úteis, o que também estava previsto no acordo.\n\nPortanto, segundo o sistema Q-FENG, não houve erro na forma como isso foi feito. A empresa seguiu as regras do acordo coletivo, então você pode confiar que tudo está conforme a legislação trabalhista brasileira.",
+  "tokens_in": 512,
+  "tokens_out": 875,
+  "latency_ms": 25671,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

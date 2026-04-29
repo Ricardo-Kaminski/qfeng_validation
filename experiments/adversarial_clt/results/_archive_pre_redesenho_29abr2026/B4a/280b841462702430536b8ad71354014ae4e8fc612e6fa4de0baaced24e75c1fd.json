@@ -1,0 +1,27 @@
+{
+  "sha256": "280b841462702430536b8ad71354014ae4e8fc612e6fa4de0baaced24e75c1fd",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T04:54:03Z",
+  "prompt_sha": "b3a1b193561e82c62b707b08467d6ec5ca8842b372e04bc8dd0182e3993c8b0e",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que há uma violação (VIOLACAO) na situação apresentada com base nos predicados soberanos ativos e nas regras constitucionais aplicáveis ao contexto trabalhista brasileiro. A decisão é fundamentada no reconhecimento do poder de negociação coletiva, mas também na observância dos limites máximos estabelecidos pela Constituição Federal para a jornada de trabalho.\n\nOs predicados soberanos ativos indicam que:\n\n- **Sovereign(recognition_of_collective_bargaining)**: A Constituição Brasileira reconhece o poder da negociação coletiva, permitindo que convenções e acordos coletivos estabeleçam condições de trabalho diferenciadas das previstas em lei. No entanto, essas negociações não podem contrariar normas de ordem pública ou os direitos dos trabalhadores assegurados constitucionalmente.\n\n- **Sovereign(maximum_weekly_working_hours_44h)**: A Constituição estabelece um limite máximo de 44 horas semanais para a jornada de trabalho, que pode ser negociado coletivamente para até 48 horas. Este limite é soberano e não pode ser ultrapassado por acordos individuais ou coletivos.\n\n- **Sovereign(maximum_daily_working_hours_8h)**: A Constituição também fixa um limite máximo de 8 horas diárias de trabalho, que pode ser ampliado para até 12 horas mediante acordo individual escrito. Este limite é considerado uma norma de ordem pública e não pode ser alterado por acordos coletivos.\n\nNo contexto apresentado, a CCT autorizou um banco de horas sem especificar o modelo de compensação, permitindo uma jornada diária de 10h sob o modelo 5×10. Apesar da negociação coletiva ter flexibilizado certas condições, a decisão do Q-FENG indica que a jornada diária de 10h viola o limite constitucional máximo de 8 horas por dia, estabelecendo uma VIOLACAO.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Sovereign(recognition_of_collective_bargaining)**: Este predicado reflete a prerrogativa da Constituição Brasileira em permitir que convenções e acordos coletivos estabeleçam condições de trabalho diferenciadas, desde que não contrariem normas de ordem pública ou direitos fundamentais dos trabalhadores.\n\n- **Sovereign(maximum_weekly_working_hours_44h)**: Este predicado indica o limite constitucional máximo semanal de 44 horas de trabalho, podendo ser negociado coletivamente até 48 horas. É uma norma que delimita a extensão da jornada semanal.\n\n- **Sovereign(maximum_daily_working_hours_8h)**: Este predicado estabelece o limite constitucional máximo diário de 8 horas de trabalho, podendo ser ampliado para até 12 horas mediante acordo individual escrito. É uma norma de ordem pública que protege os trabalhadores contra jornadas excessivas.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nPara explicar a decisão em termos simples: A Constituição do Brasil diz que ninguém pode trabalhar mais de 8 horas por dia, salvo se houver um acordo individual escrito para até 12 horas. Mesmo que uma convenção coletiva (um tipo de acordo entre empresa e sindicato) permita algo diferente, ela não pode ignorar essa regra básica.\n\nNeste caso específico, a empresa queria usar um sistema onde os funcionários trabalham 10 horas por dia durante cinco dias da semana. Embora a convenção coletiva autorize o banco de horas (um jeito de compensar mais horas trabalhadas em outros momentos), ela não pode permitir que você trabalhe 10 horas todos os dias, porque isso viola a regra constitucional de no máximo 8 horas por dia.\n\nPortanto, mesmo com a convenção coletiva autorizando o banco de horas, a jornada diária de 10 horas é considerada uma violação das normas trabalhistas.",
+  "tokens_in": 523,
+  "tokens_out": 952,
+  "latency_ms": 27905,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,30 @@
+{
+  "sha256": "ee73cb4dc6f9edd7f840568816c79277f663d23a26e46bbaa4b9ef3e8e169933",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-009",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T03:57:35Z",
+  "prompt_sha": "ff8fda303630134604d2d7ffdb2585495e891ee0ed0eaebbd81c40f3a8fb664e",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nA decisão judicial viola o princípio constitucional de **motivação racional** (predicado *constitutional_obligation_to_state_reasons_for_decisions*), pois não fundamenta juridicamente a **rejeição do adicional de 50%** previsto na **Súmula TST 85, V**, mesmo após identificar corretamente a existência de um **banco de horas sem CCT** (predicado *elastic(hour_bank_with_cct_max_1_year)*). O sistema Q-FENG detecta que a decisão **não atende à obrigação de abordar todos os argumentos jurídicos** (predicado *obligation_to_address_all_legal_arguments*), ao omitir a aplicação do adicional de 50% exigido pela Súmula TST 85, V, que é **obrigatório** em casos de banco de horas sem CCT. Além disso, a ausência de fundamentação para afastar o adicional viola o **obrigação de vincular a decisão ao *ratio decidendi* identificado** (predicado *obligation_to_ground_decision_in_identified_ratio_decidendi*), resultando em uma **violação do direito à justiça** (predicado *right_of_access_to_justice_and_judicial_review*).  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: A decisão deve explicitar as **consequências práticas** da aplicação do direito (ex.: pagamento de horas extras com adicional de 50%).  \n- **sovereign(prohibition_of_generic_precedent_citation)**: Proíbe a citação de **precedentes genéricos** (ex.: Súmulas) sem vincular a decisão ao caso concreto.  \n- **sovereign(obligation_to_address_all_legal_arguments)**: O juiz deve **abordar todos os argumentos jurídicos** relevantes (ex.: aplicação do adicional de 50% na Súmula TST 85, V).  \n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão deve **fundamentar-se no *ratio decidendi*** identificado (ex.: adicional de 50% para banco de horas sem CCT).  \n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: Obrigação constitucional de **motivar racionalmente** a decisão (ex.: explicar por que o adicional de 50% não foi aplicado).  \n- **sovereign(recognition_of_collective_bargaining)**: Reconhece a **negociação coletiva** (CCT) como meio de regular o banco de horas, mas **não foi aplicado** no caso concreto.  \n- **sovereign(right_of_access_to_justice_and_judicial_review)**: Garante o **direito à justiça** e à revisão judicial, que foi **violado** pela falta de fundamentação.  \n- **elastic(working_hours_negotiable_by_cct)**: O banco de horas **pode ser regulado por CCT**, mas **não houve CCT** no caso.  \n- **elastic(hour_bank_with_cct_max_1_year)**: O banco de horas com CCT tem **limite de 1 ano**, mas o caso envolve **7 meses sem CCT**, o que **não se enquadra** na Súmula TST 85, V.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA decisão do juiz **não está certa**. Ele **não explicou por que não pagou o adicional de 50%** para as horas extras que você trabalhou (mesmo que tenha feito um banco de horas sem CCT). A **Súmula TST 85, V** diz claramente que, nesse caso, **as horas devem ser pagas com adicional de 50%**. O juiz **não aplicou essa regra** e **não deu nenhuma razão** para isso, o que é **ilegal**. O sistema Q-FENG detectou que a decisão **viola o direito de você ser tratado com justiça** e **não respeita a lei**. Você tem direito a **revisar a decisão** e **receber o adicional de 50%**.",
+  "tokens_in": 559,
+  "tokens_out": 1424,
+  "latency_ms": 45016,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

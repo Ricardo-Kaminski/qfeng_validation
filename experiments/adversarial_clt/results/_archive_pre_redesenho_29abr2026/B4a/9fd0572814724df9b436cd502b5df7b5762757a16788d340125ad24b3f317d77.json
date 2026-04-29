@@ -1,0 +1,30 @@
+{
+  "sha256": "9fd0572814724df9b436cd502b5df7b5762757a16788d340125ad24b3f317d77",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:22:24Z",
+  "prompt_sha": "2c346e302232f51cd44617f62ac2e4fd89f0a43134d5baae82a0990651685d27",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, ao analisar a decisão judicial em embargos de declaração que tratava da omissão na análise do artigo 20 do LINDB (Lei no 12.866/2013) e seu impacto sistêmico no setor econômico, concluiu que a decisão judicial está em conformidade com os princípios e normas estabelecidos. A decisão judicial, ao enfrentar o argumento da omissão, demonstrou ter suprido a lacuna identificada, fundamentando sua análise com base na jurisprudência do Superior Tribunal de Justiça (STJ) sobre a aplicação do LINDB no contexto do direito do trabalho.\n\nA avaliação do Q-FENG considerou a necessidade de o julgador observar a **obrigação de abordar todos os argumentos legais** apresentados (sovereign(obligation_to_address_all_legal_arguments)), a **obrigação de fundamentar a decisão em um *ratio decidendi* identificável e verificável** (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)), e a **obrigação constitucional de motivar as decisões** (sovereign(constitutional_obligation_to_state_reasons_for_decisions)).  A referência à jurisprudência do STJ demonstra o esforço do julgador em fundamentar a decisão, demonstrando que a omissão alegada foi, na verdade, devidamente considerada e justificada.  O sistema também reconhece a **proibição de criar precedentes genéricos** (sovereign(prohibition_of_generic_precedent_citation)), o que reforça a análise casuística e específica do caso concreto.  Apesar da discussão sobre o impacto sistêmico, a decisão se manteve focada no caso individual, evitando generalizações.  A **obrigação de considerar as consequências práticas da decisão para o Estado** (sovereign(obligation_to_state_practical_consequences_of_decision)) foi implicitamente observada ao analisar a aplicabilidade do LINDB no contexto trabalhista.  A **reconhecimento do direito à livre negociação coletiva** (sovereign(recognition_of_collective_bargaining)) também foi relevante para a análise do caso.  Finalmente, o sistema assegura o **direito de acesso à justiça e ao controle judicial** (sovereign(right_of_access_to_justice_and_judicial_review)), garantindo que a parte que alegou a omissão tenha tido a oportunidade de apresentar seus argumentos e ter sua pretensão analisada.\n\nO valor ψ_S de [2.4435] indica um alto grau de concordância entre a decisão judicial e os princípios normativos do sistema Q-FENG, reforçando a conclusão de conformidade.\n\n## 2. PREDICADOS ATIVADOS:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  O julgador deve considerar as consequências práticas da decisão para o Estado, especialmente em relação a políticas públicas e encargos financeiros.\n*   **sovereign(prohibition_of_generic_precedent_citation):**  As decisões judiciais devem ser fundamentadas em casos específicos e não podem criar precedentes genéricos que se apliquem a todas as situações.\n*   **sovereign(obligation_to_address_all_legal_arguments):** O juiz tem a obrigação de analisar e responder a todos os argumentos legais apresentados pelas partes, demonstrando que considerou todas as perspectivas relevantes.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** A decisão deve ser fundamentada em um princípio jurídico específico e identificável, permitindo que a lógica do julgamento seja compreendida e verificada.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):** A Constituição Federal garante o direito ao contraditório e à motivação das decisões judiciais, exigindo que o juiz explique os fundamentos de sua decisão.\n*   **sovereign(recognition_of_collective_bargaining):**  O sistema reconhece a importância da negociação coletiva como forma de regular as relações de trabalho e garantir direitos aos trabalhadores.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):**  Garante o direito de todas as pessoas de acessar o sistema judicial e ter suas pretensões analisadas por um juiz.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"A decisão judicial foi analisada pelo sistema Q-FENG, que verificou que ela está correta. A questão levantada era se o juiz deveria ter analisado um artigo específico da lei (LINDB) que trata do impacto de uma decisão em um setor inteiro da economia. O juiz respondeu a essa questão, mostrando que ele considerou esse ponto, mas que, no caso específico, a lei não se aplica da mesma forma em processos trabalhistas individuais.  Isso significa que, embora o juiz devesse considerar o impacto da decisão, ele não precisava analisar o caso como se fosse algo que afetasse toda a indústria.  A decisão foi bem explicada e baseada em outras decisões do STJ, o que mostra que o juiz seguiu a lei corretamente.  O sistema Q-FENG confirmou que a decisão está de acordo com as regras e princípios do sistema judicial, garantindo que você, trabalhador, teve seus direitos considerados e que a decisão foi tomada de forma justa.\"\n",
+  "tokens_in": 553,
+  "tokens_out": 1215,
+  "latency_ms": 33812,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

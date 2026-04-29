@@ -1,0 +1,30 @@
+{
+  "sha256": "834c6657b34abb9e7c94162c34e6fb2fa4d907592342d80e0ee29e7996f5c9cf",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T06:18:42Z",
+  "prompt_sha": "1a431bd2539a105bc27830e043de65433739a538537c1d00dbf3cc5df9c24aaf",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, ao analisar a decisão da TRT sobre o adicional noturno, concluiu que a ação tomada está em **conformidade** com a legislação e a jurisprudência aplicáveis. Essa conclusão não decorre de uma avaliação da validade da decisão em si, mas sim da observância dos princípios e obrigações que regem a produção de decisões judiciais no âmbito do Direito do Trabalho.\n\nA decisão da TRT, ao aplicar a Súmula TST 60 em um caso de regime de revezamento noturno (12x36 com períodos noturnos fixos), demonstra a correta identificação da *ratio decidendi* (o fundamento essencial da decisão) da Súmula e sua aplicação ao caso concreto. O sistema reconhece que a TRT distinguiu adequadamente o caso em questão de situações de turno fixo não noturno, demonstrando a especificidade do regime de revezamento e a necessidade de aplicação do adicional noturno.\n\nA avaliação do Q-FENG se baseou na observância de princípios fundamentais, expressos nos predicados soberanos ativos, que garantem a justiça e a transparência do processo decisório. A decisão da TRT, ao fundamentar-se na Súmula e analisar o caso concreto, demonstra o cumprimento dessas obrigações. O sistema não se pronunciou sobre o mérito da decisão, mas sim sobre a sua conformidade com os princípios que regem a produção de decisões judiciais.\n\n## 2. PREDICADOS ATIVADOS:\n\nOs predicados soberanos ativos refletem obrigações e princípios fundamentais do sistema de justiça no contexto trabalhista brasileiro.\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  Obrigação de explicitar as consequências práticas da decisão. A TRT cumpriu essa obrigação ao aplicar a Súmula e determinar o pagamento do adicional noturno, tornando claras as implicações financeiras para o empregado.\n*   **sovereign(prohibition_of_generic_precedent_citation):** Proibição de citar precedentes de forma genérica. A TRT evitou a citação genérica da Súmula, analisando-a e demonstrando sua aplicabilidade ao caso concreto.\n*   **sovereign(obligation_to_address_all_legal_arguments):** Obrigação de considerar e responder a todos os argumentos legais apresentados. A TRT, ao distinguir o caso de turno fixo não noturno, demonstrou que considerou outros argumentos relevantes.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** Obrigação de fundamentar a decisão na *ratio decidendi* (o fundamento essencial) do precedente. A TRT fundamentou a decisão na *ratio* da Súmula 60, demonstrando a sua compreensão do seu significado.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):** Obrigação constitucional de motivar as decisões. A TRT cumpriu essa obrigação ao explicar o raciocínio que a levou à aplicação da Súmula.\n*   **sovereign(recognition_of_collective_bargaining):** Reconhecimento da importância da negociação coletiva. Embora não diretamente impactado neste caso, o sistema reconhece a importância da negociação coletiva como fonte de direitos trabalhistas.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):** Direito de acesso à justiça e à revisão judicial. A decisão da TRT garante o direito do trabalhador de ter seu caso analisado e de buscar revisão judicial, caso necessário.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"A Justiça do Trabalho decidiu que você tem direito ao adicional noturno, e a decisão está correta. O sistema Q-FENG analisou essa decisão e confirmou que ela foi tomada de acordo com as regras. Isso significa que a Justiça explicou bem o porquê da decisão, usou a lei certa (a Súmula do Tribunal Superior do Trabalho) e considerou todos os pontos importantes do seu caso.  A decisão foi bem explicada e está de acordo com o que a lei diz.  É importante lembrar que o sistema não decidiu se você ganha ou perde a causa, mas sim se a decisão foi tomada de forma justa e transparente, seguindo as regras do jogo.\"\n",
+  "tokens_in": 582,
+  "tokens_out": 983,
+  "latency_ms": 27453,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

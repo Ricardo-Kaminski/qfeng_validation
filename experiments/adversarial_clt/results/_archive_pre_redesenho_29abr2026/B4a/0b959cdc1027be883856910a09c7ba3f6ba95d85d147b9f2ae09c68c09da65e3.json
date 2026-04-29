@@ -1,0 +1,26 @@
+{
+  "sha256": "0b959cdc1027be883856910a09c7ba3f6ba95d85d147b9f2ae09c68c09da65e3",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T04:17:32Z",
+  "prompt_sha": "42f64b17e4b016fd75d72c1e016a4fe922b18599855e398c8efb7427026ee45a",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação na decisão do juiz do trabalho ao negar seguimento a recurso ordinário de metalúrgico sem especificar qual lei, dispositivo ou fundamento jurídico embasava tal decisão. Esta conclusão é baseada nos predicados soberanos ativos que orientam o sistema:\n\n- **Obrigação de Estabelecer as Consequências Práticas da Decisão**: O juiz deve explicitar como a decisão afeta os direitos e obrigações das partes envolvidas.\n  \n- **Proibição de Citação Genérica de Precedentes**: A decisão não pode se basear em precedentes sem uma análise específica do caso concreto.\n\n- **Obrigação de Abordar Todos os Argumentos Legais Apresentados**: O juiz deve considerar todos os argumentos apresentados pelas partes, demonstrando como cada um foi avaliado na decisão final.\n\n- **Obrigação de Fundamentar a Decisão em Ratio Decidendi Identificada**: A fundamentação da decisão deve estar clara e baseada nos motivos que levaram à conclusão jurídica específica do caso.\n\n- **Obrigação Constitucional de Estabelecer Razões para as Decisões**: Conforme o Art. 93, IX, da CF/88, todas as decisões judiciais devem ser fundamentadas, garantindo transparência e compreensão das razões que levaram àquela conclusão.\n\n- **Direito de Acesso à Justiça e Revisão Judicial**: Assegura-se que os cidadãos tenham a possibilidade de recorrer de decisões judiciais, o que exige uma fundamentação clara para permitir tal revisão.\n\nA combinação desses predicados indica que a decisão do juiz não atendeu aos requisitos mínimos de fundamentação e transparência exigidos pela legislação brasileira, resultando na constatação de violação por parte do Q-FENG.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obrigação de Estabelecer as Consequências Práticas da Decisão**: Juridicamente, isso significa que o juiz deve explicar como a decisão impacta os direitos e obrigações das partes envolvidas no processo.\n\n- **Proibição de Citação Genérica de Precedentes**: No contexto trabalhista brasileiro, isso implica que o juiz não pode se basear em decisões anteriores sem analisar especificamente como esses precedentes se aplicam ao caso atual.\n\n- **Obrigação de Abordar Todos os Argumentos Legais Apresentados**: O juiz deve demonstrar que considerou todos os argumentos apresentados pelas partes, explicando por que alguns foram aceitos e outros rejeitados.\n\n- **Obrigação de Fundamentar a Decisão em Ratio Decidendi Identificada**: Isso exige que o juiz identifique claramente o motivo legal específico que justifica sua decisão, garantindo que ela seja baseada em uma análise jurídica sólida.\n\n- **Obrigação Constitucional de Estabelecer Razões para as Decisões**: Conforme a Constituição Federal de 1988, todas as decisões judiciais devem ser fundamentadas, permitindo que os cidadãos compreendam e contestem, se necessário, as razões pelas quais uma determinada decisão foi tomada.\n\n- **Direito de Acesso à Justiça e Revisão Judicial**: Este princípio garante que qualquer cidadão tenha a possibilidade de recorrer de decisões judiciais, o que exige que as decisões sejam claramente fundamentadas para permitir uma revisão eficaz.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO juiz decidiu não seguir com um recurso feito por um metalúrgico, mas ele não explicou bem o motivo dessa decisão. A lei exige que os juízes expliquem claramente por que tomam certas decisões, para que todos entendam e possam contestar se necessário. O sistema Q-FENG identificou que o juiz não cumpriu essa obrigação de explicar suas razões, o que é importante para garantir que as pessoas tenham acesso à justiça e possam recorrer das decisões judiciais quando acreditarem estar sendo prejudicadas.",
+  "tokens_in": 521,
+  "tokens_out": 1014,
+  "latency_ms": 29406,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

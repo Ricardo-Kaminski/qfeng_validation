@@ -1,0 +1,26 @@
+{
+  "sha256": "4ec1cb627a3e8baac68a5897074f28791d6e2def6b42f0afd025093f607a16a0",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T07:15:28Z",
+  "prompt_sha": "52ec50d5024118233c12c0dc9099b2683840524f81358cf22711748675d6dce8",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após analisar os fatos apresentados e executar o solver Clingo ASP, determinou que a decisão é de **CONFORMIDADE** com as regras e procedimentos legais aplicáveis ao caso. Isso significa que as ações tomadas pela empresa e pelo sindicato estão em conformidade com a CCT celebrada e com as leis trabalhistas brasileiras.\n\nA decisão se baseia nos predicados soberanos ativos, que refletem a obrigação de o sistema considerar os princípios fundamentais do direito trabalhista. A seguir, há uma explicação detalhada sobre cada um desses predicados e sua relevância no contexto da decisão.\n\n**2. PREDICADOS SOBERANOS ATIVOS**\n\n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: Isso significa que o sistema tem a obrigação de informar as consequências práticas da decisão tomada, considerando os efeitos concretos sobre os trabalhadores envolvidos. Nesse caso, a decisão de conformidade indica que não há consequências negativas imediatas para os trabalhadores.\n\n- **sovereign(prohibition_of_generic_precedent_citation)**: Este predicado impõe ao sistema a proibição de citar precedentes genéricos ou sem relação direta com o caso em questão. Isso significa que a decisão não se baseou em casos anteriores semelhantes, mas sim nos fatos específicos do caso.\n\n- **sovereign(obligation_to_address_all_legal_arguments)**: O sistema tem a obrigação de considerar e responder a todos os argumentos legais apresentados. Nesse caso, a decisão de conformidade sugere que todos os argumentos foram considerados e não houve necessidade de alteração da CCT.\n\n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: Isso significa que a decisão deve ser fundamentada em uma razão específica, relacionada ao caso em questão. Aqui, a decisão é baseada na conformidade com as regras da CCT e leis trabalhistas.\n\n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: O sistema tem a obrigação constitucional de informar os motivos que levaram à tomada de cada decisão. Nesse caso, a razão é a conformidade com as leis e a CCT.\n\n- **sovereign(right_of_access_to_justice_and_judicial_review)**: Este predicado garante o direito dos trabalhadores de ter acesso à justiça e ao recurso judicial em caso de desacordo. A decisão de conformidade não impede que os trabalhadores busquem recursos legais se sentirem prejudicados.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nA decisão do sistema Q-FENG é simples: **Tudo está bem conforme as regras!** A empresa e o sindicato seguiram todas as leis trabalhistas e a CCT que foi celebrada. Isso significa que os trabalhadores não precisam se preocupar com nada, pois tudo está em ordem.\n\nA decisão é baseada na ideia de que todos os passos foram seguidos corretamente, desde a celebração da CCT até a compensação das horas extras. Além disso, a empresa e o sindicato cumpriram com todas as leis trabalhistas aplicáveis ao caso.\n\nLembre-se, essa é uma decisão de conformidade, não significa que os trabalhadores não possam buscar recursos legais se sentirem prejudicados. O sistema Q-FENG apenas confirmou que tudo está conforme as regras atuais.",
+  "tokens_in": 532,
+  "tokens_out": 843,
+  "latency_ms": 14125,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

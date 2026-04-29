@@ -1,0 +1,27 @@
+{
+  "sha256": "e858e1ee3adea2ab019b706ca4a9662c8d0b2057a6e4c0ea260c1ca24350d56a",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T03:25:33Z",
+  "prompt_sha": "b97050e315c231d6b6e5297c054469bac0a4b1a90193f416b899771d6bf0a3de",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nA decisão de **VIOLACAO** resulta da incompatibilidade entre a prática da empresa e os **predicados soberanos ativos** da CLT. O **predicado sovereign(recognition_of_collective_bargaining)** confirma que a CCT é um instrumento normativo válido, mas **não pode substituir os limites legais soberanos** estabelecidos na CLT. O **predicado sovereign(maximum_weekly_working_hours_44h)** e **sovereign(maximum_daily_working_hours_8h)** são normas absolutas que **não admitem exceções**, mesmo que a CCT tenha previsto um limite de 80h para o banco de horas. A empresa, ao permitir o acúmulo de 200h, **extrapola o limite soberano**, invalidando o banco de horas para as horas excedentes. O **predicado elastic(working_hours_negotiable_by_cct)**, embora ativo, **não permite a ampliação de limites soberanos**, apenas a negociação dentro dos limites legais. A violação ocorre porque a CCT **não pode redefinir normas soberanas**, mesmo que a empresa alegue que o limite de 80h era \"indicativo\" (não mandatório).  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(recognition_of_collective_bargaining)**:  \n  Confirma que a CCT é um instrumento normativo válido, mas **não pode substituir ou redefinir normas legais soberanas** (como limites de horas de trabalho).  \n- **sovereign(maximum_weekly_working_hours_44h)**:  \n  Estabelece que **não pode haver mais de 44 horas de trabalho por semana**, sob pena de violação da CLT.  \n- **sovereign(maximum_daily_working_hours_8h)**:  \n  Define que **não pode haver mais de 8 horas de trabalho por dia**, independentemente de acordos coletivos.  \n- **elastic(annual_hour_bank_negotiable)**:  \n  Permite que a CCT negocie a existência de um banco de horas, mas **não pode ampliar limites soberanos** (como o máximo de 80h).  \n- **elastic(working_hours_negotiable_by_cct)**:  \n  Permite que a CCT defina condições de trabalho dentro dos limites legais, mas **não pode criar exceções a normas soberanas**.  \n- **elastic(hour_bank_with_cct_max_1_year)**:  \n  Limita o banco de horas a um período máximo de 1 ano, **não podendo ser estendido** por acordos coletivos.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa **não pode permitir que um trabalhador acumule mais de 80 horas em um banco de horas**, mesmo que a CCT tenha previsto esse limite. A CLT (leis trabalhistas) diz claramente que **não pode haver mais de 44 horas por semana ou 8 horas por dia**, e esses limites são **absolutos** — ninguém pode mudá-los, nem a empresa, nem o sindicato. A empresa, ao permitir 200 horas, **viola a lei**, e as horas excedentes de 80h **não são válidas**. O sindicato está certo ao dizer que o banco de horas só vale para as 80h acordadas, e o resto é ilegal. O sistema Q-FENG concluiu que isso é uma **violação**, porque a lei não permite que acordos coletivos \"pulem\" limites legais.",
+  "tokens_in": 514,
+  "tokens_out": 1274,
+  "latency_ms": 39092,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,29 @@
+{
+  "sha256": "67ed87a87bcfe0aace8436fbc0fb9e750a72aa0dfb9d7459e81fe6aa13d95a60",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-007",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T06:54:30Z",
+  "prompt_sha": "1970504ab2b4a3698fb4bb32d084c198f45cfb327a995ae3f86ed94249f3c1d4",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG determinou que houve violação de direitos do empregado, considerando os predicados soberanos ativos. A decisão se baseia na seguinte análise:\n\n*   O empregado acumulou 400 horas em banco de horas previstas em uma Convenção Coletiva de Trabalho (CCT) válida, com prazo de compensação de 12 meses.\n*   Durante esse período, a empresa não disponibilizou folgas compensatórias, alegando necessidade operacional permanente. Além disso, o saldo não foi pago nem compensado ao final do prazo.\n*   A CCT não previa mecanismo de pagamento em caso de não-compensação.\n\nConsiderando esses fatos, os predicados soberanos ativos indicam que a empresa violou direitos trabalhistas. O sistema Q-FENG recomenda ação para sanar essa situação.\n\n**2. PREDICADOS SOBERANOS ATIVOS**\n\nOs predicados soberanos ativos são:\n\n*   `sovereign(semester_hour_bank_requires_cct_or_act)`: Indica que o empregado tem direito a horas bancadas em acordo com a CCT ou uma Convenção Coletiva de Trabalho (ACT).\n*   `sovereign(invalidity_of_clause_suppressing_overtime_payment)`: Sinaliza que cláusulas que suprimem o pagamento de horas extras são inválidas.\n*   `sovereign(weekly_hour_compensation_requires_written_agreement)`: Indica que a compensação por horas trabalhadas excedentes requer acordo escrito entre empregado e empresa.\n*   `sovereign(prohibition_negotiation_reducing_overtime_additional)`: Proíbe negociação de redução do pagamento adicional por horas extras.\n*   `sovereign(overtime_minimum_additional_50pct)`: Estabelece que o pagamento adicional por horas extras deve ser no mínimo 50% do salário normal.\n*   `sovereign(maximum_weekly_working_hours_44h)`: Define que a jornada semanal máxima é de 44 horas.\n*   `sovereign(maximum_daily_working_hours_8h)`: Estabelece que o número máximo de horas trabalhadas por dia é de 8.\n\nEsses predicados indicam que a empresa violou direitos trabalhistas, como pagamento de horas extras e compensação por jornada excedente.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nA decisão do sistema Q-FENG significa que a empresa não cumpriu com as regras estabelecidas para o empregado. O empregado acumulou horas extras e não recebeu compensação ou pagamento por essas horas.\n\nIsso é uma violação dos direitos trabalhistas, pois a empresa não respeitou os acordos estabelecidos entre as partes envolvidas. A decisão recomenda que a empresa tome medidas para sanar essa situação e garantir o cumprimento das regras trabalhistas.\n\nA audiência leiga pode entender isso como uma violação dos direitos do empregado, semelhante à falta de pagamento de horas extras ou compensação. A decisão visa proteger os direitos dos trabalhadores e garantir que as empresas cumpram com as regras estabelecidas.",
+  "tokens_in": 524,
+  "tokens_out": 757,
+  "latency_ms": 12671,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

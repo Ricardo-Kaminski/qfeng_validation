@@ -1,0 +1,27 @@
+{
+  "sha256": "9b058984180d40cc426b19b4a24ee4fcb2673b0bdc75a129ac64fc1e6fc47ba3",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-006",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T03:18:06Z",
+  "prompt_sha": "f639dd1bd0487253b77ed4f47aa1283095e0b4595ae43a9a643ff66481153314",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nA decisão de **CONFORMIDADE** foi emitida com base na análise dos predicados soberanos e elásticos da CLT (Consolidação das Leis do Trabalho), que foram respeitados no cenário descrito.  \n\n- **Predicado soberano ativo**: `sovereign(recognition_of_collective_bargaining)`  \n  A CCT (Convenção Coletiva de Trabalho) foi reconhecida legalmente, o que confere validade à negociação de banco de horas e à flexibilização da jornada, desde que observados os limites legais.  \n\n- **Predicado soberano ativo**: `sovereign(maximum_weekly_working_hours_44h)`  \n  A jornada semanal não ultrapassou 44 horas, conforme estabelecido na CLT, garantindo o direito à descanso semanal remunerado.  \n\n- **Predicado soberano ativo**: `sovereign(maximum_daily_working_hours_8h)`  \n  A jornada diária foi mantida dentro do limite de 8 horas, evitando a violação do princípio da limitação da duração do trabalho.  \n\nOs predicados elásticos (`elastic(annual_hour_bank_negotiable)`, `elastic(working_hours_negotiable_by_cct)`, `elastic(hour_bank_with_cct_max_1_year)`) confirmam que a CCT permitiu a negociação de banco de horas com prazo máximo de 12 meses, algo compatível com a CLT, desde que a compensação ocorra dentro do prazo e respeite os limites de horas extras.  \n\nA ausência de violação dos limites legais (jornada diária e semanal) e a observância da cláusula de compensação dentro do prazo são elementos centrais para a conclusão de **CONFORMIDADE**.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **`sovereign(recognition_of_collective_bargaining)`**  \n  Juridicamente, significa que a CCT foi validada pelo sistema legal, conferindo-lhe força obrigatória para os trabalhadores e a empresa. Isso permite a negociação de termos como banco de horas, desde que compatíveis com a CLT.  \n\n- **`sovereign(maximum_weekly_working_hours_44h)`**  \n  Estabelece que a jornada semanal não pode exceder 44 horas, conforme previsto na CLT (art. 59). No cenário, a compensação de horas extras e a folga compensatória mantiveram a jornada dentro desse limite.  \n\n- **`sovereign(maximum_daily_working_hours_8h)`**  \n  Reflete o limite legal de 8 horas diárias de trabalho (CLT, art. 59), que foi respeitado ao não ultrapassar 2 horas de horas extras por dia.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA situação está **em conformidade com a lei**. A empresa e os trabalhadores seguiram as regras:  \n- A CCT (acordo entre empresa e sindicato) foi respeitada, e a negociação de banco de horas (com folgas em períodos de baixo movimento) foi feita dentro do prazo de 12 meses.  \n- Ninguém trabalhou mais de 8 horas por dia ou 44 horas por semana, o que é exigido por lei.  \n- As horas extras foram compensadas com folgas, e todos os registros (como os extratos mensais) foram entregues.  \n- A cláusula de pagamento de horas extras (se necessário) nunca precisou ser usada, o que mostra que a negociação funcionou como planejado.  \n\nPortanto, **não houve infrações**, e a relação entre empresa e trabalhadores está dentro da legalidade.",
+  "tokens_in": 525,
+  "tokens_out": 1285,
+  "latency_ms": 39968,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

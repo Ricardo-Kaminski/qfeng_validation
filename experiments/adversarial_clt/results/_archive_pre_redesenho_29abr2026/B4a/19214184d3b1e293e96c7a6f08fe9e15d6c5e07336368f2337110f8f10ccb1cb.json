@@ -1,0 +1,27 @@
+{
+  "sha256": "19214184d3b1e293e96c7a6f08fe9e15d6c5e07336368f2337110f8f10ccb1cb",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T07:00:14Z",
+  "prompt_sha": "b3a1b193561e82c62b707b08467d6ec5ca8842b372e04bc8dd0182e3993c8b0e",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG chegou à decisão de \"VIOLACAO\" porque identificou uma incompatibilidade entre a jornada diária de 10 horas estabelecida pela empresa e o limite constitucional de 8 horas de trabalho por dia, previsto no Art. 7°, XIII da Constituição Federal de 1988 (CF/88). A decisão é baseada nos predicados soberanos ativos \"maximum_daily_working_hours_8h\" e \"recognition_of_collective_bargaining\", que indicam a existência de uma norma constitucional que estabelece o limite diário de trabalho e a validade da negociação coletiva, respectivamente.\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\n- **sovereign(recognition_of_collective_bargaining)**: Este predicado indica que a empresa tem reconhecida a negociação coletiva como válida e eficaz para estabelecer condições de trabalho, incluindo jornadas e compensações. Isso significa que as cláusulas da CCT (Convenção Coletiva de Trabalho) têm força normativa.\n\n- **sovereign(maximum_weekly_working_hours_44h)**: Este predicado não é diretamente aplicável ao cenário descrito, pois se refere a um limite semanal de trabalho que não está sendo questionado. O foco da decisão está no limite diário de 8 horas.\n\n- **sovereign(maximum_daily_working_hours_8h)**: Este predicado é crucial para a decisão do sistema Q-FENG. Ele indica que há uma norma constitucional (Art. 7°, XIII da CF/88) que estabelece o limite diário de trabalho em 8 horas.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nO sistema Q-FENG decidiu que a empresa está violando as leis trabalhistas porque está fazendo os funcionários trabalhar mais do que o permitido por dia. A Constituição Federal diz que ninguém pode trabalhar mais de 8 horas por dia, e a empresa está exigindo 10 horas. Além disso, a empresa tem um acordo coletivo (CCT) que permite banco de horas, mas isso não significa que possa ignorar as leis sobre o limite diário de trabalho. A decisão é para proteger os direitos dos trabalhadores e garantir que eles sejam tratados com justiça e respeito.",
+  "tokens_in": 520,
+  "tokens_out": 562,
+  "latency_ms": 9421,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

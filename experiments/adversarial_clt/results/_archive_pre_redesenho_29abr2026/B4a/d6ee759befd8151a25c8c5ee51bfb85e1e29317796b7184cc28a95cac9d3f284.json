@@ -1,0 +1,26 @@
+{
+  "sha256": "d6ee759befd8151a25c8c5ee51bfb85e1e29317796b7184cc28a95cac9d3f284",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-013",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T05:47:20Z",
+  "prompt_sha": "dc2f04dfd84b48a2d0444f231abda0be30bb68d5e7946f908e8847d860d5e8a4",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, ao analisar o cenário apresentado – a decisão do Tribunal Superior do Trabalho (TST) que rejeita a aplicação da ratio decidendi do TST-Ag-RR-868-65.2021.5.13.0030 ao caso de um piloto da aviação civil – concluiu que a decisão está em **conformidade** com os princípios e obrigações estabelecidos pelo ordenamento jurídico brasileiro.\n\nA análise do Q-FENG considerou a complexidade da situação, que envolve a tentativa de transposição de um entendimento consolidado em um setor (bancário) para outro (aéreo), demonstrando a importância de uma análise casuística e fundamentada. A decisão do TST, ao distinguir os fatos e fundamentar a inaplicabilidade da ratio decidendi com base em dispositivos constitucionais (Art. 7º, XIII e XIV da CF/88), demonstra o respeito aos princípios da individualização da justiça e da proporcionalidade.\n\nO sistema, ao determinar a conformidade, reconhece que a decisão do TST não apenas se baseou em uma ratio decidendi identificada, mas também explicou detalhadamente as razões para sua não aplicação, demonstrando a devida ponderação dos argumentos jurídicos e a observância dos princípios constitucionais. A decisão do TST, portanto, não representa uma violação de nenhum direito fundamental ou princípio processual.\n\n## 2. PREDICADOS ATIVADOS:\n\nOs predicados soberanos ativos no Q-FENG refletem as obrigações e direitos fundamentais do processo judicial no Brasil:\n\n*   **sovereign(obligation_to_state_reasons_for_decisions):**  Significa a obrigação do julgador de apresentar, de forma clara e completa, as razões que o levaram à decisão. No contexto trabalhista, isso garante a transparência do processo e permite que as partes compreendam a fundamentação da decisão, possibilitando a eventual revisão judicial.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):**  Impõe a necessidade de que a decisão judicial seja fundamentada em uma ratio decidendi (o princípio ou razão essencial que guia a decisão) previamente identificada. Isso garante a coerência e a previsibilidade do sistema jurídico.\n*   **sovereign(prohibition_of_generic_precedent_citation):**  Impede a utilização de precedentes de forma genérica, sem a devida análise da especificidade do caso concreto. A decisão do TST demonstra o respeito a este predicado ao analisar a distinção fática entre o caso bancário e o caso aéreo.\n*   **sovereign(obligation_to_address_all_legal_arguments):**  Exige que o julgador considere e responda a todos os argumentos jurídicos apresentados pelas partes, mesmo que não sejam favoráveis à sua decisão.\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  Embora não diretamente evidente na narrativa, este predicado implica que a decisão deve considerar as consequências práticas que ela terá para as partes envolvidas.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):** Garante o direito das partes de terem acesso à justiça e de questionarem a decisão judicial em instâncias superiores.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"Imagine que o Tribunal Superior do Trabalho (TST) resolveu um caso no setor bancário sobre como as empresas podem controlar as horas extras dos funcionários. Outro caso, envolvendo um piloto da aviação civil, tentou usar essa mesma decisão como base.\n\nNo entanto, o TST explicou que cada profissão tem suas particularidades. O caso do piloto é diferente do caso do bancário, e por isso a decisão anterior não pode ser aplicada diretamente. O TST se baseou na Constituição para justificar essa decisão, mostrando que a lei precisa ser interpretada de forma justa para cada situação.\n\nO sistema Q-FENG analisou essa decisão do TST e concluiu que ela está correta. Isso porque o TST explicou claramente por que tomou essa decisão, analisou os dois casos com cuidado e respeitou os direitos dos trabalhadores. Em resumo, a decisão do TST é justa e está de acordo com a lei.\"",
+  "tokens_in": 593,
+  "tokens_out": 960,
+  "latency_ms": 26812,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

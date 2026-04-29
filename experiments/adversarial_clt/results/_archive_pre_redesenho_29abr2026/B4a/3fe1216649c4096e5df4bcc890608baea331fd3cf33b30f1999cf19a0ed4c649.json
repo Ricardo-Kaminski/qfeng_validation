@@ -1,0 +1,26 @@
+{
+  "sha256": "3fe1216649c4096e5df4bcc890608baea331fd3cf33b30f1999cf19a0ed4c649",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-011",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T04:28:37Z",
+  "prompt_sha": "303f6d25275850db752b15d9c7d3d948ca264d609c3666e67b0493fb3b36ada5",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação na aplicação do Tema de Repercussão Geral (TRG) no caso em questão, pois o tribunal extrapolou a ratio decidendi — ou seja, o fundamento jurídico central — sem justificar adequadamente sua analogia ao contexto trabalhista privado. A decisão foi considerada violadora dos predicados soberanos ativos, que estabelecem diretrizes claras para garantir a coerência e fundamentação das decisões judiciais.\n\nOs predicados soberanos destacam a necessidade de o tribunal explicar as consequências práticas da sua decisão (obligation_to_state_practical_consequences_of_decision), evitar a citação genérica de precedentes sem análise específica (prohibition_of_generic_precedent_citation) e fundamentar suas decisões no fundamento jurídico identificado (obligation_to_ground_decision_in_identified_ratio_decidendi). Além disso, é obrigatório que o tribunal aborde todos os argumentos legais apresentados (obligation_to_address_all_legal_arguments), justifique as razões de sua decisão (constitutional_obligation_to_state_reasons_for_decisions) e respeite o direito ao acesso à justiça e revisão judicial (right_of_access_to_justice_and_judicial_review).\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obligation to State Practical Consequences of Decision**: O tribunal deve explicar como a decisão afetará as partes envolvidas, garantindo que os impactos práticos sejam claros e justificados.\n\n- **Prohibition of Generic Precedent Citation**: É proibido citar precedentes de forma genérica sem análise específica do caso concreto. Cada decisão deve ser fundamentada em sua própria ratio decidendi, não apenas em precedentes anteriores.\n\n- **Obligation to Address All Legal Arguments**: O tribunal é obrigado a considerar e responder a todos os argumentos legais apresentados pelas partes no processo, garantindo uma análise completa e justa do caso.\n\n- **Obligation to Ground Decision in Identified Ratio Decidendi**: As decisões judiciais devem ser fundamentadas no fundamento jurídico central identificado no precedente aplicado. É necessário demonstrar como esse fundamento é relevante para o caso em questão.\n\n- **Constitutional Obligation to State Reasons for Decisions**: O tribunal deve explicitar as razões pelas quais tomou a decisão, fornecendo uma base clara e compreensível para a sua conclusão.\n\n- **Right of Access to Justice and Judicial Review**: Garante que todos tenham o direito de buscar justiça e revisar decisões judiciais, assegurando um sistema legal justo e acessível.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO tribunal fez uma escolha errada ao usar uma regra que normalmente se aplica a funcionários públicos para decidir sobre o caso de um motorista contratado por uma empresa privada, sem explicar claramente por que essa regra deveria ser aplicada. Isso é importante porque as leis e regras podem variar bastante entre o setor público e o privado.\n\nOs juízes precisam mostrar como suas decisões afetam os envolvidos, responder a todos os argumentos apresentados por ambas as partes e explicar claramente o motivo de sua escolha. Eles também não devem simplesmente citar outras decisões anteriores sem analisar se realmente se aplicam ao caso atual.\n\nEm resumo, o tribunal deveria ter sido mais cuidadoso em justificar a aplicação dessa regra específica e explicado melhor por que achou que ela era relevante para o motorista da empresa privada.",
+  "tokens_in": 509,
+  "tokens_out": 855,
+  "latency_ms": 25078,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

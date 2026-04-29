@@ -1,0 +1,26 @@
+{
+  "sha256": "38519e658b61542dac75268a167ac41616fed8b7128f57be2fed2af37fe41a2e",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:39:04Z",
+  "prompt_sha": "9d50b6baae5bf620474d057d075983b7fc2cc49c5178112cb76b3c707250c756",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG chegou à decisão de violação por meio da análise dos predicados soberanos ativos. Em resumo, o sistema identificou que o relator do acórdão do TST citou expressamente a Súmula 312 do TST como precedente para fundamentar sua decisão, mas essa súmula não existe na base jurisprudencial oficial.\n\nO sistema Q-FENG, ao ativar os predicados soberanos, reconheceu que:\n\n- A obrigação de estabelecer as consequências práticas da decisão (sovereign(obligation_to_state_practical_consequences_of_decision)) foi violada, pois a decisão não tem fundamento em um precedente real.\n- A proibição de citação genérica de precedentes (sovereign(prohibition_of_generic_precedent_citation) também foi violada, pois o relator citou uma súmula inexistente como base para sua fundamentação.\n- A obrigação de abordar todos os argumentos legais apresentados (sovereign(obligation_to_address_all_legal_arguments)) não foi cumprida, pois a decisão se baseia em um precedente falso.\n- A obrigação de fundamentar a decisão com base no julgamento real e verificável (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi) também foi violada.\n- A obrigação constitucional de estabelecer as razões para a decisão (sovereign(constitutional_obligation_to_state_reasons_for_decisions)) não foi cumprida, pois a fundamentação é baseada em um precedente inexistente.\n- O direito de acesso à justiça e revisão judicial (sovereign(right_of_access_to_justice_and_judicial_review) também foi violado.\n\n**2. PREDICADOS ATIVADOS**\n\nOs predicados soberanos ativos significam, juridicamente, no contexto trabalhista brasileiro:\n\n- **Sovereign(obligation_to_state_practical_consequences_of_decision)**: A obrigação de estabelecer as consequências práticas da decisão. Isso significa que a decisão deve ter fundamento em um precedente real e não genérico ou inexistente.\n- **Sovereign(prohibition_of_generic_precedent_citation)**: A proibição de citação genérica de precedentes. Isso significa que os julgados devem ser específicos e identificáveis, e não genéricos ou fictícios.\n- **Sovereign(obligation_to_address_all_legal_arguments)**: A obrigação de abordar todos os argumentos legais apresentados. Isso significa que a decisão deve considerar todas as questões jurídicas relevantes e não apenas aquelas que beneficiam uma das partes.\n- **Sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A obrigação de fundamentar a decisão com base no julgamento real e verificável. Isso significa que a decisão deve ter fundamento em um precedente específico e identificado, e não genérico ou fictício.\n- **Sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: A obrigação constitucional de estabelecer as razões para a decisão. Isso significa que a fundamentação da decisão deve ser clara e transparente, e não baseada em precedentes inexistentes ou genéricos.\n- **Sovereign(right_of_access_to_justice_and_judicial_review)**: O direito de acesso à justiça e revisão judicial. Isso significa que as partes têm o direito de ter suas decisões fundamentadas de forma clara e transparente, e de ter acesso a uma revisão judicial se necessário.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nEm linguagem simples, sem jargão técnico:\n\nO sistema Q-FENG decidiu que o acórdão do TST foi errado porque o relator citou um precedente falso como base para sua decisão. Isso é uma violação dos direitos das partes e da justiça.\n\nEm resumo, a decisão deve ser fundamentada em precedentes reais e identificáveis, e não genéricos ou fictícios. Além disso, as partes têm o direito de ter suas decisões fundamentadas de forma clara e transparente, e de ter acesso a uma revisão judicial se necessário.\n\nA decisão do Q-FENG é que o acórdão do TST deve ser anulado por violação dos direitos das partes e da justiça.",
+  "tokens_in": 571,
+  "tokens_out": 1026,
+  "latency_ms": 17171,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

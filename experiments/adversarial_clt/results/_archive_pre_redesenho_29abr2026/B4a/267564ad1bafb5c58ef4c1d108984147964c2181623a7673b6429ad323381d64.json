@@ -1,0 +1,26 @@
+{
+  "sha256": "267564ad1bafb5c58ef4c1d108984147964c2181623a7673b6429ad323381d64",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-012",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:47:34Z",
+  "prompt_sha": "5a8f6c7e3f499c88bbaaf7f049ff195a1844aab8c62088076ae22a749461e3d3",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG chegou à decisão de violação por ter detectado que o TRT utilizou um precedente do STJ (Superior Tribunal de Justiça) para embasar a tese sobre dano moral trabalhista sem discutir sua compatibilidade com o regime jurídico trabalhista, especialmente em relação aos critérios de fixação de dano moral estabelecidos na CLT após a Reforma de 2017. Isso é consequência da ativação do predicado \"prohibition_of_generic_precedent_citation\", que indica que o uso de precedentes sem considerar sua aplicabilidade específica ao caso trabalhista é incompatível com as normas jurídicas vigentes.\n\nAlém disso, a falta de discussão sobre a compatibilidade do precedente civil com o regime jurídico trabalhista e os critérios estabelecidos na CLT após a Reforma de 2017 ativa o predicado \"obligation_to_address_all_legal_arguments\", que impõe ao TRT a obrigação de considerar todos os argumentos legais relevantes para uma decisão justa. A não observância dessa obrigação é um dos motivos que levaram à decisão de violação.\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: Este predicado indica a obrigação do TRT de explicitar as consequências práticas da sua decisão, ou seja, como essa decisão afetará os direitos e deveres das partes envolvidas. Isso é crucial para garantir que as decisões sejam transparentes e que todos os interessados possam compreender suas implicações.\n\n- **sovereign(prohibition_of_generic_precedent_citation)**: Este predicado proíbe o uso de precedentes sem considerar sua aplicabilidade específica ao caso em questão. Em outras palavras, é errado usar um precedente como base para uma decisão sem discutir se ele realmente se aplica à situação trabalhista em análise.\n\n- **sovereign(obligation_to_address_all_legal_arguments)**: Este predicado impõe ao TRT a obrigação de considerar todos os argumentos legais relevantes para uma decisão justa. Isso inclui tanto as leis e regulamentos aplicáveis quanto as interpretações dos precedentes que sejam pertinentes.\n\n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: Este predicado indica a obrigação do TRT de fundamentar sua decisão nos elementos específicos da ratio decidendi, ou seja, na parte da decisão que é considerada fundamental para a solução do caso. Isso ajuda a garantir que as decisões sejam baseadas em argumentos sólidos e não apenas em opiniões pessoais.\n\n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: Este predicado refere-se à obrigação constitucional de os órgãos judiciários darem razão para suas decisões. Isso é essencial para garantir a transparência e a responsabilidade dos processos judiciais.\n\n- **sovereign(right_of_access_to_justice_and_judicial_review)**: Este predicado garante o direito de acesso à justiça e ao recurso judicial, permitindo que as partes tenham uma chance de revisar e corrigir decisões injustas ou equivocadas.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nO sistema Q-FENG decidiu que o TRT cometeu um erro ao usar um precedente do STJ para decidir sobre dano moral trabalhista sem considerar se ele realmente se aplica à situação específica. Isso é como usar uma regra geral para resolver um problema específico sem pensar se a regra mesmo se aplica.\n\nAlém disso, o TRT não discutiu como sua decisão afetaria as partes envolvidas, o que é importante para garantir que as decisões sejam justas e transparentes. O sistema Q-FENG decidiu que isso é um erro grave e recomendou uma ação de violação.\n\nEm resumo, a decisão do sistema Q-FENG é baseada na ideia de que os órgãos judiciários devem tomar decisões justas e transparentes, considerando todos os argumentos legais relevantes e fundamentando suas decisões em razões sólidas.",
+  "tokens_in": 511,
+  "tokens_out": 1000,
+  "latency_ms": 16733,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

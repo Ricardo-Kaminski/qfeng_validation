@@ -1,0 +1,29 @@
+{
+  "sha256": "fd2d6fb721ef6878ffefb77fe13153f01bbd4e0e19a6a158773310e2bad1709e",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-010",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:01:14Z",
+  "prompt_sha": "69f27e043156ef457f00f79a887aee007d1b5c80255c85fc0fc244f02fff34fc",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, após análise do cenário apresentado e da ACT firmada entre a empresa e o sindicato, concluiu pela **conformidade** da situação. Essa decisão, embora com um grau de incerteza na satisfatibilidade (UNKNOWN), é fundamentada na prevalência de princípios e normas que regem a flexibilização da jornada de trabalho, especialmente quando estabelecida por meio de acordo coletivo.\n\nA avaliação do Q-FENG considerou que, embora o sistema não tenha certeza absoluta sobre a satisfatibilidade, a existência de predicados soberanos ativos que protegem os direitos dos trabalhadores, combinada com a existência de um acordo coletivo formalizado e registrado, indica que a prática do banco de horas, com as limitações estabelecidas (40h mensais de acúmulo e 5 meses de prazo), é, em princípio, compatível com a legislação trabalhista.\n\nA incerteza na satisfatibilidade (UNKNOWN) sugere que a análise do caso específico pode requerer uma avaliação mais aprofundada de outros fatores não contemplados no cenário fornecido, mas a decisão de conformidade é baseada na premissa de que a ACT está sendo cumprida e que os direitos mínimos dos trabalhadores estão sendo respeitados.\n\n## PREDICADOS ATIVADOS: SIGNIFICADO JURÍDICO\n\nOs predicados soberanos ativos, identificados pelo Q-FENG, representam princípios e normas que limitam a flexibilização da jornada de trabalho e protegem os direitos dos trabalhadores. Vejamos o significado de cada um:\n\n*   **sovereign(semester_hour_bank_requires_cct_or_act):**  Este predicado reforça que a implementação de um banco de horas exige, obrigatoriamente, um acordo coletivo (como a ACT apresentada) ou convenção coletiva de trabalho. A ausência de um desses instrumentos torna o banco de horas inválido.\n*   **sovereign(invalidity_of_clause_suppressing_overtime_payment):**  Qualquer cláusula em um acordo ou contrato que tente suprimir o pagamento de horas extras é nula e inválida. A lei garante o pagamento de horas extras, e essa proteção não pode ser eliminada por acordos.\n*   **sovereign(weekly_hour_compensation_requires_written_agreement):**  A compensação de horas trabalhadas além da jornada regular semanal exige um acordo por escrito entre empregador e empregado.\n*   **sovereign(prohibition_negotiation_reducing_overtime_additional):**  É proibido negociar a redução do adicional de horas extras. O adicional mínimo de 50% é um direito irrenunciável do trabalhador.\n*   **sovereign(overtime_minimum_additional_50pct):**  Define que o adicional de horas extras deve ser, no mínimo, de 50% sobre o valor da hora normal de trabalho.\n*   **sovereign(maximum_weekly_working_hours_44h):**  Estabelece o limite máximo de 44 horas semanais para a jornada de trabalho.\n*   **sovereign(maximum_daily_working_hours_8h):**  Define o limite máximo de 8 horas diárias para a jornada de trabalho.\n\nO predicado elástico **elastic(hour_bank_without_cct_max_6_months)** indica que, mesmo com a existência de um acordo coletivo, a duração máxima do banco de horas, sem a formalização em um acordo ou convenção, seria de 6 meses. No caso em tela, a ACT estabelece um prazo de 5 meses, o que está dentro desse limite elástico.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"A empresa está seguindo as regras para o banco de horas que vocês têm. O sistema analisou a situação e disse que, em geral, tudo parece estar certo. Isso porque existe um acordo escrito entre a empresa e o sindicato de vocês, que explica como o banco de horas funciona, com limites para o acúmulo de horas (40 horas por mês) e para o tempo que as horas podem ficar guardadas (5 meses).\n\nÉ importante saber que a lei protege alguns direitos seus, como o direito de receber o pagamento extra pelas horas que você trabalha além do normal. A empresa não pode tirar esse direito de vocês. Além disso, a empresa não pode fazer vocês trabalharem mais do que 8 horas por dia ou 44 horas por semana.\n\nApesar disso, o sistema não tem certeza absoluta se tudo está 100% correto, então é bom ficar de olho e verificar se o extrato do banco de horas que vocês recebem todo mês está correto e se vocês estão recebendo tudo o que têm direito.\"\n",
+  "tokens_in": 536,
+  "tokens_out": 1037,
+  "latency_ms": 28875,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

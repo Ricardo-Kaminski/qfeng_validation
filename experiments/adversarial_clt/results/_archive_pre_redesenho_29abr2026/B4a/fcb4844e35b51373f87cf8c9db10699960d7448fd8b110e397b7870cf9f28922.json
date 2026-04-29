@@ -1,0 +1,27 @@
+{
+  "sha256": "fcb4844e35b51373f87cf8c9db10699960d7448fd8b110e397b7870cf9f28922",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T04:50:49Z",
+  "prompt_sha": "0208fd3b44ceb8a3c69065a3c8ca285bf0e8848068418ebf258a2f76db390f3c",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que há uma violação na situação apresentada com base nos predicados soberanos e elásticos ativos. A decisão de \"VIOLACAO\" reflete a interpretação dos princípios trabalhistas brasileiros, conforme os seguintes aspectos:\n\n- **Predicado Soberano: recognition_of_collective_bargaining**: Este princípio reconhece a importância e a validade das negociações coletivas como meio de estabelecer condições específicas para o trabalho. No contexto atual, a empresa tentou aplicar uma cláusula de renovação automática sem nova negociação coletiva, o que contraria este princípio.\n\n- **Predicado Soberano: maximum_weekly_working_hours_44h e maximum_daily_working_hours_8h**: Estes limites estabelecem a jornada máxima de trabalho permitida por semana e dia. Embora não diretamente relacionados à questão do banco de horas, eles reforçam o contexto regulatório que protege os direitos dos trabalhadores.\n\n- **Predicado Elástico: hour_bank_with_cct_max_1_year**: Este predicado indica que qualquer acordo sobre banco de horas negociado em uma CCT tem um prazo máximo de validade de 1 ano. A tentativa da empresa de estender o banco de horas por mais três meses sem nova negociação viola este limite, conforme contestado pelo sindicato.\n\nPortanto, a decisão de \"VIOLACAO\" é baseada na incompatibilidade entre a prática da empresa e os princípios trabalhistas que exigem renovação coletiva para estender acordos além do prazo máximo estabelecido.\n\n### 2. PREDICADOS ATIVADOS\n\n- **recognition_of_collective_bargaining**: Juridicamente, este predicado assegura que as negociações entre empregadores e sindicatos são o meio legítimo para definir condições de trabalho específicas. Isso significa que qualquer alteração significativa nas condições trabalhistas deve ser negociada coletivamente.\n\n- **maximum_weekly_working_hours_44h**: Este predicado estabelece a jornada máxima semanal de trabalho como 44 horas, conforme determina a legislação brasileira. Qualquer acordo que exceda este limite requer justificativa legal e negociação coletiva.\n\n- **maximum_daily_working_hours_8h**: Define o limite diário de trabalho em 8 horas, reforçando a proteção dos trabalhadores contra jornadas excessivas sem compensação adequada ou acordo prévio.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG decidiu que houve uma violação porque a empresa tentou estender o banco de horas por mais três meses sem negociar novamente com os trabalhadores. Isso é importante porque, segundo as regras do trabalho no Brasil, qualquer acordo sobre banco de horas só pode durar um ano e precisa ser renovado através de negociações entre a empresa e os sindicatos. A empresa não pode simplesmente estender o acordo sem essa nova negociação. Portanto, ao tentar fazer isso, ela violou as regras que protegem os direitos dos trabalhadores.",
+  "tokens_in": 531,
+  "tokens_out": 746,
+  "latency_ms": 21639,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,26 @@
+{
+  "sha256": "75a4c1f43a9385d2bca44d6d87a2067f066186539f5f78d333805c410f08060a",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T05:24:13Z",
+  "prompt_sha": "7626dd764a44642383e3257de8b8d621757b737e7600f11382bfed2c802dacd7",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que a prática da empresa de transporte está em conformidade com as normas aplicáveis, baseando-se nos predicados soberanos ativos identificados na análise do cenário apresentado. A decisão foi fundamentada no cumprimento das obrigações legais e procedimentais estabelecidas pela legislação trabalhista brasileira.\n\nOs predicados soberanos garantem que a empresa está obrigada a declarar as consequências práticas de suas decisões, incluindo o cálculo do adicional noturno. A proibição de citação genérica de precedentes implica que cada caso deve ser avaliado individualmente, sem depender exclusivamente de decisões anteriores não diretamente aplicáveis.\n\nAlém disso, a empresa está obrigada a considerar todos os argumentos legais relevantes e fundamentar suas decisões no ratio decidendi identificado, ou seja, na razão jurídica que justifica a norma aplicável. A constitucionalidade da decisão é assegurada pela obrigação de explicitar as razões pelas quais o adicional noturno é calculado e registrado conforme descrito.\n\nPor fim, a empresa respeita o direito dos trabalhadores ao acesso à justiça e à revisão judicial das suas práticas, garantindo transparência nos contracheques discriminados e no recolhimento mensal do adicional noturno. Esses aspectos consolidam a conformidade da decisão com os princípios jurídicos vigentes.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obligation to state practical consequences of decision**: Juridicamente, isso significa que a empresa deve claramente comunicar como suas práticas afetam os motoristas, especificamente em relação ao cálculo e pagamento do adicional noturno.\n\n- **Prohibition of generic precedent citation**: No contexto trabalhista brasileiro, isto implica que cada situação deve ser avaliada com base nas circunstâncias específicas, sem depender de decisões anteriores que não sejam diretamente aplicáveis ao caso em questão.\n\n- **Obligation to address all legal arguments**: A empresa deve considerar todos os argumentos legais relevantes para garantir que suas práticas estejam alinhadas com a legislação trabalhista, abordando todas as possíveis implicações jurídicas do cálculo e pagamento dos adicionais.\n\n- **Obligation to ground decision in identified ratio decidendi**: Isso significa que a empresa deve fundamentar suas decisões no princípio legal específico que justifica o adicional noturno, garantindo que as práticas estejam alinhadas com a interpretação correta da lei.\n\n- **Constitutional obligation to state reasons for decisions**: A empresa é obrigada a explicar claramente os motivos pelas quais determina certos cálculos e procedimentos, promovendo transparência e justificando suas práticas perante os trabalhadores e autoridades competentes.\n\n- **Right of access to justice and judicial review**: Isso assegura que os motoristas têm o direito de contestar ou revisar judicialmente as decisões da empresa relacionadas ao cálculo e pagamento do adicional noturno, garantindo a proteção dos seus direitos trabalhistas.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG verificou que a forma como sua empresa calcula e paga o adicional noturno está de acordo com as regras do trabalho no Brasil. Isso significa que você, como motorista, recebe corretamente os 20% extras por trabalhar à noite, entre 22h e 5h.\n\nA empresa deve explicar claramente como esses cálculos são feitos e garantir que tudo está registrado de forma transparente nos seus contracheques. Além disso, cada caso é tratado individualmente, sem depender apenas de decisões anteriores que não se aplicam diretamente ao seu trabalho.\n\nSe houver alguma dúvida ou problema com o cálculo do adicional noturno, você tem o direito de buscar ajuda e revisão judicial para garantir que seus direitos estão sendo respeitados. Em suma, a empresa está cumprindo suas obrigações legais em relação ao pagamento do seu trabalho noturno.",
+  "tokens_in": 538,
+  "tokens_out": 981,
+  "latency_ms": 28453,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

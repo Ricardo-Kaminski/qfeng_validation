@@ -1,0 +1,29 @@
+{
+  "sha256": "110e1fae1b1f809631cfd5f7a0809ea8f96f0f96ffcf88ee614ce86771c1569c",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:52:43Z",
+  "prompt_sha": "e49d5e5d7663742fd00bd3c94033461e30c834afe32a9924772ec284ff0e579e",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após analisar os predicados soberanos ativos e as regras de negociação coletiva, chegou à decisão de violação da CCT estabelecida pelo setor hoteleiro. Isso ocorreu porque o sistema identificou que a empresa hoteleira tentou flexibilizar o limite de 1 ano previsto na lei para compensação de horas trabalhadas, o que é vedado pela Súmula TST 85, V.\n\nOs predicados soberanos ativos indicam que o sistema considerou as seguintes regras jurídicas:\n\n* `sovereign(semester_hour_bank_requires_cct_or_act)`: A compensação de horas trabalhadas deve ser feita com base na CCT ou em acordo individual escrito.\n* `sovereign(invalidity_of_clause_suppressing_overtime_payment)`: Cláusulas que suprimem o pagamento de horas extras são inválidas.\n* `sovereign(weekly_hour_compensation_requires_written_agreement)`: A compensação de horas trabalhadas semanalmente requer um acordo escrito.\n* `sovereign(prohibition_negotiation_reducing_overtime_additional)`: Não é permitida a negociação para reduzir o pagamento adicional por horas extras.\n* `sovereign(overtime_minimum_additional_50pct)`: O pagamento adicional por horas extras deve ser no mínimo 50% do salário normal.\n* `sovereign(maximum_weekly_working_hours_44h)`: A jornada semanal máxima é de 44 horas.\n* `sovereign(maximum_daily_working_hours_8h)`: A jornada diária máxima é de 8 horas.\n\nEssas regras foram consideradas pelo sistema Q-FENG, que concluiu que a empresa hoteleira violou as normas estabelecidas pela CCT e pela lei trabalhista brasileira.\n\n**2. PREDICADOS ATIVADOS**\n\nAqui estão as explicações dos predicados soberanos ativos:\n\n* `sovereign(semester_hour_bank_requires_cct_or_act)`: Essa regra indica que a compensação de horas trabalhadas deve ser feita com base na CCT ou em acordo individual escrito. Isso significa que, se o empregado trabalhou mais horas do que previsto no contrato de trabalho, ele tem direito à compensação dessas horas, desde que seja feita por meio da CCT ou de um acordo individual escrito.\n* `sovereign(invalidity_of_clause_suppressing_overtime_payment)`: Essa regra indica que cláusulas que suprimem o pagamento de horas extras são inválidas. Isso significa que qualquer cláusula no contrato de trabalho que exclua ou reduza o pagamento de horas extras é considerada nula e sem efeito.\n* `sovereign(weekly_hour_compensation_requires_written_agreement)`: Essa regra indica que a compensação de horas trabalhadas semanalmente requer um acordo escrito. Isso significa que, se o empregado trabalhou mais horas do que previsto no contrato de trabalho em uma semana, ele tem direito à compensação dessas horas, desde que seja feita por meio de um acordo escrito.\n* `sovereign(prohibition_negotiation_reducing_overtime_additional)`: Essa regra indica que não é permitida a negociação para reduzir o pagamento adicional por horas extras. Isso significa que qualquer tentativa de negociar uma redução no pagamento adicional por horas extras é considerada ilegal.\n* `sovereign(overtime_minimum_additional_50pct)`: Essa regra indica que o pagamento adicional por horas extras deve ser no mínimo 50% do salário normal. Isso significa que, se o empregado trabalhou mais horas do que previsto no contrato de trabalho, ele tem direito a um pagamento adicional de pelo menos 50% do seu salário normal.\n* `sovereign(maximum_weekly_working_hours_44h)`: Essa regra indica que a jornada semanal máxima é de 44 horas. Isso significa que o empregado não pode trabalhar mais de 44 horas por semana, sob pena de violação da lei trabalhista.\n* `sovereign(maximum_daily_working_hours_8h)`: Essa regra indica que a jornada diária máxima é de 8 horas. Isso significa que o empregado não pode trabalhar mais de 8 horas por dia, sob pena de violação da lei trabalhista.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nO sistema Q-FENG decidiu que a empresa hoteleira violou as regras estabelecidas pela CCT e pela lei trabalhista brasileira. Isso significa que a empresa não pode flexibilizar o limite de 1 ano previsto na lei para compensação de horas trabalhadas.\n\nEm linguagem simples, isso significa que:\n\n* Se você trabalhou mais horas do que previsto no contrato de trabalho, você tem direito à compensação dessas horas.\n* A empresa não pode reduzir ou suprimir o pagamento de horas extras.\n* A empresa não pode fazer você trabalhar mais de 44 horas por semana ou mais de 8 horas por dia.\n\nSe a empresa hoteleira continuar a violar essas regras, ela pode ser responsabilizada por violação da lei trabalhista brasileira.",
+  "tokens_in": 549,
+  "tokens_out": 1200,
+  "latency_ms": 20093,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

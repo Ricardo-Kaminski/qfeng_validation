@@ -1,0 +1,26 @@
+{
+  "sha256": "24b8bfffbe88cb570ebc2140abfbf6fbd60af3597b9204975e7c45a51dffb7a0",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:39:31Z",
+  "prompt_sha": "ef87895aa2073a8dab104ed3b64c35ebfd6ccfac066ee3d352b7e193e48dee36",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após analisar o caso e considerar os predicados soberanos ativos, chegou à conclusão de que houve violação (VIOLACAO) da decisão tomada pelo TRT-2ª Região. Isso ocorreu porque a decisão do tribunal não foi fundamentada adequadamente, conforme exigido pelo Código de Processo Civil (CPC), Art. 489, §1°, VI.\n\nA orientação jurisprudencial consolidada do TST, mencionada no acórdão, não foi identificada com precisão, o que é um requisito fundamental para a tomada de decisões judiciais. Além disso, a afirmação de que \"a jurisprudência é pacífica nesse sentido\" não é suficiente para fundamentar uma decisão jurídica.\n\nOs predicados soberanos ativos indicam que o sistema Q-FENG considerou esses aspectos como fundamentais para a tomada da decisão. A narrativa da decisão busca ressaltar a importância de uma fundamentação adequada e precisa nas decisões judiciais, bem como a necessidade de identificar corretamente as orientações jurisprudenciais relevantes.\n\n**2. PREDICADOS ATIVADOS E SUA INTERPRETAÇÃO**\n\n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O sistema Q-FENG considerou que é obrigação do tribunal estabelecer as consequências práticas da decisão tomada, o que não foi feito nesse caso.\n  \n- **sovereign(prohibition_of_generic_precedent_citation)**: A decisão do TRT-2ª Região citou apenas a orientação jurisprudencial consolidada do TST sem especificar quais são essas orientações, violando o princípio de que precedentes devem ser citados genericamente.\n  \n- **sovereign(obligation_to_address_all_legal_arguments)**: O tribunal não abordou todos os argumentos legais apresentados pelo empregado, o que é um requisito para uma decisão justa e fundamentada.\n  \n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão não foi baseada em um precedente específico (ratio decidendi) que seja identificado e aplicado corretamente ao caso concreto.\n  \n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: O tribunal tem a obrigação constitucional de fundamentar suas decisões, o que não ocorreu nesse caso.\n  \n- **sovereign(right_of_access_to_justice_and_judicial_review)**: A decisão do TRT-2ª Região violou o direito do empregado à justiça e ao recurso judicial, pois a fundamentação da decisão foi inadequada.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nO sistema Q-FENG decidiu que houve uma violação porque a decisão do tribunal não explicou corretamente por que ela foi tomada. A decisão do tribunal citou uma orientação jurisprudencial, mas não disse qual é essa orientação. Além disso, o tribunal não considerou todos os argumentos legais apresentados pelo empregado e não baseou sua decisão em um precedente específico.\n\nIsso significa que a decisão do tribunal não foi justa e fundamentada como deveria ser. O sistema Q-FENG está dizendo que o tribunal tem a obrigação de explicar suas decisões de forma clara e precisa, para que as partes envolvidas possam entender por que uma determinada decisão foi tomada.",
+  "tokens_in": 549,
+  "tokens_out": 823,
+  "latency_ms": 13967,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

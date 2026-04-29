@@ -1,0 +1,26 @@
+{
+  "sha256": "510789aa6db0ae00937d3b5eeaa04a8336310c8a9edd4407b85d2efab5a5059f",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:40:30Z",
+  "prompt_sha": "42f64b17e4b016fd75d72c1e016a4fe922b18599855e398c8efb7427026ee45a",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após analisar o caso, chegou à conclusão de que houve violação dos direitos do reclamante. Isso ocorreu porque a decisão do juiz do trabalho não foi fundamentada de acordo com as exigências constitucionais e legais. O predicado \"obligation_to_state_practical_consequences_of_decision\" indica que o sistema espera que as decisões sejam claras e expliquem como elas afetam os direitos dos envolvidos. No entanto, a falta de fundamentação específica sobre qual lei ou dispositivo foi aplicado para justificar a negativa do seguimento ao recurso ordinário viola essa obrigação.\n\nAlém disso, o predicado \"obligation_to_ground_decision_in_identified_ratio_decidendi\" mostra que o sistema espera que as decisões sejam baseadas em precedentes jurídicos específicos e identificados. A falta de menção a algum dispositivo legal ou precedente que justifique a negativa do recurso sugere que essa exigência não foi atendida.\n\nA presença dos predicados \"obligation_to_address_all_legal_arguments\" e \"constitutional_obligation_to_state_reasons_for_decisions\" reforça a necessidade de fundamentação das decisões, destacando a importância da transparência e do respeito aos direitos constitucionais. A falta de fundamentação específica viola essas obrigações.\n\nPor fim, o predicado \"right_of_access_to_justice_and_judicial_review\" é fundamental para garantir que os cidadãos tenham acesso a justiça e possam rever decisões judiciais. A negativa do seguimento ao recurso sem fundamentação adequada pode limitar esse direito.\n\n**2. PREDICADOS ATIVADOS**\n\n- **obligation_to_state_practical_consequences_of_decision**: Exige que as decisões sejam claras e expliquem como elas afetam os direitos dos envolvidos.\n- **prohibition_of_generic_precedent_citation** (não ativo, mas mencionado): Proíbe a citação de precedentes jurídicos genéricos sem especificação do dispositivo legal aplicado.\n- **obligation_to_address_all_legal_arguments**: Exige que as decisões sejam baseadas em todos os argumentos legais relevantes apresentados pelas partes.\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: Exige que as decisões sejam fundamentadas em precedentes jurídicos específicos e identificados.\n- **constitutional_obligation_to_state_reasons_for_decisions**: Exige que as decisões sejam fundamentadas de acordo com os princípios constitucionais, incluindo a necessidade de justificar as razões para as decisões tomadas.\n- **right_of_access_to_justice_and_judicial_review**: Garante o direito dos cidadãos ter acesso à justiça e rever decisões judiciais.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nO sistema Q-FENG decidiu que a negativa do seguimento ao recurso ordinário sem fundamentação adequada viola os direitos do reclamante. Isso significa que o juiz não explicou por que ele não aceitou o recurso, o que é um direito dos cidadãos ter suas decisões fundamentadas e entender como elas afetam seus direitos.\n\nImagine você estando em uma situação sem saber por que foi rejeitada sua solicitação. Isso pode ser frustrante e injusto. O sistema Q-FENG está dizendo que o juiz não cumpriu com suas obrigações de explicar as razões para a decisão, o que é importante para garantir que todos tenham acesso à justiça.\n\nA decisão do sistema Q-FENG é uma forma de proteger os direitos dos cidadãos e garantir que as decisões sejam tomadas de maneira justa e transparente.",
+  "tokens_in": 518,
+  "tokens_out": 884,
+  "latency_ms": 14796,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

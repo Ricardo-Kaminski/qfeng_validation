@@ -1,0 +1,26 @@
+{
+  "sha256": "bc2fe793c0eeba4db9634d5cbd6b9dfd98ccd60b3bb908bca9370424e8cd1a64",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CTRL-NEG-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:33:18Z",
+  "prompt_sha": "dd5d898abce8ca32e525829e1af5dc971f03368ce118747a7507c27bd4ef1684",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, após análise do cenário apresentado – demissão sem justa causa após 3 anos de trabalho, com pagamento integral das verbas rescisórias dentro do prazo legal e habilitação ao seguro-desemprego, tudo formalizado com a assinatura do recibo em presença do sindicato – concluiu pela **CONFORMIDADE**. Essa decisão não se baseia em uma avaliação de mérito da demissão em si, mas sim na constatação de que, *a priori*, a empresa cumpriu com todas as obrigações legais decorrentes da rescisão contratual.\n\nA decisão foi tomada sob a égide de princípios fundamentais do direito, expressos nos predicados soberanos ativos, que garantem a transparência e a legalidade do processo decisório. A satisfatibilidade \"UNKNOWN\" reflete a complexidade inerente a casos trabalhistas, onde a análise aprofundada de nuances fáticas e a interpretação da lei podem gerar diferentes perspectivas. No entanto, a ausência de indícios de irregularidades formais, combinada com o cumprimento das obrigações rescisórias, direcionou o sistema para a conclusão de conformidade.\n\nÉ importante ressaltar que essa decisão não impede que o trabalhador busque seus direitos por outros meios, caso entenda que a demissão foi imotivada ou discriminatória. A conformidade formal não implica necessariamente em justiça material.\n\n## PREDICADOS ATIVADOS E SEU SIGNIFICADO JURÍDICO\n\nOs predicados soberanos ativos no caso em questão são:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  O Q-FENG tem a obrigação de explicitar as consequências práticas da decisão. Neste caso, a conformidade significa que a empresa cumpriu suas obrigações legais e o trabalhador recebeu seus direitos rescisórios.\n*   **sovereign(prohibition_of_generic_precedent_citation):**  O sistema não pode se basear em precedentes genéricos. A decisão é específica para o cenário apresentado e não cria um precedente vinculante para outros casos. Cada situação deve ser analisada individualmente.\n*   **sovereign(obligation_to_address_all_legal_arguments):**  Embora não haja argumentos contrários evidentes no cenário, o sistema tem a obrigação de considerar a possibilidade de tais argumentos e explicitar por que não foram considerados determinantes para a decisão.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** A decisão deve ser fundamentada em um princípio geral do direito (ratio decidendi). Neste caso, o princípio da legalidade e o cumprimento das obrigações rescisórias previstas na CLT são a base da decisão.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):** O sistema deve justificar a decisão, explicando os motivos que a embasaram. A narrativa apresentada cumpre essa obrigação constitucional.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):**  O trabalhador tem o direito de acessar a justiça e questionar essa decisão por meio de ação judicial, caso não concorde com ela.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"Analisamos a sua situação de demissão e, com base nas informações que você nos forneceu, a empresa parece ter cumprido todas as obrigações legais. Isso significa que ela pagou tudo o que era devido: o seu salário, o aviso prévio, as férias, o 13º salário, o FGTS com a multa e conseguiu que você recebesse o seguro-desemprego. Além disso, você assinou o documento de rescisão com a presença do sindicato, o que garante que tudo foi feito corretamente.\n\nA nossa análise não significa que a demissão foi justa ou que você não pode fazer nada. Você ainda pode entrar na justiça se achar que a demissão foi injusta ou se tiver outros motivos para reclamar. Mas, pelo que vimos, a empresa fez tudo o que a lei exige para essa situação.\"\n",
+  "tokens_in": 532,
+  "tokens_out": 898,
+  "latency_ms": 25062,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,26 @@
+{
+  "sha256": "6a13f5b306ef4d14de9b5c32e37d821b1442000697156acac03e8e98e7b59a00",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CTRL-NEG-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T04:07:18Z",
+  "prompt_sha": "f2939f0e6492edddd924d6caf369ebeb9d70b95b1796bba0e04e7028b5864a9f",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a decisão do acórdão trabalhista está em **conformidade com os princípios constitucionais e processuais** da jurisdição brasileira, com base nos predicados soberanos ativos. A satisfação da decisão (UNKNOWN) não invalida a conformidade, pois o sistema prioriza a **adequação normativa** em relação à **viabilidade técnica**.  \n\n- **Obrigação de expor as consequências práticas da decisão** (sovereign(obligation_to_state_practical_consequences_of_decision)) está cumprida, pois o acórdão transcreve a ementa do precedente e aplica sua *ratio* ao caso concreto (banco de horas em CCT bancária).  \n- **Proibição de citação genérica de precedentes** (sovereign(prohibition_of_generic_precedent_citation)) é respeitada, pois o acórdão identifica o número do precedente (TST-Ag-RR-868-65.2021.5.13.0030) e analisa sua compatibilidade fática com o caso.  \n- **Obrigação de abordar todos os argumentos jurídicos** (sovereign(obligation_to_address_all_legal_arguments)) é atendida, pois o acórdão fundamenta a decisão com base no precedente e não omitiu elementos legais relevantes.  \n- **Obrigação de fundamentar a decisão na *ratio decidendi* identificada** (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)) está cumprida, pois o acórdão aplica a *ratio* do precedente ao caso concreto.  \n- **Obrigação constitucional de expor razões para as decisões** (sovereign(constitutional_obligation_to_state_reasons_for_decisions)) é respeitada, pois o acórdão expõe claramente sua fundamentação.  \n- **Direito de acesso à justiça e revisão judicial** (sovereign(right_of_access_to_justice_and_judicial_review)) está garantido, pois a decisão é fundamentada em precedentes verificáveis e não depende de interpretações ambíguas.  \n\nA **conformidade** é recomendada porque a decisão está alinhada com os **princípios da jurisdição brasileira**, mesmo que a satisfação (UNKNOWN) indique uma ambiguidade técnica que não afeta a validade normativa.\n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O tribunal deve explicar **como a decisão afeta a vida prática** das partes (ex.: como o banco de horas será regulado).  \n- **sovereign(prohibition_of_generic_precedent_citation)**: O tribunal **não pode citar precedentes de forma genérica** (ex.: \"como em outros casos\") — deve identificar **números, ementas e compatibilidade fática**.  \n- **sovereign(obligation_to_address_all_legal_arguments)**: O tribunal **deve analisar todos os argumentos** apresentados (ex.: se há outras leis ou precedentes que poderiam influenciar a decisão).  \n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão **deve basear-se na *ratio* do precedente** (ex.: se o precedente diz que \"banco de horas em CCT bancária é compensável\", o acórdão deve aplicar esse princípio).  \n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: O tribunal **deve expor claramente suas razões** para a decisão, evitando fundamentações vagas ou ambíguas.  \n- **sovereign(right_of_access_to_justice_and_judicial_review)**: O trabalhador **tem direito a revisão judicial** e a decisão deve ser **transparente e verificável**, garantindo que não haja arbitrariedade.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO tribunal **fez a coisa certa**. Ele:  \n1. **Usou um precedente específico** (número TST-Ag-RR-868-65.2021.5.13.0030) e explicou como ele se aplica ao caso (banco de horas em CCT bancária).  \n2. **Não deixou nada de lado**: analisou todos os pontos legais e não citou precedentes de forma genérica (ex.: \"como em outros casos\").  \n3. **Explicou claramente por que tomou a decisão**, garantindo que você (trabalhador) possa entender e revisar a decisão se quiser.  \n4. **Respeitou a lei e a Constituição**, garantindo que a decisão seja justa e que você tenha direito a revisão judicial.  \n\nA **conformidade** é recomendada porque a decisão **não viola nenhuma regra** e está **alinhada com a lei e os direitos do trabalhador**. Mesmo que haja alguma ambiguidade técnica (satisfiability: UNKNOWN), a validade da decisão está assegurada.",
+  "tokens_in": 560,
+  "tokens_out": 1676,
+  "latency_ms": 53125,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

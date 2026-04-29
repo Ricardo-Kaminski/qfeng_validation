@@ -1,0 +1,26 @@
+{
+  "sha256": "3b4eda502614215454171e3bc3b09c21bbeb710dd39cfc1821da81fe3c6044de",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CTRL-NEG-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T04:05:37Z",
+  "prompt_sha": "f2939f0e6492edddd924d6caf369ebeb9d70b95b1796bba0e04e7028b5864a9f",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a decisão judicial está **em conformidade com os requisitos normativos** da CLT (Consolidação das Leis do Trabalho) e da jurisprudência do TST (Tribunal Superior do Trabalho), com base nos seguintes predicados soberanos ativos:  \n- **Obrigação de expor as consequências práticas da decisão**: A sentença identificou claramente o precedente citado (TST-Ag-RR-868-65.2021.5.13.0030), transcreveu sua ementa, analisou a compatibilidade fática com o caso concreto (banco de horas em CCT bancária) e aplicou a *ratio decidendi* ao caso. Isso atende ao dever de explicar como a decisão impacta a realidade do trabalhador.  \n- **Proibição de citação de precedentes genéricos**: O acórdão evitou referências vagas ou não verificáveis, citando apenas o precedente existente e verificável, conforme exigido pela CLT.  \n- **Obrigação de abordar todos os argumentos jurídicos**: A análise do caso abrangeu todas as bases legais e jurisprudenciais relevantes, sem omitir ou negligenciar quaisquer argumentos.  \n- **Obrigação de fundamentar a decisão na *ratio decidendi* identificada**: A aplicação do precedente foi feita com rigor, vinculando o caso concreto à *ratio* do precedente (não apenas à ementa, mas ao fundamento jurídico).  \n- **Obrigação constitucional de fundamentar a decisão**: A sentença expôs claramente os motivos da aplicação do precedente, cumprindo o dever de transparência e razoabilidade.  \n- **Direito de acesso à justiça e revisão judicial**: A decisão assegura que o trabalhador possa contestar a aplicação do precedente, garantindo o direito à revisão judicial.  \n\nA **satisfatibilidade UNKNOWN** indica que o sistema não pôde determinar se a decisão é *absolutamente* perfeita (por exemplo, se há lacunas técnicas), mas os predicados soberanos ativos confirmam que **não há violação explícita da CLT ou da jurisprudência**. A recomendação de **CONFORMIDADE** reflete que a decisão está alinhada aos princípios constitucionais e legais, mesmo que possa exigir ajustes em detalhes técnicos.  \n\n---\n\n### 2. **PREDICADOS SOBERANOS ATIVOS**  \n- **obligation_to_state_practical_consequences_of_decision**:  \n  O juiz deve explicar **como a decisão afeta a vida prática do trabalhador** (ex.: se o banco de horas será compensado, se haverá multa ao empregador, etc.). No caso, isso foi feito ao aplicar o precedente ao caso concreto.  \n\n- **prohibition_of_generic_precedent_citation**:  \n  **Proíbe a citação de precedentes genéricos ou não verificáveis**. O acórdão citou apenas o precedente existente (TST-Ag-RR-868-65.2021.5.13.0030), evitando referências ambíguas.  \n\n- **obligation_to_address_all_legal_arguments**:  \n  O juiz deve **abordar todos os argumentos jurídicos** apresentados (ex.: leis, artigos da CLT, precedentes). No caso, todas as bases legais foram analisadas.  \n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**:  \n  A decisão deve ser **fundamentada no fundamento jurídico (ratio) do precedente**, não apenas na ementa. O acórdão aplicou a *ratio* do precedente ao caso concreto.  \n\n- **constitutional_obligation_to_state_reasons_for_decisions**:  \n  O juiz deve **explicar claramente os motivos da decisão**, garantindo transparência e razoabilidade. No caso, a aplicação do precedente foi justificada com rigor.  \n\n- **right_of_access_to_judicial_review**:  \n  O trabalhador deve ter **direito de contestar a aplicação do precedente** em instâncias superiores. A decisão assegura esse direito.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO juiz tomou uma decisão que **respeita a lei e a jurisprudência do TST**. Ele:  \n- **Citou um caso específico** (número TST-Ag-RR-868-65.2021.5.13.0030) e explicou como ele se aplica ao seu caso (banco de horas em uma CCT bancária).  \n- **Não usou referências vagas** ou casos que não existem, garantindo que a decisão seja justa e verificável.  \n- **Explicou claramente** por que a regra do precedente se aplica ao seu caso, sem pular etapas.  \n- **Assegurou que você pode contestar a decisão** se achar que ela está errada.  \n\nA decisão **não está perfeita**, mas **não viola nenhuma regra da CLT ou da Constituição**. O sistema Q-FENG acha que ela está **em conformidade com a lei**, mesmo que precise de ajustes em detalhes.",
+  "tokens_in": 560,
+  "tokens_out": 1826,
+  "latency_ms": 58390,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

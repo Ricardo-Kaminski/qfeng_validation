@@ -1,0 +1,30 @@
+{
+  "sha256": "f19d5fa5ab4823d131e3becbe69f0f509a0cf1decda6166e3a451339edbaeb9e",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T07:06:12Z",
+  "prompt_sha": "21716c3270739daa72072ebded0f26864be227f70f0f8915b7056671a1cc2c17",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após analisar os fatos e as leis aplicáveis ao caso, chegou à decisão de que o banco de horas sem negociação coletiva (CCT) é inválido. Isso ocorreu porque a decisão do juiz fundamenta-se na integração entre o Código Civil e o Código das Leis do Trabalho (CLT), específicamente no Artigo 489, §1°, V, que trata da invalidade de atos jurídicos sem instrumento público. Além disso, a decisão invoca a Súmula TST 85, V e o Acórdão do Tribunal Superior do Trabalho (TST-Ag-RR-868-65.2021), que estabelecem a invalidade de banco de horas sem CCT.\n\nA decisão também destaca a distinção entre o caso concreto e um precedente judicial, pois este último envolvia banco com CCT bancária, enquanto o caso em questão não tem negociação coletiva. A fundamentação explícita do método distinguishing (distinguishing) é mencionada para justificar a aplicação da lei às circunstâncias específicas do caso.\n\n**2. PREDICADOS SOBERANOS ATIVOS**\n\n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: Essa regra pressupõe que o sistema deve informar as consequências práticas da decisão tomada, garantindo a transparência e a clareza na aplicação da lei.\n\n- **sovereign(prohibition_of_generic_precedent_citation)**: Este predicado implica que o sistema não pode simplesmente citar precedentes sem fundamentá-los adequadamente no caso concreto. Isso significa que as decisões devem ser motivadas e justificadas de acordo com os fatos específicos do caso.\n\n- **sovereign(obligation_to_address_all_legal_arguments)**: Essa regra é crucial, pois exige que o sistema considere e responda a todos os argumentos legais relevantes apresentados nos autos do processo. Isso garante que todas as perspectivas jurídicas sejam consideradas.\n\n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: Este predicado significa que o sistema deve fundamentar sua decisão em um ou mais pontos específicos da lei (ratio decidendi), estabelecendo claramente a base legal para a decisão tomada. Isso é essencial para garantir a coerência e a consistência nas decisões judiciais.\n\n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: A Constituição brasileira exige que as decisões judiciais sejam fundamentadas em razões claras e justificáveis. Este predicado garante que o sistema cumpra essa obrigação constitucional.\n\n- **sovereign(recognition_of_collective_bargaining)**: Essa regra reconhece a importância da negociação coletiva (CCT) como mecanismo de resolução de conflitos trabalhistas. O sistema deve considerar e respeitar os acordos coletivos.\n\n- **sovereign(right_of_access_to_justice_and_judicial_review)**: Este predicado protege o direito dos cidadãos ao acesso à justiça e à revisão judicial de decisões, garantindo que as partes tenham a oportunidade de contestar e rever as decisões tomadas.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nA decisão do sistema Q-FENG significa que o banco de horas sem negociação coletiva (CCT) não é válido. Isso ocorreu porque a lei exige que os trabalhadores e empregadores negociem as condições de trabalho, como horas extras, através de um acordo coletivo. Sem isso, o banco de horas pode ser considerado inválido.\n\nImagine você ter um contrato de trabalho sem discutir as horas extras com seu empregador. Isso não é justo e não segue as regras da lei. A decisão do sistema Q-FENG protege os direitos dos trabalhadores ao garantir que as negociações coletivas sejam respeitadas.\n\nEm resumo, a decisão é uma forma de proteger os direitos dos trabalhadores e garantir que as leis sejam aplicadas de forma justa e equânime.",
+  "tokens_in": 583,
+  "tokens_out": 993,
+  "latency_ms": 16875,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

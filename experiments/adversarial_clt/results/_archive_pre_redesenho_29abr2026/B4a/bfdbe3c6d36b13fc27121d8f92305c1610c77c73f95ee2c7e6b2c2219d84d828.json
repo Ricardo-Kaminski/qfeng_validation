@@ -1,0 +1,29 @@
+{
+  "sha256": "bfdbe3c6d36b13fc27121d8f92305c1610c77c73f95ee2c7e6b2c2219d84d828",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-006",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T06:53:42Z",
+  "prompt_sha": "ff70c7792d137b7de9402a61d1ce5256e93238b9419f5483de6bca067860f48c",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG determinou que houve violação das regras trabalhistas brasileiras. Isso ocorreu porque a empresa de limpeza urbana adotou um regulamento interno que estabelece o banco de horas sem a presença de representantes sindicais, apesar da assembleia ter sido realizada com maioria dos empregados presentes.\n\nA decisão é baseada nos predicados soberanos ativos, que indicam que a empresa violou várias regras trabalhistas. Alguns desses predicados são:\n\n- `sovereign(semester_hour_bank_requires_cct_or_act)`: Indica que o banco de horas semestral requer a existência de um Acordo Coletivo de Trabalho (ACT) ou uma Convenção Coletiva de Trabalho (CCT). Nesse caso, não há evidências de que tal acordo tenha sido firmado.\n- `sovereign(invalidity_of_clause_suppressing_overtime_payment)`: Sugere que a cláusula do regulamento interno que suprime o pagamento de horas extras é inválida. Isso porque as horas extras devem ser remuneradas, conforme prevê a legislação trabalhista.\n- `sovereign(weekly_hour_compensation_requires_written_agreement)`: Indica que a compensação por horas trabalhadas semanais requer um acordo escrito entre empregador e empregado. Nesse caso, não há menção a tal acordo.\n- `sovereign(prohibition_negotiation_reducing_overtime_additional)`: Sugere que a negociação de redução do pagamento adicional por horas extras é proibida. Isso porque as horas extras devem ser remuneradas adequadamente.\n\nEsses predicados, juntamente com outros ativos, indicam que a empresa violou várias regras trabalhistas ao adotar o regulamento interno sem a presença de representantes sindicais e sem cumprir as exigências legais para implementação do banco de horas.\n\n**2. PREDICADOS ATIVADOS**\n\n- `sovereign(semester_hour_bank_requires_cct_or_act)`: Indica que o banco de horas semestral requer a existência de um Acordo Coletivo de Trabalho (ACT) ou uma Convenção Coletiva de Trabalho (CCT). Isso é baseado no Art. 59, §2° da CLT, que estabelece que o banco de horas pode ser implementado mediante acordo coletivo de trabalho.\n- `sovereign(invalidity_of_clause_suppressing_overtime_payment)`: Sugere que a cláusula do regulamento interno que suprime o pagamento de horas extras é inválida. Isso porque as horas extras devem ser remuneradas, conforme prevê a legislação trabalhista.\n- `sovereign(weekly_hour_compensation_requires_written_agreement)`: Indica que a compensação por horas trabalhadas semanais requer um acordo escrito entre empregador e empregado. Nesse caso, não há menção a tal acordo.\n- `sovereign(prohibition_negotiation_reducing_overtime_additional)`: Sugere que a negociação de redução do pagamento adicional por horas extras é proibida. Isso porque as horas extras devem ser remuneradas adequadamente.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nO sistema Q-FENG decidiu que a empresa de limpeza urbana violou as regras trabalhistas ao implementar o banco de horas semestral sem seguir as regras certas. Isso significa que os empregados não receberão o pagamento adicional por horas extras, como prevê a lei.\n\nA decisão é baseada em várias irregularidades encontradas no regulamento interno da empresa. Alguns pontos importantes incluem:\n\n- A falta de um acordo coletivo de trabalho ou convenção coletiva de trabalho para implementar o banco de horas.\n- A supressão do pagamento de horas extras, que é obrigatório segundo a lei.\n- A falta de um acordo escrito entre empregador e empregado sobre a compensação por horas trabalhadas semanais.\n\nEssas irregularidades indicam que a empresa não seguiu as regras trabalhistas corretamente. Isso pode ter consequências legais para a empresa, como multas ou até mesmo a invalidação do regulamento interno.",
+  "tokens_in": 541,
+  "tokens_out": 994,
+  "latency_ms": 16655,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

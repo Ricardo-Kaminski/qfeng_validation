@@ -1,0 +1,26 @@
+{
+  "sha256": "aa4ea8a47fc639fe9397018df52b473220145344e473636b5b6298dfe9e60f4a",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T07:15:00Z",
+  "prompt_sha": "f2939f0e6492edddd924d6caf369ebeb9d70b95b1796bba0e04e7028b5864a9f",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após analisar o acórdão trabalhista e os predicados ativos, chegou à decisão de CONFORMIDADE. Isso significa que o caso em julgamento deve ser decidido de acordo com as regras e precedentes estabelecidos pela jurisprudência brasileira.\n\nA decisão foi influenciada pelos predicados soberanos ativos, especialmente:\n\n* A obrigação de estabelecer as consequências práticas da decisão (obligation_to_state_practical_consequences_of_decision);\n* A proibição de citação genérica de precedentes (prohibition_of_generic_precedent_citation), o que significa que a decisão deve ser fundamentada em precedentes específicos e relevantes;\n* A obrigação de abordar todos os argumentos legais pertinentes (obligation_to_address_all_legal_arguments);\n* A necessidade de fundamentar a decisão na ratio decidendi identificada (obligation_to_ground_decision_in_identified_ratio_decidendi), ou seja, na razão fundamental que justifica a decisão;\n* A obrigação constitucional de informar as razões para as decisões tomadas (constitutional_obligation_to_state_reasons_for_decisions);\n* O direito ao acesso à justiça e à revisão judicial (right_of_access_to_justice_and_judicial_review).\n\nEsses predicados ativos garantem que a decisão seja fundamentada, transparente e respeite os princípios constitucionais.\n\n**2. PREDICADOS ATIVADOS**\n\nAqui está uma explicação detalhada de cada um dos predicados soberanos ativos:\n\n* **obligation_to_state_practical_consequences_of_decision**: A obrigação de estabelecer as consequências práticas da decisão significa que a decisão deve ser fundamentada em como sua implementação afetará os envolvidos, incluindo os trabalhadores e a empresa.\n* **prohibition_of_generic_precedent_citation**: A proibição de citação genérica de precedentes significa que a decisão não pode ser baseada em precedentes que não sejam relevantes ou específicos para o caso em julgamento. Isso garante que as decisões sejam fundamentadas em fatos e jurisprudência específicas.\n* **obligation_to_address_all_legal_arguments**: A obrigação de abordar todos os argumentos legais pertinentes significa que a decisão deve considerar todas as leis e regulamentos aplicáveis ao caso, bem como todas as questões jurídicas relevantes.\n* **obligation_to_ground_decision_in_identified_ratio_decidendi**: A necessidade de fundamentar a decisão na ratio decidendi identificada significa que a decisão deve ser baseada em uma razão fundamental e específica que justifique a decisão. Isso garante que as decisões sejam fundamentadas em princípios jurídicos claros.\n* **constitutional_obligation_to_state_reasons_for_decisions**: A obrigação constitucional de informar as razões para as decisões tomadas significa que a decisão deve ser fundamentada em razões legais e constitucionais claras, garantindo transparência e responsabilidade.\n* **right_of_access_to_justice_and_judicial_review**: O direito ao acesso à justiça e à revisão judicial significa que as partes têm o direito de recorrer da decisão se acreditarem que ela foi injusta ou incorreta.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nEm linguagem simples, a decisão do Q-FENG significa que:\n\n\"A decisão deve ser baseada em regras e precedentes estabelecidos pela jurisprudência brasileira. Isso garante que as decisões sejam justas, transparentes e respeitem os direitos dos trabalhadores e da empresa. A decisão não pode ser baseada em precedentes genéricos ou irrelevantes, e deve considerar todas as leis e regulamentos aplicáveis ao caso.\"\n\nEssa tradução destaca a importância de fundamentar as decisões em princípios jurídicos claros e respeitar os direitos das partes envolvidas.",
+  "tokens_in": 555,
+  "tokens_out": 925,
+  "latency_ms": 15500,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

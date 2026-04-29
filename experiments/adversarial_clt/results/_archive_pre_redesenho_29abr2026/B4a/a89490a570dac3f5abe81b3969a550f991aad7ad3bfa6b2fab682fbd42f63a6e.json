@@ -1,0 +1,26 @@
+{
+  "sha256": "a89490a570dac3f5abe81b3969a550f991aad7ad3bfa6b2fab682fbd42f63a6e",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-010",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:46:03Z",
+  "prompt_sha": "616931cfd10c80d27ea65ea3d9f17fc5d70b1e90674a0e5470d9bf3f655e12d8",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG analisou o caso e determinou que houve uma violação (VIOLACAO) dos princípios fundamentais do processo judicial brasileiro. Isso ocorreu porque o juiz, ao decidir sobre os embargos de declaração, omitiu-se em responder a um ponto específico apontado pela parte embargante, relacionado à aplicação de uma tese de recurso para beneficiar a parte contrária sem contraditório.\n\nA decisão do Q-FENG se baseia nos predicados soberanos ativos que indicam a necessidade de o juiz cumprir com as suas obrigações constitucionais e legais. Em especial, os predicados \"obligation_to_state_practical_consequences_of_decision\" e \"obligation_to_address_all_legal_arguments\" demonstram que o sistema considera essencial que o juiz explique as razões pelas quais uma decisão foi tomada e que todas as argumentações legais sejam consideradas.\n\n**2. PREDICADOS ATIVADOS**\n\n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: Este predicado indica a obrigação do juiz de explicar as consequências práticas da sua decisão, ou seja, como essa decisão afetará as partes envolvidas e o caso em questão. Isso é fundamental para garantir que os direitos das partes sejam respeitados e que haja transparência no processo.\n\n- **sovereign(prohibition_of_generic_precedent_citation)**: Este predicado significa que o juiz não pode simplesmente citar precedentes judiciais sem justificar como esses precedentes aplicam-se ao caso específico. Isso evita a criação de decisões arbitrárias baseadas em casos anteriores sem consideração das particularidades do caso atual.\n\n- **sovereign(obligation_to_address_all_legal_arguments)**: Aqui, o sistema enfatiza a necessidade do juiz considerar e responder a todos os argumentos legais apresentados pelas partes. Isso garante que todas as questões relevantes sejam abordadas na decisão.\n\n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: Este predicado destaca a importância de o juiz fundamentar sua decisão em uma razão específica (ratio decidendi) identificada no caso. Isso significa que a decisão deve ser baseada em um princípio legal aplicável ao caso e não apenas em opiniões pessoais ou arbitrárias.\n\n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: Aqui, o sistema enfatiza a obrigação constitucional do juiz de explicar as razões pelas quais uma decisão foi tomada. Isso é essencial para garantir que as decisões sejam justas e transparentes.\n\n- **sovereign(right_of_access_to_justice_and_judicial_review)**: Este predicado ressalta a importância do direito das partes ter acesso à justiça e ao recurso judicial. Isso significa que os processos devem ser conduzidos de forma a garantir que as partes tenham oportunidade de defender seus interesses e que haja revisão das decisões quando necessário.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nO sistema Q-FENG decidiu que o juiz cometeu um erro ao não responder a uma questão importante levantada pela parte embargante. Isso é como se alguém pedisse para explicar por que fez algo e você simplesmente ignorasse a pergunta sem dar nenhuma razão.\n\nO sistema está dizendo que o juiz deve explicar as consequências de suas decisões, considerar todas as argumentações apresentadas e fundamentar sua decisão em uma regra legal específica. Além disso, é importante lembrar que todos têm direito a ter acesso à justiça e a ter suas decisões revisadas se necessário.\n\nEm resumo, o sistema está defendendo que os processos judiciais devem ser conduzidos de forma transparente e justa, com respeito às regras legais e aos direitos das partes envolvidas.",
+  "tokens_in": 515,
+  "tokens_out": 944,
+  "latency_ms": 15812,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

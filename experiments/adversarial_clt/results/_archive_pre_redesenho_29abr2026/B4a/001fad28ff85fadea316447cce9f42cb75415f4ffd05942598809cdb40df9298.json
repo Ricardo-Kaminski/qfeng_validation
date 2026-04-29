@@ -1,0 +1,30 @@
+{
+  "sha256": "001fad28ff85fadea316447cce9f42cb75415f4ffd05942598809cdb40df9298",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-009",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T03:56:50Z",
+  "prompt_sha": "ff8fda303630134604d2d7ffdb2585495e891ee0ed0eaebbd81c40f3a8fb664e",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nA decisão judicial viola os **princípios fundamentais da jurisdição trabalhista**, conforme exigidos pelos **predicados soberanos ativos**. Primeiramente, o **predicado *obligation_to_state_practical_consequences_of_decision*** exige que a sentença **esclareça de forma clara e específica as consequências jurídicas da aplicação da Súmula TST 85, V**, incluindo o **obrigatório adicional de 50% sobre as horas extras**. A decisão omitiu essa explicação, deixando o operador jurídico sem fundamento para a aplicação da norma.  \n\nAlém disso, o **predicado *obligation_to_ground_decision_in_identified_ratio_decidendi*** impõe que a sentença **baseie-se no *ratio decidendi* (fundamento jurídico) da Súmula TST 85, V**, que **exige o pagamento de horas extras com adicional de 50%** em casos de banco de horas sem CCT. A ausência de fundamentação para afastar esse adicional viola o **predicado *constitutional_obligation_to_state_reasons_for_decisions***, que garante o **direito de acesso à justiça** e a **transparência do processo**.  \n\nO **predicado *prohibition_of_generic_precedent_citation*** proíbe a citação genérica de súmulas sem aplicação concreta, o que ocorreu ao citar a Súmula TST 85 sem vincular a decisão ao **predicado *elastic(hour_bank_with_cct_max_1_year)***, que **reconhece a validade do banco de horas apenas com CCT**. A ausência de CCT no caso concreto (7 meses) **não foi considerada** como fator determinante para a aplicação do adicional de 50%, violando o **predicado *recognition_of_collective_bargaining***, que **reconhece a negociação coletiva como condição para a validade de acordos**.  \n\nPor fim, o **predicado *obligation_to_address_all_legal_arguments*** exige que a decisão **trate todos os argumentos jurídicos relevantes**, incluindo a **necessidade de adicional de 50%**. A omissão desse tratamento configura uma **violação da ordem jurídica**, conforme indicado pelo **vetor ψ_S** e pela **ação recomendada (VIOLACAO)**.\n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(obligation_to_state_practical_consequences_of_decision)**:  \n  A sentença deve **esclarecer de forma clara as consequências práticas da decisão**, como o pagamento de horas extras com adicional de 50% em casos de banco de horas sem CCT.  \n- **sovereign(prohibition_of_generic_precedent_citation)**:  \n  Proíbe a citação genérica de súmulas (como a Súmula TST 85) **sem aplicação concreta ao caso**, exigindo que a norma seja vinculada ao contexto jurídico específico.  \n- **sovereign(obligation_to_address_all_legal_arguments)**:  \n  A decisão deve **tratar todos os argumentos jurídicos relevantes**, incluindo a ausência de CCT e a obrigação de adicional de 50%.  \n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**:  \n  A sentença deve **basear-se no *ratio decidendi* (fundamento jurídico) da norma aplicada**, como a Súmula TST 85, V.  \n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**:  \n  Garante o **direito de acesso à justiça** e a **transparência do processo**, exigindo que a decisão **explique por que o adicional de 50% foi omitido**.  \n- **sovereign(recognition_of_collective_bargaining)**:  \n  Reconhece a **negociação coletiva (CCT)** como condição para a validade de acordos, como o banco de horas.  \n- **sovereign(right_of_access_to_justice_and_judicial_review)**:  \n  Garante que a decisão **não seja arbitrária** e que o trabalhador possa **revisar a sentença** com base em fundamentos jurídicos claros.  \n- **elastic(working_hours_negotiable_by_cct)**:  \n  Indica que **horas extras podem ser negociadas via CCT**, mas **não são válidas sem CCT**.  \n- **elastic(hour_bank_with_cct_max_1_year)**:  \n  Estabelece que **o banco de horas é válido apenas com CCT** e **válido por até 1 ano**.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA sentença **não explicou corretamente** o que deve acontecer com as horas extras no caso de um banco de horas sem um acordo coletivo (CCT). A Súmula TST 85, V diz que, **quando não há CCT**, as horas extras devem ser **pagas com 50% de adicional**. No entanto, a sentença **não aplicou esse adicional** e **não explicou por que**, o que é **obrigatório por lei**.  \n\nAlém disso, a sentença **não considerou** que o banco de horas só é válido se houver um CCT (acordo coletivo) e **não foi feito com um CCT** (foram 7 meses sem). Isso **deveria ter feito a sentença aplicar o adicional de 50%**, mas isso **não foi feito**.  \n\nO sistema Q-FENG **identificou essa falha** e **recomenda que a decisão seja considerada inválida**, pois **não seguiu as regras básicas da justiça trabalhista** e **não respeitou os direitos do trabalhador**.",
+  "tokens_in": 559,
+  "tokens_out": 2011,
+  "latency_ms": 64046,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

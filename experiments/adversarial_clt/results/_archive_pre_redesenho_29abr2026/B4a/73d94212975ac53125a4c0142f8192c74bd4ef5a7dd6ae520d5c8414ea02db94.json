@@ -1,0 +1,27 @@
+{
+  "sha256": "73d94212975ac53125a4c0142f8192c74bd4ef5a7dd6ae520d5c8414ea02db94",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-011",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T07:03:37Z",
+  "prompt_sha": "1ba5dabfcaa2bdcb6e6f3d2a77f11a19a64ac5023093b1ae0eb6de908514e992",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG chegou à decisão de \"VIOLACAO\" porque a empresa violou os direitos do trabalhador ao exigir compensação de horas em um prazo que ultrapassou 12 meses do início do banco de horas. A CCT firmada entre a empresa e o sindicato prevê que as horas acumuladas podem ser compensadas dentro de um prazo máximo de 1 ano, mas não há cláusula que suspenda esse prazo durante o período de afastamento por acidente de trabalho.\n\nA decisão do Q-FENG é baseada nos predicados soberanos ativos, que estabelecem os princípios fundamentais da relação trabalhista. O predicado \"recognition_of_collective_bargaining\" reconhece a validade da CCT firmada entre a empresa e o sindicato, enquanto os predicados \"maximum_weekly_working_hours_44h\" e \"maximum_daily_working_hours_8h\" estabelecem as limitações máximas de horas trabalhadas semanalmente e diariamente, respectivamente.\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\nOs predicados soberanos ativos significam o seguinte:\n\n*   **sovereign(recognition_of_collective_bargaining)**: Reconhece a validade da CCT firmada entre a empresa e o sindicato, que estabelece as regras de trabalho e os direitos dos trabalhadores.\n*   **sovereign(maximum_weekly_working_hours_44h)**: Estabelece que o trabalhador não pode ser obrigado a trabalhar mais de 44 horas semanais.\n*   **sovereign(maximum_daily_working_hours_8h)**: Estabelece que o trabalhador não pode ser obrigado a trabalhar mais de 8 horas diárias.\n\nEsses predicados estabelecem os princípios fundamentais da relação trabalhista e garantem os direitos dos trabalhadores.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nA decisão do Q-FENG significa que a empresa não pode exigir compensação de horas em um prazo que ultrapassou 12 meses do início do banco de horas. Isso porque a CCT prevê que as horas acumuladas podem ser compensadas dentro de um prazo máximo de 1 ano, e não há cláusula que suspenda esse prazo durante o período de afastamento por acidente de trabalho.\n\nEm resumo, a empresa violou os direitos do trabalhador ao exigir compensação de horas em um prazo que ultrapassou o permitido pela CCT. A decisão do Q-FENG é baseada nos princípios fundamentais da relação trabalhista estabelecidos pelos predicados soberanos ativos.",
+  "tokens_in": 539,
+  "tokens_out": 628,
+  "latency_ms": 10719,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,29 @@
+{
+  "sha256": "c4402efae4f44175d37f3a3ad27d8874ce29fcec9155f49837816a44262e1aec",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-007",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T02:52:47Z",
+  "prompt_sha": "1970504ab2b4a3698fb4bb32d084c198f45cfb327a995ae3f86ed94249f3c1d4",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG identificou uma **violação normativa** com base nos predicados soberanos ativos da CLT (Consolidação das Leis do Trabalho). A ausência de mecanismo de pagamento no CCT (Convenção Coletiva de Trabalho) para horas acumuladas no banco de horas, combinada com a falta de compensação efetiva ao final do prazo de 12 meses, viola normas fundamentais da CLT.  \n\n- **Predicado `sovereign(semester_hour_bank_requires_cct_or_act)`** impõe que o banco de horas só pode ser estabelecido com base em CCT ou em lei (ACT). A ausência de compensação ou pagamento no CCT viola esse princípio.  \n- **Predicado `invalidity_of_clause_suppressing_overtime_payment`** invalida cláusulas que tentam suprimir o pagamento de horas extras, mesmo que indiretamente (como no caso de horas acumuladas não compensadas).  \n- **Predicado `weekly_hour_compensation_requires_written_agreement`** exige que qualquer compensação de horas seja feita por meio de acordo escrito. A empresa não ofereceu folgas compensatórias, e o CCT não previu pagamento, o que viola a obrigação de compensação ou remuneração.  \n- **Predicado `prohibition_negotiation_reducing_overtime_additional`** proíbe negociações que reduzam a remuneração por horas extras. A ausência de pagamento no CCT é uma forma indireta de redução.  \n- **Predicado `overtime_minimum_additional_50pct`** estabelece que horas extras devem ter adicional de 50%. A não compensação ou pagamento viola esse mínimo.  \n- **Predicado `maximum_weekly_working_hours_44h`** e **`maximum_daily_working_hours_8h`** limitam a jornada, mas a acumulação de 400h em 12 meses sugere que a empresa não respeitou a limitação de horas, mesmo que indiretamente.  \n\nO **vetor ψ_S = [2.7489]** indica uma probabilidade elevada de violação, reforçada pela ausência de cláusulas de pagamento no CCT e pela falta de compensação.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **`sovereign(semester_hour_bank_requires_cct_or_act)`**: O banco de horas só pode ser estabelecido com base em CCT (Convenção Coletiva) ou em lei (ACT). Se o CCT não prevê compensação ou pagamento, o sistema considera que a norma legal (CLT) deve ser aplicada.  \n- **`invalidity_of_clause_suppressing_overtime_payment`**: Cláusulas que tentam evitar o pagamento de horas extras (como no caso de horas acumuladas não compensadas) são inválidas.  \n- **`weekly_hour_compensation_requires_written_agreement`**: A compensação de horas extras por folgas deve ser feita por meio de acordo escrito. A empresa não ofereceu folgas, e o CCT não previu pagamento, o que viola essa exigência.  \n- **`prohibition_negotiation_reducing_overtime_additional`**: Não é permitido negociar reduções no adicional de horas extras (50%). A ausência de pagamento no CCT é uma forma indireta de redução.  \n- **`overtime_minimum_additional_50pct`**: Horas extras devem ter adicional de 50%. A não compensação ou pagamento viola esse mínimo.  \n- **`maximum_weekly_working_hours_44h`** e **`maximum_daily_working_hours_8h`**: Limitam a jornada de trabalho. A acumulação de 400h em 12 meses sugere que a empresa não respeitou esses limites, mesmo que indiretamente.  \n- **`elastic(hour_bank_without_cct_max_6_months)`**: Se o banco de horas não estiver previsto no CCT, o prazo máximo para compensação é de 6 meses. O CCT aqui previu 12 meses, mas a ausência de pagamento ou compensação viola a norma.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO empregado acumulou 400 horas no banco de horas, mas a empresa não ofereceu folgas para compensar e nem pagou essas horas. O CCT (acordo entre empresa e sindicato) não tinha regra para pagar essas horas se não fossem compensadas.  \n\nA lei brasileira (CLT) diz que:  \n- O banco de horas só pode existir se estiver no CCT ou em lei.  \n- Se as horas não forem compensadas, a empresa deve pagar.  \n- Não é permitido negociar menos de 50% de adicional por horas extras.  \n- A empresa não pode forçar o trabalhador a trabalhar mais de 8h por dia ou 44h por semana.  \n\nComo o CCT não previu pagamento e a empresa não compensou as horas, a lei entra em ação para garantir que o empregado receba o que lhe é devido. A empresa **viola a lei** ao não cumprir essas regras.",
+  "tokens_in": 526,
+  "tokens_out": 1758,
+  "latency_ms": 56265,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

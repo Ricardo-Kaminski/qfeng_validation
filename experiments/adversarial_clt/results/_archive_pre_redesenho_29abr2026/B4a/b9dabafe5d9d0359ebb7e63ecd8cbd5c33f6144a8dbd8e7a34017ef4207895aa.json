@@ -1,0 +1,30 @@
+{
+  "sha256": "b9dabafe5d9d0359ebb7e63ecd8cbd5c33f6144a8dbd8e7a34017ef4207895aa",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-007",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T03:50:00Z",
+  "prompt_sha": "db7b7f8d2770500cb0104fdeeec443628af6b6ec1fc50f5b30f49d02934b8843",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG, ao analisar a decisão judicial do TRT, concluiu que a **decisão está em conformidade com os princípios constitucionais e legais vigentes**, conforme os predicados soberanos ativos. A **obrigação de explicitar as consequências práticas da decisão** (sovereign(obligation_to_state_practical_consequences_of_decision)) foi cumprida ao determinar a reintegração da trabalhadora e a nulidade da dispensa. A **proibição de citar precedentes genéricos** (sovereign(prohibition_of_generic_precedent_citation)) foi respeitada ao fundamentar a decisão com a OJ 399 da SDI-1, que explicita a **não necessidade de comunicação prévia da gravidez** ao empregador. A **obrigação de abordar todos os argumentos jurídicos** (sovereign(obligation_to_address_all_legal_arguments)) foi satisfeita ao considerar a data da gravidez e a inexistência de justa causa. A **fundamentação baseada no ratio decidendi identificado** (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)) foi cumprida ao vincular a decisão ao art. 10, II, \"b\" da CF/88 (ADCT), que garante a estabilidade provisória. A **obrigação constitucional de expor razões** (sovereign(constitutional_obligation_to_state_reasons_for_decisions)) foi observada ao detalhar o raciocínio jurídico. A **reconhecimento da negociação coletiva** (sovereign(recognition_of_collective_bargaining)) e o **direito de acesso à justiça** (sovereign(right_of_access_to_judicial_review)) foram respeitados ao garantir a proteção da trabalhadora e a revisão judicial da decisão.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O tribunal deve explicitar as **consequências concretas** da decisão (ex.: reintegração da trabalhadora, indenização, etc.).  \n- **sovereign(prohibition_of_generic_precedent_citation)**: Proíbe a **citação de precedentes genéricos** (ex.: \"a jurisprudência diz que...\") sem vinculação a normas específicas (ex.: OJ 399).  \n- **sovereign(obligation_to_address_all_legal_arguments)**: O tribunal deve **analisar todos os argumentos jurídicos** apresentados (ex.: data da gravidez, justa causa, etc.).  \n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão deve ser fundamentada em **razões jurídicas identificáveis** (ex.: art. 10, II, \"b\" da CF/88).  \n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: O tribunal deve **explicar claramente as razões** para a decisão, conforme exigido pela Constituição (art. 5º, XXXV).  \n- **sovereign(recognition_of_collective_bargaining)**: Reconhece a **negociação coletiva** como fonte de direitos (ex.: convenções coletivas que podem ampliar proteções).  \n- **sovereign(right_of_access_to_judicial_review)**: Garante o **direito de revisão judicial** da decisão, assegurando a legitimidade do processo.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA decisão do TRT está **correta** e **respeita a lei**. O juiz:  \n- **Explicou claramente** o que vai acontecer (a trabalhadora volta ao emprego e a demissão é anulada).  \n- **Não usou frases genéricas** como \"a lei diz que...\" sem citar a norma específica (ex.: OJ 399, que diz que a empresa **não precisa saber da gravidez** antes de demitir).  \n- **Analisou todos os pontos** (ex.: a gravidez foi antes da demissão, não houve justa causa).  \n- **Baseou a decisão em leis reais** (ex.: a Constituição protege gestantes).  \n- **Explicou por que decidiu** (não foi por \"sorte\", mas por direitos garantidos).  \n- **Respeitou a negociação coletiva** (ex.: convenções que podem proteger mais os trabalhadores).  \n- **Garantiu que a decisão pode ser revisada** se houver erro.  \n\n**Resumo**: A empresa **não pode demitir uma gestante** sem justa causa, e o juiz **fez tudo certo** ao proteger a trabalhadora.",
+  "tokens_in": 587,
+  "tokens_out": 1692,
+  "latency_ms": 54094,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

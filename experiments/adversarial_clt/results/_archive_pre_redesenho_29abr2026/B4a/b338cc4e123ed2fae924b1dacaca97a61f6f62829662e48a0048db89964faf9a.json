@@ -1,0 +1,26 @@
+{
+  "sha256": "b338cc4e123ed2fae924b1dacaca97a61f6f62829662e48a0048db89964faf9a",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CTRL-NEG-001",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T04:02:29Z",
+  "prompt_sha": "10b999c1978cb6ff2256926b41518f7e0ab9d2b1c6d6aeefb718ef2123bf70b9",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a empresa está em **conformidade** com as normas trabalhistas brasileiras com base no cumprimento rigoroso dos requisitos legais e na transparência dos processos. A decisão é fundamentada nos **predicados soberanos ativos**, que garantem:  \n- **Obrigação de explicitar as consequências práticas da decisão** (ex.: a ausência de horas extras e o cumprimento da jornada de 8 horas diárias são claros e não geram ambiguidades).  \n- **Proibição de citar precedentes genéricos** (ex.: a empresa não se vale de interpretações vagas da legislação, mas segue regras específicas, como a jornada de 44 horas semanais).  \n- **Obrigação de abordar todos os argumentos jurídicos** (ex.: a ausência de reclamações trabalhistas pendentes e a conformidade com a CLT são verificáveis).  \n- **Obrigação de fundamentar a decisão em ratio decidendi identificada** (ex.: a decisão está baseada em normas claras, como a jornada legal e a obrigatoriedade de intervalos intrajornada).  \n- **Obrigação constitucional de justificar a decisão** (ex.: a empresa explica de forma transparente os motivos de sua conformidade, como o uso de registros eletrônicos auditáveis).  \n- **Direito de acesso à justiça e revisão judicial** (ex.: a empresa não restringe o direito dos trabalhadores de contestar decisões, mesmo que não haja reclamações atuais).  \n\nA **satisfatibilidade UNKNOWN** indica que o sistema não pode confirmar com certeza absoluta a conformidade, mas os predicados soberanos garantem que a decisão está alinhada com a lei e com os direitos fundamentais.\n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: A empresa deve explicitar as consequências práticas de suas políticas (ex.: a jornada de 8 horas e 44 horas semanais não gera horas extras, o que evita ambiguidades).  \n- **sovereign(prohibition_of_generic_precedent_citation)**: A empresa não pode usar interpretações genéricas da legislação (ex.: ela segue regras específicas, como a jornada legal, em vez de se basear em precedentes imprecisos).  \n- **sovereign(obligation_to_address_all_legal_arguments)**: A empresa deve considerar todos os argumentos jurídicos relevantes (ex.: a ausência de reclamações trabalhistas e a conformidade com a CLT são verificáveis).  \n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão deve ser fundamentada em razões jurídicas claras (ex.: a jornada de 8 horas e os intervalos intrajornada são baseados em normas da CLT).  \n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: A empresa deve justificar suas decisões de forma transparente (ex.: os registros eletrônicos auditáveis e a ausência de horas extras são explicados de forma clara).  \n- **sovereign(right_of_access_to_justice_and_judicial_review)**: A empresa não pode restringir o direito dos trabalhadores de contestar decisões (ex.: mesmo sem reclamações pendentes, os trabalhadores têm acesso a mecanismos de revisão judicial).  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa está **cumprindo todas as regras** da legislação trabalhista. Ela não exige que os funcionários trabalhem mais do que 8 horas por dia ou 44 horas por semana, não tem horas extras, e dá uma hora de pausa para o almoço. Todos os registros de ponto são feitos por computador e podem ser verificados. Mesmo que o sistema não tenha certeza absoluta de que tudo está perfeito, a empresa está seguindo as leis de forma clara e transparente, e ninguém tem motivos para reclamar. A decisão de que a empresa está em conformidade é baseada em regras específicas, não em interpretações vagas, e todos os direitos dos trabalhadores são respeitados.",
+  "tokens_in": 519,
+  "tokens_out": 1466,
+  "latency_ms": 46312,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,27 @@
+{
+  "sha256": "8a8f8acf44009e4ef043ef2cf8217d75120eec722d7c1e0756b154ad20fd04d7",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T06:59:21Z",
+  "prompt_sha": "a441ed131081be5a67de4fae29354418a5514d888c32e5d9d10bc7c36186be20",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG analisou o cenário e concluiu que houve uma violação das normas trabalhistas. A empresa adquirida pelo grupo empresarial não renovou a CCT (Convenção Coletiva de Trabalho) com o sindicato, mas continuou aplicando as cláusulas do banco de horas após o prazo de vigência original da CCT.\n\nEssa decisão se baseia nos predicados soberanos ativos \"recognition_of_collective_bargaining\" e \"maximum_weekly_working_hours_44h\", que indicam a importância da negociação coletiva e do limite máximo de horas semanais de trabalho. Além disso, o predicado \"max_daily_working_hours_8h\" também está ativo, reforçando a necessidade de respeitar os limites diários de trabalho.\n\nO sistema Q-FENG considerou que a empresa sucessora não cumpriu com as obrigações decorrentes da CCT e, consequentemente, violou as normas trabalhistas. Portanto, a decisão é de que houve uma violação das regras.\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\nAqui estão os predicados soberanos ativos com suas explicações jurídicas:\n\n- **recognition_of_collective_bargaining**: Esse predicado indica a importância da negociação coletiva entre empregadores e sindicatos. No Brasil, a negociação coletiva é um direito fundamental dos trabalhadores, previsto na Constituição Federal (artigo 9º). A empresa deve respeitar as condições negociadas com o sindicato.\n\n- **maximum_weekly_working_hours_44h**: Esse predicado estabelece que a jornada de trabalho semanal não pode exceder 44 horas. Essa é uma norma trabalhista prevista na CLT (Consolidação das Leis do Trabalho), que visa proteger a saúde e o bem-estar dos trabalhadores.\n\n- **maximum_daily_working_hours_8h**: Esse predicado estabelece que a jornada de trabalho diária não pode exceder 8 horas. Essa é outra norma trabalhista prevista na CLT, com o objetivo de evitar o excesso de trabalho e proteger a saúde dos trabalhadores.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nEm linguagem simples, a decisão do sistema Q-FENG significa que:\n\n\"A empresa não cumpriu com as regras trabalhistas ao não renovar a CCT com o sindicato e continuar aplicando as cláusulas do banco de horas após o prazo. Isso é uma violação das normas trabalhistas, pois a empresa deve respeitar os acordos feitos com os sindicatos e seguir as regras para proteger a saúde dos trabalhadores.\"\n\nEssa decisão visa proteger os direitos dos trabalhadores e garantir que as empresas cumpram com as normas trabalhistas.",
+  "tokens_in": 495,
+  "tokens_out": 686,
+  "latency_ms": 11469,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

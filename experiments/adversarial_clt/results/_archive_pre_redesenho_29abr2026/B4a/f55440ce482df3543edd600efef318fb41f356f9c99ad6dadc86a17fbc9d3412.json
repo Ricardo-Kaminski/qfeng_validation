@@ -1,0 +1,26 @@
+{
+  "sha256": "f55440ce482df3543edd600efef318fb41f356f9c99ad6dadc86a17fbc9d3412",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:44:22Z",
+  "prompt_sha": "edebec9d75758a7769d5b8b57f9d98a0d77aec6e3dfbd734a37cbb83239e8736",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após analisar o acórdão da TRT que cita a OJ 394 da SDI-1 do TST para embasar condenação por horas de sobreaviso, identificou que essa Orientação Jurisprudencial foi cancelada em 2012 e incorporada à Súmula 428 com conteúdo parcialmente distinto. No entanto, a decisão não menciona a Súmula 428 nem reconhece o cancelamento da OJ 394.\n\nDiante disso, o sistema Q-FENG atuou sob os predicados soberanos que estabelecem a obrigação de o julgador considerar as consequências práticas da decisão (obligation_to_state_practical_consequences_of_decision), proibir a citação de precedentes genéricos (prohibition_of_generic_precedent_citation) e garantir que todos os argumentos legais sejam abordados (obligation_to_address_all_legal_arguments).\n\nAlém disso, o sistema Q-FENG também considerou a necessidade de fundamentar a decisão em uma razão decidendi específica (obligation_to_ground_decision_in_identified_ratio_decidendi) e ressaltou a importância da motivação das decisões judiciais para garantir transparência e acesso à justiça (constitutional_obligation_to_state_reasons_for_decisions).\n\nPor fim, o sistema Q-FENG concluiu que a decisão não atende aos padrões de qualidade e transparência esperados em processos judiciais, recomendando a violação da decisão.\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\n- **obligation_to_state_practical_consequences_of_decision**: O julgador tem a obrigação de considerar as consequências práticas da decisão tomada, garantindo que ela seja razoável e justa.\n  \n- **prohibition_of_generic_precedent_citation**: É proibido ao julgador citar precedentes genéricos sem fundamentá-los em casos específicos, evitando assim a criação de leis não escritas.\n\n- **obligation_to_address_all_legal_arguments**: O julgador tem a obrigação de abordar todos os argumentos legais apresentados pelas partes envolvidas no processo.\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: A decisão deve ser fundamentada em uma razão decidendi específica, ou seja, na base jurídica que justifica a conclusão do julgador.\n\n- **constitutional_obligation_to_state_reasons_for_decisions**: O sistema judiciário tem a obrigação constitucional de motivar as suas decisões para garantir transparência e acesso à justiça.\n\n- **right_of_access_to_justice_and_judicial_review**: Garante o direito das partes de ter acesso à justiça e ao recurso judicial, permitindo que os erros possam ser corrigidos.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nO sistema Q-FENG decidiu que a decisão tomada pela TRT não é justa porque ela se baseia em uma regra que já foi cancelada e substituída por outra. Além disso, a decisão não explica como essa regra foi aplicada de forma justa.\n\nO sistema Q-FENG está dizendo que o juiz deveria ter considerado as consequências práticas da sua decisão, ou seja, como ela afetaria as partes envolvidas. Além disso, o juiz não pode simplesmente citar regras sem explicar por quê.\n\nA decisão do sistema Q-FENG é que a decisão tomada pela TRT viola os princípios da justiça e da transparência. Isso significa que as partes envolvidas têm o direito de recorrer e tentar corrigir o erro.",
+  "tokens_in": 516,
+  "tokens_out": 873,
+  "latency_ms": 14593,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

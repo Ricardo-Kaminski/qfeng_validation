@@ -1,0 +1,29 @@
+{
+  "sha256": "074323dd5b3da5a7f3b5d29e135a24737fadaf016ae94351ce636932fb98af0c",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T02:55:30Z",
+  "prompt_sha": "85be4e9fc6b0e8305c982455c7b1416641f688c9050ea4b7fedf4fae6b54fd4b",
+  "response_text": "---\n\n### **1. NARRATIVA DA DECISÃO Q-FENG**  \nA decisão do sistema Q-FENG, com base nos predicados soberanos ativos, fundamenta-se no seguinte raciocínio jurídico:  \n\n- **Predicado `sovereign(semester_hour_bank_requires_cct_or_act)`** estabelece que o banco de horas só pode ser instituído mediante acordo coletivo (CCT) ou convenção coletiva de trabalho (ACT). No caso, o banco foi estabelecido por ACT, o que é legalmente válido.  \n\n- **Predicado `invalidity_of_clause_suppressing_overtime_payment`** afirma que cláusulas que anulam o pagamento de horas extras são nulas. A empresa argumenta que a demissão do trabalhador \"desfaz a lógica compensatória\", mas essa justificativa não invalida o direito ao pagamento das horas extras pendentes, já que a lei não permite que a rescisão elide o cumprimento de obrigações trabalhistas.  \n\n- **Predicado `weekly_hour_compensation_requires_written_agreement`** reforça que a compensação de horas extras deve ser pactuada por escrito. Como o banco de horas foi estabelecido por ACT (escrito), a compensação está legalmente amparada.  \n\n- **Predicado `prohibition_negotiation_reducing_overtime_additional`** impede negociações que reduzam a remuneração por horas extras. A empresa não pode se valer da demissão para negar o pagamento de 60h extras, já que a lei garante esse direito independentemente da vontade do empregado.  \n\n- **Predicado `overtime_minimum_additional_50pct`** exige que as horas extras sejam remuneradas com, no mínimo, 50% de acréscimo. O saldo positivo de 60h deve ser pago com esse percentual, independentemente da demissão.  \n\n- **Predicado `maximum_weekly_working_hours_44h`** e **`maximum_daily_working_hours_8h`** limitam o tempo de trabalho, mas não são diretamente relevantes ao caso, já que o foco é a compensação de horas extras.  \n\nO **vetor ψ_S** ([2.7489]) indica uma probabilidade elevada de violação, e a **ação recomendada** (VIOLACAO) é baseada na incompatibilidade entre a recusa da empresa em pagar as horas extras e os direitos garantidos pelos predicados soberanos. A demissão não pode ser usada como justificativa para negar direitos trabalhistas, especialmente quando há um saldo positivo no banco de horas.  \n\n---\n\n### **2. PREDICADOS ATIVADOS**  \n**a) `sovereign(semester_hour_bank_requires_cct_or_act)`**  \n- **Significado jurídico**: O banco de horas só pode ser instituído mediante acordo coletivo (CCT) ou convenção coletiva de trabalho (ACT). No caso, o banco foi estabelecido por ACT, o que é legalmente válido.  \n\n**b) `invalidity_of_clause_suppressing_overtime_payment`**  \n- **Significado jurídico**: Cláusulas que anulam o pagamento de horas extras são nulas. A empresa não pode se valer da demissão para negar esse direito.  \n\n**c) `weekly_hour_compensation_requires_written_agreement`**  \n- **Significado jurídico**: A compensação de horas extras deve ser pactuada por escrito. Como o banco de horas foi estabelecido por ACT (escrito), a compensação está legalmente amparada.  \n\n**d) `prohibition_negotiation_reducing_overtime_additional`**  \n- **Significado jurídico**: Negociações que reduzam a remuneração por horas extras são proibidas. A empresa não pode negar o pagamento de 60h extras com base na demissão.  \n\n**e) `overtime_minimum_additional_50pct`**  \n- **Significado jurídico**: As horas extras devem ser remuneradas com, no mínimo, 50% de acréscimo. O saldo positivo de 60h deve ser pago com esse percentual.  \n\n**f) `maximum_weekly_working_hours_44h`** e **`maximum_daily_working_hours_8h`**  \n- **Significado jurídico**: Limitam o tempo de trabalho, mas não são diretamente relevantes ao caso, já que o foco é a compensação de horas extras.  \n\n**g) `elastic(hour_bank_without_cct_max_6_months)`**  \n- **Significado jurídico**: O banco de horas, se não for estabelecido por CCT, tem limite de 6 meses. No caso, o banco foi estabelecido por ACT (não CCT), mas o prazo de 7 meses pode ser considerado excessivo, o que pode gerar uma violação.  \n\n---\n\n### **3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa não pode negar o pagamento de 60 horas extras ao trabalhador, mesmo após a demissão. Isso porque:  \n\n- O banco de horas foi feito por meio de um acordo coletivo (ACT), que é legal.  \n- A lei diz que você não pode negar o pagamento de horas extras só porque o trabalhador pediu demissão.  \n- Mesmo que o trabalhador tenha saído, o saldo positivo de 60h deve ser pago com 50% de acréscimo, como manda a lei.  \n- O prazo de 7 meses para o banco de horas pode ser considerado muito longo, o que pode ser uma violação da lei.  \n\nPortanto, a empresa está errada ao recusar o pagamento, e o trabalhador tem direito a receber as 60h extras.  \n\n--- \n\n**Nota**: A decisão do Q-FENG não é uma sentença judicial, mas uma análise baseada em regras jurídicas codificadas no sistema. A interpretação final depende de uma análise jurídica completa por um advogado ou juiz.",
+  "tokens_in": 546,
+  "tokens_out": 1840,
+  "latency_ms": 58250,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

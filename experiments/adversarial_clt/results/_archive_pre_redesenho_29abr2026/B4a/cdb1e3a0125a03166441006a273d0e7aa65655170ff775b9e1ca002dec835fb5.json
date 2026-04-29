@@ -1,0 +1,26 @@
+{
+  "sha256": "cdb1e3a0125a03166441006a273d0e7aa65655170ff775b9e1ca002dec835fb5",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-012",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T04:31:11Z",
+  "prompt_sha": "5a8f6c7e3f499c88bbaaf7f049ff195a1844aab8c62088076ae22a749461e3d3",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação na condução do processo pelo TRT ao utilizar um precedente do STJ como base para decidir sobre a responsabilidade civil extracontratual em casos de dano moral trabalhista, sem discutir sua compatibilidade com o regime jurídico específico da CLT. A decisão foi marcada por várias falhas na observância dos princípios normativos estabelecidos pelos predicados soberanos ativos:\n\n- **Obrigação de declarar as consequências práticas da decisão**: O TRT não explicou como o precedente civil se aplicaria ao contexto trabalhista, especialmente após a Reforma Trabalhista de 2017.\n  \n- **Proibição de citação genérica de precedentes**: A utilização do precedente do STJ sem uma análise detalhada sobre sua aplicabilidade no âmbito trabalhista foi inadequada.\n\n- **Obrigação de abordar todos os argumentos legais**: O TRT não discutiu a compatibilidade entre o regime civil e o jurídico trabalhista, especialmente em relação aos critérios para fixação de dano moral.\n\n- **Obrigação de fundamentar a decisão no ratio decidendi identificado**: A falta de análise sobre como o precedente se aplicaria especificamente ao caso em questão violou este princípio.\n\n- **Obrigação constitucional de declarar as razões das decisões**: O TRT não forneceu uma justificativa clara e fundamentada para a escolha do precedente civil.\n\n- **Direito de acesso à justiça e revisão judicial**: A falha em seguir os princípios acima mencionados pode ter prejudicado o direito das partes ao acesso adequado à justiça.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obrigação de declarar as consequências práticas da decisão**: No contexto trabalhista, é essencial que a decisão explique como as regras aplicadas afetam o caso específico, garantindo clareza sobre os impactos práticos.\n\n- **Proibição de citação genérica de precedentes**: Significa que qualquer referência a decisões anteriores deve ser analisada e justificada em relação ao contexto atual do caso, evitando aplicação mecânica sem considerar as particularidades.\n\n- **Obrigação de abordar todos os argumentos legais**: Implica que todas as questões relevantes devem ser discutidas, garantindo uma análise completa e justa das normas aplicáveis.\n\n- **Obrigação de fundamentar a decisão no ratio decidendi identificado**: Requer que a decisão seja baseada nos motivos principais da jurisprudência citada, assegurando sua relevância e aplicabilidade ao caso concreto.\n\n- **Obrigação constitucional de declarar as razões das decisões**: Assegura que todas as decisões judiciais sejam acompanhadas de uma explicação clara sobre os motivos pelos quais foram tomadas, promovendo transparência e responsabilidade.\n\n- **Direito de acesso à justiça e revisão judicial**: Garante que todos tenham a oportunidade de ter suas questões julgadas de forma justa e equitativa, com possibilidade de revisão se necessário.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO tribunal trabalhista usou uma decisão do Supremo Tribunal de Justiça (STJ) como base para decidir sobre um caso de dano moral no trabalho, mas não explicou bem por que essa decisão se aplica ao seu caso. Isso é importante porque as regras para casos de trabalho são diferentes das regras gerais e precisam ser tratadas com cuidado.\n\nO tribunal deveria ter mostrado claramente como a decisão do STJ afeta o caso específico, discutido se essa decisão realmente se encaixa nas leis trabalhistas, especialmente depois de algumas mudanças importantes em 2017. Além disso, eles precisavam explicar por que escolheram usar essa decisão e como ela ajuda a resolver o problema.\n\nEssa falta de explicações claras pode ter prejudicado o direito das pessoas envolvidas de receberem um julgamento justo e completo.",
+  "tokens_in": 514,
+  "tokens_out": 975,
+  "latency_ms": 28266,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

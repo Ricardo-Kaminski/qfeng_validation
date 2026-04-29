@@ -1,0 +1,29 @@
+{
+  "sha256": "e8697832fa4ad83d9e58826f7ae5a4e8c1376eebafcf64ff8049f5fdbb1e980d",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-006",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T02:50:50Z",
+  "prompt_sha": "ff70c7792d137b7de9402a61d1ce5256e93238b9419f5483de6bca067860f48c",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a empresa **viola a legislação trabalhista brasileira**, com base nos predicados soberanos ativos. A principal razão é a **ausência de um acordo coletivo de trabalho (ACT) ou convenção coletiva de trabalho (CCT)**, que são **obrigatórios** para a validade de um banco de horas, conforme o **Art. 59, §2° da CLT**.  \n\nO regulamento interno aprovado pela assembleia dos trabalhadores **não substitui** o ACT/CCT, pois a CLT exige que a negociação coletiva envolva **representantes sindicais** (Art. 611 da CLT). A ausência do sindicato na assembleia **invalida a legitimidade do acordo**, mesmo que a maioria dos trabalhadores tenha assinado.  \n\nAlém disso, os predicados ativos reforçam que:  \n- **A compensação de horas extras** (banco de horas) **exige um acordo escrito** (predicado `weekly_hour_compensation_requires_written_agreement`).  \n- **A redução de horas extras** (como compensação mensal) **é proibida** (predicado `prohibition_negotiation_reducing_overtime_additional`).  \n- **O pagamento de horas extras deve ser de, no mínimo, 50%** (predicado `overtime_minimum_additional_50pct`).  \n\nA ausência de um ACT/CCT e a violação desses limites legais levam à **violação normativa** identificada pelo sistema.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **`sovereign(semester_hour_bank_requires_cct_or_act)`**:  \n  Um banco de horas válido por **semestre** exige **um acordo coletivo (ACT) ou convenção coletiva (CCT)**. A ausência de um desses instrumentos torna o regulamento interno inválido.  \n\n- **`invalidity_of_clause_suppressing_overtime_payment`**:  \n  Cláusulas que **suprimem o pagamento de horas extras** (como compensação mensal) são **nulas por ilegalidade**, conforme a CLT.  \n\n- **`weekly_hour_compensation_requires_written_agreement`**:  \n  A compensação de horas extras (banco de horas) **só pode ser feita mediante acordo escrito** (ACT/CCT). A assembleia sem sindicato não atende a esse requisito.  \n\n- **`prohibition_negotiation_reducing_overtime_additional`**:  \n  **É proibido** negociar a redução do adicional de horas extras (50% mínimo). A compensação mensal viola esse princípio.  \n\n- **`overtime_minimum_additional_50pct`**:  \n  O adicional de horas extras **não pode ser inferior a 50%**. A empresa pode estar violando esse limite.  \n\n- **`maximum_weekly_working_hours_44h`** e **`maximum_daily_working_hours_8h`**:  \n  Limites legais de **44 horas semanais** e **8 horas diárias** são **obrigatórios**, independentemente de acordos.  \n\n- **`elastic(hour_bank_without_cct_max_6_months)`**:  \n  Um banco de horas **sem CCT pode ter duração máxima de 6 meses**. Se o regulamento prevê prazo superior, isso também é inválido.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa tentou criar um \"banco de horas\" (compensar horas extras) apenas com a assinatura dos trabalhadores, **sem o sindicato**. Mas a lei diz que **isso só pode ser feito com um acordo coletivo** (que envolve o sindicato). A assembleia sem sindicato **não vale** para esse tipo de regra.  \n\nAlém disso, a lei exige que:  \n- **As horas extras devem ser pagas com 50% de adicional**, não compensadas por horas futuras.  \n- **O trabalho semanal não pode ultrapassar 44 horas**, e diário, 8 horas.  \n\nComo a empresa **não seguiu essas regras**, o sistema concluiu que **há violação da lei**. Os trabalhadores têm direito a exigir a correção desse acordo.  \n\n---  \n**Nota**: A conclusão \"UNKNOWN\" no resultado de Clingo indica que o sistema não tem certeza absoluta sobre a validade de todos os fatores (como o prazo do banco de horas), mas os predicados ativos e a ação recomendada (\"VIOLACAO\") apontam claramente para a **necessidade de revisão legal**.",
+  "tokens_in": 541,
+  "tokens_out": 1787,
+  "latency_ms": 55859,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,27 @@
+{
+  "sha256": "7565487f04e22801bcc4283f92d21f35a8e907c8a9534ba1355a5ec312e624d0",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T07:02:09Z",
+  "prompt_sha": "360055fb2d63049ca39436f6dbfb8a92a6315c792ed108cd53aebb9be9a2efc9",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG determinou que houve violação da CCT (Convenção Coletiva de Trabalho) pela empresa, o que invalida o banco de horas. Isso ocorreu porque a empresa alterou unilateralmente a escala de compensação de folgas prevista na CCT, limitando as opções dos trabalhadores para apenas sextas-feiras, ao invés da escolha flexível permitida pelo acordo coletivo.\n\nEssa decisão é baseada nos predicados soberanos ativos do sistema, que garantem direitos fundamentais e protegem a autonomia das partes envolvidas na negociação coletiva. Em particular:\n\n- `sovereign(recognition_of_collective_bargaining)`: reconhece o valor da negociação coletiva entre empregadores e trabalhadores, garantindo que as decisões tomadas nesse contexto sejam respeitadas.\n- `sovereign(maximum_weekly_working_hours_44h)` e `sovereign(maximum_daily_working_hours_8h)`: estabelecem limites para o trabalho remunerado dos trabalhadores, protegendo sua saúde e bem-estar.\n\nA alteração unilateral da empresa violou esses direitos fundamentais, pois não respeitou a autonomia dos trabalhadores em escolher quando compensar suas horas de folga. Portanto, o sistema Q-FENG determinou que essa ação é ilegal e invalida o banco de horas implementado.\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\n- `sovereign(recognition_of_collective_bargaining)`: Este predicado garante o reconhecimento do valor da negociação coletiva como um direito fundamental dos trabalhadores e empregadores. Ele protege a autonomia das partes para negociar condições de trabalho, salários e benefícios sem interferência indevida de terceiros.\n\n- `sovereign(maximum_weekly_working_hours_44h)`: Este predicado estabelece um limite máximo de 44 horas semanais de trabalho remunerado. Ele visa proteger a saúde dos trabalhadores, evitando o excesso de trabalho que pode levar a problemas de saúde e diminuir a produtividade.\n\n- `sovereign(maximum_daily_working_hours_8h)`: Este predicado estabelece um limite máximo diário de 8 horas de trabalho remunerado. Ele visa proteger a saúde dos trabalhadores, garantindo que eles tenham tempo suficiente para descansar e se recuperar entre períodos de trabalho.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nO sistema Q-FENG decidiu que a empresa fez algo errado. Ela mudou as regras do acordo coletivo sem perguntar aos trabalhadores, o que é contra a lei. A lei diz que os trabalhadores têm direito de escolher quando compensam suas horas de folga e não podem ser forçados a fazer isso apenas em uma data específica.\n\nA empresa violou esses direitos ao limitar as opções dos trabalhadores para apenas sextas-feiras, o que é contra a lei. Por isso, o sistema Q-FENG decidiu que o banco de horas implementado pela empresa é inválido e não pode ser usado.",
+  "tokens_in": 494,
+  "tokens_out": 738,
+  "latency_ms": 12344,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

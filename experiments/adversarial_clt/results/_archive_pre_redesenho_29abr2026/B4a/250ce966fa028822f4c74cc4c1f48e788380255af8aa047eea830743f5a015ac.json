@@ -1,0 +1,30 @@
+{
+  "sha256": "250ce966fa028822f4c74cc4c1f48e788380255af8aa047eea830743f5a015ac",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T07:05:36Z",
+  "prompt_sha": "1a431bd2539a105bc27830e043de65433739a538537c1d00dbf3cc5df9c24aaf",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após analisar o caso concreto e os predicados soberanos ativos, decidiu que a decisão da TRT deve ser de **CONFORMIDADE** com a Súmula TST 60. Isso significa que a TRT está correta ao considerar que o regime do trabalhador se enquadra na hipótese da Súmula e, portanto, é legítima a aplicação do adicional noturno.\n\nA decisão do Q-FENG está fundamentada nos predicados soberanos ativos, que refletem as obrigações constitucionais e legais que norteiam o julgamento. Em especial, os predicados **obligation_to_state_practical_consequences_of_decision** e **obligation_to_ground_decision_in_identified_ratio_decidendi** indicam que a TRT deve explicitar as razões pelas quais considera que o regime do trabalhador se enquadra na Súmula TST 60.\n\nAlém disso, os predicados **prohibition_of_generic_precedent_citation** e **obligation_to_address_all_legal_arguments** demonstram que a TRT deve evitar a citação de precedentes genéricos e abordar todos os argumentos legais relevantes no caso concreto.\n\nPor fim, o predicado **recognition_of_collective_bargaining** reforça a importância da negociação coletiva na determinação dos direitos dos trabalhadores, enquanto o predicado **right_of_access_to_justice_and_judicial_review** garante que os trabalhadores tenham acesso à justiça e possam rever as decisões judiciais.\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\nAqui estão as explicações dos predicados soberanos ativos:\n\n* **sovereign(obligation_to_state_practical_consequences_of_decision)**: A TRT deve explicitar as consequências práticas da decisão tomada, ou seja, como a aplicação da Súmula TST 60 afetará os direitos dos trabalhadores.\n* **sovereign(prohibition_of_generic_precedent_citation)**: A TRT não pode citar precedentes genéricos que não sejam relevantes para o caso concreto, mas sim deve fundamentar a decisão em argumentos legais específicos.\n* **sovereign(obligation_to_address_all_legal_arguments)**: A TRT deve abordar todos os argumentos legais relevantes no caso concreto e não deixar de considerar nenhum deles.\n* **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A TRT deve fundamentar a decisão em uma razão específica, ou seja, na aplicação da Súmula TST 60.\n* **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: A TRT tem a obrigação constitucional de explicitar as razões pelas quais tomou a decisão.\n* **sovereign(recognition_of_collective_bargaining)**: A TRT deve reconhecer a importância da negociação coletiva na determinação dos direitos dos trabalhadores.\n* **sovereign(right_of_access_to_justice_and_judicial_review)**: A TRT garante que os trabalhadores tenham acesso à justiça e possam rever as decisões judiciais.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nEm linguagem simples, a decisão do Q-FENG significa que a TRT está correta ao considerar que o regime do trabalhador se enquadra na Súmula TST 60 e, portanto, é legítima a aplicação do adicional noturno.\n\nIsso significa que o empregado tem direito ao adicional noturno porque seu regime de trabalho inclui períodos noturnos fixos. A TRT está reconhecendo que a Súmula TST 60 se aplica ao caso concreto e, portanto, é legítima a aplicação do adicional noturno.\n\nEm resumo, a decisão do Q-FENG é de conformidade com a Súmula TST 60 e reconhece o direito do empregado ao adicional noturno.",
+  "tokens_in": 584,
+  "tokens_out": 965,
+  "latency_ms": 16187,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,26 @@
+{
+  "sha256": "637e4e31425072e79db32f14d3069c6a8c7c6b652a7bc9ff74deec45d3f5fec6",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-010",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T04:27:50Z",
+  "prompt_sha": "616931cfd10c80d27ea65ea3d9f17fc5d70b1e90674a0e5470d9bf3f655e12d8",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação na decisão judicial analisada, com base nos predicados soberanos ativos que regem a normativa aplicável. A análise revelou que o juiz não cumpriu integralmente suas obrigações legais ao decidir sobre os embargos de declaração. Especificamente:\n\n- **Obrigação de declarar as consequências práticas da decisão**: O juiz deveria ter explicado como a aplicação da tese de recurso afetaria as partes envolvidas, especialmente considerando que foi aplicada em benefício da parte contrária àquela que inicialmente propôs o recurso.\n  \n- **Proibição de citação genérica de precedentes**: A decisão não deve se basear em referências genéricas a precedentes sem uma análise específica do caso concreto, o que parece ter ocorrido ao aplicar a tese sem um contraditório adequado.\n\n- **Obrigação de abordar todos os argumentos legais**: O juiz omitiu-se ao não analisar o ponto específico de contradição levantado pela parte embargante, o que é uma falha em considerar todas as alegações apresentadas no processo.\n\n- **Obrigação de fundamentar a decisão na ratio decidendi identificada**: A decisão deve ser claramente baseada nos motivos e princípios jurídicos específicos do caso, o que não foi adequadamente feito ao aplicar uma tese sem considerar as implicações para ambas as partes.\n\n- **Obrigação constitucional de fundamentar a decisão**: O juiz deve explicitar os motivos pelos quais decidiu como fez, especialmente quando há questões controversas ou complexas envolvidas.\n\n- **Direito de acesso à justiça e revisão judicial**: A falha em abordar adequadamente o ponto levantado pela parte embargante pode ter prejudicado o direito da parte de buscar uma revisão justa e efetiva do acórdão.\n\nEssas violações indicam que a decisão não atendeu aos padrões exigidos para garantir um julgamento justo e fundamentado, levando à conclusão de VIOLACAO pelo sistema Q-FENG.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obrigação de declarar as consequências práticas da decisão**: Juridicamente, isso significa que o juiz deve explicar como a decisão afetará os envolvidos, garantindo que todos compreendam o impacto prático do julgamento.\n\n- **Proibição de citação genérica de precedentes**: Isso implica que o uso de decisões anteriores para fundamentar uma nova decisão deve ser específico e relevante ao caso em questão, evitando referências vagas ou inadequadas.\n\n- **Obrigação de abordar todos os argumentos legais**: O juiz é obrigado a considerar todas as alegações apresentadas pelas partes, garantindo que cada ponto seja analisado e respondido adequadamente no julgamento.\n\n- **Obrigação de fundamentar a decisão na ratio decidendi identificada**: A decisão deve ser baseada nos motivos principais e específicos do caso, refletindo uma análise cuidadosa dos fatos e da legislação aplicável.\n\n- **Obrigação constitucional de fundamentar a decisão**: Isso exige que o juiz explique claramente os motivos para sua decisão, assegurando transparência e compreensão sobre como chegou à conclusão final.\n\n- **Direito de acesso à justiça e revisão judicial**: Garante que todas as partes tenham a oportunidade de ter suas alegações consideradas e de buscar uma revisão adequada das decisões judiciais, promovendo um sistema de justiça equitativo.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO juiz não explicou bem por que tomou essa decisão, especialmente sobre algo importante que você mencionou no processo. Ele usou uma ideia de outro caso sem mostrar como isso realmente se aplica ao seu caso específico e não respondeu a um ponto crucial que você levantou. Isso é problemático porque todos têm o direito de entender por que certas decisões são tomadas e de ter suas preocupações ouvidas corretamente. Por esses motivos, o sistema identificou que algo não foi feito da maneira certa na forma como essa decisão foi tomada.",
+  "tokens_in": 518,
+  "tokens_out": 1036,
+  "latency_ms": 30046,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

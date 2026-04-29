@@ -1,0 +1,27 @@
+{
+  "sha256": "3c521f072f81b20f251d4cbffd7d8883b33105e535f8e0b417bd2c3d12f82b82",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:59:09Z",
+  "prompt_sha": "a441ed131081be5a67de4fae29354418a5514d888c32e5d9d10bc7c36186be20",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG analisou o cenário e determinou que a empresa sucessora violou os direitos dos trabalhadores ao não renovar a CCT após o prazo de vigência original. A decisão se baseia nos predicados soberanos ativos, que estabelecem princípios fundamentais da CLT.\n\nA empresa adotou as cláusulas do banco de horas, mas não renovou a CCT com o sindicato, o que é uma violação à norma trabalhista. A decisão do Q-FENG se resume em que a empresa deveria ter respeitado os direitos dos trabalhadores e renovar a CCT para manter as cláusulas do banco de horas.\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\n- **sovereign(recognition_of_collective_bargaining)**: Este predicado estabelece que o reconhecimento da negociação coletiva é fundamental na CLT. A empresa deveria ter renovado a CCT com o sindicato, demonstrando respeito pela negociação coletiva.\n- **sovereign(maximum_weekly_working_hours_44h)**: Este predicado estabelece que a jornada de trabalho semanal máxima é de 44 horas. A adoção das cláusulas do banco de horas não afeta diretamente este princípio, mas o fato de a empresa continuar aplicando as cláusulas após o prazo da CCT pode ser visto como uma forma de manter essa jornada de trabalho.\n- **sovereign(maximum_daily_working_hours_8h)**: Este predicado estabelece que a jornada diária máxima é de 8 horas. Similarmente ao anterior, a adoção das cláusulas do banco de horas não altera diretamente este princípio.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nImagine você trabalhando em uma empresa que foi comprada por outra empresa. A sua CCT (Convenção Coletiva de Trabalho) é como um contrato entre a empresa e o sindicato, que estabelece as regras para os trabalhadores. Se essa CCT expirar, a nova empresa deveria renová-la com o sindicato para manter as mesmas regras.\n\nMas nesse caso, a nova empresa continuou aplicando as cláusulas do banco de horas, que são como um acordo temporário para gerenciar as horas trabalhadas. O problema é que ela não renovou a CCT e agora os trabalhadores estão questionando se essa CCT ainda é válida.\n\nO sistema Q-FENG decidiu que a empresa violou os direitos dos trabalhadores ao não renovar a CCT. Isso significa que a empresa deveria ter respeitado as regras estabelecidas na CCT e renová-la para manter as condições de trabalho iguais.",
+  "tokens_in": 495,
+  "tokens_out": 652,
+  "latency_ms": 10921,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,43 @@
+{
+  "sha256": "39fa633a16d97758012c8423af3106886c1fca052421b1ceacccf82cf9da15d9",
+  "braco": "B5",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-010",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T14:14:02Z",
+  "prompt_sha": "33bb61c410a308c56f5e5c56c3822f36564b20e0e70722596cbefa72079bde2c",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO motor de inferência Q-FENG classificou o caso como **CIRCUIT_BREAKER** (θ = 127,81°), indicando uma **fricção ontológica crítica** entre os predicados jurídicos ativos e a política de banco de horas estabelecida na ACT. A fricção surge de **contradições** entre:  \n- **Predicados soberanos** que exigem **proteções mínimas trabalhistas** (ex.: proibição de reduzir pagamento de horas extras, limite de 44h semanais, 50% de adicional sobre horas extras, obrigatoriedade de CCT/ACT para banco de horas).  \n- **Predicados elásticos** que permitem **flexibilidade** (ex.: banco de horas sem CCT/ACT, mas limitado a 6 meses).  \n\nA fricção ontológica (θ) mede a **incompatibilidade** entre a política da empresa e os direitos fundamentais garantidos por leis trabalhistas. Neste caso, a **fricção excede 120°**, indicando que a política da empresa **não atende plenamente aos requisitos legais**, mesmo que parcialmente. O regime **CIRCUIT_BREAKER** impõe **supressão de ação** para evitar violações, exigindo **revisão da ACT** para alinhamento com os predicados soberanos.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n**Predicados soberanos ativos (requisitos legais mínimos):**  \n- **sovereign(semester_hour_bank_requires_cct_or_act):** Banco de horas semestral **exige** Convenção Coletiva de Trabalho (CCT) ou Acordo Coletivo de Trabalho (ACT) para ser legal. A ACT da empresa **não menciona prazo semestral**, apenas mensal, o que pode gerar ambiguidade.  \n- **sovereign(invalidity_of_clause_suppressing_overtime_payment):** Cláusulas que **suprimem pagamento de horas extras** são **nulas**. A ACT menciona compensação mensal, mas **não especifica se horas extras são pagas** (ex.: se o acúmulo de horas substitui o pagamento).  \n- **sovereign(weekly_hour_compensation_requires_written_agreement):** Compensação de horas semanais **exige acordo escrito** (como a ACT). A empresa **não fornece cláusula explícita** sobre compensação semanal.  \n- **sovereign(prohibition_negotiation_reducing_overtime_additional):** Acordos que **reduzem o adicional de horas extras** (ex.: abaixo de 50%) são **proibidos**. A ACT **não menciona o percentual do adicional**, o que pode ser interpretado como violação.  \n- **sovereign(overtime_minimum_additional_50pct):** Adicional de horas extras **não pode ser inferior a 50%**. A ACT **não especifica o percentual**, gerando risco de violação.  \n- **sovereign(maximum_weekly_working_hours_44h):** Limite de **44h semanais** é obrigatório. A ACT **não menciona esse limite**, apenas 40h mensais de acúmulo.  \n- **sovereign(maximum_daily_working_hours_8h):** Limite de **8h diárias** é obrigatório. A ACT **não menciona esse limite**, apenas 2h/dia de horas extras.  \n\n**Predicado elástico ativo (flexibilidade permitida):**  \n- **elastic(hour_bank_without_cct_max_6_months):** Banco de horas **sem CCT/ACT** pode ser permitido, mas **limitado a 6 meses**. A ACT da empresa **limita a 5 meses**, o que está dentro do limite, mas **não exige CCT/ACT**, gerando fricção com o predicado soberano.  \n\n---\n\n### 3. **INTERPRETAÇÃO DO REGIME**  \nO regime **CIRCUIT_BREAKER** (θ ≥ 120°) significa que **a política da empresa entra em conflito direto com direitos trabalhistas fundamentais**, exigindo **supressão imediata de ações** que possam violar leis. Operacionalmente:  \n- **Bloqueio de execução:** A empresa **não pode implementar a ACT** como está, pois viola predicados soberanos (ex.: ausência de cláusula sobre adicional de horas extras, ausência de limite semanal de 44h).  \n- **Revisão obrigatória:** A ACT deve ser **revisada para incluir cláusulas explícitas** sobre:  \n  - Adicional de horas extras (mínimo 50%).  \n  - Limite de 44h semanais e 8h diárias.  \n  - Acordo escrito para compensação de horas semanais.  \n  - Requerimento de CCT/ACT para banco de horas semestral.  \n- **Conformidade:** A empresa deve **alinhar a ACT** com os predicados soberanos para evitar multas, ações trabalhistas e riscos jurídicos.  \n\n---\n\n### 4. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa fez um acordo com o sindicato para um \"banco de horas\" (acumular horas para compensar depois). Porém, **o acordo não está completo** para seguir a lei. O sistema detectou que:  \n- **O acordo não diz claramente** se as horas extras devem ser pagas (ex.: se o acúmulo substitui o pagamento).  \n- **Não menciona limites** de 44h por semana ou 8h por dia, que são **obrigatórios por lei**.  \n- **Não exige um acordo escrito** para compensar horas semanais, o que é **necessário**.  \n\nPor isso, o sistema **recomenda que a empresa revise o acordo** para incluir essas regras. Se não fizer isso, pode ter problemas com a Justiça do Trabalho. A melhor opção é **consertar o acordo** para garantir que todos os direitos sejam respeitados.",
+  "tokens_in": 799,
+  "tokens_out": 1893,
+  "latency_ms": 60375,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": "",
+  "t_clingo_ms": 30,
+  "t_llm_ms": 60344,
+  "t_psi_build_ms": 0,
+  "t_theta_compute_ms": 0,
+  "qfeng_psi_n_dim": 2,
+  "qfeng_psi_s_dim": 2,
+  "qfeng_theta_rad": 2.2307694050963036,
+  "qfeng_theta_deg": 127.81367197892763,
+  "qfeng_theta_eff_rad": 2.2307694050963036,
+  "qfeng_theta_eff_deg": 127.81367197892763,
+  "qfeng_regime": "BLOCK",
+  "qfeng_p_action": 0.3869044161814975,
+  "qfeng_cos_theta": -0.6130955838185024,
+  "qfeng_cb_threshold_deg": 119.99999999999999
+}

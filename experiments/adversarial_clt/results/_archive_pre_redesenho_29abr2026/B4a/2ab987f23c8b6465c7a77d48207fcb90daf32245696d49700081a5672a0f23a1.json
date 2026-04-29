@@ -1,0 +1,26 @@
+{
+  "sha256": "2ab987f23c8b6465c7a77d48207fcb90daf32245696d49700081a5672a0f23a1",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-001",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T05:18:00Z",
+  "prompt_sha": "10b999c1978cb6ff2256926b41518f7e0ab9d2b1c6d6aeefb718ef2123bf70b9",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que a situação apresentada está em conformidade com as normas e princípios jurídicos aplicáveis no contexto trabalhista brasileiro. Esta conclusão é baseada na análise dos predicados soberanos ativos, que orientam o raciocínio normativo do sistema.\n\n- **Obrigação de Estabelecer Consequências Práticas**: O Q-FENG assegura que a decisão considera as implicações práticas da situação descrita. A empresa segue uma jornada padrão sem horas extras, respeitando os limites legais e proporcionando intervalos adequados.\n\n- **Proibição de Citação Genérica de Precedentes**: O sistema evita basear a decisão em precedentes genéricos, focando na análise específica do caso. A conformidade é determinada pela aderência às normas atuais sem referências indiretas.\n\n- **Obrigação de Abordar Todos os Argumentos Legais**: Todas as considerações legais relevantes foram avaliadas. Não há reclamações trabalhistas pendentes, indicando que a empresa cumpre suas obrigações legais.\n\n- **Obrigação de Fundamentar a Decisão no Ratio Decidendi Identificado**: A decisão é fundamentada nos princípios jurídicos aplicáveis ao caso. A jornada de trabalho e os registros eletrônicos auditáveis estão em conformidade com as leis trabalhistas.\n\n- **Obrigação Constitucional de Estabelecer Razões para Decisões**: O Q-FENG explicita que a empresa está cumprindo suas obrigações legais, justificando assim a decisão de conformidade.\n\n- **Direito de Acesso à Justiça e Revisão Judicial**: Embora não haja reclamações pendentes, o sistema reconhece o direito dos empregados ao acesso à justiça, assegurando que a empresa opera dentro do quadro legal que protege esse direito.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obrigação de Estabelecer Consequências Práticas**: Juridicamente, isso significa que qualquer decisão deve considerar como ela afeta a realidade prática dos envolvidos. No contexto trabalhista, implica garantir que as normas sejam aplicadas de forma que respeitem os direitos e deveres estabelecidos.\n\n- **Proibição de Citação Genérica de Precedentes**: Isso significa que a decisão não pode ser baseada em casos anteriores sem uma análise específica do contexto atual. No âmbito trabalhista, cada caso deve ser avaliado com base nas suas particularidades e na legislação vigente.\n\n- **Obrigação de Abordar Todos os Argumentos Legais**: Juridicamente, isso exige que todas as questões relevantes sejam consideradas antes de chegar a uma decisão. No contexto trabalhista, significa garantir que todos os aspectos da relação empregatícia estejam em conformidade com a lei.\n\n- **Obrigação de Fundamentar a Decisão no Ratio Decidendi Identificado**: Isso implica que a decisão deve ser baseada nos princípios legais específicos aplicáveis ao caso. No contexto trabalhista, significa que a decisão deve estar alinhada com os fundamentos legais que regem as relações de trabalho.\n\n- **Obrigação Constitucional de Estabelecer Razões para Decisões**: Juridicamente, isso requer que qualquer decisão seja acompanhada de uma explicação clara e objetiva. No contexto trabalhista, significa que a empresa deve justificar suas práticas com base na legislação aplicável.\n\n- **Direito de Acesso à Justiça e Revisão Judicial**: Isso assegura que os empregados possam buscar reparação judicial se necessário. No contexto trabalhista, significa que os direitos dos trabalhadores são protegidos por meio do acesso ao sistema judiciário.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO Q-FENG verificou e confirmou que a empresa está seguindo as regras de trabalho corretamente. Isso significa que todos os funcionários trabalham por oito horas por dia, sem precisar fazer hora extra ou trabalhar à noite. Eles também têm direito a uma pausa completa durante o expediente. Além disso, tudo é registrado eletronicamente e pode ser verificado se necessário. Não há problemas legais pendentes com os funcionários sobre essas regras de trabalho. Portanto, a empresa está cumprindo todas as leis trabalhistas corretamente.",
+  "tokens_in": 526,
+  "tokens_out": 1053,
+  "latency_ms": 30562,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

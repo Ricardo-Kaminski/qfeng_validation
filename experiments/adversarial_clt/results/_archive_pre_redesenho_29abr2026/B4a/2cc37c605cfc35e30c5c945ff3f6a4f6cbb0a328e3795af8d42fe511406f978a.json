@@ -1,0 +1,30 @@
+{
+  "sha256": "2cc37c605cfc35e30c5c945ff3f6a4f6cbb0a328e3795af8d42fe511406f978a",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T05:08:15Z",
+  "prompt_sha": "2c346e302232f51cd44617f62ac2e4fd89f0a43134d5baae82a0990651685d27",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, após análise do cenário apresentado, concluiu que a decisão judicial deve ser considerada conforme com os princípios jurídicos aplicáveis, apesar da inicial identificação de uma omissão no julgamento. A questão central era a ausência de análise sobre o impacto sistêmico da decisão sob o âmbito do Artigo 20 da Lei de Introdução às Normas do Direito Brasileiro (LINDB), especificamente em relação ao setor econômico afetado.\n\nA decisão judicial foi confrontada com a jurisprudência do Superior Tribunal de Justiça (STJ) sobre o tema LINDB, e concluiu-se que não se aplicava ao caso concreto, tratando-se de uma questão individual trabalhista. A supressão da omissão ocorreu mediante fundamentação identificável e verificável, cumprindo com a obrigação de explicitar as razões práticas decorrentes da decisão (sovereign(obligation_to_state_practical_consequences_of_decision)).\n\nAlém disso, a decisão observou a proibição de citação genérica de precedentes sem análise específica do caso (sovereign(prohibition_of_generic_precedent_citation)), e atendeu à obrigação de abordar todos os argumentos legais apresentados (sovereign(obligation_to_address_all_legal_arguments)). A fundamentação da decisão foi ancorada em um ratio decidendi identificado, garantindo que a mesma estivesse baseada em razões jurídicas claras e específicas (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)).\n\nA conformidade com o dever constitucional de explicitar as razões para as decisões foi observado (sovereign(constitutional_obligation_to_state_reasons_for_decisions)), assim como a reconhecimento da negociação coletiva e do direito de acesso à justiça e revisão judicial, elementos essenciais no contexto trabalhista brasileiro (sovereign(recognition_of_collective_bargaining) e sovereign(right_of_access_to_justice_and_judicial_review)).\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obligation to state practical consequences of decision**: Juridicamente, este predicado implica que a decisão judicial deve explicitar as consequências práticas que decorrem da sua aplicação, garantindo clareza sobre como a sentença afetará os envolvidos.\n\n- **Prohibition of generic precedent citation**: Este princípio proíbe o uso de precedentes judiciais de maneira genérica e sem análise específica do caso concreto. Cada decisão deve ser fundamentada em suas peculiaridades, evitando generalizações que não considerem as particularidades do caso.\n\n- **Obligation to address all legal arguments**: Este predicado exige que todos os argumentos legais apresentados pelas partes sejam devidamente analisados e respondidos na decisão judicial. Isso garante uma análise completa e justa das questões levantadas no processo.\n\n- **Obligation to ground decision in identified ratio decidendi**: Significa que a decisão deve ser baseada em um motivo jurídico específico identificado durante o julgamento, assegurando que a fundamentação seja clara e direta.\n\n- **Constitutional obligation to state reasons for decisions**: Este princípio constitucional obriga os juízes a explicitar as razões pelas quais tomaram uma determinada decisão, promovendo transparência e justificativa para o resultado alcançado.\n\n- **Recognition of collective bargaining**: No contexto trabalhista brasileiro, este predicado reconhece a importância da negociação coletiva entre empregadores e trabalhadores, respeitando acordos que possam modificar ou complementar normas legais vigentes.\n\n- **Right of access to justice and judicial review**: Este princípio assegura o direito dos cidadãos de acessar a justiça e buscar revisão judicial das decisões quando necessário, garantindo um sistema jurídico justo e acessível.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nEm linguagem simples, o que aconteceu é o seguinte: havia uma preocupação de que a decisão do juiz não tinha considerado como essa decisão poderia afetar todo um setor da economia, conforme uma regra chamada LINDB. No entanto, após revisão, foi decidido que essa regra não se aplicava ao caso específico de um trabalhador individual.\n\nO juiz explicou claramente por que tomou a decisão e respondeu a todos os argumentos apresentados pelas partes no processo. Ele também seguiu as regras que exigem que todas as razões para sua decisão sejam claras e justificadas, garantindo que o trabalhador entenda como isso afeta ele diretamente.\n\nAlém disso, a decisão respeitou acordos coletivos entre empregadores e trabalhadores e garantiu que todos têm direito de buscar justiça e revisar decisões judiciais se necessário. Portanto, apesar da preocupação inicial, tudo foi feito corretamente e conforme as regras do jogo.",
+  "tokens_in": 562,
+  "tokens_out": 1193,
+  "latency_ms": 35047,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

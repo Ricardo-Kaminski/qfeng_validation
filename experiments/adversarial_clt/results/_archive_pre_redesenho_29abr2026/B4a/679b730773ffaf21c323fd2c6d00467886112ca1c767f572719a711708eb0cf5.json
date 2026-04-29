@@ -1,0 +1,26 @@
+{
+  "sha256": "679b730773ffaf21c323fd2c6d00467886112ca1c767f572719a711708eb0cf5",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-011",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:46:32Z",
+  "prompt_sha": "303f6d25275850db752b15d9c7d3d948ca264d609c3666e67b0493fb3b36ada5",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG chegou à decisão de violação por ter detectado uma série de falhas na aplicação do precedente pelo tribunal. Em primeiro lugar, o tribunal utilizou um tema de Repercussão Geral (RG) que se refere a servidores públicos, mas aplicou-o a um empregado celetista privado sem explicar como essa analogia é válida. Além disso, não foi demonstrada a aplicabilidade da ratio do precedente ao regime trabalhista.\n\nOs predicados soberanos ativos indicam que o sistema identificou violações às normas constitucionais e legais. Em particular, os predicados mencionam a obrigação de estabelecer as consequências práticas da decisão (obligation_to_state_practical_consequences_of_decision), proibir a citação de precedentes genéricos sem fundamentação adequada (prohibition_of_generic_precedent_citation), e outros aspectos relacionados à transparência, justiça e fundamentação das decisões judiciais.\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O sistema identificou que o tribunal não explicou como a decisão aplicada aos empregados celetistas privados teria consequências práticas, violando assim a obrigação constitucional de estabelecer as bases para a implementação das decisões.\n\n- **sovereign(prohibition_of_generic_precedent_citation)**: O tribunal citou um precedente sem explicar como ele se aplica ao caso específico dos empregados privados, o que é considerado uma violação à regra de não aplicação genérica de precedentes sem fundamentação adequada.\n\n- **sovereign(obligation_to_address_all_legal_arguments)**: O sistema detectou que o tribunal não considerou todos os argumentos legais relevantes ao caso, o que é um desrespeito às normas de procedimento e justiça processual.\n\n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão do tribunal não foi fundamentada na razão (ratio decidendi) do precedente citado, o que é uma violação à obrigação de basear as decisões em argumentos legais específicos e identificáveis.\n\n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: O sistema identificou que a decisão não foi fundamentada em razões claras e transparentes, o que é uma violação à obrigação constitucional de estabelecer as bases para as decisões.\n\n- **sovereign(right_of_access_to_justice_and_judicial_review)**: A decisão do tribunal violou os direitos dos litigantes ao acesso à justiça e a revisão judicial, pois não foi transparente ou fundamentada adequadamente.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nO sistema Q-FENG detectou que o tribunal aplicou uma regra de direito sem explicar como ela se aplica aos empregados privados. Além disso, não foi mostrado como a decisão teria consequências práticas para os trabalhadores. Isso é considerado injusto e viola as normas constitucionais que garantem a transparência e justiça no processo judicial.\n\nEm resumo, o sistema Q-FENG recomendou a violação porque identificou falhas graves na aplicação do direito pelo tribunal, incluindo a falta de fundamentação das decisões e a violação dos direitos dos litigantes.",
+  "tokens_in": 506,
+  "tokens_out": 805,
+  "latency_ms": 13640,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

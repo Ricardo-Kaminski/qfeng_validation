@@ -1,0 +1,30 @@
+{
+  "sha256": "a0c3af4d19029c1a8b862de3fb556d6e434d13ff84a5bbe336f6ef800b92928b",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-009",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T07:11:50Z",
+  "prompt_sha": "ff8fda303630134604d2d7ffdb2585495e891ee0ed0eaebbd81c40f3a8fb664e",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\n\"O sistema Q-FENG analisou o caso e determinou que houve uma violação (VIOLACAO) das regras trabalhistas. A decisão foi baseada na aplicação da Súmula TST 85, que trata do banco de horas sem CCT (Contrato Coletivo de Trabalho). No entanto, o sistema errou ao determinar que as horas extras devem ser pagas como hora normal, sem adicional. Isso é uma violação das regras estabelecidas pela Súmula TST 85 e do direito do trabalhador.\n\nO sistema Q-FENG está obrigado a considerar os princípios constitucionais que garantem o direito dos trabalhadores, como a proibição de citação de precedentes genéricos (prohibition_of_generic_precedent_citation) e a necessidade de fundamentação para as decisões (obligation_to_ground_decision_in_identified_ratio_decidendi). Além disso, o sistema deve reconhecer os direitos coletivos dos trabalhadores (recognition_of_collective_bargaining) e garantir acesso à justiça e revisão judicial (right_of_access_to_justice_and_judicial_review).\n\nO erro cometido pelo sistema Q-FENG foi não considerar a aplicação correta da Súmula TST 85 e não fundamentar a decisão com base nos princípios jurídicos relevantes.\"\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\n* `sovereign(obligation_to_state_practical_consequences_of_decision)`: O sistema Q-FENG está obrigado a informar as consequências práticas da decisão tomada.\n* `sovereign(prohibition_of_generic_precedent_citation)`: O sistema não pode citar precedentes genéricos ou abstratos para fundamentar suas decisões.\n* `sovereign(obligation_to_address_all_legal_arguments)`: O sistema deve considerar e responder a todos os argumentos legais relevantes no caso.\n* `sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)`: A decisão do sistema deve estar fundamentada em uma razão jurídica específica (ratio decidendi).\n* `sovereign(constitutional_obligation_to_state_reasons_for_decisions)`: O sistema está obrigado a informar as razões constitucionais que justificam as decisões tomadas.\n* `sovereign(recognition_of_collective_bargaining)`: O sistema deve reconhecer e respeitar os direitos coletivos dos trabalhadores.\n* `sovereign(right_of_access_to_justice_and_judicial_review)`: O sistema garante o acesso à justiça e a revisão judicial para os trabalhadores.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\n\"O sistema Q-FENG decidiu que houve uma violação das regras trabalhistas. Isso significa que o empregador não seguiu as regras corretas para pagar as horas extras do funcionário. O sistema errou ao dizer que as horas extras devem ser pagas como hora normal, sem adicional. Isso é errado e vai contra as leis trabalhistas.\n\nO sistema Q-FENG está obrigado a garantir que os direitos dos trabalhadores sejam respeitados e que eles tenham acesso à justiça e revisão judicial. No entanto, no caso específico, o sistema errou ao não aplicar corretamente as regras da Súmula TST 85.\n\nEm resumo, o funcionário tem direito a ser pago por horas extras com adicional de 50%, como estabelecido pela lei. O empregador deve pagar isso e respeitar as leis trabalhistas.\"",
+  "tokens_in": 559,
+  "tokens_out": 849,
+  "latency_ms": 14234,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,27 @@
+{
+  "sha256": "7d445e835c2e9ccf07bc12aea3b9a98e617cdb28d1d37ff62656332be57b2e09",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-010",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T05:00:10Z",
+  "prompt_sha": "b97050e315c231d6b6e5297c054469bac0a4b1a90193f416b899771d6bf0a3de",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação na situação apresentada com base nos predicados soberanos ativos e nas normas estabelecidas pela Consolidação das Leis do Trabalho (CLT). A decisão de que houve \"VIOLACAO\" decorre da análise dos seguintes aspectos:\n\n- **Sovereign(recognition_of_collective_bargaining):** Este predicado reconhece a validade e força normativa dos acordos coletivos de trabalho, como a CCT (Convenção Coletiva de Trabalho). A CCT estabeleceu um limite máximo de 80 horas no banco de horas, o que deve ser respeitado enquanto não houver uma nova negociação formal com o sindicato para alterar tal termo.\n\n- **Sovereign(maximum_weekly_working_hours_44h) e Sovereign(maximum_daily_working_hours_8h):** Estes predicados garantem a observância dos limites máximos de jornada semanal (44 horas) e diária (8 horas), conforme estabelecido pela CLT. Qualquer prática que exceda essas normas, mesmo em circunstâncias extraordinárias, deve ser cuidadosamente justificada e negociada.\n\nA empresa permitiu o acúmulo de 200 horas no banco de horas sem uma nova negociação com o sindicato para ampliar o limite previamente estabelecido na CCT. A alegação da empresa de que o limite era indicativo não se sustenta diante do reconhecimento normativo dos termos coletivos, conforme destacado pelo predicado soberano sobre a validade das negociações coletivas.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Sovereign(recognition_of_collective_bargaining):** Juridicamente, este predicado assegura que os acordos e convenções coletivas de trabalho têm força normativa sobre as relações trabalhistas entre empregadores e empregados. Isso significa que qualquer termo estabelecido na CCT deve ser respeitado até que seja formalmente alterado por meio de negociação.\n\n- **Sovereign(maximum_weekly_working_hours_44h):** Este predicado reflete a norma da CLT que limita a jornada semanal máxima a 44 horas. Qualquer extensão além desse limite deve ser justificada e, em muitos casos, negociada coletivamente.\n\n- **Sovereign(maximum_daily_working_hours_8h):** Este predicado estabelece o limite máximo de 8 horas diárias para a jornada de trabalho. Exceder esse limite sem uma justificação válida ou negociação pode ser considerado violação das normas trabalhistas.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nNo caso que estamos discutindo, a empresa permitiu que um funcionário acumulasse mais horas extras do que o combinado no acordo coletivo de trabalho (CCT), sem conversar novamente com os representantes dos trabalhadores para mudar esse limite. O acordo dizia que não poderiam ser acumuladas mais do que 80 horas extras, mas a empresa deixou que fossem acumuladas até 200 horas.\n\nA lei e o acordo coletivo são muito claros: qualquer mudança nesses limites deve ser discutida e acordada novamente com os representantes dos trabalhadores. A empresa não pode simplesmente dizer que aquele limite era apenas uma sugestão; ele é obrigatório até que seja oficialmente alterado.\n\nPortanto, o sistema decidiu que houve uma violação porque a empresa não seguiu as regras estabelecidas no acordo coletivo e na lei.",
+  "tokens_in": 516,
+  "tokens_out": 851,
+  "latency_ms": 24671,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

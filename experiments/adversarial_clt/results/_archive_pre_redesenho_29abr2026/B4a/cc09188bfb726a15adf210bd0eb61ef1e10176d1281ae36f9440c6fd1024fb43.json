@@ -1,0 +1,27 @@
+{
+  "sha256": "cc09188bfb726a15adf210bd0eb61ef1e10176d1281ae36f9440c6fd1024fb43",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-008",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T03:21:23Z",
+  "prompt_sha": "360055fb2d63049ca39436f6dbfb8a92a6315c792ed108cd53aebb9be9a2efc9",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a **alteração unilateral da empresa** na escala de compensação de folgas prevista na CCT viola os termos da convenção coletiva de trabalho (CCT), invalidando o banco de horas. A decisão baseia-se no **predicado soberano `sovereign(recognition_of_collective_bargaining)`**, que estabelece que as convenções coletivas de trabalho são normas jurídicas vinculantes, cujas cláusulas não podem ser alteradas unilateralmente pelo empregador. A CCT previa **flexibilidade na escolha da data de compensação** (predicado elástico `elastic(working_hours_negotiable_by_cct)`), e a mudança para compensação exclusiva às sextas-feiras **viola esse princípio de negociação coletiva**, configurando uma **violação normativa**.  \n\nAlém disso, os predicados soberanos `sovereign(maximum_weekly_working_hours_44h)` e `sovereign(maximum_daily_working_hours_8h)` reforçam que a legislação trabalhista brasileira limita a jornada de trabalho, mas **não são diretamente relevantes** neste caso, pois a questão central é a **violação da CCT**, não a superação dos limites de horas.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **`sovereign(recognition_of_collective_bargaining)`**:  \n  **Significado jurídico**: A convenção coletiva de trabalho (CCT) é uma norma jurídica de ordem pública, cujas cláusulas são vinculantes para ambas as partes (empregador e empregado). Qualquer alteração unilateral das condições pactuadas na CCT é considerada **nula**, pois viola o princípio da **negociação coletiva** garantido pela CLT (Consolidação das Leis do Trabalho).  \n\n- **`sovereign(maximum_weekly_working_hours_44h)`**:  \n  **Significado jurídico**: A CLT estabelece que a jornada de trabalho semanal não pode ultrapassar 44 horas. Esse predicado reforça que a legislação trabalhista **não permite jornadas exorbitantes**, mas **não é central** neste caso, pois a questão é a **violação da CCT**, não a superação do limite de horas.  \n\n- **`sovereign(maximum_daily_working_hours_8h)`**:  \n  **Significado jurídico**: A CLT limita a jornada diária de trabalho a 8 horas. Esse predicado reforça a proteção do trabalhador contra a exploração, mas **não é relevante** para a análise da alteração unilateral da CCT.  \n\n- **`elastic(working_hours_negotiable_by_cct)`**:  \n  **Significado jurídico**: A CCT pode estabelecer cláusulas flexíveis sobre a compensação de horas extras, desde que pactuadas com os sindicatos. A empresa **não pode alterar unilateralmente** essas cláusulas, pois isso viola o **princípio da negociação coletiva**.  \n\n- **`elastic(hour_bank_with_cct_max_1_year)`**:  \n  **Significado jurídico**: O banco de horas pode ser estabelecido por até 1 ano, desde que pactuado na CCT. A alteração unilateral da empresa **viola esse termo**, invalidando o banco de horas.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa mudou as regras do banco de horas **sem perguntar aos trabalhadores**, determinando que as folgas só poderiam ser compensadas às sextas-feiras. A CCT (convenção coletiva de trabalho) tinha um acordo mais flexível, permitindo que os trabalhadores escolhessem **qualquer dia da semana** para compensar as horas.  \n\nO sistema Q-FENG concluiu que essa mudança **viola a CCT**, pois a convenção coletiva é um acordo legal que **não pode ser alterado unilateralmente**. Isso significa que:  \n- O banco de horas **não é válido** mais, porque a empresa não respeitou o acordo.  \n- Os trabalhadores têm direito de **reclamar** essa mudança, pois ela **viola a lei** e os termos da CCT.  \n\nEm resumo: **a empresa não pode mudar as regras sem conversar com os trabalhadores**, e essa ação é considerada **ilegal**.",
+  "tokens_in": 493,
+  "tokens_out": 1454,
+  "latency_ms": 44639,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

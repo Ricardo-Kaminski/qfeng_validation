@@ -1,0 +1,26 @@
+{
+  "sha256": "ebb9174e60688cc6da8ddb3dd6aff43e8d4067478c21b449d484dcc6fadb521d",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:41:16Z",
+  "prompt_sha": "b5e3f649b9c3587da9c94d6c599ffd204326d48b2428d997b185065a331a8353",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG decidiu que houve violação do procedimento adotado pelo juiz da TRT. Isso ocorreu porque a decisão foi baseada apenas na transcrição integral da ementa de acórdão do TST, sem qualquer análise de compatibilidade entre os fatos do precedente e os fatos do caso concreto em julgamento.\n\nA decisão do Q-FENG está fundamentada nos predicados soberanos ativos que indicam a necessidade de o juiz adotar procedimentos mais rigorosos ao aplicar precedentes judiciais. Em especial, a falta de análise fática e a mera transcrição da ementa sem cotejo com os fatos do caso concreto viola as obrigações constitucionais e legais do juiz.\n\n**2. PREDICADOS ATIVADOS**\n\nOs predicados soberanos ativos indicam que o sistema Q-FENG considerou a seguinte série de obrigações e direitos fundamentais:\n\n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O juiz tem a obrigação de explicar as consequências práticas da decisão tomada, garantindo que os cidadãos possam entender e se adaptar às mudanças impostas pela decisão.\n\n- **sovereign(prohibition_of_generic_precedent_citation)**: Proíbe o juiz de citar precedentes judiciais de forma genérica sem análise específica, garantindo que a aplicação da lei seja feita com base em critérios objetivos e não apenas em referências vagas.\n\n- **sovereign(obligation_to_address_all_legal_arguments)**: O juiz tem a obrigação de considerar todos os argumentos legais apresentados pelas partes, garantindo que a decisão seja justa e equitativa.\n\n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: O juiz deve fundamentar sua decisão nos principios e razões específicas (ratio decidendi) do precedente aplicado, evitando decisões arbitrárias ou baseadas em interpretações pessoais.\n\n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: O juiz tem a obrigação constitucional de explicar as razões pelas quais tomou uma determinada decisão, garantindo transparência e responsabilidade na aplicação da lei.\n\n- **sovereign(right_of_access_to_justice_and_judicial_review)**: Garante o direito das partes de ter acesso à justiça e a revisão judicial de decisões, assegurando que os cidadãos possam buscar resolução para conflitos de forma justa e equitativa.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nO sistema Q-FENG decidiu que o juiz errou ao não analisar se a decisão tomada é aplicável ao caso específico em julgamento. Isso significa que ele simplesmente copiou uma decisão de outro processo sem verificar se as circunstâncias são iguais.\n\nO sistema está dizendo que isso é errado porque o juiz tem a obrigação de explicar por quê tomou aquela decisão e garantir que todos os argumentos legais sejam considerados. Além disso, ele deve fundamentar sua decisão nos princípios específicos da lei aplicada.\n\nEm resumo, o sistema Q-FENG está dizendo que a decisão do juiz foi injusta porque não seguiu as regras para aplicação de precedentes judiciais e por isso violou os direitos das partes.",
+  "tokens_in": 535,
+  "tokens_out": 815,
+  "latency_ms": 13655,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,30 @@
+{
+  "sha256": "e34cabf40490e78465204087035fc7ccaea701ba5d0c0797bf9ea122466442b3",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-008",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T03:54:59Z",
+  "prompt_sha": "b3fc3319eefedae00a5e9f49f61a8cb6a71ba4d9860ac95b8580343ff80ed754",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a decisão judicial está **em conformidade com a legislação trabalhista brasileira**, com base nos seguintes fundamentos:  \n- **Obrigação de explicitar as consequências práticas da decisão** (predicado `sovereign(obligation_to_state_practical_consequences_of_decision)`): O acórdão deve descrever, de forma clara, os efeitos concretos da aplicação do art. 223-G da CLT, como a quantificação do dano moral em relação ao salário do trabalhador.  \n- **Proibição de citações genéricas de precedentes** (predicado `sovereign(prohibition_of_generic_precedent_citation)`): A decisão evita referências vagas ao TST, optando por vincular-se a **precedentes específicos** de casos similares, garantindo transparência e coesão jurídica.  \n- **Obrigação de abordar todos os argumentos legais** (predicado `sovereign(obligation_to_address_all_legal_arguments)`): O acórdão analisa todos os elementos da ofensa (leve, médio, grave ou gravíssimo) e sua relação com os fatos provados, conforme exigido pela CLT.  \n- **Fundamentação em ratio decidendi identificável** (predicado `sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)`): A decisão vincula-se ao **art. 223-G, §1°**, que estabelece a proporcionalidade entre o grau da ofensa e o valor do dano moral, evitando arbitrariedade.  \n- **Obrigação de fundamentar a decisão com razões constitucionais** (predicado `sovereign(constitutional_obligation_to_state_reasons_for_decisions)`): O acórdão respeita o direito à ampla defesa e à razão de ser da jurisdição, explicando como a quantificação do dano moral está alinhada com o princípio da proporcionalidade.  \n- **Reconhecimento da negociação coletiva** (predicado `sovereign(recognition_of_collective_bargaining)`): A decisão considera a possibilidade de acordos coletivos (CCT) que podem influenciar a aplicação do art. 223-G, como a flexibilização de horas extras (predicado `elastic(working_hours_negotiable_by_cct)`).  \n- **Direito de acesso à justiça e revisão judicial** (predicado `sovereign(right_of_access_to_justice_and_judicial_review)`): O acórdão assegura que a decisão seja revisável por instâncias superiores, conforme previsto no art. 5°, XXXV da Constituição Federal.  \n\n### 2. **PREDICADOS ATIVADOS**  \n- **`sovereign(obligation_to_state_practical_consequences_of_decision)`**: O tribunal deve explicar **como a decisão afeta a vida prática do trabalhador**, como a reparação financeira e sua relação com o salário.  \n- **`sovereign(prohibition_of_generic_precedent_citation)`**: A jurisdição **não pode usar precedentes genéricos** do TST; deve citar casos específicos com fatos semelhantes.  \n- **`sovereign(obligation_to_address_all_legal_arguments)`**: O juiz deve **analisar todos os argumentos** apresentados, mesmo os contrários à responsabilização do empregador.  \n- **`sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)`**: A decisão deve **fundamentar-se em um \"ratio decidendi\" claro**, como a aplicação do art. 223-G, §1°, e não em julgamentos subjetivos.  \n- **`sovereign(constitutional_obligation_to_state_reasons_for_decisions)`**: O tribunal deve **explicar as razões constitucionais** da decisão, como o direito à dignidade da pessoa humana (art. 1°, III da CF).  \n- **`sovereign(recognition_of_collective_bargaining)`**: A legislação reconhece que **acordos coletivos** (CCT) podem influenciar a aplicação do art. 223-G, como a negociação de horas extras.  \n- **`elastic(working_hours_negotiable_by_cct)`**: A CLT permite **negociação de horas extras** por meio de CCT, desde que respeitado o limite de 1 ano (predicado `elastic(hour_bank_with_cct_max_1_year)`).  \n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA decisão do tribunal está **certa** porque:  \n- **Explica claramente** como o dinheiro do dano moral será calculado, usando o salário do trabalhador como base.  \n- **Não usa frases genéricas** como \"o TST já decidiu isso antes\", mas cita casos específicos com histórias semelhantes.  \n- **Considera todos os argumentos** do empregador e do trabalhador, mesmo os que podem parecer \"contra\" o empregador.  \n- **Explica por que** o valor do dano moral foi escolhido, usando a lei (art. 223-G) e não apenas opiniões.  \n- **Respeita o direito** do trabalhador de recorrer se a decisão for injusta.  \n- **Permite negociações** entre sindicatos e empresas para definir regras de horas extras, desde que não ultrapassem 1 ano.  \n\nEm resumo: **a decisão está alinhada com a lei, é justa e transparente**, e respeita os direitos de todos os envolvidos.",
+  "tokens_in": 582,
+  "tokens_out": 1771,
+  "latency_ms": 56250,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

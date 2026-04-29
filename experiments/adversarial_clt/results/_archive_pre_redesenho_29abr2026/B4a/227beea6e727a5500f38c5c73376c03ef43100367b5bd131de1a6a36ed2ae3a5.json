@@ -1,0 +1,26 @@
+{
+  "sha256": "227beea6e727a5500f38c5c73376c03ef43100367b5bd131de1a6a36ed2ae3a5",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-011",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T05:44:28Z",
+  "prompt_sha": "303f6d25275850db752b15d9c7d3d948ca264d609c3666e67b0493fb3b36ada5",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG identificou uma **violação** da ordem jurídica no caso apresentado. A decisão judicial que aplicou um Tema de Repercussão Geral (TRG) originalmente destinado a servidores públicos a um empregado celetista privado, sem a devida fundamentação, incorreu em falhas processuais e de motivação que comprometem a legalidade e a justiça da decisão.\n\nA aplicação de um TRG, especialmente quando este se refere a um setor específico (servidores públicos), exige uma análise cuidadosa para verificar a aplicabilidade da *ratio decidendi* (a razão de decidir) aos fatos do caso concreto. A simples citação do TRG, sem demonstrar a analogia entre os regimes jurídico-administrativo e trabalhista, configura uma extrapolação indevida do precedente.\n\nO Q-FENG considerou que a decisão judicial violou princípios basilares do processo judicial e do direito, especialmente a necessidade de fundamentação adequada e a observância da separação de poderes. A falta de clareza na aplicação do TRG impede a compreensão da decisão e dificulta a possibilidade de revisão judicial, ferindo o direito de acesso à justiça e à revisão judicial.\n\n## 2. PREDICADOS ATIVADOS:\n\nOs predicados soberanos ativos, identificados pelo Q-FENG, refletem as obrigações e princípios violados pela decisão judicial.\n\n*   **sovereign(obligation_to_state_reasons_for_decisions):**  Esta obrigação constitucional impõe aos magistrados o dever de explicitar de forma clara e completa os fundamentos de suas decisões, permitindo que as partes compreendam a base da decisão e a possibilitem a sua revisão por instâncias superiores. A ausência de uma explicação clara sobre a analogia entre o caso dos servidores públicos e o do empregado celetista viola essa obrigação.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):** Reforça o item anterior, enfatizando que a motivação da decisão é um direito fundamental do jurisdicionado e um requisito para a validade da decisão judicial.\n*   **sovereign(prohibition_of_generic_precedent_citation):**  Impede a citação genérica de precedentes sem a devida análise da sua aplicabilidade ao caso concreto. A simples menção do TRG, sem demonstrar a pertinência da sua *ratio decidendi*, configura uma violação deste princípio.\n*   **sovereign(obligation_to_address_all_legal_arguments):**  Exige que o juiz examine e responda a todos os argumentos jurídicos apresentados pelas partes, demonstrando o seu conhecimento e a sua análise sobre a questão. Ignorar a falta de analogia entre os regimes jurídico-administrativo e trabalhista configura uma falha na análise dos argumentos.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):**  Determina que a decisão judicial deve ser fundamentada em uma *ratio decidendi* (a razão de decidir) claramente identificada e explicitada. A decisão em questão não demonstra qual a razão de decidir do TRG que seria aplicável ao caso concreto.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):**  Garante o direito de toda pessoa de ter acesso à justiça e de buscar a revisão de decisões judiciais. Uma decisão mal fundamentada dificulta a compreensão e a revisão da decisão, ferindo este direito fundamental.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"Imagine que um médico te receitou um remédio para uma doença, mas não te explicou por que aquele remédio era o certo para você. Você ficaria confuso, certo? Algo parecido aconteceu nesse caso. O juiz usou uma lei que valia para funcionários públicos, mas aplicou essa lei a um trabalhador contratado por uma empresa. O problema é que o juiz não explicou por que essa lei se encaixava no seu caso. É como se ele tivesse dado uma resposta sem dar a explicação de como chegou a ela. Isso não é justo, porque você tem o direito de entender por que o juiz decidiu daquela forma e de poder questionar essa decisão se não concordar. A lei precisa ser aplicada com cuidado e com uma boa explicação, para que todos entendam e possam se defender.\"\n",
+  "tokens_in": 491,
+  "tokens_out": 965,
+  "latency_ms": 26766,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

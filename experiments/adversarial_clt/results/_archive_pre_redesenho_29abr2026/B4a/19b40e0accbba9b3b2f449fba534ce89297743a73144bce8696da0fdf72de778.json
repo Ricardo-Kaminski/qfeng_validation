@@ -1,0 +1,27 @@
+{
+  "sha256": "19b40e0accbba9b3b2f449fba534ce89297743a73144bce8696da0fdf72de778",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-006",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T07:00:39Z",
+  "prompt_sha": "f639dd1bd0487253b77ed4f47aa1283095e0b4595ae43a9a643ff66481153314",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG analisou o cenário e chegou à conclusão de que a empresa agiu dentro dos parâmetros estabelecidos pela CCT (Convenção Coletiva de Trabalho) do setor de varejo. A decisão de oferecer folga compensatória nas semanas de baixo movimento, com compensação em até 12 meses, foi aceita pelos trabalhadores e realizada dentro do prazo estabelecido.\n\nA CCT previa que o saldo não compensado seria pago como hora extra com adicional de 50% ao término do prazo. No entanto, essa cláusula nunca precisou ser acionada, pois a compensação foi feita dentro do prazo estabelecido.\n\nO sistema Q-FENG considerou os predicados soberanos ativos, que são:\n\n*   `sovereign(recognition_of_collective_bargaining)`: Reconhecimento da negociação coletiva entre a empresa e os trabalhadores.\n*   `sovereign(maximum_weekly_working_hours_44h)`: Limitação de 44 horas semanais de trabalho, estabelecida pela CCT.\n*   `sovereign(maximum_daily_working_hours_8h)`: Limitação de 8 horas diárias de trabalho, estabelecida pela CCT.\n\nEsses predicados soberanos ativos demonstram que a empresa agiu dentro dos parâmetros estabelecidos pela CCT e respeitou os direitos dos trabalhadores.\n\n**2. PREDICADOS ATIVADOS**\n\nOs predicados soberanos ativos têm o seguinte significado jurídico no contexto trabalhista brasileiro:\n\n*   `sovereign(recognition_of_collective_bargaining)`: Essa cláusula reconhece a negociação coletiva entre a empresa e os trabalhadores, estabelecendo uma relação de confiança e respeito mútuo. Isso é fundamental para o funcionamento da CCT e para a proteção dos direitos dos trabalhadores.\n*   `sovereign(maximum_weekly_working_hours_44h)`: Essa cláusula limita as horas semanais de trabalho em 44 horas, estabelecida pela CCT. Isso é importante para evitar o excesso de trabalho e proteger a saúde dos trabalhadores.\n*   `sovereign(maximum_daily_working_hours_8h)`: Essa cláusula limita as horas diárias de trabalho em 8 horas, estabelecida pela CCT. Isso é fundamental para evitar o excesso de trabalho e proteger a saúde dos trabalhadores.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nEm linguagem simples, sem jargão técnico, a decisão do sistema Q-FENG pode ser explicada da seguinte forma:\n\n\"A empresa agiu dentro dos parâmetros estabelecidos pela CCT e respeitou os direitos dos trabalhadores. A compensação das horas extras foi feita dentro do prazo estabelecido e não houve necessidade de pagar o adicional de 50% previsto na CCT. O sistema Q-FENG considerou que a empresa agiu corretamente e recomendou a conformidade.\"",
+  "tokens_in": 526,
+  "tokens_out": 719,
+  "latency_ms": 12219,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

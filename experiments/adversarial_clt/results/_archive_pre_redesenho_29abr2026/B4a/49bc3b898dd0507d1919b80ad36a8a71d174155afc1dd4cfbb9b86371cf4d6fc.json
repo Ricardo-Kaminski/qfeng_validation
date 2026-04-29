@@ -1,0 +1,26 @@
+{
+  "sha256": "49bc3b898dd0507d1919b80ad36a8a71d174155afc1dd4cfbb9b86371cf4d6fc",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T05:31:34Z",
+  "prompt_sha": "ef87895aa2073a8dab104ed3b64c35ebfd6ccfac066ee3d352b7e193e48dee36",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, após análise do cenário apresentado e da decisão judicial, concluiu que houve **violação** de princípios fundamentais do devido processo legal e do direito ao contraditório e à ampla defesa. A decisão do TRT-2ª Região, ao manter a justa causa do bancário sem identificar a fundamentação jurisprudencial específica (OJ, Súmula ou acórdão) a que se refere, incorreu em uma falha grave. A mera afirmação de que a jurisprudência é \"pacífica\" não substitui a necessidade de fundamentação concreta e individualizada da decisão.\n\nA ausência de identificação da base jurisprudencial impede o empregado de compreender a lógica da decisão e de efetivamente se defender contra ela. Essa falta de transparência compromete a possibilidade de controle da legalidade da decisão por instâncias superiores e pela sociedade. O sistema Q-FENG considerou que a decisão do TRT-2ª Região não atendeu à obrigação de fundamentar a decisão em um *ratio decidendi* identificado, violando, portanto, o direito de acesso à justiça e à revisão judicial. A decisão, portanto, é considerada insustentável à luz dos princípios constitucionais e processuais aplicáveis.\n\n## 2. PREDICADOS ATIVADOS:\n\nOs seguintes predicados soberanos foram ativados pelo Q-FENG, demonstrando a base legal da decisão:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  Este predicado impõe a obrigação de que a decisão judicial explique de forma clara e compreensível as consequências práticas que ela acarreta para as partes envolvidas. A falta de identificação da jurisprudência impede o empregado de entender as implicações da decisão para sua situação.\n*   **sovereign(prohibition_of_generic_precedent_citation):** Este predicado estabelece a proibição de citar jurisprudência de forma genérica e abstrata, sem especificar o número da OJ, Súmula ou acórdão. A simples menção à \"jurisprudência pacífica\" não cumpre esse requisito.\n*   **sovereign(obligation_to_address_all_legal_arguments):**  Este predicado obriga o juiz a analisar e responder a todos os argumentos jurídicos apresentados pelas partes. A alegação do empregado sobre a falta de fundamentação adequada não foi devidamente considerada.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** Este predicado é crucial para a fundamentação das decisões judiciais. Exige que a decisão seja baseada em um *ratio decidendi* específico, ou seja, na razão de decidir identificada em um precedente normativo. A decisão do TRT-2ª Região não cumpriu essa obrigação.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):** Este predicado decorre do princípio do contraditório e da motivação das decisões, garantidos pela Constituição Federal. A falta de fundamentação específica viola esse direito fundamental.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):** Este predicado assegura o direito de todo cidadão de ter acesso à justiça e de buscar a revisão de decisões judiciais. A falta de fundamentação adequada impede o exercício efetivo desse direito.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"A Justiça do Trabalho, ao decidir que você foi demitido por justa causa, não explicou direito por que chegou a essa conclusão. A lei diz que, quando um juiz toma uma decisão, ele precisa mostrar exatamente em que leis ou em decisões anteriores semelhantes ele se baseou.  A Justiça disse que a decisão dela seguiu o que outras decisões já decidiram, mas não disse quais eram essas decisões.\n\nIsso é um problema porque você não consegue entender como a Justiça chegou a essa conclusão e não pode se defender direito. É como se a Justiça tivesse te dado uma nota ruim na escola sem te dizer por que.\n\nPor isso, o sistema Q-FENG entendeu que a Justiça errou ao não explicar direito a decisão. Você tem o direito de saber por que a Justiça decidiu te demitir e de poder mostrar que a decisão está errada.  A Justiça precisa te dar uma explicação clara e detalhada, mostrando quais leis ou decisões anteriores ela usou para tomar essa decisão.\"\n",
+  "tokens_in": 531,
+  "tokens_out": 983,
+  "latency_ms": 27171,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,26 @@
+{
+  "sha256": "e5f63565c30699270fc9de448e37048062290c01248f3fd98254a907f8691268",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CTRL-NEG-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:35:40Z",
+  "prompt_sha": "52ec50d5024118233c12c0dc9099b2683840524f81358cf22711748675d6dce8",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, após análise do cenário apresentado e da CCT celebrada entre a empresa e o sindicato, concluiu pela **conformidade** da situação. A decisão, embora não possa ser classificada como uma afirmação de certeza absoluta (devido ao resultado de satisfatibilidade \"UNKNOWN\"), indica que, com base nos dados fornecidos e nos princípios jurídicos aplicáveis, a prática adotada pela empresa está em consonância com a legislação e a CCT.\n\nA avaliação do Q-FENG foi fundamentada na necessidade de considerar as consequências práticas da decisão, na proibição de criar precedentes genéricos a partir deste caso específico, na obrigação de abordar todos os argumentos legais relevantes (mesmo que não expressos no cenário), na necessidade de fundamentar a decisão em um princípio jurídico identificável (o princípio da liberdade sindical e da autonomia da vontade coletiva) e na obrigação constitucional de fornecer uma justificativa clara para a decisão.  Apesar da ausência de contestação, a transparência e a justificativa da decisão são cruciais para garantir o direito de acesso à justiça e a possibilidade de revisão judicial, caso necessário.\n\nA ausência de predicados elásticos ativos sugere que não foram identificados elementos que pudessem flexibilizar a aplicação da norma, reforçando a necessidade de aderência aos termos da CCT. O valor do vetor ψ_S (3.1416) representa um fator de ponderação interna do sistema, utilizado para ajustar a importância relativa dos predicados soberanos na tomada de decisão, sem alterar o resultado final de conformidade.\n\n## PREDICADOS ATIVADOS:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):** Este predicado impõe a obrigação de avaliar as consequências práticas da decisão. No caso, a decisão de considerar a situação como conforme implica que a empresa pode continuar a operar o banco de horas conforme a CCT, sem risco imediato de questionamento legal.\n*   **sovereign(prohibition_of_generic_precedent_citation):**  Este predicado impede que este caso específico seja usado como um precedente geral para outros casos. Cada situação é única e deve ser analisada individualmente. A conformidade neste caso não significa que a mesma prática será automaticamente considerada conforme em outros contextos.\n*   **sovereign(obligation_to_address_all_legal_arguments):**  Embora não haja contestação no cenário, este predicado exige que a decisão considere todos os argumentos legais que poderiam ser levantados. A ausência de contestação não elimina a necessidade de uma análise completa.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** Este predicado exige que a decisão seja fundamentada em um princípio jurídico identificável. Neste caso, a decisão se baseia no princípio da autonomia da vontade coletiva, que permite a livre negociação entre empresas e sindicatos para regular as condições de trabalho.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):** Este predicado impõe a obrigação constitucional de fornecer uma justificativa clara e transparente para a decisão. A explicação detalhada da análise realizada pelo Q-FENG visa atender a este requisito.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):** Este predicado garante o direito das partes envolvidas de questionarem a decisão em um processo judicial. A transparência da decisão e a justificativa apresentada facilitam o exercício desse direito.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"Analisamos a situação da empresa e do sindicato em relação ao banco de horas, e, com base nas informações que recebemos e nas leis trabalhistas, entendemos que a forma como a empresa está administrando o banco de horas está correta. Isso significa que a empresa pode continuar a seguir as regras estabelecidas na CCT, que permite o acúmulo de horas e a conversão em horas extras se as horas não forem compensadas em folgas.\n\nÉ importante lembrar que essa decisão é baseada nas informações que temos agora. Cada caso é único e pode ter detalhes diferentes. Se você tiver alguma dúvida ou discordar da forma como o banco de horas está sendo administrado, você tem o direito de procurar um advogado ou entrar em contato com o sindicato para buscar seus direitos. Essa decisão não impede que você questione a situação na justiça, caso se sinta prejudicado.\"\n",
+  "tokens_in": 528,
+  "tokens_out": 975,
+  "latency_ms": 27171,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

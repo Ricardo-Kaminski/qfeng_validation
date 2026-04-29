@@ -1,0 +1,26 @@
+{
+  "sha256": "0581857e77458bc66a6ea5e590dcb05e61abeac34992b823c4af2cf53286c098",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-011",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T04:29:38Z",
+  "prompt_sha": "303f6d25275850db752b15d9c7d3d948ca264d609c3666e67b0493fb3b36ada5",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação na aplicação do Tema de Repercussão Geral (TRG) sobre o caso em questão, considerando os predicados soberanos ativos que regem a decisão normativa. A aplicação do TRG ao contexto de um empregado celetista privado sem explicar a analogia ou demonstrar a aplicabilidade da ratio decidendi violou múltiplas obrigações processuais e constitucionais.\n\nPrimeiramente, o predicado \"obligation_to_state_practical_consequences_of_decision\" destaca a necessidade de explicitar as consequências práticas de uma decisão judicial. No caso presente, não houve esclarecimento sobre como a aplicação do TRG, originário do direito administrativo para servidores públicos, afetaria o regime trabalhista privado.\n\nAlém disso, \"prohibition_of_generic_precedent_citation\" enfatiza que a citação de precedentes deve ser específica e relevante ao caso concreto. A aplicação do TRG sem demonstrar sua pertinência ao setor privado viola essa regra, pois não houve uma análise adequada da compatibilidade entre os regimes.\n\nO predicado \"obligation_to_address_all_legal_arguments\" exige que todas as argumentações legais apresentadas sejam consideradas. A ausência de explicação sobre a analogia ou aplicabilidade do TRG ao contexto trabalhista privado indica uma falha em abordar adequadamente os argumentos relevantes.\n\nA \"obligation_to_ground_decision_in_identified_ratio_decidendi\" requer que as decisões sejam fundamentadas na ratio decidendi dos precedentes citados. A falta de demonstração de como a ratio do TRG aplicaria ao caso específico viola essa obrigação, pois não houve identificação clara da base racional para a analogia.\n\nPor fim, \"constitutional_obligation_to_state_reasons_for_decisions\" e \"right_of_access_to_justice_and_judicial_review\" garantem que as decisões sejam fundamentadas e passíveis de revisão judicial. A ausência de razões claras e justificativas para a aplicação do TRG ao setor privado compromete o direito à justiça e a possibilidade de revisão.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obligation to state practical consequences of decision**: Juridicamente, isso significa que o tribunal deve explicar como sua decisão afetará as partes envolvidas, garantindo clareza sobre os impactos práticos da aplicação de um precedente.\n\n- **Prohibition of generic precedent citation**: Isso implica que a citação de precedentes deve ser específica e relevante ao caso em questão. Não se pode aplicar indiscriminadamente uma decisão sem demonstrar sua pertinência direta ao contexto atual.\n\n- **Obligation to address all legal arguments**: O tribunal tem o dever de considerar todos os argumentos legais apresentados pelas partes, garantindo que nenhuma perspectiva relevante seja ignorada na análise do caso.\n\n- **Obligation to ground decision in identified ratio decidendi**: As decisões judiciais devem ser fundamentadas na razão central (ratio decidendi) dos precedentes citados. Isso exige uma clara demonstração de como a lógica subjacente ao precedente se aplica ao caso concreto.\n\n- **Constitutional obligation to state reasons for decisions**: Constitucionalmente, o tribunal deve fornecer razões claras e fundamentadas para suas decisões, garantindo transparência e justificativa no processo judicial.\n\n- **Right of access to justice and judicial review**: Este predicado assegura que os cidadãos tenham acesso à justiça e a possibilidade de revisão das decisões judiciais, promovendo um sistema legal justo e responsável.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO tribunal aplicou uma regra geral que normalmente se usa para funcionários públicos em um caso envolvendo um trabalhador de empresa privada, sem explicar claramente por que isso deveria ser feito. Isso é problemático porque não foi mostrado como essa regra poderia realmente se encaixar no seu caso específico.\n\nEm termos simples, o tribunal precisava dizer por que uma decisão feita para funcionários públicos seria válida para você, um trabalhador de empresa privada. Eles também deveriam ter considerado todos os argumentos apresentados e dado razões claras para sua decisão. Não fazer isso pode significar que a decisão não foi justa ou bem fundamentada, o que é importante para garantir que você tenha acesso à justiça e possibilidade de revisão da decisão se necessário.",
+  "tokens_in": 509,
+  "tokens_out": 1070,
+  "latency_ms": 31062,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

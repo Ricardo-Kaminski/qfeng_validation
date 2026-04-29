@@ -1,0 +1,30 @@
+{
+  "sha256": "0478d3e31bad25ec45b7a32ee122482b010a643ba023e137915feccecda2ad88",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-006",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T07:09:03Z",
+  "prompt_sha": "e6375c11e406eda3f0926b4a955ab06c3b4f824045cb7d8586f69f27e435c47d",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG chegou à decisão de VIOLACAO porque o tribunal aplicou a ratio do precedente de forma invertida, usando a tese de validade de CCT bancária para justificar a validade de banco de horas sem qualquer CCT. Isso é uma violação dos princípios constitucionais e legais que regem as relações trabalhistas no Brasil.\n\nO sistema Q-FENG reconhece a importância da autonomia negocial, mas também sabe que essa autonomia não pode ser usada para ignorar os direitos dos trabalhadores. O tribunal deveria ter reconhecido que o precedente pressupõe CCT existente e aplicado a ratio decidendi de forma correta.\n\nOs predicados soberanos ativos indicam que o sistema Q-FENG está reconhecendo a necessidade de respeito aos princípios constitucionais e legais que regem as relações trabalhistas. O sistema está também reconhecendo a importância da proteção dos direitos dos trabalhadores.\n\n**2. PREDICADOS SOVERANOS ATIVOS**\n\nOs predicados soberanos ativos significam:\n\n* `sovereign(obligation_to_state_practical_consequences_of_decision)`: O tribunal tem a obrigação de informar as consequências práticas da decisão.\n* `sovereign(prohibition_of_generic_precedent_citation)`: O tribunal não pode citar precedentes de forma genérica e sem contexto.\n* `sovereign(obligation_to_address_all_legal_arguments)`: O tribunal tem a obrigação de considerar todos os argumentos legais apresentados pelas partes.\n* `sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)`: O tribunal deve fundamentar sua decisão no ratio decidendi (razão que decidiu) do precedente.\n* `sovereign(constitutional_obligation_to_state_reasons_for_decisions)`: O tribunal tem a obrigação constitucional de informar as razões pelas quais tomou uma decisão.\n* `sovereign(recognition_of_collective_bargaining)`: O tribunal deve reconhecer e respeitar os acordos coletivos entre empregadores e sindicatos.\n* `sovereign(right_of_access_to_justice_and_judicial_review)`: O tribunal deve garantir o acesso à justiça e ao recurso judicial para as partes envolvidas.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nO sistema Q-FENG decidiu que a decisão do tribunal foi errada porque ele usou uma regra de forma errada. A regra diz que os empregadores e sindicatos podem negociar acordos coletivos, mas o tribunal aplicou essa regra para justificar algo que não é permitido.\n\nIsso significa que o tribunal não respeitou as leis e os direitos dos trabalhadores. O sistema Q-FENG está dizendo que o tribunal deve ter considerado todos os argumentos legais e fundamentado sua decisão no precedente correto.\n\nEm outras palavras, a decisão do tribunal foi errada porque ele usou uma regra de forma errada e não respeitou as leis e os direitos dos trabalhadores. O sistema Q-FENG está defendendo os direitos dos trabalhadores e pedindo que o tribunal se corrija.",
+  "tokens_in": 569,
+  "tokens_out": 747,
+  "latency_ms": 12516,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

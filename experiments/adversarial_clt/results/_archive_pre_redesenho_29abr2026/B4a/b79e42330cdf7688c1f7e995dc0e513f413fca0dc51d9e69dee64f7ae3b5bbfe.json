@@ -1,0 +1,27 @@
+{
+  "sha256": "b79e42330cdf7688c1f7e995dc0e513f413fca0dc51d9e69dee64f7ae3b5bbfe",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T03:09:04Z",
+  "prompt_sha": "0208fd3b44ceb8a3c69065a3c8ca285bf0e8848068418ebf258a2f76db390f3c",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a **prorrogação automática do banco de horas por 3 meses, sem nova negociação coletiva**, viola a norma legal que **limita o prazo máximo do banco de horas a 1 ano**, conforme previsto no **predicado soberano *hour_bank_with_cct_max_1_year***.  \n\nEmbora a CCT estabeleça uma cláusula de renovação automática (*elastic(annual_hour_bank_negotiable)*), essa cláusula **não pode superar o limite legal de 1 ano**, que é uma **norma soberana** (predicado *sovereign*). A ausência de negociação coletiva para a prorrogação adicional de 3 meses **viola o princípio da autonomia negocial**, garantido pelo predicado *sovereign(recognition_of_collective_bargaining)*, que exige que qualquer alteração no regime de trabalho seja pactuada coletivamente.  \n\nA **violação** ocorre porque a empresa tentou aplicar uma cláusula elástica (*elastic*) que **não respeita o limite soberano** de 1 ano, mesmo que a CCT mencione renovação automática. O sistema concluiu que a **norma legal prevalece sobre a cláusula contratual**, resultando na **violação** da norma trabalhista.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(recognition_of_collective_bargaining)**:  \n  *Significado jurídico*: O direito à negociação coletiva é um **princípio constitucional** (art. 7º, XIV, da CF/88) e **obrigatório** para a validade de qualquer cláusula trabalhista. A ausência de negociação coletiva para a prorrogação do banco de horas viola esse princípio.  \n\n- **sovereign(maximum_weekly_working_hours_44h)**:  \n  *Significado jurídico*: O limite de 44 horas semanais (art. 59 da CLT) é uma **norma absoluta**, que não pode ser alterada por acordos individuais ou coletivos. A prorrogação do banco de horas não pode gerar jornadas que excedam esse limite.  \n\n- **sovereign(maximum_daily_working_hours_8h)**:  \n  *Significado jurídico*: O limite de 8 horas diárias (art. 59 da CLT) é uma **norma intransponível**, que deve ser respeitada mesmo com a flexibilização do banco de horas.  \n\n- **elastic(annual_hour_bank_negotiable)**:  \n  *Significado jurídico*: A existência de um banco de horas anual é **negociável**, mas **não pode ultrapassar o limite legal de 1 ano** (predicado *hour_bank_with_cct_max_1_year*).  \n\n- **elastic(working_hours_negotiable_by_cct)**:  \n  *Significado jurídico*: A CCT pode definir regras de flexibilização de horas, mas **não pode anular normas legais** (como o limite de 1 ano).  \n\n- **elastic(hour_bank_with_cct_max_1_year)**:  \n  *Significado jurídico*: A CCT pode estabelecer um banco de horas, mas **não pode estender seu prazo além de 1 ano**, sob pena de violação da norma legal.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO sistema Q-FENG concluiu que a empresa **não pode estender o banco de horas por mais 3 meses** sem negociar novamente com o sindicato. Mesmo que a CCT diga que o banco de horas renova automaticamente, a **lei brasileira** (que é mais forte que o contrato) **não permite que o banco de horas dure mais de 1 ano**.  \n\nA empresa tentou aplicar uma regra do contrato (a renovação automática) que **não respeita a lei**, e isso é uma **violação**. O sindicato está certo ao dizer que a prorrogação sem nova negociação é ilegal. A **lei prevalece sobre o contrato**, e a empresa deve negociar novamente para ajustar o prazo do banco de horas.",
+  "tokens_in": 527,
+  "tokens_out": 1472,
+  "latency_ms": 45467,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

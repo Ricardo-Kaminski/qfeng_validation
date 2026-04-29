@@ -1,0 +1,43 @@
+{
+  "sha256": "fc2eb67a24a871dab4f8663fd84785deb35e55b4086895f1e8cf0bb6c30dd49e",
+  "braco": "B5",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-009",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T14:09:49Z",
+  "prompt_sha": "ea9dbad799eaa67c2819716716a19634d7994619b3f06f88dbfbab9f1006bb52",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO motor de inferência Q-FENG classificou o caso como **VIOLACAO** devido à **fricção ontológica θ de 127,81°**, que ultrapassa o limiar de **120°** para o regime **CIRCUIT_BREAKER** (supressão de ação). Essa fricção reflete uma **incompatibilidade estrutural entre a ação da empresa e os predicados soberanos ativos**, que representam normas jurídicas fundamentais do Direito do Trabalho brasileiro.  \n\nOs predicados **sovereign** ativos, como **sovereign(semester_hour_bank_requires_cct_or_act)** e **sovereign(invalidity_of_clause_suppressing_overtime_payment)**, indicam que:  \n- O **banco de horas** só pode ser instituído mediante **CCT (Convenção Coletiva de Trabalho) ou ACT (Acordo Coletivo de Trabalho)**, que devem ser **representativos da categoria** (no caso, os administrativos).  \n- A **supressão de pagamento por horas extras** é **inválida**, e a **compensação de horas** exige **escrita formal**.  \n- A **fricção θ** surge porque a empresa aplicou o banco de horas aos administrativos **sem a participação do sindicato representativo dessa categoria**, violando a **representatividade da CCT** e a **proibição de cláusulas que reduzam direitos trabalhistas** (como o pagamento de horas extras).  \n\nO **ângulo elevado** (127,81°) e a **probabilidade de ação baixa (38,69%)** indicam que o sistema detectou **conflito direto entre a ação da empresa e os direitos fundamentais** (como o **mínimo adicional de 50% para horas extras** e o **limite de 44h semanais**), exigindo **intervenção judicial ou administrativa** para corrigir a violação.\n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n**Predicados sovereign ativos e seu significado jurídico:**  \n- **sovereign(semester_hour_bank_requires_cct_or_act):**  \n  O banco de horas só pode ser instituído mediante **CCT ou ACT**, que devem ser **representativos da categoria** (no caso, os administrativos). A ausência do sindicato dessa categoria torna o banco inválido.  \n\n- **sovereign(invalidity_of_clause_suppressing_overtime_payment):**  \n  Cláusulas que **suprimem o pagamento de horas extras** são **inválidas**, conforme a **Lei 6.029/1974** e a **Consolidação das Leis do Trabalho (CLT)**.  \n\n- **sovereign(weekly_hour_compensation_requires_written_agreement):**  \n  A compensação de horas exige **escrita formal** (como CCT ou ACT). A aplicação do banco de horas sem essa formalidade é ilegal.  \n\n- **sovereign(prohibition_negotiation_reducing_overtime_additional):**  \n  **Proibição de negociação que reduza o adicional de 50% para horas extras** (art. 66 da CLT).  \n\n- **sovereign(overtime_minimum_additional_50pct):**  \n  **O adicional de 50% para horas extras é obrigatório**, independentemente de acordos.  \n\n- **sovereign(maximum_weekly_working_hours_44h):**  \n  **Limite de 44h semanais** (art. 59 da CLT).  \n\n- **sovereign(maximum_daily_working_hours_8h):**  \n  **Limite de 8h diárias** (art. 59 da CLT).  \n\n- **elastic(hour_bank_without_cct_max_6_months):**  \n  Se o banco de horas for aplicado **sem CCT**, o prazo máximo é **6 meses** (art. 18 da CLT).  \n\n---\n\n### 3. **INTERPRETAÇÃO DO REGIME**  \nO regime **CIRCUIT_BREAKER** (θ ≥ 120°) significa que o sistema **bloqueia a ação da empresa** devido a **conflito direto com normas fundamentais**. Nesse caso:  \n- A **empresa violou a representatividade da CCT** (não envolveu o sindicato dos administrativos).  \n- A **aplicação do banco de horas** sem a formalidade de CCT ou ACT **viola a CLT**.  \n- O **regime BLOCK** impede a continuidade da prática ilegal, exigindo **correção imediata** (como a **reintegração do sindicato na negociação** ou a **revisão do banco de horas**).  \n\nA **probabilidade de ação baixa (38,69%)** reflete a **incerteza sobre a validade do banco de horas** (Clingo: UNKNOWN), mas a **fricção elevada** força a **intervenção judicial** para evitar danos aos direitos dos trabalhadores.\n\n---\n\n### 4. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa fez um acordo com o sindicato da construção civil para criar um **banco de horas**, mas **não consultou o sindicato dos funcionários administrativos**. Ela aplicou esse banco de horas também a eles, mas **isso é ilegal**, porque:  \n- O banco de horas só pode ser feito se **todos os sindicatos representativos estiverem de acordo**.  \n- A **lei exige que os funcionários tenham direito a horas extras com pagamento de 50% adicional**, e **não podem trabalhar mais de 44h por semana**.  \n\nO sistema detectou que a empresa **viola a lei**, então **recomenda que a prática seja suspensa** e que **o sindicato dos administrativos seja incluído na negociação**. A empresa precisa **revisar o acordo** para evitar multas e garantir os direitos dos funcionários.",
+  "tokens_in": 790,
+  "tokens_out": 1855,
+  "latency_ms": 59344,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": "",
+  "t_clingo_ms": 47,
+  "t_llm_ms": 59296,
+  "t_psi_build_ms": 0,
+  "t_theta_compute_ms": 0,
+  "qfeng_psi_n_dim": 2,
+  "qfeng_psi_s_dim": 2,
+  "qfeng_theta_rad": 2.2307694050963036,
+  "qfeng_theta_deg": 127.81367197892763,
+  "qfeng_theta_eff_rad": 2.2307694050963036,
+  "qfeng_theta_eff_deg": 127.81367197892763,
+  "qfeng_regime": "BLOCK",
+  "qfeng_p_action": 0.3869044161814975,
+  "qfeng_cos_theta": -0.6130955838185024,
+  "qfeng_cb_threshold_deg": 119.99999999999999
+}

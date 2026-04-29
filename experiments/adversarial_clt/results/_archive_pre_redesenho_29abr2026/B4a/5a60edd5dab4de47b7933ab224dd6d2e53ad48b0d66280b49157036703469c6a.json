@@ -1,0 +1,29 @@
+{
+  "sha256": "5a60edd5dab4de47b7933ab224dd6d2e53ad48b0d66280b49157036703469c6a",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-009",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T02:59:10Z",
+  "prompt_sha": "f9b0df7f69c181e9eda43e58ee237527f58e643126823baebe8b60ecd7efee06",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que houve **violação normativa** com base nos predicados soberanos ativos da CLT (Consolidação das Leis do Trabalho). A aplicação do banco de horas aos empregados administrativos **não está autorizada**, pois:  \n- **O banco de horas anual (ou semestral)** exige que a CCT (Convenção Coletiva de Trabalho) ou o ACT (Acordo Coletivo de Trabalho) **seja formalmente celebrado com a categoria representativa** dos empregados (no caso, o sindicato dos administrativos). A ausência da participação do sindicato dos administrativos torna a CCT **não representativa para essa categoria**, invalidando a aplicação do banco de horas.  \n- **A CLT proíbe a negociação de cláusulas que reduzam a remuneração por horas extras** (predicado *prohibition_negotiation_reducing_overtime_additional*), e a aplicação do banco de horas sem acordo escrito com a categoria administrativa pode ser interpretada como uma tentativa de evitar o pagamento de horas extras.  \n- **O limite máximo de 44 horas semanais** (predicado *maximum_weekly_working_hours_44h*) e **8 horas diárias** (predicado *maximum_daily_working_hours_8h*) deve ser respeitado, e o banco de horas pode ser usado apenas como compensação de horas extras, não como substituição de jornada normal.  \n- **A ausência de acordo escrito** (predicado *weekly_hour_compensation_requires_written_agreement*) para compensar horas extras com o banco de horas **invalida a prática**, mesmo que a CCT seja válida para outras categorias.  \n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(semester_hour_bank_requires_cct_or_act)**: O banco de horas semestral (ou anual) **só pode ser estabelecido com a celebração de CCT ou ACT** que inclua a categoria de empregados. A ausência do sindicato dos administrativos invalida a CCT para essa categoria.  \n- **sovereign(invalidity_of_clause_suppressing_overtime_payment)**: Cláusulas que **suprimam ou reduzam o pagamento de horas extras** são **nulas por ilegalidade**, conforme a CLT.  \n- **sovereign(weekly_hour_compensation_requires_written_agreement)**: A compensação de horas extras por meio de banco de horas **exige acordo escrito** com a categoria. A ausência desse acordo torna a prática ilegal.  \n- **sovereign(prohibition_negotiation_reducing_overtime_additional)**: **É proibido negociar cláusulas que reduzam a remuneração por horas extras** (ex.: substituir horas extras por banco de horas sem compensação).  \n- **sovereign(overtime_minimum_additional_50pct)**: As horas extras devem ter **remuneração mínima de 50% acima da hora normal**, e o banco de horas **não pode ser usado para evitar esse pagamento**.  \n- **sovereign(maximum_weekly_working_hours_44h)**: A jornada semanal **não pode ultrapassar 44 horas**, e o banco de horas **não pode ser usado para compensar horas extras além desse limite**.  \n- **sovereign(maximum_daily_working_hours_8h)**: A jornada diária **não pode exceder 8 horas**, e o banco de horas **não pode ser usado para compensar horas extras que ultrapassem esse limite**.  \n- **elastic(hour_bank_without_cct_max_6_months)**: O banco de horas **sem CCT ou ACT** pode ser usado por **máximo de 6 meses**, mas **não pode ser estendido** sem acordo coletivo.  \n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa aplicou um \"banco de horas\" (um sistema para compensar horas extras) aos empregados administrativos, mas **não houve acordo com o sindicato dos administrativos**. Isso é **ilegal**, porque:  \n- O banco de horas **só pode ser usado se houver um acordo coletivo** com a categoria (no caso, o sindicato dos administrativos).  \n- A CLT **proíbe a empresa de usar o banco de horas para evitar o pagamento de horas extras** (que devem ser remuneradas com 50% a mais).  \n- A jornada de trabalho **não pode exceder 44 horas por semana** ou 8 horas por dia, e o banco de horas **não pode ser usado para compensar horas extras além desse limite**.  \n- A empresa **não pode aplicar o banco de horas aos administrativos** sem um acordo escrito com o sindicato deles.  \n\n**Conclusão**: A empresa **viola a lei** ao aplicar o banco de horas aos administrativos sem o acordo necessário. Os empregados têm direito a **receber horas extras com o pagamento devido** e **não podem ser obrigados a usar o banco de horas** sem consentimento coletivo.",
+  "tokens_in": 530,
+  "tokens_out": 1699,
+  "latency_ms": 54296,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

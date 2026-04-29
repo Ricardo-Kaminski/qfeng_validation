@@ -1,0 +1,26 @@
+{
+  "sha256": "8b31433a86f164deffb395f81b63ad945d5448f93b30e151eb2f0a4a92e4d5b7",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-013",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T06:48:36Z",
+  "prompt_sha": "dc2f04dfd84b48a2d0444f231abda0be30bb68d5e7946f908e8847d860d5e8a4",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após analisar o caso concreto e os precedentes judiciais relevantes, chegou à decisão de CONFORMIDADE. Isso ocorreu porque a fundamentação do acórdão do TST foi completa, identificada e verificável, mas não aplicável ao caso concreto em questão.\n\nA ratio decidendi do julgado (validade de banco de horas em CCT do setor bancário à luz do Tema 1046/STF) é inaplicável ao caso, pois a distinção fática entre o setor aéreo e o bancário é fundamentada na Constituição Federal de 1988 (CF/88), Art. 7°, XIII e XIV.\n\nOs predicados soberanos ativos indicam que o sistema Q-FENG está obrigado a:\n\n* Estabelecer as consequências práticas da decisão;\n* Proibir a citação de precedentes genéricos;\n* Tratar todos os argumentos legais apresentados;\n* Fundamentar a decisão com base na ratio decidendi identificada;\n* Cumprir a obrigação constitucional de justificar as razões das decisões;\n* Respeitar o direito de acesso à justiça e à revisão judicial.\n\n**2. PREDICADOS ATIVADOS**\n\nOs predicados soberanos ativos significam, juridicamente:\n\n* **sovereign(obligation_to_state_practical_consequences_of_decision)**: O sistema Q-FENG está obrigado a estabelecer as consequências práticas da decisão tomada, ou seja, como o resultado da decisão afetará os envolvidos.\n* **sovereign(prohibition_of_generic_precedent_citation)**: O sistema Q-FENG proíbe a citação de precedentes genéricos que não sejam aplicáveis ao caso concreto em questão. Isso significa que o sistema não aceita decisões baseadas em casos semelhantes, mas não idênticos.\n* **sovereign(obligation_to_address_all_legal_arguments)**: O sistema Q-FENG está obrigado a tratar todos os argumentos legais apresentados pelos envolvidos. Isso significa que o sistema deve considerar todas as razões e justificativas apresentadas.\n* **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: O sistema Q-FENG está obrigado a fundamentar a decisão com base na ratio decidendi identificada, ou seja, a justificar a decisão com base nas razões que a sustentam.\n* **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: O sistema Q-FENG está obrigado a cumprir a Constituição Federal de 1988 (CF/88) e justificar as razões das decisões com base nos princípios constitucionais.\n* **sovereign(right_of_access_to_justice_and_judicial_review)**: O sistema Q-FENG respeita o direito de acesso à justiça e à revisão judicial, garantindo que os envolvidos tenham a oportunidade de recorrer da decisão.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nA decisão do sistema Q-FENG é simplesmente: \"O caso não segue as regras estabelecidas pela Constituição Federal e pelos precedentes judiciais relevantes. A fundamentação do acórdão do TST foi completa, mas não aplicável ao caso concreto em questão.\"\n\nIsso significa que a decisão não é baseada em uma regra ou princípio específico, mas sim na análise das circunstâncias do caso e da aplicação das leis relevantes. O sistema Q-FENG está apenas seguindo as regras estabelecidas pela Constituição Federal e pelos precedentes judiciais para chegar a essa decisão.",
+  "tokens_in": 591,
+  "tokens_out": 865,
+  "latency_ms": 14500,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

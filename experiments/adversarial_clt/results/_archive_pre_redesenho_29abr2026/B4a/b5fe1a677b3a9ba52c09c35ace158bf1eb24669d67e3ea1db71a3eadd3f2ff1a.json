@@ -1,0 +1,29 @@
+{
+  "sha256": "b5fe1a677b3a9ba52c09c35ace158bf1eb24669d67e3ea1db71a3eadd3f2ff1a",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-008",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T02:54:32Z",
+  "prompt_sha": "85be4e9fc6b0e8305c982455c7b1416641f688c9050ea4b7fedf4fae6b54fd4b",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a **empresa viola normas trabalhistas** ao recusar o pagamento das 60 horas extras pendentes, mesmo após a rescisão do contrato de trabalho. A decisão baseia-se em predicados soberanos que **protegem o direito à compensação de horas extras** e **proíbem cláusulas que anulem esse direito**, independentemente da vontade do empregado.  \n\n- **Predicado `sovereign(invalidity_of_clause_suppressing_overtime_payment)`** afirma que **não é permitido** estabelecer cláusulas que anulem o pagamento de horas extras, mesmo após a rescisão. A empresa não pode usar o fato da demissão para negar o direito ao saldo positivo.  \n- **Predicado `sovereign(weekly_hour_compensation_requires_written_agreement)`** reforça que **qualquer compensação de horas extras** (como o banco de horas) **exige acordo escrito** (ACT ou CCT). A ausência de um acordo escrito que prevê a perda do saldo ao rescindir o contrato inviabiliza a negativa da empresa.  \n- **Predicado `sovereign(overtime_minimum_additional_50pct)`** garante que **as horas extras devem ter adicional de 50%**, independentemente da forma de compensação. A empresa não pode negar esse direito apenas por motivos de rescisão.  \n\nA **incerteza de satisfatibilidade (UNKNOWN)** indica que o sistema não pode confirmar a validade absoluta do banco de horas (por exemplo, se o ACT prevê compensação em 7 meses, mas a demissão ocorreu em 5 meses). No entanto, **os predicados soberanos dominam a lógica**, priorizando o direito do trabalhador ao pagamento das horas extras pendentes.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **`sovereign(semester_hour_bank_requires_cct_or_act)`**: O banco de horas (compensação de horas extras) **só é válido se estabelecido por CCT ou ACT** (convenção ou acordo coletivo). A empresa não pode criar regras ad hoc.  \n- **`sovereign(invalidity_of_clause_suppressing_overtime_payment)`**: **Cláusulas que anulem o pagamento de horas extras são nulas**. Mesmo após a rescisão, o trabalhador tem direito ao saldo positivo.  \n- **`sovereign(weekly_hour_compensation_requires_written_agreement)`**: Qualquer compensação de horas extras (como banco de horas) **exige acordo escrito** (CCT/ACT). A empresa não pode aplicar regras não previstas no contrato.  \n- **`sovereign(prohibition_negotiation_reducing_overtime_additional)`**: **É proibido acordar reduções no adicional de horas extras** (50%). A empresa não pode negociar isso.  \n- **`sovereign(overtime_minimum_additional_50pct)`**: **As horas extras devem ter adicional de 50%**, independentemente da forma de compensação.  \n- **`sovereign(maximum_weekly_working_hours_44h)`**: **A jornada semanal máxima é de 44 horas**. Excedentes devem ser compensados como horas extras.  \n- **`sovereign(maximum_daily_working_hours_8h)`**: **A jornada diária máxima é de 8 horas**. Excedentes também são horas extras.  \n- **`elastic(hour_bank_without_cct_max_6_months)`**: Se o banco de horas **não estiver previsto em CCT/ACT**, o prazo máximo para compensação é de **6 meses**. No caso, o ACT prevê 7 meses, mas a demissão ocorreu em 5 meses, o que pode gerar ambiguidade (por isso, a satisfatibilidade é UNKNOWN).  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa **não pode negar o pagamento de 60 horas extras** que o trabalhador acumulou, mesmo após a demissão. A lei diz que:  \n- **Você tem direito a ser pago pelas horas extras** que você trabalhou, independentemente de ter pedido demissão.  \n- **A empresa não pode criar regras que anulem esse direito**, como dizer \"quando você sai, as horas extras não valem mais\".  \n- **Se o banco de horas foi feito por um acordo coletivo (ACT/CCT)**, ele deve seguir regras claras. Mesmo que o ACT diga que o saldo pode ser compensado em 7 meses, a empresa **não pode negar o pagamento** apenas porque o trabalhador saiu antes disso.  \n\nA **empresa está errada** ao recusar o pagamento. O trabalhador deve receber as 60 horas extras, e a lei protege esse direito.",
+  "tokens_in": 546,
+  "tokens_out": 1578,
+  "latency_ms": 50953,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

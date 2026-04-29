@@ -1,0 +1,29 @@
+{
+  "sha256": "384d650c077e7ad6a6f207857c39a1d01cba3f804a0d286549220ab86143c336",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T04:33:43Z",
+  "prompt_sha": "a8d1c788e3de99920a389b72bb625722e4a5ecc3f4de5f08a57e80dccc55da81",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação das normas trabalhistas brasileiras no caso apresentado. A decisão de classificar a situação como \"VIOLACAO\" baseia-se na ativação dos predicados soberanos, que representam princípios jurídicos fundamentais não negociáveis sob a Consolidação das Leis do Trabalho (CLT). \n\nOs predicados soberanos ativos indicam que:\n\n- O banco de horas excedendo seis meses requer autorização por meio de Acordo Coletivo de Trabalho (ACT) ou Convenção Coletiva de Trabalho (CCT), conforme o princípio `sovereign(semester_hour_bank_requires_cct_or_act)`. A empresa não possui tal autorização, já que o sindicato da categoria não celebrou qualquer ACT ou CCT permitindo o banco de horas por mais de seis meses.\n\n- Qualquer cláusula que suprima o pagamento de horas extras é inválida (`sovereign(invalidity_of_clause_suppressing_overtime_payment)`). Isso significa que, mesmo com acordos individuais, a empresa não pode evitar o pagamento adicional por horas trabalhadas além do limite legal.\n\n- A compensação das horas semanais deve ser feita por escrito (`sovereign(weekly_hour_compensation_requires_written_agreement)`), e os acordos individuais assinados pelos empregados podem não atender a este requisito formal, especialmente se contradizem normas coletivas.\n\n- É proibida qualquer negociação que reduza o pagamento adicional por horas extras (`sovereign(prohibition_negotiation_reducing_overtime_additional)`), reforçando a invalidade de acordos individuais que tentam contornar esse direito.\n\n- As horas extras devem ser pagas com um acréscimo mínimo de 50% sobre o valor da hora normal (`sovereign(overtime_minimum_additional_50pct)`).\n\n- Existem limites máximos para a jornada semanal e diária, sendo 44 horas por semana e 8 horas por dia, respectivamente (`sovereign(maximum_weekly_working_hours_44h)`, `sovereign(maximum_daily_working_hours_8h)`). O banco de horas acumulado pode indicar que esses limites foram ultrapassados sem a compensação adequada.\n\n### 2. PREDICADOS ATIVADOS\n\n- **`sovereign(semester_hour_bank_requires_cct_or_act)`**: Legalmente, o banco de horas para períodos superiores a seis meses só é permitido se houver autorização por meio de um Acordo Coletivo de Trabalho (ACT) ou Convenção Coletiva de Trabalho (CCT). Sem essa autorização, qualquer prática que exceda esse período é ilegal.\n\n- **`sovereign(invalidity_of_clause_suppressing_overtime_payment)`**: Qualquer cláusula em contratos individuais ou coletivos que tente suprimir o pagamento de horas extras é considerada inválida. Os trabalhadores têm direito a receber um adicional por qualquer hora trabalhada além do limite legal.\n\n- **`sovereign(weekly_hour_compensation_requires_written_agreement)`**: A compensação das horas extras deve ser formalizada por escrito, garantindo que os acordos sejam claros e respeitem as normas legais vigentes.\n\n- **`sovereign(prohibition_negotiation_reducing_overtime_additional)`**: É proibido negociar qualquer redução no pagamento adicional de horas extras. Essa proteção garante que os trabalhadores recebam o benefício legalmente estabelecido por suas horas adicionais.\n\n- **`sovereign(overtime_minimum_additional_50pct)`**: As horas extras devem ser pagas com um acréscimo mínimo de 50% sobre a remuneração da hora normal, conforme determina a legislação trabalhista brasileira.\n\n- **`sovereign(maximum_weekly_working_hours_44h)`** e **`sovereign(maximum_daily_working_hours_8h)`**: Estabelecem os limites máximos para a jornada de trabalho semanal (44 horas) e diária (8 horas), resguardando o direito dos trabalhadores ao descanso adequado.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG identificou que a empresa está agindo de forma errada ao permitir que os funcionários acumulem mais de seis meses de horas extras sem um acordo formal com o sindicato. Isso é importante porque, segundo as leis trabalhistas do Brasil, qualquer prática que exceda esse período precisa ser autorizada por meio de acordos coletivos específicos.\n\nAlém disso, mesmo que os funcionários tenham assinado um documento interno, isso não substitui a necessidade de seguir as regras legais. As horas extras devem sempre ser pagas com um adicional de pelo menos 50% sobre o valor normal da hora trabalhada. A empresa não pode simplesmente ignorar esse direito.\n\nPortanto, os funcionários têm razão em questionar essa prática, pois ela viola as normas que protegem seus direitos ao pagamento justo por horas extras e garantem limites seguros para a jornada de trabalho semanal e diária.",
+  "tokens_in": 535,
+  "tokens_out": 1201,
+  "latency_ms": 34889,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

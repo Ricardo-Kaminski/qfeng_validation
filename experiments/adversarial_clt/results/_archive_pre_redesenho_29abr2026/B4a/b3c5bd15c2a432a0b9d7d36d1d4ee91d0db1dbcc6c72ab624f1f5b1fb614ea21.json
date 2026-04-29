@@ -1,0 +1,30 @@
+{
+  "sha256": "b3c5bd15c2a432a0b9d7d36d1d4ee91d0db1dbcc6c72ab624f1f5b1fb614ea21",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:27:25Z",
+  "prompt_sha": "b3fc3319eefedae00a5e9f49f61a8cb6a71ba4d9860ac95b8580343ff80ed754",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, ao analisar o cenário apresentado – um acórdão sobre dano moral trabalhista fundamentado na CLT Art. 223-G e precedentes do TST – concluiu que a decisão deve ser considerada **CONFORME**. Essa conclusão, embora com um grau de satisfatibilidade incerto (UNKNOWN), reflete a aderência do acórdão aos princípios e parâmetros legais estabelecidos, conforme avaliado pela execução do solver Clingo ASP.\n\nA decisão de recomendar a conformidade não significa que o sistema Q-FENG endosse o valor específico da indenização ou a classificação do grau da ofensa. Significa que, *dado o cenário descrito*, o acórdão demonstra ter seguido os procedimentos legais corretos, utilizando os parâmetros definidos na CLT e os precedentes do TST para fundamentar sua decisão. A incerteza na satisfatibilidade sugere que, embora a estrutura legal esteja correta, a aplicação específica dos fatos e a quantificação do dano poderiam ser objeto de análise mais aprofundada, mas não invalidam a conformidade geral da decisão.\n\nA recomendação de conformidade é reforçada pela ativação de diversos predicados soberanos, que garantem a transparência, a fundamentação e a justiça do processo decisório. A proibição de precedentes genéricos assegura que a decisão não se baseie em generalizações, mas sim em uma análise específica do caso concreto. A obrigação de abordar todos os argumentos legais garante que nenhuma defesa ou alegação seja ignorada. A obrigação de fundamentar a decisão na *ratio decidendi* identificada assegura que a base lógica da decisão seja clara e compreensível. A obrigação de declarar os motivos da decisão garante a transparência e a possibilidade de revisão judicial. O reconhecimento do poder de negociação coletiva e o direito de acesso à justiça e revisão judicial também foram considerados, garantindo a proteção dos direitos do trabalhador.\n\n## 2. PREDICADOS ATIVADOS:\n\nOs predicados soberanos ativos e seus significados no contexto trabalhista brasileiro são:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  O sistema deve garantir que a decisão judicial tenha consequências práticas claras e compreensíveis para as partes envolvidas. Isso implica que a decisão não pode ser abstrata, mas deve indicar como será implementada e quais os efeitos concretos que terá.\n*   **sovereign(prohibition_of_generic_precedent_citation):**  Impede a utilização de precedentes judiciais de forma genérica e descontextualizada. Cada caso deve ser analisado individualmente, e os precedentes devem ser aplicados com rigor, considerando as particularidades da situação.\n*   **sovereign(obligation_to_address_all_legal_arguments):**  O sistema deve considerar e responder a todos os argumentos legais apresentados pelas partes, demonstrando que cada alegação foi devidamente analisada e justificada.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):**  A decisão deve ser fundamentada na *ratio decidendi* (o princípio jurídico fundamental que sustenta a decisão) de casos anteriores, demonstrando a lógica e a coerência da decisão.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):**  Garante o direito fundamental à motivação das decisões judiciais, conforme previsto na Constituição Federal. A decisão deve ser clara, objetiva e apresentar os fundamentos de fato e de direito que a sustentam.\n*   **sovereign(recognition_of_collective_bargaining):**  Reconhece a importância da negociação coletiva como instrumento para a definição de condições de trabalho e a resolução de conflitos, respeitando os acordos e convenções coletivas.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):**  Garante o direito de acesso à justiça e à revisão judicial das decisões, assegurando a possibilidade de questionamento e correção de eventuais erros.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"O sistema Q-FENG analisou a decisão sobre a indenização por dano moral que você recebeu e concluiu que ela parece estar correta, seguindo as leis e os exemplos de casos semelhantes que já foram decididos pelos tribunais.\n\nIsso significa que a decisão não foi tomada de forma arbitrária, mas sim com base em regras e princípios claros. A decisão foi analisada para garantir que todos os seus argumentos foram considerados e que a decisão se baseia em fatos concretos e não em generalizações.\n\nApesar de o sistema não poder dizer com certeza se o valor da indenização está justo (isso depende de como os fatos do seu caso foram interpretados), ele confirmou que a forma como a decisão foi tomada está de acordo com a lei. Você tem o direito de questionar essa decisão se não concordar com ela, e um juiz pode analisar novamente o caso.\"\n",
+  "tokens_in": 581,
+  "tokens_out": 1101,
+  "latency_ms": 30703,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,26 @@
+{
+  "sha256": "a8050c76333596bafc08ba52eca9fe26e5e68fb19201d47a2dddc05d7a8fba89",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-010",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T05:43:32Z",
+  "prompt_sha": "616931cfd10c80d27ea65ea3d9f17fc5d70b1e90674a0e5470d9bf3f655e12d8",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, ao analisar o cenário apresentado – decisão em embargos de declaração que afirma a inexistência de contradição sem abordar especificamente o ponto de discordância levantado pela parte embargante, que alegou a aplicação de tese de recurso de uma parte para beneficiar a parte contrária sem o devido contraditório – concluiu que houve uma **violação** de princípios fundamentais do processo judicial.\n\nA decisão do Q-FENG não se baseia em uma avaliação da validade do mérito da alegação de contradição, mas sim na forma como a decisão foi proferida. O sistema identificou que o juiz, ao ignorar o ponto específico de controvérsia, falhou em cumprir obrigações inerentes ao seu papel no sistema de justiça. A afirmação genérica de inexistência de contradição, sem a devida análise da alegação da parte, demonstra uma falha na garantia do direito de acesso à justiça e à revisão judicial, além de violar a obrigação de fundamentar as decisões em argumentos jurídicos identificados.\n\nA satisfatibilidade \"UNKNOWN\" reflete a complexidade da avaliação do mérito da alegação de contradição, que é uma questão factual e jurídica que escapa à capacidade do sistema de determinar com certeza. No entanto, a violação dos predicados soberanos ativos demonstra a falha no processo de tomada de decisão, independentemente do mérito da alegação.\n\n## 2. PREDICADOS ATIVADOS:\n\nOs predicados soberanos ativos, no contexto do direito trabalhista brasileiro, significam:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):** O juiz tem a obrigação de explicitar as consequências práticas da decisão, especialmente quando esta afeta direitos e obrigações das partes envolvidas. Ignorar o ponto específico de contradição impede a compreensão das implicações da decisão.\n*   **sovereign(prohibition_of_generic_precedent_citation):** O juiz não pode utilizar precedentes de forma genérica, sem demonstrar sua pertinência e adequação ao caso concreto. A aplicação de tese de recurso de uma parte para beneficiar a outra sem análise específica configura uma utilização inadequada de precedentes.\n*   **sovereign(obligation_to_address_all_legal_arguments):** O juiz é obrigado a analisar e responder a todos os argumentos jurídicos apresentados pelas partes, mesmo que não concordando com eles. A omissão no tratamento do ponto de contradição demonstra o descumprimento dessa obrigação.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** A decisão deve ser fundamentada em um princípio jurídico específico (ratio decidendi) identificado no caso concreto. A decisão genérica, sem análise do ponto de contradição, não demonstra essa fundamentação.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):** A Constituição Federal garante o direito ao contraditório e à motivação das decisões judiciais. A omissão no tratamento do ponto de contradição viola essa obrigação constitucional.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):** As partes têm o direito de ter suas alegações analisadas e de buscar a revisão judicial das decisões. A ignorância do ponto de contradição impede o exercício pleno desse direito.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"Imagine que você está numa discussão e a outra pessoa simplesmente ignora o que você está dizendo. Isso é o que aconteceu aqui. A empresa (ou o trabalhador) fez uma reclamação específica no tribunal, dizendo que a decisão anterior estava errada porque usou uma ideia de um lado para prejudicar o outro sem dar a chance de contestar. O juiz, em vez de responder a essa reclamação, apenas disse que não havia nada de errado.\n\nIsso é um problema porque todo mundo tem o direito de ter suas queixas ouvidas e respondidas. O juiz precisa explicar por que ele tomou a decisão que tomou, e ele não fez isso. Ele simplesmente ignorou o ponto importante que a empresa (ou o trabalhador) levantou. Isso impede que a pessoa entenda por que perdeu e não permite que ela tente corrigir o erro. O sistema Q-FENG identificou que essa atitude do juiz é uma violação de regras importantes que garantem que todos tenham uma chance justa na justiça.\"",
+  "tokens_in": 504,
+  "tokens_out": 998,
+  "latency_ms": 27672,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

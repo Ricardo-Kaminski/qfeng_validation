@@ -1,0 +1,27 @@
+{
+  "sha256": "ac909e33667d164c9c1e7fab20e731054bdb8e7151b4fa2ad8a05357acd9e2c7",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:58:21Z",
+  "prompt_sha": "0208fd3b44ceb8a3c69065a3c8ca285bf0e8848068418ebf258a2f76db390f3c",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após analisar os fatos apresentados, chegou à conclusão de que a empresa agiu de forma inadequada ao solicitar a prorrogação do banco de horas sem uma nova negociação coletiva. Isso porque o sistema considerou que a cláusula de renovação automática da CCT não é suficiente para justificar a extensão do período de 1 ano, conforme previsto no artigo 7º da Constituição Federal.\n\nA decisão foi influenciada pelos predicados soberanos ativos, que estabelecem princípios fundamentais da relação trabalhista. Em especial, o predicado `sovereign(recognition_of_collective_bargaining)` enfatiza a importância da negociação coletiva como mecanismo de regulação das relações entre empregadores e empregados.\n\nAlém disso, os predicados `sovereign(maximum_weekly_working_hours_44h)` e `sovereign(maximum_daily_working_hours_8h)` reforçam a necessidade de respeito aos limites de trabalho estabelecidos pela legislação trabalhista. No entanto, esses predicados não foram diretamente aplicados na decisão, pois o foco estava na interpretação da cláusula de renovação automática.\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\nOs predicados soberanos ativos são os seguintes:\n\n* `sovereign(recognition_of_collective_bargaining)`: Este predicado estabelece que a negociação coletiva é um mecanismo fundamental para regular as relações entre empregadores e empregados. Isso significa que qualquer alteração na CCT deve ser negociada de forma coletiva, respeitando os direitos dos trabalhadores.\n* `sovereign(maximum_weekly_working_hours_44h)`: Este predicado estabelece o limite máximo de horas semanais de trabalho como 44 horas. No entanto, essa cláusula não foi diretamente aplicada na decisão, pois o foco estava na interpretação da cláusula de renovação automática.\n* `sovereign(maximum_daily_working_hours_8h)`: Este predicado estabelece o limite máximo de horas diárias de trabalho como 8 horas. Novamente, essa cláusula não foi diretamente aplicada na decisão.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nO sistema Q-FENG decidiu que a empresa agiu errado ao solicitar prorrogação do banco de horas sem uma nova negociação coletiva. Isso porque a CCT prevê que o banco de horas seja renovado automaticamente, mas isso não significa que a empresa possa estender o período de 1 ano sem discutir com os trabalhadores.\n\nImagine que você tem um acordo com sua empresa sobre como funciona o trabalho e as férias. Se esse acordo expira em um ano, a empresa não pode simplesmente estender o prazo sem conversar com vocês novamente. Isso seria injusto e iria contra as regras trabalhistas.\n\nA decisão do sistema Q-FENG é de que a empresa deve respeitar as regras e negociar com os trabalhadores antes de fazer qualquer mudança no acordo.",
+  "tokens_in": 528,
+  "tokens_out": 750,
+  "latency_ms": 12734,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

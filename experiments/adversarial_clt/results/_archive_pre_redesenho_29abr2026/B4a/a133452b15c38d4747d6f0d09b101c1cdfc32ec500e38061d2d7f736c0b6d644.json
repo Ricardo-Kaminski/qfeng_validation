@@ -1,0 +1,27 @@
+{
+  "sha256": "a133452b15c38d4747d6f0d09b101c1cdfc32ec500e38061d2d7f736c0b6d644",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:57:57Z",
+  "prompt_sha": "c6c0c1122710df482c2abdde5c502834d7fd2f7dca2ec9ae3f5901b25dbff6df",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG analisou o caso e determinou que há conformidade com as normas trabalhistas brasileiras. Isso ocorreu porque os predicados soberanos ativos foram satisfeitos, ou seja:\n\n* A empresa reconheceu a negociação coletiva (recognition_of_collective_bargaining), o que é fundamental para a aplicação das regras do acordo coletivo de trabalho.\n* A jornada diária não ultrapassou 8 horas por dia (maximum_daily_working_hours_8h), conforme previsto na CLT.\n* A empresa também respeitou o limite máximo semanal de 44 horas (maximum_weekly_working_hours_44h).\n\nAlém disso, os predicados elásticos ativos indicam que as negociações coletivas permitiram a flexibilização das regras trabalhistas. Isso significa que:\n\n* O banco de horas anual foi negociado e aplicado dentro do prazo estabelecido (annual_hour_bank_negotiable).\n* As horas trabalhadas podem ser compensadas mediante folgas, conforme previsto na CCT (working_hours_negotiable_by_cct).\n* O período máximo para a compensação das horas é de 1 ano, conforme estabelecido na CCT (hour_bank_with_cct_max_1_year).\n\nCom essas condições satisfeitas, o sistema Q-FENG determinou que há conformidade com as normas trabalhistas brasileiras.\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\nOs predicados soberanos ativos significam:\n\n* `recognition_of_collective_bargaining`: A empresa reconheceu a negociação coletiva e aplicou as regras do acordo coletivo de trabalho.\n* `maximum_weekly_working_hours_44h`: A jornada semanal não pode ultrapassar 44 horas, conforme previsto na CLT.\n* `maximum_daily_working_hours_8h`: A jornada diária não pode ultrapassar 8 horas por dia.\n\nEsses predicados são fundamentais para garantir que as regras trabalhistas sejam respeitadas e aplicadas corretamente. Eles estabelecem limites claros para a jornada de trabalho e garantem que as empresas cumpram com suas obrigações trabalhistas.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nA decisão do sistema Q-FENG significa que a empresa cumpriu corretamente com as regras trabalhistas brasileiras. Isso ocorreu porque:\n\n* A empresa respeitou o acordo coletivo de trabalho e aplicou as regras dele.\n* Os funcionários não trabalharam mais de 8 horas por dia, como previsto na lei.\n* O banco de horas anual foi negociado e aplicado dentro do prazo estabelecido.\n\nIsso significa que a empresa está em conformidade com as normas trabalhistas brasileiras e não há necessidade de nenhuma ação adicional.",
+  "tokens_in": 502,
+  "tokens_out": 671,
+  "latency_ms": 11219,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

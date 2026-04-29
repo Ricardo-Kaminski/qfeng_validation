@@ -1,0 +1,26 @@
+{
+  "sha256": "59788063a202f90f07a7f43bf7c81e94ee5afd86ddf3a502f3a91eafdd261f4c",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-008",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T06:44:42Z",
+  "prompt_sha": "edebec9d75758a7769d5b8b57f9d98a0d77aec6e3dfbd734a37cbb83239e8736",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG chegou à decisão de VIOLACAO por considerar que a decisão do TRT viola princípios fundamentais da justiça e do direito trabalhista brasileiro. Isso ocorreu porque o acórdão não mencionou a Súmula 428 do TST, que incorporou conteúdo parcialmente distinto da OJ 394 cancelada em 2012.\n\nAlém disso, o sistema considerou que a decisão não reconheceu o cancelamento da OJ 394, o que é um fato jurídico conhecido e consolidado. Isso viola a obrigação do julgador de estar atualizado sobre as normas jurídicas vigentes e de aplicá-las corretamente.\n\nOs predicados soberanos ativos foram fundamentais para essa decisão, pois eles representam princípios constitucionais e legais que devem ser observados por todos os órgãos do Poder Judiciário. Em particular:\n\n* A obrigação de estabelecer as consequências práticas da decisão (obligation_to_state_practical_consequences_of_decision) foi violada, pois a decisão não considerou as implicações práticas da aplicação da Súmula 428.\n* A proibição de citação de precedentes genéricos (prohibition_of_generic_precedent_citation) também foi violada, pois o acórdão se baseou em uma OJ cancelada sem considerar as normas vigentes.\n* A obrigação de abordar todos os argumentos legais relevantes (obligation_to_address_all_legal_arguments) não foi cumprida, pois a decisão não considerou a importância da Súmula 428 e do cancelamento da OJ 394.\n* A obrigação de fundamentar a decisão em uma razão decidendi identificada (obligation_to_ground_decision_in_identified_ratio_decidendi) também foi violada, pois a decisão não apresentou uma justificativa clara para sua conclusão.\n\nPor fim, o sistema Q-FENG considerou que a decisão do TRT viola os direitos fundamentais dos trabalhadores, como o direito de acesso à justiça e ao recurso judicial (right_of_access_to_justice_and_judicial_review), e que é constitucionalmente obrigatório estabelecer as razões para as decisões tomadas (constitutional_obligation_to_state_reasons_for_decisions).\n\n**2. PREDICADOS ATIVADOS**\n\nOs predicados soberanos ativos significam, em termos jurídicos, os seguintes princípios fundamentais:\n\n* **obligation_to_state_practical_consequences_of_decision**: O julgador tem a obrigação de estabelecer as consequências práticas da decisão tomada. Isso significa que a decisão deve considerar as implicações práticas e reais para os envolvidos.\n* **prohibition_of_generic_precedent_citation**: A citação de precedentes genéricos é proibida. Isso significa que o julgador não pode se basear em decisões anteriores sem considerar as especificidades do caso concreto e as normas vigentes.\n* **obligation_to_address_all_legal_arguments**: O julgador tem a obrigação de abordar todos os argumentos legais relevantes. Isso significa que a decisão deve considerar todas as questões jurídicas pertinentes ao caso.\n* **obligation_to_ground_decision_in_identified_ratio_decidendi**: A decisão deve ser fundamentada em uma razão decidendi identificada. Isso significa que a decisão deve apresentar uma justificativa clara e específica para sua conclusão.\n* **constitutional_obligation_to_state_reasons_for_decisions**: É constitucionalmente obrigatório estabelecer as razões para as decisões tomadas. Isso significa que o julgador tem a obrigação de explicar as motivações e os fundamentos da decisão.\n* **right_of_access_to_justice_and_judicial_review**: O direito de acesso à justiça e ao recurso judicial é fundamental. Isso significa que os cidadãos têm o direito de buscar a justiça e de recorrer das decisões tomadas.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nEm linguagem simples, a decisão do sistema Q-FENG significa que o acórdão do TRT não seguiu as regras básicas da justiça e do direito trabalhista brasileiro. Isso ocorreu porque o julgador não considerou a Súmula 428 do TST, que é uma norma jurídica importante.\n\nAlém disso, o sistema considerou que a decisão não reconheceu o cancelamento da OJ 394, o que é um fato jurídico conhecido e consolidado. Isso significa que o julgador não está atualizado sobre as normas jurídicas vigentes e não aplicou corretamente as regras do direito trabalhista.\n\nA decisão do sistema Q-FENG é uma forma de proteger os direitos dos trabalhadores e garantir que as decisões judiciais sejam justas e equitativas.",
+  "tokens_in": 516,
+  "tokens_out": 1170,
+  "latency_ms": 19593,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

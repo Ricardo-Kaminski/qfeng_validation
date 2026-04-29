@@ -1,0 +1,30 @@
+{
+  "sha256": "5176c1291822998c170a59d0c757b8da6991a683ad18ce2d7b87b3b6a124a1d2",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T03:37:40Z",
+  "prompt_sha": "1a431bd2539a105bc27830e043de65433739a538537c1d00dbf3cc5df9c24aaf",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG, ao analisar a decisão do TRT, concluiu que a aplicação da **Súmula TST 60** está em **conformidade com os princípios jurídicos fundamentais** do Direito do Trabalho brasileiro. A decisão do TRT:  \n- **Cumpriu o dever de fundamentação** (predicado `sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)`), ao identificar claramente a *ratio decidendi* (a razão jurídica da Súmula: o revezamento noturno integra o adicional à remuneração).  \n- **Respeitou a proibição de citação genérica de súmulas** (predicado `sovereign(prohibition_of_generic_precedent_citation)`), ao aplicar a Súmula ao caso concreto (empregado em regime 12x36 com períodos noturnos fixos).  \n- **Abordou todos os argumentos jurídicos** (predicado `sovereign(obligation_to_address_all_legal_arguments)`), distinguindo o regime de revezamento noturno de turnos fixos não noturnos.  \n- **Respeitou o direito de acesso à justiça** (predicado `sovereign(right_of_access_to_justice_and_judicial_review)`), ao garantir que a decisão fosse fundamentada e transparente.  \n- **Reconheceu a negociação coletiva** (predicado `sovereign(recognition_of_collective_bargaining)`), ao considerar a possibilidade de acordos coletivos (CCT) que regulamentam horas extras e banco de horas (predicado `elastic(working_hours_negotiable_by_cct)`).  \n\nA **incerteza de satisfatibilidade (UNKNOWN)** indica que o sistema não encontrou contradições diretas com a legislação, mas a **recomendação de conformidade** reflete a alinhamento com os predicados soberanos que garantem a legitimidade da decisão.\n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n**Predicados soberanos ativos (princípios jurídicos fundamentais):**  \n- **`sovereign(obligation_to_state_practical_consequences_of_decision)`**: O tribunal deve explicar claramente as consequências práticas da decisão (ex.: como o adicional noturno será calculado).  \n- **`sovereign(prohibition_of_generic_precedent_citation)`**: A decisão não pode basear-se apenas em súmulas genéricas, mas em sua aplicação ao caso concreto.  \n- **`sovereign(obligation_to_address_all_legal_arguments)`**: O tribunal deve analisar todos os argumentos jurídicos apresentados (ex.: distinção entre revezamento noturno e turnos fixos).  \n- **`sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)`**: A decisão deve ser fundamentada na *ratio decidendi* da súmula (ex.: o revezamento noturno integra o adicional).  \n- **`sovereign(constitutional_obligation_to_state_reasons_for_decisions)`**: O tribunal deve justificar a decisão com razões claras e constitucionais (ex.: direito à remuneração justa).  \n- **`sovereign(recognition_of_collective_bargaining)`**: O sistema reconhece a negociação coletiva como meio de regulamentar direitos trabalhistas (ex.: acordos coletivos sobre horas extras).  \n- **`sovereign(right_of_access_to_justice_and_judicial_review)`**: Garante que a decisão seja revisável e que o trabalhador tenha acesso a recursos judiciais.  \n\n**Predicados elásticos ativos (flexibilidades legais):**  \n- **`elastic(working_hours_negotiable_by_cct)`**: Permite que acordos coletivos (CCT) definam regras específicas para horas extras e banco de horas.  \n- **`elastic(hour_bank_with_cct_max_1_year)`**: Permite a acumulação de horas extras em um banco de horas, desde que regulamentado por um CCT com prazo máximo de 1 ano.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO tribunal decidiu que o empregado **tem direito ao adicional noturno**, porque ele trabalha em horários noturnos fixos (regime 12x36). A decisão foi feita com base em uma regra do TST (Súmula 60), que diz que **quando o trabalhador faz revezamento noturno, o adicional noturno deve ser pago**.  \n\nO tribunal:  \n- **Explicou claramente** por que tomou essa decisão (não apenas citou a regra, mas aplicou-a ao caso).  \n- **Não usou regras genéricas** para decidir, mas analisou o caso específico do trabalhador.  \n- **Considerou a possibilidade de acordos coletivos** (negociações entre sindicatos e empresas) para definir regras de horas extras.  \n\nA decisão é **justa e legal**, e o empregado pode recorrer se achar que a aplicação da regra está errada. O sistema Q-FENG aprovou essa decisão porque ela respeita os direitos do trabalhador e as regras do Direito do Trabalho.",
+  "tokens_in": 584,
+  "tokens_out": 1699,
+  "latency_ms": 53907,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,27 @@
+{
+  "sha256": "4dee121757c896b869bbfdaf17c6a4956a798defa9ff54aa54ccc4c9aca25508",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:58:32Z",
+  "prompt_sha": "0208fd3b44ceb8a3c69065a3c8ca285bf0e8848068418ebf258a2f76db390f3c",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG determinou que houve uma violação das regras estabelecidas pela CCT do setor farmacêutico. Isso ocorreu porque a empresa solicitou extensão por mais 3 meses da renovação automática do banco de horas anual sem nova negociação coletiva, o que é considerado uma violação do prazo máximo de 1 ano estabelecido pela cláusula elastic \"hour_bank_with_cct_max_1_year\".\n\nA decisão se baseia nos predicados soberanos ativos, que garantem a proteção dos direitos trabalhistas. A renovação automática do banco de horas anual é um direito dos trabalhadores, mas sua aplicação deve ser feita dentro dos limites estabelecidos pela CCT e pelas leis trabalhistas.\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\nOs predicados soberanos ativos são responsáveis por garantir a proteção dos direitos trabalhistas e a observância das regras estabelecidas pela CCT e pelas leis trabalhistas. Aqui está o que cada um deles significa juridicamente no contexto trabalhista brasileiro:\n\n- **sovereign(recognition_of_collective_bargaining)**: Reconhecimento da negociação coletiva como forma legítima de estabelecer direitos e obrigações entre empregadores e empregados.\n- **sovereign(maximum_weekly_working_hours_44h)**: Estabelecimento do limite máximo de horas trabalhadas por semana, que é de 44 horas.\n- **sovereign(maximum_daily_working_hours_8h)**: Estabelecimento do limite máximo de horas trabalhadas por dia, que é de 8 horas.\n\nEsses predicados garantem a proteção dos direitos trabalhistas e a observância das regras estabelecidas para o trabalho no Brasil.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nImagine que você tem um emprego em uma farmácia e sua empresa tem um acordo coletivo (CCT) com seu sindicato. Esse acordo diz que você pode acumular horas extras em um banco de horas, que é renovado automaticamente a cada ano.\n\nMas agora, sua empresa quer estender esse período por mais 3 meses sem fazer uma nova negociação com o sindicato. Isso não está correto porque o acordo coletivo estabelece que o prazo máximo para isso é de 1 ano.\n\nO sistema Q-FENG decidiu que a empresa agiu de forma errada e violou as regras estabelecidas. Isso significa que a decisão da empresa não foi aceita e que os direitos dos trabalhadores precisam ser respeitados.",
+  "tokens_in": 528,
+  "tokens_out": 628,
+  "latency_ms": 10515,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

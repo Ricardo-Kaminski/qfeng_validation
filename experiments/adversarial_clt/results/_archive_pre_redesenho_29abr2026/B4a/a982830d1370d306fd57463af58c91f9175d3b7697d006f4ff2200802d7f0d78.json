@@ -1,0 +1,27 @@
+{
+  "sha256": "a982830d1370d306fd57463af58c91f9175d3b7697d006f4ff2200802d7f0d78",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-007",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T04:56:13Z",
+  "prompt_sha": "cba540c99550234d4dda7bdefc59d2298c6b9b1ac9747edfc810996124e975ca",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que o banco está em conformidade com as normas aplicáveis ao banco de horas anual conforme estabelecido na CCT (Convenção Coletiva de Trabalho) do setor bancário, considerando a jurisprudência vigente. A decisão baseia-se nos predicados soberanos ativos que garantem o reconhecimento da negociação coletiva e os limites máximos estabelecidos para as horas semanais e diárias de trabalho.\n\nO sistema identificou que a CCT em questão está devidamente renovada, com extrato entregue ao trabalhador, e que a compensação das horas do banco foi realizada dentro do prazo permitido. Isso significa que o acordo coletivo é válido e respeita os limites legais estabelecidos para as jornadas de trabalho semanais (44 horas) e diárias (8 horas), conforme reconhecido pelos predicados soberanos.\n\nAlém disso, os predicados elásticos ativos indicam que o banco de horas anual é negociável pela CCT, com um limite máximo de 1 ano para a compensação das horas. Dessa forma, desde que as horas do banco sejam compensadas dentro desse prazo, não geram direito ao adicional de horas extras, conforme esclarecido pelo sindicato.\n\n### 2. PREDICADOS SOBERANOS ATIVOS\n\n- **sovereign(recognition_of_collective_bargaining):** Este predicado reconhece a validade e aplicabilidade das negociações coletivas entre empregadores e trabalhadores, permitindo que convenções coletivas estabeleçam condições de trabalho específicas para determinados setores.\n\n- **sovereign(maximum_weekly_working_hours_44h):** Estabelece o limite máximo de 44 horas semanais como jornada padrão de trabalho no Brasil, conforme a Consolidação das Leis do Trabalho (CLT).\n\n- **sovereign(maximum_daily_working_hours_8h):** Define o limite máximo de 8 horas diárias de trabalho, também segundo a CLT, garantindo que as jornadas individuais não excedam esse tempo.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG concluiu que o banco está seguindo corretamente as regras sobre o banco de horas anual. Isso significa que, desde que a compensação das horas extras seja feita dentro do ano e respeitando os limites de 44 horas por semana e 8 horas por dia, você não tem direito ao adicional de horas extras. A convenção coletiva entre o banco e seus funcionários está atualizada e válida, então as regras que ela estabelece são aceitas pela lei. Portanto, desde que essas condições sejam cumpridas, tudo está em ordem conforme a legislação trabalhista brasileira.",
+  "tokens_in": 527,
+  "tokens_out": 675,
+  "latency_ms": 19858,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

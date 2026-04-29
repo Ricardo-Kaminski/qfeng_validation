@@ -1,0 +1,26 @@
+{
+  "sha256": "1007842ac87a1161d2686b0c57708d3c041a3cd2207d38566ce831043176aee1",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T05:34:21Z",
+  "prompt_sha": "b5e3f649b9c3587da9c94d6c599ffd204326d48b2428d997b185065a331a8353",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, após analisar o cenário apresentado, concluiu que houve **violação** de princípios e obrigações processuais. A decisão do Tribunal Regional do Trabalho (TRT) de transcrever integralmente a ementa de um acórdão do Tribunal Superior do Trabalho (TST) sem realizar a devida análise comparativa entre os fatos do precedente e os fatos do caso concreto em julgamento, configura uma falha grave no processo decisório.\n\nA avaliação do Q-FENG se baseou na primazia de princípios que regem a atuação judicial, expressos nos predicados soberanos ativos. A mera citação de um precedente, sem a demonstração de sua aplicabilidade ao caso específico, frustra a busca pela justiça e desrespeita a garantia do devido processo legal. A decisão do TRT, ao não cotejar os fatos, não cumpriu com a obrigação de fundamentar a decisão em uma ratio decidendi identificada, tornando a decisão carente de justificativa e potencialmente arbitrária.\n\nO valor de [3.1416] no vetor ψ_S indica um nível de desvio significativo em relação ao padrão esperado de conduta judicial, reforçando a conclusão de que a ação do TRT não está em conformidade com as normas e princípios que regem o processo judicial.\n\n## 2. PREDICADOS ATIVADOS:\n\nOs predicados soberanos ativos, no contexto do direito trabalhista brasileiro, significam:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):** Obriga o juiz a explicitar as consequências práticas da decisão para as partes envolvidas. A decisão não pode ser apenas formal, mas deve demonstrar o impacto real na vida dos trabalhadores e empregadores.\n*   **sovereign(prohibition_of_generic_precedent_citation):** Impede a citação genérica de precedentes. A simples menção a um acórdão não é suficiente; é necessário demonstrar a pertinência e a aplicabilidade do precedente ao caso concreto.\n*   **sovereign(obligation_to_address_all_legal_arguments):** Obriga o juiz a analisar e responder a todos os argumentos jurídicos apresentados pelas partes, mesmo que não sejam favoráveis à sua decisão.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** Exige que a decisão seja fundamentada em uma ratio decidendi (o princípio jurídico subjacente à decisão) claramente identificada e aplicada ao caso concreto.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):** Decorrente do princípio do devido processo legal e da ampla defesa, impõe a obrigação constitucional de o juiz motivar suas decisões, expondo os fundamentos de fato e de direito que levaram à conclusão.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):** Garante o direito de acesso à justiça e à revisão judicial, o que implica que as decisões devem ser claras, transparentes e passíveis de compreensão para que as partes possam exercer seus direitos de recurso.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"Imagine que você está em uma discussão e a pessoa simplesmente repete o que alguém disse antes, sem explicar por que o que foi dito antes se aplica à sua situação. Isso não faz sentido, certo?\n\nNo seu caso, o juiz do TRT fez algo parecido. Ele copiou um trecho de uma decisão de outro caso, mas não explicou por que essa decisão se aplica ao seu caso. É como se ele dissesse: 'Eu decidi assim porque outro juiz já decidiu assim antes', sem mostrar que a sua situação é realmente parecida com a do outro caso.\n\nA lei diz que o juiz precisa explicar o porquê da decisão, mostrando como a lei se aplica à sua situação específica. Ao simplesmente copiar a decisão de outro caso, o juiz não fez isso. Isso é uma falta, porque você tem o direito de entender por que o juiz decidiu daquela forma e de contestar essa decisão se ela não for justa.\"\n",
+  "tokens_in": 520,
+  "tokens_out": 920,
+  "latency_ms": 28843,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

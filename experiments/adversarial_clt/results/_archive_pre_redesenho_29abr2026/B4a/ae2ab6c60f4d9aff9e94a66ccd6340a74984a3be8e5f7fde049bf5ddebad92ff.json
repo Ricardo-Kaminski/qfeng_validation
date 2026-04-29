@@ -1,0 +1,30 @@
+{
+  "sha256": "ae2ab6c60f4d9aff9e94a66ccd6340a74984a3be8e5f7fde049bf5ddebad92ff",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:18:15Z",
+  "prompt_sha": "1a431bd2539a105bc27830e043de65433739a538537c1d00dbf3cc5df9c24aaf",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, ao analisar a decisão da TRT sobre o adicional noturno, concluiu que a ação tomada está em **conformidade** com a legislação e a jurisprudência aplicáveis. A decisão da TRT, ao aplicar a Súmula TST 60 ao caso de um empregado em regime de 12x36 com períodos noturnos fixos, demonstra uma correta interpretação da ratio decidendi da referida súmula. O sistema reconhece a validade da distinção feita entre o regime de revezamento noturno (que integra o adicional à remuneração) e o regime de turno fixo não noturno.\n\nA decisão do Q-FENG não se baseia em uma avaliação da justiça ou adequação do caso concreto, mas sim na **conformidade** da decisão da TRT com os princípios e normas legais. O sistema, ao determinar essa conformidade, demonstra o cumprimento de suas obrigações normativas, conforme expressado pelos predicados soberanos ativos. A incerteza na satisfatibilidade (UNKNOWN) reflete a complexidade inerente à aplicação do direito em casos concretos, onde a interpretação e a aplicação das normas podem gerar diferentes perspectivas, mas a decisão da TRT foi considerada em consonância com a lei.\n\n## 2. PREDICADOS ATIVADOS:\n\nOs predicados soberanos ativos refletem as obrigações fundamentais do sistema Q-FENG ao narrar e justificar a decisão. Vejamos cada um:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  O sistema deve explicar as consequências práticas da decisão da TRT, ou seja, como ela impacta o trabalhador e a empresa. No caso, a aplicação da Súmula 60 implica no pagamento do adicional noturno.\n*   **sovereign(prohibition_of_generic_precedent_citation):** O sistema não pode citar precedentes de forma genérica. Ele deve demonstrar como a Súmula 60 se aplica especificamente ao caso concreto, considerando o regime de trabalho e a natureza dos períodos noturnos.\n*   **sovereign(obligation_to_address_all_legal_arguments):** O sistema deve considerar e abordar todos os argumentos legais relevantes, incluindo a distinção entre revezamento noturno e turno fixo não noturno, demonstrando que a decisão da TRT considerou esses pontos.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** O sistema deve fundamentar a avaliação da decisão da TRT na *ratio decidendi* da Súmula 60, ou seja, na razão de decidir que a sustenta.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):** O sistema deve fornecer as razões que levaram à conclusão de conformidade, garantindo a transparência e a possibilidade de controle da decisão.\n*   **sovereign(recognition_of_collective_bargaining):** O sistema reconhece a importância de acordos e convenções coletivas de trabalho (CCTs) na definição das condições de trabalho, embora não tenha sido o fator determinante na decisão da TRT.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):** O sistema reconhece o direito do trabalhador de ter acesso à justiça e de questionar a decisão judicial, garantindo a possibilidade de revisão da decisão da TRT.\n\nOs predicados elásticos ativos, *working_hours_negotiable_by_cct* e *hour_bank_with_cct_max_1_year*, indicam que a negociação da jornada de trabalho e a utilização de banco de horas estão sujeitas aos termos estabelecidos em acordos e convenções coletivas, embora não tenham influenciado diretamente a decisão sobre o adicional noturno.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"A Justiça do Trabalho (TRT) decidiu que você, trabalhador, tem direito a receber um adicional noturno por trabalhar à noite. Essa decisão se baseia em uma regra geral dos tribunais trabalhistas (Súmula TST 60), que diz que quando o trabalho é feito em regime de revezamento noturno, o empregado tem direito a esse adicional.\n\nNo seu caso, como você trabalha em um regime de 12 horas por 36, com turnos noturnos fixos, a TRT entendeu que você se encaixa nessa regra. Isso significa que você deve receber um valor extra por cada hora trabalhada durante a noite.\n\nA decisão da TRT explicou que essa regra é diferente do caso de quem trabalha em turnos fixos durante o dia, sem revezamento noturno.\n\nO sistema Q-FENG analisou essa decisão e confirmou que ela está correta e de acordo com a lei. Isso significa que a TRT fez o que deveria fazer, seguindo as regras e a jurisprudência. Você tem o direito de questionar essa decisão em um tribunal superior, caso não concorde com ela.\"",
+  "tokens_in": 582,
+  "tokens_out": 1128,
+  "latency_ms": 31453,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

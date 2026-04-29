@@ -1,0 +1,29 @@
+{
+  "sha256": "d4d7876846b9d7b21f4a689cbdf85a5ea067cdc353e64f149447a7db8a6e0d5f",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T03:00:14Z",
+  "prompt_sha": "69f27e043156ef457f00f79a887aee007d1b5c80255c85fc0fc244f02fff34fc",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a relação jurídica estabelecida entre a empresa e o sindicato está **em conformidade com a legislação trabalhista brasileira**, com base nos seguintes fundamentos:  \n\n- **Predicado soberano ativo: `sovereign(semester_hour_bank_requires_cct_or_act)`**  \n  A existência de um **Acordo Coletivo de Trabalho (ACT)**, que prevê o banco de horas, é compatível com a legislação. O ACT é um instrumento legal válido para regulamentar o banco de horas, desde que respeitados os limites estabelecidos (40h mensais e 5 meses de acúmulo).  \n\n- **Predicado soberano ativo: `sovereign(maximum_weekly_working_hours_44h)` e `sovereign(maximum_daily_working_hours_8h)`**  \n  A ausência de horas extras acima de 2h/dia e a compensação mensal do banco de horas garantem que a jornada total (incluindo horas normais e acúmulos) **não ultrapasse os limites de 44h semanais e 8h diárias**, conforme estabelecido pela CLT.  \n\n- **Predicado soberano ativo: `sovereign(prohibition_negotiation_reducing_overtime_additional)`**  \n  O sistema confirma que **não há cláusulas no ACT que reduzam ou suprimam o adicional de horas extras**, garantindo o direito legal do trabalhador a remuneração por horas extras acima do normal.  \n\n- **Predicado soberano ativo: `sovereign(overtime_minimum_additional_50pct)`**  \n  A compensação do banco de horas **não viola o mínimo de 50% de adicional sobre horas extras**, já que o acúmulo é limitado a 40h/mês e prazo de 5 meses, evitando excessos.  \n\n- **Predicado elástico ativo: `elastic(hour_bank_without_cct_max_6_months)`**  \n  Embora o prazo máximo de 5 meses no ACT seja **menor que o limite de 6 meses estabelecido pela CLT**, a norma elástica é compatível com a cláusula do ACT, desde que respeitados os limites de acúmulo.  \n\nA **satisfatibilidade UNKNOWN** indica que o sistema não identificou contradições diretas entre os predicados, mas não garante total certeza. No entanto, a combinação de predicados soberanos ativos e a ausência de violações claras justificam a **recomendação de conformidade**.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n**a) `sovereign(semester_hour_bank_requires_cct_or_act)`**  \n- **Significado jurídico**: O banco de horas pode ser estabelecido **apenas por meio de Acordo Coletivo de Trabalho (ACT) ou Convenção Coletiva de Trabalho (CCT)**. No caso, o ACT está registrado, o que legitima a prática.  \n\n**b) `sovereign(invalidity_of_clause_suppressing_overtime_payment)`**  \n- **Significado jurídico**: Qualquer cláusula que **suprima ou reduza o adicional de horas extras** é **nula por ilegalidade**. O ACT não contém tal cláusula, garantindo o direito do trabalhador.  \n\n**c) `sovereign(weekly_hour_compensation_requires_written_agreement)`**  \n- **Significado jurídico**: A compensação de horas extras (como o banco de horas) **requer acordo escrito** (ACT ou CCT). O ACT está registrado, cumprindo esse requisito.  \n\n**d) `sovereign(prohibition_negotiation_reducing_overtime_additional)`**  \n- **Significado jurídico**: É **proibido negociar cláusulas que reduzam o adicional de horas extras**. O ACT não viola essa proibição.  \n\n**e) `sovereign(overtime_minimum_additional_50pct)`**  \n- **Significado jurídico**: O adicional de horas extras **não pode ser inferior a 50%** do valor da hora normal. O banco de horas, ao compensar até 40h/mês, respeita esse limite.  \n\n**f) `sovereign(maximum_weekly_working_hours_44h)` e `sovereign(maximum_daily_working_hours_8h)`**  \n- **Significado jurídico**: A jornada de trabalho **não pode ultrapassar 44h semanais e 8h diárias**. O banco de horas, ao limitar o acúmulo a 40h/mês e compensar dentro de 5 meses, evita violações.  \n\n**g) `elastic(hour_bank_without_cct_max_6_months)`**  \n- **Significado jurídico**: Em ausência de CCT, o banco de horas **não pode ultrapassar 6 meses**. O ACT, ao limitar o prazo a 5 meses, está dentro do limite elástico.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa e o sindicato fizeram um acordo que permite aos trabalhadores **guardar horas extras em um \"banco\"** para compensar depois. Esse acordo está **em conformidade com a lei**, porque:  \n\n- **O acordo está escrito e registrado**, o que é obrigatório.  \n- **Ninguém trabalha mais de 8h por dia ou 44h por semana**, mesmo com o banco de horas.  \n- **As horas extras são pagas com adicional de 50%**, como exige a lei.  \n- **O tempo máximo para compensar o banco de horas é 5 meses**, que é **menor que o limite legal de 6 meses**, então está tudo certo.  \n\nPortanto, **não há violação da lei**, e a empresa está dentro das regras trabalhistas.",
+  "tokens_in": 539,
+  "tokens_out": 1980,
+  "latency_ms": 63187,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,26 @@
+{
+  "sha256": "dbf48fda329179d49d9813e58acba015dabfbcc625f720b705ee75c15105a797",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-010",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T05:43:04Z",
+  "prompt_sha": "616931cfd10c80d27ea65ea3d9f17fc5d70b1e90674a0e5470d9bf3f655e12d8",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, ao analisar o cenário apresentado – a decisão em embargos de declaração que afirma a inexistência de contradição sem abordar especificamente o ponto levantado pela parte embargante, que alegou a aplicação de tese de recurso de uma parte para beneficiar a parte contrária sem o devido contraditório – concluiu que houve uma **violação** de princípios fundamentais do processo judicial.\n\nA decisão do Q-FENG não se baseia em uma avaliação da validade do mérito da alegação de contradição, mas sim na forma como a decisão foi proferida. O sistema identificou que a omissão do juiz em analisar o ponto específico de contradição alegado pela parte, mesmo após a apresentação de embargos de declaração, configura uma falha no cumprimento de obrigações processuais essenciais. A mera afirmação genérica de que \"não há contradição\" não pode substituir a análise individualizada dos argumentos apresentados pelas partes.\n\nA avaliação do Q-FENG considera que a decisão judicial, para ser legítima e justa, deve demonstrar que todos os argumentos relevantes foram devidamente considerados e respondidos. A omissão nesse caso compromete a transparência e a imparcialidade do processo, violando o direito de acesso à justiça e à revisão judicial.\n\n## 2. PREDICADOS ATIVADOS:\n\nOs predicados soberanos ativos, identificados pelo Q-FENG, refletem as obrigações e direitos envolvidos na situação:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  O juiz tem a obrigação de explicitar as consequências práticas da decisão, o que implica em demonstrar como a análise dos argumentos impacta o resultado. A omissão em analisar o ponto específico de contradição impede a compreensão das consequências da decisão para a parte embargante.\n*   **sovereign(prohibition_of_generic_precedent_citation):**  A decisão não pode se basear em precedentes genéricos, mas sim em uma análise específica dos fatos e do direito aplicável ao caso concreto. A afirmação genérica de \"não há contradição\" sem análise individualizada configura uma utilização inadequada de precedentes.\n*   **sovereign(obligation_to_address_all_legal_arguments):** O juiz é obrigado a responder a todos os argumentos jurídicos apresentados pelas partes. A omissão em analisar o ponto de contradição alegado representa um descumprimento dessa obrigação.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** A decisão deve estar fundamentada em uma razão específica e identificável (o *ratio decidendi*). A afirmação genérica de \"não há contradição\" não oferece uma base racional para a decisão.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):** A Constituição Federal garante o direito ao contraditório e à motivação das decisões judiciais. A omissão em analisar o ponto de contradição viola essa obrigação constitucional.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):** A parte embargante tem o direito de ter seus argumentos analisados e de buscar a revisão da decisão judicial. A omissão do juiz em responder ao ponto de contradição compromete esse direito.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"Imagine que você está em uma discussão e a outra pessoa simplesmente diz 'não concordo' sem explicar por que. Você se sentiria ouvido? O mesmo aconteceu aqui. A empresa entrou com um recurso (embargos de declaração) para dizer que o juiz não analisou um ponto importante: a decisão dele usou um argumento de um lado para prejudicar o outro, sem dar a chance de contestar. O juiz, em vez de explicar por que ele acha que não há problema, apenas disse que 'não há contradição'. Isso é como ignorar o que você está dizendo. O sistema Q-FENG identificou que isso é errado, porque todo mundo tem o direito de ter suas queixas ouvidas e explicadas. A decisão do juiz, como foi tomada, não foi justa e não respeitou seus direitos.\"\n",
+  "tokens_in": 504,
+  "tokens_out": 955,
+  "latency_ms": 26515,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

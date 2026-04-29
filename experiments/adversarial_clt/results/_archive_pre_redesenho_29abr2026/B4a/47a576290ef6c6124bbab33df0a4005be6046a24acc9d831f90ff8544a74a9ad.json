@@ -1,0 +1,26 @@
+{
+  "sha256": "47a576290ef6c6124bbab33df0a4005be6046a24acc9d831f90ff8544a74a9ad",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T07:14:29Z",
+  "prompt_sha": "f2939f0e6492edddd924d6caf369ebeb9d70b95b1796bba0e04e7028b5864a9f",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após analisar o caso e os precedentes relevantes, chegou à conclusão de que a decisão deve ser tomada com base na conformidade (CONFORMIDADE) com as regras jurídicas estabelecidas. Isso se deve ao fato de que todos os predicados soberanos ativos foram ativados, o que significa que todas as obrigações constitucionais e legais foram cumpridas.\n\nA decisão é fundamentada na obrigação de o Estado de informar as consequências práticas da decisão (obligation_to_state_practical_consequences_of_decision), bem como a proibição de citar precedentes genéricos (prohibition_of_generic_precedent_citation). Além disso, o sistema também atendeu às obrigações de abordar todos os argumentos legais relevantes (obligation_to_address_all_legal_arguments) e fundamentar a decisão com base no ratio decidendi identificado (obligation_to_ground_decision_in_identified_ratio_decidendi).\n\n**2. PREDICADOS ATIVADOS**\n\nOs predicados soberanos ativos ativados pelo sistema Q-FENG têm as seguintes interpretações jurídicas:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision)**: O Estado tem a obrigação de informar às partes as consequências práticas da decisão, garantindo que elas sejam plenamente cientes das implicações da decisão tomada.\n*   **sovereign(prohibition_of_generic_precedent_citation)**: Não é permitido citar precedentes genéricos ou não relevantes para o caso em julgamento. A decisão deve ser fundamentada em precedentes específicos e relevantes ao caso concreto.\n*   **sovereign(obligation_to_address_all_legal_arguments)**: O sistema tem a obrigação de abordar todos os argumentos legais relevantes apresentados pelas partes, garantindo que todos os aspectos jurídicos sejam considerados na decisão.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão deve ser fundamentada em um ratio decidendi específico e identificado, o qual é a razão ou princípio jurídico que serve de base para a decisão.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: O Estado tem a obrigação constitucional de informar as razões pelas quais tomou uma determinada decisão, garantindo transparência e justiça no processo.\n*   **sovereign(right_of_access_to_justice_and_judicial_review)**: O sistema garante o direito das partes de acesso à justiça e ao recurso judicial, permitindo que as partes possam recorrer da decisão se acreditarem que ela foi injusta ou errada.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nEm linguagem simples, a decisão significa que o sistema Q-FENG analisou todos os aspectos jurídicos do caso e decidiu que a melhor opção é seguir as regras estabelecidas pela lei. Isso significa que:\n\n*   O Estado tem a obrigação de informar às partes como a decisão afetará suas vidas.\n*   Não pode ser citado um precedente qualquer, mas apenas aqueles que sejam relevantes e específicos ao caso em julgamento.\n*   Todos os argumentos legais apresentados pelas partes foram considerados na decisão.\n*   A decisão foi fundamentada em uma razão jurídica específica e identificada.\n*   O Estado tem a obrigação de informar as razões pelas quais tomou a decisão.\n*   As partes têm o direito de recorrer da decisão se acreditarem que ela foi injusta ou errada.\n\nEssa decisão é baseada na análise do sistema Q-FENG e visa garantir que a justiça seja aplicada de forma equânime e transparente.",
+  "tokens_in": 555,
+  "tokens_out": 899,
+  "latency_ms": 15250,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

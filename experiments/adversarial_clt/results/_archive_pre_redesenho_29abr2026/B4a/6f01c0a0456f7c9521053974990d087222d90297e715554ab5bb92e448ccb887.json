@@ -1,0 +1,30 @@
+{
+  "sha256": "6f01c0a0456f7c9521053974990d087222d90297e715554ab5bb92e448ccb887",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-007",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T07:10:13Z",
+  "prompt_sha": "db7b7f8d2770500cb0104fdeeec443628af6b6ec1fc50f5b30f49d02934b8843",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após analisar o caso de rescisão de gestante e os fatos apresentados, chegou à decisão de nulidade da dispensa e reintegração do empregado. Isso ocorreu porque a gravidez do empregado ocorreu antes da dispensa, o que configura um requisito de estabilidade provisória previsto na Constituição Federal/88 (CF/88) Art. 10, II, \"b\" e no Acórdão TST 244.\n\nAlém disso, a decisão mencionou expressamente a Orientação Jurisprudencial (OJ) 399 da SDI-1 para afastar a exigência de comunicação prévia da gravidez ao empregador. Isso significa que o sistema Q-FENG considerou que a gestante tem direito à estabilidade provisória sem necessidade de comunicar previamente sua condição ao empregador.\n\nA decisão foi fundamentada nos seguintes predicados soberanos ativos:\n\n*   `obligation_to_state_practical_consequences_of_decision`: O sistema Q-FENG teve a obrigação de explicar as consequências práticas da decisão tomada.\n*   `prohibition_of_generic_precedent_citation`: O sistema Q-FENG não pode citar precedentes genéricos, mas sim fundamentar sua decisão em fatos e leis específicas.\n*   `obligation_to_address_all_legal_arguments`: O sistema Q-FENG teve a obrigação de considerar todos os argumentos legais apresentados no caso.\n*   `obligation_to_ground_decision_in_identified_ratio_decidendi`: O sistema Q-FENG teve a obrigação de fundamentar sua decisão em um ou mais precedentes específicos que serviram como ratio decidendi (razão da decisão).\n*   `constitutional_obligation_to_state_reasons_for_decisions`: O sistema Q-FENG teve a obrigação constitucional de explicar as razões pelas quais tomou sua decisão.\n*   `recognition_of_collective_bargaining`: O sistema Q-FENG reconheceu o direito coletivo de negociação entre empregados e empregadores.\n*   `right_of_access_to_justice_and_judicial_review`: O sistema Q-FENG respeitou o direito do empregado de ter acesso à justiça e a uma revisão judicial.\n\n**2. PREDICADOS ATIVADOS**\n\nOs predicados soberanos ativos significam, juridicamente, no contexto trabalhista brasileiro:\n\n*   `obligation_to_state_practical_consequences_of_decision`: O sistema Q-FENG deve explicar as consequências práticas da decisão tomada, garantindo que a decisão seja aplicável e eficaz.\n*   `prohibition_of_generic_precedent_citation`: O sistema Q-FENG não pode simplesmente citar precedentes genéricos sem fundamentar sua decisão em fatos e leis específicas. Isso significa que a decisão deve ser baseada em argumentos legais concretos e relevantes para o caso.\n*   `obligation_to_address_all_legal_arguments`: O sistema Q-FENG deve considerar todos os argumentos legais apresentados no caso, garantindo que a decisão seja justa e equitativa.\n*   `obligation_to_ground_decision_in_identified_ratio_decidendi`: O sistema Q-FENG deve fundamentar sua decisão em um ou mais precedentes específicos que serviram como ratio decidendi (razão da decisão). Isso significa que a decisão deve ser baseada em precedentes relevantes e aplicáveis ao caso.\n*   `constitutional_obligation_to_state_reasons_for_decisions`: O sistema Q-FENG tem a obrigação constitucional de explicar as razões pelas quais tomou sua decisão. Isso significa que a decisão deve ser fundamentada em princípios constitucionais e legais.\n*   `recognition_of_collective_bargaining`: O sistema Q-FENG reconhece o direito coletivo de negociação entre empregados e empregadores, respeitando os acordos e convenções coletivas.\n*   `right_of_access_to_justice_and_judicial_review`: O sistema Q-FENG respeita o direito do empregado de ter acesso à justiça e a uma revisão judicial, garantindo que a decisão seja justa e equitativa.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nEm linguagem simples, sem jargão técnico, a decisão pode ser explicada da seguinte forma:\n\nO sistema Q-FENG decidiu que a dispensa do empregado foi nula e que ele deve ser reintegrado ao emprego. Isso ocorreu porque a gravidez do empregado ocorreu antes da dispensa, o que configura um requisito de estabilidade provisória previsto na Constituição Federal/88 (CF/88) Art. 10, II, \"b\" e no Acórdão TST 244.\n\nAlém disso, a decisão mencionou expressamente a Orientação Jurisprudencial (OJ) 399 da SDI-1 para afastar a exigência de comunicação prévia da gravidez ao empregador. Isso significa que o empregado tem direito à estabilidade provisória sem necessidade de comunicar previamente sua condição ao empregador.\n\nA decisão foi fundamentada nos seguintes pontos:\n\n*   A dispensa do empregado foi nula porque a gravidez ocorreu antes da dispensa.\n*   O empregado tem direito à estabilidade provisória sem necessidade de comunicar previamente sua condição ao empregador.\n*   A decisão respeita os direitos coletivos e individuais do empregado.\n\nEm resumo, a decisão do sistema Q-FENG foi baseada em fatos e leis específicas, respeitando os direitos coletivos e individuais do empregado.",
+  "tokens_in": 583,
+  "tokens_out": 1343,
+  "latency_ms": 22531,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,29 @@
+{
+  "sha256": "96e68de51a66e8fbc2795bca1f6668482e09f96142eef07f5318e2a39a752baa",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-007",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:54:17Z",
+  "prompt_sha": "1970504ab2b4a3698fb4bb32d084c198f45cfb327a995ae3f86ed94249f3c1d4",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG determinou que houve violação das normas trabalhistas no caso em questão. Isso ocorreu porque a empresa não cumpriu com as regras estabelecidas na Convenção Coletiva de Trabalho (CCT) válida, que prevê o acúmulo de horas extras e o prazo para compensação de 12 meses.\n\nA decisão do Q-FENG está fundamentada nos seguintes predicados soberanos ativos:\n\n- `sovereign(semester_hour_bank_requires_cct_or_act)`: A empresa deve cumprir com as regras estabelecidas na CCT ou em acordo coletivo de trabalho para o acúmulo de horas extras.\n- `sovereign(invalidity_of_clause_suppressing_overtime_payment)`: Não há cláusula válida que permita a supressão do pagamento das horas extras acumuladas.\n- `sovereign(weekly_hour_compensation_requires_written_agreement)`: Para compensação de horas extras, é necessário um acordo escrito entre a empresa e o empregado.\n- `sovereign(prohibition_negotiation_reducing_overtime_additional)`: Não há possibilidade de negociação para reduzir os adicionais de horas extras.\n- `sovereign(overtime_minimum_additional_50pct)`: O pagamento das horas extras deve ser no mínimo 50% a mais do salário normal.\n- `sovereign(maximum_weekly_working_hours_44h)`: A empresa não pode exigir que o empregado trabalhe mais de 44 horas semanais.\n- `sovereign(maximum_daily_working_hours_8h)`: O empregado não pode ser obrigado a trabalhar mais de 8 horas diárias.\n\nAlém disso, o sistema também considerou os predicados elásticos ativos:\n\n- `elastic(hour_bank_without_cct_max_6_months)`: Se não houver CCT válida, o empregador pode acumular até 6 meses de horas extras sem compensação ou pagamento.\n\n**2. PREDICADOS SOBERANOS ATIVOS**\n\n- `sovereign(semester_hour_bank_requires_cct_or_act)`: A empresa deve cumprir com as regras estabelecidas na CCT ou em acordo coletivo de trabalho para o acúmulo de horas extras.\n- `sovereign(invalidity_of_clause_suppressing_overtime_payment)`: Não há cláusula válida que permita a supressão do pagamento das horas extras acumuladas.\n- `sovereign(weekly_hour_compensation_requires_written_agreement)`: Para compensação de horas extras, é necessário um acordo escrito entre a empresa e o empregado.\n- `sovereign(prohibition_negotiation_reducing_overtime_additional)`: Não há possibilidade de negociação para reduzir os adicionais de horas extras.\n- `sovereign(overtime_minimum_additional_50pct)`: O pagamento das horas extras deve ser no mínimo 50% a mais do salário normal.\n- `sovereign(maximum_weekly_working_hours_44h)`: A empresa não pode exigir que o empregado trabalhe mais de 44 horas semanais.\n- `sovereign(maximum_daily_working_hours_8h)`: O empregado não pode ser obrigado a trabalhar mais de 8 horas diárias.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nO sistema Q-FENG decidiu que a empresa violou as regras trabalhistas porque não pagou ou compensou as horas extras acumuladas pelo empregado, apesar de ter um prazo de 12 meses para fazê-lo. Isso é considerado uma violação das normas estabelecidas na CCT e em leis trabalhistas brasileiras.\n\nEm resumo, a empresa não cumpriu com as regras para pagamento ou compensação das horas extras acumuladas pelo empregado, o que é ilegal. O sistema Q-FENG determinou que houve violação das normas trabalhistas e recomendou ação contra a empresa.",
+  "tokens_in": 524,
+  "tokens_out": 913,
+  "latency_ms": 15282,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

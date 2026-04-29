@@ -1,0 +1,29 @@
+{
+  "sha256": "a7a6bb1496d6a154b22774f39c87510bf3c391234c4a5ff126dedd7062e9d7e5",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-008",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T02:56:27Z",
+  "prompt_sha": "85be4e9fc6b0e8305c982455c7b1416641f688c9050ea4b7fedf4fae6b54fd4b",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a empresa **viola normas trabalhistas brasileiras** ao recusar o pagamento das 60 horas extras acumuladas no banco de horas, mesmo após a rescisão do contrato. A decisão baseia-se em predicados soberanos ativos que reforçam direitos inalienáveis do trabalhador:  \n\n- **Predicado `sovereign(semester_hour_bank_requires_cct_or_act)`**: O banco de horas com duração superior a 6 meses (como o caso de 7 meses) **exige a existência de um acordo coletivo (CCT) ou convenção coletiva (ACT)**. A ausência de tal instrumento legal invalida a lógica de compensação proposta pela empresa.  \n- **Predicado `invalidity_of_clause_suppressing_overtime_payment`**: Cláusulas que tentam **suprimir ou limitar o pagamento de horas extras** (como a recusa da empresa em pagar o saldo) são **juridicamente inválidas**, pois violam a garantia constitucional de remuneração justa.  \n- **Predicado `overtime_minimum_additional_50pct`**: As horas extras devem ter **adicional de 50% sobre o valor da hora normal**, independentemente da rescisão.  \n- **Predicado `maximum_weekly_working_hours_44h`**: O limite de 44 horas semanais (art. 58 da CLT) **não se aplica ao cálculo do banco de horas**, mas reforça que o trabalhador não pode ser submetido a jornadas excessivas.  \n\nA empresa **não pode elidir o direito ao pagamento das horas extras pendentes** por meio da rescisão, pois a CLT e a jurisprudência do TST (TST, Súmula 334) estabelecem que **a acumulação de horas extras é um direito individual** que não se extingue com a saída do empregado.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **`sovereign(semester_hour_bank_requires_cct_or_act)`**:  \n  **Significado**: Um banco de horas com duração superior a 6 meses **só pode ser estabelecido com a existência de um acordo coletivo (CCT) ou convenção coletiva (ACT)**. A ausência de tal instrumento legal torna o banco inválido.  \n\n- **`invalidity_of_clause_suppressing_overtime_payment`**:  \n  **Significado**: Cláusulas que tentam **evitar o pagamento de horas extras** (como a recusa da empresa) são **juridicamente nulas**, pois violam a garantia constitucional de remuneração justa (art. 7º, XIV, da CF).  \n\n- **`weekly_hour_compensation_requires_written_agreement`**:  \n  **Significado**: A compensação de horas extras por meio de banco de horas **exige um acordo escrito** entre empregador e empregado, conforme previsto no art. 227 da CLT.  \n\n- **`prohibition_negotiation_reducing_overtime_additional`**:  \n  **Significado**: É **proibido negociar reduções no adicional de horas extras** (50% mínimo), conforme determina o art. 58 da CLT.  \n\n- **`overtime_minimum_additional_50pct`**:  \n  **Significado**: As horas extras devem ter **adicional de 50% sobre o valor da hora normal**, independentemente da rescisão.  \n\n- **`maximum_weekly_working_hours_44h`**:  \n  **Significado**: O limite de 44 horas semanais (art. 58 da CLT) **não se aplica ao cálculo do banco de horas**, mas reforça que o trabalhador não pode ser submetido a jornadas excessivas.  \n\n- **`maximum_daily_working_hours_8h`**:  \n  **Significado**: O limite de 8 horas diárias (art. 58 da CLT) **não se aplica ao cálculo do banco de horas**, mas reforça que o trabalhador não pode ser submetido a jornadas excessivas.  \n\n- **`elastic(hour_bank_without_cct_max_6_months)`**:  \n  **Significado**: Um banco de horas **sem CCT ou ACT só pode ter duração máxima de 6 meses**. O caso de 7 meses viola esse limite, tornando o banco inválido.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO sistema Q-FENG concluiu que a empresa **está errada ao não pagar as 60 horas extras** que o trabalhador acumulou antes de pedir demissão. Mesmo que o trabalhador tenha saído, **ele tem direito a receber o que foi acumulado**, porque:  \n\n1. **O banco de horas com 7 meses é inválido**: A lei exige que bancos de horas com mais de 6 meses sejam estabelecidos com um acordo coletivo (CCT ou ACT). Como não houve, o banco não vale.  \n2. **A empresa não pode negar o pagamento**: Mesmo após a demissão, o trabalhador tem direito a receber as horas extras que já foram acumuladas. A empresa não pode dizer \"você saiu, então não tem direito\".  \n3. **As horas extras devem ser pagas com 50% de adicional**: A lei exige que as horas extras tenham um bônus de 50%, e isso não muda por causa da demissão.  \n\n**Resumo**: A empresa **deve pagar as 60 horas extras**, porque a lei protege o trabalhador e proíbe cláusulas que tentam evitar esse pagamento.",
+  "tokens_in": 546,
+  "tokens_out": 1806,
+  "latency_ms": 56407,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

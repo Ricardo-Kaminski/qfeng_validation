@@ -1,0 +1,26 @@
+{
+  "sha256": "eb813761e392af64794accf2c9c93b924a869dad72c0d6b027925545607b4497",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-011",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:46:46Z",
+  "prompt_sha": "303f6d25275850db752b15d9c7d3d948ca264d609c3666e67b0493fb3b36ada5",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG chegou à decisão de violação por ter detectado uma aplicação inadequada do precedente com Tema de Repercussão Geral (RG) em um caso trabalhista. Embora o tribunal tenha citado um tema de RG sobre direito administrativo, sem explicar como essa analogia se aplica ao regime trabalhista celetista privado, o sistema identificou a falta de justificativa para tal aplicação.\n\nO Q-FENG atuou sob os predicados soberanos que exigem transparência e fundamentação jurídica rigorosa. A decisão de violação reflete a necessidade de os órgãos judiciários explicarem as bases legais para suas decisões, especialmente quando envolvem a aplicação de precedentes em contextos diferentes do original.\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O sistema identificou que o tribunal não explicou as consequências práticas da decisão tomada, violando a obrigação de clarificar como essa decisão afetará os direitos e obrigações dos envolvidos.\n\n- **sovereign(prohibition_of_generic_precedent_citation)**: O Q-FENG detectou que o tribunal citou um precedente sem especificar por quê ou como ele se aplica ao caso específico, contrariando a proibição de citação genérica de precedentes sem justificativa.\n\n- **sovereign(obligation_to_address_all_legal_arguments)**: A decisão do tribunal não considerou todos os argumentos legais relevantes para o caso, violando a obrigação de examinar todas as questões jurídicas pertinentes.\n\n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: O sistema identificou que a decisão não foi fundamentada em uma razão específica (ratio decidendi) do precedente citado, violando a obrigação de basear as decisões em fundamentos claros e identificáveis.\n\n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: A falta de explicação sobre as razões pelas quais o tribunal aplicou um precedente em um contexto diferente do original viola a obrigação constitucional de justificar as decisões tomadas.\n\n- **sovereign(right_of_access_to_justice_and_judicial_review)**: O Q-FENG detectou que a decisão não respeitou o direito ao acesso à justiça e à revisão judicial, pois não ofereceu uma fundamentação clara para a aplicação do precedente em um contexto trabalhista.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nO sistema Q-FENG decidiu que houve uma violação porque o tribunal usou um caso de direito administrativo (que se aplica a funcionários públicos) para decidir sobre um caso de trabalho privado sem explicar como isso funciona. Isso é problema porque as leis e regulamentos precisam ser aplicados da forma correta, considerando quem está envolvido e por quê.\n\nO tribunal não disse como essa decisão afetaria os direitos dos trabalhadores ou o que isso significa para a lei do trabalho. Além disso, eles usaram um caso sem explicar por quê ou como ele se aplica ao caso específico, o que é importante para garantir que as leis sejam aplicadas de forma justa e igualitária.\n\nEssa decisão violou os direitos dos trabalhadores a ter suas questões consideradas e resolvidas de forma justa. O sistema Q-FENG decidiu que essa decisão foi errada e deve ser revisada para garantir que as leis sejam aplicadas da forma correta.",
+  "tokens_in": 506,
+  "tokens_out": 851,
+  "latency_ms": 14218,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

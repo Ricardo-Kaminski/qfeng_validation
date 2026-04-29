@@ -1,0 +1,29 @@
+{
+  "sha256": "45b42685ab0989c4afb437e0dda53b676deeaddfaf47289b332494f0315b03d3",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-001",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T06:49:26Z",
+  "prompt_sha": "a8d1c788e3de99920a389b72bb625722e4a5ecc3f4de5f08a57e80dccc55da81",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG determinou que houve violação de direitos dos empregados. Isso ocorreu porque a empresa implantou o banco de horas unilateralmente, sem negociação sindical, e os acordos individuais não foram válidos para períodos superiores a 6 meses, conforme prevê o predicado elastic `hour_bank_without_cct_max_6_months`. Além disso, a falta de celebração de ACT ou CCT autorizando o banco de horas pelo sindicato da categoria é um fator relevante. A decisão também se baseia nos predicados soberanos que estabelecem requisitos legais para a implementação do banco de horas, como a necessidade de acordo coletivo (ACT ou CCT) e a proibição de redução de direitos trabalhistas por negociação.\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\nOs predicados soberanos ativos são:\n\n- `sovereign(semester_hour_bank_requires_cct_or_act)`: Este predicado estabelece que a implementação do banco de horas exige acordo coletivo (ACT ou CCT). A empresa não celebrou tal acordo, o que torna a implantação do banco de horas inválida.\n\n- `sovereign(invalidity_of_clause_suppressing_overtime_payment)`: Este predicado indica que qualquer cláusula que suprima o pagamento de horas extras é inválida. A implementação unilateral do banco de horas pode ser vista como uma tentativa de suprimir direitos trabalhistas.\n\n- `sovereign(weekly_hour_compensation_requires_written_agreement)`: Este predicado estabelece que a compensação por horas trabalhadas exige acordo escrito. A falta de um tal acordo torna a implementação do banco de horas inválida.\n\n- `sovereign(prohibition_negotiation_reducing_overtime_additional)`: Este predicado proíbe negociações para reduzir direitos adicionais aos trabalhadores em relação às horas extras. A implantação unilateral do banco de horas pode ser vista como uma tentativa de reduzir esses direitos.\n\n- `sovereign(overtime_minimum_additional_50pct)`: Este predicado estabelece que as horas extras devem ter um acréscimo mínimo de 50%. A implementação do banco de horas sem respeitar esse requisito é inválida.\n\n- `sovereign(maximum_weekly_working_hours_44h)`: Este predicado estabelece o limite máximo de horas trabalhadas por semana como 44. A implantação do banco de horas não pode exceder esse limite.\n\n- `sovereign(maximum_daily_working_hours_8h)`: Este predicado estabelece o limite máximo de horas trabalhadas por dia como 8. A implantação do banco de horas não pode exceder esse limite.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nA decisão do sistema Q-FENG é que a empresa cometeu um erro ao implementar o banco de horas sem consultar os sindicatos e sem seguir as regras legais. Isso significa que os empregados têm direito a serem pagos por todas as horas trabalhadas, não apenas as 44 horas semanais permitidas pela lei. Além disso, a empresa não pode simplesmente mudar as regras de trabalho para prejudicar os funcionários. A decisão é que a empresa deve respeitar as leis e os direitos dos empregados, ou seja, pagar por todas as horas trabalhadas e não reduzir os direitos adicionais aos trabalhadores em relação às horas extras.",
+  "tokens_in": 532,
+  "tokens_out": 820,
+  "latency_ms": 13750,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

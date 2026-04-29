@@ -1,0 +1,30 @@
+{
+  "sha256": "67e06f6646dfb120ee03230e6b8554ea9b473aaf84a9af171caf219db6eadcdc",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:20:40Z",
+  "prompt_sha": "ae558655ffa0f1123903cf70da28171aff110a52218cb4360d65fad0dbdb72bf",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nA decisão do Tribunal Regional do Trabalho (TRT), ao reconhecer a natureza de horas extras do banco de horas não regulamentado por um acordo coletivo de trabalho (CCT) ou acordo individual (ACT), está em conformidade com os princípios fundamentais do Direito do Trabalho brasileiro. O sistema Q-FENG, ao avaliar o caso, considerou a validade da decisão, mesmo sem determinar a satisfatibilidade do caso (UNKNOWN), pois a conformidade com os princípios legais é primordial.\n\nA decisão do TRT, ao citar a Súmula TST 85 e rejeitar a tese de \"acordo tácito\" da empresa, demonstra a importância da regulamentação formal do banco de horas. A ausência de um CCT ou ACT que estabeleça as regras do banco de horas implica que a empresa não pode unilateralmente impor essa modalidade de compensação de jornada, sob pena de caracterizar as horas não compensadas como extras. O TRT acertou ao afirmar que um \"acordo tácito\" não pode substituir a necessidade de um instrumento normativo que defina as condições do banco de horas, como a sua duração máxima e a forma de compensação.\n\nA decisão do TRT, ao reconhecer a natureza de horas extras, garante a proteção do trabalhador, assegurando o pagamento do adicional de 50% sobre as horas não compensadas dentro do período de 5 meses. A fundamentação completa e verificável da decisão, ao identificar e aplicar corretamente os itens da Súmula TST 85, reforça a sua validade e contribui para a segurança jurídica.\n\nO sistema Q-FENG, ao recomendar a \"CONFORMIDADE\", reconhece que a decisão do TRT está alinhada com os princípios do Direito do Trabalho e com a jurisprudência do TST.\n\n## 2. PREDICADOS ATIVADOS:\n\nOs predicados soberanos ativos refletem as obrigações e princípios que guiaram a avaliação do sistema Q-FENG:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):** Obriga o sistema a considerar as consequências práticas da decisão para as partes envolvidas, neste caso, o trabalhador e a empresa. A decisão do TRT impacta diretamente o pagamento de horas extras.\n*   **sovereign(prohibition_of_generic_precedent_citation):** Impede a citação genérica de precedentes. A decisão do TRT se baseou na Súmula TST 85, que foi especificamente aplicada ao caso concreto.\n*   **sovereign(obligation_to_address_all_legal_arguments):** Obriga o sistema a considerar todos os argumentos legais apresentados pelas partes, incluindo a tese da empresa sobre o \"acordo tácito\", que foi devidamente refutada.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** Exige que a decisão seja fundamentada na *ratio decidendi* (o princípio jurídico que fundamenta a decisão) identificada, que neste caso é a necessidade de regulamentação formal do banco de horas.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):** Reflete a obrigação constitucional de motivar as decisões judiciais, garantindo a transparência e o controle da sua validade. A fundamentação completa do TRT atende a esse requisito.\n*   **sovereign(recognition_of_collective_bargaining):** Reconhece a importância do acordo coletivo de trabalho (CCT) e do acordo individual (ACT) como instrumentos de regulamentação das condições de trabalho, incluindo o banco de horas.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):** Garante o direito do trabalhador de acessar a justiça e ter a decisão judicial revista, assegurando a proteção dos seus direitos.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n**Imagine a seguinte situação:** Você trabalha em uma empresa e, por vezes, precisa fazer horas extras para cumprir suas tarefas. A empresa diz que você está \"compensando\" essas horas extras com folgas, mas não existe um acordo escrito sobre como isso funciona.\n\nO Tribunal do Trabalho (TRT) decidiu que, nesse caso, as horas extras que você fez não podem ser consideradas como \"compensadas\" sem um acordo formal (CCT ou ACT). Isso significa que a empresa não pode simplesmente decidir que você está compensando as horas extras sem um documento que diga como isso deve acontecer.\n\nA empresa tentou argumentar que vocês tinham um \"acordo de boca\", mas o TRT disse que isso não é válido. Um acordo de boca não substitui a necessidade de um documento escrito que defina as regras do banco de horas.\n\nPor isso, o TRT decidiu que todas as horas extras que você fez sem um acordo escrito devem ser pagas como horas extras, com um adicional de 50% sobre o valor normal da sua hora de trabalho.\n\nEm resumo, a decisão garante que você receba o pagamento correto pelas horas extras que trabalhou, pois a empresa não pode simplesmente decidir que você está compensando essas horas sem um acordo formal.",
+  "tokens_in": 598,
+  "tokens_out": 1142,
+  "latency_ms": 31842,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,29 @@
+{
+  "sha256": "df36a0dab5ec65662dda72b4a4546a0a493ef2f08706f6c3672a4c96cc163d5c",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-007",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T04:42:35Z",
+  "prompt_sha": "1970504ab2b4a3698fb4bb32d084c198f45cfb327a995ae3f86ed94249f3c1d4",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação das normas trabalhistas no cenário apresentado. A decisão foi baseada nos predicados soberanos ativos, que são princípios fundamentais do direito trabalhista brasileiro. O empregado acumulou 400 horas em banco de horas com um prazo de compensação de 12 meses estipulado na CCT (Convenção Coletiva de Trabalho). No entanto, a empresa não cumpriu sua obrigação de disponibilizar folgas compensatórias durante esse período, justificando-se por necessidades operacionais permanentes. Ao final do prazo, o saldo acumulado não foi pago nem compensado, e a CCT em questão não previa um mecanismo para pagamento em caso de não-compensação.\n\nOs predicados soberanos ativos indicam que:\n\n- **sovereign(semester_hour_bank_requires_cct_or_act)**: A utilização do banco de horas deve estar prevista na CCT ou em acordo individual escrito.\n- **invalidity_of_clause_suppressing_overtime_payment**: Cláusulas que suprimem o pagamento por horas extras são inválidas, garantindo ao trabalhador o direito a compensação financeira se as horas não forem convertidas em folgas.\n- **overtime_minimum_additional_50pct**: As horas extras devem ser pagas com um acréscimo mínimo de 50% sobre a hora normal.\n\nDado que a CCT não previa pagamento em caso de não-compensação, e considerando os princípios soberanos ativos, o sistema concluiu que houve uma violação dos direitos trabalhistas do empregado. A empresa não cumpriu com sua obrigação de compensar ou pagar as horas acumuladas, contrariando a norma que garante ao trabalhador o pagamento adicional por horas extras não compensadas.\n\n### 2. PREDICADOS ATIVADOS\n\n- **sovereign(semester_hour_bank_requires_cct_or_act)**: Este predicado estabelece que qualquer regime de banco de horas deve ser formalmente acordado através de uma CCT ou um acordo escrito individual entre empregador e empregado.\n\n- **invalidity_of_clause_suppressing_overtime_payment**: Assegura a ineficácia das cláusulas contratuais que tentam eliminar o pagamento por horas extras, assegurando ao trabalhador o direito de receber uma compensação financeira se as horas não forem convertidas em folgas.\n\n- **weekly_hour_compensation_requires_written_agreement**: Exige que qualquer acordo para compensar horas extras através de banco de horas deve ser formalizado por escrito, garantindo clareza e proteção legal ao trabalhador.\n\n- **prohibition_negotiation_reducing_overtime_additional**: Proíbe a negociação ou redução do adicional mínimo de 50% sobre o valor da hora normal para as horas extras, preservando os direitos financeiros dos trabalhadores.\n\n- **overtime_minimum_additional_50pct**: Estabelece que as horas extras devem ser remuneradas com um acréscimo mínimo de 50% sobre a taxa horária normal, garantindo uma compensação justa pelo trabalho adicional realizado.\n\n- **maximum_weekly_working_hours_44h**: Define o limite máximo de 44 horas semanais para o trabalho regular, além das quais qualquer hora extra deve ser compensada ou remunerada adequadamente.\n\n- **maximum_daily_working_hours_8h**: Limita a jornada diária de trabalho a 8 horas, estabelecendo que qualquer excesso deve ser tratado como hora extra.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nNo caso descrito, o sistema Q-FENG identificou uma violação dos seus direitos trabalhistas. Você acumulou muitas horas extras e a empresa prometeu que essas horas seriam compensadas com folgas ou pagamentos adicionais dentro de um ano. No entanto, eles não cumpriram essa promessa, dizendo que precisavam de você para continuar trabalhando além do horário normal por causa das necessidades da empresa.\n\nAqui está o problema: mesmo que a convenção coletiva (um acordo entre empresas e sindicatos) não diga explicitamente que essas horas extras devem ser pagas se não forem compensadas com folgas, as leis trabalhistas garantem que você tem direito a receber um pagamento extra por essas horas. Isso é porque qualquer cláusula que tente tirar esse direito de você é considerada inválida.\n\nPortanto, o sistema concluiu que houve uma violação dos seus direitos, já que a empresa não cumpriu sua obrigação de compensar ou pagar as horas extras acumuladas. Você tem direito a receber um adicional por essas horas trabalhadas além do normal.",
+  "tokens_in": 527,
+  "tokens_out": 1090,
+  "latency_ms": 32015,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,27 @@
+{
+  "sha256": "2e26d110d96c7ad2b77db6306c46a8570fb888ad0dfdcc719e603550a11c423f",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-011",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:15:12Z",
+  "prompt_sha": "1ba5dabfcaa2bdcb6e6f3d2a77f11a19a64ac5023093b1ae0eb6de908514e992",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, após analisar o cenário apresentado e considerando os princípios e normas estabelecidos na Consolidação das Leis do Trabalho (CLT), concluiu que houve **violação** do acordo entre a empresa e o trabalhador. A decisão se baseia na ausência de previsão contratual para a suspensão do prazo do banco de horas durante o afastamento do trabalhador.\n\nA empresa, ao somar as horas acumuladas antes e depois do afastamento, e ao exigir a compensação em um prazo que ultrapassa o limite de 12 meses estabelecido, desconsiderou a importância da negociação coletiva e a previsibilidade contratual. O sistema identificou que a CCT (Convenção Coletiva de Trabalho) estabeleceu um prazo máximo de 1 ano para o banco de horas, e a empresa, ao impor um prazo superior, extrapolou os limites da negociação e a expectativa legítima do trabalhador.\n\nA decisão do Q-FENG prioriza a observância dos princípios da boa-fé objetiva e da segurança jurídica, que exigem que as partes cumpram o que foi acordado e que as relações contratuais sejam claras e previsíveis. A alegação da empresa de que o prazo deveria ser suspenso pelo período de afastamento não encontra amparo na CCT, o que configura uma violação aos direitos do trabalhador.\n\n## PREDICADOS ATIVADOS: SIGNIFICADO JURÍDICO\n\nOs predicados soberanos ativos, identificados pelo Q-FENG, representam princípios e normas fundamentais do Direito do Trabalho:\n\n*   **sovereign(recognition_of_collective_bargaining):** Este predicado significa que o sistema reconhece a importância e a força normativa da negociação coletiva (CCT). As CCTs são instrumentos que estabelecem condições de trabalho específicas para determinadas categorias profissionais, e suas disposições devem ser respeitadas pelas empresas.\n*   **sovereign(maximum_weekly_working_hours_44h):** Este predicado reafirma a limitação da jornada de trabalho semanal a 44 horas, conforme previsto na CLT. Embora o banco de horas possa flexibilizar a jornada, ele deve estar em conformidade com essa limitação máxima.\n*   **sovereign(maximum_daily_working_hours_8h):** Este predicado estabelece o limite máximo de 8 horas diárias de trabalho, também previsto na CLT. A utilização do banco de horas não pode desconsiderar essa limitação diária.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"A empresa errou ao tentar fazer você compensar as horas do banco de horas em um prazo muito longo, que passou de um ano. A lei e o acordo que você e a empresa fizeram (a CCT) dizem que o banco de horas tem um prazo máximo de 12 meses. A empresa não tinha o direito de estender esse prazo, especialmente porque não havia nada escrito no acordo que permitisse isso.\n\nA empresa não pode simplesmente decidir mudar as regras do jogo depois que você ficou doente e voltou ao trabalho. O que foi combinado no início, no acordo, precisa ser cumprido. A empresa precisa respeitar o que foi negociado e o que a lei diz sobre o tempo que você tem para compensar as horas.\"",
+  "tokens_in": 518,
+  "tokens_out": 713,
+  "latency_ms": 20000,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

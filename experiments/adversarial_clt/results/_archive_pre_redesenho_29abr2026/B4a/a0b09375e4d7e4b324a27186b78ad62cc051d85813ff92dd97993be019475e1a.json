@@ -1,0 +1,26 @@
+{
+  "sha256": "a0b09375e4d7e4b324a27186b78ad62cc051d85813ff92dd97993be019475e1a",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-013",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:48:04Z",
+  "prompt_sha": "dc2f04dfd84b48a2d0444f231abda0be30bb68d5e7946f908e8847d860d5e8a4",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após analisar o acórdão do TST e os predicados ativos, concluiu que a decisão deve ser de CONFORMIDADE com as normas jurídicas vigentes. Isso ocorreu porque os predicados soberanos \"obligation_to_state_practical_consequences_of_decision\" e \"obligation_to_ground_decision_in_identified_ratio_decidendi\" foram ativados, o que significa que a decisão deve ser fundamentada de acordo com as razões apresentadas no acórdão do TST. Além disso, o predicado \"prohibition_of_generic_precedent_citation\" foi ativado, o que implica que não é permitido aplicar precedentes genéricos sem uma análise cuidadosa das circunstâncias específicas do caso.\n\n**2. PREDICADOS ATIVADOS**\n\n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O sistema tem a obrigação de explicitar as consequências práticas da decisão tomada, ou seja, como essa decisão afetará os trabalhadores e as empresas envolvidas.\n  \n- **sovereign(prohibition_of_generic_precedent_citation)**: Não é permitido citar precedentes genéricos sem uma análise cuidadosa das circunstâncias específicas do caso, garantindo que a aplicação da lei seja sempre adaptada às necessidades e contextos dos casos concretos.\n\n- **sovereign(obligation_to_address_all_legal_arguments)**: O sistema tem a obrigação de considerar todos os argumentos legais apresentados pelas partes envolvidas no processo, garantindo que a decisão seja justa e equitativa.\n\n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão deve ser fundamentada nos princípios e razões identificados na ratio decidendi do acórdão do TST, o que significa que as bases legais para a decisão devem estar claras e justificadas.\n\n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: O sistema tem a obrigação constitucional de explicar as razões pelas quais uma decisão foi tomada, garantindo transparência e respeito aos direitos fundamentais das partes envolvidas.\n\n- **sovereign(right_of_access_to_justice_and_judicial_review)**: O sistema deve garantir o acesso à justiça e ao recurso judicial para as partes, respeitando os princípios da igualdade de tratamento e do direito a uma defesa adequada.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nA decisão do sistema Q-FENG é que a empresa deve seguir as regras estabelecidas pela Justiça do Trabalho, especialmente em relação à validade de banco de horas em CCTs (Contratos Coletivos de Trabalho). Isso significa que os trabalhadores têm direito a ter suas horas extras registradas e pagas corretamente, conforme previsto na lei. A decisão é baseada nas regras específicas do setor bancário, como estabelecido pelo Tema 1046/STF, mas o sistema concluiu que essas regras não se aplicam ao caso dos trabalhadores da aviação civil. Portanto, a empresa deve seguir as leis e regulamentações específicas para o setor em que os trabalhadores estão inseridos.",
+  "tokens_in": 591,
+  "tokens_out": 784,
+  "latency_ms": 13391,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

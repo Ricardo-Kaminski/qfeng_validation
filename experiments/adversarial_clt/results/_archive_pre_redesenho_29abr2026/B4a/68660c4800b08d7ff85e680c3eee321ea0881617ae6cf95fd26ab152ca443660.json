@@ -1,0 +1,26 @@
+{
+  "sha256": "68660c4800b08d7ff85e680c3eee321ea0881617ae6cf95fd26ab152ca443660",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CTRL-NEG-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:34:41Z",
+  "prompt_sha": "f2939f0e6492edddd924d6caf369ebeb9d70b95b1796bba0e04e7028b5864a9f",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, após análise do cenário apresentado – que envolve um acórdão trabalhista fundamentado em um precedente específico (TST-Ag-RR-868-65.2021.5.13.0030) e que demonstra a compatibilidade fática entre o precedente e o caso em julgamento – concluiu pela **CONFORMIDADE**. Essa decisão, embora não tenha resultado em uma satisfatibilidade definida (UNKNOWN), reflete a necessidade de aderência aos princípios de fundamentação e respeito ao devido processo legal, conforme expressamente ditado pelos predicados soberanos ativos.\n\nA avaliação do Q-FENG considerou que a decisão judicial, ao citar um precedente específico, transcrever sua ementa, analisar a compatibilidade fática e aplicar a *ratio decidendi* ao caso concreto, demonstra um esforço em seguir a jurisprudência estabelecida. A ausência de citação de precedentes inexistentes e a identificação clara das bases legais e jurisprudenciais reforçam a validade da decisão.  A recomendação de conformidade indica que, embora a satisfatibilidade não possa ser determinada com precisão (possivelmente devido à complexidade do caso ou à falta de informações adicionais), a decisão judicial parece estar alinhada com os princípios de justiça e legalidade.\n\nA decisão de recomendar a conformidade não implica em uma avaliação do mérito da decisão judicial em si, mas sim na sua aderência aos princípios de fundamentação e respeito ao devido processo legal. O sistema Q-FENG não substitui o juízo humano, mas sim oferece uma avaliação da consistência da decisão com os princípios normativos estabelecidos.\n\n## PREDICADOS ATIVADOS\n\nOs predicados soberanos ativos, no contexto do direito trabalhista brasileiro, significam o seguinte:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  O juiz tem a obrigação de explicar as consequências práticas da decisão para as partes envolvidas. Isso garante transparência e permite que as partes compreendam o impacto da decisão em suas vidas e negócios.\n*   **sovereign(prohibition_of_generic_precedent_citation):** É proibido citar precedentes de forma genérica, sem demonstrar a sua aplicabilidade ao caso concreto. A citação deve ser específica e justificada, demonstrando a relação entre o precedente e a situação em julgamento.\n*   **sovereign(obligation_to_address_all_legal_arguments):** O juiz deve analisar e responder a todos os argumentos legais apresentados pelas partes, demonstrando que considerou todas as perspectivas relevantes.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** A decisão deve ser fundamentada na *ratio decidendi* (o princípio jurídico que resolveu o caso) do precedente citado, e não em meras conclusões ou detalhes irrelevantes.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):** A Constituição Federal garante o direito ao contraditório e à motivação das decisões judiciais. O juiz deve, portanto, explicar os motivos que o levaram a decidir de determinada forma.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):** Garante o direito das partes de terem acesso à justiça e de questionarem a decisão judicial por meio de recursos.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nImagine que você está em uma discussão e alguém usa um exemplo de uma situação parecida que já aconteceu antes para defender o que está dizendo. Isso é como um \"precedente\" no direito.\n\nO sistema Q-FENG analisou uma decisão do Tribunal do Trabalho que usou um exemplo (precedente) para decidir um caso.  Ele verificou se a decisão seguiu as regras: se explicou bem por que usou aquele exemplo, se respondeu a todos os argumentos das partes e se deixou claro o que a decisão significa na prática.\n\nO sistema não disse se a decisão está certa ou errada, mas sim se ela foi tomada de forma justa e seguindo as regras do jogo.  Ele recomendou que a decisão seja seguida (conformidade) porque, pelo que ele viu, ela parece estar de acordo com as leis e os exemplos já usados antes.  Isso significa que você tem o direito de entender por que a decisão foi tomada e de questioná-la, se não concordar.\n",
+  "tokens_in": 545,
+  "tokens_out": 977,
+  "latency_ms": 27250,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

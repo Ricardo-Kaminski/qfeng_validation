@@ -1,0 +1,26 @@
+{
+  "sha256": "66f9cc018372d310c8ccd451c90a8e6198b6ef0e53ec46df29b347df536a52b4",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T05:35:43Z",
+  "prompt_sha": "ae3ccc45fd00998e54e39da4688a558e454f41be8d8b72c745f2b457cbbefe7d",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, após analisar o cenário apresentado – um acórdão trabalhista que cita a doutrina de Sergio Pinto Martins sem fornecer informações precisas sobre a obra, edição, ano ou página – concluiu que houve **violação** de princípios fundamentais do processo judicial. A decisão foi fundamentada na análise da satisfatibilidade desconhecida (UNKNOWN), indicando a complexidade e ambiguidade da situação, e na ativação de diversos predicados soberanos que regem a produção de decisões judiciais.\n\nA citação genérica de doutrina, sem a devida identificação, compromete a transparência e a possibilidade de controle da decisão judicial. O sistema considerou que essa prática, ao invés de fortalecer o raciocínio jurídico, o fragiliza, impedindo que as partes e a sociedade compreendam a base teórica da decisão e a verifiquem. A ausência de informações precisas sobre a fonte da doutrina citada impede a análise crítica do fundamento utilizado, violando o direito de acesso à justiça e a possibilidade de revisão judicial.\n\nO Q-FENG, portanto, entendeu que a decisão do acórdão, ao adotar essa prática de citação genérica, não cumpriu com a obrigação de fundamentar a decisão em um *ratio decidendi* identificado e acessível, violando, em última instância, a garantia de um processo justo e transparente.\n\n## 2. PREDICADOS ATIVADOS: SIGNIFICADO JURÍDICO\n\nOs seguintes predicados soberanos foram ativados pelo Q-FENG, e seu significado no contexto trabalhista brasileiro é o seguinte:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  O juiz tem a obrigação de explicitar as consequências práticas da decisão, permitindo que as partes compreendam o impacto da sentença em suas vidas e negócios. A citação genérica de doutrina dificulta essa compreensão.\n*   **sovereign(prohibition_of_generic_precedent_citation):**  Impede a utilização de precedentes ou doutrinas de forma genérica e imprecisa. A citação deve ser clara e específica, permitindo a verificação da validade e pertinência do fundamento.\n*   **sovereign(obligation_to_address_all_legal_arguments):** O juiz deve analisar e responder a todos os argumentos jurídicos apresentados pelas partes. A citação genérica de doutrina pode ser uma forma de evitar o exame crítico de um argumento específico.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):**  O juiz deve fundamentar a decisão em um princípio jurídico específico e identificado (*ratio decidendi*). A citação genérica de doutrina dificulta a identificação desse princípio.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):**  A Constituição Federal garante o direito ao contraditório e à motivação das decisões judiciais. A citação genérica de doutrina compromete a transparência e a motivação da decisão.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):** Garante o direito das partes de terem acesso à justiça e de poderem revisar a decisão judicial. A citação genérica de doutrina dificulta a revisão da decisão, pois impede a verificação da base teórica utilizada.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"Imagine que o juiz está construindo uma casa, e para explicar por que ele escolheu um certo tipo de tijolo, ele diz: 'Eu usei tijolos de um especialista'. Mas não diz qual especialista, qual livro ele escreveu, qual página ele usou. Como você, trabalhador, vai saber se esse especialista realmente entende do assunto e se o tijolo é bom para a sua casa?\n\nO sistema Q-FENG entendeu que o juiz não pode fazer isso. Ele precisa dizer exatamente de onde tirou a informação para que você possa entender o porquê da decisão e verificar se ela está certa.  A citação sem detalhes é como esconder a base da decisão, impedindo que você possa questioná-la. Isso não é justo e não permite que você entenda o que aconteceu e por que.\"\n",
+  "tokens_in": 505,
+  "tokens_out": 948,
+  "latency_ms": 26312,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

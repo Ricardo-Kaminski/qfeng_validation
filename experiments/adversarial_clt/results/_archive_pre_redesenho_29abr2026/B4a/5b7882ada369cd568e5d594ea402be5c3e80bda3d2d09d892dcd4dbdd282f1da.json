@@ -1,0 +1,26 @@
+{
+  "sha256": "5b7882ada369cd568e5d594ea402be5c3e80bda3d2d09d892dcd4dbdd282f1da",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-013",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T05:47:50Z",
+  "prompt_sha": "dc2f04dfd84b48a2d0444f231abda0be30bb68d5e7946f908e8847d860d5e8a4",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, ao analisar o cenário apresentado – um acórdão do Tribunal Superior do Trabalho (TST) que rejeita a aplicação de uma decisão anterior (TST-Ag-RR-868-65.2021.5.13.0030) ao caso de um piloto da aviação civil – concluiu que a decisão do TST está em **conformidade** com os princípios e obrigações que regem a atuação do Poder Judiciário.\n\nA decisão do Q-FENG não se baseia em uma avaliação da *merit* da decisão do TST, mas sim na sua *forma* e na observância dos princípios que regem a produção de decisões judiciais. A análise do sistema considerou que o TST cumpriu com a obrigação de fundamentar sua decisão, demonstrando a inaplicabilidade da ratio decidendi do julgado anterior com base em uma análise fática diferenciada e fundamentação constitucional (Art. 7º, XIII e XIV da CF/88).\n\nA satisfatibilidade \"UNKNOWN\" reflete a impossibilidade do sistema Q-FENG de avaliar a correção material do julgado, limitando-se a verificar a observância dos princípios processuais e de fundamentação. A ação recomendada de \"CONFORMIDADE\" indica que, sob a perspectiva do sistema, a decisão do TST atendeu aos requisitos mínimos para sua validade formal.\n\n## 2. PREDICADOS ATIVADOS:\n\nOs predicados soberanos ativos, no contexto do direito do trabalho brasileiro, representam obrigações e direitos fundamentais que regem a atuação do Poder Judiciário.\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  O Poder Judiciário tem a obrigação de considerar as consequências práticas de suas decisões, especialmente em relação aos direitos dos trabalhadores. Embora o Q-FENG não avalie essas consequências diretamente, a decisão do TST demonstra ter considerado o impacto da aplicação da ratio decidendi do julgado anterior ao caso do piloto.\n*   **sovereign(prohibition_of_generic_precedent_citation):**  Impede a citação genérica de precedentes sem a devida análise e adequação ao caso concreto. O TST, ao analisar o precedente, demonstrou compreender essa restrição, justificando a sua inaplicabilidade.\n*   **sovereign(obligation_to_address_all_legal_arguments):**  O Poder Judiciário deve considerar e responder a todos os argumentos legais apresentados pelas partes. O TST, ao analisar a ratio decidendi do julgado anterior e refutar sua aplicabilidade, cumpriu essa obrigação.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):**  A decisão judicial deve ser fundamentada em uma ratio decidendi identificada e clara. O TST explicitou a ratio do julgado anterior e demonstrou como a distinção fática a tornava inaplicável.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):**  A Constituição Federal (Art. 93, IX) obriga o Poder Judiciário a fundamentar suas decisões. O TST cumpriu essa obrigação, apresentando uma fundamentação completa e verificável.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):** Garante o direito das partes de terem acesso à justiça e de questionarem as decisões judiciais. A decisão do TST, mesmo que rejeite a aplicação de um precedente, está sujeita a essa revisão.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\nImagine que o Tribunal do Trabalho (TST) tomou uma decisão em um caso parecido com o seu, envolvendo funcionários de bancos. Essa decisão (TST-Ag-RR-868-65.2021.5.13.0030) dizia como as horas extras deveriam ser contabilizadas.\n\nAgora, você, como piloto, tentou usar essa mesma decisão para defender seus direitos. Mas o TST disse que essa decisão não se aplica ao seu caso. Por que? Porque a situação de um piloto é diferente da de um bancário.\n\nO TST explicou que, mesmo existindo uma decisão anterior, ela não pode ser aplicada automaticamente em todos os casos. Cada caso é único e precisa ser analisado separadamente. O TST fez isso, mostrando que a lei que protege os pilotos é diferente da lei que protege os bancários.\n\nO sistema Q-FENG analisou essa situação e concluiu que o TST agiu corretamente. O TST explicou bem o motivo de não aplicar a decisão anterior, mostrando que fez uma análise justa e completa do seu caso. Isso garante que você tenha seus direitos respeitados e possa questionar a decisão, se não concordar.\n",
+  "tokens_in": 593,
+  "tokens_out": 1076,
+  "latency_ms": 29969,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,26 @@
+{
+  "sha256": "abc3db5660b6c4a4b20d1d1ea7d021405c6f4b705ee7c1ed2d2f30e7e0608915",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-001",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T07:13:26Z",
+  "prompt_sha": "10b999c1978cb6ff2256926b41518f7e0ab9d2b1c6d6aeefb718ef2123bf70b9",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após análise dos dados e aplicação da lógica simbólica, determinou que a empresa deve manter a jornada de trabalho atual, sem alterações. Isso se deve à satisfação (ou não) das condições estabelecidas pela legislação trabalhista brasileira, conforme refletido nos predicados soberanos ativos.\n\nA decisão é baseada na obrigação de o empregador informar as consequências práticas da decisão tomada, como previsto no artigo 9º da CLT. Além disso, o Q-FENG proibiu a citação de precedentes genéricos, enfatizando que cada caso deve ser analisado com base em suas próprias características.\n\nO sistema também obrigou-se a considerar todos os argumentos legais apresentados e a fundamentar sua decisão no princípio da ratio decidendi. Isso significa que a justificativa para a manutenção da jornada de trabalho atual deve estar diretamente relacionada à análise dos fatos do caso.\n\nPor fim, o Q-FENG reconheceu a obrigação constitucional de informar os motivos das decisões e ressaltou o direito de acesso à justiça e ao recurso judicial. Esses aspectos são fundamentais para garantir que as decisões sejam tomadas com transparência e responsabilidade.\n\n**2. PREDICADOS ATIVADOS**\n\n- **obligation_to_state_practical_consequences_of_decision**: O empregador tem a obrigação de informar as consequências práticas da decisão de manter a jornada de trabalho atual, como impactos na rotina dos funcionários e no desempenho da empresa.\n  \n- **prohibition_of_generic_precedent_citation**: Não é permitido citar precedentes genéricos sem consideração específica das características do caso em questão. Cada situação deve ser analisada com base em suas próprias peculiaridades.\n\n- **obligation_to_address_all_legal_arguments**: O sistema Q-FENG tem a obrigação de considerar todos os argumentos legais apresentados, não apenas aqueles que sejam favoráveis à decisão tomada.\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: A justificativa para a manutenção da jornada de trabalho atual deve estar diretamente relacionada ao princípio da ratio decidendi, ou seja, os motivos devem ser claros e diretos.\n\n- **constitutional_obligation_to_state_reasons_for_decisions**: O Q-FENG reconhece a obrigação constitucional de informar os motivos das decisões, garantindo transparência e responsabilidade.\n\n- **right_of_access_to_justice_and_judicial_review**: O sistema ressalta o direito de acesso à justiça e ao recurso judicial, permitindo que as partes possam questionar a legitimidade da decisão tomada.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nO sistema Q-FENG decidiu que a empresa deve manter a jornada de trabalho atual porque isso é o mais justo e equitativo para todos os funcionários. A decisão foi baseada em leis trabalhistas brasileiras que garantem direitos aos empregados, como intervalos de descanso e registro de ponto eletrônico.\n\nO sistema também considerou que a empresa deve informar as consequências práticas da sua decisão para os funcionários. Além disso, o Q-FENG garantiu o direito dos funcionários de ter acesso à justiça e ao recurso judicial se eles discordarem da decisão tomada.\n\nEm resumo, a decisão é baseada na necessidade de manter a igualdade entre os funcionários e garantir que todos tenham os mesmos direitos e condições de trabalho.",
+  "tokens_in": 523,
+  "tokens_out": 851,
+  "latency_ms": 14250,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

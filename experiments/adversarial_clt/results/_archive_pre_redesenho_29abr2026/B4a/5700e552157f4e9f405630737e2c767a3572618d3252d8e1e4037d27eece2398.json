@@ -1,0 +1,30 @@
+{
+  "sha256": "5700e552157f4e9f405630737e2c767a3572618d3252d8e1e4037d27eece2398",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:16:37Z",
+  "prompt_sha": "f5b03aa37cbaba903b62ce936948a2f9431d0cc4d9bc02bb8ff84f0799aa516e",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, após análise do cenário apresentado – que envolve um acórdão do Tribunal Superior do Trabalho (TST) validando um banco de horas bancário com base no ARE 1.121.633 (Tema 1046/STF) – concluiu pela **CONFORMIDADE** da decisão. Essa conclusão não significa que o sistema tenha tomado a decisão em si, mas sim que a decisão já tomada pelo TST está em consonância com os princípios e normas que regem o sistema Q-FENG.\n\nA decisão do Q-FENG se baseia na premissa de que o TST fundamentou sua decisão em uma análise completa e rigorosa, considerando a jurisprudência do STF (Tema 1046) e a validade da Convenção Coletiva de Trabalho (CCT) bancária. A CCT, ao estabelecer o banco de horas como uma vantagem para os trabalhadores, dentro de um acordo negociado, se enquadra nos parâmetros definidos pelo STF.\n\nA avaliação do Q-FENG considerou a importância do reconhecimento da autonomia da negociação coletiva (predicado `recognition_of_collective_bargaining`) e a necessidade de que as decisões judiciais sejam devidamente fundamentadas (predicado `obligation_to_ground_decision_in_identified_ratio_decidendi` e `constitutional_obligation_to_state_reasons_for_decisions`). A análise do sistema assume que o TST cumpriu essa obrigação, demonstrando a base legal e a justificativa para a validade do banco de horas.  Apesar da satisfatibilidade ser classificada como \"UNKNOWN\", a análise dos predicados soberanos e elásticos, juntamente com o vetor ψ_S, indicou que a decisão do TST é consistente com os princípios do sistema Q-FENG.\n\n## 2. PREDICADOS ATIVADOS:\n\nOs predicados soberanos ativos refletem as obrigações e princípios fundamentais que o sistema Q-FENG deve observar ao avaliar decisões jurídicas:\n\n*   **`sovereign(obligation_to_state_practical_consequences_of_decision)`:**  O sistema deve considerar as consequências práticas da decisão, tanto para os trabalhadores quanto para as empresas, e garantir que essas consequências sejam justas e razoáveis.\n*   **`sovereign(prohibition_of_generic_precedent_citation)`:**  O sistema não pode se basear em precedentes genéricos ou abstratos. A decisão deve ser fundamentada em fatos e argumentos específicos do caso em questão.\n*   **`sovereign(obligation_to_address_all_legal_arguments)`:**  O sistema deve analisar e responder a todos os argumentos legais apresentados pelas partes envolvidas, garantindo uma análise completa e imparcial.\n*   **`sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)`:** A decisão deve ser fundamentada na *ratio decidendi* (o princípio jurídico que fundamenta a decisão) de casos anteriores, demonstrando a lógica e a coerência da decisão.\n*   **`sovereign(constitutional_obligation_to_state_reasons_for_decisions)`:**  O sistema deve explicar as razões que levaram à decisão, em conformidade com o direito constitucional à motivação das decisões judiciais.\n*   **`sovereign(recognition_of_collective_bargaining)`:**  O sistema reconhece a importância da negociação coletiva como instrumento para a definição de condições de trabalho, respeitando a autonomia das partes envolvidas.\n*   **`sovereign(right_of_access_to_justice_and_judicial_review)`:**  O sistema garante o direito de acesso à justiça e à revisão judicial das decisões, assegurando a possibilidade de questionamento e correção de eventuais erros.\n\nOs predicados elásticos, `working_hours_negotiable_by_cct` e `hour_bank_with_cct_max_1_year`, indicam que a possibilidade de negociar a jornada de trabalho e a utilização de bancos de horas está condicionada a acordos coletivos, com limites de tempo (no caso, até 1 ano).\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"O Tribunal Superior do Trabalho (TST) decidiu que o banco de horas que existe nos bancos é válido. Essa decisão está de acordo com o que o Supremo Tribunal Federal (STF) já disse: acordos entre empregadores e empregados que dão vantagens para os empregados, como o banco de horas, são permitidos, desde que sejam resultado de negociação.\n\nO TST analisou o caso específico e viu que o acordo entre os bancos e os funcionários foi feito de forma correta, respeitando as leis e a negociação. Isso significa que o banco de horas pode continuar funcionando, mas é importante que os funcionários e os bancos sigam as regras do acordo para garantir que tudo seja justo para todos.\"\n",
+  "tokens_in": 604,
+  "tokens_out": 1092,
+  "latency_ms": 30483,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

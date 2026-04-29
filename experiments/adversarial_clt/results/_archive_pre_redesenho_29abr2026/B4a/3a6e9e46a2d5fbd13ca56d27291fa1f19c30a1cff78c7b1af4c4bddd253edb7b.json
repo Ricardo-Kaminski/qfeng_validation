@@ -1,0 +1,29 @@
+{
+  "sha256": "3a6e9e46a2d5fbd13ca56d27291fa1f19c30a1cff78c7b1af4c4bddd253edb7b",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T04:34:54Z",
+  "prompt_sha": "86f5fd16f6d15b9e1997d1146961409a0ab7a50f3a8fbba670004d4b3d84cb71",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação das normas trabalhistas brasileiras na implementação do banco de horas pela indústria têxtil, com base nos predicados soberanos ativos. A decisão foi fundamentada no seguinte:\n\n- **sovereign(semester_hour_bank_requires_cct_or_act)**: Este predicado estabelece que a adoção de um banco de horas semestral requer uma negociação coletiva ou um acordo coletivo de trabalho (CCT). A empresa não realizou tal negociação, optando por acordos individuais escritos, o que não é suficiente para substituir a necessidade de um CCT.\n\n- **sovereign(invalidity_of_clause_suppressing_overtime_payment)**: Este predicado indica que qualquer cláusula que suprima ou reduza o pagamento de horas extras é inválida. A implementação do banco de horas sem negociação coletiva pode ser interpretada como uma tentativa de contornar a obrigatoriedade de pagamento adicional por horas extras.\n\n- **sovereign(weekly_hour_compensation_requires_written_agreement)**: Embora acordos individuais escritos sejam necessários para compensação de horas semanais, eles não substituem a exigência de um CCT para bancos de horas semestrais.\n\n- **sovereign(prohibition_negotiation_reducing_overtime_additional)**: Este predicado proíbe negociações que reduzam o pagamento adicional por horas extras. A ausência de um CCT pode ser vista como uma violação desta norma, pois não há garantia formal de que os direitos dos trabalhadores são preservados.\n\n- **sovereign(overtime_minimum_additional_50pct)**: Assegura que as horas extras devem ser pagas com um acréscimo mínimo de 50%. A implementação do banco de horas sem CCT pode comprometer essa garantia.\n\n- **sovereign(maximum_weekly_working_hours_44h) e sovereign(maximum_daily_working_hours_8h)**: Estes predicados estabelecem limites máximos para a jornada de trabalho, que devem ser respeitados independentemente do banco de horas. A ausência de um CCT pode levar à violação desses limites.\n\nO vetor ψ_S e o predeterminado elastic(hour_bank_without_cct_max_6_months) indicam flexibilidade até 6 meses para compensação, mas a falta de negociação coletiva ainda representa uma infração. Portanto, a decisão recomendada pelo Q-FENG é \"VIOLACAO\".\n\n### 2. PREDICADOS ATIVADOS\n\n- **sovereign(semester_hour_bank_requires_cct_or_act)**: Exige que um banco de horas semestral seja estabelecido por meio de negociação coletiva ou acordo coletivo, garantindo a participação do sindicato e dos trabalhadores.\n\n- **sovereign(invalidity_of_clause_suppressing_overtime_payment)**: Qualquer cláusula que tente eliminar o pagamento adicional por horas extras é considerada inválida, protegendo os direitos dos trabalhadores.\n\n- **sovereign(weekly_hour_compensation_requires_written_agreement)**: Requer um acordo escrito para compensação de horas semanais, mas não substitui a necessidade de um CCT para bancos de horas semestrais.\n\n- **sovereign(prohibition_negotiation_reducing_overtime_additional)**: Proíbe negociações que reduzam o pagamento adicional por horas extras, assegurando que os trabalhadores recebam pelo menos 50% a mais pelas horas excedentes.\n\n- **sovereign(overtime_minimum_additional_50pct)**: Garante que as horas extras sejam pagas com um acréscimo mínimo de 50%, protegendo o direito dos trabalhadores a remuneração justa por trabalho extra.\n\n- **sovereign(maximum_weekly_working_hours_44h) e sovereign(maximum_daily_working_hours_8h)**: Estabelecem limites máximos para a jornada de trabalho semanal (44 horas) e diária (8 horas), respeitando o direito dos trabalhadores à saúde e segurança no ambiente laboral.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nA empresa fez um acordo individual com cada funcionário para permitir que eles acumulassem horas extras para serem compensadas mais tarde, mas isso não é permitido sem uma negociação coletiva com o sindicato. As regras dizem que esses acordos precisam ser feitos em conjunto com os trabalhadores e seus representantes, não um por um.\n\nAlém disso, qualquer tentativa de evitar pagar mais pelas horas extras é ilegal. Os funcionários têm direito a receber pelo menos 50% a mais por cada hora extra trabalhada. A empresa também precisa garantir que ninguém trabalhe mais do que o permitido em uma semana ou um dia.\n\nPortanto, como não houve negociação coletiva e os acordos individuais não substituem essa necessidade, a decisão é que a empresa está violando as regras trabalhistas.",
+  "tokens_in": 539,
+  "tokens_out": 1168,
+  "latency_ms": 34281,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

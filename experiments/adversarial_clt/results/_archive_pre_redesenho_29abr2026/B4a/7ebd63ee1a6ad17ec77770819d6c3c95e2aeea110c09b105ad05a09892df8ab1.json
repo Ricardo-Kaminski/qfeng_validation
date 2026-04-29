@@ -1,0 +1,27 @@
+{
+  "sha256": "7ebd63ee1a6ad17ec77770819d6c3c95e2aeea110c09b105ad05a09892df8ab1",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T04:49:24Z",
+  "prompt_sha": "c6c0c1122710df482c2abdde5c502834d7fd2f7dca2ec9ae3f5901b25dbff6df",
+  "response_text": "1. **NARRATIVA DA DECISÃO Q-FENG:**\n\nO sistema Q-FENG determinou que a situação descrita está em conformidade com as normas aplicáveis. Isso ocorre porque os predicados soberanos ativos reconhecem a validade da negociação coletiva, conforme estabelecido na Convenção Coletiva de Trabalho (CCT) firmada entre a empresa e o sindicato dos trabalhadores. A CCT prevê um banco de horas anual que foi utilizado adequadamente dentro do prazo de 12 meses, respeitando os limites máximos estabelecidos para jornadas semanais e diárias (44 horas semanais e 8 horas diárias). Além disso, o sindicato homologou a prestação anual de contas do banco de horas, garantindo que todas as compensações foram realizadas conforme acordado. Portanto, a decisão de conformidade é baseada no respeito às normas negociadas coletivamente e na observância dos limites legais estabelecidos.\n\n2. **PREDICADOS ATIVADOS:**\n\n- **sovereign(recognition_of_collective_bargaining):** Este predicado reconhece a validade das negociações coletivas entre empregadores e sindicatos, permitindo que acordos específicos sejam estabelecidos para condições de trabalho que podem diferir das normas gerais, desde que não infrinjam direitos fundamentais dos trabalhadores.\n\n- **sovereign(maximum_weekly_working_hours_44h):** Este predicado estabelece o limite máximo de 44 horas semanais como a jornada máxima permitida para os trabalhadores em regime de trabalho normal, conforme previsto na Consolidação das Leis do Trabalho (CLT).\n\n- **sovereign(maximum_daily_working_hours_8h):** Este predicado define o limite máximo de 8 horas diárias como a jornada máxima permitida para os trabalhadores em regime de trabalho normal, também conforme estabelecido na CLT.\n\n3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA:**\n\nO sistema verificou que tudo está correto com o banco de horas da sua empresa. Isso porque a convenção feita entre a empresa e o sindicato permite que você acumule horas extras para compensar em folgas, dentro do prazo de um ano. Além disso, nenhuma jornada diária ultrapassou 10 horas, o que está dentro dos limites permitidos. O sindicato também verificou e aprovou como as horas foram contabilizadas no final do ano. Portanto, tudo foi feito conforme acordado e de acordo com as regras trabalhistas.",
+  "tokens_in": 505,
+  "tokens_out": 623,
+  "latency_ms": 18328,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

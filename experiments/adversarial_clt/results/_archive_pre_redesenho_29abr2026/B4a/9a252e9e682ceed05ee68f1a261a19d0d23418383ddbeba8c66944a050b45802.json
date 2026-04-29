@@ -1,0 +1,26 @@
+{
+  "sha256": "9a252e9e682ceed05ee68f1a261a19d0d23418383ddbeba8c66944a050b45802",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T05:33:25Z",
+  "prompt_sha": "42f64b17e4b016fd75d72c1e016a4fe922b18599855e398c8efb7427026ee45a",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, ao analisar o cenário apresentado – a decisão judicial que negou seguimento a um recurso ordinário de metalúrgico sem fundamentação específica, e a alegação de violação ao Art. 93, IX da Constituição Federal – concluiu que houve **violação** de princípios e direitos fundamentais.\n\nA decisão do juiz, ao negar o recurso com a formulação genérica \"Recurso manifestamente protelatório. Na forma da lei, nego seguimento\", demonstra uma falha na observância do dever de fundamentação inerente ao ato judicial. O sistema considerou que a ausência de menção a lei, dispositivo ou fundamento jurídico específico, em resposta às alegações do reclamante, implica em uma decisão carente de transparência e controle.\n\nA avaliação do Q-FENG foi influenciada pela ativação de diversos predicados soberanos, que impõem obrigações ao Poder Judiciário, especialmente no que tange à motivação das decisões e à garantia do direito de acesso à justiça. A decisão do juiz, ao não fornecer a devida fundamentação, compromete a possibilidade de o reclamante compreender os motivos da decisão e, consequentemente, exercer o direito de recorrer a instâncias superiores.\n\nO vetor ψ_S, com valor [3.1416], indica um nível de significância elevado para a violação identificada, reforçando a necessidade de revisão da decisão judicial. A ausência de predicados elásticos ativos sugere que a situação se enquadra em um cenário de clara violação de princípios, sem atenuantes ou nuances que pudessem modificar a conclusão.\n\n## 2. PREDICADOS ATIVADOS:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  O juiz tem a obrigação de explicitar as consequências práticas da decisão para as partes envolvidas. Uma decisão sem fundamentação impede que o reclamante compreenda o impacto da decisão em seus direitos e obrigações.\n*   **sovereign(prohibition_of_generic_precedent_citation):**  É vedado ao juiz fundamentar sua decisão em citações genéricas de precedentes ou leis, sem especificar como o caso concreto se enquadra na norma. A simples menção à \"forma da lei\" não é suficiente.\n*   **sovereign(obligation_to_address_all_legal_arguments):** O juiz deve responder a todos os argumentos jurídicos apresentados pelas partes, demonstrando ter analisado as alegações e fundamentos apresentados. A decisão genérica não demonstra essa análise.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** A decisão deve ser fundamentada em um \"ratio decidendi\" identificado, ou seja, a razão de decidir que sustenta a decisão. A ausência de fundamentação impede a identificação desse \"ratio\".\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):** A Constituição Federal, no Art. 93, IX, impõe ao Poder Judiciário a obrigação de fundamentar todas as decisões judiciais. A decisão em questão viola essa obrigação constitucional.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):** O reclamante tem o direito de acesso à justiça e de revisar a decisão judicial por meio de recursos. Uma decisão sem fundamentação dificulta o exercício desse direito, pois impede a compreensão dos motivos da decisão e a identificação de possíveis erros.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"A decisão do juiz, que negou seu recurso, é problemática. Ele simplesmente disse que o recurso era 'protelatório' e negou seguimento 'na forma da lei', mas não explicou *por que* ele pensa isso. A lei brasileira diz que todo juiz precisa explicar o motivo de suas decisões, para que você possa entender o que aconteceu e, se não concordar, tentar reverter a decisão em outro lugar.  A falta de explicação do juiz dificulta que você entenda o que ele pensou e impede que você possa questionar essa decisão. O sistema Q-FENG identificou que essa falta de explicação é uma violação do seu direito de ter uma decisão justa e compreensível.\"\n",
+  "tokens_in": 510,
+  "tokens_out": 957,
+  "latency_ms": 26500,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

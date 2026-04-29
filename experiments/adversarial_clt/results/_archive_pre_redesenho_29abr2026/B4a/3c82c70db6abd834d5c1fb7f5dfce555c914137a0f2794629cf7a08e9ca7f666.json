@@ -1,0 +1,29 @@
+{
+  "sha256": "3c82c70db6abd834d5c1fb7f5dfce555c914137a0f2794629cf7a08e9ca7f666",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:54:59Z",
+  "prompt_sha": "85be4e9fc6b0e8305c982455c7b1416641f688c9050ea4b7fedf4fae6b54fd4b",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG determinou que houve violação (VIOLACAO) no caso em questão. Isso ocorreu porque a empresa se recusou a pagar o saldo de 60 horas do banco de horas estabelecido, alegando que o pedido de demissão do empregado desfazia a lógica compensatória do banco.\n\nNo entanto, o sistema Q-FENG considerou que essa justificativa não é válida. Isso porque os predicados soberanos ativos indicam que a compensação das horas extras pendentes não pode ser afetada pelo pedido de demissão do empregado.\n\nEm particular, os predicados `invalidity_of_clause_suppressing_overtime_payment` e `overtime_minimum_additional_50pct` sugerem que a empresa tem o dever de pagar as horas extras pendentes, independentemente da situação do empregado. Além disso, os predicados `maximum_weekly_working_hours_44h` e `maximum_daily_working_hours_8h` indicam que a empresa não pode negar o pagamento das horas extras por motivos relacionados à jornada de trabalho.\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\nAqui estão as explicações dos predicados soberanos ativos:\n\n* `sovereign(semester_hour_bank_requires_cct_or_act)`: Indica que o banco de horas pode ser estabelecido por meio do Acordo Coletivo de Trabalho (ACT) ou da Convenção Coletiva de Trabalho (CCT).\n* `sovereign(invalidity_of_clause_suppressing_overtime_payment)`: Sugerisce que a cláusula que suprime o pagamento das horas extras é inválida e não pode ser aplicada.\n* `sovereign(weekly_hour_compensation_requires_written_agreement)`: Indica que a compensação das horas extras por semana requer um acordo escrito entre empregado e empresa.\n* `sovereign(prohibition_negotiation_reducing_overtime_additional)`: Proíbe a negociação de redução do pagamento adicional das horas extras.\n* `sovereign(overtime_minimum_additional_50pct)`: Sugerisce que o pagamento adicional das horas extras deve ser no mínimo 50% a mais do salário normal.\n* `sovereign(maximum_weekly_working_hours_44h)`: Indica que o número máximo de horas trabalhadas por semana é de 44 horas.\n* `sovereign(maximum_daily_working_hours_8h)`: Indica que o número máximo de horas trabalhadas por dia é de 8 horas.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nO sistema Q-FENG determinou que a empresa violou as regras trabalhistas ao se recusar a pagar o saldo de 60 horas do banco de horas estabelecido. Isso ocorreu porque a empresa alegou que o pedido de demissão do empregado desfazia a lógica compensatória do banco, mas isso não é verdade.\n\nNa realidade, as regras trabalhistas dizem que a compensação das horas extras pendentes deve ser paga independentemente da situação do empregado. Além disso, a empresa não pode negar o pagamento das horas extras por motivos relacionados à jornada de trabalho.\n\nPortanto, a decisão do sistema Q-FENG é que a empresa deve pagar o saldo de 60 horas do banco de horas estabelecido e respeitar as regras trabalhistas.",
+  "tokens_in": 546,
+  "tokens_out": 789,
+  "latency_ms": 13219,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

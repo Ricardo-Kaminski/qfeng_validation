@@ -1,0 +1,27 @@
+{
+  "sha256": "bdee888d396eb13fa6d654efc6428d459b2d7f0c8056fb62eb0bf31479af5a4a",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T04:51:39Z",
+  "prompt_sha": "a441ed131081be5a67de4fae29354418a5514d888c32e5d9d10bc7c36186be20",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que há uma violação na continuidade da aplicação das cláusulas de banco de horas após a sucessão empresarial, com base nos predicados soberanos ativos. A decisão se fundamenta no reconhecimento do poder normativo das convenções coletivas de trabalho (CCT), bem como nas limitações impostas às jornadas máximas semanais e diárias.\n\nNo contexto da sucessão empresarial, a nova empresa adotou as cláusulas do banco de horas da CCT anterior, apesar de não ter renovado formalmente o acordo com o sindicato. A decisão Q-FENG identifica uma violação porque, embora os predicados elásticos permitam certa flexibilidade nas negociações sobre bancos de horas e jornadas, a ausência de renovação formal da CCT implica que as cláusulas não devem ser automaticamente aplicáveis após o término do prazo original.\n\nOs predicados soberanos ativos indicam que:\n- A convenção coletiva possui força normativa (sovereign(recognition_of_collective_bargaining)).\n- Existe um limite máximo de 44 horas semanais e 8 horas diárias para a jornada de trabalho (sovereign(maximum_weekly_working_hours_44h) e sovereign(maximum_daily_working_hours_8h)).\n\nPortanto, ao continuar aplicando as cláusulas do banco de horas sem renovação formal da CCT, a empresa sucessora pode estar excedendo os limites normativos estabelecidos pelas leis trabalhistas vigentes, resultando na classificação de violação.\n\n### 2. PREDICADOS ATIVADOS\n\n- **sovereign(recognition_of_collective_bargaining):** Este predicado reconhece a força normativa das convenções coletivas de trabalho no Brasil. As CCTs têm o poder de estabelecer condições de trabalho que podem ser mais favoráveis do que as previstas na legislação trabalhista, desde que não sejam inferiores aos direitos mínimos garantidos por lei.\n\n- **sovereign(maximum_weekly_working_hours_44h):** Este predicado reflete a norma legal que estabelece o limite máximo de 44 horas semanais para a jornada de trabalho dos empregados, conforme previsto na Consolidação das Leis do Trabalho (CLT).\n\n- **sovereign(maximum_daily_working_hours_8h):** Este predicado indica o limite legal de 8 horas diárias para a jornada de trabalho, também estabelecido pela CLT. Qualquer jornada superior deve ser compensada com descanso remunerado.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nQuando uma empresa é comprada por outra, normalmente as regras de trabalho que estavam em vigor antes da compra precisam ser renovadas ou confirmadas para continuar valendo. No caso da sua empresa, a nova dona continuou usando as regras do banco de horas sem fazer um novo acordo com o sindicato.\n\nO sistema Q-FENG identificou que isso pode não estar certo porque, legalmente, esses acordos precisam ser renovados para continuar valendo após o prazo original. Isso significa que a empresa nova pode estar violando as regras de trabalho ao aplicar essas cláusulas sem um novo acordo formal.\n\nEm resumo, mesmo que a nova empresa tenha continuado usando as mesmas regras do banco de horas, ela deveria ter renovado o acordo para garantir que tudo está dentro da lei.",
+  "tokens_in": 499,
+  "tokens_out": 815,
+  "latency_ms": 23905,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

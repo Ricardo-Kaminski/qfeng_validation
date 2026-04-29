@@ -1,0 +1,27 @@
+{
+  "sha256": "290de89ca91d3fc8b5281ab2907e474d6e47e4021e53e7e3a02a2a5fa1ec8bac",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-011",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T03:32:22Z",
+  "prompt_sha": "1ba5dabfcaa2bdcb6e6f3d2a77f11a19a64ac5023093b1ae0eb6de908514e992",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a **empresa violou a CCT** ao estender o prazo de compensação do banco de horas além de 12 meses, **sem base legal ou convencional**. A decisão se fundamenta nos **predicados soberanos ativos**, que estabelecem limites jurídicos inquestionáveis no direito trabalhista brasileiro:  \n\n- **`sovereign(recognition_of_collective_bargaining)`**: A CCT é um acordo coletivo legalmente vinculante, e suas cláusulas devem ser respeitadas integralmente. A ausência de previsão sobre suspensão do prazo durante afastamento impede que a empresa altere unilateralmente o termo da compensação.  \n- **`sovereign(maximum_weekly_working_hours_44h)`** e **`sovereign(maximum_daily_working_hours_8h)`**: Mesmo que a empresa tenha tentado justificar a extensão do prazo, os limites de horas legais (44h semanais e 8h diárias) não são afetados pelo afastamento. A compensação de horas deve respeitar esses limites, independentemente de suspensões.  \n\nA **elasticidade** do banco de horas (predicado `elastic(hour_bank_with_cct_max_1_year)`) permite negociação de prazos, mas **não autoriza a empresa a criar novas regras** fora do que foi pactuado na CCT. A ausência de cláusula de suspensão durante afastamento torna a exigência de compensação além de 12 meses **inválida**, configurando violação.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **`sovereign(recognition_of_collective_bargaining)`**:  \n  **Significado jurídico**: A CCT é um acordo coletivo legalmente válido, e suas cláusulas são obrigatórias para ambas as partes. A empresa **não pode alterar unilateralmente** termos da CCT, como o prazo de compensação, sem acordo explícito.  \n\n- **`sovereign(maximum_weekly_working_hours_44h)`** e **`sovereign(maximum_daily_working_hours_8h)`**:  \n  **Significado jurídico**: Estes são limites legais inquestionáveis estabelecidos pela CLT. Mesmo durante afastamentos, **os limites de horas não são suspensos**, e a compensação de horas deve respeitá-los.  \n\n- **`elastic(annual_hour_bank_negotiable)`** e **`elastic(working_hours_negotiable_by_cct)`**:  \n  **Significado jurídico**: A CCT pode negociar prazos e condições do banco de horas, mas **não pode criar regras que não foram pactuadas**. A empresa não pode \"inventar\" uma suspensão do prazo durante afastamento se a CCT não previu isso.  \n\n- **`elastic(hour_bank_with_cct_max_1_year)`**:  \n  **Significado jurídico**: O prazo máximo de 12 meses para compensação do banco de horas é uma **regra elástica**, ou seja, pode ser negociada, mas **não pode ser estendido além do que foi acordado**. A empresa não pode simplesmente \"adicionar\" os 4 meses de afastamento ao prazo original.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa tentou dizer que, por causa do afastamento do trabalhador, o prazo para compensar as horas do banco poderia ser estendido além de 12 meses. Mas **isso não está escrito na CCT**, que é o acordo entre a empresa e os trabalhadores.  \n\nA lei diz que, mesmo se alguém ficar afastado, **os limites de horas (44h por semana e 8h por dia) continuam válidos**, e o prazo para compensar as horas só pode ser o que foi acordado na CCT. Como a CCT **não mencionou** que o afastamento suspende o prazo, a empresa **não pode mudar isso sozinha**.  \n\nPortanto, a empresa **viola o acordo** ao exigir que o trabalhador compense as horas em mais de 12 meses. O trabalhador tem razão em contestar.",
+  "tokens_in": 537,
+  "tokens_out": 1396,
+  "latency_ms": 44016,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

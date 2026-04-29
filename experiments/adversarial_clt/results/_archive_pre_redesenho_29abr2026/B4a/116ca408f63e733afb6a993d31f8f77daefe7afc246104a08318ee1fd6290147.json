@@ -1,0 +1,27 @@
+{
+  "sha256": "116ca408f63e733afb6a993d31f8f77daefe7afc246104a08318ee1fd6290147",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:03:26Z",
+  "prompt_sha": "c6c0c1122710df482c2abdde5c502834d7fd2f7dca2ec9ae3f5901b25dbff6df",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG analisou o cenário apresentado, no qual uma empresa do setor alimentício implementou um sistema de banco de horas conforme previsto em uma Convenção Coletiva de Trabalho (CCT). O trabalhador acumulou horas ao longo de 11 meses, as quais foram integralmente compensadas por meio de folgas dentro do período de 12 meses estabelecido na CCT, com a devida entrega de extratos mensais e respeitando o limite de 10 horas diárias. O sindicato, por sua vez, homologou a prestação de contas anual do banco de horas.\n\nA decisão de **CONFORMIDADE** foi alcançada porque a situação descrita se alinha com os princípios e limites estabelecidos pela legislação trabalhista e pela CCT, conforme interpretados pelos predicados soberanos e elásticos ativos. A análise do Q-FENG priorizou a validade da negociação coletiva e a observância dos limites máximos de jornada, indicando que a prática da empresa, dentro dos parâmetros definidos, é considerada regular. A incerteza na satisfatibilidade (UNKNOWN) reflete a complexidade inerente à aplicação de normas coletivas, mas não compromete a conclusão de conformidade, dada a ausência de elementos que indiquem desvio dos princípios estabelecidos.\n\n## PREDICADOS ATIVADOS:\n\n*   **sovereign(recognition_of_collective_bargaining):** Este predicado significa que a Convenção Coletiva de Trabalho (CCT) é reconhecida como fonte normativa válida e vinculante para as partes envolvidas (empresa e trabalhadores). A CCT estabelece as regras para o banco de horas, e sua observância é fundamental para a legalidade da prática.\n*   **sovereign(maximum_weekly_working_hours_44h):** Este predicado indica que a jornada de trabalho semanal não pode ultrapassar 44 horas, conforme a Consolidação das Leis do Trabalho (CLT). Embora o banco de horas permita flexibilizar a jornada diária, a soma das horas trabalhadas ao longo da semana não pode exceder esse limite máximo.\n*   **sovereign(maximum_daily_working_hours_8h):** Este predicado estabelece um limite máximo de 8 horas diárias de trabalho, salvo exceções previstas em lei ou acordo coletivo. No cenário apresentado, a jornada diária nunca ultrapassou 10h, o que, embora ligeiramente acima do limite geral, pode ser justificado pela CCT, desde que a compensação ocorra dentro dos prazos estabelecidos.\n\n*   **elastic(annual_hour_bank_negotiable):**  Este predicado indica que a instituição de um banco de horas anual é passível de negociação entre empregador e empregados, através da CCT.\n*   **elastic(working_hours_negotiable_by_cct):** Este predicado reforça que a forma como as horas de trabalho são organizadas e compensadas pode ser definida pela CCT.\n*   **elastic(hour_bank_with_cct_max_1_year):** Este predicado estabelece que a validade do banco de horas, quando definido em CCT, deve respeitar um prazo máximo de 12 meses.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"A empresa está agindo corretamente em relação ao banco de horas. A lei e o acordo entre sindicatos (CCT) permitem que a empresa e os trabalhadores combinem um sistema de banco de horas, onde você acumula horas extras e depois folga para compensar. No seu caso, você acumulou horas, tirou folgas para compensar e tudo foi feito dentro do prazo de um ano, como o acordo determina. Além disso, a empresa está respeitando os limites de quantas horas você pode trabalhar por dia e por semana. O sindicato também aprovou essa forma de fazer o banco de horas, o que significa que tudo está de acordo com a lei e o acordo coletivo.\"\n",
+  "tokens_in": 491,
+  "tokens_out": 869,
+  "latency_ms": 24203,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

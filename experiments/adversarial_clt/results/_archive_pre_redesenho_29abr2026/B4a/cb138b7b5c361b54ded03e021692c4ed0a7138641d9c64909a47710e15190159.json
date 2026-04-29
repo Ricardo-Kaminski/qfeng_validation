@@ -1,0 +1,29 @@
+{
+  "sha256": "cb138b7b5c361b54ded03e021692c4ed0a7138641d9c64909a47710e15190159",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:52:22Z",
+  "prompt_sha": "e49d5e5d7663742fd00bd3c94033461e30c834afe32a9924772ec284ff0e579e",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG analisou o caso e determinou que houve violação da lei trabalhista (AÇÃO RECOMENDADA: VIOLACAO). Isso ocorreu porque a empresa hoteleira tentou flexibilizar o limite de 14 meses para compensação de horas estabelecido no CCT, argumentando que poderia negociar um prazo menor com base na autonomia das partes coletivas e no princípio da adequação setorial.\n\nNo entanto, a decisão do Q-FENG foi influenciada pelos predicados soberanos ativos, que indicam regras jurídicas claras e inegociáveis. Esses predicados demonstram que o sistema considerou as seguintes normas:\n\n- O prazo de compensação de 14 meses é um limite mínimo estabelecido no CCT.\n- A invalidação da cláusula que suprimisse o pagamento de horas extras.\n- A necessidade de acordo escrito para a compensação semanal de horas.\n- A proibição de negociação que reduza os adicionais de horas extras.\n- O mínimo de 50% de acréscimo nos adicionais de horas extras.\n- O limite máximo de 44 horas semanais e 8 horas diárias.\n\nEsses predicados soberanos ativos demonstram que o sistema considerou as regras jurídicas claras e inegociáveis da lei trabalhista, especialmente a Súmula TST 85, V, que estabelece o limite de 1 ano para compensação de horas como uma norma de ordem pública.\n\n**2. PREDICADOS SOBERANOS ATIVOS**\n\n- **sovereign(semester_hour_bank_requires_cct_or_act)**: Este predicado indica que a compensação de horas é necessária, seja por meio do CCT ou da Lei (AT). Isso significa que a lei estabelece um prazo mínimo para a compensação de horas.\n  \n- **sovereign(invalidity_of_clause_suppressing_overtime_payment)**: Este predicado declara inválida qualquer cláusula que suprima o pagamento de horas extras. Isso significa que as empresas não podem simplesmente remover o pagamento de horas extras dos contratos.\n\n- **sovereign(weekly_hour_compensation_requires_written_agreement)**: Este predicado indica que a compensação semanal de horas requer um acordo escrito entre as partes. Isso significa que qualquer mudança nesse aspecto deve ser formalizada por meio de um contrato escrito.\n\n- **sovereign(prohibition_negotiation_reducing_overtime_additional)**: Este predicado proíbe a negociação de redução nos adicionais de horas extras. Isso significa que as empresas não podem negociar com os trabalhadores uma redução nos pagamentos adicionais por horas extras.\n\n- **sovereign(overtime_minimum_additional_50pct)**: Este predicado estabelece um mínimo de 50% de acréscimo nos adicionais de horas extras. Isso significa que as empresas devem pagar ao menos 50% a mais do salário normal para cada hora trabalhada além da jornada regular.\n\n- **sovereign(maximum_weekly_working_hours_44h)**: Este predicado estabelece o limite máximo de 44 horas semanais. Isso significa que as empresas não podem exigir dos trabalhadores mais de 44 horas de trabalho por semana.\n\n- **sovereign(maximum_daily_working_hours_8h)**: Este predicado estabelece o limite máximo de 8 horas diárias. Isso significa que as empresas não podem exigir dos trabalhadores mais de 8 horas de trabalho por dia.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nO sistema Q-FENG decidiu que a empresa hoteleira violou a lei trabalhista ao tentar reduzir o prazo para compensação de horas. Isso é porque a lei estabelece um limite mínimo de 14 meses para essa compensação, e as empresas não podem simplesmente negociar um prazo menor com os trabalhadores.\n\nA decisão do Q-FENG foi influenciada por regras claras da lei que protegem os direitos dos trabalhadores. Isso inclui a proibição de remover o pagamento de horas extras, a necessidade de acordo escrito para compensação semanal e a proibição de reduzir os adicionais de horas extras.\n\nEm resumo, a empresa hoteleira não pode simplesmente mudar as regras estabelecidas pela lei trabalhista. As empresas devem respeitar essas regras para garantir que os direitos dos trabalhadores sejam protegidos.",
+  "tokens_in": 549,
+  "tokens_out": 1042,
+  "latency_ms": 17656,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

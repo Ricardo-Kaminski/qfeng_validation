@@ -1,0 +1,27 @@
+{
+  "sha256": "07aa6734da3108e619950eee5526660d088153ea06ac8c6101e5d532941d974a",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-010",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T04:59:46Z",
+  "prompt_sha": "b97050e315c231d6b6e5297c054469bac0a4b1a90193f416b899771d6bf0a3de",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que houve uma violação das normas estabelecidas no contexto da Convenção Coletiva de Trabalho (CCT) ao permitir o acúmulo de 200 horas em um banco de horas, excedendo o limite máximo previsto de 80 horas. Esta decisão foi baseada na análise dos predicados soberanos ativos, que estabelecem princípios fundamentais e inegociáveis no âmbito trabalhista brasileiro.\n\nOs predicados soberanos identificados são:\n\n- **Recognition_of_collective_bargaining**: Este predicado enfatiza a importância da negociação coletiva como meio de definição das condições de trabalho. A ampliação do limite de horas acumuláveis no banco de horas sem nova negociação com o sindicato contraria este princípio, pois altera um termo previamente acordado na CCT.\n\n- **Maximum_weekly_working_hours_44h**: Este predicado estabelece que a jornada semanal máxima é de 44 horas. Embora não diretamente relacionado ao banco de horas, ele reforça o contexto regulatório no qual as negociações coletivas ocorrem.\n\n- **Maximum_daily_working_hours_8h**: Similar ao anterior, este predicado define que a jornada diária máxima é de 8 horas. Ele serve como um pano de fundo para entender os limites das horas trabalhadas e acumuláveis.\n\nOs predicados elásticos ativos indicam que certos aspectos podem ser negociados ou ajustados, mas apenas dentro dos limites estabelecidos pelos princípios soberanos. A empresa alegou que o limite de 80 horas era meramente indicativo, mas sem uma nova negociação formal com o sindicato, essa interpretação não se sustenta diante dos princípios soberanos vigentes.\n\nPortanto, ao permitir o acúmulo de 200 horas sem a devida renegociação, a empresa violou os termos da CCT e os princípios fundamentais do direito coletivo do trabalho, resultando na decisão de \"VIOLACAO\".\n\n### 2. PREDICADOS ATIVADOS\n\n- **Recognition_of_collective_bargaining**: Juridicamente, este predicado significa que as condições de trabalho devem ser estabelecidas através de negociações coletivas entre empregadores e sindicatos. Qualquer alteração significativa nos termos acordados na CCT deve passar por uma nova rodada de negociação.\n\n- **Maximum_weekly_working_hours_44h**: Este predicado define que a jornada semanal máxima para trabalhadores no Brasil é de 44 horas, conforme estabelecido pela Consolidação das Leis do Trabalho (CLT). Qualquer alteração nesse limite requer uma justificativa legal e, muitas vezes, negociação coletiva.\n\n- **Maximum_daily_working_hours_8h**: Este predicado estipula que a jornada diária máxima é de 8 horas. Alterações neste limite também devem seguir procedimentos legais específicos e, frequentemente, envolver negociações coletivas.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG decidiu que a empresa fez algo errado ao permitir que um funcionário acumulasse mais horas no banco de horas do que o combinado na convenção com os sindicatos. A regra dizia que não podiam ser acumuladas mais do que 80 horas, mas eles deixaram acumular até 200 horas sem conversar novamente com o sindicato para mudar essa regra.\n\nIsso é importante porque as regras de trabalho são feitas através de negociações entre a empresa e os representantes dos trabalhadores. Mudar essas regras sem uma nova negociação não está certo, pois viola o acordo que foi feito anteriormente. Portanto, a decisão é que houve uma violação das normas estabelecidas.",
+  "tokens_in": 516,
+  "tokens_out": 915,
+  "latency_ms": 26531,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

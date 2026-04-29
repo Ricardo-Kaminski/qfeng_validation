@@ -1,0 +1,30 @@
+{
+  "sha256": "c5c929d187b28287916a5754bd6a59eadc305d358929c9ef9e77486bd0c5ed1b",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T07:12:10Z",
+  "prompt_sha": "489f6f91379c7ea7947895493240b48edcdba6ecc1f5f6f729f5d5d0c3140186",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após analisar os fatos e as leis aplicáveis ao caso, chegou à decisão de que o empregado tem direito ao pagamento integral do período suprimido como hora extra. Isso ocorreu porque a CCT (Convenção Coletiva de Trabalho) não autorizava a redução do intervalo intrajornada para 30 minutos.\n\nA decisão foi baseada nos seguintes fundamentos legais: (i) CLT Art. 71, que estabelece as regras gerais sobre o trabalho; (ii) Súmula TST 437, que trata da validade de CCTs em relação a questões trabalhistas; e (iii) Tema 981/STF, que define a validade de CCTs que reduzem o intervalo intrajornada para 30 minutos.\n\nO sistema Q-FENG também considerou os predicados soberanos ativos, que são:\n\n*   `sovereign(obligation_to_state_practical_consequences_of_decision)`: O sistema tem a obrigação de informar as consequências práticas da decisão.\n*   `sovereign(prohibition_of_generic_precedent_citation)`: O sistema não pode citar precedentes genéricos sem fundamentação específica.\n*   `sovereign(obligation_to_address_all_legal_arguments)`: O sistema tem a obrigação de considerar todos os argumentos legais relevantes.\n*   `sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)`: A decisão deve estar fundamentada em uma razão específica, identificada no precedente.\n*   `sovereign(constitutional_obligation_to_state_reasons_for_decisions)`: O sistema tem a obrigação de informar as razões constitucionais que justificam a decisão.\n*   `sovereign(recognition_of_collective_bargaining)`: O sistema reconhece o direito coletivo de negociação entre empregados e empregadores.\n*   `sovereign(right_of_access_to_justice_and_judicial_review)`: O sistema garante o acesso à justiça e ao recurso judicial.\n\nEsses predicados soberanos ativos garantem que a decisão seja fundamentada em leis e precedentes específicos, e que as partes tenham acesso à justiça e ao recurso judicial.\n\n**2. PREDICADOS ATIVADOS**\n\nAqui está uma explicação de cada um dos predicados sovereign ativos:\n\n*   `obligation_to_state_practical_consequences_of_decision`: O sistema tem a obrigação de informar as consequências práticas da decisão, ou seja, como a decisão afetará o empregado e o empregador.\n*   `prohibition_of_generic_precedent_citation`: O sistema não pode citar precedentes genéricos sem fundamentação específica. Isso significa que o sistema não pode simplesmente citar um precedente sem explicar por quê ele é aplicável ao caso em questão.\n*   `obligation_to_address_all_legal_arguments`: O sistema tem a obrigação de considerar todos os argumentos legais relevantes, ou seja, não pode ignorar nenhuma lei ou precedente que possa ser aplicado ao caso.\n*   `obligation_to_ground_decision_in_identified_ratio_decidendi`: A decisão deve estar fundamentada em uma razão específica, identificada no precedente. Isso significa que o sistema tem a obrigação de explicar por quê a decisão foi tomada com base na lei ou precedente específico.\n*   `constitutional_obligation_to_state_reasons_for_decisions`: O sistema tem a obrigação de informar as razões constitucionais que justificam a decisão, ou seja, o sistema deve explicar por quê a decisão está em conformidade com a Constituição.\n*   `recognition_of_collective_bargaining`: O sistema reconhece o direito coletivo de negociação entre empregados e empregadores. Isso significa que o sistema considera as negociações coletivas como uma parte importante do processo trabalhista.\n*   `right_of_access_to_justice_and_judicial_review`: O sistema garante o acesso à justiça e ao recurso judicial, ou seja, o sistema permite que as partes recorram da decisão se não estiverem satisfeitas com ela.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nEm linguagem simples, a decisão significa que:\n\n*   O empregado tem direito ao pagamento integral do período suprimido como hora extra.\n*   A CCT não autorizou a redução do intervalo intrajornada para 30 minutos.\n*   A decisão foi baseada em leis e precedentes específicos, que garantem os direitos dos empregados.\n\nEm outras palavras, o sistema Q-FENG decidiu que o empregado tem direito ao pagamento integral do período suprimido como hora extra porque a CCT não autorizou a redução do intervalo intrajornada para 30 minutos. A decisão foi fundamentada em leis e precedentes específicos, que garantem os direitos dos empregados.\n\nEssa tradução visa explicar a decisão de forma clara e simples, sem jargão técnico, para um trabalhador não especializado.",
+  "tokens_in": 586,
+  "tokens_out": 1191,
+  "latency_ms": 20171,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,27 @@
+{
+  "sha256": "648b5aad9675d8af38c160702fd0f6a5cb5b98ee893a51cda85333f8aee220f2",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T07:00:26Z",
+  "prompt_sha": "b3a1b193561e82c62b707b08467d6ec5ca8842b372e04bc8dd0182e3993c8b0e",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG chegou à conclusão de que houve violação dos limites constitucionais de trabalho diário e semanal, apesar da existência de uma Convenção Coletiva de Trabalho (CCT) autorizando o banco de horas. Isso ocorreu porque os predicados soberanos ativos indicaram a necessidade de cumprimento dos requisitos legais básicos.\n\nOs predicados soberanos **sovereign(recognition_of_collective_bargaining)** e **sovereign(maximum_weekly_working_hours_44h)** garantem o respeito à negociação coletiva e ao limite semanal de 44 horas, respectivamente. Já **sovereign(maximum_daily_working_hours_8h)** assegura que a jornada diária não ultrapasse as 8 horas.\n\nNo entanto, os predicados elásticos ativos indicam que a CCT autorizou o banco de horas e permitiu negociação sobre a jornada de trabalho. Isso criou uma situação em que a decisão do Q-FENG foi de **VIOLACAO**, pois a empresa implantou uma jornada diária de 10h sem previsão específica na CCT, contrariando o limite constitucional de 8 horas.\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\n- **sovereign(recognition_of_collective_bargaining)**: Este predicado garante o respeito à negociação coletiva entre empregadores e sindicatos, assegurando que os acordos firmados sejam cumpridos. No contexto da CCT em questão, ele indica que a negociação coletiva foi reconhecida e deve ser respeitada.\n  \n- **sovereign(maximum_weekly_working_hours_44h)**: Este predicado estabelece o limite semanal de trabalho como 44 horas. Embora a CCT permita banco de horas, este predicado assegura que não haja superação desse limite semanal.\n\n- **sovereign(maximum_daily_working_hours_8h)**: Este predicado é crucial para garantir que a jornada diária não ultrapasse as 8 horas. Ele é fundamental para proteger os direitos dos trabalhadores, evitando excessos de trabalho que poderiam ser prejudiciais à saúde e ao bem-estar.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nO sistema Q-FENG decidiu que a empresa cometeu um erro ao implantar uma jornada de 10 horas diárias sem seguir as regras básicas da Constituição Brasileira. A Constituição diz que ninguém pode trabalhar mais de 8 horas por dia e, no total, não pode ultrapassar 44 horas por semana.\n\nA CCT autorizou o banco de horas (um sistema para compensar horas extras), mas isso não significa que a empresa possa simplesmente estabelecer qualquer jornada de trabalho. A decisão do Q-FENG é de que houve uma violação dessas regras, colocando em risco os direitos dos trabalhadores.\n\nEssa decisão visa proteger os direitos dos trabalhadores e garantir que as empresas sigam as leis e regulamentos estabelecidos para o bem-estar dos empregados.",
+  "tokens_in": 520,
+  "tokens_out": 741,
+  "latency_ms": 12391,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

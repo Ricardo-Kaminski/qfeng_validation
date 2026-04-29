@@ -1,0 +1,30 @@
+{
+  "sha256": "fcf18522d41268d5382c5708254f185872da762d54799e1f99ee0bb82de2f0ae",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T07:04:41Z",
+  "prompt_sha": "f5b03aa37cbaba903b62ce936948a2f9431d0cc4d9bc02bb8ff84f0799aa516e",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após analisar o caso e considerar os predicados soberanos ativos, chegou à decisão de CONFORMIDADE. Isso significa que o sistema considera que a decisão do TST em recurso de revista sobre banco de horas bancário é compatível com as normas constitucionais e legais aplicáveis.\n\nA decisão se baseia na análise da CCT bancária, que foi identificada como preenchendo os requisitos do Tema 1046/STF. O sistema também considerou a tese fixada pelo STF, que estabelece que acordos e Convenções Coletivas de Trabalho (CCTs) que estipulam exclusivamente vantagens ou supressões de direitos, desde que tenham por premissa a compensação estabelecida pelo princípio da adequação setorial negociada, são constitucionais.\n\nOs predicados soberanos ativos indicam que o sistema considerou as seguintes obrigações e diretrizes:\n\n* A obrigação de estado das consequências práticas da decisão (sovereign(obligation_to_state_practical_consequences_of_decision));\n* A proibição de citação de precedentes genéricos (sovereign(prohibition_of_generic_precedent_citation));\n* A obrigação de abordar todos os argumentos legais relevantes (sovereign(obligation_to_address_all_legal_arguments));\n* A obrigação de fundamentar a decisão em relação ao ratio decidendi identificado (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi));\n* A obrigação constitucional de justificar as razões da decisão (sovereign(constitutional_obligation_to_state_reasons_for_decisions));\n* O reconhecimento do direito de negociação coletiva (sovereign(recognition_of_collective_bargaining));\n* O direito de acesso à justiça e revisão judicial (sovereign(right_of_access_to_justice_and_judicial_review)).\n\n**2. PREDICADOS ATIVADOS**\n\nOs predicados soberanos ativos indicam as seguintes obrigações e diretrizes:\n\n1. **Sovereign(obligation_to_state_practical_consequences_of_decision)**: O sistema deve considerar as consequências práticas da decisão, ou seja, como a decisão afetará os trabalhadores e o banco.\n2. **Sovereign(prohibition_of_generic_precedent_citation)**: O sistema não pode citar precedentes genéricos sem fundamentação específica para aplicá-los ao caso em questão.\n3. **Sovereign(obligation_to_address_all_legal_arguments)**: O sistema deve considerar e abordar todos os argumentos legais relevantes apresentados pelas partes envolvidas.\n4. **Sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão deve ser fundamentada em relação ao ratio decidendi identificado, ou seja, a razão principal que justifica a decisão.\n5. **Sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: O sistema tem a obrigação constitucional de justificar as razões da decisão, considerando as normas e princípios constitucionais aplicáveis.\n6. **Sovereign(recognition_of_collective_bargaining)**: O sistema reconhece o direito de negociação coletiva entre os trabalhadores e o empregador.\n7. **Sovereign(right_of_access_to_justice_and_judicial_review)**: O sistema garante o direito de acesso à justiça e revisão judicial para as partes envolvidas.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nA decisão do sistema Q-FENG significa que a CCT bancária em questão é considerada válida e compatível com as normas constitucionais e legais aplicáveis. Isso porque a CCT preenche os requisitos do Tema 1046/STF, que estabelece que acordos e Convenções Coletivas de Trabalho (CCTs) que estipulam exclusivamente vantagens ou supressões de direitos, desde que tenham por premissa a compensação estabelecida pelo princípio da adequação setorial negociada, são constitucionais.\n\nEm outras palavras, o sistema considerou que a CCT bancária é uma negociação coletiva válida entre os trabalhadores e o empregador, que estabelece vantagens e supressões de direitos em troca da compensação estabelecida pelo princípio da adequação setorial negociada. A decisão não implica em nenhuma alteração nas condições de trabalho dos funcionários do banco.\n\nA decisão é baseada na análise da CCT bancária e no reconhecimento do direito de negociação coletiva, garantindo o acesso à justiça e revisão judicial para as partes envolvidas.",
+  "tokens_in": 599,
+  "tokens_out": 1111,
+  "latency_ms": 18641,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,27 @@
+{
+  "sha256": "b60af8f3e95cf39b0bb3bf2ca5c6a0df29deb69bbfc9bfb902180c6d8add7511",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-010",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T07:03:15Z",
+  "prompt_sha": "b97050e315c231d6b6e5297c054469bac0a4b1a90193f416b899771d6bf0a3de",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG determinou que houve uma violação das regras trabalhistas previstas na CCT (Convenção Coletiva de Trabalho). Isso ocorreu porque a empresa permitiu que um operador acumulasse 200h de banco de horas, ultrapassando o limite máximo de 80h estabelecido pela CCT. A decisão do Q-FENG se baseia na existência dos predicados soberanos ativos, que são:\n\n- `sovereign(recognition_of_collective_bargaining)`: Reconhecimento da negociação coletiva como uma regra fundamental no direito trabalhista brasileiro.\n- `sovereign(maximum_weekly_working_hours_44h)`: Limitação máxima semanal de horas trabalhadas, que é um direito garantido ao trabalhador.\n- `sovereign(maximum_daily_working_hours_8h)`: Limitação máxima diária de horas trabalhadas, também um direito fundamental do trabalhador.\n\nEsses predicados soberanos ativos indicam que a decisão do Q-FENG está alinhada com as regras básicas e fundamentais da legislação trabalhista brasileira. A violação da CCT por parte da empresa é considerada uma infração grave, justificando a recomendação de \"VIOLACAO\" pelo sistema.\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\n- `sovereign(recognition_of_collective_bargaining)`: Este predicado reconhece o direito dos sindicatos e das partes envolvidas em negociações coletivas de estabelecer acordos que regulamentam as condições de trabalho. Ele é fundamental para a estabilidade e a justiça no ambiente laboral.\n\n- `sovereign(maximum_weekly_working_hours_44h)`: Este predicado estabelece um limite máximo semanal de horas trabalhadas, protegendo os direitos dos trabalhadores em relação ao tempo de trabalho. É uma medida para evitar a exploração e garantir um equilíbrio entre o trabalho e a vida pessoal.\n\n- `sovereign(maximum_daily_working_hours_8h)`: Este predicado estabelece um limite máximo diário de horas trabalhadas, protegendo os direitos dos trabalhadores em relação ao tempo de trabalho. Ele é crucial para evitar a sobrecarga e garantir que os trabalhadores tenham tempo suficiente para descansar e se recuperar.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nO sistema Q-FENG decidiu que a empresa fez algo errado ao permitir que um operador trabalhasse mais do que o permitido pela CCT. A CCT é como uma regra para as empresas e os sindicatos, que dizem quantas horas alguém pode trabalhar em uma semana ou dia. Nesse caso, a empresa deixou de seguir essa regra ao permitir que um operador trabalhasse 200h, quando o máximo permitido era 80h.\n\nIsso é considerado errado porque as regras da CCT são feitas para proteger os direitos dos trabalhadores e garantir que eles não sejam explorados. A decisão do Q-FENG é de que a empresa deve respeitar essas regras para evitar problemas e garantir um ambiente de trabalho justo.",
+  "tokens_in": 513,
+  "tokens_out": 756,
+  "latency_ms": 12639,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,30 @@
+{
+  "sha256": "115f8cdd032b9a099c512e3ce046a1264d837037f4d082e03b8ac2cbc0903b95",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-009",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T05:14:34Z",
+  "prompt_sha": "ff8fda303630134604d2d7ffdb2585495e891ee0ed0eaebbd81c40f3a8fb664e",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação na aplicação da decisão normativa referente ao caso de banco de horas sem Convenção Coletiva de Trabalho (CCT). A Súmula TST 85 estabelece que, em casos de banco de horas sem CCT, as horas devem ser pagas com adicional de 50% como hora extra. No entanto, a decisão concreta determinou o pagamento dessas horas como normais, sem o adicional previsto.\n\nA análise foi conduzida considerando os predicados soberanos ativos, que garantem que as decisões sejam fundamentadas e coerentes com a legislação vigente. A ausência de fundamentação para afastar o adicional estabelecido na Súmula TST 85 resultou em uma violação dos princípios de obrigação de fundamentar a decisão (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)) e de explicar as razões pelas quais não se seguiu o entendimento estabelecido na súmula (sovereign(constitutional_obligation_to_state_reasons_for_decisions)). Além disso, a decisão deve respeitar os direitos dos trabalhadores e garantir acesso à justiça, conforme reconhecido nos predicados soberanos.\n\n### 2. PREDICADOS ATIVADOS\n\n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: Este predicado exige que a decisão explique claramente as consequências práticas decorrentes dela, garantindo que os envolvidos compreendam o impacto da decisão.\n\n- **sovereign(prohibition_of_generic_precedent_citation)**: Proíbe a citação de precedentes genéricos sem análise específica do caso concreto, assegurando que cada decisão seja fundamentada no contexto particular do caso.\n\n- **sovereign(obligation_to_address_all_legal_arguments)**: Exige que todas as argumentações legais apresentadas sejam consideradas e respondidas na decisão, garantindo uma análise completa e justa.\n\n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: Requer que a decisão seja fundamentada no motivo de decidir identificado, assegurando coerência entre o raciocínio jurídico e o resultado alcançado.\n\n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: Impõe a obrigação constitucional de explicar as razões pelas quais uma decisão foi tomada, promovendo transparência e justiça no processo decisório.\n\n- **sovereign(recognition_of_collective_bargaining)**: Reconhece o papel da negociação coletiva na definição das condições de trabalho, respeitando acordos estabelecidos entre empregadores e trabalhadores.\n\n- **sovereign(right_of_access_to_justice_and_judicial_review)**: Garante o direito dos trabalhadores de acessar a justiça e solicitar revisão judicial das decisões que lhes afetam, assegurando proteção aos seus direitos.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG identificou um problema na forma como foi decidido o caso sobre horas extras de trabalho sem acordo específico entre a empresa e os trabalhadores (sem CCT). Normalmente, quando não há esse acordo, as leis dizem que essas horas devem ser pagas com um adicional de 50%. No entanto, neste caso, a decisão foi que elas deveriam ser pagas como se fossem horas normais, sem o adicional.\n\nIsso é um problema porque não houve uma explicação clara sobre por que essa regra normal não foi seguida. As leis e as práticas judiciais exigem que todas as decisões sejam bem fundamentadas e justificadas, especialmente quando elas desviam de normas estabelecidas como a Súmula TST 85. Portanto, o sistema identificou essa falha na decisão, destacando a importância de seguir as regras corretas para garantir que os trabalhadores recebam o que é justo e legalmente previsto.",
+  "tokens_in": 562,
+  "tokens_out": 977,
+  "latency_ms": 28342,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

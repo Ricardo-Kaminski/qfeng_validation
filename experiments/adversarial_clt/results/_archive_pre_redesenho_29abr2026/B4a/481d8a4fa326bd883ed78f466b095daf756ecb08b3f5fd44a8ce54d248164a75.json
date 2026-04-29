@@ -1,0 +1,27 @@
+{
+  "sha256": "481d8a4fa326bd883ed78f466b095daf756ecb08b3f5fd44a8ce54d248164a75",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T06:08:36Z",
+  "prompt_sha": "b3a1b193561e82c62b707b08467d6ec5ca8842b372e04bc8dd0182e3993c8b0e",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, ao analisar o cenário apresentado, concluiu que a implementação da jornada de 10 horas diárias para compensação semanal, mesmo com a existência de um acordo coletivo de trabalho (CCT) que autoriza o banco de horas, configura uma potencial violação do limite constitucional de 8 horas diárias de trabalho.\n\nA decisão foi fundamentada na primazia da Constituição Federal (CF/88) e na sua proteção aos direitos trabalhistas, especialmente o direito à limitação da jornada de trabalho. Embora o acordo coletivo possa negociar condições de trabalho, ele não pode suplantar a proteção constitucional. O sistema considerou a existência de um conflito entre a autonomia da vontade coletiva (expressa no CCT) e a garantia fundamental de limitação da jornada diária.\n\nA incerteza na satisfatibilidade (UNKNOWN) reflete a complexidade da análise, que envolve a ponderação entre a validade do acordo coletivo e a proteção constitucional. O Q-FENG, ao priorizar a proteção constitucional, recomendou a identificação de uma violação, indicando a necessidade de revisão da prática implementada. A ação recomendada, \"VIOLACAO\", sinaliza a necessidade de adequação da jornada de trabalho para garantir a conformidade com a Constituição.\n\n## PREDICADOS SOVERAIN ATIVOS: SIGNIFICADO JURÍDICO\n\n*   **sovereign(recognition_of_collective_bargaining):** Este predicado reconhece a validade e a força dos acordos e convenções coletivas de trabalho no sistema jurídico brasileiro. Ele estabelece que os acordos coletivos são instrumentos legítimos para regular as condições de trabalho, desde que respeitem a lei e a Constituição. No entanto, essa legitimidade não é absoluta, como demonstrado pela decisão do Q-FENG.\n*   **sovereign(maximum_weekly_working_hours_44h):** Este predicado reafirma o limite constitucional de 44 horas semanais de trabalho, conforme estabelecido no Art. 7º, XIII, da CF/88.  É um limite máximo, e qualquer acordo coletivo que busque ultrapassá-lo deve enfrentar escrutínio judicial.\n*   **sovereign(maximum_daily_working_hours_8h):** Este predicado estabelece o limite constitucional de 8 horas diárias de trabalho, também previsto no Art. 7º, XIII, da CF/88.  Este é um direito fundamental do trabalhador e, em princípio, não pode ser flexibilizado de forma a comprometer sua saúde e bem-estar.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"A empresa implementou uma jornada de 10 horas por dia para compensar o banco de horas, mesmo tendo um acordo que permite o banco de horas.  A lei diz que o dia de trabalho não pode passar de 8 horas, e a semana de 44 horas. O sistema Q-FENG analisou a situação e entendeu que essa jornada de 10 horas por dia pode estar violando essa regra da Constituição, mesmo que o acordo diga o contrário.  Isso acontece porque a Constituição é a lei mais importante do país e protege o direito de todos os trabalhadores terem um limite de horas de trabalho.  É importante verificar se essa jornada de 10 horas está de acordo com a lei e se não está prejudicando a sua saúde.\"\n",
+  "tokens_in": 511,
+  "tokens_out": 738,
+  "latency_ms": 20625,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

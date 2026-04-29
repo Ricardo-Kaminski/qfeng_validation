@@ -1,0 +1,29 @@
+{
+  "sha256": "01c6d2577c5afb16949f805d0c0ae030a167db698073f0d9151a8c34f9982b61",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T05:52:21Z",
+  "prompt_sha": "5f9cbe1e74df8f9f09dd27156f26d2bdba133bb47bb48855f1d568c3bfa09a2e",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, após análise do cenário apresentado (demissão sem justa causa, saldo positivo no banco de horas pago como hora normal, e a reivindicação do trabalhador por pagamento com adicional de 50%), concluiu que houve **violação** da legislação trabalhista. A decisão foi baseada na primazia de princípios estabelecidos em normas coletivas (CCTs) e na impossibilidade de suprimir o direito ao adicional de horas extras.\n\nA empresa, ao optar por pagar o saldo do banco de horas como hora normal, ignorou a obrigatoriedade de compensação com adicional de 50%, conforme a legislação e a CCT aplicável. O sistema considerou que a forma como a empresa procedeu, ao não reconhecer o adicional de 50% sobre as horas do banco de horas não compensadas, é inválida e contraria a proteção devida ao trabalhador. A decisão é reforçada pela soberania dos princípios que regem a compensação de horas e a impossibilidade de negociação que reduza o adicional de horas extras.\n\n## PREDICADOS SOVERAINS ATIVOS: SIGNIFICADO JURÍDICO\n\nAnalisemos o significado jurídico de cada predicado soberano ativo no contexto trabalhista brasileiro:\n\n*   **sovereign(semester_hour_bank_requires_cct_or_act):** Este predicado indica que a regulamentação do banco de horas, especialmente sua duração e forma de compensação, deve ser estabelecida por meio de acordo ou convenção coletiva de trabalho (CCT) ou por lei. A ausência de regulamentação específica em norma coletiva ou lei pode gerar insegurança jurídica e favorecer o trabalhador.\n*   **sovereign(invalidity_of_clause_suppressing_overtime_payment):**  Afirma a nulidade de qualquer cláusula contratual ou norma interna que tente suprimir ou reduzir o direito ao pagamento de horas extras. A lei e a jurisprudência são claras: a proteção ao trabalhador prevalece sobre a liberdade de pacto.\n*   **sovereign(weekly_hour_compensation_requires_written_agreement):**  Salienta que a compensação de horas extras além do limite legal (44 horas semanais) deve ser formalizada por escrito, garantindo a transparência e a comprovação da jornada de trabalho.\n*   **sovereign(prohibition_negotiation_reducing_overtime_additional):**  Impede a negociação coletiva que reduza o adicional de horas extras abaixo do mínimo legal (50%). A lei estabelece um patamar mínimo de proteção ao trabalhador, que não pode ser diminuído por acordos.\n*   **sovereign(overtime_minimum_additional_50pct):**  Reafirma o direito mínimo ao adicional de 50% sobre as horas extras trabalhadas. Este é um direito fundamental do trabalhador, garantido pela legislação.\n*   **sovereign(maximum_weekly_working_hours_44h):**  Define o limite máximo legal de 44 horas semanais para a jornada de trabalho, além do qual as horas trabalhadas devem ser remuneradas com adicional.\n*   **sovereign(maximum_daily_working_hours_8h):**  Estabelece o limite máximo de 8 horas diárias para a jornada de trabalho, com a mesma lógica de compensação para horas excedentes.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"A empresa errou ao pagar as horas do seu banco de horas como se fossem horas normais. A lei e os acordos entre sindicatos dizem que, quando você tem um banco de horas, as horas que não foram compensadas antes de você sair da empresa precisam ser pagas como se fossem horas extras, ou seja, com um adicional de 50% a mais. A empresa não pode simplesmente decidir pagar menos só porque você não trabalha mais lá. Você tem o direito de receber o valor correto, com o adicional de 50%, pelas horas que você trabalhou e não recebeu a compensação adequada.  A empresa não pode diminuir seus direitos, mesmo que tenha um acordo com os sindicatos, porque a lei protege você.\"",
+  "tokens_in": 527,
+  "tokens_out": 915,
+  "latency_ms": 25500,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

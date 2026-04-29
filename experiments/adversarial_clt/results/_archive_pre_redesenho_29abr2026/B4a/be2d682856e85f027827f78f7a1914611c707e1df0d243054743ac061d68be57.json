@@ -1,0 +1,26 @@
+{
+  "sha256": "be2d682856e85f027827f78f7a1914611c707e1df0d243054743ac061d68be57",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-013",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T04:32:13Z",
+  "prompt_sha": "dc2f04dfd84b48a2d0444f231abda0be30bb68d5e7946f908e8847d860d5e8a4",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que a decisão do Tribunal Superior do Trabalho (TST) em relação ao recurso de revista do piloto da aviação civil está em conformidade com os princípios jurídicos aplicáveis, conforme estabelecido pelos predicados soberanos ativos. A análise foi conduzida considerando a necessidade de explicitar as consequências práticas da decisão (obligation_to_state_practical_consequences_of_decision), evitando a citação genérica de precedentes que não sejam diretamente aplicáveis ao caso concreto (prohibition_of_generic_precedent_citation). Além disso, foi observada a obrigação de abordar todos os argumentos legais apresentados (obligation_to_address_all_legal_arguments) e fundamentar a decisão na ratio decidendi identificada do julgado citado (obligation_to_ground_decision_in_identified_ratio_decidendi).\n\nA análise também considerou o dever constitucional de explicitar as razões das decisões judiciais (constitutional_obligation_to_state_reasons_for_decisions), garantindo assim o direito ao acesso à justiça e à revisão judicial (right_of_access_to_justice_and_judicial_review). A distinção fática entre os setores bancário e aéreo foi fundamentada na Constituição Federal de 1988, especificamente nos artigos 7°, XIII e XIV, que tratam das condições específicas de trabalho em cada setor. Assim, o sistema concluiu que a ratio decidendi do julgado citado não é aplicável ao caso concreto, mantendo-se a conformidade da decisão com os princípios jurídicos vigentes.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obligation_to_state_practical_consequences_of_decision**: Este predicado enfatiza a necessidade de explicitar as consequências práticas que decorrem de uma decisão judicial, garantindo clareza sobre como a decisão afetará os envolvidos.\n\n- **Prohibition_of_generic_precedent_citation**: Refere-se à proibição de citar precedentes judiciais de forma genérica ou descontextualizada. Cada caso deve ser analisado com base em suas peculiaridades, sem se apegar indiscriminadamente a decisões anteriores que não compartilhem os mesmos fundamentos fáticos e jurídicos.\n\n- **Obligation_to_address_all_legal_arguments**: Este predicado assegura que todos os argumentos legais apresentados pelas partes devem ser considerados na análise do caso, garantindo uma decisão justa e completa.\n\n- **Obligation_to_ground_decision_in_identified_ratio_decidendi**: Implica a necessidade de fundamentar a decisão judicial na ratio decidendi (razão da decisão) identificada em julgados anteriores que sejam diretamente aplicáveis ao caso concreto, assegurando coerência e consistência no direito.\n\n- **Constitutional_obligation_to_state_reasons_for_decisions**: Este predicado destaca o dever constitucional de explicitar as razões pelas quais uma decisão foi tomada, promovendo a transparência e permitindo que as partes compreendam os fundamentos da decisão.\n\n- **Right_of_access_to_justice_and_judicial_review**: Garante o direito das partes ao acesso à justiça e à possibilidade de revisão judicial, assegurando que as decisões sejam passíveis de análise e correção em instâncias superiores, quando necessário.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG analisou a decisão do tribunal sobre o recurso apresentado por um piloto da aviação civil e concluiu que tudo está correto com essa decisão. Isso significa que, mesmo que o caso mencione uma decisão anterior de outro setor (como bancos), as circunstâncias são diferentes e a decisão anterior não se aplica aqui.\n\nO tribunal teve que explicar claramente por que tomou essa decisão, considerando todas as argumentações apresentadas e garantindo que tudo esteja em conformidade com a lei. Além disso, eles precisam mostrar como essa decisão afetará o piloto e outros envolvidos, sem se basear apenas em casos anteriores que não têm exatamente a mesma situação.\n\nEm resumo, a decisão foi tomada de forma justa e transparente, considerando as particularidades do trabalho dos pilotos em comparação com outros setores. Isso garante que o direito ao acesso à justiça seja respeitado e que qualquer pessoa possa entender os motivos por trás da decisão.",
+  "tokens_in": 594,
+  "tokens_out": 1063,
+  "latency_ms": 30905,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

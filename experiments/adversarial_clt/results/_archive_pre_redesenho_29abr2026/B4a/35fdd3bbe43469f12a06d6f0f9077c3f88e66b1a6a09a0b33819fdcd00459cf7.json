@@ -1,0 +1,27 @@
+{
+  "sha256": "35fdd3bbe43469f12a06d6f0f9077c3f88e66b1a6a09a0b33819fdcd00459cf7",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-011",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T05:00:54Z",
+  "prompt_sha": "1ba5dabfcaa2bdcb6e6f3d2a77f11a19a64ac5023093b1ae0eb6de908514e992",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que houve uma violação na aplicação do banco de horas anual pela empresa em relação ao trabalhador afastado por acidente de trabalho. A decisão foi baseada no contexto normativo estabelecido pelos predicados soberanos e elásticos ativos.\n\nOs predicados soberanos, como a \"recognition_of_collective_bargaining\" (reconhecimento da negociação coletiva), garantem que as cláusulas da CCT (Convenção Coletiva de Trabalho) devem ser respeitadas e aplicadas conforme acordado entre empregador e trabalhadores. A \"maximum_weekly_working_hours_44h\" (máximo de 44 horas semanais) e a \"maximum_daily_working_hours_8h\" (máximo de 8 horas diárias) estabelecem limites legais para o trabalho, protegendo os direitos dos trabalhadores.\n\nOs predicados elásticos ativos indicam que o banco de horas anual é negociável pela CCT (\"annual_hour_bank_negotiable\"), e as condições específicas do banco de horas podem ser ajustadas por acordo coletivo (\"working_hours_negotiable_by_cct\"). No entanto, a duração máxima deste banco é geralmente limitada a um ano (\"hour_bank_with_cct_max_1_year\").\n\nA empresa não previu na CCT uma cláusula que suspendesse o prazo do banco de horas durante o afastamento por acidente de trabalho. Portanto, ao exigir compensação após mais de 12 meses do início do banco, a empresa extrapolou o período negociado e estabelecido pela legislação trabalhista, resultando em uma violação.\n\n### 2. PREDICADOS ATIVADOS\n\n- **sovereign(recognition_of_collective_bargaining)**: Este predicado enfatiza que as cláusulas da CCT devem ser respeitadas como acordos legais entre empregadores e trabalhadores, refletindo a importância das negociações coletivas no contexto brasileiro.\n\n- **sovereign(maximum_weekly_working_hours_44h)**: Estabelece que a jornada de trabalho semanal máxima é de 44 horas, conforme a legislação trabalhista brasileira, garantindo proteção aos trabalhadores contra excesso de carga horária.\n\n- **sovereign(maximum_daily_working_hours_8h)**: Define o limite diário de 8 horas de trabalho, assegurando que os trabalhadores não sejam submetidos a jornadas exaustivas em um único dia.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG decidiu que a empresa fez algo errado ao pedir para o funcionário compensar horas extras depois de mais de um ano, mesmo considerando o tempo que ele ficou afastado por acidente. Isso acontece porque as regras do acordo coletivo (CCT) não dizem nada sobre pausar esse prazo quando alguém está fora do trabalho por causa de um acidente.\n\nAs leis trabalhistas garantem que o máximo de horas que você pode trabalhar em uma semana é 44 e, em um dia, são no máximo 8. Além disso, qualquer acordo sobre banco de horas deve ser feito dentro desses limites e geralmente não pode durar mais do que um ano.\n\nComo a empresa não tinha uma regra específica na CCT para suspender o prazo durante afastamentos por acidente, ela não deveria ter contado essas horas extras após 12 meses. Portanto, a decisão foi considerada uma violação das normas trabalhistas.",
+  "tokens_in": 542,
+  "tokens_out": 840,
+  "latency_ms": 24343,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,30 @@
+{
+  "sha256": "21ffe3d579dc7ea098e5bf93312fce06c8b170ef51fbe47d408ba44bacc7477a",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T07:05:20Z",
+  "prompt_sha": "1a431bd2539a105bc27830e043de65433739a538537c1d00dbf3cc5df9c24aaf",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após analisar o caso concreto e os predicados ativos, determinou que a decisão tomada pelo TRT deve ser considerada como CONFORMIDADE com as normas trabalhistas aplicáveis.\n\nEssa decisão foi influenciada pelos predicados soberanos ativos, que estabelecem a obrigação do órgão judiciário de:\n\n* Estabelecer as consequências práticas da decisão (obligation_to_state_practical_consequences_of_decision);\n* Proibir a citação de precedentes genéricos (prohibition_of_generic_precedent_citation);\n* Abordar todos os argumentos legais relevantes (obligation_to_address_all_legal_arguments);\n* Fundamentar a decisão nos motivos identificados na ratio decidendi (obligation_to_ground_decision_in_identified_ratio_decidendi);\n* Estabelecer as razões constitucionais para a decisão (constitutional_obligation_to_state_reasons_for_decisions);\n* Reconhecer o direito de negociação coletiva (recognition_of_collective_bargaining);\n* Respeitar o direito de acesso à justiça e revisão judicial (right_of_access_to_justice_and_judicial_review).\n\nAlém disso, o sistema também considerou os predicados elásticos ativos, que permitem a negociação das horas trabalhadas e a existência de um banco de horas com limite máximo de 1 ano.\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\nOs predicados soberanos ativos têm o seguinte significado jurídico no contexto trabalhista brasileiro:\n\n* **obligation_to_state_practical_consequences_of_decision**: O órgão judiciário tem a obrigação de estabelecer as consequências práticas da decisão, ou seja, como a decisão afetará os direitos e obrigações das partes envolvidas.\n* **prohibition_of_generic_precedent_citation**: É proibido citar precedentes genéricos sem relação com o caso concreto, pois isso pode levar a decisões arbitrárias e contrárias à lei.\n* **obligation_to_address_all_legal_arguments**: O órgão judiciário tem a obrigação de abordar todos os argumentos legais relevantes apresentados pelas partes envolvidas.\n* **obligation_to_ground_decision_in_identified_ratio_decidendi**: A decisão deve ser fundamentada nos motivos identificados na ratio decidendi, ou seja, nos princípios e normas jurídicas que a sustentam.\n* **constitutional_obligation_to_state_reasons_for_decisions**: O órgão judiciário tem a obrigação constitucional de estabelecer as razões para a decisão, garantindo a transparência e a publicidade do processo.\n* **recognition_of_collective_bargaining**: É reconhecido o direito de negociação coletiva entre os empregadores e os sindicatos, que pode levar à criação de acordos e convenções coletivas.\n* **right_of_access_to_justice_and_judicial_review**: É garantido o direito de acesso à justiça e revisão judicial, permitindo que as partes envolvidas possam recorrer da decisão em caso de desacordo.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nA decisão do sistema Q-FENG é simplesmente a confirmação da decisão tomada pelo TRT, que determinou que o empregado tem direito ao adicional noturno por trabalhar em regime de revezamento noturno.\n\nIsso significa que o empregador deve pagar o adicional noturno ao empregado, pois a lei prevê essa remuneração para os trabalhadores que trabalham em período noturno. A decisão não é uma novidade, pois já está prevista na legislação trabalhista brasileira.\n\nA decisão também não é um precedente para futuros casos semelhantes, pois cada caso é único e deve ser analisado individualmente. Além disso, a decisão não é uma forma de punição ao empregador, mas sim uma forma de garantir que os direitos dos trabalhadores sejam respeitados.\n\nEm resumo, a decisão do sistema Q-FENG é simplesmente a confirmação da decisão tomada pelo TRT, que determinou o pagamento do adicional noturno ao empregado.",
+  "tokens_in": 584,
+  "tokens_out": 1000,
+  "latency_ms": 16953,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

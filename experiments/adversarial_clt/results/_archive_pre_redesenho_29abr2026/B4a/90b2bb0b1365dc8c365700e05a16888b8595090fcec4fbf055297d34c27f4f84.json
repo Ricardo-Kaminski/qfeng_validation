@@ -1,0 +1,27 @@
+{
+  "sha256": "90b2bb0b1365dc8c365700e05a16888b8595090fcec4fbf055297d34c27f4f84",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T06:06:26Z",
+  "prompt_sha": "a441ed131081be5a67de4fae29354418a5514d888c32e5d9d10bc7c36186be20",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, após analisar o cenário apresentado, concluiu que houve uma **violação** da ordem jurídica estabelecida, indicando que a continuidade da aplicação das cláusulas do banco de horas, após o término da vigência da CCT original, pode ser problemática. A decisão não é categórica (Satisfatibilidade: UNKNOWN), mas aponta para um risco jurídico significativo.\n\nA base para essa conclusão reside na interação entre a cessação da CCT e a manutenção de suas cláusulas, especialmente no que tange ao banco de horas. A empresa sucessora, ao não renovar a CCT, deixou de estar vinculada aos seus termos originários, mas a aplicação contínua das cláusulas do banco de horas, sem um novo acordo, pode ser interpretada como uma tentativa de impor condições contratuais que não foram legitimamente negociadas e ratificadas com o sindicato.\n\nO sistema considerou a soberania dos princípios que regem a jornada de trabalho e a negociação coletiva, o que o levou a identificar a potencial violação. A ausência de uma nova CCT que formalize a continuidade do banco de horas, com a devida participação do sindicato, gera insegurança jurídica e pode ser questionada judicialmente.\n\n## PREDICADOS SOVEREIGN ATIVOS: SIGNIFICADO JURÍDICO\n\nOs predicados soberanos ativos, identificados pelo Q-FENG, representam princípios fundamentais do Direito do Trabalho brasileiro e influenciaram a decisão:\n\n*   **sovereign(recognition_of_collective_bargaining):** Reconhecimento da negociação coletiva. Este predicado reafirma a importância da negociação entre empregadores e empregados, por meio de sindicatos, para a definição de condições de trabalho. A CCT é o resultado dessa negociação e, portanto, possui força normativa. A não renovação da CCT enfraquece esse processo.\n*   **sovereign(maximum_weekly_working_hours_44h):** Limite máximo de 44 horas semanais. Este predicado estabelece o limite legal para a jornada de trabalho semanal, salvo negociação coletiva que estabeleça condições mais favoráveis. A aplicação do banco de horas, mesmo que dentro dos limites da CCT original, deve ser analisada à luz deste limite.\n*   **sovereign(maximum_daily_working_hours_8h):** Limite máximo de 8 horas diárias. Semelhante ao anterior, este predicado define o limite máximo para a jornada diária, a ser observado mesmo com a utilização do banco de horas.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"A empresa que comprou a outra continuou usando as regras do banco de horas que estavam escritas em um acordo antigo com o sindicato. No entanto, a empresa nova não fez um novo acordo com o sindicato. Isso pode ser um problema.\n\nA lei diz que as empresas precisam negociar com os sindicatos para decidir sobre as condições de trabalho, como o banco de horas. Quando a empresa não renovou o acordo, ela deixou de seguir essas regras. Continuar usando as regras antigas sem um novo acordo pode ser visto como uma forma de impor condições de trabalho que não foram combinadas com o sindicato.\n\nÉ importante saber que a lei limita a quantidade de horas que você pode trabalhar por semana (44 horas) e por dia (8 horas). Mesmo com o banco de horas, essas regras precisam ser respeitadas.\n\nPor isso, o sistema Q-FENG está alertando que pode haver uma violação das leis trabalhistas. É importante conversar com o sindicato para entender melhor seus direitos e garantir que as condições de trabalho sejam justas e legais.\"",
+  "tokens_in": 487,
+  "tokens_out": 803,
+  "latency_ms": 22375,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

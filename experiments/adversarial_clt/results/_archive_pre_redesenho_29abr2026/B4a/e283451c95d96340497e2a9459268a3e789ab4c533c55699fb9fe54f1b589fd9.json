@@ -1,0 +1,26 @@
+{
+  "sha256": "e283451c95d96340497e2a9459268a3e789ab4c533c55699fb9fe54f1b589fd9",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CTRL-NEG-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T04:09:00Z",
+  "prompt_sha": "52ec50d5024118233c12c0dc9099b2683840524f81358cf22711748675d6dce8",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a **conformidade** com a CCT celebrada entre a empresa e o sindicato é a ação juridicamente adequada, com base nos seguintes fundamentos:  \n- **Obrigação de explicitar consequências práticas da decisão** (predicado *sovereign(obligation_to_state_practical_consequences_of_decision)*): A CCT foi registrada na SRTE, e todos os trabalhadores receberam cópias, garantindo transparência e efetividade do acordo.  \n- **Proibição de citar precedentes genéricos** (predicado *sovereign(prohibition_of_generic_precedent_citation)*): A decisão não depende de interpretações vagas ou genéricas, mas da cláusula específica de conversão em adicional de 50% para horas não compensadas, que foi cumprida.  \n- **Obrigação de abordar todos os argumentos jurídicos** (predicado *sovereign(obligation_to_address_all_legal_arguments)*): Não há contestações sindicais ou individuais, o que indica que todos os direitos foram respeitados.  \n- **Fundamentação da decisão em ratio decidendi identificada** (predicado *sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)*): A CCT foi cumprida integralmente, com compensação de horas em folgas previamente comunicadas, e o extrato foi entregue mensalmente.  \n- **Obrigação constitucional de fundamentar decisões** (predicado *sovereign(constitutional_obligation_to_state_reasons_for_decisions)*): A ausência de contestações e a conformidade com as cláusulas da CCT justificam a recomendação de conformidade.  \n- **Direito de acesso à justiça e revisão judicial** (predicado *sovereign(right_of_access_to_justice_and_judicial_review)*): A CCT foi registrada formalmente, garantindo a possibilidade de revisão judicial se necessário, mas não há motivos para isso no momento.  \n\n### 2. **PREDICADOS ATIVADOS**  \n- **Obrigação de explicitar consequências práticas da decisão**: A decisão deve ser clara sobre os efeitos concretos para as partes envolvidas (empresa, sindicato e trabalhadores).  \n- **Proibição de citar precedentes genéricos**: A interpretação da lei não pode basear-se em precedentes imprecisos ou não vinculantes, mas em cláusulas específicas do contrato.  \n- **Obrigação de abordar todos os argumentos jurídicos**: Todos os direitos e deveres das partes devem ser considerados, mesmo que não haja contestações.  \n- **Fundamentação da decisão em ratio decidendi identificada**: A decisão deve ser baseada em razões jurídicas claras e identificáveis (como a cláusula de conversão em adicional de 50%).  \n- **Obrigação constitucional de fundamentar decisões**: A decisão deve ser justificada com razões objetivas, conforme exigido pela Constituição Federal.  \n- **Direito de acesso à justiça e revisão judicial**: A formalização da CCT na SRTE garante que os trabalhadores possam recorrer a instâncias judiciais se necessário, mesmo que não haja contestações.  \n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO sistema Q-FENG concluiu que **não há problema com a CCT** celebrada entre a empresa e o sindicato. Tudo foi feito corretamente:  \n- A empresa e o sindicato combinaram regras claras (como o banco de horas e a conversão de horas não usadas em adicional de 50%).  \n- Todos os trabalhadores receberam cópias do acordo e ninguém reclamou.  \n- As horas foram compensadas com folgas previamente combinadas, e o extrato foi entregue mensalmente.  \n- A CCT foi registrada oficialmente, o que garante que ninguém pode contestar o acordo sem motivos válidos.  \n\nPortanto, **a empresa e o sindicato devem seguir a CCT como está**, pois não há razão para mudar nada. Se alguém quiser contestar, terá que provar que algo foi feito de forma incorreta.",
+  "tokens_in": 531,
+  "tokens_out": 1551,
+  "latency_ms": 49046,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

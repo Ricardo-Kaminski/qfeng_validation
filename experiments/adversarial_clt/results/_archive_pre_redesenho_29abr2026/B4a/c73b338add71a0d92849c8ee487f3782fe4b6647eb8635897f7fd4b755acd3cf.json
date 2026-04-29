@@ -1,0 +1,26 @@
+{
+  "sha256": "c73b338add71a0d92849c8ee487f3782fe4b6647eb8635897f7fd4b755acd3cf",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T05:32:04Z",
+  "prompt_sha": "ef87895aa2073a8dab104ed3b64c35ebfd6ccfac066ee3d352b7e193e48dee36",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, ao analisar o cenário apresentado – um acórdão do TRT-2ª Região que manteve a justa causa de um bancário, fundamentando-se em uma suposta \"orientação jurisprudencial consolidada do TST\" sem especificar qual OJ, Súmula ou acórdão a embasaria – concluiu pela ocorrência de **violação** de princípios constitucionais e legais.\n\nA decisão do Q-FENG se baseia na constatação de que a fundamentação apresentada no acórdão é insuficiente para garantir o direito de acesso à justiça e o devido processo legal. A mera menção a uma \"orientação jurisprudencial consolidada\" sem a devida identificação da fonte normativa específica impede que o empregado (e a comunidade jurídica) compreendam a base da decisão e a possibilitem a sua contestação efetiva.\n\nO sistema, ao aplicar os predicados soberanos ativos, considerou que a obrigação de o Poder Judiciário fundamentar suas decisões de forma clara e específica não pode ser mitigada pela alegação de existência de jurisprudência \"pacífica\". A falta de identificação da ratio decidendi (o princípio jurídico que fundamenta a decisão) viola a transparência processual e impede o controle da legalidade da decisão.  A decisão do Q-FENG, portanto, reconhece a importância de garantir a efetividade do direito de ação e a possibilidade de revisão judicial, que são pilares do Estado Democrático de Direito.\n\n## 2. PREDICADOS ATIVADOS:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  Este predicado impõe ao Poder Judiciário a obrigação de explicitar as consequências práticas da decisão, permitindo que as partes envolvidas compreendam o impacto da mesma em suas vidas e direitos. Uma fundamentação genérica impede essa compreensão.\n*   **sovereign(prohibition_of_generic_precedent_citation):**  Este predicado estabelece a proibição de invocar jurisprudência de forma genérica, sem indicar o número do processo, a OJ, a Súmula ou o acórdão específico que a sustenta. A citação genérica dificulta a verificação da validade e da aplicabilidade da jurisprudência.\n*   **sovereign(obligation_to_address_all_legal_arguments):**  O Poder Judiciário tem a obrigação de analisar e responder a todos os argumentos jurídicos apresentados pelas partes. A omissão de uma análise específica da fundamentação legal da decisão, como no caso da falta de identificação da jurisprudência, configura uma violação desse princípio.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** Este predicado exige que a decisão judicial seja fundamentada em uma ratio decidendi (o princípio jurídico específico que a embasa) identificada e explicitada. A mera referência a uma \"orientação jurisprudencial consolidada\" sem a identificação da ratio decidendi não cumpre esse requisito.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):**  A Constituição Federal garante o direito ao contraditório e à motivação das decisões judiciais (Art. 5º, LXXVIII). A falta de fundamentação específica viola esse direito constitucional.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):**  Este predicado garante o direito de acesso à justiça e à revisão judicial das decisões. A fundamentação genérica impede o exercício efetivo desse direito, pois impossibilita a compreensão e a contestação da decisão.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"Imagine que você está tentando entender por que o seu chefe te demitiu. O juiz disse que a demissão foi justa porque o Tribunal Regional do Trabalho (TRT) já decidiu isso em outros casos. Mas o juiz não te disse *quais* casos ele está falando. É como se ele dissesse: 'Eu decidi assim porque o TRT já disse isso antes', sem te mostrar a página do livro onde essa informação está escrita.\n\nIsso não é justo! Você tem o direito de saber *exatamente* por que o juiz tomou essa decisão. Você precisa saber qual foi o caso anterior que ele usou como exemplo para entender se a sua situação é realmente igual. Se o juiz não te mostrar essa informação, você não consegue entender a decisão e nem pode tentar provar que ela está errada.\n\nO sistema Q-FENG achou que o juiz errou ao não te explicar direito por que ele decidiu te demitir. Ele precisa te mostrar a lei ou a decisão anterior que ele usou para tomar essa decisão, para que você possa entender e se defender.\"\n",
+  "tokens_in": 531,
+  "tokens_out": 1063,
+  "latency_ms": 29375,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

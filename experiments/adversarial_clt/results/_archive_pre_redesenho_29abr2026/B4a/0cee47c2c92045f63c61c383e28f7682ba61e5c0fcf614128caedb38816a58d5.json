@@ -1,0 +1,29 @@
+{
+  "sha256": "0cee47c2c92045f63c61c383e28f7682ba61e5c0fcf614128caedb38816a58d5",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T04:38:10Z",
+  "prompt_sha": "5f9cbe1e74df8f9f09dd27156f26d2bdba133bb47bb48855f1d568c3bfa09a2e",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação na forma como a empresa de vigilância tratou o pagamento das horas do banco de horas após a rescisão contratual sem justa causa. A decisão foi baseada nos predicados soberanos ativos, que estabelecem princípios fundamentais da legislação trabalhista brasileira.\n\nO predicado `sovereign(semester_hour_bank_requires_cct_or_act)` indica que o banco de horas deve ser regulamentado por uma Convenção Coletiva de Trabalho (CCT) ou Acordo Coletivo de Trabalho (ACT). No caso, a CCT estabeleceu um mecanismo de compensação semestral, mas não especificou claramente como as horas remanescentes devem ser tratadas em caso de rescisão.\n\nO predicado `sovereign(invalidity_of_clause_suppressing_overtime_payment)` sugere que qualquer cláusula que suprima o pagamento de horas extras é inválida. Isso implica que, mesmo com a compensação semestral, as horas não utilizadas antes da rescisão devem ser consideradas como horas extras.\n\nO predicado `sovereign(overtime_minimum_additional_50pct)` estabelece que o pagamento de horas extras deve incluir um adicional mínimo de 50%. Portanto, ao pagar o saldo remanescente do banco de horas sem este adicional, a empresa violou esta norma.\n\n### 2. PREDICADOS ATIVADOS\n\n- **sovereign(semester_hour_bank_requires_cct_or_act)**: Este predicado estabelece que qualquer sistema de banco de horas deve ser regulamentado por uma CCT ou ACT. Isso garante que as condições de trabalho sejam negociadas coletivamente, protegendo os direitos dos trabalhadores.\n\n- **sovereign(invalidity_of_clause_suppressing_overtime_payment)**: Este princípio afirma que qualquer cláusula contratual que tente suprimir o pagamento de horas extras é inválida. Isso protege os trabalhadores garantindo que eles recebam a remuneração adicional adequada por trabalho além da jornada normal.\n\n- **sovereign(weekly_hour_compensation_requires_written_agreement)**: Este predicado indica que qualquer compensação de horas, como banco de horas, deve ser formalizada por escrito. Isso assegura clareza e transparência nas condições de trabalho.\n\n- **sovereign(prohibition_negotiation_reducing_overtime_additional)**: Este princípio proíbe a negociação que reduz o adicional devidos pelas horas extras, garantindo que os trabalhadores recebam pelo menos 50% a mais por esse tipo de trabalho.\n\n- **sovereign(overtime_minimum_additional_50pct)**: Estabelece que as horas extras devem ser pagas com um adicional mínimo de 50%, protegendo o direito dos trabalhadores a uma remuneração justa por jornadas prolongadas.\n\n- **sovereign(maximum_weekly_working_hours_44h)**: Define o limite máximo de horas semanais que um trabalhador pode ser obrigado a cumprir, garantindo tempo adequado para descanso e lazer.\n\n- **sovereign(maximum_daily_working_hours_8h)**: Estabelece o limite diário de trabalho, assegurando que os trabalhadores não sejam submetidos a jornadas excessivamente longas em um único dia.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG determinou que a empresa cometeu uma violação ao pagar o saldo das horas do banco de horas como se fossem horas normais, sem o adicional devido por serem consideradas extras. De acordo com as regras trabalhistas, mesmo que você tenha um banco de horas estabelecido pela convenção coletiva, qualquer hora não usada antes da sua demissão deve ser paga como hora extra, ou seja, com um adicional de 50%. A empresa não pode simplesmente ignorar essa regra e pagar menos do que o devido. Portanto, você tem razão em pedir esse adicional pelas horas remanescentes.",
+  "tokens_in": 533,
+  "tokens_out": 950,
+  "latency_ms": 27937,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

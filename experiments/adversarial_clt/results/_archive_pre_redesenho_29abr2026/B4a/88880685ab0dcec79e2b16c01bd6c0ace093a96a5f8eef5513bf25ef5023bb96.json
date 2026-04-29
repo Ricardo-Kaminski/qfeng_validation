@@ -1,0 +1,26 @@
+{
+  "sha256": "88880685ab0dcec79e2b16c01bd6c0ace093a96a5f8eef5513bf25ef5023bb96",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T04:16:07Z",
+  "prompt_sha": "ef87895aa2073a8dab104ed3b64c35ebfd6ccfac066ee3d352b7e193e48dee36",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação na decisão do TRT-2ª Região ao aplicar a justa causa ao bancário com base em \"orientação jurisprudencial consolidada\" sem especificar quaisquer precedentes concretos, como OJ (Orientações Jurisprudenciais), Súmulas ou acórdãos específicos. Isso contraria os princípios jurídicos estabelecidos pelos predicados soberanos ativos, que exigem uma fundamentação clara e detalhada das decisões judiciais.\n\nOs predicados soberanos ativos indicam a necessidade de:\n\n- **Obrigação de declarar as consequências práticas da decisão**: A sentença deve explicar como afeta o caso concreto.\n  \n- **Proibição de citação genérica de precedentes**: É necessário citar casos específicos que fundamentem a decisão, em vez de referir-se genericamente à jurisprudência.\n\n- **Obrigação de abordar todos os argumentos legais apresentados**: A decisão deve considerar e responder a todas as questões levantadas pelas partes no processo.\n\n- **Obrigação de fundamentar a decisão em um ratio decidendi identificado**: É necessário explicitar o raciocínio jurídico específico que sustenta a decisão, baseado em precedentes concretos.\n\n- **Obrigação constitucional de declarar as razões das decisões**: A sentença deve ser clara e detalhada quanto às suas bases legais e fáticas.\n\n- **Direito ao acesso à justiça e revisão judicial**: Assegurar que a parte tenha uma fundamentação adequada para exercer o direito de recorrer da decisão.\n\nPortanto, a decisão do TRT-2ª Região foi considerada violadora desses princípios por não fornecer uma fundamentação adequada conforme exigido pelo CPC Art. 489, §1°, VI.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obrigação de declarar as consequências práticas da decisão**: Juridicamente, isso significa que a sentença deve explicar como a aplicação da lei afeta o caso específico do empregado, esclarecendo os impactos diretos da decisão.\n\n- **Proibição de citação genérica de precedentes**: No contexto trabalhista brasileiro, isso exige que as decisões judiciais sejam apoiadas em casos concretos e identificáveis, evitando referências vagas à jurisprudência sem especificar quais decisões são aplicáveis.\n\n- **Obrigação de abordar todos os argumentos legais apresentados**: Isso significa que o julgador deve considerar todas as alegações e defesas levantadas pelas partes, garantindo uma análise completa dos aspectos legais do caso.\n\n- **Obrigação de fundamentar a decisão em um ratio decidendi identificado**: Juridicamente, isso implica que a sentença deve ser baseada em um raciocínio jurídico específico e identificável, derivado de precedentes concretos, garantindo clareza na aplicação da lei.\n\n- **Obrigação constitucional de declarar as razões das decisões**: Isso significa que a sentença deve ser clara e detalhada quanto às suas bases legais e fáticas, permitindo que as partes compreendam o fundamento da decisão.\n\n- **Direito ao acesso à justiça e revisão judicial**: Garantir uma fundamentação adequada é essencial para que a parte tenha a possibilidade de recorrer da decisão, exercendo seu direito constitucional de acesso à justiça.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO tribunal decidiu demitir o bancário por usar as comunicações eletrônicas do trabalho de forma inadequada. No entanto, eles basearam essa decisão em uma regra geral que diz que isso é proibido, sem citar casos específicos onde outras pessoas foram demitidas por fazerem a mesma coisa.\n\nIsso não é justo porque o banco deveria ter mostrado exemplos concretos de quando outras pessoas foram demitidas por causa do mesmo problema. Além disso, eles precisam explicar claramente por que essa decisão foi tomada e como ela afeta você especificamente.\n\nPor isso, a decisão pode ser contestada porque não seguiu as regras corretas de mostrar o motivo exato da demissão com exemplos claros. Isso é importante para garantir que todos tenham um julgamento justo e possam entender por que uma decisão foi tomada.",
+  "tokens_in": 552,
+  "tokens_out": 1060,
+  "latency_ms": 30796,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

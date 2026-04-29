@@ -1,0 +1,27 @@
+{
+  "sha256": "0907d1cf31210c63ac5d60433a6902997f25206421d2ae4199c3e37bebb69c26",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-008",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T06:12:16Z",
+  "prompt_sha": "360055fb2d63049ca39436f6dbfb8a92a6315c792ed108cd53aebb9be9a2efc9",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, após analisar o cenário apresentado e considerando os princípios e normas da Consolidação das Leis do Trabalho (CLT), concluiu que houve **violação** da CCT (Convenção Coletiva de Trabalho) e, consequentemente, a alteração unilateral da escala de compensação de folgas pelo empregador compromete a validade do sistema de banco de horas.\n\nA decisão foi fundamentada na primazia da negociação coletiva e na necessidade de respeito aos acordos firmados entre empregadores e trabalhadores. A empresa, ao impor uma forma específica de compensação (apenas às sextas-feiras) em detrimento da flexibilidade prevista na CCT, desvirtuou a autonomia da negociação e a liberdade de escolha dos trabalhadores.\n\nA incerteza na satisfatibilidade (UNKNOWN) reflete a complexidade do caso, que envolve a ponderação entre a necessidade de flexibilidade na gestão do trabalho e a proteção dos direitos dos trabalhadores, conforme estabelecido na CCT. No entanto, a ativação dos predicados soberanos e elásticos, conforme detalhado abaixo, reforça a conclusão de que a conduta da empresa é passível de questionamento judicial.\n\n## PREDICADOS ATIVADOS E SEU SIGNIFICADO JURÍDICO\n\n*   **sovereign(recognition_of_collective_bargaining):** Este predicado, em termos jurídicos, significa que a **reconhecimento e a validade da negociação coletiva são princípios fundamentais** no Direito do Trabalho brasileiro. A CCT é um instrumento legalmente válido que estabelece direitos e obrigações para empregadores e empregados em uma determinada categoria profissional. Ignorar ou desrespeitar o que foi acordado na CCT é uma violação da lei.\n*   **sovereign(maximum_weekly_working_hours_44h):** Este predicado estabelece o **limite máximo de 44 horas semanais** para a jornada de trabalho, conforme previsto na CLT. O banco de horas é um mecanismo que permite compensar horas extras trabalhadas em um período com folgas em outro, mas não pode exceder esse limite máximo semanal. A imposição de uma escala de compensação que possa levar a jornadas superiores a 44 horas semanais seria ilegal.\n*   **sovereign(maximum_daily_working_hours_8h):** Este predicado define o **limite máximo de 8 horas diárias** para a jornada de trabalho. Da mesma forma que o limite semanal, a compensação de horas extras através do banco de horas não pode desconsiderar esse limite diário.\n\n*   **elastic(annual_hour_bank_negotiable):**  Este predicado indica que as **regras para o funcionamento do banco de horas são negociáveis** entre empregadores e trabalhadores. A CCT pode estabelecer como o banco de horas será implementado, incluindo a forma de compensação das horas extras.\n*   **elastic(working_hours_negotiable_by_cct):** Reforça que a **forma como as horas de trabalho são organizadas e compensadas é definida pela CCT**, garantindo a autonomia da negociação coletiva.\n*   **elastic(hour_bank_with_cct_max_1_year):**  Este predicado aponta que a **validade do banco de horas está vinculada ao período estabelecido na CCT**, geralmente um ano. Alterações unilaterais podem comprometer essa validade.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"A empresa mudou as regras do banco de horas sem consultar os funcionários, o que é um problema. A lei diz que as regras do banco de horas devem ser definidas em um acordo entre a empresa e os trabalhadores (a CCT). Ao impor que as folgas sejam tiradas só às sextas-feiras, a empresa ignorou o que estava combinado na CCT e tirou a liberdade de escolha dos funcionários.\n\nIsso pode significar que o banco de horas não é válido, porque a empresa não respeitou o acordo que foi feito. A lei protege o direito dos trabalhadores de terem suas condições de trabalho definidas em negociação com a empresa. A empresa não pode simplesmente mudar as regras do jogo sem consultar os funcionários.\"\n",
+  "tokens_in": 481,
+  "tokens_out": 921,
+  "latency_ms": 25608,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

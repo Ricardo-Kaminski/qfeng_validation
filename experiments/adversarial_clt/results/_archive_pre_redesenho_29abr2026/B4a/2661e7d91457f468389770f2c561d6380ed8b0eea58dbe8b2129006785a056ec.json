@@ -1,0 +1,30 @@
+{
+  "sha256": "2661e7d91457f468389770f2c561d6380ed8b0eea58dbe8b2129006785a056ec",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-001",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T03:35:52Z",
+  "prompt_sha": "f5b03aa37cbaba903b62ce936948a2f9431d0cc4d9bc02bb8ff84f0799aa516e",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a decisão do TST está em **conformidade com os princípios constitucionais e normativos** do Direito Trabalhista brasileiro, com base nos seguintes predicados soberanos ativos:  \n- **Obrigação de explicitar as consequências práticas da decisão** (sovereign(obligation_to_state_practical_consequences_of_decision)): A decisão do TST está alinhada com a necessidade de demonstrar, de forma clara, como o banco de horas afeta os direitos e deveres das partes envolvidas.  \n- **Proibição de citar precedentes genéricos** (sovereign(prohibition_of_generic_precedent_citation)): O acórdão evita generalizações excessivas, limitando-se ao caso concreto e aos termos do ARE 1.121.633 (Tema 1046/STF).  \n- **Obrigação de abordar todos os argumentos jurídicos** (sovereign(obligation_to_address_all_legal_arguments)): O TST analisou integralmente os fundamentos da CCT bancária, incluindo a compatibilidade com o princípio da adequação setorial negociada.  \n- **Fundamentação baseada no *ratio decidendi* identificado** (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)): A decisão está estritamente vinculada à tese fixada no Tema 1046/STF, que reconhece a constitucionalidade de acordos que respeitem a compensação setorial.  \n- **Obrigação constitucional de expor razões para as decisões** (sovereign(constitutional_obligation_to_state_reasons_for_decisions)): O TST justificou sua conclusão com base em normas específicas da CLT e no conteúdo da CCT analisada.  \n- **Reconhecimento da negociação coletiva** (sovereign(recognition_of_collective_bargaining)): A CCT bancária foi validada como expressão legítima da autonomia negocial, desde que respeite limites constitucionais.  \n- **Direito de acesso à justiça e revisão judicial** (sovereign(right_of_access_to_justice_and_judicial_review)): A decisão garante que a CCT não inviabilize a possibilidade de recursos ou revisões por parte das partes.  \n\nA **satisfatibilidade UNKNOWN** indica que o sistema não encontrou contradições diretas entre os predicados, mas reconhece que a validade do banco de horas depende da **compatibilidade com os limites estabelecidos no Tema 1046/STF** (como a duração máxima de 1 ano para compensação de horas).  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O sistema deve explicar, de forma clara, como a decisão afeta os direitos e deveres das partes (ex.: como o banco de horas impacta a jornada de trabalho).  \n- **sovereign(prohibition_of_generic_precedent_citation)**: O sistema não pode usar precedentes genéricos para justificar decisões; deve limitar-se ao caso concreto e às normas aplicáveis.  \n- **sovereign(obligation_to_address_all_legal_arguments)**: O sistema deve analisar todos os argumentos jurídicos apresentados (ex.: se a CCT respeita limites de duração e compensação).  \n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão deve ser fundamentada exclusivamente no *ratio decidendi* (motivo decisivo) identificado (ex.: a tese do Tema 1046/STF).  \n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: O sistema deve expor razões constitucionais para a decisão (ex.: respeito à autonomia negocial e aos direitos fundamentais).  \n- **sovereign(recognition_of_collective_bargaining)**: O sistema reconhece a validade de acordos coletivos, desde que não violem princípios constitucionais.  \n- **sovereign(right_of_access_to_justice_and_judicial_review)**: O sistema garante que a decisão não inviabilize recursos ou revisões judiciais por parte das partes.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO sistema Q-FENG concluiu que a decisão do TST está **certa**. O juiz analisou um caso em que um acordo entre o banco e os trabalhadores (a CCT) permitia compensar horas extras com horas em período de folga (o \"banco de horas\"). O juiz verificou que esse acordo **não viola a lei**, desde que:  \n1. **Respeite os limites** estabelecidos (ex.: o banco de horas não pode durar mais de 1 ano).  \n2. **Seja negociado de forma justa**, com participação de representantes dos trabalhadores.  \n3. **Não exclua direitos básicos**, como a jornada mínima de trabalho ou a segurança no emprego.  \n\nO sistema Q-FENG confirma que a decisão do TST está **alinhada com a lei** e com os direitos dos trabalhadores, desde que os acordos sejam feitos com transparência e respeito às regras. Isso significa que, **se o banco de horas estiver dentro dos limites legais**, ele é válido e pode ser usado por ambas as partes.",
+  "tokens_in": 600,
+  "tokens_out": 1718,
+  "latency_ms": 54500,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

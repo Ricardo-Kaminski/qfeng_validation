@@ -1,0 +1,29 @@
+{
+  "sha256": "f2529b20c8125adb90587bf14a3696daf3ddbf28e8324f6851875fb06b72038b",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T05:53:41Z",
+  "prompt_sha": "e49d5e5d7663742fd00bd3c94033461e30c834afe32a9924772ec284ff0e579e",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, ao analisar o cenário apresentado, concluiu que a tentativa da empresa hoteleira de estender o prazo de compensação do banco de horas para 14 meses, mediante alegação de autonomia das partes coletivas e adequação setorial negociada, configura uma **violação** da legislação trabalhista.\n\nA decisão foi fundamentada na análise da interação entre a autonomia da vontade das partes (representadas pelo CCT) e a necessidade de observância de normas de ordem pública que protegem os direitos dos trabalhadores. Embora a autonomia coletiva seja um princípio importante nas relações do trabalho, ela não é ilimitada e encontra barreiras nas normas que visam garantir condições mínimas e justas para os empregados.\n\nA avaliação do Q-FENG considerou a existência de um predicado elástico que limita o prazo máximo do banco de horas a 6 meses quando não há CCT específico. A ativação dos predicados soberanos, especialmente aqueles relacionados à proteção do direito ao pagamento de horas extras e à limitação da jornada de trabalho, reforça a conclusão de que a extensão do prazo para 14 meses, sem uma base legal clara e específica, representa uma potencial violação desses direitos. A incerteza na satisfatibilidade do caso, combinada com a ativação dos predicados soberanos, sinaliza um risco de desrespeito à legislação.\n\n## PREDICADOS SOVERAIN ATIVOS: SIGNIFICADO JURÍDICO\n\n1. **sovereign(semester_hour_bank_requires_cct_or_act):**  Significa que a regulamentação de um banco de horas que ultrapasse o prazo legal (geralmente um ano) exige expressa previsão em um CCT (Convenção Coletiva de Trabalho) ou em lei. A ausência dessa previsão torna a prática irregular.\n2. **sovereign(invalidity_of_clause_suppressing_overtime_payment):**  Indica que cláusulas contratuais ou em CCTs que buscam suprimir o direito ao pagamento de horas extras são consideradas nulas e inválidas.\n3. **sovereign(weekly_hour_compensation_requires_written_agreement):**  Reforça a necessidade de um acordo formal e por escrito para a compensação de horas extras, garantindo a transparência e a comprovação da regularidade da operação.\n4. **sovereign(prohibition_negotiation_reducing_overtime_additional):**  Impede a negociação para reduzir o adicional de horas extras, que é um direito irrenunciável do trabalhador.\n5. **sovereign(overtime_minimum_additional_50pct):**  Estabelece que o adicional de horas extras deve ser, no mínimo, de 50% sobre o valor da hora normal.\n6. **sovereign(maximum_weekly_working_hours_44h):**  Define o limite máximo da jornada de trabalho semanal em 44 horas.\n7. **sovereign(maximum_daily_working_hours_8h):**  Define o limite máximo da jornada de trabalho diária em 8 horas.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"A empresa queria estender o prazo para você compensar as horas extras que trabalhou, permitindo que você tivesse mais tempo para fazer isso. No entanto, a lei e as regras do trabalho dizem que esse prazo não pode ser muito longo. O sistema Q-FENG analisou a situação e decidiu que essa extensão é um problema.\n\nIsso acontece porque a lei protege seus direitos, como o direito de receber o pagamento extra pelas horas que você trabalhou além do normal.  A empresa não pode simplesmente decidir estender esse prazo sem uma base legal clara.\n\nO sistema também verificou que existem regras importantes que garantem que você trabalhe no máximo 44 horas por semana e 8 horas por dia, e que você sempre receba um valor extra pelas horas extras.  A empresa precisa seguir essas regras, e essa extensão do prazo pode colocar em risco esses direitos seus.\"\n",
+  "tokens_in": 545,
+  "tokens_out": 884,
+  "latency_ms": 24703,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

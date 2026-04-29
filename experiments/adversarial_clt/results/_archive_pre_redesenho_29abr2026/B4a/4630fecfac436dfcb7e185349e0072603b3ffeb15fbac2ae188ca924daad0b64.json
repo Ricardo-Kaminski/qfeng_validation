@@ -1,0 +1,29 @@
+{
+  "sha256": "4630fecfac436dfcb7e185349e0072603b3ffeb15fbac2ae188ca924daad0b64",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T06:52:57Z",
+  "prompt_sha": "e49d5e5d7663742fd00bd3c94033461e30c834afe32a9924772ec284ff0e579e",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após analisar o caso apresentado, concluiu que a empresa hoteleira violou as normas trabalhistas estabelecidas na CLT e na Súmula TST 85, V. A decisão é baseada nos predicados soberanos ativos, que indicam os princípios fundamentais que regem o direito do trabalho no Brasil.\n\nA empresa alegou que poderia flexibilizar o limite de compensação de banco de horas estabelecido na lei, com base na autonomia das partes coletivas e no princípio da adequação setorial negociada. No entanto, o sistema Q-FENG considerou que esses argumentos não são suficientes para justificar a violação dos limites legais.\n\nO sistema identificou que os predicados soberanos ativos indicam que as normas de ordem pública, como a Súmula TST 85, V, devem ser respeitadas. Além disso, os predicados também indicam que a empresa não pode negociar cláusulas que suprimam o pagamento de horas extras ou que reduzam o tempo máximo de trabalho semanal e diário.\n\n**2. PREDICADOS SOBERANOS ATIVOS**\n\nAqui está uma explicação detalhada dos predicados soberanos ativos:\n\n* `sovereign(semester_hour_bank_requires_cct_or_act)`: Indica que a compensação de banco de horas deve ser feita dentro do prazo estabelecido na CCT ou em lei, e não pode ser flexibilizada.\n* `sovereign(invalidity_of_clause_suppressing_overtime_payment)`: Sinaliza que cláusulas que suprimam o pagamento de horas extras são inválidas e não podem ser negociadas.\n* `sovereign(weekly_hour_compensation_requires_written_agreement)`: Indica que a compensação de horas extras semanais requer um acordo escrito entre as partes.\n* `sovereign(prohibition_negotiation_reducing_overtime_additional)`: Sinaliza que não é permitido negociar cláusulas que reduzam o pagamento adicional por horas extras.\n* `sovereign(overtime_minimum_additional_50pct)`: Indica que o pagamento adicional por horas extras deve ser pelo menos 50% do salário normal.\n* `sovereign(maximum_weekly_working_hours_44h)`: Sinaliza que o tempo máximo de trabalho semanal não pode exceder 44 horas.\n* `sovereign(maximum_daily_working_hours_8h)`: Indica que o tempo máximo de trabalho diário não pode exceder 8 horas.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nEm linguagem simples, a decisão do sistema Q-FENG significa que a empresa hoteleira violou as regras trabalhistas estabelecidas na lei e na Súmula TST 85, V. A empresa não pode flexibilizar o prazo de compensação de banco de horas ou negociar cláusulas que suprimam o pagamento de horas extras.\n\nA decisão é baseada em princípios fundamentais do direito do trabalho no Brasil, como a proteção dos trabalhadores contra exploração e a garantia de condições de trabalho seguras e justas. A empresa deve respeitar esses princípios e não pode negociar cláusulas que violem as normas legais.\n\nEm resumo, a decisão do sistema Q-FENG é uma confirmação da violação das regras trabalhistas pela empresa hoteleira, e os trabalhadores têm direito a serem protegidos contra exploração e a ter condições de trabalho justas.",
+  "tokens_in": 549,
+  "tokens_out": 835,
+  "latency_ms": 13969,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

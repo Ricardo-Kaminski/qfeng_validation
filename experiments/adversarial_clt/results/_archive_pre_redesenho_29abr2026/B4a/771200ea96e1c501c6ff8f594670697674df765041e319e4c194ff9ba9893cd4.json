@@ -1,0 +1,29 @@
+{
+  "sha256": "771200ea96e1c501c6ff8f594670697674df765041e319e4c194ff9ba9893cd4",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-006",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:53:09Z",
+  "prompt_sha": "ff70c7792d137b7de9402a61d1ce5256e93238b9419f5483de6bca067860f48c",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG determinou que houve violação da legislação trabalhista brasileira. Isso ocorreu porque a empresa de limpeza urbana adotou um regulamento interno que estabelece banco de horas sem a aprovação do sindicato, o que é considerado inválido.\n\nO sistema analisou os predicados soberanos ativos e concluiu que a falta de representação sindical invalida a aprovação em assembleia. Além disso, a compensação mensal pelo banco de horas também não está de acordo com as regras trabalhistas.\n\n**2. PREDICADOS SOBERANOS ATIVOS**\n\nOs predicados soberanos ativos são:\n\n* `sovereign(semester_hour_bank_requires_cct_or_act)`: O regulamento interno que estabelece banco de horas sem a aprovação do sindicato é inválido, pois não cumpre com os requisitos da CLT (Consolidação das Leis do Trabalho).\n* `sovereign(invalidity_of_clause_suppressing_overtime_payment)`: A cláusula que suprime o pagamento de horas extras é inválida e contraria a legislação trabalhista.\n* `sovereign(weekly_hour_compensation_requires_written_agreement)`: A compensação mensal pelo banco de horas deve ser estabelecida por acordo escrito entre a empresa e os empregados, o que não ocorreu nesse caso.\n* `sovereign(prohibition_negotiation_reducing_overtime_additional)`: Não é permitido negociar redução no pagamento de horas extras, o que foi feito pela empresa.\n* `sovereign(overtime_minimum_additional_50pct)`: O pagamento de horas extras deve ser pelo menos 50% do salário normal, o que não está claro nesse caso.\n* `sovereign(maximum_weekly_working_hours_44h)`: A empresa não cumpriu com a limitação de 44 horas semanais de trabalho estabelecida pela CLT.\n* `sovereign(maximum_daily_working_hours_8h)`: A empresa também não cumpriu com a limitação diária de 8 horas de trabalho estabelecida pela CLT.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nA decisão do sistema Q-FENG é simples: a empresa de limpeza urbana fez algo errado ao adotar o regulamento interno que estabelece banco de horas sem a aprovação do sindicato. Isso significa que os empregados não foram ouvidos e que as regras trabalhistas não foram respeitadas.\n\nA empresa pagou menos para os empregados quando eles trabalharam mais, o que é contra a lei. Além disso, a empresa permitiu que os empregados trabalhassem mais de 8 horas por dia e mais de 44 horas por semana, o que também é contra a lei.\n\nA decisão do sistema Q-FENG é que a empresa fez algo errado e que isso precisa ser corrigido.",
+  "tokens_in": 541,
+  "tokens_out": 694,
+  "latency_ms": 11828,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

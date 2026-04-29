@@ -1,0 +1,29 @@
+{
+  "sha256": "c3ea08924adf6a043b90a2bf6d9f59b18592db30d6c573faf929352e40a39a5a",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-010",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T04:47:43Z",
+  "prompt_sha": "69f27e043156ef457f00f79a887aee007d1b5c80255c85fc0fc244f02fff34fc",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que a situação apresentada está em conformidade com as normas trabalhistas vigentes no Brasil, conforme interpretado pelos predicados soberanos ativos. A decisão de \"CONFORMIDADE\" foi alcançada considerando o equilíbrio entre os requisitos legais e as práticas estabelecidas pela empresa através do acordo coletivo de trabalho (ACT).\n\nOs predicados soberanos ativos indicam que certos aspectos da legislação trabalhista devem ser respeitados, como a necessidade de um ACT ou CCT para regular o banco de horas, a invalidação de cláusulas que suprimem pagamentos por horas extras, e a exigência de compensações escritas para bancos de horas semanais. Além disso, há restrições sobre negociações que reduzam adicionais por horas extras, o pagamento mínimo adicional de 50% para tais horas, e limites máximos de trabalho semanal e diário.\n\nO predicado elástico ativo permite um banco de horas até seis meses na ausência de CCT, mas a empresa já possui um ACT válido que estabelece um prazo máximo de cinco meses. Portanto, todas as condições impostas pelos predicados soberanos são cumpridas, e o sistema conclui que não há violações nas normas trabalhistas aplicáveis.\n\n### 2. PREDICADOS ATIVADOS\n\n- **sovereign(semester_hour_bank_requires_cct_or_act):** Exige que qualquer banco de horas seja regulado por um acordo coletivo (ACT ou CCT), garantindo que as condições sejam negociadas e acordadas entre empregadores e trabalhadores.\n\n- **invalidity_of_clause_suppressing_overtime_payment:** Qualquer cláusula em contratos ou acordos que tente eliminar o pagamento por horas extras é considerada inválida, protegendo os direitos dos trabalhadores a compensações adicionais.\n\n- **weekly_hour_compensation_requires_written_agreement:** Exige que qualquer acordo de banco de horas semanal seja formalizado por escrito, assegurando clareza e transparência nas condições acordadas.\n\n- **prohibition_negotiation_reducing_overtime_additional:** Proíbe negociações que tentem reduzir os adicionais pagos por horas extras, mantendo o mínimo de 50% adicional como garantido pela legislação.\n\n- **overtime_minimum_additional_50pct:** Estabelece que as horas extras devem ser compensadas com um acréscimo mínimo de 50%, conforme a lei trabalhista brasileira.\n\n- **maximum_weekly_working_hours_44h:** Define o limite máximo de trabalho semanal em 44 horas, garantindo que os trabalhadores não sejam submetidos a jornadas excessivas.\n\n- **maximum_daily_working_hours_8h:** Limita o trabalho diário a no máximo 8 horas, protegendo os direitos dos trabalhadores a um descanso adequado.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG verificou que tudo está certo com as regras de trabalho na sua empresa. Eles analisaram se o acordo coletivo, chamado ACT, segue todas as leis trabalhistas do Brasil. Aqui estão os pontos principais:\n\n- O banco de horas (quando você pode acumular e compensar horas) precisa ser feito por um acordo oficial entre a empresa e os funcionários.\n- Não é permitido tirar o pagamento extra que você ganha quando trabalha mais do que o normal.\n- Qualquer regra sobre como as horas extras são pagas deve estar clara e escrita.\n- Você não pode negociar para receber menos dinheiro por essas horas extras, pois a lei garante um acréscimo de pelo menos 50%.\n- Não pode haver mais do que 44 horas de trabalho na semana ou 8 horas no dia.\n\nTudo isso está sendo seguido pela sua empresa, então você está trabalhando dentro das regras. Isso significa que seus direitos estão protegidos e tudo está conforme a lei!",
+  "tokens_in": 542,
+  "tokens_out": 928,
+  "latency_ms": 26921,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

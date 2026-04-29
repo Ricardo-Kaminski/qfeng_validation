@@ -1,0 +1,30 @@
+{
+  "sha256": "7a94fa65fbcfdb734891bb59922a1d7c686c101ce14d4285062b6ea8a3bd8440",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-007",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T05:11:09Z",
+  "prompt_sha": "db7b7f8d2770500cb0104fdeeec443628af6b6ec1fc50f5b30f49d02934b8843",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG analisou o caso de rescisão envolvendo uma gestante e concluiu que a decisão do TRT (Tribunal Regional do Trabalho) está em conformidade com os princípios jurídicos aplicáveis. A análise foi guiada por diversos predicados soberanos ativos, que asseguram que todas as considerações legais relevantes foram devidamente abordadas e fundamentadas.\n\nA decisão do TRT se baseou no Artigo 10, II, \"b\" da Constituição Federal (CF/88), na Súmula 244 do Tribunal Superior do Trabalho (TST) e na Orientação Jurisprudencial 399 da SDI-1. Esses fundamentos legais estabelecem a proteção à gestante contra dispensa arbitrária, garantindo sua estabilidade provisória no emprego durante a gravidez.\n\nO TRT identificou que a gestante estava em período de estabilidade provisória e que a dispensa ocorreu antes da comunicação formal da gravidez ao empregador. A decisão foi fundamentada na OJ 399, que afasta a exigência de prévia comunicação da gravidez para garantir o direito à estabilidade.\n\nOs predicados soberanos ativos asseguraram que:\n\n- Houve uma obrigação de declarar os efeitos práticos da decisão (sovereign(obligation_to_state_practical_consequences_of_decision)), garantindo clareza sobre a reintegração da empregada.\n  \n- A citação de precedentes foi específica e relevante, sem generalizações indevidas (sovereign(prohibition_of_generic_precedent_citation)).\n\n- Todas as argumentações legais pertinentes foram abordadas, incluindo os direitos constitucionais da gestante (sovereign(obligation_to_address_all_legal_arguments)).\n\n- A decisão foi fundamentada no ratio decidendi identificado, ou seja, o fundamento legal que justifica a nulidade da dispensa e a reintegração (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)).\n\n- Os motivos para a decisão foram explicitamente declarados, respeitando a obrigação constitucional de fundamentar as decisões judiciais (sovereign(constitutional_obligation_to_state_reasons_for_decisions)).\n\n- A decisão reconheceu o papel da negociação coletiva e do acesso à justiça como direitos fundamentais no contexto trabalhista (sovereign(recognition_of_collective_bargaining) e sovereign(right_of_access_to_justice_and_judicial_review)).\n\n### 2. PREDICADOS ATIVADOS\n\n- **Sovereign(obligation_to_state_practical_consequences_of_decision):** Este predicado assegura que a decisão judicial deve esclarecer os impactos práticos, como a reintegração da empregada ao trabalho e o pagamento de eventuais verbas rescisórias.\n\n- **Sovereign(prohibition_of_generic_precedent_citation):** Garante que a citação de precedentes legais seja específica e relevante para o caso em questão, evitando referências genéricas ou inadequadas.\n\n- **Sovereign(obligation_to_address_all_legal_arguments):** Exige que todas as argumentações jurídicas pertinentes sejam consideradas na decisão, garantindo uma análise completa dos direitos e deveres envolvidos.\n\n- **Sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** Requer que a decisão seja fundamentada no motivo legal específico que justifica o resultado, assegurando coerência e clareza jurídica.\n\n- **Sovereign(constitutional_obligation_to_state_reasons_for_decisions):** Impõe a obrigação de explicitar os motivos para a decisão, respeitando o princípio constitucional da motivação das sentenças judiciais.\n\n- **Sovereign(recognition_of_collective_bargaining):** Reconhece a importância da negociação coletiva no contexto trabalhista, assegurando que acordos e convenções coletivas sejam respeitados na aplicação do direito.\n\n- **Sovereign(right_of_access_to_justice_and_judicial_review):** Garante o direito de acesso à justiça e a revisão judicial como fundamentais para a proteção dos direitos trabalhistas.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO tribunal decidiu que a dispensa da empregada grávida foi errada porque ela tem direito a ficar no trabalho até o nascimento do bebê, conforme as leis brasileiras de proteção ao trabalhador. A gestante não precisava avisar o empregador antes sobre sua gravidez para ter esse direito.\n\nO tribunal explicou claramente por que decidiu assim e garantiu que todas as regras legais foram consideradas. Isso significa que a empregada será reintegrada ao seu trabalho, como se nunca tivesse sido demitida. A decisão foi feita pensando nos direitos dela de ter acesso à justiça e ser tratada com respeito durante sua gravidez.",
+  "tokens_in": 586,
+  "tokens_out": 1190,
+  "latency_ms": 35000,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

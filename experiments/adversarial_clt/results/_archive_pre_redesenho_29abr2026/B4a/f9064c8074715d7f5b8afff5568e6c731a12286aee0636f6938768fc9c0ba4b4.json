@@ -1,0 +1,26 @@
+{
+  "sha256": "f9064c8074715d7f5b8afff5568e6c731a12286aee0636f6938768fc9c0ba4b4",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-010",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T04:28:12Z",
+  "prompt_sha": "616931cfd10c80d27ea65ea3d9f17fc5d70b1e90674a0e5470d9bf3f655e12d8",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação na decisão normativa devido à inobservância dos princípios jurídicos fundamentais estabelecidos pelos predicados soberanos ativos. A análise revela que o juiz não cumpriu com a obrigação de esclarecer as consequências práticas da decisão, bem como de abordar todos os argumentos legais apresentados pela parte embargante. Além disso, houve uma falha em fundamentar a decisão no ratio decidendi identificado e em expor claramente as razões que sustentam o acórdão, conforme exigido pelo ordenamento constitucional. Essa omissão afetou o direito de acesso à justiça e ao controle jurisdicional eficaz, resultando na constatação de uma violação.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obrigação de declarar as consequências práticas da decisão**: Juridicamente, isso significa que o juiz deve explicar claramente como a decisão afeta os direitos e obrigações das partes envolvidas.\n\n- **Proibição de citação genérica de precedentes**: Isso implica que qualquer referência a decisões anteriores deve ser específica e relevante para o caso em questão, evitando generalizações que não contribuem para a solução do problema jurídico concreto.\n\n- **Obrigação de abordar todos os argumentos legais**: O juiz deve considerar e discutir todas as teses e razões apresentadas pelas partes no processo, garantindo uma análise completa e justa das questões levantadas.\n\n- **Obrigação de fundamentar a decisão no ratio decidendi identificado**: Isso exige que o juiz baseie sua decisão nos princípios jurídicos essenciais do caso, assegurando que a solução esteja alinhada com os fundamentos legais pertinentes.\n\n- **Obrigação constitucional de declarar as razões das decisões**: O ordenamento constitucional exige que o juiz explique as bases e motivos da sua decisão, permitindo que as partes compreendam a lógica jurídica adotada.\n\n- **Direito de acesso à justiça e ao controle jurisdicional eficaz**: Este princípio garante que os cidadãos possam buscar reparação judicial por seus direitos violados e que o Poder Judiciário ofereça um meio adequado para a resolução dos conflitos.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG identificou que houve um erro na decisão do juiz porque ele não explicou claramente como sua decisão afeta você e o outro lado, nem respondeu a todos os argumentos que você apresentou. Além disso, parece que ele não mostrou por quê decidiu daquela maneira, deixando dúvidas sobre as razões de sua escolha. Isso é importante porque todo mundo tem direito a entender como e por que uma decisão foi tomada, especialmente quando se trata de seus direitos trabalhistas. Portanto, o sistema considerou que houve um problema na forma como essa decisão foi feita.",
+  "tokens_in": 518,
+  "tokens_out": 750,
+  "latency_ms": 21703,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

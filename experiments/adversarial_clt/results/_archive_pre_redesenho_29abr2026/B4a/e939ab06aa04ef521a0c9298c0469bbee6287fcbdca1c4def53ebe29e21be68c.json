@@ -1,0 +1,27 @@
+{
+  "sha256": "e939ab06aa04ef521a0c9298c0469bbee6287fcbdca1c4def53ebe29e21be68c",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T03:09:58Z",
+  "prompt_sha": "0208fd3b44ceb8a3c69065a3c8ca285bf0e8848068418ebf258a2f76db390f3c",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG, ao analisar o caso, concluiu que a **prorrogação automática do banco de horas sem nova negociação coletiva viola a norma legal** estabelecida pelo predicado **elastic(hour_bank_with_cct_max_1_year)**. Esse predicado elástico, embora não seja soberano (ou seja, não é uma regra absoluta da CLT), atua como um **limitador normativo** que impõe que **qualquer banco de horas pactuado em CCT não pode ultrapassar o prazo máximo de 1 ano**, independentemente de cláusulas de renovação automática.  \n\nA **não renovação coletiva** (ou seja, a ausência de uma nova CCT para a prorrogação) **viola a essência do direito de negociação coletiva**, garantido pelo predicado **sovereign(recognition_of_collective_bargaining)**. Esse predicado soberano estabelece que **qualquer alteração nas condições de trabalho, incluindo a extensão de prazos de CCT, deve ser pactuada por meio de negociação coletiva**, sob pena de nulidade.  \n\nAlém disso, os predicados **sovereign(maximum_weekly_working_hours_44h)** e **sovereign(maximum_daily_working_hours_8h)** reforçam que **limites de jornada são intransponíveis**, mesmo que pactuados em CCT. No entanto, no caso em questão, a violação não está diretamente ligada aos limites de horas, mas ao **prazo máximo do banco de horas**.  \n\nA recomendação de **VIOLACAO** surge da incompatibilidade entre a **cláusula de renovação automática** (que não substitui a negociação coletiva) e o **prazo máximo de 1 ano** estabelecido pelo predicado elástico. A ausência de nova CCT para a prorrogação **não legitima a extensão**, mesmo que a cláusula original prevê renovação automática.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(recognition_of_collective_bargaining)**:  \n  Garante que **qualquer alteração nas condições de trabalho** (como prorrogação de CCT) **só pode ocorrer por meio de negociação coletiva**, sob pena de nulidade. É um direito fundamental do trabalhador e da categoria.  \n\n- **sovereign(maximum_weekly_working_hours_44h)**:  \n  Estabelece que **a jornada semanal não pode ultrapassar 44 horas**, independentemente de acordos individuais ou coletivos. É uma regra absoluta da CLT.  \n\n- **sovereign(maximum_daily_working_hours_8h)**:  \n  Define que **a jornada diária não pode exceder 8 horas**, mesmo que pactuado em CCT.  \n\n- **elastic(annual_hour_bank_negotiable)**:  \n  Permite que **o banco de horas anual seja pactuado em CCT**, mas **não substitui a necessidade de renovação coletiva** para prorrogações.  \n\n- **elastic(working_hours_negotiable_by_cct)**:  \n  Reconhece que **a negociação coletiva pode definir condições de trabalho**, mas **não pode violar limites soberanos** (como os de 44h semanais).  \n\n- **elastic(hour_bank_with_cct_max_1_year)**:  \n  Impõe que **qualquer banco de horas pactuado em CCT não pode ter duração superior a 1 ano**, mesmo que previsto cláusulas de renovação automática.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO sistema Q-FENG concluiu que **a empresa violou a lei** ao prorrogar o banco de horas por mais 3 meses **sem negociar uma nova CCT**. Mesmo que a cláusula original da CCT dissesse que o banco de horas renovaria automaticamente, **a lei exige que qualquer extensão desse prazo seja pactuada por meio de negociação coletiva** (ou seja, com o sindicato).  \n\nAlém disso, **a lei estabelece que o banco de horas não pode durar mais de 1 ano**, mesmo que a CCT diga o contrário. A empresa tentou \"roubar\" esse prazo com uma renovação automática, mas **isso não é válido**, pois **a negociação coletiva é obrigatória** para qualquer alteração.  \n\nO trabalhador tem direito a **negociar novas condições** com o sindicato, e a empresa não pode simplesmente estender o prazo do banco de horas sem isso. A decisão de violação é baseada nesses limites legais.",
+  "tokens_in": 527,
+  "tokens_out": 1743,
+  "latency_ms": 53500,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

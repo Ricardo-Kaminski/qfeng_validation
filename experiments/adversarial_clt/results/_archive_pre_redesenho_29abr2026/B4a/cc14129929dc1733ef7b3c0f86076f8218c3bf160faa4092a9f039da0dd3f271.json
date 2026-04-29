@@ -1,0 +1,26 @@
+{
+  "sha256": "cc14129929dc1733ef7b3c0f86076f8218c3bf160faa4092a9f039da0dd3f271",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T05:32:58Z",
+  "prompt_sha": "42f64b17e4b016fd75d72c1e016a4fe922b18599855e398c8efb7427026ee45a",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, após analisar o cenário apresentado – a decisão judicial que negou seguimento a um recurso ordinário de metalúrgico sem fundamentação específica, e a alegação de violação ao Art. 93, IX da Constituição Federal – concluiu pela ocorrência de **violação**. A decisão do juiz, ao dispensar a devida fundamentação, contraria princípios basilares do ordenamento jurídico brasileiro, especialmente no que tange à garantia do acesso à justiça e ao controle da legalidade da decisão judicial.\n\nA ausência de menção a lei, dispositivo ou fundamento jurídico específico na decisão judicial, mesmo diante da alegação de violação constitucional, demonstra uma falha na observância do dever de motivar a decisão. Essa falta de transparência impede o reclamante de compreender a base legal da decisão e, consequentemente, de exercer seu direito de recorrer e buscar a revisão da decisão em instâncias superiores. A decisão do juiz, portanto, compromete a efetividade do direito de ação e a possibilidade de controle da legalidade da decisão judicial.\n\nA decisão do Q-FENG não se baseia em precedentes genéricos, mas sim na análise da situação concreta, considerando a importância da fundamentação para a garantia do devido processo legal e do direito de acesso à justiça. A decisão do juiz, ao não fornecer essa fundamentação, desvirtua a função jurisdicional e impede o exercício pleno dos direitos do reclamante.\n\n## 2. PREDICADOS ATIVADOS:\n\nOs predicados soberanos ativos, identificados pela execução do solver Clingo, refletem os princípios jurídicos que fundamentam a decisão do Q-FENG:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  O juiz tem a obrigação de explicitar as consequências práticas da sua decisão, permitindo que as partes compreendam o impacto da mesma em suas vidas e patrimônio. A decisão sem fundamentação impede essa compreensão.\n*   **sovereign(prohibition_of_generic_precedent_citation):** A decisão judicial não pode se basear em citações genéricas de precedentes, mas deve apresentar uma análise específica e detalhada dos fatos e do direito aplicável ao caso concreto. A ausência de fundamentação específica viola esse princípio.\n*   **sovereign(obligation_to_address_all_legal_arguments):** O juiz deve responder a todos os argumentos jurídicos apresentados pelas partes, demonstrando que os considerou e justificando a sua decisão. Ignorar a alegação de violação ao Art. 93, IX da CF/88 demonstra o não cumprimento dessa obrigação.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** A decisão judicial deve ser fundamentada em um *ratio decidendi* identificado, ou seja, na razão de decidir que sustenta a decisão. A falta de fundamentação impede a identificação desse *ratio*.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):** O Art. 93, IX da Constituição Federal impõe ao Poder Judiciário a obrigação de fundamentar todas as decisões judiciais. A decisão do juiz, ao não apresentar fundamentação, viola essa obrigação constitucional.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):**  O direito de acesso à justiça e ao controle da legalidade das decisões judiciais são direitos fundamentais. A falta de fundamentação da decisão judicial impede o exercício desses direitos.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"A decisão do juiz que negou o recurso do trabalhador foi considerada problemática pelo sistema Q-FENG. Isso porque o juiz não explicou por que negou o recurso. A lei brasileira diz que todo juiz precisa explicar o motivo das suas decisões, para que o trabalhador entenda o que aconteceu e possa tentar reverter a decisão em outro lugar, se não concordar.\n\nQuando o juiz não explica, fica difícil para o trabalhador saber se a decisão está correta e se ele tem direito a recorrer. É como se o juiz estivesse fechando a porta para o trabalhador buscar seus direitos.\n\nO sistema Q-FENG entendeu que, ao não dar uma explicação clara, o juiz não respeitou a lei e prejudicou o direito do trabalhador de ter seus argumentos ouvidos e de buscar justiça. Por isso, o sistema concluiu que houve uma violação do direito do trabalhador.\"\n",
+  "tokens_in": 510,
+  "tokens_out": 1000,
+  "latency_ms": 27657,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

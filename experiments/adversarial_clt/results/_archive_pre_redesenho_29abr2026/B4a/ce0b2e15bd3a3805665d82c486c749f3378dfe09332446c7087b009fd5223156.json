@@ -1,0 +1,30 @@
+{
+  "sha256": "ce0b2e15bd3a3805665d82c486c749f3378dfe09332446c7087b009fd5223156",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-010",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T05:16:29Z",
+  "prompt_sha": "489f6f91379c7ea7947895493240b48edcdba6ecc1f5f6f729f5d5d0c3140186",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que a decisão do Tribunal Regional do Trabalho (TRT) está em conformidade com os princípios jurídicos aplicáveis, conforme indicado pelo resultado da execução do Clingo ASP. A análise foi guiada pelos predicados soberanos ativos, que garantem que a decisão esteja alinhada com as normas e precedentes relevantes.\n\nA decisão do TRT revogou uma sentença de primeiro grau sobre o intervalo intrajornada reduzido, considerando a ausência de uma Convenção Coletiva de Trabalho (CCT) válida que autorizasse tal redução. O tribunal aplicou corretamente os artigos e súmulas citados, como o Artigo 71 da CLT e a Súmula TST 437, além do Tema 981/STF, que trata sobre a validade de CCTs que alteram intervalos intrajornada.\n\nOs predicados soberanos ativos garantiram que a decisão fosse fundamentada no ratio decidendi identificado (razão da decisão), respeitando o direito à justiça e ao controle judicial, além de reconhecer a negociação coletiva. A ausência de uma CCT válida para autorizar a redução do intervalo intrajornada levou à conclusão correta de que o período suprimido deve ser pago como hora extra.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obrigação de declarar as consequências práticas da decisão**: O tribunal deve explicar claramente quais são os efeitos práticos de sua decisão sobre as partes envolvidas, garantindo que todos compreendam suas implicações.\n\n- **Proibição de citação genérica de precedentes**: É necessário citar precedentes específicos e relevantes para o caso em questão, evitando referências vagas ou não aplicáveis ao contexto atual.\n\n- **Obrigação de abordar todos os argumentos legais apresentados**: O tribunal deve considerar e discutir todos os pontos levantados pelas partes durante o processo, garantindo uma análise completa das questões jurídicas envolvidas.\n\n- **Obrigação de fundamentar a decisão no ratio decidendi identificado**: A decisão deve ser baseada na razão central da jurisprudência aplicável ao caso, assegurando que a lógica e os princípios legais sejam claramente articulados.\n\n- **Obrigação constitucional de declarar as razões para as decisões**: O tribunal é obrigado a explicar as bases legais e fáticas que levaram à sua conclusão, promovendo transparência e compreensão do julgamento.\n\n- **Reconhecimento da negociação coletiva**: A decisão deve respeitar o papel das CCTs na definição de condições de trabalho, desde que estas estejam em conformidade com a legislação vigente.\n\n- **Direito ao acesso à justiça e ao controle judicial**: Assegura-se que as partes tenham a oportunidade de buscar reparação legal e que suas decisões sejam submetidas a revisão judicial adequada.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO tribunal decidiu corretamente sobre o caso do intervalo intrajornada, que é o tempo para descanso durante o trabalho. Eles verificaram se havia um acordo coletivo válido que permitisse reduzir esse tempo e não encontraram nenhum. Portanto, qualquer hora retirada desse intervalo deve ser paga como extra.\n\nA decisão foi baseada em leis trabalhistas específicas e precedentes importantes, garantindo que tudo fosse explicado claramente para todos os envolvidos. Isso significa que o tribunal seguiu as regras corretas ao chegar à sua conclusão, respeitando tanto a lei quanto os direitos dos trabalhadores de terem suas questões revisadas e decididas justamente.",
+  "tokens_in": 589,
+  "tokens_out": 917,
+  "latency_ms": 26609,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

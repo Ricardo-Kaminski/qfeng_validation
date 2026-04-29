@@ -1,0 +1,30 @@
+{
+  "sha256": "0c78d2d93652a32911f7201a35d8d31df0e7459e420fb7efb316f0cfd2449c1b",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T03:34:03Z",
+  "prompt_sha": "f5b03aa37cbaba903b62ce936948a2f9431d0cc4d9bc02bb8ff84f0799aa516e",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nA decisão do TST, ao citar o **ARE 1.121.633 (Tema 1046/STF)**, está alinhada com os **predicados soberanos ativos** que regem a interpretação normativa no sistema Q-FENG. Especificamente:  \n- **Obrigação de explicitar consequências práticas da decisão** (sovereign(obligation_to_state_practical_consequences_of_decision)): o acórdão identifica claramente que a CCT bancária é válida porque respeita o princípio da adequação setorial negociada, garantindo que as compensações sejam compatíveis com a realidade do setor.  \n- **Proibição de citação genérica de precedentes** (sovereign(prohibition_of_generic_precedent_citation)): o TST não apenas cita o Tema 1046, mas **analisa diretamente** se a CCT em questão preenche seus requisitos, evitando uma aplicação mecânica do precedente.  \n- **Obrigação de abordar todos os argumentos jurídicos** (sovereign(obligation_to_address_all_legal_arguments)): o acórdão considera a natureza negocial da CCT, a limitação temporal (1 ano) e a ausência de supressão de direitos fundamentais, como previsto no Tema 1046.  \n- **Fundamentação na ratio decidendi identificada** (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)): a validade do banco de horas é baseada no **princípio da adequação setorial**, que permite compensações desde que sejam negociadas coletivamente e respeitem a realidade do setor.  \n- **Obrigação constitucional de fundamentar decisões** (sovereign(constitutional_obligation_to_state_reasons_for_decisions)): o TST explica que a CCT não viola a CLT porque não suprime direitos, mas apenas redistribui benefícios com base em negociações coletivas.  \n- **Reconhecimento da negociação coletiva** (sovereign(recognition_of_collective_bargaining)): a CCT é considerada válida porque surge de um processo de negociação coletiva, conforme previsto no art. 611 da CLT.  \n- **Direito de acesso à justiça e revisão judicial** (sovereign(right_of_access_to_justice_and_judicial_review)): o acórdão permite que a decisão seja revisada por instâncias superiores, garantindo a segurança jurídica.  \n\nA **conformidade** recomendada pelo Q-FENG é justificada porque a decisão do TST **respeita todos os predicados soberanos**, garantindo que a CCT bancária seja válida sob os critérios constitucionais e legais estabelecidos.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O tribunal deve explicar **como a decisão afeta a prática jurídica**, como no caso de definir que o banco de horas é válido apenas se houver negociação coletiva.  \n- **sovereign(prohibition_of_generic_precedent_citation)**: Proíbe a aplicação **mecânica** de precedentes sem análise contextual, como no caso de citar o Tema 1046 apenas para validar a CCT, sem verificar se ela atende aos requisitos.  \n- **sovereign(obligation_to_address_all_legal_arguments)**: O tribunal deve **abordar todos os argumentos** apresentados, como a limitação de 1 ano para o banco de horas e a ausência de supressão de direitos.  \n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão deve ser fundamentada em um **princípio jurídico claro**, como o princípio da adequação setorial negociada.  \n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: O tribunal deve **explicar por que tomou a decisão**, como no caso de justificar que a CCT não viola a CLT porque não suprime direitos.  \n- **sovereign(recognition_of_collective_bargaining)**: Reconhece que a negociação coletiva (CCT) é um **instrumento legal** para definir direitos trabalhistas, desde que respeite a CLT.  \n- **sovereign(right_of_access_to_justice_and_judicial_review)**: Garante que a decisão possa ser **revisada por instâncias superiores**, como o STF, para corrigir possíveis erros.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO tribunal decidiu que o **banco de horas** (acordos de compensação de horas extras) é válido porque:  \n- Foi negociado entre os trabalhadores e a empresa (CCT), como permite a lei.  \n- Não tira direitos básicos dos trabalhadores, apenas redistribui benefícios de forma justa.  \n- Respeita o prazo máximo de 1 ano para compensar horas, como exige a lei.  \n- A decisão foi explicada claramente, sem usar apenas frases genéricas.  \n\nO sistema Q-FENG confirma que a decisão está **em conformidade com a lei**, porque o tribunal:  \n- Explicou como a decisão afeta os trabalhadores.  \n- Não aplicou a lei de forma mecânica, mas analisou o caso específico.  \n- Garantiu que todos os argumentos foram considerados.  \n- Baseou-se em um princípio jurídico claro (negociação coletiva).  \n- Deixou espaço para revisão por tribunais superiores, se necessário.  \n\nEm resumo: **a decisão é válida porque respeita a lei e os direitos dos trabalhadores**, e o sistema Q-FENG confirma que está tudo em ordem.",
+  "tokens_in": 600,
+  "tokens_out": 1839,
+  "latency_ms": 58890,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

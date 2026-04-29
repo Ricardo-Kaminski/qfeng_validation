@@ -1,0 +1,29 @@
+{
+  "sha256": "6447a9d0ca3ba6522d248fdb3e22ac49dfd1f225412788d8cefbfb077b1c354e",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-006",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:53:25Z",
+  "prompt_sha": "ff70c7792d137b7de9402a61d1ce5256e93238b9419f5483de6bca067860f48c",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG chegou à decisão de \"VIOLACAO\" porque identificou que a adoção do banco de horas pela empresa, sem a presença de um sindicato representativo dos trabalhadores, viola várias normas da Consolidação das Leis do Trabalho (CLT). Os predicados soberanos ativos indicam que o sistema considerou os seguintes aspectos:\n\n* A aprovação do regulamento interno em assembleia não é equivalente a uma Convenção Coletiva de Trabalho (CCT) ou a um Acordo Coletivo de Trabalho (ACT), pois essas são formas específicas de negociação coletiva previstas na CLT. O fato de ter sido aprovado em assembleia, sem sindicato presente, não é suficiente para considerá-lo equivalente.\n* A falta de compensação mensal pelos trabalhadores que utilizam o banco de horas pode ser considerada uma violação à norma que estabelece a necessidade de compensação por horas extras trabalhadas. No entanto, o sistema também ativa o predicado `invalidity_of_clause_suppressing_overtime_payment`, sugerindo que a própria existência do banco de horas sem a compensação adequada é uma violação.\n* A adoção do banco de horas sem um acordo escrito entre a empresa e os trabalhadores pode ser considerada uma violação à norma que estabelece a necessidade de um acordo escrito para a compensação por horas extras trabalhadas.\n* Além disso, o sistema também considerou as restrições impostas pela CLT sobre negociação coletiva e direitos dos trabalhadores, como a proibição de reduzir os direitos adicionais aos trabalhadores em relação ao tempo de trabalho.\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\nOs predicados soberanos ativos são:\n\n* `sovereign(semester_hour_bank_requires_cct_or_act)`: Indica que a adoção do banco de horas requer uma Convenção Coletiva de Trabalho (CCT) ou um Acordo Coletivo de Trabalho (ACT) para ser válida.\n* `sovereign(invalidity_of_clause_suppressing_overtime_payment)`: Sugerindo que a própria existência do banco de horas sem compensação adequada é uma violação à norma.\n* `sovereign(weekly_hour_compensation_requires_written_agreement)`: Indica que a compensação por horas extras trabalhadas requer um acordo escrito entre a empresa e os trabalhadores.\n* `sovereign(prohibition_negotiation_reducing_overtime_additional)`: Proíbe a redução dos direitos adicionais aos trabalhadores em relação ao tempo de trabalho.\n* `sovereign(overtime_minimum_additional_50pct)`: Estabelece que o pagamento por horas extras trabalhadas deve ser pelo menos 50% superior ao salário normal do trabalhador.\n* `sovereign(maximum_weekly_working_hours_44h)`: Estabelece o limite máximo de horas semanais de trabalho como 44 horas.\n* `sovereign(maximum_daily_working_hours_8h)`: Estabelece o limite máximo de horas diárias de trabalho como 8 horas.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nEm linguagem simples, a decisão do sistema Q-FENG é que a empresa violou as regras trabalhistas ao adotar o banco de horas sem a presença de um sindicato representativo dos trabalhadores e sem compensação adequada. Isso significa que os trabalhadores têm direito a serem pagos pelo tempo extra trabalhado, e a empresa não pode simplesmente aprovar um regulamento interno em assembleia sem respeitar as regras da CLT.\n\nA decisão do sistema é baseada na ideia de que as regras trabalhistas são para proteger os direitos dos trabalhadores e garantir que eles sejam tratados com justiça. A adoção do banco de horas sem a presença de um sindicato representativo e sem compensação adequada pode ser considerada uma violação desses direitos.\n\nEm resumo, a decisão do sistema Q-FENG é que a empresa deve respeitar as regras trabalhistas e garantir que os trabalhadores sejam tratados com justiça.",
+  "tokens_in": 541,
+  "tokens_out": 988,
+  "latency_ms": 16546,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

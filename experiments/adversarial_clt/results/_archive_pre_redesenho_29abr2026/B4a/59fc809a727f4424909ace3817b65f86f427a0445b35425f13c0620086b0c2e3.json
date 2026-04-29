@@ -1,0 +1,26 @@
+{
+  "sha256": "59fc809a727f4424909ace3817b65f86f427a0445b35425f13c0620086b0c2e3",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-011",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T05:44:53Z",
+  "prompt_sha": "303f6d25275850db752b15d9c7d3d948ca264d609c3666e67b0493fb3b36ada5",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG concluiu que houve uma **violação** de princípios fundamentais do devido processo legal e da segurança jurídica no caso analisado. A decisão judicial que aplicou um Tema de Repercussão Geral (TRG) voltado para servidores públicos a um empregado celetista privado, sem a devida fundamentação, demonstra uma falha na observância de obrigações processuais e materiais.\n\nA aplicação de um TRG, por si só, não é suficiente para justificar uma decisão. É imprescindível que o juiz demonstre a **ratio decidendi** do precedente, ou seja, a razão de ser da decisão, e explique como essa razão se aplica ao caso concreto, demonstrando a analogia entre as situações. A ausência dessa análise, especialmente considerando que o TRG citado não tratava de relações de trabalho privadas, configura uma aplicação genérica e injustificada do precedente.\n\nO Q-FENG, ao identificar essa falha, acionou diversos predicados soberanos que garantem a justiça e a transparência no processo judicial. A decisão do tribunal, ao não observar esses princípios, compromete o direito de acesso à justiça e à revisão judicial da decisão.\n\n## 2. PREDICADOS ATIVADOS:\n\nOs predicados soberanos ativos, no contexto trabalhista brasileiro, significam:\n\n*   **sovereign(obligation_to_state_reasons_for_decisions):**  O juiz tem a obrigação constitucional de fundamentar suas decisões, explicando o raciocínio que o levou à conclusão. Isso garante a transparência e permite que as partes compreendam e contestem a decisão.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):** Reforça o anterior, enfatizando que a obrigação de fundamentar as decisões é um direito fundamental garantido pela Constituição.\n*   **sovereign(obligation_to_address_all_legal_arguments):** O juiz deve analisar e responder a todos os argumentos jurídicos apresentados pelas partes, demonstrando que considerou todas as perspectivas relevantes para o caso.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** A decisão deve ser baseada em uma razão de ser clara e identificada do precedente, demonstrando a aplicabilidade daquele precedente ao caso concreto. Não basta citar um precedente, é preciso explicar como ele se relaciona com a situação em análise.\n*   **sovereign(prohibition_of_generic_precedent_citation):** É vedada a citação genérica de precedentes, sem a devida análise da sua aplicabilidade ao caso concreto. A simples menção a um precedente não justifica uma decisão.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):** Garante o direito de todo cidadão de ter acesso à justiça e de questionar as decisões judiciais, o que só é possível quando as decisões são devidamente fundamentadas e transparentes.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"Imagine que você está sendo julgado e o juiz usa uma regra que vale para funcionários públicos, mas aplica a você, que é um trabalhador contratado por uma empresa. Ele não explica por que essa regra se encaixa no seu caso, nem mostra que a situação é parecida. Isso é o que aconteceu aqui.\n\nO sistema Q-FENG identificou que o juiz não fez o que deveria: ele não explicou por que usou essa regra, não mostrou que ela se aplicava a você, e não respondeu a todos os seus argumentos. Isso é injusto, porque você tem o direito de entender por que está sendo julgado dessa forma e de poder contestar a decisão.\n\nA lei exige que os juízes expliquem suas decisões de forma clara, para que todos entendam e possam verificar se a decisão está correta. Quando isso não acontece, o sistema Q-FENG considera que houve uma violação dos seus direitos.\"",
+  "tokens_in": 491,
+  "tokens_out": 884,
+  "latency_ms": 24562,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

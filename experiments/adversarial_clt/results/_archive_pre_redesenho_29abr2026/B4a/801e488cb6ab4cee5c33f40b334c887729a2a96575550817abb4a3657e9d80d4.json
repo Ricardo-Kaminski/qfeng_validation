@@ -1,0 +1,26 @@
+{
+  "sha256": "801e488cb6ab4cee5c33f40b334c887729a2a96575550817abb4a3657e9d80d4",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T05:36:12Z",
+  "prompt_sha": "ae3ccc45fd00998e54e39da4688a558e454f41be8d8b72c745f2b457cbbefe7d",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, após análise do cenário apresentado – um acórdão trabalhista que cita a doutrina de Sergio Pinto Martins sem fornecer informações precisas sobre a obra, edição, ano ou página – concluiu que houve **violação** de princípios fundamentais do processo judicial. A decisão foi baseada na avaliação da satisfatibilidade como \"UNKNOWN\", indicando que a situação não se enquadra em um cenário de cumprimento integral das obrigações legais.\n\nA principal razão para essa conclusão reside na inobservância da **obrigação de fundamentar as decisões em *ratio decidendi* identificáveis e precisos**. A citação genérica de um autor, sem a indicação da obra específica que embasa o entendimento, impede a verificação da base teórica da decisão, frustrando o direito de acesso à justiça e a possibilidade de controle da legalidade do ato judicial.\n\nO sistema considerou a **proibição de precedentes genéricos**, pois a citação vaga de um autor não contribui para a formação de um precedente claro e útil para a aplicação da lei em casos futuros. A **obrigação de abordar todos os argumentos legais** apresentados pelo recorrente também foi considerada, uma vez que a alegação de falta de fundamentação, amparada no artigo 20 do LINDB, merece análise e resposta, e não pode ser ignorada por meio de uma citação doutrinária imprecisa.  A **obrigação constitucional de motivar as decisões** e a **soberania do Estado em garantir as consequências práticas de suas decisões** também foram fatores relevantes, pois a falta de clareza na fundamentação compromete a transparência e a legitimidade do processo. Finalmente, o **direito de acesso à justiça e judicial review** do recorrente foi considerado violado, pois a ausência de informações precisas sobre a fonte da doutrina citada impede a sua capacidade de verificar a correção da aplicação da lei.\n\n## 2. PREDICADOS ATIVADOS:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  O Estado, como detentor do poder de decisão, tem a obrigação de assegurar que suas decisões produzam efeitos claros e previsíveis na realidade, o que só é possível com uma fundamentação robusta e transparente.\n*   **sovereign(prohibition_of_generic_precedent_citation):** O sistema jurídico brasileiro não permite a utilização de citações doutrinárias genéricas como forma de fundamentar decisões. As citações devem ser específicas e direcionadas para a construção de precedentes claros e aplicáveis.\n*   **sovereign(obligation_to_address_all_legal_arguments):** O juiz tem a obrigação de analisar e responder a todos os argumentos legais apresentados pelas partes em um processo judicial, garantindo o contraditório e a ampla defesa.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):**  As decisões judiciais devem ser fundamentadas em *ratio decidendi* (o princípio jurídico que fundamenta a decisão) identificáveis e precisos, permitindo a compreensão da lógica utilizada e a possibilidade de controle da legalidade.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):** A Constituição Federal garante o direito fundamental à motivação das decisões judiciais, assegurando a transparência e a possibilidade de controle da legalidade.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):**  O acesso à justiça e o direito de controle da legalidade das decisões judiciais são direitos fundamentais, que dependem da clareza e da precisão da fundamentação utilizada.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"Imagine que você está tentando entender por que o juiz tomou uma decisão sobre suas horas extras. Ele diz que se baseou na opinião de um especialista, mas não diz qual livro, artigo ou página ele usou. É como se ele dissesse: 'Eu me baseei em um livro, mas você não pode saber qual'. Isso não é justo!\n\nA lei diz que o juiz precisa explicar exatamente por que ele decidiu daquela forma, mostrando de onde tirou a ideia. Se ele não diz qual a fonte, você não consegue verificar se ele está certo ou não, e isso impede que você defenda seus direitos.\n\nO sistema Q-FENG achou que o juiz não cumpriu essa obrigação de explicar direito a decisão.  É como se ele estivesse escondendo a base do seu raciocínio. Isso é uma violação do seu direito de entender a decisão e de poder contestá-la, se você não concordar.\"\n",
+  "tokens_in": 505,
+  "tokens_out": 1036,
+  "latency_ms": 28719,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

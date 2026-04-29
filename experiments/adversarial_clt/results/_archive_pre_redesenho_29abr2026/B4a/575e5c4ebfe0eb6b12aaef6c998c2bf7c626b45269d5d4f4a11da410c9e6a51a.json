@@ -1,0 +1,26 @@
+{
+  "sha256": "575e5c4ebfe0eb6b12aaef6c998c2bf7c626b45269d5d4f4a11da410c9e6a51a",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-012",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T04:30:10Z",
+  "prompt_sha": "5a8f6c7e3f499c88bbaaf7f049ff195a1844aab8c62088076ae22a749461e3d3",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação na forma como o TRT (Tribunal Regional do Trabalho) utilizou um precedente do STJ (Superior Tribunal de Justiça) para fundamentar sua decisão sobre dano moral trabalhista. A análise foi baseada em predicados soberanos que estabelecem padrões normativos e procedimentais para a tomada de decisões judiciais no contexto jurídico brasileiro.\n\nO TRT não discutiu a compatibilidade do precedente civil com o regime jurídico trabalhista, especialmente após as alterações introduzidas pela Reforma Trabalhista de 2017. Isso levou à ativação dos seguintes predicados soberanos:\n\n- **Obrigação de declarar as consequências práticas da decisão**: O TRT não esclareceu como o uso do precedente civil afetaria a aplicação das normas trabalhistas, especialmente em relação aos critérios para fixação de dano moral.\n  \n- **Proibição de citação genérica de precedentes**: A utilização do precedente do STJ sem análise específica sobre sua compatibilidade com o regime jurídico trabalhista viola a norma que proíbe a aplicação indiscriminada de precedentes de outros ramos do direito.\n  \n- **Obrigação de abordar todos os argumentos legais**: O TRT não considerou adequadamente as diferenças entre o regime civil e o trabalhista, especialmente após a Reforma Trabalhista, que alterou critérios para fixação de dano moral.\n  \n- **Obrigação de fundamentar a decisão no ratio decidendi identificado**: A decisão não foi adequadamente ancorada nos princípios específicos do direito trabalhista, resultando em uma aplicação inadequada do precedente civil.\n  \n- **Obrigação constitucional de declarar as razões das decisões**: O TRT falhou em explicar claramente por que o precedente civil foi considerado aplicável ao caso trabalhista, sem discutir suas implicações no contexto específico da CLT.\n\nEsses predicados ativos indicam que a decisão do TRT não cumpriu com os requisitos procedimentais e substantivos necessários para uma aplicação correta dos precedentes em casos trabalhistas, resultando na recomendação de \"VIOLACAO\" pelo Q-FENG.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obrigação de declarar as consequências práticas da decisão**: Significa que o tribunal deve explicar como a aplicação de um precedente afeta a situação específica do caso, especialmente em termos de direitos e obrigações das partes envolvidas.\n\n- **Proibição de citação genérica de precedentes**: Refere-se à necessidade de analisar cuidadosamente se um precedente de outra área do direito é aplicável ao contexto específico do caso, evitando aplicações automáticas que não considerem as particularidades do regime jurídico em questão.\n\n- **Obrigação de abordar todos os argumentos legais**: Implica que o tribunal deve considerar todas as normas e argumentos relevantes para a decisão, garantindo uma análise completa e justa do caso.\n\n- **Obrigação de fundamentar a decisão no ratio decidendi identificado**: Exige que a decisão seja baseada nos princípios e razões específicas que guiaram o precedente aplicado, assegurando que a aplicação é correta e relevante ao caso em questão.\n\n- **Obrigação constitucional de declarar as razões das decisões**: Estabelece que o tribunal deve fornecer uma explicação clara e fundamentada para sua decisão, permitindo que as partes compreendam a lógica jurídica aplicada e garantindo transparência no processo judicial.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG identificou um problema na forma como o tribunal trabalhista usou uma decisão de outro tipo de caso (civil) para decidir sobre um assunto relacionado a danos morais no trabalho. O tribunal não explicou bem por que essa decisão civil deveria ser aplicada ao caso do trabalho, especialmente depois das mudanças feitas na lei trabalhista em 2017.\n\nIsso é importante porque as regras para casos de trabalho são diferentes das regras para outros tipos de casos. O tribunal precisava mostrar claramente como essa decisão civil se encaixaria no contexto do trabalho e explicar por que ela era relevante, mas não fez isso corretamente.\n\nPortanto, o sistema Q-FENG recomendou que houve uma violação porque o tribunal não seguiu os passos necessários para garantir que a decisão fosse justa e bem fundamentada.",
+  "tokens_in": 514,
+  "tokens_out": 1097,
+  "latency_ms": 32140,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

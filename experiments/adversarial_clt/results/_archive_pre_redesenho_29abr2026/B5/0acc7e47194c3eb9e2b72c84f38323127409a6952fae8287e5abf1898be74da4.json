@@ -1,0 +1,43 @@
+{
+  "sha256": "0acc7e47194c3eb9e2b72c84f38323127409a6952fae8287e5abf1898be74da4",
+  "braco": "B5",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T13:49:26Z",
+  "prompt_sha": "f6f57ca168552536f5be0114c8dd6df11ce4c3c0626eeb91fd7acf9e3c9be0d8",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO motor de inferência Q-FENG classificou o caso como **VIOLACAO** devido à **fricção ontológica θ = 127,81°**, que excede o limiar de **120°** para o regime **CIRCUIT_BREAKER** (supressão de ação). Essa fricção reflete uma **incompatibilidade estrutural entre a prática da empresa e os predicados soberanos ativos**, que representam normas jurídicas fundamentais no Direito do Trabalho brasileiro.  \n\nOs predicados **sovereign(semester_hour_bank_requires_cct_or_act)** e **sovereign(prohibition_negotiation_reducing_overtime_additional)** indicam que:  \n- **Bancos de horas semestrais** (como o adotado pela empresa) **devem ser negociados coletivamente** (via Acordo Coletivo de Trabalho ou Convenção Coletiva de Trabalho), **não individualmente**.  \n- **Cláusulas que suprimem ou reduzem a remuneração por horas extras** (como a compensação em até 5 meses) são **ilegais**, pois a **lei exige a remuneração de horas extras com adicional de 50%** (predicado **overtime_minimum_additional_50pct**).  \n\nA **fricção ontológica** mede a **desalinhamento entre a prática da empresa (evidência neural ψ_N) e as normas simbólicas ψ_S** (predicados Clingo). Neste caso, a empresa **viola normas de proteção coletiva** (ausência de CCT/ACT) e **viola direitos individuais** (supressão de adicional de horas extras). O **ângulo θ negativo (cos(θ) = -0,6131)** reforça a **oposição direta entre a ação da empresa e as normas legais**.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n**a) sovereign(semester_hour_bank_requires_cct_or_act)**  \n- **Significado jurídico**: Bancos de horas semestrais **só podem ser implementados mediante acordo coletivo** (CCT/ACT), **não por acordos individuais**. A ausência de negociação coletiva invalida a prática.  \n\n**b) sovereign(invalidity_of_clause_suppressing_overtime_payment)**  \n- **Significado jurídico**: Cláusulas que **suprimem ou reduzem o adicional de horas extras** (como compensação em até 5 meses) são **nulas**, pois a **Lei 13.467/2017** exige o pagamento de horas extras com adicional de 50% (predicado **overtime_minimum_additional_50pct**).  \n\n**c) sovereign(weekly_hour_compensation_requires_written_agreement)**  \n- **Significado jurídico**: Compensação de horas extras **só é válida se houver acordo escrito** (individual ou coletivo). A ausência de cláusula escrita pode invalidar a compensação.  \n\n**d) sovereign(prohibition_negotiation_reducing_overtime_additional)**  \n- **Significado jurídico**: **Não é permitido negociação que reduza ou suprima o adicional de horas extras**. Isso viola a **proteção mínima do trabalhador** estabelecida no art. 59 da CLT.  \n\n**e) sovereign(maximum_weekly_working_hours_44h)**  \n- **Significado jurídico**: A **duração máxima semanal de trabalho é 44 horas** (art. 59 da CLT). Se o banco de horas ultrapassar esse limite, é ilegal.  \n\n**f) sovereign(maximum_daily_working_hours_8h)**  \n- **Significado jurídico**: A **duração máxima diária de trabalho é 8 horas** (art. 59 da CLT). Excesso viola a norma.  \n\n**g) elastic(hour_bank_without_cct_max_6_months)**  \n- **Significado jurídico**: Se o banco de horas for implementado **sem CCT/ACT**, a compensação deve ocorrer **em até 6 meses**, não 5. A empresa está **fora do limite legal**.  \n\n---\n\n### 3. **INTERPRETAÇÃO DO REGIME**  \nO regime **CIRCUIT_BREAKER** (θ ≥ 120°) significa que o **sistema Q-FENG bloqueia qualquer ação** (como a implementação do banco de horas) devido à **violação grave de normas jurídicas**. Operacionalmente:  \n- **A empresa não pode continuar com o banco de horas** adotado, pois:  \n  - **Não há acordo coletivo** (viola **sovereign(semester_hour_bank_requires_cct_or_act)**).  \n  - **A compensação em até 5 meses** viola a **proibição de supressão de adicional de horas extras** (viola **sovereign(invalidity_of_clause_suppressing_overtime_payment)**).  \n- **O sistema recomenda a \"VIOLACAO\"**, ou seja, a **prática da empresa é ilegal**, e **os empregados têm direito a reclamar judicialmente**.  \n\n---\n\n### 4. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa **não pode usar acordos individuais** para criar um banco de horas semestral. A lei exige que isso seja feito **com o sindicato dos trabalhadores ou das empresas** (negociação coletiva). Além disso, **não pode compensar horas extras em até 5 meses**, pois a lei exige que o adicional de 50% seja pago. A empresa **viola a lei**, e os trabalhadores podem **reclamar no tribunal** para que isso seja corrigido. O sistema Q-FENG diz que a empresa **não pode continuar com essa prática**.",
+  "tokens_in": 793,
+  "tokens_out": 1933,
+  "latency_ms": 64843,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": "",
+  "t_clingo_ms": 46,
+  "t_llm_ms": 64796,
+  "t_psi_build_ms": 0,
+  "t_theta_compute_ms": 0,
+  "qfeng_psi_n_dim": 2,
+  "qfeng_psi_s_dim": 2,
+  "qfeng_theta_rad": 2.2307694050963036,
+  "qfeng_theta_deg": 127.81367197892763,
+  "qfeng_theta_eff_rad": 2.2307694050963036,
+  "qfeng_theta_eff_deg": 127.81367197892763,
+  "qfeng_regime": "BLOCK",
+  "qfeng_p_action": 0.3869044161814975,
+  "qfeng_cos_theta": -0.6130955838185024,
+  "qfeng_cb_threshold_deg": 119.99999999999999
+}

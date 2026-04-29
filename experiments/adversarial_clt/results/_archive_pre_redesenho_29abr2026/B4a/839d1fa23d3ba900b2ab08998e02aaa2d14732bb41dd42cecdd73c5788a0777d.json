@@ -1,0 +1,26 @@
+{
+  "sha256": "839d1fa23d3ba900b2ab08998e02aaa2d14732bb41dd42cecdd73c5788a0777d",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-007",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T04:22:50Z",
+  "prompt_sha": "a8826b990f48a3abad17b87cd070c771a9e46b427fb5e297b0c0991d8fc5f2a0",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação na aplicação de precedentes pelo Tribunal Superior do Trabalho (TST) ao julgar um recurso de revista. A decisão foi baseada em um Informativo de Jurisprudência Descentralizada Regional (IRDR) do TRT da 15ª Região, que não possui eficácia nacional e não foi reconhecido como precedente vinculante pelo TST. Isso contraria a norma processual civil que estabelece os critérios para o uso de precedentes no sistema jurídico brasileiro.\n\nOs predicados soberanos ativos indicam várias obrigações e princípios fundamentais que foram considerados na análise:\n\n- **Obrigação de declarar as consequências práticas da decisão**: O TST deve explicar como a aplicação do IRDR afeta o caso específico, garantindo clareza sobre os impactos práticos.\n  \n- **Proibição de citação genérica de precedentes**: A utilização de um IRDR sem eficácia nacional como se fosse um precedente vinculante viola a regra que proíbe o uso indiscriminado de decisões não formalmente reconhecidas.\n\n- **Obrigação de abordar todos os argumentos legais apresentados**: O TST deve considerar todas as questões levantadas pelas partes, incluindo a inaplicabilidade do IRDR como precedente nacional.\n\n- **Obrigação de fundamentar a decisão no ratio decidendi identificado**: A fundamentação da decisão deve estar claramente ligada ao motivo jurídico que justifica o resultado, sem recorrer indevidamente a fontes não vinculantes.\n\n- **Obrigação constitucional de declarar as razões das decisões**: É necessário explicitar os motivos pelos quais determinadas decisões foram tomadas, garantindo transparência e compreensão do processo judicial.\n\n- **Direito ao acesso à justiça e revisão judicial**: Garantir que o recurso seja julgado com base em critérios legítimos é essencial para proteger os direitos das partes envolvidas.\n\n### 2. PREDICADOS ATIVADOS\n\nNo contexto trabalhista brasileiro, cada predicado soberano ativo representa um princípio ou obrigação jurídica:\n\n- **Obrigação de declarar as consequências práticas da decisão**: Garante que a decisão judicial seja clara em suas implicações para os envolvidos.\n\n- **Proibição de citação genérica de precedentes**: Assegura que apenas precedentes formalmente reconhecidos sejam usados como base para decisões, mantendo a integridade do sistema jurídico.\n\n- **Obrigação de abordar todos os argumentos legais apresentados**: Reforça a necessidade de considerar todas as questões levantadas pelas partes no processo, garantindo uma análise justa e completa.\n\n- **Obrigação de fundamentar a decisão no ratio decidendi identificado**: Exige que a decisão seja baseada em um motivo jurídico claro e específico, evitando interpretações arbitrárias.\n\n- **Obrigação constitucional de declarar as razões das decisões**: Promove transparência e compreensão no processo judicial, permitindo que as partes entendam os fundamentos da decisão.\n\n- **Direito ao acesso à justiça e revisão judicial**: Protege o direito das partes de terem suas questões julgadas com base em critérios legítimos e justos.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG identificou um problema na forma como uma decisão foi tomada pelo Tribunal Superior do Trabalho (TST). Eles usaram uma regra de outro tribunal regional que não tem força nacional, tratando-a como se fosse uma regra obrigatória para todo o país. Isso é importante porque as regras devem ser aplicadas corretamente e com base em critérios legais claros.\n\nO TST deveria explicar melhor por que usou essa regra regional específica, considerando todos os argumentos apresentados pelos envolvidos no caso. Além disso, é essencial que as decisões sejam tomadas com base em razões bem fundamentadas e compreensíveis para todas as partes.\n\nEm resumo, o TST não seguiu corretamente os procedimentos legais ao usar uma regra regional como se fosse nacional, o que pode afetar a justiça do caso.",
+  "tokens_in": 546,
+  "tokens_out": 1036,
+  "latency_ms": 30421,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,30 @@
+{
+  "sha256": "73d8bd2721f8518366189d9860f96ca54a57b053c4976bb25e27d1816b9962ae",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T05:07:40Z",
+  "prompt_sha": "ae558655ffa0f1123903cf70da28171aff110a52218cb4360d65fad0dbdb72bf",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, ao analisar o caso apresentado pelo TRT (Tribunal Regional do Trabalho) referente a um banco de horas sem CCT (Convenção Coletiva de Trabalho) ou ACT (Acordo Coletivo de Trabalho), chegou à decisão de conformidade com base nos predicados soberanos ativos. A aplicação da Súmula TST 85 foi identificada como apropriada para o caso, especificamente os itens I, II e V, que tratam das condições necessárias para a validade do banco de horas.\n\nOs predicados soberanos garantem que a decisão esteja fundamentada na prática legal vigente. O sistema confirmou que não havia CCT/ACT estabelecendo o banco de horas, conforme exigido pela legislação e jurisprudência trabalhista brasileira. Assim, todas as horas excedentes foram consideradas como extras, com adicional de 50%, em conformidade com a Súmula TST 85.\n\nA tese da empresa sobre um \"acordo tácito\" foi rejeitada, pois o sistema reconheceu que tal acordo não pode substituir formalmente uma CCT/ACT para estabelecer um banco de horas válido. A decisão está alinhada com a obrigação constitucional de fundamentar as decisões judiciais e respeitar os direitos coletivos negociados, conforme os predicados soberanos ativos.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obrigação de declarar as consequências práticas da decisão**: Este predicado exige que a decisão judicial explique claramente quais são os efeitos práticos sobre as partes envolvidas, garantindo transparência e compreensão das implicações legais.\n\n- **Proibição de citação genérica de precedentes**: Assegura que qualquer referência a decisões anteriores deve ser específica e diretamente aplicável ao caso em questão, evitando generalizações que possam levar a interpretações errôneas.\n\n- **Obrigação de abordar todos os argumentos legais apresentados**: Garante que todas as teses e defesas levantadas pelas partes sejam consideradas na decisão final, promovendo uma análise completa e justa do caso.\n\n- **Obrigação de fundamentar a decisão no ratio decidendi identificado**: Exige que a base legal da decisão seja claramente estabelecida, referindo-se ao motivo principal pelo qual o tribunal decidiu como fez.\n\n- **Obrigação constitucional de declarar as razões das decisões**: Assegura que todas as decisões judiciais sejam acompanhadas de uma fundamentação detalhada, permitindo a compreensão e revisão do raciocínio adotado pelo tribunal.\n\n- **Reconhecimento da negociação coletiva**: Reforça o valor das CCTs/ACTs como instrumentos legais válidos para estabelecer condições de trabalho, incluindo bancos de horas.\n\n- **Direito de acesso à justiça e revisão judicial**: Garante que as partes tenham a possibilidade de buscar reparação legal e que suas decisões sejam passíveis de análise por instâncias superiores.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO tribunal decidiu que, como não havia um acordo formal entre o banco e os trabalhadores sobre as horas extras (chamado de CCT ou ACT), todas essas horas devem ser pagas com um adicional de 50%. Isso é baseado em regras específicas que dizem que sem esse acordo escrito, qualquer hora extra deve ter esse bônus.\n\nA empresa alegou que havia um entendimento informal entre eles e os funcionários sobre o banco de horas, mas isso não foi aceito. A lei exige que esses acordos sejam feitos por escrito para serem válidos. Portanto, todos os trabalhadores têm direito ao pagamento extra pelas horas adicionais trabalhadas.",
+  "tokens_in": 593,
+  "tokens_out": 929,
+  "latency_ms": 26967,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

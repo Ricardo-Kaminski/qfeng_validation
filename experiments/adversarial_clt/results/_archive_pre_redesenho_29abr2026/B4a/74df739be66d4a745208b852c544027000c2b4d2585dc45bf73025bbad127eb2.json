@@ -1,0 +1,27 @@
+{
+  "sha256": "74df739be66d4a745208b852c544027000c2b4d2585dc45bf73025bbad127eb2",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T04:53:16Z",
+  "prompt_sha": "9ea3cbb73b13c3be77a30f2262e99311a38ad1cb70d480f6518cd2867401d28a",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que a empresa está em conformidade com o acordo coletivo de trabalho (CCT) firmado pela trabalhadora. A decisão se baseia na análise dos predicados soberanos e elásticos ativos, considerando as normas vigentes e os termos negociados no CCT.\n\nOs predicados soberanos ativos indicam que a empresa deve respeitar o reconhecimento do acordo coletivo de trabalho (sovereign(recognition_of_collective_bargaining)), além das limitações máximas de horas trabalhadas semanalmente (44 horas) e diariamente (8 horas). O período de licença maternidade não foi incluído no cômputo do banco de horas, conforme prática comum em muitos CCTs que permitem a suspensão temporária desses acordos durante períodos legais de ausência.\n\nO predicado elastic(annual_hour_bank_negotiable) sugere que o período máximo para compensação das horas acumuladas no banco pode ser negociado, e neste caso específico, foi estabelecido em 6 meses. A empresa reativou o cômputo após o retorno da trabalhadora à atividade laboral, cumprindo assim o prazo acordado de 8 meses para a compensação total das horas acumuladas.\n\nPortanto, a decisão de conformidade se sustenta no respeito aos termos negociados e às normas legais vigentes, sem necessidade de incluir o período de licença maternidade no cômputo do banco de horas.\n\n### 2. PREDICADOS ATIVADOS\n\n- **sovereign(recognition_of_collective_bargaining)**: Este predicado enfatiza a importância e o reconhecimento dos acordos coletivos de trabalho, que são contratos entre empregadores e sindicatos que estabelecem condições específicas para os trabalhadores além das leis gerais. No contexto brasileiro, esses acordos têm força legal e devem ser respeitados pelas partes envolvidas.\n\n- **sovereign(maximum_weekly_working_hours_44h)**: Refere-se à norma que estabelece o limite máximo de 44 horas semanais para a jornada de trabalho, conforme previsto na Consolidação das Leis do Trabalho (CLT). Qualquer acordo coletivo deve respeitar esse limite, salvo disposição em contrário negociada entre as partes.\n\n- **sovereign(maximum_daily_working_hours_8h)**: Indica o limite máximo de 8 horas diárias para a jornada de trabalho, também estabelecido na CLT. Este limite é uma garantia fundamental dos direitos trabalhistas no Brasil e deve ser observado em todos os acordos.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG decidiu que a empresa está agindo corretamente de acordo com o acordo feito entre vocês, a trabalhadora, e o banco. Quando você entrou em licença maternidade, o banco de horas foi pausado, como muitos acordos permitem. Depois que você voltou ao trabalho, eles retomaram o cômputo das horas extras acumuladas.\n\nO acordo dizia que essas horas deveriam ser compensadas em até 8 meses após o retorno. Como isso aconteceu dentro desse prazo, a empresa está seguindo as regras do acordo e da lei. Portanto, não é necessário incluir o tempo de licença maternidade no cômputo das horas extras acumuladas.",
+  "tokens_in": 512,
+  "tokens_out": 819,
+  "latency_ms": 23719,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

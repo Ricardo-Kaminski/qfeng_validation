@@ -1,0 +1,29 @@
+{
+  "sha256": "69734027f2fc09ea8a2dd5e779af1bc14a12078b6010ff1acda49cac9413cf12",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-011",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T03:04:46Z",
+  "prompt_sha": "aeb9b5c946ebb59b38edd736d6611be0631b55d3a7fb6273720cc5584c08a93c",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nA decisão de **VIOLACAO** resulta da análise dos predicados soberanos ativos, que refletem normas da CLT e princípios constitucionais. O **predicado sovereign(invalidity_of_clause_suppressing_overtime_payment)** é central: ele afirma que **cláusulas que renunciam ao adicional de horas extras são inválidas**, conforme o **Art. 611-B, IX da CLT**, que proíbe acordos que reduzam ou eliminem o direito ao adicional de horas extras.  \n\nAlém disso, o **predicado sovereign(prohibition_negotiation_reducing_overtime_additional)** reforça que **não é permitido negociar a redução do adicional de horas extras**, mesmo em CCTs, por ser um direito inalienável do trabalhador. O **predicado sovereign(weekly_hour_compensation_requires_written_agreement)** também é relevante: ele exige que qualquer compensação de horas (como o banco de horas) seja feita por **escrito**, o que não foi cumprido no caso, pois a cláusula renunciando ao adicional foi inserida **sem garantir a compensação obrigatória**.  \n\nA combinação desses predicados leva à conclusão de que a cláusula viola a CLT, pois **não pode existir um acordo que sacrifique o direito ao adicional de horas extras**, mesmo com a existência de um banco de horas.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(semester_hour_bank_requires_cct_or_act)**: O banco de horas semestral só pode ser estabelecido por meio de **Convenção Coletiva de Trabalho (CCT)** ou **Atos Normativos** da categoria, garantindo transparência e legitimidade.  \n- **sovereign(invalidity_of_clause_suppressing_overtime_payment)**: Cláusulas que **renunciam ao adicional de horas extras** são **inválidas**, conforme o **Art. 611-B, IX da CLT**, que protege o direito do trabalhador ao pagamento de horas extras.  \n- **sovereign(weekly_hour_compensation_requires_written_agreement)**: A compensação de horas (como o banco de horas) **deve ser feita por escrito**, garantindo que o trabalhador tenha clareza sobre os termos de compensação.  \n- **sovereign(prohibition_negotiation_reducing_overtime_additional)**: **É proibido negociar a redução do adicional de horas extras**, pois é um direito inalienável do trabalhador.  \n- **sovereign(overtime_minimum_additional_50pct)**: O adicional de horas extras **não pode ser inferior a 50%** do valor da hora normal, conforme a CLT.  \n- **sovereign(maximum_weekly_working_hours_44h)**: A jornada semanal **não pode ultrapassar 44 horas**, limitando o tempo de trabalho.  \n- **sovereign(maximum_daily_working_hours_8h)**: A jornada diária **não pode exceder 8 horas**, protegendo o trabalhador contra exaustão.  \n- **elastic(hour_bank_without_cct_max_6_months)**: O banco de horas **sem CCT só pode ser estabelecido por até 6 meses**, garantindo que não haja acumulação prolongada de horas.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA cláusula que tenta tirar o direito dos trabalhadores de receber o adicional de horas extras **não é válida**. A lei (CLT) diz que **não pode existir um acordo que sacrifique esse direito**, mesmo se houver um banco de horas. O trabalhador tem **direito a ser pago por horas extras**, e a empresa **não pode exigir que ele renuncie a esse pagamento**. Além disso, a compensação do banco de horas **precisa estar claramente escrita**, e a cláusula em questão não cumpre esse requisito. Portanto, a cláusula **viola a lei**, e os trabalhadores têm razão ao questioná-la.  \n\n---  \n**Nota**: A decisão de \"VIOLACAO\" indica que a cláusula **não pode ser aplicada**, pois viola normas da CLT e direitos fundamentais do trabalhador.",
+  "tokens_in": 553,
+  "tokens_out": 1541,
+  "latency_ms": 47609,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

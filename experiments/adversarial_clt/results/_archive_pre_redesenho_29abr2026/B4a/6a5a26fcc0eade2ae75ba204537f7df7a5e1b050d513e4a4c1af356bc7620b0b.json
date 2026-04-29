@@ -1,0 +1,26 @@
+{
+  "sha256": "6a5a26fcc0eade2ae75ba204537f7df7a5e1b050d513e4a4c1af356bc7620b0b",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T05:17:29Z",
+  "prompt_sha": "10b999c1978cb6ff2256926b41518f7e0ab9d2b1c6d6aeefb718ef2123bf70b9",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que a empresa está em conformidade com as normas trabalhistas vigentes no Brasil. Essa conclusão foi alcançada após uma análise detalhada dos predicados soberanos ativos, que orientam o processo de tomada de decisão. O predicado \"obligation_to_state_practical_consequences_of_decision\" garante que as consequências práticas da decisão sejam claramente delineadas, refletindo a transparência na aplicação das normas trabalhistas. A \"prohibition_of_generic_precedent_citation\" impede o uso de precedentes genéricos que não estejam diretamente relacionados ao caso em questão, assegurando uma análise específica e contextualizada.\n\nAlém disso, a \"obligation_to_address_all_legal_arguments\" exige que todas as argumentações legais pertinentes sejam consideradas, garantindo uma avaliação abrangente das práticas da empresa. A \"obligation_to_ground_decision_in_identified_ratio_decidendi\" obriga a fundamentação da decisão em razões jurídicas identificáveis, promovendo uma base sólida e justificada para a conformidade. O \"constitutional_obligation_to_state_reasons_for_decisions\" assegura que as razões para a decisão sejam explicitadas, reforçando o princípio da transparência.\n\nPor fim, o \"right_of_access_to_justice_and_judicial_review\" protege o direito de acesso à justiça e ao controle judicial das decisões, garantindo que qualquer parte interessada possa buscar revisão se necessário. Com base nesses predicados, a empresa cumpre as exigências legais estabelecidas, sem indícios de infração ou reclamações pendentes.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obligation to State Practical Consequences of Decision**: Juridicamente, isso significa que qualquer decisão deve ser acompanhada por uma explicação clara sobre como ela afetará a prática cotidiana da empresa e dos empregados, garantindo transparência e compreensão das normas aplicadas.\n\n- **Prohibition of Generic Precedent Citation**: No contexto trabalhista brasileiro, isso implica que decisões devem ser baseadas em precedentes específicos e diretamente relacionados ao caso, evitando generalizações que não consideram as particularidades do cenário atual.\n\n- **Obligation to Address All Legal Arguments**: Isso exige que todas as questões legais relevantes sejam analisadas e respondidas na decisão, garantindo uma avaliação completa das práticas da empresa em relação à legislação trabalhista.\n\n- **Obligation to Ground Decision in Identified Ratio Decidendi**: Juridicamente, isso significa fundamentar a decisão em razões legais claras e identificáveis, assegurando que a conformidade seja baseada em princípios jurídicos sólidos.\n\n- **Constitutional Obligation to State Reasons for Decisions**: Isso exige que sejam explicitadas as razões pelas quais uma decisão foi tomada, promovendo transparência e justificativa nas ações da empresa perante a legislação trabalhista.\n\n- **Right of Access to Justice and Judicial Review**: Garante o direito de qualquer parte interessada de buscar revisão judicial das decisões, assegurando que haja mecanismos para contestar ou confirmar a conformidade com a lei.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG verificou e concluiu que sua empresa está seguindo todas as regras trabalhistas corretamente. Isso significa que o horário de trabalho, os intervalos e a forma como vocês registram suas horas estão tudo dentro do que é permitido pela lei. Não há problemas ou reclamações pendentes sobre essas práticas.\n\nOs especialistas analisaram todas as possíveis questões legais relacionadas ao seu trabalho e garantiram que nada está fora das regras. Eles também explicaram claramente por que a empresa está em conformidade, para que todos entendam como as decisões foram tomadas.\n\nSe você ou qualquer um de seus colegas tiver alguma dúvida ou quiser contestar essa conclusão, há meios legais disponíveis para revisar a situação. Mas, conforme o sistema verificou, tudo está em ordem!",
+  "tokens_in": 526,
+  "tokens_out": 994,
+  "latency_ms": 28812,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,30 @@
+{
+  "sha256": "106312f6cdac9cdb18e9779eea27822227f1a224abb29b6111eb833f88db3a43",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-007",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T03:50:59Z",
+  "prompt_sha": "db7b7f8d2770500cb0104fdeeec443628af6b6ec1fc50f5b30f49d02934b8843",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG, ao analisar a decisão judicial, concluiu que a **CONFORMIDADE** com os predicados soberanos ativos é a ação recomendada. Isso ocorre porque:  \n- **Obrigação de estabelecer consequências práticas da decisão** (sovereign(obligation_to_state_practical_consequences_of_decision)): A decisão judicial deve ter efeitos concretos, como a reintegração da trabalhadora, conforme exigido pela CF/88 Art. 10, II, \"b\" (ADCT) e pela Súmula TST 244.  \n- **Proibição de citação genérica de precedentes** (sovereign(prohibition_of_generic_precedent_citation)): A decisão não pode se basear apenas em princípios gerais, mas em fundamentos específicos, como a OJ 399 da SDI-1, que afasta a necessidade de comunicação prévia da gravidez.  \n- **Obrigação de abordar todos os argumentos jurídicos** (sovereign(obligation_to_address_all_legal_arguments)): O TRT analisou a gravidez prévia à dispensa e a ausência de justa causa, conforme exigido pela CLT.  \n- **Fundamentação na razão decidendi identificada** (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)): A decisão está baseada no **ratio decidendi** da OJ 399, que reconhece a estabilidade provisória da gestante independentemente da comunicação prévia.  \n- **Obrigação constitucional de fundamentar a decisão** (sovereign(constitutional_obligation_to_state_reasons_for_decisions)): A fundamentação completa, com referência à CF/88 e à jurisprudência do TST, cumpre o princípio da motivação judicial.  \n- **Reconhecimento da negociação coletiva** (sovereign(recognition_of_collective_bargaining)): A análise considera a possibilidade de acordos coletivos (CCT) que podem influenciar a aplicação de normas trabalhistas.  \n- **Direito de acesso à justiça e revisão judicial** (sovereign(right_of_access_to_judicial_review)): A reintegração da trabalhadora é uma garantia de acesso à justiça, conforme previsto na CLT e na CF/88.  \n\nA **satisfatibilidade UNKNOWN** indica que o sistema não pode confirmar se todos os requisitos foram plenamente atendidos, mas a **CONFORMIDADE** é recomendada para alinhar a decisão aos predicados soberanos ativos.\n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O tribunal deve garantir que a decisão tenha efeitos reais, como a reintegração da trabalhadora.  \n- **sovereign(prohibition_of_generic_precedent_citation)**: A decisão não pode se basear apenas em princípios gerais, mas em fundamentos específicos (ex.: OJ 399).  \n- **sovereign(obligation_to_address_all_legal_arguments)**: O tribunal deve considerar todos os argumentos jurídicos, como a gravidez prévia e a ausência de justa causa.  \n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão deve ser fundamentada em uma **razão decidendi** clara, como a estabilidade provisória da gestante.  \n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: O tribunal deve expor suas razões com transparência, conforme exigido pela CF/88.  \n- **sovereign(recognition_of_collective_bargaining)**: A negociação coletiva (CCT) pode influenciar a aplicação de normas trabalhistas, como o limite de 1 ano para o banco de horas.  \n- **sovereign(right_of_access_to_judicial_review)**: O trabalhador tem direito a revisão judicial, garantindo que a decisão respeite seus direitos.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA decisão do tribunal está correta porque:  \n- **A empresa não pode demitir uma gestante sem motivo válido**, mesmo que a gravidez tenha ocorrido antes da demissão.  \n- **A lei (CF/88 e OJ 399)** diz que a gestante tem direito a ficar no emprego até o fim da gravidez, **sem precisar avisar a empresa** sobre a gravidez.  \n- **O tribunal explicou bem** por que a demissão foi inválida, usando a lei e a jurisprudência do TST.  \n- **A empresa deve reintegrar a trabalhadora**, pois a demissão foi injusta.  \n- **A decisão respeita os direitos da trabalhadora**, garantindo que ela tenha acesso à justiça e que a empresa siga as regras da CLT.  \n\nEm resumo: **A demissão foi errada, e a trabalhadora deve voltar ao emprego**. O tribunal agiu corretamente ao seguir a lei e proteger os direitos da gestante.",
+  "tokens_in": 587,
+  "tokens_out": 1840,
+  "latency_ms": 58530,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

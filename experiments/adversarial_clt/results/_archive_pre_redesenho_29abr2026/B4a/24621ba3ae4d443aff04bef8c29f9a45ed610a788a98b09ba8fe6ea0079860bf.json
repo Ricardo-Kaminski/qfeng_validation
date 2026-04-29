@@ -1,0 +1,26 @@
+{
+  "sha256": "24621ba3ae4d443aff04bef8c29f9a45ed610a788a98b09ba8fe6ea0079860bf",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-008",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:44:08Z",
+  "prompt_sha": "edebec9d75758a7769d5b8b57f9d98a0d77aec6e3dfbd734a37cbb83239e8736",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG chegou à decisão de violação por meio da análise dos predicados soberanos ativos. A principal razão para essa decisão é a falta de reconhecimento pelo acórdão do cancelamento da Orientação Jurisprudencial (OJ) 394 e da sua incorporação parcial na Súmula 428, ambas do Tribunal Superior do Trabalho (TST). Isso viola o princípio da obrigação de estado das consequências práticas da decisão, pois não há transparência sobre a base jurídica atualizada utilizada.\n\nAlém disso, ao não mencionar explicitamente a Súmula 428 e ignorar o cancelamento da OJ 394, o acórdão não está em conformidade com a obrigação de abordar todos os argumentos legais relevantes. Isso é particularmente importante no contexto trabalhista brasileiro, onde a precisão na aplicação das normas jurídicas é crucial para garantir justiça e equidade.\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\n- **obligation_to_state_practical_consequences_of_decision**: O acórdão deve explicitar as consequências práticas da decisão tomada, incluindo a aplicação das normas jurídicas atualizadas.\n  \n- **prohibition_of_generic_precedent_citation**: Não é permitido citar precedentes de forma genérica sem uma análise específica e relevante para o caso em questão.\n\n- **obligation_to_address_all_legal_arguments**: O acórdão deve considerar e responder a todos os argumentos legais pertinentes apresentados pelas partes envolvidas.\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: A decisão deve ser fundamentada em uma razão decidente clara, que identifique o princípio ou norma jurídica aplicável ao caso específico.\n\n- **constitutional_obligation_to_state_reasons_for_decisions**: Há a obrigação constitucional de explicitar as razões pelas quais a decisão foi tomada, garantindo transparência e justiça.\n\n- **right_of_access_to_justice_and_judicial_review**: O acórdão deve respeitar o direito do cidadão de ter acesso à justiça e ao recurso judicial, assegurando que a decisão seja fundamentada e transparente.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nO sistema Q-FENG decidiu que houve uma violação porque o tribunal não explicou corretamente por que fez determinada decisão sobre horas de sobreaviso. Isso é importante porque as leis trabalhistas precisam ser aplicadas da forma certa para garantir que todos sejam tratados igualmente.\n\nO problema aqui é que o tribunal mencionou uma orientação jurídica (OJ 394) que foi cancelada há anos e incorporada em outra norma (Súmula 428). Mas, ao invés de explicar como isso afeta a decisão, o tribunal simplesmente não falou sobre isso. Isso é um problema porque as decisões judiciais devem ser transparentes e fundamentadas para que todos possam entender por que determinada decisão foi tomada.\n\nAlém disso, o tribunal não considerou todas as leis relevantes para o caso, o que também é importante para garantir justiça. Portanto, a decisão do sistema Q-FENG é de que houve uma violação das regras jurídicas e constitucionais aplicáveis ao caso.",
+  "tokens_in": 516,
+  "tokens_out": 805,
+  "latency_ms": 13641,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

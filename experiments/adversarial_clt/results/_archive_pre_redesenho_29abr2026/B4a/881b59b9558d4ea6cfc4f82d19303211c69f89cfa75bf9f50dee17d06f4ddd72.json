@@ -1,0 +1,30 @@
+{
+  "sha256": "881b59b9558d4ea6cfc4f82d19303211c69f89cfa75bf9f50dee17d06f4ddd72",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:17:43Z",
+  "prompt_sha": "1a431bd2539a105bc27830e043de65433739a538537c1d00dbf3cc5df9c24aaf",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, após análise do cenário apresentado – que envolve a decisão da TRT sobre adicional noturno fundamentada na Súmula TST 60 e a aplicação dessa súmula a um caso concreto de regime 12x36 com turnos noturnos fixos – concluiu pela **CONFORMIDADE**. Essa decisão não reflete uma avaliação da correção da decisão da TRT em si, mas sim uma análise da aderência do processo decisório aos princípios e obrigações estabelecidos no sistema jurídico-trabalhista brasileiro.\n\nA determinação de \"CONFORMIDADE\" significa que, à luz dos predicados soberanos e elásticos ativos, a decisão da TRT, ao aplicar a Súmula TST 60 e fundamentar sua decisão na ratio decidendi da súmula, demonstra um alinhamento com as obrigações e direitos inerentes ao contexto trabalhista. O sistema reconhece a importância de se ater à jurisprudência consolidada (Súmula TST 60) e de fundamentar a decisão em sua ratio (o revezamento noturno integra a remuneração), evitando a criação de precedentes genéricos e garantindo o direito de acesso à justiça e à revisão judicial. A análise do caso concreto, distinguindo-o de situações de turno fixo não noturno, também é vista como um elemento de conformidade com a obrigação de abordar todos os argumentos legais pertinentes.\n\nO valor de ψ_S (2.4435) indica a força da conformidade identificada, reforçando a validade da recomendação. A ativação dos predicados elásticos relacionados à negociação coletiva e banco de horas sugere que, embora a decisão seja conforme, a aplicação específica pode ser refinada por meio de acordos coletivos, desde que respeitem os limites legais.\n\n## 2. PREDICADOS ATIVADOS:\n\nOs predicados soberanos ativos e seus significados no contexto trabalhista brasileiro são:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  Impõe a obrigação de que as decisões judiciais expliquem as consequências práticas que a decisão terá para as partes envolvidas. No caso, a decisão da TRT, ao aplicar a Súmula 60, tem como consequência prática o pagamento do adicional noturno ao empregado.\n*   **sovereign(prohibition_of_generic_precedent_citation):**  Impede a citação de precedentes de forma genérica, exigindo que a aplicação do precedente seja justificada e adaptada ao caso concreto. A TRT cumpriu isso ao analisar o regime 12x36 e diferenciá-lo de outros regimes.\n*   **sovereign(obligation_to_address_all_legal_arguments):**  Exige que a decisão judicial examine e responda a todos os argumentos legais apresentados pelas partes. A TRT demonstrou isso ao analisar a aplicação da Súmula 60 e a ratio decidendi.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):**  Determina que a decisão judicial seja fundamentada na ratio decidendi (a razão de decidir) do precedente legal invocado. A TRT fez isso ao explicitar que o revezamento noturno integra a remuneração.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):**  Reflete a obrigação constitucional de motivar as decisões judiciais, garantindo a transparência e o controle da legalidade. A TRT cumpriu essa obrigação ao explicar o raciocínio por trás da aplicação da Súmula 60.\n*   **sovereign(recognition_of_collective_bargaining):**  Reconhece a importância da negociação coletiva como instrumento para a regulamentação das relações de trabalho. A ativação desse predicado sugere que a aplicação da Súmula 60 pode ser complementada por acordos coletivos.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):**  Garante o direito das partes de terem acesso à justiça e de questionarem as decisões judiciais. A aplicação da Súmula 60, com a devida fundamentação, contribui para a garantia desse direito.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"A Justiça do Trabalho decidiu que você tem direito ao adicional noturno, e essa decisão está de acordo com as leis e regras que protegem os trabalhadores. A decisão se baseou em uma regra importante, a Súmula 60 do Tribunal Superior do Trabalho, que diz que quando o trabalho é feito à noite em regime de revezamento, ele deve ser pago como se fosse trabalho noturno normal.\n\nA Justiça explicou que o seu caso, em que você trabalha em um regime de 12 horas por dia, com turnos noturnos fixos, se encaixa nessa regra. Isso significa que você tem direito a receber um valor extra por trabalhar durante a noite.\n\nA decisão está correta porque a Justiça explicou bem o porquê da decisão, se baseou em uma regra já estabelecida e considerou as particularidades do seu caso. Além disso, essa decisão garante que você tenha o direito de questionar a decisão, se não concordar com ela.\"\n",
+  "tokens_in": 582,
+  "tokens_out": 1188,
+  "latency_ms": 33077,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

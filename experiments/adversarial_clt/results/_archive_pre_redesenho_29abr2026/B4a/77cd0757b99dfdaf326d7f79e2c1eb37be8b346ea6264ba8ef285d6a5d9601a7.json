@@ -1,0 +1,29 @@
+{
+  "sha256": "77cd0757b99dfdaf326d7f79e2c1eb37be8b346ea6264ba8ef285d6a5d9601a7",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:00:45Z",
+  "prompt_sha": "69f27e043156ef457f00f79a887aee007d1b5c80255c85fc0fc244f02fff34fc",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, após análise do cenário apresentado e da ACT firmada entre a empresa e o sindicato dos trabalhadores em informática, concluiu pela **CONFORMIDADE**, embora com uma avaliação de satisfatibilidade \"UNKNOWN\". Essa conclusão indica que, apesar de a situação apresentar elementos que demandam cautela e análise mais aprofundada (refletida no \"UNKNOWN\"), os aspectos avaliados pelo sistema, considerando os predicados soberanos e elásticos da CLT, apontam para a legalidade da prática.\n\nA decisão de conformidade é baseada na consideração de que a ACT, por ter sido devidamente registrada, estabelece regras específicas para o banco de horas, que, em princípio, podem ser válidas. No entanto, a avaliação de \"UNKNOWN\" ressalta a importância de verificar a compatibilidade da ACT com a legislação geral, especialmente no que tange à proteção dos direitos dos trabalhadores. A existência de predicados soberanos ativos, como a obrigatoriedade de registro da ACT e a proibição de supressão do pagamento de horas extras, reforça a necessidade de cautela na interpretação e aplicação da ACT.\n\nA elasticidade do predicado \"hour_bank_without_cct_max_6_months\" sugere que, embora a ACT estabeleça um prazo máximo de 5 meses para a compensação do banco de horas, a legislação pode impor um limite superior de 6 meses para bancos de horas não regulamentados por CCT ou ACT.  A decisão de conformidade, portanto, é condicional à verificação de que a ACT não contraria a legislação trabalhista em outros aspectos não explicitamente considerados na análise.\n\n## PREDICADOS SOVERAINOS ATIVOS: SIGNIFICADO JURÍDICO\n\n*   **sovereign(semester_hour_bank_requires_cct_or_act):**  Este predicado significa que a implementação de um banco de horas só é legal se estiver previsto em um acordo ou convenção coletiva de trabalho (CCT) ou em um acordo coletivo de trabalho (ACT). A ACT, por estar devidamente registrada, atende a este requisito.\n*   **sovereign(invalidity_of_clause_suppressing_overtime_payment):**  Qualquer cláusula em um acordo que tente suprimir o direito ao pagamento de horas extras é inválida. A ACT deve garantir o pagamento das horas extras, mesmo que dentro do sistema de banco de horas.\n*   **sovereign(weekly_hour_compensation_requires_written_agreement):** A compensação de horas trabalhadas além da jornada normal semanal exige um acordo por escrito entre empregador e empregado. A ACT, por ser um documento escrito, atende a essa exigência.\n*   **sovereign(prohibition_negotiation_reducing_overtime_additional):** É proibido negociar a redução do adicional de horas extras. A ACT não pode prever a redução do adicional de horas extras.\n*   **sovereign(overtime_minimum_additional_50pct):** O adicional de horas extras deve ser de, no mínimo, 50% sobre a hora normal de trabalho. A ACT deve garantir esse adicional mínimo.\n*   **sovereign(maximum_weekly_working_hours_44h):** A jornada de trabalho semanal não pode ultrapassar 44 horas. A ACT deve estar em conformidade com esse limite.\n*   **sovereign(maximum_daily_working_hours_8h):** A jornada de trabalho diária não pode ultrapassar 8 horas. A ACT deve estar em conformidade com esse limite.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"A empresa e o sindicato fizeram um acordo (ACT) sobre como funciona o banco de horas. O sistema Q-FENG analisou esse acordo e, de forma geral, acha que ele está de acordo com as leis trabalhistas.\n\nMas, atenção: esse acordo precisa seguir algumas regras importantes. Por exemplo, ele precisa garantir que você receba o pagamento extra pelas horas que trabalhar além do normal (horas extras), que não pode diminuir esse pagamento extra, e que você não trabalhe mais do que o permitido por lei (44 horas por semana e 8 horas por dia).\n\nO sistema também observou que, embora o acordo diga que você tem que compensar as horas em até 5 meses, a lei pode permitir um prazo maior.\n\nPortanto, o sistema diz que o acordo parece estar tudo bem, mas é importante verificar se ele não está indo contra nenhuma outra lei trabalhista.\"\n",
+  "tokens_in": 536,
+  "tokens_out": 982,
+  "latency_ms": 27344,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,29 @@
+{
+  "sha256": "9d76bb3c9c2bec4a8872d9982e743a9c97eb049baefa754df1509e7adb8cb8a5",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T05:49:44Z",
+  "prompt_sha": "86f5fd16f6d15b9e1997d1146961409a0ab7a50f3a8fbba670004d4b3d84cb71",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, ao analisar o cenário apresentado sobre a implementação do banco de horas na indústria têxtil, concluiu que houve **violação** da legislação trabalhista. A empresa, ao adotar o banco de horas por meio de acordos individuais escritos, buscando contornar a necessidade de negociação coletiva, incorreu em irregularidades.\n\nA decisão do Q-FENG baseia-se na primazia da negociação coletiva para a implementação de regimes de compensação de horas, como o banco de horas. A empresa não pode, unilateralmente, impor essa modalidade de trabalho aos empregados, mesmo que haja acordo individual por escrito. A lei exige a participação dos representantes dos trabalhadores (sindicato) na discussão e definição das regras do banco de horas, garantindo a proteção dos direitos dos empregados.\n\nO sistema considerou a validade dos acordos individuais escritos para a compensação de horas semanais, mas não para a implementação de um banco de horas semestral sem a devida negociação coletiva. A tentativa da empresa de suprir a ausência de negociação coletiva com acordos individuais é considerada inválida, pois desrespeita a legislação que protege os direitos dos trabalhadores.\n\nO vetor ψ_S, com valor de 2.7489, indica a força da violação identificada, reforçando a necessidade de correção da situação. A elasticidade do predicado `hour_bank_without_cct_max_6_months` limita o período máximo para a compensação de horas sem negociação coletiva, o que não se aplica ao caso em questão, onde a empresa implementou um banco de horas semestral.\n\n## PREDICADOS SOVERAINS ATIVADOS:\n\n1. **`sovereign(semester_hour_bank_requires_cct_or_act)`:**  Este predicado estabelece que a implementação de um banco de horas semestral (ou de período superior a 6 meses) exige obrigatoriamente negociação coletiva (Convenção Coletiva de Trabalho - CCT) ou Ato Coletivo (Acordo Coletivo de Trabalho - ACT). A ausência de um desses elementos torna o banco de horas irregular.\n2. **`sovereign(invalidity_of_clause_suppressing_overtime_payment)`:**  Qualquer cláusula contratual ou acordo que tente suprimir o pagamento de horas extras é inválida. A tentativa de compensar horas extras por meio do banco de horas sem a devida negociação coletiva pode ser interpretada como uma forma de supressão do pagamento de horas extras.\n3. **`sovereign(weekly_hour_compensation_requires_written_agreement)`:** A compensação de horas semanais (ex: para fins de folga) deve ser formalizada por escrito, seja em acordo individual ou coletivo.  Embora a empresa tenha formalizado os acordos individuais, isso não legitima a implementação do banco de horas sem negociação coletiva.\n4. **`sovereign(prohibition_negotiation_reducing_overtime_additional)`:** É proibido reduzir a importância do adicional de horas extras por meio de negociação coletiva ou individual. A implementação unilateral do banco de horas pode ser vista como uma tentativa de reduzir o valor das horas extras.\n5. **`sovereign(overtime_minimum_additional_50pct)`:** O adicional de horas extras deve ser de, no mínimo, 50% sobre a hora normal de trabalho. A implementação do banco de horas sem a devida negociação coletiva pode comprometer o pagamento desse adicional.\n6. **`sovereign(maximum_weekly_working_hours_44h)`:** A jornada de trabalho semanal não pode ultrapassar 44 horas. O banco de horas deve ser implementado de forma a não desrespeitar esse limite máximo.\n7. **`sovereign(maximum_daily_working_hours_8h)`:** A jornada de trabalho diária não pode ultrapassar 8 horas. O banco de horas deve ser implementado de forma a não desrespeitar esse limite máximo.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"A empresa tentou criar um sistema de banco de horas onde você compensa as horas extras trabalhando em outros dias, mas fez isso de uma forma errada. A lei diz que quando se cria um sistema como esse, que dura vários meses, é preciso conversar com o sindicato dos trabalhadores e chegar a um acordo. A empresa não fez isso, simplesmente impôs o sistema com um papel assinado por você.\n\nIsso é ilegal porque a lei protege os seus direitos. A empresa não pode decidir sozinha como você vai trabalhar e como vai receber pelas horas extras.  O sistema de banco de horas, como foi implementado, é considerado inválido.\n\nAlém disso, a lei diz que você tem direito a receber um valor extra pelas horas que trabalha além do seu horário normal. A empresa não pode usar o banco de horas para evitar pagar esse valor extra.\n\nA empresa pode compensar algumas horas extras de um dia para outro com um papel assinado, mas para um sistema de banco de horas que dura meses, é preciso a participação do sindicato.\"\n",
+  "tokens_in": 527,
+  "tokens_out": 1123,
+  "latency_ms": 31235,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

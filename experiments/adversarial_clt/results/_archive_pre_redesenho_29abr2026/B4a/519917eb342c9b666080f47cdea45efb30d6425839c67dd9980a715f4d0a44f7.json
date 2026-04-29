@@ -1,0 +1,29 @@
+{
+  "sha256": "519917eb342c9b666080f47cdea45efb30d6425839c67dd9980a715f4d0a44f7",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-009",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T04:45:29Z",
+  "prompt_sha": "f9b0df7f69c181e9eda43e58ee237527f58e643126823baebe8b60ecd7efee06",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que houve uma violação (VIOLACAO) na aplicação do banco de horas aos empregados administrativos da empresa, com base nos predicados soberanos ativos e no contexto normativo brasileiro. A decisão se fundamenta na análise dos requisitos legais para a implementação de um banco de horas, que deve ser estabelecido por meio de uma Convenção Coletiva de Trabalho (CCT) ou Acordo Coletivo de Trabalho (ACT), conforme o predicado `sovereign(semester_hour_bank_requires_cct_or_act)`. A ausência da participação do sindicato representativo dos administrativos na negociação da CCT levanta dúvidas sobre a validade da aplicação do banco de horas para essa categoria específica, uma vez que não foi formalmente representada.\n\nAlém disso, o predicado `elastic(hour_bank_without_cct_max_6_months)` indica que, em situações onde não há um CCT ou ACT válido, qualquer acordo sobre banco de horas deve ser limitado a no máximo seis meses. Como os administrativos foram incluídos sem uma representação adequada na negociação da CCT, o banco de horas aplicado pode não estar em conformidade com as normas trabalhistas vigentes.\n\n### 2. PREDICADOS ATIVADOS\n\n- **sovereign(semester_hour_bank_requires_cct_or_act):** Este predicado estabelece que a implementação de um banco de horas deve ser formalizada por meio de uma Convenção Coletiva de Trabalho (CCT) ou Acordo Coletivo de Trabalho (ACT). Isso é essencial para garantir que os termos do banco de horas sejam negociados e acordados entre as partes envolvidas, incluindo a representação sindical adequada.\n\n- **invalidity_of_clause_suppressing_overtime_payment:** Este predicado indica que qualquer cláusula que suprima o pagamento de horas extras é inválida. Isso significa que mesmo com um banco de horas, os empregados têm direito ao pagamento adicional por horas trabalhadas além do limite semanal ou diário.\n\n- **weekly_hour_compensation_requires_written_agreement:** Este predicado exige que qualquer compensação por horas trabalhadas em excesso deve ser formalizada por escrito. Isso garante transparência e proteção legal para os empregados.\n\n- **prohibition_negotiation_reducing_overtime_additional:** Este predicado proíbe negociações que reduzam o pagamento adicional de horas extras, assegurando que os empregados recebam a remuneração adequada por qualquer trabalho além do horário normal.\n\n- **overtime_minimum_additional_50pct:** Este predicado estabelece que o pagamento por horas extras deve ser no mínimo 50% superior à remuneração normal, garantindo uma compensação justa pelo tempo adicional trabalhado.\n\n- **maximum_weekly_working_hours_44h:** Este predicado define o limite máximo de horas semanais que um empregado pode trabalhar, que é de 44 horas. Qualquer trabalho além desse limite deve ser considerado como hora extra e remunerado adequadamente.\n\n- **maximum_daily_working_hours_8h:** Este predicado estabelece que o limite diário de trabalho não deve exceder 8 horas, assegurando que os empregados tenham tempo adequado para descanso e recuperação.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG determinou que a empresa cometeu uma violação ao aplicar o banco de horas aos funcionários administrativos sem ter um acordo formal com seu sindicato representativo. No Brasil, para que algo como o banco de horas seja válido, é necessário que haja um acordo escrito entre a empresa e os trabalhadores, negociado por meio do sindicato da categoria. Como esse acordo não foi feito com o sindicato dos administrativos, eles têm razão em questionar a aplicação do banco de horas.\n\nAlém disso, mesmo quando há um banco de horas, as regras garantem que os funcionários continuam recebendo pagamento extra por qualquer hora trabalhada além das 44 horas semanais ou das 8 horas diárias. Portanto, o sistema aconselha que a empresa revise sua aplicação do banco de horas para garantir que está em conformidade com as leis trabalhistas e proteja os direitos dos funcionários administrativos.",
+  "tokens_in": 536,
+  "tokens_out": 1013,
+  "latency_ms": 29734,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,30 @@
+{
+  "sha256": "5e11a783bc811535f0c110a041632659a9995653c927c81bbacdd9b6f1c57307",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T03:36:46Z",
+  "prompt_sha": "1a431bd2539a105bc27830e043de65433739a538537c1d00dbf3cc5df9c24aaf",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a decisão do TRT está **em conformidade** com os princípios jurídicos e normativos brasileiros, baseando-se nos predicados soberanos ativos. A **satisfatibilidade UNKNOWN** indica que o sistema não identificou contradições lógicas no raciocínio do TRT, mas também não confirmou sua validade absoluta — apenas que não há elementos para invalidá-la.  \n\nA aplicação da **Súmula TST 60** foi compatível com o **obligation_to_ground_decision_in_identified_ratio_decidendi**, pois o TRT vinculou a decisão à **ratio** (o revezamento noturno como parte do adicional). Além disso, o TRT cumpriu o **obligation_to_address_all_legal_arguments**, ao analisar o regime 12x36 e os períodos noturnos fixos, diferenciando-os de casos de turno fixo não noturno. O **prohibition_of_generic_precedent_citation** foi respeitado, pois a Súmula não foi citada de forma genérica, mas aplicada ao caso concreto. O **constitutional_obligation_to_state_reasons_for_decisions** também foi atendido, ao explicar claramente a vinculação entre o regime do trabalhador e a Súmula.  \n\nA **recognition_of_collective_bargaining** e **right_of_access_to_judicial_review** reforçam que a decisão respeita a autonomia coletiva (negociação de horas via CCT) e o direito do trabalhador a recursos.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O TRT deve explicar **os efeitos práticos** da decisão (ex.: como o adicional noturno será calculado no regime 12x36).  \n- **sovereign(prohibition_of_generic_precedent_citation)**: Proíbe a citação de súmulas ou jurisprudências **sem aplicação ao caso concreto** (ex.: a Súmula TST 60 não foi usada de forma genérica, mas vinculada ao regime do trabalhador).  \n- **sovereign(obligation_to_address_all_legal_arguments)**: O TRT deve **analisar todos os argumentos** (ex.: regime 12x36, períodos noturnos fixos, distinção com turnos não noturnos).  \n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão deve ser fundamentada na **ratio** (ex.: o revezamento noturno integra o adicional).  \n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: O TRT deve **explicar claramente** a lógica da decisão (ex.: por que o regime 12x36 se enquadra na Súmula).  \n- **sovereign(recognition_of_collective_bargaining)**: Reconhece que **negociações coletivas** (CCT) podem influenciar a aplicação de normas (ex.: horas negociações via CCT).  \n- **sovereign(right_of_access_to_judicial_review)**: Garante que o trabalhador **pode recorrer** da decisão (ex.: direito a recursos).  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO juiz da Justiça do Trabalho **decidiu corretamente**. Ele usou uma regra da Justiça do Trabalho (Súmula TST 60) para dizer que o trabalhador tem direito ao adicional noturno, porque ele trabalha em um regime de 12 horas de trabalho e 36 de descanso, com períodos noturnos fixos. O juiz explicou **por que** essa regra se aplica ao caso, diferenciando-o de situações em que o turno não é noturno.  \n\nAlém disso, o juiz **não usou a regra de forma genérica** (ex.: \"essa regra vale para todos\"), mas aplicou-a ao caso específico. Ele também **explicou claramente** a decisão, para que o trabalhador entenda como o adicional será calculado. O juiz respeitou o direito do trabalhador de recorrer da decisão, se necessário.  \n\nA decisão **não foi confirmada como 100% certa**, mas não há elementos para dizer que está errada. O sistema Q-FENG acha que ela **está em conformidade** com as leis.",
+  "tokens_in": 584,
+  "tokens_out": 1689,
+  "latency_ms": 53967,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

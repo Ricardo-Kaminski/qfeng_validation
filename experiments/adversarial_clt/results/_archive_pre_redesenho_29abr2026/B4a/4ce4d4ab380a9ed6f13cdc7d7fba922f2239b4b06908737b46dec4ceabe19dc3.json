@@ -1,0 +1,27 @@
+{
+  "sha256": "4ce4d4ab380a9ed6f13cdc7d7fba922f2239b4b06908737b46dec4ceabe19dc3",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-006",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T03:17:26Z",
+  "prompt_sha": "f639dd1bd0487253b77ed4f47aa1283095e0b4595ae43a9a643ff66481153314",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a situação descrita está em **conformidade com a legislação trabalhista brasileira**, com base nos predicados soberanos ativos. A **reconhecimento da negociação coletiva (sovereign(recognition_of_collective_bargaining))** confirma que a CCT é válida e vinculante, desde que respeite os limites legais de jornada. Os **limites de jornada de 44h semanais (sovereign(maximum_weekly_working_hours_44h))** e **8h diárias (sovereign(maximum_daily_working_hours_8h))** foram respeitados, mesmo com a flexibilização da CCT. A **negociação de banco de horas com prazo máximo de 12 meses (elastic(hour_bank_with_cct_max_1_year))** está dentro do arcabouço legal, pois a compensação ocorreu dentro do prazo estipulado, sem violar os limites de jornada. A ausência de necessidade de aplicar a cláusula de pagamento de horas extras (não acionada) reforça a conformidade, pois a compensação foi feita de forma voluntária e dentro dos termos acordados.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(recognition_of_collective_bargaining):**  \n  Garante que a CCT é legalmente válida e vinculante, desde que respeite os limites mínimos e máximos de jornada estabelecidos pela CLT (como 44h semanais e 8h diárias). A negociação coletiva é um direito constitucional, mas deve ser compatível com os direitos individuais do trabalhador.  \n\n- **sovereign(maximum_weekly_working_hours_44h):**  \n  Estabelece que a jornada semanal não pode ultrapassar 44 horas, mesmo com flexibilizações via CCT. O sistema confirma que a empresa respeitou esse limite, garantindo que a compensação de horas não resultou em jornada excedente.  \n\n- **sovereign(maximum_daily_working_hours_8h):**  \n  Define que a jornada diária não pode exceder 8 horas, exceto em situações excepcionais previstas na CLT. O relato de que a jornada extra nunca superou 2h/dia confirma que esse limite foi respeitado.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO sistema Q-FENG diz que **tudo está em ordem**. A empresa e os trabalhadores seguiram as regras:  \n- A empresa ofereceu folgas em períodos de baixa movimento, e os funcionários aceitaram.  \n- Todos os horários extras foram compensados dentro de 12 meses, com extratos entregues.  \n- Ninguém trabalhou mais de 8 horas por dia ou 44 horas por semana.  \n- A cláusula de pagamento de horas extras (que só entra em vigor se a compensação não for feita) **nunca precisou ser usada**.  \nPortanto, **não há infrações**, e a relação entre empresa e trabalhadores está dentro da lei.",
+  "tokens_in": 525,
+  "tokens_out": 1213,
+  "latency_ms": 38109,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

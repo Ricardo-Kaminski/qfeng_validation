@@ -1,0 +1,26 @@
+{
+  "sha256": "14d3fbbabcf6d03823fdd54b8faae9d17c6485bbd0c21cf667363c606a189399",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T05:32:30Z",
+  "prompt_sha": "ef87895aa2073a8dab104ed3b64c35ebfd6ccfac066ee3d352b7e193e48dee36",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, ao analisar o cenário apresentado – a manutenção da justa causa de um bancário por um Acórdão do TRT-2ª Região, fundamentada em uma suposta \"orientação jurisprudencial consolidada do TST\" sem a devida identificação de número de OJ, Súmula ou acórdão específico – concluiu pela ocorrência de **violação** de princípios e garantias processuais.\n\nA decisão do Q-FENG se baseia na constatação de que a fundamentação apresentada no acórdão é insatisfatória e carece de rigor técnico-jurídico. A simples afirmação de que a jurisprudência é \"pacífica\" sobre o tema, sem a indicação de precedentes específicos, não atende aos requisitos de fundamentação exigidos pelo ordenamento jurídico brasileiro.  A alegação de ausência de fundamentação adequada, conforme o artigo 489, §1°, VI do Código de Processo Civil, é, portanto, plausível e merece ser considerada.\n\nO sistema, ao identificar a violação, não está questionando o mérito da justa causa em si, mas sim a forma como a decisão foi fundamentada, o que impacta diretamente o direito de acesso à justiça e à revisão judicial da matéria. A falta de clareza e especificidade na fundamentação impede que o empregado compreenda as razões da decisão e exerça plenamente seu direito de recorrer.\n\n## 2. PREDICADOS ATIVADOS:\n\nOs predicados soberanos ativos, que motivaram a decisão do Q-FENG, significam juridicamente o seguinte no contexto trabalhista brasileiro:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  O juiz tem a obrigação de explicitar as consequências práticas da decisão, permitindo que as partes compreendam o impacto da mesma em suas vidas e patrimônio. Uma fundamentação genérica impede essa compreensão.\n*   **sovereign(prohibition_of_generic_precedent_citation):**  É vedado ao julgador fundamentar sua decisão em meras referências genéricas a jurisprudência. É necessário indicar os precedentes específicos que embasaram o entendimento adotado.\n*   **sovereign(obligation_to_address_all_legal_arguments):** O juiz deve analisar e responder a todos os argumentos jurídicos apresentados pelas partes, ainda que para refutá-los. Ignorar a alegação de falta de fundamentação é uma falha na análise processual.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** A decisão judicial deve ser fundamentada na *ratio decidendi* (o princípio jurídico que fundamenta a decisão) de precedentes específicos, e não em generalidades.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):** A Constituição Federal garante o direito ao contraditório e à motivação das decisões judiciais (art. 5º, LXXVIII). A falta de fundamentação específica viola esse direito fundamental.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):**  O direito de acesso à justiça e à revisão judicial pressupõe a existência de uma fundamentação clara e específica, que permita ao recorrente compreender a decisão e apresentar seus argumentos de forma adequada.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"Imagine que você foi demitido e a Justiça do Trabalho concordou com a empresa. Só que, para justificar essa demissão, o juiz disse que a decisão seguiu o que outros juízes já decidiram antes, mas não explicou quais foram essas decisões. É como se ele dissesse: 'confie em mim, outros juízes já decidiram isso'.\n\nIsso não é justo! Você tem o direito de saber exatamente por que foi demitido e quais leis ou decisões de outros juízes embasaram essa decisão. Sem essa informação, você não consegue entender o que aconteceu e nem apresentar seus argumentos para tentar reverter a demissão.\n\nO sistema Q-FENG entendeu que a Justiça não cumpriu com essa obrigação de explicar a decisão de forma clara e específica. Por isso, ele considera que houve um problema no processo, e você tem o direito de buscar uma revisão dessa decisão.\"",
+  "tokens_in": 531,
+  "tokens_out": 964,
+  "latency_ms": 26703,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

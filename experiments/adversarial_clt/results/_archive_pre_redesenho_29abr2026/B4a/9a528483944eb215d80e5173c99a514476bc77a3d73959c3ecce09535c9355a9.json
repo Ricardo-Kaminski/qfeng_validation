@@ -1,0 +1,30 @@
+{
+  "sha256": "9a528483944eb215d80e5173c99a514476bc77a3d73959c3ecce09535c9355a9",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-008",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:26:54Z",
+  "prompt_sha": "b3fc3319eefedae00a5e9f49f61a8cb6a71ba4d9860ac95b8580343ff80ed754",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, após análise do cenário apresentado – um acórdão sobre dano moral trabalhista que aplica a CLT Art. 223-G (pós-reforma 2017) para quantificar a indenização, considerando o grau da ofensa, o salário do trabalhador e a jurisprudência do TST – chegou à conclusão de **CONFORMIDADE**.  Essa decisão significa que, com base nos dados fornecidos e nos princípios legais incorporados, o sistema considera que o acórdão em questão está em consonância com a legislação e a jurisprudência aplicáveis.\n\nA avaliação de conformidade foi alcançada em um contexto de **incerteza** quanto à satisfatibilidade do cenário (UNKNOWN), o que indica que a complexidade do caso e a necessidade de considerar múltiplos fatores legais impediram uma determinação categórica de satisfatibilidade. No entanto, a ativação de diversos predicados soberanos e elásticos, combinada com o vetor ψ_S, sinalizaram que a decisão, como narrada no acórdão, está alinhada com os princípios fundamentais do direito do trabalho.\n\nA decisão de conformidade não implica em uma validação completa do valor da indenização em si, mas sim na constatação de que o *processo* de determinação desse valor, conforme descrito no acórdão, segue os parâmetros legais estabelecidos pela CLT e a jurisprudência do TST.\n\n## 2. PREDICADOS ATIVADOS:\n\nOs predicados soberanos ativos e seus significados no contexto trabalhista brasileiro são:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  O sistema tem a obrigação de explicar as consequências práticas da decisão, ou seja, como a aplicação da lei impacta a vida do trabalhador e a relação de trabalho. No caso, isso significa que o acórdão deve justificar como a aplicação do Art. 223-G e a quantificação do dano moral afetam o trabalhador e a empresa.\n*   **sovereign(prohibition_of_generic_precedent_citation):**  O sistema não pode se basear em precedentes genéricos e abstratos. A decisão deve ser fundamentada em casos específicos e similares, demonstrando a analogia entre o caso em análise e os precedentes utilizados.\n*   **sovereign(obligation_to_address_all_legal_arguments):**  O sistema deve considerar e responder a todos os argumentos legais apresentados pelas partes, garantindo que nenhuma alegação relevante seja ignorada.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** A decisão deve ser fundamentada na *ratio decidendi* (a razão de decidir) de casos anteriores, ou seja, no princípio jurídico que motivou a decisão.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):**  A Constituição Federal garante o direito ao contraditório e à motivação das decisões judiciais. O sistema deve assegurar que a decisão seja devidamente justificada, expondo os fundamentos de fato e de direito que a embasaram.\n*   **sovereign(recognition_of_collective_bargaining):** O sistema reconhece a importância da negociação coletiva como forma de regular as relações de trabalho, e deve considerar acordos e convenções coletivas na análise do caso.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):** O sistema deve garantir que o trabalhador tenha acesso à justiça e possa questionar a decisão judicial, assegurando o direito à revisão judicial.\n\nOs predicados elásticos ativos, neste contexto, indicam que a flexibilidade nas normas relacionadas à jornada de trabalho (negociável por CCT) e ao banco de horas (com limite máximo de 1 ano por CCT) foram consideradas, mas não foram fatores determinantes na avaliação de conformidade do acórdão sobre dano moral.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"O sistema Q-FENG analisou a decisão do juiz sobre a indenização por dano moral que você recebeu. Ele verificou se o juiz seguiu as leis e as decisões de casos parecidos que já aconteceram antes.\n\nO sistema concluiu que, no geral, a decisão do juiz está correta. Isso não significa que o valor da indenização está certo ou errado, mas sim que o *jeito* como o juiz chegou a esse valor, seguindo as regras da lei e considerando o que aconteceu no seu caso, está de acordo com o que a lei permite.\n\nO sistema também quer que você saiba que você tem o direito de entender por que o juiz tomou essa decisão e de questioná-la se não concordar. Além disso, o sistema garante que você tem o direito de ter acesso à justiça e de buscar uma revisão dessa decisão, se for o caso.\"\n",
+  "tokens_in": 581,
+  "tokens_out": 1090,
+  "latency_ms": 30391,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

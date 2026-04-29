@@ -1,0 +1,27 @@
+{
+  "sha256": "66b2b8871e34523f6eecda6718ca96eff6ba38a88248000e9823bc512c7bfd05",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:07:13Z",
+  "prompt_sha": "9ea3cbb73b13c3be77a30f2262e99311a38ad1cb70d480f6518cd2867401d28a",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, após análise do cenário apresentado e considerando os princípios e normas estabelecidos na Consolidação das Leis do Trabalho (CLT), concluiu pela **conformidade** da conduta da empresa. A decisão, embora com um grau de incerteza na satisfatibilidade (UNKNOWN), é fundamentada na validade da negociação coletiva e na flexibilidade permitida por ela, dentro dos limites legais.\n\nA suspensão do cômputo do banco de horas durante a licença maternidade, seguida da reativação ao retorno da trabalhadora, é considerada compatível com o que foi acordado na Convenção Coletiva de Trabalho (CCT), desde que a compensação total tenha ocorrido dentro do prazo estipulado. O sistema reconhece a importância da proteção à maternidade, mas também a autonomia da negociação coletiva para regular as condições de trabalho, desde que respeitados os direitos mínimos assegurados pela lei. A contagem do prazo para compensação do banco de horas, portanto, não necessariamente inclui o período de licença maternidade, uma vez que este representa um afastamento legal do trabalho.\n\n## PREDICADOS ATIVADOS: SIGNIFICADO JURÍDICO\n\nOs predicados soberanos e elásticos ativos fornecem o contexto legal para a decisão do Q-FENG:\n\n*   **sovereign(recognition_of_collective_bargaining):** Este predicado significa que o sistema reconhece a validade e a força obrigatória da Convenção Coletiva de Trabalho (CCT). As CCTs são instrumentos normativos que estabelecem condições de trabalho específicas para determinadas categorias profissionais, e as empresas devem cumpri-las.\n*   **sovereign(maximum_weekly_working_hours_44h):** Este predicado estabelece o limite máximo de jornada de trabalho semanal em 44 horas, conforme a CLT. Embora a CCT possa negociar condições diferentes, ela não pode reduzir esse limite de forma prejudicial ao trabalhador.\n*   **sovereign(maximum_daily_working_hours_8h):** Este predicado define o limite máximo de jornada de trabalho diária em 8 horas. Similarmente ao limite semanal, a CCT não pode estabelecer uma jornada diária superior a este limite.\n*   **elastic(annual_hour_bank_negotiable):** Este predicado indica que a negociação de um banco de horas anual é permitida, desde que respeitados os limites e condições estabelecidos na lei e na CCT.\n*   **elastic(working_hours_negotiable_by_cct):** Este predicado reforça a possibilidade de a CCT regular a jornada de trabalho, incluindo a possibilidade de compensação de horas em banco, dentro dos limites legais.\n*   **elastic(hour_bank_with_cct_max_1_year):** Este predicado estabelece que a CCT pode definir um prazo máximo de 1 ano para a compensação do banco de horas.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"A empresa agiu corretamente ao suspender o cômputo do seu banco de horas durante a sua licença-maternidade e retomá-lo quando você voltou ao trabalho. A lei permite que as empresas e os sindicatos negociem regras sobre o banco de horas, e o acordo que vocês fizeram (a CCT) é válido. O prazo para você compensar as horas do banco de horas foi cumprido dentro do que foi combinado, mesmo que você tenha estado de licença. Isso significa que a empresa não precisava contar o período da sua licença para definir quando você precisava compensar as horas. A lei protege a sua licença-maternidade, mas também permite que a empresa siga o acordo que vocês fizeram com o sindicato sobre o banco de horas.\"",
+  "tokens_in": 500,
+  "tokens_out": 824,
+  "latency_ms": 22967,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

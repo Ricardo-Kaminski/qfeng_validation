@@ -1,0 +1,43 @@
+{
+  "sha256": "2418552d6a9f36f9e3f259956f95ad9e5dbfca3f0d9a50cf8005ae3a77a57a21",
+  "braco": "B5",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T13:51:32Z",
+  "prompt_sha": "4cdb4494f20fb8cebd88ffeadcb92ecf0ea28886eefa69f21821bfe27f3dea4f",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO motor de inferência Q-FENG classificou o caso como **BLOCK** (CIRCUIT_BREAKER) devido à **fricção ontológica θ = 127,81°**, que excede o limiar de 120°, indicando **interferência destrutiva**. A fricção ontológica mede a **incompatibilidade entre a evidência neural (ψ_N)** — que reflete a prática da empresa (implementação do banco de horas com ACT não registrado) — **e a norma simbólica (ψ_S)** — que codifica os direitos trabalhistas brasileiros (exigência de registro da ACT na SRTE, limites de horas extras, etc.).  \n\nOs **predicados soberanos ativos** (como *sovereign(semester_hour_bank_requires_cct_or_act)* e *sovereign(invalidity_of_clause_suppressing_overtime_payment)*) reforçam que:  \n- A **validade do banco de horas** depende de **registro da ACT na SRTE** (predicado *sovereign(semester_hour_bank_requires_cct_or_act)*), o que **não ocorreu**.  \n- Cláusulas que **suprimem direitos trabalhistas** (como a compensação de horas em 4 meses sem registro) são **nulas de pleno direito** (predicado *sovereign(invalidity_of_clause_suppressing_overtime_payment)*).  \n- A **ausência de registro** da ACT **invalida a compensação de horas** e **viola a obrigatoriedade de acordo escrito** para compensação de horas (predicado *sovereign(weekly_hour_compensation_requires_written_agreement)*).  \n\nA **fricção ontológica elevada** (θ > 120°) indica que a **ação da empresa (implementar o banco de horas com ACT não registrado)** está **em conflito direto com a norma trabalhista**, gerando **risco de violação** (ação recomendada: *VIOLACAO*).  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n**a) *sovereign(semester_hour_bank_requires_cct_or_act)*:**  \n- **Significado:** O banco de horas (compensação de horas extras em prazo definido) **só é válido se formalizado em um Acordo Coletivo de Trabalho (ACT)** ou Convenção Coletiva de Trabalho (CCT), **registrado na SRTE**.  \n- **Consequência:** A ausência de registro **invalida o banco de horas**, tornando-o **nulo**.  \n\n**b) *sovereign(invalidity_of_clause_suppressing_overtime_payment)*:**  \n- **Significado:** Cláusulas que **reduzem ou suprimem o pagamento de horas extras** (como compensação em 4 meses) são **nulas de pleno direito**, pois **viola a garantia constitucional de remuneração por horas extras** (art. 7º, XIV, CF/88).  \n- **Consequência:** A empresa **não pode exigir compensação de horas** sem pagamento adicional de 50% (predicado *overtime_minimum_additional_50pct*).  \n\n**c) *sovereign(weekly_hour_compensation_requires_written_agreement)*:**  \n- **Significado:** A compensação de horas extras **só é válida se prevista em acordo escrito** (como a ACT).  \n- **Consequência:** A ausência de registro da ACT **invalida a compensação**, exigindo **pagamento em dinheiro**.  \n\n**d) *sovereign(prohibition_negotiation_reducing_overtime_additional)*:**  \n- **Significado:** **É proibido** negociar a **redução ou supressão do adicional de horas extras** (50% mínimo).  \n- **Consequência:** A empresa **não pode exigir compensação em prazo** (4 meses) sem pagar o adicional.  \n\n**e) *sovereign(overtime_minimum_additional_50pct)*:**  \n- **Significado:** **O adicional de horas extras é obrigatório** (mínimo 50% sobre o valor da hora normal).  \n- **Consequência:** A empresa **deve pagar o adicional**, mesmo se houver compensação.  \n\n**f) *sovereign(maximum_weekly_working_hours_44h)* e *sovereign(maximum_daily_working_hours_8h)*:**  \n- **Significado:** Limites legais de **44h semanais** e **8h diárias** são **invioláveis**.  \n- **Consequência:** A empresa **não pode exceder esses limites**, mesmo com compensação de horas.  \n\n**g) *elastic(hour_bank_without_cct_max_6_months)*:**  \n- **Significado:** Se o banco de horas **não estiver formalizado em CCT/ACT**, o prazo máximo para compensação é **6 meses**.  \n- **Consequência:** A empresa **não pode estender a compensação para 4 meses** sem registro, o que **viola a lei**.  \n\n---\n\n### 3. **INTERPRETAÇÃO DO REGIME**  \nO **regime CIRCUIT_BREAKER** (θ ≥ 120°) indica que a **ação da empresa está em conflito direto com a norma trabalhista**, gerando **risco de violação**. Operacionalmente, isso significa:  \n- **Bloqueio da ação:** O sistema **não permite a implementação do banco de horas** com ACT não registrado, pois **viola a lei** (exigência de registro na SRTE).  \n- **Prioridade à norma:** O **direito do trabalhador** (garantia de pagamento de horas extras e limites de horas) **prevalece sobre a vontade da empresa**.  \n- **Risco jurídico:** A empresa **pode ser multada** pela SRTE e **obrigada a pagar horas extras** retroativamente.  \n\n---\n\n### 4. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa **não pode usar o banco de horas** com o acordo feito com o sindicato, porque **não registrou o acordo na SRTE**. A lei exige que **qualquer acordo com os trabalhadores** (como o banco de horas) **seja registrado** para valer. Como o registro **não foi feito**, o acordo **não existe legalmente**, e a empresa **deve pagar as horas extras** normalmente, com o adicional de 50%. O sistema **bloqueia a ação da empresa** para proteger os direitos dos trabalhadores.",
+  "tokens_in": 782,
+  "tokens_out": 1952,
+  "latency_ms": 66250,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": "",
+  "t_clingo_ms": 46,
+  "t_llm_ms": 66203,
+  "t_psi_build_ms": 0,
+  "t_theta_compute_ms": 0,
+  "qfeng_psi_n_dim": 2,
+  "qfeng_psi_s_dim": 2,
+  "qfeng_theta_rad": 2.2307694050963036,
+  "qfeng_theta_deg": 127.81367197892763,
+  "qfeng_theta_eff_rad": 2.2307694050963036,
+  "qfeng_theta_eff_deg": 127.81367197892763,
+  "qfeng_regime": "BLOCK",
+  "qfeng_p_action": 0.3869044161814975,
+  "qfeng_cos_theta": -0.6130955838185024,
+  "qfeng_cb_threshold_deg": 119.99999999999999
+}

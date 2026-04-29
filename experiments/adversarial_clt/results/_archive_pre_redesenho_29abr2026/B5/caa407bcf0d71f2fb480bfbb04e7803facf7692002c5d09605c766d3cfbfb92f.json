@@ -1,0 +1,43 @@
+{
+  "sha256": "caa407bcf0d71f2fb480bfbb04e7803facf7692002c5d09605c766d3cfbfb92f",
+  "braco": "B5",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T14:07:54Z",
+  "prompt_sha": "0e0adb60805bc48f79d4bda30000ec399529a7c28474da7c11e5b7698243d77b",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO motor de inferência Q-FENG identificou uma **fricção ontológica elevada (θ = 127,81°)**, classificando o caso no regime **CIRCUIT_BREAKER**, que implica **supressão de ação** e **recomendação de violação**. A fricção alta se deve à **incompatibilidade entre a conduta da empresa e os predicados soberanos ativos**, que representam normas jurídicas fundamentais no Direito do Trabalho brasileiro.  \n\n- **Predicado sovereign(semester_hour_bank_requires_cct_or_act)**: A existência do banco de horas exige **acordo coletivo (CCT) ou individual (ACT)**, o que foi cumprido.  \n- **Predicado sovereign(invalidity_of_clause_suppressing_overtime_payment)**: Cláusulas que **suprimem o pagamento de horas extras são inválidas**, independentemente da rescisão.  \n- **Predicado sovereign(weekly_hour_compensation_requires_written_agreement)**: A compensação de horas extras exige **escrita formal**, o que não foi contestado.  \n- **Predicado sovereign(prohibition_negotiation_reducing_overtime_additional)**: **Negociações que reduzem a remuneração de horas extras são proibidas**, o que se aplica ao caso.  \n- **Predicado sovereign(overtime_minimum_additional_50pct)**: A **hora extra deve ter adicional de 50%**, norma que não foi violada.  \n- **Predicado sovereign(maximum_weekly_working_hours_44h)** e **sovereign(maximum_daily_working_hours_8h)**: Limites de horas legais foram respeitados.  \n\nA fricção alta (θ ≥ 120°) indica que a **empresa violou normas fundamentais**, como a **inviolabilidade do direito à remuneração de horas extras** (predicado invalidity_of_clause_suppressing_overtime_payment) e a **proibição de cláusulas que anulam direitos trabalhistas** (predicado prohibition_negotiation_reducing_overtime_additional). O regime **CIRCUIT_BREAKER** bloqueia a ação da empresa, recomendando a **violação da cláusula que nega o pagamento**.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(semester_hour_bank_requires_cct_or_act)**: O banco de horas só pode ser estabelecido com **acordo coletivo (CCT) ou individual (ACT)**. No caso, o ACT foi firmado, cumprindo a norma.  \n- **sovereign(invalidity_of_clause_suppressing_overtime_payment)**: **Cláusulas que anulam o pagamento de horas extras são inválidas**, mesmo após a rescisão. A empresa tenta aplicar uma cláusula que nega o direito, o que é ilegal.  \n- **sovereign(weekly_hour_compensation_requires_written_agreement)**: A compensação de horas extras exige **escrita formal** (como o ACT). A empresa não contesta a existência do acordo.  \n- **sovereign(prohibition_negotiation_reducing_overtime_additional)**: **Negociações que reduzem o adicional de horas extras são proibidas**. A empresa tenta aplicar uma cláusula que viola essa proibição.  \n- **sovereign(overtime_minimum_additional_50pct)**: A **hora extra deve ter adicional de 50%**, norma que não foi violada.  \n- **sovereign(maximum_weekly_working_hours_44h)** e **sovereign(maximum_daily_working_hours_8h)**: Limites de horas legais foram respeitados.  \n- **elastic(hour_bank_without_cct_max_6_months)**: O banco de horas sem CCT tem **limite de 6 meses**, mas o caso envolve um ACT, não um CCT, o que não viola a norma.  \n\n---\n\n### 3. **INTERPRETAÇÃO DO REGIME**  \nO regime **CIRCUIT_BREAKER** (θ ≥ 120°) indica que **a ação da empresa é incompatível com normas jurídicas fundamentais**, gerando **fricção ontológica crítica**. Operacionalmente, isso significa:  \n- **Bloqueio da ação da empresa**: A empresa **não pode negar o pagamento das horas extras** (60h) por **violação de normas trabalhistas**.  \n- **Recomendação de violação**: O sistema identifica que a **cláusula que nega o pagamento é ilegal**, exigindo que a empresa **cumpra a lei**.  \n- **Supressão de ação**: A empresa **não pode agir com base em cláusulas que anulam direitos trabalhistas**, mesmo após a rescisão.  \n\n---\n\n### 4. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO caso envolve um **trabalhador que pediu demissão com saldo positivo de 60h** no banco de horas. A empresa **não quer pagar essas horas**, dizendo que a demissão \"desfaz\" o acordo. Mas o sistema Q-FENG concluiu que:  \n- **A empresa está errada**: Mesmo após a demissão, o **trabalhador tem direito a receber as horas extras pendentes**.  \n- **A cláusula que nega o pagamento é ilegal**: A lei **não permite que empresas anulem direitos trabalhistas** como o pagamento de horas extras.  \n- **A empresa deve pagar as 60h**: O sistema **bloqueia a ação da empresa** e **recomenda que ela cumpra a lei**, garantindo o direito do trabalhador.  \n\nEm resumo: **O trabalhador tem razão**, e a empresa **não pode se recusar a pagar** as horas extras, mesmo após a demissão.",
+  "tokens_in": 806,
+  "tokens_out": 1804,
+  "latency_ms": 58327,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": "",
+  "t_clingo_ms": 46,
+  "t_llm_ms": 58280,
+  "t_psi_build_ms": 0,
+  "t_theta_compute_ms": 0,
+  "qfeng_psi_n_dim": 2,
+  "qfeng_psi_s_dim": 2,
+  "qfeng_theta_rad": 2.2307694050963036,
+  "qfeng_theta_deg": 127.81367197892763,
+  "qfeng_theta_eff_rad": 2.2307694050963036,
+  "qfeng_theta_eff_deg": 127.81367197892763,
+  "qfeng_regime": "BLOCK",
+  "qfeng_p_action": 0.3869044161814975,
+  "qfeng_cos_theta": -0.6130955838185024,
+  "qfeng_cb_threshold_deg": 119.99999999999999
+}

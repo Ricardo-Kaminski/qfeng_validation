@@ -1,0 +1,27 @@
+{
+  "sha256": "fe8681e29a834ee2feb8a1a3d2abb826926bef9b53770b76b7db5b9168531fa7",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:11:50Z",
+  "prompt_sha": "360055fb2d63049ca39436f6dbfb8a92a6315c792ed108cd53aebb9be9a2efc9",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, ao analisar o cenário apresentado, concluiu que houve uma **violação** da Convenção Coletiva de Trabalho (CCT). A decisão foi baseada na constatação de que a empresa alterou unilateralmente a forma como as folgas compensatórias seriam realizadas, restringindo a escolha da data para as sextas-feiras, contrariando a flexibilidade prevista na CCT.\n\nA análise do Q-FENG considerou a soberania dos princípios trabalhistas fundamentais, expressos nos predicados ativos, que limitam a liberdade de ação da empresa. A imposição de uma regra rígida pela empresa, sem negociação com os trabalhadores, desconsidera a autonomia da CCT e a importância da negociação coletiva para a definição das condições de trabalho.  A unilateralidade na alteração da escala de compensação de folgas, portanto, compromete a validade do sistema de banco de horas, pois demonstra uma desconsideração dos termos acordados na CCT.\n\nA elasticidade dos predicados ativos, que permitem a negociação de aspectos como o período máximo do banco de horas e a flexibilidade da jornada, reforça a importância da participação dos trabalhadores na definição das regras. A imposição unilateral da empresa fere essa elasticidade e a própria essência da negociação coletiva.\n\n## PREDICADOS ATIVADOS: SIGNIFICADO JURÍDICO\n\n*   **sovereign(recognition_of_collective_bargaining):** Este predicado representa a soberania do reconhecimento da negociação coletiva como instrumento para a definição das condições de trabalho. No contexto brasileiro, a Constituição Federal e a Consolidação das Leis do Trabalho (CLT) garantem o direito à livre negociação coletiva entre empregadores e empregados, e a CCT resultante possui força de lei entre as partes. A alteração unilateral da empresa desconsidera essa soberania.\n*   **sovereign(maximum_weekly_working_hours_44h):** Este predicado estabelece o limite máximo de 44 horas semanais como regra geral para a jornada de trabalho. Embora o banco de horas possa permitir a compensação de horas extras, ele deve estar em consonância com essa limitação, e a imposição de uma escala de compensação que possa levar a jornadas superiores a 44 horas semanais seria questionável.\n*   **sovereign(maximum_daily_working_hours_8h):** Este predicado define o limite máximo de 8 horas diárias para a jornada de trabalho. A imposição de uma escala de compensação que force o trabalhador a trabalhar por longos períodos em um único dia para compensar as horas pode violar esse limite.\n*   **elastic(annual_hour_bank_negotiable):**  Este predicado indica que o período de vigência do banco de horas é negociável. A CCT pode estabelecer um período máximo, mas a imposição unilateral de um período diferente pela empresa é questionável.\n*   **elastic(working_hours_negotiable_by_cct):** Este predicado reforça que a forma como as horas de trabalho são organizadas (incluindo a compensação de folgas) é negociável e deve estar de acordo com o que foi estabelecido na CCT.\n*   **elastic(hour_bank_with_cct_max_1_year):** Este predicado sugere que a CCT pode definir um período máximo para a acumulação de horas no banco de horas, geralmente de um ano. A alteração unilateral desse período pela empresa é questionável.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"A empresa mudou as regras do banco de horas sem conversar com vocês, determinando que as folgas só podem ser compensadas às sextas-feiras. Isso é um problema porque a CCT, que é um acordo feito entre a empresa e os trabalhadores, diz que vocês têm o direito de escolher quando compensar essas folgas.\n\nO sistema Q-FENG analisou a situação e disse que a empresa errou. Isso porque a lei garante que vocês possam negociar as condições de trabalho, e a empresa não pode simplesmente mudar as regras do banco de horas do jeito que fez.\n\nEssa mudança unilateral pode fazer com que o banco de horas não seja mais válido, porque mostra que a empresa não está respeitando o que foi combinado com vocês. É importante que a empresa volte a seguir as regras da CCT e negocie com vocês a forma como o banco de horas vai funcionar.\"\n",
+  "tokens_in": 481,
+  "tokens_out": 970,
+  "latency_ms": 26953,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

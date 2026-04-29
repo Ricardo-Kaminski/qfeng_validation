@@ -1,0 +1,30 @@
+{
+  "sha256": "4882a9be075004ca2d62e0b38751bdfd9513b24694aa7dd2da939a9b45c879ac",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T05:13:15Z",
+  "prompt_sha": "b3fc3319eefedae00a5e9f49f61a8cb6a71ba4d9860ac95b8580343ff80ed754",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, ao analisar o caso de dano moral trabalhista sob a égide do artigo 223-G da CLT (posterior à reforma de 2017), determinou que a decisão deve ser alinhada com os princípios jurídicos estabelecidos pelos predicados soberanos ativos. A análise considerou o dever de explicitar as consequências práticas da decisão, evitando referências genéricas a precedentes e garantindo que todas as argumentações legais sejam abordadas. Além disso, foi necessário fundamentar a decisão em um ratio decidendi identificado, cumprindo com o dever constitucional de explicitar os motivos da decisão. O sistema também reconheceu a importância do direito à negociação coletiva e ao acesso à justiça e revisão judicial.\n\nA decisão de conformidade indica que todas essas obrigações foram atendidas, garantindo que o acórdão esteja em harmonia com os princípios legais aplicáveis. O grau da ofensa foi identificado com base nos fatos provados, e a quantificação do valor do dano moral foi feita de acordo com o salário do trabalhador, conforme estabelecido no artigo 223-G, §1°, da CLT, respeitando a proporcionalidade observada em precedentes similares do TST.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obligation to state practical consequences of decision**: Este predicado exige que o acórdão explique claramente as implicações práticas da decisão, garantindo que os envolvidos compreendam como a decisão afeta suas situações.\n\n- **Prohibition of generic precedent citation**: Proíbe referências vagas ou genéricas a precedentes judiciais, exigindo que qualquer citação de casos anteriores seja específica e relevante para o caso em questão.\n\n- **Obligation to address all legal arguments**: Garante que todas as argumentações legais apresentadas no processo sejam consideradas e respondidas na decisão final.\n\n- **Obligation to ground decision in identified ratio decidendi**: Exige que a decisão seja fundamentada em um motivo jurídico específico, claramente identificado e aplicável ao caso.\n\n- **Constitutional obligation to state reasons for decisions**: Impõe o dever constitucional de explicitar os motivos pelos quais uma determinada decisão foi tomada, promovendo a transparência e a justificativa legal.\n\n- **Recognition of collective bargaining**: Reconhece a importância da negociação coletiva no contexto trabalhista, permitindo que acordos coletivos possam influenciar certas disposições legais.\n\n- **Right of access to justice and judicial review**: Assegura o direito dos indivíduos de acessar a justiça e buscar revisão judicial das decisões, garantindo um sistema legal justo e equitativo.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG analisou seu caso de dano moral no trabalho e decidiu que tudo foi feito corretamente na forma como a decisão foi tomada. Isso significa que o tribunal explicou claramente por que decidiu daquela maneira, considerando todos os argumentos legais apresentados. Eles também garantiram que a decisão fosse baseada em motivos claros e específicos, sem se referir vagamente a casos anteriores.\n\nAlém disso, o tribunal respeitou as regras sobre negociações coletivas de trabalho e confirmou seu direito de buscar justiça. O valor do dano moral foi calculado com base no seu salário, seguindo as regras da lei, e levando em conta casos semelhantes que já foram julgados.\n\nEm resumo, a decisão foi tomada de forma justa e transparente, considerando todas as circunstâncias do caso.",
+  "tokens_in": 582,
+  "tokens_out": 916,
+  "latency_ms": 26562,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

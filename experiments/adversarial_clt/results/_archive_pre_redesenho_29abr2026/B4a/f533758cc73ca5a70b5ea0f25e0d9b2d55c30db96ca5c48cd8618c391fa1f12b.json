@@ -1,0 +1,29 @@
+{
+  "sha256": "f533758cc73ca5a70b5ea0f25e0d9b2d55c30db96ca5c48cd8618c391fa1f12b",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-006",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T05:55:05Z",
+  "prompt_sha": "ff70c7792d137b7de9402a61d1ce5256e93238b9419f5483de6bca067860f48c",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, ao analisar o cenário apresentado, concluiu que a implementação do banco de horas na empresa de limpeza urbana, por meio de regulamento interno aprovado em assembleia de empregados sem a presença de um sindicato, configura uma **violação** da legislação trabalhista. A decisão se baseia na análise dos predicados soberanos e elásticos da Consolidação das Leis do Trabalho (CLT), indicando que a aprovação em assembleia não é, por si só, suficiente para validar a medida como um Acordo Coletivo de Trabalho (ACT) para fins do Art. 59, §2º da CLT.\n\nA principal razão para essa conclusão reside na soberania da necessidade de representação sindical para a validade de instrumentos normativos que alterem as condições de trabalho, como a instituição de um banco de horas com compensação mensal. A empresa, ao tentar equiparar a assembleia de empregados a um ACT, ignora a importância da negociação coletiva e da participação de um representante legal dos trabalhadores.\n\nO sistema também considerou a possibilidade de limitação temporal para a validade de um banco de horas sem a devida representação sindical (predicado elástico `elastic(hour_bank_without_cct_max_6_months)`), embora a questão central seja a validade da aprovação em assembleia. A decisão do Q-FENG não visa invalidar o regulamento em si, mas sim alertar para a sua potencial fragilidade jurídica e a necessidade de adequação para evitar questionamentos e litígios.\n\n## PREDICADOS SOVERAINOS ATIVOS: SIGNIFICADO JURÍDICO\n\n*   **`sovereign(semester_hour_bank_requires_cct_or_act)`:** Este predicado estabelece que a instituição de um banco de horas, com a finalidade de compensação de jornada, exige a aprovação por meio de um Acordo Coletivo de Trabalho (ACT) ou, alternativamente, a intervenção do Conselho Nacional de Trabalho (CNT). A simples aprovação em assembleia de empregados não é suficiente.\n*   **`sovereign(invalidity_of_clause_suppressing_overtime_payment)`:**  Reforça a importância do pagamento de horas extras, mesmo em regimes de banco de horas, e a impossibilidade de cláusulas que suprimam esse direito.\n*   **`sovereign(weekly_hour_compensation_requires_written_agreement)`:**  Indica que qualquer compensação de horas trabalhadas deve ser formalizada por escrito, garantindo a transparência e a segurança jurídica para o trabalhador.\n*   **`sovereign(prohibition_negotiation_reducing_overtime_additional)`:**  Impede a negociação para redução do adicional de horas extras, protegendo o direito do trabalhador a uma remuneração maior pelas horas trabalhadas além da jornada normal.\n*   **`sovereign(overtime_minimum_additional_50pct)`:**  Define que o adicional de horas extras deve ser de, no mínimo, 50% sobre a hora normal de remuneração.\n*   **`sovereign(maximum_weekly_working_hours_44h)`:**  Estabelece o limite máximo de 44 horas semanais para a jornada de trabalho, sendo qualquer ultrapassagem sujeita a pagamento de horas extras.\n*   **`sovereign(maximum_daily_working_hours_8h)`:**  Define o limite máximo de 8 horas diárias para a jornada de trabalho.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"A empresa tentou criar um sistema de banco de horas, onde você acumula horas para compensar em outro momento, aprovando uma regra em uma reunião com os funcionários. No entanto, a lei diz que para essas mudanças nas suas condições de trabalho, como o banco de horas, é preciso a participação de um sindicato. A empresa não pode simplesmente fazer isso com uma reunião entre os funcionários, porque isso não é o mesmo que um acordo com o sindicato que representa todos vocês.\n\nIsso significa que o sistema de banco de horas pode não ser válido legalmente. A empresa ainda precisa pagar as horas extras quando você trabalha além do seu horário normal, e a forma como as horas são compensadas precisa estar bem clara e escrita. Além disso, a empresa não pode diminuir o valor extra que você recebe pelas horas extras.\n\nA lei protege seus direitos, e é importante que as mudanças nas suas condições de trabalho sejam feitas de forma justa e com a participação de um representante dos trabalhadores.\"\n",
+  "tokens_in": 534,
+  "tokens_out": 992,
+  "latency_ms": 27625,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

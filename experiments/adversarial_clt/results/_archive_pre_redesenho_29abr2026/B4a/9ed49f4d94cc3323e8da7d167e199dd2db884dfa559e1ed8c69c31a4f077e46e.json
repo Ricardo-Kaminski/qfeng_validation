@@ -1,0 +1,29 @@
+{
+  "sha256": "9ed49f4d94cc3323e8da7d167e199dd2db884dfa559e1ed8c69c31a4f077e46e",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T04:39:39Z",
+  "prompt_sha": "e49d5e5d7663742fd00bd3c94033461e30c834afe32a9924772ec284ff0e579e",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação na situação apresentada com base nos predicados soberanos ativos e no contexto normativo estabelecido pela Consolidação das Leis do Trabalho (CLT) e jurisprudência. O cenário envolve a negociação de um banco de horas com prazo de compensação superior ao limite legalmente permitido, que é de 1 ano, conforme Súmula TST 85, V. Os predicados soberanos ativos indicam que certas normas são inegociáveis e devem ser respeitadas independentemente das convenções coletivas ou acordos individuais.\n\nOs predicados relevantes para esta decisão incluem:\n\n- **sovereign(semester_hour_bank_requires_cct_or_act)**: Indica que a instituição de um banco de horas requer uma Convenção Coletiva de Trabalho (CCT) ou Acordo Coletivo de Trabalho (ACT), mas não pode contrariar normas de ordem pública.\n  \n- **sovereign(invalidity_of_clause_suppressing_overtime_payment)**: Qualquer cláusula que suprima o pagamento de horas extras é inválida, reforçando a proteção ao trabalhador.\n\n- **elastic(hour_bank_without_cct_max_6_months)**: Embora permitido um banco de horas sem CCT por até 6 meses, estendê-lo além disso requer uma CCT válida e respeitosa das normas de ordem pública.\n\nDado que o limite de 1 ano para compensação de horas é considerado uma norma de ordem pública, qualquer tentativa de flexibilização através da CCT não pode prevalecer sobre essa regra. Portanto, a decisão do Q-FENG foi classificar a situação como \"VIOLACAO\" porque o prazo estabelecido na CCT excede o limite legal permitido.\n\n### 2. PREDICADOS ATIVADOS\n\n- **sovereign(semester_hour_bank_requires_cct_or_act)**: Juridicamente, isso significa que para instituir um banco de horas, é necessário ter uma Convenção Coletiva ou Acordo Coletivo de Trabalho. No entanto, esses acordos não podem contrariar normas consideradas de ordem pública.\n\n- **sovereign(invalidity_of_clause_suppressing_overtime_payment)**: Qualquer cláusula em um acordo que tente eliminar o pagamento por horas extras é inválida, assegurando que os trabalhadores recebam a remuneração adicional prevista pela lei para trabalho além da jornada regular.\n\n- **sovereign(weekly_hour_compensation_requires_written_agreement)**: A compensação de horas deve ser formalizada em um acordo escrito, garantindo transparência e proteção legal tanto para o empregador quanto para o empregado.\n\n- **sovereign(prohibition_negotiation_reducing_overtime_additional)**: Não é permitido negociar a redução do pagamento adicional por horas extras, preservando os direitos dos trabalhadores de receberem uma remuneração justa pelo trabalho extra realizado.\n\n- **sovereign(overtime_minimum_additional_50pct)**: As horas extras devem ser pagas com um acréscimo mínimo de 50% sobre o salário normal, conforme estabelecido pela CLT.\n\n- **sovereign(maximum_weekly_working_hours_44h)**: A jornada semanal máxima é de 44 horas, protegendo os trabalhadores contra exploração por excesso de trabalho.\n\n- **sovereign(maximum_daily_working_hours_8h)**: O limite diário de trabalho é de 8 horas, garantindo que os trabalhadores tenham tempo adequado para descanso e recuperação.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nEm linguagem simples, o sistema Q-FENG decidiu que a empresa está errada ao tentar estender o prazo de compensação das horas extras para mais de um ano, como foi acordado na convenção coletiva. A lei brasileira diz claramente que esse tipo de acordo não pode ultrapassar 1 ano, e essa regra é muito importante e não pode ser mudada por negociações entre empresas e sindicatos.\n\nPortanto, mesmo que a empresa e o sindicato tenham concordado em um prazo maior, isso não é permitido porque viola uma regra fundamental de proteção ao trabalhador. O sistema identificou essa situação como uma \"violação\" das normas trabalhistas.",
+  "tokens_in": 552,
+  "tokens_out": 1030,
+  "latency_ms": 30266,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

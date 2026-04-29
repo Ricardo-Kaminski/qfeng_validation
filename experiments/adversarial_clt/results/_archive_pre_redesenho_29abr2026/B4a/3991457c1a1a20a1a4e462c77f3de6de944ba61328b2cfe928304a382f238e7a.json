@@ -1,0 +1,27 @@
+{
+  "sha256": "3991457c1a1a20a1a4e462c77f3de6de944ba61328b2cfe928304a382f238e7a",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T06:07:34Z",
+  "prompt_sha": "9ea3cbb73b13c3be77a30f2262e99311a38ad1cb70d480f6518cd2867401d28a",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, após analisar o cenário apresentado e considerando os princípios e diretrizes estabelecidos na Consolidação das Leis do Trabalho (CLT), concluiu que a conduta da empresa está em **conformidade** com a legislação e o acordo coletivo de trabalho (CCT). A decisão foi baseada na interpretação de que a contagem do prazo para compensação do banco de horas deve considerar o período útil de trabalho, e a licença-maternidade, por ser um período de afastamento legal, não deve ser incluída nesse cálculo.\n\nA análise do Q-FENG considerou a flexibilidade inerente aos acordos coletivos, permitindo a negociação de bancos de horas, desde que respeitados os limites estabelecidos pela lei. A compensação total, realizada em 8 meses (contando o período útil), dentro do prazo acordado na CCT, demonstra a observância do pacto firmado entre empregado e empregador. A suspensão do cômputo do banco de horas durante a licença-maternidade, seguida da sua reativação ao retorno da trabalhadora, reflete a aplicação correta dos princípios de proteção à maternidade e de flexibilização das relações de trabalho, sempre dentro dos limites legais e acordados.\n\n## PREDICADOS ATIVADOS E SEU SIGNIFICADO JURÍDICO\n\nOs predicados soberanos ativos, identificados pelo Q-FENG, são pilares fundamentais para a interpretação da decisão:\n\n*   **sovereign(recognition_of_collective_bargaining):** Este predicado reconhece a validade e a força obrigatória do acordo coletivo de trabalho (CCT). Em outras palavras, o Q-FENG considera que as regras estabelecidas no CCT são vinculantes para as partes (empregador e empregados) e devem ser observadas. A existência de um CCT que permite a negociação de bancos de horas é crucial para a análise.\n*   **sovereign(maximum_weekly_working_hours_44h):** Este predicado estabelece o limite máximo de jornada de trabalho semanal em 44 horas. Embora não diretamente relacionado à contagem do prazo do banco de horas, ele reforça a importância de respeitar os limites legais da jornada, garantindo a proteção do trabalhador.\n*   **sovereign(maximum_daily_working_hours_8h):** Este predicado define o limite máximo de jornada de trabalho diária em 8 horas. Similar ao anterior, reforça a importância de respeitar os limites legais da jornada, garantindo a proteção do trabalhador.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"Analisamos a sua situação e, de acordo com o que foi combinado no acordo da sua categoria profissional (CCT), a empresa está certa em não contar o período da sua licença-maternidade para calcular o prazo de compensação do banco de horas.\n\nPense assim: o acordo estabeleceu um prazo para você compensar as horas extras que trabalhou, e esse prazo começa a contar quando você está trabalhando. Quando você está de licença-maternidade, você está afastada do trabalho por lei, então o tempo não deve ser contado para esse cálculo.\n\nA empresa cumpriu o que foi combinado, compensando as horas extras em 8 meses, que é o prazo que vocês acordaram. O importante é que a empresa respeitou a lei e o acordo da sua categoria, garantindo seus direitos e protegendo a maternidade.\"",
+  "tokens_in": 500,
+  "tokens_out": 756,
+  "latency_ms": 21093,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

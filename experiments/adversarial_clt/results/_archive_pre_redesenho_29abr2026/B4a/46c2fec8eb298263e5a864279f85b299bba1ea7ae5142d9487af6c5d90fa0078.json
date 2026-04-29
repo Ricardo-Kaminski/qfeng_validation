@@ -1,0 +1,26 @@
+{
+  "sha256": "46c2fec8eb298263e5a864279f85b299bba1ea7ae5142d9487af6c5d90fa0078",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-006",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T04:21:49Z",
+  "prompt_sha": "324f58b06ace5123feff726f55259a913c5f926bf4c3eff790b1b83195a3e292",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação na decisão interlocutória emitida pela juíza do trabalho ao indeferir a prova pericial, fundamentando-se apenas no argumento de que os documentos já acostados aos autos seriam suficientes. Essa conclusão se baseia nos predicados soberanos ativos que orientam o sistema na análise da decisão:\n\n- **Obrigação de Estabelecer as Consequências Práticas da Decisão**: A decisão não esclareceu quais documentos seriam considerados suficientes nem qual fato probatório seria demonstrado, deixando em aberto as consequências práticas do indeferimento.\n\n- **Proibição de Citação Genérica de Precedentes**: Não há menção a precedentes específicos que justifiquem o indeferimento da prova pericial, o que poderia reforçar a decisão com base em casos semelhantes já julgados.\n\n- **Obrigação de Tratar Todos os Argumentos Jurídicos Apresentados**: A decisão não abordou adequadamente os argumentos apresentados pela parte requerente sobre a necessidade da prova pericial, nem explicou por que estes foram considerados insuficientes.\n\n- **Obrigação de Fundamentar a Decisão no Ratio Decidendi Identificado**: Faltou uma fundamentação clara e específica do motivo pelo qual a prova pericial foi indeferida, sem identificar o raciocínio jurídico que sustenta essa decisão.\n\n- **Obrigação Constitucional de Explicar as Razões das Decisões**: A decisão não explicou suficientemente as razões pelas quais os documentos existentes seriam considerados adequados, violando a obrigação constitucional de motivação clara e detalhada.\n\n- **Direito de Acesso à Justiça e Revisão Judicial**: Ao não fornecer uma motivação suficiente para o indeferimento da prova pericial, a decisão pode ter prejudicado o direito do requerente de buscar revisão judicial adequada, comprometendo seu acesso efetivo à justiça.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obrigação de Estabelecer as Consequências Práticas da Decisão**: Juridicamente, isso significa que a decisão deve explicar claramente como afeta o caso e quais são os resultados práticos dessa determinação.\n\n- **Proibição de Citação Genérica de Precedentes**: No contexto trabalhista, isso implica que qualquer referência a precedentes deve ser específica e relevante para o caso em questão, evitando generalizações que não contribuem para a fundamentação da decisão.\n\n- **Obrigação de Tratar Todos os Argumentos Jurídicos Apresentados**: Isso significa que todos os argumentos levantados pelas partes devem ser considerados e respondidos na decisão, garantindo uma análise completa do caso.\n\n- **Obrigação de Fundamentar a Decisão no Ratio Decidendi Identificado**: A decisão deve estar baseada em um raciocínio jurídico claro e identificável que explique por que foi tomada essa determinação específica.\n\n- **Obrigação Constitucional de Explicar as Razões das Decisões**: Isso exige que a decisão seja motivada de forma clara, detalhando as razões pelas quais certos atos foram realizados ou não, permitindo compreensão e revisão.\n\n- **Direito de Acesso à Justiça e Revisão Judicial**: Garante que os cidadãos possam buscar a justiça sem obstáculos injustificados e tenham a oportunidade de revisar decisões judiciais quando necessário, assegurando um sistema judicial justo e acessível.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nA juíza decidiu não permitir uma prova especial (pericial) que poderia ajudar a esclarecer o caso, dizendo que os documentos já apresentados eram suficientes. No entanto, ela não explicou quais documentos seriam esses ou como eles resolveriam tudo sozinhos. Isso é um problema porque as decisões judiciais precisam dizer claramente por que foram tomadas e o que isso significa para o caso.\n\nA lei exige que a juíza explique bem suas razões, especialmente quando nega algo importante como uma prova especial. Sem essa explicação, fica difícil entender se foi feita a coisa certa ou se há espaço para contestar a decisão. Portanto, a decisão pode ser considerada inadequada porque não cumpriu essas obrigações básicas de clareza e justiça.",
+  "tokens_in": 521,
+  "tokens_out": 1074,
+  "latency_ms": 31187,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

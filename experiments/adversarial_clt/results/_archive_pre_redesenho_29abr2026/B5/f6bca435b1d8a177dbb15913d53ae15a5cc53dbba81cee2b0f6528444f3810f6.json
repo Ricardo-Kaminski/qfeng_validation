@@ -1,0 +1,43 @@
+{
+  "sha256": "f6bca435b1d8a177dbb15913d53ae15a5cc53dbba81cee2b0f6528444f3810f6",
+  "braco": "B5",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T13:47:29Z",
+  "prompt_sha": "f6f57ca168552536f5be0114c8dd6df11ce4c3c0626eeb91fd7acf9e3c9be0d8",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO motor de inferência Q-FENG classificou o caso como **VIOLACAO** devido a uma **fricção ontológica θ de 127,81°**, que ultrapassa o limiar de **120°** para o regime **CIRCUIT_BREAKER**. Essa fricção reflete uma **contradição incompatível** entre os predicados **sovereanos** (normas jurídicas impositivas) e a **ação da empresa** (predicado **elastic**).  \n\n- **Predicados soberanos ativos** como **sovereign(semester_hour_bank_requires_cct_or_act)** e **sovereign(prohibition_negotiation_reducing_overtime_additional)** exigem que o banco de horas semestral seja regulado por **acordo coletivo** (CCT) ou **acordo individual escrito**, e que **cláusulas que reduzam o pagamento de horas extras sejam proibidas**. A empresa, ao adotar um banco de horas sem participação coletiva e com compensação em até 5 meses, **viola** essas normas.  \n- O **predicado elastic(hour_bank_without_cct_max_6_months)** permite um banco de horas sem CCT por até 6 meses, mas **não substitui** a exigência de **participação coletiva** (predicado **sovereign(semester_hour_bank_requires_cct_or_act)**). A fricção surge porque a empresa **não respeitou a necessidade de negociação coletiva**, mesmo com a compensação individual.  \n- O **ângulo θ** mede a **desalinhamento entre a norma simbólica (ψ_S)** e a **evidência neural (ψ_N)**: a empresa está **fora da conformidade legal**, gerando uma **interferência destrutiva** que bloqueia a ação.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(semester_hour_bank_requires_cct_or_act)**: O banco de horas semestral **deve ser regulado por acordo coletivo (CCT) ou individual escrito**, conforme a legislação trabalhista.  \n- **sovereign(invalidity_of_clause_suppressing_overtime_payment)**: Cláusulas que **eliminem o pagamento de horas extras são nulas**, garantindo o direito ao adicional de 50% (predicado **overtime_minimum_additional_50pct**).  \n- **sovereign(weekly_hour_compensation_requires_written_agreement)**: A compensação de horas extras **exige acordo escrito**, não apenas individual.  \n- **sovereign(prohibition_negotiation_reducing_overtime_additional)**: **Proíbe negociações que reduzam o adicional de horas extras**, garantindo o mínimo legal.  \n- **sovereign(maximum_weekly_working_hours_44h)** e **sovereign(maximum_daily_working_hours_8h)**: Limites legais de **44h semanais** e **8h diárias**, que **não podem ser ultrapassados**, mesmo com banco de horas.  \n- **elastic(hour_bank_without_cct_max_6_months)**: Permite banco de horas **sem CCT por até 6 meses**, mas **não substitui a necessidade de negociação coletiva**.  \n\n---\n\n### 3. **INTERPRETAÇÃO DO REGIME**  \nO regime **CIRCUIT_BREAKER** (θ ≥ 120°) indica que a **ação da empresa entra em conflito direto com normas jurídicas impositivas**, gerando **interferência destrutiva**. Operacionalmente:  \n- **Bloqueio de ação**: O motor Q-FENG **recomenda a suspensão da implementação do banco de horas** até que sejam cumpridas as exigências legais (acordo coletivo, participação sindical, compensação escrita).  \n- **Prioridade à norma**: A **fricção ontológica alta** (θ = 127,81°) força o sistema a **priorizar a conformidade legal** sobre a flexibilidade da empresa, mesmo com a existência de um acordo individual.  \n- **Risco de violação**: A **probabilidade de ação (Born Rule: 0,3869)** é baixa, indicando que a **ação da empresa tem alto risco de ser considerada ilegal**.  \n\n---\n\n### 4. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa **não pode usar o banco de horas** como fez porque:  \n- **Precisaria de um acordo coletivo** (negociação com sindicatos ou trabalhadores), mas **não houve**.  \n- Mesmo com um acordo individual escrito, a lei **exige participação coletiva** para regulamentar o banco de horas.  \n- A **compensação em até 5 meses** é permitida, mas **não substitui a necessidade de negociação coletiva**.  \n- A **fricção entre a ação da empresa e a lei** é tão grande que o sistema **recomenda que o banco de horas seja bloqueado** até que as normas sejam cumpridas.  \n- **A empresa está violando a lei**, pois não respeitou os direitos mínimos de horas extras e de negociação coletiva.  \n\n---  \n**Resumo**: A empresa **não pode usar o banco de horas** sem um acordo coletivo, mesmo com acordos individuais. A lei **proíbe isso**, e o sistema **recomenda que a ação seja bloqueada**.",
+  "tokens_in": 793,
+  "tokens_out": 1792,
+  "latency_ms": 60437,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": "",
+  "t_clingo_ms": 30,
+  "t_llm_ms": 60406,
+  "t_psi_build_ms": 0,
+  "t_theta_compute_ms": 0,
+  "qfeng_psi_n_dim": 2,
+  "qfeng_psi_s_dim": 2,
+  "qfeng_theta_rad": 2.2307694050963036,
+  "qfeng_theta_deg": 127.81367197892763,
+  "qfeng_theta_eff_rad": 2.2307694050963036,
+  "qfeng_theta_eff_deg": 127.81367197892763,
+  "qfeng_regime": "BLOCK",
+  "qfeng_p_action": 0.3869044161814975,
+  "qfeng_cos_theta": -0.6130955838185024,
+  "qfeng_cb_threshold_deg": 119.99999999999999
+}

@@ -1,0 +1,27 @@
+{
+  "sha256": "b3eb0ec00277a349b7c264512020ccdba0a2e40557846f81917cc71e840df41f",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:59:43Z",
+  "prompt_sha": "9ea3cbb73b13c3be77a30f2262e99311a38ad1cb70d480f6518cd2867401d28a",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\n\"O sistema Q-FENG analisou o caso e determinou que houve conformidade com a CCT firmada entre a empresa e a trabalhadora. Isso ocorreu porque a compensação total do banco de horas foi realizada dentro do prazo acordado, mesmo considerando o período de licença maternidade. A decisão é baseada na reconhecida validade da negociação coletiva (recognition_of_collective_bargaining) e nos limites estabelecidos para a jornada de trabalho semanal (maximum_weekly_working_hours_44h) e diária (maximum_daily_working_hours_8h), ambos predicados soberanos ativos que refletem direitos trabalhistas fundamentais. Além disso, os predicados elásticos ativos indicam flexibilidade na negociação de horas anuais (elastic(annual_hour_bank_negotiable)) e a possibilidade de ajuste das horas de trabalho conforme acordado em CCT (elastic(working_hours_negotiable_by_cct)), o que não alterou a decisão de conformidade. A análise do sistema Q-FENG foi concluída com um vetor ψ_S de 1,5708, indicando uma situação dentro dos parâmetros normativos estabelecidos.\"\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\n- **sovereign(recognition_of_collective_bargaining)**: Este predicado reflete a validade e eficácia da negociação coletiva entre os sindicatos e as empresas, reconhecendo o direito dos trabalhadores de negociar condições de trabalho e salariais por meio de acordos coletivos. A existência desse predicado indica que a CCT é uma base válida para a resolução do caso.\n\n- **sovereign(maximum_weekly_working_hours_44h)**: Este predicado estabelece o limite máximo semanal de horas trabalhadas, que é de 44 horas. Isso é um direito fundamental dos trabalhadores, protegido pela legislação trabalhista brasileira.\n\n- **sovereign(maximum_daily_working_hours_8h)**: Este predicado estabelece o limite máximo diário de horas trabalhadas, que é de 8 horas. Similar ao anterior, este direito também é fundamental e está protegido pela legislação trabalhista brasileira.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\n\"A decisão do sistema Q-FENG foi que a empresa fez tudo certo em relação à compensação do banco de horas da trabalhadora. A trabalhadora tinha um acordo com o banco de horas para ser pago ao longo de 6 meses, mas ela entrou em licença maternidade no meio desse período e voltou após alguns meses. O sistema analisou as regras e determinou que a empresa seguiu todas as normas estabelecidas na CCT e não houve violação dos direitos trabalhistas da trabalhadora, como o limite de horas semanais e diárias de trabalho. Isso significa que a compensação do banco de horas foi feita dentro do prazo acordado, mesmo considerando o período em que ela estava licenciada.\"",
+  "tokens_in": 509,
+  "tokens_out": 720,
+  "latency_ms": 12078,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

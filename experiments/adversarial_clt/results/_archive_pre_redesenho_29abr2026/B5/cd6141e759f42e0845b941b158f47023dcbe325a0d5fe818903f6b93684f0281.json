@@ -1,0 +1,43 @@
+{
+  "sha256": "cd6141e759f42e0845b941b158f47023dcbe325a0d5fe818903f6b93684f0281",
+  "braco": "B5",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-006",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T14:01:40Z",
+  "prompt_sha": "482035b48ba034d2dce1a114be5cb6c635083d2e87120545423ecd28e62fbd93",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO motor de inferência Q-FENG identificou uma **fricção ontológica θ de 127,81°**, que coloca o caso no regime **CIRCUIT_BREAKER** (supressão de ação). Esse resultado decorre da **incompatibilidade entre a prática da empresa (banco de horas sem CCT/ACT) e os predicados soberanos ativos**, que representam normas jurídicas fundamentais do Direito do Trabalho brasileiro.  \n\nOs predicados **sovereign(semester_hour_bank_requires_cct_or_act)** e **sovereign(invalidity_of_clause_suppressing_overtime_payment)** indicam que a **ausência de representação sindical** (não houve CCT ou ACT) e a **não compensação de horas extras** (mesmo com banco de horas) violam diretamente o **Art. 59, §2° do CLT**, que exige a **existência de acordo coletivo** para a validade de sistemas de banco de horas. Além disso, o **predicado sovereign(weekly_hour_compensation_requires_written_agreement)** reforça que a compensação de horas extras deve ser **escrita e formalizada**, o que não ocorreu.  \n\nA **fricção ontológica θ** mede a **tensão entre a evidência neural (prática da empresa) e a norma simbólica (lei)**. Nesse caso, a empresa tenta justificar a validade do banco de horas com base em uma assembleia interna, mas a **ausência de sindicato** e a **falta de compensação de horas extras** geram uma **incompatibilidade estrutural com a lei**, resultando em **violação**.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(semester_hour_bank_requires_cct_or_act)**:  \n  *O banco de horas sem um Acordo Coletivo de Trabalho (CCT) ou Acordo de Trabalho (ACT) é inválido. O CLT exige que sistemas de banco de horas sejam formalizados por meio de acordos coletivos.*  \n\n- **sovereign(invalidity_of_clause_suppressing_overtime_payment)**:  \n  *Cláusulas que suprimem o pagamento de horas extras são nulas. O trabalhador tem direito a **50% de adicional** sobre o valor da hora normal, independentemente de compensação.*  \n\n- **sovereign(weekly_hour_compensation_requires_written_agreement)**:  \n  *A compensação de horas extras por semana exige um **acordo escrito** entre empregador e empregado. A ausência de documento formal invalida a prática.*  \n\n- **sovereign(prohibition_negotiation_reducing_overtime_additional)**:  \n  *É proibido acordar a redução do adicional de horas extras (50% mínimo). Mesmo com banco de horas, o trabalhador deve receber o adicional legal.*  \n\n- **sovereign(overtime_minimum_additional_50pct)**:  \n  *O adicional de horas extras não pode ser inferior a **50%** do valor da hora normal. A empresa não pode compensar horas extras com descontos ou reduções.*  \n\n- **sovereign(maximum_weekly_working_hours_44h)**:  \n  *A jornada semanal máxima é de **44 horas**, conforme o Art. 58 do CLT. O banco de horas não pode ser usado para ultrapassar esse limite.*  \n\n- **sovereign(maximum_daily_working_hours_8h)**:  \n  *A jornada diária máxima é de **8 horas**, conforme o Art. 58 do CLT. O banco de horas não pode ser usado para compensar horas extras que excedam esse limite.*  \n\n- **elastic(hour_bank_without_cct_max_6_months)**:  \n  *O banco de horas sem CCT/ACT pode ser usado por **máximo de 6 meses**, mas não pode ser usado para compensar horas extras que excedam a jornada legal.*  \n\n---\n\n### 3. **INTERPRETAÇÃO DO REGIME**  \nO regime **CIRCUIT_BREAKER** (θ ≥ 120°) indica que a **ação da empresa entra em conflito direto com normas jurídicas fundamentais**, resultando em **supressão de ação**. Operacionalmente, isso significa:  \n- **Bloqueio da prática da empresa**: O banco de horas aprovado pela assembleia interna **não é válido** por ausência de CCT/ACT e pela falta de compensação de horas extras.  \n- **Prioridade à norma legal**: O motor Q-FENG reconhece que a **lei trabalhista** (predicados soberanos) prevalece sobre a **autodeterminação da empresa** (predicado elástico).  \n- **Risco de violação**: A probabilidade de ação (Born Rule: 0,3869) indica que, mesmo com a supressão, há **risco residual de violação** devido à ambiguidade da interpretação da assembleia interna.  \n\n---\n\n### 4. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa tentou criar um sistema de \"banco de horas\" com a aprovação de uma assembleia dos próprios funcionários, mas **não obteve a assinatura de um sindicato** (que é obrigatório para validar esse tipo de acordo). Além disso, **não pagou o adicional de 50% sobre as horas extras** que os funcionários trabalharam.  \n\nA lei brasileira diz que:  \n- Para criar um sistema de banco de horas, **precisa haver um acordo com o sindicato** (CCT ou ACT).  \n- **O trabalhador tem direito a ser pago por horas extras**, mesmo que elas sejam compensadas depois.  \n- **A jornada de trabalho não pode ultrapassar 44 horas por semana** ou 8 horas por dia.  \n\nComo a empresa **não seguiu essas regras**, o sistema de banco de horas é **inválido**, e a prática da empresa **viola a lei**. O motor Q-FENG concluiu que a ação da empresa **deve ser bloqueada** para proteger os direitos dos trabalhadores.",
+  "tokens_in": 801,
+  "tokens_out": 1982,
+  "latency_ms": 67657,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": "",
+  "t_clingo_ms": 47,
+  "t_llm_ms": 67609,
+  "t_psi_build_ms": 0,
+  "t_theta_compute_ms": 0,
+  "qfeng_psi_n_dim": 2,
+  "qfeng_psi_s_dim": 2,
+  "qfeng_theta_rad": 2.2307694050963036,
+  "qfeng_theta_deg": 127.81367197892763,
+  "qfeng_theta_eff_rad": 2.2307694050963036,
+  "qfeng_theta_eff_deg": 127.81367197892763,
+  "qfeng_regime": "BLOCK",
+  "qfeng_p_action": 0.3869044161814975,
+  "qfeng_cos_theta": -0.6130955838185024,
+  "qfeng_cb_threshold_deg": 119.99999999999999
+}

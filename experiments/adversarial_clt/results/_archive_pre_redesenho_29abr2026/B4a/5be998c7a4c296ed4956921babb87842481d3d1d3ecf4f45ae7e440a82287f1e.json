@@ -1,0 +1,26 @@
+{
+  "sha256": "5be998c7a4c296ed4956921babb87842481d3d1d3ecf4f45ae7e440a82287f1e",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T05:21:04Z",
+  "prompt_sha": "f2939f0e6492edddd924d6caf369ebeb9d70b95b1796bba0e04e7028b5864a9f",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que o acórdão trabalhista deve estar em conformidade com os predicados soberanos ativos identificados na execução do solver Clingo ASP. A decisão foi baseada na análise de como esses predicados se aplicam ao caso concreto, garantindo que todas as obrigações legais e princípios jurisprudenciais estejam sendo cumpridos.\n\nO acórdão deve explicitar as consequências práticas da decisão (sovereign(obligation_to_state_practical_consequences_of_decision)), evitando a citação genérica de precedentes sem análise específica do caso (sovereign(prohibition_of_generic_precedent_citation)). Além disso, é necessário que todas as argumentações legais sejam abordadas (sovereign(obligation_to_address_all_legal_arguments)) e que a decisão esteja fundamentada na ratio decidendi identificada no precedente aplicado ao caso concreto (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)). A constituição obriga ainda que sejam explicitamente declaradas as razões para a decisão (sovereign(constitutional_obligation_to_state_reasons_for_decisions)), respeitando o direito de acesso à justiça e ao controle jurisdicional sobre a decisão tomada (sovereign(right_of_access_to_justice_and_judicial_review)).\n\n### 2. PREDICADOS ATIVADOS\n\n- **Sovereign(obligation_to_state_practical_consequences_of_decision)**: Juridicamente, isso significa que o acórdão deve detalhar quais serão os efeitos práticos da decisão sobre as partes envolvidas no caso trabalhista. É uma obrigação de esclarecer como a decisão impactará na vida do empregado ou empregador.\n\n- **Sovereign(prohibition_of_generic_precedent_citation)**: Isso implica que não é suficiente citar precedentes sem analisá-los em relação ao caso específico. Cada caso deve ser avaliado individualmente, e a aplicação de um precedente deve ser justificada com base nas circunstâncias únicas do caso.\n\n- **Sovereign(obligation_to_address_all_legal_arguments)**: O acórdão deve considerar todas as argumentações legais apresentadas pelas partes. Isso significa que o tribunal não pode ignorar ou deixar de responder a quaisquer pontos levantados durante o processo.\n\n- **Sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão deve ser fundamentada na razão principal do precedente aplicado, garantindo que a lógica jurídica utilizada seja clara e relevante para o caso em questão.\n\n- **Sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: Este predicado assegura que o tribunal deve explicar de forma clara e detalhada os motivos pelos quais chegou à sua decisão, permitindo transparência e compreensão do processo judicial.\n\n- **Sovereign(right_of_access_to_justice_and_judicial_review)**: Garante que as partes envolvidas no caso tenham o direito de acessar a justiça e de ter suas decisões revisadas por instâncias superiores, se necessário. Isso é fundamental para a proteção dos direitos individuais.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG avaliou o caso trabalhista e recomendou que o acórdão siga algumas regras importantes:\n\n1. **Consequências Práticas**: O juiz deve explicar claramente como a decisão afetará você, seja como empregado ou empregador.\n\n2. **Precedentes Específicos**: Não basta apenas dizer que um caso anterior é semelhante; o juiz precisa mostrar por que esse caso específico se aplica ao seu caso.\n\n3. **Todos os Argumentos Considerados**: O juiz deve responder a todos os pontos levantados durante o processo, não podendo ignorar nada importante que você ou sua empresa tenham dito.\n\n4. **Motivos Claros da Decisão**: É necessário que o juiz explique claramente por que decidiu como decidiu, baseando-se em razões legais sólidas.\n\n5. **Direitos de Justiça e Revisão**: Você tem o direito de entender a decisão e, se necessário, pedir para outra instância judicial revisar o caso.\n\nEssas regras garantem que o processo seja justo e transparente, respeitando seus direitos e assegurando que todas as partes tenham suas vozes ouvidas.",
+  "tokens_in": 558,
+  "tokens_out": 1065,
+  "latency_ms": 31062,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

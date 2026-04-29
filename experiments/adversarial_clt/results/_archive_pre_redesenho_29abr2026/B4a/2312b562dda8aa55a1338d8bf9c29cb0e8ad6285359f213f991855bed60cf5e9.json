@@ -1,0 +1,29 @@
+{
+  "sha256": "2312b562dda8aa55a1338d8bf9c29cb0e8ad6285359f213f991855bed60cf5e9",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T04:44:31Z",
+  "prompt_sha": "85be4e9fc6b0e8305c982455c7b1416641f688c9050ea4b7fedf4fae6b54fd4b",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que há uma violação dos direitos do empregado no contexto apresentado. A decisão é baseada na análise dos predicados soberanos ativos, que estabelecem princípios fundamentais da legislação trabalhista brasileira. O banco de horas foi instituído por meio de Acordo Coletivo de Trabalho (ACT), o que exige conformidade com a Consolidação das Leis do Trabalho (CLT). \n\nOs predicados soberanos ativos indicam que:\n\n- **Banco de Horas**: Deve ser estabelecido por meio de CCT ou ACT, conforme o princípio `sovereign(semester_hour_bank_requires_cct_or_act)`. Isso significa que a instituição do banco de horas foi legalmente válida.\n  \n- **Pagamento de Overtime**: Não é permitido suprimir o pagamento de horas extras pendentes, conforme `sovereign(invalidity_of_clause_suppressing_overtime_payment)`. A rescisão contratual não anula o direito ao recebimento das horas acumuladas.\n\n- **Compensação Semanal**: Requer um acordo escrito, como indicado por `sovereign(weekly_hour_compensation_requires_written_agreement)`, mas isso não afeta a obrigação de pagamento das horas extras já trabalhadas e pendentes.\n\nPortanto, mesmo com o término do contrato, o empregador está obrigado a pagar as horas acumuladas no banco de horas, pois a rescisão não elimina os direitos adquiridos pelo empregado durante a vigência do acordo. A recusa em efetuar esse pagamento constitui uma violação dos direitos trabalhistas.\n\n### 2. PREDICADOS ATIVADOS\n\n- **sovereign(semester_hour_bank_requires_cct_or_act)**: Este predicado estabelece que qualquer banco de horas deve ser instituído por meio de um Acordo Coletivo de Trabalho (ACT) ou Convenção Coletiva de Trabalho (CCT), garantindo a legalidade e conformidade com a legislação trabalhista.\n\n- **sovereign(invalidity_of_clause_suppressing_overtime_payment)**: Indica que qualquer cláusula que suprima o pagamento de horas extras é inválida. Isso protege os direitos dos empregados ao recebimento das horas extras acumuladas, independentemente da rescisão do contrato.\n\n- **sovereign(weekly_hour_compensation_requires_written_agreement)**: Exige que qualquer compensação semanal de horas trabalhadas excedentes seja formalizada por escrito, garantindo transparência e legalidade no acordo entre empregador e empregado.\n\n- **sovereign(prohibition_negotiation_reducing_overtime_additional)**: Proíbe negociações que reduzam o adicional de horas extras abaixo do mínimo estabelecido, assegurando que os trabalhadores recebam pelo menos 50% a mais por essas horas.\n\n- **sovereign(overtime_minimum_additional_50pct)**: Garante que qualquer hora extra deve ser compensada com um adicional mínimo de 50%, conforme a legislação trabalhista brasileira.\n\n- **sovereign(maximum_weekly_working_hours_44h)**: Define o limite máximo de horas semanais que um empregado pode trabalhar, protegendo contra exploração excessiva.\n\n- **sovereign(maximum_daily_working_hours_8h)**: Estabelece o limite diário de trabalho para 8 horas, garantindo condições adequadas de saúde e segurança no ambiente de trabalho.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG decidiu que a empresa está errada em não pagar as horas extras acumuladas pelo trabalhador. Mesmo que o empregado tenha pedido demissão, ele tem direito ao pagamento das 60 horas extras que conseguiu economizar durante os cinco meses de trabalho sob o banco de horas estabelecido por um acordo legal.\n\nA lei brasileira garante que essas horas acumuladas devem ser pagas, independentemente do término do contrato. A empresa não pode simplesmente ignorar esse direito apenas porque o empregado decidiu sair. Portanto, a recusa em pagar as horas extras é uma violação dos seus direitos trabalhistas.",
+  "tokens_in": 549,
+  "tokens_out": 984,
+  "latency_ms": 28531,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

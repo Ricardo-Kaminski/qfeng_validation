@@ -1,0 +1,30 @@
+{
+  "sha256": "1f4e2606fe0b7a492f0b2507e2699835e797f5bb69092976bfcacd3fa1a43f9d",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-010",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T03:59:13Z",
+  "prompt_sha": "489f6f91379c7ea7947895493240b48edcdba6ecc1f5f6f729f5d5d0c3140186",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu pela **conformidade** com a decisão do TRT, com base nos predicados soberanos ativos. A análise jurídica do TRT, que reconheceu a **ausência de CCT válida** para reduzir o intervalo intrajornada, está alinhada com o **obrigação de fundamentar a decisão em ratio decidendi identificada** (predicado `sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)`), ao vincular o resultado à ausência de acordo coletivo e à validade da CLT. Além disso, a decisão evitou a **citação genérica de precedentes** (predicado `sovereign(prohibition_of_generic_precedent_citation)`), ao explicitar a aplicação do **Tema 981/STF** e a **Súmula TST 437** como fundamentos. O **reconhecimento da negociação coletiva** (predicado `sovereign(recognition_of_collective_bargaining)`) também foi respeitado, ao constatar que a redução do intervalo só seria válida com CCT específica. Por fim, a **obrigação de explicitar as consequências práticas da decisão** (predicado `sovereign(obligation_to_state_practical_consequences_of_decision)`) foi cumprida ao determinar o pagamento integral do período suprimido como hora extra.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **`sovereign(obligation_to_state_practical_consequences_of_decision)`**: Obrigação de descrever claramente as consequências práticas da decisão (ex.: pagamento de horas extras, restabelecimento do intervalo intrajornada).  \n- **`sovereign(prohibition_of_generic_precedent_citation)`**: Proibição de citar precedentes de forma genérica ou ambígua; a decisão deve vincular-se a normas específicas (ex.: CLT Art. 71, Súmula TST 437).  \n- **`sovereign(obligation_to_address_all_legal_arguments)`**: Obrigação de analisar todos os argumentos jurídicos apresentados (ex.: validade da CCT, aplicação do Tema 981/STF).  \n- **`sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)`**: Obrigação de fundamentar a decisão em uma **ratio decidendi** (razão de decidir) identificada e específica (ex.: ausência de CCT).  \n- **`sovereign(constitutional_obligation_to_state_reasons_for_decisions)`**: Obrigação constitucional de explicitar as razões da decisão (ex.: direito à saúde do trabalhador, garantia do descanso).  \n- **`sovereign(recognition_of_collective_bargaining)`**: Reconhecimento da negociação coletiva como meio de flexibilizar normas trabalhistas (ex.: CCT válida para reduzir intervalo intrajornada).  \n- **`sovereign(right_of_access_to_justice_and_judicial_review)`**: Garantia do direito de acesso à justiça e revisão judicial (ex.: possibilidade de recurso contra a sentença de primeiro grau).  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO juiz **reconheceu que a empresa não tinha um acordo coletivo válido** para reduzir o tempo de pausa durante o expediente (intervalo intrajornada). Por isso, **a empresa deve pagar como hora extra o tempo que foi cortado** da pausa do trabalhador. A decisão foi feita com base em leis específicas (ex.: CLT, Súmula TST 437) e não apenas por \"costume\" ou \"precedentes genéricos\". O sistema Q-FENG aprovou essa decisão porque ela **explicou claramente por que a empresa deve pagar** e **respeitou o direito do trabalhador de ter um descanso adequado**. O trabalhador tem direito a essa compensação, e a empresa deve cumprir a lei.",
+  "tokens_in": 588,
+  "tokens_out": 1440,
+  "latency_ms": 45532,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

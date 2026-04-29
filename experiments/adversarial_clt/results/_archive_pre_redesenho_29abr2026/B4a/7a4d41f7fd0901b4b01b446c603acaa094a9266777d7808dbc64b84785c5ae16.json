@@ -1,0 +1,27 @@
+{
+  "sha256": "7a4d41f7fd0901b4b01b446c603acaa094a9266777d7808dbc64b84785c5ae16",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:57:46Z",
+  "prompt_sha": "c6c0c1122710df482c2abdde5c502834d7fd2f7dca2ec9ae3f5901b25dbff6df",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\n\"O sistema Q-FENG analisou o caso e determinou que há conformidade com as normas trabalhistas brasileiras. Isso ocorreu porque a empresa cumpriu os requisitos estabelecidos na Convenção Coletiva de Trabalho (CCT) em relação ao banco de horas anual. Além disso, o trabalhador acumulou horas ao longo de 11 meses e todas foram compensadas mediante folgas dentro do prazo de 12 meses estabelecido na CCT. A jornada diária nunca ultrapassou 10 horas, como previsto na lei. O sindicato também homologou a prestação anual de contas do banco de horas. Em resumo, o sistema Q-FENG verificou que todas as condições necessárias para a conformidade foram atendidas, considerando os predicados soberanos ativos.\"\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\n*   **sovereign(recognition_of_collective_bargaining)**: Este predicado indica que o sistema reconhece e respeita a negociação coletiva entre a empresa e o sindicato, conforme previsto na Constituição Federal do Brasil (art. 7º, inciso XXVI). Isso significa que as regras estabelecidas na CCT têm validade e devem ser cumpridas.\n*   **sovereign(maximum_weekly_working_hours_44h)**: Este predicado refere-se à limitação da jornada de trabalho semanal, conforme prevista no art. 7º, inciso XIII, da Constituição Federal do Brasil. A lei estabelece que o período máximo de trabalho semanal é de 44 horas.\n*   **sovereign(maximum_daily_working_hours_8h)**: Este predicado indica a limitação da jornada de trabalho diária, conforme prevista no art. 7º, inciso XIII, da Constituição Federal do Brasil. A lei estabelece que o período máximo de trabalho diário é de 8 horas.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\n\"O sistema Q-FENG analisou seu caso e determinou que você está correto em relação ao banco de horas anual. Isso ocorreu porque a empresa cumpriu as regras estabelecidas na Convenção Coletiva de Trabalho (CCT) e você acumulou horas ao longo de 11 meses, compensadas dentro do prazo estabelecido. Além disso, sua jornada diária nunca ultrapassou 10 horas, como previsto na lei. O sindicato também aprovou as contas do banco de horas anual. Em resumo, o sistema Q-FENG verificou que você está dentro das regras estabelecidas.\"",
+  "tokens_in": 502,
+  "tokens_out": 632,
+  "latency_ms": 10733,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

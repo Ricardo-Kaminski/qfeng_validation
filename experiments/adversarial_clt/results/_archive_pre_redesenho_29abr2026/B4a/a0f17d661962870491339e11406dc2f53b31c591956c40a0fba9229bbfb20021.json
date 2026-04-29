@@ -1,0 +1,29 @@
+{
+  "sha256": "a0f17d661962870491339e11406dc2f53b31c591956c40a0fba9229bbfb20021",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T04:40:33Z",
+  "prompt_sha": "e49d5e5d7663742fd00bd3c94033461e30c834afe32a9924772ec284ff0e579e",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que há uma violação das normas trabalhistas no cenário apresentado. A decisão é baseada na análise dos predicados soberanos ativos, que representam princípios e regras de ordem pública no direito do trabalho brasileiro. Estes princípios não podem ser flexibilizados ou negociados entre as partes coletivas (empregadores e sindicatos), mesmo com a autonomia conferida pelas convenções coletivas de trabalho (CCT).\n\nNo caso específico, o limite de 12 meses para compensação do banco de horas estabelecido em lei é considerado uma norma de ordem pública. A Súmula TST 85, V, reforça que tal limite não pode ser ultrapassado por acordos coletivos ou individuais. Portanto, a tentativa da empresa hoteleira de estender esse prazo para 14 meses através de uma CCT é inválida e resulta em violação das normas trabalhistas vigentes.\n\n### 2. PREDICADOS ATIVADOS\n\n- **sovereign(semester_hour_bank_requires_cct_or_act):** Este predicado indica que a criação ou alteração do banco de horas deve ser formalizada por meio de uma CCT ou ato normativo, garantindo transparência e legalidade no acordo.\n\n- **invalidity_of_clause_suppressing_overtime_payment:** Qualquer cláusula em um acordo coletivo que tente suprimir o pagamento de horas extras é inválida, pois as horas extras devem ser remuneradas conforme a legislação trabalhista.\n\n- **weekly_hour_compensation_requires_written_agreement:** A compensação das horas semanais excedentes deve ser formalizada por escrito, assegurando que os direitos dos trabalhadores sejam claramente estabelecidos e respeitados.\n\n- **prohibition_negotiation_reducing_overtime_additional:** É proibido negociar reduções no pagamento adicional de horas extras, garantindo que os trabalhadores recebam a remuneração adequada por seu tempo extra de trabalho.\n\n- **overtime_minimum_additional_50pct:** As horas extras devem ser pagas com um acréscimo mínimo de 50% sobre o valor da hora normal, conforme determina a legislação trabalhista brasileira.\n\n- **maximum_weekly_working_hours_44h:** O limite máximo de horas semanais que um trabalhador pode laborar é de 44 horas, assegurando condições adequadas de trabalho e descanso.\n\n- **maximum_daily_working_hours_8h:** O limite diário de horas de trabalho não deve exceder 8 horas, protegendo a saúde e o bem-estar dos trabalhadores.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG identificou que a empresa hoteleira está fazendo algo errado ao tentar estender o tempo para compensar horas extras de 12 meses, como a lei permite, para 14 meses através de um acordo coletivo. A lei é clara: não importa o que as empresas e sindicatos decidam juntos, esse limite de 12 meses não pode ser ultrapassado. Isso é uma regra muito importante que protege os trabalhadores, garantindo que eles recebam suas horas extras em um prazo justo. Portanto, a empresa está violando essa regra ao tentar fazer algo diferente do que a lei permite.",
+  "tokens_in": 552,
+  "tokens_out": 787,
+  "latency_ms": 22796,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

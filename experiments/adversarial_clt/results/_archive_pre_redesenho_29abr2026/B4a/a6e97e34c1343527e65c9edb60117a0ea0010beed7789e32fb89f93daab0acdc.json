@@ -1,0 +1,27 @@
+{
+  "sha256": "a6e97e34c1343527e65c9edb60117a0ea0010beed7789e32fb89f93daab0acdc",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T03:08:18Z",
+  "prompt_sha": "0208fd3b44ceb8a3c69065a3c8ca285bf0e8848068418ebf258a2f76db390f3c",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nA decisão de **VIOLACAO** resulta da incompatibilidade entre a cláusula de renovação automática da CCT e os limites legais estabelecidos pelos **predicados soberanos**. O **predicado *sovereign(recognition_of_collective_bargaining)*** impõe que qualquer alteração no regime de trabalho (como a prorrogação de um banco de horas) deve ser formalizada por meio de negociação coletiva, conforme prevê a CLT. A **cláusula de renovação automática** não pode ser interpretada como autorização para prorrogar o prazo máximo de 1 ano estabelecido pelo **predicado *sovereign(hour_bank_with_cct_max_1_year)***, que é um limite absoluto. A ausência de nova CCT para a extensão de 3 meses viola, portanto, o direito à negociação coletiva e o limite legal de duração do banco de horas.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(recognition_of_collective_bargaining)**:  \n  Garante que **qualquer alteração nas condições de trabalho** (como a prorrogação de um banco de horas) **só pode ser feita mediante negociação coletiva** (CCT), conforme previsto no art. 611 da CLT. A ausência de nova CCT para a extensão de 3 meses viola esse princípio.  \n\n- **sovereign(maximum_weekly_working_hours_44h)**:  \n  Estabelece que **a jornada semanal máxima permitida é de 44 horas**, independentemente de acordos setoriais. Esse predicado não está diretamente ligado ao caso, mas reforça a necessidade de respeito aos limites legais.  \n\n- **sovereign(maximum_daily_working_hours_8h)**:  \n  Define que **a jornada diária não pode exceder 8 horas**, exceto em casos excepcionais previstos na CLT. Novamente, não está diretamente ligado ao caso, mas reforça a rigidez dos limites legais.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa tentou alongar o banco de horas por 3 meses **sem negociar novamente com o sindicato**, mesmo que a CCT original dissesse que o banco renova automaticamente. Porém, a lei **não permite que um banco de horas dure mais de 1 ano** sem uma nova negociação coletiva. A empresa violou essa regra, porque:  \n1. **A renovação automática não é uma licença para alongar o prazo** além do limite legal (1 ano).  \n2. **A negociação coletiva é obrigatória** para qualquer alteração nas condições de trabalho, incluindo a prorrogação de um banco de horas.  \nPortanto, a empresa **não pode simplesmente estender o prazo** sem um novo acordo com o sindicato.",
+  "tokens_in": 527,
+  "tokens_out": 1105,
+  "latency_ms": 35172,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

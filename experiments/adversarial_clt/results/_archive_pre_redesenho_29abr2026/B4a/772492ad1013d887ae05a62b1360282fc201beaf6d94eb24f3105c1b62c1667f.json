@@ -1,0 +1,30 @@
+{
+  "sha256": "772492ad1013d887ae05a62b1360282fc201beaf6d94eb24f3105c1b62c1667f",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-009",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T07:11:21Z",
+  "prompt_sha": "ff8fda303630134604d2d7ffdb2585495e891ee0ed0eaebbd81c40f3a8fb664e",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\n\"O sistema Q-FENG, após analisar o caso concreto e os predicados soberanos ativos, determinou que a decisão seja considerada como violação de direitos trabalhistas. Isso ocorreu porque o sistema identificou que a Súmula TST 85 foi corretamente citada, mas a consequência jurídica aplicada foi equivocada. O sistema não encontrou fundamentação para afastar o adicional de 50% estabelecido na Súmula TST 85.\n\nO Q-FENG é um sistema que busca equilibrar a justiça e a eficiência, e nesse caso, ele determinou que a decisão seja considerada como violação de direitos trabalhistas. Isso ocorreu porque o sistema identificou uma falha na aplicação da Súmula TST 85.\n\nOs predicados soberanos ativos que contribuíram para essa decisão incluem:\n\n* A obrigação do Estado em estabelecer as consequências práticas da decisão (obligation_to_state_practical_consequences_of_decision);\n* A proibição de citação de precedentes genéricos (prohibition_of_generic_precedent_citation);\n* A obrigação de abordar todos os argumentos legais relevantes (obligation_to_address_all_legal_arguments);\n* A obrigação de fundamentar a decisão em relação ao ratio decidendi identificado (obligation_to_ground_decision_in_identified_ratio_decidendi);\n* A obrigação constitucional de estabelecer as razões para as decisões (constitutional_obligation_to_state_reasons_for_decisions);\n* O reconhecimento do direito coletivo de negociação (recognition_of_collective_bargaining);\n* O direito de acesso à justiça e revisão judicial (right_of_access_to_justice_and_judicial_review).\n\nEsses predicados soberanos ativos contribuíram para a decisão de considerar a violação de direitos trabalhistas.\"\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\n* **obligation_to_state_practical_consequences_of_decision**: O sistema tem a obrigação de estabelecer as consequências práticas da decisão, ou seja, o que isso significa para os envolvidos no caso.\n* **prohibition_of_generic_precedent_citation**: O sistema não pode citar precedentes genéricos sem fundamentação específica para aplicá-los ao caso concreto.\n* **obligation_to_address_all_legal_arguments**: O sistema tem a obrigação de abordar todos os argumentos legais relevantes e considerá-los na decisão.\n* **obligation_to_ground_decision_in_identified_ratio_decidendi**: O sistema deve fundamentar a decisão em relação ao ratio decidendi identificado, ou seja, o princípio jurídico que guia a decisão.\n* **constitutional_obligation_to_state_reasons_for_decisions**: O sistema tem a obrigação constitucional de estabelecer as razões para as decisões, ou seja, por quê a decisão foi tomada.\n* **recognition_of_collective_bargaining**: O sistema reconhece o direito coletivo de negociação, ou seja, a capacidade dos trabalhadores de negociar condições de trabalho com os empregadores.\n* **right_of_access_to_justice_and_judicial_review**: O sistema reconhece o direito de acesso à justiça e revisão judicial, ou seja, a possibilidade de os envolvidos no caso recorrerem da decisão para um tribunal superior.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\n\"O Q-FENG é um sistema que ajuda a decidir casos trabalhistas. Nesse caso, o sistema identificou que a decisão foi equivocada porque não aplicou corretamente a Súmula TST 85.\n\nIsso significa que os trabalhadores têm direito a receber horas extras com adicional de 50% quando trabalham mais de 7 meses sem CCT. Mas, no caso concreto, a decisão foi considerada como violação de direitos trabalhistas porque não aplicou corretamente essa regra.\n\nO sistema Q-FENG é como um juiz que analisa os casos e decide o que é justo. Nesse caso, ele decidiu que a decisão foi equivocada e que os trabalhadores têm direito a receber horas extras com adicional de 50%.\"",
+  "tokens_in": 559,
+  "tokens_out": 999,
+  "latency_ms": 16937,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

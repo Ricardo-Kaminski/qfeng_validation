@@ -1,0 +1,29 @@
+{
+  "sha256": "847dc12171879d3596eafbef17dac684d2a67cca4bd72581a11b02cb3ac14c84",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T05:54:10Z",
+  "prompt_sha": "e49d5e5d7663742fd00bd3c94033461e30c834afe32a9924772ec284ff0e579e",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, ao analisar o cenário apresentado – a tentativa da empresa hoteleira de estabelecer um banco de horas com prazo de compensação de 14 meses, extrapolando o limite de 1 ano previsto em lei – concluiu que a situação configura uma **violação** de normas trabalhistas. A decisão foi fundamentada na análise dos predicados soberanos e elásticos da Consolidação das Leis do Trabalho (CLT), demonstrando que a autonomia das partes coletivas, embora importante, não pode sobrepor-se a princípios de ordem pública que visam proteger o trabalhador.\n\nA alegação da empresa hoteleira, baseada na autonomia das partes coletivas e no princípio da adequação setorial negociada, não prevaleceu devido à existência de normas de ordem pública que limitam a flexibilização do prazo para compensação de horas. O sistema considerou que a tentativa de estender o prazo para 14 meses, sem a devida base legal e sem a observância dos limites estabelecidos, infringe a proteção legal ao trabalhador. A Súmula TST 85, V, que estabelece o limite de 1 ano para a compensação de horas, reforça a natureza de ordem pública dessa norma, tornando-a inderrogável.\n\nA satisfatibilidade desconhecida (UNKNOWN) reflete a complexidade da análise, onde a autonomia coletiva se choca com a proteção ao trabalhador, gerando uma situação que não se encaixa perfeitamente em nenhuma regra predefinida, mas que, em última análise, é resolvida pela prevalência das normas de ordem pública.\n\n## PREDICADOS ATIVADOS E SEUS SIGNIFICADOS JURÍDICOS\n\nOs predicados soberanos ativos, identificados pelo sistema Q-FENG, são:\n\n*   **sovereign(semester_hour_bank_requires_cct_or_act):**  Indica que a regulamentação de bancos de horas, especialmente aqueles que extrapolam os limites legais, requer uma norma coletiva (CCT) ou uma lei específica. A ausência dessa regulamentação torna a prática ilegal.\n*   **sovereign(invalidity_of_clause_suppressing_overtime_payment):**  Afirma a invalidade de cláusulas que suprimem o pagamento de horas extras. A compensação por horas extras é um direito irrenunciável do trabalhador.\n*   **sovereign(weekly_hour_compensation_requires_written_agreement):**  Estabelece que a compensação de horas semanais deve ser formalizada por escrito, garantindo transparência e segurança jurídica para ambas as partes.\n*   **sovereign(prohibition_negotiation_reducing_overtime_additional):**  Proíbe a negociação para reduzir o adicional de horas extras, que é um direito assegurado ao trabalhador.\n*   **sovereign(overtime_minimum_additional_50pct):**  Define que o adicional de horas extras deve ser de, no mínimo, 50% sobre a hora normal de trabalho.\n*   **sovereign(maximum_weekly_working_hours_44h):**  Limita a jornada de trabalho semanal a 44 horas.\n*   **sovereign(maximum_daily_working_hours_8h):**  Limita a jornada de trabalho diária a 8 horas.\n\nO predicado elástico ativo é:\n\n*   **elastic(hour_bank_without_cct_max_6_months):**  Define um limite máximo de 6 meses para o banco de horas quando não há regulamentação específica em acordo ou convenção coletiva. Este é um limite flexível, mas que, no caso em questão, é extrapolado pela empresa.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"A empresa queria criar um sistema de banco de horas que permitisse compensar as horas extras em até 14 meses. Mas a lei e a justiça trabalhista não permitem isso. Existe um limite de um ano para compensar as horas extras, e esse limite não pode ser ignorado, mesmo que a empresa e o sindicato concordem.\n\nIsso acontece porque a lei protege os direitos dos trabalhadores, e esse prazo mais longo poderia prejudicar o trabalhador, fazendo com que ele perca o direito de receber pelas horas extras trabalhadas.\n\nA empresa pode negociar algumas coisas com o sindicato, mas não pode mudar regras que são importantes para proteger os trabalhadores.  Se você trabalhar mais de 8 horas por dia ou 44 horas por semana, você tem direito a receber um valor extra por essas horas, e esse direito não pode ser tirado de você.\"\n",
+  "tokens_in": 545,
+  "tokens_out": 1015,
+  "latency_ms": 28296,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

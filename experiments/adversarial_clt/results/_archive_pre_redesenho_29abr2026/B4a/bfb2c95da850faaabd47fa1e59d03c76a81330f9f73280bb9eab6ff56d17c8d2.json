@@ -1,0 +1,30 @@
+{
+  "sha256": "bfb2c95da850faaabd47fa1e59d03c76a81330f9f73280bb9eab6ff56d17c8d2",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-008",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T05:12:49Z",
+  "prompt_sha": "b3fc3319eefedae00a5e9f49f61a8cb6a71ba4d9860ac95b8580343ff80ed754",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que a decisão deve ser de \"CONFORMIDADE\" com base na aplicação dos predicados soberanos ativos. Esses predicados garantem que a decisão seja fundamentada e justificada, respeitando as normas legais vigentes e os princípios constitucionais. A conformidade implica que o acórdão deve declarar claramente as consequências práticas da decisão (sovereign(obligation_to_state_practical_consequences_of_decision)), evitar a citação genérica de precedentes sem análise específica (sovereign(prohibition_of_generic_precedent_citation)), e abordar todos os argumentos legais apresentados pelas partes (sovereign(obligation_to_address_all_legal_arguments)). Além disso, é necessário que a decisão esteja fundamentada em um ratio decidendi identificado (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)), e que as razões para a decisão sejam explicitadas de acordo com o princípio constitucional da motivação das decisões judiciais (sovereign(constitutional_obligation_to_state_reasons_for_decisions)). O reconhecimento do direito à negociação coletiva (sovereign(recognition_of_collective_bargaining)) e ao acesso à justiça e revisão judicial (sovereign(right_of_access_to_justice_and_judicial_review)) também são considerados, garantindo que a decisão respeite os direitos dos trabalhadores.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Sovereign(obligation_to_state_practical_consequences_of_decision)**: Juridicamente, isso significa que o acórdão deve explicar claramente quais são as implicações práticas da decisão para todas as partes envolvidas. No contexto trabalhista, isso pode incluir a quantificação do dano moral e suas consequências financeiras.\n\n- **Sovereign(prohibition_of_generic_precedent_citation)**: Isso exige que qualquer referência a precedentes judiciais seja específica e relevante para o caso em questão. Não basta citar decisões anteriores sem analisá-las no contexto dos fatos atuais.\n\n- **Sovereign(obligation_to_address_all_legal_arguments)**: O tribunal deve considerar todos os argumentos legais apresentados pelas partes, garantindo que nenhuma questão relevante seja ignorada na decisão final.\n\n- **Sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão deve ser baseada em um fundamento legal claro e identificável, explicando por que determinadas interpretações legais foram escolhidas sobre outras possíveis.\n\n- **Sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: Este predicado assegura que a decisão judicial deve ser motivada, ou seja, deve conter uma explicação das razões pelas quais foi tomada essa determinada decisão.\n\n- **Sovereign(recognition_of_collective_bargaining)**: Reconhece o direito dos trabalhadores e empregadores negociarem coletivamente termos de trabalho, respeitando acordos coletivos que possam influenciar a aplicação da CLT.\n\n- **Sovereign(right_of_access_to_justice_and_judicial_review)**: Garante que os trabalhadores tenham o direito de buscar justiça e de ter suas decisões revisadas judicialmente, assegurando um processo justo e equitativo.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG decidiu que a sentença deve seguir todas as regras legais corretamente. Isso significa que o juiz precisa explicar claramente como a decisão afeta você e sua empresa, sem apenas repetir casos anteriores sem pensar no seu caso específico. Todos os argumentos que você ou sua empresa apresentarem devem ser considerados. A decisão deve ser baseada em uma razão legal clara, e o juiz precisa explicar por que tomou essa decisão. Além disso, qualquer acordo coletivo que você tenha feito com a empresa também será levado em conta. E é importante lembrar que você tem o direito de buscar justiça e revisar a decisão se necessário.",
+  "tokens_in": 582,
+  "tokens_out": 983,
+  "latency_ms": 28921,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

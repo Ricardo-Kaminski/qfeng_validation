@@ -1,0 +1,26 @@
+{
+  "sha256": "f89f77458eeadd9b44195a8ad0f95d8b35504f88e133d9cd85c47249ca12f7dd",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T04:17:03Z",
+  "prompt_sha": "42f64b17e4b016fd75d72c1e016a4fe922b18599855e398c8efb7427026ee45a",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação na decisão do juiz do trabalho ao negar seguimento a recurso ordinário de metalúrgico sem fornecer fundamentação adequada. Isso ocorre porque diversos predicados soberanos ativos foram ativados, destacando obrigações constitucionais e legais que não foram cumpridas:\n\n- **Obrigação de Estabelecer as Consequências Práticas da Decisão**: O juiz deve explicar como a decisão afeta o caso específico.\n  \n- **Proibição de Citação Genérica de Precedentes**: A simples referência à lei sem aplicá-la ao caso concreto não é suficiente.\n\n- **Obrigação de Abordar Todos os Argumentos Legais**: É necessário considerar todos os argumentos apresentados pelas partes.\n\n- **Obrigação de Fundamentar a Decisão em um Ratio Decidendi Identificado**: A decisão deve ser baseada em fundamentos jurídicos claros e específicos.\n\n- **Obrigação Constitucional de Explicar as Razões das Decisões**: O juiz é obrigado a fornecer uma justificativa detalhada para sua decisão, conforme o Art. 93, IX da CF/88.\n\n- **Direito de Acesso à Justiça e Revisão Judicial**: As partes têm direito a um processo justo e transparente, incluindo revisões adequadas das decisões judiciais.\n\nA combinação desses predicados indica que a decisão do juiz não atende aos requisitos mínimos de fundamentação exigidos pela Constituição Federal, resultando na constatação de uma violação.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obrigação de Estabelecer as Consequências Práticas da Decisão**: Juridicamente, isso significa que o juiz deve explicar como a decisão impacta o caso específico do metalúrgico, esclarecendo quais são os efeitos práticos da negativa ao recurso.\n\n- **Proibição de Citação Genérica de Precedentes**: No contexto trabalhista brasileiro, isso implica que o juiz não pode simplesmente referenciar leis ou decisões anteriores sem aplicá-las diretamente ao caso em questão. A fundamentação deve ser específica e relevante.\n\n- **Obrigação de Abordar Todos os Argumentos Legais**: Significa que todas as alegações feitas pelo reclamante devem ser consideradas e respondidas no julgamento, garantindo uma análise completa do caso.\n\n- **Obrigação de Fundamentar a Decisão em um Ratio Decidendi Identificado**: O juiz deve identificar claramente o fundamento legal que justifica sua decisão, explicando por que a lei foi aplicada daquela maneira ao caso específico.\n\n- **Obrigação Constitucional de Explicar as Razões das Decisões**: Refere-se à necessidade de fornecer uma fundamentação clara e detalhada para cada decisão judicial, conforme exigido pela Constituição Federal, garantindo transparência e justiça no processo.\n\n- **Direito de Acesso à Justiça e Revisão Judicial**: Garante que as partes tenham a oportunidade de ter suas questões julgadas de forma justa e possam buscar revisão das decisões quando necessário, com fundamentos claros para tal.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO juiz decidiu não seguir adiante com o recurso do metalúrgico sem explicar bem por que fez isso. A lei exige que ele explique claramente como sua decisão afeta o caso e responda a todos os argumentos apresentados. Além disso, é importante que ele mostre quais leis específicas usou para tomar essa decisão. Como o juiz não fez isso, a decisão foi considerada inadequada, pois as pessoas têm direito de saber por que uma decisão judicial foi tomada e ter a chance de contestá-la se necessário.",
+  "tokens_in": 521,
+  "tokens_out": 923,
+  "latency_ms": 27046,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

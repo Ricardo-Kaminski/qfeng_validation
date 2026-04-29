@@ -1,0 +1,27 @@
+{
+  "sha256": "4d7a208ce2911b60493d765032ed0398168a1896a17c3e96b662566c366240f9",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-009",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T07:02:30Z",
+  "prompt_sha": "18a223af3fb227c2a5e0257347aa4e5c729224e92b72d7d1c3e676c4eb13b5d5",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG determinou que houve conformidade com as regras estabelecidas pela CCT. Isso ocorreu porque o empregado optou por converter seu saldo de horas em dinheiro, conforme previsto na CCT, e recebeu o pagamento no mês seguinte à conversão. A decisão do Q-FENG é baseada nos predicados soberanos ativos, que garantem a aplicação correta das regras coletivas de trabalho.\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\nOs predicados soberanos ativos são aqueles que estabelecem as regras fundamentais da relação trabalhista e garantem a aplicação correta das leis e regulamentos. No caso específico, os predicados soberanos ativos são:\n\n*   `sovereign(recognition_of_collective_bargaining)`: Este predicado garante que a negociação coletiva seja reconhecida como uma ferramenta fundamental para a regulação do trabalho. Nesse contexto, ele assegura que o acordo coletivo seja aplicado corretamente.\n*   `sovereign(maximum_weekly_working_hours_44h)`: Este predicado estabelece que o trabalhador não pode exceder 44 horas de trabalho semanal. No entanto, como a conversão das horas foi feita dentro do prazo e com anuência do empregador, este predicado não é diretamente aplicável ao caso.\n*   `sovereign(maximum_daily_working_hours_8h)`: Este predicado estabelece que o trabalhador não pode exceder 8 horas de trabalho diário. Novamente, como a conversão das horas foi feita dentro do prazo e com anuência do empregador, este predicado também não é diretamente aplicável ao caso.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nO sistema Q-FENG decidiu que tudo está bem no seu caso de trabalho. Isso aconteceu porque você usou o acordo coletivo para converter suas horas extras em dinheiro, como previsto nele. E você recebeu o pagamento logo após a conversão. A decisão do sistema é baseada nas regras básicas da relação trabalhista e garante que as leis e regulamentos sejam aplicados corretamente.\n\nEspero que isso tenha ajudado a esclarecer a situação!",
+  "tokens_in": 507,
+  "tokens_out": 542,
+  "latency_ms": 9250,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

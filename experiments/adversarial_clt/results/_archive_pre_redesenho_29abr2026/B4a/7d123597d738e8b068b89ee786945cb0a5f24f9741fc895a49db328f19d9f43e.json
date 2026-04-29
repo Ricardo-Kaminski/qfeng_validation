@@ -1,0 +1,29 @@
+{
+  "sha256": "7d123597d738e8b068b89ee786945cb0a5f24f9741fc895a49db328f19d9f43e",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T05:50:11Z",
+  "prompt_sha": "86f5fd16f6d15b9e1997d1146961409a0ab7a50f3a8fbba670004d4b3d84cb71",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, após análise do cenário apresentado, concluiu que houve **violação** da legislação trabalhista no caso da implementação do banco de horas na indústria têxtil. A empresa tentou justificar a implementação do banco de horas por meio de acordos individuais escritos com os empregados, argumentando que isso supriria a necessidade de negociação coletiva. No entanto, o sistema determinou que essa justificativa é insustentável, considerando a primazia da negociação coletiva para a implementação de regimes de compensação de horas como o banco de horas.\n\nA decisão do Q-FENG se baseia na avaliação da força normativa de princípios e regras que regem a flexibilização da jornada de trabalho, especialmente no que tange à necessidade de participação dos sindicatos e dos trabalhadores na definição de tais regras. A empresa, ao unilateralmente implementar o banco de horas, ignorou a importância da negociação coletiva, o que configura uma violação da legislação. A limitação temporal do banco de horas (até 5 meses) também foi considerada, embora a elasticidade do predicado `elastic(hour_bank_without_cct_max_6_months)` indique uma tolerância limitada, a decisão final foi de violação devido à ausência de negociação coletiva.\n\n## PREDICADOS SOVERAIN ATIVOS: SIGNIFICADO JURÍDICO\n\n*   **`sovereign(semester_hour_bank_requires_cct_or_act)`**: Este predicado estabelece que a implementação de um banco de horas semestral (ou equivalente) requer obrigatoriamente negociação coletiva (Convenção Coletiva de Trabalho - CCT) ou Ato Coletivo (Acordo Coletivo de Trabalho - ACT). A lei exige que mudanças significativas na jornada de trabalho, como o banco de horas, sejam estabelecidas por meio de negociação entre empregadores e empregados, representados por seus respectivos sindicatos.\n*   **`sovereign(invalidity_of_clause_suppressing_overtime_payment)`**: Este predicado reforça que cláusulas contratuais que tentam suprimir o pagamento de horas extras são inválidas. Mesmo que haja um acordo individual, ele não pode desconsiderar a legislação que garante o pagamento de horas extras.\n*   **`sovereign(weekly_hour_compensation_requires_written_agreement)`**: Este predicado indica que a compensação de horas extras deve ser formalizada por escrito, garantindo a transparência e a comprovação da jornada de trabalho. Embora a empresa tenha acordos escritos, estes não substituem a necessidade de negociação coletiva.\n*   **`sovereign(prohibition_negotiation_reducing_overtime_additional)`**: Este predicado proíbe a negociação que reduza o adicional de horas extras. A negociação coletiva não pode diminuir os direitos já assegurados pela lei.\n*   **`sovereign(overtime_minimum_additional_50pct)`**: Este predicado estabelece que o adicional de horas extras deve ser de, no mínimo, 50% sobre o valor da hora normal.\n*   **`sovereign(maximum_weekly_working_hours_44h)`**: Este predicado define o limite máximo de 44 horas semanais para a jornada de trabalho normal.\n*   **`sovereign(maximum_daily_working_hours_8h)`**: Este predicado estabelece o limite máximo de 8 horas diárias para a jornada de trabalho normal.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"A empresa tentou criar um sistema de banco de horas onde você compensa as horas extras em outro dia, mas fez isso sem consultar o seu sindicato ou você, como trabalhador. A lei diz que mudanças importantes na sua jornada de trabalho, como o banco de horas, precisam ser decididas em conjunto entre a empresa e os trabalhadores, através do sindicato. A empresa não seguiu essa regra, então a decisão é que ela está violando a lei. Mesmo que você tenha assinado um papel concordando com o banco de horas, esse papel não pode substituir a necessidade de uma conversa e acordo com o seu sindicato. Além disso, a empresa precisa garantir que você receba o adicional de 50% pelas horas extras e que a sua jornada de trabalho não ultrapasse 44 horas por semana ou 8 horas por dia.\"\n",
+  "tokens_in": 527,
+  "tokens_out": 956,
+  "latency_ms": 26625,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,26 @@
+{
+  "sha256": "fe3e777338193e1767053cad6d549d6990d25a1c6046ba339f2c7b12c23fb248",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-006",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:42:49Z",
+  "prompt_sha": "324f58b06ace5123feff726f55259a913c5f926bf4c3eff790b1b83195a3e292",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nA decisão do sistema Q-FENG considera que a juíza do trabalho cometeu erro ao indeferir a prova pericial sem explicar quais documentos seriam suficientes para provar o fato em questão. O sistema identificou que a decisão não atende aos requisitos legais de motivação, conforme estabelecido no Código de Processo Civil (CPC), Art. 489, §1°, I.\n\nA narrativa da decisão é baseada nos predicados soberanos ativos do sistema Q-FENG, que indicam a necessidade de cumprimento de obrigações legais por parte da juíza. O sistema concluiu que a violação dessas obrigações justifica a recomendação de violação.\n\n**2. PREDICADOS SOBERANOS ATIVOS**\n\n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: A obrigação da juíza em explicar as consequências práticas da decisão tomada, garantindo que a parte entenda como a decisão afetará o caso.\n  \n- **sovereign(prohibition_of_generic_precedent_citation)**: A proibição de citar precedentes genéricos sem aplicação específica ao caso em questão, exigindo uma análise individualizada.\n\n- **sovereign(obligation_to_address_all_legal_arguments)**: A obrigação da juíza em considerar e responder a todos os argumentos legais apresentados pelas partes.\n\n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A necessidade de fundamentar a decisão com base em uma razão ou princípio jurídico específico (ratio decidendi), garantindo que a decisão seja justificada por um fundamento legal claro.\n\n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: A obrigação constitucional de fundamentar as decisões, garantindo que os motivos para a decisão sejam explicitados e possam ser objeto de revisão ou recurso.\n\n- **sovereign(right_of_access_to_justice_and_judicial_review)**: O direito das partes ao acesso à justiça e à revisão judicial, assegurando que as decisões sejam transparentes e passíveis de revisão.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nO sistema Q-FENG decidiu que a juíza errou ao não explicar por quais documentos ela considera suficientes para provar o fato em questão. Isso é importante porque as leis exigem que as decisões sejam bem fundamentadas, para que as partes possam entender e questionar os motivos da decisão.\n\nA decisão do sistema Q-FENG recomenda que a juíza retome sua decisão e explique melhor por quais documentos ela considera suficientes. Isso é importante para garantir que o processo seja justo e transparente, e para respeitar os direitos das partes de ter acesso à justiça e revisão judicial.\n\nEssa recomendação não significa que a juíza esteja errada em sua decisão original, mas sim que ela precisa explicar melhor seus motivos. O sistema Q-FENG está apenas garantindo que as leis sejam respeitadas e que o processo seja justo para todas as partes envolvidas.",
+  "tokens_in": 518,
+  "tokens_out": 756,
+  "latency_ms": 12640,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

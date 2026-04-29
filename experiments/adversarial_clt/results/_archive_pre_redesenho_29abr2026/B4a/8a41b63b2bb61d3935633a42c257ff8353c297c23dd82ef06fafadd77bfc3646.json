@@ -1,0 +1,29 @@
+{
+  "sha256": "8a41b63b2bb61d3935633a42c257ff8353c297c23dd82ef06fafadd77bfc3646",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T05:50:37Z",
+  "prompt_sha": "86f5fd16f6d15b9e1997d1146961409a0ab7a50f3a8fbba670004d4b3d84cb71",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, após análise do cenário apresentado, concluiu que houve **violação** da legislação trabalhista. A decisão se baseia na constatação de que a implementação do banco de horas na indústria têxtil, por meio de acordos individuais escritos, sem a participação de negociação coletiva, é incompatível com a legislação vigente.\n\nA empresa argumentou que os acordos individuais supririam a necessidade de negociação coletiva, mas o Q-FENG considerou que essa alegação não é sustentável à luz dos princípios e normas trabalhistas. A validade do banco de horas, mesmo formalizado por escrito, depende da observância de requisitos mínimos de participação e representação, que não foram cumpridos no caso em questão.\n\nO sistema considerou a validade do acordo individual limitada a um período máximo de 6 meses, conforme o predicado elástico ativo `elastic(hour_bank_without_cct_max_6_months)`. A compensação das horas deve ser realizada dentro desse prazo, sob pena de questionamento legal.\n\nA decisão do Q-FENG é fundamentada na primazia da negociação coletiva para a definição de condições de trabalho, especialmente em relação a temas como banco de horas, que impactam diretamente a jornada de trabalho e a remuneração dos empregados. A tentativa de contornar essa obrigatoriedade por meio de acordos individuais, sem a participação dos representantes sindicais, é considerada ilegal.\n\n## PREDICADOS SOVERAIN ATIVOS: SIGNIFICADO JURÍDICO\n\n1. **`sovereign(semester_hour_bank_requires_cct_or_act)`**: Este predicado estabelece que a implementação de um banco de horas semestral exige, obrigatoriamente, um acordo coletivo de trabalho (CCT) ou uma autorização específica do Ministério do Trabalho e Emprego (ou órgão equivalente). A ausência de um desses elementos torna o banco de horas passível de questionamento judicial.\n2. **`sovereign(invalidity_of_clause_suppressing_overtime_payment)`**:  Qualquer cláusula em acordo ou contrato que tente suprimir o pagamento de horas extras é considerada nula e inválida. A compensação por horas extras é um direito irrenunciável do trabalhador.\n3. **`sovereign(weekly_hour_compensation_requires_written_agreement)`**:  A compensação de horas trabalhadas além da jornada regular (horas extras ou banco de horas) deve ser formalizada por escrito, garantindo a comprovação da prestação de serviços e a segurança jurídica para o trabalhador.\n4. **`sovereign(prohibition_negotiation_reducing_overtime_additional)`**: É proibido, por negociação coletiva ou individual, reduzir a importância dos adicionais de horas extras, que são garantidos por lei.\n5. **`sovereign(overtime_minimum_additional_50pct)`**:  O adicional de horas extras deve ser, no mínimo, de 50% sobre o valor da hora normal de trabalho.\n6. **`sovereign(maximum_weekly_working_hours_44h)`**: A jornada de trabalho semanal não pode ultrapassar 44 horas.\n7. **`sovereign(maximum_daily_working_hours_8h)`**: A jornada de trabalho diária não pode ultrapassar 8 horas.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"A empresa implementou um sistema de banco de horas, onde você acumula horas extras para compensar em outro momento. No entanto, a lei diz que esse tipo de acordo precisa ser feito com a participação do seu sindicato e do sindicato das empresas. Como isso não aconteceu, o sistema Q-FENG entendeu que a empresa fez algo errado.\n\nA empresa pode ter feito acordos individuais com cada funcionário, mas isso não substitui a necessidade de um acordo coletivo.  O banco de horas só pode durar no máximo 6 meses, e você precisa receber a compensação dentro desse prazo. Se não receber, você pode ter o direito de pedir para a empresa pagar as horas extras.\n\nLembre-se, a lei protege seus direitos como trabalhador, e a empresa não pode simplesmente ignorar as regras para fazer o que quer.\"\n",
+  "tokens_in": 527,
+  "tokens_out": 931,
+  "latency_ms": 25952,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

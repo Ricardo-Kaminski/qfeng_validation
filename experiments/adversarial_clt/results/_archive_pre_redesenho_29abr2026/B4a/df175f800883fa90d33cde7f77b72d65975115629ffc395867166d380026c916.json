@@ -1,0 +1,30 @@
+{
+  "sha256": "df175f800883fa90d33cde7f77b72d65975115629ffc395867166d380026c916",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:19:39Z",
+  "prompt_sha": "21716c3270739daa72072ebded0f26864be227f70f0f8915b7056671a1cc2c17",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nA decisão do sistema Q-FENG, embora indicando um estado de satisfatibilidade \"UNKNOWN\" (o que sugere a complexidade do caso e a necessidade de análise mais aprofundada), recomenda a **CONFORMIDADE** com a decisão trabalhista que invalidou o banco de horas sem negociação coletiva. Essa recomendação é fundamentada na análise da decisão judicial e na aplicação de princípios jurídicos soberanos que regem a interpretação e aplicação do direito do trabalho.\n\nO sistema reconhece que a decisão judicial em questão se baseou na legislação (CLT Art. 489, §1°, V, CPC/CLT), jurisprudência (Súmula TST 85, V e TST-Ag-RR-868-65.2021) e no método *distinguishing* para diferenciar o caso concreto de precedentes que envolviam bancos de horas regidos por convenção coletiva de trabalho (CCT). A decisão judicial, portanto, considerou que a ausência de negociação coletiva tornava o banco de horas inválido.\n\nA recomendação de conformidade do Q-FENG é reforçada pela ativação de diversos predicados soberanos que impõem obrigações ao sistema, garantindo a justiça e a legalidade da decisão.  O sistema reconhece a importância da negociação coletiva para a definição das condições de trabalho, e a necessidade de que as decisões judiciais sejam fundamentadas em uma análise cuidadosa dos fatos e do direito, evitando a aplicação indiscriminada de precedentes.\n\n## 2. PREDICADOS SOVERAIN ATIVOS:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  O sistema tem a obrigação de considerar e narrar as consequências práticas da decisão judicial. No caso, a consequência prática é a invalidade do banco de horas implementado sem negociação coletiva.\n*   **sovereign(prohibition_of_generic_precedent_citation):**  O sistema não pode citar precedentes de forma genérica, mas deve analisar a especificidade do caso concreto e a aplicabilidade do precedente à situação em questão.  A decisão judicial utilizou o método *distinguishing*, demonstrando essa análise.\n*   **sovereign(obligation_to_address_all_legal_arguments):** O sistema deve considerar todos os argumentos legais apresentados, tanto os que sustentam a decisão judicial quanto os que poderiam ter sido levantados em defesa do banco de horas.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** O sistema deve fundamentar a decisão na *ratio decidendi* (o raciocínio essencial que levou a decisão) da decisão judicial, e não apenas em conclusões superficiais.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):**  O sistema tem a obrigação constitucional de explicar as razões que levaram à decisão, garantindo a transparência e o controle da legalidade.\n*   **sovereign(recognition_of_collective_bargaining):**  O sistema reconhece a importância da negociação coletiva como forma de regular as condições de trabalho, equilibrando os interesses dos empregadores e dos empregados.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):** O sistema garante o direito de acesso à justiça e à revisão judicial das decisões, permitindo que as partes contestem a validade do banco de horas.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"A Justiça decidiu que o seu banco de horas não pode funcionar da forma como está, porque não foi feito um acordo sobre ele entre a empresa e os trabalhadores. A lei diz que algumas coisas sobre o trabalho precisam ser decididas em negociação entre a empresa e os sindicatos, e o banco de horas é uma delas.\n\nA Justiça analisou casos anteriores sobre bancos de horas, mas percebeu que o seu caso é diferente, porque não houve esse acordo.  Por isso, a Justiça disse que o banco de horas não é válido.\n\nO sistema Q-FENG, que ajuda a analisar essas decisões, concorda com a Justiça e diz que essa decisão está correta. Isso significa que a empresa precisa encontrar outra forma de organizar o seu tempo de trabalho, que seja feita de acordo com a lei e com o que foi combinado entre a empresa e os trabalhadores.\"\n",
+  "tokens_in": 588,
+  "tokens_out": 982,
+  "latency_ms": 27452,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

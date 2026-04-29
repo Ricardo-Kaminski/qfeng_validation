@@ -1,0 +1,29 @@
+{
+  "sha256": "0951090eec3d78dee5d34a59989c700897b95ab4fd7e27c53e293ba50c01b7c5",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-006",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T02:49:54Z",
+  "prompt_sha": "ff70c7792d137b7de9402a61d1ce5256e93238b9419f5483de6bca067860f48c",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a regulamentação interna da empresa, aprovada por assembleia dos trabalhadores sem a presença de sindicato, **viola normas trabalhistas brasileiras**. A decisão baseia-se em predicados soberanos da CLT que estabelecem requisitos mínimos para a validade de acordos de banco de horas e compensação de horas extras.  \n\n- **Predicado `sovereign(semester_hour_bank_requires_cct_or_act)`**: O banco de horas por semestre **exige a existência de um acordo coletivo de trabalho (ACT) ou convenção coletiva de trabalho (CCT)**, que devem ser aprovados com a participação obrigatória de sindicatos. A ausência de sindicato na assembleia invalida a regulamentação.  \n- **Predicado `sovereign(weekly_hour_compensation_requires_written_agreement)`**: A compensação de horas extras por semana **exige um acordo escrito**, que **não pode ser substituído por assembleias internas sem representação sindical**.  \n- **Predicado `prohibition_negotiation_reducing_overtime_additional`**: A CLT proíbe acordos que **reduzam a remuneração adicional por horas extras** (mínimo de 50% do salário normal).  \n- **Predicado `overtime_minimum_additional_50pct`**: A compensação de horas extras **não pode ser inferior a 50% do valor da hora normal**, o que deve ser garantido em qualquer acordo.  \n\nA ausência de sindicato na assembleia e a falta de um ACT/CCT **invalidam a regulamentação**, configurando uma **violação da CLT**.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **`sovereign(semester_hour_bank_requires_cct_or_act)`**:  \n  **Significado jurídico**: O banco de horas por semestre só é válido se aprovado por um **acordo coletivo de trabalho (ACT)** ou **convenção coletiva de trabalho (CCT)**, que devem ser celebrados com a **participação obrigatória de sindicatos**. A regulamentação interna da empresa, aprovada por assembleia sem sindicato, não cumpre esse requisito.  \n\n- **`sovereign(invalidity_of_clause_suppressing_overtime_payment)`**:  \n  **Significado jurídico**: Cláusulas que **suprimam ou reduzam a remuneração adicional por horas extras** (ex.: não pagar 50% do valor da hora) são **nulas por si só**, independentemente de outros acordos.  \n\n- **`sovereign(weekly_hour_compensation_requires_written_agreement)`**:  \n  **Significado jurídico**: A compensação de horas extras por semana **exige um acordo escrito**, que **não pode ser substituído por assembleias internas sem representação sindical**.  \n\n- **`sovereign(prohibition_negotiation_reducing_overtime_additional)`**:  \n  **Significado jurídico**: A CLT **proíbe acordos que reduzam a remuneração adicional por horas extras** (mínimo de 50% do salário normal).  \n\n- **`sovereign(overtime_minimum_additional_50pct)`**:  \n  **Significado jurídico**: A compensação de horas extras **não pode ser inferior a 50% do valor da hora normal**, garantindo um mínimo legal para o trabalhador.  \n\n- **`sovereign(maximum_weekly_working_hours_44h)`**:  \n  **Significado jurídico**: A CLT limita a **duração máxima da jornada semanal a 44 horas**, salvo exceções previstas em lei.  \n\n- **`sovereign(maximum_daily_working_hours_8h)`**:  \n  **Significado jurídico**: A CLT limita a **duração máxima da jornada diária a 8 horas**, salvo exceções previstas em lei.  \n\n- **`elastic(hour_bank_without_cct_max_6_months)`**:  \n  **Significado jurídico**: Em ausência de CCT, o banco de horas **não pode ultrapassar 6 meses**, o que pode ser violado se a regulamentação da empresa permitir prazos maiores.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa criou uma regra interna para compensar horas extras (banco de horas) por meio de uma assembleia dos funcionários, mas **não chamou o sindicato** para participar. O sistema Q-FENG concluiu que isso **viola a lei**, por dois motivos principais:  \n\n1. **A lei exige que acordos sobre banco de horas sejam feitos com a participação de sindicatos**. Sem isso, a regra da empresa não é válida.  \n2. **A compensação de horas extras não pode ser feita de forma arbitrária**. A lei exige que o trabalhador receba **pelo menos 50% do valor da hora normal** como adicional, e isso deve ser garantido em qualquer acordo.  \n\nPortanto, a empresa **não pode impor essa regra** sem seguir as exigências legais. Os empregados estão corretos ao questionar a validade da regulamentação, e a empresa **viola a CLT** ao não respeitar os direitos mínimos do trabalhador.",
+  "tokens_in": 541,
+  "tokens_out": 1783,
+  "latency_ms": 849000,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

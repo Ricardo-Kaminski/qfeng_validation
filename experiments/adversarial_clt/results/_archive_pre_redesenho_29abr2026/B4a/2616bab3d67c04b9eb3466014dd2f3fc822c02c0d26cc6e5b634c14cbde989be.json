@@ -1,0 +1,29 @@
+{
+  "sha256": "2616bab3d67c04b9eb3466014dd2f3fc822c02c0d26cc6e5b634c14cbde989be",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-001",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T05:49:13Z",
+  "prompt_sha": "a8d1c788e3de99920a389b72bb625722e4a5ecc3f4de5f08a57e80dccc55da81",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, após análise do cenário apresentado, concluiu que houve **violação** da legislação trabalhista. A decisão se baseia na ausência de negociação coletiva ou acordo coletivo de trabalho (ACT/CCT) que autorize a implementação do banco de horas unilateralmente pela empresa, especialmente considerando a acumulação de um número elevado de horas (até 120h em 9 meses).\n\nA empresa argumenta que os acordos individuais assinados pelos empregados seriam válidos para um período máximo de 6 meses de banco de horas. No entanto, o sistema considerou que essa alegação não prevalece diante da necessidade de regulamentação coletiva para a instituição de um sistema de banco de horas, conforme reforçado pelos predicados soberanos ativos. A imposição unilateral de um sistema de banco de horas, sem a participação do sindicato da categoria, configura uma restrição aos direitos trabalhistas, especialmente no que tange à compensação de horas extras e à negociação de condições de trabalho. A tentativa de limitar a validade dos acordos individuais a um período de 6 meses não elimina a ilegalidade da imposição unilateral.\n\nO sistema também considerou a importância da proteção aos direitos dos trabalhadores, especialmente no que diz respeito à compensação de horas extras e à limitação da jornada de trabalho, reforçando a necessidade de observância das normas legais e da negociação coletiva.\n\n## PREDICADOS ATIVADOS: SIGNIFICADO JURÍDICO\n\n*   **sovereign(semester_hour_bank_requires_cct_or_act):** Este predicado significa que a instituição de um banco de horas, especialmente quando envolve a possibilidade de acumulação de horas por um período significativo (como um semestre ou mais), exige a existência de um Acordo Coletivo de Trabalho (ACT) ou um Contrato Coletivo de Trabalho (CCT) que o regule. A lei exige que a implementação de um sistema de banco de horas seja fruto de negociação entre empregadores e empregados, através de seus representantes sindicais.\n*   **sovereign(invalidity_of_clause_suppressing_overtime_payment):** Este predicado indica que qualquer cláusula em um contrato individual que tente suprimir o direito ao pagamento de horas extras é nula e inválida. A lei garante o direito à compensação financeira pelo trabalho realizado além da jornada normal.\n*   **sovereign(weekly_hour_compensation_requires_written_agreement):** Este predicado reforça que a compensação de horas extras, ou a utilização de banco de horas para compensar horas trabalhadas além da jornada regular, deve ser formalizada por escrito, garantindo a transparência e a comprovação das condições de trabalho.\n*   **sovereign(prohibition_negotiation_reducing_overtime_additional):** Este predicado estabelece a proibição de negociação que vise reduzir o adicional de horas extras. A lei protege o valor do adicional pago pelas horas extras, garantindo uma compensação justa pelo trabalho realizado em condições menos favoráveis.\n*   **sovereign(overtime_minimum_additional_50pct):** Este predicado define que o adicional sobre as horas extras deve ser de, no mínimo, 50% sobre o valor da hora normal de trabalho.\n*   **sovereign(maximum_weekly_working_hours_44h):** Este predicado estabelece o limite máximo da jornada de trabalho semanal em 44 horas.\n*   **sovereign(maximum_daily_working_hours_8h):** Este predicado estabelece o limite máximo da jornada de trabalho diária em 8 horas.\n*   **elastic(hour_bank_without_cct_max_6_months):** Este predicado, embora \"elástico\", indica uma interpretação comum na jurisprudência de que, na ausência de regulamentação coletiva, a acumulação de horas no banco de horas não pode ultrapassar um período de 6 meses.  É um limite interpretativo, não uma regra absoluta.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"A empresa fez um acordo de banco de horas sem conversar com o seu sindicato. Isso não é permitido por lei. A lei diz que, para ter um banco de horas, precisa ter um acordo entre a empresa e os trabalhadores, feito pelo sindicato.\n\nA empresa diz que os papéis que você assinou valem só para 6 meses de banco de horas, mas mesmo assim, o acordo é inválido porque a empresa não negociou com o sindicato.\n\nIsso significa que você tem direito a receber pelas horas extras que trabalhou, mesmo que elas estejam no banco de horas. Além disso, a empresa não pode te obrigar a trabalhar mais de 8 horas por dia ou 44 horas por semana.\n\nSe você tiver dúvidas ou quiser saber mais sobre seus direitos, procure o seu sindicato.\"\n",
+  "tokens_in": 532,
+  "tokens_out": 1063,
+  "latency_ms": 29562,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,30 @@
+{
+  "sha256": "3041ce6181b99d4fa59f14adab853c126811702cd70e3fac27c87a2bb945a8b0",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T05:09:13Z",
+  "prompt_sha": "2c346e302232f51cd44617f62ac2e4fd89f0a43134d5baae82a0990651685d27",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG analisou o cenário apresentado e decidiu que a decisão em questão está em conformidade com os princípios jurídicos estabelecidos pelos predicados soberanos ativos. A análise identificou uma omissão inicial na ausência de consideração do impacto sistêmico da decisão sobre o setor econômico, conforme previsto no Artigo 20 da Lei de Introdução às Normas do Direito Brasileiro (LINDB). No entanto, essa falha foi corrigida com uma fundamentação adequada e verificável.\n\nO sistema considerou que a decisão deve ser motivada, abordando todas as argumentações legais pertinentes e estabelecendo claramente o motivo pelo qual não se aplica ao caso trabalhista individual. Além disso, foi observado que a decisão está fundamentada em uma ratio decidendi identificável, respeitando a obrigação constitucional de explicitar as razões para as decisões judiciais.\n\nA análise também levou em conta a proibição do uso genérico de precedentes sem considerar o contexto específico e a necessidade de reconhecer os acordos coletivos como parte das negociações trabalhistas. Assim, a decisão foi validada com base na conformidade aos princípios jurídicos estabelecidos.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obrigação de declarar as consequências práticas da decisão**: Este predicado exige que o tribunal explique como sua decisão afetará a realidade prática dos envolvidos, garantindo transparência e compreensão das implicações.\n\n- **Proibição do uso genérico de precedentes**: Significa que cada caso deve ser analisado em seu contexto específico, sem aplicar automaticamente decisões anteriores que não considerem as particularidades atuais.\n\n- **Obrigação de abordar todos os argumentos legais**: O tribunal deve considerar e responder a todas as questões jurídicas levantadas no processo, garantindo uma análise completa e justa.\n\n- **Obrigação de fundamentar a decisão em um motivo identificável**: A decisão deve ser baseada em razões claras e específicas, permitindo que os envolvidos compreendam o raciocínio do tribunal.\n\n- **Obrigação constitucional de declarar as razões para as decisões**: Este princípio garante que todas as decisões judiciais sejam acompanhadas de uma explicação clara e detalhada, respeitando a transparência processual.\n\n- **Reconhecimento da negociação coletiva**: Este predicado destaca a importância dos acordos coletivos no âmbito trabalhista, reconhecendo-os como parte essencial das relações de trabalho.\n\n- **Direito de acesso à justiça e revisão judicial**: Garante que todos tenham o direito de buscar reparação legal e que suas decisões possam ser revisadas para garantir a justiça.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema verificou se a decisão do tribunal estava correta e completa. Inicialmente, notou-se uma falha porque o tribunal não havia considerado como sua decisão poderia afetar todo o setor de trabalho em geral. No entanto, essa falha foi corrigida com uma explicação clara.\n\nO tribunal teve que mostrar por quê a regra geral não se aplica ao seu caso específico e responder a todas as questões levantadas durante o processo. Além disso, é importante que cada decisão seja bem fundamentada e explique claramente os motivos para ajudar todos a entenderem.\n\nTambém foi lembrado que acordos feitos entre trabalhadores e empresas são importantes e devem ser respeitados. Finalmente, todos têm o direito de buscar justiça e ter suas decisões revisadas se necessário. Com tudo isso em mente, o sistema confirmou que a decisão está correta.",
+  "tokens_in": 562,
+  "tokens_out": 931,
+  "latency_ms": 27030,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

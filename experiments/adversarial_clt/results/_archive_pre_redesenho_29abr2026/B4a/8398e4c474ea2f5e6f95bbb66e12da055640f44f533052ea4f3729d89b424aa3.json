@@ -1,0 +1,27 @@
+{
+  "sha256": "8398e4c474ea2f5e6f95bbb66e12da055640f44f533052ea4f3729d89b424aa3",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:58:58Z",
+  "prompt_sha": "a441ed131081be5a67de4fae29354418a5514d888c32e5d9d10bc7c36186be20",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG analisou o cenário e determinou que houve uma violação das regras trabalhistas. Isso ocorreu porque a empresa sucessora não renovou a Convenção Coletiva de Trabalho (CCT) com o sindicato, apesar de continuar aplicando as cláusulas do banco de horas após o prazo de vigência original da CCT.\n\nA decisão é baseada nos predicados soberanos ativos, que estabelecem diretrizes fundamentais para a relação entre empregador e empregado. Nesse caso, os predicados ativos são:\n\n- `sovereign(recognition_of_collective_bargaining)`: Reconhecimento da negociação coletiva como forma de estabelecer condições de trabalho.\n- `sovereign(maximum_weekly_working_hours_44h)`: Limitação máxima semanal de horas trabalhadas, que é de 44 horas.\n- `sovereign(maximum_daily_working_hours_8h)`: Limitação máxima diária de horas trabalhadas, que é de 8 horas.\n\nEsses predicados soberanos estabelecem diretrizes essenciais para a proteção dos direitos dos trabalhadores e garantem condições dignas de trabalho. A falta de renovação da CCT pela empresa sucessora viola essas diretrizes fundamentais, levando o sistema Q-FENG a recomendar ação contra essa violação.\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\n- **`sovereign(recognition_of_collective_bargaining)`**: Esse predicado estabelece que a negociação coletiva é uma forma válida e reconhecida de estabelecer condições de trabalho entre empregadores e sindicatos. Em outras palavras, ele garante o direito dos trabalhadores de negociar suas condições de trabalho com os empregadores por meio de convenções coletivas.\n\n- **`sovereign(maximum_weekly_working_hours_44h)`**: Esse predicado limita a quantidade máxima de horas que um trabalhador pode trabalhar em uma semana, estabelecendo um limite de 44 horas semanais. Isso visa proteger os direitos dos trabalhadores ao tempo de descanso e evitar excessos de trabalho.\n\n- **`sovereign(maximum_daily_working_hours_8h)`**: Semelhante ao anterior, esse predicado estabelece um limite máximo diário de horas trabalhadas, que é de 8 horas. Isso visa proteger os direitos dos trabalhadores à saúde e ao descanso.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nA decisão do sistema Q-FENG significa que a empresa não fez o que deveria fazer em relação às regras de trabalho. Ela continuou aplicando as regras antigas, mas não renovou o acordo com os sindicatos. Isso é como se você estivesse trabalhando em um contrato, mas o empregador simplesmente decidisse manter as mesmas condições sem fazer nada para atualizá-las.\n\nA decisão do sistema Q-FENG está preocupada com a proteção dos direitos dos trabalhadores. Ela quer garantir que os trabalhadores tenham condições dignas de trabalho, incluindo tempo suficiente para descansar e não serem explorados. A empresa deveria ter renovado o acordo com os sindicatos para manter essas regras em vigor.",
+  "tokens_in": 495,
+  "tokens_out": 787,
+  "latency_ms": 13312,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

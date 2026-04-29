@@ -1,0 +1,26 @@
+{
+  "sha256": "e895cc58876dd938c23c1d8f04d7587d5fe2605b030777edb384670c1920cdf0",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CTRL-NEG-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:37:00Z",
+  "prompt_sha": "7626dd764a44642383e3257de8b8d621757b737e7600f11382bfed2c802dacd7",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, após análise do cenário apresentado – que envolve a prática de uma empresa de transporte em recolher adicionais noturnos de 20% aos motoristas, com cálculo de hora noturna em 52 minutos e 30 segundos, e registro eletrônico dos períodos – concluiu pela **conformidade** da prática. Essa decisão, embora não indique uma avaliação aprofundada da legalidade da prática em si (devido ao resultado de satisfatibilidade \"UNKNOWN\"), reflete a ausência de elementos que a desqualifiquem sob a ótica dos predicados soberanos e elásticos da CLT considerados pelo sistema.\n\nA decisão foi tomada sob a égide de princípios fundamentais de governança neurosimbólica, que exigem a explicitação dos fundamentos que a sustentam. A ausência de predicados elásticos ativos sugere que não foram identificados fatores atenuantes ou agravantes que pudessem alterar a conclusão inicial. O valor do vetor ψ_S, [3.1416], representa um parâmetro interno de cálculo do sistema, sem significado interpretativo direto para a decisão.\n\nA decisão de conformidade não implica necessariamente que a prática seja legal em todos os aspectos. Ela apenas indica que, com base nos dados fornecidos e nos predicados considerados, o sistema não encontrou motivos para considerar a prática ilegal. A decisão é, portanto, cautelosa e sujeita a revisão caso novos elementos ou perspectivas sejam apresentados.\n\n## PREDICADOS ATIVADOS E SEU SIGNIFICADO JURÍDICO\n\nOs predicados soberanos ativos demonstram a importância da fundamentação e da transparência na tomada de decisão, mesmo em um sistema automatizado como o Q-FENG.\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  O sistema tem a obrigação de considerar e explicitar as consequências práticas da decisão tomada. No caso, a decisão de conformidade implica que a empresa pode continuar a prática, com as consequências que isso acarreta para os motoristas (pagamento do adicional noturno) e para a empresa (custos trabalhistas).\n*   **sovereign(prohibition_of_generic_precedent_citation):**  O sistema não pode basear sua decisão em precedentes genéricos ou abstratos. A decisão deve ser específica para o caso em questão, considerando as particularidades do cenário apresentado.\n*   **sovereign(obligation_to_address_all_legal_arguments):**  O sistema deve considerar todos os argumentos legais relevantes para o caso. Embora a decisão seja de conformidade, a análise deve ter levado em conta possíveis questionamentos sobre a legalidade da prática, como a validade do cálculo da hora noturna ou a adequação do percentual do adicional.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** A decisão deve estar fundamentada em princípios e entendimentos jurídicos específicos, extraídos de decisões judiciais ou doutrina.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):**  O sistema tem a obrigação constitucional de justificar a decisão, explicando os motivos que a levaram a essa conclusão.  Essa transparência é fundamental para garantir a legitimidade da decisão.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):**  A decisão do sistema não é definitiva. Os motoristas têm o direito de acessar a justiça e buscar a revisão da decisão por meio de processos judiciais.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"A empresa está pagando um adicional noturno de 20% para os motoristas que trabalham à noite, e o sistema analisou essa prática. O sistema concluiu que, com as informações que ele tinha, a empresa pode continuar fazendo isso. Isso significa que o adicional noturno deve continuar sendo pago da forma como está sendo pago agora.\n\nÉ importante saber que essa decisão não significa que tudo está 100% certo. Se você tiver alguma dúvida ou achar que a empresa está fazendo algo errado, você tem o direito de procurar um advogado ou entrar com uma ação na justiça para ver se a decisão da empresa é realmente justa.\"\n\n**Observação:** A decisão de conformidade é baseada em informações limitadas e não garante a legalidade absoluta da prática. É recomendável que os motoristas busquem aconselhamento jurídico para avaliar a situação individualmente.\n",
+  "tokens_in": 525,
+  "tokens_out": 973,
+  "latency_ms": 27110,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

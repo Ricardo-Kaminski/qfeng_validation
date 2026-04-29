@@ -1,0 +1,29 @@
+{
+  "sha256": "3a2912ccc7ea08df87f7cdb24884fedd3f4ba55da698050a6ace061258fb659f",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:51:49Z",
+  "prompt_sha": "5f9cbe1e74df8f9f09dd27156f26d2bdba133bb47bb48855f1d568c3bfa09a2e",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG determinou que houve violação (VIOLACAO) no caso da demissão do empregado pela empresa de vigilância. Isso ocorreu porque a empresa não pagou as horas extras do banco de horas com o adicional de 50% como previsto na CCT, apenas pagando-as como hora normal.\n\nA decisão foi influenciada pelos predicados soberanos ativos, que estabelecem regras e limites para a relação entre empregado e empregador. Em particular, os predicados \"overtime_minimum_additional_50pct\" (mínimo de adicional de 50% para horas extras) e \"invalidity_of_clause_suppressing_overtime_payment\" (inválida a cláusula que suprime o pagamento de horas extras) foram fundamentais para a conclusão do sistema.\n\nAlém disso, a falta de compensação das horas extras antes da rescisão também foi considerada no cálculo do resultado final. A decisão do Q-FENG é baseada na análise dos predicados e na aplicação das regras estabelecidas pela legislação trabalhista brasileira.\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\nAqui estão as explicações detalhadas de cada predicado soberano ativo:\n\n*   `sovereign(semester_hour_bank_requires_cct_or_act)`: Esta regra estabelece que, para compensação semestral das horas extras do banco de horas, é necessário ter um acordo coletivo (CCT) ou uma convenção coletiva (ACT). Isso significa que a empresa não pode simplesmente pagar as horas extras como hora normal.\n*   `sovereign(invalidity_of_clause_suppressing_overtime_payment)`: Esta regra afirma que qualquer cláusula que suprima o pagamento de horas extras é inválida. Nesse caso, a empresa tentou pagar as horas extras do banco de horas apenas como hora normal, o que viola essa regra.\n*   `sovereign(weekly_hour_compensation_requires_written_agreement)`: Esta regra estabelece que a compensação das horas extras semanais requer um acordo por escrito entre empregado e empregador. Isso não é aplicável diretamente ao caso, pois o problema se refere à compensação semestral.\n*   `sovereign(prohibition_negotiation_reducing_overtime_additional)`: Esta regra proíbe a negociação de redução do adicional pago para horas extras. Nesse caso, a empresa não pagou o adicional de 50% como previsto na CCT.\n*   `sovereign(overtime_minimum_additional_50pct)`: Esta regra estabelece que o mínimo de adicional pago para horas extras é de 50%. A empresa violou essa regra ao pagar as horas extras do banco de horas apenas como hora normal, sem o adicional de 50%.\n*   `sovereign(maximum_weekly_working_hours_44h)`: Esta regra estabelece que o máximo de horas trabalhadas por semana é de 44. Isso não é aplicável diretamente ao caso, pois o problema se refere à compensação das horas extras.\n*   `sovereign(maximum_daily_working_hours_8h)`: Esta regra estabelece que o máximo de horas trabalhadas por dia é de 8. Isso não é aplicável diretamente ao caso, pois o problema se refere à compensação das horas extras.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nEm resumo, a decisão do Q-FENG significa que a empresa violou as regras trabalhistas ao demitir o empregado sem justa causa e não pagar as horas extras do banco de horas com o adicional de 50% como previsto na CCT.\n\nIsso ocorreu porque a empresa não cumpriu com as regras estabelecidas pela legislação trabalhista brasileira, como a necessidade de compensação das horas extras antes da rescisão e o pagamento do adicional de 50% para horas extras. A decisão do Q-FENG é baseada na análise dos predicados soberanos ativos e na aplicação das regras estabelecidas pela legislação trabalhista brasileira.\n\nA empresa deve pagar as horas extras do banco de horas com o adicional de 50% como previsto na CCT, além de outros direitos que possam ser aplicáveis ao caso.",
+  "tokens_in": 530,
+  "tokens_out": 996,
+  "latency_ms": 16656,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

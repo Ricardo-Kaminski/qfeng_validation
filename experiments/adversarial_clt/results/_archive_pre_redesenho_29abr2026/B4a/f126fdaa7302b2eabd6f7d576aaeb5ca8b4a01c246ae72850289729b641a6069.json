@@ -1,0 +1,26 @@
+{
+  "sha256": "f126fdaa7302b2eabd6f7d576aaeb5ca8b4a01c246ae72850289729b641a6069",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-009",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T04:26:49Z",
+  "prompt_sha": "bcff85d452bf2f58ac15e7495135889c6ad856a88318d21e3e0178db0d0f040c",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação na prática judicial observada no cenário apresentado. A decisão do magistrado de manter a sentença sem adicionar fundamentações adicionais, simplesmente adotando os motivos da sentença anterior como razões para decidir, levanta preocupações em relação ao cumprimento dos predicados soberanos ativos.\n\nOs predicados soberanos ativos indicam obrigações e proibições específicas que devem ser observadas no contexto jurídico. A decisão do magistrado não abordou adequadamente a necessidade de declarar as consequências práticas da decisão, o que é essencial para garantir que os resultados sejam claros e aplicáveis. Além disso, houve uma falha em considerar novas jurisprudências mais recentes do TST, ignorando um precedente superado, o que viola a obrigação de citar precedentes relevantes e atualizados.\n\nA decisão também não demonstrou como os argumentos legais foram abordados ou como a razão central da decisão (ratio decidendi) foi identificada. Isso é crucial para garantir que as decisões sejam bem fundamentadas e justas. Além disso, houve uma falha em cumprir o dever constitucional de explicitar os motivos das decisões judiciais, um aspecto fundamental para a transparência judicial e o acesso à justiça.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obrigação de declarar as consequências práticas da decisão**: No contexto trabalhista brasileiro, isso significa que o juiz deve explicar como sua decisão afetará a situação dos envolvidos, garantindo clareza sobre os resultados e suas implicações.\n\n- **Proibição de citação genérica de precedentes**: Isso exige que os magistrados citem apenas precedentes relevantes e atualizados. Citar um precedente superado por jurisprudência mais recente é inadequado, pois pode levar a decisões baseadas em informações desatualizadas.\n\n- **Obrigação de abordar todos os argumentos legais**: Os juízes devem considerar e responder a todos os pontos levantados pelas partes no processo. Ignorar argumentos relevantes pode comprometer a justiça da decisão.\n\n- **Obrigação de fundamentar a decisão na ratio decidendi identificada**: Isso significa que o juiz deve explicar claramente o motivo central da decisão, garantindo que ela seja baseada em uma análise jurídica sólida e relevante.\n\n- **Dever constitucional de declarar os motivos das decisões**: Os magistrados são obrigados a fornecer razões claras e detalhadas para suas decisões, promovendo transparência e permitindo que as partes compreendam o raciocínio judicial.\n\n- **Direito ao acesso à justiça e à revisão judicial**: Garantir que os cidadãos possam buscar a justiça e ter suas decisões revisadas é fundamental para um sistema jurídico justo. Decisões mal fundamentadas podem dificultar esse direito.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO juiz decidiu manter uma sentença anterior sem explicar por que isso foi feito, apenas dizendo que concorda com os motivos da decisão anterior. Isso é um problema porque o juiz não mostrou como essa decisão afetará você ou a outra parte envolvida. Além disso, ele usou uma referência legal antiga que já não é mais válida, sem considerar novas regras que poderiam mudar o resultado.\n\nOs juízes precisam explicar claramente suas decisões e usar as leis mais atualizadas para garantir que a justiça seja feita. Eles também devem responder a todos os argumentos apresentados durante o processo. Quando isso não acontece, pode ser difícil entender por que uma decisão foi tomada e se ela é justa. Isso é importante porque todos têm direito a um julgamento claro e justo.",
+  "tokens_in": 520,
+  "tokens_out": 941,
+  "latency_ms": 27296,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

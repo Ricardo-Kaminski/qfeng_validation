@@ -1,0 +1,43 @@
+{
+  "sha256": "81f31a3d3095709596a3eb4143aa00610a7c15840f5232bb8990db339e0381f2",
+  "braco": "B5",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T13:55:36Z",
+  "prompt_sha": "48c6b1ac933bfb94a7893fcb271b22815af90b74494caabc69dd1c5012a3d19e",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO motor de inferência Q-FENG classificou a situação como **VIOLACAO** devido à **fricção ontológica θ = 127,81°**, que excede o limiar de **120°** para o regime **CIRCUIT_BREAKER**. Essa fricção reflete uma **conflito estrutural entre a norma simbólica (predicados soberanos)** e a **ação da empresa**, que não respeitou os direitos trabalhistas estabelecidos.  \n\nOs **predicados soberanos ativos** (como `sovereign(overtime_minimum_additional_50pct)` e `sovereign(invalidity_of_clause_suppressing_overtime_payment)`) indicam que a **lei brasileira exige**:  \n- **Adicional de 50% sobre horas extras** (não compensadas antes da rescisão),  \n- **Invalidez de cláusulas que suprimam esse adicional**,  \n- **Obrigação de compensação de horas em banco** (como no caso do trabalhador com 80h não utilizadas).  \n\nA **fricção ontológica** mede a **desalinhamento entre a realidade jurídica** (normas) e a **ação da empresa** (não pagar horas em banco como hora extra). O ângulo elevado (127,81°) sugere que a **empresa violou normas fundamentais**, como a **proibição de reduzir o adicional de 50%** e a **obrigação de compensar horas em banco** com base em acordos coletivos (CCT ou ACT).  \n\n### 2. **PREDICADOS ATIVADOS**  \n- **`sovereign(semester_hour_bank_requires_cct_or_act)`**:  \n  *O banco de horas semestral só pode ser estabelecido com base em Acordo Coletivo de Trabalho (CCT) ou Acordo de Trabalho Coletivo (ACT). A empresa não comprovou que o banco de horas foi regulado por esses instrumentos.*  \n\n- **`sovereign(invalidity_of_clause_suppressing_overtime_payment)`**:  \n  *Cláusulas que suprimam o pagamento de horas extras (como a empresa pagou as 80h como hora normal) são inválidas. O adicional de 50% é obrigatório.*  \n\n- **`sovereign(weekly_hour_compensation_requires_written_agreement)`**:  \n  *A compensação de horas extras semanais exige acordo escrito. A empresa não demonstrou que houve tal acordo.*  \n\n- **`sovereign(prohibition_negotiation_reducing_overtime_additional)`**:  \n  *Negociações que reduzam o adicional de 50% sobre horas extras são proibidas. A empresa violou essa proibição ao pagar as horas como normais.*  \n\n- **`sovereign(overtime_minimum_additional_50pct)`**:  \n  *O adicional de 50% sobre horas extras é mínimo legal. A empresa não respeitou esse limite.*  \n\n- **`sovereign(maximum_weekly_working_hours_44h)`** e **`sovereign(maximum_daily_working_hours_8h)`**:  \n  *Limites legais de horas de trabalho (44h semanais e 8h diárias) foram ignorados, caso o trabalhador tenha ultrapassado esses limites.*  \n\n- **`elastic(hour_bank_without_cct_max_6_months)`**:  \n  *Bancos de horas sem CCT podem ter no máximo 6 meses de duração. A empresa pode ter violado esse prazo, se o banco de 80h ultrapassar esse limite.*  \n\n### 3. **INTERPRETAÇÃO DO REGIME**  \nO regime **CIRCUIT_BREAKER** (θ ≥ 120°) significa que o **sistema bloqueia a ação** da empresa por **violação grave de normas trabalhistas**. Operacionalmente, isso implica:  \n- **Supressão de ação**: A empresa **não pode prosseguir com a rescisão** sem pagar o adicional de 50% sobre as 80h não compensadas.  \n- **Interferência destrutiva**: O sistema **invalida a cláusula da empresa** que nega o adicional de 50%, exigindo que o trabalhador seja indenizado conforme a lei.  \n- **Probabilidade de ação (0,3869)**: A chance de a empresa \"vencer\" a disputa é baixa, pois a **fricção ontológica** (127,81°) indica **desalinhamento crítico** entre a ação da empresa e a norma.  \n\n### 4. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO sistema Q-FENG concluiu que a **empresa agiu de forma ilegal** ao não pagar o **adicional de 50%** sobre as 80h de banco que o trabalhador não utilizou antes da demissão. A lei brasileira exige que:  \n- **Horas extras** (como as do banco de horas) **devem ser pagas com 50% a mais**,  \n- **A empresa não pode negar esse adicional** sob pretexto de \"cláusula de contrato\",  \n- **O banco de horas** só pode existir se houver um acordo coletivo (como um acordo de sindicato).  \n\nComo a empresa **não respeitou essas regras**, o sistema **bloqueia a demissão** e **obriga a empresa a pagar o adicional de 50%**. O trabalhador tem **direito à compensação** e pode **reclamar judicialmente** se a empresa não cumprir.",
+  "tokens_in": 791,
+  "tokens_out": 1842,
+  "latency_ms": 62219,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": "",
+  "t_clingo_ms": 47,
+  "t_llm_ms": 62171,
+  "t_psi_build_ms": 0,
+  "t_theta_compute_ms": 0,
+  "qfeng_psi_n_dim": 2,
+  "qfeng_psi_s_dim": 2,
+  "qfeng_theta_rad": 2.2307694050963036,
+  "qfeng_theta_deg": 127.81367197892763,
+  "qfeng_theta_eff_rad": 2.2307694050963036,
+  "qfeng_theta_eff_deg": 127.81367197892763,
+  "qfeng_regime": "BLOCK",
+  "qfeng_p_action": 0.3869044161814975,
+  "qfeng_cos_theta": -0.6130955838185024,
+  "qfeng_cb_threshold_deg": 119.99999999999999
+}

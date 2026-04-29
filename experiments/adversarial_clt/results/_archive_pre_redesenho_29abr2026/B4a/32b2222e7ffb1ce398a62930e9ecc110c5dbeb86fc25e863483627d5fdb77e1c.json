@@ -1,0 +1,26 @@
+{
+  "sha256": "32b2222e7ffb1ce398a62930e9ecc110c5dbeb86fc25e863483627d5fdb77e1c",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CTRL-NEG-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T04:08:11Z",
+  "prompt_sha": "52ec50d5024118233c12c0dc9099b2683840524f81358cf22711748675d6dce8",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a **CCT celebrada entre a empresa e o sindicato está em conformidade com a legislação trabalhista brasileira**, com base nos predicados soberanos ativos. A **satisfatibilidade \"UNKNOWN\"** indica que o sistema não identificou contradições ou lacunas materiais na norma, mas **não afirma que a norma seja perfeitamente satisfatória** — apenas que não há elementos para invalidá-la.  \n\nOs predicados soberanos ativos garantem que:  \n- **A obrigação de explicitar as consequências práticas da decisão** (ex.: compensação de horas em folgas) foi cumprida, conforme o art. 229 da CLT (que exige clareza nas normas coletivas).  \n- **A proibição de citar precedentes genéricos** evita interpretações ambíguas, assegurando que a CCT seja aplicada conforme seus termos específicos (ex.: 50% de adicional para horas não compensadas).  \n- **A obrigação de abordar todos os argumentos jurídicos** foi atendida, já que não há contestações sindicais ou individuais, e a CCT foi registrada na SRTE (cumprindo a formalidade legal).  \n- **A decisão foi fundamentada no \"ratio decidendi\"** (motivo da decisão), ou seja, a cláusula de conversão em adicional foi aplicada conforme previsto.  \n- **A obrigação constitucional de explicitar razões** foi cumprida, pois a CCT foi entregue aos trabalhadores e registrada.  \n- **O direito de acesso à justiça e revisão judicial** está garantido, pois a norma não viola direitos fundamentais (ex.: não há limitação de horas além do máximo legal de 60h/mês).  \n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(obligation_to_state_practical_consequences_of_decision)**:  \n  *Significado*: A norma deve explicitar **os efeitos concretos** de suas regras (ex.: como as horas acumuladas são compensadas).  \n  *Contexto*: A CCT prevê compensação em folgas e adicional de 50% para horas não usadas, o que está claro.  \n\n- **sovereign(prohibition_of_generic_precedent_citation)**:  \n  *Significado*: Proíbe a aplicação de **precedentes genéricos** (ex.: \"como costuma ser feito\") em vez de regras específicas.  \n  *Contexto*: A CCT usa cláusulas precisas (ex.: 60h/mês, 50% de adicional), não ambiguidades.  \n\n- **sovereign(obligation_to_address_all_legal_arguments)**:  \n  *Significado*: A norma deve **considerar todos os argumentos jurídicos** possíveis.  \n  *Contexto*: Não há contestações, e a CCT foi registrada, indicando que todos os direitos foram analisados.  \n\n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**:  \n  *Significado*: A decisão deve ser baseada em **motivos claros e identificáveis** (ex.: cláusulas da CCT).  \n  *Contexto*: A conversão em adicional de 50% está diretamente ligada à cláusula da CCT.  \n\n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**:  \n  *Significado*: A norma deve **explicar suas razões** para garantir transparência.  \n  *Contexto*: A CCT foi entregue aos trabalhadores e registrada, cumprindo essa obrigação.  \n\n- **sovereign(right_of_access_to_justice_and_judicial_review)**:  \n  *Significado*: Garante que **trabalhadores possam contestar normas** em tribunais.  \n  *Contexto*: A CCT não viola direitos fundamentais, e a ausência de contestações reforça sua validade.  \n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA **CCT** (acordo entre empresa e sindicato) **está certa** e **não viola nenhuma lei**. O sistema verificou que:  \n- Todos os termos do acordo (ex.: 60h/mês, folgas, adicional de 50%) foram **cumpridos**.  \n- Ninguém contestou o acordo, e ele foi **registrado oficialmente**.  \n- A empresa e o sindicato explicaram **claramente** como as regras funcionam (ex.: como as horas são compensadas).  \n- Se alguém quiser contestar algo, pode ir a um tribunal, pois a norma **não limita direitos**.  \n\nPortanto, **não há problema** com a CCT — ela está **em ordem** e **respeita os direitos dos trabalhadores**.",
+  "tokens_in": 531,
+  "tokens_out": 1661,
+  "latency_ms": 52967,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,27 @@
+{
+  "sha256": "dc570ceea221fc08a5ed19ae486aa6200b67fca63be5e76c1ae9960b9d5d0c2f",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-011",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T03:31:38Z",
+  "prompt_sha": "1ba5dabfcaa2bdcb6e6f3d2a77f11a19a64ac5023093b1ae0eb6de908514e992",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a **empresa violou a CCT** ao estender o prazo de compensação do banco de horas para além de 12 meses, **sem base normativa ou cláusula contratual** que autorizasse a suspensão do prazo durante o afastamento do trabalhador.  \n\nA decisão se fundamenta nos **predicados soberanos ativos**:  \n- **sovereign(recognition_of_collective_bargaining)**: A CCT é um instrumento legalmente válido, e suas cláusulas são vinculantes para ambas as partes. Como **não há previsão de suspensão do prazo do banco de horas** durante o afastamento, a empresa não pode aplicar essa interpretação unilateralmente.  \n- **sovereign(maximum_weekly_working_hours_44h)** e **sovereign(maximum_daily_working_hours_8h)**: Esses limites são normativos e não podem ser alterados por acordos individuais ou interpretações não previstas na CCT. A empresa não pode \"redefinir\" o prazo do banco de horas para além do que está estabelecido legalmente, mesmo com o afastamento.  \n\nO **predicado elástico** **elastic(hour_bank_with_cct_max_1_year)** reforça que o prazo máximo de 12 meses para compensação do banco de horas é um **limite legal**, mesmo que a CCT permita negociações flexíveis. A ausência de cláusula de suspensão impede que a empresa \"congele\" o prazo durante o afastamento.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(recognition_of_collective_bargaining)**:  \n  **Significado jurídico**: A CCT é um acordo coletivo legalmente reconhecido, e suas cláusulas são obrigatórias para ambas as partes. A ausência de uma cláusula específica (como suspensão do prazo do banco de horas) impede que a empresa interprete unilateralmente o contrato.  \n\n- **sovereign(maximum_weekly_working_hours_44h)**:  \n  **Significado jurídico**: Limita a jornada de trabalho semanal a 44 horas, conforme previsto na CLT. Essa norma é soberana e não pode ser alterada por acordos individuais ou interpretações não previstas na CCT.  \n\n- **sovereign(maximum_daily_working_hours_8h)**:  \n  **Significado jurídico**: Estabelece que a jornada diária não pode ultrapassar 8 horas, independentemente de negociações. Essa regra é inalterável e protege o trabalhador contra excessos de carga horária.  \n\n- **elastic(annual_hour_bank_negotiable)**:  \n  **Significado jurídico**: Permite que a CCT defina termos flexíveis para o banco de horas, desde que respeitem os limites legais (como o prazo máximo de 12 meses).  \n\n- **elastic(working_hours_negotiable_by_cct)**:  \n  **Significado jurídico**: A CCT pode definir regras específicas para a compensação de horas, mas **não pode criar direitos ou obrigações que não estejam previstos na legislação trabalhista**.  \n\n- **elastic(hour_bank_with_cct_max_1_year)**:  \n  **Significado jurídico**: O prazo máximo de 12 meses para compensação do banco de horas é um **limite legal**, mesmo que a CCT permita negociações. A empresa não pode estender esse prazo sem base normativa.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa **não pode estender o prazo de compensação do banco de horas** para mais de 12 meses, **mesmo que o trabalhador tenha ficado afastado por 4 meses**. A CCT (acordo coletivo) não prevê que o prazo do banco de horas seja \"pausado\" durante o afastamento, então a empresa não pode aplicar essa regra por conta própria.  \n\nA lei diz que o prazo máximo para compensar horas extras é de 12 meses, **independentemente de situações como afastamentos**. A empresa violou esse limite ao exigir que o trabalhador pague as horas acumuladas em um prazo maior do que o permitido. O trabalhador tem direito a compensar as horas dentro desse prazo de 12 meses, **sem que a empresa possa alterar isso unilateralmente**.  \n\n---  \n**Nota**: A decisão de \"VIOLACAO\" indica que a empresa **não pode aplicar regras que não estão previstas na CCT ou na legislação trabalhista**, mesmo que isso pareça \"justo\" para ela.",
+  "tokens_in": 537,
+  "tokens_out": 1603,
+  "latency_ms": 51078,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

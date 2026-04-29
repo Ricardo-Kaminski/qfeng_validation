@@ -1,0 +1,27 @@
+{
+  "sha256": "5056de6fd2b11e25fb16249755b10e0760211c43716d6f7a750331c7c9f48ea1",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T03:06:02Z",
+  "prompt_sha": "c6c0c1122710df482c2abdde5c502834d7fd2f7dca2ec9ae3f5901b25dbff6df",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a situação descrita está em **conformidade com a legislação trabalhista brasileira**, com base nos seguintes elementos:  \n- **Reconhecimento da CCT**: O acordo coletivo de trabalho (CCT) foi validado pelo sindicato, garantindo a legalidade da negociação de horas extras e do banco de horas.  \n- **Limites legais de jornada**: Apesar da jornada diária ter atingido até 10 horas (superando o limite legal de 8 horas), os **predicados soberanos** ativos (como *maximum_daily_working_hours_8h*) são **normas mínimas**, não absolutas. A **negociação coletiva** (via *elastic(working_hours_negotiable_by_cct)*) permite ajustes flexíveis, desde que respeitados os limites mínimos de segurança (como a jornada semanal de 44 horas).  \n- **Compensação dentro do prazo**: As horas acumuladas foram integralmente compensadas dentro de 12 meses, conforme estipulado na CCT, e os extratos foram entregues, atendendo ao prazo máximo de *hour_bank_with_cct_max_1_year*.  \n- **Homologação sindical**: A prestação de contas do banco de horas foi aprovada pelo sindicato, reforçando a legitimidade do acordo.  \n\nA **satisfatibilidade UNKNOWN** indica que o sistema não identificou contradições claras entre a prática e a legislação, mas não garante ausência total de riscos. No entanto, os predicados ativos e a homologação sindical sustentam a conclusão de **conformidade**.\n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n**Predicados soberanos (normas mínimas, não negociáveis):**  \n- **sovereign(recognition_of_collective_bargaining)**: O reconhecimento legal da CCT como instrumento de negociação coletiva.  \n- **sovereign(maximum_weekly_working_hours_44h)**: A jornada semanal não pode ultrapassar 44 horas, mesmo com negociação coletiva.  \n- **sovereign(maximum_daily_working_hours_8h)**: A jornada diária não pode exceder 8 horas, salvo exceções previstas em lei (como em situações de emergência).  \n\n**Predicados elásticos (negociáveis via CCT):**  \n- **elastic(annual_hour_bank_negotiable)**: Permite a acumulação e compensação de horas extras em um período anual, desde que definido na CCT.  \n- **elastic(working_hours_negotiable_by_cct)**: Permite ajustes na jornada diária e semanal, desde que respeitados os limites soberanos (ex.: 44h semanais).  \n- **elastic(hour_bank_with_cct_max_1_year)**: O prazo máximo para compensação de horas acumuladas é de 1 ano, conforme estipulado na CCT.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa e o trabalhador seguiram as regras do acordo coletivo de trabalho (CCT), que foi aprovado pelo sindicato. O trabalhador acumulou horas extras ao longo de 11 meses e usou todas elas em folgas dentro de 12 meses, conforme combinado. A jornada diária chegou a 10 horas, mas isso foi permitido porque a CCT negociou um limite maior, desde que não ultrapassasse a jornada semanal de 44 horas. O sindicato validou que tudo foi feito corretamente, então o sistema concluiu que **não houve violação da lei**. No entanto, o sistema também não garante que **nada poderia ser melhorado**, apenas que a situação está dentro das regras atuais.",
+  "tokens_in": 503,
+  "tokens_out": 2347,
+  "latency_ms": 75500,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,43 @@
+{
+  "sha256": "f200bb2186ab218be2bbb33f28c4be5eb3eecb96b85cffd9e22ce14eda9708d4",
+  "braco": "B5",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T13:48:22Z",
+  "prompt_sha": "f6f57ca168552536f5be0114c8dd6df11ce4c3c0626eeb91fd7acf9e3c9be0d8",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO motor de inferência Q-FENG classificou o caso como **VIOLACAO** devido à **fricção ontológica θ = 127,81°**, que ultrapassa o limiar de **120°** para o regime **CIRCUIT_BREAKER**. Esse ângulo reflete uma **dissonância crítica** entre a **evidência neural** (o acordo individual de banco de horas) e a **norma simbólica** (os direitos trabalhistas brasileiros).  \n\nOs **predicados soberanos ativos** (como `sovereign(semester_hour_bank_requires_cct_or_act)` e `sovereign(prohibition_negotiation_reducing_overtime_additional)`) indicam que:  \n- O banco de horas **não pode ser implementado sem acordo coletivo** (CCT ou ACT), conforme a **Lei 13.467/2017** (Reforma Trabalhista).  \n- A **proibição de cláusulas que suprimam o pagamento de horas extras** (art. 61 da CLT) é violada ao usar acordos individuais para compensar horas.  \n- A **compensação de horas** só é permitida com **acordo escrito** (art. 59 da CLT), mas o prazo de 5 meses **não atende ao limite legal de 6 meses** (predicado `elastic(hour_bank_without_cct_max_6_months)`).  \n\nA **fricção ontológica** mede a **incompatibilidade** entre a prática da empresa (acordos individuais) e as normas trabalhistas (exigência de acordos coletivos e limites de compensação). O regime **CIRCUIT_BREAKER** interrompe a ação da empresa, pois a violação é **sistemática e irreparável**.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **`sovereign(semester_hour_bank_requires_cct_or_act)`**: O banco de horas semestral **exige acordo coletivo** (CCT ou ACT). A ausência de participação do sindicato ou dos trabalhadores viola o art. 61 da CLT.  \n- **`sovereign(invalidity_of_clause_suppressing_overtime_payment)`**: Cláusulas que **suprimam o pagamento de horas extras** são nulas (art. 61 da CLT).  \n- **`sovereign(weekly_hour_compensation_requires_written_agreement)`**: A compensação de horas exige **acordo escrito** (art. 59 da CLT).  \n- **`sovereign(prohibition_negotiation_reducing_overtime_additional)`**: Não é permitido **reduzir a remuneração por horas extras** (art. 61 da CLT).  \n- **`sovereign(overtime_minimum_additional_50pct)`**: Horas extras devem ter **adicional de 50%** (art. 61 da CLT).  \n- **`sovereign(maximum_weekly_working_hours_44h)`**: Limite de **44 horas semanais** (art. 58 da CLT).  \n- **`sovereign(maximum_daily_working_hours_8h)`**: Limite de **8 horas diárias** (art. 58 da CLT).  \n- **`elastic(hour_bank_without_cct_max_6_months)`**: Compensação de horas sem CCT pode ter prazo **máximo de 6 meses** (art. 59 da CLT).  \n\n---\n\n### 3. **INTERPRETAÇÃO DO REGIME**  \nO **regime CIRCUIT_BREAKER** (θ ≥ 120°) significa que:  \n- A **ação da empresa é bloqueada** por violação grave e sistemática das normas trabalhistas.  \n- A **fricção ontológica** (θ) indica que a prática da empresa (acordos individuais) **contradiz diretamente** os direitos fundamentais dos trabalhadores (exigência de acordos coletivos, pagamento de horas extras, limites de horas).  \n- A **probabilidade de ação (0,3869)** é baixa, pois o sistema prioriza a **proteção dos direitos trabalhistas** sobre a flexibilidade individual.  \n- O **regime não permite escalonamento humano (HITL)** ou execução autônoma (STAC), pois a violação é **irreparável** sem intervenção judicial ou sindical.  \n\n---\n\n### 4. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa está **errada** ao usar acordos individuais para compensar horas extras. A lei brasileira exige que **todo acordo de banco de horas** (compensação de horas) **precisa ser feito com o sindicato ou com todos os trabalhadores**, não individualmente. Além disso, a compensação só pode durar **máximo 6 meses**, e as horas extras devem ter **50% de adicional**.  \n\nO sistema Q-FENG detectou que a empresa **viola a lei** de forma grave, e por isso **não pode seguir adiante** com essa prática. Os trabalhadores têm direito a **reclamar judicialmente** e exigir que a empresa corrija a situação. A **fricção ontológica** é como um \"sinal de alerta\" que diz: \"Isso está errado, e precisa ser parado imediatamente\".",
+  "tokens_in": 793,
+  "tokens_out": 1588,
+  "latency_ms": 52843,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": "",
+  "t_clingo_ms": 77,
+  "t_llm_ms": 52766,
+  "t_psi_build_ms": 0,
+  "t_theta_compute_ms": 0,
+  "qfeng_psi_n_dim": 2,
+  "qfeng_psi_s_dim": 2,
+  "qfeng_theta_rad": 2.2307694050963036,
+  "qfeng_theta_deg": 127.81367197892763,
+  "qfeng_theta_eff_rad": 2.2307694050963036,
+  "qfeng_theta_eff_deg": 127.81367197892763,
+  "qfeng_regime": "BLOCK",
+  "qfeng_p_action": 0.3869044161814975,
+  "qfeng_cos_theta": -0.6130955838185024,
+  "qfeng_cb_threshold_deg": 119.99999999999999
+}

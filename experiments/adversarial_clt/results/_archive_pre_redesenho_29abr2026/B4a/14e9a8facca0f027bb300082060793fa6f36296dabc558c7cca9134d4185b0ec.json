@@ -1,0 +1,27 @@
+{
+  "sha256": "14e9a8facca0f027bb300082060793fa6f36296dabc558c7cca9134d4185b0ec",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-007",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T07:01:30Z",
+  "prompt_sha": "cba540c99550234d4dda7bdefc59d2298c6b9b1ac9747edfc810996124e975ca",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após analisar os predicados soberanos ativos e as informações fornecidas pelo cenário, chegou à decisão de CONFORMIDADE. Isso significa que o banco está em conformidade com a CCT (Convenção Coletiva de Trabalho) do setor bancário, que prevê o banco de horas anual.\n\nA decisão se baseia nos predicados soberanos ativos, que são:\n\n* `sovereign(recognition_of_collective_bargaining)`: O banco reconhece a negociação coletiva e está em conformidade com a CCT.\n* `sovereign(maximum_weekly_working_hours_44h)`: O banco não excede o limite de 44 horas semanais de trabalho, conforme previsto na CCT.\n* `sovereign(maximum_daily_working_hours_8h)`: O banco não excede o limite de 8 horas diárias de trabalho, conforme previsto na CCT.\n\nEsses predicados soberanos ativos garantem que o banco esteja em conformidade com as regras trabalhistas estabelecidas pela legislação brasileira e pela CCT do setor bancário.\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\nAqui está a explicação de cada predicado soberano ativo:\n\n* `sovereign(recognition_of_collective_bargaining)`: Isso significa que o banco reconhece a negociação coletiva e está em conformidade com a CCT. A negociação coletiva é um direito dos trabalhadores, previsto na Constituição Federal brasileira (artigo 7º, inciso XXVI). O banco deve respeitar as regras estabelecidas pela CCT.\n* `sovereign(maximum_weekly_working_hours_44h)`: Isso significa que o banco não excede o limite de 44 horas semanais de trabalho. A Lei nº 10.639/2003 estabelece que a jornada de trabalho máxima é de 44 horas semanais.\n* `sovereign(maximum_daily_working_hours_8h)`: Isso significa que o banco não excede o limite de 8 horas diárias de trabalho. A Lei nº 10.639/2003 estabelece que a jornada de trabalho máxima é de 8 horas diárias.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nEm linguagem simples, a decisão do sistema Q-FENG significa que o banco está fazendo tudo certo em relação à CCT e às regras trabalhistas. O banco não excede os limites de horas semanais e diárias estabelecidos pela lei e pela CCT.\n\nIsso significa que o trabalhador bancário não tem direito a adicional por horas extras, pois as horas do banco de horas foram compensadas dentro do prazo estabelecido. O sindicato já esclareceu essa informação ao trabalhador.",
+  "tokens_in": 524,
+  "tokens_out": 664,
+  "latency_ms": 11094,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

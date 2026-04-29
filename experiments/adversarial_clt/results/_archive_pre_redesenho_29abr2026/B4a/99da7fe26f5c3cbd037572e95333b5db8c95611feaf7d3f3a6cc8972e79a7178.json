@@ -1,0 +1,27 @@
+{
+  "sha256": "99da7fe26f5c3cbd037572e95333b5db8c95611feaf7d3f3a6cc8972e79a7178",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T04:54:32Z",
+  "prompt_sha": "b3a1b193561e82c62b707b08467d6ec5ca8842b372e04bc8dd0182e3993c8b0e",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que há uma violação (VIOLACAO) na situação apresentada com base nos predicados soberanos ativos. Esses predicados refletem princípios fundamentais da legislação trabalhista brasileira, conforme a Constituição Federal de 1988 e as normas complementares.\n\nA decisão foi influenciada pelos seguintes predicados soberanos:\n\n- **sovereign(recognition_of_collective_bargaining)**: Este predicado reconhece que acordos coletivos de trabalho (CCT) têm força para modificar certas condições previstas na legislação trabalhista, desde que não contrariem disposições de ordem pública ou normas sobre direitos irrenunciáveis dos trabalhadores.\n\n- **sovereign(maximum_weekly_working_hours_44h)**: Este predicado estabelece o limite máximo semanal de 44 horas para a jornada de trabalho, conforme previsto na CLT (Consolidação das Leis do Trabalho).\n\n- **sovereign(maximum_daily_working_hours_8h)**: Este predicado fixa o limite diário de 8 horas de trabalho, também estabelecido pela CLT.\n\nNo contexto apresentado, a CCT autorizava um banco de horas sem especificar detalhes sobre o modelo de compensação. A implantação da jornada de 10 horas por dia sob o modelo 5×10 não foi prevista explicitamente na CCT e levanta dúvidas quanto à sua compatibilidade com os limites constitucionais diários de trabalho, apesar do banco de horas ser negociável.\n\nPortanto, a decisão Q-FENG indica uma violação porque a jornada diária de 10 horas pode contrariar o limite máximo diário estabelecido pela Constituição e pela CLT, mesmo que haja um acordo coletivo autorizando o banco de horas. A ausência de previsão específica na CCT sobre esse modelo de compensação reforça a interpretação de que tal prática pode ser incompatível com os direitos trabalhistas fundamentais.\n\n### 2. PREDICADOS ATIVADOS\n\n- **sovereign(recognition_of_collective_bargaining)**: Este predicado significa que acordos coletivos têm o poder de alterar certas condições do trabalho, desde que não violem normas constitucionais ou leis que protegem direitos essenciais dos trabalhadores. Em outras palavras, as partes podem negociar termos específicos, mas não podem desrespeitar limites mínimos estabelecidos por lei.\n\n- **sovereign(maximum_weekly_working_hours_44h)**: Este predicado reflete a norma que define o máximo de horas semanais que um trabalhador pode ser obrigado a cumprir, sendo 44 horas a cota máxima permitida. Qualquer acordo coletivo deve respeitar esse limite.\n\n- **sovereign(maximum_daily_working_hours_8h)**: Este predicado estabelece o limite de 8 horas diárias como um direito constitucional dos trabalhadores, não podendo ser ultrapassado por acordos coletivos ou individuais. É uma garantia fundamental para a proteção da saúde e segurança do trabalhador.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG determinou que há um problema na forma como a empresa está aplicando o banco de horas, porque isso pode estar violando regras importantes sobre quanto tempo você pode ser obrigado a trabalhar por dia.\n\nNo Brasil, a Constituição diz que ninguém pode trabalhar mais do que 8 horas por dia. Mesmo que a empresa e os funcionários tenham um acordo especial (chamado CCT) que permite acumular horas extras para compensar em outro momento, esse acordo não pode ignorar essa regra básica.\n\nNeste caso específico, o acordo coletivo autorizou o banco de horas, mas não explicou claramente como isso seria feito. A empresa decidiu fazer com que os funcionários trabalhassem 10 horas por dia durante cinco dias da semana (chamado modelo 5×10), e isso pode estar indo contra a regra das 8 horas diárias.\n\nPortanto, o sistema Q-FENG indica que essa prática pode ser ilegal porque ultrapassa o limite de horas diárias permitido pela lei.",
+  "tokens_in": 523,
+  "tokens_out": 989,
+  "latency_ms": 28671,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

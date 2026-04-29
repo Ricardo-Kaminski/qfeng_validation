@@ -1,0 +1,26 @@
+{
+  "sha256": "8bef217aa9b8ebf63d38c94e6e8e2faa71847bc2e0eeb0f3c091fa4693d8986d",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T07:12:57Z",
+  "prompt_sha": "10b999c1978cb6ff2256926b41518f7e0ab9d2b1c6d6aeefb718ef2123bf70b9",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após analisar os dados e as regras do caso específico, chegou à decisão de CONFORMIDADE. Isso significa que o regime de trabalho da empresa está em conformidade com as leis trabalhistas brasileiras.\n\nA decisão foi influenciada pelos predicados soberanos ativos, que representam obrigações e direitos fundamentais no contexto trabalhista. O sistema considerou a necessidade de:\n\n* Estabelecer as consequências práticas da decisão (obligation_to_state_practical_consequences_of_decision);\n* Proibir a citação de precedentes genéricos (prohibition_of_generic_precedent_citation), ou seja, não se basear em casos semelhantes que não são relevantes para o caso específico;\n* Considerar todos os argumentos legais apresentados (obligation_to_address_all_legal_arguments);\n* Fundamentar a decisão na razão jurídica aplicável (obligation_to_ground_decision_in_identified_ratio_decidendi), ou seja, justificar a decisão com base em uma regra ou princípio específico;\n* Estabelecer as razões constitucionais para a decisão (constitutional_obligation_to_state_reasons_for_decisions);\n* Garantir o direito de acesso à justiça e revisão judicial (right_of_access_to_justice_and_judicial_review).\n\n**2. PREDICADOS ATIVADOS**\n\nAqui estão as explicações dos predicados soberanos ativos:\n\n1. **obligation_to_state_practical_consequences_of_decision**: O sistema deve estabelecer as consequências práticas da decisão, ou seja, como a decisão afetará os empregados e a empresa.\n2. **prohibition_of_generic_precedent_citation**: O sistema não pode se basear em precedentes genéricos que não são relevantes para o caso específico.\n3. **obligation_to_address_all_legal_arguments**: O sistema deve considerar todos os argumentos legais apresentados, incluindo aqueles que podem contrariar a decisão tomada.\n4. **obligation_to_ground_decision_in_identified_ratio_decidendi**: O sistema deve justificar a decisão com base em uma regra ou princípio específico da lei trabalhista.\n5. **constitutional_obligation_to_state_reasons_for_decisions**: O sistema deve estabelecer as razões constitucionais para a decisão, ou seja, como a decisão está alinhada com os direitos fundamentais previstos na Constituição.\n6. **right_of_access_to_justice_and_judicial_review**: O sistema deve garantir o direito de acesso à justiça e revisão judicial, permitindo que os empregados e a empresa possam recorrer da decisão se necessário.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nA decisão do Q-FENG é simples: a empresa está seguindo as leis trabalhistas brasileiras corretamente. Isso significa que os empregados têm direitos garantidos, como:\n\n* Jornada de trabalho de 8 horas diárias e 44 horas semanais;\n* Intervalos intrajornada concedidos integralmente (1 hora para jornada de 8h);\n* Registros de ponto eletrônicos e auditáveis;\n* Não há reclamação trabalhista pendente.\n\nA empresa está cumprindo com as leis, o que é fundamental para garantir a justiça e a igualdade no trabalho.",
+  "tokens_in": 523,
+  "tokens_out": 782,
+  "latency_ms": 13266,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

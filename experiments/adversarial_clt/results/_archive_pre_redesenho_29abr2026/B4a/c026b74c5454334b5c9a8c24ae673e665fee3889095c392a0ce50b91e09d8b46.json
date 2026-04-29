@@ -1,0 +1,26 @@
+{
+  "sha256": "c026b74c5454334b5c9a8c24ae673e665fee3889095c392a0ce50b91e09d8b46",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T07:13:43Z",
+  "prompt_sha": "dd5d898abce8ca32e525829e1af5dc971f03368ce118747a7507c27bd4ef1684",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após analisar os fatos e as leis aplicáveis, concluiu que a demissão do trabalhador sem justa causa foi realizada de forma regular e dentro dos prazos estabelecidos pela CLT. Além disso, todas as verbas rescisórias foram pagas no prazo de 10 dias, incluindo o saldo de salário, aviso prévio indenizado proporcional, férias proporcionais com 1/3, 13° proporcional, FGTS + multa de 40% e seguro-desemprego habilitado. O trabalhador assinou o recibo na presença do sindicato, o que indica a regularidade da demissão.\n\nA decisão do Q-FENG é baseada nos seguintes predicados soberanos ativos:\n\n* `obligation_to_state_practical_consequences_of_decision`: A empresa teve de informar ao trabalhador as consequências práticas da demissão, que foram cumpridas.\n* `prohibition_of_generic_precedent_citation`: Não há precedentes específicos citados para justificar a demissão sem justa causa.\n* `obligation_to_address_all_legal_arguments`: A empresa apresentou todas as razões legais para a demissão, que foram consideradas válidas.\n* `obligation_to_ground_decision_in_identified_ratio_decidendi`: A decisão foi fundamentada no artigo 485 da CLT, que permite a demissão sem justa causa após três anos de trabalho.\n* `constitutional_obligation_to_state_reasons_for_decisions`: A empresa teve de informar ao trabalhador as razões para a demissão, que foram cumpridas.\n* `right_of_access_to_justice_and_judicial_review`: O trabalhador tem o direito de recorrer à justiça e revisar a decisão.\n\n**2. PREDICADOS ATIVADOS**\n\nOs predicados soberanos ativos significam as seguintes coisas juridicamente no contexto trabalhista brasileiro:\n\n* `obligation_to_state_practical_consequences_of_decision`: A empresa tem a obrigação de informar ao trabalhador as consequências práticas da demissão, como o pagamento das verbas rescisórias.\n* `prohibition_of_generic_precedent_citation`: Não é permitido citar precedentes genéricos para justificar a demissão sem justa causa. Cada caso deve ser analisado de forma individual.\n* `obligation_to_address_all_legal_arguments`: A empresa tem a obrigação de apresentar todas as razões legais para a demissão, que devem ser consideradas válidas.\n* `obligation_to_ground_decision_in_identified_ratio_decidendi`: A decisão deve ser fundamentada em uma ratio decidendi específica, como o artigo 485 da CLT, que permite a demissão sem justa causa após três anos de trabalho.\n* `constitutional_obligation_to_state_reasons_for_decisions`: A empresa tem a obrigação constitucional de informar ao trabalhador as razões para a demissão, que devem ser cumpridas.\n* `right_of_access_to_justice_and_judicial_review`: O trabalhador tem o direito de recorrer à justiça e revisar a decisão.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nA decisão do Q-FENG é que a demissão do trabalhador sem justa causa foi realizada de forma regular e dentro dos prazos estabelecidos pela CLT. A empresa pagou todas as verbas rescisórias no prazo de 10 dias, o que significa que o trabalhador recebeu tudo o que era devido.\n\nA decisão é baseada na lei e foi fundamentada em razões legais válidas. O trabalhador tem o direito de recorrer à justiça se não estiver satisfeito com a decisão.\n\nEm resumo, a demissão do trabalhador sem justa causa foi realizada de forma regular e dentro dos prazos estabelecidos pela CLT. A empresa pagou todas as verbas rescisórias no prazo de 10 dias, o que significa que o trabalhador recebeu tudo o que era devido.",
+  "tokens_in": 541,
+  "tokens_out": 959,
+  "latency_ms": 16250,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

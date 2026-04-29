@@ -1,0 +1,30 @@
+{
+  "sha256": "1908e8cb5a99bd75d7db7a9a41377f06cf7fe97899ab7f1e98cf5a98f723d9bc",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T03:54:03Z",
+  "prompt_sha": "b3fc3319eefedae00a5e9f49f61a8cb6a71ba4d9860ac95b8580343ff80ed754",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a decisão judicial está **em conformidade com os princípios constitucionais e legais vigentes**, com base nos predicados soberanos ativos. A aplicação do **Art. 223-G da CLT** (pós-reforma de 2017) foi realizada de forma **identificável e verificável**, cumprindo o **obrigação de fundamentar a decisão em ratio decidendi clara** (predicado `sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)`). A identificação do grau da ofensa (leve, médio, grave ou gravíssimo) e a quantificação do dano moral com base no salário do trabalhador (Art. 223-G, §1°) foram feitas de forma **prática e objetiva**, alinhando-se ao **obrigação de expor as consequências práticas da decisão** (predicado `sovereign(obligation_to_state_practical_consequences_of_decision)`). A referência a **precedentes do TST** (como exigido pelo predicado `sovereign(prohibition_of_generic_precedent_citation)`) garantiu que a decisão não se baseasse em generalidades, mas em **casos similares com fundamentação específica**. Além disso, a **obrigação de abordar todos os argumentos jurídicos** (predicado `sovereign(obligation_to_address_all_legal_arguments)`) foi cumprida, e a **constitucionalidade da decisão** foi assegurada pelo **predicado constitutional_obligation_to_state_reasons_for_decisions**. A **reconhecimento da negociação coletiva** (predicado `sovereign(recognition_of_collective_bargaining)`) e o **direito de acesso à justiça** (predicado `sovereign(right_of_access_to_justice_and_judicial_review)`) foram respeitados, garantindo que a decisão não violasse direitos fundamentais.  \n\n### 2. **PREDICADOS ATIVADOS**  \n- **`sovereign(obligation_to_state_practical_consequences_of_decision)`**: O tribunal deve explicar **os efeitos reais da decisão** (ex.: como o valor do dano moral será aplicado, se haverá compensação financeira, etc.).  \n- **`sovereign(prohibition_of_generic_precedent_citation)`**: A decisão **não pode citar precedentes genéricos** (ex.: \"como em outros casos\"), mas deve referenciar **casos específicos do TST** com fundamentação detalhada.  \n- **`sovereign(obligation_to_address_all_legal_arguments)`**: O tribunal deve **analisar todos os argumentos jurídicos** apresentados (ex.: se o empregador contestou a gravidade da ofensa, essa contestação deve ser respondida).  \n- **`sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)`**: A decisão **deve ter um fundamento jurídico claro** (ex.: \"o dano moral foi calculado com base no salário do trabalhador, conforme o Art. 223-G, §1°\").  \n- **`sovereign(constitutional_obligation_to_state_reasons_for_decisions)`**: A decisão **deve expor razões constitucionais** (ex.: respeito ao direito à dignidade da pessoa humana, previsto na CF/88, Art. 1º, III).  \n- **`sovereign(recognition_of_collective_bargaining)`**: O tribunal deve **respeitar acordos coletivos** (ex.: se a CLT permite negociação de horas extras via CCT, isso deve ser considerado).  \n- **`sovereign(right_of_access_to_justice_and_judicial_review)`**: O tribunal deve **garantir que a decisão seja revisável** (ex.: o trabalhador pode recorrer se discordar do cálculo do dano moral).  \n- **`elastic(working_hours_negotiable_by_cct)`**: A negociação de horas extras via CCT (Convenção Coletiva de Trabalho) é **flexível**, mas **limitada a 1 ano** (predicado `elastic(hour_bank_with_cct_max_1_year)`).  \n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA decisão do tribunal está **certa** porque:  \n1. **Explicou claramente** como o valor do dano moral foi calculado (ex.: baseado no salário do trabalhador, como a lei diz).  \n2. **Usou exemplos reais** de casos anteriores (do TST) para justificar a quantia, não apenas \"chutou um número\".  \n3. **Respeitou todos os direitos** do trabalhador, como o direito de contestar a decisão e revisá-la se necessário.  \n4. **Não ignorou nenhuma regra** da CLT ou da Constituição, mesmo quando o empregador tentou contestar.  \n5. **Deu explicações práticas** (ex.: como o dinheiro será pago, se haverá multa ao empregador, etc.).  \nA decisão é **justa e legal**, e o tribunal **não fez nada de errado**. O trabalhador tem razão, e o empregador deve cumprir a lei.",
+  "tokens_in": 582,
+  "tokens_out": 1761,
+  "latency_ms": 55937,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,27 @@
+{
+  "sha256": "ecd8077463e50eecc9e35349cd38bcf19b0f1005f4f0d2b28e0bbc2e64d8270f",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T04:51:15Z",
+  "prompt_sha": "0208fd3b44ceb8a3c69065a3c8ca285bf0e8848068418ebf258a2f76db390f3c",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que há uma violação (VIOLACAO) na situação apresentada com base nos predicados soberanos e elásticos ativos. A decisão normativa reflete a complexidade da interseção entre as cláusulas coletivas de trabalho e os limites legais impostos pela CLT.\n\nNo contexto deste cenário, o predicado \"sovereign(recognition_of_collective_bargaining)\" reconhece a validade das negociações coletivas como um mecanismo para estabelecer condições específicas de trabalho. No entanto, essas cláusulas não podem contrariar os direitos fundamentais dos trabalhadores garantidos por leis superiores.\n\nO predicado \"sovereign(maximum_weekly_working_hours_44h)\" e o \"sovereign(maximum_daily_working_hours_8h)\" estabelecem limites máximos de jornada que não podem ser ultrapassados, mesmo com acordos coletivos. Essas normas são inegociáveis e têm precedência sobre quaisquer cláusulas contratuais.\n\nNo caso específico da prorrogação do banco de horas, o predicado \"elastic(hour_bank_with_cct_max_1_year)\" indica que a extensão desse período deve ser negociada novamente em uma nova CCT. A empresa argumentou que a renovação automática abrangeria o período adicional, mas isso contraria o princípio de que qualquer prorrogação além do ano máximo estabelecido requer uma nova negociação coletiva.\n\nPortanto, ao não negociar novamente para estender o banco de horas por mais três meses, a empresa violou os limites impostos pela CLT, conforme interpretado pelo sistema Q-FENG. A decisão reflete que a prorrogação sem nova CCT é uma violação dos direitos trabalhistas.\n\n### 2. PREDICADOS ATIVADOS\n\n- **sovereign(recognition_of_collective_bargaining):** Este predicado reconhece o poder das negociações coletivas para estabelecer condições específicas de trabalho que podem diferir da legislação geral, desde que não contrariem direitos fundamentais dos trabalhadores. No Brasil, as CCTs são instrumentos legítimos para ajustar condições de trabalho entre empregados e empregadores.\n\n- **sovereign(maximum_weekly_working_hours_44h):** Estabelece o limite máximo de 44 horas semanais que um trabalhador pode ser obrigado a cumprir, conforme previsto na CLT. Este limite é inegociável e tem preeminência sobre acordos individuais ou coletivos.\n\n- **sovereign(maximum_daily_working_hours_8h):** Define o limite máximo de 8 horas diárias para jornada de trabalho. Assim como a regra semanal, este limite não pode ser ultrapassado por acordo entre trabalhadores e empregadores.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG decidiu que houve uma violação das regras trabalhistas na situação descrita. Aqui está o que aconteceu de maneira simples:\n\n1. A empresa e os trabalhadores tinham um acordo para acumular horas extras em um banco, que poderia ser usado depois. Esse banco tinha validade de 12 meses.\n\n2. Quando esse período acabou, a empresa quis estender por mais três meses sem negociar novamente com os trabalhadores.\n\n3. A lei diz que qualquer extensão desse tipo precisa passar por uma nova negociação entre todos os envolvidos. Não basta dizer que o acordo antigo cobre esse tempo extra.\n\n4. Portanto, ao não fazer essa nova negociação, a empresa violou as regras trabalhistas, que garantem que qualquer mudança nesse tipo de acordo precisa ser discutida e acordada novamente com os trabalhadores.",
+  "tokens_in": 531,
+  "tokens_out": 898,
+  "latency_ms": 26077,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

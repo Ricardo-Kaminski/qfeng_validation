@@ -1,0 +1,27 @@
+{
+  "sha256": "590e18c6ed31928eb3885483f73d8e6dddd6a5eb322361da9e8509d27ed0c700",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T03:16:06Z",
+  "prompt_sha": "b3a1b193561e82c62b707b08467d6ec5ca8842b372e04bc8dd0182e3993c8b0e",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a jornada de 10 horas/dia implementada pela empresa **viola o limite constitucional de 8 horas/dia** (CF/88, Art. 7°, XIII), mesmo com a CCT autorizando o banco de horas. A decisão baseia-se nos **predicados soberanos ativos**, que representam normas constitucionais e legais inquestionáveis no direito trabalhista brasileiro:  \n- **sovereign(maximum_daily_working_hours_8h)**: O artigo 7°, XIII da Constituição Federal estabelece que a jornada diária de trabalho **não pode ultrapassar 8 horas**, independentemente de acordos coletivos.  \n- **sovereign(maximum_weekly_working_hours_44h)**: A jornada semanal total **não pode exceder 44 horas**, mesmo com compensação semanal (como o modelo 5×10).  \n- **sovereign(recognition_of_collective_bargaining)**: A CCT tem força normativa, mas **não pode substituir ou flexibilizar limites constitucionais**.  \n\nOs **predicados elásticos** (como *elastic(working_hours_negotiable_by_cct)* e *elastic(annual_hour_bank_negotiable)*), embora autorizem negociações sobre banco de horas, **não são suficientes para invalidar os limites constitucionais**. O vetor ψ_S ([1.5708]) indica uma violação significativa do limite diário, reforçando a conclusão de que a jornada de 10h/dia é incompatível com a CF/88.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(recognition_of_collective_bargaining)**: Reconhece a validade da CCT como instrumento de negociação, mas **não permite que ela anule direitos constitucionais**.  \n- **sovereign(maximum_weekly_working_hours_44h)**: Estabelece que a jornada semanal total **não pode ultrapassar 44 horas**, mesmo com compensação semanal (ex.: 5×10).  \n- **sovereign(maximum_daily_working_hours_8h)**: Fixa o **limite constitucional de 8 horas/dia**, que **não pode ser alterado por CCT** ou acordos individuais.  \n\nOs **predicados elásticos** (como *elastic(working_hours_negotiable_by_cct)* e *elastic(hour_bank_with_cct_max_1_year)*), embora permitam negociações sobre banco de horas, **não substituem os limites soberanos**. Eles funcionam como **flexibilizações dentro dos limites constitucionais**, mas **não os superam**.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa está trabalhando 10 horas por dia, mas a **Constituição Federal diz que ninguém pode trabalhar mais de 8 horas por dia**, mesmo se a CCT (acordo coletivo) permitir isso. O sistema Q-FENG concluiu que essa regra da CCT **não pode substituir a lei da Constituição**, que é mais forte.  \n\nMesmo que a CCT tenha autorizado o banco de horas, **o limite de 8 horas/dia é inquestionável**. A jornada de 10h/dia **viola a Constituição**, e os trabalhadores têm razão ao questionar essa prática. A empresa precisa ajustar a jornada para não ultrapassar 8 horas/dia, respeitando a lei.",
+  "tokens_in": 521,
+  "tokens_out": 1337,
+  "latency_ms": 40921,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,30 @@
+{
+  "sha256": "6773e2a43f0bffd6f94fc27667cf54f3df1f07ba996c5358127668d5283fff47",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-008",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T05:13:43Z",
+  "prompt_sha": "b3fc3319eefedae00a5e9f49f61a8cb6a71ba4d9860ac95b8580343ff80ed754",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, ao analisar o acórdão sobre dano moral trabalhista referente ao Artigo 223-G da CLT (posterior à reforma de 2017), determinou a conformidade com os princípios e normas aplicáveis. A decisão foi guiada por predicados soberanos ativos, que garantem uma análise abrangente e fundamentada na legislação e precedentes relevantes.\n\nA identificação do grau da ofensa (leve, médio, grave ou gravíssimo) baseou-se nos fatos comprovadamente provados durante o processo. O valor quantificado para a indenização foi estabelecido em conformidade com o salário do trabalhador, conforme previsto no Artigo 223-G, §1° da CLT.\n\nA proporcionalidade da decisão foi assegurada ao se referir a precedentes do Tribunal Superior do Trabalho (TST) sobre casos semelhantes de assédio moral. A análise considerou todos os parâmetros legais identificados e verificáveis, garantindo que o acórdão estivesse alinhado com as obrigações constitucionais e normativas vigentes.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obrigação de declarar as consequências práticas da decisão**: Este predicado exige que a decisão explique claramente como afetará o caso em questão, garantindo transparência sobre os impactos práticos para todas as partes envolvidas.\n\n- **Proibição de citação genérica de precedentes**: Assegura que qualquer referência a precedentes judiciais seja específica e diretamente aplicável ao caso, evitando generalizações que possam comprometer a precisão da decisão.\n\n- **Obrigação de abordar todos os argumentos legais apresentados**: Este predicado assegura que todas as questões jurídicas levantadas durante o processo sejam consideradas e respondidas na decisão final, garantindo uma análise completa.\n\n- **Obrigação de fundamentar a decisão no ratio decidendi identificado**: Exige que a decisão seja baseada nos princípios legais específicos aplicáveis ao caso, assegurando coerência com o entendimento jurídico estabelecido.\n\n- **Obrigação constitucional de declarar os motivos das decisões**: Este predicado garante que a decisão explique claramente os fundamentos e razões pelas quais foi tomada, promovendo transparência e compreensão.\n\n- **Reconhecimento da negociação coletiva**: Assegura que as convenções e acordos coletivos de trabalho sejam considerados na análise do caso, respeitando os direitos negociados entre empregadores e trabalhadores.\n\n- **Direito de acesso à justiça e revisão judicial**: Este predicado protege o direito das partes envolvidas de buscar a justiça e solicitar uma revisão da decisão por meio dos canais legais adequados, garantindo um processo justo e equitativo.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG analisou o caso de dano moral no trabalho e decidiu que a decisão está correta e justa. Isso significa que, após verificar os fatos do seu caso, foi determinado qual tipo de ofensa ocorreu (se leve, média, grave ou gravíssima) e quanto você deve receber como indenização, baseando-se no seu salário.\n\nA decisão também considerou casos semelhantes já julgados pelo Tribunal Superior do Trabalho para garantir que a quantia seja justa. Além disso, todos os argumentos legais apresentados foram cuidadosamente analisados e explicados na decisão final, assegurando que tudo esteja claro e fundamentado.\n\nVocê tem o direito de entender por que essa decisão foi tomada e também pode buscar revisar a decisão se achar necessário. Tudo isso foi feito respeitando os acordos coletivos de trabalho e garantindo seu acesso à justiça.",
+  "tokens_in": 582,
+  "tokens_out": 947,
+  "latency_ms": 27469,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,29 @@
+{
+  "sha256": "2018dc7cf96a7bcb09b8b00e21d594f07dd536ebc3832f85e0c9b77d621a34ad",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-008",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T06:55:12Z",
+  "prompt_sha": "85be4e9fc6b0e8305c982455c7b1416641f688c9050ea4b7fedf4fae6b54fd4b",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG determinou que a empresa violou as normas trabalhistas ao se recusar a pagar o saldo de horas extras ao empregado após sua demissão. Isso ocorreu porque os predicados soberanos ativos indicam que a compensação por horas extras é uma direito do trabalhador, mesmo após rescisão do contrato.\n\nO sistema considerou que a compensação em 7 meses estabelecida pelo ACT não foi desfeita pela demissão do empregado. Além disso, os predicados soberanos indicam que a invalidação da cláusula de supressão do pagamento das horas extras pendentes é inválida.\n\nPortanto, o sistema Q-FENG determinou que a empresa violou as normas trabalhistas ao se recusar a pagar o saldo de horas extras ao empregado.\n\n**2. PREDICADOS SOBERANOS ATIVOS**\n\nOs predicados soberanos ativos indicam as regras jurídicas que são consideradas absolutas e não podem ser negadas ou alteradas por acordo entre as partes. No contexto trabalhista brasileiro, esses predicados significam:\n\n* `sovereign(semester_hour_bank_requires_cct_or_act)`: A compensação por horas extras é obrigatória para os empregadores que possuem contrato coletivo de trabalho (CCT) ou Acordo Coletivo de Trabalho (ACT).\n* `sovereign(invalidity_of_clause_suppressing_overtime_payment)`: A cláusula que suprime o pagamento das horas extras pendentes é inválida e não pode ser acordada entre as partes.\n* `sovereign(weekly_hour_compensation_requires_written_agreement)`: A compensação por horas extras requer um acordo escrito entre as partes.\n* `sovereign(prohibition_negotiation_reducing_overtime_additional)`: É proibido negociar a redução do pagamento das horas extras adicionais.\n* `sovereign(overtime_minimum_additional_50pct)`: O pagamento das horas extras adicionais deve ser no mínimo 50% do salário normal.\n* `sovereign(maximum_weekly_working_hours_44h)`: O número máximo de horas trabalhadas por semana é de 44 horas.\n* `sovereign(maximum_daily_working_hours_8h)`: O número máximo de horas trabalhadas por dia é de 8 horas.\n\nEsses predicados soberanos indicam que as regras jurídicas são absolutas e não podem ser negadas ou alteradas por acordo entre as partes.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nO sistema Q-FENG determinou que a empresa violou as normas trabalhistas ao se recusar a pagar o saldo de horas extras ao empregado após sua demissão. Isso ocorreu porque a compensação por horas extras é um direito do trabalhador, mesmo após rescisão do contrato.\n\nA empresa não pode simplesmente desfazer a compensação estabelecida pelo ACT apenas porque o empregado pediu demissão. O pagamento das horas extras pendentes é obrigatório e não pode ser negado ou alterado por acordo entre as partes.\n\nPortanto, o sistema Q-FENG determinou que a empresa deve pagar o saldo de horas extras ao empregado.",
+  "tokens_in": 546,
+  "tokens_out": 736,
+  "latency_ms": 12328,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

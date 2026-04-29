@@ -1,0 +1,29 @@
+{
+  "sha256": "f7615337ebedfb84dd2387b0d44c598cc89af32f0399ad963312b79f05787920",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T05:51:05Z",
+  "prompt_sha": "0ae1cb23f5b2029af6ba34d6cbada55225e0756bb30ed00c0f6402a4a8c28764",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, ao analisar o cenário apresentado – a implementação de um banco de horas com compensação em 4 meses por meio de um Acordo Coletivo de Trabalho (ACT) não registrado dentro do prazo legal – concluiu que houve **violação** da legislação trabalhista. A decisão não se baseia em uma análise de validade do ACT em si, mas sim na sua ausência de registro formal, o que impacta a sua eficácia perante terceiros e a segurança jurídica das partes envolvidas.\n\nA alegação da empresa de que o registro seria \"mera formalidade\" não prevalece diante da força dos princípios e normas que regem a relações de trabalho no Brasil. O sistema considerou que a ausência de registro compromete a proteção dos direitos dos trabalhadores e a estabilidade das relações contratuais.\n\nA decisão de \"UNKNOWN\" para satisfatibilidade indica que a situação é complexa e depende de interpretação judicial, mas a análise dos predicados soberanos ativos demonstra a gravidade da falta de registro. A recomendação de \"VIOLACAO\" sinaliza a necessidade de correção da situação para evitar litígios e garantir a conformidade com a legislação.\n\n## PREDICADOS SOVERAINOS ATIVOS: SIGNIFICADO JURÍDICO\n\n*   **sovereign(semester_hour_bank_requires_cct_or_act):**  Este predicado reforça que a implementação de um banco de horas, especialmente com compensação em prazo superior a um semestre, exige um Acordo Coletivo de Trabalho (ACT) ou Convenção Coletiva de Trabalho (CCT) que o regulamente. A ausência de um desses instrumentos formaliza uma irregularidade.\n*   **sovereign(invalidity_of_clause_suppressing_overtime_payment):**  Este predicado estabelece que cláusulas que suprimem o pagamento de horas extras são, em geral, inválidas. Embora o ACT possa regular o banco de horas, ele não pode, por si só, eliminar o direito ao pagamento de horas extras quando a compensação não for realizada.\n*   **sovereign(weekly_hour_compensation_requires_written_agreement):**  Este predicado enfatiza que a compensação de horas trabalhadas além do limite semanal legal (44 horas) deve ser formalizada por escrito, seja em ACT, CCT ou contrato individual. A falta de documentação escrita dificulta a comprovação dos direitos do trabalhador.\n*   **sovereign(prohibition_negotiation_reducing_overtime_additional):**  Este predicado proíbe a negociação para reduzir o adicional de horas extras. Mesmo que haja um ACT, a porcentagem mínima de 50% de adicional sobre as horas extras não pode ser negociada para baixo.\n*   **sovereign(overtime_minimum_additional_50pct):**  Este predicado estabelece a obrigatoriedade do pagamento de, no mínimo, 50% de adicional sobre as horas extras trabalhadas.\n*   **sovereign(maximum_weekly_working_hours_44h):**  Este predicado define o limite máximo de 44 horas semanais para a maioria dos trabalhadores. A compensação de horas deve respeitar esse limite.\n*   **sovereign(maximum_daily_working_hours_8h):**  Este predicado estabelece o limite máximo de 8 horas diárias para a maioria dos trabalhadores. A compensação de horas deve respeitar esse limite.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"A empresa implementou um sistema de banco de horas, mas fez de forma irregular. Mesmo tendo um acordo com o sindicato, esse acordo não foi registrado corretamente nos órgãos do governo. Isso é um problema porque, na lei, os acordos precisam ser registrados para serem válidos e proteger os direitos dos trabalhadores.\n\nA empresa diz que o registro é só uma formalidade, mas a lei é clara: sem o registro, o acordo não tem a mesma força. Isso significa que a empresa pode ter problemas com a justiça do trabalho, e você, como trabalhador, pode ter seus direitos prejudicados.\n\nÉ importante lembrar que, mesmo com o banco de horas, você tem direito a receber o adicional de 50% pelas horas extras que trabalhar. A empresa não pode simplesmente eliminar esse direito. Além disso, a semana de trabalho não pode ultrapassar 44 horas e o dia 8 horas.\n\nO sistema Q-FENG identificou que essa situação é uma violação da lei e recomenda que a empresa corrija o problema o mais rápido possível, registrando o acordo corretamente para evitar problemas futuros.\"\n",
+  "tokens_in": 518,
+  "tokens_out": 1004,
+  "latency_ms": 27952,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

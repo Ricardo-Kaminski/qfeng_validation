@@ -1,0 +1,27 @@
+{
+  "sha256": "7a0a229d1e92b3a3fe159189533d6765eb025ed30a779320ee1d6d9fd9098114",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-03-009",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T03:24:17Z",
+  "prompt_sha": "18a223af3fb227c2a5e0257347aa4e5c729224e92b72d7d1c3e676c4eb13b5d5",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nA decisão de **CONFORMIDADE** foi emitida com base na interpretação dos predicados soberanos e elásticos da CLT (Consolidação das Leis do Trabalho) integrados ao sistema Q-FENG. A **CCT (Convenção Coletiva de Trabalho)** previa a possibilidade de conversão do saldo de horas em dinheiro com adicional de 50%, e essa opção foi exercida pelo trabalhador com anuência do empregador, dentro do prazo de 12 meses estabelecido.  \n\nOs **predicados soberanos ativos** garantem a validade jurídica da CCT como instrumento de negociação coletiva (sovereign(recognition_of_collective_bargaining)), o cumprimento do limite máximo de 44 horas semanais (sovereign(maximum_weekly_working_hours_44h)) e 8 horas diárias (sovereign(maximum_daily_working_hours_8h)). A **conversão de horas** não viola esses limites, pois o adicional de 50% está alinhado com a flexibilidade negocial permitida pela CCT (elastic(working_hours_negotiable_by_cct)), e o prazo de 12 meses foi respeitado (elastic(hour_bank_with_cct_max_1_year)).  \n\nO **vetor ψ_S** ([1.5708]) indica uma probabilidade de conformidade com os parâmetros normativos, reforçando que a operação está dentro dos limites legais estabelecidos pela CLT e pela CCT.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(recognition_of_collective_bargaining)**:  \n  Reconhece a validade da CCT como acordo coletivo, garantindo que as cláusulas nele previstas (como a conversão de horas em dinheiro com adicional) são juridicamente vinculantes para empregador e empregado.  \n\n- **sovereign(maximum_weekly_working_hours_44h)**:  \n  Estabelece o limite máximo de 44 horas semanais de trabalho, impedindo que a conversão de horas exceda esse teto. Como a CCT previa a conversão com adicional, e o trabalhador não ultrapassou o limite de horas, a norma foi respeitada.  \n\n- **sovereign(maximum_daily_working_hours_8h)**:  \n  Garante que o trabalhador não exceda 8 horas por dia, mesmo após a conversão de horas. A operação não viola esse limite, pois a CCT já considerou a flexibilidade necessária.  \n\n- **elastic(annual_hour_bank_negotiable)**:  \n  Permite que a CCT defina regras para o banco de horas, incluindo a possibilidade de conversão em dinheiro com adicional.  \n\n- **elastic(working_hours_negotiable_by_cct)**:  \n  Reconhece que a CCT pode estabelecer termos flexíveis para o trabalho, como a conversão de horas com adicional de 50%, desde que acordado entre as partes.  \n\n- **elastic(hour_bank_with_cct_max_1_year)**:  \n  Limita o prazo do banco de horas a 12 meses, como previsto na CCT. A conversão ocorreu dentro desse prazo, mantendo a conformidade.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA situação do trabalhador está **dentro da lei**. A empresa e o trabalhador combinaram, por meio de um acordo coletivo (CCT), que o trabalhador poderia converter as horas extras acumuladas em dinheiro, com um bônus de 50%. Isso foi feito antes do prazo de 12 meses estabelecido no acordo, e o pagamento foi feito no mês seguinte.  \n\nAs regras da CLT (leis do trabalho) garantem que:  \n- O trabalhador não trabalhou mais de 44 horas por semana ou 8 horas por dia.  \n- A empresa não forçou o trabalhador a aceitar a conversão; foi uma opção comum entre as partes.  \n- O prazo de 12 meses para o banco de horas foi respeitado.  \n\nPortanto, **não há ilegalidade** nessa operação. A empresa e o trabalhador seguiram as regras do acordo coletivo e da lei.",
+  "tokens_in": 506,
+  "tokens_out": 1434,
+  "latency_ms": 43766,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,26 @@
+{
+  "sha256": "2c3f909791d2593a0e0b1d4938e3167b0629fb8711f242af6ab195735562fc9e",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-007",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T05:39:26Z",
+  "prompt_sha": "a8826b990f48a3abad17b87cd070c771a9e46b427fb5e297b0c0991d8fc5f2a0",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG concluiu que houve **violação** do direito da parte prejudicada no cenário apresentado. A decisão foi fundamentada na análise de que a aplicação de um IRDR (Instrumento de Reconciliação e Decisão de Recursos) regional do TRT-15ª Região como precedente vinculante nacional pelo TST, sem a devida formalização como recurso repetitivo e sem a consequente eficácia nacional, configura uma falha processual que compromete a justiça do caso.\n\nA decisão do Q-FENG se baseia na primazia de princípios fundamentais do ordenamento jurídico, expressos nos predicados soberanos ativos. A aplicação de um precedente regional como se fosse vinculante nacional, sem o devido processo de reconhecimento e validação, desconsidera a **proibição de citação de precedentes genéricos** e a **obrigação de fundamentar a decisão em uma ratio decidendi identificada**.  Além disso, a decisão do TST, ao não considerar a natureza limitada do IRDR regional, demonstra uma falha na **obrigação de abordar todos os argumentos jurídicos** apresentados pela parte prejudicada, impactando diretamente seu **direito de acesso à justiça e ao controle judicial**. A **obrigação de o Estado arcar com as consequências práticas da decisão** reforça a necessidade de uma análise cuidadosa e fundamentada, evitando a imposição de obrigações sem a devida base legal. Por fim, a **obrigação constitucional de o Estado motivar suas decisões** foi violada, pois a aplicação do IRDR regional como precedente vinculante não foi devidamente justificada.\n\n## 2. PREDICADOS ATIVADOS:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  O Estado, ao proferir uma decisão judicial, tem a obrigação de considerar e explicitar as consequências práticas que essa decisão terá para as partes envolvidas e para a sociedade. Isso implica em uma análise cuidadosa do impacto da decisão e em uma justificativa para as medidas adotadas.\n*   **sovereign(prohibition_of_generic_precedent_citation):**  Impede a citação de precedentes de forma genérica e descontextualizada. A utilização de precedentes deve ser específica, fundamentada e justificada, considerando as particularidades do caso concreto. A aplicação de um IRDR regional como precedente vinculante nacional, sem o devido processo, viola este princípio.\n*   **sovereign(obligation_to_address_all_legal_arguments):**  O juiz tem a obrigação de analisar e responder a todos os argumentos jurídicos apresentados pelas partes, mesmo aqueles que não são favoráveis à sua decisão. Ignorar ou desconsiderar argumentos relevantes pode configurar cerceamento de defesa.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):**  A decisão judicial deve ser fundamentada em uma ratio decidendi clara e identificada, ou seja, na razão de decidir que sustenta a decisão. A aplicação de um precedente sem a devida análise e identificação da ratio decidendi é considerada arbitrária.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):**  A Constituição Federal garante o direito ao contraditório e à motivação das decisões judiciais. A falta de justificativa para a aplicação de um IRDR regional como precedente vinculante nacional viola este princípio constitucional.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):** Garante o direito de todo cidadão de ter acesso à justiça e de questionar as decisões judiciais. A aplicação incorreta de precedentes pode impedir o exercício desse direito.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"Imagine que você está numa disputa no trabalho e perde. Você acha que a decisão foi injusta porque o juiz usou uma regra que vale só para um estado específico como se fosse uma regra para todo o Brasil. Isso não é justo, porque a regra não foi aprovada para valer para todo o país.\n\nO sistema Q-FENG analisou o seu caso e concordou que houve um erro. O juiz não pode simplesmente usar uma regra de um estado como se fosse uma lei nacional. Ele precisa seguir as regras corretas e explicar por que tomou a decisão.\n\nIsso significa que o seu direito de ter uma decisão justa foi violado, porque o juiz não seguiu as regras corretamente. Você tem o direito de ter o seu caso analisado com base nas leis que se aplicam a você e de entender por que o juiz tomou a decisão que tomou.\"\n",
+  "tokens_in": 525,
+  "tokens_out": 1028,
+  "latency_ms": 28500,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

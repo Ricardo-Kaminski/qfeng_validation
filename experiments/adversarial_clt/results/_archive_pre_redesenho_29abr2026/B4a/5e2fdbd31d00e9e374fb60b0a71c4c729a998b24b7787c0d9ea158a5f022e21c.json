@@ -1,0 +1,26 @@
+{
+  "sha256": "5e2fdbd31d00e9e374fb60b0a71c4c729a998b24b7787c0d9ea158a5f022e21c",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CTRL-NEG-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:36:07Z",
+  "prompt_sha": "52ec50d5024118233c12c0dc9099b2683840524f81358cf22711748675d6dce8",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, após análise do cenário apresentado e da CCT firmada entre a empresa e o sindicato, concluiu que a situação se encontra em **conformidade** com a legislação trabalhista e os termos do acordo coletivo. A decisão, embora não possa ser categoricamente definida como \"satisfatória\" (devido à complexidade inerente à avaliação de cenários jurídicos), indica que não foram identificados elementos que apontem para uma violação legal ou contratual.\n\nA avaliação do Q-FENG foi fundamentada na observância de princípios basilares do direito, conforme demonstrado pela ativação de diversos predicados soberanos. A ausência de contestação sindical ou individual, a regularidade na entrega dos extratos de banco de horas, a comunicação prévia das folgas compensatórias e o registro da CCT na SRTE, corroboram a validade da prática adotada.  A decisão não se baseia em precedentes genéricos (devido à proibição expressa pelo predicado *prohibition_of_generic_precedent_citation*), mas sim na análise específica dos fatos e da CCT.  A razão para essa conclusão é devidamente fundamentada (predicado *obligation_to_ground_decision_in_identified_ratio_decidendi*) e está alinhada com a obrigação de fornecer justificativas para as decisões (predicado *constitutional_obligation_to_state_reasons_for_decisions*), garantindo o direito de acesso à justiça e à revisão judicial (predicado *right_of_access_to_justice_and_judicial_review*).  Finalmente, o sistema reconhece a obrigação de considerar as consequências práticas da decisão (predicado *obligation_to_state_practical_consequences_of_decision*), que neste caso, são as de manutenção da conformidade com a CCT e a legislação.\n\n## PREDICADOS ATIVADOS:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  Este predicado impõe a obrigação de analisar e explicitar as consequências práticas da decisão. No contexto, significa que a decisão deve levar em conta o impacto real na relação de trabalho e na aplicação da CCT.\n*   **sovereign(prohibition_of_generic_precedent_citation):**  Impede a utilização de decisões judiciais genéricas ou abstratas como base para a decisão. A análise deve ser específica para o caso concreto, evitando a aplicação automática de regras gerais.\n*   **sovereign(obligation_to_address_all_legal_arguments):**  Exige que todos os argumentos legais relevantes sejam considerados na análise, mesmo que não sejam expressamente levantados pelas partes.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):**  Determina que a decisão deve ser fundamentada em um raciocínio jurídico claro e específico, extraído dos fatos e da CCT.  Não basta apenas citar leis, é preciso explicar como elas se aplicam ao caso.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):**  Reflete a garantia constitucional do devido processo legal e do direito de defesa, exigindo que as decisões sejam devidamente justificadas.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):**  Garante que as partes envolvidas tenham o direito de questionar a decisão em um processo judicial, assegurando a possibilidade de revisão por um juiz.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"Analisamos a situação do seu banco de horas na empresa, considerando o acordo que foi feito com o sindicato.  A nossa análise mostra que a empresa está seguindo as regras do acordo: os extratos estão sendo entregues, as folgas estão sendo comunicadas com antecedência, e o acordo foi registrado nos órgãos competentes.  Como ninguém contestou a forma como o banco de horas está sendo administrado, e tudo está de acordo com o que foi combinado, entendemos que a empresa está agindo corretamente.  Isso significa que você tem o direito de saber por que chegamos a essa conclusão e, se não concordar, pode procurar a justiça para analisar o caso novamente.\"\n",
+  "tokens_in": 528,
+  "tokens_out": 940,
+  "latency_ms": 26203,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

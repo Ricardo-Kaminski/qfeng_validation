@@ -1,0 +1,30 @@
+{
+  "sha256": "4796ca93830f326a0ae61ba52164defb41317a33550d5483cf8e303670221ac7",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-007",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:25:25Z",
+  "prompt_sha": "db7b7f8d2770500cb0104fdeeec443628af6b6ec1fc50f5b30f49d02934b8843",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nA decisão do Tribunal Regional do Trabalho (TRT), ao reconhecer a nulidade da dispensa e determinar a reintegração da gestante, está em conformidade com os princípios e normas do Direito do Trabalho brasileiro. O sistema Q-FENG, após análise da situação, concluiu pela **conformidade** da decisão, considerando que ela observou as obrigações e direitos estabelecidos na legislação e jurisprudência aplicáveis.\n\nA decisão do TRT, ao fundamentar-se no Artigo 10, II, \"b\" da Constituição Federal de 1988 (ADCT), Súmula TST 244 e OJ 399 da SDI-1, demonstra o respeito à **obrigação de fundamentar as decisões** (sovereign(constitutional_obligation_to_state_reasons_for_decisions)). A referência expressa à OJ 399, que afasta a necessidade de comunicação prévia da gravidez ao empregador, evidencia a **obrigação de abordar todos os argumentos legais** relevantes (sovereign(obligation_to_address_all_legal_arguments)). A análise da ocorrência da gravidez antes da dispensa, e a consequente aplicação da estabilidade provisória, demonstra a **obrigação de fundamentar a decisão na ratio decidendi identificada** (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)).\n\nO sistema Q-FENG reconhece a importância de evitar a criação de precedentes genéricos (sovereign(prohibition_of_generic_precedent_citation)), o que significa que a decisão deve ser analisada caso a caso, considerando as particularidades da situação. A decisão do TRT, ao analisar os fatos específicos do caso, demonstra essa observância.  Além disso, a decisão, ao garantir o acesso à justiça e ao controle judicial (sovereign(right_of_access_to_justice_and_judicial_review)), reforça a importância do sistema judicial na proteção dos direitos dos trabalhadores. Embora a decisão não envolva diretamente acordos ou convenções coletivas (sovereign(recognition_of_collective_bargaining)), a sua conformidade com a legislação trabalhista é fundamental para a manutenção da ordem jurídica. A **obrigação de comunicar as consequências práticas da decisão** (sovereign(obligation_to_state_practical_consequences_of_decision)) é inerente à própria decisão do TRT, que estabelece a reintegração da trabalhadora.\n\n## 2. PREDICADOS ATIVADOS:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  Obrigação de comunicar as consequências práticas da decisão. No contexto, significa que a decisão do TRT deve deixar claro o que a trabalhadora terá de volta (reintegração) e quais os efeitos práticos dessa reintegração (pagamento de salários, benefícios, etc.).\n*   **sovereign(prohibition_of_generic_precedent_citation):** Proibição de citar precedentes de forma genérica.  Impede que a decisão seja baseada em regras amplas e abstratas, exigindo que seja fundamentada nos fatos específicos do caso.\n*   **sovereign(obligation_to_address_all_legal_arguments):** Obrigação de abordar todos os argumentos legais relevantes. Garante que a decisão considere todas as leis, súmulas e Orientações Jurisprudenciais aplicáveis ao caso.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** Obrigação de fundamentar a decisão na ratio decidendi identificada.  Exige que a decisão seja baseada na razão de decidir, ou seja, no princípio jurídico que justifica a solução do caso.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):** Obrigação constitucional de expor os fundamentos da decisão.  Garante a transparência e a possibilidade de controle da decisão por instâncias superiores.\n*   **sovereign(recognition_of_collective_bargaining):** Reconhecimento da importância de acordos e convenções coletivas. Embora não diretamente aplicável no caso, ressalta a importância da negociação coletiva na definição de direitos e obrigações.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):** Direito de acesso à justiça e controle judicial. Garante que o trabalhador possa recorrer ao sistema judicial para defender seus direitos e que a decisão possa ser revista por instâncias superiores.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"A decisão do Tribunal do Trabalho está correta. A empresa não pode demitir uma mulher grávida, mesmo que ela não tenha avisado que estava grávida. A lei protege a gravidez, e a empresa precisa manter a trabalhadora no emprego durante esse período. O Tribunal seguiu a lei e as decisões anteriores do Tribunal Superior do Trabalho para tomar essa decisão. Isso significa que a trabalhadora tem o direito de voltar a trabalhar na empresa e receber todos os seus salários e benefícios como se nada tivesse acontecido. A decisão foi bem explicada, mostrando o porquê de a empresa ter errado ao demitir a funcionária.\"\n",
+  "tokens_in": 592,
+  "tokens_out": 1173,
+  "latency_ms": 32671,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

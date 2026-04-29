@@ -1,0 +1,30 @@
+{
+  "sha256": "74e1ba3ae6f0858914bdd85b6cd10814f325be6522aa5620095fcd3a76750e29",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T07:10:50Z",
+  "prompt_sha": "b3fc3319eefedae00a5e9f49f61a8cb6a71ba4d9860ac95b8580343ff80ed754",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após analisar os fatos e as leis aplicáveis, chegou à decisão de CONFORMIDADE em relação ao acórdão sobre dano moral trabalhista. Isso significa que o sistema considera que a decisão do juiz está em conformidade com as normas legais vigentes.\n\nA decisão foi influenciada pelos predicados soberanos ativos, que garantem a observância dos princípios constitucionais e das leis trabalhistas brasileiras. Em especial, os predicados:\n\n* `obligation_to_state_practical_consequences_of_decision` obrigam o sistema a explicar as consequências práticas da decisão;\n* `prohibition_of_generic_precedent_citation` proíbem a citação de precedentes genéricos sem fundamentação específica;\n* `obligation_to_address_all_legal_arguments` exigem que todos os argumentos legais sejam considerados e respondidos;\n* `obligation_to_ground_decision_in_identified_ratio_decidendi` obrigam a decisão a estar fundamentada em uma razão de decidir identificável;\n* `constitutional_obligation_to_state_reasons_for_decisions` impõem a necessidade de justificar as decisões com base nos princípios constitucionais;\n* `recognition_of_collective_bargaining` reconhecem o direito coletivo de negociação e participação dos trabalhadores nas decisões sobre suas condições de trabalho;\n* `right_of_access_to_justice_and_judicial_review` garantem o acesso à justiça e a possibilidade de revisão judicial das decisões.\n\nEsses predicados soberanos ativos garantiram que a decisão do sistema Q-FENG seja baseada em uma análise rigorosa e fundamentada dos fatos e da lei, respeitando os direitos e as normas trabalhistas brasileiras.\n\n**2. PREDICADOS ATIVADOS**\n\nAqui estão as explicações detalhadas de cada predicado soberano ativo:\n\n* `obligation_to_state_practical_consequences_of_decision`: O sistema deve explicar as consequências práticas da decisão, ou seja, como a decisão afetará os direitos e interesses dos trabalhadores.\n* `prohibition_of_generic_precedent_citation`: O sistema não pode citar precedentes genéricos sem fundamentação específica. Isso significa que o sistema deve evitar referir-se a casos semelhantes sem explicar por quê eles são relevantes para a decisão em questão.\n* `obligation_to_address_all_legal_arguments`: O sistema deve considerar e responder a todos os argumentos legais apresentados, não apenas aqueles que sejam favoráveis à sua posição.\n* `obligation_to_ground_decision_in_identified_ratio_decidendi`: A decisão do sistema deve estar fundamentada em uma razão de decidir identificável. Isso significa que o sistema deve explicar por quê escolheu a solução específica para a questão jurídica em debate.\n* `constitutional_obligation_to_state_reasons_for_decisions`: O sistema tem a obrigação constitucional de justificar as decisões com base nos princípios constitucionais. Isso significa que o sistema deve explicar por quê suas decisões estão alinhadas com os direitos e garantias fundamentais estabelecidos na Constituição.\n* `recognition_of_collective_bargaining`: O sistema reconhece o direito coletivo de negociação e participação dos trabalhadores nas decisões sobre suas condições de trabalho. Isso significa que o sistema deve considerar as necessidades e interesses dos trabalhadores ao tomar decisões.\n* `right_of_access_to_justice_and_judicial_review`: O sistema garante o acesso à justiça e a possibilidade de revisão judicial das decisões. Isso significa que os trabalhadores têm o direito de recorrer às instâncias superiores se não estiverem satisfeitos com as decisões do sistema.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nEm linguagem simples, a decisão do sistema Q-FENG significa que:\n\n* A decisão do juiz está em conformidade com as leis trabalhistas brasileiras;\n* O sistema considerou todos os argumentos legais e respeitou os direitos dos trabalhadores;\n* A decisão foi fundamentada em uma razão de decidir identificável, ou seja, o sistema explicou por quê escolheu a solução específica para a questão jurídica em debate;\n* O sistema reconhece o direito coletivo de negociação e participação dos trabalhadores nas decisões sobre suas condições de trabalho.\n\nEm resumo, a decisão do sistema Q-FENG é baseada em uma análise rigorosa e fundamentada dos fatos e da lei, respeitando os direitos e as normas trabalhistas brasileiras.",
+  "tokens_in": 579,
+  "tokens_out": 1094,
+  "latency_ms": 18359,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

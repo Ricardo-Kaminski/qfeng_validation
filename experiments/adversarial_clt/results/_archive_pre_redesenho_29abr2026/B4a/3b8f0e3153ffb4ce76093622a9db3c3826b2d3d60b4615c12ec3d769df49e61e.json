@@ -1,0 +1,26 @@
+{
+  "sha256": "3b8f0e3153ffb4ce76093622a9db3c3826b2d3d60b4615c12ec3d769df49e61e",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:45:47Z",
+  "prompt_sha": "616931cfd10c80d27ea65ea3d9f17fc5d70b1e90674a0e5470d9bf3f655e12d8",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG chegou à decisão de \"VIOLACAO\" porque identificou que o juiz omiteu-se sobre o ponto específico apontado pela parte embargante, relacionado à aplicação de tese de recurso sem contraditório. Isso viola os princípios constitucionais e legais que garantem a transparência e a justiça no processo.\n\nOs predicados soberanos ativos indicam que o sistema está reconhecendo a importância da clareza, do contraditório e da fundamentação das decisões judiciais. Em especial:\n\n- `obligation_to_state_practical_consequences_of_decision`: O juiz deve explicar as consequências práticas da sua decisão.\n- `prohibition_of_generic_precedent_citation`: Não é permitido citar precedentes genéricos sem fundamentação específica.\n- `obligation_to_address_all_legal_arguments`: O juiz deve considerar e responder a todos os argumentos legais apresentados pelas partes.\n- `obligation_to_ground_decision_in_identified_ratio_decidendi`: A decisão deve ser fundamentada em uma razão de decidir específica e identificada.\n- `constitutional_obligation_to_state_reasons_for_decisions`: O juiz tem a obrigação constitucional de explicar as razões pelas quais tomou sua decisão.\n- `right_of_access_to_justice_and_judicial_review`: Garante o direito das partes ao acesso à justiça e à revisão judicial.\n\nEsses predicados indicam que o sistema Q-FENG está preocupado com a transparência, a fundamentação e a justiça no processo, os quais são essenciais para garantir a igualdade de tratamento entre as partes e a confiança na instituição jurídica.\n\n**2. PREDICADOS ATIVADOS**\n\n- **`obligation_to_state_practical_consequences_of_decision`**: O juiz tem a obrigação de explicar como sua decisão afetará as partes envolvidas, especialmente em termos práticos e concretos. Isso inclui considerações sobre os impactos financeiros, trabalhistas ou sociais da decisão.\n\n- **`prohibition_of_generic_precedent_citation`**: Este predicado proíbe que o juiz cite precedentes judiciais de forma genérica sem fornecer uma fundamentação específica e relevante para a causa em questão. Isso visa evitar decisões arbitrárias baseadas em casos semelhantes, mas não idênticos.\n\n- **`obligation_to_address_all_legal_arguments`**: O juiz tem a obrigação de considerar e responder a todos os argumentos legais apresentados pelas partes. Isso garante que todas as questões relevantes sejam abordadas e resolvidas na decisão.\n\n- **`obligation_to_ground_decision_in_identified_ratio_decidendi`**: A decisão deve ser fundamentada em uma razão de decidir específica e identificada, ou seja, o juiz deve basear sua decisão em uma regra jurídica ou princípio aplicável ao caso concreto.\n\n- **`constitutional_obligation_to_state_reasons_for_decisions`**: O juiz tem a obrigação constitucional de explicar as razões pelas quais tomou sua decisão. Isso inclui fornecer uma justificativa clara e transparente para cada aspecto da decisão.\n\n- **`right_of_access_to_justice_and_judicial_review`**: Este predicado garante o direito das partes ao acesso à justiça e à revisão judicial, garantindo que as decisões sejam justas e equitativas.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nO sistema Q-FENG decidiu que a decisão do juiz foi injusta porque ele não explicou por que aplicou uma regra jurídica de forma diferente para as duas partes envolvidas. Isso é como se alguém fizesse uma regra para você, mas mudasse as regras para outra pessoa sem dizer por quê.\n\nO sistema está preocupado com a transparência e justiça no processo. Quer garantir que os juízes expliquem claramente suas decisões e considerem todos os argumentos das partes. Isso é importante porque garante que as pessoas sejam tratadas de forma igual e justa perante a lei.\n\nA decisão do sistema Q-FENG é que o juiz cometeu uma violação, ou seja, fez algo errado ao não explicar suas razões para aplicar a regra de forma diferente. Isso pode levar a problemas mais tarde se as partes não entenderem por quê a decisão foi tomada daquela maneira.",
+  "tokens_in": 515,
+  "tokens_out": 1066,
+  "latency_ms": 17984,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

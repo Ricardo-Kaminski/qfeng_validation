@@ -1,0 +1,29 @@
+{
+  "sha256": "1fe649c113bea1baa0a45910da2d9d3026b540e6004ca7c650194c75d8024856",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-008",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T05:58:25Z",
+  "prompt_sha": "85be4e9fc6b0e8305c982455c7b1416641f688c9050ea4b7fedf4fae6b54fd4b",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, após análise do cenário apresentado e da legislação trabalhista brasileira, concluiu que a recusa da empresa em pagar o saldo positivo de horas do empregado, em razão de sua demissão, configura uma **violação** dos direitos trabalhistas. A decisão se baseia na premissa de que a rescisão contratual, ainda que por iniciativa do empregado, não pode ser utilizada como subterfúgio para elidir o direito ao pagamento de horas extras pendentes, devidamente acumuladas no sistema de banco de horas.\n\nA lógica do sistema foi influenciada pela soberania da legislação que protege o direito do trabalhador ao recebimento de horas extras, mesmo em regimes de compensação como o banco de horas. A empresa, ao invocar a demissão como fator para negar o pagamento, tenta, de forma indevida, frustrar a expectativa salarial do empregado e a lógica compensatória estabelecida.\n\nO sistema considerou a importância de um acordo escrito para a compensação de horas, bem como a impossibilidade de reduzir o adicional de horas extras, reforçando a necessidade de respeito aos direitos mínimos do trabalhador. A demissão não altera a natureza do direito já adquirido ao pagamento das horas extras acumuladas.\n\n## PREDICADOS SOVERAINOS ATIVOS: SIGNIFICADO JURÍDICO\n\n1. **sovereign(semester_hour_bank_requires_cct_or_act):**  Este predicado indica que a implementação de um banco de horas deve ser formalizada por meio de um acordo coletivo de trabalho (CCT) ou acordo individual por escrito (ACT). A ausência dessa formalização pode comprometer a validade do sistema.\n2. **sovereign(invalidity_of_clause_suppressing_overtime_payment):**  Reforça que cláusulas contratuais ou acordos que buscam suprimir o direito ao pagamento de horas extras são consideradas nulas e inválidas. A legislação trabalhista prioriza a proteção do trabalhador.\n3. **sovereign(weekly_hour_compensation_requires_written_agreement):**  Afirma que qualquer acordo para compensação de horas extras além da jornada regular deve ser formalizado por escrito, garantindo transparência e segurança jurídica para ambas as partes.\n4. **sovereign(prohibition_negotiation_reducing_overtime_additional):**  Impede a negociação para reduzir o adicional de horas extras, que é um direito irrenunciável do trabalhador.\n5. **sovereign(overtime_minimum_additional_50pct):**  Estabelece que o adicional sobre as horas extras deve ser, no mínimo, de 50% sobre o valor da hora normal.\n6. **sovereign(maximum_weekly_working_hours_44h):**  Define o limite máximo de horas de trabalho semanais em 44 horas.\n7. **sovereign(maximum_daily_working_hours_8h):**  Define o limite máximo de horas de trabalho diárias em 8 horas.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"A empresa está errada em não pagar as horas extras que você acumulou no banco de horas. Mesmo que você tenha pedido demissão, a lei protege o seu direito de receber o que é devido. A empresa não pode simplesmente ignorar essas horas porque você saiu.\n\nPara que o banco de horas seja válido, ele precisa estar escrito em um acordo, seja um acordo geral entre sindicatos ou um acordo específico com você. Além disso, a empresa não pode diminuir o valor extra que você recebe por trabalhar além da sua jornada normal.\n\nA lei diz que você tem direito a receber um valor extra de, no mínimo, 50% a mais por cada hora extra que você trabalhou. A empresa não pode te negar esse direito, mesmo que você tenha pedido demissão.  A lei protege você para que você receba o que é seu por lei.\"\n",
+  "tokens_in": 537,
+  "tokens_out": 859,
+  "latency_ms": 24000,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

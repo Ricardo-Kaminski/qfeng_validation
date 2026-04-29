@@ -1,0 +1,29 @@
+{
+  "sha256": "e5d460576fdb4910dcabfaae684df93a40a8975154fce72db17ab36abca50209",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T05:48:16Z",
+  "prompt_sha": "a8d1c788e3de99920a389b72bb625722e4a5ecc3f4de5f08a57e80dccc55da81",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, ao analisar o cenário apresentado, concluiu que houve uma **violação** da legislação trabalhista. A decisão se baseia na ausência de negociação coletiva ou acordo coletivo de trabalho (ACT/CCT) que autorize a implementação do banco de horas unilateralmente pela empresa, especialmente considerando a acumulação de um número elevado de horas (até 120h em 9 meses).\n\nA empresa argumenta que os acordos individuais assinados pelos empregados seriam válidos apenas para um período máximo de 6 meses de banco de horas. No entanto, a legislação brasileira, em consonância com os predicados soberanos ativos, prioriza a proteção dos direitos dos trabalhadores, exigindo a negociação coletiva para a implementação de regimes de compensação de jornada como o banco de horas. A unilateralidade na imposição de tais regimes, sem a participação do sindicato da categoria, é considerada ilegal.\n\nA decisão do Q-FENG é reforçada pela premissa de que a redução de direitos, como a limitação do tempo de compensação de horas extras, não pode ser imposta unilateralmente pela empresa, e que a compensação de horas extras deve ser devidamente documentada e remunerada. A acumulação de um número tão elevado de horas também levanta questionamentos sobre a efetividade da compensação e a possível ocorrência de trabalho extenuante.\n\n## PREDICADOS SOVERAIGN ATIVOS: SIGNIFICADO JURÍDICO\n\n*   **sovereign(semester_hour_bank_requires_cct_or_act):** Este predicado estabelece que a implementação de um banco de horas, especialmente quando envolve um período superior a um semestre, exige a existência de um acordo ou convenção coletiva de trabalho (ACT/CCT) que o autorize. A lei brasileira não permite a imposição unilateral de regimes de compensação de jornada.\n*   **sovereign(invalidity_of_clause_suppressing_overtime_payment):**  Cláusulas contratuais que tentam suprimir o pagamento de horas extras são consideradas inválidas. A empresa não pode, por meio de acordos individuais, restringir o direito do trabalhador à remuneração adicional pelas horas extras trabalhadas.\n*   **sovereign(weekly_hour_compensation_requires_written_agreement):** A compensação de horas extras deve ser formalizada por escrito, garantindo a transparência e a comprovação da jornada de trabalho.\n*   **sovereign(prohibition_negotiation_reducing_overtime_additional):** É proibido reduzir a parcela adicional de remuneração devida em horas extras por meio de negociação individual ou coletiva. A lei protege o valor da hora extra.\n*   **sovereign(overtime_minimum_additional_50pct):** A hora extra deve ser remunerada com um adicional mínimo de 50% em relação à hora normal.\n*   **sovereign(maximum_weekly_working_hours_44h):** A jornada de trabalho semanal não pode ultrapassar 44 horas.\n*   **sovereign(maximum_daily_working_hours_8h):** A jornada de trabalho diária não pode ultrapassar 8 horas.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"A empresa fez um acordo de banco de horas sem conversar com o seu sindicato. Isso não é permitido por lei. A lei diz que, para ter um banco de horas, é preciso que o sindicato aprove esse tipo de acordo. Como não houve essa negociação, o acordo da empresa é inválido.\n\nA empresa diz que o acordo que você assinou vale só para um período de até 6 meses de banco de horas, mas mesmo assim, a lei protege você. Você tem direito a receber o pagamento extra pelas horas que trabalhou além do seu horário normal, e a empresa não pode simplesmente impedir que você acumule horas para compensar depois.\n\nAlém disso, acumular até 120 horas em 9 meses é muito! Isso pode ser um sinal de que você está trabalhando demais e não sendo devidamente compensado. A lei também diz que você não pode trabalhar mais de 44 horas por semana ou 8 horas por dia. Se isso estiver acontecendo, você tem o direito de reclamar.\"\n",
+  "tokens_in": 532,
+  "tokens_out": 933,
+  "latency_ms": 25968,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

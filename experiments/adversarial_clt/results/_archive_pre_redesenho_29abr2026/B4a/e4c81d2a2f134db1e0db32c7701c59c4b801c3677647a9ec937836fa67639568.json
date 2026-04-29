@@ -1,0 +1,30 @@
+{
+  "sha256": "e4c81d2a2f134db1e0db32c7701c59c4b801c3677647a9ec937836fa67639568",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-007",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T06:26:23Z",
+  "prompt_sha": "db7b7f8d2770500cb0104fdeeec443628af6b6ec1fc50f5b30f49d02934b8843",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nA decisão do Tribunal Regional do Trabalho (TRT), ao reconhecer a nulidade da dispensa e determinar a reintegração da gestante, está em conformidade com os princípios e normas do Direito do Trabalho brasileiro, conforme avaliado pelo sistema Q-FENG. A análise do Q-FENG, baseada na fundamentação apresentada no caso, demonstra que a decisão observou a necessidade de considerar a estabilidade provisória da gestante, mesmo que a gravidez tenha ocorrido antes da dispensa, e corretamente afastou a exigência de comunicação prévia da gravidez ao empregador, com base na Orientação Jurisprudencial (OJ) 399 da SDI-1 do TST.\n\nO sistema Q-FENG, ao indicar \"CONFORMIDADE\", reconhece que a decisão do TRT não apenas aplicou corretamente a lei, mas também demonstrou a devida atenção aos argumentos jurídicos apresentados pelas partes e à jurisprudência consolidada. A decisão, portanto, é considerada legalmente válida e coerente com a proteção aos direitos da trabalhadora gestante. A avaliação do sistema não implica em uma análise do mérito da decisão em si, mas sim na sua adequação à lei e à jurisprudência.\n\n## 2. PREDICADOS ATIVADOS:\n\nOs predicados soberanos ativos, identificados pela execução do Clingo, refletem os princípios fundamentais que guiaram a avaliação do Q-FENG:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  Obrigação de explicitar as consequências práticas da decisão. Significa que a decisão judicial deve deixar claro o impacto que terá na vida da trabalhadora e na relação de trabalho, como a reintegração e a possível compensação por danos morais.\n*   **sovereign(prohibition_of_generic_precedent_citation):** Proibição de citação genérica de precedentes. A decisão deve se basear em precedentes específicos e relevantes para o caso concreto, demonstrando como eles foram aplicados para chegar à conclusão. A citação da OJ 399 e da Súmula TST 244 demonstra essa observância.\n*   **sovereign(obligation_to_address_all_legal_arguments):** Obrigação de abordar todos os argumentos jurídicos apresentados. A decisão deve analisar e responder a todos os pontos relevantes levantados pelas partes, demonstrando que a questão foi devidamente ponderada.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** Obrigação de fundamentar a decisão no *ratio decidendi* identificado. A decisão deve explicar a razão de ser da decisão, a lógica jurídica que a sustenta, e como ela se relaciona com os fatos do caso.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):** Obrigação constitucional de motivar as decisões. Garante o direito fundamental à informação e ao controle da legalidade da decisão, permitindo que as partes compreendam as razões que levaram à conclusão e possam, eventualmente, recorrer da decisão.\n*   **sovereign(recognition_of_collective_bargaining):** Reconhecimento da importância da negociação coletiva. Embora não diretamente aplicável neste caso, o predicado reflete a importância de considerar acordos e convenções coletivas na interpretação e aplicação da lei.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):** Direito de acesso à justiça e revisão judicial. Garante que a decisão seja devidamente fundamentada para permitir a análise por instâncias superiores.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"A Justiça do Trabalho decidiu que a sua demissão foi injusta e que você tem o direito de voltar a trabalhar na empresa. Isso porque a lei protege as mulheres grávidas, garantindo que elas não sejam demitidas durante a gravidez e nos primeiros meses após o parto.\n\nA Justiça entendeu que, mesmo que você estivesse grávida antes de ser demitida, a lei continua te protegendo. Além disso, a empresa não precisava saber da sua gravidez para que essa proteção fosse válida. A lei já garante esse direito, independentemente de você ter avisado ou não.\n\nA decisão é justa e está de acordo com a lei. Você tem o direito de ser reintegrada ao seu emprego e receber os salários que deixou de receber desde a demissão. A empresa precisa te devolver o seu emprego e pagar o que você perdeu.\"\n",
+  "tokens_in": 592,
+  "tokens_out": 1009,
+  "latency_ms": 28187,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

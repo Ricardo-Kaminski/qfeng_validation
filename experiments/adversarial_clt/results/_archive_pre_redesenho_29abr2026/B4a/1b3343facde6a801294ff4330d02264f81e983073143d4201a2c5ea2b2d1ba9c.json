@@ -1,0 +1,29 @@
+{
+  "sha256": "1b3343facde6a801294ff4330d02264f81e983073143d4201a2c5ea2b2d1ba9c",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-011",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:02:33Z",
+  "prompt_sha": "aeb9b5c946ebb59b38edd736d6611be0631b55d3a7fb6273720cc5584c08a93c",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, ao analisar o cenário apresentado, concluiu que a cláusula da CCT que exige a renúncia ao adicional de horas extras em caso de não compensação do banco de horas no prazo é, provavelmente, inválida. A decisão foi tomada com base na análise da legislação trabalhista brasileira, especificamente no contexto da negociação coletiva e na proteção dos direitos dos trabalhadores.\n\nA avaliação do Q-FENG considerou a existência de princípios e normas que limitam a capacidade de negociação coletiva para reduzir direitos já assegurados pela lei. A cláusula em questão, ao tentar transferir o risco da não compensação do banco de horas para o trabalhador, privando-o do adicional de horas extras, é vista como uma tentativa de contornar a proteção legal a este direito.\n\nA incerteza na satisfatibilidade (UNKNOWN) reflete a complexidade da análise, considerando a interação entre a autonomia da negociação coletiva e os limites impostos pela lei. No entanto, a ativação dos predicados soberanos indica uma forte inclinação para a invalidade da cláusula, dada a sua potencial violação de princípios fundamentais da legislação trabalhista.\n\n## PREDICADOS SOVERAIN ATIVOS: SIGNIFICADO JURÍDICO\n\n*   **sovereign(semester_hour_bank_requires_cct_or_act):**  Indica que a utilização de um banco de horas semestral exige, obrigatoriamente, um acordo coletivo (CCT) ou uma lei específica que o regule. A ausência de um desses instrumentos pode invalidar a prática.\n*   **sovereign(invalidity_of_clause_suppressing_overtime_payment):**  Afirma que cláusulas que suprimem ou reduzem o direito ao adicional de horas extras são, em princípio, inválidas. A lei protege o adicional como um direito fundamental do trabalhador.\n*   **sovereign(weekly_hour_compensation_requires_written_agreement):**  Estabelece que a compensação de horas extras deve ser formalizada por escrito, seja em acordo individual ou coletivo. A falta de documentação pode gerar questionamentos e dificuldades na comprovação dos direitos.\n*   **sovereign(prohibition_negotiation_reducing_overtime_additional):**  Determina que a negociação coletiva não pode reduzir o valor mínimo do adicional de horas extras, que é fixado em lei. A autonomia da negociação tem limites quando se trata de direitos mínimos irrenunciáveis.\n*   **sovereign(overtime_minimum_additional_50pct):**  Define que o adicional de horas extras deve ser, no mínimo, de 50% sobre o valor da hora normal. Este é um direito garantido pela legislação.\n*   **sovereign(maximum_weekly_working_hours_44h):**  Limita a jornada de trabalho semanal máxima a 44 horas. O banco de horas deve ser utilizado para compensar horas trabalhadas além desse limite, sem prejuízo aos direitos do trabalhador.\n*   **sovereign(maximum_daily_working_hours_8h):**  Limita a jornada de trabalho diária máxima a 8 horas.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"A situação que você descreveu é delicada. A empresa tentou fazer um acordo com o sindicato para que, se o banco de horas não fosse pago no prazo, você não recebesse o adicional de horas extras. No entanto, a lei protege seu direito ao adicional.\n\nO sistema Q-FENG analisou essa situação e concluiu que essa cláusula do acordo é provavelmente inválida. Isso porque a lei não permite que você abra mão do seu direito ao adicional de horas extras, mesmo que o banco de horas não seja compensado.\n\nA empresa precisa garantir que você receba o adicional de horas extras, mesmo que o banco de horas não seja compensado no prazo. A lei estabelece que o adicional deve ser, no mínimo, 50% a mais do que o valor normal da sua hora de trabalho.\n\nÉ importante que você procure um advogado trabalhista para analisar o seu caso e tomar as medidas cabíveis para garantir que seus direitos sejam respeitados.\"\n",
+  "tokens_in": 541,
+  "tokens_out": 920,
+  "latency_ms": 25657,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,26 @@
+{
+  "sha256": "d7f63f3d2e88b743a906707301895a8a773724a5efd522c7e50ca81e65c7db8d",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T05:42:38Z",
+  "prompt_sha": "616931cfd10c80d27ea65ea3d9f17fc5d70b1e90674a0e5470d9bf3f655e12d8",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, após análise do cenário apresentado e da decisão judicial, concluiu que houve uma **violação** de princípios fundamentais do devido processo legal e da garantia de um julgamento justo. A decisão do embargos de declaração, ao afirmar genericamente a inexistência de contradição sem abordar o ponto específico de alegação da parte embargante (a aplicação de tese de recurso de uma parte para beneficiar a parte contrária sem contraditório), demonstra uma falha na observância de obrigações processuais essenciais.\n\nA ausência de análise do ponto de contradição alegado pela parte, por parte do magistrado, implica uma omissão que compromete a efetividade do direito de acesso à justiça e a possibilidade de revisão judicial adequada. O sistema identificou que a decisão judicial, ao ignorar a alegação específica, não cumpriu com a obrigação de fundamentar a decisão em uma ratio decidendi identificada, nem com a obrigação de abordar todos os argumentos jurídicos apresentados pelas partes. A decisão, portanto, não atende aos requisitos mínimos de transparência e justificativa que a Constituição Federal exige para as decisões judiciais.\n\n## 2. PREDICADOS ATIVADOS:\n\nOs predicados soberanos ativos, identificados pelo Q-FENG, são:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  Significa que o juiz tem a obrigação de explicitar as consequências práticas da decisão para as partes envolvidas. Uma decisão genérica, que não aborda os pontos específicos da controvérsia, não cumpre essa obrigação.\n*   **sovereign(prohibition_of_generic_precedent_citation):**  Impede a utilização de precedentes de forma genérica e descontextualizada. A aplicação de uma tese de recurso sem análise específica do caso concreto viola esse princípio.\n*   **sovereign(obligation_to_address_all_legal_arguments):**  O juiz é obrigado a analisar e responder a todos os argumentos jurídicos apresentados pelas partes. Ignorar um ponto específico de alegação, como a contradição apontada, configura violação dessa obrigação.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):**  A decisão deve ser fundamentada em uma razão de decidir (ratio decidendi) claramente identificada. A ausência de análise do ponto de contradição impede a identificação de uma ratio decidendi adequada.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):**  A Constituição Federal exige que as decisões judiciais sejam motivadas, ou seja, que o juiz explique os fundamentos que o levaram àquela conclusão. A decisão genérica, que não aborda o ponto de contradição, não cumpre essa exigência constitucional.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):**  Garante o direito de acesso à justiça e à revisão judicial das decisões. A omissão na análise do ponto de contradição impede o exercício efetivo desse direito, pois a parte não tem como compreender e contestar a decisão.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"Imagine que você está em um jogo e o juiz não te deixa explicar por que você acha que ele está errado. Ele simplesmente diz que está tudo certo, sem te dar a chance de mostrar o que você viu de errado. É mais ou menos isso que aconteceu aqui.\n\nO juiz, ao decidir sobre os embargos de declaração, não analisou o ponto específico que você levantou, que é que ele usou um argumento de um lado para beneficiar o outro, sem te dar a chance de se defender. Isso é injusto, porque você tem o direito de ter suas alegações ouvidas e explicadas.\n\nO sistema Q-FENG, que é como um computador que ajuda a analisar as leis, achou que o juiz errou ao não fazer isso. Ele disse que o juiz tinha a obrigação de analisar o que você disse, explicar por que ele concorda ou discorda, e dar uma resposta clara.  Afinal, todo mundo tem o direito de ser ouvido e de ter uma decisão justa.\"\n",
+  "tokens_in": 504,
+  "tokens_out": 950,
+  "latency_ms": 26375,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

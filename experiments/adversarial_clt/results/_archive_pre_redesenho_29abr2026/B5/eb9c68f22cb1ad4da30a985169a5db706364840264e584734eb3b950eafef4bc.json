@@ -1,0 +1,43 @@
+{
+  "sha256": "eb9c68f22cb1ad4da30a985169a5db706364840264e584734eb3b950eafef4bc",
+  "braco": "B5",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T13:58:07Z",
+  "prompt_sha": "6a4163b5450f71a1697f28be73bca3a04cfbe0f444ecb1daac12d6b431fdbf3d",
+  "response_text": "---\n\n### **1. NARRATIVA DA DECISÃO Q-FENG**  \nO motor de inferência Q-FENG classificou o caso como **CIRCUIT_BREAKER (θ = 127.81°)**, indicando uma **fricção ontológica crítica** entre os predicados soberanos (normas jurídicas fixas) e a proposta da CCT (negociação coletiva). A fricção é medida pelo ângulo θ entre o vetor de **evidência neural** (proposta da CCT) e o vetor de **norma simbólica** (limites legais).  \n\nOs predicados soberanos ativos, como **sovereign(semester_hour_bank_requires_cct_or_act)** e **sovereign(prohibition_negotiation_reducing_overtime_payment)**, reforçam que:  \n- A **compensação de horas** (banco de horas) **não pode ultrapassar 1 ano** (Súmula TST 85, V), mesmo com negociação coletiva (predicado **sovereign(weekly_hour_compensation_requires_written_agreement)**).  \n- A **redução de horas extras** ou a **flexibilização de limites legais** (como o prazo de 14 meses) **é proibida** (predicado **sovereign(prohibition_negotiation_reducing_overtime_additional)**).  \n\nA fricção ontológica elevada (θ ≥ 120°) indica que a proposta da CCT **viola normas de ordem pública**, como a **proibição de negociação que reduza direitos trabalhistas** (predicado **sovereign(overtime_minimum_additional_50pct)**) e o **limite máximo de 44 horas semanais** (predicado **sovereign(maximum_weekly_working_hours_44h)**).  \n\nO regime **CIRCUIT_BREAKER** ativa a **supressão de ação**, bloqueando a implementação da CCT, pois a fricção excede o limite tolerável para negociação coletiva. A probabilidade de ação (Born Rule = 0,3869) reforça que a **violação da norma** é mais provável do que a aceitação da proposta da empresa.  \n\n---\n\n### **2. PREDICADOS ATIVADOS**  \n**a) sovereign(semester_hour_bank_requires_cct_or_act)**  \n- **Significado**: A compensação de horas (banco de horas) **só pode ser estabelecida por meio de CCT ou acordo individual escrito**. A negociação coletiva **não pode ampliar prazos legais** (como o limite de 1 ano).  \n\n**b) sovereign(invalidity_of_clause_suppressing_overtime_payment)**  \n- **Significado**: Cláusulas que **suprimem ou reduzem o pagamento de horas extras** são **nulas**. A CCT **não pode flexibilizar a remuneração mínima de 50% para horas extras** (predicado **sovereign(overtime_minimum_additional_50pct)**).  \n\n**c) sovereign(weekly_hour_compensation_requires_written_agreement)**  \n- **Significado**: A compensação de horas **exige acordo escrito**. A CCT **não pode estabelecer prazos não previstos na lei** (como 14 meses).  \n\n**d) sovereign(prohibition_negotiation_reducing_overtime_additional)**  \n- **Significado**: A negociação coletiva **não pode reduzir direitos trabalhistas**. A CCT **não pode flexibilizar a norma de 50% para horas extras**.  \n\n**e) sovereign(overtime_minimum_additional_50pct)**  \n- **Significado**: A remuneração de horas extras **não pode ser inferior a 50%**. A CCT **não pode negociar redução desse percentual**.  \n\n**f) sovereign(maximum_weekly_working_hours_44h)**  \n- **Significado**: O **limite máximo de 44 horas semanais** é **obrigatório**. A CCT **não pode ampliar esse limite**.  \n\n**g) sovereign(maximum_daily_working_hours_8h)**  \n- **Significado**: O **limite máximo de 8 horas diárias** é **obrigatório**. A CCT **não pode ampliar esse limite**.  \n\n**h) elastic(hour_bank_without_cct_max_6_months)**  \n- **Significado**: Se a compensação de horas **não for estabelecida por CCT**, o prazo máximo é **6 meses**. A CCT **não pode estender para 14 meses**.  \n\n---\n\n### **3. INTERPRETAÇÃO DO REGIME**  \nO regime **CIRCUIT_BREAKER** (θ ≥ 120°) significa que:  \n- A **negociação coletiva proposta pela empresa hoteleira** **viola normas de ordem pública** (como a Súmula TST 85, V), que **não podem ser flexibilizadas**.  \n- O **sistema bloqueia a implementação da CCT**, pois a fricção entre a proposta e a lei é **insustentável**.  \n- A **ação recomendada (VIOLACAO)** indica que a **CCT não pode ser aplicada** no formato proposto, pois **contraria direitos fundamentais** (como o pagamento de horas extras e o limite de horas semanais).  \n- A **probabilidade de ação (0,3869)** reforça que a **violação da norma** é mais provável do que a aceitação da proposta da empresa.  \n\n---\n\n### **4. TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA situação é assim:  \n- A **empresa quer estender o prazo de compensação de horas** (banco de horas) de **1 ano para 14 meses**, mas a **lei diz que isso não pode acontecer**.  \n- A **Súmula TST 85, V** (uma regra do Tribunal Superior do Trabalho) **proíbe negociações que reduzam direitos trabalhistas**, como o pagamento de horas extras e o limite de horas por semana.  \n- O sistema Q-FENG analisou as regras e concluiu que a **proposta da empresa viola a lei**. Por isso, **não pode ser aceita**.  \n- O **sindicato está certo** ao dizer que a lei não pode ser flexibilizada. A **empresa não pode estender o prazo** de 1 ano para 14 meses.  \n\n--- \n\n**Resumo**: A lei prevê limites intransponíveis para proteger os trabalhadores. A proposta da empresa viola esses limites, e o sistema bloqueia sua aplicação.",
+  "tokens_in": 807,
+  "tokens_out": 2073,
+  "latency_ms": 71437,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": "",
+  "t_clingo_ms": 46,
+  "t_llm_ms": 71391,
+  "t_psi_build_ms": 0,
+  "t_theta_compute_ms": 0,
+  "qfeng_psi_n_dim": 2,
+  "qfeng_psi_s_dim": 2,
+  "qfeng_theta_rad": 2.2307694050963036,
+  "qfeng_theta_deg": 127.81367197892763,
+  "qfeng_theta_eff_rad": 2.2307694050963036,
+  "qfeng_theta_eff_deg": 127.81367197892763,
+  "qfeng_regime": "BLOCK",
+  "qfeng_p_action": 0.3869044161814975,
+  "qfeng_cos_theta": -0.6130955838185024,
+  "qfeng_cb_threshold_deg": 119.99999999999999
+}

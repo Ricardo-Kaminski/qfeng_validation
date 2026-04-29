@@ -1,0 +1,30 @@
+{
+  "sha256": "3cef74999d0d32168c63342ac43bf0d97537164a2f8e0068498fe2963138517e",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T03:44:41Z",
+  "prompt_sha": "2c346e302232f51cd44617f62ac2e4fd89f0a43134d5baae82a0990651685d27",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nA decisão do sistema Q-FENG concluiu que a **decisão judicial** está em **conformidade** com os princípios normativos da CLT (Consolidação das Leis do Trabalho) e com os predicados soberanos ativos identificados. Isso ocorreu porque:  \n- **Obrigação de expor as consequências práticas da decisão** (sovereign(obligation_to_state_practical_consequences_of_decision)): A decisão explicou claramente como a ausência de análise do LINDB Art. 20 afeta o setor econômico, cumprindo o dever de transparência.  \n- **Proibição de citar precedentes genéricos** (sovereign(prohibition_of_generic_precedent_citation)): A decisão evitou generalizações e utilizou jurisprudência específica do STJ (Superior Tribunal de Justiça) sobre o LINDB, garantindo rigor técnico.  \n- **Obrigação de abordar todos os argumentos jurídicos** (sovereign(obligation_to_address_all_legal_arguments)): O ponto omisso foi suprido com fundamentos verificáveis, demonstrando que o argumento sobre o LINDB Art. 20 não se aplicava ao caso individual.  \n- **Fundamentação da decisão em ratio decidendi identificável** (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)): A conclusão foi baseada em uma razão jurídica clara (não aplicabilidade do LINDB a casos individuais), evitando ambiguidades.  \n- **Obrigação constitucional de expor razões** (sovereign(constitutional_obligation_to_state_reasons_for_decisions)): A decisão explicou motivadamente por que o LINDB Art. 20 não se aplicava, respeitando o direito à ampla defesa e à informação.  \n- **Reconhecimento da negociação coletiva** (sovereign(recognition_of_collective_bargaining)): A análise do impacto sistêmico do LINDB Art. 20 está alinhada com a necessidade de equilibrar interesses coletivos e individuais.  \n- **Direito ao acesso à justiça e revisão judicial** (sovereign(right_of_access_to_justice_and_judicial_review)): A decisão garantiu que o trabalhador individual tivesse acesso a uma análise clara e fundamentada, mesmo em casos complexos.  \n\nO **vetor ψ_S** ([2.4435]) indica uma **confiança moderada** na conformidade, mas a **satisfatibilidade UNKNOWN** sugere que o sistema não pode garantir 100% de certeza, exigindo revisão adicional em casos de ambiguidade.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n**Predicados soberanos ativos (significado jurídico):**  \n- **sovereign(obligation_to_state_practical_consequences_of_decision):** O juiz deve explicar **como a decisão afeta a vida prática** das partes (ex.: impactos econômicos, sociais ou legais).  \n- **sovereign(prohibition_of_generic_precedent_citation):** Proíbe o uso de **precedentes genéricos ou vagos**; a jurisprudência deve ser **específica e contextualizada** (ex.: STJ sobre LINDB).  \n- **sovereign(obligation_to_address_all_legal_arguments):** O juiz deve **abordar todos os argumentos** apresentados, mesmo os que parecem frágeis, para evitar omissão.  \n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** A decisão deve ter uma **razão jurídica clara e identificável** (ex.: \"o LINDB Art. 20 não se aplica a casos individuais\").  \n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions):** O direito à **informação** e à **ampla defesa** exige que a decisão seja **explicada com transparência**.  \n- **sovereign(recognition_of_collective_bargaining):** Reconhece que normas como o LINDB Art. 20 devem considerar **interesses coletivos** (ex.: impacto no setor econômico).  \n- **sovereign(right_of_access_to_justice_and_judicial_review):** Garante que o trabalhador individual tenha **acesso a uma análise justa** e revisível.  \n\n**Predicados elásticos ativos (significado jurídico):**  \n- **elastic(working_hours_negotiable_by_cct):** Permite que **horas de trabalho sejam negociações coletivas** (ex.: CCTs definem regras para setores específicos).  \n- **elastic(hour_bank_with_cct_max_1_year):** Permite a **acumulação de horas extras** em um ano, desde que regulamentado por CCTs.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA decisão do juiz **foi feita corretamente**. Ele:  \n- **Explicou claramente** como a ausência de análise do LINDB Art. 20 afeta o setor econômico (ex.: empresas, empregos).  \n- **Usou leis específicas** (como jurisprudência do STJ) e **não fez generalizações**.  \n- **Respondeu a todos os argumentos** apresentados, mesmo os que pareciam complicados.  \n- **Explicou por que** o LINDB Art. 20 não se aplica a casos individuais (ex.: você, como trabalhador, não está sujeito a essa regra).  \n- **Garantiu que você, como trabalhador**, tenha direito a uma decisão justa e revisível.  \n\nO sistema Q-FENG **não viu problemas graves**, mas **recomenda revisão** se houver dúvidas sobre a clareza da decisão. Isso é normal em casos complexos.  \n\n---  \n**Nota:** A narrativa e a tradução seguem estritamente os predicados soberanos e elásticos ativos, sem adicionar informações externas ou interpretações não solicitadas.",
+  "tokens_in": 555,
+  "tokens_out": 1895,
+  "latency_ms": 60640,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

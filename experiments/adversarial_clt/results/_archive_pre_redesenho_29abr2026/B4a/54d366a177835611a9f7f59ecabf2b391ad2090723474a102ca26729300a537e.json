@@ -1,0 +1,29 @@
+{
+  "sha256": "54d366a177835611a9f7f59ecabf2b391ad2090723474a102ca26729300a537e",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T05:51:56Z",
+  "prompt_sha": "0ae1cb23f5b2029af6ba34d6cbada55225e0756bb30ed00c0f6402a4a8c28764",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, após análise do cenário apresentado, concluiu que houve **violação** da legislação trabalhista, mesmo diante da alegação da empresa de que o registro tardio da Convenção Coletiva de Trabalho (CCT) ou Acordo Coletivo de Trabalho (ACT) seria mera formalidade. A decisão se baseia na primazia da lei e na necessidade de observância dos requisitos formais para a validade de instrumentos normativos como o ACT em questão.\n\nA validade do ACT, embora possa ter força de lei entre as partes, depende do seu registro na Superintendência Regional do Trabalho (SRTE) dentro do prazo legal. A ausência desse registro, como no caso, implica a sua ineficácia para fins de oponibilidade a terceiros e, em alguns casos, para fins de validade perante a Justiça do Trabalho. A empresa não pode simplesmente ignorar essa formalidade, alegando que a assinatura já confere validade ao acordo.\n\nO sistema considerou a importância de garantir a proteção dos direitos dos trabalhadores, especialmente no que tange à compensação de horas e à observância dos limites de jornada de trabalho. A alegação da empresa de que o registro é mera formalidade, se aceita, poderia abrir margem para práticas que desvirtuem a função social da CCT/ACT e prejudiquem os trabalhadores.\n\n## PREDICADOS SOVERAIN ATIVOS: SIGNIFICADO JURÍDICO\n\n*   **sovereign(semester_hour_bank_requires_cct_or_act):**  Este predicado estabelece que a utilização de um banco de horas, especialmente com compensação em prazo superior a um semestre, necessita de regulamentação por meio de CCT ou ACT. A ausência dessa regulamentação formal pode invalidar o sistema implementado.\n*   **sovereign(invalidity_of_clause_suppressing_overtime_payment):**  Reforça a importância da validade formal da CCT/ACT, pois cláusulas que suprimem o pagamento de horas extras, mesmo que previstas em um acordo não registrado, são consideradas inválidas.\n*   **sovereign(weekly_hour_compensation_requires_written_agreement):**  A compensação de horas de trabalho deve ser formalizada por escrito, seja em CCT, ACT ou contrato individual. A falta de documentação adequada pode gerar questionamentos e insegurança jurídica.\n*   **sovereign(prohibition_negotiation_reducing_overtime_additional):**  Impede a negociação de redução do adicional de horas extras, protegendo um direito fundamental do trabalhador.\n*   **sovereign(overtime_minimum_additional_50pct):**  Define que o adicional de horas extras deve ser de, no mínimo, 50%, garantindo uma compensação justa pelo trabalho realizado além da jornada normal.\n*   **sovereign(maximum_weekly_working_hours_44h):**  Estabelece o limite máximo de 44 horas semanais para a jornada de trabalho, visando proteger a saúde e a segurança do trabalhador.\n*   **sovereign(maximum_daily_working_hours_8h):**  Define o limite máximo de 8 horas diárias para a jornada de trabalho, buscando evitar a exaustão e o desgaste físico do trabalhador.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"A empresa implementou um sistema de banco de horas, mas o acordo que regulamentava esse sistema não foi registrado corretamente no órgão do trabalho dentro do prazo. A empresa diz que isso não importa, que o acordo é válido porque foi assinado. Mas a lei diz que, para um acordo como esse valer de verdade e poder ser usado para proteger os seus direitos, ele precisa ser registrado.\n\nO sistema Q-FENG, que analisa essas situações, entendeu que a empresa está cometendo uma irregularidade. Isso significa que o sistema de banco de horas pode não ser válido, e você pode ter direito a receber as horas extras que não foram pagas. Além disso, a empresa precisa garantir que você não está trabalhando mais do que as 8 horas por dia e 44 horas por semana, e que, se trabalhar além desse limite, você receba o adicional de 50% sobre as horas extras.\n\nÉ importante procurar um advogado ou o sindicato para saber como proceder e garantir que seus direitos sejam respeitados.\"\n",
+  "tokens_in": 518,
+  "tokens_out": 955,
+  "latency_ms": 26609,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,30 @@
+{
+  "sha256": "eb85b676d5a801a548b41561e90f0c44a90032c272a025d606ed20f4a396b41b",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-006",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T07:08:50Z",
+  "prompt_sha": "e6375c11e406eda3f0926b4a955ab06c3b4f824045cb7d8586f69f27e435c47d",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG chegou à decisão de VIOLACAO porque o tribunal aplicou a ratio do precedente de forma invertida, usando a tese de validade de CCT bancária para justificar a validade de banco de horas sem qualquer CCT. Isso viola os princípios constitucionais que garantem a autonomia negocial e a proteção dos direitos trabalhistas.\n\nA decisão do tribunal não reconheceu que o precedente pressupõe a existência de uma CCT, invertendo assim a ratio decidendi. Além disso, o tribunal não considerou as implicações práticas da sua decisão, como a obrigação de informar as consequências da decisão.\n\nOs predicados soberanos ativos indicam que o sistema Q-FENG está reconhecendo a importância de seguir os princípios constitucionais e legais que protegem os direitos trabalhistas. Em particular:\n\n* `sovereign(obligation_to_state_practical_consequences_of_decision)`: O tribunal deve informar as consequências práticas da sua decisão.\n* `sovereign(prohibition_of_generic_precedent_citation)`: O tribunal não pode citar precedentes de forma genérica e sem consideração das circunstâncias específicas do caso.\n* `sovereign(obligation_to_address_all_legal_arguments)`: O tribunal deve considerar todos os argumentos legais relevantes antes de tomar uma decisão.\n* `sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)`: A decisão do tribunal deve estar fundamentada em um precedente específico e não genérico.\n* `sovereign(constitutional_obligation_to_state_reasons_for_decisions)`: O tribunal tem a obrigação constitucional de informar as razões pelas quais tomou uma decisão.\n* `sovereign(recognition_of_collective_bargaining)`: O tribunal deve reconhecer e proteger o direito coletivo de negociação entre empregadores e trabalhadores.\n* `sovereign(right_of_access_to_justice_and_judicial_review)`: O tribunal deve garantir que os trabalhadores tenham acesso à justiça e possam recorrer das decisões tomadas.\n\n**2. PREDICADOS ATIVADOS**\n\nOs predicados soberanos ativos têm os seguintes significados jurídicos no contexto trabalhista brasileiro:\n\n* `obligation_to_state_practical_consequences_of_decision`: O tribunal deve informar as consequências práticas da sua decisão, como a possibilidade de demissões ou mudanças nos contratos de trabalho.\n* `prohibition_of_generic_precedent_citation`: O tribunal não pode citar precedentes de forma genérica e sem consideração das circunstâncias específicas do caso. Isso significa que o tribunal deve examinar cuidadosamente cada caso antes de aplicar um precedente.\n* `obligation_to_address_all_legal_arguments`: O tribunal deve considerar todos os argumentos legais relevantes antes de tomar uma decisão, incluindo as teses contrárias e as razões pelas quais elas não são aceitáveis.\n* `obligation_to_ground_decision_in_identified_ratio_decidendi`: A decisão do tribunal deve estar fundamentada em um precedente específico e não genérico. Isso significa que o tribunal deve identificar claramente a ratio decidendi da sua decisão.\n* `constitutional_obligation_to_state_reasons_for_decisions`: O tribunal tem a obrigação constitucional de informar as razões pelas quais tomou uma decisão, incluindo os princípios legais e constitucionais que fundamentam a decisão.\n* `recognition_of_collective_bargaining`: O tribunal deve reconhecer e proteger o direito coletivo de negociação entre empregadores e trabalhadores. Isso significa que o tribunal deve considerar as convenções coletivas de trabalho e os acordos coletivos como fontes importantes de direitos trabalhistas.\n* `right_of_access_to_justice_and_judicial_review`: O tribunal deve garantir que os trabalhadores tenham acesso à justiça e possam recorrer das decisões tomadas. Isso significa que o tribunal deve fornecer mecanismos eficazes para que os trabalhadores possam recorrer das decisões.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nA decisão do sistema Q-FENG é simples: o tribunal errou ao aplicar a ratio do precedente de forma invertida, usando a tese de validade de CCT bancária para justificar a validade de banco de horas sem qualquer CCT. Isso significa que o tribunal não considerou as implicações práticas da sua decisão e não protegeu os direitos trabalhistas.\n\nImagine que você está em uma reunião com seu empregador e ele diz que pode mudar suas condições de trabalho sem consultar você ou a sua sindicato. Isso é um erro! O tribunal deve garantir que as partes envolvidas tenham acesso à justiça e possam recorrer das decisões tomadas.\n\nA decisão do sistema Q-FENG é uma forma de proteger os direitos trabalhistas e garantir que o tribunal faça suas decisões com base em princípios legais e constitucionais.",
+  "tokens_in": 569,
+  "tokens_out": 1183,
+  "latency_ms": 20046,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

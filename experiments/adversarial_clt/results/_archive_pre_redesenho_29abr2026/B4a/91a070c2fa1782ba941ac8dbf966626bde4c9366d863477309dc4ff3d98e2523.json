@@ -1,0 +1,27 @@
+{
+  "sha256": "91a070c2fa1782ba941ac8dbf966626bde4c9366d863477309dc4ff3d98e2523",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:08:16Z",
+  "prompt_sha": "b3a1b193561e82c62b707b08467d6ec5ca8842b372e04bc8dd0182e3993c8b0e",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, após análise do cenário apresentado e da legislação trabalhista brasileira, concluiu que a implementação da jornada de 10 horas diárias para compensação semanal, mesmo com a autorização de banco de horas na CCT, configura uma potencial violação ao limite constitucional de 8 horas diárias de trabalho.\n\nA decisão foi fundamentada na primazia dos direitos constitucionais sobre a autonomia da vontade nas relações de trabalho, expressa na CCT. Embora a CCT possua força normativa e possa negociar condições de trabalho, ela não pode suplantar a proteção fundamental assegurada pela Constituição Federal.\n\nO sistema considerou que a jornada de 10 horas diárias, mesmo que compensada ao longo da semana, excede o limite máximo diário estabelecido pela Constituição, gerando um desequilíbrio entre a flexibilidade negociada na CCT e a garantia constitucional de proteção à saúde e segurança do trabalhador. A incerteza na satisfatibilidade reflete a complexidade da ponderação entre a autonomia da vontade e a proteção constitucional, indicando a necessidade de análise aprofundada do caso concreto.\n\n## PREDICADOS ATIVADOS: SIGNIFICADO JURÍDICO\n\n*   **sovereign(recognition_of_collective_bargaining):** Reconhecimento da força normativa dos acordos e convenções coletivas de trabalho (CCT). Este predicado indica que o sistema reconhece a importância da negociação coletiva para a definição das condições de trabalho, mas ressalta que essa negociação não é ilimitada.\n*   **sovereign(maximum_weekly_working_hours_44h):** Limite constitucional de 44 horas semanais de trabalho. Este predicado estabelece o limite máximo legal para a jornada de trabalho semanal, conforme previsto no artigo 7º, XIII, da Constituição Federal.\n*   **sovereign(maximum_daily_working_hours_8h):** Limite constitucional de 8 horas diárias de trabalho. Este predicado define o limite máximo legal para a jornada de trabalho diária, também previsto no artigo 7º, XIII, da Constituição Federal.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"A empresa implementou uma jornada de 10 horas por dia para compensar o banco de horas, mas isso pode ser um problema. A Constituição garante que a sua jornada de trabalho não pode ultrapassar 8 horas por dia. Mesmo que a convenção coletiva de trabalho (CCT) diga que é possível fazer banco de horas, ela não pode ignorar essa garantia constitucional.\n\nO sistema Q-FENG entendeu que essa jornada de 10 horas diárias, mesmo que você compense depois, pode ser considerada uma violação do seu direito a uma jornada de trabalho de no máximo 8 horas por dia. Isso porque a Constituição é a lei mais importante do país e protege os seus direitos.\n\nÉ importante que a empresa reveja essa forma de compensação para garantir que a sua jornada de trabalho esteja dentro do que a lei permite.\"",
+  "tokens_in": 511,
+  "tokens_out": 657,
+  "latency_ms": 18405,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

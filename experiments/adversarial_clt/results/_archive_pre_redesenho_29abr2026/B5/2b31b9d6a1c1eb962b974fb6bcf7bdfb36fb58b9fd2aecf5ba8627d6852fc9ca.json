@@ -1,0 +1,43 @@
+{
+  "sha256": "2b31b9d6a1c1eb962b974fb6bcf7bdfb36fb58b9fd2aecf5ba8627d6852fc9ca",
+  "braco": "B5",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-005",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T13:59:21Z",
+  "prompt_sha": "6a4163b5450f71a1697f28be73bca3a04cfbe0f444ecb1daac12d6b431fdbf3d",
+  "response_text": "---\n\n### **1. NARRATIVA DA DECISÃO Q-FENG**  \nO motor de inferência Q-FENG classificou o caso como **BLOCK** (CIRCUIT_BREAKER), com um **ângulo θ de 127,81°**, indicando **fricção ontológica elevada** entre a **evidência neural** (predicados do CCT proposto) e a **norma simbólica** (limites legais fixos da legislação trabalhista).  \n\nOs **predicados soberanos ativos** (como *sovereign(maximum_weekly_working_hours_44h)* e *sovereign(overtime_minimum_additional_50pct)*) representam **normas de ordem pública** que não podem ser negociadas ou flexibilizadas, mesmo por meio de acordos coletivos. A tentativa de estabelecer um banco de horas com prazo de **14 meses** (em vez do limite legal de **1 ano**) viola diretamente o **princípio da inalterabilidade de normas de ordem pública**, conforme previsto na **Súmula TST 85, V**.  \n\nA **fricção ontológica θ** mede a **incompatibilidade** entre a proposta do CCT (que busca ampliar a autonomia das partes) e a **rigidez das normas trabalhistas**. O valor de θ ≥ 120° indica que a **tensão entre os vetores de evidência e norma é crítica**, levando ao **regime de supressão de ação (BLOCK)**. O **ângulo negativo (cos(θ) = -0,6131)** reforça que a proposta do CCT está **em direção oposta** à norma legal, gerando **interferência destrutiva**.  \n\n---\n\n### **2. PREDICADOS ATIVADOS**  \n**Predicados *sovereign* ativos (normas de ordem pública):**  \n- **sovereign(semester_hour_bank_requires_cct_or_act):**  \n  *O banco de horas para semestres só pode ser estabelecido mediante acordo coletivo (CCT) ou ato normativo (ACT), mas não pode ultrapassar o limite legal de 1 ano.*  \n- **sovereign(invalidity_of_clause_suppressing_overtime_payment):**  \n  *Cláusulas que eliminam o pagamento de horas extras são nulas, pois violam direitos fundamentais do trabalhador.*  \n- **sovereign(weekly_hour_compensation_requires_written_agreement):**  \n  *A compensação de horas extras por semana exige acordo escrito, mas não pode ser ampliada além do prazo legal.*  \n- **sovereign(prohibition_negotiation_reducing_overtime_additional):**  \n  *É proibido negociar a redução do adicional de horas extras (mínimo de 50%).*  \n- **sovereign(overtime_minimum_additional_50pct):**  \n  *O adicional de horas extras não pode ser inferior a 50% do valor da hora normal.*  \n- **sovereign(maximum_weekly_working_hours_44h):**  \n  *A jornada semanal máxima é de 44 horas, independentemente de acordos coletivos.*  \n- **sovereign(maximum_daily_working_hours_8h):**  \n  *A jornada diária máxima é de 8 horas, mesmo com flexibilização setorial.*  \n\n**Predicado *elastic* ativo (norma flexível):**  \n- **elastic(hour_bank_without_cct_max_6_months):**  \n  *Bancos de horas sem CCT podem ter prazo máximo de 6 meses, mas **não se aplica** ao caso, pois o CCT proposto ultrapassa esse limite.*  \n\n---\n\n### **3. INTERPRETAÇÃO DO REGIME**  \nO **regime classificado como CIRCUIT_BREAKER** significa que o **sistema Q-FENG bloqueia a ação** (violação do CCT) devido à **incompatibilidade crítica** entre a proposta do CCT e as normas de ordem pública.  \n\n- **Operacionalmente**, isso implica que:  \n  - **A proposta do CCT é considerada inválida** por violar a **Súmula TST 85, V**, que estabelece o limite de **1 ano** para compensação de horas extras como **norma de ordem pública**.  \n  - **O regime de supressão de ação (BLOCK)** evita que a flexibilização do prazo (14 meses) seja aceita, mesmo com a autonomia das partes coletivas.  \n  - **A probabilidade de ação (0,3869)** é baixa, reforçando que a **violação é recomendada** para preservar a norma legal.  \n\n---\n\n### **4. TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \n**O que está acontecendo?**  \nA empresa hotelaria quer estender o prazo para compensar horas extras de **1 ano para 14 meses**, mas a lei brasileira diz que esse prazo **não pode ser alterado**. A **Súmula TST 85, V** é uma regra básica que protege os direitos dos trabalhadores, e **não pode ser negociada** por sindicatos ou empresas.  \n\n**Por que o sistema Q-FENG bloqueou essa proposta?**  \nO sistema analisou que a proposta do CCT **contraria a lei** e **colide com direitos fundamentais** (como o pagamento de horas extras e limites de jornada). Como a tensão entre a proposta e a lei é **muito alta**, o sistema **não permite que a flexibilização aconteça**, para evitar que os trabalhadores sejam prejudicados.  \n\n**O que isso significa para o trabalhador?**  \nA **lei vence**. O prazo de **1 ano** para compensar horas extras **permanece válido**, e a empresa **não pode estender esse prazo** por meio de acordos coletivos. Isso protege o trabalhador contra práticas que poderiam reduzir seus direitos.  \n\n--- \n\n**Nota:** A decisão reflete a **rigidez das normas de ordem pública** na legislação trabalhista, que **não podem ser alteradas por acordos coletivos**, mesmo com a autonomia das partes.",
+  "tokens_in": 807,
+  "tokens_out": 2139,
+  "latency_ms": 73625,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": "",
+  "t_clingo_ms": 32,
+  "t_llm_ms": 73592,
+  "t_psi_build_ms": 0,
+  "t_theta_compute_ms": 0,
+  "qfeng_psi_n_dim": 2,
+  "qfeng_psi_s_dim": 2,
+  "qfeng_theta_rad": 2.2307694050963036,
+  "qfeng_theta_deg": 127.81367197892763,
+  "qfeng_theta_eff_rad": 2.2307694050963036,
+  "qfeng_theta_eff_deg": 127.81367197892763,
+  "qfeng_regime": "BLOCK",
+  "qfeng_p_action": 0.3869044161814975,
+  "qfeng_cos_theta": -0.6130955838185024,
+  "qfeng_cb_threshold_deg": 119.99999999999999
+}

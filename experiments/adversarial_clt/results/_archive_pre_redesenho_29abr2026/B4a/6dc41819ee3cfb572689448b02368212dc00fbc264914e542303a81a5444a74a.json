@@ -1,0 +1,29 @@
+{
+  "sha256": "6dc41819ee3cfb572689448b02368212dc00fbc264914e542303a81a5444a74a",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-010",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T06:56:42Z",
+  "prompt_sha": "69f27e043156ef457f00f79a887aee007d1b5c80255c85fc0fc244f02fff34fc",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG analisou as regras e contratos estabelecidos entre a empresa de tecnologia e o sindicato dos trabalhadores em informática, e determinou que a decisão é de **CONFORMIDADE** com as normas trabalhistas brasileiras. Isso ocorreu porque os predicados soberanos ativos indicam que não há nenhuma violação ou incompatibilidade com as leis e regulamentos trabalhistas.\n\nOs predicados soberanos ativos, como `sovereign(semester_hour_bank_requires_cct_or_act)`, indicam que a empresa está cumprindo com as exigências legais para o uso de bancos de horas. Já os predicados `invalidity_of_clause_suppressing_overtime_payment` e `prohibition_negotiation_reducing_overtime_additional` mostram que não há cláusulas contratuais que possam ser consideradas inválidas ou proibidas, especialmente aquelas relacionadas ao pagamento de horas extras.\n\nA decisão também é influenciada pelos predicados `overtime_minimum_additional_50pct`, que indica a necessidade de pagamento adicional de pelo menos 50% para horas extras, e `maximum_weekly_working_hours_44h` e `maximum_daily_working_hours_8h`, que estabelecem os limites máximos de horas trabalhadas semanalmente e diariamente.\n\n**2. PREDICADOS SOBERANOS ATIVOS**\n\n- `sovereign(semester_hour_bank_requires_cct_or_act)`: Indica que a empresa precisa ter um contrato coletivo (CCT) ou Acordo Coletivo de Trabalho (ACT) para utilizar bancos de horas.\n- `sovereign(invalidity_of_clause_suppressing_overtime_payment)`: Mostra que cláusulas contratuais que suprimam o pagamento de horas extras são inválidas.\n- `sovereign(weekly_hour_compensation_requires_written_agreement)`: Indica que a compensação de horas trabalhadas acima da jornada normal requer um acordo por escrito.\n- `sovereign(prohibition_negotiation_reducing_overtime_additional)`: Proíbe negociações para reduzir o pagamento adicional de horas extras.\n- `sovereign(overtime_minimum_additional_50pct)`: Exige que o pagamento adicional para horas extras seja pelo menos 50% a mais do salário normal.\n- `sovereign(maximum_weekly_working_hours_44h)` e `sovereign(maximum_daily_working_hours_8h)`: Estabelecem os limites máximos de horas trabalhadas semanalmente (44 horas) e diariamente (8 horas).\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nA decisão do sistema Q-FENG é que a empresa está cumprindo com as leis trabalhistas brasileiras. Isso significa que os contratos e práticas da empresa estão de acordo com as regras estabelecidas para proteger os direitos dos trabalhadores.\n\nEm resumo, a empresa tem um banco de horas com compensação mensal, limitado a 40 horas acumuladas por mês e com um prazo máximo de 5 meses. Não há horas extras acima de 2 horas por dia. Todos os saldos são compensados dentro do prazo estabelecido.\n\nA decisão é uma confirmação de que as práticas da empresa estão dentro das leis trabalhistas, garantindo o cumprimento dos direitos dos trabalhadores.",
+  "tokens_in": 539,
+  "tokens_out": 785,
+  "latency_ms": 13108,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

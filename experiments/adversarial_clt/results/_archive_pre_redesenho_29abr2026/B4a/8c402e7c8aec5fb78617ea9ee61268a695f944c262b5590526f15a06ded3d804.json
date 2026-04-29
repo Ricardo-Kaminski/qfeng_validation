@@ -1,0 +1,29 @@
+{
+  "sha256": "8c402e7c8aec5fb78617ea9ee61268a695f944c262b5590526f15a06ded3d804",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:49:12Z",
+  "prompt_sha": "a8d1c788e3de99920a389b72bb625722e4a5ecc3f4de5f08a57e80dccc55da81",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG determinou que houve violação das normas trabalhistas brasileiras. Isso ocorreu porque a empresa implantou o banco de horas unilateralmente, sem negociação sindical, e os empregados acumularam até 120h de banco em apenas 9 meses.\n\nA decisão se baseia nos predicados soberanos ativos, que estabelecem as regras básicas da legislação trabalhista. Em especial, o sistema considerou a falta de celebração de ACT ou CCT autorizantes pelo sindicato da categoria e a não observância das regras sobre banco de horas.\n\n**2. PREDICADOS SOBERANOS ATIVOS**\n\n- **sovereign(semester_hour_bank_requires_cct_or_act)**: Este predicado estabelece que, para o banco de horas ser válido, é necessário que seja celebrado um Acordo Coletivo de Trabalho (ACT) ou um Convenio Coletivo de Trabalho (CCT). Nesse caso, não houve celebração de nenhum desses documentos.\n\n- **sovereign(invalidity_of_clause_suppressing_overtime_payment)**: Este predicado indica que qualquer cláusula que suprima o pagamento de horas extras é inválida. A empresa, ao implantar o banco de horas, poderia estar tentando suprimir o pagamento das horas extras.\n\n- **sovereign(weekly_hour_compensation_requires_written_agreement)**: Este predicado estabelece que a compensação por horas trabalhadas em um período semanal requer um acordo escrito. A falta de tal acordo torna a implementação do banco de horas inválida.\n\n- **sovereign(prohibition_negotiation_reducing_overtime_additional)**: Este predicado proíbe qualquer negociação que reduza o pagamento adicional por horas extras. O banco de horas, se não for feito com base em um acordo válido, pode ser visto como uma tentativa de reduzir esse pagamento.\n\n- **sovereign(overtime_minimum_additional_50pct)**: Este predicado estabelece que o pagamento adicional por horas extras deve ser pelo menos 50% do salário normal. O banco de horas não é mencionado diretamente, mas a falta de pagamento das horas extras pode estar relacionada.\n\n- **sovereign(maximum_weekly_working_hours_44h)** e **sovereign(maximum_daily_working_hours_8h)**: Estes predicados estabelecem os limites máximos de horas trabalhadas por semana (44h) e por dia (8h), respectivamente. A acumulação de 120h em apenas 9 meses pode indicar violação dessas regras.\n\n- **sovereign(hour_bank_without_cct_max_6_months)**: Este predicado estabelece que, sem um CCT ou ACT autorizante, o banco de horas é válido por até 6 meses. A empresa alegou que os acordos individuais seriam válidos para banco de horas de até 6 meses, mas não há evidência de que esses acordos atendam aos requisitos legais.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nO sistema Q-FENG decidiu que a empresa fez algo errado ao implantar o banco de horas sem consultar os sindicatos e sem seguir as regras trabalhistas. Isso significa que os funcionários não estavam sendo pagos corretamente pelas horas extras trabalhadas.\n\nA decisão é baseada em leis que protegem os direitos dos trabalhadores, como a necessidade de um acordo coletivo para implementar o banco de horas e a proibição de reduzir o pagamento adicional por horas extras. Além disso, as regras sobre limite máximo de horas trabalhadas por semana e dia também foram violadas.\n\nEm resumo, a empresa não seguiu as leis trabalhistas ao implantar o banco de horas sem consultar os sindicatos e sem seguir as regras para pagamento das horas extras.",
+  "tokens_in": 532,
+  "tokens_out": 903,
+  "latency_ms": 15092,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

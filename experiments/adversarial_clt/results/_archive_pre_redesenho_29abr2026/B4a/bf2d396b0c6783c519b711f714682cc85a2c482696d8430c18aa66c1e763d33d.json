@@ -1,0 +1,26 @@
+{
+  "sha256": "bf2d396b0c6783c519b711f714682cc85a2c482696d8430c18aa66c1e763d33d",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-012",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T06:47:51Z",
+  "prompt_sha": "5a8f6c7e3f499c88bbaaf7f049ff195a1844aab8c62088076ae22a749461e3d3",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG chegou à decisão de VIOLACAO porque considerou que o uso do precedente do STJ sobre responsabilidade civil extracontratual, sem discussão da compatibilidade com o regime jurídico trabalhista, especialmente quanto aos critérios de fixação de dano moral estabelecidos na CLT após a Reforma de 2017, viola os princípios fundamentais do ordenamento jurídico.\n\nIsso se deve ao fato de que os predicados soberanos ativos indicam uma série de obrigações e direitos que foram descumpridos ou não considerados no processo. Em específico:\n\n- A obrigação de estabelecer as consequências práticas da decisão (obligation_to_state_practical_consequences_of_decision) foi violada, pois a aplicação do precedente civil não levou em conta as peculiaridades do direito trabalhista.\n- A proibição de citação de precedentes genéricos (prohibition_of_generic_precedent_citation) também foi descumprida, uma vez que o STJ foi utilizado como referência sem análise das suas compatibilidades com a CLT.\n- Foi omitido o dever de abordar todos os argumentos legais relevantes (obligation_to_address_all_legal_arguments), tornando a decisão parcial e incompleta.\n- A obrigação de fundamentar a decisão nos critérios específicos da ratio decidendi (obligation_to_ground_decision_in_identified_ratio_decidendi) também não foi cumprida, uma vez que a aplicação do STJ não se baseou em critérios próprios do direito trabalhista.\n- A obrigação constitucional de justificar as razões das decisões (constitutional_obligation_to_state_reasons_for_decisions) também foi violada, pois a motivação da decisão não contemplou os aspectos específicos do ordenamento jurídico trabalhista.\n- Finalmente, o direito de acesso à justiça e revisão judicial (right_of_access_to_justice_and_judicial_review) foi comprometido pela falta de análise crítica dos precedentes aplicados.\n\n**2. PREDICADOS ATIVADOS**\n\n- **obligation_to_state_practical_consequences_of_decision**: O sistema considera que a decisão deve ter consequências práticas claras e definidas, adequadas ao contexto trabalhista brasileiro.\n- **prohibition_of_generic_precedent_citation**: A utilização de precedentes genéricos sem análise da sua aplicabilidade específica no direito trabalhista é considerada inapropriada.\n- **obligation_to_address_all_legal_arguments**: O sistema espera que todos os argumentos legais relevantes sejam abordados e discutidos na decisão, evitando a parcialidade ou incompletude da fundamentação.\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: A decisão deve ser baseada nos critérios específicos estabelecidos pela ratio decidendi do caso concreto, e não apenas em precedentes genéricos.\n- **constitutional_obligation_to_state_reasons_for_decisions**: A motivação da decisão deve estar alinhada com os princípios constitucionais que garantem a justiça e a transparência no processo.\n- **right_of_access_to_justice_and_judicial_review**: O sistema considera fundamental o direito de acesso à justiça e revisão judicial, sendo essencial para a validade da decisão.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nO sistema Q-FENG decidiu que a decisão tomada pelo TRT foi incorreta porque utilizou um precedente de outro tribunal sem considerar as regras específicas do direito trabalhista brasileiro. Isso é como usar uma ferramenta para resolver um problema, mas não saber como ela funciona ou se ela está adequada para o caso.\n\nA decisão violou alguns princípios básicos da justiça e da transparência no processo. Ela não considerou as consequências práticas da decisão, não abordou todos os argumentos legais relevantes e não fundamentou a decisão nos critérios específicos do caso.\n\nAlém disso, a decisão comprometeu o direito de acesso à justiça e revisão judicial, que é fundamental para garantir que as decisões sejam justas e transparentes. Por isso, o sistema Q-FENG decidiu que a decisão foi incorreta e deve ser revista.",
+  "tokens_in": 511,
+  "tokens_out": 1007,
+  "latency_ms": 16828,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

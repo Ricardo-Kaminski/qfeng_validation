@@ -1,0 +1,29 @@
+{
+  "sha256": "bf676e93d2373387d148826f1a4d6f97fea509667b1b32aac931f7a8f6396663",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-007",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T05:57:05Z",
+  "prompt_sha": "1970504ab2b4a3698fb4bb32d084c198f45cfb327a995ae3f86ed94249f3c1d4",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, após análise do cenário apresentado e da legislação correlacionada, concluiu que houve uma **violação** dos direitos trabalhistas do empregado. A decisão se baseia na ausência de cumprimento das obrigações da empresa em relação ao banco de horas, mesmo dentro do prazo estabelecido na Convenção Coletiva de Trabalho (CCT).\n\nA empresa alegou necessidade operacional permanente para não conceder folgas compensatórias ao longo do período, o que, segundo o Q-FENG, não justifica a inobservância da CCT e a subsequente não compensação ou pagamento do saldo de horas ao final do prazo. A CCT, embora não preveja expressamente um mecanismo de pagamento em caso de não-compensação, a ausência de folgas e a não quitação do saldo ao final do prazo configuram uma violação dos direitos do trabalhador, especialmente considerando a natureza compensatória do banco de horas.\n\nA decisão é reforçada pela ativação de diversos predicados soberanos que protegem os direitos do trabalhador em relação à jornada de trabalho e à compensação de horas extras, como a proibição de cláusulas que suprimam o pagamento de horas extras e a garantia de um adicional mínimo de 50% sobre as horas extras. A ativação do predicado `elastic(hour_bank_without_cct_max_6_months)` indica que, mesmo na ausência de regulamentação específica na CCT, a legislação permite um prazo máximo de 6 meses para compensação do banco de horas, o que não foi respeitado no caso.\n\n## PREDICADOS ATIVADOS: SIGNIFICADO JURÍDICO\n\n*   **sovereign(semester_hour_bank_requires_cct_or_act):**  Este predicado indica que a utilização do banco de horas deve estar expressamente prevista em uma Convenção Coletiva de Trabalho (CCT) ou em um acordo individual, garantindo a transparência e a proteção dos direitos do trabalhador.\n*   **sovereign(invalidity_of_clause_suppressing_overtime_payment):** Cláusulas contratuais ou em CCTs que tentam suprimir o direito ao pagamento de horas extras são consideradas inválidas e não têm efeito legal. A alegação de necessidade operacional não justifica essa supressão.\n*   **sovereign(weekly_hour_compensation_requires_written_agreement):** A compensação de horas extras além do limite legal (44 horas semanais) deve ser formalizada por escrito, garantindo a comprovação e a segurança jurídica para ambas as partes.\n*   **sovereign(prohibition_negotiation_reducing_overtime_additional):** É proibido negociar a redução do adicional de horas extras, que é um direito irrenunciável do trabalhador.\n*   **sovereign(overtime_minimum_additional_50pct):** O adicional de horas extras deve ser de, no mínimo, 50% sobre a hora normal de trabalho.\n*   **sovereign(maximum_weekly_working_hours_44h):** A jornada de trabalho semanal não pode ultrapassar 44 horas.\n*   **sovereign(maximum_daily_working_hours_8h):** A jornada de trabalho diária não pode ultrapassar 8 horas.\n*   **elastic(hour_bank_without_cct_max_6_months):** Mesmo que a CCT não preveja um prazo específico, a legislação trabalhista estabelece um prazo máximo de 6 meses para a compensação do banco de horas, sob pena de ser considerado como hora extra.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"A empresa errou ao não te dar folgas ou pagar as horas extras que você acumulou no banco de horas. A lei diz que a empresa só pode usar o banco de horas se isso estiver escrito em um acordo entre os trabalhadores e os empregadores (CCT). Mesmo que a empresa diga que precisava de você para trabalhar, isso não justifica não te dar as folgas ou pagar o que você tem a receber.\n\nAlém disso, a lei protege seus direitos: você tem direito a receber um acréscimo de pelo menos 50% sobre as horas extras, e a empresa não pode simplesmente decidir que você não vai receber esse valor. A lei também limita quantas horas você pode trabalhar por semana e por dia.\n\nMesmo que o acordo entre trabalhadores e empregadores não diga exatamente o que fazer se você não tirar as folgas, a lei diz que você tem no máximo 6 meses para compensar essas horas. Como já se passaram mais de 6 meses, a empresa precisa te pagar essas horas extras.\"\n",
+  "tokens_in": 523,
+  "tokens_out": 1022,
+  "latency_ms": 28453,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,29 @@
+{
+  "sha256": "3ed96b5865216a0f431d503a63f62f46079e660aa117772fa4846fcd0361ba57",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T04:39:09Z",
+  "prompt_sha": "5f9cbe1e74df8f9f09dd27156f26d2bdba133bb47bb48855f1d568c3bfa09a2e",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que houve uma violação na forma como a empresa tratou o pagamento das horas do banco de horas ao empregado demitido sem justa causa. A decisão baseia-se em vários predicados soberanos ativos, que são princípios jurídicos fundamentais no contexto trabalhista brasileiro.\n\nPrimeiramente, o predicado `sovereign(semester_hour_bank_requires_cct_or_act)` estabelece que a existência e operação de um banco de horas devem ser formalmente acordadas através de uma Convenção Coletiva de Trabalho (CCT) ou por acordo individual escrito. No caso em questão, o banco de horas foi estabelecido por CCT, conferindo-lhe validade.\n\nO predicado `sovereign(invalidity_of_clause_suppressing_overtime_payment)` indica que qualquer cláusula que tente suprimir ou reduzir o pagamento adicional pelo trabalho em horas extras é inválida. Isso significa que as horas não compensadas antes da rescisão do contrato, se consideradas como horas extras, deveriam ser pagas com um adicional de 50%, conforme previsto na legislação trabalhista.\n\nAlém disso, o predicado `sovereign(overtime_minimum_additional_50pct)` reforça que qualquer hora extra deve ser compensada com pelo menos 50% a mais do valor da hora normal. Portanto, ao pagar as horas remanescentes como horas normais e não como extras, a empresa violou este princípio.\n\n### 2. PREDICADOS ATIVADOS\n\n- **sovereign(semester_hour_bank_requires_cct_or_act):** Este predicado estabelece que um banco de horas deve ser formalizado por meio de uma Convenção Coletiva de Trabalho (CCT) ou acordo individual escrito, garantindo sua validade legal.\n\n- **sovereign(invalidity_of_clause_suppressing_overtime_payment):** Este princípio afirma que qualquer cláusula que tente eliminar ou reduzir o pagamento adicional por horas extras é inválida. As leis trabalhistas protegem o direito dos empregados a receberem um adicional pelo trabalho além da jornada normal.\n\n- **sovereign(weekly_hour_compensation_requires_written_agreement):** Este predicado indica que qualquer compensação de horas, especialmente aquelas que envolvam alterações na jornada de trabalho semanal, deve ser formalizada por escrito para garantir sua validade e transparência.\n\n- **sovereign(prohibition_negotiation_reducing_overtime_additional):** Este princípio proíbe a negociação ou acordo que reduza o adicional previsto para horas extras. O mínimo de 50% é uma proteção legal assegurada aos trabalhadores.\n\n- **sovereign(overtime_minimum_additional_50pct):** Estabelece que qualquer hora extra deve ser compensada com um adicional mínimo de 50% sobre o valor da hora normal, conforme a legislação trabalhista brasileira.\n\n- **sovereign(maximum_weekly_working_hours_44h) e sovereign(maximum_daily_working_hours_8h):** Estes predicados definem os limites máximos para a jornada de trabalho semanal (44 horas) e diária (8 horas), respeitando as normas trabalhistas.\n\n- **elastic(hour_bank_without_cct_max_6_months):** Este predicado elástico permite que um banco de horas possa existir por até seis meses mesmo sem CCT, mas isso não se aplica ao caso em questão, pois o banco foi estabelecido por CCT.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG decidiu que a empresa fez algo errado ao pagar as horas do banco de horas como se fossem horas normais, e não como horas extras. Isso é importante porque, segundo a lei, qualquer hora extra deve ser paga com um adicional de 50%. No seu caso, como essas horas não foram usadas antes da demissão, elas devem ser consideradas como horas extras e pagas com esse adicional. A empresa não pode simplesmente ignorar essa regra apenas porque o banco de horas foi acordado em um contrato coletivo. Portanto, você tem razão ao pedir que essas horas sejam pagas com o adicional de 50%.",
+  "tokens_in": 533,
+  "tokens_out": 993,
+  "latency_ms": 28842,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

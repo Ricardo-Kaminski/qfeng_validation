@@ -1,0 +1,30 @@
+{
+  "sha256": "91400a101ca091c498b92ad8bd5d7568fc7533ec45bf514b2195e309fa16853e",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T07:05:55Z",
+  "prompt_sha": "1a431bd2539a105bc27830e043de65433739a538537c1d00dbf3cc5df9c24aaf",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após analisar o caso e os predicados ativos, decidiu que a decisão da TRT deve ser considerada em conformidade com as regras jurídicas aplicáveis. Isso significa que a decisão tomada pela TRT de acolher a ação sobre adicional noturno, baseada na Súmula TST 60, é correta e está em consonância com os princípios constitucionais e legais.\n\nA decisão se baseia nos predicados soberanos ativos que exigem a consideração das seguintes obrigações:\n\n- A obrigação de estabelecer as consequências práticas da decisão (sovereign(obligation_to_state_practical_consequences_of_decision));\n- A proibição de citação de precedentes genéricos (sovereign(prohibition_of_generic_precedent_citation));\n- A necessidade de abordar todos os argumentos legais relevantes (sovereign(obligation_to_address_all_legal_arguments));\n- A obrigação de fundamentar a decisão no ratio decidendi identificado (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi));\n- A obrigação constitucional de justificar as razões das decisões (sovereign(constitutional_obligation_to_state_reasons_for_decisions));\n- O reconhecimento da negociação coletiva como parte do direito trabalhista (sovereign(recognition_of_collective_bargaining));\n- O respeito ao direito de acesso à justiça e revisão judicial (sovereign(right_of_access_to_justice_and_judicial_review)).\n\nEsses predicados garantem que a decisão seja tomada com base em fundamentos legais sólidos, respeitando os princípios constitucionais e as regras jurídicas aplicáveis ao direito trabalhista brasileiro.\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: Essa obrigação significa que a decisão deve ser fundamentada de forma clara e objetiva, estabelecendo as consequências práticas da decisão tomada. Isso inclui explicar como a decisão afetará os trabalhadores envolvidos.\n\n- **sovereign(prohibition_of_generic_precedent_citation)**: Esse predicado proíbe que a decisão seja fundamentada em precedentes genéricos ou semelhanças vagas com outros casos. Em vez disso, a decisão deve ser baseada nos fatos específicos do caso e nas regras jurídicas aplicáveis.\n\n- **sovereign(obligation_to_address_all_legal_arguments)**: A obrigação de abordar todos os argumentos legais relevantes significa que a decisão deve considerar todas as questões jurídicas pertinentes ao caso, não apenas aquelas que beneficiam uma das partes envolvidas.\n\n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A obrigação de fundamentar a decisão no ratio decidendi identificado significa que a decisão deve ser baseada em um princípio ou regra jurídica específico que é aplicável ao caso concreto.\n\n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: A obrigação constitucional de justificar as razões das decisões significa que a decisão deve ser fundamentada em princípios e regras jurídicas que estejam em consonância com a Constituição.\n\n- **sovereign(recognition_of_collective_bargaining)**: O reconhecimento da negociação coletiva como parte do direito trabalhista significa que as decisões devem respeitar e proteger os acordos coletivos entre empregadores e sindicatos, que são fundamentais para a estabilidade laboral.\n\n- **sovereign(right_of_access_to_justice_and_judicial_review)**: O respeito ao direito de acesso à justiça e revisão judicial significa que as decisões devem ser tomadas de forma transparente e com base em procedimentos legítimos, permitindo a revisão das decisões por instâncias superiores.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nA decisão da TRT é que o empregado tem direito ao adicional noturno porque ele trabalha em um regime de revezamento, como descrito na Súmula TST 60. Isso significa que, quando você trabalha à noite, você deve receber mais dinheiro para compensar a dificuldade de trabalhar fora do horário normal.\n\nA decisão foi tomada com base nas regras jurídicas aplicáveis e respeita os direitos dos trabalhadores, como o direito de negociar coletivamente e ter acesso à justiça. A decisão também é transparente e fundamenta as razões pelas quais a TRT decidiu a favor do empregado.\n\nLembre-se de que a decisão não contradiz ou altera a regra jurídica, mas sim aplica-a ao caso concreto com base nos fatos apresentados.",
+  "tokens_in": 584,
+  "tokens_out": 1154,
+  "latency_ms": 19421,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

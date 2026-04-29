@@ -1,0 +1,43 @@
+{
+  "sha256": "f48a93c5fe965b7de4a092fa7cc6bb1e9730aa322cde302dfcb8d38080cc46ad",
+  "braco": "B5",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T13:50:26Z",
+  "prompt_sha": "4cdb4494f20fb8cebd88ffeadcb92ecf0ea28886eefa69f21821bfe27f3dea4f",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO motor de inferência Q-FENG identificou uma **fricção ontológica crítica (θ = 127,81°)**, que ultrapassa o limiar de **120°** para o regime **CIRCUIT_BREAKER**. Essa fricção surge da **incompatibilidade entre a prática da empresa (banco de horas sem registro da ACT) e os predicados soberanos ativos**, que representam normas jurídicas fundamentais no Direito do Trabalho brasileiro.  \n\n- **Predicado sovereign(semester_hour_bank_requires_cct_or_act)**: A validade do banco de horas depende da **existência de um acordo coletivo (CCT ou ACT) registrado na SRTE**. A ausência de registro **invalida a norma**, mesmo que a empresa alegue que a ACT foi assinada.  \n- **Predicado sovereign(invalidity_of_clause_suppressing_overtime_payment)**: Cláusulas que **suprimem o pagamento de horas extras** são **nulas de pleno direito**, independentemente de acordo.  \n- **Predicado sovereign(weekly_hour_compensation_requires_written_agreement)**: A compensação de horas semanais **exige um acordo escrito**, que não foi cumprido.  \n- **Predicado sovereign(prohibition_negotiation_reducing_overtime_additional)**: A **redução da adicional de horas extras** é **proibida por lei**, independentemente de negociação.  \n\nA fricção ontológica (θ) reflete a **conflitividade entre a prática da empresa e a norma simbólica** (predicados soberanos). Como θ ≥ 120°, o regime **CIRCUIT_BREAKER** é acionado, **suprimindo a ação** (recomendação de **VIOLACAO**) e exigindo a **correção imediata da ilegalidade**.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(semester_hour_bank_requires_cct_or_act)**: O banco de horas por semestre **só é válido se houver um CCT ou ACT registrado na SRTE**. A ausência de registro **invalida a norma**, mesmo que a empresa alegue que a ACT foi assinada.  \n- **sovereign(invalidity_of_clause_suppressing_overtime_payment)**: Cláusulas que **eliminem o pagamento de horas extras** são **nulas de pleno direito**, independentemente de acordo.  \n- **sovereign(weekly_hour_compensation_requires_written_agreement)**: A compensação de horas semanais **exige um acordo escrito**, que não foi cumprido.  \n- **sovereign(prohibition_negotiation_reducing_overtime_additional)**: A **redução da adicional de horas extras** é **proibida por lei**, independentemente de negociação.  \n- **sovereign(overtime_minimum_additional_50pct)**: A **adicional de horas extras deve ser de pelo menos 50%** do valor da hora normal.  \n- **sovereign(maximum_weekly_working_hours_44h)**: O **limite máximo semanal de horas é 44h**, independentemente de acordo.  \n- **sovereign(maximum_daily_working_hours_8h)**: O **limite máximo diário de horas é 8h**, independentemente de acordo.  \n\n---\n\n### 3. **INTERPRETAÇÃO DO REGIME**  \nO regime **CIRCUIT_BREAKER** (θ ≥ 120°) significa que o sistema **bloqueia a ação** (recomendação de **VIOLACAO**) e **exige a correção imediata da ilegalidade**. No contexto jurídico:  \n- A **empresa está violando normas fundamentais** (predicados soberanos), como a **obrigatoriedade de registro da ACT** e a **proibição de cláusulas que suprimam direitos trabalhistas**.  \n- O **CIRCUIT_BREAKER** atua como um **mecanismo de segurança**, impedindo que a prática ilegal continue e exigindo que a empresa **regularize a situação** (ex.: registrar a ACT, pagar horas extras, respeitar limites de horas).  \n- A **probabilidade de ação (Born Rule: 0,3869)** indica que, mesmo com a fricção, há **algum grau de ambiguidade** (ex.: a empresa alega que a ACT seria válida desde a assinatura), mas o sistema **não reconhece essa ambiguidade como justificativa para a ilegalidade**.  \n\n---\n\n### 4. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa **não seguiu a lei** ao criar um banco de horas sem registrar o acordo com o sindicato. Mesmo que a empresa acredite que o acordo é válido, a **lei exige que ele seja registrado na SRTE**. Por isso, o sistema **bloqueia a ação** e **recomenda que a empresa seja punida** (VIOLACAO), pois:  \n- **O acordo não registrado é inválido**.  \n- **A empresa está desrespeitando direitos básicos** (ex.: pagamento de horas extras, limites de horas por dia e semana).  \n- **O trabalhador tem direito de exigir que a empresa corrija a situação**. Se não houver correção, a empresa pode ser multada ou obrigada a pagar horas extras retroativamente.  \n\nEm resumo: **a empresa está errada, e o sistema está alertando que isso precisa ser corrigido imediatamente**.",
+  "tokens_in": 782,
+  "tokens_out": 1752,
+  "latency_ms": 59328,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": "",
+  "t_clingo_ms": 46,
+  "t_llm_ms": 59282,
+  "t_psi_build_ms": 0,
+  "t_theta_compute_ms": 0,
+  "qfeng_psi_n_dim": 2,
+  "qfeng_psi_s_dim": 2,
+  "qfeng_theta_rad": 2.2307694050963036,
+  "qfeng_theta_deg": 127.81367197892763,
+  "qfeng_theta_eff_rad": 2.2307694050963036,
+  "qfeng_theta_eff_deg": 127.81367197892763,
+  "qfeng_regime": "BLOCK",
+  "qfeng_p_action": 0.3869044161814975,
+  "qfeng_cos_theta": -0.6130955838185024,
+  "qfeng_cb_threshold_deg": 119.99999999999999
+}

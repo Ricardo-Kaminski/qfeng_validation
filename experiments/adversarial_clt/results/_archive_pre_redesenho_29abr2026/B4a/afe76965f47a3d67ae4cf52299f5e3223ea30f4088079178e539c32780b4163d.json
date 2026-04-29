@@ -1,0 +1,27 @@
+{
+  "sha256": "afe76965f47a3d67ae4cf52299f5e3223ea30f4088079178e539c32780b4163d",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:59:31Z",
+  "prompt_sha": "9ea3cbb73b13c3be77a30f2262e99311a38ad1cb70d480f6518cd2867401d28a",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG determinou que houve conformidade na contagem do prazo de compensação do banco de horas da trabalhadora. Isso ocorreu porque a empresa suspendeu o cômputo do banco durante a licença maternidade e reativou ao retorno, dentro do prazo estabelecido na CCT (Convenção Coletiva de Trabalho). A decisão se baseia nos predicados soberanos ativos que garantem os direitos coletivos e as condições de trabalho negociadas entre a empresa e o sindicato.\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\nOs predicados sovereign ativos são fundamentais para a análise da decisão do Q-FENG:\n\n- **sovereign(recognition_of_collective_bargaining)**: Este predicado garante a validade das negociações coletivas entre a empresa e o sindicato, incluindo as CCTs. Isso significa que os acordos feitos entre as partes têm força de lei para regular as condições de trabalho.\n\n- **sovereign(maximum_weekly_working_hours_44h)**: Este predicado estabelece o limite máximo semanal de horas trabalhadas, que é de 44 horas. Isso ajuda a garantir um equilíbrio entre o tempo de trabalho e o descanso do empregado.\n\n- **sovereign(maximum_daily_working_hours_8h)**: Este predicado estabelece o limite máximo diário de horas trabalhadas, que é de 8 horas. Isso também visa garantir um equilíbrio entre a jornada de trabalho e o tempo de descanso.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nImagine que você tem um acordo com sua empresa sobre como você trabalha e quanto tempo você pode passar no trabalho. Esse acordo é chamado de CCT (Convenção Coletiva de Trabalho). Se você precisa tirar uma licença, o seu banco de horas não conta durante esse período, mas quando você volta ao trabalho, a contagem continua do ponto onde parou.\n\nNeste caso, a empresa suspendeu a contagem do banco de horas da trabalhadora enquanto ela estava em licença maternidade e continuou depois que ela voltou. Isso aconteceu dentro do prazo estabelecido no acordo entre a empresa e o sindicato, então não houve problema.\n\nA decisão do Q-FENG é simples: a empresa fez as coisas corretas de acordo com o acordo entre elas e o sindicato.",
+  "tokens_in": 509,
+  "tokens_out": 578,
+  "latency_ms": 9842,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

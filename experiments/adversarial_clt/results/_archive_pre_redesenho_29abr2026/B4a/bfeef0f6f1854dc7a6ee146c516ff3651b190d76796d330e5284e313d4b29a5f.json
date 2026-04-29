@@ -1,0 +1,26 @@
+{
+  "sha256": "bfeef0f6f1854dc7a6ee146c516ff3651b190d76796d330e5284e313d4b29a5f",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T05:20:03Z",
+  "prompt_sha": "f2939f0e6492edddd924d6caf369ebeb9d70b95b1796bba0e04e7028b5864a9f",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, ao analisar o cenário apresentado, determinou que a decisão deve ser de conformidade com os predicados soberanos ativos identificados. A análise foi conduzida sob a perspectiva dos princípios jurídicos fundamentais estabelecidos no ordenamento trabalhista brasileiro.\n\nO acórdão trabalhista em questão adotou uma abordagem meticulosa, identificando e transcrevendo o número do precedente (TST-Ag-RR-868-65.2021.5.13.0030), bem como a ementa correspondente. A compatibilidade fática entre o caso concreto — envolvendo um banco de horas em CCT bancária — e o precedente foi cuidadosamente analisada, aplicando-se a ratio decidendi ao contexto específico do caso.\n\nA decisão fundamentou-se na obrigação de estabelecer as consequências práticas da decisão (sovereign(obligation_to_state_practical_consequences_of_decision)), garantindo que todas as bases legais e jurisprudenciais fossem identificadas e verificáveis. Além disso, houve uma proibição explícita de citação genérica de precedentes (sovereign(prohibition_of_generic_precedent_citation)), reforçando a necessidade de fundamentação específica.\n\nA decisão também respeitou a obrigação de abordar todos os argumentos legais apresentados (sovereign(obligation_to_address_all_legal_arguments)) e de ancorar-se na ratio decidendi identificada (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)). Além disso, o acórdão cumpriu a obrigação constitucional de explicitar as razões para a decisão (sovereign(constitutional_obligation_to_state_reasons_for_decisions)), garantindo assim o direito de acesso à justiça e ao controle jurisdicional (sovereign(right_of_access_to_justice_and_judicial_review)).\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obrigação de estabelecer as consequências práticas da decisão**: Juridicamente, isso significa que a decisão deve ser clara sobre como ela afetará os envolvidos, garantindo que todos compreendam o impacto prático do veredicto.\n\n- **Proibição de citação genérica de precedentes**: Isso implica que qualquer referência a casos anteriores deve ser específica e diretamente relevante ao caso em questão, evitando generalizações que não se aplicam à situação concreta.\n\n- **Obrigação de abordar todos os argumentos legais apresentados**: Significa que o julgador deve considerar e responder a todas as questões jurídicas levantadas pelas partes, garantindo uma análise completa e justa do caso.\n\n- **Obrigação de ancorar-se na ratio decidendi identificada**: Refere-se à necessidade de fundamentar a decisão com base no princípio ou razão central que guiou o precedente aplicado, assegurando coerência lógica e jurídica.\n\n- **Obrigação constitucional de explicitar as razões para a decisão**: Isso garante transparência e compreensão sobre os motivos pelos quais uma determinada decisão foi tomada, permitindo que as partes entendam o raciocínio do julgador.\n\n- **Direito de acesso à justiça e ao controle jurisdicional**: Assegura que todas as partes tenham a oportunidade de buscar revisão judicial das decisões, garantindo um sistema de justiça acessível e responsável.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO tribunal analisou cuidadosamente o caso envolvendo horas extras em um banco e decidiu que a situação se encaixa bem com uma decisão anterior semelhante. Eles garantiram que todas as leis relevantes foram consideradas e explicaram claramente por que essa decisão foi tomada, mostrando como ela afeta você.\n\nEles também se certificaram de não usar exemplos genéricos ou irrelevantes para justificar a decisão, mas sim focaram em detalhes específicos do seu caso. Além disso, eles responderam a todos os argumentos que você apresentou e explicaram claramente o motivo da sua decisão.\n\nEm resumo, a decisão foi tomada de forma justa e transparente, garantindo que você entenda como ela afeta você e suas opções para buscar revisão judicial se necessário.",
+  "tokens_in": 558,
+  "tokens_out": 1041,
+  "latency_ms": 30609,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

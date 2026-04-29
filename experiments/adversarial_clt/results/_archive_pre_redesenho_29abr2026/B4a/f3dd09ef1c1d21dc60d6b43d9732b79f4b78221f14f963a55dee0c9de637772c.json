@@ -1,0 +1,30 @@
+{
+  "sha256": "f3dd09ef1c1d21dc60d6b43d9732b79f4b78221f14f963a55dee0c9de637772c",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T07:07:30Z",
+  "prompt_sha": "ae558655ffa0f1123903cf70da28171aff110a52218cb4360d65fad0dbdb72bf",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após analisar os fatos do caso e as regras jurídicas aplicáveis, chegou à decisão de CONFORMIDADE. Isso significa que o banco deve cumprir com a decisão tomada pelo Tribunal Regional do Trabalho (TRT), que citou a Súmula TST 85 para resolver o caso de banco de horas sem Contrato Coletivo de Trabalho (CCT) com período de 5 meses.\n\nA decisão foi influenciada pelos predicados soberanos ativos, que estabelecem as obrigações do Estado e da Justiça no processo. Em particular, os predicados \"obligation_to_state_practical_consequences_of_decision\" e \"obligation_to_ground_decision_in_identified_ratio_decidendi\" exigiram que a decisão fosse fundamentada de acordo com a Súmula TST 85 e que as razões para a decisão fossem explicitadas.\n\nAlém disso, o predicado \"prohibition_of_generic_precedent_citation\" proibiu a citação de precedentes genéricos, exigindo que a decisão seja baseada em argumentos específicos e aplicáveis ao caso concreto. Por fim, o predicado \"recognition_of_collective_bargaining\" reconheceu a importância da negociação coletiva entre empregadores e empregados, reforçando a necessidade de cumprimento das decisões judiciais.\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\nOs predicados soberanos ativos são os seguintes:\n\n*   **obligation_to_state_practical_consequences_of_decision**: O Estado tem a obrigação de informar as consequências práticas da decisão tomada.\n*   **prohibition_of_generic_precedent_citation**: É proibido citar precedentes genéricos, exigindo que a decisão seja baseada em argumentos específicos e aplicáveis ao caso concreto.\n*   **obligation_to_address_all_legal_arguments**: O Estado tem a obrigação de abordar todos os argumentos legais relevantes no processo.\n*   **obligation_to_ground_decision_in_identified_ratio_decidendi**: A decisão deve ser fundamentada com base na razão decidendi, ou seja, a regra jurídica aplicável ao caso concreto.\n*   **constitutional_obligation_to_state_reasons_for_decisions**: O Estado tem a obrigação constitucional de informar as razões para as decisões tomadas.\n*   **recognition_of_collective_bargaining**: Reconhece a importância da negociação coletiva entre empregadores e empregados, reforçando a necessidade de cumprimento das decisões judiciais.\n*   **right_of_access_to_justice_and_judicial_review**: O direito ao acesso à justiça e à revisão judicial é garantido.\n\nEsses predicados soberanos ativos refletem as obrigações do Estado e da Justiça no processo, incluindo a necessidade de fundamentação das decisões e o reconhecimento da importância da negociação coletiva.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nEm linguagem simples, a decisão significa que o banco deve cumprir com as horas trabalhadas pelos funcionários sem Contrato Coletivo de Trabalho (CCT) e pagar 50% a mais por hora trabalhada. Isso porque a Súmula TST 85 foi citada para resolver o caso, e a decisão foi fundamentada com base nessa regra jurídica.\n\nA decisão também afastou a tese da empresa de \"acordo tácito\" com fundamento em que acordo tácito não substitui CCT/ACT para banco de horas. Isso significa que o acordo tácito entre empregador e empregado não pode ser usado como justificativa para não cumprir as regras trabalhistas.\n\nEm resumo, a decisão é uma ordem para o banco cumprir com as leis trabalhistas e pagar os funcionários de acordo com as horas trabalhadas.",
+  "tokens_in": 588,
+  "tokens_out": 921,
+  "latency_ms": 15437,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

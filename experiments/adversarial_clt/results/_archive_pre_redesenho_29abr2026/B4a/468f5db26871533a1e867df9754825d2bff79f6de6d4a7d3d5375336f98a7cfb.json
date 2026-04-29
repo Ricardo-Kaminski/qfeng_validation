@@ -1,0 +1,27 @@
+{
+  "sha256": "468f5db26871533a1e867df9754825d2bff79f6de6d4a7d3d5375336f98a7cfb",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-011",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T05:01:20Z",
+  "prompt_sha": "1ba5dabfcaa2bdcb6e6f3d2a77f11a19a64ac5023093b1ae0eb6de908514e992",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que houve uma violação na situação apresentada com base nos predicados soberanos e elásticos ativos. A decisão de \"VIOLACAO\" decorre da análise dos princípios normativos estabelecidos pela CLT (Consolidação das Leis do Trabalho) e da CCT (Convenção Coletiva de Trabalho) em vigor.\n\nOs predicados soberanos ativos, que são normas rígidas não negociáveis, incluem o reconhecimento da convenção coletiva de trabalho como fonte suplementar de direitos, bem como as limitações máximas de horas semanais e diárias de trabalho. A empresa alegou que o prazo para compensação das horas acumuladas no banco deveria ser suspenso durante o período de afastamento do trabalhador por acidente de trabalho. No entanto, como nenhuma cláusula específica na CCT prevê essa suspensão, e considerando a ausência de uma norma legal que obrigue tal suspensão, a decisão de exigir compensação após o retorno do trabalhador ultrapassou o prazo estabelecido para o banco de horas.\n\nOs predicados elásticos ativos permitem alguma flexibilidade na negociação das condições de trabalho, como a possibilidade de um banco de horas anual negociável e a definição de limites máximos para o acúmulo dessas horas. No entanto, essa flexibilidade não se estende à alteração do prazo máximo de compensação sem uma cláusula específica na CCT.\n\nPortanto, ao exigir que as horas acumuladas fossem compensadas após um período que ultrapassou os 12 meses permitidos pelo banco de horas, a empresa violou o limite temporal estabelecido pela norma elástica vigente, resultando na decisão de \"VIOLACAO\".\n\n### 2. PREDICADOS ATIVADOS\n\n- **sovereign(recognition_of_collective_bargaining)**: Este predicado reflete o princípio da CLT que reconhece a convenção coletiva de trabalho como uma fonte suplementar de direitos, permitindo que as partes negociem condições específicas para os trabalhadores além das normas gerais estabelecidas na legislação.\n\n- **sovereign(maximum_weekly_working_hours_44h)**: Este predicado representa a regra da CLT que limita o trabalho semanal de um empregado a 44 horas, salvo acordo ou convenção coletiva em contrário. É uma norma rígida destinada a proteger os trabalhadores contra jornadas excessivas.\n\n- **sovereign(maximum_daily_working_hours_8h)**: Este predicado estabelece o limite máximo de 8 horas diárias de trabalho, conforme previsto na CLT, garantindo que os empregados tenham tempo adequado para descanso e recuperação entre jornadas.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG decidiu que a empresa fez algo errado ao exigir que o trabalhador compensasse as horas acumuladas após um período maior do que o permitido pela regra de banco de horas, que é de até 12 meses. A empresa argumentou que esse prazo deveria ser pausado enquanto o trabalhador estava afastado por acidente, mas a convenção coletiva não tinha uma cláusula específica para isso.\n\nAs leis do trabalho e as regras negociadas entre empregadores e sindicatos estabelecem que, mesmo com flexibilidade em algumas áreas, como o tempo de compensação das horas extras, não se pode ultrapassar os limites sem uma cláusula específica. Como a empresa exigiu a compensação após mais do que 12 meses, isso foi considerado um erro, resultando na decisão de \"VIOLACAO\".",
+  "tokens_in": 542,
+  "tokens_out": 900,
+  "latency_ms": 26094,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

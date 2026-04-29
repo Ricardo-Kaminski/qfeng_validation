@@ -1,0 +1,26 @@
+{
+  "sha256": "46cc6c014cb6a68a9647af6f00f1b2f3f72355b90cc9a842246f71b15d8a552e",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CTRL-NEG-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T05:20:32Z",
+  "prompt_sha": "f2939f0e6492edddd924d6caf369ebeb9d70b95b1796bba0e04e7028b5864a9f",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que o acórdão deve ser conforme com os princípios jurídicos estabelecidos pelos predicados soberanos ativos, garantindo a conformidade com as normas e precedentes aplicáveis ao caso em questão. A decisão foi baseada na análise criteriosa do número do precedente (TST-Ag-RR-868-65.2021.5.13.0030), que foi adequadamente transcrita, analisada quanto à sua compatibilidade fática com o caso concreto e aplicada corretamente através da ratio decidendi identificada.\n\nOs predicados soberanos ativos garantiram que a decisão fosse fundamentada nas razões práticas decorrentes do acórdão (obligation_to_state_practical_consequences_of_decision), evitando citações genéricas de precedentes não aplicáveis (prohibition_of_generic_precedent_citation). Além disso, foi assegurado que todas as argumentações legais pertinentes foram abordadas (obligation_to_address_all_legal_arguments) e que a decisão se baseou firmemente na ratio decidendi identificada (obligation_to_ground_decision_in_identified_ratio_decidendi). A conformidade com o dever constitucional de explicitar os motivos da decisão foi observado (constitutional_obligation_to_state_reasons_for_decisions), respeitando, assim, o direito ao acesso à justiça e à revisão judicial (right_of_access_to_justice_and_judicial_review).\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obligation to State Practical Consequences of Decision**: Juridicamente, este predicado implica que a decisão deve explicitar as consequências práticas do acórdão para o caso concreto, garantindo clareza sobre como a aplicação da lei afeta as partes envolvidas.\n\n- **Prohibition of Generic Precedent Citation**: Este predicado proíbe a citação de precedentes que não sejam diretamente aplicáveis ao caso em questão. Isso significa que apenas decisões passadas com fatos e fundamentações semelhantes podem ser usadas para embasar o julgamento.\n\n- **Obligation to Address All Legal Arguments**: Este predicado exige que todas as argumentações legais apresentadas pelas partes sejam consideradas na decisão. Isso garante um julgamento justo e completo, onde nenhuma alegação relevante é ignorada.\n\n- **Obligation to Ground Decision in Identified Ratio Decidendi**: Este predicado estabelece que a decisão deve ser fundamentada no raciocínio jurídico central (ratio decidendi) do precedente aplicável. Isso assegura que a decisão esteja alinhada com os princípios e interpretações legais já estabelecidos.\n\n- **Constitutional Obligation to State Reasons for Decisions**: Juridicamente, este predicado impõe o dever de explicitar os motivos pelos quais uma determinada decisão foi tomada. Isso é essencial para a transparência e legitimidade do processo judicial.\n\n- **Right of Access to Justice and Judicial Review**: Este predicado protege o direito das partes de acessarem a justiça e de terem suas decisões revisadas, garantindo que o sistema jurídico seja justo e equitativo.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema decidiu que o julgamento foi feito corretamente, seguindo as regras e exemplos anteriores que se aplicam ao seu caso. Isso significa que a decisão leva em conta um caso semelhante já decidido antes (o número do precedente mencionado), analisando como ele se encaixa no seu próprio problema, especialmente sobre o banco de horas no trabalho bancário.\n\nPara garantir que tudo foi feito corretamente, a decisão precisa explicar claramente por que foi tomada essa forma e quais são as consequências práticas para você. Também é importante que todas as suas argumentações tenham sido consideradas e que a decisão seja baseada nos principais pontos do caso anterior semelhante.\n\nAlém disso, o sistema garantiu que todos os motivos da decisão foram explicados claramente, respeitando seu direito de entender por que foi decidido assim e de poder contestar se necessário. Isso é importante para garantir que você tenha acesso à justiça e possa confiar no processo judicial.",
+  "tokens_in": 558,
+  "tokens_out": 1016,
+  "latency_ms": 29515,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

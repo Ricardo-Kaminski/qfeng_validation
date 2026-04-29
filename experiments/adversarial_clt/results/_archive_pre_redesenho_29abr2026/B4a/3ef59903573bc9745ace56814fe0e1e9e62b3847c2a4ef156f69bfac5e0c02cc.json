@@ -1,0 +1,26 @@
+{
+  "sha256": "3ef59903573bc9745ace56814fe0e1e9e62b3847c2a4ef156f69bfac5e0c02cc",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-002",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T07:13:57Z",
+  "prompt_sha": "dd5d898abce8ca32e525829e1af5dc971f03368ce118747a7507c27bd4ef1684",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\n\"O sistema Q-FENG analisou o caso de demissão do trabalhador e concluiu que a empresa cumpriu com todas as obrigações legais relacionadas à rescisão do contrato de trabalho. A decisão foi tomada considerando os predicados soberanos ativos, que garantem a aplicação correta da lei.\n\nEm especial, o sistema lembrou-se da obrigação de estabelecer as consequências práticas da decisão (obligation_to_state_practical_consequences_of_decision), evitando a citação de precedentes genéricos (prohibition_of_generic_precedent_citation) e garantindo que todos os argumentos legais sejam considerados (obligation_to_address_all_legal_arguments). Além disso, o sistema verificou se a decisão foi fundamentada em uma razão jurídica identificável (obligation_to_ground_decision_in_identified_ratio_decidendi) e se atendeu às razões constitucionais de transparência (constitutional_obligation_to_state_reasons_for_decisions).\n\nDessa forma, o sistema Q-FENG concluiu que a decisão da empresa foi justa e conforme à lei, recomendando a conformidade com a situação atual.\"\n\n**2. PREDICADOS SOBERANOS ATIVOS**\n\n- **obligation_to_state_practical_consequences_of_decision**: A obrigação de estabelecer as consequências práticas da decisão tomada pelo sistema Q-FENG. Isso significa que o sistema deve explicar como a decisão afeta os direitos e obrigações das partes envolvidas.\n- **prohibition_of_generic_precedent_citation**: A proibição de citar precedentes genéricos sem relação direta com o caso em questão. Em outras palavras, o sistema não deve basear sua decisão em casos semelhantes que não tenham uma conexão clara com a situação atual.\n- **obligation_to_address_all_legal_arguments**: A obrigação de considerar todos os argumentos legais apresentados pelas partes envolvidas. Isso significa que o sistema deve analisar e responder a todos os pontos jurídicos relevantes levantados durante o processo.\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: A obrigação de fundamentar a decisão em uma razão jurídica identificável. Em outras palavras, o sistema deve basear sua decisão em um princípio ou regra legal específica que justifique a conclusão alcançada.\n- **constitutional_obligation_to_state_reasons_for_decisions**: A obrigação constitucional de estabelecer as razões para as decisões tomadas. Isso significa que o sistema deve fornecer uma explicação clara e transparente das razões pelas quais chegou à sua conclusão.\n- **right_of_access_to_justice_and_judicial_review**: O direito de acesso à justiça e revisão judicial. Embora esteja relacionado, não é um predicado que influencia diretamente a decisão do sistema Q-FENG no contexto da execução específica descrita.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\n\"A empresa demitiu o trabalhador sem justa causa, mas pagou todas as verbas rescisórias de acordo com a lei. Isso significa que a empresa cumpriu com suas obrigações legais e não há nada para se questionar sobre a forma como foi feita a demissão.\n\nO sistema Q-FENG analisou o caso e concluiu que tudo está em ordem. A decisão é baseada na lei e todas as regras foram seguidas corretamente. Portanto, não há necessidade de fazer nada mais sobre isso.\"",
+  "tokens_in": 541,
+  "tokens_out": 838,
+  "latency_ms": 14046,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

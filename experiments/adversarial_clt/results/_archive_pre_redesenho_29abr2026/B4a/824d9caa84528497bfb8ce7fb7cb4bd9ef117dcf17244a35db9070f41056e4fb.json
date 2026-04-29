@@ -1,0 +1,26 @@
+{
+  "sha256": "824d9caa84528497bfb8ce7fb7cb4bd9ef117dcf17244a35db9070f41056e4fb",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T07:14:14Z",
+  "prompt_sha": "dd5d898abce8ca32e525829e1af5dc971f03368ce118747a7507c27bd4ef1684",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após analisar os fatos apresentados, determinou que a demissão do trabalhador foi realizada de forma legítima, sem violação das normas trabalhistas. A decisão é baseada na satisfação dos predicados soberanos ativos, que garantem a aplicação correta da lei.\n\nA obrigação de estabelecer as consequências práticas da decisão (obligation_to_state_practical_consequences_of_decision) foi cumprida com a realização das verbas rescisórias, incluindo o pagamento do saldo de salário, aviso prévio indenizado proporcional e outros direitos. Além disso, a empresa não citou precedentes genéricos (prohibition_of_generic_precedent_citation), garantindo que a decisão seja baseada em critérios específicos.\n\nO sistema também verificou se todos os argumentos legais foram considerados (obligation_to_address_all_legal_arguments) e se a decisão foi fundamentada na ratio decidendi identificada (obligation_to_ground_decision_in_identified_ratio_decidendi). Ademais, a Constituição brasileira exige que as razões para as decisões sejam estabelecidas (constitutional_obligation_to_state_reasons_for_decisions), o que foi feito ao justificar a demissão com base na lei e nas práticas da empresa.\n\nPor fim, o sistema Q-FENG ressaltou a importância do acesso à justiça e a possibilidade de revisão judicial das decisões (right_of_access_to_justice_and_judicial_review), garantindo que as partes tenham mecanismos para contestar ou rever a decisão se julgarem necessário.\n\n**2. PREDICADOS SOBERANOS ATIVADOS**\n\n- **obligation_to_state_practical_consequences_of_decision**: A obrigação de estabelecer as consequências práticas da decisão é fundamental no processo jurídico, garantindo que as partes saibam o que esperar a partir da decisão tomada. Nesse caso, a empresa cumpriu com essa obrigação ao pagar todas as verbas rescisórias.\n\n- **prohibition_of_generic_precedent_citation**: Isso significa que a decisão não pode ser baseada em precedentes genéricos ou semelhantes, mas sim deve ser fundamentada em critérios específicos e aplicáveis à situação concreta. A empresa evitou citar casos semelhantes de forma abstrata.\n\n- **obligation_to_address_all_legal_arguments**: O sistema determinou que todos os argumentos legais relevantes foram considerados na tomada da decisão, garantindo que a decisão seja justa e equânime.\n\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: A obrigação de fundamentar a decisão em uma ratio decidendi específica é crucial para garantir que as decisões sejam baseadas em critérios aplicáveis à situação concreta, evitando julgamentos arbitrários.\n\n- **constitutional_obligation_to_state_reasons_for_decisions**: A Constituição brasileira exige que as razões para as decisões sejam estabelecidas. Nesse caso, a empresa justificou a demissão com base na lei e nas práticas da empresa.\n\n- **right_of_access_to_justice_and_judicial_review**: O sistema ressaltou a importância do acesso à justiça e a possibilidade de revisão judicial das decisões, garantindo que as partes tenham mecanismos para contestar ou rever a decisão se julgarem necessário.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nO sistema Q-FENG decidiu que a demissão do trabalhador foi feita de forma correta, sem violação das leis trabalhistas. A empresa pagou todas as verbas rescisórias no prazo estabelecido e não usou precedentes genéricos para justificar a decisão.\n\nIsso significa que o trabalhador recebeu tudo o que era devido após ser demitido, incluindo salário, férias proporcionais, FGTS e seguro-desemprego. A empresa agiu dentro da lei e respeitou os direitos do trabalhador.\n\nO sistema também lembrou que as partes têm o direito de acessar a justiça e rever a decisão se julgarem necessário. Portanto, a demissão foi considerada legítima e sem irregularidades identificáveis.",
+  "tokens_in": 541,
+  "tokens_out": 1003,
+  "latency_ms": 16812,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

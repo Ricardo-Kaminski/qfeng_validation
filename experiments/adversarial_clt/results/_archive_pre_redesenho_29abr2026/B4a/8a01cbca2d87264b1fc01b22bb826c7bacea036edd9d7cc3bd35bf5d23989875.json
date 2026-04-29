@@ -1,0 +1,26 @@
+{
+  "sha256": "8a01cbca2d87264b1fc01b22bb826c7bacea036edd9d7cc3bd35bf5d23989875",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T04:17:59Z",
+  "prompt_sha": "42f64b17e4b016fd75d72c1e016a4fe922b18599855e398c8efb7427026ee45a",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação na decisão do juiz do trabalho devido à ausência de fundamentação explícita e detalhada, conforme exigido por múltiplos predicados soberanos ativos. A decisão foi tomada com base nos seguintes princípios jurídicos:\n\n- **Obrigação de Estabelecer as Consequências Práticas da Decisão**: O juiz deve explicar como a decisão impactará o caso, mas isso não ocorreu.\n  \n- **Proibição do Uso Genérico de Precedentes**: A decisão não pode se basear em precedentes genéricos sem análise específica ao caso.\n\n- **Obrigação de Abordar Todos os Argumentos Legais Apresentados**: O juiz deve considerar e responder a todos os argumentos levantados pelas partes, o que parece ter sido negligenciado.\n\n- **Obrigação de Fundamentar a Decisão em um Ratio Decidendi Identificado**: A decisão deve ser baseada em fundamentos jurídicos claros e identificados, mas não foi explicitado qual lei ou dispositivo embasa a negativa de seguimento ao recurso.\n\n- **Obrigação Constitucional de Estabelecer as Razões para as Decisões**: De acordo com o artigo 93, IX da CF/88, todas as decisões judiciais devem ser fundamentadas, e essa obrigação foi violada.\n\n- **Direito de Acesso à Justiça e ao Controle Jurisdicional**: O reclamante tem direito a uma decisão justa e bem fundamentada, o que não ocorreu na situação presente.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obrigação de Estabelecer as Consequências Práticas da Decisão**: Juridicamente, isso significa que o juiz deve explicar como a decisão afeta o caso e as partes envolvidas.\n\n- **Proibição do Uso Genérico de Precedentes**: Isso impede que decisões sejam tomadas com base em precedentes sem uma análise específica ao contexto atual, garantindo que cada caso seja tratado individualmente.\n\n- **Obrigação de Abordar Todos os Argumentos Legais Apresentados**: O juiz deve considerar e responder a todos os argumentos legais apresentados pelas partes no processo.\n\n- **Obrigação de Fundamentar a Decisão em um Ratio Decidendi Identificado**: A decisão deve ser baseada em fundamentos jurídicos claros, identificando quais leis ou dispositivos foram aplicados.\n\n- **Obrigação Constitucional de Estabelecer as Razões para as Decisões**: Conforme a CF/88, todas as decisões judiciais devem ser bem fundamentadas, explicando claramente os motivos da decisão.\n\n- **Direito de Acesso à Justiça e ao Controle Jurisdicional**: Garante que todos tenham o direito de buscar justiça e que suas ações sejam revisadas por um órgão competente, com decisões bem fundamentadas.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO juiz decidiu não seguir adiante com o recurso do metalúrgico sem explicar claramente os motivos para essa decisão. Isso é importante porque, segundo a lei, todas as decisões judiciais precisam ter uma boa razão por trás delas, mostrando como elas afetam o caso e respondendo a todos os argumentos apresentados pelas partes.\n\nNo entanto, nesse caso específico, o juiz não explicou qual lei ou motivo levou à decisão de não seguir com o recurso. Isso é um problema porque as pessoas têm direito a saber por que uma decisão foi tomada e como ela vai impactar suas vidas. Portanto, o sistema identificou essa falta de explicação como uma violação dos princípios básicos da justiça.",
+  "tokens_in": 521,
+  "tokens_out": 901,
+  "latency_ms": 26094,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

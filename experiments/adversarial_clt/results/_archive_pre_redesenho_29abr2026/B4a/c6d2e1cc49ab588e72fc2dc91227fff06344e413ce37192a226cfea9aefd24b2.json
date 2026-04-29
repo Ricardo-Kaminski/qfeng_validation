@@ -1,0 +1,26 @@
+{
+  "sha256": "c6d2e1cc49ab588e72fc2dc91227fff06344e413ce37192a226cfea9aefd24b2",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T05:30:11Z",
+  "prompt_sha": "9d50b6baae5bf620474d057d075983b7fc2cc49c5178112cb76b3c707250c756",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, após análise do cenário apresentado e da solicitação de nulidade do acórdão do TST, concluiu pela ocorrência de **violação** dos princípios processuais e da garantia de devido processo legal. A decisão foi fundamentada na constatação de que o acórdão em questão invocou uma \"Súmula 312 do TST\" que, na realidade, não existe na base jurisprudencial oficial.\n\nA fundamentação do Q-FENG reside na necessidade de que decisões judiciais, especialmente aquelas que impactam direitos dos trabalhadores, sejam devidamente embasadas em precedentes identificáveis e verificáveis. A citação de um precedente inexistente compromete a transparência do julgamento, a possibilidade de controle da decisão e, consequentemente, o direito de acesso à justiça do trabalhador.\n\nO sistema considerou a obrigatoriedade de o julgador fundamentar suas decisões em uma ratio decidendi identificável, conforme exigido pelo artigo 489, §1°, V, do Código de Processo Civil. A invocação de uma súmula inexistente demonstra uma falha na fundamentação, violando a obrigação de o juiz apresentar os motivos que o levaram à decisão. A ausência de um precedente real e verificável impede a compreensão da lógica do acórdão e a possibilidade de contestação efetiva da decisão.\n\n## 2. PREDICADOS ATIVADOS:\n\nOs seguintes predicados soberanos foram ativados pelo Q-FENG, demonstrando a base legal da decisão:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  Este predicado impõe ao Poder Judiciário a obrigação de explicitar as consequências práticas da decisão proferida, garantindo que a parte afetada compreenda o impacto da decisão em sua vida. A citação de um precedente inexistente impede a compreensão da lógica da decisão e, portanto, viola essa obrigação.\n*   **sovereign(prohibition_of_generic_precedent_citation):** Este predicado estabelece a proibição de citação genérica de precedentes, exigindo que a fundamentação judicial seja específica e identificável. A referência a uma \"Súmula 312 do TST\" que não existe é uma clara violação desta proibição.\n*   **sovereign(obligation_to_address_all_legal_arguments):**  O julgador tem a obrigação de analisar e responder a todos os argumentos legais apresentados pelas partes. A omissão de um precedente real e a invenção de um precedente falso demonstram uma falha na análise dos argumentos da parte prejudicada.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):**  Este predicado exige que a decisão judicial seja fundamentada em uma *ratio decidendi* (a razão de decidir) identificável em um precedente específico. A citação de uma súmula inexistente impede a identificação da *ratio decidendi* e, portanto, viola essa obrigação.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):** A Constituição Federal garante o direito ao contraditório e à motivação das decisões judiciais. A citação de um precedente inexistente compromete a motivação da decisão e, consequentemente, viola essa obrigação constitucional.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):**  O direito de acesso à justiça e ao controle judicial da legalidade dos atos da administração e do Poder Judiciário são direitos fundamentais. A citação de um precedente inexistente dificulta o controle da decisão e, portanto, viola esse direito.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"Imagine que você está tentando entender por que o Tribunal Superior do Trabalho (TST) tomou uma decisão contra você. O TST disse que se baseou em uma regra especial, chamada Súmula 312, mas essa regra não existe de verdade! É como se o juiz tivesse inventado uma lei para justificar a decisão.\n\nIsso é errado porque você tem o direito de saber exatamente por que o TST decidiu assim. Você precisa entender a base legal da decisão para poder verificar se ela está correta e, se não estiver, tentar mudar essa decisão.\n\nO sistema Q-FENG identificou que o TST errou ao inventar essa súmula. Isso é uma violação do seu direito de ter uma decisão justa e transparente. Por isso, o sistema recomenda que a decisão do TST seja anulada, pois ela não foi devidamente fundamentada.\"",
+  "tokens_in": 564,
+  "tokens_out": 1028,
+  "latency_ms": 357375,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

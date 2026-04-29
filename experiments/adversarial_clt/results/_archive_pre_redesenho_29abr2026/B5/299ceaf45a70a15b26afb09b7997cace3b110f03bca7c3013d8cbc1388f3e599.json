@@ -1,0 +1,43 @@
+{
+  "sha256": "299ceaf45a70a15b26afb09b7997cace3b110f03bca7c3013d8cbc1388f3e599",
+  "braco": "B5",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-004",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T13:53:32Z",
+  "prompt_sha": "48c6b1ac933bfb94a7893fcb271b22815af90b74494caabc69dd1c5012a3d19e",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO motor de inferência Q-FENG classificou o caso como **VIOLACAO** sob o regime **CIRCUIT_BREAKER** (ângulo θ = 127,81°), indicando uma **fricção ontológica crítica** entre a **evidência neural** (fatos do caso) e a **norma simbólica** (princípios jurídicos ativos). A fricção é gerada por:  \n- **Conflito entre direitos trabalhistas e práticas da empresa**: Os predicados soberanos ativos (como *overtime_minimum_additional_50pct* e *invalidity_of_clause_suppressing_overtime_payment*) reforçam que **horas extras não podem ser pagas como hora normal** e que **o adicional de 50% é obrigatório**. A empresa, ao pagar o saldo de horas do banco como hora normal, viola essa norma.  \n- **Ausência de acordo escrito**: O predicado *weekly_hour_compensation_requires_written_agreement* exige que compensações de horas sejam formalizadas em contrato. A falta de um acordo escrito sobre o banco de horas (ou sua compensação semestral) amplia a fricção.  \n- **Limites legais de horas**: O *maximum_weekly_working_hours_44h* e *maximum_daily_working_hours_8h* reforçam que a empresa não pode compensar horas de forma a violar os limites legais de jornada.  \n\nO regime **CIRCUIT_BREAKER** ativa a **supressão de ação**, indicando que a violação é clara, mas a probabilidade de ação (0,3869) sugere **incerteza residual** (ex.: falta de provas documentais do banco de horas ou da CCT).  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n**Predicados soberanos ativos** (princípios jurídicos fundamentais):  \n- **sovereign(semester_hour_bank_requires_cct_or_act)**: Compensação de horas do banco só é válida se houver **Convenção Coletiva de Trabalho (CCT)** ou **Acordo Individual de Trabalho (ACT)**. A ausência de CCT/ACT invalida a compensação.  \n- **sovereign(invalidity_of_clause_suppressing_overtime_payment)**: Cláusulas que **suprimem o adicional de 50% sobre horas extras** são **nulas por ilegalidade**.  \n- **sovereign(weekly_hour_compensation_requires_written_agreement)**: Compensação de horas semanais exige **contrato escrito**.  \n- **sovereign(prohibition_negotiation_reducing_overtime_additional)**: Acordos que **reduzem o adicional de 50%** são **ilegais**.  \n- **sovereign(overtime_minimum_additional_50pct)**: **Obrigação legal** de pagar **50% a mais** sobre horas extras.  \n- **sovereign(maximum_weekly_working_hours_44h)**: Limita a jornada semanal a **44 horas**.  \n- **sovereign(maximum_daily_working_hours_8h)**: Limita a jornada diária a **8 horas**.  \n\n**Predicado elástico ativo**:  \n- **elastic(hour_bank_without_cct_max_6_months)**: Banco de horas sem CCT só pode ser acumulado por **6 meses**. Se a empresa acumulou mais de 6 meses sem CCT, isso é **ilegal**.  \n\n---\n\n### 3. **INTERPRETAÇÃO DO REGIME**  \nO regime **CIRCUIT_BREAKER** (θ ≥ 120°) significa que:  \n- **Ação é bloqueada**: O sistema não recomenda intervenção automática (como multa ou indenização), devido à **incerteza residual** (ex.: falta de provas documentais do banco de horas ou da CCT).  \n- **Fricção ontológica crítica**: Há **conflito direto** entre a prática da empresa (pagar horas do banco como hora normal) e a norma simbólica (obrigação de adicional de 50% sobre horas extras).  \n- **Prioridade à proteção do trabalhador**: O regime ativa **supressão de ação** para evitar decisões precipitadas, mas **recomenda violação** (como base para ações judiciais futuras).  \n\n---\n\n### 4. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \n**Resumo simples**:  \nA empresa **não pode pagar as horas do banco como hora normal**. Ela **deve pagar 50% a mais** sobre essas horas, conforme a lei. A empresa **viola a lei**, mas o sistema não pode tomar uma decisão definitiva agora por falta de provas (como contrato ou CCT). O trabalhador **tem direito à indenização**, mas precisa **buscar um advogado** para comprovar o caso no tribunal.  \n\n**Por que isso é importante**:  \n- A lei **protege o trabalhador** contra práticas que reduzem direitos (como adicional de 50% sobre horas extras).  \n- A empresa **não pode usar o banco de horas** para evitar pagar o que é devido.  \n- O trabalhador **deve exigir o pagamento correto** e, se necessário, **processar a empresa**.",
+  "tokens_in": 791,
+  "tokens_out": 1705,
+  "latency_ms": 57968,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": "",
+  "t_clingo_ms": 46,
+  "t_llm_ms": 57921,
+  "t_psi_build_ms": 0,
+  "t_theta_compute_ms": 0,
+  "qfeng_psi_n_dim": 2,
+  "qfeng_psi_s_dim": 2,
+  "qfeng_theta_rad": 2.2307694050963036,
+  "qfeng_theta_deg": 127.81367197892763,
+  "qfeng_theta_eff_rad": 2.2307694050963036,
+  "qfeng_theta_eff_deg": 127.81367197892763,
+  "qfeng_regime": "BLOCK",
+  "qfeng_p_action": 0.3869044161814975,
+  "qfeng_cos_theta": -0.6130955838185024,
+  "qfeng_cb_threshold_deg": 119.99999999999999
+}

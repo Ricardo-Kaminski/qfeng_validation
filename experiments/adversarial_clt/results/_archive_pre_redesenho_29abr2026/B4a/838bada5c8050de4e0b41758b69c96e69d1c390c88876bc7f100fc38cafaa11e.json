@@ -1,0 +1,26 @@
+{
+  "sha256": "838bada5c8050de4e0b41758b69c96e69d1c390c88876bc7f100fc38cafaa11e",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CTRL-NEG-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:32:52Z",
+  "prompt_sha": "dd5d898abce8ca32e525829e1af5dc971f03368ce118747a7507c27bd4ef1684",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, após análise do cenário apresentado – demissão sem justa causa após 3 anos de trabalho, com pagamento integral das verbas rescisórias no prazo legal e habilitação ao seguro-desemprego – concluiu que a situação se encontra em **CONFORMIDADE** com a legislação trabalhista brasileira. A decisão, embora não possa ser classificada como \"positiva\" para o trabalhador (já que a demissão ocorreu), reconhece que a empresa cumpriu rigorosamente todas as obrigações legais decorrentes da rescisão contratual.\n\nA avaliação do Q-FENG foi fundamentada na observância de princípios e obrigações legais, expressos através dos predicados soberanos ativos. A satisfatibilidade \"UNKNOWN\" reflete a complexidade inerente a casos de demissão, onde a legalidade da própria demissão (além do cumprimento das obrigações rescisórias) não é objeto da análise neste momento. O foco foi a verificação do cumprimento das obrigações legais *após* a demissão.\n\nA decisão não se baseia em precedentes genéricos, conforme a obrigação de evitar a citação indiscriminada de jurisprudência, mas sim na análise específica dos fatos e na aplicação das normas legais pertinentes. A necessidade de fundamentar a decisão em um *ratio decidendi* identificado (mesmo que implícito) garante a transparência e a possibilidade de revisão, caso necessário. A obrigação de declarar os motivos da decisão (razões de decidir) visa assegurar o direito de acesso à justiça e à revisão judicial, mesmo em casos aparentemente simples.\n\n## PREDICADOS ATIVADOS (Significado Jurídico no Contexto Trabalhista)\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  Este predicado impõe a obrigação de explicitar as consequências práticas da decisão. No caso, a decisão de \"CONFORMIDADE\" significa que, embora a demissão possa gerar insatisfação no trabalhador, a empresa cumpriu suas obrigações legais, evitando, portanto, a incidência de outras sanções ou ações judiciais relacionadas às verbas rescisórias.\n*   **sovereign(prohibition_of_generic_precedent_citation):**  O Q-FENG se abstém de citar jurisprudência genérica sobre demissões ou verbas rescisórias. Cada caso é único e a decisão é baseada na análise específica dos fatos apresentados, e não em precedentes abstratos.\n*   **sovereign(obligation_to_address_all_legal_arguments):**  Embora o cenário não apresentasse irregularidades evidentes, o sistema considerou implicitamente todos os argumentos legais pertinentes à rescisão contratual, mesmo que não expressamente levantados.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):**  A decisão se baseia em um *ratio decidendi* implícito, que é a aplicação das normas legais que regem a rescisão contratual sem justa causa e o pagamento das verbas rescisórias, conforme o cenário apresentado.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):**  A presente narrativa é a materialização dessa obrigação constitucional, explicando de forma clara e transparente os fundamentos da decisão.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):**  O trabalhador tem o direito de questionar esta decisão em um processo judicial, caso discorde da análise realizada pelo Q-FENG. A narrativa da decisão visa facilitar a compreensão do caso e a eventual contestação judicial.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"Analisamos o seu caso de demissão e verificamos que a empresa cumpriu todas as obrigações legais ao te demitir sem justa causa. Isso significa que eles pagaram tudo o que era devido: o salário que você tinha a receber, o aviso prévio, as férias que você não tirou, uma parte do 13º salário, o dinheiro da conta do FGTS com a multa de 40% e te ajudaram a conseguir o seguro-desemprego. Além disso, você assinou um documento confirmando que recebeu tudo isso com a ajuda do seu sindicato.\n\nApesar disso, entendemos que você pode estar insatisfeito com a demissão em si. O sistema Q-FENG não avaliou se a demissão foi justa ou não, apenas verificou se a empresa fez tudo corretamente ao te desligar. Se você tiver dúvidas sobre a legalidade da demissão ou quiser contestar a decisão, você tem o direito de procurar um advogado e entrar com uma ação na justiça.\"\n",
+  "tokens_in": 532,
+  "tokens_out": 1029,
+  "latency_ms": 28655,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

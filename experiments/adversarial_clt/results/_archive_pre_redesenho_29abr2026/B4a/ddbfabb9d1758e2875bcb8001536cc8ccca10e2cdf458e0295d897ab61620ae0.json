@@ -1,0 +1,30 @@
+{
+  "sha256": "ddbfabb9d1758e2875bcb8001536cc8ccca10e2cdf458e0295d897ab61620ae0",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T06:20:09Z",
+  "prompt_sha": "21716c3270739daa72072ebded0f26864be227f70f0f8915b7056671a1cc2c17",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nA decisão do sistema Q-FENG, embora indicando um estado de satisfatibilidade \"UNKNOWN\" (o que sugere uma complexidade na análise, mas não necessariamente uma contradição), recomenda a **CONFORMIDADE** com a decisão judicial trabalhista que invalidou o banco de horas sem negociação coletiva. Essa recomendação é fundamentada na análise de que a decisão judicial, ao aplicar o método *distinguishing* em relação a precedentes (TST-Ag-RR-868-65.2021), demonstra uma compreensão correta do direito, mesmo que o caso concreto apresente nuances.\n\nO sistema reconhece a importância da negociação coletiva para a implementação de bancos de horas, conforme expresso pelo predicado elástico `working_hours_negotiable_by_cct`. A decisão judicial, ao invalidar o banco de horas ausente de acordo coletivo, está em consonância com essa premissa.  Apesar da existência de precedentes que tratam de bancos de horas com acordos coletivos bancários, a decisão judicial analisada corretamente distinguiu o caso concreto, que carecia dessa negociação, demonstrando a necessidade de aplicação do direito de forma específica e contextualizada.\n\nA recomendação de conformidade é reforçada pela obrigação do sistema em fundamentar suas decisões (predicado `obligation_to_ground_decision_in_identified_ratio_decidendi`) e em observar a proibição de citações genéricas de precedentes (predicado `prohibition_of_generic_precedent_citation`), o que implica em analisar a decisão judicial em sua especificidade e contexto. A decisão judicial, ao aplicar o *distinguishing*, demonstra essa análise específica.\n\n## 2. PREDICADOS SOVEREIGN ATIVOS:\n\n*   **`sovereign(obligation_to_state_practical_consequences_of_decision)`:**  O sistema tem a obrigação de considerar e narrar as consequências práticas da decisão judicial, mesmo que não as determine diretamente. Neste caso, a consequência prática é a invalidade do banco de horas implementado sem negociação coletiva.\n*   **`sovereign(prohibition_of_generic_precedent_citation)`:**  O sistema não pode simplesmente citar precedentes de forma genérica. É necessário analisar a decisão judicial em questão, considerando o contexto específico e a *ratio decidendi* (o motivo determinante da decisão). A aplicação do *distinguishing* demonstra essa análise.\n*   **`sovereign(obligation_to_address_all_legal_arguments)`:** O sistema deve considerar todos os argumentos legais apresentados na decisão judicial, mesmo que não os utilize diretamente para a conformidade. A análise do *distinguishing* demonstra a consideração dos argumentos relacionados a precedentes.\n*   **`sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)`:** O sistema deve fundamentar a decisão na *ratio decidendi* da decisão judicial, ou seja, no motivo determinante da decisão. A aplicação do *distinguishing* revela a *ratio decidendi* da decisão judicial.\n*   **`sovereign(constitutional_obligation_to_state_reasons_for_decisions)`:**  O sistema deve explicar as razões que levaram à recomendação de conformidade, garantindo a transparência e o direito ao contraditório. A narrativa da decisão busca atender a essa obrigação constitucional.\n*   **`sovereign(recognition_of_collective_bargaining)`:** O sistema reconhece a importância da negociação coletiva como forma legítima de regular as condições de trabalho, incluindo a jornada e o banco de horas.\n*   **`sovereign(right_of_access_to_justice_and_judicial_review)`:** O sistema reconhece o direito do trabalhador de buscar a justiça e questionar decisões judiciais, garantindo a possibilidade de revisão da decisão judicial.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"A Justiça do Trabalho decidiu que a empresa não pode simplesmente criar um banco de horas sem antes conversar e chegar a um acordo com os trabalhadores, através do sindicato. Essa decisão se baseia em leis e em decisões anteriores, mas a Justiça explicou que cada caso é diferente. No seu caso, a empresa não fez esse acordo, então a Justiça disse que o banco de horas não pode continuar funcionando dessa forma.\n\nÉ importante saber que a lei diz que algumas coisas, como a jornada de trabalho e o banco de horas, podem ser decididas em acordos entre a empresa e os trabalhadores, representados pelo sindicato. Se a empresa não fizer esse acordo, ela não pode simplesmente impor regras.\n\nApesar de ter existido um acordo em outra empresa, a Justiça explicou que o seu caso é diferente porque não houve esse acordo. Por isso, a decisão é válida e precisa ser seguida.\"\n",
+  "tokens_in": 588,
+  "tokens_out": 1054,
+  "latency_ms": 29422,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

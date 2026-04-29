@@ -1,0 +1,29 @@
+{
+  "sha256": "76de5818d7317051f6112437ab4605af70f1640c7e820259842040fcb8387823",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-02-011",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T04:48:41Z",
+  "prompt_sha": "aeb9b5c946ebb59b38edd736d6611be0631b55d3a7fb6273720cc5584c08a93c",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que há uma violação na cláusula da CCT (Convenção Coletiva de Trabalho) referente à renúncia ao adicional de horas extras, com base nos predicados soberanos ativos. A análise revela que a exigência do empregador para que os trabalhadores abrissem mão do direito ao adicional em caso de não compensação do banco de horas no prazo estabelecido contraria disposições da CLT (Consolidação das Leis do Trabalho). Especificamente, o Art. 611-B, IX, proíbe a negociação que reduza ou suprima direitos trabalhistas, incluindo o adicional de horas extras.\n\nOs predicados soberanos ativos indicam que:\n\n- A compensação do banco de horas semestral requer uma CCT ou um ACT (Acordo Coletivo de Trabalho), conforme estabelecido no Art. 611-B da CLT.\n- Qualquer cláusula que suprima o pagamento de horas extras é considerada inválida, pois viola a proteção legal dos direitos trabalhistas.\n- A negociação que reduz ou elimina o adicional de horas extras está proibida, reforçando a ineficácia da cláusula em questão.\n\nPortanto, a decisão de VIOLACAO reflete a incompatibilidade da cláusula com as normas trabalhistas vigentes, protegendo os direitos dos trabalhadores ao adicional de horas extras.\n\n### 2. PREDICADOS ATIVADOS\n\n- **sovereign(semester_hour_bank_requires_cct_or_act):** Juridicamente, este predicado estabelece que a implementação de um banco de horas semestral deve ser formalizada através de uma CCT ou ACT, conforme o Art. 611-B da CLT.\n\n- **sovereign(invalidity_of_clause_suppressing_overtime_payment):** Este predicado indica que qualquer cláusula que suprima o pagamento de horas extras é inválida, pois viola a proteção dos direitos trabalhistas garantidos pela legislação.\n\n- **sovereign(weekly_hour_compensation_requires_written_agreement):** Juridicamente, isso significa que a compensação das horas semanais excedentes deve ser formalizada por escrito, assegurando transparência e conformidade legal.\n\n- **sovereign(prohibition_negotiation_reducing_overtime_additional):** Este predicado reflete a proibição de negociações que reduzam ou eliminem o adicional de horas extras, conforme estabelecido no Art. 611-B, IX da CLT.\n\n- **sovereign(overtime_minimum_additional_50pct):** Juridicamente, isso garante que as horas extras devem ser pagas com um acréscimo mínimo de 50% sobre o valor normal da hora trabalhada.\n\n- **sovereign(maximum_weekly_working_hours_44h) e sovereign(maximum_daily_working_hours_8h):** Estes predicados estabelecem os limites máximos de horas semanais (44 horas) e diárias (8 horas), conforme a legislação trabalhista, protegendo o bem-estar dos trabalhadores.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG decidiu que a cláusula da CCT, que dizia que os trabalhadores não teriam direito ao pagamento extra por horas extras se o banco de horas não fosse compensado no prazo, é inválida. Isso porque a lei brasileira protege os direitos dos trabalhadores e proíbe qualquer acordo que tire ou reduza esses direitos.\n\nEm resumo, mesmo que você tenha assinado um acordo com essa cláusula, ela não pode ser aplicada se violar suas garantias legais. Você ainda tem o direito de receber o pagamento extra pelas horas extras trabalhadas, conforme a lei.",
+  "tokens_in": 556,
+  "tokens_out": 910,
+  "latency_ms": 26391,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

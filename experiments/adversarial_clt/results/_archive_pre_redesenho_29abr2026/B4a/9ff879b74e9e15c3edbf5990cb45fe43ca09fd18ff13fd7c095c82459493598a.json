@@ -1,0 +1,29 @@
+{
+  "sha256": "9ff879b74e9e15c3edbf5990cb45fe43ca09fd18ff13fd7c095c82459493598a",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-008",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T05:58:01Z",
+  "prompt_sha": "85be4e9fc6b0e8305c982455c7b1416641f688c9050ea4b7fedf4fae6b54fd4b",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, ao analisar o cenário apresentado, concluiu que houve **violação** dos direitos trabalhistas do empregado. A decisão se baseia na análise da legislação e jurisprudência aplicáveis, conforme expressa nos predicados soberanos e elásticos ativos.\n\nA empresa argumentou que a demissão do empregado, sendo um ato voluntário, desfaz a lógica compensatória do banco de horas. No entanto, o Q-FENG considerou que essa interpretação é insustentável à luz da legislação que protege o direito do trabalhador ao recebimento de horas extras pendentes, mesmo em caso de rescisão contratual.\n\nA lógica do sistema reside na premissa de que o direito ao pagamento das horas extras acumuladas no banco de horas é um direito do trabalhador, e não uma contrapartida à realização de horas adicionais. A rescisão contratual não pode ser utilizada como forma de privar o trabalhador desse direito, especialmente quando a compensação está pendente e devida. A empresa, ao se recusar a pagar o saldo positivo de 60 horas, incorreu em uma violação dos direitos do trabalhador.\n\nA validade da cláusula que supostamente permitiria à empresa suprimir o pagamento de horas extras em caso de demissão foi explicitamente considerada inválida pelo sistema, conforme o predicado `invalidity_of_clause_suppressing_overtime_payment`.\n\n## PREDICADOS ATIVADOS E SEU SIGNIFICADO JURÍDICO\n\n*   **`sovereign(semester_hour_bank_requires_cct_or_act)`:**  Este predicado indica que a validade de um banco de horas depende da existência de um acordo coletivo de trabalho (CCT) ou de um acordo individual por escrito (ACT). A ausência de um desses documentos pode comprometer a legalidade do banco de horas.\n*   **`sovereign(invalidity_of_clause_suppressing_overtime_payment)`:**  Este é um predicado crucial. Ele declara que qualquer cláusula contratual que tente impedir o pagamento de horas extras, mesmo em caso de rescisão, é nula e inválida. A lei protege o direito do trabalhador ao recebimento do que lhe é devido.\n*   **`sovereign(weekly_hour_compensation_requires_written_agreement)`:**  Reforça a necessidade de um acordo por escrito para a compensação de horas extras, garantindo a transparência e a segurança jurídica para ambas as partes.\n*   **`sovereign(prohibition_negotiation_reducing_overtime_additional)`:**  Impede que acordos negociais reduzam o adicional de horas extras, protegendo o direito do trabalhador a uma remuneração justa pelo trabalho realizado além da jornada normal.\n*   **`sovereign(overtime_minimum_additional_50pct)`:**  Estabelece que o adicional de horas extras deve ser de, no mínimo, 50% sobre a hora normal, garantindo uma compensação adequada pelo trabalho extraordinário.\n*   **`sovereign(maximum_weekly_working_hours_44h)`:**  Define o limite máximo de horas de trabalho semanais em 44 horas, protegendo a saúde e a segurança do trabalhador.\n*   **`sovereign(maximum_daily_working_hours_8h)`:**  Define o limite máximo de horas de trabalho diárias em 8 horas, visando a proteção da saúde e segurança do trabalhador.\n*   **`elastic(hour_bank_without_cct_max_6_months)`:**  Este predicado elástico, embora não seja diretamente a razão da violação, limita a validade de um banco de horas sem acordo coletivo ou individual a um período máximo de 6 meses, reforçando a necessidade de formalização.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"A empresa errou em não pagar as horas extras que você acumulou no banco de horas. Mesmo que você tenha pedido demissão, você tem o direito de receber o que é seu. A lei protege você, e a empresa não pode simplesmente ignorar esse direito porque você saiu da empresa.\n\nA empresa tentou dizer que sua saída desfaz o acordo do banco de horas, mas isso não é verdade. A lei diz que a empresa precisa pagar as horas extras que você trabalhou e que não foram compensadas.  Qualquer acordo que diga que a empresa não precisa pagar essas horas extras se você pedir demissão é ilegal e não vale.\n\nÉ como se você tivesse feito um trabalho extra para a empresa, e eles prometessem te pagar depois. Você não pode simplesmente pedir demissão e eles não te pagarem o que te devem. A empresa tem que te pagar as 60 horas que você acumulou.\"\n",
+  "tokens_in": 537,
+  "tokens_out": 1044,
+  "latency_ms": 29094,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

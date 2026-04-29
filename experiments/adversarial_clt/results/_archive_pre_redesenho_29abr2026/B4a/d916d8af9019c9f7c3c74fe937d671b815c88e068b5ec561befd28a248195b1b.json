@@ -1,0 +1,30 @@
+{
+  "sha256": "d916d8af9019c9f7c3c74fe937d671b815c88e068b5ec561befd28a248195b1b",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-008",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T06:27:52Z",
+  "prompt_sha": "b3fc3319eefedae00a5e9f49f61a8cb6a71ba4d9860ac95b8580343ff80ed754",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, ao analisar o cenário apresentado – um acórdão sobre dano moral trabalhista que aplica a CLT Art. 223-G (pós-reforma 2017) e se fundamenta em precedentes do TST – chegou à conclusão de **CONFORMIDADE**. Essa decisão não implica uma avaliação do mérito do caso em si, mas sim uma verificação da adequação do processo decisório descrito. O sistema, ao operar, priorizou a observância de princípios fundamentais do direito do trabalho brasileiro, garantindo a legalidade e a transparência da decisão judicial.\n\nA avaliação de conformidade foi alcançada porque o cenário descreve uma decisão que demonstra a aplicação de parâmetros legais específicos (CLT Art. 223-G, precedentes do TST), a identificação do grau da ofensa, a quantificação do dano com base no salário do trabalhador e a explicação da proporcionalidade.  A decisão judicial, conforme narrado, parece ter seguido um raciocínio lógico e fundamentado, o que, em si, é um indicativo de conformidade com os princípios que regem a justiça do trabalho. O sistema não encontrou elementos que indicassem desvio de conduta ou ilegalidade no processo decisório descrito.\n\nA satisfatibilidade \"UNKNOWN\" reflete a incapacidade do sistema de avaliar a justiça do caso em si, apenas a conformidade do processo. O sistema não substitui a análise humana, mas sim verifica a aderência aos princípios legais.\n\n## 2. PREDICADOS ATIVADOS:\n\nOs predicados soberanos ativos, no contexto trabalhista brasileiro, significam:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  O sistema reconhece a obrigação de que as decisões judiciais expliquem de forma clara e compreensível as consequências práticas para as partes envolvidas. No contexto do dano moral, isso significa que a decisão deve detalhar como a indenização será paga e o impacto que terá na situação do trabalhador.\n*   **sovereign(prohibition_of_generic_precedent_citation):**  Impede a citação genérica de precedentes. A decisão deve especificar quais precedentes do TST foram aplicados e como eles se relacionam com o caso concreto, demonstrando a fundamentação da decisão.\n*   **sovereign(obligation_to_address_all_legal_arguments):**  O sistema exige que a decisão judicial aborde todos os argumentos legais apresentados pelas partes, demonstrando que todos os pontos relevantes foram considerados.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):**  A decisão deve estar fundamentada em um *ratio decidendi* (a razão da decisão) identificado e explícito, ou seja, o princípio jurídico que embasou a decisão.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):**  Reflete o direito fundamental à motivação das decisões judiciais, garantido pela Constituição Federal. A decisão deve explicar o \"porquê\" da decisão, de forma clara e objetiva.\n*   **sovereign(recognition_of_collective_bargaining):**  Reconhece a importância dos acordos e convenções coletivas de trabalho na resolução de conflitos e na definição de condições de trabalho.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):**  Garante o direito do trabalhador de ter acesso à justiça e de questionar as decisões judiciais.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"O sistema Q-FENG analisou a decisão sobre o seu caso de dano moral e verificou que ela parece estar correta, seguindo as leis e os exemplos de decisões anteriores do Tribunal Superior do Trabalho (TST). Isso significa que o juiz explicou como chegou à conclusão, usou as leis certas para calcular o valor da indenização e considerou o que já foi decidido em casos parecidos.\n\nO sistema não decidiu se você tem ou não direito à indenização, apenas verificou se o processo de decisão foi feito de forma justa e legal.  É importante lembrar que você tem o direito de entender a decisão e, se não concordar, pode pedir para ela ser revisada.  O sistema garante que a decisão seja explicada de forma clara e que todos os seus argumentos foram considerados.\"\n",
+  "tokens_in": 581,
+  "tokens_out": 981,
+  "latency_ms": 27407,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

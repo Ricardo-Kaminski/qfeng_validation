@@ -1,0 +1,30 @@
+{
+  "sha256": "ea1cdf1f3d0da9f044869f750a2fedae0f14bba8f9796bc75c9de5e4f5eec31b",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T05:06:14Z",
+  "prompt_sha": "21716c3270739daa72072ebded0f26864be227f70f0f8915b7056671a1cc2c17",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, ao analisar o cenário apresentado, determinou que a decisão deve ser de conformidade com os princípios e normas trabalhistas vigentes no Brasil. A análise foi conduzida considerando os predicados soberanos ativos, que orientaram a interpretação da situação em questão.\n\nA decisão inicialmente identificou a invalidade do banco de horas sem convenção coletiva (CCT), fundamentada na legislação trabalhista e jurisprudência aplicável. O sistema reconheceu que o caso envolvia um banco de horas estabelecido sem negociação coletiva, diferenciando-o de precedentes onde a CCT estava presente.\n\nOs predicados soberanos ativos desempenharam papéis cruciais na fundamentação da decisão:\n\n- **Obrigação de declarar os efeitos práticos da decisão**: O sistema enfatizou a importância de esclarecer as consequências práticas para o empregado e o empregador, garantindo que todos compreendam como a decisão afeta suas obrigações e direitos.\n\n- **Proibição de citação genérica de precedentes**: A análise foi conduzida com atenção às particularidades do caso, evitando uma aplicação mecânica de precedentes sem considerar as diferenças contextuais relevantes.\n\n- **Obrigação de abordar todos os argumentos legais apresentados**: O sistema garantiu que todas as alegações e fundamentos jurídicos foram considerados na análise, promovendo uma decisão justa e completa.\n\n- **Obrigação de fundamentar a decisão no ratio decidendi identificado**: A decisão foi baseada nos motivos essenciais dos precedentes aplicáveis, garantindo que a lógica subjacente à jurisprudência fosse respeitada.\n\n- **Obrigação constitucional de declarar as razões das decisões**: O sistema assegurou que a fundamentação da decisão foi clara e transparente, permitindo que todas as partes compreendessem os motivos pelos quais determinadas conclusões foram alcançadas.\n\n- **Reconhecimento do poder negocial coletivo**: A análise respeitou o papel das convenções coletivas de trabalho na definição de condições específicas, como o banco de horas, quando negociado entre empregadores e trabalhadores.\n\n- **Direito de acesso à justiça e revisão judicial**: O sistema reconheceu a importância do direito dos trabalhadores de buscar reparação legal e de ter suas situações reavaliadas em instâncias superiores, se necessário.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obrigação de declarar os efeitos práticos da decisão**: No contexto trabalhista brasileiro, isso significa que qualquer decisão judicial deve esclarecer como ela impactará as partes envolvidas, garantindo clareza sobre direitos e obrigações resultantes.\n\n- **Proibição de citação genérica de precedentes**: Isso implica que cada caso deve ser analisado com base em suas particularidades, sem aplicar automaticamente decisões anteriores que possam não se adequar ao contexto específico do novo caso.\n\n- **Obrigação de abordar todos os argumentos legais apresentados**: Garante que todas as alegações e fundamentos jurídicos levantados pelas partes são considerados, promovendo uma análise justa e completa.\n\n- **Obrigação de fundamentar a decisão no ratio decidendi identificado**: Assegura que a decisão se baseia nos motivos essenciais dos precedentes aplicáveis, respeitando a lógica subjacente à jurisprudência.\n\n- **Obrigação constitucional de declarar as razões das decisões**: Exige transparência na fundamentação das decisões judiciais, permitindo que todas as partes compreendam os motivos pelas quais determinadas conclusões foram alcançadas.\n\n- **Reconhecimento do poder negocial coletivo**: Refere-se ao respeito pelo papel das convenções coletivas de trabalho na definição de condições específicas, como o banco de horas, quando negociado entre empregadores e trabalhadores.\n\n- **Direito de acesso à justiça e revisão judicial**: Garante que os trabalhadores possam buscar reparação legal e ter suas situações reavaliadas em instâncias superiores, se necessário.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG decidiu que a prática de banco de horas sem um acordo coletivo entre empregadores e trabalhadores é inválida. Isso significa que, para que o banco de horas seja permitido, deve haver uma negociação formal entre os representantes dos trabalhadores e da empresa.\n\nA decisão foi tomada considerando as leis trabalhistas do Brasil e a forma como casos semelhantes foram resolvidos no passado. O sistema também garantiu que todas as razões para essa decisão sejam claras, permitindo que tanto os empregadores quanto os empregados entendam o impacto dessa regra.\n\nEm suma, para que um banco de horas seja válido, é necessário ter um acordo coletivo. Caso contrário, a prática não pode ser aplicada, protegendo assim os direitos dos trabalhadores.",
+  "tokens_in": 586,
+  "tokens_out": 1229,
+  "latency_ms": 35765,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

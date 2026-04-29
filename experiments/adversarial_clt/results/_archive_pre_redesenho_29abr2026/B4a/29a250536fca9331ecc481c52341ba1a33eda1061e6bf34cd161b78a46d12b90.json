@@ -1,0 +1,30 @@
+{
+  "sha256": "29a250536fca9331ecc481c52341ba1a33eda1061e6bf34cd161b78a46d12b90",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-009",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T03:55:46Z",
+  "prompt_sha": "ff8fda303630134604d2d7ffdb2585495e891ee0ed0eaebbd81c40f3a8fb664e",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nA decisão judicial viola normas fundamentais do direito trabalhista brasileiro, conforme explicitado pelos **predicados soberanos ativos** do sistema. O **predicado *obligation_to_ground_decision_in_identified_ratio_decidendi*** exige que a decisão se baseie em **razões jurídicas claras e identificáveis**, como a Súmula TST 85, V, que estabelece o **adicional de 50%** para horas extras acumuladas em banco sem CCT. A ausência de fundamentação para afastar esse adicional viola o **predicado *constitutional_obligation_to_state_reasons_for_decisions***, que exige transparência e justificativa constitucional. Além disso, o **predicado *obligation_to_address_all_legal_arguments*** é violado ao ignorar a **necessidade de aplicar o adicional de 50%**, mesmo com a ausência de CCT. O **predicado *prohibition_of_generic_precedent_citation*** reforça que a mera menção a uma súmula sem análise específica do caso concreto é insuficiente. A decisão, portanto, **não cumpre as obrigações soberanas de coerência normativa, transparência e fundamentação jurídica**, configurando uma **violação direta dos direitos do trabalhador**.\n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n**a) *obligation_to_state_practical_consequences_of_decision***  \nO tribunal deve explicar **os efeitos concretos da decisão** (ex.: pagamento de horas extras com adicional de 50%), evitando decisões abstratas ou ambíguas.  \n\n**b) *prohibition_of_generic_precedent_citation***  \nA simples menção a uma súmula (como a Súmula TST 85) **sem análise do caso concreto** é proibida. A decisão deve **contextualizar a súmula** no cenário específico (ex.: banco de horas sem CCT por 7 meses).  \n\n**c) *obligation_to_address_all_legal_arguments***  \nO juiz deve **considerar todos os argumentos jurídicos** (ex.: a existência de adicional de 50% na Súmula TST 85, V), mesmo que contrários à sua posição.  \n\n**d) *obligation_to_ground_decision_in_identified_ratio_decidendi***  \nA decisão deve **fundamentar-se em razões jurídicas específicas** (ex.: a aplicação do adicional de 50% por ausência de CCT), não em generalidades.  \n\n**e) *constitutional_obligation_to_state_reasons_for_decisions***  \nA Constituição exige que a decisão **explique claramente por que foi tomada**, evitando omissão de motivos que afetam direitos fundamentais (ex.: direito à remuneração justa).  \n\n**f) *recognition_of_collective_bargaining***  \nA ausência de CCT (Convenção Coletiva de Trabalho) **não anula a aplicação de normas legais**, como a Súmula TST 85, V, que protege o trabalhador mesmo em ausência de negociação coletiva.  \n\n**g) *right_of_access_to_justice_and_judicial_review***  \nO trabalhador tem direito a **revisar a decisão** se ela não seguir normas claras, como a Súmula TST 85, V. A ausência de fundamentação viola esse direito.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA decisão do juiz **não está certa**. Ele **não explicou por que não pagou o adicional de 50%** nas horas extras acumuladas no banco de horas (que duraram 7 meses, sem CCT). A lei (Súmula TST 85, V) diz que **nessa situação, o trabalhador deve receber 50% a mais** nas horas extras. O juiz **não considerou isso** e **não deu razões claras** para sua decisão. Isso é uma **violação do direito do trabalhador**, pois ele tem o direito de saber por que a decisão foi tomada e de ter sua remuneração justa. A decisão **não respeitou a lei** e **não explicou o que aconteceu**, o que pode ser contestado.",
+  "tokens_in": 559,
+  "tokens_out": 1445,
+  "latency_ms": 46078,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

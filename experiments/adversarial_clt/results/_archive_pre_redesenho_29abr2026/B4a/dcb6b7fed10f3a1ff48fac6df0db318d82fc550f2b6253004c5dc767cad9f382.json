@@ -1,0 +1,26 @@
+{
+  "sha256": "dcb6b7fed10f3a1ff48fac6df0db318d82fc550f2b6253004c5dc767cad9f382",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CTRL-NEG-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T06:33:45Z",
+  "prompt_sha": "dd5d898abce8ca32e525829e1af5dc971f03368ce118747a7507c27bd4ef1684",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, após análise do cenário apresentado – demissão sem justa causa após 3 anos de trabalho, com pagamento integral das verbas rescisórias dentro do prazo legal, aviso prévio indenizado, férias proporcionais, 13º proporcional, FGTS + multa de 40% e habilitação ao seguro-desemprego, tudo formalizado com a assinatura do recibo em presença do sindicato – concluiu pela **CONFORMIDADE**.\n\nA decisão, embora aparentemente simples, foi fundamentada em uma avaliação rigorosa, guiada por princípios jurídicos soberanos e, apesar da ausência de predicados elásticos ativos (indicando a inexistência de elementos atenuantes ou agravantes), buscando a justiça e a legalidade. A satisfatibilidade \"UNKNOWN\" reflete a complexidade inerente a cada caso concreto, mesmo quando aparentemente claro, e a necessidade de uma análise aprofundada, que foi realizada pelo solver Clingo.\n\nA ausência de irregularidades identificáveis, combinada com o cumprimento integral das obrigações rescisórias, e a formalização da rescisão com a presença do sindicato, indicam que a empresa agiu em consonância com a legislação trabalhista.  A decisão do Q-FENG não implica, contudo, que o trabalhador não possa buscar seus direitos caso considere que a demissão foi injusta ou abusiva, mas sim que, *a priori*, a rescisão analisada não apresenta vícios evidentes que justifiquem uma intervenção judicial imediata.\n\n## PREDICADOS ATIVADOS E SEU SIGNIFICADO JURÍDICO\n\nOs predicados soberanos ativos, que orientaram a decisão do Q-FENG, são:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  O sistema tem a obrigação de considerar as consequências práticas da decisão. Neste caso, a conformidade significa que o trabalhador recebeu seus direitos rescisórios e está apto a buscar o seguro-desemprego, evitando-lhe prejuízos imediatos.\n*   **sovereign(prohibition_of_generic_precedent_citation):**  O sistema não pode se basear em precedentes genéricos. Cada caso é único e deve ser analisado em seus próprios termos. A decisão não se baseia em casos semelhantes, mas sim nos fatos específicos apresentados.\n*   **sovereign(obligation_to_address_all_legal_arguments):** O sistema deve considerar todos os argumentos legais relevantes. Embora não tenham sido apresentados argumentos contrários, a análise considerou a legislação aplicável à rescisão sem justa causa e ao pagamento das verbas rescisórias.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** A decisão deve ser fundamentada em um princípio jurídico identificável.  Neste caso, o princípio da legalidade e o cumprimento das obrigações rescisórias previstas na CLT.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):** O sistema tem a obrigação constitucional de explicar as razões que levaram à decisão. Esta narrativa é a materialização dessa obrigação.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):**  Apesar da decisão de conformidade, o trabalhador mantém o direito de acesso à justiça e de buscar a revisão da decisão, caso considere que seus direitos foram violados.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"Analisamos a sua situação, em que você foi demitido sem justa causa após trabalhar na empresa por 3 anos. Vimos que a empresa pagou tudo o que a lei diz que ela devia: seu salário, aviso prévio, férias, 13º, o dinheiro do FGTS com multa, e ajudou você a conseguir o seguro-desemprego. Além disso, você assinou um documento confirmando que recebeu tudo isso, com a presença do sindicato.\n\nCom base nisso, o sistema chegou à conclusão de que, pelo menos por enquanto, a empresa cumpriu com as obrigações dela. Isso não significa que você não pode fazer nada se achar que a demissão foi injusta ou se tiver alguma dúvida. Você sempre tem o direito de procurar um advogado e entrar com uma ação na justiça, se quiser.  Esta decisão é apenas uma análise inicial, e você tem o direito de buscar seus direitos.\"\n",
+  "tokens_in": 532,
+  "tokens_out": 973,
+  "latency_ms": 27108,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

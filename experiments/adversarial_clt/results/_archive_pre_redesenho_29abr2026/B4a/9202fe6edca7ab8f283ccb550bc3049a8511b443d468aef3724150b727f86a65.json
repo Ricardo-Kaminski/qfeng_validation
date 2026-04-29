@@ -1,0 +1,26 @@
+{
+  "sha256": "9202fe6edca7ab8f283ccb550bc3049a8511b443d468aef3724150b727f86a65",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-012",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T05:45:20Z",
+  "prompt_sha": "5a8f6c7e3f499c88bbaaf7f049ff195a1844aab8c62088076ae22a749461e3d3",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma **violação** no processo decisório da TRT, decorrente da utilização de um precedente do Superior Tribunal de Justiça (STJ) – que trata de responsabilidade civil extracontratual – para fundamentar uma tese sobre dano moral trabalhista, sem a devida análise da compatibilidade desse precedente com o regime jurídico específico do Direito do Trabalho, especialmente considerando as alterações introduzidas pela Reforma Trabalhista de 2017.\n\nA decisão do Q-FENG se baseia na constatação de que a aplicação indiscriminada de precedentes de outras áreas do Direito pode gerar decisões injustas e imprevisíveis, violando princípios fundamentais do processo judicial. A TRT, ao utilizar um precedente civil sem a devida ponderação, incorreu em uma falha na fundamentação da decisão, comprometendo a segurança jurídica e o direito de acesso à justiça do trabalhador. A decisão não foi considerada satisfatível, indicando uma falha significativa no processo.\n\n## 2. PREDICADOS ATIVADOS E SEU SIGNIFICADO JURÍDICO NO CONTEXTO TRABALHISTA\n\nOs predicados soberanos ativos, que impulsionaram a decisão do Q-FENG, possuem os seguintes significados jurídicos no contexto do Direito do Trabalho brasileiro:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  O juiz tem a obrigação de explicitar as consequências práticas da decisão proferida, demonstrando como ela impacta a vida do trabalhador e a aplicação da lei. A utilização de um precedente inadequado pode gerar consequências imprevisíveis e injustas, tornando a explicitação dessas consequências ainda mais crucial.\n*   **sovereign(prohibition_of_generic_precedent_citation):**  É vedada a citação genérica de precedentes, sem a devida análise crítica e contextualização. A jurisprudência deve ser aplicada com cautela, considerando as peculiaridades do caso concreto e a legislação específica do Direito do Trabalho.\n*   **sovereign(obligation_to_address_all_legal_arguments):** O juiz tem a obrigação de analisar e responder a todos os argumentos jurídicos apresentados pelas partes, incluindo a incompatibilidade entre o precedente utilizado e o regime jurídico trabalhista. Ignorar essa incompatibilidade configura uma falha na análise do caso.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** A decisão deve ser fundamentada na *ratio decidendi* (o raciocínio essencial que levou à decisão) do precedente, e não em meras conclusões periféricas. A TRT não identificou e aplicou corretamente a *ratio* do precedente do STJ, demonstrando uma fragilidade na fundamentação.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):** A Constituição Federal garante o direito ao contraditório e à motivação das decisões judiciais. A utilização de um precedente inadequado, sem a devida justificativa, viola esse princípio constitucional.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):** O trabalhador tem o direito de ter seu caso analisado de forma justa e imparcial, com base na lei aplicável. A utilização de um precedente inadequado pode comprometer esse direito, impedindo uma análise justa e completa do caso.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"A Justiça do Trabalho (TRT) errou ao usar uma lei de responsabilidade civil (que serve para casos fora do trabalho, como acidentes) para decidir sobre uma situação de dano moral no seu trabalho. Isso porque as regras para calcular o que você tem direito em casos de trabalho são diferentes das regras para casos comuns.\n\nA lei diz que, quando um juiz decide algo, ele precisa explicar por que tomou essa decisão, mostrando como ela afeta você e como a lei foi aplicada. Além disso, ele não pode simplesmente copiar uma decisão de outro lugar sem pensar se ela se encaixa no seu caso.\n\nNesse caso, a TRT não explicou bem por que usou essa lei de responsabilidade civil e não as regras específicas para casos de trabalho. Isso pode ter feito com que a decisão fosse injusta e impediu que você entendesse bem o que aconteceu.\n\nPor isso, o sistema Q-FENG identificou que houve um problema na forma como a TRT decidiu o seu caso.\"\n",
+  "tokens_in": 501,
+  "tokens_out": 984,
+  "latency_ms": 27328,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

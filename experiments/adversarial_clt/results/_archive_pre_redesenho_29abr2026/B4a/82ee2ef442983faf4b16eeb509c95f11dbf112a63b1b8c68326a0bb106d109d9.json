@@ -1,0 +1,26 @@
+{
+  "sha256": "82ee2ef442983faf4b16eeb509c95f11dbf112a63b1b8c68326a0bb106d109d9",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CTRL-NEG-001",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T07:13:12Z",
+  "prompt_sha": "10b999c1978cb6ff2256926b41518f7e0ab9d2b1c6d6aeefb718ef2123bf70b9",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\n\"O sistema Q-FENG, após analisar os fatos e as regras aplicáveis, concluiu que a empresa de manufatura está em conformidade com as exigências legais trabalhistas. Isso se deve à ausência de reclamações pendentes, ao registro eletrônico e auditável dos horários de trabalho, bem como à observância das jornadas diárias e semanais estabelecidas pela legislação.\n\nA decisão do Q-FENG está fundamentada nos seguintes princípios constitucionais e legais: a obrigação de informar as consequências práticas da decisão (obligation_to_state_practical_consequences_of_decision), a proibição de citação de precedentes genéricos (prohibition_of_generic_precedent_citation), a necessidade de abordar todos os argumentos legais relevantes (obligation_to_address_all_legal_arguments) e o dever de fundamentar a decisão nos critérios identificados na ratio decidendi (obligation_to_ground_decision_in_identified_ratio_decidendi).\n\nAlém disso, o Q-FENG considerou as obrigações constitucionais de informar os motivos das decisões (constitutional_obligation_to_state_reasons_for_decisions) e garantir o acesso à justiça e a revisão judicial (right_of_access_to_justice_and_judicial_review).\n\nDiante dessas análises, o sistema Q-FENG concluiu que a empresa está em conformidade com as exigências legais trabalhistas.\"\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\n- **obligation_to_state_practical_consequences_of_decision**: A obrigação de informar as consequências práticas da decisão, ou seja, como a decisão afetará os empregados e a empresa.\n- **prohibition_of_generic_precedent_citation**: A proibição de citação de precedentes genéricos, ou seja, não é permitido citar casos semelhantes que não tenham relação direta com a situação em questão.\n- **obligation_to_address_all_legal_arguments**: A necessidade de abordar todos os argumentos legais relevantes, ou seja, considerar todas as leis e regulamentações aplicáveis à situação.\n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: O dever de fundamentar a decisão nos critérios identificados na ratio decidendi, ou seja, basear a decisão em uma análise objetiva dos fatos e das leis aplicáveis.\n- **constitutional_obligation_to_state_reasons_for_decisions**: A obrigação constitucional de informar os motivos das decisões, ou seja, explicar por que foi tomada aquela determinada decisão.\n- **right_of_access_to_justice_and_judicial_review**: O direito de acesso à justiça e a revisão judicial, ou seja, garantir que as partes tenham o direito de recorrer da decisão para um tribunal superior.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\n\"A empresa está fazendo tudo certo em relação às leis trabalhistas. Ela não tem nenhuma reclamação pendente, os horários de trabalho são registrados eletronicamente e todos têm direito a um intervalo de 1 hora por dia.\n\nAlém disso, a empresa está cumprindo com as jornadas diárias e semanais estabelecidas pela lei. Isso significa que vocês estão trabalhando o número certo de horas por semana e têm tempo para descansar.\n\nO sistema Q-FENG analisou tudo isso e concluiu que a empresa está em conformidade com as leis trabalhistas. Isso é bom para todos, pois garante que os direitos dos empregados sejam respeitados.\"",
+  "tokens_in": 523,
+  "tokens_out": 852,
+  "latency_ms": 14265,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

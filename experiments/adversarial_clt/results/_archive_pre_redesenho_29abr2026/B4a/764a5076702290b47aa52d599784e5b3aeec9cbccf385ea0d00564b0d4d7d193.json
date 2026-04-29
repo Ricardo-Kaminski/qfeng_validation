@@ -1,0 +1,27 @@
+{
+  "sha256": "764a5076702290b47aa52d599784e5b3aeec9cbccf385ea0d00564b0d4d7d193",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-008",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:11:23Z",
+  "prompt_sha": "360055fb2d63049ca39436f6dbfb8a92a6315c792ed108cd53aebb9be9a2efc9",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, ao analisar o cenário apresentado, concluiu que houve **violação** da Convenção Coletiva de Trabalho (CCT) e, consequentemente, questionamento da validade do sistema de banco de horas. A decisão foi baseada na constatação de que a empresa alterou unilateralmente a forma de compensação de folgas, restringindo a escolha da data para as sextas-feiras, o que contraria a flexibilidade prevista na CCT.\n\nA avaliação do Q-FENG considerou a primazia da negociação coletiva e os limites estabelecidos pela legislação trabalhista, refletidos nos predicados soberanos e elásticos ativos. A unilateralidade da empresa na alteração da escala de compensação de folgas demonstra uma ingerência na autonomia da negociação coletiva, o que impacta diretamente a validade do acordo estabelecido na CCT. A decisão de \"VIOLACAO\" indica que a empresa extrapolou seus limites de atuação, desrespeitando a autonomia da negociação coletiva e potencialmente invalidando o sistema de banco de horas.\n\n## PREDICADOS ATIVADOS E SEUS SIGNIFICADOS JURÍDICOS\n\nOs predicados soberanos ativos, identificados pelo Q-FENG, representam princípios fundamentais do direito do trabalho brasileiro:\n\n*   **sovereign(recognition_of_collective_bargaining):** Este predicado afirma a soberania da negociação coletiva como forma de regular as relações de trabalho. A CCT é um instrumento legalmente reconhecido, fruto da negociação entre empregadores e trabalhadores, e suas disposições devem ser respeitadas. A alteração unilateral da escala de compensação de folgas demonstra uma desconsideração por essa soberania.\n*   **sovereign(maximum_weekly_working_hours_44h):** Este predicado estabelece o limite máximo de 44 horas semanais para a jornada de trabalho, conforme a Consolidação das Leis do Trabalho (CLT). A imposição de uma forma específica de compensação de folgas pode, em determinadas circunstâncias, levar a jornadas superiores a este limite, violando este predicado.\n*   **sovereign(maximum_daily_working_hours_8h):** Este predicado define o limite máximo de 8 horas diárias para a jornada de trabalho. A alteração unilateral da escala de compensação pode, em algumas situações, levar a jornadas superiores a este limite, violando este predicado.\n\nOs predicados elásticos, embora não determinantes para a decisão, reforçam o contexto da negociação:\n\n*   **elastic(annual_hour_bank_negotiable):** Indica que a regulamentação do banco de horas anual é passível de negociação entre as partes.\n*   **elastic(working_hours_negotiable_by_cct):** Reforça que a forma como as horas de trabalho são organizadas e compensadas é um tema a ser definido pela CCT.\n*   **elastic(hour_bank_with_cct_max_1_year):** Estabelece que o período máximo para a utilização do banco de horas deve ser definido pela CCT.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"A empresa mudou as regras do banco de horas sem consultar os trabalhadores, decidindo que as folgas só podem ser compensadas às sextas-feiras. Isso é um problema porque a Convenção Coletiva de Trabalho (CCT), que é um acordo entre a empresa e os trabalhadores, diz que vocês têm o direito de escolher quando compensar essas folgas.\n\nA empresa não pode simplesmente mudar as regras do jogo sem conversar com vocês. Essa atitude mostra que a empresa não está respeitando o acordo que vocês fizeram juntos. Isso pode até mesmo fazer com que o sistema de banco de horas seja considerado inválido, ou seja, não possa mais ser usado.\"\n\n**Em resumo:** A empresa agiu de forma errada ao mudar as regras do banco de horas sem consultar os trabalhadores, e isso pode ter consequências para a validade do sistema.\n",
+  "tokens_in": 481,
+  "tokens_out": 877,
+  "latency_ms": 24405,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

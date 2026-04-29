@@ -1,0 +1,26 @@
+{
+  "sha256": "33fdbf91dfff6ffa2bf2973493c98a8276ec6b949490a8d43001781be68b0ae0",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CTRL-NEG-002",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T04:04:39Z",
+  "prompt_sha": "dd5d898abce8ca32e525829e1af5dc971f03368ce118747a7507c27bd4ef1684",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a empresa cumpriu integralmente suas obrigações legais no desligamento do trabalhador, conforme os predicados soberanos ativos. A **obrigação de cumprir as consequências práticas da decisão** (obligation_to_state_practical_consequences_of_decision) foi satisfeita, pois todas as verbas rescisórias foram pagas no prazo legal (10 dias), incluindo aviso prévio indenizado, férias proporcionais, 13º salário e FGTS com multa de 40%. A **proibição de citar precedentes genéricos** (prohibition_of_generic_precedent_citation) foi respeitada, pois a decisão não depende de interpretações jurisprudenciais, mas da aplicação direta da CLT. A **obrigação de abordar todos os argumentos jurídicos** (obligation_to_address_all_legal_arguments) foi cumprida, pois não há pendências ou omissões no pagamento. A **obrigação de fundamentar a decisão em ratio decidendi identificável** (obligation_to_ground_decision_in_identified_ratio_decidendi) foi atendida, pois a conformidade está baseada no cumprimento literal da CLT. A **obrigação constitucional de fundamentar a decisão** (constitutional_obligation_to_state_reasons_for_decisions) foi cumprida, pois a empresa demonstrou, por meio dos documentos, que todas as verbas foram pagas conforme a lei. Por fim, o **direito de acesso à justiça e revisão judicial** (right_of_access_to_judicial_review) foi garantido, pois o trabalhador assinou o recibo na presença do sindicato, assegurando transparência e possibilidade de recurso judicial, se necessário.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **obligation_to_state_practical_consequences_of_decision**: A empresa deve garantir que as consequências da decisão (pagamento das verbas rescisórias) sejam concretas e cumpridas. No caso, todas as verbas foram pagas no prazo legal.  \n- **prohibition_of_generic_precedent_citation**: A decisão não pode depender de interpretações genéricas de jurisprudência, mas de aplicação direta da CLT. Aqui, a conformidade está baseada no cumprimento literal da lei, não em precedentes.  \n- **obligation_to_address_all_legal_arguments**: A empresa deve considerar todos os direitos do trabalhador. Nenhum direito foi ignorado, pois todas as verbas foram pagas.  \n- **obligation_to_ground_decision_in_identified_ratio_decidendi**: A decisão deve ser fundamentada em um \"ratio decidendi\" (motivo jurídico claro). Aqui, o fundamento é o cumprimento da CLT.  \n- **constitutional_obligation_to_state_reasons_for_decisions**: A empresa deve justificar suas ações com base em normas constitucionais. O cumprimento das verbas e a assinatura do recibo no sindicato atendem a essa obrigação.  \n- **right_of_access_to_judicial_review**: O trabalhador tem direito a revisão judicial. A assinatura do recibo na presença do sindicato assegura esse direito.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa fez tudo certo ao demitir o trabalhador. Ela pagou todas as verbas que a lei exige (como o salário pendente, o aviso prévio, férias, 13º e FGTS com multa) dentro do prazo de 10 dias. O trabalhador assinou um documento no sindicato, o que garante que ele pode contestar a demissão se quiser. Não há nada de errado com a empresa, então o sistema diz que ela está em conformidade com a lei. O trabalhador não tem direito a mais nada, pois a empresa cumpriu todos os deveres.",
+  "tokens_in": 543,
+  "tokens_out": 1299,
+  "latency_ms": 40969,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

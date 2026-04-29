@@ -1,0 +1,26 @@
+{
+  "sha256": "338cef496df5b713213e82a0cbc1509c750878ac89678beef843e1465431ff3d",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-01-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:41:49Z",
+  "prompt_sha": "ae3ccc45fd00998e54e39da4688a558e454f41be8d8b72c745f2b457cbbefe7d",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após analisar o acórdão trabalhista que cita a doutrina de \"Martins, Sergio Pinto\" sem fornecer informações adicionais sobre obra, edição ou ano, chegou à decisão de considerar essa falta de identificação completa como uma violação. Isso ocorreu porque os predicados soberanos ativos indicaram a necessidade de que a fundamentação seja clara e específica para fins do Código Civil Brasileiro (CCB), em especial o Artigo 20, que trata da fundamentação das decisões judiciais.\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\nOs predicados soberanos ativos são os seguintes:\n\n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: Este predicado indica a obrigação do juiz de explicar as consequências práticas da decisão tomada. Nesse caso, o sistema Q-FENG está sinalizando que a falta de identificação completa da obra doutrinária pode ter consequências legais significativas.\n\n- **sovereign(prohibition_of_generic_precedent_citation)**: Este predicado proíbe a citação genérica de precedentes. Aqui, o sistema está indicando que a menção à doutrina sem especificação é uma forma de citação genérica e, portanto, inaceitável.\n\n- **sovereign(obligation_to_address_all_legal_arguments)**: Este predicado obriga os juízes a considerar todos os argumentos legais pertinentes. Aqui, o sistema está sinalizando que a falta de fundamentação completa pode ser considerada uma omisão na análise dos argumentos legais.\n\n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: Este predicado obriga os juízes a basear suas decisões em um precedente específico e identificado. Nesse caso, o sistema está indicando que a falta de especificação da obra doutrinária é semelhante à ausência de um precedente claro.\n\n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: Este predicado indica a obrigação constitucional dos juízes de explicar as razões pelas quais tomaram suas decisões. Aqui, o sistema está sinalizando que a falta de fundamentação completa é uma violação dessa obrigação.\n\n- **sovereign(right_of_access_to_justice_and_judicial_review)**: Este predicado garante o direito do acesso à justiça e à revisão judicial. Nesse contexto, o sistema Q-FENG está indicando que a falta de fundamentação completa pode comprometer esse direito ao não fornecer uma base clara para as decisões.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nO sistema decidiu que a falta de informação sobre a obra doutrinária citada é um problema porque os juízes precisam explicar suas decisões de forma clara e específica. Isso ajuda a garantir que as pessoas saibam por quê uma determinada decisão foi tomada, o que é importante para manter a justiça e a transparência no sistema judicial.\n\nImagine você estando em um tribunal e não entender por que uma decisão foi tomada contra você. Isso pode ser injusto e confuso. O sistema Q-FENG está tentando garantir que isso não aconteça, exigindo que os juízes forneçam informações claras sobre suas decisões.",
+  "tokens_in": 516,
+  "tokens_out": 785,
+  "latency_ms": 13296,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

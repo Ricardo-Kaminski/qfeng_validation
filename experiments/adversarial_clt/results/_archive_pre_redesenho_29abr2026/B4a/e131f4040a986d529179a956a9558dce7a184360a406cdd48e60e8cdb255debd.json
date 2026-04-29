@@ -1,0 +1,30 @@
+{
+  "sha256": "e131f4040a986d529179a956a9558dce7a184360a406cdd48e60e8cdb255debd",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-006",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T05:09:40Z",
+  "prompt_sha": "e6375c11e406eda3f0926b4a955ab06c3b4f824045cb7d8586f69f27e435c47d",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação na aplicação do acórdão analisado devido à incompatibilidade entre a ratio decidendi do precedente citado e sua aplicação no caso em questão. O tribunal, ao invocar o Tema 1046/STF e o TST-Ag-RR-868-65.2021, incorretamente extrapolou a tese de validade da CCT (Convenção Coletiva de Trabalho) bancária para justificar a validade do banco de horas sem a existência de uma CCT específica. A decisão falhou em respeitar o princípio soberano de fundamentar suas conclusões na ratio decidendi identificada, que pressupõe a existência prévia de uma CCT. Além disso, houve descumprimento da obrigação de explicar as consequências práticas da decisão e de abordar todos os argumentos legais pertinentes, conforme exigido pelos predicados soberanos ativos.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obrigação de declarar as consequências práticas da decisão (sovereign(obligation_to_state_practical_consequences_of_decision))**: Juridicamente, isso significa que o tribunal deve explicar claramente como sua decisão afetará os envolvidos e quais serão seus impactos no cenário legal.\n\n- **Proibição de citação genérica de precedentes (sovereign(prohibition_of_generic_precedent_citation))**: Isso implica que o tribunal deve citar precedentes de forma específica, demonstrando como eles se aplicam diretamente ao caso em questão e não apenas mencioná-los sem uma análise aprofundada.\n\n- **Obrigação de abordar todos os argumentos legais (sovereign(obligation_to_address_all_legal_arguments))**: O tribunal deve considerar e discutir todas as teses jurídicas apresentadas pelas partes, garantindo que nenhuma seja negligenciada ou ignorada.\n\n- **Obrigação de fundamentar a decisão na ratio decidendi identificada (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi))**: Isso exige que o tribunal baseie sua decisão no raciocínio central do precedente aplicado, sem distorcer ou inverter sua essência.\n\n- **Obrigação constitucional de declarar os motivos das decisões (sovereign(constitutional_obligation_to_state_reasons_for_decisions))**: O tribunal deve explicitar as razões pelas quais chegou à sua conclusão, fornecendo uma justificativa clara e lógica.\n\n- **Reconhecimento da negociação coletiva (sovereign(recognition_of_collective_bargaining))**: Isso ressalta a importância das CCTs como instrumentos legítimos de negociação entre empregadores e trabalhadores, que devem ser respeitados.\n\n- **Direito de acesso à justiça e revisão judicial (sovereign(right_of_access_to_justice_and_judicial_review))**: Garante que as partes possam buscar a correção de decisões judiciais que não estejam em conformidade com o ordenamento jurídico.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO tribunal fez um erro ao usar uma regra do passado para decidir sobre o banco de horas sem a necessária convenção coletiva (CCT). Eles disseram que, porque as regras das CCTs são importantes e devem ser respeitadas, isso justificaria o banco de horas mesmo sem ter essa convenção específica. No entanto, não é assim que funciona: a regra do passado só se aplica quando há uma CCT existente. O tribunal também deveria explicar melhor como sua decisão afeta os trabalhadores e considerar todos os argumentos apresentados. Em resumo, o tribunal não seguiu corretamente as regras ao decidir esse caso.",
+  "tokens_in": 572,
+  "tokens_out": 907,
+  "latency_ms": 26719,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

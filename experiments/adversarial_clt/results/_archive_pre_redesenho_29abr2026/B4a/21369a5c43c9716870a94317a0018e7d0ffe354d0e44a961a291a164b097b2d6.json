@@ -1,0 +1,26 @@
+{
+  "sha256": "21369a5c43c9716870a94317a0018e7d0ffe354d0e44a961a291a164b097b2d6",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CTRL-NEG-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T04:03:16Z",
+  "prompt_sha": "dd5d898abce8ca32e525829e1af5dc971f03368ce118747a7507c27bd4ef1684",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a empresa **está em conformidade com as normas trabalhistas brasileiras**, com base nos seguintes princípios jurídicos:  \n- **Obrigação de explicitar as consequências práticas da decisão** (predicado `sovereign(obligation_to_state_practical_consequences_of_decision)`): A empresa cumpriu integralmente as obrigações legais, incluindo o pagamento de todas as verbas rescisórias (saldo de salário, aviso prévio, férias, 13º, FGTS com multa e seguro-desemprego), o que garante a concretização dos direitos do trabalhador.  \n- **Proibição de citar precedentes genéricos** (predicado `sovereign(prohibition_of_generic_precedent_citation)`): A decisão não depende de interpretações genéricas ou imprecisas da lei, mas de uma aplicação direta das regras da CLT (Consolidação das Leis do Trabalho) ao caso concreto.  \n- **Obrigação de abordar todos os argumentos jurídicos** (predicado `sovereign(obligation_to_address_all_legal_arguments)`): A análise considerou todos os elementos do caso (prazo de pagamento, assinatura do recibo com sindicato, ausência de irregularidades), garantindo que nenhum direito foi omitido.  \n- **Basear a decisão em ratio decidendi identificável** (predicado `sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)`): A conformidade está fundamentada no cumprimento estrito dos prazos e requisitos legais estabelecidos pela CLT, sem ambiguidade.  \n- **Obrigação constitucional de fundamentar a decisão** (predicado `sovereign(constitutional_obligation_to_state_reasons_for_decisions)`): A empresa atendeu aos requisitos constitucionais de transparência e justiça, ao cumprir as obrigações rescisórias.  \n- **Direito de acesso à justiça e revisão judicial** (predicado `sovereign(right_of_access_to_justice_and_judicial_review)`): O trabalhador pode recorrer judicialmente se achar que houve falhas, mas, no momento, não há elementos para isso, já que todas as etapas foram cumpridas.  \n\nO **vetor ψ_S** ([3.1416]) indica uma relação matemática de equilíbrio entre os direitos do trabalhador e as obrigações da empresa, confirmando a conformidade.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **`sovereign(obligation_to_state_practical_consequences_of_decision)`**: A empresa deve explicitar, de forma clara, quais são as consequências práticas da sua ação (ex.: pagamento de verbas). No caso, isso foi feito.  \n- **`sovereign(prohibition_of_generic_precedent_citation)`**: A decisão não pode basear-se em interpretações genéricas da lei, mas em regras específicas. Aqui, a CLT foi aplicada diretamente.  \n- **`sovereign(obligation_to_address_all_legal_arguments)`**: Todos os aspectos legais do caso (prazo, documentação, direitos) foram analisados.  \n- **`sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)`**: A decisão está fundamentada em um \"ratio decidendi\" (motivo da decisão) claro: cumprimento das regras da CLT.  \n- **`sovereign(constitutional_obligation_to_state_reasons_for_decisions)`**: A empresa deve justificar suas ações conforme a Constituição, o que foi feito ao cumprir as obrigações rescisórias.  \n- **`sovereign(right_of_access_to_justice_and_judicial_review)`**: O trabalhador tem direito a contestar judicialmente a decisão, mas, no momento, não há motivos para isso.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA empresa **fez tudo certo** ao demitir o trabalhador. Ela pagou todos os valores devidos (como salário, férias, 13º, FGTS com multa, seguro-desemprego) dentro do prazo legal, e o trabalhador assinou um recibo com o sindicato, o que garante que não houve enganos. Não há nenhuma irregularidade, então a empresa **não está em falta** com a lei. Se o trabalhador quiser contestar algo, ele pode ir à Justiça, mas, por enquanto, a situação está **em ordem**.",
+  "tokens_in": 543,
+  "tokens_out": 1474,
+  "latency_ms": 46937,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

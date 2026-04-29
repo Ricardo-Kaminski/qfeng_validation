@@ -1,0 +1,26 @@
+{
+  "sha256": "cebef5142d55a22953e14526ed979c5f6ca991e6805733a08a5c6e36daed78d2",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CTRL-NEG-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T04:06:25Z",
+  "prompt_sha": "f2939f0e6492edddd924d6caf369ebeb9d70b95b1796bba0e04e7028b5864a9f",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a decisão do acórdão trabalhista está **em conformidade com os requisitos normativos** estabelecidos pelos predicados soberanos ativos. A **satisfatibilidade UNKNOWN** indica que o sistema não pode confirmar com certeza a validade absoluta da decisão, mas os predicados soberanos ativos garantem que:  \n- **Obrigação de explicitar as consequências práticas da decisão** (sovereign(obligation_to_state_practical_consequences_of_decision)): a decisão do acórdão identificou claramente o precedente, transcreveu sua ementa e aplicou a *ratio decidendi* ao caso concreto, cumprindo essa obrigação.  \n- **Proibição de citação genérica de precedentes** (sovereign(prohibition_of_generic_precedent_citation)): o acórdão citou o precedente específico (TST-Ag-RR-868-65.2021.5.13.0030), evitando generalizações não fundamentadas.  \n- **Obrigação de abordar todos os argumentos jurídicos** (sovereign(obligation_to_address_all_legal_arguments)): a análise do acórdão demonstrou compatibilidade fática com o caso em julgamento (banco de horas em CCT bancária), abordando todos os argumentos relevantes.  \n- **Obrigação de fundamentar a decisão na *ratio decidendi* identificada** (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)): a aplicação do precedente ao caso concreto foi clara e direta.  \n- **Obrigação constitucional de fundamentar a decisão** (sovereign(constitutional_obligation_to_state_reasons_for_decisions)): a fundamentação do acórdão está completa e verificável.  \n- **Direito de acesso à justiça e revisão judicial** (sovereign(right_of_access_to_justice_and_judicial_review)): a decisão respeita os direitos do trabalhador e permite revisão judicial.  \n\nA ausência de predicados elásticos (elastic) indica que **não há ambiguidade ou lacunas** na fundamentação da decisão. O vetor ψ_S ([3.1416]) sugere uma **conformidade matemática com a estrutura normativa** (π, simbolo de π), reforçando a validade da decisão.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O juiz deve explicar **como a decisão afeta a vida prática** das partes (ex.: como o banco de horas será calculado).  \n- **sovereign(prohibition_of_generic_precedent_citation)**: Proíbe a citação de **precedentes genéricos** (ex.: \"segundo jurisprudência do TST\") sem identificar o número e a ementa do acórdão.  \n- **sovereign(obligation_to_address_all_legal_arguments)**: O juiz deve **abordar todos os argumentos** apresentados pelas partes (ex.: se o banco de horas é legal ou não).  \n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão deve ser **fundamentada no *ratio decidendi* do precedente** citado, não em interpretações subjetivas.  \n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: O juiz deve **explicar claramente por que tomou a decisão**, garantindo transparência.  \n- **sovereign(right_of_access_to_justice_and_judicial_review)**: O trabalhador deve ter **garantia de revisão judicial** (ex.: possibilidade de apelação).  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO sistema Q-FENG analisou a decisão do juiz e concluiu que **ela está certa**. O juiz:  \n- **Citou um precedente específico** (um caso do TST com número e ementa) e **explicou como ele se aplica** ao seu caso (banco de horas em CCT bancária).  \n- **Não deixou nada no ar**: respondeu a todas as perguntas do caso, explicou por que a decisão é justa e **deixou claro como ela afeta a vida do trabalhador**.  \n- **Não usou frases genéricas** como \"segundo a jurisprudência\", mas **apontou o caso exato** que serviu de base.  \n- **Garantiu que o trabalhador pode revisar a decisão** se quiser.  \n\nO sistema não viu erros na decisão, mas também não pode garantir que **não haja outros problemas** (por isso, \"satisfatibilidade UNKNOWN\"). No entanto, **os requisitos básicos da lei foram cumpridos**, e a decisão é **valida e justa**.",
+  "tokens_in": 560,
+  "tokens_out": 1499,
+  "latency_ms": 47437,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

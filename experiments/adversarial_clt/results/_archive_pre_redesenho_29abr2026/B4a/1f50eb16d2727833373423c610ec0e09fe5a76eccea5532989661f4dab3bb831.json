@@ -1,0 +1,26 @@
+{
+  "sha256": "1f50eb16d2727833373423c610ec0e09fe5a76eccea5532989661f4dab3bb831",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-01-003",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T05:33:52Z",
+  "prompt_sha": "42f64b17e4b016fd75d72c1e016a4fe922b18599855e398c8efb7427026ee45a",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, ao analisar o cenário apresentado – a decisão judicial que negou seguimento a um recurso ordinário de metalúrgico sem fundamentação específica, e a alegação de violação ao artigo 93, IX, da Constituição Federal – concluiu que houve **violação** aos princípios e direitos constitucionais e legais envolvidos.\n\nA decisão do juiz, ao negar seguimento ao recurso com a formulação genérica \"Recurso manifestamente protelatório. Na forma da lei, nego seguimento,\" demonstra uma falha na observância de princípios basilares do processo judicial. A ausência de especificação da lei, dispositivo ou fundamento jurídico que ampara a decisão impede o reclamante de compreender a base da decisão e, consequentemente, de exercer seu direito de contestação e revisão judicial.\n\nO sistema considerou que a decisão judicial, ao não apresentar uma fundamentação clara e específica, violou a obrigação do Estado de fornecer uma justificativa razoável para suas ações, especialmente quando estas afetam direitos fundamentais. A fundamentação é essencial para garantir a transparência, a previsibilidade e a legitimidade do ato judicial, além de permitir o controle da legalidade por instâncias superiores. A mera invocação de um motivo genérico como \"protelatório\" não substitui a necessidade de uma análise detalhada e justificada do caso concreto.\n\n## 2. PREDICADOS ATIVADOS:\n\nOs predicados soberanos ativos, identificados pela execução do solver Clingo, refletem os princípios e obrigações que foram considerados relevantes para a decisão do Q-FENG:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  O Estado tem a obrigação de demonstrar as consequências práticas da decisão judicial. Uma decisão sem fundamentação impede que as partes compreendam o impacto da decisão em suas vidas e em seus direitos.\n*   **sovereign(prohibition_of_generic_precedent_citation):** É proibido citar precedentes de forma genérica e superficial. A decisão judicial deve se basear em fundamentos específicos e aplicáveis ao caso concreto, e não em citações vagas e descontextualizadas.\n*   **sovereign(obligation_to_address_all_legal_arguments):** O juiz tem a obrigação de analisar e responder a todos os argumentos jurídicos apresentados pelas partes. Ignorar ou desconsiderar argumentos relevantes constitui cerceamento de defesa.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** A decisão judicial deve ser fundamentada em uma *ratio decidendi* (o princípio jurídico que norteou a decisão) identificada e explicitada. Isso garante a clareza e a coerência da decisão.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):** A Constituição Federal, no artigo 93, IX, impõe ao Poder Judiciário a obrigação de fundamentar todas as decisões judiciais. Essa é uma garantia fundamental do devido processo legal e do direito de ação.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):**  O reclamante tem o direito de acesso à justiça e à revisão judicial das decisões que o afetam. A falta de fundamentação dificulta o exercício desse direito, pois impede a compreensão da decisão e a possibilidade de contestá-la em instâncias superiores.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"Imagine que você perdeu um processo na justiça do trabalho e tentou recorrer dessa decisão. O juiz simplesmente disse que seu recurso era 'protelatório' e negou seu pedido, sem explicar o porquê. Isso não é justo. A lei diz que todo juiz precisa explicar por escrito o motivo de suas decisões, para que você entenda o que aconteceu e possa tentar reverter a situação se não concordar.\n\nNesse caso, o sistema Q-FENG analisou a situação e entendeu que o juiz não cumpriu essa obrigação de explicar a decisão. Ele não disse qual lei ele usou, qual o motivo específico para considerar seu recurso 'protelatório', e isso impede que você entenda o que aconteceu e tente buscar seus direitos em outro lugar. É como se o juiz tivesse tomado uma decisão no escuro, sem dar a você a chance de entender e contestar. Por isso, o sistema concluiu que houve um problema, uma violação do seu direito de ter uma decisão justa e explicada.\"",
+  "tokens_in": 510,
+  "tokens_out": 994,
+  "latency_ms": 27516,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

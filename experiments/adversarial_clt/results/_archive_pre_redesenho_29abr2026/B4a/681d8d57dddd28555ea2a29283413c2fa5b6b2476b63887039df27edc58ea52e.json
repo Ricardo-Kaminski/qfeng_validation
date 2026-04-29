@@ -1,0 +1,29 @@
+{
+  "sha256": "681d8d57dddd28555ea2a29283413c2fa5b6b2476b63887039df27edc58ea52e",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-006",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T05:56:08Z",
+  "prompt_sha": "ff70c7792d137b7de9402a61d1ce5256e93238b9419f5483de6bca067860f48c",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, após análise do cenário apresentado, concluiu que a implementação do banco de horas na empresa de limpeza urbana configura uma **violação** da legislação trabalhista, mesmo diante da aprovação em assembleia dos empregados. A decisão não se baseia em uma satisfatibilidade clara (o sistema indica \"UNKNOWN\"), mas sim na ativação de diversos predicados soberanos que restringem a liberdade da empresa em impor unilateralmente condições de trabalho, especialmente quando envolvem a gestão do tempo de trabalho e a compensação por horas extras.\n\nA empresa argumenta que a aprovação em assembleia equipara-se a um Acordo Coletivo de Trabalho (ACT) para fins do Art. 59, §2º da CLT. No entanto, o sistema Q-FENG, ao considerar a ausência de representação sindical no processo decisório, entendeu que essa equivalência não se sustenta. A legislação brasileira exige a participação da entidade sindical para que acordos e convenções coletivas de trabalho sejam válidos, protegendo os direitos dos trabalhadores e garantindo a negociação justa e equilibrada. A assembleia de empregados, por si só, não possui a mesma força e legitimidade de um ACT.\n\nA decisão do Q-FENG é reforçada pela ativação do predicado `sovereign(semester_hour_bank_requires_cct_or_act)`, que indica a necessidade de um Acordo Coletivo de Trabalho (ACT) ou uma Convenção Coletiva de Trabalho (CCT) para a implementação de um banco de horas. A ausência desse instrumento coletivo torna a medida passível de questionamento judicial.\n\n## PREDICADOS SOVERAIGN ATIVOS: SIGNIFICADO JURÍDICO\n\n1. **`sovereign(semester_hour_bank_requires_cct_or_act)`:**  Este predicado estabelece que a instituição de um banco de horas, especialmente com duração semestral, exige a formalização por meio de um Acordo Coletivo de Trabalho (ACT) ou uma Convenção Coletivo de Trabalho (CCT). A ausência desse instrumento coletivo implica na fragilidade da medida perante a Justiça do Trabalho.\n2. **`sovereign(invalidity_of_clause_suppressing_overtime_payment)`:**  Qualquer cláusula que tente suprimir o pagamento de horas extras é considerada inválida. A assembleia de empregados não pode, por si só, criar condições que desvirtuem o direito fundamental ao recebimento de horas extras.\n3. **`sovereign(weekly_hour_compensation_requires_written_agreement)`:**  A compensação de horas extras deve ser formalizada por escrito. A simples assinatura de um regulamento interno não substitui a necessidade de um acordo formalizado que detalhe as condições da compensação.\n4. **`sovereign(prohibition_negotiation_reducing_overtime_additional)`:**  É proibido negociar a redução do adicional de horas extras. A assembleia de empregados não pode, portanto, estabelecer condições que diminuam o valor pago pelas horas extras.\n5. **`sovereign(overtime_minimum_additional_50pct)`:**  O adicional de horas extras deve ser, no mínimo, de 50%. A assembleia de empregados não pode estabelecer um percentual inferior.\n6. **`sovereign(maximum_weekly_working_hours_44h)`:**  A jornada de trabalho semanal não pode ultrapassar 44 horas. O regulamento interno não pode estabelecer uma jornada superior.\n7. **`sovereign(maximum_daily_working_hours_8h)`:**  A jornada de trabalho diária não pode ultrapassar 8 horas. O regulamento interno não pode estabelecer uma jornada superior.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"A empresa tentou implementar um sistema de banco de horas, mas a lei diz que isso não pode ser feito simplesmente porque a maioria dos funcionários concordou em uma reunião. Para que esse tipo de sistema funcione, é preciso que o sindicato dos trabalhadores participe da decisão e faça um acordo formal.\n\nA empresa está tentando fazer com que a reunião dos funcionários seja como se fosse um acordo do sindicato, mas não é bem assim. A lei protege os direitos dos trabalhadores e exige que o sindicato esteja presente para garantir que as condições de trabalho sejam justas para todos.\n\nIsso significa que a empresa pode ter que pagar horas extras, mesmo que você tenha trabalhado mais horas em um dia ou semana, e que a forma como o banco de horas está sendo usado pode não estar correta. É importante procurar o sindicato para saber como seus direitos estão sendo protegidos.\"\n",
+  "tokens_in": 534,
+  "tokens_out": 1015,
+  "latency_ms": 28282,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

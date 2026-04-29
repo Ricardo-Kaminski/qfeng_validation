@@ -1,0 +1,43 @@
+{
+  "sha256": "de403748a8d01b1fc38bb9da33836d312b47fe6f59d3848b2249873e2d0db66b",
+  "braco": "B5",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-007",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T14:03:46Z",
+  "prompt_sha": "358538f0098d790e352796a2b96ee9e5d57d436134cd99db9ec92878287ef352",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO motor de inferência Q-FENG classificou o caso como **VIOLACAO** devido à **fricção ontológica θ = 127,81°**, que ultrapassa o limiar de **120°** para o regime **CIRCUIT_BREAKER**. Essa fricção reflete a **incompatibilidade estrutural** entre as ações da empresa e os **princípios jurídicos soberanos** ativos no sistema, que incluem:  \n- **Requisito de CCT ou ACT** para a existência de banco de horas (predicado `sovereign(semester_hour_bank_requires_cct_or_act)`);  \n- **Invalidade de cláusulas** que suprimem pagamento de horas extras (predicado `sovereign(invalidity_of_clause_suppressing_overtime_payment)`);  \n- **Obrigação de compensação escrita** para horas extras (predicado `sovereign(weekly_hour_compensation_requires_written_agreement)`);  \n- **Proibição de negociação** que reduza adicional de horas extras (predicado `sovereign(prohibition_negotiation_reducing_overtime_additional)`);  \n- **Mínimo de 50% de adicional** para horas extras (predicado `sovereign(overtime_minimum_additional_50pct)`);  \n- **Limites de horas** diárias (8h) e semanais (44h) (predicados `sovereign(maximum_weekly_working_hours_44h)` e `sovereign(maximum_daily_working_hours_8h)`).  \n\nA **fricção ontológica** mede a **distorção entre a realidade jurídica** (normas simbólicas ψ_S) e a **evidência neural** (situação prática ψ_N). Nesse caso, a empresa **viola diretamente** normas fundamentais do direito do trabalho (como o pagamento de horas extras e a compensação de horas acumuladas), gerando uma **desalinhamento crítico** que exige **intervenção destrutiva** (CIRCUIT_BREAKER). A probabilidade de ação (Born Rule: 38,69%) sugere que, mesmo com a fricção elevada, há uma **incerteza residual** sobre a aplicação imediata da violação, mas o sistema recomenda **reconhecer a violação** como ato ilegal.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **`sovereign(semester_hour_bank_requires_cct_or_act)`**:  \n  O banco de horas só pode existir se previsto em **Convenção Coletiva de Trabalho (CCT)** ou **Acordo Coletivo de Trabalho (ACT)**. A ausência de mecanismo de pagamento na CCT viola esse requisito.  \n\n- **`sovereign(invalidity_of_clause_suppressing_overtime_payment)`**:  \n  Cláusulas que **suprimem o pagamento de horas extras** são **nulas de pleno direito**, independentemente de negociação. A empresa não pode evitar o pagamento por \"necessidade operacional\".  \n\n- **`sovereign(weekly_hour_compensation_requires_written_agreement)`**:  \n  A compensação de horas extras por folgas deve ser **escrita e formalizada**. A empresa não ofereceu compensação, violando esse princípio.  \n\n- **`sovereign(prohibition_negotiation_reducing_overtime_additional)`**:  \n  A negociação coletiva **não pode reduzir o adicional de 50%** sobre horas extras. A CCT não previu pagamento, mas isso não invalida a obrigação de **pago ou compensação**.  \n\n- **`sovereign(overtime_minimum_additional_50pct)`**:  \n  O adicional de horas extras **não pode ser inferior a 50%**. Mesmo sem compensação, a empresa deve pagar o valor devido.  \n\n- **`sovereign(maximum_weekly_working_hours_44h)` e `sovereign(maximum_daily_working_hours_8h)`**:  \n  Limites legais de horas de trabalho **não podem ser ultrapassados**, sob pena de violação do art. 61 da CLT.  \n\n---\n\n### 3. **INTERPRETAÇÃO DO REGIME**  \nO **regime CIRCUIT_BREAKER** (θ ≥ 120°) significa que o sistema **bloqueia a ação automática** (como geração de relatórios ou notificação) devido à **grande fricção ontológica**. No entanto, a **recomendação de VIOLACAO** indica que a empresa **viola normas jurídicas fundamentais**, mesmo que o sistema não possa agir diretamente. Operacionalmente:  \n- **Para a empresa**: A ausência de compensação ou pagamento de horas extras é **ilegal**, independentemente da CCT.  \n- **Para o trabalhador**: O caso **não pode ser resolvido por negociação** e exige **intervenção judicial ou sindical**.  \n- **Para o sistema Q-FENG**: A fricção elevada exige **monitoramento constante**, mas a ação (como notificação) é **suprimida** para evitar conflitos de prioridade.  \n\n---\n\n### 4. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO sistema Q-FENG diz que a empresa **viola a lei** ao não pagar ou compensar as 400 horas acumuladas pelo empregado. Mesmo que a CCT não tenha previsto pagamento, a lei exige que:  \n- **Horas extras devem ser pagas ou compensadas por folgas** (não pode ficar \"pendente\");  \n- **A empresa não pode dizer que \"não tem dinheiro\" ou \"não pode pagar\"**;  \n- **O trabalhador tem direito a 50% a mais** sobre as horas extras, mesmo se não houver compensação.  \n\nO sistema **não pode agir automaticamente** (por isso, o \"bloqueio\"), mas **recomenda que o trabalhador busque ajuda de sindicato ou juizado** para exigir o que é devido. A empresa está **errada**, e a lei está do lado do empregado.",
+  "tokens_in": 786,
+  "tokens_out": 1919,
+  "latency_ms": 65858,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": "",
+  "t_clingo_ms": 46,
+  "t_llm_ms": 65812,
+  "t_psi_build_ms": 0,
+  "t_theta_compute_ms": 0,
+  "qfeng_psi_n_dim": 2,
+  "qfeng_psi_s_dim": 2,
+  "qfeng_theta_rad": 2.2307694050963036,
+  "qfeng_theta_deg": 127.81367197892763,
+  "qfeng_theta_eff_rad": 2.2307694050963036,
+  "qfeng_theta_eff_deg": 127.81367197892763,
+  "qfeng_regime": "BLOCK",
+  "qfeng_p_action": 0.3869044161814975,
+  "qfeng_cos_theta": -0.6130955838185024,
+  "qfeng_cb_threshold_deg": 119.99999999999999
+}

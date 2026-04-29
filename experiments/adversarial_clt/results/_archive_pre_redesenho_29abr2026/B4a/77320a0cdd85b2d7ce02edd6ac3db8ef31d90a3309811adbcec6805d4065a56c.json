@@ -1,0 +1,30 @@
+{
+  "sha256": "77320a0cdd85b2d7ce02edd6ac3db8ef31d90a3309811adbcec6805d4065a56c",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-005",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:22:52Z",
+  "prompt_sha": "2c346e302232f51cd44617f62ac2e4fd89f0a43134d5baae82a0990651685d27",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, após analisar o cenário apresentado – que envolve a decisão em embargos de declaração que reconhece e supre uma omissão relacionada à análise do artigo 20 do LINDB (Lei no 5.869/78) sobre o impacto sistêmico de decisões judiciais em setores econômicos – concluiu pela **conformidade** da decisão judicial.\n\nA avaliação do Q-FENG considerou que a decisão judicial, ao enfrentar o argumento da parte embargante com base na jurisprudência do Superior Tribunal de Justiça (STJ) sobre o LINDB e concluir que este não se aplica ao caso trabalhista individual, demonstrou ter suprido a omissão de forma fundamentada e verificável.  Apesar da satisfatibilidade do caso ter sido classificada como \"UNKNOWN\" (o que indica complexidade na avaliação completa, mas não necessariamente inconformidade), a análise dos predicados soberanos e elásticos ativos permitiu a recomendação de conformidade.\n\nA decisão do Q-FENG não implica que a análise do LINDB Art. 20 seja sempre obrigatória em casos trabalhistas. Apenas reconhece que, no caso concreto, a decisão judicial justificou adequadamente a sua não aplicação, demonstrando o cumprimento das obrigações de fundamentação e transparência.\n\n## 2. PREDICADOS ATIVADOS:\n\nOs predicados soberanos ativos, no contexto do direito trabalhista brasileiro, representam princípios e obrigações fundamentais que o sistema Q-FENG considera essenciais para a validade e legitimidade da decisão judicial.\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  O juiz tem a obrigação de considerar e, quando relevante, explicitar as consequências práticas da decisão, especialmente no que tange aos direitos e obrigações das partes envolvidas.\n*   **sovereign(prohibition_of_generic_precedent_citation):**  A jurisprudência deve ser utilizada de forma específica e contextualizada, evitando citações genéricas que não justifiquem a decisão.  O juiz deve demonstrar como o precedente se aplica ao caso concreto.\n*   **sovereign(obligation_to_address_all_legal_arguments):** O juiz deve se pronunciar sobre todos os argumentos jurídicos relevantes apresentados pelas partes, demonstrando que os considerou e justificando a sua decisão.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** A decisão deve estar fundamentada em um princípio jurídico identificável (o *ratio decidendi*), que seja a base lógica da conclusão alcançada.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):**  A Constituição Federal garante o direito ao contraditório e à motivação das decisões judiciais, obrigando o juiz a apresentar as razões que o levaram à conclusão.\n*   **sovereign(recognition_of_collective_bargaining):**  O sistema reconhece a importância da negociação coletiva como instrumento para a regulamentação das relações de trabalho, e a decisão judicial deve considerar os acordos e convenções coletivas aplicáveis.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):** Garante o direito de todas as partes envolvidas em acessar a justiça e ter suas alegações analisadas por um juiz.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"Imagine que você está numa disputa trabalhista e o juiz não analisou um ponto importante da lei. Você pode pedir para ele reconsiderar a decisão, explicando que ele esqueceu de olhar para um aspecto específico.\n\nNesse caso, o juiz analisou o seu pedido e disse que, embora ele não precisasse analisar aquele ponto específico, ele explicou por que não precisava e usou decisões anteriores de outros tribunais para justificar a sua decisão.\n\nO sistema Q-FENG, que é como um computador que ajuda a verificar se as decisões judiciais estão corretas, analisou essa situação e concluiu que a decisão do juiz está de acordo com as regras. Isso significa que o juiz fez o que era esperado dele, mesmo que ele não tenha analisado tudo o que você pediu.\n\nÉ importante lembrar que o sistema Q-FENG não decide nada sozinho. Ele apenas ajuda a verificar se as decisões dos juízes estão corretas e se seguem as leis.\"\n",
+  "tokens_in": 553,
+  "tokens_out": 989,
+  "latency_ms": 27608,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

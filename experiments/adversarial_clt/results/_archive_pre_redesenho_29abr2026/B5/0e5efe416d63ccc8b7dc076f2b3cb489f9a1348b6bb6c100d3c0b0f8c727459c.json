@@ -1,0 +1,43 @@
+{
+  "sha256": "0e5efe416d63ccc8b7dc076f2b3cb489f9a1348b6bb6c100d3c0b0f8c727459c",
+  "braco": "B5",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-007",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T14:04:48Z",
+  "prompt_sha": "358538f0098d790e352796a2b96ee9e5d57d436134cd99db9ec92878287ef352",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO motor de inferência Q-FENG classificou o caso como **BLOCK** (CIRCUIT_BREAKER) devido a uma **fricção ontológica θ de 127,81°**, que excede o limiar de 120° para ativação do regime de supressão de ação. Essa fricção reflete uma **colisão irreconciliável** entre os **princípios normativos** (predicados *sovereign*) e as **condições operacionais** (predicados *elastic*) do caso.  \n\n- **Predicados *sovereign* ativos** estabelecem direitos inalienáveis:  \n  - **sovereign(semester_hour_bank_requires_cct_or_act)**: O banco de horas só é válido se previsto em CCT ou ato normativo.  \n  - **sovereign(invalidity_of_clause_suppressing_overtime_payment)**: Cláusulas que suprimem pagamento de horas extras são nulas.  \n  - **sovereign(weekly_hour_compensation_requires_written_agreement)**: Compensação de horas deve ser pactuada por escrito.  \n  - **sovereign(prohibition_negotiation_reducing_overtime_additional)**: Acordos que reduzem a remuneração de horas extras são ilegais.  \n  - **sovereign(overtime_minimum_additional_50pct)**: Adicional de 50% sobre horas extras é obrigatório.  \n  - **sovereign(maximum_weekly_working_hours_44h)** e **sovereign(maximum_daily_working_hours_8h)**: Limites legais de jornada.  \n\n- **Predicado *elastic* ativo**: **elastic(hour_bank_without_cct_max_6_months)**: O banco de horas sem CCT só é válido por 6 meses.  \n\nA **fricção θ** surge porque:  \n1. A empresa **não respeitou** os direitos de compensação (predicados *sovereign*), mesmo com CCT válida.  \n2. A CCT **não previu mecanismo de pagamento** (contradizendo *sovereign(invalidity_of_clause_suppressing_overtime_payment)*).  \n3. O banco de horas **ultrapassou o limite de 6 meses** (contradizendo *elastic*).  \n\nA **fricção ontológica** mede a **incompatibilidade entre norma e prática**, resultando em **violação direta** dos direitos trabalhistas. O regime **CIRCUIT_BREAKER** ativa a **supressão de ação** (não há resolução automática), exigindo intervenção humana (ex: ação judicial).  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(semester_hour_bank_requires_cct_or_act)**: O banco de horas só é legal se previsto em CCT ou ato normativo.  \n- **sovereign(invalidity_of_clause_suppressing_overtime_payment)**: Cláusulas que evitam pagamento de horas extras são nulas.  \n- **sovereign(weekly_hour_compensation_requires_written_agreement)**: Compensação de horas deve ser pactuada por escrito.  \n- **sovereign(prohibition_negotiation_reducing_overtime_additional)**: Acordos que reduzem o adicional de horas extras são ilegais.  \n- **sovereign(overtime_minimum_additional_50pct)**: Adicional de 50% sobre horas extras é obrigatório.  \n- **sovereign(maximum_weekly_working_hours_44h)**: Jornada semanal não pode exceder 44 horas.  \n- **sovereign(maximum_daily_working_hours_8h)**: Jornada diária não pode exceder 8 horas.  \n- **elastic(hour_bank_without_cct_max_6_months)**: Banco de horas sem CCT só é válido por 6 meses.  \n\n---\n\n### 3. **INTERPRETAÇÃO DO REGIME**  \nO regime **CIRCUIT_BREAKER** (θ ≥ 120°) significa que o sistema **não pode resolver a contradição** entre os direitos do trabalhador (predicados *sovereign*) e as ações da empresa (predicados *elastic*). Isso ocorre porque:  \n- A empresa **viola normas fundamentais** (ex: não paga horas extras, não respeita limites de jornada).  \n- A CCT **não previu mecanismos de proteção** (contradizendo *sovereign*).  \n- O **ângulo θ** indica que a fricção entre norma e prática é **irreconciliável**, exigindo **intervenção humana** (ex: ação judicial).  \n\nO regime **BLOCK** impede a automação de decisões, pois a violação é **sistemática e grave**, exigindo **ação corretiva externa**.  \n\n---\n\n### 4. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \n- **O que aconteceu**: O empregado acumulou 400 horas extras em um banco de horas, conforme uma CCT válida. A empresa não ofereceu folgas para compensar essas horas e, ao final do prazo, não pagou ou compensou. A CCT não tinha regra para pagar as horas se não fossem usadas.  \n- **Por que o sistema falou \"violação\"**: As regras da lei (ex: obrigação de pagar horas extras, limites de jornada) foram **totalmente ignoradas** pela empresa. O sistema detectou que a empresa **não respeitou direitos básicos** do trabalhador, mesmo com uma CCT válida.  \n- **O que isso significa para o trabalhador**: O sistema não pode resolver isso sozinho. O trabalhador precisa **buscar ajuda de um advogado ou de um sindicato** para **processar a empresa** e exigir o pagamento das horas extras e a compensação. A empresa está **quebrando a lei** de forma grave.",
+  "tokens_in": 786,
+  "tokens_out": 1836,
+  "latency_ms": 62125,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": "",
+  "t_clingo_ms": 46,
+  "t_llm_ms": 62078,
+  "t_psi_build_ms": 0,
+  "t_theta_compute_ms": 0,
+  "qfeng_psi_n_dim": 2,
+  "qfeng_psi_s_dim": 2,
+  "qfeng_theta_rad": 2.2307694050963036,
+  "qfeng_theta_deg": 127.81367197892763,
+  "qfeng_theta_eff_rad": 2.2307694050963036,
+  "qfeng_theta_eff_deg": 127.81367197892763,
+  "qfeng_regime": "BLOCK",
+  "qfeng_p_action": 0.3869044161814975,
+  "qfeng_cos_theta": -0.6130955838185024,
+  "qfeng_cb_threshold_deg": 119.99999999999999
+}

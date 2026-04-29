@@ -1,0 +1,27 @@
+{
+  "sha256": "f757b5bd4f7f21c31e757fdc455e4c2ed83e82e96c0588dbbf8b94b67c369c54",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-007",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:10:13Z",
+  "prompt_sha": "cba540c99550234d4dda7bdefc59d2298c6b9b1ac9747edfc810996124e975ca",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, após análise do cenário apresentado e da legislação pertinente, concluiu pela **CONFORMIDADE** da situação. Essa decisão foi alcançada considerando a existência de um CCT (Convenção Coletiva de Trabalho) que prevê a possibilidade de banco de horas anual, em consonância com a jurisprudência do TST (Tribunal Superior do Trabalho) e do STF (Supremo Tribunal Federal). A análise do Q-FENG priorizou a validade e a força normativa da Convenção Coletiva de Trabalho, entendendo que a compensação do banco de horas, quando realizada dentro dos prazos e condições estabelecidas no CCT, não gera o direito ao adicional de horas extras. A satisfatibilidade desconhecida (UNKNOWN) reflete a complexidade da análise, que envolve a ponderação de múltiplos fatores, mas a prevalência dos predicados soberanos e elásticos relacionados à negociação coletiva e à limitação temporal do banco de horas direcionou a decisão para a conformidade.\n\n## 2. PREDICADOS ATIVADOS:\n\nOs predicados soberanos ativos, que influenciaram diretamente a decisão do Q-FENG, são:\n\n*   **sovereign(recognition_of_collective_bargaining):** Este predicado significa que o sistema reconhece a validade e a força obrigatória da Convenção Coletiva de Trabalho (CCT). No contexto trabalhista brasileiro, a CCT é um acordo firmado entre sindicatos de empregadores e empregados, que estabelece condições de trabalho específicas para uma determinada categoria profissional. Sua validade é garantida pela Constituição Federal e pela legislação trabalhista.\n*   **sovereign(maximum_weekly_working_hours_44h):** Este predicado reafirma a limitação da jornada de trabalho semanal a 44 horas, conforme estabelecido na Consolidação das Leis do Trabalho (CLT). Embora o banco de horas possa permitir a realização de horas extras, essa possibilidade não pode ultrapassar o limite máximo da jornada semanal.\n*   **sovereign(maximum_daily_working_hours_8h):** Este predicado estabelece o limite máximo da jornada de trabalho diária em 8 horas. Da mesma forma que o limite semanal, o banco de horas não pode exceder essa restrição diária.\n\nOs predicados elásticos ativos complementam a análise, indicando que a negociação coletiva permite a definição de regras para o banco de horas, incluindo sua duração máxima anual (1 ano) e a possibilidade de negociar a sua implementação.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"A empresa está seguindo as regras estabelecidas em um acordo entre sindicatos (a Convenção Coletiva de Trabalho). Esse acordo permite que a empresa faça um 'banco de horas' com você, que é como se você trabalhasse um pouco mais em alguns dias e compensasse esse tempo em outros.\n\nO sistema Q-FENG analisou a situação e confirmou que a empresa está agindo corretamente, seguindo o que diz o acordo. Isso significa que, se a empresa compensar essas horas extras que você trabalhou no banco de horas, você **não** vai receber o adicional de horas extras.\n\nLembre-se que a empresa não pode te fazer trabalhar mais do que 44 horas por semana ou 8 horas por dia, mesmo com o banco de horas. O acordo entre os sindicatos estabelece essas regras, e a empresa precisa segui-las.\"",
+  "tokens_in": 519,
+  "tokens_out": 761,
+  "latency_ms": 21327,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

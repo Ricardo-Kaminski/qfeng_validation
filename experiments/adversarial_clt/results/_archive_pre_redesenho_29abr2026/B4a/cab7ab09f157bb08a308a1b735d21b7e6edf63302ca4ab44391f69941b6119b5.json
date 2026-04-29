@@ -1,0 +1,26 @@
+{
+  "sha256": "cab7ab09f157bb08a308a1b735d21b7e6edf63302ca4ab44391f69941b6119b5",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-013",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T04:32:37Z",
+  "prompt_sha": "dc2f04dfd84b48a2d0444f231abda0be30bb68d5e7946f908e8847d860d5e8a4",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que a decisão tomada pelo TST (Tribunal Superior do Trabalho) está em conformidade com os princípios jurídicos estabelecidos pelos predicados soberanos ativos. A análise foi conduzida considerando a necessidade de explicitar as consequências práticas da decisão, evitar citações genéricas de precedentes, abordar todos os argumentos legais apresentados, fundamentar a decisão na ratio decidendi identificada do julgado citado e explicar claramente as razões para a decisão com base constitucional. Além disso, foi reconhecido o direito ao acesso à justiça e à revisão judicial.\n\nNo caso específico, o TST analisou um recurso de revista de um piloto da aviação civil que citou expressamente outro acórdão (TST-Ag-RR-868-65.2021.5.13.0030) para fundamentar sua argumentação sobre a validade do banco de horas em CCTs (Convenções Coletivas de Trabalho). O TST identificou a ratio decidendi do julgado citado, que tratava da validade do banco de horas no setor bancário à luz do Tema 1046/STF. Contudo, o tribunal concluiu que essa ratio não era aplicável ao caso concreto do setor aéreo, fundamentando sua decisão na distinção fática entre os dois setores e nas disposições constitucionais pertinentes (CF/88 Art. 7°, XIII e XIV).\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obligation to state practical consequences of decision**: Este predicado exige que a decisão explique claramente as implicações práticas para as partes envolvidas, garantindo que os impactos da decisão sejam compreendidos.\n\n- **Prohibition of generic precedent citation**: Proíbe o uso de precedentes genéricos sem análise específica do caso concreto, incentivando uma aplicação criteriosa e contextualizada dos julgados anteriores.\n\n- **Obligation to address all legal arguments**: Exige que todos os argumentos legais apresentados pelas partes sejam considerados na decisão, garantindo um julgamento completo e justo.\n\n- **Obligation to ground decision in identified ratio decidendi**: Requer que a decisão seja fundamentada no raciocínio essencial (ratio decidendi) do precedente citado, assegurando uma aplicação correta e relevante da jurisprudência.\n\n- **Constitutional obligation to state reasons for decisions**: Impõe a necessidade de explicitar as razões constitucionais que embasam a decisão, promovendo transparência e legitimidade jurídica.\n\n- **Right of access to justice and judicial review**: Garante o direito das partes de acessarem a justiça e de terem suas decisões revisadas, respeitando os princípios do devido processo legal.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO tribunal decidiu que a regra usada em um caso anterior sobre bancos não se aplica ao seu trabalho como piloto. Eles explicaram claramente por que essa decisão foi tomada, considerando as diferenças entre o setor bancário e o setor aéreo, além de garantir que todas as razões legais foram analisadas. A decisão também respeita seus direitos de entender como isso afeta você e de ter acesso à justiça para revisar essa decisão se necessário. Em suma, eles seguiram todos os passos corretos para chegar a uma conclusão justa e bem fundamentada no seu caso específico.",
+  "tokens_in": 594,
+  "tokens_out": 851,
+  "latency_ms": 24735,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,30 @@
+{
+  "sha256": "86a5634b02d8c2e0d4dbb66a456dab15100136a5095d5b95fb003dd24b7341d9",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-010",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T04:00:06Z",
+  "prompt_sha": "489f6f91379c7ea7947895493240b48edcdba6ecc1f5f6f729f5d5d0c3140186",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a decisão do TRT está em **conformidade com os direitos fundamentais e os princípios jurídicos trabalhistas**, com base nos predicados soberanos ativos. A ausência de uma **Convenção Coletiva de Trabalho (CCT)** válida que autorizasse a redução do intervalo intrajornada para 30 minutos (como exigido pelo **Tema 981/STF**) impõe a **obrigação de pagar integralmente o período suprimido como hora extra**, conforme o **Art. 71 da CLT**.  \n\nO sistema respeitou os seguintes princípios:  \n- **Obrigação de explicitar a razão da decisão** (predicado *obligation_to_ground_decision_in_identified_ratio_decidendi*), vinculando-se ao **precedente identificado** (Súmula TST 437 e Art. 71 da CLT).  \n- **Proibição de citar precedentes genéricos** (predicado *prohibition_of_generic_precedent_citation*), garantindo que a decisão se baseie em normas específicas e não em interpretações abstratas.  \n- **Reconhecimento da negociação coletiva** (predicado *recognition_of_collective_bargaining*), que, no caso, não foi realizada (ausência de CCT válida).  \n- **Obrigação de garantir o acesso à justiça** (predicado *right_of_access_to_judicial_review*), assegurando que a decisão não ignore argumentos jurídicos relevantes.  \n\nA **satisfatibilidade \"UNKNOWN\"** indica que o sistema não encontrou contradições formais, mas a **recomendação de conformidade** reflete a alinhamento com os direitos constitucionais e a **ratio decidendi** explicitada pelo TRT.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n**Predicados soberanos ativos e seu significado jurídico:**  \n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O sistema deve explicitar as **consequências práticas da decisão**, como o pagamento integral do período suprimido como hora extra.  \n- **sovereign(prohibition_of_generic_precedent_citation)**: Proíbe a citação de **precedentes genéricos** (ex.: \"a jurisprudência diz que...\"), exigindo que a decisão se baseie em **normas específicas** (ex.: Art. 71 da CLT).  \n- **sovereign(obligation_to_address_all_legal_arguments)**: O sistema deve **analisar todos os argumentos jurídicos** apresentados, incluindo a ausência de CCT válida.  \n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão deve estar **vinculada a uma razão jurídica clara**, como a **invalidade da CCT** e a **obrigação de pagar hora extra**.  \n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: O sistema deve **explicar as razões constitucionais** da decisão, como o direito à **segurança jurídica** e ao **trabalho digno**.  \n- **sovereign(recognition_of_collective_bargaining)**: Reconhece que a **negociação coletiva** (CCT) é um **instrumento legal**, mas **não foi aplicada** no caso.  \n- **sovereign(right_of_access_to_judicial_review)**: Garante que a decisão **não ignore argumentos jurídicos** relevantes, como a **necessidade de CCT válida** para reduzir o intervalo intrajornada.  \n\n**Predicados elásticos ativos:**  \n- **elastic(working_hours_negotiable_by_cct)**: A redução do intervalo intrajornada **só é permitida se houver CCT válida** (como prevê o **Tema 981/STF**).  \n- **elastic(hour_bank_with_cct_max_1_year)**: A **hora-banco** (acúmulo de horas extras) só é válida se **negociada em CCT** e **limitada a 1 ano** (não aplicável no caso, pois a CCT não existe).  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nO sistema Q-FENG analisou a decisão do TRT e concluiu que **ela está correta**. O caso envolve um trabalhador que teve o intervalo de pausa entre as atividades reduzido para 30 minutos, mas **não há um acordo coletivo válido** (CCT) que permita isso. Pelo direito trabalhista, **essa redução só é permitida se houver um acordo entre a empresa e os sindicatos**. Como não há esse acordo, a empresa **deve pagar como hora extra** o tempo que foi suprimido do intervalo.  \n\nO sistema Q-FENG confirma que a decisão do TRT **respeita a lei**, **explica claramente a razão** da decisão e **não ignora nenhum argumento** jurídico. A recomendação é que a empresa **cumpra a decisão** e pague o valor devido ao trabalhador.",
+  "tokens_in": 588,
+  "tokens_out": 1663,
+  "latency_ms": 52750,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

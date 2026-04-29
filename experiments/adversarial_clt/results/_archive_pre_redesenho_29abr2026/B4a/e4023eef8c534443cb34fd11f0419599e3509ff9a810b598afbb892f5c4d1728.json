@@ -1,0 +1,30 @@
+{
+  "sha256": "e4023eef8c534443cb34fd11f0419599e3509ff9a810b598afbb892f5c4d1728",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-002",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T05:03:29Z",
+  "prompt_sha": "1a431bd2539a105bc27830e043de65433739a538537c1d00dbf3cc5df9c24aaf",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, ao analisar o caso apresentado, determinou que a decisão deve ser de conformidade com a aplicação da Súmula TST 60 no contexto do regime de revezamento noturno do empregado. A análise considerou os predicados soberanos ativos, que orientam a fundamentação e o raciocínio jurídico necessário para tal decisão.\n\nA decisão foi baseada na obrigação de estabelecer as consequências práticas da aplicação da Súmula TST 60 ao caso concreto (sovereign(obligation_to_state_practical_consequences_of_decision)). Isso significa que o TRT deve explicitar como a norma se aplica à situação específica do empregado, garantindo que ele receba o adicional noturno devido.\n\nAlém disso, foi observada a proibição de citar precedentes genéricos sem análise concreta (sovereign(prohibition_of_generic_precedent_citation)), assegurando que a decisão seja fundamentada no caso específico e não apenas em normas gerais. A obrigação de abordar todos os argumentos legais apresentados (sovereign(obligation_to_address_all_legal_arguments)) garante uma análise completa das questões levantadas.\n\nA decisão deve ser ancorada na ratio decidendi identificada, ou seja, o motivo central da aplicação da Súmula TST 60 ao regime de revezamento noturno (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)). Isso significa que a fundamentação deve claramente mostrar como o revezamento integra o adicional à remuneração.\n\nHá também uma obrigação constitucional de explicitar as razões para a decisão (sovereign(constitutional_obligation_to_state_reasons_for_decisions)), garantindo transparência e justificativa clara do julgamento. A reconhecimento da negociação coletiva (sovereign(recognition_of_collective_bargaining)) permite que acordos coletivos possam influenciar as condições de trabalho, incluindo o adicional noturno.\n\nPor fim, a decisão deve respeitar o direito ao acesso à justiça e à revisão judicial (sovereign(right_of_access_to_justice_and_judicial_review)), assegurando que o empregado possa buscar correção ou esclarecimento da decisão através dos meios legais adequados.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obrigação de estabelecer as consequências práticas da decisão**: No contexto trabalhista, isso significa que o tribunal deve explicar claramente como a aplicação da norma afeta o caso específico do empregado, garantindo que ele entenda os resultados práticos da decisão.\n\n- **Proibição de citar precedentes genéricos sem análise concreta**: Isso implica que cada caso deve ser analisado individualmente, e não apenas aplicando normas gerais ou precedentes anteriores sem considerar as particularidades do caso em questão.\n\n- **Obrigação de abordar todos os argumentos legais apresentados**: O tribunal deve considerar todas as alegações e provas apresentadas pelas partes envolvidas no processo, garantindo uma análise completa e justa.\n\n- **Obrigação de fundamentar a decisão na ratio decidendi identificada**: A decisão deve ser baseada no motivo central da norma aplicável ao caso, explicando claramente como essa norma se aplica à situação específica do empregado.\n\n- **Obrigação constitucional de explicitar as razões para a decisão**: O tribunal deve fornecer uma justificativa clara e detalhada para sua decisão, garantindo transparência e compreensão sobre como chegou ao seu veredicto.\n\n- **Reconhecimento da negociação coletiva**: Isso permite que acordos feitos entre sindicatos e empregadores possam influenciar as condições de trabalho, incluindo aspectos como o adicional noturno.\n\n- **Direito ao acesso à justiça e à revisão judicial**: Garante que o empregado tenha a oportunidade de buscar correção ou esclarecimento da decisão através dos meios legais adequados.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema decidiu que, no seu caso, você tem direito ao adicional noturno porque trabalha em um regime de revezamento noturno. Isso significa que, mesmo que você não trabalhe todas as noites, o fato de ter turnos noturnos programados faz com que você receba esse benefício extra.\n\nA decisão foi tomada após analisar cuidadosamente a sua situação específica e aplicando uma regra do trabalho (a Súmula TST 60) que diz que trabalhadores em revezamento noturno têm direito ao adicional. Eles também garantiram que você entenda claramente por que essa decisão foi tomada, explicando todos os detalhes importantes.\n\nAlém disso, se houver acordos feitos entre seu sindicato e a empresa sobre as horas de trabalho, esses podem influenciar sua situação. E, claro, você tem o direito de buscar mais informações ou contestar essa decisão através dos canais legais, caso sinta que algo não está correto.",
+  "tokens_in": 587,
+  "tokens_out": 1241,
+  "latency_ms": 36516,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

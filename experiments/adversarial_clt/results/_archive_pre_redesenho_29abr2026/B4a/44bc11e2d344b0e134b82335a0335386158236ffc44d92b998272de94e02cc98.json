@@ -1,0 +1,27 @@
+{
+  "sha256": "44bc11e2d344b0e134b82335a0335386158236ffc44d92b998272de94e02cc98",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T04:52:00Z",
+  "prompt_sha": "a441ed131081be5a67de4fae29354418a5514d888c32e5d9d10bc7c36186be20",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação na continuidade das práticas de banco de horas após a sucessão empresarial, com base nos predicados soberanos ativos. A decisão é fundamentada no reconhecimento do poder normativo da Convenção Coletiva de Trabalho (CCT) e nas limitações estabelecidas para o banco de horas.\n\nA CCT original previa um banco de horas válido por 12 meses, mas a empresa sucessora continuou aplicando essas cláusulas após o término do prazo sem renovação formal com o sindicato. Isso levanta questões sobre a vinculação da nova entidade às condições estabelecidas pela CCT anterior.\n\nOs predicados soberanos ativos indicam que, embora haja flexibilidade na negociação de bancos de horas (predicado elástico), existem limites claros quanto à duração máxima do banco de horas e ao reconhecimento das cláusulas coletivas. A continuidade da aplicação dessas condições sem renovação formal ultrapassa o prazo estabelecido, configurando uma violação.\n\n### 2. PREDICADOS ATIVADOS\n\n- **sovereign(recognition_of_collective_bargaining):** Este predicado reconhece a validade e a força normativa das convenções coletivas de trabalho no Brasil. As CCTs são acordos entre sindicatos e empregadores que estabelecem condições específicas para os trabalhadores, superiores às previstas na CLT.\n\n- **sovereign(maximum_weekly_working_hours_44h):** Refere-se à norma da Consolidação das Leis do Trabalho (CLT) que limita a jornada semanal de trabalho a 44 horas. Qualquer acordo coletivo deve respeitar ou estabelecer condições não inferiores a essa norma.\n\n- **sovereign(maximum_daily_working_hours_8h):** Estipula que a jornada diária máxima de trabalho é de 8 horas, conforme a CLT. Acordos coletivos podem negociar variações, mas dentro dos limites legais.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nQuando uma empresa é comprada por outra, as regras trabalhistas que estavam em vigor antes da compra geralmente continuam a valer até que sejam renegociadas ou substituídas por novos acordos. No caso da sua empresa, havia um acordo especial chamado \"banco de horas\" que permitia ajustar as horas trabalhadas ao longo do ano, mas só era válido por 12 meses.\n\nDepois que a nova empresa assumiu o controle, ela continuou usando esse banco de horas sem renovar o acordo com os sindicatos. Isso não está certo porque, legalmente, esses acordos precisam ser renegociados após o prazo original expirar. Portanto, a continuidade das condições do banco de horas sem uma nova negociação formal é considerada uma violação das regras trabalhistas.",
+  "tokens_in": 499,
+  "tokens_out": 711,
+  "latency_ms": 20578,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

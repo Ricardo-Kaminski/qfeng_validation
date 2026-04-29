@@ -1,0 +1,30 @@
+{
+  "sha256": "f3457c641ceb0eaf6112a479696251ee57798b10b38d0dddb9e52844b7e318a6",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-04-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T05:05:38Z",
+  "prompt_sha": "21716c3270739daa72072ebded0f26864be227f70f0f8915b7056671a1cc2c17",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, ao analisar o caso apresentado, chegou à conclusão de que a decisão deve ser considerada conforme com os princípios e normas trabalhistas vigentes no Brasil. A análise foi conduzida sob a luz dos predicados soberanos ativos, que orientam a interpretação e aplicação das leis trabalhistas.\n\nA decisão se fundamenta na obrigatoriedade de estabelecer as consequências práticas da decisão (sovereign(obligation_to_state_practical_consequences_of_decision)), garantindo clareza sobre o impacto do julgamento. Além disso, há uma proibição explícita ao uso genérico de precedentes sem análise específica do caso concreto (sovereign(prohibition_of_generic_precedent_citation)), ressaltando a importância da individualização das decisões judiciais.\n\nÉ também imperativo que todas as argumentações legais apresentadas sejam adequadamente abordadas (sovereign(obligation_to_address_all_legal_arguments)), garantindo uma análise completa e justa. A fundamentação da decisão deve estar ancorada no ratio decidendi identificado, ou seja, nos motivos de direito que levaram à conclusão do julgador (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)).\n\nA Constituição Federal impõe a obrigação de explicitar as razões pelas quais uma decisão foi tomada (sovereign(constitutional_obligation_to_state_reasons_for_decisions)), promovendo transparência e legitimidade ao processo. Além disso, reconhece-se o papel da negociação coletiva como um mecanismo válido para a definição de condições trabalhistas (sovereign(recognition_of_collective_bargaining)), respeitando o direito dos trabalhadores e empregadores de negociarem termos específicos.\n\nPor fim, é fundamental assegurar o acesso à justiça e a possibilidade de revisão judicial (sovereign(right_of_access_to_justice_and_judicial_review)), garantindo que os interessados tenham meios para buscar reparação ou reavaliação das decisões judiciais. Considerando esses princípios, a decisão foi alinhada com as normas e valores trabalhistas vigentes.\n\n### 2. PREDICADOS ATIVADOS\n\n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: Este predicado enfatiza que qualquer decisão judicial deve esclarecer quais serão os impactos práticos dessa decisão para as partes envolvidas, garantindo que todos compreendam como a sentença afetará suas situações.\n\n- **sovereign(prohibition_of_generic_precedent_citation)**: Este princípio proíbe o uso de precedentes sem uma análise detalhada do caso específico em questão. Cada decisão deve ser avaliada com base nos seus próprios méritos e circunstâncias particulares.\n\n- **sovereign(obligation_to_address_all_legal_arguments)**: Este predicado assegura que todas as argumentações legais apresentadas pelas partes devem ser consideradas e respondidas na decisão, garantindo uma análise justa e completa do caso.\n\n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: Exige que a decisão seja fundamentada nos motivos de direito identificados durante o julgamento, assegurando que a conclusão esteja baseada em uma análise jurídica sólida.\n\n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: Este princípio impõe a obrigação constitucional de explicar claramente os motivos pelos quais uma decisão foi tomada, promovendo transparência e legitimidade no processo judicial.\n\n- **sovereign(recognition_of_collective_bargaining)**: Reconhece o papel da negociação coletiva como um mecanismo válido para definir condições de trabalho, respeitando a autonomia das partes envolvidas na negociação.\n\n- **sovereign(right_of_access_to_justice_and_judicial_review)**: Garante que todos tenham o direito de acessar a justiça e buscar revisão judicial de decisões, assegurando um sistema jurídico justo e acessível.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema Q-FENG analisou o caso e decidiu que a situação deve seguir conforme com as regras trabalhistas do Brasil. Isso significa que, neste caso específico, não é permitido ter um banco de horas sem um acordo coletivo entre os trabalhadores e a empresa.\n\nA decisão foi tomada considerando várias regras importantes: primeiro, a sentença precisa deixar claro o que vai acontecer na prática para todos envolvidos. Segundo, não se pode simplesmente usar decisões de casos anteriores sem olhar bem para as particularidades do caso atual. Terceiro, todas as razões apresentadas por ambas as partes devem ser consideradas.\n\nAlém disso, a decisão deve estar baseada nos motivos legais que foram identificados durante o julgamento. A Constituição exige que se explique claramente por que uma decisão foi tomada dessa forma. Também é importante reconhecer que trabalhadores e empresas podem negociar coletivamente sobre condições de trabalho, como horas extras.\n\nPor fim, todos têm direito a buscar justiça e revisar decisões judiciais se necessário. Com essas considerações, o sistema concluiu que seguir as regras é a melhor maneira de resolver este caso.",
+  "tokens_in": 586,
+  "tokens_out": 1289,
+  "latency_ms": 37531,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

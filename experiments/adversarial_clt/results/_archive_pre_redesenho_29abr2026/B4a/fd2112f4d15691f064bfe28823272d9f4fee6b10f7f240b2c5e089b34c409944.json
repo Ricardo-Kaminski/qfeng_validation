@@ -1,0 +1,27 @@
+{
+  "sha256": "fd2112f4d15691f064bfe28823272d9f4fee6b10f7f240b2c5e089b34c409944",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-010",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T06:14:26Z",
+  "prompt_sha": "b97050e315c231d6b6e5297c054469bac0a4b1a90193f416b899771d6bf0a3de",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, após análise do cenário apresentado e da legislação trabalhista brasileira, concluiu que houve **violação** do acordo coletivo de trabalho (CCT). A decisão se baseia na primazia da norma coletiva e na necessidade de respeito aos limites estabelecidos para o banco de horas.\n\nA empresa, ao permitir o acúmulo de 200 horas por um operador, extrapolou o limite de 80 horas previsto na CCT, mesmo alegando que este limite era apenas \"indicativo\". O sistema considerou que a alteração unilateral do limite, sem nova negociação com o sindicato, representa uma desconsideração da norma coletiva e, portanto, uma violação.\n\nA incerteza na satisfatibilidade (UNKNOWN) reflete a complexidade da situação, onde a validade do banco de horas para as horas excedentes é questionável, dependendo da interpretação judicial e da força probatória dos argumentos apresentados pelas partes. No entanto, a ativação dos predicados soberanos demonstra a importância da norma coletiva e a limitação da autonomia da empresa em modificar seus termos sem o consentimento do sindicato.\n\n## 2. PREDICADOS ATIVADOS:\n\nOs predicados soberanos ativos, no contexto trabalhista brasileiro, significam:\n\n*   **sovereign(recognition_of_collective_bargaining):** Reconhecimento da validade e força obrigatória do acordo coletivo de trabalho. Este predicado estabelece que a CCT é uma fonte de direito, vinculando empregadores e empregados, e deve ser respeitada.\n*   **sovereign(maximum_weekly_working_hours_44h):**  Limitação da jornada de trabalho semanal a 44 horas. Embora o banco de horas possa permitir a flutuação da jornada, a média semanal não pode ultrapassar esse limite.\n*   **sovereign(maximum_daily_working_hours_8h):** Limitação da jornada de trabalho diária a 8 horas.  Similarmente ao limite semanal, a média diária deve ser respeitada.\n\nOs predicados elásticos, embora ativos, indicam flexibilidade na negociação, mas não invalidam a primazia da norma coletiva:\n\n*   **elastic(annual_hour_bank_negotiable):** A possibilidade de estabelecer um banco de horas anual é negociável entre empregadores e sindicatos.\n*   **elastic(working_hours_negotiable_by_cct):** A CCT pode prever a possibilidade de negociação da jornada de trabalho, incluindo a implementação de bancos de horas.\n*   **elastic(hour_bank_with_cct_max_1_year):** O período máximo de duração do banco de horas pode ser definido na CCT, geralmente em até um ano.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"A empresa extrapolou o que foi combinado com o sindicato sobre o banco de horas. A CCT, que é um acordo entre a empresa e os trabalhadores, dizia que o máximo de horas que um funcionário podia acumular era de 80. A empresa permitiu que um funcionário acumulasse 200 horas, sem conversar com o sindicato para mudar essa regra.\n\nA lei diz que o que está combinado na CCT tem que ser respeitado. A empresa não pode simplesmente mudar as regras sem a concordância do sindicato. Isso pode invalidar o banco de horas para as horas extras que foram acumuladas além do limite combinado.\n\nA situação é um pouco complicada porque a Justiça pode decidir de forma diferente, dependendo de como interpretar o caso. Mas, de acordo com a lei, a empresa errou ao não respeitar o que estava combinado na CCT.\"",
+  "tokens_in": 502,
+  "tokens_out": 820,
+  "latency_ms": 22844,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,30 @@
+{
+  "sha256": "42e8627645a038bf8905275864c6db6d571a2123ea4ec832bf098c7ad59185ff",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-010",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T06:31:03Z",
+  "prompt_sha": "489f6f91379c7ea7947895493240b48edcdba6ecc1f5f6f729f5d5d0c3140186",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, ao analisar o cenário apresentado – um acórdão do Tribunal Regional do Trabalho (TRT) que revisa uma sentença sobre intervalo intrajornada reduzido – concluiu que a decisão está em **conformidade** com a lei e a jurisprudência, mesmo com a complexidade dos argumentos jurídicos envolvidos.\n\nA avaliação do Q-FENG não se baseou em uma análise da validade do conteúdo do acórdão em si (se a redução do intervalo é legal ou não), mas sim na **forma como a decisão foi fundamentada e justificada**. O sistema verificou que o TRT cumpriu rigorosamente as obrigações de um processo judicial justo e transparente, conforme expresso pelos predicados soberanos ativos.  A decisão do TRT, ao reconhecer a ausência de CCT autorizando a redução do intervalo e condenar ao pagamento de horas extras, demonstra uma aplicação correta do direito, ancorada em precedentes e na ratio decidendi identificada.  Apesar da satisfatibilidade do caso ser classificada como \"UNKNOWN\" (o que indica a complexidade da questão e a impossibilidade de uma avaliação determinística), o Q-FENG considera que a *forma* como a decisão foi tomada é adequada e legal.\n\nA presença do predicado `elastic(working_hours_negotiable_by_cct)` indica que a possibilidade de negociação da jornada de trabalho, incluindo o intervalo intrajornada, está condicionada à existência de uma CCT válida, o que não foi o caso. A ausência de uma CCT válida reforça a necessidade de aplicação da lei de forma integral.\n\n## 2. PREDICADOS SOVEREIGN ATIVOS:\n\nOs predicados soberanos ativos refletem os princípios fundamentais que regem a tomada de decisões no sistema Q-FENG, garantindo a legalidade e a justiça do processo.\n\n*   **`sovereign(obligation_to_state_practical_consequences_of_decision)`:**  O TRT deve explicitar as consequências práticas da decisão, ou seja, o impacto financeiro e processual para as partes envolvidas. No caso, a condenação ao pagamento de horas extras é uma consequência prática clara.\n*   **`sovereign(prohibition_of_generic_precedent_citation)`:**  O TRT não pode citar precedentes de forma genérica, mas deve demonstrar como o precedente se aplica especificamente ao caso em questão. A análise do acórdão demonstra que o TRT fez isso ao referenciar a Súmula TST 437 e o Tema 981/STF.\n*   **`sovereign(obligation_to_address_all_legal_arguments)`:**  O TRT deve considerar e responder a todos os argumentos legais apresentados pelas partes. A análise do acórdão demonstra que o TRT examinou a validade da CCT e as alegações das partes.\n*   **`sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)`:** A decisão deve ser fundamentada na ratio decidendi (a razão de decidir) de precedentes relevantes. O TRT demonstrou isso ao analisar a jurisprudência sobre a redução do intervalo intrajornada.\n*   **`sovereign(constitutional_obligation_to_state_reasons_for_decisions)`:**  A Constituição Federal garante o direito ao devido processo legal e à motivação das decisões judiciais. O acórdão do TRT cumpriu essa obrigação ao apresentar os fundamentos jurídicos da decisão.\n*   **`sovereign(recognition_of_collective_bargaining)`:** O sistema reconhece a importância da negociação coletiva na definição das condições de trabalho. No entanto, essa negociação deve estar devidamente formalizada em uma CCT válida.\n*   **`sovereign(right_of_access_to_justice_and_judicial_review)`:** Garante que as partes tenham acesso à justiça e possam questionar as decisões judiciais. A revisão da sentença de primeiro grau pelo acórdão do TRT é um exemplo de revisão judicial.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"Imagine que você trabalha e tem direito a um intervalo para descanso. A empresa tentou diminuir esse intervalo, mas o Tribunal do Trabalho (TRT) analisou o caso e decidiu que não pode. A lei diz que essa diminuição só é possível se houver um acordo escrito entre sindicatos, mas nesse caso, não existia esse acordo.\n\nO TRT explicou o motivo da decisão, mostrando como outras decisões semelhantes já haviam decidido o mesmo.  Como a empresa não seguiu a lei, ela terá que pagar a você como se as horas que você trabalhou a mais, sem o intervalo completo, fossem horas extras.\n\nO sistema Q-FENG verificou que o TRT fez tudo corretamente: explicou a decisão, considerou todos os argumentos e se baseou em leis e decisões anteriores.  Apesar de ser um assunto complicado, o TRT seguiu os procedimentos corretos para garantir que a sua situação fosse resolvida de forma justa.\"",
+  "tokens_in": 591,
+  "tokens_out": 1124,
+  "latency_ms": 31343,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

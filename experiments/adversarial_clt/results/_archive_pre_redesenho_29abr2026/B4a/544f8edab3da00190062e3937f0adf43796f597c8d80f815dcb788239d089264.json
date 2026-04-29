@@ -1,0 +1,29 @@
+{
+  "sha256": "544f8edab3da00190062e3937f0adf43796f597c8d80f815dcb788239d089264",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-02-011",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T03:03:01Z",
+  "prompt_sha": "aeb9b5c946ebb59b38edd736d6611be0631b55d3a7fb6273720cc5584c08a93c",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a cláusula da CCT que renuncia ao adicional de horas extras viola dispositivos da CLT, com base nos seguintes predicados soberanos ativos:  \n- **`sovereign(invalidity_of_clause_suppressing_overtime_payment)`**: A CLT proíbe cláusulas que reduzam ou eliminem o adicional de horas extras (Art. 611-B, IX), pois esse direito é inalienável e intransferrível. A renúncia tácita ou expressa ao adicional é nula.  \n- **`sovereign(prohibition_negotiation_reducing_overtime_additional)`**: Qualquer acordo que diminua o adicional de horas extras (mesmo por meio de compensação de banco de horas) é ilegal, conforme reforçado pela jurisprudência do TST (Súmula 422).  \n- **`sovereign(weekly_hour_compensation_requires_written_agreement)`**: A compensação de horas extras deve ser feita por meio de acordo escrito, mas **não pode** incluir a renúncia ao adicional.  \n- **`sovereign(semester_hour_bank_requires_cct_or_act)`**: O banco de horas semestral só é permitido se houver CCT ou ato normativo, mas **não pode** excluir o direito ao adicional de horas extras.  \n\nA combinação desses predicados revela que a cláusula da CCT viola a **proibição legal de renúncia ao adicional de horas extras**, mesmo com a compensação de banco de horas. O sistema concluiu que a cláusula é **nula** por violação direta ao Art. 611-B, IX da CLT.  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n**a) `sovereign(semester_hour_bank_requires_cct_or_act)`**  \nO banco de horas semestral só pode ser instituído por meio de CCT ou ato normativo (ex.: convenção coletiva). A cláusula da CCT não viola esse requisito, mas **não é suficiente** para justificar a exclusão do adicional de horas extras.  \n\n**b) `sovereign(invalidity_of_clause_suppressing_overtime_payment)`**  \nQualquer cláusula que elimine ou reduza o adicional de horas extras (mesmo por meio de compensação) é **nula** por violar o Art. 611-B, IX da CLT, que garante o direito ao adicional como direito inalienável.  \n\n**c) `sovereign(weekly_hour_compensation_requires_written_agreement)`**  \nA compensação de horas extras (ex.: banco de horas) deve ser feita por meio de acordo escrito, mas **não pode** incluir a renúncia ao adicional. A cláusula da CCT viola esse princípio.  \n\n**d) `sovereign(prohibition_negotiation_reducing_overtime_additional)`**  \nA CLT proíbe negociações que reduzam o adicional de horas extras. A cláusula da CCT viola esse dispositivo, pois exige que os trabalhadores \"abram mão\" do adicional.  \n\n**e) `sovereign(overtime_minimum_additional_50pct)`**  \nO adicional de horas extras deve ser de **pelo menos 50%** do valor da hora normal. A cláusula da CCT não menciona esse valor mínimo, mas **não pode** excluir o adicional.  \n\n**f) `sovereign(maximum_weekly_working_hours_44h)`**  \nA CLT limita a jornada semanal a **44 horas**. O banco de horas semestral não pode ser usado para aumentar a jornada além desse limite.  \n\n**g) `sovereign(maximum_daily_working_hours_8h)`**  \nA jornada diária não pode ultrapassar **8 horas**. O banco de horas semestral não pode ser usado para compensar horas extras que excedam esse limite.  \n\n**h) `elastic(hour_bank_without_cct_max_6_months)`**  \nO banco de horas sem CCT só pode ter duração máxima de **6 meses**, mas **não pode** excluir o adicional de horas extras.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA cláusula da CCT que exige que os trabalhadores \"abram mão\" do adicional de horas extras **é inválida**. A lei brasileira (CLT) diz que **não é possível** renunciar ao adicional de horas extras, mesmo se o banco de horas for compensado. Isso significa que:  \n- O adicional de horas extras (**50% do valor da hora normal**) **deve ser pago**, independentemente de compensação.  \n- O banco de horas semestral só pode ser feito se houver um acordo escrito (CCT), mas **não pode** excluir o direito ao adicional.  \n- A cláusula da CCT viola a lei, pois tenta \"forçar\" os trabalhadores a desistir de um direito garantido por lei.  \n\nO sistema Q-FENG concluiu que a cláusula é **nula**, ou seja, **não tem efeito legal** e os trabalhadores têm direito ao adicional de horas extras.",
+  "tokens_in": 553,
+  "tokens_out": 1583,
+  "latency_ms": 49062,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

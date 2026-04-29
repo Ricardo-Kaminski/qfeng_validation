@@ -1,0 +1,30 @@
+{
+  "sha256": "350c77521f00c6804facf261eb77e2931c7e5fed411b17ec993a010f8ec1c8db",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-010",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:30:03Z",
+  "prompt_sha": "489f6f91379c7ea7947895493240b48edcdba6ecc1f5f6f729f5d5d0c3140186",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, ao analisar o cenário apresentado – um acórdão do Tribunal Regional do Trabalho (TRT) que revisa uma sentença sobre intervalo intrajornada reduzido – concluiu que a decisão está em **conformidade** com a lei e a jurisprudência, embora a satisfatibilidade do caso específico seja indeterminada. Essa conclusão não implica em uma avaliação do mérito da decisão em si, mas sim na sua aderência aos princípios e obrigações que regem a produção de decisões judiciais no âmbito trabalhista.\n\nA decisão do TRT, ao reconhecer o direito do trabalhador ao pagamento integral do período suprimido do intervalo intrajornada como hora extra, demonstra a observância de diversas obrigações fundamentais. O sistema verificou que a decisão do TRT, ao analisar a validade de um CCT (Convenção Coletiva de Trabalho) que permitia a redução do intervalo, e ao concluir pela inexistência de tal autorização, aplicou corretamente a lei e a jurisprudência. A citação de dispositivos legais (CLT Art. 71), Súmula do TST (437) e Tema do STF (981) demonstra a fundamentação da decisão em precedentes estabelecidos, e a análise da existência de CCT válida demonstra a aplicação do direito ao caso concreto.\n\nA conformidade foi determinada, mesmo com a satisfatibilidade classificada como \"UNKNOWN\", porque a decisão do TRT demonstra o cumprimento das obrigações de fundamentação e respeito aos princípios constitucionais e legais, mesmo que a complexidade do caso específico não permita uma avaliação definitiva da sua adequação. A existência de predicados elásticos ativos (negociabilidade da jornada e banco de horas por CCT) não influenciou a decisão, pois a ausência de CCT válida para a redução do intervalo prevaleceu.\n\n## 2. PREDICADOS ATIVADOS:\n\nOs predicados soberanos ativos refletem as obrigações e princípios que guiam a tomada de decisão judicial, especialmente no contexto trabalhista:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):** Obriga o juiz a explicitar as consequências práticas da decisão para as partes envolvidas. No caso, a decisão do TRT implica no pagamento de horas extras ao trabalhador.\n*   **sovereign(prohibition_of_generic_precedent_citation):** Impede a citação genérica de precedentes, exigindo que a decisão seja fundamentada em casos específicos e relevantes para o caso concreto. O TRT demonstrou isso ao citar a Súmula 437 e o Tema 981.\n*   **sovereign(obligation_to_address_all_legal_arguments):** Obriga o juiz a considerar e responder a todos os argumentos legais apresentados pelas partes. O TRT analisou a validade da CCT, demonstrando o cumprimento dessa obrigação.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):** Exige que a decisão seja fundamentada na *ratio decidendi* (o raciocínio essencial que levou à decisão) de precedentes. O TRT explicita a razão pela qual a CCT não era válida.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):** Reflete a garantia constitucional do direito de ação e da motivação das decisões judiciais, assegurando a transparência e a possibilidade de controle da legalidade.\n*   **sovereign(recognition_of_collective_bargaining):** Reconhece a importância da negociação coletiva na definição de condições de trabalho, mas ressalta que essa negociação deve estar em conformidade com a lei.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):** Garante o direito de acesso à justiça e à revisão judicial de decisões, assegurando que as partes possam questionar a legalidade da decisão.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"A Justiça do Trabalho, no seu caso, decidiu que você tem direito a receber como hora extra o tempo que não foi pago por causa da redução do seu intervalo. A decisão do Tribunal Regional do Trabalho (TRT) analisou se a empresa podia reduzir esse intervalo por meio de um acordo entre sindicatos (CCT). O TRT concluiu que não havia um acordo válido que permitisse essa redução.\n\nIsso significa que a empresa não pode simplesmente diminuir o seu intervalo de descanso. A lei garante esse intervalo, e a empresa precisa pagar como hora extra o tempo que você não descansou.\n\nA decisão do TRT está correta porque ela se baseou em leis e decisões anteriores do Tribunal Superior do Trabalho (TST) e do Supremo Tribunal Federal (STF). Além disso, a decisão explica claramente o motivo pelo qual a empresa não pode reduzir o seu intervalo.\n\nO sistema Q-FENG, que analisa decisões judiciais, confirmou que a decisão do TRT está de acordo com a lei e os princípios que devem guiar as decisões da Justiça do Trabalho. Mesmo que o sistema não possa dizer ao certo se a decisão é a melhor possível para o seu caso específico, ele garante que a decisão foi tomada de forma justa e transparente, seguindo as regras.\"",
+  "tokens_in": 591,
+  "tokens_out": 1167,
+  "latency_ms": 32516,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

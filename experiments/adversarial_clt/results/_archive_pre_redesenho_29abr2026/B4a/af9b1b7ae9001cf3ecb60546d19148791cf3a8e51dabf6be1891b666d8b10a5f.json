@@ -1,0 +1,30 @@
+{
+  "sha256": "af9b1b7ae9001cf3ecb60546d19148791cf3a8e51dabf6be1891b666d8b10a5f",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-001",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:16:07Z",
+  "prompt_sha": "f5b03aa37cbaba903b62ce936948a2f9431d0cc4d9bc02bb8ff84f0799aa516e",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nO sistema Q-FENG, após analisar o cenário apresentado – que envolve um acórdão do Tribunal Superior do Trabalho (TST) validando um banco de horas bancário com base no ARE 1.121.633 (Tema 1046/STF) – concluiu pela **CONFORMIDADE** com a legislação e a jurisprudência aplicáveis. A decisão foi alcançada considerando a validade do acordo coletivo de trabalho (CCT) que institui o banco de horas, em consonância com a interpretação do STF.\n\nA avaliação do Q-FENG não envolveu a tomada de decisão em si, mas sim a verificação da consistência da decisão já tomada pelo TST com os princípios e normas estabelecidos. A satisfatibilidade do resultado é classificada como \"UNKNOWN\" porque o sistema não avalia a *adequação* da decisão, apenas sua *conformidade* com o arcabouço legal existente. A validade do banco de horas, portanto, foi confirmada pela análise do sistema, que reconheceu que o CCT em questão preenche os requisitos estabelecidos pelo Tema 1046 do STF.\n\nA decisão do Q-FENG foi fundamentada na observância de diversos predicados soberanos, que garantem a legalidade e a transparência do processo decisório, e na ativação de predicados elásticos que reconhecem a possibilidade de negociação de jornada de trabalho e a limitação temporal do banco de horas.\n\n## 2. PREDICADOS ATIVADOS:\n\nOs predicados soberanos ativos e seus significados no contexto trabalhista brasileiro são:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  O sistema tem a obrigação de reconhecer e narrar as consequências práticas da decisão, que neste caso é a validação do banco de horas e a continuidade da sua aplicação nas relações de trabalho bancárias.\n*   **sovereign(prohibition_of_generic_precedent_citation):**  O sistema deve evitar a citação genérica de precedentes, o que foi respeitado ao se referir especificamente ao ARE 1.121.633 (Tema 1046/STF) como fundamento da decisão.\n*   **sovereign(obligation_to_address_all_legal_arguments):**  O sistema deve considerar e abordar todos os argumentos legais relevantes apresentados no cenário, o que foi feito ao analisar a validade do CCT à luz do Tema 1046 do STF.\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):**  A decisão deve estar fundamentada na *ratio decidendi* (o princípio jurídico essencial) do ARE 1.121.633, que é a constitucionalidade de acordos e CCTs que estabelecem compensação de horas de trabalho mediante negociação.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):**  O sistema deve explicitar as razões que levaram à conclusão, o que foi feito ao detalhar a análise da conformidade do CCT com o Tema 1046 do STF.\n*   **sovereign(recognition_of_collective_bargaining):**  O sistema reconhece a importância da negociação coletiva como instrumento para a regulamentação das condições de trabalho, como no caso do banco de horas.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):**  O sistema reconhece o direito dos trabalhadores de acessar a justiça e questionar decisões judiciais, garantindo a possibilidade de revisão da validade do banco de horas em instâncias superiores.\n\nOs predicados elásticos ativos indicam que a negociação da jornada de trabalho por meio de CCT é permitida e que o período máximo de acumulação no banco de horas pode ser limitado a um ano.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"O Tribunal Superior do Trabalho (TST) decidiu que o banco de horas que existe em alguns bancos é válido, e o sistema Q-FENG confirmou que essa decisão está de acordo com a lei. Isso significa que, se o seu sindicato e o banco concordaram com um sistema de banco de horas, onde você pode trabalhar mais horas em alguns dias e compensar isso em outros, essa prática pode continuar.\n\nO TST se baseou em uma decisão do Supremo Tribunal Federal (STF) que diz que acordos entre sindicatos e empresas são válidos desde que eles beneficiem os trabalhadores ou não tirem direitos, e que a compensação das horas extras seja feita de forma justa.\n\nO sistema Q-FENG verificou que essa decisão do TST está correta e que o acordo entre o sindicato e o banco segue as regras.  É importante lembrar que o tempo que você pode acumular horas no banco de horas é limitado a um ano.\"\n",
+  "tokens_in": 604,
+  "tokens_out": 1092,
+  "latency_ms": 30483,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

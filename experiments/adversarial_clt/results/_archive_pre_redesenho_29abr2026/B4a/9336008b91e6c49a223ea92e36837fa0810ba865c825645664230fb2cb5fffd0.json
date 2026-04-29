@@ -1,0 +1,27 @@
+{
+  "sha256": "9336008b91e6c49a223ea92e36837fa0810ba865c825645664230fb2cb5fffd0",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-03-007",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T04:56:33Z",
+  "prompt_sha": "cba540c99550234d4dda7bdefc59d2298c6b9b1ac9747edfc810996124e975ca",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG determinou que o banco está em conformidade com as normas estabelecidas pela Convenção Coletiva de Trabalho (CCT) e a legislação trabalhista vigente, considerando os predicados soberanos ativos. A decisão baseia-se na validade da CCT renovada, que prevê um banco de horas anual compatível com a jurisprudência do Tribunal Superior do Trabalho (TST) e o entendimento do Supremo Tribunal Federal (STF). Os predicados soberanos garantem que as condições de trabalho, como a jornada máxima semanal e diária, estão respeitadas. A CCT permite negociações específicas sobre o banco de horas, desde que estas estejam dentro dos limites legais, como um ano máximo para compensação. Portanto, enquanto as horas do banco forem compensadas conforme estabelecido na CCT, não há gerar adicional de horas extras.\n\n### 2. PREDICADOS ATIVOS\n\n- **sovereign(recognition_of_collective_bargaining)**: Este predicado reconhece a validade e aplicabilidade das Convenções Coletivas de Trabalho (CCTs) como instrumentos legais que podem estabelecer condições específicas para os trabalhadores, desde que não contrariem normas de ordem pública ou interesse social. No contexto brasileiro, as CCTs são acordos entre sindicatos e empregadores que regulam direitos e obrigações específicos dos trabalhadores em determinado setor.\n\n- **sovereign(maximum_weekly_working_hours_44h)**: Este predicado estabelece a jornada máxima semanal de trabalho como 44 horas, conforme previsto na Consolidação das Leis do Trabalho (CLT). Qualquer acordão coletivo que ultrapasse essa jornada deve garantir compensação adequada.\n\n- **sovereign(maximum_daily_working_hours_8h)**: Este predicado define a jornada máxima diária de trabalho como 8 horas, também conforme a CLT. Acordos que alterem esta jornada devem respeitar as condições legais para tal modificação.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nO sistema verificou que o banco está seguindo todas as regras corretamente, conforme acordado na convenção coletiva de trabalho (CCT) e a lei trabalhista brasileira. Isso significa que o banco pode ter um \"banco de horas\" onde você pode acumular horas extras para compensar em outro momento, desde que isso seja feito dentro do prazo de um ano. Essa regra está alinhada com decisões importantes dos tribunais superiores.\n\nPortanto, enquanto as horas extras forem compensadas no tempo estabelecido pela CCT, você não tem direito a receber adicional por essas horas. Em resumo, o banco está agindo dentro das normas e acordos vigentes, então não há problema com essa prática de banco de horas.",
+  "tokens_in": 527,
+  "tokens_out": 696,
+  "latency_ms": 20157,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

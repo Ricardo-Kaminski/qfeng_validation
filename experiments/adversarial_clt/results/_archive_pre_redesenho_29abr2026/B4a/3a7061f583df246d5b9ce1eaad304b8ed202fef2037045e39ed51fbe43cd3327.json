@@ -1,0 +1,30 @@
+{
+  "sha256": "3a7061f583df246d5b9ce1eaad304b8ed202fef2037045e39ed51fbe43cd3327",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T03:39:42Z",
+  "prompt_sha": "21716c3270739daa72072ebded0f26864be227f70f0f8915b7056671a1cc2c17",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a decisão judicial deve ser **conforme** com os predicados soberanos ativos, que estabelecem obrigações constitucionais e normativas fundamentais. A análise do caso revela que:  \n- **Obrigação de explicitar consequências práticas da decisão** (sovereign(obligation_to_state_practical_consequences_of_decision)): A decisão deve detalhar os efeitos concretos da invalidação do banco de horas, como a necessidade de compensação salarial ou ajustes na jornada.  \n- **Proibição de citar precedentes genéricos** (sovereign(prohibition_of_generic_precedent_citation)): A referência à Súmula TST 85 e ao TST-Ag-RR-868-65.2021 deve ser contextualizada, evitando generalizações que ignorem a ausência de CCT no caso concreto.  \n- **Obrigação de abordar todos os argumentos jurídicos** (sovereign(obligation_to_address_all_legal_arguments)): A decisão deve considerar, por exemplo, a distinção entre bancos de horas com e sem CCT, conforme destacado no método *distinguishing*.  \n- **Fundamentação na *ratio decidendi* identificada** (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)): A violação da CLT Art. 489, §1°, V deve ser vinculada diretamente à ausência de CCT, que é um pré-requisito para a legalidade do banco de horas.  \n- **Obrigação constitucional de explicitar razões** (sovereign(constitutional_obligation_to_state_reasons_for_decisions)): A decisão deve justificar claramente por que a ausência de CCT torna o banco de horas inválido, evitando ambiguidades.  \n- **Reconhecimento da negociação coletiva** (sovereign(recognition_of_collective_bargaining)): A CLT exige que o banco de horas seja regulado por CCT, o que não ocorreu no caso.  \n- **Direito de acesso à justiça e revisão judicial** (sovereign(right_of_access_to_judicial_review)): A decisão deve assegurar que a parte empregada possa contestar a aplicação do banco de horas sem CCT.  \n\nA **ação recomendada (CONFORMIDADE)** surge da necessidade de alinhar a prática do empregador às regras do direito do trabalho, especialmente ao reconhecimento da negociação coletiva (elastic(working_hours_negotiable_by_cct)) e ao limite de 1 ano para o banco de horas com CCT (elastic(hour_bank_with_cct_max_1_year)).  \n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O juiz deve explicar, de forma clara, como a decisão afeta a vida prática do trabalhador (ex.: compensação de horas extras, ajustes na folha de pagamento).  \n- **sovereign(prohibition_of_generic_precedent_citation)**: A decisão não pode usar precedentes genéricos (como a Súmula TST 85) sem adaptá-los ao caso específico (ex.: distinção entre CCT e ausência de CCT).  \n- **sovereign(obligation_to_address_all_legal_arguments)**: O juiz deve responder a todos os pontos levantados (ex.: argumentos da empresa sobre flexibilidade de horários).  \n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão deve basear-se no *ratio decidendi* (razão da decisão) identificada, como a ausência de CCT.  \n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: O juiz deve justificar a decisão com razões objetivas, evitando arbitrariedade.  \n- **sovereign(recognition_of_collective_bargaining)**: A CLT exige que o banco de horas seja regulado por negociação coletiva (CCT), o que não ocorreu no caso.  \n- **sovereign(right_of_access_to_judicial_review)**: O trabalhador deve ter garantido o direito de recorrer da decisão, conforme previsto na Constituição.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA decisão do juiz diz que **o banco de horas sem negociação coletiva (CCT) é ilegal**. Isso porque a lei (CLT) exige que, para ter um banco de horas, a empresa e os trabalhadores precisam negociar juntos (CCT). No caso, isso não aconteceu, então o banco de horas é inválido.  \n\nO juiz deve explicar **como isso afeta o trabalhador** (ex.: se ele precisa ser pago por horas extras ou se a empresa deve ajustar a jornada). Além disso, ele **não pode usar regras gerais** (como \"todo banco de horas é ilegal\") sem explicar por que isso se aplica ao caso específico.  \n\nA empresa deve **ajustar sua prática** para seguir a lei: ou negocia um CCT com os trabalhadores, ou deixa de usar o banco de horas. O trabalhador também tem o direito de recorrer da decisão se achar que ela está errada.  \n\n---  \n**Nota:** O vetor ψ_S ([2.4435]) e a ação \"CONFORMIDADE\" indicam que o sistema Q-FENG identificou uma **necessidade de alinhamento com os predicados soberanos**, priorizando a proteção dos direitos trabalhistas e a transparência jurídica.",
+  "tokens_in": 587,
+  "tokens_out": 2018,
+  "latency_ms": 64719,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

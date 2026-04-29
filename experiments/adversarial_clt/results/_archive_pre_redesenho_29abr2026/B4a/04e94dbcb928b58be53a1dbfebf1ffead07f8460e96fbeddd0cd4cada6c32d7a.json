@@ -1,0 +1,30 @@
+{
+  "sha256": "04e94dbcb928b58be53a1dbfebf1ffead07f8460e96fbeddd0cd4cada6c32d7a",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-009",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T06:29:30Z",
+  "prompt_sha": "ff8fda303630134604d2d7ffdb2585495e891ee0ed0eaebbd81c40f3a8fb664e",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação na decisão judicial analisada, apesar da correta citação da Súmula TST 85 e da identificação do caso como envolvendo um banco de horas sem acordo coletivo (CCT) com duração de 7 meses. A violação reside na aplicação incorreta da consequência jurídica: a decisão determinou o pagamento das horas do banco de horas como horas normais, sem o adicional de 50% característico de horas extras, contrariando o entendimento da Súmula TST 85, V.\n\nA decisão do Q-FENG foi fundamentada na necessidade de aderir ao *ratio decidendi* da Súmula TST 85, que estabelece a natureza de horas extras para o banco de horas não regulamentado por CCT. A ausência de fundamentação para afastar essa aplicação demonstra uma falha na análise jurídica, configurando uma contradição interna e uma potencial injustiça ao trabalhador.\n\nO sistema, ao identificar essa inconsistência, acionou o predicado `obligation_to_ground_decision_in_identified_ratio_decidendi`, que impõe a obrigação de que as decisões judiciais sejam explicitamente fundamentadas no *ratio decidendi* das normas aplicáveis. A decisão original não cumpriu esse requisito, o que levou o Q-FENG a classificar a situação como uma violação. A satisfatibilidade da decisão original foi classificada como \"UNKNOWN\" devido à inconsistência entre a identificação correta do tipo de banco de horas e a aplicação equivocada da consequência jurídica.\n\n## PREDICADOS SOVEREIGN ATIVOS:\n\n1. **`sovereign(obligation_to_state_practical_consequences_of_decision)`:**  Este predicado impõe a obrigação de que a decisão judicial explique claramente as consequências práticas que ela terá para as partes envolvidas. No caso, a decisão original não explicou adequadamente por que o adicional de 50% foi dispensado, deixando em aberto a compreensão do impacto financeiro para o trabalhador.\n2. **`sovereign(prohibition_of_generic_precedent_citation)`:**  Este predicado impede a citação genérica de precedentes. A Súmula TST 85 foi corretamente citada, mas sua aplicação foi distorcida, o que demonstra uma falha em compreender o *ratio decidendi* da súmula.\n3. **`sovereign(obligation_to_address_all_legal_arguments)`:**  Este predicado exige que a decisão judicial considere e responda a todos os argumentos legais apresentados pelas partes. A decisão original ignorou implicitamente o argumento que se baseava na aplicação da Súmula TST 85, ao não justificar o afastamento de seu entendimento.\n4. **`sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)`:**  Este é o predicado central para a identificação da violação. Ele obriga a decisão a ser fundamentada no *ratio decidendi* (a razão de decidir) das normas aplicáveis. A decisão original não o fez, ao não justificar o afastamento da aplicação da Súmula TST 85.\n5. **`sovereign(constitutional_obligation_to_state_reasons_for_decisions)`:**  Este predicado decorre da Constituição Federal, que garante o direito ao contraditório e à motivação das decisões judiciais. A falta de fundamentação para a aplicação da consequência jurídica viola esse princípio constitucional.\n6. **`sovereign(recognition_of_collective_bargaining)`:** Este predicado reconhece a importância do acordo coletivo como fonte de direito. A ausência de acordo coletivo (CCT) no caso concreto reforça a aplicação da Súmula TST 85.\n7. **`sovereign(right_of_access_to_justice_and_judicial_review)`:** Este predicado garante o direito do trabalhador de ter acesso à justiça e de questionar as decisões judiciais. A aplicação equivocada da lei pode privar o trabalhador de uma compensação justa, violando esse direito.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n\"A decisão que você recebeu está errada. Ela reconheceu que o seu banco de horas de 7 meses não tinha um acordo escrito sobre como ele deveria funcionar (o que é normal quando não há um acordo coletivo). A lei diz que, nesses casos, as horas extras do banco de horas devem ser pagas com um acréscimo de 50% (como se fossem horas extras normais).\n\nA decisão que você recebeu pagou essas horas como se fossem horas normais, sem esse acréscimo. Isso é um erro porque a lei, através da Súmula do Tribunal Superior do Trabalho, diz que essas horas devem ser pagas com o adicional de 50%. A decisão não explicou por que ela ignorou essa lei, o que não é justo para você. O sistema Q-FENG identificou esse erro e sinalizou que a decisão precisa ser revista para que você receba o pagamento correto, com o adicional de 50%.\"\n",
+  "tokens_in": 562,
+  "tokens_out": 1141,
+  "latency_ms": 31812,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

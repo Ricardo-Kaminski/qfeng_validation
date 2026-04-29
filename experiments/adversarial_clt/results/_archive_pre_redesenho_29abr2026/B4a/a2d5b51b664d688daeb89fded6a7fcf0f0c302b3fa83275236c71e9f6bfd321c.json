@@ -1,0 +1,30 @@
+{
+  "sha256": "a2d5b51b664d688daeb89fded6a7fcf0f0c302b3fa83275236c71e9f6bfd321c",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-007",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T03:52:01Z",
+  "prompt_sha": "db7b7f8d2770500cb0104fdeeec443628af6b6ec1fc50f5b30f49d02934b8843",
+  "response_text": "---\n\n### **1. NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG concluiu que a decisão do TRT está **em conformidade com os direitos fundamentais** garantidos pela Constituição Federal (CF/88) e pela legislação trabalhista, com base nos predicados soberanos ativos.  \n\n- **Obrigação de expor as consequências práticas da decisão** (sovereign(obligation_to_state_practical_consequences_of_decision)) foi cumprida, pois a decisão da TRT explicita a reintegração da trabalhadora e a nulidade da dispensa, com efeitos concretos (ex.: direito à estabilidade e à continuidade do contrato).  \n- **Proibição de citar precedentes genéricos** (sovereign(prohibition_of_generic_precedent_citation)) foi respeitada, pois a TRT fundamentou a decisão em normas específicas (CF/88 Art. 10, II, \"b\", Súmula TST 244 e OJ 399), evitando generalizações.  \n- **Obrigação de abordar todos os argumentos jurídicos** (sovereign(obligation_to_address_all_legal_arguments)) foi atendida, pois a TRT analisou a data da gravidez, a ausência de comunicação prévia (excluída pela OJ 399) e a aplicação da estabilidade provisória.  \n- **Obrigação de fundamentar a decisão no *ratio decidendi* identificado** (sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)) foi cumprida, pois a TRT vinculou a nulidade da dispensa ao fato de a gravidez ter ocorrido antes da demissão, conforme a CF/88.  \n- **Obrigação constitucional de expor razões para as decisões** (sovereign(constitutional_obligation_to_state_reasons_for_decisions)) foi satisfeita, com fundamentação detalhada.  \n- **Reconhecimento da negociação coletiva** (sovereign(recognition_of_collective_bargaining)) e **direito de acesso à justiça** (sovereign(right_of_access_to_justice_and_judicial_review)) foram respeitados, pois a decisão não ignora normas coletivas e garante revisão judicial.  \n\nO vetor ψ_S ([2.4435]) indica que o sistema identificou uma **conformidade parcial** com os parâmetros de justiça, mas não uma satisfação total (satisfiability: UNKNOWN), sugerindo que há margem para interpretações alternativas, embora a decisão do TRT esteja alinhada aos direitos básicos da trabalhadora.  \n\n---\n\n### **2. PREDICADOS ATIVADOS**  \n**Predicados soberanos ativos:**  \n- **sovereign(obligation_to_state_practical_consequences_of_decision):**  \n  O tribunal deve explicar **os efeitos reais da decisão** (ex.: reintegração da trabalhadora, indenização, etc.), não apenas citar normas.  \n\n- **sovereign(prohibition_of_generic_precedent_citation):**  \n  O tribunal **não pode usar precedentes genéricos** (ex.: \"a jurisprudência geral diz que...\") sem vincular a decisão a normas específicas (ex.: CF/88, Súmulas TST).  \n\n- **sovereign(obligation_to_address_all_legal_arguments):**  \n  O tribunal deve **analisar todos os argumentos jurídicos** apresentados (ex.: data da gravidez, comunicação prévia, estabilidade provisória).  \n\n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):**  \n  A decisão deve ser fundamentada em um **princípio jurídico claro** (ex.: a estabilidade provisória da gestante, conforme CF/88 Art. 10, II, \"b\").  \n\n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions):**  \n  O tribunal deve **explicar as razões constitucionais** da decisão (ex.: proteção à maternidade, direito à vida, etc.).  \n\n- **sovereign(recognition_of_collective_bargaining):**  \n  O tribunal deve **respeitar acordos coletivos** (ex.: convenções coletivas que podem ampliar direitos além da lei).  \n\n- **sovereign(right_of_access_to_justice_and_judicial_review):**  \n  O tribunal deve **garantir a revisão judicial** (ex.: a possibilidade de apelação, embargos, etc.).  \n\n**Predicados elásticos ativos:**  \n- **elastic(working_hours_negotiable_by_cct):**  \n  Horas de trabalho podem ser negociadas por convenções coletivas (ex.: acordos que reduzem jornada para mães).  \n\n- **elastic(hour_bank_with_cct_max_1_year):**  \n  Acordos coletivos podem estabelecer um \"banco de horas\" (ex.: acumulação de horas extras para uso em períodos de licença maternidade).  \n\n---\n\n### **3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA decisão do juiz **está certa**. A empresa não pode demitir uma mulher grávida, mesmo que ela não tenha avisado a empresa sobre a gravidez. A lei brasileira diz que a gravidez protege a trabalhadora, e a empresa tem que respeitar isso.  \n\nO juiz explicou bem por que a demissão foi inválida: a gravidez ocorreu antes da demissão, e a lei não exige que a trabalhadora avise a empresa sobre isso. A empresa foi punida, e a trabalhadora tem direito a voltar ao emprego.  \n\nO sistema Q-FENG concorda com o juiz, pois ele seguiu a lei, explicou as razões da decisão e respeitou os direitos da trabalhadora.  \n\n--- \n\n**Nota:** A decisão do TRT está alinhada com os direitos básicos da trabalhadora, mas o sistema Q-FENG ressalta que há espaço para interpretações alternativas (satisfiability: UNKNOWN), embora a conformidade com a lei seja clara.",
+  "tokens_in": 587,
+  "tokens_out": 1950,
+  "latency_ms": 62093,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

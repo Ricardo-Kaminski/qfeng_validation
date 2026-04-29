@@ -1,0 +1,30 @@
+{
+  "sha256": "7d5dee0553c4bae07fae80cdd5b1d0766c4ecb1868d6aa7eed2e78b69c198a65",
+  "braco": "B4",
+  "modelo": "qwen3:14b",
+  "scenario_id": "T-CLT-04-003",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T03:40:29Z",
+  "prompt_sha": "21716c3270739daa72072ebded0f26864be227f70f0f8915b7056671a1cc2c17",
+  "response_text": "### 1. **NARRATIVA DA DECISÃO Q-FENG**  \nO sistema Q-FENG, ao analisar a decisão judicial, identificou que a aplicação do **banco de horas sem a existência de um Acordo Coletivo de Trabalho (CCT)** viola normas constitucionais e legais trabalhistas, conforme os predicados soberanos ativos. A **obrigação de reconhecer a negociação coletiva** (predicado *sovereign(recognition_of_collective_bargaining)*) e a **proibição de citar precedentes genéricos** (predicado *sovereign(prohibition_of_generic_precedent_citation)*) foram fundamentais para distinguir o caso concreto do precedente citado (que envolvia CCT). A decisão judicial, ao aplicar o método *distinguishing*, validou a violação ao art. 489, §1°, V da CLT, pois o banco de horas só é permitido com CCT (predicado *elastic(working_hours_negotiable_by_cct)*), e a ausência de negociação coletiva inviabiliza sua legalidade. A **obrigação de fundamentar a decisão com o *ratio decidendi* identificado** (predicado *sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)*) e a **constitucionalidade da obrigação de motivar a decisão** (predicado *sovereign(constitutional_obligation_to_state_reasons_for_decisions)*) reforçaram a necessidade de conformidade com a norma. O **vetor ψ_S** ([2.4435]) indica uma alta probabilidade de conformidade com a lei, reforçando a recomendação de **CONFORMIDADE**.\n\n---\n\n### 2. **PREDICADOS ATIVADOS**  \n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O sistema deve explicitar as consequências práticas da decisão (ex.: ajustes contratuais, compensações salariais).  \n- **sovereign(prohibition_of_generic_precedent_citation)**: Proíbe a aplicação de precedentes genéricos sem vinculação direta ao caso concreto (como ocorre ao citar a Súmula TST 85 sem contextualizar a ausência de CCT).  \n- **sovereign(obligation_to_address_all_legal_arguments)**: Exige que a decisão aborde todos os argumentos jurídicos levantados (ex.: negociação coletiva, limites do banco de horas).  \n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão deve fundamentar-se no *ratio decidendi* (motivo jurídico) identificado (ex.: ilegalidade do banco de horas sem CCT).  \n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: Obediência à Constituição ao motivar a decisão com razões claras e vinculadas à lei.  \n- **sovereign(recognition_of_collective_bargaining)**: Reconhecimento da negociação coletiva como condição para a legalidade de normas trabalhistas (ex.: CCT como pré-requisito para banco de horas).  \n- **sovereign(right_of_access_to_judicial_review)**: Garantia do direito de acesso à revisão judicial, assegurando que a decisão seja revisável por eventuais vícios.  \n\n---\n\n### 3. **TRADUÇÃO PARA AUDIÊNCIA LEIGA**  \nA decisão do juiz diz que a empresa **não pode usar o banco de horas** (aquele sistema em que os funcionários trabalham mais em alguns meses e compensam depois) **sem um acordo coletivo** (um documento negociado com sindicatos e a empresa). O juiz explicou que, no caso do trabalhador, **não houve negociação com os sindicatos**, então o banco de horas é ilegal. O sistema Q-FENG concorda com essa conclusão e recomenda que a empresa **mude sua prática** para seguir a lei. Isso é importante porque, se a empresa não obedecer, pode ter que pagar multas ou compensar os funcionários. A decisão também diz que o juiz **não usou precedentes genéricos** (ex.: \"banco de horas é legal\") sem considerar o caso específico (sem CCT), o que é obrigatório pela lei.  \n\n---  \n**Nota:** A narrativa e a explicação respeitam estritamente os predicados e o resultado do solver Clingo, sem adicionar informações externas.",
+  "tokens_in": 587,
+  "tokens_out": 1495,
+  "latency_ms": 47296,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

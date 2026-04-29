@@ -1,0 +1,29 @@
+{
+  "sha256": "1e3a97fac8a46c792737fcf77e0b92d136d5d40cfa3dcf61b2533a0db36d5bb7",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-02-003",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:50:36Z",
+  "prompt_sha": "0ae1cb23f5b2029af6ba34d6cbada55225e0756bb30ed00c0f6402a4a8c28764",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG chegou à decisão de \"VIOLACAO\" porque identificou que a empresa violou as regras trabalhistas ao implementar o banco de horas com compensação em prazo de 4 meses sem registrar a ACT na Superintendência Regional do Trabalho (SRTE) dentro do prazo legal. Isso é resultado da combinação dos predicados soberanos ativos, que indicam as regras e princípios trabalhistas violados.\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\n- **sovereign(semester_hour_bank_requires_cct_or_act)**: Indica que a compensação de horas extras deve ser feita por meio de um acordo coletivo de trabalho (ACT) ou contrato individual de trabalho (CCT), o que não foi observado na situação descrita.\n  \n- **sovereign(invalidity_of_clause_suppressing_overtime_payment)**: Sinaliza a invalidade de cláusulas contratuais que suprimam o pagamento de horas extras, o que é uma prática proibida no direito trabalhista brasileiro.\n\n- **sovereign(weekly_hour_compensation_requires_written_agreement)**: Indica que a compensação de horas extras semanais requer um acordo por escrito, o que não foi feito na situação apresentada.\n\n- **sovereign(prohibition_negotiation_reducing_overtime_additional)**: Proíbe negociações para reduzir os adicionais pagos pelas horas extras, o que é uma regra trabalhista para proteger os direitos dos trabalhadores.\n\n- **sovereign(overtime_minimum_additional_50pct)**: Estabelece que as horas extras devem ter um adicional mínimo de 50% sobre a hora normal de trabalho, o que não foi observado na situação descrita.\n\n- **sovereign(maximum_weekly_working_hours_44h)** e **sovereign(maximum_daily_working_hours_8h)**: Limitam as horas semanais e diárias de trabalho, respectivamente, a 44 horas por semana e 8 horas por dia, o que não foi mencionado como violação direta na narrativa da decisão.\n\n- **sovereign(prohibition_negotiation_reducing_overtime_additional)**: Proíbe negociações para reduzir os adicionais pagos pelas horas extras, o que é uma regra trabalhista para proteger os direitos dos trabalhadores.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nA decisão do sistema Q-FENG é que a empresa violou as leis trabalhistas ao implementar um banco de horas sem seguir as regras certas. Isso significa que os funcionários têm direito a receber mais dinheiro por trabalhar horas extras, e isso deve ser feito de acordo com as leis do país. A empresa não registrou o acordo em tempo hábil, o que é necessário para que ele seja válido. Além disso, as regras sobre compensação de horas extras foram desrespeitadas. Em resumo, a decisão é que a empresa agiu de forma errada e precisa seguir as leis trabalhistas para proteger os direitos dos funcionários.",
+  "tokens_in": 523,
+  "tokens_out": 727,
+  "latency_ms": 12375,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

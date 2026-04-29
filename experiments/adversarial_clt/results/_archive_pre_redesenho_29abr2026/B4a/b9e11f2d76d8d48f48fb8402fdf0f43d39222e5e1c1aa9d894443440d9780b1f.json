@@ -1,0 +1,29 @@
+{
+  "sha256": "b9e11f2d76d8d48f48fb8402fdf0f43d39222e5e1c1aa9d894443440d9780b1f",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-02-009",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T06:00:18Z",
+  "prompt_sha": "f9b0df7f69c181e9eda43e58ee237527f58e643126823baebe8b60ecd7efee06",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, após análise do cenário apresentado, concluiu que houve uma **violação** da legislação trabalhista. A decisão se baseia na ausência de representação adequada dos empregados administrativos na negociação da Convenção Coletiva de Trabalho (CCT) que instituiu o banco de horas. Embora a CCT tenha sido firmada entre a construtora e o sindicato da categoria dos trabalhadores da construção civil, a aplicação do banco de horas aos empregados administrativos, que pertencem a uma categoria diferenciada (empregados administrativos), sem a sua devida representação, configura uma irregularidade.\n\nA decisão do Q-FENG é fundamentada na primazia da representação sindical e na necessidade de garantir a proteção dos direitos dos trabalhadores, mesmo que estes pertençam a categorias específicas dentro de uma mesma empresa. A aplicação unilateral de um instrumento normativo como o banco de horas, sem a participação da categoria afetada, pode gerar desequilíbrios e prejuízos aos trabalhadores, violando princípios fundamentais do Direito do Trabalho.\n\nO sistema considerou a possibilidade de validade do banco de horas por um período limitado (6 meses, conforme o predicado elástico `hour_bank_without_cct_max_6_months`), mas a ausência de representação sindical da categoria administrativa prevaleceu na análise, levando à conclusão de violação.\n\n## PREDICADOS SOVERAINS ATIVOS: SIGNIFICADO JURÍDICO\n\nOs predicados soberanos ativos, que influenciaram a decisão do Q-FENG, possuem os seguintes significados jurídicos no contexto trabalhista brasileiro:\n\n*   **sovereign(semester_hour_bank_requires_cct_or_act):**  Este predicado estabelece que a implementação de um banco de horas deve ser precedida de um acordo coletivo (CCT) ou de um ato normativo que contemple a participação dos sindicatos representativos das categorias envolvidas. A ausência de tal acordo ou ato é um fator de questionamento da validade do banco de horas.\n*   **sovereign(invalidity_of_clause_suppressing_overtime_payment):** Este predicado reforça que cláusulas contratuais que suprimem ou limitam o pagamento de horas extras são, em geral, inválidas, a menos que haja uma negociação coletiva que justifique essa limitação. A aplicação do banco de horas, sem a devida representação, pode ser vista como uma tentativa de suprimir o pagamento de horas extras.\n*   **sovereign(weekly_hour_compensation_requires_written_agreement):**  Este predicado indica que qualquer acordo que altere a jornada de trabalho padrão, como a implementação de um banco de horas, deve ser formalizado por escrito, garantindo a transparência e a possibilidade de controle por parte dos trabalhadores e da Justiça do Trabalho.\n*   **sovereign(prohibition_negotiation_reducing_overtime_additional):** Este predicado proíbe a negociação de redução do adicional de horas extras. A aplicação do banco de horas não pode ser utilizada para diminuir o valor pago pelas horas extras.\n*   **sovereign(overtime_minimum_additional_50pct):** Este predicado estabelece o mínimo legal de 50% de adicional sobre a hora normal de trabalho em casos de horas extras.\n*   **sovereign(maximum_weekly_working_hours_44h):** Este predicado define o limite máximo de 44 horas semanais para a jornada de trabalho, salvo negociação coletiva que estabeleça limites superiores.\n*   **sovereign(maximum_daily_working_hours_8h):** Este predicado define o limite máximo de 8 horas diárias para a jornada de trabalho, salvo negociação coletiva que estabeleça limites superiores.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"A empresa tentou aplicar um sistema de banco de horas aos funcionários administrativos, mas isso não é permitido. A lei diz que, para criar um banco de horas, é preciso a participação do sindicato que representa todos os funcionários, incluindo os administrativos. Como o sindicato dos administrativos não participou da decisão, o banco de horas não é válido para eles.\n\nIsso significa que a empresa não pode obrigar os funcionários administrativos a fazerem banco de horas sem a concordância do sindicato que os representa.  A lei protege os direitos dos trabalhadores e garante que eles sejam ouvidos quando decisões que afetam o trabalho deles são tomadas.  Mesmo que a empresa e o sindicato dos outros funcionários tenham feito um acordo, esse acordo não pode ser imposto aos administrativos sem a sua participação.  Além disso, a empresa não pode usar o banco de horas para pagar menos pelas horas extras que os administrativos fizerem.\"\n",
+  "tokens_in": 532,
+  "tokens_out": 1034,
+  "latency_ms": 28780,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(semester_hour_bank_requires_cct_or_act)",
+    "sovereign(invalidity_of_clause_suppressing_overtime_payment)",
+    "sovereign(weekly_hour_compensation_requires_written_agreement)",
+    "sovereign(prohibition_negotiation_reducing_overtime_additional)",
+    "sovereign(overtime_minimum_additional_50pct)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(hour_bank_without_cct_max_6_months)"
+  ],
+  "clingo_satisfiability": ""
+}

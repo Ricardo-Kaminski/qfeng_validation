@@ -1,0 +1,26 @@
+{
+  "sha256": "fb01e4aa8080ec380161069821b0b7827c7a97520f6051d895db85558ef7c883",
+  "braco": "B4",
+  "modelo": "phi4:14b",
+  "scenario_id": "T-CLT-01-006",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T04:22:20Z",
+  "prompt_sha": "324f58b06ace5123feff726f55259a913c5f926bf4c3eff790b1b83195a3e292",
+  "response_text": "### 1. NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG identificou uma violação na decisão interlocutória emitida pela juíza do trabalho ao indeferir a prova pericial com base nos documentos já acostados aos autos, sem especificar quais seriam esses documentos ou o fato que pretendia provar. Essa análise é fundamentada em diversos predicados soberanos ativos:\n\n- **Obrigação de declarar as consequências práticas da decisão**: A juíza não esclareceu como a ausência da prova pericial afetaria a resolução do caso, deixando ambiguidade sobre o impacto dessa escolha.\n  \n- **Proibição de citação genérica de precedentes**: Embora este predicado não se aplique diretamente ao caso em questão, ele reforça a necessidade de fundamentação específica e contextualizada.\n\n- **Obrigação de atender a todos os argumentos legais apresentados**: A decisão não abordou adequadamente o argumento da parte que questiona a suficiência dos documentos mencionados.\n\n- **Obrigação de fundamentar a decisão no ratio decidendi identificado**: Falta clareza sobre qual princípio ou fato foi considerado determinante para indeferir a prova pericial, sem uma explicação concreta.\n\n- **Obrigação constitucional de declarar as razões das decisões**: A decisão não cumpriu com o dever de explicitar as razões pelas quais os documentos já existentes nos autos seriam suficientes para dispensar a prova pericial.\n\n- **Direito de acesso à justiça e ao controle jurisdicional**: Ao não detalhar adequadamente sua decisão, a juíza pode ter prejudicado o direito da parte de entender e contestar efetivamente a decisão judicial.\n\nPortanto, considerando esses aspectos, o sistema Q-FENG concluiu que houve uma violação dos princípios processuais ao não fornecer uma motivação adequada para a decisão, justificando assim a recomendação de anulação por deficiência de motivação.\n\n### 2. PREDICADOS ATIVADOS\n\n- **Obrigação de declarar as consequências práticas da decisão**: No contexto trabalhista brasileiro, isso significa que o juiz deve explicar como sua decisão afetará a situação dos envolvidos e quais serão os resultados práticos dessa escolha.\n\n- **Proibição de citação genérica de precedentes**: Isso implica que qualquer referência a casos anteriores deve ser específica, contextualizada e relevante para o caso em questão, evitando generalizações que não contribuam para a fundamentação da decisão.\n\n- **Obrigação de atender a todos os argumentos legais apresentados**: Significa que o juiz deve considerar e responder a cada um dos pontos levantados pelas partes no processo, garantindo uma análise completa das questões jurídicas em disputa.\n\n- **Obrigação de fundamentar a decisão no ratio decidendi identificado**: O juiz deve basear sua decisão em um princípio ou fato específico que justifique o resultado, explicando claramente qual foi o motivo determinante para a escolha tomada.\n\n- **Obrigação constitucional de declarar as razões das decisões**: Este é um dever fundamental do juiz de explicar por que decidiu como fez, fornecendo uma motivação clara e detalhada que permita às partes entenderem e contestarem a decisão se necessário.\n\n- **Direito de acesso à justiça e ao controle jurisdicional**: Garante que as partes tenham a possibilidade de compreender e questionar as decisões judiciais, o que é essencial para um sistema de justiça transparente e acessível.\n\n### 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\nEm linguagem simples, a juíza decidiu não permitir uma prova especial (pericial) porque achou que os documentos já no processo eram suficientes. No entanto, ela não explicou quais documentos seriam esses nem como eles mostrariam tudo o que precisava ser provado. Isso é importante porque as pessoas envolvidas têm o direito de saber por que certas decisões são tomadas e como elas afetarão o caso.\n\nO sistema Q-FENG acha que essa falta de explicação não foi correta, pois as partes devem entender claramente as razões das decisões judiciais. Por isso, recomenda que essa decisão seja revista para garantir que todos os argumentos tenham sido considerados e justificados adequadamente.",
+  "tokens_in": 521,
+  "tokens_out": 1056,
+  "latency_ms": 30625,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [],
+  "clingo_satisfiability": ""
+}

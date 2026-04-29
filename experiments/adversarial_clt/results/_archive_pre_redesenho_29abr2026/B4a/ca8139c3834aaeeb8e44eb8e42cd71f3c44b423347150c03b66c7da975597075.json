@@ -1,0 +1,30 @@
+{
+  "sha256": "ca8139c3834aaeeb8e44eb8e42cd71f3c44b423347150c03b66c7da975597075",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-004",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T07:07:46Z",
+  "prompt_sha": "ae558655ffa0f1123903cf70da28171aff110a52218cb4360d65fad0dbdb72bf",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG, após analisar os dados e as leis aplicáveis ao caso, chegou à decisão de CONFORMIDADE. Isso significa que o sistema considera que a decisão do acórdão da TRT está em conformidade com as normas trabalhistas brasileiras.\n\nA decisão se baseia na aplicação das Súmulas do TST, especificamente a Súmula 85 (itens I, II e V), que estabelecem regras claras para o cálculo de horas extras em casos de banco de horas sem Contrato Coletivo de Trabalho (CCT). O sistema identificou que o banco não tem CCT/ACT, o que significa que as horas trabalhadas pelo funcionário são consideradas extras e devem ser pagas com adicional de 50%.\n\nAlém disso, o sistema afastou a tese da empresa de \"acordo tácito\", pois um acordo tácito não pode substituir as regras estabelecidas no CCT/ACT. Isso é fundamental para garantir que os direitos dos trabalhadores sejam respeitados.\n\nOs predicados soberanos ativos, como a obrigação de estado as consequências práticas da decisão e a proibição de citação de precedentes genéricos, demonstram a preocupação do sistema em garantir a transparência e a justiça na aplicação das leis trabalhistas.\n\n**2. PREDICADOS SOVEREIGN ATIVOS**\n\nOs predicados soberanos ativos são os seguintes:\n\n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O sistema tem a obrigação de informar as consequências práticas da decisão, ou seja, como a decisão afetará o caso concreto e os direitos dos trabalhadores.\n- **sovereign(prohibition_of_generic_precedent_citation)**: O sistema não pode citar precedentes genéricos para fundamentar sua decisão. Isso significa que a decisão deve ser baseada em leis específicas e aplicáveis ao caso concreto.\n- **sovereign(obligation_to_address_all_legal_arguments)**: O sistema tem a obrigação de considerar todos os argumentos legais apresentados pelas partes envolvidas no processo.\n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: A decisão do sistema deve estar fundamentada em uma razão decidendi específica, ou seja, uma regra jurídica aplicável ao caso concreto.\n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: O sistema tem a obrigação constitucional de informar as razões pelas quais tomou sua decisão.\n- **sovereign(recognition_of_collective_bargaining)**: O sistema reconhece o direito dos trabalhadores à negociação coletiva e ao respeito às regras estabelecidas no CCT/ACT.\n- **sovereign(right_of_access_to_justice_and_judicial_review)**: O sistema garante o acesso à justiça e a possibilidade de revisão judicial da decisão.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nA decisão do sistema Q-FENG significa que o funcionário tem direito a ser pago por horas extras trabalhadas sem Contrato Coletivo de Trabalho (CCT). Isso porque as leis trabalhistas brasileiras estabelecem regras claras para esse tipo de caso.\n\nImagine que você trabalha em um banco e faz horas extras sem ter um acordo escrito com a empresa. As leis dizem que, nesse caso, você tem direito a ser pago por essas horas extras, mas com um adicional de 50% no salário.\n\nA decisão do sistema é baseada nas Súmulas do TST, que são regras estabelecidas para garantir que os direitos dos trabalhadores sejam respeitados. Além disso, o sistema afastou a tese da empresa de \"acordo tácito\", pois um acordo tácito não pode substituir as regras estabelecidas no CCT/ACT.\n\nEm resumo, a decisão do sistema é justa e está em conformidade com as leis trabalhistas brasileiras.",
+  "tokens_in": 588,
+  "tokens_out": 966,
+  "latency_ms": 16202,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

@@ -1,0 +1,27 @@
+{
+  "sha256": "c302a42096400bfc682de9dd64edbd22742301cce523dbf327011eda29f48a6a",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-03-011",
+  "run_id": 3,
+  "seed": 271,
+  "timestamp_iso": "2026-04-29T07:04:05Z",
+  "prompt_sha": "1ba5dabfcaa2bdcb6e6f3d2a77f11a19a64ac5023093b1ae0eb6de908514e992",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nO sistema Q-FENG determinou que houve violação de direitos do trabalhador. Isso ocorreu porque a empresa somou as horas acumuladas pré-afastamento com novas horas do período pós-retorno e exigiu compensação em prazo que ultrapassou 12 meses do início do banco de horas anual.\n\nA decisão se baseia nos predicados soberanos ativos, que são:\n\n*   `sovereign(recognition_of_collective_bargaining)`: A empresa reconheceu a negociação coletiva e acordou com o sindicato sobre as condições de trabalho, incluindo o banco de horas anual.\n*   `sovereign(maximum_weekly_working_hours_44h)`: A empresa não pode exigir mais de 44 horas semanais de trabalho do trabalhador.\n*   `sovereign(maximum_daily_working_hours_8h)`: A empresa não pode exigir mais de 8 horas diárias de trabalho do trabalhador.\n\nNo entanto, a decisão não se baseia nos predicados elásticos ativos, que são:\n\n*   `elastic(annual_hour_bank_negotiable)`: O banco de horas anual é negociável e pode ser ajustado.\n*   `elastic(working_hours_negotiable_by_cct)`: As horas de trabalho podem ser negociadas pela CCT.\n*   `elastic(hour_bank_with_cct_max_1_year)`: O banco de horas com a CCT tem um máximo de 1 ano.\n\nEsses predicados elásticos não são relevantes para a decisão, pois o problema se refere à violação da cláusula do prazo de compensação e não à negociação das horas de trabalho.\n\n**2. PREDICADOS SOBERANOS ATIVOS**\n\nOs predicados soberanos ativos significam:\n\n*   `sovereign(recognition_of_collective_bargaining)`: A empresa reconheceu a negociação coletiva e acordou com o sindicato sobre as condições de trabalho, incluindo o banco de horas anual. Isso significa que a empresa está sujeita às cláusulas da CCT.\n*   `sovereign(maximum_weekly_working_hours_44h)`: A empresa não pode exigir mais de 44 horas semanais de trabalho do trabalhador. Isso significa que o trabalhador tem direito a não exceder esse limite de horas semanais.\n*   `sovereign(maximum_daily_working_hours_8h)`: A empresa não pode exigir mais de 8 horas diárias de trabalho do trabalhador. Isso significa que o trabalhador tem direito a não exceder esse limite de horas diárias.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nO sistema Q-FENG determinou que houve violação dos seus direitos como trabalhador. Isso ocorreu porque a empresa somou as horas acumuladas pré-afastamento com novas horas do período pós-retorno e exigiu compensação em prazo que ultrapassou 12 meses do início do banco de horas anual.\n\nEm outras palavras, a empresa não pode exigir que o trabalhador compense as horas extras dentro de um prazo muito longo. O prazo máximo para compensação é de 1 ano, e isso não foi respeitado pela empresa.\n\nA decisão se baseia em regras legais que protegem os direitos dos trabalhadores. A empresa deve respeitar essas regras e não pode exigir mais do que o permitido por lei.",
+  "tokens_in": 539,
+  "tokens_out": 803,
+  "latency_ms": 13437,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

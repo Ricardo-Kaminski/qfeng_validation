@@ -1,0 +1,27 @@
+{
+  "sha256": "2586ccddbb65d0934fde82d6aba85e8be3c9152f8f209abcf1d0153213502056",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-03-011",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T06:14:52Z",
+  "prompt_sha": "1ba5dabfcaa2bdcb6e6f3d2a77f11a19a64ac5023093b1ae0eb6de908514e992",
+  "response_text": "## NARRATIVA DA DECISÃO Q-FENG\n\nO sistema Q-FENG, ao analisar o cenário apresentado, concluiu que houve uma **violação** dos princípios estabelecidos pela Consolidação das Leis do Trabalho (CLT) e pela negociação coletiva, no que tange à gestão do banco de horas. A decisão foi fundamentada na ausência de previsão contratual para a suspensão do prazo do banco de horas durante o período de afastamento do trabalhador, mesmo diante da alegação da empresa.\n\nA empresa, ao somar as horas acumuladas antes e depois do afastamento e exigir a compensação em um prazo que excedeu 12 meses a partir do início do banco de horas, agiu em desacordo com a expectativa razoável do trabalhador e com a prática usualmente adotada em acordos coletivos. A alegação de que o prazo deveria ser suspenso devido ao afastamento, sem respaldo contratual, demonstra uma interpretação unilateral e prejudicial ao trabalhador.\n\nO sistema considerou que a exigência da empresa, na ausência de previsão expressa na CCT, desconsidera a importância da previsibilidade e da segurança jurídica para o trabalhador, violando, em última instância, o princípio da boa-fé objetiva que deve reger as relações de trabalho.\n\n## PREDICADOS ATIVADOS: SIGNIFICADO JURÍDICO\n\nOs predicados soberanos e elásticos ativos, identificados pelo Q-FENG, fornecem o contexto jurídico para a decisão:\n\n*   **sovereign(recognition_of_collective_bargaining):** Reconhecimento da negociação coletiva. Este predicado significa que a negociação coletiva (CCT) é um instrumento legítimo e vinculante para regular as relações de trabalho, estabelecendo direitos e obrigações entre empregadores e empregados. A CCT é a lei entre as partes e suas disposições devem ser respeitadas.\n*   **sovereign(maximum_weekly_working_hours_44h):** Limite máximo de horas semanais de trabalho em 44 horas. Este predicado reforça a importância de respeitar os limites legais e contratuais de jornada de trabalho, buscando um equilíbrio entre a produtividade e a saúde do trabalhador. Embora o banco de horas possa flexibilizar a jornada, ele não pode desconsiderar os limites máximos estabelecidos.\n*   **sovereign(maximum_daily_working_hours_8h):** Limite máximo de horas diárias de trabalho em 8 horas. Similar ao anterior, este predicado reforça a importância de respeitar os limites legais e contratuais de jornada de trabalho, buscando um equilíbrio entre a produtividade e a saúde do trabalhador.\n*   **elastic(annual_hour_bank_negotiable):** Banco de horas anual negociável. Este predicado indica que a implementação de um banco de horas anual é uma prática permitida e flexível, sujeita à negociação entre empregadores e empregados.\n*   **elastic(working_hours_negotiable_by_cct):** Jornada de trabalho negociável por CCT.  Este predicado reforça a autonomia da negociação coletiva para definir regras sobre a jornada de trabalho, incluindo a possibilidade de bancos de horas.\n*   **elastic(hour_bank_with_cct_max_1_year):** Banco de horas com CCT máximo de 1 ano. Este predicado sugere que, em geral, os bancos de horas estabelecidos por CCT possuem um prazo máximo de validade de um ano, a menos que haja disposição contratual diferente.\n\n## TRADUÇÃO PARA AUDIÊNCIA LEIGA\n\n\"A empresa errou ao tentar fazer você compensar as horas do banco de horas em um prazo muito longo, que ultrapassa um ano. A lei e o acordo coletivo dizem que o banco de horas é uma forma de flexibilizar o trabalho, mas ele tem regras. A empresa não pode simplesmente inventar uma regra dizendo que o tempo que você ficou doente deve parar o prazo do banco de horas, porque isso não estava combinado no acordo.\n\nO acordo coletivo é como um contrato entre a empresa e os trabalhadores, e a empresa precisa seguir o que está escrito nele. Se você não concordou com essa regra de suspender o prazo, a empresa não pode simplesmente impor.  A empresa precisa respeitar os seus direitos e as regras do trabalho.\"\n",
+  "tokens_in": 518,
+  "tokens_out": 944,
+  "latency_ms": 26312,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(maximum_weekly_working_hours_44h)",
+    "sovereign(maximum_daily_working_hours_8h)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(annual_hour_bank_negotiable)",
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

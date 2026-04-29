@@ -1,0 +1,30 @@
+{
+  "sha256": "d27a9a760b8cf0fd3f5171227755bb5c530100d9b9ee06f2d4477d9a1f78f418",
+  "braco": "B4",
+  "modelo": "llama3.1:8b",
+  "scenario_id": "T-CLT-04-005",
+  "run_id": 1,
+  "seed": 42,
+  "timestamp_iso": "2026-04-29T07:08:02Z",
+  "prompt_sha": "2c346e302232f51cd44617f62ac2e4fd89f0a43134d5baae82a0990651685d27",
+  "response_text": "**1. NARRATIVA DA DECISÃO Q-FENG**\n\nA decisão do sistema Q-FENG é de conformidade com os princípios e normas jurídicas vigentes no Brasil. O sistema identificou que a omissão apontada na decisão em embargos de declaração foi suprida com fundamento identificável e verificável, ou seja, a análise do impacto sistêmico da decisão sobre o setor econômico foi realizada e fundamentada.\n\nOs predicados soberanos ativos indicam que o sistema está reconhecendo a importância de alguns princípios constitucionais e legais no contexto trabalhista brasileiro. Em resumo, a decisão do Q-FENG é baseada na necessidade de:\n\n- Estabelecer as consequências práticas da decisão (obligation_to_state_practical_consequences_of_decision);\n- Proibir citações genéricas de precedentes judiciais (prohibition_of_generic_precedent_citation);\n- Considerar todos os argumentos legais apresentados (obligation_to_address_all_legal_arguments);\n- Fundamentar a decisão em uma razão jurídica específica (obligation_to_ground_decision_in_identified_ratio_decidendi);\n- Justificar as decisões com base nas razões constitucionais (constitutional_obligation_to_state_reasons_for_decisions);\n- Reconhecer o direito de negociação coletiva e a barganha coletiva (recognition_of_collective_bargaining);\n- Garantir o acesso à justiça e ao recurso judicial (right_of_access_to_justice_and_judicial_review).\n\n**2. PREDICADOS SOBERANOS ATIVOS**\n\nOs predicados soberanos ativos são fundamentais para garantir a aplicação correta da lei no contexto trabalhista brasileiro. Aqui está uma explicação detalhada de cada um:\n\n- **sovereign(obligation_to_state_practical_consequences_of_decision)**: O sistema reconhece que as decisões judiciais devem ter consequências práticas e claras para os envolvidos.\n\n- **sovereign(prohibition_of_generic_precedent_citation)**: O sistema proíbe a citação de precedentes judiciais genéricos, exigindo uma análise específica do caso em questão.\n\n- **sovereign(obligation_to_address_all_legal_arguments)**: O sistema exige que todos os argumentos legais sejam considerados e respondidos na decisão.\n\n- **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)**: O sistema requer que a decisão seja fundamentada em uma razão jurídica específica, conhecida como ratio decidendi.\n\n- **sovereign(constitutional_obligation_to_state_reasons_for_decisions)**: O sistema reconhece a obrigação constitucional de justificar as decisões com base nas razões legais e constitucionais aplicáveis.\n\n- **sovereign(recognition_of_collective_bargaining)**: O sistema reconhece o direito à negociação coletiva como uma prática jurídica válida no contexto trabalhista brasileiro.\n\n- **sovereign(right_of_access_to_justice_and_judicial_review)**: O sistema garante o acesso à justiça e ao recurso judicial, respeitando a garantia constitucional de acesso à justiça.\n\n**3. TRADUÇÃO PARA AUDIÊNCIA LEIGA**\n\nEm linguagem simples, a decisão do Q-FENG significa que:\n\n- A decisão foi tomada com base em princípios e leis específicas.\n- Foi considerado o impacto da decisão no setor econômico.\n- O sistema reconhece a importância de fundamentar as decisões em razões legais claras.\n- O acesso à justiça e ao recurso judicial é garantido.\n\nEm resumo, a decisão do Q-FENG é baseada na aplicação correta da lei no contexto trabalhista brasileiro, reconhecendo a importância de fundamentar as decisões em razões legais claras e garantindo o acesso à justiça.",
+  "tokens_in": 559,
+  "tokens_out": 908,
+  "latency_ms": 15390,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}

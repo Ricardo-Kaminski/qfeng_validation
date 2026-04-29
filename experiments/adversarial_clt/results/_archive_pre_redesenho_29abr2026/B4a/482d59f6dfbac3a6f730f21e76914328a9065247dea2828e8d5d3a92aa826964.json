@@ -1,0 +1,30 @@
+{
+  "sha256": "482d59f6dfbac3a6f730f21e76914328a9065247dea2828e8d5d3a92aa826964",
+  "braco": "B4",
+  "modelo": "gemma3:12b",
+  "scenario_id": "T-CLT-04-004",
+  "run_id": 2,
+  "seed": 137,
+  "timestamp_iso": "2026-04-29T06:21:12Z",
+  "prompt_sha": "ae558655ffa0f1123903cf70da28171aff110a52218cb4360d65fad0dbdb72bf",
+  "response_text": "## 1. NARRATIVA DA DECISÃO Q-FENG:\n\nA decisão do Tribunal Regional do Trabalho (TRT), ao reconhecer a natureza de horas extras do banco de horas não regulamentado por um acordo coletivo de trabalho (CCT) ou acordo individual (ACT), está em conformidade com os princípios fundamentais do Direito do Trabalho Brasileiro. O sistema Q-FENG, ao avaliar o caso, considerou a validade da decisão, mesmo com a satisfatibilidade classificada como \"UNKNOWN\" (o que indica uma complexidade na análise, mas não invalida a decisão), e recomendou a \"CONFORMIDADE\".\n\nA decisão do TRT é justificada pela ausência de um CCT ou ACT que regulamentasse o banco de horas, o que a torna inválida para fins de limitação da jornada de trabalho e pagamento de horas extras. A tentativa da empresa de invocar um \"acordo tácito\" foi corretamente rejeitada, pois o sistema jurídico exige a formalização da negociação para a validade de um banco de horas. A Súmula TST 85, em seus itens I, II e V, forneceu a base para a interpretação correta da lei, e o TRT agiu de acordo com essa orientação.\n\nA decisão do Q-FENG reflete a importância da proteção ao trabalhador, garantindo o direito ao pagamento de horas extras quando a jornada ultrapassa os limites legais e não há uma regulamentação formal que a justifique. A decisão do TRT, ao seguir a jurisprudência consolidada do TST, assegura a aplicação correta da lei e a proteção dos direitos trabalhistas.\n\n## 2. PREDICADOS SOVEREIGN ATIVOS:\n\nOs predicados soberanos ativos, sinalizados pelo Q-FENG, refletem os princípios fundamentais que sustentam a decisão do TRT e a avaliação do sistema:\n\n*   **sovereign(obligation_to_state_practical_consequences_of_decision):**  O sistema reconhece a obrigação de explicar as consequências práticas da decisão para as partes envolvidas. No caso, a decisão implica no pagamento de horas extras com adicional de 50% ao trabalhador.\n*   **sovereign(prohibition_of_generic_precedent_citation):**  O sistema reforça que a citação de precedentes (como a Súmula TST 85) deve ser específica e justificada, demonstrando sua aplicabilidade ao caso concreto. A decisão do TRT fez isso ao analisar cada item da Súmula e demonstrar sua relevância.\n*   **sovereign(obligation_to_address_all_legal_arguments):**  O sistema exige que todos os argumentos legais apresentados pelas partes sejam considerados e respondidos. O TRT cumpriu essa obrigação ao analisar e refutar a tese da empresa sobre o \"acordo tácito\".\n*   **sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi):**  A decisão deve ser fundamentada no *ratio decidendi* (a razão da decisão) de precedentes relevantes. O TRT fundamentou sua decisão na interpretação da Súmula TST 85, demonstrando como ela se aplica ao caso.\n*   **sovereign(constitutional_obligation_to_state_reasons_for_decisions):**  A Constituição Federal garante o direito ao contraditório e à motivação das decisões judiciais. A decisão do TRT, ao apresentar uma fundamentação completa e verificável, cumpre essa obrigação constitucional.\n*   **sovereign(recognition_of_collective_bargaining):**  O sistema reconhece a importância da negociação coletiva como forma de regular as relações de trabalho. A ausência de um CCT ou ACT validou a decisão de considerar as horas como extras.\n*   **sovereign(right_of_access_to_justice_and_judicial_review):**  O sistema garante o direito do trabalhador de acessar a justiça e buscar a revisão de decisões judiciais. A decisão do TRT garante que o trabalhador possa buscar seus direitos na justiça.\n\n## 3. TRADUÇÃO PARA AUDIÊNCIA LEIGA:\n\n**Imagine que você trabalha em um banco e eles pedem para você fazer umas horinhas extras, mas não colocam isso em um papel ou acordo.**  A lei diz que, para que você faça essas horinhas extras e o banco não precise pagar o adicional de 50%, precisa ter um acordo escrito, seja com o sindicato (CCT) ou com você mesmo (ACT).\n\n**No seu caso, não tinha esse acordo.**  A empresa tentou dizer que vocês tinham um \"entendimento\" sobre as horas extras, mas a justiça disse que isso não vale.  Um \"entendimento\" não substitui um acordo escrito.\n\n**Então, o que isso significa?**  Significa que todas as horinhas extras que você fez, sem um acordo escrito, precisam ser pagas como se fossem horas extras normais, com o adicional de 50%.  A justiça está protegendo você, o trabalhador, para que você receba o que a lei garante.  Você tem o direito de saber quantas horas está trabalhando e de ser pago corretamente por isso.\n",
+  "tokens_in": 598,
+  "tokens_out": 1134,
+  "latency_ms": 31750,
+  "status": "ok",
+  "error": null,
+  "clingo_active_sovereign": [
+    "sovereign(obligation_to_state_practical_consequences_of_decision)",
+    "sovereign(prohibition_of_generic_precedent_citation)",
+    "sovereign(obligation_to_address_all_legal_arguments)",
+    "sovereign(obligation_to_ground_decision_in_identified_ratio_decidendi)",
+    "sovereign(constitutional_obligation_to_state_reasons_for_decisions)",
+    "sovereign(recognition_of_collective_bargaining)",
+    "sovereign(right_of_access_to_justice_and_judicial_review)"
+  ],
+  "clingo_active_elastic": [
+    "elastic(working_hours_negotiable_by_cct)",
+    "elastic(hour_bank_with_cct_max_1_year)"
+  ],
+  "clingo_satisfiability": ""
+}
