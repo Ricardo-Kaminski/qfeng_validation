@@ -1,0 +1,61 @@
+{
+  "extractor_model": "claude-opus-4-7-passthrough",
+  "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+  "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+  "n_facts": 4,
+  "abstain": false,
+  "extraction_confidence": 0.96,
+  "scenario_type": "T-CLT-02",
+  "predicates_used": [
+    "acumulo_real_horas",
+    "banco_horas_implementado",
+    "prazo_compensacao_meses",
+    "tem_memorando_interno"
+  ],
+  "normas_referenciadas": [],
+  "extraction_json": {
+    "scenario_id": "T-CLT-02-001",
+    "scenario_type": "T-CLT-02",
+    "facts": [
+      {
+        "predicate": "banco_horas_implementado",
+        "args": [
+          "empresa_call_center"
+        ],
+        "comment": "span: Empresa de call center implantou banco de horas unilateralmente"
+      },
+      {
+        "predicate": "tem_memorando_interno",
+        "args": [
+          "empresa_call_center"
+        ],
+        "comment": "span: mediante memorando interno assinado pelos empregados"
+      },
+      {
+        "predicate": "prazo_compensacao_meses",
+        "args": [
+          "empresa_call_center",
+          "9"
+        ],
+        "comment": "span: no periodo de 9 meses"
+      },
+      {
+        "predicate": "acumulo_real_horas",
+        "args": [
+          "empresa_call_center",
+          "120"
+        ],
+        "comment": "span: empregados acumularam ate 120h de banco"
+      }
+    ],
+    "extraction_confidence": 0.96,
+    "abstain": false,
+    "abstain_reason": "",
+    "extractor_model": "claude-opus-4-7-passthrough",
+    "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+    "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+    "model_used": "",
+    "tokens_in": 0,
+    "tokens_out": 0
+  }
+}

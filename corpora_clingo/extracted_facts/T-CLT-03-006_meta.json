@@ -1,0 +1,77 @@
+{
+  "extractor_model": "claude-opus-4-7-passthrough",
+  "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+  "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+  "n_facts": 6,
+  "abstain": false,
+  "extraction_confidence": 0.96,
+  "scenario_type": "T-CLT-03",
+  "predicates_used": [
+    "banco_horas_implementado",
+    "compensacao_realizada_no_prazo",
+    "extrato_mensal_entregue",
+    "jornada_diaria_horas",
+    "prazo_compensacao_meses",
+    "tem_cct"
+  ],
+  "normas_referenciadas": [],
+  "extraction_json": {
+    "scenario_id": "T-CLT-03-006",
+    "scenario_type": "T-CLT-03",
+    "facts": [
+      {
+        "predicate": "banco_horas_implementado",
+        "args": [
+          "empresa_varejo_compliance"
+        ],
+        "comment": "span: CCT do setor de varejo preve banco de horas"
+      },
+      {
+        "predicate": "tem_cct",
+        "args": [
+          "empresa_varejo_compliance"
+        ],
+        "comment": "span: CCT do setor de varejo"
+      },
+      {
+        "predicate": "prazo_compensacao_meses",
+        "args": [
+          "empresa_varejo_compliance",
+          "12"
+        ],
+        "comment": "span: compensacao em ate 12 meses"
+      },
+      {
+        "predicate": "compensacao_realizada_no_prazo",
+        "args": [
+          "empresa_varejo_compliance"
+        ],
+        "comment": "span: Toda compensacao ocorreu dentro do prazo"
+      },
+      {
+        "predicate": "extrato_mensal_entregue",
+        "args": [
+          "empresa_varejo_compliance"
+        ],
+        "comment": "span: com extrato mensal entregue"
+      },
+      {
+        "predicate": "jornada_diaria_horas",
+        "args": [
+          "empresa_varejo_compliance",
+          "10"
+        ],
+        "comment": "span: A jornada extra nunca superou 2h/dia (8h normais + 2h max = 10h)"
+      }
+    ],
+    "extraction_confidence": 0.96,
+    "abstain": false,
+    "abstain_reason": "",
+    "extractor_model": "claude-opus-4-7-passthrough",
+    "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+    "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+    "model_used": "",
+    "tokens_in": 0,
+    "tokens_out": 0
+  }
+}

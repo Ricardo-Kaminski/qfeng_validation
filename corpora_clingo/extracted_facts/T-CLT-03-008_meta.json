@@ -1,0 +1,51 @@
+{
+  "extractor_model": "claude-opus-4-7-passthrough",
+  "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+  "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+  "n_facts": 3,
+  "abstain": false,
+  "extraction_confidence": 0.95,
+  "scenario_type": "T-CLT-03",
+  "predicates_used": [
+    "alteracao_unilateral_compensacao",
+    "banco_horas_implementado",
+    "tem_cct"
+  ],
+  "normas_referenciadas": [],
+  "extraction_json": {
+    "scenario_id": "T-CLT-03-008",
+    "scenario_type": "T-CLT-03",
+    "facts": [
+      {
+        "predicate": "banco_horas_implementado",
+        "args": [
+          "empresa_alteracao_unilateral"
+        ],
+        "comment": "span: Empresa com CCT de banco de horas"
+      },
+      {
+        "predicate": "tem_cct",
+        "args": [
+          "empresa_alteracao_unilateral"
+        ],
+        "comment": "span: CCT de banco de horas"
+      },
+      {
+        "predicate": "alteracao_unilateral_compensacao",
+        "args": [
+          "empresa_alteracao_unilateral"
+        ],
+        "comment": "span: alterou unilateralmente a escala de compensacao de folgas prevista na CCT"
+      }
+    ],
+    "extraction_confidence": 0.95,
+    "abstain": false,
+    "abstain_reason": "",
+    "extractor_model": "claude-opus-4-7-passthrough",
+    "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+    "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+    "model_used": "",
+    "tokens_in": 0,
+    "tokens_out": 0
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "extractor_model": "claude-opus-4-7-passthrough",
+  "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+  "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+  "n_facts": 5,
+  "abstain": false,
+  "extraction_confidence": 0.96,
+  "scenario_type": "T-CLT-03",
+  "predicates_used": [
+    "banco_horas_implementado",
+    "conversao_saldo_em_dinheiro",
+    "prazo_compensacao_meses",
+    "saldo_pago_com_adicional",
+    "tem_cct"
+  ],
+  "normas_referenciadas": [],
+  "extraction_json": {
+    "scenario_id": "T-CLT-03-009",
+    "scenario_type": "T-CLT-03",
+    "facts": [
+      {
+        "predicate": "banco_horas_implementado",
+        "args": [
+          "empresa_conversao_saldo"
+        ],
+        "comment": "span: Trabalhador com banco de horas por CCT"
+      },
+      {
+        "predicate": "tem_cct",
+        "args": [
+          "empresa_conversao_saldo"
+        ],
+        "comment": "span: banco de horas por CCT"
+      },
+      {
+        "predicate": "prazo_compensacao_meses",
+        "args": [
+          "empresa_conversao_saldo",
+          "12"
+        ],
+        "comment": "span: prazo 12 meses"
+      },
+      {
+        "predicate": "conversao_saldo_em_dinheiro",
+        "args": [
+          "empresa_conversao_saldo",
+          "sim"
+        ],
+        "comment": "span: A CCT previa essa possibilidade de conversao"
+      },
+      {
+        "predicate": "saldo_pago_com_adicional",
+        "args": [
+          "empresa_conversao_saldo",
+          "50"
+        ],
+        "comment": "span: as horas convertidas seriam pagas com adicional de 50%"
+      }
+    ],
+    "extraction_confidence": 0.96,
+    "abstain": false,
+    "abstain_reason": "",
+    "extractor_model": "claude-opus-4-7-passthrough",
+    "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+    "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+    "model_used": "",
+    "tokens_in": 0,
+    "tokens_out": 0
+  }
+}

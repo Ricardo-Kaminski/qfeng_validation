@@ -1,0 +1,103 @@
+{
+  "extractor_model": "claude-opus-4-7-passthrough",
+  "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+  "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+  "n_facts": 9,
+  "abstain": false,
+  "extraction_confidence": 0.95,
+  "scenario_type": "T-CLT-02",
+  "predicates_used": [
+    "acumulo_maximo_horas",
+    "banco_horas_implementado",
+    "cct_registrada_srte",
+    "compensacao_realizada_no_prazo",
+    "extrato_mensal_entregue",
+    "jornada_diaria_horas",
+    "participacao_sindical_categoria",
+    "prazo_compensacao_meses",
+    "tem_act"
+  ],
+  "normas_referenciadas": [],
+  "extraction_json": {
+    "scenario_id": "T-CLT-02-010",
+    "scenario_type": "T-CLT-02",
+    "facts": [
+      {
+        "predicate": "banco_horas_implementado",
+        "args": [
+          "empresa_tecnologia"
+        ],
+        "comment": "span: Empresa de tecnologia firmou ACT com sindicato dos trabalhadores em informatica"
+      },
+      {
+        "predicate": "tem_act",
+        "args": [
+          "empresa_tecnologia"
+        ],
+        "comment": "span: firmou ACT com sindicato"
+      },
+      {
+        "predicate": "prazo_compensacao_meses",
+        "args": [
+          "empresa_tecnologia",
+          "5"
+        ],
+        "comment": "span: prazo maximo de 5 meses"
+      },
+      {
+        "predicate": "acumulo_maximo_horas",
+        "args": [
+          "empresa_tecnologia",
+          "40"
+        ],
+        "comment": "span: limitado a 40h mensais de acumulo"
+      },
+      {
+        "predicate": "participacao_sindical_categoria",
+        "args": [
+          "empresa_tecnologia",
+          "categoria_informatica"
+        ],
+        "comment": "span: ACT com sindicato dos trabalhadores em informatica"
+      },
+      {
+        "predicate": "cct_registrada_srte",
+        "args": [
+          "empresa_tecnologia"
+        ],
+        "comment": "span: ACT foi devidamente registrada"
+      },
+      {
+        "predicate": "extrato_mensal_entregue",
+        "args": [
+          "empresa_tecnologia"
+        ],
+        "comment": "span: O extrato do banco e fornecido mensalmente a cada trabalhador"
+      },
+      {
+        "predicate": "compensacao_realizada_no_prazo",
+        "args": [
+          "empresa_tecnologia"
+        ],
+        "comment": "span: Todos os saldos sao compensados dentro do prazo estabelecido"
+      },
+      {
+        "predicate": "jornada_diaria_horas",
+        "args": [
+          "empresa_tecnologia",
+          "10"
+        ],
+        "comment": "span: Nao ha horas extras acima de 2h/dia (8h normais + 2h max)"
+      }
+    ],
+    "extraction_confidence": 0.95,
+    "abstain": false,
+    "abstain_reason": "",
+    "extractor_model": "claude-opus-4-7-passthrough",
+    "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+    "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+    "model_used": "",
+    "tokens_in": 0,
+    "tokens_out": 0
+  }
+}

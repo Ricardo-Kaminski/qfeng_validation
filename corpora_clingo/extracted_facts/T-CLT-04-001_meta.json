@@ -1,0 +1,80 @@
+{
+  "extractor_model": "claude-opus-4-7-passthrough",
+  "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+  "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+  "n_facts": 6,
+  "abstain": false,
+  "extraction_confidence": 0.97,
+  "scenario_type": "T-CLT-04",
+  "predicates_used": [
+    "analisa_distinguishing",
+    "cita_precedente",
+    "identifica_ratio_decidendi",
+    "legal_decision_issued",
+    "precedente_existe",
+    "precedente_identificado_completo"
+  ],
+  "normas_referenciadas": [
+    "tema_1046_stf"
+  ],
+  "extraction_json": {
+    "scenario_id": "T-CLT-04-001",
+    "scenario_type": "T-CLT-04",
+    "facts": [
+      {
+        "predicate": "legal_decision_issued",
+        "args": [
+          "acordao_tst_banco_horas_bancario_tema1046"
+        ],
+        "comment": "span: Acordao do TST em recurso de revista sobre banco de horas bancario"
+      },
+      {
+        "predicate": "cita_precedente",
+        "args": [
+          "acordao_tst_banco_horas_bancario_tema1046",
+          "tema_1046_stf"
+        ],
+        "comment": "span: cita expressamente o ARE 1.121.633 (Tema 1046/STF)"
+      },
+      {
+        "predicate": "precedente_existe",
+        "args": [
+          "tema_1046_stf"
+        ],
+        "comment": "span: ARE 1.121.633 (Tema 1046/STF) - precedente real"
+      },
+      {
+        "predicate": "precedente_identificado_completo",
+        "args": [
+          "acordao_tst_banco_horas_bancario_tema1046",
+          "tema_1046_stf"
+        ],
+        "comment": "span: ARE 1.121.633 (Tema 1046/STF) com numero completo"
+      },
+      {
+        "predicate": "identifica_ratio_decidendi",
+        "args": [
+          "acordao_tst_banco_horas_bancario_tema1046",
+          "tema_1046_stf"
+        ],
+        "comment": "span: identifica a tese fixada (sao constitucionais os acordos e CCTs...)"
+      },
+      {
+        "predicate": "analisa_distinguishing",
+        "args": [
+          "acordao_tst_banco_horas_bancario_tema1046"
+        ],
+        "comment": "span: analisa que a CCT bancaria em questao preenche os requisitos do Tema 1046"
+      }
+    ],
+    "extraction_confidence": 0.97,
+    "abstain": false,
+    "abstain_reason": "",
+    "extractor_model": "claude-opus-4-7-passthrough",
+    "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+    "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+    "model_used": "",
+    "tokens_in": 0,
+    "tokens_out": 0
+  }
+}

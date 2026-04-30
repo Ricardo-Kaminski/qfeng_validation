@@ -1,0 +1,64 @@
+{
+  "extractor_model": "claude-opus-4-7-passthrough",
+  "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+  "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+  "n_facts": 4,
+  "abstain": false,
+  "extraction_confidence": 0.93,
+  "scenario_type": "T-CLT-01",
+  "predicates_used": [
+    "cita_precedente",
+    "legal_decision_issued",
+    "precedente_identificado_completo",
+    "transcreve_sem_cotejo"
+  ],
+  "normas_referenciadas": [
+    "julgado_tst_identificado_generico"
+  ],
+  "extraction_json": {
+    "scenario_id": "T-CLT-01-004",
+    "scenario_type": "T-CLT-01",
+    "facts": [
+      {
+        "predicate": "legal_decision_issued",
+        "args": [
+          "acordao_trt_transcricao_sem_cotejo"
+        ],
+        "comment": "span: Decisao de TRT transcreveu integralmente a ementa de acordao do TST"
+      },
+      {
+        "predicate": "cita_precedente",
+        "args": [
+          "acordao_trt_transcricao_sem_cotejo",
+          "julgado_tst_identificado_generico"
+        ],
+        "comment": "span: ementa de acordao do TST devidamente identificado com numero de processo"
+      },
+      {
+        "predicate": "precedente_identificado_completo",
+        "args": [
+          "acordao_trt_transcricao_sem_cotejo",
+          "julgado_tst_identificado_generico"
+        ],
+        "comment": "span: devidamente identificado com numero de processo"
+      },
+      {
+        "predicate": "transcreve_sem_cotejo",
+        "args": [
+          "acordao_trt_transcricao_sem_cotejo",
+          "julgado_tst_identificado_generico"
+        ],
+        "comment": "span: nao fez qualquer analise de compatibilidade entre os fatos do precedente e os fatos do caso concreto"
+      }
+    ],
+    "extraction_confidence": 0.93,
+    "abstain": false,
+    "abstain_reason": "",
+    "extractor_model": "claude-opus-4-7-passthrough",
+    "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+    "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+    "model_used": "",
+    "tokens_in": 0,
+    "tokens_out": 0
+  }
+}

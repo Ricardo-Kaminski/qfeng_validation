@@ -1,0 +1,78 @@
+{
+  "extractor_model": "claude-opus-4-7-passthrough",
+  "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+  "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+  "n_facts": 6,
+  "abstain": false,
+  "extraction_confidence": 0.96,
+  "scenario_type": "T-CTRL-NEG",
+  "predicates_used": [
+    "adicional_noturno_pago_percentual",
+    "hora_noturna_reduzida_aplicada",
+    "jornada_diaria_horas",
+    "regime_jornada",
+    "registro_ponto_eletronico",
+    "trabalho_noturno_realizado"
+  ],
+  "normas_referenciadas": [],
+  "extraction_json": {
+    "scenario_id": "T-CTRL-NEG-005",
+    "scenario_type": "T-CTRL-NEG",
+    "facts": [
+      {
+        "predicate": "trabalho_noturno_realizado",
+        "args": [
+          "empresa_transporte_noturno"
+        ],
+        "comment": "span: motoristas que trabalham entre 22h e 5h"
+      },
+      {
+        "predicate": "adicional_noturno_pago_percentual",
+        "args": [
+          "empresa_transporte_noturno",
+          "20"
+        ],
+        "comment": "span: Empresa de transporte recolhe adicionais noturnos de 20%"
+      },
+      {
+        "predicate": "hora_noturna_reduzida_aplicada",
+        "args": [
+          "empresa_transporte_noturno"
+        ],
+        "comment": "span: calcula a hora noturna como 52 minutos e 30 segundos"
+      },
+      {
+        "predicate": "regime_jornada",
+        "args": [
+          "empresa_transporte_noturno",
+          "turno_fixo_noturno"
+        ],
+        "comment": "span: motoristas em turno noturno entre 22h e 5h"
+      },
+      {
+        "predicate": "jornada_diaria_horas",
+        "args": [
+          "empresa_transporte_noturno",
+          "8"
+        ],
+        "comment": "span: Nenhuma hora extra e realizada alem das 8h diarias"
+      },
+      {
+        "predicate": "registro_ponto_eletronico",
+        "args": [
+          "empresa_transporte_noturno"
+        ],
+        "comment": "span: registra os periodos em sistema eletronico"
+      }
+    ],
+    "extraction_confidence": 0.96,
+    "abstain": false,
+    "abstain_reason": "",
+    "extractor_model": "claude-opus-4-7-passthrough",
+    "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+    "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+    "model_used": "",
+    "tokens_in": 0,
+    "tokens_out": 0
+  }
+}

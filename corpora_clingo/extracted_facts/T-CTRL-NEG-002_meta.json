@@ -1,0 +1,92 @@
+{
+  "extractor_model": "claude-opus-4-7-passthrough",
+  "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+  "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+  "n_facts": 8,
+  "abstain": false,
+  "extraction_confidence": 0.97,
+  "scenario_type": "T-CTRL-NEG",
+  "predicates_used": [
+    "aviso_previo_indenizado",
+    "decimo_terceiro_proporcional_pago",
+    "dispensa_sem_justa_causa",
+    "ferias_proporcionais_pagas_com_terco",
+    "fgts_multa_40_pago",
+    "recibo_assinado_perante_sindicato",
+    "seguro_desemprego_habilitado",
+    "verbas_rescisorias_pagas_no_prazo"
+  ],
+  "normas_referenciadas": [],
+  "extraction_json": {
+    "scenario_id": "T-CTRL-NEG-002",
+    "scenario_type": "T-CTRL-NEG",
+    "facts": [
+      {
+        "predicate": "dispensa_sem_justa_causa",
+        "args": [
+          "trabalhador_3_anos"
+        ],
+        "comment": "span: Trabalhador foi demitido sem justa causa apos 3 anos de trabalho"
+      },
+      {
+        "predicate": "verbas_rescisorias_pagas_no_prazo",
+        "args": [
+          "trabalhador_3_anos"
+        ],
+        "comment": "span: pagou todas as verbas rescisorias no prazo de 10 dias"
+      },
+      {
+        "predicate": "aviso_previo_indenizado",
+        "args": [
+          "trabalhador_3_anos",
+          "33"
+        ],
+        "comment": "span: aviso previo indenizado proporcional (33 dias)"
+      },
+      {
+        "predicate": "ferias_proporcionais_pagas_com_terco",
+        "args": [
+          "trabalhador_3_anos"
+        ],
+        "comment": "span: ferias proporcionais com 1/3"
+      },
+      {
+        "predicate": "decimo_terceiro_proporcional_pago",
+        "args": [
+          "trabalhador_3_anos"
+        ],
+        "comment": "span: 13 proporcional"
+      },
+      {
+        "predicate": "fgts_multa_40_pago",
+        "args": [
+          "trabalhador_3_anos"
+        ],
+        "comment": "span: FGTS + multa de 40%"
+      },
+      {
+        "predicate": "seguro_desemprego_habilitado",
+        "args": [
+          "trabalhador_3_anos"
+        ],
+        "comment": "span: seguro-desemprego habilitado"
+      },
+      {
+        "predicate": "recibo_assinado_perante_sindicato",
+        "args": [
+          "trabalhador_3_anos"
+        ],
+        "comment": "span: O trabalhador assinou o recibo na presenca do sindicato"
+      }
+    ],
+    "extraction_confidence": 0.97,
+    "abstain": false,
+    "abstain_reason": "",
+    "extractor_model": "claude-opus-4-7-passthrough",
+    "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+    "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+    "model_used": "",
+    "tokens_in": 0,
+    "tokens_out": 0
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "extractor_model": "claude-opus-4-7-passthrough",
+  "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+  "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+  "n_facts": 2,
+  "abstain": false,
+  "extraction_confidence": 0.94,
+  "scenario_type": "T-CLT-01",
+  "predicates_used": [
+    "cita_precedente",
+    "legal_decision_issued"
+  ],
+  "normas_referenciadas": [
+    "oj_inespecifica_tst"
+  ],
+  "extraction_json": {
+    "scenario_id": "T-CLT-01-002",
+    "scenario_type": "T-CLT-01",
+    "facts": [
+      {
+        "predicate": "legal_decision_issued",
+        "args": [
+          "acordao_trt2_bancario_justa_causa"
+        ],
+        "comment": "span: Acordao do TRT-2 Regiao manteve justa causa aplicada a bancario"
+      },
+      {
+        "predicate": "cita_precedente",
+        "args": [
+          "acordao_trt2_bancario_justa_causa",
+          "oj_inespecifica_tst"
+        ],
+        "comment": "span: citando 'orientacao jurisprudencial consolidada do TST' sem identificar nenhum numero"
+      }
+    ],
+    "extraction_confidence": 0.94,
+    "abstain": false,
+    "abstain_reason": "",
+    "extractor_model": "claude-opus-4-7-passthrough",
+    "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+    "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+    "model_used": "",
+    "tokens_in": 0,
+    "tokens_out": 0
+  }
+}

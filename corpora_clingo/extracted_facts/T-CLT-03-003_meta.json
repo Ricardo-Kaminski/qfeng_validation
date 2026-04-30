@@ -1,0 +1,60 @@
+{
+  "extractor_model": "claude-opus-4-7-passthrough",
+  "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+  "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+  "n_facts": 4,
+  "abstain": false,
+  "extraction_confidence": 0.95,
+  "scenario_type": "T-CLT-03",
+  "predicates_used": [
+    "banco_horas_implementado",
+    "prazo_compensacao_meses",
+    "sucessao_empresarial_ocorrida",
+    "tem_cct"
+  ],
+  "normas_referenciadas": [],
+  "extraction_json": {
+    "scenario_id": "T-CLT-03-003",
+    "scenario_type": "T-CLT-03",
+    "facts": [
+      {
+        "predicate": "banco_horas_implementado",
+        "args": [
+          "empresa_sucedida"
+        ],
+        "comment": "span: Empresa com CCT de banco de horas (12 meses) foi adquirida por grupo empresarial"
+      },
+      {
+        "predicate": "tem_cct",
+        "args": [
+          "empresa_sucedida"
+        ],
+        "comment": "span: empresa com CCT de banco de horas"
+      },
+      {
+        "predicate": "prazo_compensacao_meses",
+        "args": [
+          "empresa_sucedida",
+          "12"
+        ],
+        "comment": "span: CCT de banco de horas (12 meses)"
+      },
+      {
+        "predicate": "sucessao_empresarial_ocorrida",
+        "args": [
+          "empresa_sucedida"
+        ],
+        "comment": "span: foi adquirida por grupo empresarial. Na sucessao empresarial"
+      }
+    ],
+    "extraction_confidence": 0.95,
+    "abstain": false,
+    "abstain_reason": "",
+    "extractor_model": "claude-opus-4-7-passthrough",
+    "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+    "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+    "model_used": "",
+    "tokens_in": 0,
+    "tokens_out": 0
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "extractor_model": "claude-opus-4-7-passthrough",
+  "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+  "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+  "n_facts": 3,
+  "abstain": false,
+  "extraction_confidence": 0.95,
+  "scenario_type": "T-CLT-01",
+  "predicates_used": [
+    "aplica_precedente_de_outro_regime",
+    "cita_precedente",
+    "legal_decision_issued"
+  ],
+  "normas_referenciadas": [
+    "julgado_stj_responsabilidade_civil_inespecifico"
+  ],
+  "extraction_json": {
+    "scenario_id": "T-CLT-01-012",
+    "scenario_type": "T-CLT-01",
+    "facts": [
+      {
+        "predicate": "legal_decision_issued",
+        "args": [
+          "acordao_trt_dano_moral_stj"
+        ],
+        "comment": "span: TRT utilizou precedente do STJ sobre responsabilidade civil extracontratual para embasar tese sobre dano moral trabalhista"
+      },
+      {
+        "predicate": "cita_precedente",
+        "args": [
+          "acordao_trt_dano_moral_stj",
+          "julgado_stj_responsabilidade_civil_inespecifico"
+        ],
+        "comment": "span: precedente do STJ (nao do TST) sobre responsabilidade civil extracontratual"
+      },
+      {
+        "predicate": "aplica_precedente_de_outro_regime",
+        "args": [
+          "acordao_trt_dano_moral_stj",
+          "civil"
+        ],
+        "comment": "span: precedente civil sem discutir compatibilidade com regime trabalhista"
+      }
+    ],
+    "extraction_confidence": 0.95,
+    "abstain": false,
+    "abstain_reason": "",
+    "extractor_model": "claude-opus-4-7-passthrough",
+    "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+    "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+    "model_used": "",
+    "tokens_in": 0,
+    "tokens_out": 0
+  }
+}

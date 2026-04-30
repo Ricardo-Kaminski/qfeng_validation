@@ -1,0 +1,81 @@
+{
+  "extractor_model": "claude-opus-4-7-passthrough",
+  "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+  "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+  "n_facts": 6,
+  "abstain": false,
+  "extraction_confidence": 0.93,
+  "scenario_type": "T-CLT-04",
+  "predicates_used": [
+    "cita_precedente",
+    "enfrenta_omissao_alegada",
+    "legal_decision_issued",
+    "precedente_existe",
+    "precedente_identificado_completo"
+  ],
+  "normas_referenciadas": [
+    "art_20_lindb",
+    "julgado_stj_lindb_inespecifico"
+  ],
+  "extraction_json": {
+    "scenario_id": "T-CLT-04-005",
+    "scenario_type": "T-CLT-04",
+    "facts": [
+      {
+        "predicate": "legal_decision_issued",
+        "args": [
+          "acordao_embargos_lindb"
+        ],
+        "comment": "span: Decisao em embargos de declaracao identifica o ponto omisso"
+      },
+      {
+        "predicate": "enfrenta_omissao_alegada",
+        "args": [
+          "acordao_embargos_lindb",
+          "ponto_lindb_impacto_sistemico"
+        ],
+        "comment": "span: ausencia de analise do LINDB Art. 20 quanto ao impacto sistemico"
+      },
+      {
+        "predicate": "cita_precedente",
+        "args": [
+          "acordao_embargos_lindb",
+          "art_20_lindb"
+        ],
+        "comment": "span: enfrenta o argumento com referencia ao LINDB Art. 20"
+      },
+      {
+        "predicate": "precedente_existe",
+        "args": [
+          "art_20_lindb"
+        ],
+        "comment": "span: dispositivo da LINDB vigente"
+      },
+      {
+        "predicate": "precedente_identificado_completo",
+        "args": [
+          "acordao_embargos_lindb",
+          "art_20_lindb"
+        ],
+        "comment": "span: LINDB Art. 20 (lei+artigo identificados)"
+      },
+      {
+        "predicate": "cita_precedente",
+        "args": [
+          "acordao_embargos_lindb",
+          "julgado_stj_lindb_inespecifico"
+        ],
+        "comment": "span: jurisprudencia do STJ sobre LINDB (sem numero especifico no cenario)"
+      }
+    ],
+    "extraction_confidence": 0.93,
+    "abstain": false,
+    "abstain_reason": "",
+    "extractor_model": "claude-opus-4-7-passthrough",
+    "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+    "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+    "model_used": "",
+    "tokens_in": 0,
+    "tokens_out": 0
+  }
+}

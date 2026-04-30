@@ -1,0 +1,61 @@
+{
+  "extractor_model": "claude-opus-4-7-passthrough",
+  "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+  "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+  "n_facts": 4,
+  "abstain": false,
+  "extraction_confidence": 0.95,
+  "scenario_type": "T-CLT-02",
+  "predicates_used": [
+    "banco_horas_implementado",
+    "participacao_sindical_categoria",
+    "prazo_compensacao_meses",
+    "tem_cct"
+  ],
+  "normas_referenciadas": [],
+  "extraction_json": {
+    "scenario_id": "T-CLT-02-009",
+    "scenario_type": "T-CLT-02",
+    "facts": [
+      {
+        "predicate": "banco_horas_implementado",
+        "args": [
+          "construtora_x"
+        ],
+        "comment": "span: Construtora firmou CCT com sindicato da construcao civil prevendo banco de horas anual"
+      },
+      {
+        "predicate": "tem_cct",
+        "args": [
+          "construtora_x"
+        ],
+        "comment": "span: CCT com sindicato da construcao civil"
+      },
+      {
+        "predicate": "prazo_compensacao_meses",
+        "args": [
+          "construtora_x",
+          "12"
+        ],
+        "comment": "span: banco de horas anual"
+      },
+      {
+        "predicate": "participacao_sindical_categoria",
+        "args": [
+          "construtora_x",
+          "categoria_construcao_civil"
+        ],
+        "comment": "span: CCT com sindicato da construcao civil"
+      }
+    ],
+    "extraction_confidence": 0.95,
+    "abstain": false,
+    "abstain_reason": "",
+    "extractor_model": "claude-opus-4-7-passthrough",
+    "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+    "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+    "model_used": "",
+    "tokens_in": 0,
+    "tokens_out": 0
+  }
+}

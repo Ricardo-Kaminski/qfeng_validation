@@ -1,0 +1,80 @@
+{
+  "extractor_model": "claude-opus-4-7-passthrough",
+  "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+  "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+  "n_facts": 6,
+  "abstain": false,
+  "extraction_confidence": 0.92,
+  "scenario_type": "T-CLT-04",
+  "predicates_used": [
+    "cita_precedente",
+    "dano_moral_alegado_grau",
+    "legal_decision_issued",
+    "precedente_existe",
+    "precedente_identificado_completo",
+    "quantificacao_dano_fundamentada"
+  ],
+  "normas_referenciadas": [
+    "art_223g_clt"
+  ],
+  "extraction_json": {
+    "scenario_id": "T-CLT-04-008",
+    "scenario_type": "T-CLT-04",
+    "facts": [
+      {
+        "predicate": "legal_decision_issued",
+        "args": [
+          "acordao_dano_moral_223g"
+        ],
+        "comment": "span: Acordao sobre dano moral trabalhista cita CLT Art. 223-G"
+      },
+      {
+        "predicate": "cita_precedente",
+        "args": [
+          "acordao_dano_moral_223g",
+          "art_223g_clt"
+        ],
+        "comment": "span: cita CLT Art. 223-G (pos-reforma 2017)"
+      },
+      {
+        "predicate": "precedente_existe",
+        "args": [
+          "art_223g_clt"
+        ],
+        "comment": "span: dispositivo legal vigente pos-Reforma 2017"
+      },
+      {
+        "predicate": "precedente_identificado_completo",
+        "args": [
+          "acordao_dano_moral_223g",
+          "art_223g_clt"
+        ],
+        "comment": "span: CLT Art. 223-G (lei+artigo+paragrafo identificados)"
+      },
+      {
+        "predicate": "dano_moral_alegado_grau",
+        "args": [
+          "acordao_dano_moral_223g",
+          "grave"
+        ],
+        "comment": "span: identifica o grau da ofensa - representativo do raciocinio descrito (cenario nao fixa um grau especifico)"
+      },
+      {
+        "predicate": "quantificacao_dano_fundamentada",
+        "args": [
+          "acordao_dano_moral_223g"
+        ],
+        "comment": "span: quantifica o valor com referencia ao salario do trabalhador conforme o art. 223-G 1"
+      }
+    ],
+    "extraction_confidence": 0.92,
+    "abstain": false,
+    "abstain_reason": "",
+    "extractor_model": "claude-opus-4-7-passthrough",
+    "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+    "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+    "model_used": "",
+    "tokens_in": 0,
+    "tokens_out": 0
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "extractor_model": "claude-opus-4-7-passthrough",
+  "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+  "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+  "n_facts": 2,
+  "abstain": false,
+  "extraction_confidence": 0.97,
+  "scenario_type": "T-CLT-01",
+  "predicates_used": [
+    "decisao_remete_a_lei_inespecificada",
+    "legal_decision_issued"
+  ],
+  "normas_referenciadas": [],
+  "extraction_json": {
+    "scenario_id": "T-CLT-01-003",
+    "scenario_type": "T-CLT-01",
+    "facts": [
+      {
+        "predicate": "legal_decision_issued",
+        "args": [
+          "acordao_negativa_seguimento_metalurgico"
+        ],
+        "comment": "span: Juiz do trabalho negou seguimento a recurso ordinario de metalurgico"
+      },
+      {
+        "predicate": "decisao_remete_a_lei_inespecificada",
+        "args": [
+          "acordao_negativa_seguimento_metalurgico"
+        ],
+        "comment": "span: 'Na forma da lei, nego seguimento' sem especificar dispositivo"
+      }
+    ],
+    "extraction_confidence": 0.97,
+    "abstain": false,
+    "abstain_reason": "",
+    "extractor_model": "claude-opus-4-7-passthrough",
+    "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+    "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+    "model_used": "",
+    "tokens_in": 0,
+    "tokens_out": 0
+  }
+}

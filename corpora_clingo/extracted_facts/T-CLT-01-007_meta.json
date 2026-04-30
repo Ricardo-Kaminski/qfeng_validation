@@ -1,0 +1,55 @@
+{
+  "extractor_model": "claude-opus-4-7-passthrough",
+  "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+  "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+  "n_facts": 3,
+  "abstain": false,
+  "extraction_confidence": 0.94,
+  "scenario_type": "T-CLT-01",
+  "predicates_used": [
+    "cita_precedente",
+    "legal_decision_issued",
+    "precedente_identificado_completo"
+  ],
+  "normas_referenciadas": [
+    "irdr_trt15_inespecifico"
+  ],
+  "extraction_json": {
+    "scenario_id": "T-CLT-01-007",
+    "scenario_type": "T-CLT-01",
+    "facts": [
+      {
+        "predicate": "legal_decision_issued",
+        "args": [
+          "acordao_tst_irdr_regional"
+        ],
+        "comment": "span: O TST, ao julgar recurso de revista, aplicou tese fixada em IRDR"
+      },
+      {
+        "predicate": "cita_precedente",
+        "args": [
+          "acordao_tst_irdr_regional",
+          "irdr_trt15_inespecifico"
+        ],
+        "comment": "span: tese fixada em IRDR do TRT-15 Regiao"
+      },
+      {
+        "predicate": "precedente_identificado_completo",
+        "args": [
+          "acordao_tst_irdr_regional",
+          "irdr_trt15_inespecifico"
+        ],
+        "comment": "span: tese fixada em IRDR do TRT-15 Regiao (identificado por orgao+numero, embora numero processual ausente)"
+      }
+    ],
+    "extraction_confidence": 0.94,
+    "abstain": false,
+    "abstain_reason": "",
+    "extractor_model": "claude-opus-4-7-passthrough",
+    "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+    "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+    "model_used": "",
+    "tokens_in": 0,
+    "tokens_out": 0
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "extractor_model": "claude-opus-4-7-passthrough",
+  "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+  "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+  "n_facts": 9,
+  "abstain": false,
+  "extraction_confidence": 0.95,
+  "scenario_type": "T-CLT-03",
+  "predicates_used": [
+    "banco_horas_implementado",
+    "cita_precedente",
+    "compensacao_realizada_no_prazo",
+    "extrato_mensal_entregue",
+    "prazo_compensacao_meses",
+    "precedente_existe",
+    "tem_cct"
+  ],
+  "normas_referenciadas": [
+    "tst_ag_rr_868_2021",
+    "tema_1046_stf"
+  ],
+  "extraction_json": {
+    "scenario_id": "T-CLT-03-007",
+    "scenario_type": "T-CLT-03",
+    "facts": [
+      {
+        "predicate": "banco_horas_implementado",
+        "args": [
+          "empresa_bancario_compliance"
+        ],
+        "comment": "span: CCT do setor bancario preve banco de horas anual"
+      },
+      {
+        "predicate": "tem_cct",
+        "args": [
+          "empresa_bancario_compliance"
+        ],
+        "comment": "span: CCT do setor bancario"
+      },
+      {
+        "predicate": "prazo_compensacao_meses",
+        "args": [
+          "empresa_bancario_compliance",
+          "12"
+        ],
+        "comment": "span: banco de horas anual (12 meses)"
+      },
+      {
+        "predicate": "cita_precedente",
+        "args": [
+          "empresa_bancario_compliance",
+          "tst_ag_rr_868_2021"
+        ],
+        "comment": "span: em linha com a jurisprudencia do TST-Ag-RR-868-65.2021"
+      },
+      {
+        "predicate": "precedente_existe",
+        "args": [
+          "tst_ag_rr_868_2021"
+        ],
+        "comment": "span: precedente real, registrado em rastreabilidade"
+      },
+      {
+        "predicate": "cita_precedente",
+        "args": [
+          "empresa_bancario_compliance",
+          "tema_1046_stf"
+        ],
+        "comment": "span: em linha com o Tema 1046/STF"
+      },
+      {
+        "predicate": "precedente_existe",
+        "args": [
+          "tema_1046_stf"
+        ],
+        "comment": "span: Tema RG real, registrado em rastreabilidade"
+      },
+      {
+        "predicate": "extrato_mensal_entregue",
+        "args": [
+          "empresa_bancario_compliance"
+        ],
+        "comment": "span: extrato entregue"
+      },
+      {
+        "predicate": "compensacao_realizada_no_prazo",
+        "args": [
+          "empresa_bancario_compliance"
+        ],
+        "comment": "span: compensacao realizada no prazo"
+      }
+    ],
+    "extraction_confidence": 0.95,
+    "abstain": false,
+    "abstain_reason": "",
+    "extractor_model": "claude-opus-4-7-passthrough",
+    "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+    "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+    "model_used": "",
+    "tokens_in": 0,
+    "tokens_out": 0
+  }
+}

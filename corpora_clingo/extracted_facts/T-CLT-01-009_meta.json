@@ -1,0 +1,69 @@
+{
+  "extractor_model": "claude-opus-4-7-passthrough",
+  "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+  "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+  "n_facts": 5,
+  "abstain": false,
+  "extraction_confidence": 0.91,
+  "scenario_type": "T-CLT-01",
+  "predicates_used": [
+    "cita_precedente",
+    "decisao_adota_fundamentos_sentenca",
+    "legal_decision_issued",
+    "precedente_superado"
+  ],
+  "normas_referenciadas": [
+    "julgado_tst_superado_inespecifico"
+  ],
+  "extraction_json": {
+    "scenario_id": "T-CLT-01-009",
+    "scenario_type": "T-CLT-01",
+    "facts": [
+      {
+        "predicate": "legal_decision_issued",
+        "args": [
+          "acordao_trt_adota_sentenca"
+        ],
+        "comment": "span: Magistrado trabalhista manteve sentenca de primeiro grau sem acrescimo de fundamentacao"
+      },
+      {
+        "predicate": "decisao_adota_fundamentos_sentenca",
+        "args": [
+          "acordao_trt_adota_sentenca"
+        ],
+        "comment": "span: 'Adoto os fundamentos da sentenca como razoes de decidir'"
+      },
+      {
+        "predicate": "legal_decision_issued",
+        "args": [
+          "sentenca_origem_referida"
+        ],
+        "comment": "span: A sentenca de origem havia citado precedente posteriormente superado"
+      },
+      {
+        "predicate": "cita_precedente",
+        "args": [
+          "sentenca_origem_referida",
+          "julgado_tst_superado_inespecifico"
+        ],
+        "comment": "span: a sentenca havia citado precedente posteriormente superado"
+      },
+      {
+        "predicate": "precedente_superado",
+        "args": [
+          "julgado_tst_superado_inespecifico"
+        ],
+        "comment": "span: precedente posteriormente superado por jurisprudencia mais recente do TST"
+      }
+    ],
+    "extraction_confidence": 0.91,
+    "abstain": false,
+    "abstain_reason": "",
+    "extractor_model": "claude-opus-4-7-passthrough",
+    "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+    "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+    "model_used": "",
+    "tokens_in": 0,
+    "tokens_out": 0
+  }
+}

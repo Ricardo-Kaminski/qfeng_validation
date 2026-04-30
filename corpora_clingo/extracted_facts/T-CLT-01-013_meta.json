@@ -1,0 +1,96 @@
+{
+  "extractor_model": "claude-opus-4-7-passthrough",
+  "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+  "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+  "n_facts": 8,
+  "abstain": false,
+  "extraction_confidence": 0.97,
+  "scenario_type": "T-CLT-01",
+  "predicates_used": [
+    "analisa_distinguishing",
+    "cita_precedente",
+    "identifica_ratio_decidendi",
+    "legal_decision_issued",
+    "precedente_existe",
+    "precedente_identificado_completo"
+  ],
+  "normas_referenciadas": [
+    "tst_ag_rr_868_2021",
+    "art_7_xiii_cf88"
+  ],
+  "extraction_json": {
+    "scenario_id": "T-CLT-01-013",
+    "scenario_type": "T-CLT-01",
+    "facts": [
+      {
+        "predicate": "legal_decision_issued",
+        "args": [
+          "acordao_tst_piloto_aviacao_cct_bancaria"
+        ],
+        "comment": "span: Acordao do TST em recurso de revista de piloto da aviacao civil"
+      },
+      {
+        "predicate": "cita_precedente",
+        "args": [
+          "acordao_tst_piloto_aviacao_cct_bancaria",
+          "tst_ag_rr_868_2021"
+        ],
+        "comment": "span: cita expressamente TST-Ag-RR-868-65.2021.5.13.0030"
+      },
+      {
+        "predicate": "precedente_existe",
+        "args": [
+          "tst_ag_rr_868_2021"
+        ],
+        "comment": "span: TST-Ag-RR-868-65.2021.5.13.0030 (2 Turma, DEJT 06/12/2023) - precedente real"
+      },
+      {
+        "predicate": "precedente_identificado_completo",
+        "args": [
+          "acordao_tst_piloto_aviacao_cct_bancaria",
+          "tst_ag_rr_868_2021"
+        ],
+        "comment": "span: numero do processo, turma e data de publicacao"
+      },
+      {
+        "predicate": "identifica_ratio_decidendi",
+        "args": [
+          "acordao_tst_piloto_aviacao_cct_bancaria",
+          "tst_ag_rr_868_2021"
+        ],
+        "comment": "span: identifica a ratio decidendi do julgado (validade de banco de horas em CCT do setor bancario)"
+      },
+      {
+        "predicate": "analisa_distinguishing",
+        "args": [
+          "acordao_tst_piloto_aviacao_cct_bancaria"
+        ],
+        "comment": "span: analisa a distincao fatica com o caso concreto (setor aereo vs. bancario)"
+      },
+      {
+        "predicate": "cita_precedente",
+        "args": [
+          "acordao_tst_piloto_aviacao_cct_bancaria",
+          "art_7_xiii_cf88"
+        ],
+        "comment": "span: fundamentando a distincao com base em CF/88 Art. 7 XIII"
+      },
+      {
+        "predicate": "precedente_existe",
+        "args": [
+          "art_7_xiii_cf88"
+        ],
+        "comment": "span: dispositivo constitucional vigente"
+      }
+    ],
+    "extraction_confidence": 0.97,
+    "abstain": false,
+    "abstain_reason": "",
+    "extractor_model": "claude-opus-4-7-passthrough",
+    "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+    "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+    "model_used": "",
+    "tokens_in": 0,
+    "tokens_out": 0
+  }
+}

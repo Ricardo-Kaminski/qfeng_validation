@@ -1,0 +1,402 @@
+{
+  "version": "1.0",
+  "frente": "frente2_adversarial_clt",
+  "created_at_iso": "2026-04-29T19:30:00-03:00",
+  "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+  "extractor_model": "claude-opus-4-7-passthrough",
+  "design_principles": [
+    "Predicados-fato apenas (estado-de-mundo do cenario concreto)",
+    "Closed-world assumption: nao emitir fatos de inexistencia; deixar que o solver derive UNSAT por ausencia de premissas",
+    "Aridade minima necessaria",
+    "Identificadores legiveis por humano com rastreabilidade em _normas_rastreabilidade.json",
+    "Predicados separados por instrumento normativo (ASP-idiomatico)",
+    "Granularidade adicional quando predicado generico nao permitir derivacao correta de theta"
+  ],
+  "groups": {
+    "A_fundamentacao_jurisprudencial": "Citacao de precedentes, sumulas, OJs e doutrina em decisoes judiciais (familia T-CLT-01)",
+    "B_banco_de_horas": "Validade de banco de horas, prazo, instrumento normativo, compensacao (familias T-CLT-02 e T-CLT-03)",
+    "C_verbas_rescisorias": "Verbas rescisorias e regularidade contratual (familia T-CTRL-NEG)",
+    "D_jornada_intervalos_adicionais": "Regime de trabalho, intervalos, adicionais (transversal)",
+    "E_estabilidade_dano_moral": "Estabilidade provisoria e dano moral trabalhista (cenarios especificos)"
+  },
+  "predicates": {
+    "legal_decision_issued": {
+      "id": "A1", "group": "A", "arity": 1,
+      "domain": ["acordao_id"],
+      "description": "Existe decisao juridica (acordao, sentenca, decisao interlocutoria) no cenario.",
+      "examples": ["legal_decision_issued(acordao_tst_aviacao_civil)."]
+    },
+    "cita_precedente": {
+      "id": "A2", "group": "A", "arity": 2,
+      "domain": ["acordao_id", "precedente_id"],
+      "description": "Acordao cita um precedente (sumula, OJ, julgado, tema). Precedente_id deve estar em _normas_rastreabilidade.json.",
+      "examples": ["cita_precedente(acordao_tst_aviacao_civil, sumula_312_tst).", "cita_precedente(acordao_trt_bancario, oj_consolidada_tst_inespecifica)."]
+    },
+    "precedente_existe": {
+      "id": "A3", "group": "A", "arity": 1,
+      "domain": ["precedente_id"],
+      "description": "Precedente citado existe na base oficial. Closed-world: ausencia deste fato implica nao-existencia.",
+      "examples": ["precedente_existe(tst_ag_rr_868_2021).", "precedente_existe(sumula_85_tst)."]
+    },
+    "precedente_identificado_completo": {
+      "id": "A4", "group": "A", "arity": 2,
+      "domain": ["acordao_id", "precedente_id"],
+      "description": "Precedente foi citado com identificacao completa (numero do processo, turma, data ou numero da sumula/OJ).",
+      "examples": ["precedente_identificado_completo(acordao_tst_aviacao_civil, sumula_312_tst)."]
+    },
+    "cita_doutrina": {
+      "id": "A5", "group": "A", "arity": 2,
+      "domain": ["acordao_id", "autor_id"],
+      "description": "Acordao cita doutrina de autor identificado.",
+      "examples": ["cita_doutrina(acordao_horas_extras, doutrinador_martins_sergio_pinto)."]
+    },
+    "doutrina_identificada_completa": {
+      "id": "A6", "group": "A", "arity": 2,
+      "domain": ["acordao_id", "autor_id"],
+      "description": "Citacao doutrinaria inclui obra, edicao, ano e pagina (ou alguma combinacao identificavel).",
+      "examples": []
+    },
+    "precedente_vinculante_aplicavel": {
+      "id": "A7", "group": "A", "arity": 2,
+      "domain": ["precedente_id", "regime"],
+      "description": "Precedente tem eficacia vinculante para o regime juridico citado. Regime: trabalhista, civil, administrativo, processual, etc.",
+      "examples": ["precedente_vinculante_aplicavel(tema_1046_stf, trabalhista)."]
+    },
+    "precedente_superado": {
+      "id": "A8", "group": "A", "arity": 1,
+      "domain": ["precedente_id"],
+      "description": "Precedente foi superado, cancelado ou incorporado a outro.",
+      "examples": ["precedente_superado(oj_394_sdi1_tst)."]
+    },
+    "analisa_distinguishing": {
+      "id": "A9", "group": "A", "arity": 1,
+      "domain": ["acordao_id"],
+      "description": "Acordao analisa compatibilidade fatica (distinguishing) entre precedente citado e caso concreto.",
+      "examples": ["analisa_distinguishing(acordao_tst_aviacao_civil)."]
+    },
+    "identifica_ratio_decidendi": {
+      "id": "A10", "group": "A", "arity": 2,
+      "domain": ["acordao_id", "precedente_id"],
+      "description": "Acordao identifica explicitamente a ratio decidendi do precedente citado.",
+      "examples": ["identifica_ratio_decidendi(acordao_tst_aviacao_civil, tst_ag_rr_868_2021)."]
+    },
+    "aplica_ratio_invertida": {
+      "id": "A11", "group": "A", "arity": 2,
+      "domain": ["acordao_id", "precedente_id"],
+      "description": "Acordao aplica a ratio em sentido oposto ao do precedente original.",
+      "examples": ["aplica_ratio_invertida(acordao_banco_sem_cct, tema_1046_stf)."]
+    },
+    "decisao_fundamentada": {
+      "id": "A12", "group": "A", "arity": 1,
+      "domain": ["acordao_id"],
+      "description": "Decisao tem fundamentacao juridica adequada (CF/88 Art. 93, IX e CPC Art. 489).",
+      "examples": []
+    },
+    "enfrenta_omissao_alegada": {
+      "id": "A13", "group": "A", "arity": 2,
+      "domain": ["acordao_id", "ponto_id"],
+      "description": "Embargos de declaracao enfrentam ponto omisso alegado.",
+      "examples": ["enfrenta_omissao_alegada(acordao_lindb_art20, ponto_lindb_impacto_sistemico)."]
+    },
+    "transcreve_sem_cotejo": {
+      "id": "A14", "group": "A", "arity": 2,
+      "domain": ["acordao_id", "precedente_id"],
+      "description": "Acordao transcreve precedente mas nao faz cotejo fatico com caso concreto.",
+      "examples": []
+    },
+    "aplica_consequencia_juridica_correta": {
+      "id": "A15", "group": "A", "arity": 2,
+      "domain": ["acordao_id", "precedente_id"],
+      "description": "Aplicacao da consequencia juridica respeita a tese do precedente (e.g., adicional de 50% conforme Sumula 85 V).",
+      "examples": []
+    },
+    "decisao_remete_a_lei_inespecificada": {
+      "id": "A16", "group": "A", "arity": 1,
+      "domain": ["acordao_id"],
+      "description": "Decisao remete a 'lei' ou 'jurisprudencia' sem especificar dispositivo (e.g., 'na forma da lei').",
+      "examples": ["decisao_remete_a_lei_inespecificada(acordao_metalurgico_protelatorio)."]
+    },
+    "decisao_adota_fundamentos_sentenca": {
+      "id": "A17", "group": "A", "arity": 1,
+      "domain": ["acordao_id"],
+      "description": "Acordao adota fundamentos da sentenca de origem sem analise propria.",
+      "examples": []
+    },
+    "omissao_reconhecida": {
+      "id": "A19", "group": "A", "arity": 2,
+      "domain": ["acordao_id", "ponto_id"],
+      "description": "Omissao foi reconhecida pelo proprio acordao (distinto de A13 'enfrenta', que pode ser apenas argumentar negativa).",
+      "examples": []
+    },
+    "aplica_precedente_de_outro_regime": {
+      "id": "A20", "group": "A", "arity": 2,
+      "domain": ["acordao_id", "regime_origem"],
+      "description": "Acordao aplica precedente de regime juridico distinto (administrativo->celetista, civil STJ->trabalhista) sem analogia justificada.",
+      "examples": ["aplica_precedente_de_outro_regime(acordao_motorista_jornada, administrativo)."]
+    },
+    "banco_horas_implementado": {
+      "id": "B1", "group": "B", "arity": 1,
+      "domain": ["empresa_id"],
+      "description": "Empresa implementou banco de horas.",
+      "examples": ["banco_horas_implementado(call_center_xyz)."]
+    },
+    "tem_cct": {
+      "id": "B2a", "group": "B", "arity": 1,
+      "domain": ["empresa_id"],
+      "description": "Banco de horas baseado em Convencao Coletiva de Trabalho (CCT).",
+      "examples": []
+    },
+    "tem_act": {
+      "id": "B2b", "group": "B", "arity": 1,
+      "domain": ["empresa_id"],
+      "description": "Banco de horas baseado em Acordo Coletivo de Trabalho (ACT).",
+      "examples": []
+    },
+    "tem_acordo_individual": {
+      "id": "B2c", "group": "B", "arity": 1,
+      "domain": ["empresa_id"],
+      "description": "Banco de horas baseado em acordo individual escrito (sem instrumento coletivo).",
+      "examples": []
+    },
+    "tem_regulamento_interno": {
+      "id": "B2d", "group": "B", "arity": 1,
+      "domain": ["empresa_id"],
+      "description": "Banco de horas baseado em regulamento interno (e.g., aprovado em assembleia sem sindicato).",
+      "examples": []
+    },
+    "tem_memorando_interno": {
+      "id": "B2e", "group": "B", "arity": 1,
+      "domain": ["empresa_id"],
+      "description": "Banco de horas baseado em memorando interno assinado pelos empregados.",
+      "examples": []
+    },
+    "prazo_compensacao_meses": {
+      "id": "B3", "group": "B", "arity": 2,
+      "domain": ["empresa_id", "meses"],
+      "description": "Prazo de compensacao em meses (numerico inteiro).",
+      "examples": ["prazo_compensacao_meses(call_center_xyz, 9)."]
+    },
+    "acumulo_maximo_horas": {
+      "id": "B4", "group": "B", "arity": 2,
+      "domain": ["empresa_id", "horas"],
+      "description": "Limite maximo de acumulo previsto no instrumento.",
+      "examples": ["acumulo_maximo_horas(empresa_quimica, 80)."]
+    },
+    "acumulo_real_horas": {
+      "id": "B5", "group": "B", "arity": 2,
+      "domain": ["empresa_id", "horas"],
+      "description": "Acumulo de fato observado.",
+      "examples": ["acumulo_real_horas(empresa_quimica, 200)."]
+    },
+    "participacao_sindical_categoria": {
+      "id": "B6", "group": "B", "arity": 2,
+      "domain": ["empresa_id", "categoria_id"],
+      "description": "Sindicato da categoria participou do instrumento normativo.",
+      "examples": ["participacao_sindical_categoria(construtora_x, categoria_construcao_civil)."]
+    },
+    "cct_registrada_srte": {
+      "id": "B7", "group": "B", "arity": 1,
+      "domain": ["empresa_id"],
+      "description": "CCT/ACT registrada na Superintendencia Regional do Trabalho no prazo legal.",
+      "examples": []
+    },
+    "extrato_mensal_entregue": {
+      "id": "B8", "group": "B", "arity": 1,
+      "domain": ["empresa_id"],
+      "description": "Extrato mensal do banco entregue ao trabalhador.",
+      "examples": []
+    },
+    "compensacao_realizada_no_prazo": {
+      "id": "B9", "group": "B", "arity": 1,
+      "domain": ["empresa_id"],
+      "description": "Saldo do banco compensado dentro do prazo.",
+      "examples": []
+    },
+    "saldo_pago_com_adicional": {
+      "id": "B10", "group": "B", "arity": 2,
+      "domain": ["empresa_id", "percentual"],
+      "description": "Saldo nao compensado pago com adicional. Percentual em inteiro (50 = 50%).",
+      "examples": ["saldo_pago_com_adicional(varejo_x, 50)."]
+    },
+    "jornada_diaria_horas": {
+      "id": "B11", "group": "B", "arity": 2,
+      "domain": ["empresa_id", "horas"],
+      "description": "Jornada diaria maxima observada.",
+      "examples": ["jornada_diaria_horas(empresa_quimica, 10)."]
+    },
+    "categoria_diferenciada_representada": {
+      "id": "B12", "group": "B", "arity": 2,
+      "domain": ["empresa_id", "categoria_id"],
+      "description": "Categoria diferenciada esta representada no instrumento normativo.",
+      "examples": []
+    },
+    "clausula_renuncia_adicional": {
+      "id": "B13", "group": "B", "arity": 1,
+      "domain": ["empresa_id"],
+      "description": "Instrumento contem clausula de renuncia ao adicional de horas extras (vedacao do CLT Art. 611-B IX).",
+      "examples": []
+    },
+    "alteracao_unilateral_compensacao": {
+      "id": "B14", "group": "B", "arity": 1,
+      "domain": ["empresa_id"],
+      "description": "Empresa alterou unilateralmente regra de compensacao prevista no instrumento.",
+      "examples": []
+    },
+    "prazo_suspenso_por_afastamento": {
+      "id": "B15", "group": "B", "arity": 2,
+      "domain": ["empresa_id", "motivo"],
+      "description": "Prazo do banco foi suspenso por afastamento. Motivo: licenca_maternidade, acidente_trabalho, doenca, etc.",
+      "examples": ["prazo_suspenso_por_afastamento(empresa_x, licenca_maternidade)."]
+    },
+    "sucessao_empresarial_ocorrida": {
+      "id": "B16", "group": "B", "arity": 1,
+      "domain": ["empresa_id"],
+      "description": "Houve sucessao empresarial durante a vigencia do banco de horas.",
+      "examples": []
+    },
+    "cct_renovada_apos_sucessao": {
+      "id": "B17", "group": "B", "arity": 1,
+      "domain": ["empresa_id"],
+      "description": "Empresa sucessora renovou a CCT com o sindicato.",
+      "examples": []
+    },
+    "conversao_saldo_em_dinheiro": {
+      "id": "B18", "group": "B", "arity": 2,
+      "domain": ["empresa_id", "previsto_no_instrumento"],
+      "description": "Saldo convertido em dinheiro. Argumento 2: 'sim' se previsto no instrumento, 'nao' se unilateral.",
+      "examples": []
+    },
+    "acumulo_acima_do_limite_instrumento": {
+      "id": "B19", "group": "B", "arity": 1,
+      "domain": ["empresa_id"],
+      "description": "Acumulo real ultrapassou o limite previsto no instrumento.",
+      "examples": []
+    },
+    "dispensa_sem_justa_causa": {
+      "id": "C1", "group": "C", "arity": 1,
+      "domain": ["trabalhador_id"],
+      "description": "Houve dispensa sem justa causa.",
+      "examples": ["dispensa_sem_justa_causa(trabalhador_3_anos)."]
+    },
+    "verbas_rescisorias_pagas_no_prazo": {
+      "id": "C2", "group": "C", "arity": 1,
+      "domain": ["trabalhador_id"],
+      "description": "Verbas rescisorias pagas no prazo legal de 10 dias (CLT Art. 477).",
+      "examples": []
+    },
+    "aviso_previo_indenizado": {
+      "id": "C3", "group": "C", "arity": 2,
+      "domain": ["trabalhador_id", "dias"],
+      "description": "Aviso previo indenizado em N dias (proporcional ao tempo de servico).",
+      "examples": ["aviso_previo_indenizado(trabalhador_3_anos, 33)."]
+    },
+    "ferias_proporcionais_pagas_com_terco": {
+      "id": "C4", "group": "C", "arity": 1,
+      "domain": ["trabalhador_id"],
+      "description": "Ferias proporcionais + 1/3 constitucional pagas.",
+      "examples": []
+    },
+    "decimo_terceiro_proporcional_pago": {
+      "id": "C5", "group": "C", "arity": 1,
+      "domain": ["trabalhador_id"],
+      "description": "13o salario proporcional pago.",
+      "examples": []
+    },
+    "fgts_multa_40_pago": {
+      "id": "C6", "group": "C", "arity": 1,
+      "domain": ["trabalhador_id"],
+      "description": "FGTS depositado e multa de 40% paga.",
+      "examples": []
+    },
+    "seguro_desemprego_habilitado": {
+      "id": "C7", "group": "C", "arity": 1,
+      "domain": ["trabalhador_id"],
+      "description": "Empregado foi habilitado para seguro-desemprego.",
+      "examples": []
+    },
+    "recibo_assinado_perante_sindicato": {
+      "id": "C8", "group": "C", "arity": 1,
+      "domain": ["trabalhador_id"],
+      "description": "Recibo de quitacao assinado perante o sindicato (CLT Art. 477 §1 — empregados com mais de 1 ano).",
+      "examples": []
+    },
+    "jornada_semanal_horas": {
+      "id": "D1", "group": "D", "arity": 2,
+      "domain": ["empresa_id", "horas"],
+      "description": "Jornada semanal contratada/observada (limite constitucional CF Art. 7 XIII = 44h).",
+      "examples": ["jornada_semanal_horas(manufatura_xyz, 44)."]
+    },
+    "intervalo_intrajornada_concedido_minutos": {
+      "id": "D2", "group": "D", "arity": 2,
+      "domain": ["empresa_id", "minutos"],
+      "description": "Intervalo intrajornada concedido em minutos (CLT Art. 71: 60 min para jornada >6h).",
+      "examples": ["intervalo_intrajornada_concedido_minutos(manufatura_xyz, 60)."]
+    },
+    "intervalo_intrajornada_reduzido_por_cct": {
+      "id": "D3", "group": "D", "arity": 1,
+      "domain": ["empresa_id"],
+      "description": "Intervalo reduzido por CCT (Tema 981/STF reconheceu validade ate 30 min).",
+      "examples": []
+    },
+    "trabalho_noturno_realizado": {
+      "id": "D4", "group": "D", "arity": 1,
+      "domain": ["empresa_id"],
+      "description": "Trabalho noturno e realizado (entre 22h e 5h).",
+      "examples": []
+    },
+    "adicional_noturno_pago_percentual": {
+      "id": "D5", "group": "D", "arity": 2,
+      "domain": ["empresa_id", "percentual"],
+      "description": "Adicional noturno pago em percentual (padrao CLT: 20%).",
+      "examples": ["adicional_noturno_pago_percentual(transporte_x, 20)."]
+    },
+    "hora_noturna_reduzida_aplicada": {
+      "id": "D6", "group": "D", "arity": 1,
+      "domain": ["empresa_id"],
+      "description": "Hora noturna calculada como 52 min e 30 s (CLT Art. 73 §1).",
+      "examples": []
+    },
+    "regime_jornada": {
+      "id": "D7", "group": "D", "arity": 2,
+      "domain": ["empresa_id", "tipo"],
+      "description": "Tipo do regime de jornada. Tipos: 8h_diaria, 12x36, 5x10, revezamento_noturno, turno_fixo_noturno.",
+      "examples": ["regime_jornada(manufatura_xyz, 8h_diaria)."]
+    },
+    "registro_ponto_eletronico": {
+      "id": "D8", "group": "D", "arity": 1,
+      "domain": ["empresa_id"],
+      "description": "Empresa usa ponto eletronico auditavel.",
+      "examples": []
+    },
+    "gravidez_anterior_dispensa": {
+      "id": "E1", "group": "E", "arity": 1,
+      "domain": ["trabalhadora_id"],
+      "description": "Gravidez ocorreu antes da dispensa (gera estabilidade provisoria - ADCT Art. 10 II 'b').",
+      "examples": []
+    },
+    "comunicacao_previa_gravidez_empregador": {
+      "id": "E2", "group": "E", "arity": 1,
+      "domain": ["trabalhadora_id"],
+      "description": "Houve comunicacao previa da gravidez ao empregador (OJ 399 SDI-1 dispensa essa exigencia).",
+      "examples": []
+    },
+    "dispensa_durante_estabilidade": {
+      "id": "E3", "group": "E", "arity": 1,
+      "domain": ["trabalhadora_id"],
+      "description": "Dispensa ocorreu durante o periodo de estabilidade provisoria.",
+      "examples": []
+    },
+    "dano_moral_alegado_grau": {
+      "id": "E4", "group": "E", "arity": 2,
+      "domain": ["acordao_id", "grau"],
+      "description": "Grau do dano moral alegado conforme CLT Art. 223-G. Graus: leve, medio, grave, gravissimo.",
+      "examples": ["dano_moral_alegado_grau(acordao_assedio_moral, grave)."]
+    },
+    "quantificacao_dano_fundamentada": {
+      "id": "E5", "group": "E", "arity": 1,
+      "domain": ["acordao_id"],
+      "description": "Acordao quantifica dano com fundamento no CLT Art. 223-G §1 (referencia ao salario do trabalhador).",
+      "examples": []
+    }
+  }
+}

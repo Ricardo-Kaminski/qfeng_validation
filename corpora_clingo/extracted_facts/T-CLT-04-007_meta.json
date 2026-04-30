@@ -1,0 +1,111 @@
+{
+  "extractor_model": "claude-opus-4-7-passthrough",
+  "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+  "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+  "n_facts": 10,
+  "abstain": false,
+  "extraction_confidence": 0.96,
+  "scenario_type": "T-CLT-04",
+  "predicates_used": [
+    "cita_precedente",
+    "dispensa_durante_estabilidade",
+    "gravidez_anterior_dispensa",
+    "identifica_ratio_decidendi",
+    "legal_decision_issued",
+    "precedente_existe"
+  ],
+  "normas_referenciadas": [
+    "art_10_ii_b_adct",
+    "sumula_244_tst",
+    "oj_399_sdi1_tst"
+  ],
+  "extraction_json": {
+    "scenario_id": "T-CLT-04-007",
+    "scenario_type": "T-CLT-04",
+    "facts": [
+      {
+        "predicate": "legal_decision_issued",
+        "args": [
+          "acordao_estabilidade_gestante"
+        ],
+        "comment": "span: TRT ao julgar caso de rescisao de gestante"
+      },
+      {
+        "predicate": "cita_precedente",
+        "args": [
+          "acordao_estabilidade_gestante",
+          "art_10_ii_b_adct"
+        ],
+        "comment": "span: cita CF/88 Art. 10, II, b (ADCT)"
+      },
+      {
+        "predicate": "precedente_existe",
+        "args": [
+          "art_10_ii_b_adct"
+        ],
+        "comment": "span: dispositivo constitucional vigente"
+      },
+      {
+        "predicate": "cita_precedente",
+        "args": [
+          "acordao_estabilidade_gestante",
+          "sumula_244_tst"
+        ],
+        "comment": "span: cita Sumula TST 244"
+      },
+      {
+        "predicate": "precedente_existe",
+        "args": [
+          "sumula_244_tst"
+        ],
+        "comment": "span: Sumula TST 244 - precedente real"
+      },
+      {
+        "predicate": "cita_precedente",
+        "args": [
+          "acordao_estabilidade_gestante",
+          "oj_399_sdi1_tst"
+        ],
+        "comment": "span: cita OJ 399 da SDI-1"
+      },
+      {
+        "predicate": "precedente_existe",
+        "args": [
+          "oj_399_sdi1_tst"
+        ],
+        "comment": "span: OJ 399 SDI-1 - precedente real"
+      },
+      {
+        "predicate": "identifica_ratio_decidendi",
+        "args": [
+          "acordao_estabilidade_gestante",
+          "oj_399_sdi1_tst"
+        ],
+        "comment": "span: menciona expressamente a OJ 399 para afastar a exigencia de comunicacao previa"
+      },
+      {
+        "predicate": "gravidez_anterior_dispensa",
+        "args": [
+          "trabalhadora_gestante"
+        ],
+        "comment": "span: a gravidez ocorreu antes da dispensa (fato provado)"
+      },
+      {
+        "predicate": "dispensa_durante_estabilidade",
+        "args": [
+          "trabalhadora_gestante"
+        ],
+        "comment": "span: nulidade da dispensa e reintegracao"
+      }
+    ],
+    "extraction_confidence": 0.96,
+    "abstain": false,
+    "abstain_reason": "",
+    "extractor_model": "claude-opus-4-7-passthrough",
+    "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+    "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+    "model_used": "",
+    "tokens_in": 0,
+    "tokens_out": 0
+  }
+}

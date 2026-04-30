@@ -1,0 +1,61 @@
+{
+  "extractor_model": "claude-opus-4-7-passthrough",
+  "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+  "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+  "n_facts": 4,
+  "abstain": false,
+  "extraction_confidence": 0.94,
+  "scenario_type": "T-CLT-02",
+  "predicates_used": [
+    "acumulo_real_horas",
+    "banco_horas_implementado",
+    "prazo_compensacao_meses",
+    "tem_act"
+  ],
+  "normas_referenciadas": [],
+  "extraction_json": {
+    "scenario_id": "T-CLT-02-008",
+    "scenario_type": "T-CLT-02",
+    "facts": [
+      {
+        "predicate": "banco_horas_implementado",
+        "args": [
+          "empresa_act_7meses_demissao"
+        ],
+        "comment": "span: Banco de horas estabelecido por ACT"
+      },
+      {
+        "predicate": "tem_act",
+        "args": [
+          "empresa_act_7meses_demissao"
+        ],
+        "comment": "span: estabelecido por ACT com compensacao em 7 meses"
+      },
+      {
+        "predicate": "prazo_compensacao_meses",
+        "args": [
+          "empresa_act_7meses_demissao",
+          "7"
+        ],
+        "comment": "span: compensacao em 7 meses"
+      },
+      {
+        "predicate": "acumulo_real_horas",
+        "args": [
+          "empresa_act_7meses_demissao",
+          "60"
+        ],
+        "comment": "span: saldo positivo de 60h"
+      }
+    ],
+    "extraction_confidence": 0.94,
+    "abstain": false,
+    "abstain_reason": "",
+    "extractor_model": "claude-opus-4-7-passthrough",
+    "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+    "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+    "model_used": "",
+    "tokens_in": 0,
+    "tokens_out": 0
+  }
+}

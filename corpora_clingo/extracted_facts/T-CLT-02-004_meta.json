@@ -1,0 +1,69 @@
+{
+  "extractor_model": "claude-opus-4-7-passthrough",
+  "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+  "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+  "n_facts": 5,
+  "abstain": false,
+  "extraction_confidence": 0.95,
+  "scenario_type": "T-CLT-02",
+  "predicates_used": [
+    "acumulo_real_horas",
+    "banco_horas_implementado",
+    "dispensa_sem_justa_causa",
+    "prazo_compensacao_meses",
+    "tem_cct"
+  ],
+  "normas_referenciadas": [],
+  "extraction_json": {
+    "scenario_id": "T-CLT-02-004",
+    "scenario_type": "T-CLT-02",
+    "facts": [
+      {
+        "predicate": "banco_horas_implementado",
+        "args": [
+          "empresa_vigilancia"
+        ],
+        "comment": "span: Empresa de vigilancia ... saldo positivo de 80h no banco de horas"
+      },
+      {
+        "predicate": "tem_cct",
+        "args": [
+          "empresa_vigilancia"
+        ],
+        "comment": "span: banco de horas estabelecido por CCT"
+      },
+      {
+        "predicate": "prazo_compensacao_meses",
+        "args": [
+          "empresa_vigilancia",
+          "6"
+        ],
+        "comment": "span: compensacao semestral"
+      },
+      {
+        "predicate": "acumulo_real_horas",
+        "args": [
+          "empresa_vigilancia",
+          "80"
+        ],
+        "comment": "span: saldo positivo de 80h"
+      },
+      {
+        "predicate": "dispensa_sem_justa_causa",
+        "args": [
+          "trabalhador_vigilancia"
+        ],
+        "comment": "span: demitiu empregado sem justa causa"
+      }
+    ],
+    "extraction_confidence": 0.95,
+    "abstain": false,
+    "abstain_reason": "",
+    "extractor_model": "claude-opus-4-7-passthrough",
+    "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+    "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+    "model_used": "",
+    "tokens_in": 0,
+    "tokens_out": 0
+  }
+}

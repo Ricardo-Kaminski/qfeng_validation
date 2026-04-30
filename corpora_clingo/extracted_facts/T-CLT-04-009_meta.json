@@ -1,0 +1,63 @@
+{
+  "extractor_model": "claude-opus-4-7-passthrough",
+  "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+  "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+  "n_facts": 4,
+  "abstain": false,
+  "extraction_confidence": 0.97,
+  "scenario_type": "T-CLT-04",
+  "predicates_used": [
+    "cita_precedente",
+    "legal_decision_issued",
+    "precedente_existe",
+    "precedente_identificado_completo"
+  ],
+  "normas_referenciadas": [
+    "sumula_85_tst"
+  ],
+  "extraction_json": {
+    "scenario_id": "T-CLT-04-009",
+    "scenario_type": "T-CLT-04",
+    "facts": [
+      {
+        "predicate": "legal_decision_issued",
+        "args": [
+          "acordao_sumula85_consequencia_errada"
+        ],
+        "comment": "span: Decisao cita corretamente a Sumula TST 85"
+      },
+      {
+        "predicate": "cita_precedente",
+        "args": [
+          "acordao_sumula85_consequencia_errada",
+          "sumula_85_tst"
+        ],
+        "comment": "span: cita corretamente a Sumula TST 85 (banco de horas sem CCT)"
+      },
+      {
+        "predicate": "precedente_existe",
+        "args": [
+          "sumula_85_tst"
+        ],
+        "comment": "span: precedente real"
+      },
+      {
+        "predicate": "precedente_identificado_completo",
+        "args": [
+          "acordao_sumula85_consequencia_errada",
+          "sumula_85_tst"
+        ],
+        "comment": "span: Sumula TST 85 V identificada"
+      }
+    ],
+    "extraction_confidence": 0.97,
+    "abstain": false,
+    "abstain_reason": "",
+    "extractor_model": "claude-opus-4-7-passthrough",
+    "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+    "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+    "model_used": "",
+    "tokens_in": 0,
+    "tokens_out": 0
+  }
+}

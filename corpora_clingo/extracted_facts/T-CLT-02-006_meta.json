@@ -1,0 +1,52 @@
+{
+  "extractor_model": "claude-opus-4-7-passthrough",
+  "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+  "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+  "n_facts": 3,
+  "abstain": false,
+  "extraction_confidence": 0.95,
+  "scenario_type": "T-CLT-02",
+  "predicates_used": [
+    "banco_horas_implementado",
+    "prazo_compensacao_meses",
+    "tem_regulamento_interno"
+  ],
+  "normas_referenciadas": [],
+  "extraction_json": {
+    "scenario_id": "T-CLT-02-006",
+    "scenario_type": "T-CLT-02",
+    "facts": [
+      {
+        "predicate": "banco_horas_implementado",
+        "args": [
+          "empresa_limpeza_urbana"
+        ],
+        "comment": "span: Empresa de limpeza urbana adotou banco de horas"
+      },
+      {
+        "predicate": "tem_regulamento_interno",
+        "args": [
+          "empresa_limpeza_urbana"
+        ],
+        "comment": "span: por regulamento interno aprovado em assembleia dos proprios empregados (sem sindicato presente)"
+      },
+      {
+        "predicate": "prazo_compensacao_meses",
+        "args": [
+          "empresa_limpeza_urbana",
+          "1"
+        ],
+        "comment": "span: compensacao mensal"
+      }
+    ],
+    "extraction_confidence": 0.95,
+    "abstain": false,
+    "abstain_reason": "",
+    "extractor_model": "claude-opus-4-7-passthrough",
+    "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+    "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+    "model_used": "",
+    "tokens_in": 0,
+    "tokens_out": 0
+  }
+}

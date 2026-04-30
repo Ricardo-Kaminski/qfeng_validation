@@ -1,0 +1,64 @@
+{
+  "extractor_model": "claude-opus-4-7-passthrough",
+  "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+  "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+  "n_facts": 4,
+  "abstain": false,
+  "extraction_confidence": 0.96,
+  "scenario_type": "T-CLT-01",
+  "predicates_used": [
+    "aplica_precedente_de_outro_regime",
+    "cita_precedente",
+    "legal_decision_issued",
+    "precedente_identificado_completo"
+  ],
+  "normas_referenciadas": [
+    "tema_rg_administrativo_servidores_inespecifico"
+  ],
+  "extraction_json": {
+    "scenario_id": "T-CLT-01-011",
+    "scenario_type": "T-CLT-01",
+    "facts": [
+      {
+        "predicate": "legal_decision_issued",
+        "args": [
+          "acordao_motorista_jornada"
+        ],
+        "comment": "span: Em acao sobre jornada de trabalho de motorista, o tribunal aplicou Tema de repercussao geral"
+      },
+      {
+        "predicate": "cita_precedente",
+        "args": [
+          "acordao_motorista_jornada",
+          "tema_rg_administrativo_servidores_inespecifico"
+        ],
+        "comment": "span: tribunal aplicou Tema de repercussao geral sobre direito administrativo (servidores publicos)"
+      },
+      {
+        "predicate": "precedente_identificado_completo",
+        "args": [
+          "acordao_motorista_jornada",
+          "tema_rg_administrativo_servidores_inespecifico"
+        ],
+        "comment": "span: Tema de repercussao geral identificado por materia"
+      },
+      {
+        "predicate": "aplica_precedente_de_outro_regime",
+        "args": [
+          "acordao_motorista_jornada",
+          "administrativo"
+        ],
+        "comment": "span: aplicou Tema de RG sobre direito administrativo (servidores publicos) a empregado celetista privado"
+      }
+    ],
+    "extraction_confidence": 0.96,
+    "abstain": false,
+    "abstain_reason": "",
+    "extractor_model": "claude-opus-4-7-passthrough",
+    "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+    "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+    "model_used": "",
+    "tokens_in": 0,
+    "tokens_out": 0
+  }
+}

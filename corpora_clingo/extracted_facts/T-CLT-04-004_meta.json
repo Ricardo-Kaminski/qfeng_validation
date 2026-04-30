@@ -1,0 +1,81 @@
+{
+  "extractor_model": "claude-opus-4-7-passthrough",
+  "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+  "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+  "n_facts": 6,
+  "abstain": false,
+  "extraction_confidence": 0.96,
+  "scenario_type": "T-CLT-04",
+  "predicates_used": [
+    "aplica_consequencia_juridica_correta",
+    "cita_precedente",
+    "identifica_ratio_decidendi",
+    "legal_decision_issued",
+    "precedente_existe",
+    "precedente_identificado_completo"
+  ],
+  "normas_referenciadas": [
+    "sumula_85_tst"
+  ],
+  "extraction_json": {
+    "scenario_id": "T-CLT-04-004",
+    "scenario_type": "T-CLT-04",
+    "facts": [
+      {
+        "predicate": "legal_decision_issued",
+        "args": [
+          "acordao_trt_sumula85_aplicacao_completa"
+        ],
+        "comment": "span: Acordao de TRT cita Sumula TST 85 (itens I, II e V)"
+      },
+      {
+        "predicate": "cita_precedente",
+        "args": [
+          "acordao_trt_sumula85_aplicacao_completa",
+          "sumula_85_tst"
+        ],
+        "comment": "span: cita Sumula TST 85 (itens I, II e V)"
+      },
+      {
+        "predicate": "precedente_existe",
+        "args": [
+          "sumula_85_tst"
+        ],
+        "comment": "span: Sumula TST 85 - precedente real"
+      },
+      {
+        "predicate": "precedente_identificado_completo",
+        "args": [
+          "acordao_trt_sumula85_aplicacao_completa",
+          "sumula_85_tst"
+        ],
+        "comment": "span: Sumula TST 85 itens I, II e V identificados"
+      },
+      {
+        "predicate": "identifica_ratio_decidendi",
+        "args": [
+          "acordao_trt_sumula85_aplicacao_completa",
+          "sumula_85_tst"
+        ],
+        "comment": "span: identifica cada item da Sumula aplicavel"
+      },
+      {
+        "predicate": "aplica_consequencia_juridica_correta",
+        "args": [
+          "acordao_trt_sumula85_aplicacao_completa",
+          "sumula_85_tst"
+        ],
+        "comment": "span: conclui que todas as horas sao extras com adicional de 50%"
+      }
+    ],
+    "extraction_confidence": 0.96,
+    "abstain": false,
+    "abstain_reason": "",
+    "extractor_model": "claude-opus-4-7-passthrough",
+    "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+    "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+    "model_used": "",
+    "tokens_in": 0,
+    "tokens_out": 0
+  }
+}

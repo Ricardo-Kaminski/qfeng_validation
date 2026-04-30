@@ -1,0 +1,71 @@
+{
+  "extractor_model": "claude-opus-4-7-passthrough",
+  "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+  "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+  "n_facts": 5,
+  "abstain": false,
+  "extraction_confidence": 0.97,
+  "scenario_type": "T-CTRL-NEG",
+  "predicates_used": [
+    "intervalo_intrajornada_concedido_minutos",
+    "jornada_diaria_horas",
+    "jornada_semanal_horas",
+    "regime_jornada",
+    "registro_ponto_eletronico"
+  ],
+  "normas_referenciadas": [],
+  "extraction_json": {
+    "scenario_id": "T-CTRL-NEG-001",
+    "scenario_type": "T-CTRL-NEG",
+    "facts": [
+      {
+        "predicate": "jornada_diaria_horas",
+        "args": [
+          "empresa_manufatura_compliance",
+          "8"
+        ],
+        "comment": "span: jornada de 8 horas diarias"
+      },
+      {
+        "predicate": "jornada_semanal_horas",
+        "args": [
+          "empresa_manufatura_compliance",
+          "44"
+        ],
+        "comment": "span: 44 horas semanais para todos os empregados"
+      },
+      {
+        "predicate": "regime_jornada",
+        "args": [
+          "empresa_manufatura_compliance",
+          "8h_diaria"
+        ],
+        "comment": "span: jornada de 8 horas diarias e 44 horas semanais"
+      },
+      {
+        "predicate": "intervalo_intrajornada_concedido_minutos",
+        "args": [
+          "empresa_manufatura_compliance",
+          "60"
+        ],
+        "comment": "span: 1 hora para jornada de 8h"
+      },
+      {
+        "predicate": "registro_ponto_eletronico",
+        "args": [
+          "empresa_manufatura_compliance"
+        ],
+        "comment": "span: Todos os registros de ponto sao eletronicos e auditaveis"
+      }
+    ],
+    "extraction_confidence": 0.97,
+    "abstain": false,
+    "abstain_reason": "",
+    "extractor_model": "claude-opus-4-7-passthrough",
+    "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+    "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+    "model_used": "",
+    "tokens_in": 0,
+    "tokens_out": 0
+  }
+}

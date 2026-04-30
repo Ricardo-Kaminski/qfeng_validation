@@ -1,0 +1,279 @@
+{
+  "version": "1.0",
+  "frente": "frente2_adversarial_clt",
+  "created_at_iso": "2026-04-29T19:30:00-03:00",
+  "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+  "purpose": "Mapeamento entre identificadores internos (snake_case usados em fatos ASP) e normas juridicas oficiais. Permite verificacao manual por especialista — qual norma cada predicado se refere, se ela existe, esta vigente e qual seu conteudo.",
+  "convencoes_id": {
+    "sumulas": "sumula_<numero>_<corte>",
+    "orientacoes_jurisprudenciais": "oj_<numero>_<orgao>",
+    "julgados": "<corte>_<tipo>_<numero_processual_simplificado>",
+    "temas_repercussao_geral": "tema_<numero>_<corte>",
+    "artigos": "art_<numero>_<lei>",
+    "doutrinadores": "doutrinador_<sobrenome_nome>"
+  },
+  "exemplos_de_uso": [
+    "sumula_312_tst",
+    "oj_394_sdi1_tst",
+    "tst_ag_rr_868_2021",
+    "tema_1046_stf",
+    "tema_981_stf",
+    "art_489_cpc",
+    "art_71_clt",
+    "art_7_xiii_cf88",
+    "doutrinador_martins_sergio_pinto"
+  ],
+  "normas": {
+    "sumula_312_tst": {
+      "tipo": "sumula",
+      "corte": "TST",
+      "numero": "312",
+      "ementa_oficial": null,
+      "url_oficial": null,
+      "valido": false,
+      "comentario": "Sumula INEXISTENTE na base oficial do TST. Usada em T-CLT-01-001 como teste de citacao fantasma. Auditado em 29/abr/2026 contra base do TST (sumulas e orientacoes jurisprudenciais)."
+    },
+    "tst_ag_rr_868_2021": {
+      "tipo": "julgado",
+      "corte": "TST",
+      "numero_processual": "Ag-RR-868-65.2021.5.13.0030",
+      "turma": "2a Turma",
+      "data_publicacao": "2023-12-06",
+      "ratio_decidendi_resumida": "Validade de banco de horas em CCT do setor bancario a luz do Tema 1046/STF; aplicacao do principio da adequacao setorial negociada.",
+      "url_oficial": null,
+      "valido": true,
+      "comentario": "Precedente real. Usado em T-CLT-01-013 (modelo de fundamentacao correta), T-CLT-04-001 (Tema 1046 + CCT bancaria), T-CLT-04-003 (distinguishing), T-CLT-04-006 (ratio invertida), T-CTRL-NEG-003 (transcricao + analise correta)."
+    },
+    "tema_1046_stf": {
+      "tipo": "tema_repercussao_geral",
+      "corte": "STF",
+      "numero": "1046",
+      "are": "ARE 1.121.633",
+      "tese_fixada": "Sao constitucionais os acordos e convencoes coletivos que, ao estipular vantagens ou supressoes de direitos, tenham por premissa a compensacao estabelecida pelo principio da adequacao setorial negociada.",
+      "url_oficial": null,
+      "valido": true,
+      "comentario": "Tema RG real. Usado em T-CLT-04-001, T-CLT-04-006 (aplicacao invertida), T-CLT-03-007."
+    },
+    "tema_981_stf": {
+      "tipo": "tema_repercussao_geral",
+      "corte": "STF",
+      "numero": "981",
+      "tese_fixada": "Validade de norma coletiva que reduz intervalo intrajornada minimo para 30 minutos.",
+      "url_oficial": null,
+      "valido": true,
+      "comentario": "Tema RG real. Usado em T-CLT-04-010 (intervalo intrajornada reduzido por CCT)."
+    },
+    "sumula_85_tst": {
+      "tipo": "sumula",
+      "corte": "TST",
+      "numero": "85",
+      "ementa_oficial_resumida": "Itens I-VI tratam de compensacao de horas. Item V: 'as disposicoes contidas na presente sumula nao se aplicam ao regime compensatorio na modalidade banco de horas, que somente pode ser instituido por negociacao coletiva.'",
+      "url_oficial": null,
+      "valido": true,
+      "comentario": "Sumula real e em vigor. Usada em T-CLT-02-005, T-CLT-04-003, T-CLT-04-004, T-CLT-04-009 (aplicacao da consequencia juridica)."
+    },
+    "sumula_60_tst": {
+      "tipo": "sumula",
+      "corte": "TST",
+      "numero": "60",
+      "ementa_oficial_resumida": "Adicional noturno - regime de revezamento integra a remuneracao.",
+      "url_oficial": null,
+      "valido": true,
+      "comentario": "Sumula real. Usada em T-CLT-04-002."
+    },
+    "sumula_244_tst": {
+      "tipo": "sumula",
+      "corte": "TST",
+      "numero": "244",
+      "ementa_oficial_resumida": "Estabilidade provisoria da gestante - protege contra dispensa arbitraria desde a confirmacao da gravidez ate 5 meses apos o parto.",
+      "url_oficial": null,
+      "valido": true,
+      "comentario": "Sumula real. Usada em T-CLT-04-007."
+    },
+    "sumula_437_tst": {
+      "tipo": "sumula",
+      "corte": "TST",
+      "numero": "437",
+      "ementa_oficial_resumida": "Intervalo intrajornada para repouso e alimentacao. Aplicacao do CLT Art. 71.",
+      "url_oficial": null,
+      "valido": true,
+      "comentario": "Sumula real. Usada em T-CLT-04-010."
+    },
+    "oj_394_sdi1_tst": {
+      "tipo": "orientacao_jurisprudencial",
+      "corte": "TST",
+      "orgao": "SDI-1",
+      "numero": "394",
+      "status": "cancelada",
+      "data_cancelamento": "2012",
+      "incorporada_em": "sumula_428_tst",
+      "ementa_oficial_resumida": "Tratava de horas de sobreaviso. Conteudo parcialmente incorporado a Sumula 428 com modificacoes.",
+      "url_oficial": null,
+      "valido": false,
+      "comentario": "OJ CANCELADA em 2012 e incorporada a Sumula 428 com conteudo parcialmente distinto. Usada em T-CLT-01-008 como teste de citacao de precedente superado."
+    },
+    "oj_399_sdi1_tst": {
+      "tipo": "orientacao_jurisprudencial",
+      "corte": "TST",
+      "orgao": "SDI-1",
+      "numero": "399",
+      "ementa_oficial_resumida": "Estabilidade provisoria da gestante - desnecessidade de comunicacao previa da gravidez ao empregador.",
+      "url_oficial": null,
+      "valido": true,
+      "comentario": "OJ real e em vigor. Usada em T-CLT-04-007."
+    },
+    "art_489_cpc": {
+      "tipo": "artigo_lei",
+      "lei": "CPC (Lei 13.105/2015)",
+      "artigo": "489",
+      "paragrafo": "1",
+      "incisos_relevantes": [
+        "I",
+        "V",
+        "VI"
+      ],
+      "ementa_resumida": "Requisitos da fundamentacao das decisoes judiciais. Inciso V: 'invocar precedente ou enunciado de sumula, sem identificar seus fundamentos determinantes nem demonstrar que o caso sob julgamento se ajusta aqueles fundamentos'. Inciso VI: 'deixar de seguir enunciado de sumula, jurisprudencia ou precedente invocado pela parte, sem demonstrar a existencia de distincao'.",
+      "url_oficial": null,
+      "valido": true,
+      "comentario": "CPC integrado ao processo trabalhista por CLT Art. 769. Usado em T-CLT-01-001, 002, 004, 006, 007."
+    },
+    "art_93_ix_cf88": {
+      "tipo": "artigo_constitucional",
+      "constituicao": "CF/88",
+      "artigo": "93",
+      "inciso": "IX",
+      "ementa_resumida": "Todos os julgamentos dos orgaos do Poder Judiciario serao publicos, e fundamentadas todas as decisoes, sob pena de nulidade.",
+      "url_oficial": null,
+      "valido": true,
+      "comentario": "Principio constitucional da fundamentacao das decisoes. Usado em T-CLT-01-003."
+    },
+    "art_7_xiii_cf88": {
+      "tipo": "artigo_constitucional",
+      "constituicao": "CF/88",
+      "artigo": "7",
+      "inciso": "XIII",
+      "ementa_resumida": "Duracao do trabalho normal nao superior a oito horas diarias e quarenta e quatro semanais, facultada a compensacao de horarios e a reducao da jornada, mediante acordo ou convencao coletiva de trabalho.",
+      "url_oficial": null,
+      "valido": true,
+      "comentario": "Limite constitucional da jornada. Usado em T-CLT-01-013, T-CLT-03-005."
+    },
+    "art_71_clt": {
+      "tipo": "artigo_lei",
+      "lei": "CLT (Decreto-Lei 5.452/1943)",
+      "artigo": "71",
+      "ementa_resumida": "Em qualquer trabalho continuo, cuja duracao exceda de 6 horas, e obrigatoria a concessao de um intervalo para repouso ou alimentacao, o qual sera, no minimo, de 1 hora e, salvo acordo escrito ou contrato coletivo em contrario, nao podera exceder de 2 horas.",
+      "url_oficial": null,
+      "valido": true,
+      "comentario": "Intervalo intrajornada. Usado em T-CLT-04-010."
+    },
+    "art_223g_clt": {
+      "tipo": "artigo_lei",
+      "lei": "CLT (Reforma 2017 - Lei 13.467/2017)",
+      "artigo": "223-G",
+      "ementa_resumida": "Criterios de quantificacao do dano moral trabalhista. Paragrafo 1: 'Se julgado procedente o pedido, o juizo fixara a indenizacao a ser paga, a cada um dos ofendidos, em um dos seguintes parametros, vedada a acumulacao' (leve, medio, grave, gravissimo - multiplicadores do salario contratual).",
+      "url_oficial": null,
+      "valido": true,
+      "comentario": "Dano moral pos-Reforma 2017. Usado em T-CLT-04-008."
+    },
+    "art_611b_ix_clt": {
+      "tipo": "artigo_lei",
+      "lei": "CLT (Reforma 2017)",
+      "artigo": "611-B",
+      "inciso": "IX",
+      "ementa_resumida": "Constituem objeto ilicito de convencao coletiva ou de acordo coletivo de trabalho, exclusivamente, a supressao ou a reducao dos seguintes direitos: ... IX - remuneracao do trabalho noturno superior a do diurno.",
+      "url_oficial": null,
+      "valido": true,
+      "comentario": "Vedacao de renuncia coletiva. Usado em T-CLT-02-011 (renuncia ao adicional)."
+    },
+    "art_59_2_clt": {
+      "tipo": "artigo_lei",
+      "lei": "CLT",
+      "artigo": "59",
+      "paragrafo": "2",
+      "ementa_resumida": "Banco de horas pode ser pactuado por acordo individual escrito (compensacao em ate 6 meses), acordo coletivo ou convencao coletiva (ate 1 ano).",
+      "url_oficial": null,
+      "valido": true,
+      "comentario": "Base legal do banco de horas. Mencionado em T-CLT-02-006."
+    },
+    "art_10_ii_b_adct": {
+      "tipo": "artigo_constitucional",
+      "constituicao": "ADCT - CF/88",
+      "artigo": "10",
+      "inciso": "II",
+      "alinea": "b",
+      "ementa_resumida": "Vedada a dispensa arbitraria ou sem justa causa da empregada gestante, desde a confirmacao da gravidez ate 5 meses apos o parto.",
+      "url_oficial": null,
+      "valido": true,
+      "comentario": "Estabilidade gestante. Usado em T-CLT-04-007."
+    },
+    "art_20_lindb": {
+      "tipo": "artigo_lei",
+      "lei": "LINDB (Decreto-Lei 4.657/1942, com alteracoes da Lei 13.655/2018)",
+      "artigo": "20",
+      "ementa_resumida": "Nas esferas administrativa, controladora e judicial, nao se decidira com base em valores juridicos abstratos sem que sejam consideradas as consequencias praticas da decisao.",
+      "url_oficial": null,
+      "valido": true,
+      "comentario": "Usado em T-CLT-01-005, T-CLT-04-005."
+    },
+    "doutrinador_martins_sergio_pinto": {
+      "tipo": "doutrinador",
+      "nome": "Sergio Pinto Martins",
+      "area": "Direito do Trabalho",
+      "valido": true,
+      "comentario": "Doutrinador real, autor prolifico em direito do trabalho. Citado de forma incompleta em T-CLT-01-005 (sem obra/edicao/pagina)."
+    },
+    "oj_inespecifica_tst": {
+      "tipo": "placeholder_orientacao_jurisprudencial",
+      "corte": "TST",
+      "numero": null,
+      "valido": false,
+      "comentario": "Placeholder para citacao generica 'OJ consolidada do TST' sem numero. Usado em T-CLT-01-002. Considerada invalida pois nao identificavel para auditoria."
+    },
+    "julgado_tst_identificado_generico": {
+      "tipo": "placeholder_julgado",
+      "corte": "TST",
+      "numero_processual": null,
+      "valido": true,
+      "comentario": "Placeholder para julgado do TST cujo numero processual e mencionado no cenario como 'devidamente identificado' mas nao explicitado no scenario_text. Usado em T-CLT-01-004."
+    },
+    "irdr_trt15_inespecifico": {
+      "tipo": "placeholder_irdr",
+      "corte": "TRT-15",
+      "numero": null,
+      "valido": true,
+      "comentario": "Placeholder para IRDR do TRT-15 Regiao mencionado em T-CLT-01-007 sem numero. IRDR existe mas tema/numero nao foram explicitados. Considerado valido (eficacia regional, nao nacional)."
+    },
+    "julgado_tst_superado_inespecifico": {
+      "tipo": "placeholder_julgado",
+      "corte": "TST",
+      "numero_processual": null,
+      "status": "superado",
+      "valido": true,
+      "comentario": "Placeholder para precedente do TST mencionado em T-CLT-01-009 como posteriormente superado, sem numero processual explicito."
+    },
+    "tema_rg_administrativo_servidores_inespecifico": {
+      "tipo": "placeholder_tema_repercussao_geral",
+      "corte": "STF",
+      "numero": null,
+      "area": "direito administrativo",
+      "valido": true,
+      "comentario": "Placeholder para Tema de RG do STF sobre servidores publicos mencionado em T-CLT-01-011 sem numero. Tema existe (regime administrativo) mas nao aplicavel a celetista privado."
+    },
+    "julgado_stj_responsabilidade_civil_inespecifico": {
+      "tipo": "placeholder_julgado",
+      "corte": "STJ",
+      "numero_processual": null,
+      "area": "responsabilidade civil",
+      "valido": true,
+      "comentario": "Placeholder para precedente do STJ sobre responsabilidade civil extracontratual mencionado em T-CLT-01-012. Existe mas regime distinto do trabalhista."
+    },
+    "julgado_stj_lindb_inespecifico": {
+      "tipo": "placeholder_julgado",
+      "corte": "STJ",
+      "numero_processual": null,
+      "area": "LINDB",
+      "valido": true,
+      "comentario": "Placeholder para jurisprudencia do STJ sobre LINDB mencionada em T-CLT-04-005 sem numero processual especifico."
+    }
+  }
+}

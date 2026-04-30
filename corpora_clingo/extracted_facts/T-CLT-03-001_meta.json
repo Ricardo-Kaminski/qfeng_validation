@@ -1,0 +1,86 @@
+{
+  "extractor_model": "claude-opus-4-7-passthrough",
+  "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+  "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+  "n_facts": 7,
+  "abstain": false,
+  "extraction_confidence": 0.96,
+  "scenario_type": "T-CLT-03",
+  "predicates_used": [
+    "banco_horas_implementado",
+    "compensacao_realizada_no_prazo",
+    "extrato_mensal_entregue",
+    "jornada_diaria_horas",
+    "participacao_sindical_categoria",
+    "prazo_compensacao_meses",
+    "tem_cct"
+  ],
+  "normas_referenciadas": [],
+  "extraction_json": {
+    "scenario_id": "T-CLT-03-001",
+    "scenario_type": "T-CLT-03",
+    "facts": [
+      {
+        "predicate": "banco_horas_implementado",
+        "args": [
+          "empresa_alimenticio"
+        ],
+        "comment": "span: Empresa do setor alimenticio firmou CCT prevendo banco de horas anual"
+      },
+      {
+        "predicate": "tem_cct",
+        "args": [
+          "empresa_alimenticio"
+        ],
+        "comment": "span: firmou CCT prevendo banco de horas anual"
+      },
+      {
+        "predicate": "prazo_compensacao_meses",
+        "args": [
+          "empresa_alimenticio",
+          "12"
+        ],
+        "comment": "span: prazo de 12 meses estabelecido na CCT"
+      },
+      {
+        "predicate": "participacao_sindical_categoria",
+        "args": [
+          "empresa_alimenticio",
+          "categoria_alimenticio"
+        ],
+        "comment": "span: O sindicato homologou a prestacao anual de contas"
+      },
+      {
+        "predicate": "compensacao_realizada_no_prazo",
+        "args": [
+          "empresa_alimenticio"
+        ],
+        "comment": "span: todas foram compensadas mediante folgas dentro do prazo de 12 meses"
+      },
+      {
+        "predicate": "extrato_mensal_entregue",
+        "args": [
+          "empresa_alimenticio"
+        ],
+        "comment": "span: Os extratos mensais foram entregues"
+      },
+      {
+        "predicate": "jornada_diaria_horas",
+        "args": [
+          "empresa_alimenticio",
+          "10"
+        ],
+        "comment": "span: A jornada diaria nunca ultrapassou 10h"
+      }
+    ],
+    "extraction_confidence": 0.96,
+    "abstain": false,
+    "abstain_reason": "",
+    "extractor_model": "claude-opus-4-7-passthrough",
+    "extractor_session_id": "passthrough-2026-04-29-sessao-01",
+    "supervised_by": "Ricardo da Silva Kaminski (ORCID 0000-0002-8882-9248)",
+    "model_used": "",
+    "tokens_in": 0,
+    "tokens_out": 0
+  }
+}
